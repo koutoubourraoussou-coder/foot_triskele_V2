@@ -1,0 +1,15 @@
+# Environnements Python
+.venv/
+venv/
+__pycache__/
+
+# Dossiers de données générées
+data/
+archive/
+
+# MacOS
+.DS_Store
+
+# Logs et temporaires
+*.log
+*.tmp

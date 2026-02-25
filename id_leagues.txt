@@ -1,0 +1,1003 @@
+ℹ️ Aliases chargés depuis data/aliases.json : 159 clubs, 39 ligues.
+🔎 Récupération des ligues par pays (API-Football)...
+
+===== Argentina =====
+  Ligues actuelles :
+  - id= 128 | Liga Profesional Argentina (League)
+  - id= 129 | Primera Nacional (League)
+  - id= 130 | Copa Argentina (Cup)
+  - id= 131 | Primera B Metropolitana (League)
+  - id= 132 | Primera C (League)
+  - id= 133 | Primera D (League)
+  - id= 134 | Torneo Federal A (League)
+  - id= 483 | Copa de la Superliga (Cup)
+  - id= 517 | Trofeo de Campeones de la Superliga (Cup)
+  - id= 810 | Super Copa (Cup)
+  - id= 906 | Reserve League (League)
+  - id=1032 | Copa de la Liga Profesional (League)
+  - id=1067 | Torneo Promocional Amateur (League)
+  - id=1178 | Super Copa International (Cup)
+
+  Bloc pour aliases.json :
+    "liga profesional argentina": 128,
+    "primera nacional": 129,
+    "copa argentina": 130,
+    "primera b metropolitana": 131,
+    "primera c": 132,
+    "primera d": 133,
+    "torneo federal a": 134,
+    "copa de la superliga": 483,
+    "trofeo de campeones de la superliga": 517,
+    "super copa": 810,
+    "reserve league": 906,
+    "copa de la liga profesional": 1032,
+    "torneo promocional amateur": 1067,
+    "super copa international": 1178,
+
+===== Belgium =====
+  Ligues actuelles :
+  - id= 144 | Jupiler Pro League (League)
+  - id= 145 | Challenger Pro League (League)
+  - id= 146 | Super League Women (League)
+  - id= 147 | Cup (Cup)
+  - id= 148 | Second Amateur Division - ACFF (League)
+  - id= 149 | Second Amateur Division - VFV A (League)
+  - id= 150 | Second Amateur Division - VFV B (League)
+  - id= 151 | Third Amateur Division - VFV A (League)
+  - id= 152 | Third Amateur Division - VFV B (League)
+  - id= 153 | Provincial - Antwerpen (League)
+  - id= 154 | Provincial - Brabant VFV (League)
+  - id= 155 | Provincial - Hainaut (League)
+  - id= 156 | Provincial - Liege (League)
+  - id= 157 | Provincial - Limburg (League)
+  - id= 158 | Provincial - Luxembourg (League)
+  - id= 159 | Provincial - Namur (League)
+  - id= 160 | Provincial - Oost-Vlaanderen (League)
+  - id= 161 | Provincial - West-Vlaanderen (League)
+  - id= 487 | First Amateur Division (League)
+  - id= 518 | Reserve Pro League (League)
+  - id= 519 | Super Cup (Cup)
+  - id= 689 | Third Amateur Division - ACFF A (League)
+  - id= 690 | Third Amateur Division - ACFF B (League)
+  - id= 691 | Provincial - Brabant ACFF (League)
+  - id= 979 | Provincial - Play-offs VV (League)
+  - id= 980 | Provincial - Play-offs ACFF (League)
+  - id= 981 | Third Amateur Division - Play-offs (League)
+  - id=1011 | Second Amateur Division - Play-offs  (League)
+
+  Bloc pour aliases.json :
+    "jupiler pro league": 144,
+    "challenger pro league": 145,
+    "super league women": 146,
+    "cup": 147,
+    "second amateur division - acff": 148,
+    "second amateur division - vfv a": 149,
+    "second amateur division - vfv b": 150,
+    "third amateur division - vfv a": 151,
+    "third amateur division - vfv b": 152,
+    "provincial - antwerpen": 153,
+    "provincial - brabant vfv": 154,
+    "provincial - hainaut": 155,
+    "provincial - liege": 156,
+    "provincial - limburg": 157,
+    "provincial - luxembourg": 158,
+    "provincial - namur": 159,
+    "provincial - oost-vlaanderen": 160,
+    "provincial - west-vlaanderen": 161,
+    "first amateur division": 487,
+    "reserve pro league": 518,
+    "super cup": 519,
+    "third amateur division - acff a": 689,
+    "third amateur division - acff b": 690,
+    "provincial - brabant acff": 691,
+    "provincial - play-offs vv": 979,
+    "provincial - play-offs acff": 980,
+    "third amateur division - play-offs": 981,
+    "second amateur division - play-offs ": 1011,
+
+===== Brazil =====
+  Ligues actuelles :
+  - id=  71 | Serie A (League)
+  - id=  72 | Serie B (League)
+  - id=  73 | Copa Do Brasil (Cup)
+  - id=  74 | Brasileiro Women (League)
+  - id=  75 | Serie C (League)
+  - id=  76 | Serie D (League)
+  - id=  77 | Alagoano (Cup)
+  - id= 475 | Paulista - A1 (League)
+  - id= 476 | Paulista - A2 (League)
+  - id= 477 | Gaúcho - 1 (League)
+  - id= 478 | Gaúcho - 2 (League)
+  - id= 520 | Acreano (League)
+  - id= 521 | Amapaense (League)
+  - id= 522 | Amazonense (League)
+  - id= 602 | Baiano - 1 (League)
+  - id= 603 | Paraibano (League)
+  - id= 604 | Catarinense - 1 (League)
+  - id= 605 | Paulista - A3 (League)
+  - id= 606 | Paranaense - 1 (League)
+  - id= 607 | Roraimense (League)
+  - id= 608 | Maranhense (League)
+  - id= 609 | Cearense - 1 (League)
+  - id= 610 | Brasiliense (League)
+  - id= 611 | Capixaba (League)
+  - id= 612 | Copa do Nordeste (Cup)
+  - id= 613 | Baiano - 2 (League)
+  - id= 614 | Paranaense - 2 (League)
+  - id= 615 | Rondoniense (League)
+  - id= 616 | Potiguar (League)
+  - id= 617 | Copa do Brasil U20 (Cup)
+  - id= 618 | São Paulo Youth Cup (Cup)
+  - id= 619 | Mineiro - 2 (League)
+  - id= 620 | Cearense - 2 (League)
+  - id= 621 | Piauiense (League)
+  - id= 622 | Pernambucano - 1 (League)
+  - id= 623 | Sul-Matogrossense (League)
+  - id= 624 | Carioca - 1 (League)
+  - id= 625 | Carioca - 2 (League)
+  - id= 626 | Sergipano (League)
+  - id= 627 | Paraense (League)
+  - id= 628 | Goiano - 1 (League)
+  - id= 629 | Mineiro - 1 (League)
+  - id= 630 | Matogrossense (League)
+  - id= 631 | Tocantinense (League)
+  - id= 632 | Supercopa do Brasil (Cup)
+  - id= 740 | Brasileiro U20 A (Cup)
+  - id= 741 | Brasileiro de Aspirantes (Cup)
+  - id= 742 | Copa Paulista (Cup)
+  - id= 843 | Copa Verde (Cup)
+  - id= 851 | Carioca A2 (League)
+  - id= 936 | Catarinense - 2 (League)
+  - id=1030 | Goiano - 2 (League)
+  - id=1035 | Copa Rio (Cup)
+  - id=1036 | Copa Santa Catarina (Cup)
+  - id=1037 | Paraibano 2 (League)
+  - id=1059 | Recopa Catarinense (Cup)
+  - id=1062 | Paulista - A4 (League)
+  - id=1063 | Copa Alagoas (Cup)
+  - id=1069 | Goiano U20 (League)
+  - id=1071 | Paranaense U20 (League)
+  - id=1073 | Baiano U20 (League)
+  - id=1076 | Catarinense U20 (League)
+  - id=1082 | Copa Rio U20 (Cup)
+  - id=1086 | Paulista - U20 (League)
+  - id=1088 | Pernambucano - U20 (League)
+  - id=1096 | Matogrossense 2 (League)
+  - id=1097 | Copa Espírito Santo (Cup)
+  - id=1098 | Paulista Série B (League)
+  - id=1100 | Brasiliense U20 (League)
+  - id=1106 | Carioca C (League)
+  - id=1107 | Mineiro U20 (League)
+  - id=1108 | Sergipano U20 (League)
+  - id=1110 | Alagoano U20 (League)
+  - id=1112 | Cearense U20 (League)
+  - id=1114 | Carioca U20 (League)
+  - id=1115 | Paraense A3 (League)
+  - id=1120 | Paraibano U20 (League)
+  - id=1124 | Cearense - 3 (League)
+  - id=1125 | Pernambucano - 2 (League)
+  - id=1128 | Brasileiro U17 (League)
+  - id=1133 | Goiano - 3 (League)
+  - id=1134 | Amazonense - 2 (League)
+  - id=1135 | Sergipano - 2 (League)
+  - id=1138 | Paranaense - 3 (League)
+  - id=1139 | Potiguar - U20 (League)
+  - id=1141 | Brasiliense B (League)
+  - id=1142 | Mineiro - 3 (League)
+  - id=1143 | Estadual Junior U20 (League)
+  - id=1145 | Paraense B1 (League)
+  - id=1146 | Alagoano - 2 (Cup)
+  - id=1147 | Capixaba B (League)
+  - id=1148 | Maranhense - 2 (League)
+  - id=1149 | Potiguar - 2 (League)
+  - id=1150 | Gaúcho - 3 (League)
+  - id=1151 | Pernambucano - 3 (League)
+  - id=1154 | Catarinense - 3 (League)
+  - id=1155 | Carioca B2 (League)
+  - id=1157 | Paraense U20 (League)
+  - id=1158 | Copa Gaúcha (Cup)
+  - id=1165 | Copa Fares Lopes (Cup)
+  - id=1179 | Copa do Brasil U17 (Cup)
+  - id=1183 | Brasileiro U20 B (Cup)
+  - id=1184 | Copa Grão Pará (Cup)
+  - id=1203 | Piauiense - 2 (League)
+  - id=1204 | Rondoniense - 2 (League)
+  - id=1205 | Kings Cup (Cup)
+
+  Bloc pour aliases.json :
+    "serie a": 71,
+    "serie b": 72,
+    "copa do brasil": 73,
+    "brasileiro women": 74,
+    "serie c": 75,
+    "serie d": 76,
+    "alagoano": 77,
+    "paulista - a1": 475,
+    "paulista - a2": 476,
+    "gaúcho - 1": 477,
+    "gaúcho - 2": 478,
+    "acreano": 520,
+    "amapaense": 521,
+    "amazonense": 522,
+    "baiano - 1": 602,
+    "paraibano": 603,
+    "catarinense - 1": 604,
+    "paulista - a3": 605,
+    "paranaense - 1": 606,
+    "roraimense": 607,
+    "maranhense": 608,
+    "cearense - 1": 609,
+    "brasiliense": 610,
+    "capixaba": 611,
+    "copa do nordeste": 612,
+    "baiano - 2": 613,
+    "paranaense - 2": 614,
+    "rondoniense": 615,
+    "potiguar": 616,
+    "copa do brasil u20": 617,
+    "são paulo youth cup": 618,
+    "mineiro - 2": 619,
+    "cearense - 2": 620,
+    "piauiense": 621,
+    "pernambucano - 1": 622,
+    "sul-matogrossense": 623,
+    "carioca - 1": 624,
+    "carioca - 2": 625,
+    "sergipano": 626,
+    "paraense": 627,
+    "goiano - 1": 628,
+    "mineiro - 1": 629,
+    "matogrossense": 630,
+    "tocantinense": 631,
+    "supercopa do brasil": 632,
+    "brasileiro u20 a": 740,
+    "brasileiro de aspirantes": 741,
+    "copa paulista": 742,
+    "copa verde": 843,
+    "carioca a2": 851,
+    "catarinense - 2": 936,
+    "goiano - 2": 1030,
+    "copa rio": 1035,
+    "copa santa catarina": 1036,
+    "paraibano 2": 1037,
+    "recopa catarinense": 1059,
+    "paulista - a4": 1062,
+    "copa alagoas": 1063,
+    "goiano u20": 1069,
+    "paranaense u20": 1071,
+    "baiano u20": 1073,
+    "catarinense u20": 1076,
+    "copa rio u20": 1082,
+    "paulista - u20": 1086,
+    "pernambucano - u20": 1088,
+    "matogrossense 2": 1096,
+    "copa espírito santo": 1097,
+    "paulista série b": 1098,
+    "brasiliense u20": 1100,
+    "carioca c": 1106,
+    "mineiro u20": 1107,
+    "sergipano u20": 1108,
+    "alagoano u20": 1110,
+    "cearense u20": 1112,
+    "carioca u20": 1114,
+    "paraense a3": 1115,
+    "paraibano u20": 1120,
+    "cearense - 3": 1124,
+    "pernambucano - 2": 1125,
+    "brasileiro u17": 1128,
+    "goiano - 3": 1133,
+    "amazonense - 2": 1134,
+    "sergipano - 2": 1135,
+    "paranaense - 3": 1138,
+    "potiguar - u20": 1139,
+    "brasiliense b": 1141,
+    "mineiro - 3": 1142,
+    "estadual junior u20": 1143,
+    "paraense b1": 1145,
+    "alagoano - 2": 1146,
+    "capixaba b": 1147,
+    "maranhense - 2": 1148,
+    "potiguar - 2": 1149,
+    "gaúcho - 3": 1150,
+    "pernambucano - 3": 1151,
+    "catarinense - 3": 1154,
+    "carioca b2": 1155,
+    "paraense u20": 1157,
+    "copa gaúcha": 1158,
+    "copa fares lopes": 1165,
+    "copa do brasil u17": 1179,
+    "brasileiro u20 b": 1183,
+    "copa grão pará": 1184,
+    "piauiense - 2": 1203,
+    "rondoniense - 2": 1204,
+    "kings cup": 1205,
+
+===== Colombia =====
+  Ligues actuelles :
+  - id= 239 | Primera A (League)
+  - id= 240 | Primera B (League)
+  - id= 241 | Copa Colombia (Cup)
+  - id= 712 | Liga Femenina (League)
+  - id= 713 | Superliga (Cup)
+
+  Bloc pour aliases.json :
+    "primera a": 239,
+    "primera b": 240,
+    "copa colombia": 241,
+    "liga femenina": 712,
+    "superliga": 713,
+
+===== Czech Republic =====
+  (aucune ligue trouvée)
+
+===== Denmark =====
+  Ligues actuelles :
+  - id= 119 | Superliga (League)
+  - id= 120 | 1. Division (League)
+  - id= 121 | DBU Pokalen (Cup)
+  - id= 122 | 2. Division (League)
+  - id= 123 | 2nd Division - Group 2 (League)
+  - id= 124 | Denmark Series - Group 1 (League)
+  - id= 125 | Denmark Series - Group 2 (League)
+  - id= 126 | Denmark Series - Group 3 (League)
+  - id= 127 | Denmark Series - Group 4 (League)
+  - id= 638 | Kvindeliga (League)
+  - id= 862 | 3. Division (League)
+  - id= 982 | Denmark Series - Promotion Round (League)
+  - id= 983 | Denmark Series - Relegation Round (League)
+
+  Bloc pour aliases.json :
+    "superliga": 119,
+    "1. division": 120,
+    "dbu pokalen": 121,
+    "2. division": 122,
+    "2nd division - group 2": 123,
+    "denmark series - group 1": 124,
+    "denmark series - group 2": 125,
+    "denmark series - group 3": 126,
+    "denmark series - group 4": 127,
+    "kvindeliga": 638,
+    "3. division": 862,
+    "denmark series - promotion round": 982,
+    "denmark series - relegation round": 983,
+
+===== Ecuador =====
+  Ligues actuelles :
+  - id= 242 | Liga Pro (League)
+  - id= 243 | Liga Pro Serie B (League)
+  - id= 853 | Supercopa de Ecuador (Cup)
+  - id= 917 | Copa Ecuador (Cup)
+
+  Bloc pour aliases.json :
+    "liga pro": 242,
+    "liga pro serie b": 243,
+    "supercopa de ecuador": 853,
+    "copa ecuador": 917,
+
+===== England =====
+  Ligues actuelles :
+  - id=  39 | Premier League (League)
+  - id=  40 | Championship (League)
+  - id=  41 | League One (League)
+  - id=  42 | League Two (League)
+  - id=  43 | National League (League)
+  - id=  44 | FA WSL (League)
+  - id=  45 | FA Cup (Cup)
+  - id=  46 | EFL Trophy (Cup)
+  - id=  47 | FA Trophy (Cup)
+  - id=  48 | League Cup (Cup)
+  - id=  49 | National League - Play-offs (League)
+  - id=  50 | National League - North (League)
+  - id=  51 | National League - South (League)
+  - id=  52 | Non League Div One - Isthmian North (League)
+  - id=  53 | Non League Div One - Isthmian South Central (League)
+  - id=  54 | Non League Div One - Northern West (League)
+  - id=  55 | Non League Div One - Northern Midlands (League)
+  - id=  56 | Non League Div One - Southern South (League)
+  - id=  57 | Non League Div One - Isthmian South East (League)
+  - id=  58 | Non League Premier - Isthmian (League)
+  - id=  59 | Non League Premier - Northern (League)
+  - id=  60 | Non League Premier - Southern South (League)
+  - id= 528 | Community Shield (Cup)
+  - id= 670 | Community Shield Women (Cup)
+  - id= 695 | U18 Premier League - North (League)
+  - id= 696 | U18 Premier League - South (League)
+  - id= 697 | WSL Cup (Cup)
+  - id= 698 | FA Women's Cup (Cup)
+  - id= 699 | Women's Championship (League)
+  - id= 702 | Premier League 2 Division One (League)
+  - id= 703 | Professional Development League (League)
+  - id= 871 | Premier League Cup (Cup)
+  - id= 931 | Non League Premier - Southern Central (League)
+  - id= 932 | Non League Div One - Northern East (League)
+  - id= 933 | Non League Div One - Southern Central (League)
+  - id= 984 | National League - North - Play-offs (League)
+  - id= 985 | National League - South - Play-offs (League)
+  - id= 986 | Non League Div One - Play-offs (League)
+  - id= 987 | U18 Premier League - Championship (League)
+  - id= 993 | Non League Premier - Isthmian - Play-offs (League)
+  - id= 994 | Non League Premier - Northern - Play-offs (League)
+  - id= 995 | Non League Premier - Southern South - Play-offs (League)
+  - id= 996 | Non League Premier - Southern Central - Play-offs (League)
+  - id=1022 | Premier League - Summer Series (League)
+  - id=1068 | FA Youth Cup (Cup)
+  - id=1156 | National League Cup (Cup)
+
+  Bloc pour aliases.json :
+    "premier league": 39,
+    "championship": 40,
+    "league one": 41,
+    "league two": 42,
+    "national league": 43,
+    "fa wsl": 44,
+    "fa cup": 45,
+    "efl trophy": 46,
+    "fa trophy": 47,
+    "league cup": 48,
+    "national league - play-offs": 49,
+    "national league - north": 50,
+    "national league - south": 51,
+    "non league div one - isthmian north": 52,
+    "non league div one - isthmian south central": 53,
+    "non league div one - northern west": 54,
+    "non league div one - northern midlands": 55,
+    "non league div one - southern south": 56,
+    "non league div one - isthmian south east": 57,
+    "non league premier - isthmian": 58,
+    "non league premier - northern": 59,
+    "non league premier - southern south": 60,
+    "community shield": 528,
+    "community shield women": 670,
+    "u18 premier league - north": 695,
+    "u18 premier league - south": 696,
+    "wsl cup": 697,
+    "fa women's cup": 698,
+    "women's championship": 699,
+    "premier league 2 division one": 702,
+    "professional development league": 703,
+    "premier league cup": 871,
+    "non league premier - southern central": 931,
+    "non league div one - northern east": 932,
+    "non league div one - southern central": 933,
+    "national league - north - play-offs": 984,
+    "national league - south - play-offs": 985,
+    "non league div one - play-offs": 986,
+    "u18 premier league - championship": 987,
+    "non league premier - isthmian - play-offs": 993,
+    "non league premier - northern - play-offs": 994,
+    "non league premier - southern south - play-offs": 995,
+    "non league premier - southern central - play-offs": 996,
+    "premier league - summer series": 1022,
+    "fa youth cup": 1068,
+    "national league cup": 1156,
+
+===== France =====
+  Ligues actuelles :
+  - id=  61 | Ligue 1 (League)
+  - id=  62 | Ligue 2 (League)
+  - id=  63 | National 1 (League)
+  - id=  64 | Feminine Division 1 (League)
+  - id=  65 | Coupe de la Ligue (Cup)
+  - id=  66 | Coupe de France (Cup)
+  - id=  67 | National 2 - Group A (League)
+  - id=  68 | National 2 - Group B (League)
+  - id=  69 | National 2 - Group C (League)
+  - id=  70 | National 2 - Group D (League)
+  - id= 461 | National 3 - Group A (League)
+  - id= 462 | National 3 - Group B (League)
+  - id= 463 | National 3 - Group C (League)
+  - id= 464 | National 3 - Group D (League)
+  - id= 465 | National 3 - Group E (League)
+  - id= 466 | National 3 - Group F (League)
+  - id= 467 | National 3 - Group H (League)
+  - id= 468 | National 3 - Group I (League)
+  - id= 469 | National 3 - Group J (League)
+  - id= 470 | National 3 - Group K (League)
+  - id= 471 | National 3 - Group L (League)
+  - id= 472 | National 3 - Group M (League)
+  - id= 526 | Trophée des Champions (Cup)
+  - id=1029 | National 3 - Group G (League)
+
+  Bloc pour aliases.json :
+    "ligue 1": 61,
+    "ligue 2": 62,
+    "national 1": 63,
+    "feminine division 1": 64,
+    "coupe de la ligue": 65,
+    "coupe de france": 66,
+    "national 2 - group a": 67,
+    "national 2 - group b": 68,
+    "national 2 - group c": 69,
+    "national 2 - group d": 70,
+    "national 3 - group a": 461,
+    "national 3 - group b": 462,
+    "national 3 - group c": 463,
+    "national 3 - group d": 464,
+    "national 3 - group e": 465,
+    "national 3 - group f": 466,
+    "national 3 - group h": 467,
+    "national 3 - group i": 468,
+    "national 3 - group j": 469,
+    "national 3 - group k": 470,
+    "national 3 - group l": 471,
+    "national 3 - group m": 472,
+    "trophée des champions": 526,
+    "national 3 - group g": 1029,
+
+===== Germany =====
+  Ligues actuelles :
+  - id=  78 | Bundesliga (League)
+  - id=  79 | 2. Bundesliga (League)
+  - id=  80 | 3. Liga (League)
+  - id=  81 | DFB Pokal (Cup)
+  - id=  82 | Frauen Bundesliga (League)
+  - id=  83 | Regionalliga - Bayern (League)
+  - id=  84 | Regionalliga - Nord (League)
+  - id=  85 | Regionalliga - Nordost (League)
+  - id=  86 | Regionalliga - SudWest (League)
+  - id=  87 | Regionalliga - West (League)
+  - id= 488 | U19 Bundesliga (League)
+  - id= 529 | Super Cup (Cup)
+  - id= 715 | DFB Junioren Pokal (Cup)
+  - id= 744 | Oberliga - Schleswig-Holstein (League)
+  - id= 745 | Oberliga - Hamburg (League)
+  - id= 746 | Oberliga - Mittelrhein (League)
+  - id= 747 | Oberliga - Westfalen (League)
+  - id= 748 | Oberliga - Niedersachsen (League)
+  - id= 749 | Oberliga - Bremen (League)
+  - id= 750 | Oberliga - Hessen (League)
+  - id= 751 | Oberliga - Niederrhein (League)
+  - id= 752 | Oberliga - Rheinland-Pfalz / Saar (League)
+  - id= 753 | Oberliga - Baden-Württemberg (League)
+  - id= 754 | Oberliga - Nordost-Nord (League)
+  - id= 755 | Oberliga - Nordost-Süd (League)
+  - id= 938 | Oberliga - Bayern Nord (League)
+  - id= 939 | Oberliga - Bayern Süd (League)
+  - id= 947 | DFB Pokal - Women (Cup)
+  - id= 988 | Oberliga - Promotion Round (League)
+  - id= 989 | Oberliga - Relegation Round (League)
+  - id=1002 | Regionalliga - Promotion Play-offs (League)
+  - id=1003 | Regionalliga - Relegation Round (League)
+  - id=1034 | 2. Frauen Bundesliga (League)
+  - id=1137 | Supercup der Frauen (League)
+
+  Bloc pour aliases.json :
+    "bundesliga": 78,
+    "2. bundesliga": 79,
+    "3. liga": 80,
+    "dfb pokal": 81,
+    "frauen bundesliga": 82,
+    "regionalliga - bayern": 83,
+    "regionalliga - nord": 84,
+    "regionalliga - nordost": 85,
+    "regionalliga - sudwest": 86,
+    "regionalliga - west": 87,
+    "u19 bundesliga": 488,
+    "super cup": 529,
+    "dfb junioren pokal": 715,
+    "oberliga - schleswig-holstein": 744,
+    "oberliga - hamburg": 745,
+    "oberliga - mittelrhein": 746,
+    "oberliga - westfalen": 747,
+    "oberliga - niedersachsen": 748,
+    "oberliga - bremen": 749,
+    "oberliga - hessen": 750,
+    "oberliga - niederrhein": 751,
+    "oberliga - rheinland-pfalz / saar": 752,
+    "oberliga - baden-württemberg": 753,
+    "oberliga - nordost-nord": 754,
+    "oberliga - nordost-süd": 755,
+    "oberliga - bayern nord": 938,
+    "oberliga - bayern süd": 939,
+    "dfb pokal - women": 947,
+    "oberliga - promotion round": 988,
+    "oberliga - relegation round": 989,
+    "regionalliga - promotion play-offs": 1002,
+    "regionalliga - relegation round": 1003,
+    "2. frauen bundesliga": 1034,
+    "supercup der frauen": 1137,
+
+===== Italy =====
+  Ligues actuelles :
+  - id= 135 | Serie A (League)
+  - id= 136 | Serie B (League)
+  - id= 137 | Coppa Italia (Cup)
+  - id= 138 | Serie C - Girone A (League)
+  - id= 139 | Serie A Women (League)
+  - id= 426 | Serie D - Girone A (League)
+  - id= 427 | Serie D - Girone B (League)
+  - id= 428 | Serie D - Girone C (League)
+  - id= 429 | Serie D - Girone D (League)
+  - id= 430 | Serie D - Girone E (League)
+  - id= 431 | Serie D - Girone F (League)
+  - id= 432 | Serie D - Girone G (League)
+  - id= 433 | Serie D - Girone H (League)
+  - id= 434 | Serie D - Girone I (League)
+  - id= 547 | Super Cup (Cup)
+  - id= 704 | Coppa Italia Primavera (Cup)
+  - id= 705 | Campionato Primavera - 1 (League)
+  - id= 706 | Campionato Primavera - 2 (League)
+  - id= 817 | Super Cup Primavera (Cup)
+  - id= 891 | Coppa Italia Serie C (Cup)
+  - id= 892 | Coppa Italia Serie D (Cup)
+  - id= 942 | Serie C - Girone B (League)
+  - id= 943 | Serie C - Girone C (League)
+  - id= 974 | Serie C - Supercoppa Lega Finals (League)
+  - id= 975 | Serie C - Relegation - Play-offs (League)
+  - id= 976 | Serie C - Promotion - Play-offs (League)
+  - id= 997 | Serie D - Promotion - Play-offs (League)
+  - id= 998 | Serie D - Relegation - Play-offs (League)
+  - id= 999 | Serie D - Championship Round (League)
+  - id=1171 | Coppa Italia Women (Cup)
+  - id=1198 | Serie A Cup Women (Cup)
+
+  Bloc pour aliases.json :
+    "serie a": 135,
+    "serie b": 136,
+    "coppa italia": 137,
+    "serie c - girone a": 138,
+    "serie a women": 139,
+    "serie d - girone a": 426,
+    "serie d - girone b": 427,
+    "serie d - girone c": 428,
+    "serie d - girone d": 429,
+    "serie d - girone e": 430,
+    "serie d - girone f": 431,
+    "serie d - girone g": 432,
+    "serie d - girone h": 433,
+    "serie d - girone i": 434,
+    "super cup": 547,
+    "coppa italia primavera": 704,
+    "campionato primavera - 1": 705,
+    "campionato primavera - 2": 706,
+    "super cup primavera": 817,
+    "coppa italia serie c": 891,
+    "coppa italia serie d": 892,
+    "serie c - girone b": 942,
+    "serie c - girone c": 943,
+    "serie c - supercoppa lega finals": 974,
+    "serie c - relegation - play-offs": 975,
+    "serie c - promotion - play-offs": 976,
+    "serie d - promotion - play-offs": 997,
+    "serie d - relegation - play-offs": 998,
+    "serie d - championship round": 999,
+    "coppa italia women": 1171,
+    "serie a cup women": 1198,
+
+===== Mexico =====
+  Ligues actuelles :
+  - id= 262 | Liga MX (League)
+  - id= 263 | Liga de Expansión MX (League)
+  - id= 264 | Copa MX (Cup)
+  - id= 662 | Copa por México (Cup)
+  - id= 673 | Liga MX Femenil (League)
+  - id= 722 | Liga Premier Serie A (League)
+  - id= 857 | Campeón de Campeones (Cup)
+  - id= 861 | U20 League (League)
+  - id= 872 | Liga Premier Serie B (League)
+  - id=1017 | U23 League (League)
+  - id=1200 | Liga MX U21 (League)
+
+  Bloc pour aliases.json :
+    "liga mx": 262,
+    "liga de expansión mx": 263,
+    "copa mx": 264,
+    "copa por méxico": 662,
+    "liga mx femenil": 673,
+    "liga premier serie a": 722,
+    "campeón de campeones": 857,
+    "u20 league": 861,
+    "liga premier serie b": 872,
+    "u23 league": 1017,
+    "liga mx u21": 1200,
+
+===== Netherlands =====
+  Ligues actuelles :
+  - id=  88 | Eredivisie (League)
+  - id=  89 | Eerste Divisie (League)
+  - id=  90 | KNVB Beker (Cup)
+  - id=  91 | Eredivisie Women (League)
+  - id=  92 | Derde Divisie - Saturday (League)
+  - id=  93 | Derde Divisie - Sunday (League)
+  - id= 492 | Tweede Divisie (League)
+  - id= 543 | Super Cup (Cup)
+  - id= 675 | U21 Divisie 1 (League)
+  - id= 724 | U18 Divisie 1 (League)
+  - id= 883 | Reserve League (League)
+  - id=1004 | Derde Divisie - Relegation Round (League)
+  - id=1152 | U19 Divisie 1 (League)
+  - id=1190 | Super Cup Women (Cup)
+
+  Bloc pour aliases.json :
+    "eredivisie": 88,
+    "eerste divisie": 89,
+    "knvb beker": 90,
+    "eredivisie women": 91,
+    "derde divisie - saturday": 92,
+    "derde divisie - sunday": 93,
+    "tweede divisie": 492,
+    "super cup": 543,
+    "u21 divisie 1": 675,
+    "u18 divisie 1": 724,
+    "reserve league": 883,
+    "derde divisie - relegation round": 1004,
+    "u19 divisie 1": 1152,
+    "super cup women": 1190,
+
+===== Paraguay =====
+  Ligues actuelles :
+  - id= 250 | Division Profesional - Apertura (League)
+  - id= 251 | Division Intermedia (League)
+  - id= 252 | Division Profesional - Clausura (League)
+  - id= 501 | Copa Paraguay (Cup)
+  - id= 961 | Supercopa (Cup)
+
+  Bloc pour aliases.json :
+    "division profesional - apertura": 250,
+    "division intermedia": 251,
+    "division profesional - clausura": 252,
+    "copa paraguay": 501,
+    "supercopa": 961,
+
+===== Portugal =====
+  Ligues actuelles :
+  - id=  94 | Primeira Liga (League)
+  - id=  95 | Segunda Liga (League)
+  - id=  96 | Taça de Portugal (Cup)
+  - id=  97 | Taça da Liga (Cup)
+  - id= 457 | Campeonato de Portugal Prio - Group A (League)
+  - id= 458 | Campeonato de Portugal Prio - Group B (League)
+  - id= 459 | Campeonato de Portugal Prio - Group C (League)
+  - id= 460 | Campeonato de Portugal Prio - Group D (League)
+  - id= 550 | Super Cup (Cup)
+  - id= 681 | Campeonato de Portugal Prio - Group E (League)
+  - id= 682 | Campeonato de Portugal Prio - Group F (League)
+  - id= 683 | Campeonato de Portugal Prio - Group G (League)
+  - id= 684 | Campeonato de Portugal Prio - Group H (League)
+  - id= 701 | Liga Revelação U23 (League)
+  - id= 840 | Taça Revelação U23 (Cup)
+  - id= 865 | Liga 3 (League)
+  - id= 948 | 1a Divisão - Women (League)
+  - id= 991 | Campeonato de Portugal Prio - Promotion Round (League)
+  - id=1041 | Júniores U19 (League)
+
+  Bloc pour aliases.json :
+    "primeira liga": 94,
+    "segunda liga": 95,
+    "taça de portugal": 96,
+    "taça da liga": 97,
+    "campeonato de portugal prio - group a": 457,
+    "campeonato de portugal prio - group b": 458,
+    "campeonato de portugal prio - group c": 459,
+    "campeonato de portugal prio - group d": 460,
+    "super cup": 550,
+    "campeonato de portugal prio - group e": 681,
+    "campeonato de portugal prio - group f": 682,
+    "campeonato de portugal prio - group g": 683,
+    "campeonato de portugal prio - group h": 684,
+    "liga revelação u23": 701,
+    "taça revelação u23": 840,
+    "liga 3": 865,
+    "1a divisão - women": 948,
+    "campeonato de portugal prio - promotion round": 991,
+    "júniores u19": 1041,
+
+===== Scotland =====
+  Ligues actuelles :
+  - id= 179 | Premiership (League)
+  - id= 180 | Championship (League)
+  - id= 181 | FA Cup (Cup)
+  - id= 182 | Challenge Cup (Cup)
+  - id= 183 | League One (League)
+  - id= 184 | League Two (League)
+  - id= 185 | League Cup (Cup)
+  - id= 730 | Football League - Highland League (League)
+  - id= 731 | Football League - Lowland League (League)
+  - id= 992 | Football League - Championship (League)
+  - id=1074 | SWPL Cup (Cup)
+  - id=1078 | SWF Scottish Cup (Cup)
+
+  Bloc pour aliases.json :
+    "premiership": 179,
+    "championship": 180,
+    "fa cup": 181,
+    "challenge cup": 182,
+    "league one": 183,
+    "league two": 184,
+    "league cup": 185,
+    "football league - highland league": 730,
+    "football league - lowland league": 731,
+    "football league - championship": 992,
+    "swpl cup": 1074,
+    "swf scottish cup": 1078,
+
+===== Spain =====
+  Ligues actuelles :
+  - id= 140 | La Liga (League)
+  - id= 141 | Segunda División (League)
+  - id= 142 | Primera División Femenina (League)
+  - id= 143 | Copa del Rey (Cup)
+  - id= 435 | Primera División RFEF - Group 1 (League)
+  - id= 436 | Primera División RFEF - Group 2 (League)
+  - id= 437 | Primera División RFEF - Group 3 (League)
+  - id= 438 | Primera División RFEF - Group 4 (League)
+  - id= 439 | Tercera División RFEF - Group 1 (League)
+  - id= 440 | Tercera División RFEF - Group 2 (League)
+  - id= 441 | Tercera División RFEF - Group 3 (League)
+  - id= 442 | Tercera División RFEF - Group 4 (League)
+  - id= 443 | Tercera División RFEF - Group 5 (League)
+  - id= 444 | Tercera División RFEF - Group 6 (League)
+  - id= 445 | Tercera División RFEF - Group 7 (League)
+  - id= 446 | Tercera División RFEF - Group 8 (League)
+  - id= 447 | Tercera División RFEF - Group 9 (League)
+  - id= 448 | Tercera División RFEF - Group 10 (League)
+  - id= 449 | Tercera División RFEF - Group 11 (League)
+  - id= 450 | Tercera División RFEF - Group 12 (League)
+  - id= 451 | Tercera División RFEF - Group 13 (League)
+  - id= 452 | Tercera División RFEF - Group 14 (League)
+  - id= 453 | Tercera División RFEF - Group 15 (League)
+  - id= 454 | Tercera División RFEF - Group 16 (League)
+  - id= 455 | Tercera División RFEF - Group 17 (League)
+  - id= 456 | Tercera División RFEF - Group 18 (League)
+  - id= 556 | Super Cup (Cup)
+  - id= 692 | Primera División RFEF - Group 5 (League)
+  - id= 735 | Copa Federacion (Cup)
+  - id= 875 | Segunda División RFEF - Group 1 (League)
+  - id= 876 | Segunda División RFEF - Group 2 (League)
+  - id= 877 | Segunda División RFEF - Group 3 (League)
+  - id= 878 | Segunda División RFEF - Group 4 (League)
+  - id= 879 | Segunda División RFEF - Group 5 (League)
+  - id= 977 | Tercera División RFEF - Promotion - Play-offs (League)
+  - id=1000 | Segunda División RFEF - Play-offs (League)
+  - id=1006 | Primera División RFEF - Play Offs (League)
+  - id=1058 | Supercopa Femenina (Cup)
+
+  Bloc pour aliases.json :
+    "la liga": 140,
+    "segunda división": 141,
+    "primera división femenina": 142,
+    "copa del rey": 143,
+    "primera división rfef - group 1": 435,
+    "primera división rfef - group 2": 436,
+    "primera división rfef - group 3": 437,
+    "primera división rfef - group 4": 438,
+    "tercera división rfef - group 1": 439,
+    "tercera división rfef - group 2": 440,
+    "tercera división rfef - group 3": 441,
+    "tercera división rfef - group 4": 442,
+    "tercera división rfef - group 5": 443,
+    "tercera división rfef - group 6": 444,
+    "tercera división rfef - group 7": 445,
+    "tercera división rfef - group 8": 446,
+    "tercera división rfef - group 9": 447,
+    "tercera división rfef - group 10": 448,
+    "tercera división rfef - group 11": 449,
+    "tercera división rfef - group 12": 450,
+    "tercera división rfef - group 13": 451,
+    "tercera división rfef - group 14": 452,
+    "tercera división rfef - group 15": 453,
+    "tercera división rfef - group 16": 454,
+    "tercera división rfef - group 17": 455,
+    "tercera división rfef - group 18": 456,
+    "super cup": 556,
+    "primera división rfef - group 5": 692,
+    "copa federacion": 735,
+    "segunda división rfef - group 1": 875,
+    "segunda división rfef - group 2": 876,
+    "segunda división rfef - group 3": 877,
+    "segunda división rfef - group 4": 878,
+    "segunda división rfef - group 5": 879,
+    "tercera división rfef - promotion - play-offs": 977,
+    "segunda división rfef - play-offs": 1000,
+    "primera división rfef - play offs": 1006,
+    "supercopa femenina": 1058,
+
+===== Switzerland =====
+  Ligues actuelles :
+  - id= 207 | Super League (League)
+  - id= 208 | Challenge League (League)
+  - id= 209 | Schweizer Cup (Cup)
+  - id= 510 | 1. Liga Promotion (League)
+  - id= 599 | 1. Liga Classic - Group 1 (League)
+  - id= 600 | 1. Liga Classic - Group 2 (League)
+  - id= 601 | 1. Liga Classic - Group 3 (League)
+  - id= 739 | AXA Women’s Super League (League)
+  - id= 796 | 2. Liga Interregional - Group 1 (League)
+  - id= 797 | 2. Liga Interregional - Group 2 (League)
+  - id= 798 | 2. Liga Interregional - Group 3 (League)
+  - id= 799 | 2. Liga Interregional - Group 4 (League)
+  - id= 800 | 2. Liga Interregional - Group 5 (League)
+  - id= 801 | 2. Liga Interregional - Group 6 (League)
+  - id=1005 | 1. Liga Classic - Play-offs (League)
+  - id=1044 | Erste Liga Cup (Cup)
+
+  Bloc pour aliases.json :
+    "super league": 207,
+    "challenge league": 208,
+    "schweizer cup": 209,
+    "1. liga promotion": 510,
+    "1. liga classic - group 1": 599,
+    "1. liga classic - group 2": 600,
+    "1. liga classic - group 3": 601,
+    "axa women’s super league": 739,
+    "2. liga interregional - group 1": 796,
+    "2. liga interregional - group 2": 797,
+    "2. liga interregional - group 3": 798,
+    "2. liga interregional - group 4": 799,
+    "2. liga interregional - group 5": 800,
+    "2. liga interregional - group 6": 801,
+    "1. liga classic - play-offs": 1005,
+    "erste liga cup": 1044,
+
+===== Turkey =====
+  Ligues actuelles :
+  - id= 203 | Süper Lig (League)
+  - id= 204 | 1. Lig (League)
+  - id= 205 | 2. Lig (League)
+  - id= 206 | Türkiye Kupası (Cup)
+  - id= 551 | Super Cup (Cup)
+  - id= 552 | 3. Lig - Group 1 (League)
+  - id= 553 | 3. Lig - Group 2 (League)
+  - id= 554 | 3. Lig - Group 3 (League)
+  - id=1007 | 3. Lig - Play-offs (League)
+  - id=1027 | 3. Lig - Group 4 (League)
+
+  Bloc pour aliases.json :
+    "süper lig": 203,
+    "1. lig": 204,
+    "2. lig": 205,
+    "türkiye kupası": 206,
+    "super cup": 551,
+    "3. lig - group 1": 552,
+    "3. lig - group 2": 553,
+    "3. lig - group 3": 554,
+    "3. lig - play-offs": 1007,
+    "3. lig - group 4": 1027,
+
+===== USA =====
+  Ligues actuelles :
+  - id= 253 | Major League Soccer (League)
+  - id= 254 | NWSL Women (League)
+  - id= 255 | USL Championship (League)
+  - id= 256 | USL League Two (League)
+  - id= 257 | US Open Cup (Cup)
+  - id= 489 | USL League One (League)
+  - id= 523 | NISA (League)
+  - id= 641 | NWSL Women - Challenge Cup (Cup)
+  - id= 866 | MLS All-Star (Cup)
+  - id= 909 | MLS Next Pro (League)
+  - id=1095 | USL League One Cup (League)
+  - id=1116 | WPSL (League)
+  - id=1117 | USL W League (League)
+  - id=1118 | NPSL (League)
+  - id=1119 | NWSL - Liga MXF Summer Cup (League)
+  - id=1130 | USL Super League (League)
+
+  Bloc pour aliases.json :
+    "major league soccer": 253,
+    "nwsl women": 254,
+    "usl championship": 255,
+    "usl league two": 256,
+    "us open cup": 257,
+    "usl league one": 489,
+    "nisa": 523,
+    "nwsl women - challenge cup": 641,
+    "mls all-star": 866,
+    "mls next pro": 909,
+    "usl league one cup": 1095,
+    "wpsl": 1116,
+    "usl w league": 1117,
+    "npsl": 1118,
+    "nwsl - liga mxf summer cup": 1119,
+    "usl super league": 1130,
+
+===== Competitions UEFA (bonus) =====
+  Ligues UEFA trouvées :
+  - id=2 | UEFA Champions League
+  - id=3 | UEFA Europa League
+  - id=848 | UEFA Europa Conference League
+
+  Bloc pour aliases.json :
+    "champions league": 2,
+    "europa league": 3,
+    "europa conference league": 848,
