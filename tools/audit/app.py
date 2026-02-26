@@ -3,6 +3,7 @@ import pandas as pd
 import subprocess
 import os
 import re
+import sys
 from pathlib import Path
 from datetime import date, timedelta, datetime
 
@@ -10,11 +11,21 @@ from datetime import date, timedelta, datetime
 ROOT = Path(__file__).resolve().parents[2]
 ARCHIVE_DIR = ROOT / "archive"
 
+# Permet d'importer "services.*" depuis tools/audit/app.py
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
 st.set_page_config(page_title="⚡️🤖 Machine TreeSkale", page_icon="⚡️", layout="wide")
+
+page = st.sidebar.radio("📌 Page", ["⚡ Machine", "📊 Stats Dashboard"], index=0)
+
+if page == "📊 Stats Dashboard":
+    from services.stats_dashboard import main as stats_main
+    stats_main(set_page_config=False)
+    st.stop()
 
 st.title("⚡️ Machine TreeSkale")
 st.markdown("Interface pour générer et consulter les tickets (System & Random) avec statut ✅/❌/⏳ quand dispo.")
-
 
 # -----------------------------
 # Helpers: archives / périodes
