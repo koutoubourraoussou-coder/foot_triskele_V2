@@ -13,3 +13,9 @@ archive/
 # Logs et temporaires
 *.log
 *.tmp
+
+# --- allowlist Streamlit Cloud (fichiers UI) ---
+!data/tickets_report_global.txt
+!data/tickets_o15_random_report_global.txt
+!data/verdict_post_analyse_tickets_report.txt
+!data/verdict_post_analyse_tickets_o15_random_report.txt

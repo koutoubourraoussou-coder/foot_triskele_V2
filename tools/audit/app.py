@@ -419,20 +419,3 @@ with tab2:
 
 st.write("📁 Racine du projet :", os.listdir("."))
 
-if os.path.exists("data"):
-    st.write("📁 Dossier data :", os.listdir("data"))
-
-import os
-
-st.write("📁 CONTENU DOSSIER DATA CLOUD :")
-if os.path.exists("data"):
-    st.write(os.listdir("data"))
-else:
-    st.write("❌ dossier data introuvable")
-
-st.write("📄 test lecture global system:")
-try:
-    with open("data/tickets_report_global.txt", "r", encoding="utf-8") as f:
-        st.text(f.read()[:1000])
-except Exception as e:
-    st.write("ERREUR:", e)
