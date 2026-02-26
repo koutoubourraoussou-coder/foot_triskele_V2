@@ -417,5 +417,3 @@ with tab2:
         st.caption(f"Lecture de: {file_path}")
         st.text_area(f"Contenu de {report_type}", file_path.read_text(encoding="utf-8", errors="replace"), height=650)
 
-st.write("📁 Racine du projet :", os.listdir("."))
-
