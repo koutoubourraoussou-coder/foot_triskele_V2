@@ -131,35 +131,46 @@ def parse_tickets_to_play(filepath: Path | str, fallback_day: date | None = None
 
 def load_tickets_dataset(report_filename: str, period_start: date | None, period_end: date | None) -> pd.DataFrame:
     """
-    Charge les tickets depuis:
-    - tous les archive/analyse_*/report_filename (si présent)
-    - + fallback ROOT/report_filename (si présent)
+    Charge les tickets depuis (dans cet ordre) :
+    1) archive/analyse_YYYY-MM-DD/<report_filename>
+    2) ROOT/data/<report_filename>                 ✅ Streamlit Cloud (ton cas)
+    3) ROOT/<report_filename>
+
     Filtre ensuite par Jour si possible.
     """
-    frames = []
+    frames: list[pd.DataFrame] = []
 
-    # Archives (multi-jours)
+    # 1) Archives (multi-jours)
     for dday, dpath in list_analyse_dirs():
         if not in_range(dday, period_start, period_end):
             continue
         f = dpath / report_filename
         df = parse_tickets_to_play(f, fallback_day=dday)
-        if df is not None:
+        if df is not None and not df.empty:
             frames.append(df)
 
-    # Fallback racine
+    # 2) data/ (important pour Streamlit Cloud)
+    data_file = ROOT / "data" / report_filename
+    if data_file.exists():
+        df_data = parse_tickets_to_play(data_file, fallback_day=None)
+        if df_data is not None and not df_data.empty:
+            frames.append(df_data)
+
+    # 3) racine
     root_file = ROOT / report_filename
     if root_file.exists():
         df_root = parse_tickets_to_play(root_file, fallback_day=None)
-        if df_root is not None:
+        if df_root is not None and not df_root.empty:
             frames.append(df_root)
 
     if not frames:
-        return pd.DataFrame(columns=["Jour", "Ticket", "Type", "Id", "Cote", "Fenêtre de jeu", "Nb Matchs", "Détail", "Source"])
+        return pd.DataFrame(
+            columns=["Jour", "Ticket", "Type", "Id", "Cote", "Fenêtre de jeu", "Nb Matchs", "Détail", "Source"]
+        )
 
     df_all = pd.concat(frames, ignore_index=True)
 
-    # Dédup (si un même ticket se retrouve en root + archive)
+    # Dédup (si un même ticket se retrouve en root + data + archive)
     if "Id" in df_all.columns:
         df_all = df_all.drop_duplicates(subset=["Id"], keep="first")
 
@@ -328,8 +339,8 @@ with tab1:
     df_rand = load_tickets_dataset("tickets_o15_random_report_global.txt", period_start, period_end)
 
     # Verdicts sur la même période (mapping par Id)
-    df_verdict_sys = collect_verdict_mapping("verdict_post_analyse_tickets_report_global.txt", period_start, period_end)
-    df_verdict_rand = collect_verdict_mapping("verdict_post_analyse_tickets_o15_random_report_global.txt", period_start, period_end)
+    df_verdict_sys = collect_verdict_mapping("verdict_post_analyse_tickets_report.txt", period_start, period_end)
+    df_verdict_rand = collect_verdict_mapping("verdict_post_analyse_tickets_o15_random_report.txt", period_start, period_end)
 
     df_sys = attach_verdict(df_sys, df_verdict_sys)
     df_rand = attach_verdict(df_rand, df_verdict_rand)
