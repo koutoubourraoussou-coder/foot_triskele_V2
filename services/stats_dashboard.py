@@ -1321,10 +1321,8 @@ def _tab_tickets(df_sys: pd.DataFrame, df_rand: pd.DataFrame):
         _martingale_block(df_rand, "RANDOM — Martingale", key_prefix="mart_rand")
 
 
-def main(set_page_config: bool = True):
-    if set_page_config:
-        _page_config()
-
+def main():
+    _page_config()
     st.title("TRISKÈLE — Dashboard")
 
     df_bets, df_tickets_sys, df_tickets_rand = _load_all_data()
@@ -1352,4 +1350,4 @@ def main(set_page_config: bool = True):
 
 
 if __name__ == "__main__":
-    main(set_page_config=True)
+    main()
