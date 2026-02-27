@@ -299,7 +299,7 @@ st.sidebar.divider()
 st.sidebar.markdown("### Génération des Tickets")
 st.sidebar.info("Exécute run_machine.py pour récupérer les données API, faire les prédictions et construire les tickets.")
 
-if st.sidebar.button("🚀 Lancer Run Machine", type="primary", use_container_width=True):
+if st.sidebar.button("🚀 Lancer Run Machine", type="primary", width="stretch"):
     with st.spinner("Exécution de run_machine.py en cours (ça peut prendre un moment)..."):
         try:
             result = subprocess.run(
@@ -361,8 +361,7 @@ with tab1:
 
         if not df_sys.empty:
             show_cols = ["Statut", "Jour", "Ticket", "Cote", "Fenêtre de jeu", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
-            st.dataframe(df_sys[show_cols], use_container_width=True, hide_index=True)
-
+            st.dataframe(df_sys[show_cols], width="stretch", hide_index=True)
             with st.expander("Voir le détail des matchs (Système)"):
                 for _, row in df_sys.iterrows():
                     jour_str = row["Jour"].isoformat() if pd.notna(row["Jour"]) else "—"
