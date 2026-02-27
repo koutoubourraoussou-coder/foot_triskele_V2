@@ -3,6 +3,7 @@ import pandas as pd
 import subprocess
 import os
 import re
+import sys
 from pathlib import Path
 from datetime import date, timedelta, datetime
 
@@ -299,7 +300,7 @@ if st.sidebar.button("🚀 Lancer Run Machine", type="primary", use_container_wi
     with st.spinner("Exécution de run_machine.py en cours (ça peut prendre un moment)..."):
         try:
             result = subprocess.run(
-                ["python", str(ROOT / "run_machine.py")],
+                [sys.executable, str(ROOT / "run_machine.py")],
                 capture_output=True,
                 text=True,
                 cwd=str(ROOT)
