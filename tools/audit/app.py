@@ -368,11 +368,11 @@ with tab1:
 
     st.divider()
 
-    # Tickets multi-jours selon la période
-    df_sys = load_tickets_dataset("tickets_report.txt", period_start, period_end)
-    df_rand = load_tickets_dataset("tickets_o15_random_report.txt", period_start, period_end)
+    # Tickets multi-jours selon la période (GLOBAL)
+    df_sys = load_tickets_dataset("tickets_report_global.txt", period_start, period_end)
+    df_rand = load_tickets_dataset("tickets_o15_random_report_global.txt", period_start, period_end)
 
-    # Verdicts sur la même période (mapping par Id)
+    # Verdicts correspondants
     df_verdict_sys = collect_verdict_mapping("verdict_post_analyse_tickets_report.txt", period_start, period_end)
     df_verdict_rand = collect_verdict_mapping("verdict_post_analyse_tickets_o15_random_report.txt", period_start, period_end)
 
