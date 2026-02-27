@@ -378,8 +378,7 @@ with tab1:
 
         if not df_rand.empty:
             show_cols = ["Statut", "Jour", "Ticket", "Cote", "Fenêtre de jeu", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
-            st.dataframe(df_rand[show_cols], use_container_width=True, hide_index=True)
-
+            st.dataframe(df_rand[show_cols], width="stretch", hide_index=True)
             with st.expander("Voir le détail des matchs (Random)"):
                 for _, row in df_rand.iterrows():
                     jour_str = row["Jour"].isoformat() if pd.notna(row["Jour"]) else "—"
