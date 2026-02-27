@@ -2,9 +2,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-02-26
+Date run       : 2026-02-27
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (72 ids)
+Whitelist      : ON (73 ids)
 Ignorés (hors whitelist) : 5
 Ignorés (date>=today)    : 4
 
@@ -592,10 +592,19 @@ Ignorés (date>=today)    : 4
    ✅ Leg 2) 20:00 | saudi arabia | Al-Fayha vs NEOM | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.33
    ✅ Leg 3) 21:00 | championship | Stoke City vs Oxford United | Over 1.5 (FT) | [KO] | odd=1.44
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Jeudi 2026-02-26 01:00→21:50 | code=A2 | odd=2.43
+   id=2026-02-26_0100_285408d98f_O15R
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 01:00 | primera a colombia | Santa Fe vs Atletico Nacional | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.35
+   ✅ Leg 2) 18:45 | uefa europa league | Ferencvarosi TC vs Ludogorets | Over 1.5 (FT) | [FORT PLUS] | odd=1.25
+   ❌ Leg 3) 20:00 | saudi arabia | Al Riyadh vs Al-Ahli Jeddah | Over 1.5 (FT) | [EXPLOSION] | odd=1.18
+   ✅ Leg 4) 20:00 | saudi arabia | Al-Fateh vs Damac | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+
 ====================================================================
-TOTAL tickets : 71
+TOTAL tickets : 72
 ✅ WIN     : 31
-❌ LOSS    : 38
+❌ LOSS    : 39
 ⏳ PENDING : 2
 ====================================================================
 

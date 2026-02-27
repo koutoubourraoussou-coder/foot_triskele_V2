@@ -1,13 +1,13 @@
 TICKETS TRISKÈLE — O15_RANDOM_ALL — depuis predictions.tsv
 ==========================================================
 
-📅 Jeudi 2026-02-26 — Tranche 1 (fenêtre ~1140min)
--------------------------------------------------
+📅 Vendredi 2026-02-27 — Tranche 1 (fenêtre ~60min)
+--------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-02-26_0100_285408d98f_O15R — cote = 2.43 — fenêtre 01:00 → 21:50  
+  🎟️ TICKET 1.1 (A2) — id=2026-02-27_1800_e4cee43984_O15R — cote = 2.53 — fenêtre 18:00 → 20:50  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 01:00 | primera a colombia | Santa Fe vs Atletico Nacional | Over 1.5 (FT) | MOYEN PLUS | odd=1.35
-  2) 18:45 | uefa europa league | Ferencvarosi TC vs Ludogorets | Over 1.5 (FT) | FORT PLUS | odd=1.25
-  3) 20:00 | saudi arabia | Al Riyadh vs Al-Ahli Jeddah | Over 1.5 (FT) | EXPLOSION | odd=1.18
-  4) 20:00 | saudi arabia | Al-Fateh vs Damac | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  1) 18:00 | super lig | Başakşehir vs Konyaspor | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  2) 18:00 | super lig | Trabzonspor vs Fatih Karagümrük | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  3) 18:30 | 2. bundesliga | Fortuna Düsseldorf vs VfL Bochum | Over 1.5 (FT) | TRÈS FORT | odd=1.28
+  4) 19:00 | serie b | Monza vs Virtus Entella | Over 1.5 (FT) | TRÈS FORT | odd=1.35
