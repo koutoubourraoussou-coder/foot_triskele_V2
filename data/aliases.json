@@ -1,0 +1,72 @@
+{
+  "leagues": {
+    "liga profesional argentina": 128,
+
+    "belgian cup": 147,
+    "pro league": 144,
+
+    "serie a brazil": 71,
+
+    "primera a colombia": 239,
+
+    "superligaen": 271,
+
+    "liga pro ecuador": 242,
+
+    "championship": 40,
+    "fa cup": 45,
+    "league cup": 48,
+    "premier league": 39,
+
+    "coupe de france": 66,
+    "coupe de la ligue": 65,
+    "ligue 1": 61,
+    "ligue 2": 62,
+
+    "2. bundesliga": 79,
+    "bundesliga": 78,
+    "dfb pokal": 81,
+
+    "serie a italia": 135,
+    "serie b": 136,
+
+    "liga mx": 262,
+
+    "eredivisie": 88,
+
+    "primera división paraguay": 250,
+
+    "liga portugal": 94,
+    "liga portugal 2": 95,
+    "taça da liga": 97,
+    "taça de portugal": 96,
+
+    "premiership": 179,
+    "scottish cup": 181,
+    "scottish league cup": 185,
+
+    "copa del rey": 143,
+    "copa federación": 735,
+    "laliga": 140,
+    "laliga2": 141,
+
+    "super league switzerland": 207,
+    "schweizer cup": 209,
+
+    "super lig": 203,
+
+    "mls": 253,
+    "u.s. open cup": 257,
+
+    "saudi arabia": 307,
+    "czech first league": 345,
+
+    "fnl": 345,
+    "cup": 347,
+
+    "cymru premier league": 110,
+
+    "uefa champions league": 2,
+    "uefa europa league": 3
+  }
+}

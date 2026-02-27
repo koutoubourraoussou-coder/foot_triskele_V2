@@ -19,3 +19,6 @@ archive/
 !data/tickets_o15_random_report_global.txt
 !data/verdict_post_analyse_tickets_report.txt
 !data/verdict_post_analyse_tickets_o15_random_report.txt
+
+# --- allowlist runtime assets (Streamlit Cloud) ---
+!data/aliases.json
