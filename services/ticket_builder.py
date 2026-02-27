@@ -1012,11 +1012,39 @@ def _winrate_to_weight(mean_wr: float) -> float:
         w = WEIGHT_MAX
     return w
 
-def _system_priority_weight(p: Pick, league_bet: Optional[dict], team_bet: Optional[dict]) -> float:
-    mean_wr = _system_match_mean_winrate(p, league_bet, team_bet)
+
+def _system_priority_weight_league(p: Pick, league_bet: Optional[dict]) -> float:
+    """
+    Pondération de génération (SYSTEM) basée sur LEAGUE x BET (comme RANDOM),
+    tout en gardant un petit bonus sur la cote.
+    Objectif : explorer/générer surtout dans les ligues fortes.
+    """
+    if not ENABLE_RANKINGS:
+        base_wr = WEIGHT_BASELINE
+        w_perf = _winrate_to_weight(base_wr)
+        o = float(p.odd or 1.0)
+        w_odd = (0.90 + 0.10 * min(2.0, o))
+        return max(RANK_EPS, w_perf) * w_odd
+
+    fam = _norm_bet_family(p.bet_key)
+    lg = (p.league or "").strip()
+    wr, dec = _league_bet_rate(league_bet, lg, fam)
+
+    # Si pas de data ligue×bet : on met un poids bas (et de toute façon le gate SYSTEM peut rejeter)
+    if wr is None or (dec or 0) <= 0:
+        mean_wr = 0.0
+    else:
+        # Même "sécurité statistique" que partout : wr_adj = wr * coef(decided)
+        c = _confidence_coef(int(dec), n_full=5, base=0.70)
+        mean_wr = float(wr) * float(c)
+
+    # Conversion en poids 1.0 -> 2.5 avec vos bornes WEIGHT_*
     w_perf = _winrate_to_weight(mean_wr)
+
+    # Petit bonus cote (identique au SYSTEM actuel)
     o = float(p.odd or 1.0)
     w_odd = (0.90 + 0.10 * min(2.0, o))
+
     return max(RANK_EPS, w_perf) * w_odd
 
 # ----------------------------
@@ -1376,7 +1404,7 @@ def _try_build_ticket_system(
     it = 0
     pool = list(picks)
 
-    weights = [_system_priority_weight(p, league_bet, team_bet) for p in pool]
+    weights = [_system_priority_weight_league(p, league_bet) for p in pool]
     if not any(w > 0 for w in weights):
         weights = [1.0 for _ in pool]
 
@@ -1458,7 +1486,7 @@ def _try_build_ticket_system(
         lines: List[str] = []
         lines.append("MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)")
         lines.append("-" * 58)
-        lines.append(f"- TOPK_SIZE: {TOPK_SIZE} | uniform_draw={TOPK_UNIFORM_DRAW}")
+        lines.append("- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus")
         lines.append(f"- règle: préférer 3L si écart <= {PREFER_3LEGS_DELTA*100:.2f}%")
         lines.append(f"- iterations: {it} | valid_3L_found: {found3} | valid_4L_found: {found4}")
         lines.append(f"- top3_size: {len(items3)} | top4_size: {len(items4)}")
