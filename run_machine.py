@@ -6,6 +6,7 @@ from pathlib import Path
 import subprocess
 import json
 import os
+import sys
 from zoneinfo import ZoneInfo
 
 from services.api_client import _call_api  # utilitaires communs
@@ -479,10 +480,11 @@ def main():
             pass
 
         run(
-            ["python", str(ROOT / "main.py")],
+            [sys.executable, str(ROOT / "main.py")],
             "Analyse principale (main.py)",
             env=env,
         )
+
 
         # ------------------------------------------------------------
         # ✅ FIX IMPORTANT :
@@ -495,7 +497,7 @@ def main():
         env_post.pop("TRISKELE_RUN_DIR", None)
 
         run(
-            ["python", str(ROOT / "post_analysis.py")],
+            [sys.executable, str(ROOT / "post_analysis.py")],
             "Post-analyse (post_analysis.py)",
             env=env_post,
         )
