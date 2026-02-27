@@ -64,6 +64,7 @@ def compute_period_range(label: str) -> tuple[date | None, date | None]:
         return today - timedelta(days=29), today
     if label == "All time":
         return None, None
+    return None, None
 
 
 def in_range(d: date, start: date | None, end: date | None) -> bool:
@@ -127,7 +128,7 @@ def parse_tickets_to_play(filepath: Path | str, fallback_day: date | None = None
             "Source": str(filepath)
         })
 
-    if data :
+    if data:
         return pd.DataFrame(data)
 
     return None
@@ -277,8 +278,11 @@ def attach_verdict(df_tickets: pd.DataFrame, df_verdict: pd.DataFrame) -> pd.Dat
         df["Legs PENDING"] = None
         return df
 
-    df = df_tickets.merge(df_verdict[["Id", "Statut", "Legs WIN", "Legs LOSS", "Legs PENDING"]],
-                          on="Id", how="left")
+    df = df_tickets.merge(
+        df_verdict[["Id", "Statut", "Legs WIN", "Legs LOSS", "Legs PENDING"]],
+        on="Id",
+        how="left"
+    )
     return df
 
 
@@ -299,7 +303,7 @@ st.sidebar.divider()
 st.sidebar.markdown("### Génération des Tickets")
 st.sidebar.info("Exécute run_machine.py pour récupérer les données API, faire les prédictions et construire les tickets.")
 
-if st.sidebar.button("🚀 Lancer Run Machine", type="primary", width="stretch"):
+if st.sidebar.button("🚀 Lancer Run Machine", type="primary", use_container_width=True):
     with st.spinner("Exécution de run_machine.py en cours (ça peut prendre un moment)..."):
         try:
             result = subprocess.run(
@@ -322,12 +326,33 @@ if st.sidebar.button("🚀 Lancer Run Machine", type="primary", width="stretch")
 st.sidebar.divider()
 st.sidebar.caption("Dossier actuel (Streamlit) : " + os.getcwd())
 st.sidebar.caption(f"ROOT: {ROOT}")
+st.sidebar.caption(f"ARCHIVE_DIR exists: {ARCHIVE_DIR.exists()}")
 st.sidebar.caption(f"Dernière archive: {latest_analyse_dir() or '—'}")
 
 st.sidebar.caption(f"App file: {__file__}")
 st.sidebar.caption(f"Version: {APP_VERSION}")
 
 st.sidebar.caption(f"collect_verdict_mapping signature: {inspect.signature(collect_verdict_mapping)}")
+
+# --- DIAG fichiers (pour voir exactement pourquoi "rien n'est trouvé")
+with st.sidebar.expander("🧩 DIAG fichiers (existence)"):
+    analyse = latest_analyse_dir()
+    st.write(f"Latest analyse dir: {analyse or '—'}")
+    candidates_to_check = [
+        "tickets_report.txt",
+        "tickets_o15_random_report.txt",
+        "verdict_post_analyse_tickets_report.txt",
+        "verdict_post_analyse_tickets_o15_random_report.txt",
+    ]
+    for fn in candidates_to_check:
+        paths = []
+        if analyse is not None:
+            paths.append(("archive/latest", analyse / fn))
+        paths.append(("data/", ROOT / "data" / fn))
+        paths.append(("root", ROOT / fn))
+
+        for label, p in paths:
+            st.write(f"- {fn} | {label} | exists={p.exists()} | {p}")
 
 
 # -----------------------------
@@ -361,7 +386,8 @@ with tab1:
 
         if not df_sys.empty:
             show_cols = ["Statut", "Jour", "Ticket", "Cote", "Fenêtre de jeu", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
-            st.dataframe(df_sys[show_cols], width="stretch", hide_index=True)
+            st.dataframe(df_sys[show_cols], use_container_width=True, hide_index=True)
+
             with st.expander("Voir le détail des matchs (Système)"):
                 for _, row in df_sys.iterrows():
                     jour_str = row["Jour"].isoformat() if pd.notna(row["Jour"]) else "—"
@@ -378,7 +404,8 @@ with tab1:
 
         if not df_rand.empty:
             show_cols = ["Statut", "Jour", "Ticket", "Cote", "Fenêtre de jeu", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
-            st.dataframe(df_rand[show_cols], width="stretch", hide_index=True)
+            st.dataframe(df_rand[show_cols], use_container_width=True, hide_index=True)
+
             with st.expander("Voir le détail des matchs (Random)"):
                 for _, row in df_rand.iterrows():
                     jour_str = row["Jour"].isoformat() if pd.notna(row["Jour"]) else "—"
@@ -420,7 +447,13 @@ with tab2:
 
     if file_path is None:
         st.error("Fichier introuvable (archive/, data/, racine).")
+        with st.expander("Détails chemins testés"):
+            for c in candidates:
+                st.write(f"- exists={c.exists()} | {c}")
     else:
         st.caption(f"Lecture de: {file_path}")
-        st.text_area(f"Contenu de {report_type}", file_path.read_text(encoding="utf-8", errors="replace"), height=650)
-
+        st.text_area(
+            f"Contenu de {report_type}",
+            file_path.read_text(encoding="utf-8", errors="replace"),
+            height=650
+        )
