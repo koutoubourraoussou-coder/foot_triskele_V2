@@ -4,12 +4,14 @@ import subprocess
 import os
 import re
 import sys
+import inspect
 from pathlib import Path
 from datetime import date, timedelta, datetime
 
 # Racine du projet: remonte de tools/audit -> projet
 ROOT = Path(__file__).resolve().parents[2]
 ARCHIVE_DIR = ROOT / "archive"
+APP_VERSION = "BUILD_2026_02_27_V1"
 
 st.set_page_config(page_title="⚡️🤖 Machine TreeSkale", page_icon="⚡️", layout="wide")
 
@@ -321,6 +323,11 @@ st.sidebar.divider()
 st.sidebar.caption("Dossier actuel (Streamlit) : " + os.getcwd())
 st.sidebar.caption(f"ROOT: {ROOT}")
 st.sidebar.caption(f"Dernière archive: {latest_analyse_dir() or '—'}")
+
+st.sidebar.caption(f"App file: {__file__}")
+st.sidebar.caption(f"Version: {APP_VERSION}")
+
+st.sidebar.caption(f"collect_verdict_mapping signature: {inspect.signature(collect_verdict_mapping)}")
 
 
 # -----------------------------
