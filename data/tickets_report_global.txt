@@ -1895,3 +1895,43 @@ Aucun ticket.
   1) 19:30 | serie b | Avellino vs Juve Stabia | HT+0.5 | MEGA EXPLOSION | odd=1.44
   2) 20:00 | saudi arabia | Al-Fayha vs Al-Nassr | Over 1.5 (FT) | TRÈS FORT | odd=1.17
   3) 20:30 | mls | New York Red Bulls vs New England Revolution | HT+0.5 | TRÈS FORT | odd=1.33
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-03-01 00:28:22 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-01_0205_b1f0c9e751_SYS — cote = 2.24 — fenêtre 02:05 → 04:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 02:05 | liga mx | Monterrey vs Cruz Azul | HT+0.5 | EXPLOSION | odd=1.35
+  2) 02:06 | liga mx | Leon vs Necaxa | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  3) 02:30 | mls | FC Dallas vs Nashville SC | HT+0.5 | MEGA EXPLOSION | odd=1.33
+
+📅 Dimanche 2026-03-01 — Tranche 2 (fenêtre ~75min)
+--------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-03-01_1215_e363ab1cb6_SYS — cote = 2.39 — fenêtre 12:15 → 15:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 12:15 | eredivisie | PEC Zwolle vs Ajax | HT+0.5 | TRÈS FORT | odd=1.25
+  2) 13:00 | premiership | Rangers vs Celtic | HT+0.5 | MEGA EXPLOSION | odd=1.33
+  3) 13:30 | pro league | Genk vs Gent | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  4) 13:30 | 2. bundesliga | 1. FC Magdeburg vs Karlsruher SC | HT+0.5 | MEGA EXPLOSION | odd=1.22
+
+📅 Dimanche 2026-03-01 — Tranche 3 (fenêtre ~90min)
+--------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-03-01_1600_68ac1378ee_SYS — cote = 2.24 — fenêtre 16:00 → 19:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:00 | pro league | KVC Westerlo vs Union St. Gilloise | HT+0.5 | TRÈS FORT | odd=1.33
+  2) 16:15 | laliga2 | Mirandes vs AD Ceuta FC | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.38
+  3) 17:30 | premier league | Arsenal vs Chelsea | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+
+📅 Dimanche 2026-03-01 — Tranche 4 (fenêtre ~60min)
+--------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-03-01_2000_80cc1ad90e_SYS — cote = 2.3 — fenêtre 20:00 → 22:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:00 | eredivisie | Excelsior vs GO Ahead Eagles | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  2) 20:00 | primera a colombia | Deportivo Pasto vs Cucuta | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.45
+  3) 21:00 | laliga | Girona vs Celta Vigo | Over 1.5 (FT) | TRÈS FORT | odd=1.3

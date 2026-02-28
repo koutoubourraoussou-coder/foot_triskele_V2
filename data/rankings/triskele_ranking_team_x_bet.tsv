@@ -1,95 +1,93 @@
 # league	team	bet_key	samples	success	fail	success_rate
 saudi arabia	Al-Hazm	O15_FT	12	12	0	1.000000
-championship	Leicester	O15_FT	9	9	0	1.000000
-championship	Ipswich	O15_FT	8	8	0	1.000000
+championship	Leicester	O15_FT	10	10	0	1.000000
+championship	Ipswich	O15_FT	9	9	0	1.000000
+premier league	Burnley	O15_FT	9	9	0	1.000000
+premier league	Burnley	HT05	9	9	0	1.000000
+premiership	Kilmarnock	O15_FT	9	9	0	1.000000
+bundesliga	Borussia Dortmund	O15_FT	9	9	0	1.000000
+bundesliga	Borussia Dortmund	HT05	9	9	0	1.000000
+bundesliga	FSV Mainz 05	O15_FT	9	9	0	1.000000
+serie b	Venezia	O15_FT	9	9	0	1.000000
+bundesliga	Bayern München	O15_FT	9	9	0	1.000000
+bundesliga	Bayern München	HT05	9	9	0	1.000000
+serie b	Padova	HT05	9	9	0	1.000000
+super league switzerland	FC Winterthur	O15_FT	9	9	0	1.000000
+saudi arabia	Al-Nassr	TEAM2_SCORE_FT	8	8	0	1.000000
+laliga	Athletic Club	O15_FT	8	8	0	1.000000
 laliga	Espanyol	O15_FT	8	8	0	1.000000
-liga portugal 2	União de Leiria	O15_FT	8	8	0	1.000000
-premier league	Burnley	O15_FT	8	8	0	1.000000
-premier league	Burnley	HT05	8	8	0	1.000000
 premiership	Celtic	HT05	8	8	0	1.000000
-premiership	Kilmarnock	O15_FT	8	8	0	1.000000
+premiership	Motherwell	O15_FT	8	8	0	1.000000
 laliga	Alaves	O15_FT	8	8	0	1.000000
-laliga	Mallorca	O15_FT	8	8	0	1.000000
 laliga2	AD Ceuta FC	O15_FT	8	8	0	1.000000
+premier league	Newcastle	O15_FT	8	8	0	1.000000
 premier league	Chelsea	O15_FT	8	8	0	1.000000
+saudi arabia	Al-Qadisiyah FC	TEAM1_SCORE_FT	8	8	0	1.000000
+saudi arabia	Al-Qadisiyah FC	HT1X_HOME	8	8	0	1.000000
 bundesliga	Eintracht Frankfurt	O15_FT	8	8	0	1.000000
-bundesliga	Borussia Dortmund	O15_FT	8	8	0	1.000000
-bundesliga	Borussia Dortmund	HT05	8	8	0	1.000000
-bundesliga	FSV Mainz 05	O15_FT	8	8	0	1.000000
-bundesliga	FSV Mainz 05	HT05	8	8	0	1.000000
-serie b	Venezia	O15_FT	8	8	0	1.000000
-serie b	Venezia	HT05	8	8	0	1.000000
-serie b	Juve Stabia	HT05	8	8	0	1.000000
-bundesliga	Bayern München	O15_FT	8	8	0	1.000000
-bundesliga	Bayern München	HT05	8	8	0	1.000000
+eredivisie	PSV Eindhoven	O15_FT	8	8	0	1.000000
+liga mx	Mazatlán	HT05	8	8	0	1.000000
+liga mx	Atlas	HT05	8	8	0	1.000000
+eredivisie	Fortuna Sittard	O15_FT	8	8	0	1.000000
+eredivisie	Fortuna Sittard	HT05	8	8	0	1.000000
 serie b	Mantova	HT05	8	8	0	1.000000
-serie b	Padova	HT05	8	8	0	1.000000
 bundesliga	RB Leipzig	O15_FT	8	8	0	1.000000
-super league switzerland	FC Winterthur	O15_FT	8	8	0	1.000000
+eredivisie	NEC Nijmegen	O15_FT	8	8	0	1.000000
+laliga	Rayo Vallecano	O15_FT	7	7	0	1.000000
+laliga	Rayo Vallecano	HT05	7	7	0	1.000000
 liga portugal	GIL Vicente	O15_FT	7	7	0	1.000000
 liga portugal	GIL Vicente	HT05	7	7	0	1.000000
-saudi arabia	Al-Nassr	TEAM2_SCORE_FT	7	7	0	1.000000
 laliga	Valencia	O15_FT	7	7	0	1.000000
-laliga	Athletic Club	O15_FT	7	7	0	1.000000
+laliga	Barcelona	O15_FT	7	7	0	1.000000
 laliga2	Cordoba	O15_FT	7	7	0	1.000000
 laliga2	Cordoba	HT05	7	7	0	1.000000
 liga portugal	Estoril	O15_FT	7	7	0	1.000000
+liga portugal	SC Braga	O15_FT	7	7	0	1.000000
+liga portugal	SC Braga	HT05	7	7	0	1.000000
 ligue 1	Strasbourg	O15_FT	7	7	0	1.000000
 ligue 1	Strasbourg	HT05	7	7	0	1.000000
-premiership	Motherwell	O15_FT	7	7	0	1.000000
 laliga	Real Madrid	O15_FT	7	7	0	1.000000
-laliga	Real Sociedad	O15_FT	7	7	0	1.000000
 laliga2	FC Andorra	O15_FT	7	7	0	1.000000
 laliga2	FC Andorra	HT05	7	7	0	1.000000
 ligue 1	Marseille	O15_FT	7	7	0	1.000000
 ligue 1	Marseille	HT05	7	7	0	1.000000
 ligue 1	Lorient	O15_FT	7	7	0	1.000000
-premier league	Newcastle	O15_FT	7	7	0	1.000000
-saudi arabia	Al-Qadisiyah FC	TEAM1_SCORE_FT	7	7	0	1.000000
-saudi arabia	Al-Qadisiyah FC	HT1X_HOME	7	7	0	1.000000
-bundesliga	Bayer Leverkusen	HT05	7	7	0	1.000000
 eredivisie	PEC Zwolle	O15_FT	7	7	0	1.000000
-eredivisie	PSV Eindhoven	O15_FT	7	7	0	1.000000
-liga mx	Mazatlán	O15_FT	7	7	0	1.000000
-liga mx	Mazatlán	HT05	7	7	0	1.000000
-liga mx	Atlas	HT05	7	7	0	1.000000
-eredivisie	Fortuna Sittard	O15_FT	7	7	0	1.000000
-eredivisie	Fortuna Sittard	HT05	7	7	0	1.000000
+eredivisie	Heerenveen	O15_FT	7	7	0	1.000000
 eredivisie	Ajax	O15_FT	7	7	0	1.000000
-eredivisie	NEC Nijmegen	O15_FT	7	7	0	1.000000
+liga mx	Santos Laguna	O15_FT	7	7	0	1.000000
+liga mx	Santos Laguna	HT05	7	7	0	1.000000
+2. bundesliga	SV Elversberg	O15_FT	7	7	0	1.000000
+pro league	KV Mechelen	HT05	7	7	0	1.000000
 super league switzerland	FC Lugano	O15_FT	7	7	0	1.000000
 super league switzerland	BSC Young Boys	O15_FT	7	7	0	1.000000
 super lig	Başakşehir	O15_FT	7	7	0	1.000000
+super lig	Galatasaray	O15_FT	7	7	0	1.000000
+primera a colombia	Junior	HT05	7	7	0	1.000000
+championship	Wrexham	TEAM2_SCORE_FT	6	6	0	1.000000
 championship	Coventry	TEAM2_SCORE_FT	6	6	0	1.000000
+championship	Derby	TEAM1_SCORE_FT	6	6	0	1.000000
 championship	Swansea	TEAM1_SCORE_FT	6	6	0	1.000000
 championship	Leicester	TEAM2_SCORE_FT	6	6	0	1.000000
-laliga	Rayo Vallecano	O15_FT	6	6	0	1.000000
-laliga	Rayo Vallecano	HT05	6	6	0	1.000000
 saudi arabia	Al-Ettifaq	HT1X_HOME	6	6	0	1.000000
 saudi arabia	Al-Ahli Jeddah	TEAM1_SCORE_FT	6	6	0	1.000000
 serie a italia	AC Milan	TEAM2_SCORE_FT	6	6	0	1.000000
-laliga	Barcelona	O15_FT	6	6	0	1.000000
-liga portugal	SC Braga	O15_FT	6	6	0	1.000000
-liga portugal	SC Braga	HT05	6	6	0	1.000000
 ligue 1	Lyon	HT05	6	6	0	1.000000
-ligue 1	Rennes	O15_FT	6	6	0	1.000000
+premiership	Heart Of Midlothian	TEAM1_SCORE_FT	6	6	0	1.000000
 saudi arabia	Al-Ittihad FC	HT1X_HOME	6	6	0	1.000000
 ligue 1	Nantes	HT05	6	6	0	1.000000
 ligue 1	Stade Brestois 29	O15_FT	6	6	0	1.000000
 saudi arabia	Al-Hilal Saudi FC	TEAM2_SCORE_FT	6	6	0	1.000000
+serie a italia	Inter	TEAM1_SCORE_FT	6	6	0	1.000000
+serie a italia	Inter	HT1X_HOME	6	6	0	1.000000
 saudi arabia	Al Taawon	TEAM1_SCORE_FT	6	6	0	1.000000
-eredivisie	Heerenveen	O15_FT	6	6	0	1.000000
-liga mx	Santos Laguna	O15_FT	6	6	0	1.000000
-liga mx	Santos Laguna	HT05	6	6	0	1.000000
+liga mx	Club Queretaro	O15_FT	6	6	0	1.000000
 2. bundesliga	1. FC Magdeburg	O15_FT	6	6	0	1.000000
 2. bundesliga	1. FC Magdeburg	HT05	6	6	0	1.000000
 2. bundesliga	1. FC Nürnberg	O15_FT	6	6	0	1.000000
-2. bundesliga	SV Elversberg	O15_FT	6	6	0	1.000000
-2. bundesliga	SV Elversberg	HT05	6	6	0	1.000000
 pro league	Genk	O15_FT	6	6	0	1.000000
 pro league	KVC Westerlo	HT05	6	6	0	1.000000
-pro league	KV Mechelen	HT05	6	6	0	1.000000
-super lig	Galatasaray	O15_FT	6	6	0	1.000000
+2. bundesliga	Holstein Kiel	O15_FT	6	6	0	1.000000
 2. bundesliga	SV Darmstadt 98	O15_FT	6	6	0	1.000000
 pro league	Standard Liege	O15_FT	6	6	0	1.000000
 pro league	Standard Liege	HT05	6	6	0	1.000000
@@ -99,21 +97,30 @@ super league switzerland	FC Zurich	O15_FT	6	6	0	1.000000
 super league switzerland	FC Basel 1893	O15_FT	6	6	0	1.000000
 super league switzerland	FC Zurich	HT05	6	6	0	1.000000
 super league switzerland	FC Basel 1893	HT05	6	6	0	1.000000
+super lig	Rizespor	O15_FT	6	6	0	1.000000
+super lig	Alanyaspor	O15_FT	6	6	0	1.000000
+superligaen	Diosgyori VTK	O15_FT	6	6	0	1.000000
 primera a colombia	Fortaleza FC	O15_FT	6	6	0	1.000000
-primera a colombia	Junior	O15_FT	6	6	0	1.000000
-primera a colombia	Junior	HT05	6	6	0	1.000000
-championship	Wrexham	TEAM2_SCORE_FT	5	5	0	1.000000
-championship	Derby	TEAM1_SCORE_FT	5	5	0	1.000000
-championship	QPR	TEAM1_SCORE_FT	5	5	0	1.000000
+primera a colombia	Alianza Valledupar	O15_FT	6	6	0	1.000000
+primera a colombia	Once Caldas	O15_FT	6	6	0	1.000000
+championship	Ipswich	TEAM1_SCORE_FT	5	5	0	1.000000
+championship	Ipswich	HT1X_HOME	5	5	0	1.000000
 championship	Sheffield Utd	TEAM1_SCORE_FT	5	5	0	1.000000
+premier league	Liverpool	HT1X_HOME	5	5	0	1.000000
 premier league	Sunderland	HT1X_HOME	5	5	0	1.000000
+laliga	Rayo Vallecano	TEAM1_SCORE_FT	5	5	0	1.000000
 serie a italia	Cagliari	HT1X_HOME	5	5	0	1.000000
+laliga	Athletic Club	TEAM2_SCORE_FT	5	5	0	1.000000
 laliga2	Almeria	TEAM1_SCORE_FT	5	5	0	1.000000
 laliga2	Almeria	HT1X_HOME	5	5	0	1.000000
+laliga2	Castellón	TEAM1_SCORE_FT	5	5	0	1.000000
 liga portugal	Arouca	TEAM2_SCORE_FT	5	5	0	1.000000
+ligue 1	Monaco	TEAM1_SCORE_FT	5	5	0	1.000000
+ligue 1	Monaco	HT1X_HOME	5	5	0	1.000000
+premier league	Bournemouth	TEAM1_SCORE_FT	5	5	0	1.000000
 premiership	Celtic	TEAM1_SCORE_FT	5	5	0	1.000000
 premiership	Celtic	HT1X_HOME	5	5	0	1.000000
-premiership	Heart Of Midlothian	TEAM1_SCORE_FT	5	5	0	1.000000
+premiership	Motherwell	TEAM1_SCORE_FT	5	5	0	1.000000
 serie a italia	Genoa	TEAM1_SCORE_FT	5	5	0	1.000000
 serie a italia	Atalanta	TEAM1_SCORE_FT	5	5	0	1.000000
 championship	Middlesbrough	HT1X_HOME	5	5	0	1.000000
@@ -125,19 +132,22 @@ premier league	Tottenham	TEAM1_SCORE_FT	5	5	0	1.000000
 premier league	Manchester City	TEAM1_SCORE_FT	5	5	0	1.000000
 premier league	Manchester City	HT1X_HOME	5	5	0	1.000000
 serie a italia	Fiorentina	TEAM1_SCORE_FT	5	5	0	1.000000
-serie a italia	Inter	TEAM1_SCORE_FT	5	5	0	1.000000
 serie a italia	Bologna	TEAM2_SCORE_FT	5	5	0	1.000000
-serie a italia	Inter	HT1X_HOME	5	5	0	1.000000
+liga portugal 2	Vizela	HT1X_HOME	5	5	0	1.000000
 serie a italia	Inter	TEAM2_SCORE_FT	5	5	0	1.000000
 saudi arabia	Al-Nassr	TEAM1_SCORE_FT	5	5	0	1.000000
 saudi arabia	Al-Nassr	HT1X_HOME	5	5	0	1.000000
 eredivisie	AZ Alkmaar	TEAM1_SCORE_FT	5	5	0	1.000000
 serie b	Reggiana	TEAM1_SCORE_FT	5	5	0	1.000000
-liga mx	Club Queretaro	O15_FT	5	5	0	1.000000
+serie b	Venezia	TEAM2_SCORE_FT	5	5	0	1.000000
+serie b	Sudtirol	HT1X_HOME	5	5	0	1.000000
+eredivisie	Fortuna Sittard	TEAM2_SCORE_FT	5	5	0	1.000000
 serie b	Padova	TEAM1_SCORE_FT	5	5	0	1.000000
-liga mx	Atletico San Luis	O15_FT	5	5	0	1.000000
+bundesliga	Borussia Dortmund	TEAM1_SCORE_FT	5	5	0	1.000000
+bundesliga	Borussia Dortmund	HT1X_HOME	5	5	0	1.000000
 cymru premier league	Cardiff MET	O15_FT	5	5	0	1.000000
 bundesliga	1. FC Köln	TEAM1_SCORE_FT	5	5	0	1.000000
+bundesliga	Bayern München	TEAM2_SCORE_FT	5	5	0	1.000000
 bundesliga	RB Leipzig	TEAM1_SCORE_FT	5	5	0	1.000000
 bundesliga	RB Leipzig	HT1X_HOME	5	5	0	1.000000
 super league switzerland	FC Sion	HT1X_HOME	5	5	0	1.000000
@@ -145,106 +155,88 @@ super league switzerland	Lausanne	TEAM2_SCORE_FT	5	5	0	1.000000
 championship	Wrexham	HT1X_HOME	5	5	0	1.000000
 serie b	Monza	TEAM1_SCORE_FT	5	5	0	1.000000
 super lig	Gazişehir Gaziantep	O15_FT	5	5	0	1.000000
-2. bundesliga	Holstein Kiel	O15_FT	5	5	0	1.000000
-pro league	St. Truiden	O15_FT	5	5	0	1.000000
-pro league	Antwerp	O15_FT	5	5	0	1.000000
+liga portugal 2	União de Leiria	TEAM1_SCORE_FT	5	5	0	1.000000
 pro league	Charleroi	O15_FT	5	5	0	1.000000
-pro league	Antwerp	HT05	5	5	0	1.000000
-super lig	Rizespor	O15_FT	5	5	0	1.000000
-super lig	Alanyaspor	O15_FT	5	5	0	1.000000
 super lig	Fenerbahçe	O15_FT	5	5	0	1.000000
-superligaen	Diosgyori VTK	O15_FT	5	5	0	1.000000
-super lig	Beşiktaş	O15_FT	5	5	0	1.000000
-super lig	Beşiktaş	HT05	5	5	0	1.000000
 primera división paraguay	Club Sp. San Lorenzo	O15_FT	5	5	0	1.000000
-primera a colombia	Alianza Valledupar	O15_FT	5	5	0	1.000000
-primera a colombia	Once Caldas	O15_FT	5	5	0	1.000000
 primera a colombia	Cucuta	O15_FT	5	5	0	1.000000
 primera a colombia	Cucuta	HT05	5	5	0	1.000000
+czech first league	Pardubice	O15_FT	5	5	0	1.000000
 primera a colombia	Deportivo Pereira	HT05	5	5	0	1.000000
-championship	Ipswich	TEAM1_SCORE_FT	4	4	0	1.000000
-championship	Ipswich	HT1X_HOME	4	4	0	1.000000
-premier league	Liverpool	HT1X_HOME	4	4	0	1.000000
-laliga	Rayo Vallecano	TEAM1_SCORE_FT	4	4	0	1.000000
 laliga2	Eibar	TEAM1_SCORE_FT	4	4	0	1.000000
 liga portugal	GIL Vicente	TEAM1_SCORE_FT	4	4	0	1.000000
 liga portugal	Sporting CP	TEAM2_SCORE_FT	4	4	0	1.000000
+liga portugal	Guimaraes	TEAM1_SCORE_FT	4	4	0	1.000000
 ligue 1	Lens	TEAM2_SCORE_FT	4	4	0	1.000000
 laliga	Valencia	TEAM2_SCORE_FT	4	4	0	1.000000
 laliga	Osasuna	TEAM1_SCORE_FT	4	4	0	1.000000
-laliga	Athletic Club	TEAM2_SCORE_FT	4	4	0	1.000000
 laliga	Osasuna	HT1X_HOME	4	4	0	1.000000
-laliga2	Castellón	TEAM1_SCORE_FT	4	4	0	1.000000
-laliga2	Castellón	HT1X_HOME	4	4	0	1.000000
 liga portugal	Benfica	TEAM1_SCORE_FT	4	4	0	1.000000
 liga portugal	Benfica	HT1X_HOME	4	4	0	1.000000
-liga portugal 2	Portimonense	TEAM2_SCORE_FT	4	4	0	1.000000
-ligue 1	Monaco	TEAM1_SCORE_FT	4	4	0	1.000000
+liga portugal	SC Braga	TEAM2_SCORE_FT	4	4	0	1.000000
 ligue 1	Lyon	TEAM2_SCORE_FT	4	4	0	1.000000
-ligue 1	Monaco	HT1X_HOME	4	4	0	1.000000
 ligue 1	Strasbourg	TEAM2_SCORE_FT	4	4	0	1.000000
 ligue 2	Le Mans	HT1X_HOME	4	4	0	1.000000
-ligue 2	Rodez	TEAM2_SCORE_FT	4	4	0	1.000000
 ligue 2	Annecy	TEAM2_SCORE_FT	4	4	0	1.000000
 ligue 2	Reims	HT1X_HOME	4	4	0	1.000000
-premier league	Bournemouth	TEAM1_SCORE_FT	4	4	0	1.000000
 premiership	Kilmarnock	TEAM1_SCORE_FT	4	4	0	1.000000
-premiership	Motherwell	TEAM1_SCORE_FT	4	4	0	1.000000
 championship	Birmingham	HT1X_HOME	4	4	0	1.000000
 laliga	Real Madrid	TEAM1_SCORE_FT	4	4	0	1.000000
 laliga	Real Madrid	HT1X_HOME	4	4	0	1.000000
 laliga	Alaves	HT1X_HOME	4	4	0	1.000000
-laliga	Mallorca	TEAM1_SCORE_FT	4	4	0	1.000000
 laliga	Real Sociedad	TEAM1_SCORE_FT	4	4	0	1.000000
 laliga	Real Sociedad	HT1X_HOME	4	4	0	1.000000
 laliga2	Sporting Gijon	TEAM1_SCORE_FT	4	4	0	1.000000
+laliga2	Malaga	TEAM2_SCORE_FT	4	4	0	1.000000
 laliga2	Albacete	TEAM1_SCORE_FT	4	4	0	1.000000
 laliga2	Albacete	HT1X_HOME	4	4	0	1.000000
 laliga2	Deportivo La Coruna	HT1X_HOME	4	4	0	1.000000
 liga portugal	Alverca	TEAM1_SCORE_FT	4	4	0	1.000000
 liga portugal	Alverca	HT1X_HOME	4	4	0	1.000000
 liga portugal 2	Academico Viseu	TEAM2_SCORE_FT	4	4	0	1.000000
-ligue 1	Le Havre	HT1X_HOME	4	4	0	1.000000
 ligue 1	Paris Saint Germain	TEAM1_SCORE_FT	4	4	0	1.000000
 ligue 1	Paris Saint Germain	HT1X_HOME	4	4	0	1.000000
 premier league	Fulham	TEAM1_SCORE_FT	4	4	0	1.000000
 premier league	Chelsea	TEAM2_SCORE_FT	4	4	0	1.000000
 liga portugal 2	Benfica B	TEAM1_SCORE_FT	4	4	0	1.000000
+liga portugal 2	FC Porto B	TEAM2_SCORE_FT	4	4	0	1.000000
 liga portugal 2	Benfica B	HT1X_HOME	4	4	0	1.000000
-liga portugal 2	Vizela	HT1X_HOME	4	4	0	1.000000
 saudi arabia	Al-Qadisiyah FC	TEAM2_SCORE_FT	4	4	0	1.000000
 bundesliga	Eintracht Frankfurt	TEAM1_SCORE_FT	4	4	0	1.000000
 bundesliga	Borussia Dortmund	TEAM2_SCORE_FT	4	4	0	1.000000
+laliga	Real Sociedad	TEAM2_SCORE_FT	4	4	0	1.000000
 bundesliga	SC Freiburg	TEAM1_SCORE_FT	4	4	0	1.000000
 bundesliga	SC Freiburg	HT1X_HOME	4	4	0	1.000000
+bundesliga	Bayer Leverkusen	TEAM1_SCORE_FT	4	4	0	1.000000
 bundesliga	VfB Stuttgart	TEAM2_SCORE_FT	4	4	0	1.000000
 eredivisie	PEC Zwolle	TEAM2_SCORE_FT	4	4	0	1.000000
 eredivisie	Twente	HT1X_HOME	4	4	0	1.000000
 eredivisie	PSV Eindhoven	TEAM1_SCORE_FT	4	4	0	1.000000
+laliga	Oviedo	HT1X_HOME	4	4	0	1.000000
 laliga	Villarreal	HT1X_HOME	4	4	0	1.000000
 serie a italia	AS Roma	TEAM1_SCORE_FT	4	4	0	1.000000
 serie a italia	AS Roma	HT1X_HOME	4	4	0	1.000000
 serie b	Carrarese	HT1X_HOME	4	4	0	1.000000
 serie b	Frosinone	TEAM1_SCORE_FT	4	4	0	1.000000
 serie b	Frosinone	HT1X_HOME	4	4	0	1.000000
-serie b	Venezia	TEAM2_SCORE_FT	4	4	0	1.000000
-serie b	Sudtirol	HT1X_HOME	4	4	0	1.000000
 serie b	Virtus Entella	TEAM1_SCORE_FT	4	4	0	1.000000
 serie b	Juve Stabia	TEAM1_SCORE_FT	4	4	0	1.000000
 laliga	Elche	TEAM2_SCORE_FT	4	4	0	1.000000
 laliga2	FC Andorra	TEAM1_SCORE_FT	4	4	0	1.000000
 laliga2	Cultural Leonesa	TEAM2_SCORE_FT	4	4	0	1.000000
+liga mx	Mazatlán	TEAM1_SCORE_FT	4	4	0	1.000000
 liga mx	Atlas	TEAM1_SCORE_FT	4	4	0	1.000000
+liga mx	Club Tijuana	HT1X_HOME	4	4	0	1.000000
 premiership	Hibernian	HT1X_HOME	4	4	0	1.000000
 bundesliga	Bayern München	TEAM1_SCORE_FT	4	4	0	1.000000
 bundesliga	Bayern München	HT1X_HOME	4	4	0	1.000000
+eredivisie	Heerenveen	TEAM1_SCORE_FT	4	4	0	1.000000
 eredivisie	GO Ahead Eagles	TEAM1_SCORE_FT	4	4	0	1.000000
-eredivisie	Fortuna Sittard	TEAM2_SCORE_FT	4	4	0	1.000000
 eredivisie	GO Ahead Eagles	HT1X_HOME	4	4	0	1.000000
 laliga	Espanyol	TEAM2_SCORE_FT	4	4	0	1.000000
 laliga2	Leganes	TEAM1_SCORE_FT	4	4	0	1.000000
+laliga2	Granada CF	HT1X_HOME	4	4	0	1.000000
 laliga2	Malaga	TEAM1_SCORE_FT	4	4	0	1.000000
-liga portugal	Nacional	HT1X_HOME	4	4	0	1.000000
 liga portugal 2	Portimonense	HT1X_HOME	4	4	0	1.000000
 liga portugal 2	Chaves	HT1X_HOME	4	4	0	1.000000
 liga portugal 2	FC Porto B	TEAM1_SCORE_FT	4	4	0	1.000000
@@ -254,30 +246,29 @@ serie b	Mantova	TEAM1_SCORE_FT	4	4	0	1.000000
 laliga2	Huesca	TEAM1_SCORE_FT	4	4	0	1.000000
 laliga2	Cordoba	TEAM2_SCORE_FT	4	4	0	1.000000
 bundesliga	Eintracht Frankfurt	TEAM2_SCORE_FT	4	4	0	1.000000
-bundesliga	Borussia Dortmund	TEAM1_SCORE_FT	4	4	0	1.000000
-bundesliga	Borussia Dortmund	HT1X_HOME	4	4	0	1.000000
 bundesliga	FSV Mainz 05	TEAM1_SCORE_FT	4	4	0	1.000000
 cymru premier league	The New Saints	TEAM1_SCORE_FT	4	4	0	1.000000
 cymru premier league	The New Saints	HT1X_HOME	4	4	0	1.000000
 liga mx	Mazatlán	TEAM2_SCORE_FT	4	4	0	1.000000
 bundesliga	VfL Wolfsburg	TEAM1_SCORE_FT	4	4	0	1.000000
-bundesliga	Bayern München	TEAM2_SCORE_FT	4	4	0	1.000000
-bundesliga	1899 Hoffenheim	TEAM1_SCORE_FT	4	4	0	1.000000
-bundesliga	1899 Hoffenheim	HT1X_HOME	4	4	0	1.000000
 bundesliga	FC Augsburg	TEAM1_SCORE_FT	4	4	0	1.000000
 bundesliga	FC Augsburg	HT1X_HOME	4	4	0	1.000000
+liga mx	U.N.A.M. - Pumas	TEAM2_SCORE_FT	4	4	0	1.000000
+liga mx	Toluca	TEAM1_SCORE_FT	4	4	0	1.000000
 liga portugal	Sporting CP	TEAM1_SCORE_FT	4	4	0	1.000000
 liga portugal	Sporting CP	HT1X_HOME	4	4	0	1.000000
 ligue 2	Annecy	TEAM1_SCORE_FT	4	4	0	1.000000
 ligue 2	Annecy	HT1X_HOME	4	4	0	1.000000
 ligue 2	PAU	TEAM2_SCORE_FT	4	4	0	1.000000
 pro league	Club Brugge KV	TEAM1_SCORE_FT	4	4	0	1.000000
+2. bundesliga	SV Elversberg	TEAM2_SCORE_FT	4	4	0	1.000000
 2. bundesliga	Dynamo Dresden	TEAM1_SCORE_FT	4	4	0	1.000000
 2. bundesliga	Dynamo Dresden	HT1X_HOME	4	4	0	1.000000
-championship	Sheffield Wednesday	HT1X_HOME	4	4	0	1.000000
+championship	Hull City	TEAM2_SCORE_FT	4	4	0	1.000000
 eredivisie	Ajax	TEAM1_SCORE_FT	4	4	0	1.000000
 eredivisie	Ajax	HT1X_HOME	4	4	0	1.000000
 eredivisie	Telstar	TEAM2_SCORE_FT	4	4	0	1.000000
+eredivisie	PSV Eindhoven	TEAM2_SCORE_FT	4	4	0	1.000000
 eredivisie	NEC Nijmegen	TEAM2_SCORE_FT	4	4	0	1.000000
 premier league	Chelsea	TEAM1_SCORE_FT	4	4	0	1.000000
 premier league	Nottingham Forest	HT1X_HOME	4	4	0	1.000000
@@ -285,12 +276,14 @@ pro league	Cercle Brugge	TEAM2_SCORE_FT	4	4	0	1.000000
 pro league	Union St. Gilloise	TEAM1_SCORE_FT	4	4	0	1.000000
 pro league	Union St. Gilloise	HT1X_HOME	4	4	0	1.000000
 serie b	Frosinone	TEAM2_SCORE_FT	4	4	0	1.000000
-serie b	Juve Stabia	TEAM2_SCORE_FT	4	4	0	1.000000
+serie b	Cesena	TEAM2_SCORE_FT	4	4	0	1.000000
 super league switzerland	FC Luzern	TEAM1_SCORE_FT	4	4	0	1.000000
 super league switzerland	FC Lugano	TEAM2_SCORE_FT	4	4	0	1.000000
 super lig	Başakşehir	TEAM1_SCORE_FT	4	4	0	1.000000
 super lig	Fatih Karagümrük	TEAM2_SCORE_FT	4	4	0	1.000000
 super lig	Başakşehir	HT1X_HOME	4	4	0	1.000000
+super lig	Galatasaray	TEAM1_SCORE_FT	4	4	0	1.000000
+super lig	Galatasaray	HT1X_HOME	4	4	0	1.000000
 ligue 1	Lens	TEAM1_SCORE_FT	4	4	0	1.000000
 ligue 1	Lens	HT1X_HOME	4	4	0	1.000000
 uefa champions league	Club Brugge KV	O15_FT	4	4	0	1.000000
@@ -299,7 +292,6 @@ uefa champions league	Bodo/Glimt	O15_FT	4	4	0	1.000000
 uefa champions league	Inter	O15_FT	4	4	0	1.000000
 uefa champions league	Paris Saint Germain	O15_FT	4	4	0	1.000000
 uefa champions league	Borussia Dortmund	O15_FT	4	4	0	1.000000
-liga portugal 2	União de Leiria	TEAM1_SCORE_FT	4	4	0	1.000000
 uefa champions league	Galatasaray	O15_FT	4	4	0	1.000000
 uefa champions league	Atletico Madrid	O15_FT	4	4	0	1.000000
 uefa champions league	Galatasaray	HT05	4	4	0	1.000000
@@ -318,9 +310,19 @@ uefa europa league	Panathinaikos	O15_FT	4	4	0	1.000000
 uefa europa league	Ludogorets	HT05	4	4	0	1.000000
 uefa europa league	Genk	O15_FT	4	4	0	1.000000
 bundesliga	FC St. Pauli	HT1X_HOME	4	4	0	1.000000
+ligue 1	Paris Saint Germain	TEAM2_SCORE_FT	4	4	0	1.000000
 bundesliga	1899 Hoffenheim	TEAM2_SCORE_FT	4	4	0	1.000000
 championship	Ipswich	TEAM2_SCORE_FT	4	4	0	1.000000
+eredivisie	NEC Nijmegen	TEAM1_SCORE_FT	4	4	0	1.000000
+ligue 2	RED Star FC 93	HT1X_HOME	4	4	0	1.000000
+championship	Portsmouth	HT1X_HOME	4	4	0	1.000000
+eredivisie	Sparta Rotterdam	TEAM2_SCORE_FT	4	4	0	1.000000
+laliga	Barcelona	TEAM1_SCORE_FT	4	4	0	1.000000
+laliga	Barcelona	HT1X_HOME	4	4	0	1.000000
+pro league	KV Mechelen	TEAM1_SCORE_FT	4	4	0	1.000000
+super league switzerland	FC Thun	TEAM1_SCORE_FT	4	4	0	1.000000
 super league switzerland	BSC Young Boys	TEAM2_SCORE_FT	4	4	0	1.000000
+super league switzerland	FC Thun	HT1X_HOME	4	4	0	1.000000
 liga portugal	FC Porto	TEAM1_SCORE_FT	4	4	0	1.000000
 liga portugal	FC Porto	HT1X_HOME	4	4	0	1.000000
 liga profesional argentina	Independiente	TEAM2_SCORE_FT	4	4	0	1.000000
@@ -329,41 +331,29 @@ serie a brazil	Palmeiras	HT05	4	4	0	1.000000
 serie a brazil	Internacional	HT05	4	4	0	1.000000
 serie a brazil	Atletico Paranaense	HT05	4	4	0	1.000000
 serie a brazil	Gremio	O15_FT	4	4	0	1.000000
-czech first league	Pardubice	O15_FT	4	4	0	1.000000
+liga profesional argentina	Boca Juniors	HT1X_HOME	4	4	0	1.000000
 super league switzerland	FC ST. Gallen	TEAM2_SCORE_FT	4	4	0	1.000000
 primera a colombia	Millonarios	HT1X_HOME	4	4	0	1.000000
+primera a colombia	Junior	TEAM2_SCORE_FT	4	4	0	1.000000
 cymru premier league	Flint Town United	TEAM2_SCORE_FT	3	3	0	1.000000
 laliga	Getafe	TEAM2_SCORE_FT	3	3	0	1.000000
-liga portugal	Guimaraes	TEAM1_SCORE_FT	3	3	0	1.000000
 laliga	Celta Vigo	TEAM1_SCORE_FT	3	3	0	1.000000
 laliga	Barcelona	TEAM2_SCORE_FT	3	3	0	1.000000
-laliga2	Huesca	TEAM2_SCORE_FT	3	3	0	1.000000
 laliga2	Cordoba	TEAM1_SCORE_FT	3	3	0	1.000000
 laliga2	Cordoba	HT1X_HOME	3	3	0	1.000000
-liga portugal	SC Braga	TEAM2_SCORE_FT	3	3	0	1.000000
 liga portugal 2	Feirense	TEAM1_SCORE_FT	3	3	0	1.000000
 liga portugal 2	Feirense	HT1X_HOME	3	3	0	1.000000
-ligue 2	Guingamp	TEAM1_SCORE_FT	3	3	0	1.000000
-ligue 2	PAU	TEAM1_SCORE_FT	3	3	0	1.000000
-ligue 2	PAU	HT1X_HOME	3	3	0	1.000000
 premier league	Nottingham Forest	TEAM2_SCORE_FT	3	3	0	1.000000
 premier league	Brighton	HT1X_HOME	3	3	0	1.000000
-laliga2	Malaga	TEAM2_SCORE_FT	3	3	0	1.000000
 laliga2	Las Palmas	TEAM2_SCORE_FT	3	3	0	1.000000
 liga portugal	FC Porto	TEAM2_SCORE_FT	3	3	0	1.000000
-liga portugal 2	Sporting CP B	TEAM1_SCORE_FT	3	3	0	1.000000
 ligue 1	Nantes	TEAM2_SCORE_FT	3	3	0	1.000000
 ligue 1	Lorient	TEAM1_SCORE_FT	3	3	0	1.000000
-liga portugal 2	FC Porto B	TEAM2_SCORE_FT	3	3	0	1.000000
 serie a italia	Fiorentina	TEAM2_SCORE_FT	3	3	0	1.000000
 serie a italia	Torino	TEAM1_SCORE_FT	3	3	0	1.000000
 serie a italia	Torino	HT1X_HOME	3	3	0	1.000000
 liga portugal 2	Lusitânia Lourosa	TEAM1_SCORE_FT	3	3	0	1.000000
 premier league	Arsenal	HT1X_HOME	3	3	0	1.000000
-laliga	Real Sociedad	TEAM2_SCORE_FT	3	3	0	1.000000
-bundesliga	Bayer Leverkusen	TEAM1_SCORE_FT	3	3	0	1.000000
-laliga	Oviedo	TEAM1_SCORE_FT	3	3	0	1.000000
-laliga	Oviedo	HT1X_HOME	3	3	0	1.000000
 laliga	Girona	TEAM1_SCORE_FT	3	3	0	1.000000
 laliga	Girona	HT1X_HOME	3	3	0	1.000000
 laliga	Valencia	HT1X_HOME	3	3	0	1.000000
@@ -374,14 +364,10 @@ laliga2	Burgos	TEAM1_SCORE_FT	3	3	0	1.000000
 laliga2	Burgos	HT1X_HOME	3	3	0	1.000000
 laliga2	Racing Santander	TEAM1_SCORE_FT	3	3	0	1.000000
 liga mx	Guadalajara Chivas	HT1X_HOME	3	3	0	1.000000
-liga mx	Mazatlán	TEAM1_SCORE_FT	3	3	0	1.000000
-liga mx	Club Tijuana	HT1X_HOME	3	3	0	1.000000
 premiership	Motherwell	TEAM2_SCORE_FT	3	3	0	1.000000
-eredivisie	Heerenveen	TEAM1_SCORE_FT	3	3	0	1.000000
 eredivisie	Ajax	TEAM2_SCORE_FT	3	3	0	1.000000
 eredivisie	Sparta Rotterdam	TEAM1_SCORE_FT	3	3	0	1.000000
 eredivisie	Sparta Rotterdam	HT1X_HOME	3	3	0	1.000000
-laliga2	Granada CF	HT1X_HOME	3	3	0	1.000000
 liga mx	Leon	TEAM1_SCORE_FT	3	3	0	1.000000
 liga mx	Cruz Azul	TEAM2_SCORE_FT	3	3	0	1.000000
 liga mx	Leon	HT1X_HOME	3	3	0	1.000000
@@ -389,6 +375,7 @@ liga mx	Monterrey	HT1X_HOME	3	3	0	1.000000
 liga mx	U.N.A.M. - Pumas	TEAM1_SCORE_FT	3	3	0	1.000000
 liga mx	U.N.A.M. - Pumas	HT1X_HOME	3	3	0	1.000000
 liga portugal 2	Maritimo	TEAM2_SCORE_FT	3	3	0	1.000000
+liga mx	Atletico San Luis	HT1X_HOME	3	3	0	1.000000
 belgian cup	Antwerp	HT05	3	3	0	1.000000
 bundesliga	VfB Stuttgart	TEAM1_SCORE_FT	3	3	0	1.000000
 bundesliga	VfB Stuttgart	HT1X_HOME	3	3	0	1.000000
@@ -396,43 +383,34 @@ cymru premier league	Barry Town	HT1X_HOME	3	3	0	1.000000
 cymru premier league	Cardiff MET	TEAM2_SCORE_FT	3	3	0	1.000000
 liga mx	Pachuca	TEAM1_SCORE_FT	3	3	0	1.000000
 liga mx	Pachuca	HT1X_HOME	3	3	0	1.000000
-liga mx	Guadalajara Chivas	TEAM2_SCORE_FT	3	3	0	1.000000
 premiership	Celtic	TEAM2_SCORE_FT	3	3	0	1.000000
 liga mx	Cruz Azul	HT1X_HOME	3	3	0	1.000000
 belgian cup	Anderlecht	HT05	3	3	0	1.000000
-bundesliga	Union Berlin	TEAM2_SCORE_FT	3	3	0	1.000000
 copa del rey	Barcelona	O15_FT	3	3	0	1.000000
+liga mx	Club Queretaro	TEAM1_SCORE_FT	3	3	0	1.000000
+liga mx	Club Queretaro	HT1X_HOME	3	3	0	1.000000
 liga mx	Atletico San Luis	TEAM2_SCORE_FT	3	3	0	1.000000
 liga mx	Club America	HT1X_HOME	3	3	0	1.000000
-liga mx	U.N.A.M. - Pumas	TEAM2_SCORE_FT	3	3	0	1.000000
-liga mx	Toluca	TEAM1_SCORE_FT	3	3	0	1.000000
 2. bundesliga	1. FC Magdeburg	TEAM2_SCORE_FT	3	3	0	1.000000
 liga portugal 2	Academico Viseu	TEAM1_SCORE_FT	3	3	0	1.000000
 liga portugal 2	Academico Viseu	HT1X_HOME	3	3	0	1.000000
 ligue 2	Rodez	TEAM1_SCORE_FT	3	3	0	1.000000
-ligue 2	Le Mans	TEAM2_SCORE_FT	3	3	0	1.000000
 ligue 2	Rodez	HT1X_HOME	3	3	0	1.000000
 serie a italia	Pisa	TEAM1_SCORE_FT	3	3	0	1.000000
 2. bundesliga	1. FC Nürnberg	TEAM1_SCORE_FT	3	3	0	1.000000
-2. bundesliga	SV Elversberg	TEAM2_SCORE_FT	3	3	0	1.000000
 bundesliga	Hamburger SV	HT1X_HOME	3	3	0	1.000000
-championship	Hull City	TEAM2_SCORE_FT	3	3	0	1.000000
 eredivisie	PEC Zwolle	TEAM1_SCORE_FT	3	3	0	1.000000
 eredivisie	AZ Alkmaar	TEAM2_SCORE_FT	3	3	0	1.000000
 eredivisie	PEC Zwolle	HT1X_HOME	3	3	0	1.000000
 eredivisie	Excelsior	TEAM1_SCORE_FT	3	3	0	1.000000
 eredivisie	Fortuna Sittard	TEAM1_SCORE_FT	3	3	0	1.000000
-eredivisie	PSV Eindhoven	TEAM2_SCORE_FT	3	3	0	1.000000
 eredivisie	Fortuna Sittard	HT1X_HOME	3	3	0	1.000000
 laliga	Real Betis	TEAM1_SCORE_FT	3	3	0	1.000000
 laliga	Real Betis	HT1X_HOME	3	3	0	1.000000
 premier league	Manchester United	TEAM1_SCORE_FT	3	3	0	1.000000
 premier league	Manchester United	HT1X_HOME	3	3	0	1.000000
 pro league	Genk	TEAM2_SCORE_FT	3	3	0	1.000000
-serie b	Cesena	TEAM2_SCORE_FT	3	3	0	1.000000
 super league switzerland	BSC Young Boys	TEAM1_SCORE_FT	3	3	0	1.000000
-super lig	Galatasaray	TEAM1_SCORE_FT	3	3	0	1.000000
-super lig	Galatasaray	HT1X_HOME	3	3	0	1.000000
 2. bundesliga	Holstein Kiel	TEAM2_SCORE_FT	3	3	0	1.000000
 2. bundesliga	SV Darmstadt 98	TEAM1_SCORE_FT	3	3	0	1.000000
 2. bundesliga	SV Darmstadt 98	HT1X_HOME	3	3	0	1.000000
@@ -440,7 +418,6 @@ cymru premier league	Briton Ferry	HT1X_HOME	3	3	0	1.000000
 cymru premier league	Haverfordwest County AFC	TEAM2_SCORE_FT	3	3	0	1.000000
 liga portugal	Casa Pia	TEAM1_SCORE_FT	3	3	0	1.000000
 liga portugal	Casa Pia	HT1X_HOME	3	3	0	1.000000
-ligue 1	Paris Saint Germain	TEAM2_SCORE_FT	3	3	0	1.000000
 pro league	Gent	TEAM2_SCORE_FT	3	3	0	1.000000
 super lig	Trabzonspor	TEAM1_SCORE_FT	3	3	0	1.000000
 super lig	Kasımpaşa	TEAM2_SCORE_FT	3	3	0	1.000000
@@ -450,18 +427,15 @@ super lig	Trabzonspor	HT1X_HOME	3	3	0	1.000000
 2. bundesliga	Karlsruher SC	TEAM1_SCORE_FT	3	3	0	1.000000
 2. bundesliga	Hertha BSC	TEAM2_SCORE_FT	3	3	0	1.000000
 bundesliga	RB Leipzig	TEAM2_SCORE_FT	3	3	0	1.000000
-eredivisie	NEC Nijmegen	TEAM1_SCORE_FT	3	3	0	1.000000
 laliga	Real Madrid	TEAM2_SCORE_FT	3	3	0	1.000000
 liga portugal	Arouca	TEAM1_SCORE_FT	3	3	0	1.000000
 liga portugal	Estoril	TEAM1_SCORE_FT	3	3	0	1.000000
 liga portugal	Guimaraes	TEAM2_SCORE_FT	3	3	0	1.000000
 liga portugal 2	Maritimo	HT1X_HOME	3	3	0	1.000000
 liga portugal 2	Leixoes	HT1X_HOME	3	3	0	1.000000
-ligue 2	RED Star FC 93	HT1X_HOME	3	3	0	1.000000
 premier league	West Ham	HT1X_HOME	3	3	0	1.000000
-pro league	St. Truiden	TEAM2_SCORE_FT	3	3	0	1.000000
+pro league	Zulte Waregem	TEAM2_SCORE_FT	3	3	0	1.000000
 pro league	OH Leuven	HT1X_HOME	3	3	0	1.000000
-serie b	Modena	HT1X_HOME	3	3	0	1.000000
 super league switzerland	FC Lugano	TEAM1_SCORE_FT	3	3	0	1.000000
 super league switzerland	FC Lugano	HT1X_HOME	3	3	0	1.000000
 super league switzerland	Lausanne	TEAM1_SCORE_FT	3	3	0	1.000000
@@ -469,42 +443,37 @@ super league switzerland	Lausanne	HT1X_HOME	3	3	0	1.000000
 super lig	Başakşehir	TEAM2_SCORE_FT	3	3	0	1.000000
 super lig	Fatih Karagümrük	HT1X_HOME	3	3	0	1.000000
 superligaen	Nyiregyhaza	TEAM1_SCORE_FT	3	3	0	1.000000
+superligaen	Kisvarda FC	TEAM1_SCORE_FT	3	3	0	1.000000
 superligaen	MTK Budapest	TEAM2_SCORE_FT	3	3	0	1.000000
 2. bundesliga	FC Schalke 04	TEAM1_SCORE_FT	3	3	0	1.000000
 2. bundesliga	FC Schalke 04	HT1X_HOME	3	3	0	1.000000
 2. bundesliga	SC Paderborn 07	TEAM1_SCORE_FT	3	3	0	1.000000
 2. bundesliga	VfL Bochum	TEAM2_SCORE_FT	3	3	0	1.000000
-championship	Portsmouth	HT1X_HOME	3	3	0	1.000000
 eredivisie	Feyenoord	TEAM1_SCORE_FT	3	3	0	1.000000
 eredivisie	Feyenoord	HT1X_HOME	3	3	0	1.000000
-eredivisie	Sparta Rotterdam	TEAM2_SCORE_FT	3	3	0	1.000000
-laliga	Barcelona	TEAM1_SCORE_FT	3	3	0	1.000000
-laliga	Barcelona	HT1X_HOME	3	3	0	1.000000
 liga portugal	Famalicao	TEAM1_SCORE_FT	3	3	0	1.000000
 liga portugal	Famalicao	HT1X_HOME	3	3	0	1.000000
 liga portugal	SC Braga	TEAM1_SCORE_FT	3	3	0	1.000000
 liga portugal	SC Braga	HT1X_HOME	3	3	0	1.000000
-liga portugal 2	Torreense	TEAM1_SCORE_FT	3	3	0	1.000000
-liga portugal 2	Torreense	HT1X_HOME	3	3	0	1.000000
 premiership	Rangers	TEAM1_SCORE_FT	3	3	0	1.000000
 premiership	Rangers	HT1X_HOME	3	3	0	1.000000
 pro league	Charleroi	TEAM2_SCORE_FT	3	3	0	1.000000
-pro league	KV Mechelen	TEAM1_SCORE_FT	3	3	0	1.000000
+pro league	Anderlecht	HT1X_HOME	3	3	0	1.000000
 pro league	KVC Westerlo	TEAM2_SCORE_FT	3	3	0	1.000000
 serie b	Catanzaro	HT1X_HOME	3	3	0	1.000000
-super league switzerland	FC Thun	TEAM1_SCORE_FT	3	3	0	1.000000
-super league switzerland	FC Thun	HT1X_HOME	3	3	0	1.000000
 super league switzerland	Servette FC	TEAM2_SCORE_FT	3	3	0	1.000000
-super league switzerland	FC ST. Gallen	HT1X_HOME	3	3	0	1.000000
 super league switzerland	FC Zurich	TEAM1_SCORE_FT	3	3	0	1.000000
 super lig	Antalyaspor	TEAM1_SCORE_FT	3	3	0	1.000000
 super lig	Antalyaspor	HT1X_HOME	3	3	0	1.000000
+super lig	Alanyaspor	TEAM2_SCORE_FT	3	3	0	1.000000
 super lig	Fenerbahçe	TEAM1_SCORE_FT	3	3	0	1.000000
 super lig	Fenerbahçe	HT1X_HOME	3	3	0	1.000000
 superligaen	Debreceni VSC	TEAM1_SCORE_FT	3	3	0	1.000000
 superligaen	Diosgyori VTK	TEAM2_SCORE_FT	3	3	0	1.000000
+superligaen	Zalaegerszegi TE	TEAM2_SCORE_FT	3	3	0	1.000000
 superligaen	Gyori ETO FC	TEAM2_SCORE_FT	3	3	0	1.000000
 super lig	Eyüpspor	TEAM1_SCORE_FT	3	3	0	1.000000
+super lig	Beşiktaş	TEAM2_SCORE_FT	3	3	0	1.000000
 liga profesional argentina	Huracan	TEAM1_SCORE_FT	3	3	0	1.000000
 liga profesional argentina	Independ. Rivadavia	TEAM2_SCORE_FT	3	3	0	1.000000
 liga profesional argentina	Huracan	HT1X_HOME	3	3	0	1.000000
@@ -514,8 +483,6 @@ primera división paraguay	Club Sp. San Lorenzo	HT1X_HOME	3	3	0	1.000000
 liga profesional argentina	Atletico Tucuman	HT1X_HOME	3	3	0	1.000000
 liga profesional argentina	Racing Club	TEAM1_SCORE_FT	3	3	0	1.000000
 liga profesional argentina	Rosario Central	TEAM2_SCORE_FT	3	3	0	1.000000
-primera a colombia	Alianza Valledupar	TEAM1_SCORE_FT	3	3	0	1.000000
-primera a colombia	Alianza Valledupar	HT1X_HOME	3	3	0	1.000000
 serie a brazil	Vitoria	O15_FT	3	3	0	1.000000
 liga profesional argentina	Estudiantes L.P.	TEAM1_SCORE_FT	3	3	0	1.000000
 liga profesional argentina	Estudiantes L.P.	HT1X_HOME	3	3	0	1.000000
@@ -523,6 +490,7 @@ liga profesional argentina	Belgrano Cordoba	TEAM1_SCORE_FT	3	3	0	1.000000
 liga profesional argentina	Belgrano Cordoba	HT1X_HOME	3	3	0	1.000000
 primera a colombia	Deportivo Pasto	HT1X_HOME	3	3	0	1.000000
 primera división paraguay	Sportivo Trinidense	HT1X_HOME	3	3	0	1.000000
+2. bundesliga	Hannover 96	TEAM2_SCORE_FT	3	3	0	1.000000
 liga profesional argentina	Estudiantes de Rio Cuarto	HT1X_HOME	3	3	0	1.000000
 liga profesional argentina	Sarmiento Junin	TEAM1_SCORE_FT	3	3	0	1.000000
 ligue 2	Montpellier	HT1X_HOME	3	3	0	1.000000
@@ -530,15 +498,21 @@ primera a colombia	America de Cali	TEAM1_SCORE_FT	3	3	0	1.000000
 primera a colombia	Once Caldas	TEAM2_SCORE_FT	3	3	0	1.000000
 primera a colombia	America de Cali	HT1X_HOME	3	3	0	1.000000
 super lig	Trabzonspor	TEAM2_SCORE_FT	3	3	0	1.000000
+2. bundesliga	Holstein Kiel	TEAM1_SCORE_FT	3	3	0	1.000000
+2. bundesliga	1. FC Kaiserslautern	TEAM1_SCORE_FT	3	3	0	1.000000
 czech first league	FK Jablonec	HT1X_HOME	3	3	0	1.000000
+premier league	Everton	TEAM2_SCORE_FT	3	3	0	1.000000
 premier league	Newcastle	TEAM2_SCORE_FT	3	3	0	1.000000
 primera a colombia	Cucuta	TEAM1_SCORE_FT	3	3	0	1.000000
 primera a colombia	Fortaleza FC	TEAM2_SCORE_FT	3	3	0	1.000000
 primera división paraguay	Nacional Asuncion	HT1X_HOME	3	3	0	1.000000
 super league switzerland	Grasshoppers	TEAM1_SCORE_FT	3	3	0	1.000000
 super lig	Alanyaspor	TEAM1_SCORE_FT	3	3	0	1.000000
+super lig	Rizespor	TEAM2_SCORE_FT	3	3	0	1.000000
 super lig	Beşiktaş	TEAM1_SCORE_FT	3	3	0	1.000000
+super lig	Göztepe	HT1X_HOME	3	3	0	1.000000
 superligaen	MTK Budapest	TEAM1_SCORE_FT	3	3	0	1.000000
+superligaen	Gyori ETO FC	TEAM1_SCORE_FT	3	3	0	1.000000
 superligaen	Debreceni VSC	TEAM2_SCORE_FT	3	3	0	1.000000
 superligaen	Puskas Academy	TEAM2_SCORE_FT	3	3	0	1.000000
 superligaen	Ujpest	HT1X_HOME	3	3	0	1.000000
@@ -549,7 +523,6 @@ czech first league	Slavia Praha	TEAM2_SCORE_FT	3	3	0	1.000000
 eredivisie	Utrecht	TEAM2_SCORE_FT	3	3	0	1.000000
 laliga	Athletic Club	TEAM1_SCORE_FT	3	3	0	1.000000
 liga profesional argentina	Barracas Central	TEAM1_SCORE_FT	3	3	0	1.000000
-liga profesional argentina	Boca Juniors	HT1X_HOME	3	3	0	1.000000
 ligue 1	Strasbourg	TEAM1_SCORE_FT	3	3	0	1.000000
 ligue 1	Strasbourg	HT1X_HOME	3	3	0	1.000000
 primera a colombia	Bucaramanga	HT1X_HOME	3	3	0	1.000000
@@ -558,23 +531,29 @@ primera división paraguay	Sportivo Trinidense	TEAM2_SCORE_FT	3	3	0	1.000000
 primera división paraguay	Olimpia	HT1X_HOME	3	3	0	1.000000
 super league switzerland	FC Basel 1893	TEAM1_SCORE_FT	3	3	0	1.000000
 super league switzerland	FC Thun	TEAM2_SCORE_FT	3	3	0	1.000000
+superligaen	Diosgyori VTK	TEAM1_SCORE_FT	3	3	0	1.000000
 superligaen	Ferencvarosi TC	TEAM2_SCORE_FT	3	3	0	1.000000
 liga profesional argentina	Gimnasia L.P.	HT1X_HOME	3	3	0	1.000000
 liga profesional argentina	Defensa Y Justicia	HT1X_HOME	3	3	0	1.000000
 primera a colombia	Internacional de Bogota	HT1X_HOME	3	3	0	1.000000
 primera a colombia	Llaneros	HT1X_HOME	3	3	0	1.000000
 liga profesional argentina	Union Santa Fe	HT1X_HOME	3	3	0	1.000000
-primera a colombia	Junior	TEAM2_SCORE_FT	3	3	0	1.000000
 liga profesional argentina	Instituto Cordoba	TEAM1_SCORE_FT	3	3	0	1.000000
 liga profesional argentina	Instituto Cordoba	HT1X_HOME	3	3	0	1.000000
 primera a colombia	Atletico Nacional	TEAM1_SCORE_FT	3	3	0	1.000000
+primera a colombia	America de Cali	TEAM2_SCORE_FT	3	3	0	1.000000
 primera a colombia	Atletico Nacional	HT1X_HOME	3	3	0	1.000000
 liga profesional argentina	Central Cordoba de Santiago	HT1X_HOME	3	3	0	1.000000
+pro league	OH Leuven	TEAM2_SCORE_FT	3	3	0	1.000000
 serie b	Palermo	TEAM1_SCORE_FT	3	3	0	1.000000
 serie b	Palermo	HT1X_HOME	3	3	0	1.000000
 liga profesional argentina	Platense	HT1X_HOME	3	3	0	1.000000
 liga profesional argentina	Atletico Tucuman	TEAM2_SCORE_FT	3	3	0	1.000000
+primera división paraguay	Olimpia	TEAM2_SCORE_FT	3	3	0	1.000000
 liga profesional argentina	Velez Sarsfield	HT1X_HOME	3	3	0	1.000000
+primera a colombia	Once Caldas	TEAM1_SCORE_FT	3	3	0	1.000000
+primera a colombia	Once Caldas	HT1X_HOME	3	3	0	1.000000
+primera división paraguay	Sportivo Ameliano	HT1X_HOME	3	3	0	1.000000
 cymru premier league	GAP Connah S Quay FC	TEAM1_SCORE_FT	2	2	0	1.000000
 taça da liga	SC Braga	O15_FT	2	2	0	1.000000
 taça da liga	SC Braga	TEAM2_SCORE_FT	2	2	0	1.000000
@@ -623,7 +602,6 @@ fa cup	Aston Villa	HT05	2	2	0	1.000000
 fa cup	Chelsea	O15_FT	2	2	0	1.000000
 fa cup	Chelsea	TEAM2_SCORE_FT	2	2	0	1.000000
 fa cup	Chelsea	HT05	2	2	0	1.000000
-liga mx	Pachuca	TEAM2_SCORE_FT	2	2	0	1.000000
 coupe de france	Lens	O15_FT	2	2	0	1.000000
 coupe de france	Lens	TEAM2_SCORE_FT	2	2	0	1.000000
 coupe de france	Lens	HT05	2	2	0	1.000000
@@ -657,8 +635,6 @@ fa cup	Liverpool	O15_FT	2	2	0	1.000000
 fa cup	Liverpool	TEAM1_SCORE_FT	2	2	0	1.000000
 fa cup	Liverpool	HT05	2	2	0	1.000000
 fa cup	Liverpool	HT1X_HOME	2	2	0	1.000000
-liga mx	Atletico San Luis	TEAM1_SCORE_FT	2	2	0	1.000000
-liga mx	Atletico San Luis	HT1X_HOME	2	2	0	1.000000
 belgian cup	Charleroi	HT1X_HOME	2	2	0	1.000000
 copa del rey	Athletic Club	TEAM2_SCORE_FT	2	2	0	1.000000
 copa del rey	Atletico Madrid	TEAM2_SCORE_FT	2	2	0	1.000000
@@ -680,8 +656,6 @@ taça de portugal	Fafe	HT05	2	2	0	1.000000
 taça de portugal	Fafe	HT1X_HOME	2	2	0	1.000000
 copa del rey	Valencia	O15_FT	2	2	0	1.000000
 copa del rey	Valencia	HT05	2	2	0	1.000000
-liga mx	Club Queretaro	TEAM1_SCORE_FT	2	2	0	1.000000
-liga mx	Club Queretaro	HT1X_HOME	2	2	0	1.000000
 scottish cup	Rangers	O15_FT	2	2	0	1.000000
 scottish cup	Rangers	TEAM1_SCORE_FT	2	2	0	1.000000
 scottish cup	Rangers	HT05	2	2	0	1.000000
@@ -789,19 +763,11 @@ uefa europa league	Red Bull Salzburg	HT05	2	2	0	1.000000
 uefa europa league	FC Basel 1893	HT05	2	2	0	1.000000
 uefa europa league	Utrecht	O15_FT	2	2	0	1.000000
 uefa europa league	Genk	TEAM2_SCORE_FT	2	2	0	1.000000
-2. bundesliga	Arminia Bielefeld	TEAM1_SCORE_FT	2	2	0	1.000000
-pro league	Zulte Waregem	TEAM2_SCORE_FT	2	2	0	1.000000
-superligaen	Kisvarda FC	TEAM1_SCORE_FT	2	2	0	1.000000
-superligaen	Kisvarda FC	HT1X_HOME	2	2	0	1.000000
 superligaen	Puskas Academy	HT1X_HOME	2	2	0	1.000000
-pro league	Anderlecht	HT1X_HOME	2	2	0	1.000000
 super lig	Gazişehir Gaziantep	TEAM1_SCORE_FT	2	2	0	1.000000
 super lig	Gazişehir Gaziantep	HT1X_HOME	2	2	0	1.000000
-super lig	Alanyaspor	TEAM2_SCORE_FT	2	2	0	1.000000
-superligaen	Zalaegerszegi TE	TEAM2_SCORE_FT	2	2	0	1.000000
 superligaen	Ferencvarosi TC	TEAM1_SCORE_FT	2	2	0	1.000000
 superligaen	Ferencvarosi TC	HT1X_HOME	2	2	0	1.000000
-super lig	Beşiktaş	TEAM2_SCORE_FT	2	2	0	1.000000
 serie a brazil	Atletico-MG	TEAM1_SCORE_FT	2	2	0	1.000000
 serie a brazil	Palmeiras	TEAM2_SCORE_FT	2	2	0	1.000000
 serie a brazil	Atletico-MG	HT1X_HOME	2	2	0	1.000000
@@ -839,24 +805,11 @@ uefa europa league	Bologna	TEAM2_SCORE_FT	2	2	0	1.000000
 uefa europa league	Nottingham Forest	TEAM1_SCORE_FT	2	2	0	1.000000
 uefa europa league	Panathinaikos	TEAM1_SCORE_FT	2	2	0	1.000000
 uefa europa league	Panathinaikos	HT1X_HOME	2	2	0	1.000000
-2. bundesliga	Hannover 96	TEAM2_SCORE_FT	2	2	0	1.000000
 eredivisie	Twente	TEAM2_SCORE_FT	2	2	0	1.000000
-super lig	Kasımpaşa	HT1X_HOME	2	2	0	1.000000
-2. bundesliga	Holstein Kiel	TEAM1_SCORE_FT	2	2	0	1.000000
-2. bundesliga	1. FC Kaiserslautern	TEAM1_SCORE_FT	2	2	0	1.000000
-2. bundesliga	1. FC Kaiserslautern	HT1X_HOME	2	2	0	1.000000
 czech first league	Bohemians 1905	TEAM2_SCORE_FT	2	2	0	1.000000
 czech first league	Sigma Olomouc	TEAM1_SCORE_FT	2	2	0	1.000000
-premier league	Everton	TEAM2_SCORE_FT	2	2	0	1.000000
 pro league	St. Truiden	HT1X_HOME	2	2	0	1.000000
-super lig	Eyüpspor	TEAM2_SCORE_FT	2	2	0	1.000000
-super lig	Rizespor	TEAM2_SCORE_FT	2	2	0	1.000000
-super lig	Göztepe	HT1X_HOME	2	2	0	1.000000
-superligaen	Gyori ETO FC	TEAM1_SCORE_FT	2	2	0	1.000000
 czech first league	Plzen	TEAM2_SCORE_FT	2	2	0	1.000000
-czech first league	Slovan Liberec	TEAM1_SCORE_FT	2	2	0	1.000000
-czech first league	Slovan Liberec	HT1X_HOME	2	2	0	1.000000
-eredivisie	Heracles	HT1X_HOME	2	2	0	1.000000
 eredivisie	FC Volendam	TEAM1_SCORE_FT	2	2	0	1.000000
 laliga	Rayo Vallecano	TEAM2_SCORE_FT	2	2	0	1.000000
 liga profesional argentina	Talleres Cordoba	TEAM1_SCORE_FT	2	2	0	1.000000
@@ -865,7 +818,6 @@ ligue 1	Lyon	HT1X_HOME	2	2	0	1.000000
 ligue 1	Stade Brestois 29	TEAM2_SCORE_FT	2	2	0	1.000000
 super lig	Genclerbirligi	TEAM1_SCORE_FT	2	2	0	1.000000
 super lig	Genclerbirligi	HT1X_HOME	2	2	0	1.000000
-superligaen	Diosgyori VTK	TEAM1_SCORE_FT	2	2	0	1.000000
 superligaen	Nyiregyhaza	TEAM2_SCORE_FT	2	2	0	1.000000
 pro league	Dender	TEAM1_SCORE_FT	2	2	0	1.000000
 liga profesional argentina	Tigre	TEAM1_SCORE_FT	2	2	0	1.000000
@@ -882,7 +834,6 @@ serie a brazil	remo	TEAM1_SCORE_FT	2	2	0	1.000000
 serie a brazil	Mirassol	HT05	2	2	0	1.000000
 serie a brazil	remo	HT1X_HOME	2	2	0	1.000000
 serie a brazil	Santos	HT1X_HOME	2	2	0	1.000000
-primera a colombia	America de Cali	TEAM2_SCORE_FT	2	2	0	1.000000
 serie a brazil	Gremio	TEAM1_SCORE_FT	2	2	0	1.000000
 serie a brazil	Palmeiras	TEAM1_SCORE_FT	2	2	0	1.000000
 serie a brazil	Palmeiras	HT1X_HOME	2	2	0	1.000000
@@ -901,23 +852,33 @@ primera a colombia	Cucuta	TEAM2_SCORE_FT	2	2	0	1.000000
 primera a colombia	Deportes Tolima	HT1X_HOME	2	2	0	1.000000
 primera división paraguay	Rubio NU	HT1X_HOME	2	2	0	1.000000
 pro league	Charleroi	TEAM1_SCORE_FT	2	2	0	1.000000
-pro league	OH Leuven	TEAM2_SCORE_FT	2	2	0	1.000000
 liga profesional argentina	River Plate	TEAM1_SCORE_FT	2	2	0	1.000000
 czech first league	Hradec Králové	HT1X_HOME	2	2	0	1.000000
 czech first league	Bohemians 1905	TEAM1_SCORE_FT	2	2	0	1.000000
 czech first league	Bohemians 1905	HT1X_HOME	2	2	0	1.000000
 czech first league	Plzen	HT1X_HOME	2	2	0	1.000000
 super lig	Konyaspor	HT1X_HOME	2	2	0	1.000000
-primera división paraguay	Olimpia	TEAM2_SCORE_FT	2	2	0	1.000000
-primera a colombia	Jaguares	HT1X_HOME	2	2	0	1.000000
 primera a colombia	Chico	HT1X_HOME	2	2	0	1.000000
-primera a colombia	Once Caldas	TEAM1_SCORE_FT	2	2	0	1.000000
-primera a colombia	Once Caldas	HT1X_HOME	2	2	0	1.000000
-primera división paraguay	Sportivo Ameliano	HT1X_HOME	2	2	0	1.000000
+czech first league	Sparta Praha	TEAM1_SCORE_FT	2	2	0	1.000000
+czech first league	Sparta Praha	HT1X_HOME	2	2	0	1.000000
 primera división paraguay	Nacional Asuncion	TEAM2_SCORE_FT	2	2	0	1.000000
 serie a italia	Como	TEAM2_SCORE_FT	2	2	0	1.000000
+liga pro ecuador	Orense SC	O15_FT	2	2	0	1.000000
+liga pro ecuador	Orense SC	HT05	2	2	0	1.000000
+liga pro ecuador	Aucas	O15_FT	2	2	0	1.000000
+liga pro ecuador	Aucas	HT05	2	2	0	1.000000
+mls	Chicago Fire	O15_FT	2	2	0	1.000000
+mls	Chicago Fire	HT05	2	2	0	1.000000
+mls	Portland Timbers	O15_FT	2	2	0	1.000000
+mls	Portland Timbers	HT05	2	2	0	1.000000
+mls	CF Montreal	O15_FT	2	2	0	1.000000
+mls	CF Montreal	HT05	2	2	0	1.000000
 primera a colombia	Santa Fe	TEAM1_SCORE_FT	2	2	0	1.000000
 primera a colombia	Santa Fe	HT1X_HOME	2	2	0	1.000000
+liga pro ecuador	Guayaquil City FC	O15_FT	2	2	0	1.000000
+liga pro ecuador	Guayaquil City FC	HT05	2	2	0	1.000000
+mls	Colorado Rapids	O15_FT	2	2	0	1.000000
+mls	Colorado Rapids	HT05	2	2	0	1.000000
 taça da liga	Benfica	O15_FT	1	1	0	1.000000
 taça da liga	Benfica	TEAM1_SCORE_FT	1	1	0	1.000000
 taça da liga	Benfica	HT05	1	1	0	1.000000
@@ -1363,9 +1324,6 @@ fa cup	Southampton	HT1X_HOME	1	1	0	1.000000
 fa cup	Aston Villa	TEAM1_SCORE_FT	1	1	0	1.000000
 fa cup	Newcastle	TEAM2_SCORE_FT	1	1	0	1.000000
 fa cup	Aston Villa	HT1X_HOME	1	1	0	1.000000
-czech first league	FK Jablonec	TEAM2_SCORE_FT	1	1	0	1.000000
-czech first league	Sparta Praha	TEAM1_SCORE_FT	1	1	0	1.000000
-czech first league	Sparta Praha	HT1X_HOME	1	1	0	1.000000
 fa cup	Birmingham	TEAM1_SCORE_FT	1	1	0	1.000000
 fa cup	Birmingham	HT1X_HOME	1	1	0	1.000000
 fa cup	Wolves	TEAM2_SCORE_FT	1	1	0	1.000000
@@ -1377,17 +1335,13 @@ scottish cup	Aberdeen	O15_FT	1	1	0	1.000000
 scottish cup	Aberdeen	TEAM1_SCORE_FT	1	1	0	1.000000
 scottish cup	Aberdeen	HT05	1	1	0	1.000000
 scottish cup	Aberdeen	HT1X_HOME	1	1	0	1.000000
-liga pro ecuador	Orense SC	O15_FT	1	1	0	1.000000
 liga pro ecuador	LDU de Quito	O15_FT	1	1	0	1.000000
 liga pro ecuador	Orense SC	TEAM1_SCORE_FT	1	1	0	1.000000
 liga pro ecuador	LDU de Quito	TEAM2_SCORE_FT	1	1	0	1.000000
-liga pro ecuador	Orense SC	HT05	1	1	0	1.000000
 liga pro ecuador	LDU de Quito	HT05	1	1	0	1.000000
-liga pro ecuador	Aucas	O15_FT	1	1	0	1.000000
 liga pro ecuador	Mushuc Runa SC	O15_FT	1	1	0	1.000000
 liga pro ecuador	Aucas	TEAM1_SCORE_FT	1	1	0	1.000000
 liga pro ecuador	Mushuc Runa SC	TEAM2_SCORE_FT	1	1	0	1.000000
-liga pro ecuador	Aucas	HT05	1	1	0	1.000000
 liga pro ecuador	Mushuc Runa SC	HT05	1	1	0	1.000000
 liga pro ecuador	Aucas	HT1X_HOME	1	1	0	1.000000
 liga pro ecuador	Barcelona SC	TEAM1_SCORE_FT	1	1	0	1.000000
@@ -1397,7 +1351,6 @@ mls	Charlotte	O15_FT	1	1	0	1.000000
 mls	St. Louis City	TEAM1_SCORE_FT	1	1	0	1.000000
 mls	Charlotte	TEAM2_SCORE_FT	1	1	0	1.000000
 mls	St. Louis City	HT1X_HOME	1	1	0	1.000000
-mls	FC Cincinnati	O15_FT	1	1	0	1.000000
 mls	Atlanta United FC	O15_FT	1	1	0	1.000000
 mls	FC Cincinnati	TEAM1_SCORE_FT	1	1	0	1.000000
 mls	FC Cincinnati	HT1X_HOME	1	1	0	1.000000
@@ -1411,19 +1364,15 @@ mls	DC United	HT05	1	1	0	1.000000
 mls	Philadelphia Union	HT05	1	1	0	1.000000
 mls	DC United	HT1X_HOME	1	1	0	1.000000
 mls	Orlando City SC	O15_FT	1	1	0	1.000000
-mls	New York Red Bulls	O15_FT	1	1	0	1.000000
 mls	Orlando City SC	TEAM1_SCORE_FT	1	1	0	1.000000
 mls	New York Red Bulls	TEAM2_SCORE_FT	1	1	0	1.000000
 mls	Orlando City SC	HT05	1	1	0	1.000000
-mls	New York Red Bulls	HT05	1	1	0	1.000000
 mls	Vancouver Whitecaps	TEAM1_SCORE_FT	1	1	0	1.000000
 mls	Vancouver Whitecaps	HT1X_HOME	1	1	0	1.000000
 mls	Austin	O15_FT	1	1	0	1.000000
-mls	Minnesota United FC	O15_FT	1	1	0	1.000000
 mls	Austin	TEAM1_SCORE_FT	1	1	0	1.000000
 mls	Minnesota United FC	TEAM2_SCORE_FT	1	1	0	1.000000
 mls	Austin	HT05	1	1	0	1.000000
-mls	Minnesota United FC	HT05	1	1	0	1.000000
 mls	Austin	HT1X_HOME	1	1	0	1.000000
 mls	FC Dallas	O15_FT	1	1	0	1.000000
 mls	Toronto FC	O15_FT	1	1	0	1.000000
@@ -1433,17 +1382,12 @@ mls	FC Dallas	HT05	1	1	0	1.000000
 mls	Toronto FC	HT05	1	1	0	1.000000
 mls	FC Dallas	HT1X_HOME	1	1	0	1.000000
 mls	Houston Dynamo	O15_FT	1	1	0	1.000000
-mls	Chicago Fire	O15_FT	1	1	0	1.000000
 mls	Houston Dynamo	TEAM1_SCORE_FT	1	1	0	1.000000
 mls	Chicago Fire	TEAM2_SCORE_FT	1	1	0	1.000000
 mls	Houston Dynamo	HT05	1	1	0	1.000000
-mls	Chicago Fire	HT05	1	1	0	1.000000
 mls	Nashville SC	O15_FT	1	1	0	1.000000
-mls	New England Revolution	O15_FT	1	1	0	1.000000
 mls	Nashville SC	TEAM1_SCORE_FT	1	1	0	1.000000
-mls	New England Revolution	TEAM2_SCORE_FT	1	1	0	1.000000
 mls	Nashville SC	HT05	1	1	0	1.000000
-mls	New England Revolution	HT05	1	1	0	1.000000
 mls	Nashville SC	HT1X_HOME	1	1	0	1.000000
 mls	Los Angeles FC	O15_FT	1	1	0	1.000000
 mls	Inter Miami	O15_FT	1	1	0	1.000000
@@ -1451,18 +1395,14 @@ mls	Los Angeles FC	TEAM1_SCORE_FT	1	1	0	1.000000
 mls	Los Angeles FC	HT05	1	1	0	1.000000
 mls	Inter Miami	HT05	1	1	0	1.000000
 mls	Los Angeles FC	HT1X_HOME	1	1	0	1.000000
-mls	Portland Timbers	O15_FT	1	1	0	1.000000
 mls	Columbus Crew	O15_FT	1	1	0	1.000000
 mls	Portland Timbers	TEAM1_SCORE_FT	1	1	0	1.000000
 mls	Columbus Crew	TEAM2_SCORE_FT	1	1	0	1.000000
-mls	Portland Timbers	HT05	1	1	0	1.000000
 mls	Columbus Crew	HT05	1	1	0	1.000000
 mls	Portland Timbers	HT1X_HOME	1	1	0	1.000000
 mls	San Diego	O15_FT	1	1	0	1.000000
-mls	CF Montreal	O15_FT	1	1	0	1.000000
 mls	San Diego	TEAM1_SCORE_FT	1	1	0	1.000000
 mls	San Diego	HT05	1	1	0	1.000000
-mls	CF Montreal	HT05	1	1	0	1.000000
 mls	San Diego	HT1X_HOME	1	1	0	1.000000
 mls	San Jose Earthquakes	O15_FT	1	1	0	1.000000
 mls	Sporting Kansas City	O15_FT	1	1	0	1.000000
@@ -1474,10 +1414,8 @@ super lig	Gaziantep FK	O15_FT	1	1	0	1.000000
 super lig	Gaziantep FK	TEAM1_SCORE_FT	1	1	0	1.000000
 super lig	Gaziantep FK	HT05	1	1	0	1.000000
 liga pro ecuador	Independiente del Valle	O15_FT	1	1	0	1.000000
-liga pro ecuador	Guayaquil City FC	O15_FT	1	1	0	1.000000
 liga pro ecuador	Independiente del Valle	TEAM1_SCORE_FT	1	1	0	1.000000
 liga pro ecuador	Independiente del Valle	HT05	1	1	0	1.000000
-liga pro ecuador	Guayaquil City FC	HT05	1	1	0	1.000000
 liga pro ecuador	Independiente del Valle	HT1X_HOME	1	1	0	1.000000
 mls	Los Angeles Galaxy	O15_FT	1	1	0	1.000000
 mls	New York City FC	O15_FT	1	1	0	1.000000
@@ -1487,322 +1425,355 @@ mls	Los Angeles Galaxy	HT05	1	1	0	1.000000
 mls	New York City FC	HT05	1	1	0	1.000000
 mls	Los Angeles Galaxy	HT1X_HOME	1	1	0	1.000000
 mls	Seattle Sounders	O15_FT	1	1	0	1.000000
-mls	Colorado Rapids	O15_FT	1	1	0	1.000000
 mls	Seattle Sounders	TEAM1_SCORE_FT	1	1	0	1.000000
 mls	Seattle Sounders	HT05	1	1	0	1.000000
-mls	Colorado Rapids	HT05	1	1	0	1.000000
 mls	Seattle Sounders	HT1X_HOME	1	1	0	1.000000
 liga pro ecuador	Libertad	TEAM1_SCORE_FT	1	1	0	1.000000
 liga pro ecuador	Libertad	HT1X_HOME	1	1	0	1.000000
 serie a brazil	Vasco DA Gama	TEAM2_SCORE_FT	1	1	0	1.000000
+liga pro ecuador	Tecnico Universitario	TEAM1_SCORE_FT	1	1	0	1.000000
+liga pro ecuador	Orense SC	TEAM2_SCORE_FT	1	1	0	1.000000
+liga pro ecuador	Leones del Norte	TEAM1_SCORE_FT	1	1	0	1.000000
+liga pro ecuador	Libertad	TEAM2_SCORE_FT	1	1	0	1.000000
+liga pro ecuador	Leones del Norte	HT1X_HOME	1	1	0	1.000000
+liga pro ecuador	Guayaquil City FC	TEAM1_SCORE_FT	1	1	0	1.000000
+liga pro ecuador	Aucas	TEAM2_SCORE_FT	1	1	0	1.000000
+liga pro ecuador	Guayaquil City FC	HT1X_HOME	1	1	0	1.000000
+mls	Chicago Fire	TEAM1_SCORE_FT	1	1	0	1.000000
+mls	Chicago Fire	HT1X_HOME	1	1	0	1.000000
+mls	New York Red Bulls	TEAM1_SCORE_FT	1	1	0	1.000000
+mls	New York Red Bulls	HT1X_HOME	1	1	0	1.000000
+mls	Colorado Rapids	TEAM1_SCORE_FT	1	1	0	1.000000
+mls	Colorado Rapids	HT1X_HOME	1	1	0	1.000000
+mls	Minnesota United FC	TEAM1_SCORE_FT	1	1	0	1.000000
+mls	Minnesota United FC	HT1X_HOME	1	1	0	1.000000
+serie a italia	Hellas Verona	O15_FT	1	1	0	1.000000
+serie a italia	Hellas Verona	TEAM1_SCORE_FT	1	1	0	1.000000
+serie a italia	Hellas Verona	HT05	1	1	0	1.000000
 saudi arabia	Al-Fateh	O15_FT	13	12	1	0.923077
-saudi arabia	Al-Fayha	O15_FT	12	11	1	0.916667
+saudi arabia	Al-Fayha	O15_FT	13	12	1	0.923077
 saudi arabia	Al-Hilal Saudi FC	O15_FT	12	11	1	0.916667
 saudi arabia	Al-Hilal Saudi FC	HT05	12	11	1	0.916667
-championship	Wrexham	O15_FT	10	9	1	0.900000
-championship	Coventry	O15_FT	10	9	1	0.900000
-championship	Norwich	O15_FT	10	9	1	0.900000
-championship	Millwall	O15_FT	10	9	1	0.900000
+championship	Coventry	O15_FT	11	10	1	0.909091
+championship	Norwich	O15_FT	11	10	1	0.909091
+championship	Millwall	O15_FT	11	10	1	0.909091
+serie a italia	Napoli	HT05	11	10	1	0.909091
 championship	Watford	O15_FT	10	9	1	0.900000
 championship	Birmingham	O15_FT	10	9	1	0.900000
-serie a italia	Napoli	HT05	10	9	1	0.900000
-championship	Leicester	HT05	9	8	1	0.888889
+laliga	Villarreal	O15_FT	10	9	1	0.900000
+premiership	Livingston	O15_FT	10	9	1	0.900000
+premiership	Livingston	HT05	10	9	1	0.900000
+championship	Ipswich	HT05	9	8	1	0.888889
 premier league	Fulham	O15_FT	9	8	1	0.888889
 premier league	Tottenham	O15_FT	9	8	1	0.888889
 premier league	Tottenham	HT05	9	8	1	0.888889
-premier league	Manchester City	O15_FT	9	8	1	0.888889
-laliga	Villarreal	O15_FT	9	8	1	0.888889
 laliga2	Almeria	O15_FT	9	8	1	0.888889
-premiership	Livingston	O15_FT	9	8	1	0.888889
-premiership	Livingston	HT05	9	8	1	0.888889
+liga portugal 2	União de Leiria	O15_FT	9	8	1	0.888889
+premiership	Kilmarnock	HT05	9	8	1	0.888889
+serie a italia	Genoa	O15_FT	9	8	1	0.888889
+laliga	Mallorca	O15_FT	9	8	1	0.888889
+laliga	Mallorca	HT05	9	8	1	0.888889
+bundesliga	1. FC Heidenheim	O15_FT	9	8	1	0.888889
 bundesliga	1. FC Köln	O15_FT	9	8	1	0.888889
 bundesliga	1. FC Köln	HT05	9	8	1	0.888889
-championship	Hull City	HT05	8	7	1	0.875000
-championship	Ipswich	HT05	8	7	1	0.875000
+bundesliga	FSV Mainz 05	HT05	9	8	1	0.888889
+serie b	Reggiana	HT05	9	8	1	0.888889
+serie b	Venezia	HT05	9	8	1	0.888889
+serie b	Juve Stabia	HT05	9	8	1	0.888889
+serie b	Cesena	O15_FT	9	8	1	0.888889
+bundesliga	1899 Hoffenheim	HT05	9	8	1	0.888889
 liga portugal	Sporting CP	O15_FT	8	7	1	0.875000
+saudi arabia	Al Najma	TEAM1_SCORE_FT	8	7	1	0.875000
 laliga	Osasuna	HT05	8	7	1	0.875000
+laliga	Athletic Club	HT05	8	7	1	0.875000
 laliga2	Real Sociedad II	O15_FT	8	7	1	0.875000
-laliga2	Valladolid	O15_FT	8	7	1	0.875000
 liga portugal	Arouca	O15_FT	8	7	1	0.875000
 liga portugal	Arouca	HT05	8	7	1	0.875000
-liga portugal 2	União de Leiria	HT05	8	7	1	0.875000
+ligue 2	PAU	O15_FT	8	7	1	0.875000
 ligue 2	Annecy	O15_FT	8	7	1	0.875000
+premier league	West Ham	O15_FT	8	7	1	0.875000
+premier league	Bournemouth	O15_FT	8	7	1	0.875000
+premier league	Bournemouth	HT05	8	7	1	0.875000
 premiership	Celtic	O15_FT	8	7	1	0.875000
 premiership	Rangers	O15_FT	8	7	1	0.875000
-premiership	Kilmarnock	HT05	8	7	1	0.875000
+premiership	Motherwell	HT05	8	7	1	0.875000
 saudi arabia	Al-Fateh	TEAM1_SCORE_FT	8	7	1	0.875000
-serie a italia	Genoa	O15_FT	8	7	1	0.875000
 serie a italia	Sassuolo	HT05	8	7	1	0.875000
 serie a italia	Juventus	O15_FT	8	7	1	0.875000
 serie a italia	Juventus	HT05	8	7	1	0.875000
 laliga	Real Betis	O15_FT	8	7	1	0.875000
-laliga	Mallorca	HT05	8	7	1	0.875000
+laliga	Real Sociedad	O15_FT	8	7	1	0.875000
 laliga2	Sporting Gijon	O15_FT	8	7	1	0.875000
 laliga2	AD Ceuta FC	HT05	8	7	1	0.875000
 laliga2	Leganes	O15_FT	8	7	1	0.875000
+liga portugal	Alverca	O15_FT	8	7	1	0.875000
+liga portugal 2	Sporting CP B	HT05	8	7	1	0.875000
+ligue 1	Paris Saint Germain	HT05	8	7	1	0.875000
 premier league	Manchester United	O15_FT	8	7	1	0.875000
+premier league	Everton	O15_FT	8	7	1	0.875000
+premier league	Newcastle	HT05	8	7	1	0.875000
 premier league	Chelsea	HT05	8	7	1	0.875000
 serie a italia	Torino	O15_FT	8	7	1	0.875000
 bundesliga	Eintracht Frankfurt	HT05	8	7	1	0.875000
-bundesliga	1. FC Heidenheim	O15_FT	8	7	1	0.875000
+bundesliga	Bayer Leverkusen	HT05	8	7	1	0.875000
 eredivisie	Excelsior	O15_FT	8	7	1	0.875000
+eredivisie	PSV Eindhoven	HT05	8	7	1	0.875000
 serie b	Frosinone	O15_FT	8	7	1	0.875000
 serie b	Catanzaro	O15_FT	8	7	1	0.875000
-serie b	Reggiana	HT05	8	7	1	0.875000
-serie b	Cesena	O15_FT	8	7	1	0.875000
-bundesliga	Borussia Mönchengladbach	O15_FT	8	7	1	0.875000
+liga mx	Mazatlán	O15_FT	8	7	1	0.875000
 bundesliga	FC Augsburg	O15_FT	8	7	1	0.875000
 bundesliga	VfL Wolfsburg	O15_FT	8	7	1	0.875000
 bundesliga	VfL Wolfsburg	HT05	8	7	1	0.875000
 eredivisie	Telstar	O15_FT	8	7	1	0.875000
 serie b	Mantova	O15_FT	8	7	1	0.875000
-bundesliga	FC St. Pauli	O15_FT	8	7	1	0.875000
-bundesliga	1899 Hoffenheim	O15_FT	8	7	1	0.875000
-bundesliga	1899 Hoffenheim	HT05	8	7	1	0.875000
 super league switzerland	Lausanne	O15_FT	8	7	1	0.875000
+eredivisie	NEC Nijmegen	HT05	8	7	1	0.875000
+super league switzerland	FC Luzern	O15_FT	8	7	1	0.875000
+super league switzerland	FC Luzern	HT05	8	7	1	0.875000
+super league switzerland	FC ST. Gallen	O15_FT	8	7	1	0.875000
+super league switzerland	FC ST. Gallen	HT05	8	7	1	0.875000
 laliga2	Mirandes	O15_FT	7	6	1	0.857143
-saudi arabia	Al Najma	TEAM1_SCORE_FT	7	6	1	0.857143
+liga portugal	Guimaraes	O15_FT	7	6	1	0.857143
 saudi arabia	Al Khaleej Saihat	TEAM2_SCORE_FT	7	6	1	0.857143
-laliga	Athletic Club	HT05	7	6	1	0.857143
 laliga	Elche	O15_FT	7	6	1	0.857143
-laliga2	Granada CF	HT05	7	6	1	0.857143
-laliga2	Huesca	O15_FT	7	6	1	0.857143
 liga portugal	Benfica	O15_FT	7	6	1	0.857143
 liga portugal	Benfica	HT05	7	6	1	0.857143
 liga portugal	Estoril	HT05	7	6	1	0.857143
-liga portugal	AVS	O15_FT	7	6	1	0.857143
 ligue 1	Nice	O15_FT	7	6	1	0.857143
 ligue 1	Nice	HT05	7	6	1	0.857143
-ligue 2	RED Star FC 93	O15_FT	7	6	1	0.857143
-ligue 2	PAU	O15_FT	7	6	1	0.857143
-ligue 2	Rodez	O15_FT	7	6	1	0.857143
-premier league	West Ham	O15_FT	7	6	1	0.857143
-premier league	Bournemouth	O15_FT	7	6	1	0.857143
-premier league	Bournemouth	HT05	7	6	1	0.857143
-premiership	Motherwell	HT05	7	6	1	0.857143
-laliga	Oviedo	O15_FT	7	6	1	0.857143
-laliga2	Malaga	O15_FT	7	6	1	0.857143
-laliga2	Malaga	HT05	7	6	1	0.857143
+ligue 1	Rennes	O15_FT	7	6	1	0.857143
+ligue 1	Rennes	HT05	7	6	1	0.857143
+saudi arabia	Al-Fayha	TEAM1_SCORE_FT	7	6	1	0.857143
+serie a italia	Como	TEAM1_SCORE_FT	7	6	1	0.857143
+serie a italia	Como	HT1X_HOME	7	6	1	0.857143
 laliga2	Las Palmas	O15_FT	7	6	1	0.857143
 laliga2	Cadiz	O15_FT	7	6	1	0.857143
 laliga2	Cadiz	HT05	7	6	1	0.857143
 liga portugal	Rio Ave	O15_FT	7	6	1	0.857143
 liga portugal	Casa Pia	O15_FT	7	6	1	0.857143
 liga portugal	Rio Ave	HT05	7	6	1	0.857143
-liga portugal	Alverca	O15_FT	7	6	1	0.857143
-liga portugal 2	Sporting CP B	O15_FT	7	6	1	0.857143
-liga portugal 2	Sporting CP B	HT05	7	6	1	0.857143
-ligue 1	Paris Saint Germain	O15_FT	7	6	1	0.857143
-ligue 1	Paris Saint Germain	HT05	7	6	1	0.857143
-premier league	Everton	O15_FT	7	6	1	0.857143
-premier league	Newcastle	HT05	7	6	1	0.857143
+ligue 1	Le Havre	HT05	7	6	1	0.857143
 saudi arabia	Al-Hazm	TEAM1_SCORE_FT	7	6	1	0.857143
 saudi arabia	Al-Hazm	HT1X_HOME	7	6	1	0.857143
 saudi arabia	Al-Ittihad FC	TEAM2_SCORE_FT	7	6	1	0.857143
-bundesliga	Union Berlin	O15_FT	7	6	1	0.857143
-bundesliga	Union Berlin	HT05	7	6	1	0.857143
 bundesliga	VfB Stuttgart	O15_FT	7	6	1	0.857143
 bundesliga	VfB Stuttgart	HT05	7	6	1	0.857143
 eredivisie	PEC Zwolle	HT05	7	6	1	0.857143
-eredivisie	PSV Eindhoven	HT05	7	6	1	0.857143
 saudi arabia	Al-Ahli Jeddah	TEAM2_SCORE_FT	7	6	1	0.857143
 serie b	Pescara	O15_FT	7	6	1	0.857143
 serie b	Pescara	HT05	7	6	1	0.857143
+eredivisie	Heerenveen	HT05	7	6	1	0.857143
 eredivisie	GO Ahead Eagles	O15_FT	7	6	1	0.857143
 eredivisie	Ajax	HT05	7	6	1	0.857143
+eredivisie	Sparta Rotterdam	O15_FT	7	6	1	0.857143
+eredivisie	Heracles	O15_FT	7	6	1	0.857143
+eredivisie	Heracles	HT05	7	6	1	0.857143
 liga mx	Necaxa	O15_FT	7	6	1	0.857143
 liga mx	Necaxa	HT05	7	6	1	0.857143
+liga mx	U.N.A.M. - Pumas	O15_FT	7	6	1	0.857143
+liga mx	U.N.A.M. - Pumas	HT05	7	6	1	0.857143
 serie b	Palermo	O15_FT	7	6	1	0.857143
-super league switzerland	Servette FC	O15_FT	7	6	1	0.857143
-super league switzerland	Servette FC	HT05	7	6	1	0.857143
 pro league	RAAL La Louvière	O15_FT	7	6	1	0.857143
+2. bundesliga	SV Elversberg	HT05	7	6	1	0.857143
 2. bundesliga	Dynamo Dresden	O15_FT	7	6	1	0.857143
-eredivisie	NEC Nijmegen	HT05	7	6	1	0.857143
-super league switzerland	FC Luzern	O15_FT	7	6	1	0.857143
-super league switzerland	FC Luzern	HT05	7	6	1	0.857143
+2. bundesliga	FC Schalke 04	O15_FT	7	6	1	0.857143
+pro league	KV Mechelen	O15_FT	7	6	1	0.857143
 super league switzerland	BSC Young Boys	HT05	7	6	1	0.857143
 super lig	Başakşehir	HT05	7	6	1	0.857143
 super lig	Fatih Karagümrük	HT05	7	6	1	0.857143
-super league switzerland	FC ST. Gallen	O15_FT	7	6	1	0.857143
-super league switzerland	FC ST. Gallen	HT05	7	6	1	0.857143
+super league switzerland	FC Thun	O15_FT	7	6	1	0.857143
+primera a colombia	Junior	O15_FT	7	6	1	0.857143
+saudi arabia	Al Najma	O15_FT	13	11	2	0.846154
+saudi arabia	Al Najma	HT05	13	11	2	0.846154
+saudi arabia	Al-Nassr	O15_FT	13	11	2	0.846154
 saudi arabia	Al-Fateh	HT05	13	11	2	0.846154
+saudi arabia	Al-Fayha	HT05	13	11	2	0.846154
 saudi arabia	Damac	O15_FT	13	11	2	0.846154
 saudi arabia	Damac	HT05	13	11	2	0.846154
-saudi arabia	Al Najma	O15_FT	12	10	2	0.833333
-saudi arabia	Al Najma	HT05	12	10	2	0.833333
-saudi arabia	Al-Nassr	O15_FT	12	10	2	0.833333
-saudi arabia	Al-Fayha	HT05	12	10	2	0.833333
+saudi arabia	Al-Qadisiyah FC	O15_FT	12	10	2	0.833333
 saudi arabia	Al Riyadh	HT05	12	10	2	0.833333
-championship	Charlton	TEAM1_SCORE_FT	6	5	1	0.833333
+championship	QPR	TEAM1_SCORE_FT	6	5	1	0.833333
+championship	Norwich	TEAM2_SCORE_FT	6	5	1	0.833333
 championship	Southampton	TEAM1_SCORE_FT	6	5	1	0.833333
+championship	Millwall	TEAM2_SCORE_FT	6	5	1	0.833333
 championship	Southampton	HT1X_HOME	6	5	1	0.833333
 championship	Swansea	HT1X_HOME	6	5	1	0.833333
 championship	Watford	HT1X_HOME	6	5	1	0.833333
 cymru premier league	Flint Town United	O15_FT	6	5	1	0.833333
-liga portugal	Guimaraes	O15_FT	6	5	1	0.833333
 saudi arabia	Al-Ettifaq	TEAM1_SCORE_FT	6	5	1	0.833333
-liga portugal	Estrela	O15_FT	6	5	1	0.833333
-ligue 1	Rennes	HT05	6	5	1	0.833333
+laliga	Villarreal	TEAM2_SCORE_FT	6	5	1	0.833333
 premier league	Arsenal	TEAM2_SCORE_FT	6	5	1	0.833333
-saudi arabia	Al-Fayha	TEAM1_SCORE_FT	6	5	1	0.833333
+premiership	Falkirk	TEAM1_SCORE_FT	6	5	1	0.833333
+premiership	Falkirk	HT1X_HOME	6	5	1	0.833333
+premiership	Heart Of Midlothian	HT1X_HOME	6	5	1	0.833333
 saudi arabia	Al-Ittihad FC	TEAM1_SCORE_FT	6	5	1	0.833333
-serie a italia	Como	TEAM1_SCORE_FT	6	5	1	0.833333
-serie a italia	Como	HT1X_HOME	6	5	1	0.833333
 ligue 1	Nantes	O15_FT	6	5	1	0.833333
-ligue 1	Le Havre	HT05	6	5	1	0.833333
 ligue 1	Metz	HT05	6	5	1	0.833333
+serie a italia	Napoli	TEAM2_SCORE_FT	6	5	1	0.833333
 liga portugal 2	Lusitânia Lourosa	O15_FT	6	5	1	0.833333
 saudi arabia	Al-Hilal Saudi FC	TEAM1_SCORE_FT	6	5	1	0.833333
 saudi arabia	Al-Hilal Saudi FC	HT1X_HOME	6	5	1	0.833333
 saudi arabia	Al Khaleej Saihat	HT1X_HOME	6	5	1	0.833333
 eredivisie	Twente	O15_FT	6	5	1	0.833333
 eredivisie	Groningen	O15_FT	6	5	1	0.833333
-eredivisie	Heerenveen	HT05	6	5	1	0.833333
+serie b	Avellino	HT1X_HOME	6	5	1	0.833333
+liga mx	Pachuca	HT05	6	5	1	0.833333
+liga mx	FC Juarez	O15_FT	6	5	1	0.833333
+liga mx	FC Juarez	HT05	6	5	1	0.833333
+premiership	Livingston	TEAM1_SCORE_FT	6	5	1	0.833333
 eredivisie	Feyenoord	HT05	6	5	1	0.833333
-eredivisie	Sparta Rotterdam	O15_FT	6	5	1	0.833333
-eredivisie	Heracles	O15_FT	6	5	1	0.833333
-eredivisie	Heracles	HT05	6	5	1	0.833333
 laliga	Levante	HT1X_HOME	6	5	1	0.833333
 liga mx	Leon	O15_FT	6	5	1	0.833333
 liga mx	Cruz Azul	O15_FT	6	5	1	0.833333
 liga mx	Leon	HT05	6	5	1	0.833333
 liga mx	Cruz Azul	HT05	6	5	1	0.833333
-liga mx	U.N.A.M. - Pumas	O15_FT	6	5	1	0.833333
-liga mx	U.N.A.M. - Pumas	HT05	6	5	1	0.833333
+liga mx	Atletico San Luis	O15_FT	6	5	1	0.833333
 cymru premier league	Caernarfon Town	O15_FT	6	5	1	0.833333
 cymru premier league	Caernarfon Town	HT05	6	5	1	0.833333
 cymru premier league	Bala Town	O15_FT	6	5	1	0.833333
 saudi arabia	Al Shabab	TEAM1_SCORE_FT	6	5	1	0.833333
 2. bundesliga	Eintracht Braunschweig	HT05	6	5	1	0.833333
-2. bundesliga	Arminia Bielefeld	O15_FT	6	5	1	0.833333
-2. bundesliga	Arminia Bielefeld	HT05	6	5	1	0.833333
 pro league	Club Brugge KV	O15_FT	6	5	1	0.833333
 2. bundesliga	Preußen Münster	O15_FT	6	5	1	0.833333
 2. bundesliga	Karlsruher SC	O15_FT	6	5	1	0.833333
 2. bundesliga	Karlsruher SC	HT05	6	5	1	0.833333
 2. bundesliga	Hertha BSC	O15_FT	6	5	1	0.833333
-2. bundesliga	FC Schalke 04	O15_FT	6	5	1	0.833333
 2. bundesliga	Hertha BSC	HT05	6	5	1	0.833333
 pro league	KVC Westerlo	O15_FT	6	5	1	0.833333
 pro league	Cercle Brugge	O15_FT	6	5	1	0.833333
 pro league	Cercle Brugge	HT05	6	5	1	0.833333
-pro league	KV Mechelen	O15_FT	6	5	1	0.833333
 pro league	Union St. Gilloise	HT05	6	5	1	0.833333
 2. bundesliga	SV Darmstadt 98	HT05	6	5	1	0.833333
+super lig	Kasımpaşa	O15_FT	6	5	1	0.833333
 super lig	Trabzonspor	HT05	6	5	1	0.833333
+pro league	St. Truiden	O15_FT	6	5	1	0.833333
+pro league	OH Leuven	O15_FT	6	5	1	0.833333
 super league switzerland	Grasshoppers	O15_FT	6	5	1	0.833333
+superligaen	Ujpest	O15_FT	6	5	1	0.833333
+superligaen	Kisvarda FC	HT05	6	5	1	0.833333
 superligaen	MTK Budapest	HT05	6	5	1	0.833333
+2. bundesliga	1. FC Kaiserslautern	O15_FT	6	5	1	0.833333
+2. bundesliga	1. FC Kaiserslautern	HT05	6	5	1	0.833333
+2. bundesliga	SC Paderborn 07	O15_FT	6	5	1	0.833333
+2. bundesliga	SC Paderborn 07	HT05	6	5	1	0.833333
 2. bundesliga	VfL Bochum	O15_FT	6	5	1	0.833333
 2. bundesliga	VfL Bochum	HT05	6	5	1	0.833333
 eredivisie	Utrecht	HT05	6	5	1	0.833333
-super league switzerland	FC Thun	O15_FT	6	5	1	0.833333
+pro league	Antwerp	O15_FT	6	5	1	0.833333
+pro league	Antwerp	HT05	6	5	1	0.833333
 super lig	Konyaspor	O15_FT	6	5	1	0.833333
+super lig	Rizespor	HT05	6	5	1	0.833333
+super lig	Alanyaspor	HT05	6	5	1	0.833333
 superligaen	Debreceni VSC	O15_FT	6	5	1	0.833333
+superligaen	Gyori ETO FC	O15_FT	6	5	1	0.833333
+super lig	Beşiktaş	O15_FT	6	5	1	0.833333
+super lig	Beşiktaş	HT05	6	5	1	0.833333
 primera a colombia	Fortaleza FC	HT05	6	5	1	0.833333
 liga profesional argentina	Atletico Tucuman	O15_FT	6	5	1	0.833333
 liga profesional argentina	Atletico Tucuman	HT05	6	5	1	0.833333
 liga profesional argentina	Racing Club	O15_FT	6	5	1	0.833333
+primera a colombia	Chico	O15_FT	6	5	1	0.833333
+primera a colombia	America de Cali	O15_FT	6	5	1	0.833333
+primera a colombia	America de Cali	HT05	6	5	1	0.833333
 primera a colombia	Atletico Nacional	O15_FT	6	5	1	0.833333
 primera a colombia	Atletico Nacional	HT05	6	5	1	0.833333
+championship	Wrexham	O15_FT	11	9	2	0.818182
 championship	Bristol City	O15_FT	11	9	2	0.818182
 championship	Bristol City	HT05	11	9	2	0.818182
-saudi arabia	Al-Qadisiyah FC	O15_FT	11	9	2	0.818182
-championship	Derby	O15_FT	10	8	2	0.800000
-championship	Swansea	O15_FT	10	8	2	0.800000
+championship	Derby	O15_FT	11	9	2	0.818182
+championship	Swansea	O15_FT	11	9	2	0.818182
+serie a italia	Napoli	O15_FT	11	9	2	0.818182
+serie a italia	Inter	O15_FT	11	9	2	0.818182
+serie a italia	Inter	HT05	11	9	2	0.818182
 championship	Birmingham	HT05	10	8	2	0.800000
+championship	Leicester	HT05	10	8	2	0.800000
+premier league	Brentford	O15_FT	10	8	2	0.800000
+premier league	Brentford	HT05	10	8	2	0.800000
+premier league	Sunderland	O15_FT	10	8	2	0.800000
+premier league	Manchester City	O15_FT	10	8	2	0.800000
+premiership	ST Mirren	O15_FT	10	8	2	0.800000
 laliga	Levante	O15_FT	10	8	2	0.800000
-serie a italia	Napoli	O15_FT	10	8	2	0.800000
-serie a italia	Inter	O15_FT	10	8	2	0.800000
-serie a italia	Inter	HT05	10	8	2	0.800000
 championship	Middlesbrough	TEAM2_SCORE_FT	5	4	1	0.800000
-championship	Derby	HT1X_HOME	5	4	1	0.800000
 championship	Hull City	TEAM1_SCORE_FT	5	4	1	0.800000
-championship	Preston	HT1X_HOME	5	4	1	0.800000
-championship	Norwich	TEAM2_SCORE_FT	5	4	1	0.800000
-championship	QPR	HT1X_HOME	5	4	1	0.800000
-championship	Millwall	TEAM2_SCORE_FT	5	4	1	0.800000
 championship	Sheffield Utd	HT1X_HOME	5	4	1	0.800000
 premier league	Crystal Palace	TEAM1_SCORE_FT	5	4	1	0.800000
+premier league	Liverpool	TEAM1_SCORE_FT	5	4	1	0.800000
 premier league	Leeds	TEAM2_SCORE_FT	5	4	1	0.800000
-laliga	Villarreal	TEAM2_SCORE_FT	5	4	1	0.800000
+laliga	Rayo Vallecano	HT1X_HOME	5	4	1	0.800000
 laliga2	Real Sociedad II	TEAM2_SCORE_FT	5	4	1	0.800000
+laliga2	Castellón	HT1X_HOME	5	4	1	0.800000
+laliga2	Racing Santander	TEAM2_SCORE_FT	5	4	1	0.800000
+liga portugal 2	Portimonense	TEAM2_SCORE_FT	5	4	1	0.800000
+ligue 2	Rodez	TEAM2_SCORE_FT	5	4	1	0.800000
 premier league	Wolves	TEAM1_SCORE_FT	5	4	1	0.800000
+premier league	West Ham	TEAM2_SCORE_FT	5	4	1	0.800000
 premiership	Rangers	TEAM2_SCORE_FT	5	4	1	0.800000
-premiership	Falkirk	TEAM1_SCORE_FT	5	4	1	0.800000
-premiership	Falkirk	HT1X_HOME	5	4	1	0.800000
-premiership	Heart Of Midlothian	HT1X_HOME	5	4	1	0.800000
+premiership	Hibernian	TEAM2_SCORE_FT	5	4	1	0.800000
+premiership	Motherwell	HT1X_HOME	5	4	1	0.800000
 serie a italia	Juventus	TEAM1_SCORE_FT	5	4	1	0.800000
 serie a italia	Atalanta	HT1X_HOME	5	4	1	0.800000
 championship	Charlton	TEAM2_SCORE_FT	5	4	1	0.800000
 championship	Middlesbrough	TEAM1_SCORE_FT	5	4	1	0.800000
+championship	Southampton	TEAM2_SCORE_FT	5	4	1	0.800000
 championship	Norwich	TEAM1_SCORE_FT	5	4	1	0.800000
+laliga	Mallorca	TEAM1_SCORE_FT	5	4	1	0.800000
 laliga	Girona	TEAM2_SCORE_FT	5	4	1	0.800000
 laliga2	AD Ceuta FC	TEAM1_SCORE_FT	5	4	1	0.800000
 laliga2	AD Ceuta FC	HT1X_HOME	5	4	1	0.800000
+laliga2	Zaragoza	HT1X_HOME	5	4	1	0.800000
+ligue 1	Le Havre	HT1X_HOME	5	4	1	0.800000
 premier league	Everton	TEAM1_SCORE_FT	5	4	1	0.800000
+premier league	Brentford	TEAM2_SCORE_FT	5	4	1	0.800000
+premier league	Newcastle	TEAM1_SCORE_FT	5	4	1	0.800000
 premier league	Liverpool	TEAM2_SCORE_FT	5	4	1	0.800000
-serie a italia	Napoli	TEAM2_SCORE_FT	5	4	1	0.800000
 serie a italia	Napoli	TEAM1_SCORE_FT	5	4	1	0.800000
 serie a italia	Napoli	HT1X_HOME	5	4	1	0.800000
+liga portugal 2	Leixoes	TEAM2_SCORE_FT	5	4	1	0.800000
+bundesliga	FSV Mainz 05	TEAM2_SCORE_FT	5	4	1	0.800000
 eredivisie	AZ Alkmaar	HT1X_HOME	5	4	1	0.800000
 eredivisie	Excelsior	TEAM2_SCORE_FT	5	4	1	0.800000
-serie b	Avellino	TEAM1_SCORE_FT	5	4	1	0.800000
-serie b	Avellino	HT1X_HOME	5	4	1	0.800000
 serie b	Bari	TEAM2_SCORE_FT	5	4	1	0.800000
 serie b	Catanzaro	TEAM2_SCORE_FT	5	4	1	0.800000
 serie b	Reggiana	HT1X_HOME	5	4	1	0.800000
+serie b	Sudtirol	TEAM1_SCORE_FT	5	4	1	0.800000
 serie b	Cesena	HT1X_HOME	5	4	1	0.800000
-liga mx	Pachuca	O15_FT	5	4	1	0.800000
-liga mx	Pachuca	HT05	5	4	1	0.800000
-liga mx	FC Juarez	O15_FT	5	4	1	0.800000
-liga mx	FC Juarez	HT05	5	4	1	0.800000
-premiership	Livingston	TEAM1_SCORE_FT	5	4	1	0.800000
+premiership	Kilmarnock	TEAM2_SCORE_FT	5	4	1	0.800000
 saudi arabia	Al-Fateh	TEAM2_SCORE_FT	5	4	1	0.800000
 laliga2	Valladolid	TEAM2_SCORE_FT	5	4	1	0.800000
+liga portugal	Nacional	HT1X_HOME	5	4	1	0.800000
 serie b	Padova	HT1X_HOME	5	4	1	0.800000
 cymru premier league	Haverfordwest County AFC	O15_FT	5	4	1	0.800000
 cymru premier league	Briton Ferry	O15_FT	5	4	1	0.800000
 cymru premier league	The New Saints	HT05	5	4	1	0.800000
+bundesliga	FC St. Pauli	TEAM2_SCORE_FT	5	4	1	0.800000
+bundesliga	1899 Hoffenheim	TEAM1_SCORE_FT	5	4	1	0.800000
+bundesliga	1899 Hoffenheim	HT1X_HOME	5	4	1	0.800000
 super league switzerland	FC Sion	TEAM1_SCORE_FT	5	4	1	0.800000
+super league switzerland	Servette FC	HT1X_HOME	5	4	1	0.800000
+liga mx	Santos Laguna	TEAM2_SCORE_FT	5	4	1	0.800000
 serie b	Sampdoria	TEAM1_SCORE_FT	5	4	1	0.800000
+championship	Coventry	TEAM1_SCORE_FT	5	4	1	0.800000
+championship	Coventry	HT1X_HOME	5	4	1	0.800000
 championship	Derby	TEAM2_SCORE_FT	5	4	1	0.800000
+championship	Sheffield Wednesday	HT1X_HOME	5	4	1	0.800000
 championship	Stoke City	HT1X_HOME	5	4	1	0.800000
 championship	Wrexham	TEAM1_SCORE_FT	5	4	1	0.800000
 serie b	Monza	HT1X_HOME	5	4	1	0.800000
+serie b	Juve Stabia	TEAM2_SCORE_FT	5	4	1	0.800000
 super lig	Gazişehir Gaziantep	HT05	5	4	1	0.800000
-2. bundesliga	Holstein Kiel	HT05	5	4	1	0.800000
+liga portugal 2	União de Leiria	HT1X_HOME	5	4	1	0.800000
 pro league	Gent	O15_FT	5	4	1	0.800000
 pro league	Gent	HT05	5	4	1	0.800000
-super lig	Kasımpaşa	O15_FT	5	4	1	0.800000
-2. bundesliga	Hannover 96	O15_FT	5	4	1	0.800000
-2. bundesliga	Hannover 96	HT05	5	4	1	0.800000
-pro league	OH Leuven	O15_FT	5	4	1	0.800000
-super lig	Kocaelispor	O15_FT	5	4	1	0.800000
 superligaen	Nyiregyhaza	O15_FT	5	4	1	0.800000
-superligaen	Ujpest	O15_FT	5	4	1	0.800000
 superligaen	Nyiregyhaza	HT05	5	4	1	0.800000
-superligaen	Ujpest	HT05	5	4	1	0.800000
-superligaen	Kisvarda FC	HT05	5	4	1	0.800000
-2. bundesliga	1. FC Kaiserslautern	O15_FT	5	4	1	0.800000
-2. bundesliga	1. FC Kaiserslautern	HT05	5	4	1	0.800000
-2. bundesliga	SC Paderborn 07	O15_FT	5	4	1	0.800000
-2. bundesliga	SC Paderborn 07	HT05	5	4	1	0.800000
 pro league	Charleroi	HT05	5	4	1	0.800000
 super lig	Genclerbirligi	O15_FT	5	4	1	0.800000
 super lig	Antalyaspor	HT05	5	4	1	0.800000
 super lig	Genclerbirligi	HT05	5	4	1	0.800000
-super lig	Rizespor	HT05	5	4	1	0.800000
-super lig	Alanyaspor	HT05	5	4	1	0.800000
 super lig	Fenerbahçe	HT05	5	4	1	0.800000
-superligaen	Diosgyori VTK	HT05	5	4	1	0.800000
 superligaen	Ferencvarosi TC	O15_FT	5	4	1	0.800000
-superligaen	Gyori ETO FC	O15_FT	5	4	1	0.800000
-superligaen	Gyori ETO FC	HT05	5	4	1	0.800000
-super lig	Eyüpspor	O15_FT	5	4	1	0.800000
-super lig	Eyüpspor	HT05	5	4	1	0.800000
-primera a colombia	Chico	O15_FT	5	4	1	0.800000
-primera a colombia	America de Cali	O15_FT	5	4	1	0.800000
-primera a colombia	America de Cali	HT05	5	4	1	0.800000
+czech first league	Teplice	HT05	5	4	1	0.800000
+czech first league	Sparta Praha	O15_FT	5	4	1	0.800000
 primera división paraguay	Nacional Asuncion	O15_FT	5	4	1	0.800000
 primera división paraguay	Nacional Asuncion	HT05	5	4	1	0.800000
 czech first league	Slavia Praha	O15_FT	5	4	1	0.800000
@@ -1811,81 +1782,105 @@ liga profesional argentina	River Plate	HT05	5	4	1	0.800000
 liga profesional argentina	Gimnasia L.P.	HT05	5	4	1	0.800000
 primera a colombia	Internacional de Bogota	O15_FT	5	4	1	0.800000
 liga profesional argentina	Instituto Cordoba	HT05	5	4	1	0.800000
-premier league	Leeds	O15_FT	9	7	2	0.777778
-premier league	Brentford	O15_FT	9	7	2	0.777778
-premier league	Brentford	HT05	9	7	2	0.777778
-premier league	Sunderland	O15_FT	9	7	2	0.777778
+primera a colombia	Jaguares	HT05	5	4	1	0.800000
+championship	Hull City	HT05	9	7	2	0.777778
+liga portugal	Nacional	O15_FT	9	7	2	0.777778
 serie a italia	AC Milan	O15_FT	9	7	2	0.777778
 laliga2	Almeria	HT05	9	7	2	0.777778
+laliga2	Castellón	O15_FT	9	7	2	0.777778
+laliga2	Castellón	HT05	9	7	2	0.777778
+laliga2	Valladolid	O15_FT	9	7	2	0.777778
+liga portugal 2	União de Leiria	HT05	9	7	2	0.777778
 premier league	Wolves	O15_FT	9	7	2	0.777778
 premier league	Arsenal	O15_FT	9	7	2	0.777778
-premiership	ST Mirren	O15_FT	9	7	2	0.777778
+premiership	Hibernian	O15_FT	9	7	2	0.777778
+serie a italia	Como	O15_FT	9	7	2	0.777778
+serie a italia	Como	HT05	9	7	2	0.777778
+serie a italia	Genoa	HT05	9	7	2	0.777778
 serie a italia	Atalanta	O15_FT	9	7	2	0.777778
 serie a italia	Atalanta	HT05	9	7	2	0.777778
 serie a italia	Verona	O15_FT	9	7	2	0.777778
 serie a italia	Verona	HT05	9	7	2	0.777778
 serie a italia	Bologna	O15_FT	9	7	2	0.777778
+liga portugal 2	Vizela	O15_FT	9	7	2	0.777778
 serie b	Virtus Entella	O15_FT	9	7	2	0.777778
+serie b	Cesena	HT05	9	7	2	0.777778
+serie b	Empoli	HT05	9	7	2	0.777778
+bundesliga	Borussia Mönchengladbach	O15_FT	9	7	2	0.777778
+serie b	Padova	O15_FT	9	7	2	0.777778
+bundesliga	Werder Bremen	O15_FT	9	7	2	0.777778
+bundesliga	FC St. Pauli	O15_FT	9	7	2	0.777778
+bundesliga	1899 Hoffenheim	O15_FT	9	7	2	0.777778
 saudi arabia	Al-Ettifaq	O15_FT	13	10	3	0.769231
-saudi arabia	Al Okhdood	O15_FT	12	9	3	0.750000
-saudi arabia	Al-Nassr	HT05	12	9	3	0.750000
+saudi arabia	Al Okhdood	O15_FT	13	10	3	0.769231
+saudi arabia	Al-Nassr	HT05	13	10	3	0.769231
+championship	Blackburn	O15_FT	12	9	3	0.750000
+championship	Blackburn	HT05	12	9	3	0.750000
+championship	Sheffield Wednesday	O15_FT	12	9	3	0.750000
+saudi arabia	Al Taawon	HT05	12	9	3	0.750000
 saudi arabia	Al Riyadh	O15_FT	12	9	3	0.750000
-championship	Hull City	O15_FT	8	6	2	0.750000
-liga portugal	Nacional	O15_FT	8	6	2	0.750000
+saudi arabia	Al-Qadisiyah FC	HT05	12	9	3	0.750000
 ligue 1	Lens	O15_FT	8	6	2	0.750000
 ligue 1	Lens	HT05	8	6	2	0.750000
 laliga	Osasuna	O15_FT	8	6	2	0.750000
 laliga	Espanyol	HT05	8	6	2	0.750000
 laliga2	Cultural Leonesa	O15_FT	8	6	2	0.750000
-laliga2	Castellón	O15_FT	8	6	2	0.750000
-laliga2	Castellón	HT05	8	6	2	0.750000
-laliga2	Valladolid	HT05	8	6	2	0.750000
+laliga2	Granada CF	HT05	8	6	2	0.750000
+laliga2	Huesca	O15_FT	8	6	2	0.750000
+liga portugal	AVS	O15_FT	8	6	2	0.750000
 liga portugal 2	Oliveirense	O15_FT	8	6	2	0.750000
 liga portugal 2	Oliveirense	HT05	8	6	2	0.750000
+ligue 1	Monaco	O15_FT	8	6	2	0.750000
+ligue 2	RED Star FC 93	O15_FT	8	6	2	0.750000
 ligue 2	Clermont Foot	O15_FT	8	6	2	0.750000
 ligue 2	Laval	O15_FT	8	6	2	0.750000
+ligue 2	Rodez	O15_FT	8	6	2	0.750000
+ligue 2	PAU	HT05	8	6	2	0.750000
 ligue 2	Annecy	HT05	8	6	2	0.750000
+premier league	West Ham	HT05	8	6	2	0.750000
 premiership	Rangers	HT05	8	6	2	0.750000
-premiership	Hibernian	O15_FT	8	6	2	0.750000
-serie a italia	Como	O15_FT	8	6	2	0.750000
-serie a italia	Como	HT05	8	6	2	0.750000
+premiership	Dundee Utd	O15_FT	8	6	2	0.750000
+premiership	Dundee Utd	HT05	8	6	2	0.750000
+premiership	Aberdeen	HT05	8	6	2	0.750000
 serie a italia	Pisa	O15_FT	8	6	2	0.750000
-serie a italia	Genoa	HT05	8	6	2	0.750000
 serie a italia	Pisa	HT05	8	6	2	0.750000
 serie a italia	Sassuolo	O15_FT	8	6	2	0.750000
 laliga	Real Betis	HT05	8	6	2	0.750000
+laliga	Oviedo	O15_FT	8	6	2	0.750000
 laliga	Girona	O15_FT	8	6	2	0.750000
+laliga	Real Sociedad	HT05	8	6	2	0.750000
+laliga2	Malaga	O15_FT	8	6	2	0.750000
 laliga2	Sporting Gijon	HT05	8	6	2	0.750000
+laliga2	Malaga	HT05	8	6	2	0.750000
 laliga2	Leganes	HT05	8	6	2	0.750000
-laliga2	Zaragoza	O15_FT	8	6	2	0.750000
 laliga2	Deportivo La Coruna	HT05	8	6	2	0.750000
+liga portugal 2	Sporting CP B	O15_FT	8	6	2	0.750000
+ligue 1	Paris Saint Germain	O15_FT	8	6	2	0.750000
+premier league	Everton	HT05	8	6	2	0.750000
 serie a italia	Fiorentina	O15_FT	8	6	2	0.750000
 serie a italia	Torino	HT05	8	6	2	0.750000
-liga portugal 2	Vizela	O15_FT	8	6	2	0.750000
-bundesliga	1. FC Heidenheim	HT05	8	6	2	0.750000
+liga portugal 2	FC Porto B	O15_FT	8	6	2	0.750000
+liga portugal 2	FC Porto B	HT05	8	6	2	0.750000
+bundesliga	Union Berlin	O15_FT	8	6	2	0.750000
+bundesliga	Union Berlin	HT05	8	6	2	0.750000
 eredivisie	AZ Alkmaar	O15_FT	8	6	2	0.750000
-serie b	Avellino	O15_FT	8	6	2	0.750000
-serie b	Avellino	HT05	8	6	2	0.750000
 serie b	Catanzaro	HT05	8	6	2	0.750000
-serie b	Reggiana	O15_FT	8	6	2	0.750000
-serie b	Juve Stabia	O15_FT	8	6	2	0.750000
-serie b	Cesena	HT05	8	6	2	0.750000
-serie b	Empoli	HT05	8	6	2	0.750000
-bundesliga	Borussia Mönchengladbach	HT05	8	6	2	0.750000
+serie b	Spezia	HT05	8	6	2	0.750000
+liga mx	Atlas	O15_FT	8	6	2	0.750000
 bundesliga	FC Augsburg	HT05	8	6	2	0.750000
-serie b	Padova	O15_FT	8	6	2	0.750000
-bundesliga	Werder Bremen	O15_FT	8	6	2	0.750000
-bundesliga	Werder Bremen	HT05	8	6	2	0.750000
+serie b	Modena	O15_FT	8	6	2	0.750000
+super league switzerland	Servette FC	O15_FT	8	6	2	0.750000
+super league switzerland	Servette FC	HT05	8	6	2	0.750000
 super league switzerland	Lausanne	HT05	8	6	2	0.750000
 cymru premier league	Colwyn Bay	TEAM1_SCORE_FT	4	3	1	0.750000
 cymru premier league	Colwyn Bay	HT1X_HOME	4	3	1	0.750000
-premier league	Liverpool	TEAM1_SCORE_FT	4	3	1	0.750000
-laliga	Rayo Vallecano	HT1X_HOME	4	3	1	0.750000
 liga portugal	Nacional	TEAM2_SCORE_FT	4	3	1	0.750000
+liga portugal	Guimaraes	HT1X_HOME	4	3	1	0.750000
 ligue 1	Toulouse	HT1X_HOME	4	3	1	0.750000
 laliga2	Cultural Leonesa	HT1X_HOME	4	3	1	0.750000
 laliga2	Granada CF	TEAM2_SCORE_FT	4	3	1	0.750000
-laliga2	Racing Santander	TEAM2_SCORE_FT	4	3	1	0.750000
+laliga2	Huesca	TEAM2_SCORE_FT	4	3	1	0.750000
+laliga2	Valladolid	HT1X_HOME	4	3	1	0.750000
 liga portugal	Moreirense	TEAM2_SCORE_FT	4	3	1	0.750000
 liga portugal 2	União de Leiria	TEAM2_SCORE_FT	4	3	1	0.750000
 liga portugal 2	Felgueiras 1932	HT1X_HOME	4	3	1	0.750000
@@ -1900,39 +1895,31 @@ ligue 2	Nancy	TEAM2_SCORE_FT	4	3	1	0.750000
 ligue 2	Clermont Foot	TEAM1_SCORE_FT	4	3	1	0.750000
 ligue 2	Laval	TEAM2_SCORE_FT	4	3	1	0.750000
 ligue 2	Clermont Foot	HT1X_HOME	4	3	1	0.750000
+ligue 2	Guingamp	TEAM1_SCORE_FT	4	3	1	0.750000
+ligue 2	Guingamp	HT1X_HOME	4	3	1	0.750000
 ligue 2	Le Mans	TEAM1_SCORE_FT	4	3	1	0.750000
+ligue 2	PAU	TEAM1_SCORE_FT	4	3	1	0.750000
+ligue 2	PAU	HT1X_HOME	4	3	1	0.750000
 premier league	Aston Villa	TEAM1_SCORE_FT	4	3	1	0.750000
-premier league	West Ham	TEAM2_SCORE_FT	4	3	1	0.750000
-premier league	Bournemouth	HT1X_HOME	4	3	1	0.750000
 premiership	Livingston	TEAM2_SCORE_FT	4	3	1	0.750000
-premiership	Hibernian	TEAM2_SCORE_FT	4	3	1	0.750000
 premiership	Kilmarnock	HT1X_HOME	4	3	1	0.750000
-premiership	Motherwell	HT1X_HOME	4	3	1	0.750000
 serie a italia	Sassuolo	TEAM1_SCORE_FT	4	3	1	0.750000
 serie a italia	Sassuolo	HT1X_HOME	4	3	1	0.750000
 championship	Birmingham	TEAM1_SCORE_FT	4	3	1	0.750000
-championship	Southampton	TEAM2_SCORE_FT	4	3	1	0.750000
-championship	Swansea	TEAM2_SCORE_FT	4	3	1	0.750000
 laliga	Alaves	TEAM1_SCORE_FT	4	3	1	0.750000
 laliga	Oviedo	TEAM2_SCORE_FT	4	3	1	0.750000
 laliga2	Leganes	TEAM2_SCORE_FT	4	3	1	0.750000
-laliga2	Zaragoza	TEAM1_SCORE_FT	4	3	1	0.750000
-laliga2	Zaragoza	HT1X_HOME	4	3	1	0.750000
 laliga2	Deportivo La Coruna	TEAM1_SCORE_FT	4	3	1	0.750000
 liga portugal 2	Penafiel	HT1X_HOME	4	3	1	0.750000
-ligue 1	Le Havre	TEAM1_SCORE_FT	4	3	1	0.750000
+liga portugal 2	Sporting CP B	TEAM1_SCORE_FT	4	3	1	0.750000
 ligue 1	Stade Brestois 29	TEAM1_SCORE_FT	4	3	1	0.750000
 ligue 1	Stade Brestois 29	HT1X_HOME	4	3	1	0.750000
-premier league	Leeds	TEAM1_SCORE_FT	4	3	1	0.750000
-premier league	Leeds	HT1X_HOME	4	3	1	0.750000
-premier league	Brentford	TEAM2_SCORE_FT	4	3	1	0.750000
-premier league	Newcastle	TEAM1_SCORE_FT	4	3	1	0.750000
 premier league	Crystal Palace	TEAM2_SCORE_FT	4	3	1	0.750000
 premier league	Fulham	HT1X_HOME	4	3	1	0.750000
 premier league	Brighton	TEAM2_SCORE_FT	4	3	1	0.750000
+premier league	Burnley	TEAM1_SCORE_FT	4	3	1	0.750000
 serie a italia	Atalanta	TEAM2_SCORE_FT	4	3	1	0.750000
 serie a italia	Parma	TEAM1_SCORE_FT	4	3	1	0.750000
-liga portugal 2	Leixoes	TEAM2_SCORE_FT	4	3	1	0.750000
 bundesliga	Eintracht Frankfurt	HT1X_HOME	4	3	1	0.750000
 laliga	Getafe	HT1X_HOME	4	3	1	0.750000
 laliga2	Cadiz	TEAM1_SCORE_FT	4	3	1	0.750000
@@ -1941,17 +1928,17 @@ bundesliga	1. FC Köln	TEAM2_SCORE_FT	4	3	1	0.750000
 bundesliga	1. FC Heidenheim	HT1X_HOME	4	3	1	0.750000
 bundesliga	Hamburger SV	TEAM2_SCORE_FT	4	3	1	0.750000
 bundesliga	Union Berlin	TEAM1_SCORE_FT	4	3	1	0.750000
-bundesliga	FSV Mainz 05	TEAM2_SCORE_FT	4	3	1	0.750000
+bundesliga	Bayer Leverkusen	HT1X_HOME	4	3	1	0.750000
 eredivisie	Twente	TEAM1_SCORE_FT	4	3	1	0.750000
 eredivisie	PSV Eindhoven	HT1X_HOME	4	3	1	0.750000
 eredivisie	Groningen	TEAM1_SCORE_FT	4	3	1	0.750000
 eredivisie	Groningen	HT1X_HOME	4	3	1	0.750000
+laliga	Oviedo	TEAM1_SCORE_FT	4	3	1	0.750000
 laliga	Villarreal	TEAM1_SCORE_FT	4	3	1	0.750000
 laliga	Alaves	TEAM2_SCORE_FT	4	3	1	0.750000
 serie a italia	Udinese	TEAM1_SCORE_FT	4	3	1	0.750000
 serie a italia	Udinese	HT1X_HOME	4	3	1	0.750000
 serie b	Sampdoria	TEAM2_SCORE_FT	4	3	1	0.750000
-serie b	Sudtirol	TEAM1_SCORE_FT	4	3	1	0.750000
 serie b	Virtus Entella	HT1X_HOME	4	3	1	0.750000
 serie b	Empoli	TEAM2_SCORE_FT	4	3	1	0.750000
 laliga2	Almeria	TEAM2_SCORE_FT	4	3	1	0.750000
@@ -1960,9 +1947,9 @@ laliga2	Las Palmas	TEAM1_SCORE_FT	4	3	1	0.750000
 laliga2	Deportivo La Coruna	TEAM2_SCORE_FT	4	3	1	0.750000
 laliga2	Las Palmas	HT1X_HOME	4	3	1	0.750000
 premiership	Hibernian	TEAM1_SCORE_FT	4	3	1	0.750000
-premiership	Kilmarnock	TEAM2_SCORE_FT	4	3	1	0.750000
 premiership	ST Mirren	HT1X_HOME	4	3	1	0.750000
-saudi arabia	NEOM	HT1X_HOME	4	3	1	0.750000
+bundesliga	Borussia Mönchengladbach	TEAM1_SCORE_FT	4	3	1	0.750000
+bundesliga	Borussia Mönchengladbach	HT1X_HOME	4	3	1	0.750000
 bundesliga	VfL Wolfsburg	TEAM2_SCORE_FT	4	3	1	0.750000
 eredivisie	Telstar	TEAM1_SCORE_FT	4	3	1	0.750000
 eredivisie	Telstar	HT1X_HOME	4	3	1	0.750000
@@ -1980,24 +1967,24 @@ premiership	Heart Of Midlothian	TEAM2_SCORE_FT	4	3	1	0.750000
 serie b	Palermo	TEAM2_SCORE_FT	4	3	1	0.750000
 laliga	Celta Vigo	TEAM2_SCORE_FT	4	3	1	0.750000
 laliga2	Huesca	HT1X_HOME	4	3	1	0.750000
-bundesliga	1. FC Heidenheim	TEAM2_SCORE_FT	4	3	1	0.750000
 bundesliga	FSV Mainz 05	HT1X_HOME	4	3	1	0.750000
 cymru premier league	llanelli AFC	TEAM2_SCORE_FT	4	3	1	0.750000
 liga mx	Puebla	HT1X_HOME	4	3	1	0.750000
-bundesliga	FC St. Pauli	TEAM2_SCORE_FT	4	3	1	0.750000
-super league switzerland	Servette FC	TEAM1_SCORE_FT	4	3	1	0.750000
-super league switzerland	Servette FC	HT1X_HOME	4	3	1	0.750000
-liga mx	Santos Laguna	TEAM2_SCORE_FT	4	3	1	0.750000
+liga mx	FC Juarez	TEAM1_SCORE_FT	4	3	1	0.750000
+liga mx	Guadalajara Chivas	TEAM2_SCORE_FT	4	3	1	0.750000
+liga mx	FC Juarez	HT1X_HOME	4	3	1	0.750000
+liga mx	Atlas	TEAM2_SCORE_FT	4	3	1	0.750000
+bundesliga	Union Berlin	TEAM2_SCORE_FT	4	3	1	0.750000
+liga mx	Toluca	HT1X_HOME	4	3	1	0.750000
 2. bundesliga	Fortuna Düsseldorf	TEAM1_SCORE_FT	4	3	1	0.750000
 2. bundesliga	Arminia Bielefeld	TEAM2_SCORE_FT	4	3	1	0.750000
 2. bundesliga	Fortuna Düsseldorf	HT1X_HOME	4	3	1	0.750000
 ligue 2	Dunkerque	HT1X_HOME	4	3	1	0.750000
 ligue 2	Laval	HT1X_HOME	4	3	1	0.750000
+ligue 2	Le Mans	TEAM2_SCORE_FT	4	3	1	0.750000
 pro league	RAAL La Louvière	TEAM2_SCORE_FT	4	3	1	0.750000
 pro league	Club Brugge KV	HT1X_HOME	4	3	1	0.750000
 ligue 1	Lorient	TEAM2_SCORE_FT	4	3	1	0.750000
-championship	Coventry	TEAM1_SCORE_FT	4	3	1	0.750000
-championship	Coventry	HT1X_HOME	4	3	1	0.750000
 eredivisie	NAC Breda	TEAM1_SCORE_FT	4	3	1	0.750000
 ligue 2	Grenoble	HT1X_HOME	4	3	1	0.750000
 ligue 2	Saint Etienne	TEAM1_SCORE_FT	4	3	1	0.750000
@@ -2018,7 +2005,6 @@ uefa champions league	Real Madrid	HT05	4	3	1	0.750000
 uefa champions league	Monaco	HT05	4	3	1	0.750000
 uefa champions league	Paris Saint Germain	HT05	4	3	1	0.750000
 uefa champions league	Borussia Dortmund	HT05	4	3	1	0.750000
-liga portugal 2	União de Leiria	HT1X_HOME	4	3	1	0.750000
 uefa champions league	Atalanta	O15_FT	4	3	1	0.750000
 uefa champions league	Atalanta	HT05	4	3	1	0.750000
 uefa champions league	Juventus	O15_FT	4	3	1	0.750000
@@ -2040,9 +2026,24 @@ uefa europa league	Genk	HT05	4	3	1	0.750000
 bundesliga	FC St. Pauli	TEAM1_SCORE_FT	4	3	1	0.750000
 pro league	Standard Liege	TEAM1_SCORE_FT	4	3	1	0.750000
 pro league	Standard Liege	HT1X_HOME	4	3	1	0.750000
+2. bundesliga	SpVgg Greuther Fürth	TEAM1_SCORE_FT	4	3	1	0.750000
+2. bundesliga	SpVgg Greuther Fürth	HT1X_HOME	4	3	1	0.750000
 championship	Watford	TEAM2_SCORE_FT	4	3	1	0.750000
+eredivisie	NEC Nijmegen	HT1X_HOME	4	3	1	0.750000
+pro league	St. Truiden	TEAM2_SCORE_FT	4	3	1	0.750000
+serie b	Modena	TEAM1_SCORE_FT	4	3	1	0.750000
+serie b	Modena	HT1X_HOME	4	3	1	0.750000
+super league switzerland	FC Luzern	TEAM2_SCORE_FT	4	3	1	0.750000
+liga portugal	Alverca	TEAM2_SCORE_FT	4	3	1	0.750000
+liga portugal 2	Torreense	TEAM1_SCORE_FT	4	3	1	0.750000
+liga portugal 2	Torreense	HT1X_HOME	4	3	1	0.750000
+pro league	KV Mechelen	HT1X_HOME	4	3	1	0.750000
+super league switzerland	FC ST. Gallen	TEAM1_SCORE_FT	4	3	1	0.750000
+super league switzerland	FC ST. Gallen	HT1X_HOME	4	3	1	0.750000
 super lig	Konyaspor	TEAM2_SCORE_FT	4	3	1	0.750000
 liga profesional argentina	Gimnasia M.	HT1X_HOME	4	3	1	0.750000
+primera a colombia	Alianza Valledupar	TEAM1_SCORE_FT	4	3	1	0.750000
+primera a colombia	Alianza Valledupar	HT1X_HOME	4	3	1	0.750000
 serie a brazil	Atletico-MG	O15_FT	4	3	1	0.750000
 serie a brazil	Atletico-MG	HT05	4	3	1	0.750000
 serie a brazil	remo	O15_FT	4	3	1	0.750000
@@ -2052,10 +2053,8 @@ liga profesional argentina	Lanus	O15_FT	4	3	1	0.750000
 primera a colombia	Rionegro Aguilas	O15_FT	4	3	1	0.750000
 serie a brazil	Cruzeiro	O15_FT	4	3	1	0.750000
 serie a brazil	Cruzeiro	HT05	4	3	1	0.750000
-czech first league	Teplice	HT05	4	3	1	0.750000
 czech first league	Bohemians 1905	O15_FT	4	3	1	0.750000
 czech first league	Sigma Olomouc	O15_FT	4	3	1	0.750000
-czech first league	Sparta Praha	O15_FT	4	3	1	0.750000
 primera división paraguay	2 de Mayo	HT05	4	3	1	0.750000
 super league switzerland	FC Winterthur	TEAM1_SCORE_FT	4	3	1	0.750000
 super league switzerland	FC Winterthur	HT1X_HOME	4	3	1	0.750000
@@ -2066,132 +2065,129 @@ czech first league	Plzen	O15_FT	4	3	1	0.750000
 czech first league	Karviná	HT05	4	3	1	0.750000
 czech first league	Plzen	HT05	4	3	1	0.750000
 primera a colombia	Millonarios	TEAM1_SCORE_FT	4	3	1	0.750000
-primera a colombia	Jaguares	HT05	4	3	1	0.750000
-championship	Blackburn	O15_FT	11	8	3	0.727273
-championship	Blackburn	HT05	11	8	3	0.727273
-championship	Charlton	O15_FT	11	8	3	0.727273
-championship	Sheffield Wednesday	O15_FT	11	8	3	0.727273
-saudi arabia	Al Taawon	HT05	11	8	3	0.727273
-saudi arabia	Al-Qadisiyah FC	HT05	11	8	3	0.727273
+championship	Wrexham	HT05	11	8	3	0.727273
+championship	Coventry	HT05	11	8	3	0.727273
+championship	Derby	HT05	11	8	3	0.727273
+championship	Preston	O15_FT	11	8	3	0.727273
+championship	Preston	HT05	11	8	3	0.727273
+championship	QPR	O15_FT	11	8	3	0.727273
+championship	Southampton	O15_FT	11	8	3	0.727273
+championship	Swansea	HT05	11	8	3	0.727273
 championship	Blackburn	TEAM1_SCORE_FT	7	5	2	0.714286
 championship	Portsmouth	TEAM2_SCORE_FT	7	5	2	0.714286
+championship	Charlton	TEAM1_SCORE_FT	7	5	2	0.714286
 cymru premier league	Colwyn Bay	O15_FT	7	5	2	0.714286
 cymru premier league	llanelli AFC	HT05	7	5	2	0.714286
 laliga	Getafe	O15_FT	7	5	2	0.714286
 laliga2	Mirandes	HT05	7	5	2	0.714286
-ligue 1	Toulouse	O15_FT	7	5	2	0.714286
+saudi arabia	Al Okhdood	TEAM2_SCORE_FT	7	5	2	0.714286
 laliga	Celta Vigo	O15_FT	7	5	2	0.714286
-laliga2	Huesca	HT05	7	5	2	0.714286
 liga portugal	Tondela	O15_FT	7	5	2	0.714286
 liga portugal	Tondela	HT05	7	5	2	0.714286
-liga portugal	AVS	HT05	7	5	2	0.714286
-ligue 1	Monaco	O15_FT	7	5	2	0.714286
+liga portugal	Estrela	O15_FT	7	5	2	0.714286
 ligue 2	Estac Troyes	HT05	7	5	2	0.714286
-ligue 2	RED Star FC 93	HT05	7	5	2	0.714286
 ligue 2	Amiens	O15_FT	7	5	2	0.714286
 ligue 2	Nancy	O15_FT	7	5	2	0.714286
 ligue 2	Nancy	HT05	7	5	2	0.714286
-ligue 2	Le Mans	O15_FT	7	5	2	0.714286
-ligue 2	PAU	HT05	7	5	2	0.714286
-ligue 2	Rodez	HT05	7	5	2	0.714286
 premier league	Brighton	O15_FT	7	5	2	0.714286
-premier league	West Ham	HT05	7	5	2	0.714286
-premiership	Dundee Utd	O15_FT	7	5	2	0.714286
-premiership	Dundee Utd	HT05	7	5	2	0.714286
-premiership	Aberdeen	O15_FT	7	5	2	0.714286
-premiership	Aberdeen	HT05	7	5	2	0.714286
+saudi arabia	Al Kholood	TEAM2_SCORE_FT	7	5	2	0.714286
+saudi arabia	Al-Fayha	HT1X_HOME	7	5	2	0.714286
 serie a italia	AS Roma	O15_FT	7	5	2	0.714286
 laliga	Sevilla	O15_FT	7	5	2	0.714286
 laliga	Sevilla	HT05	7	5	2	0.714286
-laliga	Real Sociedad	HT05	7	5	2	0.714286
 liga portugal	Casa Pia	HT05	7	5	2	0.714286
 liga portugal 2	Pacos Ferreira	O15_FT	7	5	2	0.714286
 liga portugal 2	Academico Viseu	O15_FT	7	5	2	0.714286
-ligue 1	Angers	HT05	7	5	2	0.714286
 ligue 1	Lorient	HT05	7	5	2	0.714286
-premier league	Everton	HT05	7	5	2	0.714286
 saudi arabia	NEOM	TEAM2_SCORE_FT	7	5	2	0.714286
 saudi arabia	Al Riyadh	TEAM2_SCORE_FT	7	5	2	0.714286
-liga portugal 2	FC Porto B	O15_FT	7	5	2	0.714286
-liga portugal 2	FC Porto B	HT05	7	5	2	0.714286
+liga portugal 2	Torreense	HT05	7	5	2	0.714286
 bundesliga	SC Freiburg	O15_FT	7	5	2	0.714286
 bundesliga	Hamburger SV	O15_FT	7	5	2	0.714286
-serie b	Spezia	HT05	7	5	2	0.714286
-liga mx	Atlas	O15_FT	7	5	2	0.714286
+liga mx	Guadalajara Chivas	HT05	7	5	2	0.714286
 liga mx	Monterrey	HT05	7	5	2	0.714286
 serie b	Palermo	HT05	7	5	2	0.714286
-serie b	Modena	O15_FT	7	5	2	0.714286
-super league switzerland	FC Sion	O15_FT	7	5	2	0.714286
-super league switzerland	FC Sion	HT05	7	5	2	0.714286
 2. bundesliga	Fortuna Düsseldorf	O15_FT	7	5	2	0.714286
+2. bundesliga	Arminia Bielefeld	O15_FT	7	5	2	0.714286
 2. bundesliga	Fortuna Düsseldorf	HT05	7	5	2	0.714286
+2. bundesliga	Arminia Bielefeld	HT05	7	5	2	0.714286
 ligue 2	Dunkerque	HT05	7	5	2	0.714286
+2. bundesliga	SpVgg Greuther Fürth	O15_FT	7	5	2	0.714286
 2. bundesliga	Dynamo Dresden	HT05	7	5	2	0.714286
+2. bundesliga	SpVgg Greuther Fürth	HT05	7	5	2	0.714286
+pro league	Zulte Waregem	O15_FT	7	5	2	0.714286
+pro league	Zulte Waregem	HT05	7	5	2	0.714286
 super league switzerland	FC Lugano	HT05	7	5	2	0.714286
 super lig	Fatih Karagümrük	O15_FT	7	5	2	0.714286
-championship	Wrexham	HT05	10	7	3	0.700000
-championship	Portsmouth	O15_FT	10	7	3	0.700000
-championship	Coventry	HT05	10	7	3	0.700000
+super lig	Galatasaray	HT05	7	5	2	0.714286
+super league switzerland	FC Thun	HT05	7	5	2	0.714286
+liga profesional argentina	Gimnasia M.	HT05	7	5	2	0.714286
 championship	Middlesbrough	O15_FT	10	7	3	0.700000
-championship	Derby	HT05	10	7	3	0.700000
 championship	Middlesbrough	HT05	10	7	3	0.700000
-championship	Preston	O15_FT	10	7	3	0.700000
-championship	Preston	HT05	10	7	3	0.700000
-championship	QPR	O15_FT	10	7	3	0.700000
-championship	Norwich	HT05	10	7	3	0.700000
-championship	Southampton	O15_FT	10	7	3	0.700000
-championship	Swansea	HT05	10	7	3	0.700000
+championship	West Brom	O15_FT	10	7	3	0.700000
+championship	West Brom	HT05	10	7	3	0.700000
+championship	Sheffield Utd	O15_FT	10	7	3	0.700000
+championship	Sheffield Utd	HT05	10	7	3	0.700000
+premier league	Leeds	O15_FT	10	7	3	0.700000
+premier league	Leeds	HT05	10	7	3	0.700000
+premier league	Sunderland	HT05	10	7	3	0.700000
+premier league	Manchester City	HT05	10	7	3	0.700000
 serie a italia	Cagliari	O15_FT	10	7	3	0.700000
+premiership	Falkirk	HT05	10	7	3	0.700000
+premiership	Heart Of Midlothian	HT05	10	7	3	0.700000
 serie a italia	Parma	O15_FT	10	7	3	0.700000
 saudi arabia	Al Khaleej Saihat	O15_FT	13	9	4	0.692308
 saudi arabia	Al Khaleej Saihat	HT05	13	9	4	0.692308
 saudi arabia	Al-Ettifaq	HT05	13	9	4	0.692308
 saudi arabia	Al Shabab	O15_FT	13	9	4	0.692308
 saudi arabia	Al Shabab	HT05	13	9	4	0.692308
+saudi arabia	Al Kholood	O15_FT	13	9	4	0.692308
 saudi arabia	Al-Ittihad FC	O15_FT	13	9	4	0.692308
-saudi arabia	Al Kholood	O15_FT	12	8	4	0.666667
-championship	West Brom	O15_FT	9	6	3	0.666667
-championship	West Brom	HT05	9	6	3	0.666667
-championship	Sheffield Utd	O15_FT	9	6	3	0.666667
-championship	Sheffield Utd	HT05	9	6	3	0.666667
+championship	Charlton	O15_FT	12	8	4	0.666667
+championship	Charlton	HT05	12	8	4	0.666667
+saudi arabia	Al Taawon	O15_FT	12	8	4	0.666667
+championship	Hull City	O15_FT	9	6	3	0.666667
 premier league	Crystal Palace	O15_FT	9	6	3	0.666667
 premier league	Fulham	HT05	9	6	3	0.666667
-premier league	Leeds	HT05	9	6	3	0.666667
-premier league	Sunderland	HT05	9	6	3	0.666667
-premier league	Manchester City	HT05	9	6	3	0.666667
+laliga2	Valladolid	HT05	9	6	3	0.666667
 premier league	Wolves	HT05	9	6	3	0.666667
 premier league	Arsenal	HT05	9	6	3	0.666667
-premiership	Falkirk	HT05	9	6	3	0.666667
-premiership	Heart Of Midlothian	HT05	9	6	3	0.666667
+premiership	Hibernian	HT05	9	6	3	0.666667
 serie a italia	Udinese	HT05	9	6	3	0.666667
+serie a italia	Lecce	O15_FT	9	6	3	0.666667
+laliga2	Zaragoza	O15_FT	9	6	3	0.666667
+bundesliga	1. FC Heidenheim	HT05	9	6	3	0.666667
+serie b	Avellino	O15_FT	9	6	3	0.666667
 serie b	Sampdoria	O15_FT	9	6	3	0.666667
+serie b	Avellino	HT05	9	6	3	0.666667
 serie b	Sampdoria	HT05	9	6	3	0.666667
 serie b	Bari	O15_FT	9	6	3	0.666667
+serie b	Reggiana	O15_FT	9	6	3	0.666667
+serie b	Sudtirol	O15_FT	9	6	3	0.666667
 serie b	Monza	O15_FT	9	6	3	0.666667
 serie b	Virtus Entella	HT05	9	6	3	0.666667
+serie b	Juve Stabia	O15_FT	9	6	3	0.666667
+serie b	Empoli	O15_FT	9	6	3	0.666667
+bundesliga	Borussia Mönchengladbach	HT05	9	6	3	0.666667
+bundesliga	Werder Bremen	HT05	9	6	3	0.666667
+bundesliga	FC St. Pauli	HT05	9	6	3	0.666667
+super league switzerland	FC Winterthur	HT05	9	6	3	0.666667
 championship	Bristol City	TEAM1_SCORE_FT	6	4	2	0.666667
+championship	Derby	HT1X_HOME	6	4	2	0.666667
+championship	Stoke City	TEAM2_SCORE_FT	6	4	2	0.666667
+championship	Preston	HT1X_HOME	6	4	2	0.666667
+championship	QPR	HT1X_HOME	6	4	2	0.666667
 championship	Birmingham	TEAM2_SCORE_FT	6	4	2	0.666667
-liga portugal	Guimaraes	HT05	6	4	2	0.666667
-saudi arabia	Al Okhdood	TEAM2_SCORE_FT	6	4	2	0.666667
 cymru premier league	GAP Connah S Quay FC	O15_FT	6	4	2	0.666667
 cymru premier league	GAP Connah S Quay FC	HT05	6	4	2	0.666667
 cymru premier league	Barry Town	HT05	6	4	2	0.666667
-liga portugal	Estrela	HT05	6	4	2	0.666667
 ligue 1	Lyon	O15_FT	6	4	2	0.666667
-ligue 2	Guingamp	O15_FT	6	4	2	0.666667
-ligue 2	Guingamp	HT05	6	4	2	0.666667
-saudi arabia	Al Kholood	TEAM2_SCORE_FT	6	4	2	0.666667
-saudi arabia	Al-Fayha	HT1X_HOME	6	4	2	0.666667
 serie a italia	Parma	TEAM2_SCORE_FT	6	4	2	0.666667
-laliga	Atletico Madrid	O15_FT	6	4	2	0.666667
-laliga	Atletico Madrid	HT05	6	4	2	0.666667
 liga portugal	Famalicao	O15_FT	6	4	2	0.666667
-ligue 1	Le Havre	O15_FT	6	4	2	0.666667
 ligue 1	Metz	O15_FT	6	4	2	0.666667
 ligue 1	Stade Brestois 29	HT05	6	4	2	0.666667
 ligue 1	Paris FC	O15_FT	6	4	2	0.666667
 ligue 1	Paris FC	HT05	6	4	2	0.666667
-liga portugal 2	Torreense	HT05	6	4	2	0.666667
 liga portugal 2	Lusitânia Lourosa	HT05	6	4	2	0.666667
 saudi arabia	Al Taawon	HT1X_HOME	6	4	2	0.666667
 saudi arabia	Al Kholood	HT1X_HOME	6	4	2	0.666667
@@ -2201,9 +2197,10 @@ eredivisie	Twente	HT05	6	4	2	0.666667
 saudi arabia	Al-Fayha	TEAM2_SCORE_FT	6	4	2	0.666667
 saudi arabia	Al Okhdood	TEAM1_SCORE_FT	6	4	2	0.666667
 saudi arabia	Al Okhdood	HT1X_HOME	6	4	2	0.666667
-liga mx	Guadalajara Chivas	HT05	6	4	2	0.666667
-liga mx	Puebla	HT05	6	4	2	0.666667
+serie b	Avellino	TEAM1_SCORE_FT	6	4	2	0.666667
+liga mx	Pachuca	O15_FT	6	4	2	0.666667
 eredivisie	Feyenoord	O15_FT	6	4	2	0.666667
+liga mx	Club Queretaro	HT05	6	4	2	0.666667
 liga portugal 2	Maritimo	O15_FT	6	4	2	0.666667
 liga mx	Tigres UANL	O15_FT	6	4	2	0.666667
 cymru premier league	Bala Town	HT05	6	4	2	0.666667
@@ -2211,28 +2208,35 @@ saudi arabia	Al Shabab	HT1X_HOME	6	4	2	0.666667
 2. bundesliga	Eintracht Braunschweig	O15_FT	6	4	2	0.666667
 pro league	Club Brugge KV	HT05	6	4	2	0.666667
 2. bundesliga	1. FC Nürnberg	HT05	6	4	2	0.666667
-2. bundesliga	SpVgg Greuther Fürth	O15_FT	6	4	2	0.666667
-2. bundesliga	SpVgg Greuther Fürth	HT05	6	4	2	0.666667
-pro league	Zulte Waregem	O15_FT	6	4	2	0.666667
-pro league	Zulte Waregem	HT05	6	4	2	0.666667
 pro league	Genk	HT05	6	4	2	0.666667
-super lig	Galatasaray	HT05	6	4	2	0.666667
+2. bundesliga	Holstein Kiel	HT05	6	4	2	0.666667
+2. bundesliga	Hannover 96	O15_FT	6	4	2	0.666667
+2. bundesliga	Hannover 96	HT05	6	4	2	0.666667
+pro league	OH Leuven	HT05	6	4	2	0.666667
+super lig	Kocaelispor	O15_FT	6	4	2	0.666667
+superligaen	Ujpest	HT05	6	4	2	0.666667
+superligaen	Kisvarda FC	O15_FT	6	4	2	0.666667
+superligaen	Paks	O15_FT	6	4	2	0.666667
 eredivisie	Utrecht	O15_FT	6	4	2	0.666667
-super league switzerland	FC Thun	HT05	6	4	2	0.666667
+pro league	Anderlecht	O15_FT	6	4	2	0.666667
 superligaen	Debreceni VSC	HT05	6	4	2	0.666667
-liga profesional argentina	Gimnasia M.	HT05	6	4	2	0.666667
+superligaen	Diosgyori VTK	HT05	6	4	2	0.666667
+superligaen	Gyori ETO FC	HT05	6	4	2	0.666667
+super lig	Eyüpspor	O15_FT	6	4	2	0.666667
+super lig	Eyüpspor	HT05	6	4	2	0.666667
 liga profesional argentina	Independ. Rivadavia	O15_FT	6	4	2	0.666667
 liga profesional argentina	Independ. Rivadavia	HT05	6	4	2	0.666667
 primera a colombia	Llaneros	O15_FT	6	4	2	0.666667
 primera división paraguay	Cerro Porteno	HT05	6	4	2	0.666667
 liga profesional argentina	Newells Old Boys	HT05	6	4	2	0.666667
-liga profesional argentina	Independiente	HT05	6	4	2	0.666667
 liga profesional argentina	Barracas Central	O15_FT	6	4	2	0.666667
 liga profesional argentina	Rosario Central	O15_FT	6	4	2	0.666667
 liga profesional argentina	Racing Club	HT05	6	4	2	0.666667
 liga profesional argentina	Rosario Central	HT05	6	4	2	0.666667
 primera a colombia	Independiente Medellin	O15_FT	6	4	2	0.666667
 primera a colombia	Independiente Medellin	HT05	6	4	2	0.666667
+primera a colombia	Alianza Valledupar	HT05	6	4	2	0.666667
+primera a colombia	Chico	HT05	6	4	2	0.666667
 liga profesional argentina	Tigre	O15_FT	6	4	2	0.666667
 liga profesional argentina	Tigre	HT05	6	4	2	0.666667
 primera a colombia	Deportivo Pasto	O15_FT	6	4	2	0.666667
@@ -2241,50 +2245,43 @@ liga profesional argentina	Estudiantes de Rio Cuarto	HT05	6	4	2	0.666667
 liga profesional argentina	Banfield	O15_FT	6	4	2	0.666667
 liga profesional argentina	Sarmiento Junin	HT05	6	4	2	0.666667
 liga profesional argentina	Banfield	HT05	6	4	2	0.666667
+primera a colombia	Once Caldas	HT05	6	4	2	0.666667
 cymru premier league	Penybont	TEAM2_SCORE_FT	3	2	1	0.666667
-liga portugal	Guimaraes	HT1X_HOME	3	2	1	0.666667
 cymru premier league	Barry Town	TEAM2_SCORE_FT	3	2	1	0.666667
 laliga	Celta Vigo	HT1X_HOME	3	2	1	0.666667
 laliga	Elche	TEAM1_SCORE_FT	3	2	1	0.666667
-laliga2	Valladolid	HT1X_HOME	3	2	1	0.666667
 liga portugal	Tondela	TEAM1_SCORE_FT	3	2	1	0.666667
 liga portugal	Tondela	HT1X_HOME	3	2	1	0.666667
 liga portugal	Estrela	TEAM1_SCORE_FT	3	2	1	0.666667
 liga portugal	Estrela	HT1X_HOME	3	2	1	0.666667
 ligue 1	Lille	TEAM1_SCORE_FT	3	2	1	0.666667
 ligue 1	Lille	HT1X_HOME	3	2	1	0.666667
-ligue 2	Guingamp	HT1X_HOME	3	2	1	0.666667
 premier league	Brighton	TEAM1_SCORE_FT	3	2	1	0.666667
 laliga2	FC Andorra	TEAM2_SCORE_FT	3	2	1	0.666667
 laliga2	Cadiz	TEAM2_SCORE_FT	3	2	1	0.666667
 liga portugal	Santa Clara	TEAM1_SCORE_FT	3	2	1	0.666667
-liga portugal 2	Sporting CP B	HT1X_HOME	3	2	1	0.666667
 ligue 1	Marseille	TEAM1_SCORE_FT	3	2	1	0.666667
 ligue 1	Marseille	HT1X_HOME	3	2	1	0.666667
 ligue 1	Lorient	HT1X_HOME	3	2	1	0.666667
 ligue 1	Paris FC	TEAM2_SCORE_FT	3	2	1	0.666667
-premier league	Burnley	TEAM1_SCORE_FT	3	2	1	0.666667
-premier league	Burnley	HT1X_HOME	3	2	1	0.666667
 premier league	Arsenal	TEAM1_SCORE_FT	3	2	1	0.666667
 serie a italia	Cremonese	HT1X_HOME	3	2	1	0.666667
 serie a italia	AC Milan	TEAM1_SCORE_FT	3	2	1	0.666667
-serie a italia	Genoa	TEAM2_SCORE_FT	3	2	1	0.666667
-bundesliga	Bayer Leverkusen	HT1X_HOME	3	2	1	0.666667
 laliga	Valencia	TEAM1_SCORE_FT	3	2	1	0.666667
 laliga2	Real Sociedad II	TEAM1_SCORE_FT	3	2	1	0.666667
 laliga2	Racing Santander	HT1X_HOME	3	2	1	0.666667
 liga mx	Guadalajara Chivas	TEAM1_SCORE_FT	3	2	1	0.666667
-premiership	Dundee Utd	TEAM2_SCORE_FT	3	2	1	0.666667
-bundesliga	Borussia Mönchengladbach	TEAM1_SCORE_FT	3	2	1	0.666667
-bundesliga	Borussia Mönchengladbach	HT1X_HOME	3	2	1	0.666667
+liga mx	Pachuca	TEAM2_SCORE_FT	3	2	1	0.666667
 eredivisie	Feyenoord	TEAM2_SCORE_FT	3	2	1	0.666667
-laliga2	Granada CF	TEAM1_SCORE_FT	3	2	1	0.666667
 laliga2	AD Ceuta FC	TEAM2_SCORE_FT	3	2	1	0.666667
 liga mx	Necaxa	TEAM2_SCORE_FT	3	2	1	0.666667
 liga mx	Monterrey	TEAM1_SCORE_FT	3	2	1	0.666667
 liga mx	Toluca	TEAM2_SCORE_FT	3	2	1	0.666667
 liga mx	Club Queretaro	TEAM2_SCORE_FT	3	2	1	0.666667
+premiership	Dundee	TEAM1_SCORE_FT	3	2	1	0.666667
+premiership	Dundee	HT1X_HOME	3	2	1	0.666667
 premiership	Aberdeen	TEAM1_SCORE_FT	3	2	1	0.666667
+liga mx	Atletico San Luis	TEAM1_SCORE_FT	3	2	1	0.666667
 liga mx	Tigres UANL	TEAM2_SCORE_FT	3	2	1	0.666667
 belgian cup	Antwerp	O15_FT	3	2	1	0.666667
 belgian cup	Charleroi	O15_FT	3	2	1	0.666667
@@ -2303,17 +2300,13 @@ cymru premier league	Flint Town United	HT1X_HOME	3	2	1	0.666667
 cymru premier league	Penybont	HT1X_HOME	3	2	1	0.666667
 belgian cup	Union St. Gilloise	O15_FT	3	2	1	0.666667
 belgian cup	Union St. Gilloise	HT05	3	2	1	0.666667
-liga mx	FC Juarez	TEAM1_SCORE_FT	3	2	1	0.666667
-liga mx	FC Juarez	HT1X_HOME	3	2	1	0.666667
 liga mx	Cruz Azul	TEAM1_SCORE_FT	3	2	1	0.666667
-liga mx	Atlas	TEAM2_SCORE_FT	3	2	1	0.666667
 copa del rey	Barcelona	TEAM2_SCORE_FT	3	2	1	0.666667
 copa del rey	Barcelona	HT05	3	2	1	0.666667
 liga mx	Club Tijuana	TEAM2_SCORE_FT	3	2	1	0.666667
 liga mx	Club America	TEAM1_SCORE_FT	3	2	1	0.666667
 liga mx	Tigres UANL	TEAM1_SCORE_FT	3	2	1	0.666667
 liga mx	Tigres UANL	HT1X_HOME	3	2	1	0.666667
-liga mx	Toluca	HT1X_HOME	3	2	1	0.666667
 2. bundesliga	Eintracht Braunschweig	TEAM1_SCORE_FT	3	2	1	0.666667
 2. bundesliga	Eintracht Braunschweig	HT1X_HOME	3	2	1	0.666667
 ligue 2	Boulogne	TEAM1_SCORE_FT	3	2	1	0.666667
@@ -2334,6 +2327,8 @@ super league switzerland	BSC Young Boys	HT1X_HOME	3	2	1	0.666667
 super lig	Gazişehir Gaziantep	TEAM2_SCORE_FT	3	2	1	0.666667
 ligue 1	Nice	TEAM2_SCORE_FT	3	2	1	0.666667
 liga portugal	Benfica	TEAM2_SCORE_FT	3	2	1	0.666667
+2. bundesliga	Arminia Bielefeld	TEAM1_SCORE_FT	3	2	1	0.666667
+2. bundesliga	Arminia Bielefeld	HT1X_HOME	3	2	1	0.666667
 2. bundesliga	1. FC Nürnberg	TEAM2_SCORE_FT	3	2	1	0.666667
 cymru premier league	Bala Town	TEAM1_SCORE_FT	3	2	1	0.666667
 cymru premier league	Bala Town	HT1X_HOME	3	2	1	0.666667
@@ -2345,52 +2340,42 @@ ligue 2	Nancy	TEAM1_SCORE_FT	3	2	1	0.666667
 ligue 2	Nancy	HT1X_HOME	3	2	1	0.666667
 2. bundesliga	Hannover 96	TEAM1_SCORE_FT	3	2	1	0.666667
 2. bundesliga	Karlsruher SC	HT1X_HOME	3	2	1	0.666667
-2. bundesliga	SpVgg Greuther Fürth	TEAM1_SCORE_FT	3	2	1	0.666667
 2. bundesliga	Eintracht Braunschweig	TEAM2_SCORE_FT	3	2	1	0.666667
-2. bundesliga	SpVgg Greuther Fürth	HT1X_HOME	3	2	1	0.666667
 2. bundesliga	1. FC Magdeburg	TEAM1_SCORE_FT	3	2	1	0.666667
 2. bundesliga	Dynamo Dresden	TEAM2_SCORE_FT	3	2	1	0.666667
-championship	Leicester	TEAM1_SCORE_FT	3	2	1	0.666667
 cymru premier league	Caernarfon Town	TEAM2_SCORE_FT	3	2	1	0.666667
-eredivisie	NEC Nijmegen	HT1X_HOME	3	2	1	0.666667
 liga portugal	Estoril	HT1X_HOME	3	2	1	0.666667
 liga portugal 2	Lusitânia Lourosa	TEAM2_SCORE_FT	3	2	1	0.666667
 liga portugal 2	Maritimo	TEAM1_SCORE_FT	3	2	1	0.666667
 liga portugal 2	Leixoes	TEAM1_SCORE_FT	3	2	1	0.666667
-ligue 2	RED Star FC 93	TEAM1_SCORE_FT	3	2	1	0.666667
+ligue 1	Rennes	TEAM1_SCORE_FT	3	2	1	0.666667
+ligue 1	Rennes	HT1X_HOME	3	2	1	0.666667
 premier league	West Ham	TEAM1_SCORE_FT	3	2	1	0.666667
 pro league	RAAL La Louvière	TEAM1_SCORE_FT	3	2	1	0.666667
 pro league	RAAL La Louvière	HT1X_HOME	3	2	1	0.666667
 pro league	OH Leuven	TEAM1_SCORE_FT	3	2	1	0.666667
-serie b	Modena	TEAM1_SCORE_FT	3	2	1	0.666667
-serie b	Spezia	TEAM1_SCORE_FT	3	2	1	0.666667
 serie b	Avellino	TEAM2_SCORE_FT	3	2	1	0.666667
-serie b	Spezia	HT1X_HOME	3	2	1	0.666667
 super league switzerland	Grasshoppers	TEAM2_SCORE_FT	3	2	1	0.666667
-super league switzerland	FC Luzern	TEAM2_SCORE_FT	3	2	1	0.666667
 super lig	Kayserispor	TEAM1_SCORE_FT	3	2	1	0.666667
 super lig	Kayserispor	HT1X_HOME	3	2	1	0.666667
 super lig	Fatih Karagümrük	TEAM1_SCORE_FT	3	2	1	0.666667
 super lig	Galatasaray	TEAM2_SCORE_FT	3	2	1	0.666667
+superligaen	Ujpest	TEAM2_SCORE_FT	3	2	1	0.666667
+superligaen	Kisvarda FC	HT1X_HOME	3	2	1	0.666667
+superligaen	Paks	TEAM2_SCORE_FT	3	2	1	0.666667
 2. bundesliga	1. FC Kaiserslautern	TEAM2_SCORE_FT	3	2	1	0.666667
 2. bundesliga	Preußen Münster	TEAM2_SCORE_FT	3	2	1	0.666667
 2. bundesliga	SC Paderborn 07	HT1X_HOME	3	2	1	0.666667
 2. bundesliga	SV Elversberg	TEAM1_SCORE_FT	3	2	1	0.666667
-championship	Portsmouth	TEAM1_SCORE_FT	3	2	1	0.666667
 laliga	Atletico Madrid	TEAM1_SCORE_FT	3	2	1	0.666667
 laliga	Atletico Madrid	HT1X_HOME	3	2	1	0.666667
-liga portugal	Estrela	TEAM2_SCORE_FT	3	2	1	0.666667
-liga portugal	Alverca	TEAM2_SCORE_FT	3	2	1	0.666667
 liga portugal 2	Farense	TEAM2_SCORE_FT	3	2	1	0.666667
 liga portugal 2	Penafiel	TEAM2_SCORE_FT	3	2	1	0.666667
 ligue 1	Nantes	TEAM1_SCORE_FT	3	2	1	0.666667
 ligue 1	Metz	TEAM1_SCORE_FT	3	2	1	0.666667
-ligue 1	Toulouse	TEAM2_SCORE_FT	3	2	1	0.666667
 pro league	Genk	TEAM1_SCORE_FT	3	2	1	0.666667
 pro league	Genk	HT1X_HOME	3	2	1	0.666667
-pro league	KV Mechelen	HT1X_HOME	3	2	1	0.666667
 serie b	Catanzaro	TEAM1_SCORE_FT	3	2	1	0.666667
-super league switzerland	FC ST. Gallen	TEAM1_SCORE_FT	3	2	1	0.666667
 super league switzerland	FC Basel 1893	TEAM2_SCORE_FT	3	2	1	0.666667
 super league switzerland	FC Zurich	HT1X_HOME	3	2	1	0.666667
 super lig	Genclerbirligi	TEAM2_SCORE_FT	3	2	1	0.666667
@@ -2405,7 +2390,6 @@ liga profesional argentina	Atletico Tucuman	TEAM1_SCORE_FT	3	2	1	0.666667
 liga profesional argentina	Newells Old Boys	TEAM1_SCORE_FT	3	2	1	0.666667
 liga profesional argentina	Racing Club	HT1X_HOME	3	2	1	0.666667
 primera a colombia	Independiente Medellin	TEAM1_SCORE_FT	3	2	1	0.666667
-primera a colombia	Chico	TEAM2_SCORE_FT	3	2	1	0.666667
 primera división paraguay	Libertad Asuncion	TEAM1_SCORE_FT	3	2	1	0.666667
 primera división paraguay	Libertad Asuncion	HT1X_HOME	3	2	1	0.666667
 serie a brazil	Vitoria	HT05	3	2	1	0.666667
@@ -2424,25 +2408,42 @@ ligue 2	Montpellier	TEAM1_SCORE_FT	3	2	1	0.666667
 ligue 2	Guingamp	TEAM2_SCORE_FT	3	2	1	0.666667
 serie a brazil	Botafogo	O15_FT	3	2	1	0.666667
 super lig	Samsunspor	TEAM2_SCORE_FT	3	2	1	0.666667
+super lig	Kasımpaşa	HT1X_HOME	3	2	1	0.666667
+2. bundesliga	Holstein Kiel	HT1X_HOME	3	2	1	0.666667
 2. bundesliga	VfL Bochum	TEAM1_SCORE_FT	3	2	1	0.666667
 2. bundesliga	VfL Bochum	HT1X_HOME	3	2	1	0.666667
+2. bundesliga	1. FC Kaiserslautern	HT1X_HOME	3	2	1	0.666667
 czech first league	FK Jablonec	TEAM1_SCORE_FT	3	2	1	0.666667
+czech first league	Mlada Boleslav	TEAM1_SCORE_FT	3	2	1	0.666667
+czech first league	Mlada Boleslav	HT1X_HOME	3	2	1	0.666667
 czech first league	Sparta Praha	TEAM2_SCORE_FT	3	2	1	0.666667
 liga profesional argentina	San Lorenzo	TEAM1_SCORE_FT	3	2	1	0.666667
 liga profesional argentina	San Lorenzo	HT1X_HOME	3	2	1	0.666667
+liga profesional argentina	Independiente	HT1X_HOME	3	2	1	0.666667
 premier league	Bournemouth	TEAM2_SCORE_FT	3	2	1	0.666667
 primera a colombia	Cucuta	HT1X_HOME	3	2	1	0.666667
 primera división paraguay	Nacional Asuncion	TEAM1_SCORE_FT	3	2	1	0.666667
 pro league	Antwerp	TEAM2_SCORE_FT	3	2	1	0.666667
+super lig	Eyüpspor	TEAM2_SCORE_FT	3	2	1	0.666667
 super lig	Alanyaspor	HT1X_HOME	3	2	1	0.666667
 super lig	Beşiktaş	HT1X_HOME	3	2	1	0.666667
+superligaen	Gyori ETO FC	HT1X_HOME	3	2	1	0.666667
 superligaen	Ujpest	TEAM1_SCORE_FT	3	2	1	0.666667
 primera a colombia	Atletico Nacional	TEAM2_SCORE_FT	3	2	1	0.666667
 primera a colombia	Junior	HT1X_HOME	3	2	1	0.666667
+2. bundesliga	SC Paderborn 07	TEAM2_SCORE_FT	3	2	1	0.666667
+czech first league	Baník Ostrava	TEAM2_SCORE_FT	3	2	1	0.666667
+czech first league	Slovan Liberec	TEAM1_SCORE_FT	3	2	1	0.666667
+czech first league	Slovan Liberec	HT1X_HOME	3	2	1	0.666667
+czech first league	Pardubice	TEAM1_SCORE_FT	3	2	1	0.666667
+czech first league	Pardubice	HT1X_HOME	3	2	1	0.666667
+eredivisie	Heracles	TEAM1_SCORE_FT	3	2	1	0.666667
+eredivisie	Heracles	HT1X_HOME	3	2	1	0.666667
 laliga	Athletic Club	HT1X_HOME	3	2	1	0.666667
 primera a colombia	Deportivo Cali	TEAM1_SCORE_FT	3	2	1	0.666667
 super league switzerland	FC Zurich	TEAM2_SCORE_FT	3	2	1	0.666667
 superligaen	Kisvarda FC	TEAM2_SCORE_FT	3	2	1	0.666667
+superligaen	Diosgyori VTK	HT1X_HOME	3	2	1	0.666667
 superligaen	Paks	TEAM1_SCORE_FT	3	2	1	0.666667
 superligaen	Paks	HT1X_HOME	3	2	1	0.666667
 superligaen	Zalaegerszegi TE	TEAM1_SCORE_FT	3	2	1	0.666667
@@ -2450,6 +2451,7 @@ superligaen	Zalaegerszegi TE	HT1X_HOME	3	2	1	0.666667
 liga profesional argentina	Rosario Central	HT1X_HOME	3	2	1	0.666667
 liga profesional argentina	Gimnasia L.P.	TEAM1_SCORE_FT	3	2	1	0.666667
 liga profesional argentina	Racing Club	TEAM2_SCORE_FT	3	2	1	0.666667
+super lig	Kocaelispor	HT1X_HOME	3	2	1	0.666667
 primera a colombia	Internacional de Bogota	TEAM1_SCORE_FT	3	2	1	0.666667
 primera a colombia	Independiente Medellin	TEAM2_SCORE_FT	3	2	1	0.666667
 primera a colombia	Llaneros	TEAM1_SCORE_FT	3	2	1	0.666667
@@ -2457,6 +2459,7 @@ primera división paraguay	Deportivo Recoleta	TEAM1_SCORE_FT	3	2	1	0.666667
 primera división paraguay	Deportivo Recoleta	HT1X_HOME	3	2	1	0.666667
 liga profesional argentina	Belgrano Cordoba	TEAM2_SCORE_FT	3	2	1	0.666667
 liga profesional argentina	Union Santa Fe	TEAM1_SCORE_FT	3	2	1	0.666667
+liga profesional argentina	Gimnasia M.	TEAM2_SCORE_FT	3	2	1	0.666667
 liga profesional argentina	Banfield	TEAM1_SCORE_FT	3	2	1	0.666667
 liga profesional argentina	Independ. Rivadavia	TEAM1_SCORE_FT	3	2	1	0.666667
 liga profesional argentina	Independ. Rivadavia	HT1X_HOME	3	2	1	0.666667
@@ -2467,235 +2470,279 @@ eredivisie	Heerenveen	TEAM2_SCORE_FT	3	2	1	0.666667
 liga profesional argentina	Velez Sarsfield	TEAM1_SCORE_FT	3	2	1	0.666667
 liga profesional argentina	Talleres Cordoba	TEAM2_SCORE_FT	3	2	1	0.666667
 primera a colombia	Deportivo Pereira	TEAM2_SCORE_FT	3	2	1	0.666667
+primera a colombia	Jaguares	HT1X_HOME	3	2	1	0.666667
 serie a brazil	Corinthians	HT05	3	2	1	0.666667
-championship	Charlton	HT05	11	7	4	0.636364
-saudi arabia	Al Taawon	O15_FT	11	7	4	0.636364
+championship	Portsmouth	O15_FT	11	7	4	0.636364
+championship	Stoke City	O15_FT	11	7	4	0.636364
+championship	Stoke City	HT05	11	7	4	0.636364
+championship	Norwich	HT05	11	7	4	0.636364
+ligue 1	Toulouse	O15_FT	8	5	3	0.625000
+ligue 1	Toulouse	HT05	8	5	3	0.625000
 laliga2	Cultural Leonesa	HT05	8	5	3	0.625000
+laliga2	Huesca	HT05	8	5	3	0.625000
+laliga2	Racing Santander	HT05	8	5	3	0.625000
 liga portugal	Moreirense	O15_FT	8	5	3	0.625000
+liga portugal	AVS	HT05	8	5	3	0.625000
 liga portugal 2	Felgueiras 1932	HT05	8	5	3	0.625000
+ligue 2	RED Star FC 93	HT05	8	5	3	0.625000
 ligue 2	Grenoble	HT05	8	5	3	0.625000
 ligue 2	Clermont Foot	HT05	8	5	3	0.625000
 ligue 2	Laval	HT05	8	5	3	0.625000
 ligue 2	Boulogne	O15_FT	8	5	3	0.625000
+ligue 2	Le Mans	O15_FT	8	5	3	0.625000
+ligue 2	Rodez	HT05	8	5	3	0.625000
 premier league	Aston Villa	O15_FT	8	5	3	0.625000
 premier league	Aston Villa	HT05	8	5	3	0.625000
-premiership	Hibernian	HT05	8	5	3	0.625000
-serie a italia	Lecce	O15_FT	8	5	3	0.625000
+premiership	Dundee	HT05	8	5	3	0.625000
+premiership	Aberdeen	O15_FT	8	5	3	0.625000
 laliga	Girona	HT05	8	5	3	0.625000
 laliga2	Albacete	O15_FT	8	5	3	0.625000
-laliga2	Zaragoza	HT05	8	5	3	0.625000
 laliga2	Deportivo La Coruna	O15_FT	8	5	3	0.625000
+ligue 1	Angers	HT05	8	5	3	0.625000
 serie a italia	Lazio	O15_FT	8	5	3	0.625000
 serie a italia	Cremonese	O15_FT	8	5	3	0.625000
 serie a italia	Fiorentina	HT05	8	5	3	0.625000
 serie a italia	Cremonese	HT05	8	5	3	0.625000
+liga portugal 2	Leixoes	HT05	8	5	3	0.625000
+bundesliga	Bayer Leverkusen	O15_FT	8	5	3	0.625000
 eredivisie	Excelsior	HT05	8	5	3	0.625000
 eredivisie	NAC Breda	O15_FT	8	5	3	0.625000
 eredivisie	NAC Breda	HT05	8	5	3	0.625000
 serie b	Carrarese	HT05	8	5	3	0.625000
 serie b	Frosinone	HT05	8	5	3	0.625000
-serie b	Sudtirol	O15_FT	8	5	3	0.625000
-serie b	Sudtirol	HT05	8	5	3	0.625000
-serie b	Empoli	O15_FT	8	5	3	0.625000
 eredivisie	Telstar	HT05	8	5	3	0.625000
-bundesliga	FC St. Pauli	HT05	8	5	3	0.625000
-super league switzerland	FC Winterthur	HT05	8	5	3	0.625000
+liga portugal 2	Chaves	HT05	8	5	3	0.625000
+serie b	Modena	HT05	8	5	3	0.625000
+super league switzerland	FC Sion	O15_FT	8	5	3	0.625000
+super league switzerland	FC Sion	HT05	8	5	3	0.625000
+saudi arabia	Al Okhdood	HT05	13	8	5	0.615385
 saudi arabia	Al-Ahli Jeddah	O15_FT	13	8	5	0.615385
+saudi arabia	Al Kholood	HT05	13	8	5	0.615385
 saudi arabia	Al-Ittihad FC	HT05	13	8	5	0.615385
-championship	Stoke City	O15_FT	10	6	4	0.600000
-championship	Stoke City	HT05	10	6	4	0.600000
+championship	Oxford United	O15_FT	10	6	4	0.600000
+championship	Oxford United	HT05	10	6	4	0.600000
 championship	Watford	HT05	10	6	4	0.600000
+premier league	Liverpool	O15_FT	10	6	4	0.600000
+laliga	Villarreal	HT05	10	6	4	0.600000
+premiership	Falkirk	O15_FT	10	6	4	0.600000
 serie a italia	Parma	HT05	10	6	4	0.600000
-championship	Stoke City	TEAM2_SCORE_FT	5	3	2	0.600000
 championship	Hull City	HT1X_HOME	5	3	2	0.600000
 championship	Oxford United	TEAM2_SCORE_FT	5	3	2	0.600000
-championship	Preston	TEAM1_SCORE_FT	5	3	2	0.600000
 premier league	Fulham	TEAM2_SCORE_FT	5	3	2	0.600000
 premier league	Crystal Palace	HT1X_HOME	5	3	2	0.600000
 premier league	Brentford	HT1X_HOME	5	3	2	0.600000
 premier league	Sunderland	TEAM1_SCORE_FT	5	3	2	0.600000
+premier league	Manchester City	TEAM2_SCORE_FT	5	3	2	0.600000
 ligue 2	Bastia	HT1X_HOME	5	3	2	0.600000
 ligue 2	Boulogne	TEAM2_SCORE_FT	5	3	2	0.600000
 premier league	Burnley	TEAM2_SCORE_FT	5	3	2	0.600000
+premier league	Bournemouth	HT1X_HOME	5	3	2	0.600000
 serie a italia	Udinese	TEAM2_SCORE_FT	5	3	2	0.600000
 serie a italia	Pisa	TEAM2_SCORE_FT	5	3	2	0.600000
 serie a italia	Genoa	HT1X_HOME	5	3	2	0.600000
+serie a italia	Lecce	TEAM2_SCORE_FT	5	3	2	0.600000
 championship	Preston	TEAM2_SCORE_FT	5	3	2	0.600000
+championship	Swansea	TEAM2_SCORE_FT	5	3	2	0.600000
 championship	Norwich	HT1X_HOME	5	3	2	0.600000
 laliga	Sevilla	TEAM1_SCORE_FT	5	3	2	0.600000
 laliga	Sevilla	HT1X_HOME	5	3	2	0.600000
+laliga2	Zaragoza	TEAM1_SCORE_FT	5	3	2	0.600000
+ligue 1	Le Havre	TEAM1_SCORE_FT	5	3	2	0.600000
+premier league	Leeds	TEAM1_SCORE_FT	5	3	2	0.600000
+premier league	Leeds	HT1X_HOME	5	3	2	0.600000
 premier league	Everton	HT1X_HOME	5	3	2	0.600000
+premier league	Sunderland	TEAM2_SCORE_FT	5	3	2	0.600000
 serie a italia	Fiorentina	HT1X_HOME	5	3	2	0.600000
 serie a italia	Verona	HT1X_HOME	5	3	2	0.600000
+liga portugal 2	Vizela	TEAM1_SCORE_FT	5	3	2	0.600000
 serie a italia	Cagliari	TEAM2_SCORE_FT	5	3	2	0.600000
 saudi arabia	Al Riyadh	TEAM1_SCORE_FT	5	3	2	0.600000
 serie b	Pescara	TEAM2_SCORE_FT	5	3	2	0.600000
 serie b	Cesena	TEAM1_SCORE_FT	5	3	2	0.600000
-premiership	Livingston	HT1X_HOME	5	3	2	0.600000
-liga mx	Club Queretaro	HT05	5	3	2	0.600000
-liga mx	Atletico San Luis	HT05	5	3	2	0.600000
+saudi arabia	NEOM	TEAM1_SCORE_FT	5	3	2	0.600000
+saudi arabia	NEOM	HT1X_HOME	5	3	2	0.600000
+liga portugal	Nacional	TEAM1_SCORE_FT	5	3	2	0.600000
+bundesliga	1. FC Heidenheim	TEAM2_SCORE_FT	5	3	2	0.600000
 cymru premier league	Haverfordwest County AFC	HT05	5	3	2	0.600000
 cymru premier league	Cardiff MET	HT05	5	3	2	0.600000
 cymru premier league	The New Saints	O15_FT	5	3	2	0.600000
 bundesliga	1. FC Köln	HT1X_HOME	5	3	2	0.600000
 bundesliga	Borussia Mönchengladbach	TEAM2_SCORE_FT	5	3	2	0.600000
+super league switzerland	FC Winterthur	TEAM2_SCORE_FT	5	3	2	0.600000
+super league switzerland	Servette FC	TEAM1_SCORE_FT	5	3	2	0.600000
+bundesliga	Werder Bremen	TEAM1_SCORE_FT	5	3	2	0.600000
+bundesliga	Werder Bremen	HT1X_HOME	5	3	2	0.600000
 serie b	Sampdoria	HT1X_HOME	5	3	2	0.600000
+championship	Blackburn	TEAM2_SCORE_FT	5	3	2	0.600000
+championship	Sheffield Utd	TEAM2_SCORE_FT	5	3	2	0.600000
+championship	Oxford United	HT1X_HOME	5	3	2	0.600000
 championship	Stoke City	TEAM1_SCORE_FT	5	3	2	0.600000
-pro league	St. Truiden	HT05	5	3	2	0.600000
-pro league	OH Leuven	HT05	5	3	2	0.600000
+serie b	Empoli	TEAM1_SCORE_FT	5	3	2	0.600000
 super lig	Kayserispor	O15_FT	5	3	2	0.600000
-super lig	Kocaelispor	HT05	5	3	2	0.600000
-superligaen	Kisvarda FC	O15_FT	5	3	2	0.600000
 superligaen	Puskas Academy	O15_FT	5	3	2	0.600000
-superligaen	Paks	O15_FT	5	3	2	0.600000
 superligaen	Puskas Academy	HT05	5	3	2	0.600000
-pro league	Anderlecht	O15_FT	5	3	2	0.600000
 pro league	Dender	O15_FT	5	3	2	0.600000
 pro league	Dender	HT05	5	3	2	0.600000
 super lig	Antalyaspor	O15_FT	5	3	2	0.600000
-super lig	Göztepe	O15_FT	5	3	2	0.600000
-super lig	Göztepe	HT05	5	3	2	0.600000
 superligaen	Kazincbarcikai	O15_FT	5	3	2	0.600000
 superligaen	Kazincbarcikai	HT05	5	3	2	0.600000
 superligaen	Ferencvarosi TC	HT05	5	3	2	0.600000
 primera división paraguay	Club Sp. San Lorenzo	HT05	5	3	2	0.600000
 liga profesional argentina	Aldosivi	HT05	5	3	2	0.600000
-primera a colombia	Alianza Valledupar	HT05	5	3	2	0.600000
-primera a colombia	Chico	HT05	5	3	2	0.600000
-primera a colombia	Once Caldas	HT05	5	3	2	0.600000
+czech first league	Teplice	O15_FT	5	3	2	0.600000
+czech first league	Mlada Boleslav	O15_FT	5	3	2	0.600000
+czech first league	Hradec Králové	HT05	5	3	2	0.600000
 czech first league	Dukla Praha	O15_FT	5	3	2	0.600000
 czech first league	Dukla Praha	HT05	5	3	2	0.600000
+czech first league	Sparta Praha	HT05	5	3	2	0.600000
+czech first league	Baník Ostrava	O15_FT	5	3	2	0.600000
+czech first league	Slovan Liberec	HT05	5	3	2	0.600000
+czech first league	Pardubice	HT05	5	3	2	0.600000
 liga profesional argentina	Talleres Cordoba	O15_FT	5	3	2	0.600000
 liga profesional argentina	Talleres Cordoba	HT05	5	3	2	0.600000
-primera división paraguay	Olimpia	HT05	5	3	2	0.600000
 liga profesional argentina	Gimnasia L.P.	O15_FT	5	3	2	0.600000
 primera división paraguay	Deportivo Recoleta	O15_FT	5	3	2	0.600000
 primera división paraguay	Deportivo Recoleta	HT05	5	3	2	0.600000
 primera a colombia	Deportivo Pereira	O15_FT	5	3	2	0.600000
 liga profesional argentina	Instituto Cordoba	O15_FT	5	3	2	0.600000
 primera a colombia	Santa Fe	O15_FT	5	3	2	0.600000
-saudi arabia	Al Okhdood	HT05	12	7	5	0.583333
-saudi arabia	Al Kholood	HT05	12	7	5	0.583333
+championship	Sheffield Wednesday	HT05	12	7	5	0.583333
+saudi arabia	NEOM	O15_FT	12	7	5	0.583333
 saudi arabia	Al-Hazm	HT05	12	7	5	0.583333
 championship	Blackburn	HT1X_HOME	7	4	3	0.571429
 cymru premier league	Colwyn Bay	HT05	7	4	3	0.571429
 cymru premier league	llanelli AFC	O15_FT	7	4	3	0.571429
 laliga2	Eibar	HT05	7	4	3	0.571429
-ligue 1	Toulouse	HT05	7	4	3	0.571429
+liga portugal	Guimaraes	HT05	7	4	3	0.571429
 laliga	Celta Vigo	HT05	7	4	3	0.571429
 laliga	Valencia	HT05	7	4	3	0.571429
 laliga	Elche	HT05	7	4	3	0.571429
-laliga2	Granada CF	O15_FT	7	4	3	0.571429
-laliga2	Racing Santander	HT05	7	4	3	0.571429
-laliga2	Burgos	O15_FT	7	4	3	0.571429
-laliga2	Burgos	HT05	7	4	3	0.571429
+laliga	Barcelona	HT05	7	4	3	0.571429
+liga portugal	Estrela	HT05	7	4	3	0.571429
 liga portugal 2	Feirense	O15_FT	7	4	3	0.571429
 liga portugal 2	Farense	O15_FT	7	4	3	0.571429
 liga portugal 2	Farense	HT05	7	4	3	0.571429
-ligue 1	Monaco	HT05	7	4	3	0.571429
 ligue 1	Lille	O15_FT	7	4	3	0.571429
 ligue 1	Lille	HT05	7	4	3	0.571429
 ligue 2	Estac Troyes	O15_FT	7	4	3	0.571429
 ligue 2	Amiens	HT05	7	4	3	0.571429
+ligue 2	Guingamp	O15_FT	7	4	3	0.571429
+ligue 2	Guingamp	HT05	7	4	3	0.571429
 premier league	Nottingham Forest	O15_FT	7	4	3	0.571429
 premier league	Nottingham Forest	HT05	7	4	3	0.571429
 premier league	Brighton	HT05	7	4	3	0.571429
-premiership	Dundee	HT05	7	4	3	0.571429
 laliga	Real Madrid	HT05	7	4	3	0.571429
+laliga	Atletico Madrid	O15_FT	7	4	3	0.571429
+laliga	Atletico Madrid	HT05	7	4	3	0.571429
 laliga2	Las Palmas	HT05	7	4	3	0.571429
 liga portugal	Santa Clara	O15_FT	7	4	3	0.571429
 liga portugal	FC Porto	O15_FT	7	4	3	0.571429
 liga portugal	Santa Clara	HT05	7	4	3	0.571429
 liga portugal	FC Porto	HT05	7	4	3	0.571429
-liga portugal	Alverca	HT05	7	4	3	0.571429
 liga portugal 2	Penafiel	O15_FT	7	4	3	0.571429
 liga portugal 2	Penafiel	HT05	7	4	3	0.571429
 liga portugal 2	Pacos Ferreira	HT05	7	4	3	0.571429
 liga portugal 2	Academico Viseu	HT05	7	4	3	0.571429
+ligue 1	Le Havre	O15_FT	7	4	3	0.571429
 saudi arabia	Damac	TEAM1_SCORE_FT	7	4	3	0.571429
 saudi arabia	Damac	HT1X_HOME	7	4	3	0.571429
 liga portugal 2	Benfica B	O15_FT	7	4	3	0.571429
-liga portugal 2	Leixoes	O15_FT	7	4	3	0.571429
-liga portugal 2	Leixoes	HT05	7	4	3	0.571429
 saudi arabia	Al-Ettifaq	TEAM2_SCORE_FT	7	4	3	0.571429
 bundesliga	Hamburger SV	HT05	7	4	3	0.571429
-bundesliga	Bayer Leverkusen	O15_FT	7	4	3	0.571429
-serie b	Spezia	O15_FT	7	4	3	0.571429
+liga mx	Guadalajara Chivas	O15_FT	7	4	3	0.571429
+liga mx	Puebla	HT05	7	4	3	0.571429
+liga mx	Club Tijuana	O15_FT	7	4	3	0.571429
+liga mx	Club Tijuana	HT05	7	4	3	0.571429
 eredivisie	GO Ahead Eagles	HT05	7	4	3	0.571429
+eredivisie	Sparta Rotterdam	HT05	7	4	3	0.571429
 liga mx	Monterrey	O15_FT	7	4	3	0.571429
-liga portugal 2	Chaves	HT05	7	4	3	0.571429
-serie b	Modena	HT05	7	4	3	0.571429
+liga mx	Toluca	O15_FT	7	4	3	0.571429
+liga mx	Toluca	HT05	7	4	3	0.571429
 ligue 2	Dunkerque	O15_FT	7	4	3	0.571429
 pro league	RAAL La Louvière	HT05	7	4	3	0.571429
+2. bundesliga	FC Schalke 04	HT05	7	4	3	0.571429
+liga profesional argentina	Gimnasia M.	O15_FT	7	4	3	0.571429
+liga profesional argentina	Independiente	HT05	7	4	3	0.571429
 primera a colombia	Millonarios	O15_FT	7	4	3	0.571429
-championship	Oxford United	O15_FT	9	5	4	0.555556
-championship	Oxford United	HT05	9	5	4	0.555556
 premier league	Crystal Palace	HT05	9	5	4	0.555556
-premier league	Liverpool	O15_FT	9	5	4	0.555556
 serie a italia	AC Milan	HT05	9	5	4	0.555556
-laliga	Villarreal	HT05	9	5	4	0.555556
-premiership	Falkirk	O15_FT	9	5	4	0.555556
 serie a italia	Udinese	O15_FT	9	5	4	0.555556
+serie a italia	Lecce	HT05	9	5	4	0.555556
+laliga2	Zaragoza	HT05	9	5	4	0.555556
 serie a italia	Bologna	HT05	9	5	4	0.555556
-championship	Sheffield Wednesday	HT05	11	6	5	0.545455
-saudi arabia	NEOM	O15_FT	11	6	5	0.545455
+serie b	Sudtirol	HT05	9	5	4	0.555556
+championship	QPR	HT05	11	6	5	0.545455
+championship	Southampton	HT05	11	6	5	0.545455
+championship	Millwall	HT05	11	6	5	0.545455
 saudi arabia	Al-Ahli Jeddah	HT05	13	7	6	0.538462
-championship	Portsmouth	HT05	10	5	5	0.500000
-championship	QPR	HT05	10	5	5	0.500000
-championship	Southampton	HT05	10	5	5	0.500000
-championship	Millwall	HT05	10	5	5	0.500000
+saudi arabia	NEOM	HT05	12	6	6	0.500000
+premier league	Liverpool	HT05	10	5	5	0.500000
 serie a italia	Cagliari	HT05	10	5	5	0.500000
+premiership	ST Mirren	HT05	10	5	5	0.500000
 liga portugal	Sporting CP	HT05	8	4	4	0.500000
-liga portugal 2	Portimonense	O15_FT	8	4	4	0.500000
+laliga2	Granada CF	O15_FT	8	4	4	0.500000
+laliga2	Racing Santander	O15_FT	8	4	4	0.500000
+laliga2	Burgos	O15_FT	8	4	4	0.500000
+laliga2	Burgos	HT05	8	4	4	0.500000
+ligue 1	Monaco	HT05	8	4	4	0.500000
 ligue 2	Bastia	O15_FT	8	4	4	0.500000
 ligue 2	Grenoble	O15_FT	8	4	4	0.500000
 ligue 2	Bastia	HT05	8	4	4	0.500000
 ligue 2	Boulogne	HT05	8	4	4	0.500000
-serie a italia	Lecce	HT05	8	4	4	0.500000
+ligue 2	Saint Etienne	HT05	8	4	4	0.500000
+premiership	Dundee	O15_FT	8	4	4	0.500000
 laliga	Alaves	HT05	8	4	4	0.500000
 laliga2	Albacete	HT05	8	4	4	0.500000
+liga portugal	Alverca	HT05	8	4	4	0.500000
+ligue 1	Angers	O15_FT	8	4	4	0.500000
 premier league	Manchester United	HT05	8	4	4	0.500000
+liga portugal 2	Leixoes	O15_FT	8	4	4	0.500000
 eredivisie	AZ Alkmaar	HT05	8	4	4	0.500000
 serie b	Carrarese	O15_FT	8	4	4	0.500000
+serie b	Spezia	O15_FT	8	4	4	0.500000
+liga portugal 2	Chaves	O15_FT	8	4	4	0.500000
 bundesliga	RB Leipzig	HT05	8	4	4	0.500000
 championship	Bristol City	HT1X_HOME	6	3	3	0.500000
-championship	Charlton	HT1X_HOME	6	3	3	0.500000
+championship	Preston	TEAM1_SCORE_FT	6	3	3	0.500000
 championship	Watford	TEAM1_SCORE_FT	6	3	3	0.500000
 cymru premier league	Flint Town United	HT05	6	3	3	0.500000
 cymru premier league	Penybont	O15_FT	6	3	3	0.500000
 cymru premier league	Penybont	HT05	6	3	3	0.500000
 saudi arabia	Al-Ahli Jeddah	HT1X_HOME	6	3	3	0.500000
 cymru premier league	Barry Town	O15_FT	6	3	3	0.500000
-laliga	Barcelona	HT05	6	3	3	0.500000
+premiership	ST Mirren	TEAM2_SCORE_FT	6	3	3	0.500000
+saudi arabia	Al Taawon	TEAM2_SCORE_FT	6	3	3	0.500000
 liga portugal	Famalicao	HT05	6	3	3	0.500000
 saudi arabia	Al Khaleej Saihat	TEAM1_SCORE_FT	6	3	3	0.500000
 saudi arabia	Damac	TEAM2_SCORE_FT	6	3	3	0.500000
 eredivisie	Groningen	HT05	6	3	3	0.500000
-liga mx	Guadalajara Chivas	O15_FT	6	3	3	0.500000
-liga mx	Puebla	O15_FT	6	3	3	0.500000
-liga mx	Club Tijuana	O15_FT	6	3	3	0.500000
 liga mx	Club America	O15_FT	6	3	3	0.500000
-liga mx	Club Tijuana	HT05	6	3	3	0.500000
 liga mx	Club America	HT05	6	3	3	0.500000
-eredivisie	Sparta Rotterdam	HT05	6	3	3	0.500000
+premiership	Livingston	HT1X_HOME	6	3	3	0.500000
 laliga	Levante	TEAM1_SCORE_FT	6	3	3	0.500000
-liga mx	Toluca	O15_FT	6	3	3	0.500000
-liga mx	Toluca	HT05	6	3	3	0.500000
+liga mx	Atletico San Luis	HT05	6	3	3	0.500000
 liga mx	Tigres UANL	HT05	6	3	3	0.500000
 2. bundesliga	Preußen Münster	HT05	6	3	3	0.500000
-2. bundesliga	FC Schalke 04	HT05	6	3	3	0.500000
 pro league	Union St. Gilloise	O15_FT	6	3	3	0.500000
+super lig	Kasımpaşa	HT05	6	3	3	0.500000
+pro league	St. Truiden	HT05	6	3	3	0.500000
 super league switzerland	Grasshoppers	HT05	6	3	3	0.500000
+super lig	Kocaelispor	HT05	6	3	3	0.500000
+superligaen	Paks	HT05	6	3	3	0.500000
+pro league	Anderlecht	HT05	6	3	3	0.500000
 super lig	Konyaspor	HT05	6	3	3	0.500000
-liga profesional argentina	Gimnasia M.	O15_FT	6	3	3	0.500000
+super lig	Göztepe	O15_FT	6	3	3	0.500000
+super lig	Göztepe	HT05	6	3	3	0.500000
+superligaen	Zalaegerszegi TE	O15_FT	6	3	3	0.500000
 liga profesional argentina	Huracan	O15_FT	6	3	3	0.500000
 liga profesional argentina	Huracan	HT05	6	3	3	0.500000
 primera a colombia	Llaneros	HT05	6	3	3	0.500000
 primera división paraguay	Cerro Porteno	O15_FT	6	3	3	0.500000
 liga profesional argentina	Newells Old Boys	O15_FT	6	3	3	0.500000
-liga profesional argentina	Independiente	O15_FT	6	3	3	0.500000
 liga profesional argentina	Barracas Central	HT05	6	3	3	0.500000
 primera a colombia	Deportes Tolima	O15_FT	6	3	3	0.500000
+liga profesional argentina	Boca Juniors	O15_FT	6	3	3	0.500000
+liga profesional argentina	Boca Juniors	HT05	6	3	3	0.500000
 liga profesional argentina	Deportivo Riestra	HT05	6	3	3	0.500000
 liga profesional argentina	Belgrano Cordoba	O15_FT	6	3	3	0.500000
 liga profesional argentina	Union Santa Fe	O15_FT	6	3	3	0.500000
@@ -2703,8 +2750,8 @@ liga profesional argentina	Union Santa Fe	HT05	6	3	3	0.500000
 primera a colombia	Deportivo Pasto	HT05	6	3	3	0.500000
 primera a colombia	Deportivo Cali	O15_FT	6	3	3	0.500000
 liga profesional argentina	Sarmiento Junin	O15_FT	6	3	3	0.500000
+primera división paraguay	Olimpia	HT05	6	3	3	0.500000
 premier league	Tottenham	TEAM2_SCORE_FT	4	2	2	0.500000
-premier league	Manchester City	TEAM2_SCORE_FT	4	2	2	0.500000
 laliga2	Mirandes	TEAM2_SCORE_FT	4	2	2	0.500000
 laliga2	Eibar	HT1X_HOME	4	2	2	0.500000
 liga portugal	GIL Vicente	HT1X_HOME	4	2	2	0.500000
@@ -2712,31 +2759,33 @@ ligue 1	Toulouse	TEAM1_SCORE_FT	4	2	2	0.500000
 laliga	Espanyol	TEAM1_SCORE_FT	4	2	2	0.500000
 laliga	Espanyol	HT1X_HOME	4	2	2	0.500000
 laliga2	Cultural Leonesa	TEAM1_SCORE_FT	4	2	2	0.500000
+laliga2	Valladolid	TEAM1_SCORE_FT	4	2	2	0.500000
 liga portugal	Estoril	TEAM2_SCORE_FT	4	2	2	0.500000
 liga portugal 2	Felgueiras 1932	TEAM1_SCORE_FT	4	2	2	0.500000
 liga portugal 2	Farense	TEAM1_SCORE_FT	4	2	2	0.500000
 ligue 1	Nice	HT1X_HOME	4	2	2	0.500000
 ligue 2	Amiens	HT1X_HOME	4	2	2	0.500000
 ligue 2	Grenoble	TEAM2_SCORE_FT	4	2	2	0.500000
+ligue 2	Saint Etienne	TEAM2_SCORE_FT	4	2	2	0.500000
 ligue 2	Reims	TEAM1_SCORE_FT	4	2	2	0.500000
 premier league	Aston Villa	HT1X_HOME	4	2	2	0.500000
 premiership	Dundee Utd	HT1X_HOME	4	2	2	0.500000
-serie a italia	Lecce	TEAM2_SCORE_FT	4	2	2	0.500000
 laliga	Levante	TEAM2_SCORE_FT	4	2	2	0.500000
-laliga	Mallorca	HT1X_HOME	4	2	2	0.500000
+laliga	Atletico Madrid	TEAM2_SCORE_FT	4	2	2	0.500000
 laliga2	Sporting Gijon	HT1X_HOME	4	2	2	0.500000
 liga portugal	Rio Ave	TEAM1_SCORE_FT	4	2	2	0.500000
 liga portugal	Rio Ave	HT1X_HOME	4	2	2	0.500000
 liga portugal 2	Penafiel	TEAM1_SCORE_FT	4	2	2	0.500000
 liga portugal 2	Pacos Ferreira	TEAM2_SCORE_FT	4	2	2	0.500000
-premier league	Sunderland	TEAM2_SCORE_FT	4	2	2	0.500000
+liga portugal 2	Sporting CP B	HT1X_HOME	4	2	2	0.500000
 serie a italia	Lazio	TEAM1_SCORE_FT	4	2	2	0.500000
 serie a italia	Lazio	HT1X_HOME	4	2	2	0.500000
-liga portugal 2	Vizela	TEAM1_SCORE_FT	4	2	2	0.500000
 premier league	Aston Villa	TEAM2_SCORE_FT	4	2	2	0.500000
+premier league	Burnley	HT1X_HOME	4	2	2	0.500000
 serie a italia	Bologna	HT1X_HOME	4	2	2	0.500000
 serie a italia	Verona	TEAM2_SCORE_FT	4	2	2	0.500000
 serie a italia	Parma	HT1X_HOME	4	2	2	0.500000
+serie a italia	Genoa	TEAM2_SCORE_FT	4	2	2	0.500000
 laliga	Getafe	TEAM1_SCORE_FT	4	2	2	0.500000
 laliga2	Cadiz	HT1X_HOME	4	2	2	0.500000
 bundesliga	1. FC Heidenheim	TEAM1_SCORE_FT	4	2	2	0.500000
@@ -2750,12 +2799,14 @@ serie b	Monza	TEAM2_SCORE_FT	4	2	2	0.500000
 serie b	Juve Stabia	HT1X_HOME	4	2	2	0.500000
 laliga2	Albacete	TEAM2_SCORE_FT	4	2	2	0.500000
 laliga2	Zaragoza	TEAM2_SCORE_FT	4	2	2	0.500000
+liga mx	Club Tijuana	TEAM1_SCORE_FT	4	2	2	0.500000
+premiership	Dundee Utd	TEAM2_SCORE_FT	4	2	2	0.500000
 premiership	Falkirk	TEAM2_SCORE_FT	4	2	2	0.500000
-saudi arabia	NEOM	TEAM1_SCORE_FT	4	2	2	0.500000
 bundesliga	FC Augsburg	TEAM2_SCORE_FT	4	2	2	0.500000
+eredivisie	Heerenveen	HT1X_HOME	4	2	2	0.500000
 eredivisie	Heracles	TEAM2_SCORE_FT	4	2	2	0.500000
+laliga2	Granada CF	TEAM1_SCORE_FT	4	2	2	0.500000
 laliga2	Castellón	TEAM2_SCORE_FT	4	2	2	0.500000
-liga portugal	Nacional	TEAM1_SCORE_FT	4	2	2	0.500000
 liga portugal	Santa Clara	TEAM2_SCORE_FT	4	2	2	0.500000
 liga portugal	Tondela	TEAM2_SCORE_FT	4	2	2	0.500000
 serie a italia	Lecce	TEAM1_SCORE_FT	4	2	2	0.500000
@@ -2766,21 +2817,14 @@ liga mx	Puebla	TEAM1_SCORE_FT	4	2	2	0.500000
 bundesliga	VfL Wolfsburg	HT1X_HOME	4	2	2	0.500000
 liga mx	Monterrey	TEAM2_SCORE_FT	4	2	2	0.500000
 liga mx	Necaxa	HT1X_HOME	4	2	2	0.500000
-super league switzerland	FC Winterthur	TEAM2_SCORE_FT	4	2	2	0.500000
-bundesliga	Werder Bremen	TEAM1_SCORE_FT	4	2	2	0.500000
-bundesliga	Werder Bremen	HT1X_HOME	4	2	2	0.500000
 ligue 2	Dunkerque	TEAM1_SCORE_FT	4	2	2	0.500000
 ligue 2	Laval	TEAM1_SCORE_FT	4	2	2	0.500000
+2. bundesliga	FC Schalke 04	TEAM2_SCORE_FT	4	2	2	0.500000
 bundesliga	Bayer Leverkusen	TEAM2_SCORE_FT	4	2	2	0.500000
-championship	Blackburn	TEAM2_SCORE_FT	4	2	2	0.500000
-championship	Sheffield Utd	TEAM2_SCORE_FT	4	2	2	0.500000
-championship	Oxford United	HT1X_HOME	4	2	2	0.500000
 ligue 2	Reims	TEAM2_SCORE_FT	4	2	2	0.500000
 pro league	Zulte Waregem	HT1X_HOME	4	2	2	0.500000
 serie b	Carrarese	TEAM2_SCORE_FT	4	2	2	0.500000
-serie b	Empoli	TEAM1_SCORE_FT	4	2	2	0.500000
 serie b	Sudtirol	TEAM2_SCORE_FT	4	2	2	0.500000
-serie b	Empoli	HT1X_HOME	4	2	2	0.500000
 serie b	Mantova	TEAM2_SCORE_FT	4	2	2	0.500000
 super league switzerland	FC Luzern	HT1X_HOME	4	2	2	0.500000
 ligue 1	Marseille	TEAM2_SCORE_FT	4	2	2	0.500000
@@ -2796,8 +2840,19 @@ uefa europa league	PAOK	HT05	4	2	2	0.500000
 uefa europa league	Celta Vigo	HT05	4	2	2	0.500000
 uefa europa league	Panathinaikos	HT05	4	2	2	0.500000
 uefa europa league	Ludogorets	O15_FT	4	2	2	0.500000
+championship	Leicester	TEAM1_SCORE_FT	4	2	2	0.500000
+championship	Leicester	HT1X_HOME	4	2	2	0.500000
+ligue 2	RED Star FC 93	TEAM1_SCORE_FT	4	2	2	0.500000
+serie b	Reggiana	TEAM2_SCORE_FT	4	2	2	0.500000
+serie b	Spezia	TEAM1_SCORE_FT	4	2	2	0.500000
+serie b	Spezia	HT1X_HOME	4	2	2	0.500000
+championship	Portsmouth	TEAM1_SCORE_FT	4	2	2	0.500000
+liga portugal	Estrela	TEAM2_SCORE_FT	4	2	2	0.500000
+ligue 1	Toulouse	TEAM2_SCORE_FT	4	2	2	0.500000
+serie b	Padova	TEAM2_SCORE_FT	4	2	2	0.500000
 liga profesional argentina	Gimnasia M.	TEAM1_SCORE_FT	4	2	2	0.500000
 primera a colombia	Deportes Tolima	TEAM2_SCORE_FT	4	2	2	0.500000
+primera a colombia	Chico	TEAM2_SCORE_FT	4	2	2	0.500000
 serie a brazil	Coritiba	O15_FT	4	2	2	0.500000
 serie a brazil	Coritiba	HT05	4	2	2	0.500000
 serie a brazil	RB Bragantino	HT05	4	2	2	0.500000
@@ -2809,22 +2864,12 @@ liga profesional argentina	Lanus	HT05	4	2	2	0.500000
 primera a colombia	Rionegro Aguilas	HT05	4	2	2	0.500000
 serie a brazil	Sao Paulo	O15_FT	4	2	2	0.500000
 liga profesional argentina	Argentinos JRS	HT05	4	2	2	0.500000
-czech first league	Teplice	O15_FT	4	2	2	0.500000
-czech first league	Mlada Boleslav	O15_FT	4	2	2	0.500000
-czech first league	Mlada Boleslav	HT05	4	2	2	0.500000
 czech first league	Bohemians 1905	HT05	4	2	2	0.500000
-czech first league	Hradec Králové	O15_FT	4	2	2	0.500000
 czech first league	Sigma Olomouc	HT05	4	2	2	0.500000
-czech first league	Hradec Králové	HT05	4	2	2	0.500000
-czech first league	Sparta Praha	HT05	4	2	2	0.500000
 primera división paraguay	2 de Mayo	O15_FT	4	2	2	0.500000
-czech first league	Baník Ostrava	O15_FT	4	2	2	0.500000
-czech first league	Slovan Liberec	O15_FT	4	2	2	0.500000
 czech first league	Zlin	O15_FT	4	2	2	0.500000
-czech first league	Slovan Liberec	HT05	4	2	2	0.500000
-czech first league	Pardubice	HT05	4	2	2	0.500000
+liga profesional argentina	Boca Juniors	TEAM1_SCORE_FT	4	2	2	0.500000
 primera división paraguay	Sportivo Luqueno	HT05	4	2	2	0.500000
-primera a colombia	Jaguares	O15_FT	4	2	2	0.500000
 cymru premier league	GAP Connah S Quay FC	HT1X_HOME	2	1	1	0.500000
 fa cup	Oxford United	O15_FT	2	1	1	0.500000
 fa cup	Wigan	O15_FT	2	1	1	0.500000
@@ -2872,8 +2917,6 @@ fa cup	West Ham	O15_FT	2	1	1	0.500000
 fa cup	West Ham	HT05	2	1	1	0.500000
 fa cup	Brighton	TEAM2_SCORE_FT	2	1	1	0.500000
 liga mx	Santos Laguna	HT1X_HOME	2	1	1	0.500000
-premiership	Dundee	TEAM1_SCORE_FT	2	1	1	0.500000
-premiership	Dundee	HT1X_HOME	2	1	1	0.500000
 coupe de france	Paris FC	O15_FT	2	1	1	0.500000
 coupe de france	Paris FC	TEAM2_SCORE_FT	2	1	1	0.500000
 belgian cup	Antwerp	TEAM1_SCORE_FT	2	1	1	0.500000
@@ -2948,16 +2991,11 @@ uefa europa league	Rangers	O15_FT	2	1	1	0.500000
 uefa europa league	FC Basel 1893	O15_FT	2	1	1	0.500000
 uefa europa league	Nottingham Forest	TEAM2_SCORE_FT	2	1	1	0.500000
 uefa europa league	Utrecht	HT05	2	1	1	0.500000
-2. bundesliga	Arminia Bielefeld	HT1X_HOME	2	1	1	0.500000
 cymru premier league	Cardiff MET	TEAM1_SCORE_FT	2	1	1	0.500000
 cymru premier league	Cardiff MET	HT1X_HOME	2	1	1	0.500000
-ligue 1	Rennes	TEAM1_SCORE_FT	2	1	1	0.500000
-ligue 1	Rennes	HT1X_HOME	2	1	1	0.500000
 pro league	Union St. Gilloise	TEAM2_SCORE_FT	2	1	1	0.500000
 super lig	Samsunspor	HT1X_HOME	2	1	1	0.500000
-superligaen	Ujpest	TEAM2_SCORE_FT	2	1	1	0.500000
 superligaen	Puskas Academy	TEAM1_SCORE_FT	2	1	1	0.500000
-superligaen	Paks	TEAM2_SCORE_FT	2	1	1	0.500000
 liga profesional argentina	Aldosivi	TEAM1_SCORE_FT	2	1	1	0.500000
 liga profesional argentina	Aldosivi	HT1X_HOME	2	1	1	0.500000
 serie a brazil	RB Bragantino	TEAM2_SCORE_FT	2	1	1	0.500000
@@ -2993,41 +3031,24 @@ uefa europa league	VfB Stuttgart	TEAM1_SCORE_FT	2	1	1	0.500000
 uefa europa league	VfB Stuttgart	HT1X_HOME	2	1	1	0.500000
 liga profesional argentina	Argentinos JRS	TEAM2_SCORE_FT	2	1	1	0.500000
 serie a brazil	Cruzeiro	TEAM2_SCORE_FT	2	1	1	0.500000
-super lig	Kasımpaşa	TEAM1_SCORE_FT	2	1	1	0.500000
-2. bundesliga	Holstein Kiel	HT1X_HOME	2	1	1	0.500000
-czech first league	Mlada Boleslav	TEAM1_SCORE_FT	2	1	1	0.500000
-czech first league	Mlada Boleslav	HT1X_HOME	2	1	1	0.500000
 czech first league	Sigma Olomouc	HT1X_HOME	2	1	1	0.500000
 eredivisie	Groningen	TEAM2_SCORE_FT	2	1	1	0.500000
 liga profesional argentina	Velez Sarsfield	TEAM2_SCORE_FT	2	1	1	0.500000
-liga profesional argentina	Independiente	HT1X_HOME	2	1	1	0.500000
 primera división paraguay	2 de Mayo	TEAM2_SCORE_FT	2	1	1	0.500000
 pro league	Cercle Brugge	TEAM1_SCORE_FT	2	1	1	0.500000
 pro league	Cercle Brugge	HT1X_HOME	2	1	1	0.500000
 pro league	St. Truiden	TEAM1_SCORE_FT	2	1	1	0.500000
 serie b	Pescara	TEAM1_SCORE_FT	2	1	1	0.500000
 serie b	Pescara	HT1X_HOME	2	1	1	0.500000
-super league switzerland	FC Sion	TEAM2_SCORE_FT	2	1	1	0.500000
-super lig	Göztepe	TEAM1_SCORE_FT	2	1	1	0.500000
 superligaen	Kazincbarcikai	TEAM2_SCORE_FT	2	1	1	0.500000
-superligaen	Gyori ETO FC	HT1X_HOME	2	1	1	0.500000
-2. bundesliga	SC Paderborn 07	TEAM2_SCORE_FT	2	1	1	0.500000
-czech first league	Baník Ostrava	TEAM2_SCORE_FT	2	1	1	0.500000
 czech first league	Karviná	TEAM1_SCORE_FT	2	1	1	0.500000
 czech first league	Karviná	HT1X_HOME	2	1	1	0.500000
-czech first league	Pardubice	TEAM1_SCORE_FT	2	1	1	0.500000
-czech first league	Pardubice	HT1X_HOME	2	1	1	0.500000
-eredivisie	Heracles	TEAM1_SCORE_FT	2	1	1	0.500000
 eredivisie	FC Volendam	HT1X_HOME	2	1	1	0.500000
 liga profesional argentina	Platense	TEAM2_SCORE_FT	2	1	1	0.500000
 liga profesional argentina	Talleres Cordoba	HT1X_HOME	2	1	1	0.500000
-superligaen	Diosgyori VTK	HT1X_HOME	2	1	1	0.500000
 pro league	Club Brugge KV	TEAM2_SCORE_FT	2	1	1	0.500000
-super lig	Kocaelispor	TEAM1_SCORE_FT	2	1	1	0.500000
-super lig	Kocaelispor	HT1X_HOME	2	1	1	0.500000
 primera a colombia	Rionegro Aguilas	TEAM2_SCORE_FT	2	1	1	0.500000
 liga profesional argentina	Argentinos JRS	TEAM1_SCORE_FT	2	1	1	0.500000
-liga profesional argentina	Gimnasia M.	TEAM2_SCORE_FT	2	1	1	0.500000
 primera a colombia	Deportivo Pereira	HT1X_HOME	2	1	1	0.500000
 liga profesional argentina	Lanus	TEAM2_SCORE_FT	2	1	1	0.500000
 serie a brazil	Atletico-MG	TEAM2_SCORE_FT	2	1	1	0.500000
@@ -3054,45 +3075,58 @@ pro league	Standard Liege	TEAM2_SCORE_FT	2	1	1	0.500000
 super lig	Konyaspor	TEAM1_SCORE_FT	2	1	1	0.500000
 liga profesional argentina	Instituto Cordoba	TEAM2_SCORE_FT	2	1	1	0.500000
 liga profesional argentina	Gimnasia L.P.	TEAM2_SCORE_FT	2	1	1	0.500000
-primera a colombia	Jaguares	TEAM1_SCORE_FT	2	1	1	0.500000
 primera a colombia	Chico	TEAM1_SCORE_FT	2	1	1	0.500000
 serie a brazil	Atletico Paranaense	TEAM1_SCORE_FT	2	1	1	0.500000
 serie a brazil	Atletico Paranaense	HT1X_HOME	2	1	1	0.500000
 primera división paraguay	Club Sp. San Lorenzo	TEAM2_SCORE_FT	2	1	1	0.500000
 primera división paraguay	Rubio NU	TEAM2_SCORE_FT	2	1	1	0.500000
-primera división paraguay	Sportivo Ameliano	TEAM1_SCORE_FT	2	1	1	0.500000
+czech first league	FK Jablonec	TEAM2_SCORE_FT	2	1	1	0.500000
 serie a brazil	Corinthians	TEAM2_SCORE_FT	2	1	1	0.500000
-saudi arabia	NEOM	HT05	11	5	6	0.454545
-premier league	Liverpool	HT05	9	4	5	0.444444
-premiership	Heart Of Midlothian	O15_FT	9	4	5	0.444444
-premiership	ST Mirren	HT05	9	4	5	0.444444
+liga pro ecuador	Tecnico Universitario	O15_FT	2	1	1	0.500000
+liga pro ecuador	Tecnico Universitario	HT05	2	1	1	0.500000
+mls	FC Cincinnati	O15_FT	2	1	1	0.500000
+liga pro ecuador	Leones del Norte	O15_FT	2	1	1	0.500000
+liga pro ecuador	Leones del Norte	HT05	2	1	1	0.500000
+mls	New York Red Bulls	O15_FT	2	1	1	0.500000
+mls	New York Red Bulls	HT05	2	1	1	0.500000
+mls	Minnesota United FC	O15_FT	2	1	1	0.500000
+mls	Minnesota United FC	HT05	2	1	1	0.500000
+mls	New England Revolution	O15_FT	2	1	1	0.500000
+mls	New England Revolution	TEAM2_SCORE_FT	2	1	1	0.500000
+mls	New England Revolution	HT05	2	1	1	0.500000
+liga pro ecuador	Libertad	O15_FT	2	1	1	0.500000
+liga pro ecuador	Libertad	HT05	2	1	1	0.500000
+championship	Portsmouth	HT05	11	5	6	0.454545
+liga portugal	Nacional	HT05	9	4	5	0.444444
+liga portugal 2	Portimonense	O15_FT	9	4	5	0.444444
+liga portugal 2	Vizela	HT05	9	4	5	0.444444
 serie b	Bari	HT05	9	4	5	0.444444
 serie b	Monza	HT05	9	4	5	0.444444
+championship	Charlton	HT1X_HOME	7	3	4	0.428571
 laliga	Getafe	HT05	7	3	4	0.428571
 laliga2	Eibar	O15_FT	7	3	4	0.428571
-laliga2	Racing Santander	O15_FT	7	3	4	0.428571
 liga portugal 2	Feirense	HT05	7	3	4	0.428571
-ligue 2	Le Mans	HT05	7	3	4	0.428571
-ligue 2	Saint Etienne	HT05	7	3	4	0.428571
-premiership	Dundee	O15_FT	7	3	4	0.428571
 saudi arabia	Al Shabab	TEAM2_SCORE_FT	7	3	4	0.428571
 serie a italia	AS Roma	HT05	7	3	4	0.428571
-ligue 1	Angers	O15_FT	7	3	4	0.428571
 ligue 1	Auxerre	O15_FT	7	3	4	0.428571
 ligue 1	Auxerre	HT05	7	3	4	0.428571
+liga portugal 2	Torreense	O15_FT	7	3	4	0.428571
 bundesliga	SC Freiburg	HT05	7	3	4	0.428571
-liga portugal 2	Chaves	O15_FT	7	3	4	0.428571
+liga mx	Puebla	O15_FT	7	3	4	0.428571
 ligue 2	Montpellier	O15_FT	7	3	4	0.428571
 ligue 2	Montpellier	HT05	7	3	4	0.428571
+liga profesional argentina	Independiente	O15_FT	7	3	4	0.428571
 primera a colombia	Millonarios	HT05	7	3	4	0.428571
+premiership	Heart Of Midlothian	O15_FT	10	4	6	0.400000
 laliga	Levante	HT05	10	4	6	0.400000
+championship	West Brom	TEAM2_SCORE_FT	5	2	3	0.400000
 premier league	Brentford	TEAM1_SCORE_FT	5	2	3	0.400000
 serie a italia	Cagliari	TEAM1_SCORE_FT	5	2	3	0.400000
+liga portugal	AVS	HT1X_HOME	5	2	3	0.400000
 premier league	Wolves	HT1X_HOME	5	2	3	0.400000
 premiership	Dundee	TEAM2_SCORE_FT	5	2	3	0.400000
-premiership	ST Mirren	TEAM2_SCORE_FT	5	2	3	0.400000
-saudi arabia	Al Taawon	TEAM2_SCORE_FT	5	2	3	0.400000
 serie a italia	Juventus	HT1X_HOME	5	2	3	0.400000
+laliga	Mallorca	HT1X_HOME	5	2	3	0.400000
 premier league	Tottenham	HT1X_HOME	5	2	3	0.400000
 serie a italia	Verona	TEAM1_SCORE_FT	5	2	3	0.400000
 serie a italia	Torino	TEAM2_SCORE_FT	5	2	3	0.400000
@@ -3104,59 +3138,55 @@ championship	West Brom	TEAM1_SCORE_FT	5	2	3	0.400000
 championship	West Brom	HT1X_HOME	5	2	3	0.400000
 serie b	Virtus Entella	TEAM2_SCORE_FT	5	2	3	0.400000
 championship	Bristol City	TEAM2_SCORE_FT	5	2	3	0.400000
-super lig	Kasımpaşa	HT05	5	2	3	0.400000
+championship	Sheffield Wednesday	TEAM1_SCORE_FT	5	2	3	0.400000
+serie b	Empoli	HT1X_HOME	5	2	3	0.400000
 super lig	Kayserispor	HT05	5	2	3	0.400000
 super lig	Samsunspor	O15_FT	5	2	3	0.400000
 super lig	Samsunspor	HT05	5	2	3	0.400000
-superligaen	Paks	HT05	5	2	3	0.400000
-pro league	Anderlecht	HT05	5	2	3	0.400000
-superligaen	Zalaegerszegi TE	O15_FT	5	2	3	0.400000
-superligaen	Zalaegerszegi TE	HT05	5	2	3	0.400000
 liga profesional argentina	Aldosivi	O15_FT	5	2	3	0.400000
-primera división paraguay	Sportivo Ameliano	HT05	5	2	3	0.400000
-liga profesional argentina	Boca Juniors	O15_FT	5	2	3	0.400000
-liga profesional argentina	Boca Juniors	HT05	5	2	3	0.400000
+czech first league	FK Jablonec	O15_FT	5	2	3	0.400000
+czech first league	Mlada Boleslav	HT05	5	2	3	0.400000
+czech first league	Hradec Králové	O15_FT	5	2	3	0.400000
 liga profesional argentina	Velez Sarsfield	HT05	5	2	3	0.400000
-primera división paraguay	Olimpia	O15_FT	5	2	3	0.400000
+czech first league	Baník Ostrava	HT05	5	2	3	0.400000
+czech first league	Slovan Liberec	O15_FT	5	2	3	0.400000
 liga profesional argentina	River Plate	O15_FT	5	2	3	0.400000
 primera a colombia	Internacional de Bogota	HT05	5	2	3	0.400000
 primera a colombia	Santa Fe	HT05	5	2	3	0.400000
-liga portugal	Nacional	HT05	8	3	5	0.375000
+primera a colombia	Jaguares	O15_FT	5	2	3	0.400000
+saudi arabia	Al Najma	HT1X_HOME	8	3	5	0.375000
 liga portugal	Moreirense	HT05	8	3	5	0.375000
 liga portugal 2	Felgueiras 1932	O15_FT	8	3	5	0.375000
-liga portugal 2	Portimonense	HT05	8	3	5	0.375000
+ligue 2	Saint Etienne	O15_FT	8	3	5	0.375000
+ligue 2	Le Mans	HT05	8	3	5	0.375000
 saudi arabia	Al-Fateh	HT1X_HOME	8	3	5	0.375000
 serie a italia	Lazio	HT05	8	3	5	0.375000
-liga portugal 2	Vizela	HT05	8	3	5	0.375000
-liga portugal 2	Torreense	O15_FT	6	2	4	0.333333
+liga portugal 2	Portimonense	HT05	9	3	6	0.333333
 saudi arabia	Al Kholood	TEAM1_SCORE_FT	6	2	4	0.333333
 liga portugal 2	Maritimo	HT05	6	2	4	0.333333
+superligaen	Zalaegerszegi TE	HT05	6	2	4	0.333333
 liga profesional argentina	San Lorenzo	HT05	6	2	4	0.333333
 primera a colombia	Deportes Tolima	HT05	6	2	4	0.333333
 primera división paraguay	Libertad Asuncion	O15_FT	6	2	4	0.333333
 primera división paraguay	Libertad Asuncion	HT05	6	2	4	0.333333
+primera división paraguay	Sportivo Ameliano	HT05	6	2	4	0.333333
 liga profesional argentina	Defensa Y Justicia	O15_FT	6	2	4	0.333333
 liga profesional argentina	Defensa Y Justicia	HT05	6	2	4	0.333333
 liga profesional argentina	Belgrano Cordoba	HT05	6	2	4	0.333333
 primera a colombia	Deportivo Cali	HT05	6	2	4	0.333333
 primera división paraguay	Sportivo Trinidense	O15_FT	6	2	4	0.333333
+primera división paraguay	Olimpia	O15_FT	6	2	4	0.333333
 cymru premier league	llanelli AFC	HT1X_HOME	3	1	2	0.333333
 laliga	Elche	HT1X_HOME	3	1	2	0.333333
-laliga2	Valladolid	TEAM1_SCORE_FT	3	1	2	0.333333
-ligue 2	Saint Etienne	TEAM2_SCORE_FT	3	1	2	0.333333
 serie a italia	AS Roma	TEAM2_SCORE_FT	3	1	2	0.333333
-laliga	Atletico Madrid	TEAM2_SCORE_FT	3	1	2	0.333333
 liga portugal	Santa Clara	HT1X_HOME	3	1	2	0.333333
-ligue 1	Angers	TEAM2_SCORE_FT	3	1	2	0.333333
 ligue 1	Metz	TEAM2_SCORE_FT	3	1	2	0.333333
 liga portugal 2	Torreense	TEAM2_SCORE_FT	3	1	2	0.333333
 liga portugal 2	Lusitânia Lourosa	HT1X_HOME	3	1	2	0.333333
 serie a italia	Cremonese	TEAM1_SCORE_FT	3	1	2	0.333333
 serie a italia	AC Milan	HT1X_HOME	3	1	2	0.333333
 laliga2	Eibar	TEAM2_SCORE_FT	3	1	2	0.333333
-liga mx	Club Tijuana	TEAM1_SCORE_FT	3	1	2	0.333333
 liga mx	Club America	TEAM2_SCORE_FT	3	1	2	0.333333
-eredivisie	Heerenveen	HT1X_HOME	3	1	2	0.333333
 premiership	Aberdeen	HT1X_HOME	3	1	2	0.333333
 cymru premier league	Flint Town United	TEAM1_SCORE_FT	3	1	2	0.333333
 cymru premier league	Penybont	TEAM1_SCORE_FT	3	1	2	0.333333
@@ -3166,16 +3196,13 @@ belgian cup	Anderlecht	O15_FT	3	1	2	0.333333
 ligue 2	Amiens	TEAM2_SCORE_FT	3	1	2	0.333333
 serie a italia	Pisa	HT1X_HOME	3	1	2	0.333333
 2. bundesliga	SpVgg Greuther Fürth	TEAM2_SCORE_FT	3	1	2	0.333333
-2. bundesliga	FC Schalke 04	TEAM2_SCORE_FT	3	1	2	0.333333
 pro league	KVC Westerlo	TEAM1_SCORE_FT	3	1	2	0.333333
 pro league	KVC Westerlo	HT1X_HOME	3	1	2	0.333333
 liga portugal 2	Pacos Ferreira	TEAM1_SCORE_FT	3	1	2	0.333333
-championship	Leicester	HT1X_HOME	3	1	2	0.333333
 liga portugal	Arouca	HT1X_HOME	3	1	2	0.333333
 liga portugal 2	Benfica B	TEAM2_SCORE_FT	3	1	2	0.333333
 ligue 1	Monaco	TEAM2_SCORE_FT	3	1	2	0.333333
 ligue 2	Estac Troyes	TEAM2_SCORE_FT	3	1	2	0.333333
-serie b	Reggiana	TEAM2_SCORE_FT	3	1	2	0.333333
 super lig	Kocaelispor	TEAM2_SCORE_FT	3	1	2	0.333333
 superligaen	Nyiregyhaza	HT1X_HOME	3	1	2	0.333333
 2. bundesliga	SV Elversberg	HT1X_HOME	3	1	2	0.333333
@@ -3185,8 +3212,10 @@ ligue 1	Nantes	HT1X_HOME	3	1	2	0.333333
 ligue 1	Metz	HT1X_HOME	3	1	2	0.333333
 ligue 1	Paris FC	TEAM1_SCORE_FT	3	1	2	0.333333
 ligue 1	Paris FC	HT1X_HOME	3	1	2	0.333333
+pro league	Antwerp	TEAM1_SCORE_FT	3	1	2	0.333333
+pro league	Antwerp	HT1X_HOME	3	1	2	0.333333
+pro league	Anderlecht	TEAM1_SCORE_FT	3	1	2	0.333333
 pro league	Dender	TEAM2_SCORE_FT	3	1	2	0.333333
-serie b	Padova	TEAM2_SCORE_FT	3	1	2	0.333333
 super lig	Göztepe	TEAM2_SCORE_FT	3	1	2	0.333333
 superligaen	Kazincbarcikai	HT1X_HOME	3	1	2	0.333333
 super lig	Eyüpspor	HT1X_HOME	3	1	2	0.333333
@@ -3198,13 +3227,17 @@ primera división paraguay	Sportivo Trinidense	TEAM1_SCORE_FT	3	1	2	0.333333
 liga profesional argentina	Estudiantes de Rio Cuarto	TEAM1_SCORE_FT	3	1	2	0.333333
 liga profesional argentina	Banfield	TEAM2_SCORE_FT	3	1	2	0.333333
 serie a brazil	Botafogo	HT05	3	1	2	0.333333
+super lig	Kasımpaşa	TEAM1_SCORE_FT	3	1	2	0.333333
+czech first league	Teplice	TEAM2_SCORE_FT	3	1	2	0.333333
+czech first league	Hradec Králové	TEAM2_SCORE_FT	3	1	2	0.333333
 czech first league	Dukla Praha	HT1X_HOME	3	1	2	0.333333
+super league switzerland	FC Sion	TEAM2_SCORE_FT	3	1	2	0.333333
 super league switzerland	Grasshoppers	HT1X_HOME	3	1	2	0.333333
+super lig	Göztepe	TEAM1_SCORE_FT	3	1	2	0.333333
 czech first league	Slovácko	HT1X_HOME	3	1	2	0.333333
 liga profesional argentina	Huracan	TEAM2_SCORE_FT	3	1	2	0.333333
 liga profesional argentina	Deportivo Riestra	TEAM2_SCORE_FT	3	1	2	0.333333
 liga profesional argentina	Barracas Central	HT1X_HOME	3	1	2	0.333333
-liga profesional argentina	Boca Juniors	TEAM1_SCORE_FT	3	1	2	0.333333
 primera a colombia	Bucaramanga	TEAM1_SCORE_FT	3	1	2	0.333333
 primera a colombia	Deportivo Pasto	TEAM2_SCORE_FT	3	1	2	0.333333
 primera división paraguay	Olimpia	TEAM1_SCORE_FT	3	1	2	0.333333
@@ -3213,6 +3246,7 @@ pro league	Anderlecht	TEAM2_SCORE_FT	3	1	2	0.333333
 liga profesional argentina	Rosario Central	TEAM1_SCORE_FT	3	1	2	0.333333
 liga profesional argentina	Aldosivi	TEAM2_SCORE_FT	3	1	2	0.333333
 liga profesional argentina	Defensa Y Justicia	TEAM1_SCORE_FT	3	1	2	0.333333
+super lig	Kocaelispor	TEAM1_SCORE_FT	3	1	2	0.333333
 primera división paraguay	Libertad Asuncion	TEAM2_SCORE_FT	3	1	2	0.333333
 primera división paraguay	Cerro Porteno	TEAM1_SCORE_FT	3	1	2	0.333333
 primera división paraguay	Sportivo Luqueno	TEAM2_SCORE_FT	3	1	2	0.333333
@@ -3224,25 +3258,23 @@ serie a brazil	Vasco DA Gama	O15_FT	3	1	2	0.333333
 liga profesional argentina	Central Cordoba de Santiago	TEAM1_SCORE_FT	3	1	2	0.333333
 primera a colombia	Santa Fe	TEAM2_SCORE_FT	3	1	2	0.333333
 liga profesional argentina	Platense	TEAM1_SCORE_FT	3	1	2	0.333333
+primera a colombia	Jaguares	TEAM1_SCORE_FT	3	1	2	0.333333
 serie a brazil	Corinthians	O15_FT	3	1	2	0.333333
-saudi arabia	Al Najma	HT1X_HOME	7	2	5	0.285714
-ligue 2	Saint Etienne	O15_FT	7	2	5	0.285714
-laliga	Oviedo	HT05	7	2	5	0.285714
+primera división paraguay	Sportivo Ameliano	TEAM1_SCORE_FT	3	1	2	0.333333
 liga portugal 2	Benfica B	HT05	7	2	5	0.285714
 laliga2	Real Sociedad II	HT05	8	2	6	0.250000
 ligue 2	Reims	O15_FT	8	2	6	0.250000
 ligue 2	Reims	HT05	8	2	6	0.250000
-championship	West Brom	TEAM2_SCORE_FT	4	1	3	0.250000
-liga portugal	AVS	TEAM1_SCORE_FT	4	1	3	0.250000
-liga portugal	AVS	HT1X_HOME	4	1	3	0.250000
+laliga	Oviedo	HT05	8	2	6	0.250000
 liga portugal 2	Oliveirense	TEAM2_SCORE_FT	4	1	3	0.250000
 premiership	Dundee Utd	TEAM1_SCORE_FT	4	1	3	0.250000
 liga portugal	Casa Pia	TEAM2_SCORE_FT	4	1	3	0.250000
+ligue 1	Angers	TEAM2_SCORE_FT	4	1	3	0.250000
 ligue 1	Auxerre	TEAM2_SCORE_FT	4	1	3	0.250000
-premier league	Newcastle	HT1X_HOME	4	1	3	0.250000
 premier league	Wolves	TEAM2_SCORE_FT	4	1	3	0.250000
 serie a italia	Bologna	TEAM1_SCORE_FT	4	1	3	0.250000
 eredivisie	FC Volendam	TEAM2_SCORE_FT	4	1	3	0.250000
+liga mx	Mazatlán	HT1X_HOME	4	1	3	0.250000
 liga mx	Atlas	HT1X_HOME	4	1	3	0.250000
 premiership	ST Mirren	TEAM1_SCORE_FT	4	1	3	0.250000
 laliga	Mallorca	TEAM2_SCORE_FT	4	1	3	0.250000
@@ -3252,11 +3284,11 @@ bundesliga	Werder Bremen	TEAM2_SCORE_FT	4	1	3	0.250000
 liga mx	Necaxa	TEAM1_SCORE_FT	4	1	3	0.250000
 ligue 1	Lille	TEAM2_SCORE_FT	4	1	3	0.250000
 ligue 2	Montpellier	TEAM2_SCORE_FT	4	1	3	0.250000
-championship	Sheffield Wednesday	TEAM1_SCORE_FT	4	1	3	0.250000
 eredivisie	NAC Breda	HT1X_HOME	4	1	3	0.250000
 ligue 2	Grenoble	TEAM1_SCORE_FT	4	1	3	0.250000
 premier league	Nottingham Forest	TEAM1_SCORE_FT	4	1	3	0.250000
 serie b	Bari	TEAM1_SCORE_FT	4	1	3	0.250000
+liga portugal 2	Chaves	TEAM2_SCORE_FT	4	1	3	0.250000
 uefa champions league	Olympiakos Piraeus	HT05	4	1	3	0.250000
 uefa europa league	Brann	O15_FT	4	1	3	0.250000
 uefa europa league	FK Crvena Zvezda	O15_FT	4	1	3	0.250000
@@ -3265,53 +3297,52 @@ serie a brazil	RB Bragantino	O15_FT	4	1	3	0.250000
 serie a brazil	Atletico Paranaense	O15_FT	4	1	3	0.250000
 serie a brazil	Sao Paulo	HT05	4	1	3	0.250000
 liga profesional argentina	Argentinos JRS	O15_FT	4	1	3	0.250000
-czech first league	FK Jablonec	O15_FT	4	1	3	0.250000
-czech first league	FK Jablonec	HT05	4	1	3	0.250000
-czech first league	Baník Ostrava	HT05	4	1	3	0.250000
 czech first league	Zlin	HT05	4	1	3	0.250000
 primera a colombia	Bucaramanga	O15_FT	4	1	3	0.250000
 primera a colombia	Bucaramanga	HT05	4	1	3	0.250000
 primera división paraguay	Sportivo Luqueno	O15_FT	4	1	3	0.250000
 primera división paraguay	Rubio NU	O15_FT	4	1	3	0.250000
 primera división paraguay	Rubio NU	HT05	4	1	3	0.250000
+laliga2	Burgos	TEAM2_SCORE_FT	5	1	4	0.200000
+liga portugal	AVS	TEAM1_SCORE_FT	5	1	4	0.200000
 ligue 2	Bastia	TEAM1_SCORE_FT	5	1	4	0.200000
+premier league	Newcastle	HT1X_HOME	5	1	4	0.200000
 serie a italia	Cremonese	TEAM2_SCORE_FT	5	1	4	0.200000
+championship	Oxford United	TEAM1_SCORE_FT	5	1	4	0.200000
 championship	QPR	TEAM2_SCORE_FT	5	1	4	0.200000
-primera división paraguay	Sportivo Ameliano	O15_FT	5	1	4	0.200000
+czech first league	FK Jablonec	HT05	5	1	4	0.200000
 liga profesional argentina	Velez Sarsfield	O15_FT	5	1	4	0.200000
 liga profesional argentina	Platense	O15_FT	5	1	4	0.200000
 liga profesional argentina	Platense	HT05	5	1	4	0.200000
 liga profesional argentina	San Lorenzo	O15_FT	6	1	5	0.166667
-liga profesional argentina	Central Cordoba de Santiago	O15_FT	6	1	5	0.166667
-liga profesional argentina	Central Cordoba de Santiago	HT05	6	1	5	0.166667
+primera división paraguay	Sportivo Ameliano	O15_FT	6	1	5	0.166667
 liga profesional argentina	Estudiantes L.P.	O15_FT	6	1	5	0.166667
 liga profesional argentina	Estudiantes L.P.	HT05	6	1	5	0.166667
 liga profesional argentina	Deportivo Riestra	O15_FT	6	1	5	0.166667
 primera división paraguay	Sportivo Trinidense	HT05	6	1	5	0.166667
 championship	Sheffield Wednesday	TEAM2_SCORE_FT	7	1	6	0.142857
-laliga2	Burgos	TEAM2_SCORE_FT	4	0	4	0.000000
-premiership	Aberdeen	TEAM2_SCORE_FT	4	0	4	0.000000
-championship	Oxford United	TEAM1_SCORE_FT	4	0	4	0.000000
+liga profesional argentina	Central Cordoba de Santiago	O15_FT	7	1	6	0.142857
+liga profesional argentina	Central Cordoba de Santiago	HT05	7	1	6	0.142857
+premiership	Aberdeen	TEAM2_SCORE_FT	5	0	5	0.000000
+liga profesional argentina	Central Cordoba de Santiago	TEAM2_SCORE_FT	4	0	4	0.000000
 cymru premier league	llanelli AFC	TEAM1_SCORE_FT	3	0	3	0.000000
 liga portugal	Famalicao	TEAM2_SCORE_FT	3	0	3	0.000000
-liga mx	Mazatlán	HT1X_HOME	3	0	3	0.000000
+liga mx	Puebla	TEAM2_SCORE_FT	3	0	3	0.000000
 bundesliga	SC Freiburg	TEAM2_SCORE_FT	3	0	3	0.000000
-liga portugal 2	Chaves	TEAM2_SCORE_FT	3	0	3	0.000000
 ligue 1	Auxerre	TEAM1_SCORE_FT	3	0	3	0.000000
 2. bundesliga	1. FC Magdeburg	HT1X_HOME	3	0	3	0.000000
 liga portugal	Rio Ave	TEAM2_SCORE_FT	3	0	3	0.000000
 superligaen	Kazincbarcikai	TEAM1_SCORE_FT	3	0	3	0.000000
 liga profesional argentina	San Lorenzo	TEAM2_SCORE_FT	3	0	3	0.000000
-liga profesional argentina	Central Cordoba de Santiago	TEAM2_SCORE_FT	3	0	3	0.000000
 liga profesional argentina	Barracas Central	TEAM2_SCORE_FT	3	0	3	0.000000
 primera a colombia	Independiente Medellin	HT1X_HOME	3	0	3	0.000000
 czech first league	Dukla Praha	TEAM1_SCORE_FT	3	0	3	0.000000
+liga profesional argentina	Independiente	TEAM1_SCORE_FT	3	0	3	0.000000
 superligaen	MTK Budapest	HT1X_HOME	3	0	3	0.000000
 czech first league	Zlin	TEAM2_SCORE_FT	3	0	3	0.000000
 liga profesional argentina	Newells Old Boys	TEAM2_SCORE_FT	3	0	3	0.000000
 liga profesional argentina	River Plate	TEAM2_SCORE_FT	3	0	3	0.000000
 liga profesional argentina	Estudiantes L.P.	TEAM2_SCORE_FT	3	0	3	0.000000
-liga mx	Puebla	TEAM2_SCORE_FT	2	0	2	0.000000
 fa cup	Hull City	TEAM1_SCORE_FT	2	0	2	0.000000
 coupe de france	Paris FC	HT05	2	0	2	0.000000
 scottish cup	Dunfermline	HT05	2	0	2	0.000000
@@ -3328,16 +3359,10 @@ uefa europa league	Ludogorets	TEAM2_SCORE_FT	2	0	2	0.000000
 uefa europa league	SC Braga	O15_FT	2	0	2	0.000000
 uefa europa league	SC Braga	HT05	2	0	2	0.000000
 super lig	Samsunspor	TEAM1_SCORE_FT	2	0	2	0.000000
-pro league	Antwerp	TEAM1_SCORE_FT	2	0	2	0.000000
-pro league	Antwerp	HT1X_HOME	2	0	2	0.000000
-pro league	Anderlecht	TEAM1_SCORE_FT	2	0	2	0.000000
 serie a brazil	Coritiba	TEAM1_SCORE_FT	2	0	2	0.000000
 uefa champions league	Atalanta	TEAM2_SCORE_FT	2	0	2	0.000000
 uefa europa league	Brann	TEAM2_SCORE_FT	2	0	2	0.000000
 ligue 1	Le Havre	TEAM2_SCORE_FT	2	0	2	0.000000
-czech first league	Teplice	TEAM2_SCORE_FT	2	0	2	0.000000
-czech first league	Hradec Králové	TEAM2_SCORE_FT	2	0	2	0.000000
-liga profesional argentina	Independiente	TEAM1_SCORE_FT	2	0	2	0.000000
 primera a colombia	Alianza Valledupar	TEAM2_SCORE_FT	2	0	2	0.000000
 super lig	Kayserispor	TEAM2_SCORE_FT	2	0	2	0.000000
 pro league	Dender	HT1X_HOME	2	0	2	0.000000
@@ -3352,6 +3377,8 @@ super lig	Antalyaspor	TEAM2_SCORE_FT	2	0	2	0.000000
 primera división paraguay	2 de Mayo	TEAM1_SCORE_FT	2	0	2	0.000000
 czech first league	Dukla Praha	TEAM2_SCORE_FT	2	0	2	0.000000
 primera a colombia	Jaguares	TEAM2_SCORE_FT	2	0	2	0.000000
+mls	FC Cincinnati	HT05	2	0	2	0.000000
+mls	CF Montreal	TEAM2_SCORE_FT	2	0	2	0.000000
 taça da liga	Benfica	HT1X_HOME	1	0	1	0.000000
 fa cup	Port Vale	O15_FT	1	0	1	0.000000
 fa cup	Fleetwood Town	O15_FT	1	0	1	0.000000
@@ -3513,21 +3540,16 @@ fa cup	Oxford United	HT1X_HOME	1	0	1	0.000000
 scottish cup	Motherwell	TEAM2_SCORE_FT	1	0	1	0.000000
 liga pro ecuador	Orense SC	HT1X_HOME	1	0	1	0.000000
 liga pro ecuador	Barcelona SC	O15_FT	1	0	1	0.000000
-liga pro ecuador	Tecnico Universitario	O15_FT	1	0	1	0.000000
 liga pro ecuador	Tecnico Universitario	TEAM2_SCORE_FT	1	0	1	0.000000
 liga pro ecuador	Barcelona SC	HT05	1	0	1	0.000000
-liga pro ecuador	Tecnico Universitario	HT05	1	0	1	0.000000
 mls	St. Louis City	HT05	1	0	1	0.000000
 mls	Charlotte	HT05	1	0	1	0.000000
 mls	Atlanta United FC	TEAM2_SCORE_FT	1	0	1	0.000000
-mls	FC Cincinnati	HT05	1	0	1	0.000000
 mls	Atlanta United FC	HT05	1	0	1	0.000000
 liga pro ecuador	Macara	O15_FT	1	0	1	0.000000
-liga pro ecuador	Leones del Norte	O15_FT	1	0	1	0.000000
 liga pro ecuador	Macara	TEAM1_SCORE_FT	1	0	1	0.000000
 liga pro ecuador	Leones del Norte	TEAM2_SCORE_FT	1	0	1	0.000000
 liga pro ecuador	Macara	HT05	1	0	1	0.000000
-liga pro ecuador	Leones del Norte	HT05	1	0	1	0.000000
 liga pro ecuador	Delfin SC	O15_FT	1	0	1	0.000000
 liga pro ecuador	Deportivo Cuenca	O15_FT	1	0	1	0.000000
 liga pro ecuador	Deportivo Cuenca	TEAM2_SCORE_FT	1	0	1	0.000000
@@ -3542,7 +3564,6 @@ mls	Vancouver Whitecaps	HT05	1	0	1	0.000000
 mls	Real Salt Lake	HT05	1	0	1	0.000000
 mls	Houston Dynamo	HT1X_HOME	1	0	1	0.000000
 mls	Inter Miami	TEAM2_SCORE_FT	1	0	1	0.000000
-mls	CF Montreal	TEAM2_SCORE_FT	1	0	1	0.000000
 mls	Sporting Kansas City	TEAM2_SCORE_FT	1	0	1	0.000000
 super lig	Gaziantep FK	HT1X_HOME	1	0	1	0.000000
 liga pro ecuador	Guayaquil City FC	TEAM2_SCORE_FT	1	0	1	0.000000
@@ -3550,8 +3571,10 @@ primera a colombia	Águilas Doradas	O15_FT	1	0	1	0.000000
 primera a colombia	Águilas Doradas	TEAM2_SCORE_FT	1	0	1	0.000000
 primera a colombia	Águilas Doradas	HT05	1	0	1	0.000000
 mls	Colorado Rapids	TEAM2_SCORE_FT	1	0	1	0.000000
-liga pro ecuador	Libertad	O15_FT	1	0	1	0.000000
 liga pro ecuador	Manta FC	O15_FT	1	0	1	0.000000
 liga pro ecuador	Manta FC	TEAM2_SCORE_FT	1	0	1	0.000000
-liga pro ecuador	Libertad	HT05	1	0	1	0.000000
 liga pro ecuador	Manta FC	HT05	1	0	1	0.000000
+liga pro ecuador	Tecnico Universitario	HT1X_HOME	1	0	1	0.000000
+mls	Portland Timbers	TEAM2_SCORE_FT	1	0	1	0.000000
+mls	FC Cincinnati	TEAM2_SCORE_FT	1	0	1	0.000000
+serie a italia	Hellas Verona	HT1X_HOME	1	0	1	0.000000
