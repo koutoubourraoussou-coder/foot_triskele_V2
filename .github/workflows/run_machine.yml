@@ -35,6 +35,7 @@ jobs:
       - name: Run RunMachine
         env:
           TZ: Europe/Paris
+          API_KEY: ${{ secrets.API_KEY }}
         run: |
           python run_machine.py
 
