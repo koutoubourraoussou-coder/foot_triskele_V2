@@ -1,0 +1,88 @@
+# date	league	home	away	league_id	home_id	away_id	fixture_id
+2025-12-20	pro league	Union St. Gilloise	Zulte Waregem	144	1393	600	1382573
+2025-12-20	pro league	Dender	Standard Liege	144	6215	733	1382575
+2025-12-20	pro league	KVC Westerlo	RAAL La Louvière	144	261	5902	1382576
+2025-12-20	superligaen	Zalaegerszegi TE	MTK Budapest	271	2414	2396	1380281
+2025-12-20	superligaen	Paks	Nyiregyhaza	271	2390	2403	1380279
+2025-12-20	superligaen	Gyori ETO FC	Puskas Academy	271	2402	2391	1380278
+2025-12-20	liga pro ecuador	Deportivo Cuenca	Emelec	242	1154	1148	1479563
+2025-12-20	liga pro ecuador	Aucas	Macara	242	1156	1155	1479562
+2025-12-20	championship	Southampton	Coventry	40	41	1346	1386806
+2025-12-20	championship	Preston	Norwich	40	59	71	1386813
+2025-12-20	championship	Blackburn	Millwall	40	67	58	1386809
+2025-12-20	championship	Watford	Stoke City	40	38	75	1386807
+2025-12-20	championship	Bristol City	Middlesbrough	40	56	70	1386814
+2025-12-20	championship	Ipswich	Sheffield Wednesday	40	57	74	1386805
+2025-12-20	championship	Sheffield Utd	Birmingham	40	62	54	1386812
+2025-12-20	championship	Hull City	West Brom	40	64	60	1386808
+2025-12-20	championship	Derby	Portsmouth	40	69	1355	1386810
+2025-12-20	championship	QPR	Leicester	40	72	46	1386811
+2025-12-20	championship	Charlton	Oxford United	40	1335	1338	1386804
+2025-12-20	premier league	Newcastle	Chelsea	39	34	49	1379136
+2025-12-20	premier league	Bournemouth	Burnley	39	35	44	1379130
+2025-12-20	premier league	Wolves	Brentford	39	39	55	1379138
+2025-12-20	premier league	Manchester City	West Ham	39	50	48	1379135
+2025-12-20	premier league	Brighton	Sunderland	39	51	746	1379131
+2025-12-20	premier league	Tottenham	Liverpool	39	47	40	1379137
+2025-12-20	premier league	Everton	Arsenal	39	45	42	1379132
+2025-12-20	premier league	Leeds	Crystal Palace	39	63	52	1379134
+2025-12-20	coupe de france	Biesheim	Metz	66	3025	112	1488828
+2025-12-20	coupe de france	Olympique Marcquois	Estac Troyes	66	3090	110	1488847
+2025-12-20	coupe de france	St Maur Lusitanos	Lille	66	3115	79	1488844
+2025-12-20	coupe de france	Gosier	Lorient	66	4394	97	1488843
+2025-12-20	coupe de france	Bayeux	Blois	66	15116	3026	1488827
+2025-12-20	coupe de france	Freyming	Chantilly	66	25336	3162	1488831
+2025-12-20	coupe de france	Grenoble	Nancy	66	101	102	1488833
+2025-12-20	coupe de france	Lyon Duchere	Toulouse	66	1295	96	1488846
+2025-12-20	coupe de france	Pontivy GSI	Bastia	66	3098	1305	1488852
+2025-12-20	coupe de france	Raon l'Etape	Paris FC	66	3100	114	1488851
+2025-12-20	coupe de france	Stade Béthunois	Sochaux	66	18153	115	1488854
+2025-12-20	coupe de france	SA Mérignac	Istres	66	20581	3267	1488836
+2025-12-20	coupe de france	Vendée Fontenay	Paris Saint Germain	66	3130	85	1488853
+2025-12-20	2. bundesliga	Holstein Kiel	Dynamo Dresden	79	191	183	1388762
+2025-12-20	2. bundesliga	Fortuna Düsseldorf	SpVgg Greuther Fürth	79	158	178	1388760
+2025-12-20	2. bundesliga	VfL Bochum	Karlsruher SC	79	176	785	1388758
+2025-12-20	2. bundesliga	1. FC Kaiserslautern	1. FC Magdeburg	79	745	179	1388763
+2025-12-20	bundesliga	VfL Wolfsburg	SC Freiburg	78	161	160	1388442
+2025-12-20	bundesliga	FC Augsburg	Werder Bremen	78	170	162	1388434
+2025-12-20	bundesliga	VfB Stuttgart	1899 Hoffenheim	78	172	167	1388441
+2025-12-20	bundesliga	Hamburger SV	Eintracht Frankfurt	78	175	169	1388437
+2025-12-20	bundesliga	1. FC Köln	Union Berlin	78	192	182	1388436
+2025-12-20	bundesliga	RB Leipzig	Bayer Leverkusen	78	173	168	1388440
+2025-12-20	serie a italia	Juventus	AS Roma	135	496	497	1378019
+2025-12-20	serie a italia	Lazio	Cremonese	135	487	520	1378020
+2025-12-20	serie b	Pescara	Reggiana	136	525	880	1419756
+2025-12-20	serie b	Cesena	Juve Stabia	136	509	863	1419757
+2025-12-20	serie b	Frosinone	Spezia	136	512	515	1419754
+2025-12-20	serie b	Padova	Sampdoria	136	870	498	1419760
+2025-12-20	serie b	Modena	Venezia	136	899	517	1419759
+2025-12-20	serie b	Monza	Carrarese	136	1579	1581	1419751
+2025-12-20	serie b	Avellino	Palermo	136	528	522	1419758
+2025-12-20	eredivisie	NEC Nijmegen	Ajax	88	413	194	1381017
+2025-12-20	eredivisie	Heracles	Heerenveen	88	206	210	1381015
+2025-12-20	eredivisie	Excelsior	PEC Zwolle	88	196	193	1381011
+2025-12-20	eredivisie	NAC Breda	Telstar	88	203	427	1381016
+2025-12-20	liga portugal	GIL Vicente	Rio Ave	94	762	226	1396366
+2025-12-20	liga portugal	Estrela	Moreirense	94	15130	215	1396365
+2025-12-20	liga portugal 2	Chaves	Portimonense	95	223	216	1398096
+2025-12-20	liga portugal 2	Feirense	Pacos Ferreira	95	213	234	1398097
+2025-12-20	liga portugal 2	Vizela	Academico Viseu	95	810	238	1398103
+2025-12-20	premiership	Kilmarnock	Falkirk	179	250	1389	1382771
+2025-12-20	premiership	ST Mirren	Livingston	179	251	255	1382773
+2025-12-20	premiership	Motherwell	Dundee	179	256	253	1382772
+2025-12-20	premiership	Dundee Utd	Hibernian	179	1386	249	1382769
+2025-12-20	laliga	Oviedo	Celta Vigo	140	718	538	1390986
+2025-12-20	laliga	Levante	Real Sociedad	140	539	548	1390983
+2025-12-20	laliga	Osasuna	Alaves	140	727	542	1390984
+2025-12-20	laliga	Real Madrid	Sevilla	140	541	536	1390985
+2025-12-20	laliga2	FC Andorra	Deportivo La Coruna	141	8157	544	1396967
+2025-12-20	laliga2	Huesca	Racing Santander	141	726	4665	1391968
+2025-12-20	laliga2	Leganes	Sporting Gijon	141	537	731	1391973
+2025-12-20	laliga2	Las Palmas	Cultural Leonesa	141	534	725	1391966
+2025-12-20	super league switzerland	FC Basel 1893	Servette FC	207	551	2184	1382402
+2025-12-20	super league switzerland	FC Thun	FC Zurich	207	1012	783	1382407
+2025-12-20	super league switzerland	FC Sion	FC Winterthur	207	630	2180	1382406
+2025-12-20	super lig	Konyaspor	Kayserispor	203	607	1001	1394585
+2025-12-20	super lig	Eyüpspor	Fenerbahçe	203	3588	611	1394580
+2025-12-20	super lig	Beşiktaş	Rizespor	203	549	1007	1394579
+2025-12-20	cymru premier league	Flint Town United	Haverfordwest County AFC	110	5614	2194	1401029

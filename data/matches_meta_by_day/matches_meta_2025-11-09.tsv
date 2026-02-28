@@ -1,0 +1,94 @@
+# date	league	home	away	league_id	home_id	away_id	fixture_id
+2025-11-09	liga profesional argentina	Union Santa Fe	Barracas Central	128	441	2432	1374275
+2025-11-09	liga profesional argentina	San Martin S.J.	Lanus	128	461	446	1374286
+2025-11-09	liga profesional argentina	Boca Juniors	River Plate	128	451	435	1374287
+2025-11-09	liga profesional argentina	Banfield	Aldosivi	128	449	463	1374279
+2025-11-09	liga profesional argentina	Sarmiento Junin	Instituto Cordoba	128	474	478	1374282
+2025-11-09	pro league	Anderlecht	Club Brugge KV	144	554	569	1382536
+2025-11-09	pro league	St. Truiden	Standard Liege	144	735	733	1382537
+2025-11-09	pro league	Gent	Genk	144	631	742	1382532
+2025-11-09	pro league	KV Mechelen	Union St. Gilloise	144	266	1393	1382533
+2025-11-09	serie a brazil	Sao Paulo	RB Bragantino	71	126	794	1351366
+2025-11-09	serie a brazil	Corinthians	Ceara	71	131	129	1351365
+2025-11-09	serie a brazil	Cruzeiro	Fluminense	71	135	124	1351368
+2025-11-09	serie a brazil	Vitoria	Botafogo	71	136	120	1351370
+2025-11-09	serie a brazil	Flamengo	Santos	71	127	128	1351363
+2025-11-09	serie a brazil	Fortaleza EC	Gremio	71	154	130	1351371
+2025-11-09	serie a brazil	Mirassol	Palmeiras	71	7848	121	1351367
+2025-11-09	primera a colombia	Bucaramanga	La Equidad	239	1131	1134	1392528
+2025-11-09	primera a colombia	Once Caldas	Deportivo Pasto	239	1136	1126	1392527
+2025-11-09	primera a colombia	Alianza Petrolera	Chico	239	1141	1132	1392525
+2025-11-09	primera a colombia	America de Cali	Union Magdalena	239	1138	1465	1392533
+2025-11-09	superligaen	MTK Budapest	Debreceni VSC	271	2396	2392	1380247
+2025-11-09	superligaen	Kazincbarcikai	Ferencvarosi TC	271	2410	651	1380246
+2025-11-09	superligaen	Nyiregyhaza	Puskas Academy	271	2403	2391	1380248
+2025-11-09	liga pro ecuador	LDU de Quito	Libertad	242	1158	18762	1479578
+2025-11-09	liga pro ecuador	Tecnico Universitario	Cuniburo	242	1151	21103	1479602
+2025-11-09	liga pro ecuador	El Nacional	Emelec	242	1150	1148	1479549
+2025-11-09	liga pro ecuador	Orense SC	Barcelona SC	242	1992	1152	1479579
+2025-11-09	premier league	Crystal Palace	Brighton	39	52	51	1379072
+2025-11-09	premier league	Brentford	Newcastle	39	55	34	1379070
+2025-11-09	premier league	Nottingham Forest	Leeds	39	65	63	1379075
+2025-11-09	premier league	Aston Villa	Bournemouth	39	66	35	1379069
+2025-11-09	premier league	Manchester City	Liverpool	39	50	40	1379074
+2025-11-09	ligue 1	Lorient	Toulouse	61	97	96	1387799
+2025-11-09	ligue 1	Angers	Auxerre	61	77	108	1387797
+2025-11-09	ligue 1	Strasbourg	Lille	61	95	79	1387805
+2025-11-09	ligue 1	Metz	Nice	61	112	84	1387802
+2025-11-09	ligue 1	Lyon	Paris Saint Germain	61	80	85	1387800
+2025-11-09	2. bundesliga	1. FC Magdeburg	SC Paderborn 07	79	179	185	1388719
+2025-11-09	2. bundesliga	Holstein Kiel	Fortuna Düsseldorf	79	191	158	1388717
+2025-11-09	2. bundesliga	Eintracht Braunschweig	VfL Bochum	79	744	176	1388714
+2025-11-09	bundesliga	SC Freiburg	FC St. Pauli	78	160	186	1388392
+2025-11-09	bundesliga	VfB Stuttgart	FC Augsburg	78	172	170	1388395
+2025-11-09	bundesliga	Eintracht Frankfurt	FSV Mainz 05	78	169	164	1388391
+2025-11-09	serie a italia	Atalanta	Sassuolo	135	499	488	1377964
+2025-11-09	serie a italia	Genoa	Fiorentina	135	495	502	1377967
+2025-11-09	serie a italia	Bologna	Napoli	135	500	492	1377965
+2025-11-09	serie a italia	AS Roma	Udinese	135	497	494	1377973
+2025-11-09	serie a italia	Inter	Lazio	135	505	487	1377968
+2025-11-09	serie b	Cesena	Avellino	136	509	528	1419709
+2025-11-09	serie b	Pescara	Monza	136	525	1579	1419705
+2025-11-09	liga mx	Toluca	Club America	262	2281	2287	1379631
+2025-11-09	liga mx	Leon	Puebla	262	2289	2291	1379630
+2025-11-09	liga mx	Cruz Azul	U.N.A.M. - Pumas	262	2295	2286	1379632
+2025-11-09	liga mx	Santos Laguna	Pachuca	262	2285	2292	1379633
+2025-11-09	eredivisie	Utrecht	Ajax	88	207	194	1380971
+2025-11-09	eredivisie	NEC Nijmegen	Groningen	88	413	202	1380973
+2025-11-09	eredivisie	AZ Alkmaar	PSV Eindhoven	88	201	197	1380972
+2025-11-09	eredivisie	GO Ahead Eagles	Feyenoord	88	410	209	1380974
+2025-11-09	liga portugal	Estrela	Nacional	94	15130	225	1396332
+2025-11-09	liga portugal	AVS	GIL Vicente	94	21595	762	1396327
+2025-11-09	liga portugal	Famalicao	FC Porto	94	242	212	1396333
+2025-11-09	liga portugal	Benfica	Casa Pia	94	211	4716	1396329
+2025-11-09	liga portugal	SC Braga	Moreirense	94	217	215	1396330
+2025-11-09	liga portugal 2	Leixoes	Torreense	95	244	4799	1398063
+2025-11-09	liga portugal 2	Felgueiras 1932	Academico Viseu	95	4744	238	1398062
+2025-11-09	liga portugal 2	Maritimo	Pacos Ferreira	95	214	234	1398065
+2025-11-09	liga portugal 2	Lusitânia Lourosa	União de Leiria	95	6358	4662	1398064
+2025-11-09	premiership	Aberdeen	Motherwell	179	252	256	1382732
+2025-11-09	premiership	Dundee	Rangers	179	253	257	1382734
+2025-11-09	premiership	Heart Of Midlothian	Dundee Utd	179	254	1386	1382737
+2025-11-09	premiership	Celtic	Kilmarnock	179	247	250	1382733
+2025-11-09	laliga	Athletic Club	Oviedo	140	531	718	1390929
+2025-11-09	laliga	Rayo Vallecano	Real Madrid	140	728	541	1390936
+2025-11-09	laliga	Valencia	Real Betis	140	532	543	1390938
+2025-11-09	laliga	Mallorca	Getafe	140	798	546	1390935
+2025-11-09	laliga	Celta Vigo	Barcelona	140	538	529	1390931
+2025-11-09	laliga2	Las Palmas	Racing Santander	141	534	4665	1391906
+2025-11-09	laliga2	Granada CF	Zaragoza	141	715	732	1391899
+2025-11-09	laliga2	Cadiz	Valladolid	141	724	720	1391907
+2025-11-09	super league switzerland	FC Basel 1893	FC Lugano	207	551	606	1382366
+2025-11-09	super league switzerland	FC ST. Gallen	BSC Young Boys	207	1011	565	1382369
+2025-11-09	super league switzerland	Lausanne	FC Sion	207	1014	630	1382367
+2025-11-09	super lig	Fatih Karagümrük	Konyaspor	203	3589	607	1394536
+2025-11-09	super lig	Kocaelispor	Galatasaray	203	7411	645	1394538
+2025-11-09	super lig	Fenerbahçe	Kayserispor	203	611	1001	1394533
+2025-11-09	super lig	Samsunspor	Eyüpspor	203	3603	3588	1394539
+2025-11-09	mls	Inter Miami	Nashville SC	253	9568	9569	1485161
+2025-11-09	czech first league	Slovan Liberec	Karviná	345	782	3716	1384765
+2025-11-09	czech first league	Sparta Praha	Teplice	345	628	3720	1384769
+2025-11-09	czech first league	Sigma Olomouc	Pardubice	345	2250	3724	1384768
+2025-11-09	czech first league	Plzen	Slavia Praha	345	567	560	1384767
+2025-11-09	fnl	Sparta Praha II	Zbrojovka Brno	346	8619	3733	1384536
+2025-11-09	fnl	Vlašim	Ústí nad Labem	346	3730	3735	1384538

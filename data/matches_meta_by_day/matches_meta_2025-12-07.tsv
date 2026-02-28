@@ -1,0 +1,73 @@
+# date	league	home	away	league_id	home_id	away_id	fixture_id
+2025-12-07	liga profesional argentina	Boca Juniors	Racing Club	128	451	436	1488799
+2025-12-07	pro league	KV Mechelen	Charleroi	144	266	736	1382556
+2025-12-07	pro league	KVC Westerlo	Anderlecht	144	261	554	1382560
+2025-12-07	pro league	Antwerp	Genk	144	740	742	1382561
+2025-12-07	pro league	OH Leuven	Zulte Waregem	144	260	600	1382558
+2025-12-07	serie a brazil	Internacional	RB Bragantino	71	119	794	1478052
+2025-12-07	serie a brazil	Botafogo	Fortaleza EC	71	120	154	1478048
+2025-12-07	serie a brazil	Sport Recife	Gremio	71	123	130	1478055
+2025-12-07	serie a brazil	Fluminense	Bahia	71	124	118	1478051
+2025-12-07	serie a brazil	Santos	Cruzeiro	71	128	135	1478054
+2025-12-07	serie a brazil	Ceara	Palmeiras	71	129	121	1478049
+2025-12-07	serie a brazil	Corinthians	Juventude	71	131	152	1478050
+2025-12-07	serie a brazil	Vitoria	Sao Paulo	71	136	126	1478056
+2025-12-07	serie a brazil	Atletico-MG	Vasco DA Gama	71	1062	133	1478047
+2025-12-07	superligaen	Gyori ETO FC	Kazincbarcikai	271	2402	2410	1380267
+2025-12-07	superligaen	Ferencvarosi TC	Kisvarda FC	271	651	2394	1380266
+2025-12-07	superligaen	Ujpest	Zalaegerszegi TE	271	2255	2414	1380269
+2025-12-07	liga pro ecuador	El Nacional	Aucas	242	1150	1156	1479557
+2025-12-07	liga pro ecuador	Barcelona SC	Universidad Catolica	242	1152	1157	1479586
+2025-12-07	fa cup	Slough Town	Macclesfield	45	4685	1380	1485305
+2025-12-07	fa cup	Boreham Wood	Newport County	45	1830	1367	1485292
+2025-12-07	fa cup	Gateshead	Walsall	45	1823	1342	1485299
+2025-12-07	fa cup	Blackpool	Carlisle	45	1356	1371	1485291
+2025-12-07	premier league	Brighton	West Ham	39	51	48	1379111
+2025-12-07	premier league	Fulham	Crystal Palace	39	36	52	1379113
+2025-12-07	ligue 1	Nice	Angers	61	84	77	1387830
+2025-12-07	ligue 1	Auxerre	Metz	61	108	112	1387824
+2025-12-07	ligue 1	Le Havre	Paris FC	61	111	114	1387826
+2025-12-07	ligue 1	Lorient	Lyon	61	97	80	1387828
+2025-12-07	2. bundesliga	Hertha BSC	1. FC Magdeburg	79	159	179	1388744
+2025-12-07	2. bundesliga	1. FC Nürnberg	SpVgg Greuther Fürth	79	171	178	1388746
+2025-12-07	2. bundesliga	Eintracht Braunschweig	Holstein Kiel	79	744	191	1388741
+2025-12-07	bundesliga	Hamburger SV	Werder Bremen	78	175	162	1388419
+2025-12-07	bundesliga	Borussia Dortmund	1899 Hoffenheim	78	165	167	1388417
+2025-12-07	serie a italia	Cremonese	Lecce	135	520	867	1377995
+2025-12-07	serie a italia	Cagliari	AS Roma	135	490	497	1377994
+2025-12-07	serie a italia	Lazio	Bologna	135	487	500	1377997
+2025-12-07	serie a italia	Napoli	Juventus	135	492	496	1377998
+2025-12-07	serie b	Empoli	Palermo	136	511	522	1419739
+2025-12-07	serie b	Sampdoria	Carrarese	136	498	1581	1419736
+2025-12-07	liga mx	Toluca	Monterrey	262	2281	2282	1488772
+2025-12-07	liga mx	Tigres UANL	Cruz Azul	262	2279	2295	1488771
+2025-12-07	eredivisie	Utrecht	Twente	88	207	415	1381001
+2025-12-07	eredivisie	AZ Alkmaar	GO Ahead Eagles	88	201	410	1380993
+2025-12-07	eredivisie	FC Volendam	NEC Nijmegen	88	416	413	1380995
+2025-12-07	eredivisie	Sparta Rotterdam	NAC Breda	88	426	203	1381000
+2025-12-07	liga portugal	Estoril	Moreirense	94	230	215	1396348
+2025-12-07	liga portugal	Alverca	Nacional	94	4724	225	1396346
+2025-12-07	liga portugal	Estrela	Arouca	94	15130	240	1396349
+2025-12-07	liga portugal	Tondela	FC Porto	94	218	212	1396352
+2025-12-07	liga portugal 2	Lusitânia Lourosa	Portimonense	95	6358	216	1398082
+2025-12-07	liga portugal 2	Feirense	Academico Viseu	95	213	238	1398079
+2025-12-07	liga portugal 2	Chaves	Pacos Ferreira	95	223	234	1398078
+2025-12-07	premiership	Celtic	Heart Of Midlothian	179	247	254	1382756
+2025-12-07	laliga	Elche	Girona	140	797	547	1390962
+2025-12-07	laliga	Valencia	Sevilla	140	532	536	1390967
+2025-12-07	laliga	Espanyol	Rayo Vallecano	140	540	728	1390963
+2025-12-07	laliga	Real Madrid	Celta Vigo	140	541	538	1390965
+2025-12-07	laliga2	Cadiz	Racing Santander	141	724	4665	1391941
+2025-12-07	laliga2	Leganes	Cordoba	141	537	713	1391950
+2025-12-07	laliga2	Deportivo La Coruna	Castellón	141	544	5254	1391949
+2025-12-07	laliga2	Eibar	Cultural Leonesa	141	545	725	1391943
+2025-12-07	laliga2	Granada CF	AD Ceuta FC	141	715	10139	1391946
+2025-12-07	super league switzerland	FC Winterthur	FC Basel 1893	207	2180	551	1382389
+2025-12-07	super league switzerland	FC Sion	BSC Young Boys	207	630	565	1382386
+2025-12-07	super league switzerland	Lausanne	FC Lugano	207	1014	606	1382385
+2025-12-07	super lig	Genclerbirligi	Fatih Karagümrük	203	997	3589	1394564
+2025-12-07	super lig	Kocaelispor	Kasımpaşa	203	7411	1004	1394566
+2025-12-07	super lig	Göztepe	Trabzonspor	203	994	998	1394565
+2025-12-07	czech first league	FK Jablonec	Bohemians 1905	345	1122	3714	1384789
+2025-12-07	czech first league	Karviná	Baník Ostrava	345	3716	3713	1384790
+2025-12-07	czech first league	Pardubice	Hradec Králové	345	3724	3723	1384788

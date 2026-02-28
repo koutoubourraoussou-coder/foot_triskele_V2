@@ -1,0 +1,69 @@
+# date	league	home	away	league_id	home_id	away_id	fixture_id
+2026-01-10	bundesliga	1. FC Heidenheim	1. FC Köln	78	180	192	1388448
+2026-01-10	bundesliga	SC Freiburg	Hamburger SV	78	160	175	1388447
+2026-01-10	bundesliga	Union Berlin	FSV Mainz 05	78	182	164	1388450
+2026-01-10	bundesliga	Bayer Leverkusen	VfB Stuttgart	78	168	172	1388443
+2026-01-10	coupe de france	Angers	Toulouse	66	77	96	1495617
+2026-01-10	coupe de france	Bastia	Estac Troyes	66	1305	110	1495619
+2026-01-10	coupe de france	Montreuil	Amiens	66	27037	87	1495628
+2026-01-10	coupe de france	Orleans	Monaco	66	103	91	1495630
+2026-01-10	coupe de france	Avranches	Strasbourg	66	1303	95	1495618
+2026-01-10	coupe de france	Hauts Lyonnais	Lorient	66	3187	97	1495622
+2026-01-10	coupe de france	Istres	Laval	66	3267	433	1495623
+2026-01-10	coupe de france	Le Puy Foot	Reims	66	3069	93	1495625
+2026-01-10	eredivisie	AZ Alkmaar	FC Volendam	88	201	416	1381020
+2026-01-10	eredivisie	Twente	PEC Zwolle	88	415	193	1381028
+2026-01-10	eredivisie	PSV Eindhoven	Excelsior	88	197	196	1381025
+2026-01-10	eredivisie	Groningen	NAC Breda	88	202	203	1381022
+2026-01-10	fa cup	Cheltenham	Leicester	45	1372	46	1490795
+2026-01-10	fa cup	Everton	Sunderland	45	45	746	1490798
+2026-01-10	fa cup	Macclesfield	Crystal Palace	45	1380	52	1490804
+2026-01-10	fa cup	Wolves	Shrewsbury	45	39	1352	1490820
+2026-01-10	fa cup	Boreham Wood	Burton Albion	45	1830	748	1490790
+2026-01-10	fa cup	Burnley	Millwall	45	44	58	1490792
+2026-01-10	fa cup	Doncaster	Southampton	45	1354	41	1490797
+2026-01-10	fa cup	Fulham	Middlesbrough	45	36	70	1490799
+2026-01-10	fa cup	Ipswich	Blackpool	45	57	1356	1490802
+2026-01-10	fa cup	Manchester City	Exeter City	45	50	1364	1490805
+2026-01-10	fa cup	Newcastle	Bournemouth	45	34	35	1490808
+2026-01-10	fa cup	Sheffield Wednesday	Brentford	45	74	55	1490815
+2026-01-10	fa cup	Stoke City	Coventry	45	75	1346	1490816
+2026-01-10	fa cup	Bristol City	Watford	45	56	38	1490791
+2026-01-10	fa cup	Cambridge United	Birmingham	45	1370	54	1490793
+2026-01-10	fa cup	Grimsby	Weston-super-Mare	45	1365	4687	1490800
+2026-01-10	fa cup	Tottenham	Aston Villa	45	47	66	1490818
+2026-01-10	fa cup	Charlton	Chelsea	45	1335	49	1490794
+2026-01-10	laliga	Oviedo	Real Betis	140	718	543	1391005
+2026-01-10	laliga	Villarreal	Alaves	140	533	542	1391008
+2026-01-10	laliga	Girona	Osasuna	140	547	727	1391002
+2026-01-10	laliga	Valencia	Elche	140	532	797	1391007
+2026-01-10	laliga2	Mirandes	Almeria	141	799	723	1391994
+2026-01-10	laliga2	Real Sociedad II	Albacete	141	9585	722	1391989
+2026-01-10	laliga2	Burgos	Eibar	141	9580	545	1391987
+2026-01-10	laliga2	FC Andorra	Cultural Leonesa	141	8157	725	1396969
+2026-01-10	laliga2	Las Palmas	Deportivo La Coruna	141	534	544	1391991
+2026-01-10	laliga2	Racing Santander	Zaragoza	141	4665	732	1391985
+2026-01-10	liga mx	Guadalajara Chivas	Pachuca	262	2278	2292	1491794
+2026-01-10	liga mx	Mazatlán	FC Juarez	262	14002	2298	1491793
+2026-01-10	liga mx	Atlas	Puebla	262	2283	2291	1491791
+2026-01-10	liga mx	Club Tijuana	Club America	262	2280	2287	1491792
+2026-01-10	premiership	Celtic	Dundee Utd	179	247	1386	1382793
+2026-01-10	premiership	Hibernian	Motherwell	179	249	256	1382795
+2026-01-10	premiership	Livingston	Kilmarnock	179	255	250	1382796
+2026-01-10	premiership	ST Mirren	Falkirk	179	251	1389	1382797
+2026-01-10	saudi arabia	NEOM	Al-Fateh	307	10513	2931	1436033
+2026-01-10	saudi arabia	Al Riyadh	Al-Fayha	307	10511	2944	1436031
+2026-01-10	saudi arabia	Al Okhdood	Al-Ahli Jeddah	307	2977	2929	1436038
+2026-01-10	serie a italia	Como	Bologna	135	895	500	1378055
+2026-01-10	serie a italia	Udinese	Pisa	135	494	801	1378062
+2026-01-10	serie a italia	AS Roma	Sassuolo	135	497	488	1378061
+2026-01-10	serie a italia	Atalanta	Torino	135	499	503	1378054
+2026-01-10	serie b	Avellino	Sampdoria	136	528	498	1419777
+2026-01-10	serie b	Carrarese	Bari	136	1581	508	1419778
+2026-01-10	serie b	Frosinone	Catanzaro	136	512	1687	1419772
+2026-01-10	serie b	Reggiana	Venezia	136	880	517	1419780
+2026-01-10	serie b	Sudtirol	Spezia	136	1578	515	1419771
+2026-01-10	serie b	Virtus Entella	Monza	136	527	1579	1419773
+2026-01-10	serie b	Juve Stabia	Pescara	136	863	525	1419774
+2026-01-10	serie b	Cesena	Empoli	136	509	511	1419776
+2026-01-10	taça da liga	Guimaraes	SC Braga	97	224	217	1503637

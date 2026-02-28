@@ -1,0 +1,96 @@
+# date	league	home	away	league_id	home_id	away_id	fixture_id
+2025-12-06	pro league	Cercle Brugge	Standard Liege	144	741	733	1382555
+2025-12-06	pro league	Union St. Gilloise	Gent	144	1393	631	1382554
+2025-12-06	pro league	St. Truiden	Club Brugge KV	144	735	569	1382559
+2025-12-06	serie a brazil	Mirassol	Flamengo	71	7848	127	1478053
+2025-12-06	superligaen	Diosgyori VTK	Nyiregyhaza	271	2393	2403	1380265
+2025-12-06	superligaen	Debreceni VSC	Puskas Academy	271	2392	2391	1380264
+2025-12-06	superligaen	Paks	MTK Budapest	271	2390	2396	1380268
+2025-12-06	liga pro ecuador	Deportivo Cuenca	Delfin SC	242	1154	1149	1479556
+2025-12-06	liga pro ecuador	Independiente del Valle	Libertad	242	1153	18762	1479587
+2025-12-06	liga pro ecuador	Orense SC	LDU de Quito	242	1992	1158	1479588
+2025-12-06	championship	Charlton	Portsmouth	40	1335	1355	1386768
+2025-12-06	championship	Blackburn	Sheffield Wednesday	40	67	74	1386773
+2025-12-06	championship	Watford	Norwich	40	38	71	1386771
+2025-12-06	championship	Derby	Leicester	40	69	46	1386774
+2025-12-06	championship	Southampton	Birmingham	40	41	54	1386769
+2025-12-06	championship	Bristol City	Millwall	40	56	58	1386778
+2025-12-06	championship	Ipswich	Coventry	40	57	1346	1386770
+2025-12-06	championship	Preston	Wrexham	40	59	1837	1386777
+2025-12-06	championship	Sheffield Utd	Stoke City	40	62	75	1386776
+2025-12-06	championship	QPR	West Brom	40	72	60	1386775
+2025-12-06	championship	Swansea	Oxford United	40	76	1338	1386767
+2025-12-06	fa cup	Wigan	Barrow	45	61	1819	1485309
+2025-12-06	fa cup	Fleetwood Town	Luton	45	1336	1359	1485298
+2025-12-06	fa cup	Milton Keynes Dons	Oldham	45	1348	1349	1485301
+2025-12-06	fa cup	Peterborough	Barnsley	45	1350	747	1485302
+2025-12-06	fa cup	Port Vale	Bristol Rovers	45	1351	1334	1485303
+2025-12-06	fa cup	Swindon Town	Bolton	45	1353	68	1485308
+2025-12-06	fa cup	Accrington ST	Mansfield Town	45	1360	1374	1485290
+2025-12-06	fa cup	Exeter City	Wycombe	45	1364	1358	1485297
+2025-12-06	fa cup	Grimsby	Wealdstone	45	1365	8663	1485300
+2025-12-06	fa cup	Cheltenham	Buxton	45	1372	7706	1485295
+2025-12-06	fa cup	Stockport County	Cambridge United	45	4686	1370	1485306
+2025-12-06	fa cup	Chelmsford City	Weston-super-Mare	45	4689	4687	1485294
+2025-12-06	fa cup	Sutton Utd	Shrewsbury	45	1835	1352	1485307
+2025-12-06	fa cup	Chesterfield	Doncaster	45	1345	1354	1485296
+2025-12-06	premier league	Aston Villa	Arsenal	39	66	42	1379109
+2025-12-06	premier league	Newcastle	Burnley	39	34	44	1379116
+2025-12-06	premier league	Bournemouth	Chelsea	39	35	49	1379110
+2025-12-06	premier league	Everton	Nottingham Forest	39	45	65	1379112
+2025-12-06	premier league	Tottenham	Brentford	39	47	55	1379117
+2025-12-06	premier league	Manchester City	Sunderland	39	50	746	1379115
+2025-12-06	premier league	Leeds	Liverpool	39	63	40	1379114
+2025-12-06	ligue 1	Nantes	Lens	61	83	116	1387829
+2025-12-06	ligue 1	Toulouse	Strasbourg	61	96	95	1387832
+2025-12-06	ligue 1	Paris Saint Germain	Rennes	61	85	94	1387831
+2025-12-06	ligue 2	Montpellier	PAU	62	82	1297	1389257
+2025-12-06	ligue 2	Estac Troyes	Rodez	62	110	1301	1389255
+2025-12-06	ligue 2	Dunkerque	Saint Etienne	62	1304	1063	1389261
+2025-12-06	2. bundesliga	VfL Bochum	Arminia Bielefeld	79	176	188	1388740
+2025-12-06	2. bundesliga	SC Paderborn 07	SV Elversberg	79	185	1660	1388747
+2025-12-06	2. bundesliga	1. FC Kaiserslautern	Dynamo Dresden	79	745	183	1388745
+2025-12-06	2. bundesliga	SV Darmstadt 98	Karlsruher SC	79	181	785	1388742
+2025-12-06	bundesliga	VfL Wolfsburg	Union Berlin	78	161	182	1388424
+2025-12-06	bundesliga	FC Augsburg	Bayer Leverkusen	78	170	168	1388416
+2025-12-06	bundesliga	VfB Stuttgart	Bayern München	78	172	157	1388423
+2025-12-06	bundesliga	1. FC Heidenheim	SC Freiburg	78	180	160	1388420
+2025-12-06	bundesliga	1. FC Köln	FC St. Pauli	78	192	186	1388418
+2025-12-06	bundesliga	RB Leipzig	Eintracht Frankfurt	78	173	169	1388422
+2025-12-06	serie a italia	Sassuolo	Fiorentina	135	488	502	1378000
+2025-12-06	serie a italia	Inter	Como	135	505	895	1377996
+2025-12-06	serie a italia	Verona	Atalanta	135	504	499	1378003
+2025-12-06	eredivisie	Heerenveen	PSV Eindhoven	88	210	197	1380997
+2025-12-06	eredivisie	Fortuna Sittard	Ajax	88	205	194	1380999
+2025-12-06	eredivisie	Heracles	Telstar	88	206	427	1380998
+2025-12-06	eredivisie	Feyenoord	PEC Zwolle	88	209	193	1380996
+2025-12-06	liga portugal	Santa Clara	Casa Pia	94	227	4716	1396351
+2025-12-06	liga portugal	AVS	Rio Ave	94	21595	226	1396345
+2025-12-06	liga portugal	Famalicao	SC Braga	94	242	217	1396350
+2025-12-06	liga portugal 2	Felgueiras 1932	Sporting CP B	95	4744	761	1398080
+2025-12-06	liga portugal 2	Maritimo	Torreense	95	214	4799	1398083
+2025-12-06	liga portugal 2	Benfica B	Oliveirense	95	229	233	1398077
+2025-12-06	liga portugal 2	Leixoes	FC Porto B	95	244	243	1398081
+2025-12-06	premiership	Hibernian	Falkirk	179	249	1389	1382758
+2025-12-06	premiership	ST Mirren	Dundee Utd	179	251	1386	1382761
+2025-12-06	premiership	Dundee	Aberdeen	179	253	252	1382757
+2025-12-06	premiership	Motherwell	Livingston	179	256	255	1382760
+2025-12-06	premiership	Kilmarnock	Rangers	179	250	257	1382759
+2025-12-06	laliga	Villarreal	Getafe	140	533	546	1390968
+2025-12-06	laliga	Alaves	Real Sociedad	140	542	548	1390959
+2025-12-06	laliga	Real Betis	Barcelona	140	543	529	1390961
+2025-12-06	laliga	Athletic Club	Atletico Madrid	140	531	530	1390960
+2025-12-06	laliga2	FC Andorra	Almeria	141	8157	723	1396965
+2025-12-06	laliga2	Huesca	Valladolid	141	726	720	1391945
+2025-12-06	laliga2	Real Sociedad II	Sporting Gijon	141	9585	731	1391942
+2025-12-06	super league switzerland	FC Thun	FC Luzern	207	1012	644	1382388
+2025-12-06	super league switzerland	Grasshoppers	Servette FC	207	1013	2184	1382384
+2025-12-06	super league switzerland	FC ST. Gallen	FC Zurich	207	1011	783	1382387
+2025-12-06	super lig	Eyüpspor	Kayserispor	203	3588	1001	1394562
+2025-12-06	super lig	Konyaspor	Rizespor	203	607	1007	1394567
+2025-12-06	super lig	Başakşehir	Fenerbahçe	203	564	611	1394560
+2025-12-06	mls	Inter Miami	Vancouver Whitecaps	253	9568	1603	1488536
+2025-12-06	czech first league	Mlada Boleslav	Zlin	345	640	603	1384791
+2025-12-06	czech first league	Dukla Praha	Slovan Liberec	345	3715	782	1384787
+2025-12-06	czech first league	Slovácko	Plzen	345	3719	567	1384793
+2025-12-06	czech first league	Sigma Olomouc	Sparta Praha	345	2250	628	1384792

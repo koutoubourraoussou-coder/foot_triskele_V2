@@ -1,0 +1,62 @@
+# date	league	home	away	league_id	home_id	away_id	fixture_id
+2026-01-25	2. bundesliga	FC Schalke 04	1. FC Kaiserslautern	79	174	745	1388784
+2026-01-25	2. bundesliga	SC Paderborn 07	Preußen Münster	79	185	1313	1388783
+2026-01-25	2. bundesliga	SV Elversberg	VfL Bochum	79	1660	176	1388778
+2026-01-25	bundesliga	Borussia Mönchengladbach	VfB Stuttgart	78	163	172	1388472
+2026-01-25	bundesliga	SC Freiburg	1. FC Köln	78	160	192	1388474
+2026-01-25	championship	Portsmouth	Southampton	40	1355	41	1386895
+2026-01-25	eredivisie	Telstar	AZ Alkmaar	88	427	201	1381044
+2026-01-25	eredivisie	Groningen	Fortuna Sittard	88	202	205	1381041
+2026-01-25	eredivisie	Feyenoord	Heracles	88	209	206	1381039
+2026-01-25	eredivisie	Utrecht	Sparta Rotterdam	88	207	426	1381046
+2026-01-25	laliga	Atletico Madrid	Mallorca	140	530	798	1391020
+2026-01-25	laliga	Barcelona	Oviedo	140	529	718	1391021
+2026-01-25	laliga	Real Sociedad	Celta Vigo	140	548	538	1391025
+2026-01-25	laliga	Alaves	Real Betis	140	542	543	1391019
+2026-01-25	laliga2	FC Andorra	Huesca	141	8157	726	1396971
+2026-01-25	laliga2	Eibar	Almeria	141	545	723	1392016
+2026-01-25	laliga2	Zaragoza	Castellón	141	732	5254	1392009
+2026-01-25	laliga2	Deportivo La Coruna	Racing Santander	141	544	4665	1392014
+2026-01-25	liga portugal	Nacional	Rio Ave	94	225	226	1396407
+2026-01-25	liga portugal	Benfica	Estrela	94	211	15130	1396400
+2026-01-25	liga portugal	Famalicao	Tondela	94	242	218	1396404
+2026-01-25	liga portugal	SC Braga	Alverca	94	217	4724	1396401
+2026-01-25	liga portugal 2	FC Porto B	Vizela	95	243	810	1398132
+2026-01-25	liga portugal 2	Portimonense	Feirense	95	216	213	1398138
+2026-01-25	liga portugal 2	Torreense	Farense	95	4799	231	1398139
+2026-01-25	liga portugal 2	Oliveirense	Penafiel	95	233	235	1398136
+2026-01-25	ligue 1	Nantes	Nice	61	83	84	1387866
+2026-01-25	ligue 1	Metz	Lyon	61	112	80	1387865
+2026-01-25	ligue 1	Paris FC	Angers	61	114	77	1387867
+2026-01-25	ligue 1	Stade Brestois 29	Toulouse	61	106	96	1387861
+2026-01-25	ligue 1	Lille	Strasbourg	61	79	95	1387863
+2026-01-25	premier league	Brentford	Nottingham Forest	39	55	65	1379191
+2026-01-25	premier league	Crystal Palace	Chelsea	39	52	49	1379193
+2026-01-25	premier league	Newcastle	Aston Villa	39	34	66	1379197
+2026-01-25	premier league	Arsenal	Manchester United	39	42	33	1379189
+2026-01-25	premiership	Heart Of Midlothian	Celtic	179	254	247	1382801
+2026-01-25	premiership	Rangers	Dundee	179	257	253	1382803
+2026-01-25	pro league	Antwerp	Charleroi	144	740	736	1382597
+2026-01-25	pro league	Genk	Cercle Brugge	144	742	741	1382596
+2026-01-25	pro league	Anderlecht	Dender	144	554	6215	1382594
+2026-01-25	pro league	KV Mechelen	KVC Westerlo	144	266	261	1382599
+2026-01-25	saudi arabia	Al Najma	Al-Qadisiyah FC	307	2992	2933	1436071
+2026-01-25	saudi arabia	Al Riyadh	Al-Hilal Saudi FC	307	10511	2932	1436066
+2026-01-25	saudi arabia	Al-Fayha	Al-Fateh	307	2944	2931	1436072
+2026-01-25	serie a italia	Sassuolo	Cremonese	135	488	520	1378082
+2026-01-25	serie a italia	Atalanta	Parma	135	499	523	1378074
+2026-01-25	serie a italia	Genoa	Bologna	135	495	500	1378077
+2026-01-25	serie a italia	Juventus	Napoli	135	496	492	1378079
+2026-01-25	serie a italia	AS Roma	AC Milan	135	497	489	1378081
+2026-01-25	serie b	Sudtirol	Padova	136	1578	870	1419796
+2026-01-25	serie b	Catanzaro	Sampdoria	136	1687	498	1419792
+2026-01-25	super league switzerland	FC Thun	BSC Young Boys	207	1012	565	1382418
+2026-01-25	super league switzerland	FC ST. Gallen	Servette FC	207	1011	2184	1382417
+2026-01-25	super league switzerland	FC Zurich	FC Basel 1893	207	783	551	1382419
+2026-01-25	super lig	Gazişehir Gaziantep	Konyaspor	203	3573	607	1394598
+2026-01-25	super lig	Antalyaspor	Genclerbirligi	203	1005	997	1394595
+2026-01-25	super lig	Rizespor	Alanyaspor	203	1007	996	1394601
+2026-01-25	super lig	Fenerbahçe	Göztepe	203	611	994	1394597
+2026-01-25	superligaen	Debreceni VSC	Diosgyori VTK	271	2392	2393	1380282
+2026-01-25	superligaen	Kazincbarcikai	Zalaegerszegi TE	271	2410	2414	1380284
+2026-01-25	superligaen	Ferencvarosi TC	Gyori ETO FC	271	651	2402	1380283

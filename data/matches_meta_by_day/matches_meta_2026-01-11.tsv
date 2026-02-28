@@ -1,0 +1,45 @@
+# date	league	home	away	league_id	home_id	away_id	fixture_id
+2026-01-11	bundesliga	Borussia Mönchengladbach	FC Augsburg	78	163	170	1388445
+2026-01-11	bundesliga	Bayern München	VfL Wolfsburg	78	157	161	1388444
+2026-01-11	coupe de france	Sochaux	Lens	66	115	116	1495632
+2026-01-11	coupe de france	Chantilly	Rennes	66	3162	94	1495621
+2026-01-11	coupe de france	Le Mans	Nancy	66	1298	102	1495624
+2026-01-11	coupe de france	Metz	Montpellier	66	112	82	1495627
+2026-01-11	coupe de france	Nantes	Nice	66	83	84	1495629
+2026-01-11	coupe de france	Lille	Lyon	66	79	80	1495626
+2026-01-11	eredivisie	Heerenveen	Feyenoord	88	210	209	1381023
+2026-01-11	eredivisie	GO Ahead Eagles	Fortuna Sittard	88	410	205	1381021
+2026-01-11	eredivisie	Telstar	Ajax	88	427	194	1381027
+2026-01-11	eredivisie	Sparta Rotterdam	Heracles	88	426	206	1381026
+2026-01-11	fa cup	Derby	Leeds	45	69	63	1490796
+2026-01-11	fa cup	Portsmouth	Arsenal	45	1355	42	1490810
+2026-01-11	fa cup	Hull City	Blackburn	45	64	67	1490801
+2026-01-11	fa cup	Norwich	Walsall	45	71	1342	1490809
+2026-01-11	fa cup	Sheffield Utd	Mansfield Town	45	62	1374	1490814
+2026-01-11	fa cup	Swansea	West Brom	45	76	60	1490817
+2026-01-11	fa cup	West Ham	QPR	45	48	72	1490819
+2026-01-11	fa cup	Manchester United	Brighton	45	33	51	1490806
+2026-01-11	laliga	Rayo Vallecano	Mallorca	140	728	798	1391004
+2026-01-11	laliga	Levante	Espanyol	140	539	540	1391003
+2026-01-11	laliga2	Leganes	Valladolid	141	537	720	1391986
+2026-01-11	laliga2	Granada CF	Castellón	141	715	5254	1391993
+2026-01-11	laliga2	Malaga	AD Ceuta FC	141	535	10139	1391992
+2026-01-11	liga mx	Leon	Cruz Azul	262	2289	2295	1491795
+2026-01-11	liga mx	Santos Laguna	Necaxa	262	2285	2288	1491796
+2026-01-11	liga mx	Monterrey	Toluca	262	2282	2281	1491797
+2026-01-11	liga mx	U.N.A.M. - Pumas	Club Queretaro	262	2286	2290	1491798
+2026-01-11	liga portugal	Nacional	Santa Clara	94	225	227	1396379
+2026-01-11	liga portugal	Moreirense	Tondela	94	215	218	1396378
+2026-01-11	liga portugal 2	Portimonense	Felgueiras 1932	95	216	4744	1398111
+2026-01-11	liga portugal 2	Chaves	Maritimo	95	223	214	1398114
+2026-01-11	liga portugal 2	FC Porto B	Sporting CP B	95	243	761	1398105
+2026-01-11	liga portugal 2	Oliveirense	Feirense	95	233	213	1398109
+2026-01-11	premiership	Dundee	Heart Of Midlothian	179	253	254	1382794
+2026-01-11	premiership	Aberdeen	Rangers	179	252	257	1382792
+2026-01-11	serie a italia	Lecce	Parma	135	867	523	1378060
+2026-01-11	serie a italia	Fiorentina	AC Milan	135	502	489	1378056
+2026-01-11	serie a italia	Verona	Lazio	135	504	487	1378063
+2026-01-11	serie a italia	Inter	Napoli	135	505	492	1378058
+2026-01-11	serie b	Mantova	Palermo	136	1693	522	1419775
+2026-01-11	serie b	Padova	Modena	136	870	899	1419779
+2026-01-11	taça de portugal	Torreense	União de Leiria	96	4799	4662	1494082

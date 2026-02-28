@@ -1,0 +1,146 @@
+# date	league	home	away	league_id	home_id	away_id	fixture_id
+2025-11-29	pro league	Dender	KVC Westerlo	144	6215	261	1382548
+2025-11-29	pro league	Zulte Waregem	Cercle Brugge	144	600	741	1382549
+2025-11-29	pro league	Charleroi	RAAL La Louvière	144	736	5902	1382550
+2025-11-29	serie a brazil	Santos	Sport Recife	71	128	123	1478034
+2025-11-29	serie a brazil	Vitoria	Mirassol	71	136	7848	1478036
+2025-11-29	primera a colombia	Deportes Tolima	Santa Fe	239	1142	1139	1487906
+2025-11-29	superligaen	Zalaegerszegi TE	Paks	271	2414	2390	1380263
+2025-11-29	superligaen	Kazincbarcikai	Diosgyori VTK	271	2410	2393	1380258
+2025-11-29	superligaen	Gyori ETO FC	MTK Budapest	271	2402	2396	1380260
+2025-11-29	liga pro ecuador	LDU de Quito	Independiente del Valle	242	1158	1153	1479583
+2025-11-29	liga pro ecuador	Tecnico Universitario	Manta FC	242	1151	1980	1479605
+2025-11-29	liga pro ecuador	Cuniburo	Mushuc Runa SC	242	21103	1162	1479606
+2025-11-29	liga pro ecuador	Universidad Catolica	Orense SC	242	1157	1992	1479585
+2025-11-29	championship	Leicester	Sheffield Utd	40	46	62	1386760
+2025-11-29	championship	Stoke City	Hull City	40	75	64	1386763
+2025-11-29	championship	Portsmouth	Bristol City	40	1355	56	1386757
+2025-11-29	championship	Millwall	Southampton	40	58	41	1386759
+2025-11-29	championship	West Brom	Swansea	40	60	76	1386765
+2025-11-29	championship	Middlesbrough	Derby	40	70	69	1386764
+2025-11-29	championship	Norwich	QPR	40	71	72	1386755
+2025-11-29	championship	Sheffield Wednesday	Preston	40	74	59	1386766
+2025-11-29	championship	Coventry	Charlton	40	1346	1335	1386762
+2025-11-29	championship	Wrexham	Blackburn	40	1837	67	1386758
+2025-11-29	premier league	Manchester City	Leeds	39	50	63	1379094
+2025-11-29	premier league	Brentford	Burnley	39	55	44	1379090
+2025-11-29	premier league	Sunderland	Bournemouth	39	746	35	1379096
+2025-11-29	premier league	Everton	Newcastle	39	45	34	1379093
+2025-11-29	premier league	Tottenham	Fulham	39	47	36	1379097
+2025-11-29	coupe de france	Montceau	Montpellier	66	3082	82	1486807
+2025-11-29	coupe de france	Sarre Union	Sochaux	66	3297	115	1486819
+2025-11-29	coupe de france	Torcy	Reims	66	9967	93	1486823
+2025-11-29	coupe de france	Freyming	Racing Besançon	66	25336	9974	1486798
+2025-11-29	coupe de france	Bogny	St Maur Lusitanos	66	27019	3115	1486789
+2025-11-29	coupe de france	Croix Football IC	Le Geldar	66	3043	3194	1486800
+2025-11-29	coupe de france	Reims Sainte-Anne	Amiens	66	9303	87	1486812
+2025-11-29	coupe de france	Union Saint-Jean	Orleans	66	9315	103	1486815
+2025-11-29	coupe de france	Biesheim	RED Star FC 93	66	3025	104	1486788
+2025-11-29	coupe de france	Canet Roussillon	Rodez	66	3030	1301	1486790
+2025-11-29	coupe de france	Saint-Malo	Bastia	66	3108	1305	1486816
+2025-11-29	coupe de france	Laval	Saint-Pauloise	66	433	13748	1486801
+2025-11-29	coupe de france	Hauts Lyonnais	Feurs	66	3187	3177	1486799
+2025-11-29	coupe de france	Lyon Duchere	Carnoux	66	1295	19916	1486803
+2025-11-29	coupe de france	Olympique Marcquois	Bondues	66	3090	20599	1486804
+2025-11-29	coupe de france	Vendée Fontenay	Chateauroux	66	3130	107	1486797
+2025-11-29	coupe de france	Ancienne Château-Gontier	Guingamp	66	3145	90	1486782
+2025-11-29	coupe de france	Beauvais	Dieppe	66	3153	9274	1486787
+2025-11-29	coupe de france	Romorantin	Blois	66	3220	3026	1486813
+2025-11-29	coupe de france	Seyssinet-Pariset	Istres	66	3227	3267	1486821
+2025-11-29	coupe de france	APM Metz	Feignies-Aulnoye	66	3245	3176	1486784
+2025-11-29	coupe de france	Selongey	Bourg-en-bresse 01	66	3300	430	1486820
+2025-11-29	coupe de france	Steenvoorde	Stade Béthunois	66	3307	18153	1486822
+2025-11-29	coupe de france	Stade Plabennec	Les Herbiers	66	9311	1308	1486810
+2025-11-29	coupe de france	Yvetot	Bayeux	66	13636	15116	1486826
+2025-11-29	coupe de france	SA Mérignac	PAU	66	20581	1297	1486817
+2025-11-29	coupe de france	Abbeville	Dunkerque	66	27015	1304	1486781
+2025-11-29	coupe de france	Chalon	Le Puy Foot	66	27020	3069	1486791
+2025-11-29	coupe de france	Montreuil	Granville	66	27037	3185	1486808
+2025-11-29	coupe de france	Villeneuve-la-Garenne	Le Mans	66	27049	1298	1486825
+2025-11-29	coupe de france	Raon l'Etape	Mulhouse	66	3100	3205	1486811
+2025-11-29	coupe de france	Chauvigny	Poitiers	66	3038	3097	1486792
+2025-11-29	coupe de france	Périgny	Beaucouzé	66	13744	19914	1486809
+2025-11-29	coupe de france	Mazeres	Bordeaux	66	27035	78	1486806
+2025-11-29	coupe de france	Marmande	Bassin d'Arcachon Sud	66	13736	3249	1486805
+2025-11-29	coupe de france	Saint Etienne	Ecotay Moingt	66	1063	27023	1486795
+2025-11-29	coupe de france	Gosier	Oissel	66	4394	3089	1486785
+2025-11-29	coupe de france	Espoir Ste Luce	Pontivy GSI	66	27235	3098	1486796
+2025-11-29	ligue 1	Monaco	Paris Saint Germain	61	91	85	1387821
+2025-11-29	ligue 1	Paris FC	Auxerre	61	114	108	1387822
+2025-11-29	ligue 1	Marseille	Toulouse	61	81	96	1387819
+2025-11-29	2. bundesliga	SpVgg Greuther Fürth	VfL Bochum	79	178	176	1388734
+2025-11-29	2. bundesliga	Holstein Kiel	Hertha BSC	79	191	159	1388736
+2025-11-29	2. bundesliga	Eintracht Braunschweig	1. FC Kaiserslautern	79	744	745	1388732
+2025-11-29	2. bundesliga	1. FC Magdeburg	1. FC Nürnberg	79	179	171	1388737
+2025-11-29	bundesliga	Bayern München	FC St. Pauli	78	157	186	1388408
+2025-11-29	bundesliga	Werder Bremen	1. FC Köln	78	162	192	1388415
+2025-11-29	bundesliga	1899 Hoffenheim	FC Augsburg	78	167	170	1388413
+2025-11-29	bundesliga	Union Berlin	1. FC Heidenheim	78	182	180	1388414
+2025-11-29	bundesliga	Bayer Leverkusen	Borussia Dortmund	78	168	165	1388407
+2025-11-29	serie a italia	Genoa	Verona	135	495	504	1377987
+2025-11-29	serie a italia	Parma	Udinese	135	523	494	1377991
+2025-11-29	serie a italia	Juventus	Cagliari	135	496	490	1377988
+2025-11-29	serie a italia	AC Milan	Lazio	135	489	487	1377990
+2025-11-29	serie b	Empoli	Bari	136	511	508	1419722
+2025-11-29	serie b	Venezia	Mantova	136	517	1693	1419727
+2025-11-29	serie b	Pescara	Padova	136	525	870	1419723
+2025-11-29	serie b	Reggiana	Frosinone	136	880	512	1419728
+2025-11-29	serie b	Sudtirol	Avellino	136	1578	528	1419726
+2025-11-29	serie b	Catanzaro	Virtus Entella	136	1687	527	1419721
+2025-11-29	serie b	Palermo	Carrarese	136	522	1581	1419729
+2025-11-29	liga mx	Club America	Monterrey	262	2287	2282	1486001
+2025-11-29	eredivisie	Excelsior	NAC Breda	88	196	203	1380985
+2025-11-29	eredivisie	Fortuna Sittard	Heracles	88	205	206	1380989
+2025-11-29	eredivisie	NEC Nijmegen	Sparta Rotterdam	88	413	426	1380987
+2025-11-29	liga portugal	Moreirense	Famalicao	94	215	242	1396340
+2025-11-29	liga portugal	Casa Pia	Alverca	94	4716	4724	1396337
+2025-11-29	liga portugal	Nacional	Benfica	94	225	211	1396341
+2025-11-29	liga portugal	GIL Vicente	Tondela	94	762	218	1396339
+2025-11-29	liga portugal 2	Academico Viseu	Penafiel	95	238	235	1398068
+2025-11-29	liga portugal 2	Oliveirense	Leixoes	95	233	244	1398071
+2025-11-29	premiership	Dundee	ST Mirren	179	253	251	1382744
+2025-11-29	premiership	Motherwell	Heart Of Midlothian	179	256	254	1382748
+2025-11-29	premiership	Kilmarnock	Dundee Utd	179	250	1386	1382746
+2025-11-29	scottish cup	ST Johnstone	Cove Rangers	181	258	6763	1484098
+2025-11-29	scottish cup	Dumbarton	Auchinleck Talbot	181	1382	6728	1484088
+2025-11-29	scottish cup	Raith Rovers	Alloa Athletic	181	1385	1391	1484096
+2025-11-29	scottish cup	Ayr Utd	Turriff United	181	1387	7452	1484083
+2025-11-29	scottish cup	Dunfermline	Queen of the South	181	1388	1384	1484089
+2025-11-29	scottish cup	Forfar Athletic	Partick	181	4250	901	1484092
+2025-11-29	scottish cup	Airdrie United	Hamilton Academical	181	4668	248	1484081
+2025-11-29	scottish cup	Banks O' Dee	Ross County	181	6729	902	1484084
+2025-11-29	scottish cup	Camelon Juniors	Edinburgh City	181	6733	6766	1484087
+2025-11-29	scottish cup	Annan Athletic	Buckie Thistle	181	6757	7432	1484082
+2025-11-29	scottish cup	East Fife	Arbroath	181	6764	4249	1484090
+2025-11-29	scottish cup	Elgin City	Stirling Albion	181	6767	4669	1484091
+2025-11-29	scottish cup	Kelty Hearts	Brechin	181	6773	1390	1484093
+2025-11-29	scottish cup	Peterhead	Morton	181	6777	1383	1484095
+2025-11-29	scottish cup	Stenhousemuir	Clachnacuddin	181	6784	7435	1484097
+2025-11-29	scottish cup	Stranraer	Clydebank	181	6785	17025	1484099
+2025-11-29	scottish cup	Bonnyrigg Rose Athletic	Spartans	181	7431	6781	1484086
+2025-11-29	scottish cup	Benburb	Montrose	181	19788	4251	1484085
+2025-11-29	laliga	Mallorca	Osasuna	140	798	727	1390955
+2025-11-29	laliga	Barcelona	Alaves	140	529	542	1390950
+2025-11-29	laliga	Levante	Athletic Club	140	539	531	1390954
+2025-11-29	laliga	Atletico Madrid	Oviedo	140	530	718	1390949
+2025-11-29	laliga2	AD Ceuta FC	Burgos	141	10139	9580	1391931
+2025-11-29	laliga2	Cultural Leonesa	Granada CF	141	725	715	1391935
+2025-11-29	laliga2	Albacete	Deportivo La Coruna	141	722	544	1391939
+2025-11-29	laliga2	Almeria	Huesca	141	723	726	1391937
+2025-11-29	laliga2	Valladolid	Malaga	141	720	535	1391932
+2025-11-29	super league switzerland	FC Lugano	FC Sion	207	606	630	1382380
+2025-11-29	super league switzerland	FC Zurich	Grasshoppers	207	783	1013	1382383
+2025-11-29	super league switzerland	FC Luzern	FC Winterthur	207	644	2180	1382381
+2025-11-29	super lig	Rizespor	Kayserispor	203	1007	1001	1394556
+2025-11-29	super lig	Gazişehir Gaziantep	Eyüpspor	203	3573	3588	1394552
+2025-11-29	super lig	Trabzonspor	Konyaspor	203	998	607	1394558
+2025-11-29	super lig	Kasımpaşa	Başakşehir	203	1004	564	1394554
+2025-11-29	mls	Inter Miami	New York City FC	253	9568	1604	1488202
+2025-11-29	czech first league	Zlin	Karviná	345	603	3716	1384786
+2025-11-29	czech first league	Baník Ostrava	Dukla Praha	345	3713	3715	1384782
+2025-11-29	czech first league	Hradec Králové	FK Jablonec	345	3723	1122	1384780
+2025-11-29	czech first league	Slavia Praha	Slovácko	345	560	3719	1384784
+2025-11-29	cymru premier league	Bala Town	Cardiff MET	110	352	353	1401117
+2025-11-29	cymru premier league	llanelli AFC	GAP Connah S Quay FC	110	355	357	1401120
+2025-11-29	cymru premier league	Briton Ferry	Flint Town United	110	2201	5614	1401118
+2025-11-29	cymru premier league	Colwyn Bay	Penybont	110	5611	2191	1401119

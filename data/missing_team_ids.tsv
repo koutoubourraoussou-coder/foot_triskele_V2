@@ -1,0 +1,936 @@
+raw_name	league_id	season	best_score	candidate_norms
+Motherwell	179	2025	0.00	
+Cultural Leonesa	143	2025	0.00	
+FC Andorra	143	2025	0.00	
+Mirandes	143	2025	0.00	
+Sporting Gijon	143	2025	0.00	
+CF Talavera	143	2025	0.00	
+Malaga	143	2025	0.00	
+Real Murcia	143	2025	0.00	
+Cadiz	143	2025	0.00	
+Eldense	143	2025	0.00	
+Almeria	143	2025	0.00	
+Antoniano	143	2025	0.00	
+Villarreal	143	2025	0.00	
+Pontevedra	143	2025	0.00	
+Eibar	143	2025	0.00	
+Ourense CF	143	2025	0.00	
+Girona	143	2025	0.00	
+Quintanar del Rey	143	2025	0.00	
+Elche	143	2025	0.00	
+Torrent	143	2025	0.00	
+Real Betis	143	2025	0.00	
+Cieza	143	2025	0.00	
+Levante	143	2025	0.00	
+Reddis	143	2025	0.00	
+Real Sociedad	143	2025	0.00	
+Athletic Club	140	2025	0.00	
+Real Madrid	140	2025	0.00	
+Zug	209	2025	0.00	
+FC Luzern	209	2025	0.00	
+Rapperswil	209	2025	0.00	
+FC ST. Gallen	209	2025	0.00	
+Yverdon Sport	209	2025	0.00	
+Lausanne	209	2025	0.00	
+Artis	347	2025	0.00	
+Sparta Praha	347	2025	0.00	
+Falkirk	179	2025	0.00	
+Motherwell	179	2025	0.00	
+Cultural Leonesa	143	2025	0.00	
+FC Andorra	143	2025	0.00	
+Mirandes	143	2025	0.00	
+Sporting Gijon	143	2025	0.00	
+CF Talavera	143	2025	0.00	
+Malaga	143	2025	0.00	
+Real Murcia	143	2025	0.00	
+Cadiz	143	2025	0.00	
+Eldense	143	2025	0.00	
+Almeria	143	2025	0.00	
+Antoniano	143	2025	0.00	
+Villarreal	143	2025	0.00	
+Tigres UANL	262	2025	0.00	
+Cruz Azul	262	2025	0.00	
+Utrecht	88	2025	0.00	
+Twente	88	2025	0.00	
+AZ Alkmaar	88	2025	0.00	
+GO Ahead Eagles	88	2025	0.00	
+FC Volendam	88	2025	0.00	
+NEC Nijmegen	88	2025	0.00	
+Sparta Rotterdam	88	2025	0.00	
+NAC Breda	88	2025	0.00	
+Estoril	94	2025	0.00	
+Moreirense	94	2025	0.00	
+Alverca	94	2025	0.00	
+Nacional	94	2025	0.00	
+Estrela	94	2025	0.00	
+Arouca	94	2025	0.00	
+Tondela	94	2025	0.00	
+FC Porto	94	2025	0.00	
+Lusitânia Lourosa	95	2025	0.00	
+Portimonense	95	2025	0.00	
+Feirense	95	2025	0.00	
+Academico Viseu	95	2025	0.00	
+Chaves	95	2025	0.00	
+Pacos Ferreira	95	2025	0.00	
+Celtic	179	2025	0.00	
+Heart Of Midlothian	179	2025	0.00	
+Elche	140	2025	0.00	
+Girona	140	2025	0.00	
+Valencia	140	2025	0.00	
+Sevilla	140	2025	0.00	
+Espanyol	140	2025	0.00	
+Rayo Vallecano	140	2025	0.00	
+Real Madrid	140	2025	0.00	
+Celta Vigo	140	2025	0.00	
+Cadiz	141	2025	0.00	
+Racing Santander	141	2025	0.00	
+Leganes	141	2025	0.00	
+Cordoba	141	2025	0.00	
+Granada CF	141	2025	0.00	
+AD Ceuta FC	141	2025	0.00	
+FC Winterthur	207	2025	0.00	
+FC Basel 1893	207	2025	0.00	
+FC Sion	207	2025	0.00	
+BSC Young Boys	207	2025	0.00	
+Lausanne	207	2025	0.00	
+FC Lugano	207	2025	0.00	
+Genclerbirligi	203	2025	0.00	
+Fatih Karagümrük	203	2025	0.00	
+Kocaelispor	203	2025	0.00	
+Kasımpaşa	203	2025	0.00	
+Göztepe	203	2025	0.00	
+Trabzonspor	203	2025	0.00	
+FK Jablonec	345	2025	0.00	
+Bohemians 1905	345	2025	0.00	
+Karviná	345	2025	0.00	
+FC Lugano	207	2025	0.00	
+Genclerbirligi	203	2025	0.00	
+Fatih Karagümrük	203	2025	0.00	
+Kocaelispor	203	2025	0.00	
+Kasımpaşa	203	2025	0.00	
+Göztepe	203	2025	0.00	
+Trabzonspor	203	2025	0.00	
+FK Jablonec	345	2025	0.00	
+Bohemians 1905	345	2025	0.00	
+Karviná	345	2025	0.00	
+Baník Ostrava	345	2025	0.00	
+Plzen	345	2025	0.00	
+Mlada Boleslav	345	2025	0.00	
+Plzen	345	2025	0.00	
+Mlada Boleslav	345	2025	0.00	
+Plzen	345	2025	0.00	
+Mlada Boleslav	345	2025	0.00	
+Plzen	345	2025	0.00	
+Mlada Boleslav	345	2025	0.00	
+Plzen	345	2025	0.00	
+Mlada Boleslav	345	2025	0.00	
+Plzen	345	2025	0.00	
+Mlada Boleslav	345	2025	0.00	
+Plzen	345	2025	0.00	
+Mlada Boleslav	345	2025	0.00	
+Plzen	345	2025	0.00	
+Mlada Boleslav	345	2025	0.00	
+Plzen	345	2025	0.00	
+Mlada Boleslav	345	2025	0.00	
+Plzen	345	2025	0.00	
+Mlada Boleslav	345	2025	0.00	
+Plzen	345	2025	0.00	
+Mlada Boleslav	345	2025	0.00	
+Plzen	345	2025	0.00	
+Mlada Boleslav	345	2025	0.00	
+Plzen	345	2025	0.00	
+Mlada Boleslav	345	2025	0.00	
+Plzen	345	2025	0.00	
+Mlada Boleslav	345	2025	0.00	
+Plzen	345	2025	0.00	
+Mlada Boleslav	345	2025	0.00	
+Plzen	345	2025	0.00	
+Mlada Boleslav	345	2025	0.00	
+Plzen	345	2025	0.00	
+Mlada Boleslav	345	2025	0.00	
+Sarreguemines	66	2025	0.00	
+Nancy	66	2025	0.00	
+Cadiz	141	2025	0.00	
+Cultural Leonesa	141	2025	0.00	
+Huesca	141	2025	0.00	
+Sporting Gijon	141	2025	0.00	
+Burgos	141	2025	0.00	
+Racing Santander	141	2025	0.00	
+Malaga	141	2025	0.00	
+Mirandes	141	2025	0.00	
+FC Sion	207	2025	0.00	
+FC Zurich	207	2025	0.00	
+FC ST. Gallen	207	2025	0.00	
+Lausanne	207	2025	0.00	
+Grasshoppers	207	2025	0.00	
+FC Basel 1893	207	2025	0.00	
+Göztepe	203	2025	0.00	
+Kocaelispor	203	2025	0.00	
+Beşiktaş	203	2025	0.00	
+Samsunspor	203	2025	0.00	
+Alanyaspor	203	2025	0.00	
+Kasımpaşa	203	2025	0.00	
+Rizespor	203	2025	0.00	
+Fenerbahçe	203	2025	0.00	
+Verona	135	2025	0.00	
+Parma	135	2025	0.00	
+Cremonese	135	2025	0.00	
+AS Roma	135	2025	0.00	
+Lazio	135	2025	0.00	
+Lecce	135	2025	0.00	
+Inter	135	2025	0.00	
+AC Milan	135	2025	0.00	
+Modena	136	2025	0.00	
+Sudtirol	136	2025	0.00	
+Mantova	136	2025	0.00	
+Spezia	136	2025	0.00	
+Monza	136	2025	0.00	
+Cesena	136	2025	0.00	
+FC St. Pauli	78	2025	0.00	
+Cadiz	141	2025	0.00	
+Le Mans	66	2025	0.00	
+Racing Besançon	66	2025	0.00	
+Thionville Lusitanos	66	2025	0.00	
+Yvetot	66	2025	0.00	
+FC 2 Rives 82	66	2025	0.00	
+Mazeres	66	2025	0.00	
+FC Basel 1893	3	2025	0.00	
+Aston Villa	3	2025	0.00	
+FCSB	3	2025	0.00	
+Feyenoord	3	2025	0.00	
+Panathinaikos	3	2025	0.00	
+Plzen	3	2025	0.00	
+Aston Villa	39	2025	0.00	
+Bournemouth	39	2025	0.00	
+Hertha BSC	79	2025	0.00	
+Dynamo Dresden	79	2025	0.00	
+Eintracht Braunschweig	79	2025	0.00	
+Union Berlin	78	2025	0.00	
+RB Leipzig	78	2025	0.00	
+Lecce	135	2025	0.00	
+Pisa	135	2025	0.00	
+Palermo	136	2025	0.00	
+Sampdoria	136	2025	0.00	
+Tigres UANL	262	2025	0.00	
+Toluca	262	2025	0.00	
+Oliveirense	95	2025	0.00	
+Chaves	95	2025	0.00	
+FC Porto B	95	2025	0.00	
+Penafiel	95	2025	0.00	
+Torreense	95	2025	0.00	
+Feirense	95	2025	0.00	
+Real Sociedad	140	2025	0.00	
+Girona	140	2025	0.00	
+Cultural Leonesa	141	2025	0.00	
+Huesca	141	2025	0.00	
+Kasımpaşa	203	2025	0.00	
+Genclerbirligi	203	2025	0.00	
+Preston	40	2025	0.00	
+Leicester	40	2025	0.00	
+Ipswich	40	2025	0.00	
+Birmingham	40	2025	0.00	
+Charlton	40	2025	0.00	
+Millwall	40	2025	0.00	
+Hull City	40	2025	0.00	
+Middlesbrough	40	2025	0.00	
+QPR	40	2025	0.00	
+Coventry	40	2025	0.00	
+Bristol City	40	2025	0.00	
+Portsmouth	40	2025	0.00	
+Blackburn	40	2025	0.00	
+Wrexham	40	2025	0.00	
+Watford	40	2025	0.00	
+Liverpool	39	2025	0.00	
+Brighton	39	2025	0.00	
+Chelsea	39	2025	0.00	
+Everton	39	2025	0.00	
+Burnley	39	2025	0.00	
+Groningen	88	2025	0.00	
+FC Volendam	88	2025	0.00	
+PSV Eindhoven	88	2025	0.00	
+Heracles	88	2025	0.00	
+PEC Zwolle	88	2025	0.00	
+Fortuna Sittard	88	2025	0.00	
+Nacional	94	2025	0.00	
+Tondela	94	2025	0.00	
+Casa Pia	94	2025	0.00	
+GIL Vicente	94	2025	0.00	
+Rio Ave	94	2025	0.00	
+Guimaraes	94	2025	0.00	
+Sporting CP	94	2025	0.00	
+AVS	94	2025	0.00	
+União de Leiria	95	2025	0.00	
+Felgueiras 1932	95	2025	0.00	
+Academico Viseu	95	2025	0.00	
+Farense	95	2025	0.00	
+Livingston	179	2025	0.00	
+Dundee	179	2025	0.00	
+Dundee Utd	179	2025	0.00	
+Motherwell	179	2025	0.00	
+Falkirk	179	2025	0.00	
+Heart Of Midlothian	179	2025	0.00	
+Atletico Madrid	140	2025	0.00	
+Valencia	140	2025	0.00	
+Mallorca	140	2025	0.00	
+Elche	140	2025	0.00	
+Chelsea	39	2025	0.00	
+Everton	39	2025	0.00	
+Burnley	39	2025	0.00	
+Fulham	39	2025	0.00	
+Telstar	88	2025	0.00	
+NEC Nijmegen	88	2025	0.00	
+Groningen	88	2025	0.00	
+Lorient	61	2025	0.00	
+Auxerre	61	2025	0.00	
+Lille	61	2025	0.00	
+Lens	61	2025	0.00	
+Nice	61	2025	0.00	
+Marseille	61	2025	0.00	
+Monaco	61	2025	0.00	
+FC Schalke 04	79	2025	0.00	
+1. FC Nürnberg	79	2025	0.00	
+SV Darmstadt 98	79	2025	0.00	
+Preußen Münster	79	2025	0.00	
+SV Elversberg	79	2025	0.00	
+Fortuna Düsseldorf	79	2025	0.00	
+SC Freiburg	78	2025	0.00	
+Borussia Dortmund	78	2025	0.00	
+Bayern München	78	2025	0.00	
+FSV Mainz 05	78	2025	0.00	
+Werder Bremen	78	2025	0.00	
+VfB Stuttgart	78	2025	0.00	
+AC Milan	135	2025	0.00	
+Sassuolo	135	2025	0.00	
+Udinese	135	2025	0.00	
+Napoli	135	2025	0.00	
+Fiorentina	135	2025	0.00	
+Verona	135	2025	0.00	
+Lausanne	207	2025	0.00	
+FC Lugano	207	2025	0.00	
+Servette FC	207	2025	0.00	
+Gazişehir Gaziantep	203	2025	0.00	
+Göztepe	203	2025	0.00	
+Fatih Karagümrük	203	2025	0.00	
+Kocaelispor	203	2025	0.00	
+Trabzonspor	203	2025	0.00	
+Beşiktaş	203	2025	0.00	
+Samsunspor	203	2025	0.00	
+Başakşehir	203	2025	0.00	
+Bohemians 1905	345	2025	0.00	
+Karviná	345	2025	0.00	
+Plzen	345	2025	0.00	
+Dukla Praha	345	2025	0.00	
+Zlin	345	2025	0.00	
+Sigma Olomouc	345	2025	0.00	
+Sparta Praha	345	2025	0.00	
+Slovan Liberec	345	2025	0.00	
+Strasbourg	61	2025	0.00	
+Lorient	61	2025	0.00	
+Auxerre	61	2025	0.00	
+Lille	61	2025	0.00	
+Lens	61	2025	0.00	
+Nice	61	2025	0.00	
+Marseille	61	2025	0.00	
+Monaco	61	2025	0.00	
+FC Schalke 04	79	2025	0.00	
+1. FC Nürnberg	79	2025	0.00	
+SV Darmstadt 98	79	2025	0.00	
+Preußen Münster	79	2025	0.00	
+SV Elversberg	79	2025	0.00	
+Fortuna Düsseldorf	79	2025	0.00	
+SC Freiburg	78	2025	0.00	
+Borussia Dortmund	78	2025	0.00	
+Bayern München	78	2025	0.00	
+FSV Mainz 05	78	2025	0.00	
+Werder Bremen	78	2025	0.00	
+VfB Stuttgart	78	2025	0.00	
+AC Milan	135	2025	0.00	
+Sassuolo	135	2025	0.00	
+Udinese	135	2025	0.00	
+Napoli	135	2025	0.00	
+Fiorentina	135	2025	0.00	
+Verona	135	2025	0.00	
+Barcelona	140	2025	0.00	
+Osasuna	140	2025	0.00	
+Getafe	140	2025	0.00	
+Espanyol	140	2025	0.00	
+Cordoba	141	2025	0.00	
+Eibar	141	2025	0.00	
+Valladolid	141	2025	0.00	
+FC Andorra	141	2025	0.00	
+Sporting Gijon	141	2025	0.00	
+Granada CF	141	2025	0.00	
+Racing Santander	141	2025	0.00	
+Leganes	141	2025	0.00	
+Deportivo La Coruna	141	2025	0.00	
+Real Sociedad II	141	2025	0.00	
+Club Brugge KV	144	2025	0.00	
+Charleroi	144	2025	0.00	
+Union St. Gilloise	144	2025	0.00	
+Genk	144	2025	0.00	
+KVC Westerlo	144	2025	0.00	
+Kazincbarcikai	271	2025	0.00	
+Paks	271	2025	0.00	
+Ferencvarosi TC	271	2025	0.00	
+Debreceni VSC	271	2025	0.00	
+Kisvarda FC	271	2025	0.00	
+Zalaegerszegi TE	271	2025	0.00	
+Barcelona SC	242	2025	0.00	
+Orense SC	242	2025	0.00	
+Universidad Catolica	242	2025	0.00	
+Independiente del Valle	242	2025	0.00	
+Libertad	242	2025	0.00	
+LDU de Quito	242	2025	0.00	
+West Ham	39	2025	0.00	
+Aston Villa	39	2025	0.00	
+Crystal Palace	39	2025	0.00	
+Manchester City	39	2025	0.00	
+Nottingham Forest	39	2025	0.00	
+Tottenham	39	2025	0.00	
+Sunderland	39	2025	0.00	
+Newcastle	39	2025	0.00	
+Brentford	39	2025	0.00	
+Leeds	39	2025	0.00	
+Lyon	61	2025	0.00	
+Le Havre	61	2025	0.00	
+Strasbourg	61	2025	0.00	
+Lorient	61	2025	0.00	
+Auxerre	61	2025	0.00	
+Lille	61	2025	0.00	
+FC Sion	207	2025	0.00	
+FC Winterthur	207	2025	0.00	
+FC Sion	207	2025	0.00	
+FC Winterthur	207	2025	0.00	
+FC Sion	207	2025	0.00	
+FC Winterthur	207	2025	0.00	
+Norwich	40	2025	0.00	
+Watford	40	2025	0.00	
+GAP Connah S Quay FC	110	2025	0.00	
+Barry Town	110	2025	0.00	
+The New Saints	110	2025	0.00	
+Bala Town	110	2025	0.00	
+Celta Vigo	140	2025	0.00	
+Valencia	140	2025	0.00	
+Osasuna	140	2025	0.00	
+Athletic Club	140	2025	0.00	
+Elche	140	2025	0.00	
+Villarreal	140	2025	0.00	
+Espanyol	140	2025	0.00	
+Barcelona	140	2025	0.00	
+Cultural Leonesa	141	2025	0.00	
+Real Sociedad II	141	2025	0.00	
+Almeria	141	2025	0.00	
+Granada CF	141	2025	0.00	
+Castellón	141	2025	0.00	
+Huesca	141	2025	0.00	
+Valladolid	141	2025	0.00	
+Racing Santander	141	2025	0.00	
+Cordoba	141	2025	0.00	
+Burgos	141	2025	0.00	
+Tondela	94	2025	0.00	
+Arouca	94	2025	0.00	
+Benfica	94	2025	0.00	
+Estoril	94	2025	0.00	
+Estrela	94	2025	0.00	
+SC Braga	94	2025	0.00	
+AVS	94	2025	0.00	
+Moreirense	94	2025	0.00	
+Feirense	95	2025	0.00	
+União de Leiria	95	2025	0.00	
+Felgueiras 1932	95	2025	0.00	
+Oliveirense	95	2025	0.00	
+Farense	95	2025	0.00	
+Portimonense	95	2025	0.00	
+Monaco	61	2025	0.00	
+Lyon	61	2025	0.00	
+Nice	61	2025	0.00	
+Strasbourg	61	2025	0.00	
+Lille	61	2025	0.00	
+Rennes	61	2025	0.00	
+Estac Troyes	62	2025	0.00	
+RED Star FC 93	62	2025	0.00	
+Amiens	62	2025	0.00	
+Nancy	62	2025	0.00	
+Bastia	62	2025	0.00	
+Grenoble	62	2025	0.00	
+Clermont Foot	62	2025	0.00	
+Laval	62	2025	0.00	
+Guingamp	62	2025	0.00	
+Boulogne	62	2025	0.00	
+Le Mans	62	2025	0.00	
+Saint Etienne	62	2025	0.00	
+PAU	62	2025	0.00	
+Rodez	62	2025	0.00	
+Reims	62	2025	0.00	
+Annecy	62	2025	0.00	
+Aston Villa	39	2025	0.00	
+Nottingham Forest	39	2025	0.00	
+Brighton	39	2025	0.00	
+Burnley	39	2025	0.00	
+Wolves	39	2025	0.00	
+West Ham	39	2025	0.00	
+Bournemouth	39	2025	0.00	
+Arsenal	39	2025	0.00	
+Celtic	179	2025	0.00	
+Rangers	179	2025	0.00	
+Dundee Utd	179	2025	0.00	
+Dundee	179	2025	0.00	
+Falkirk	179	2025	0.00	
+Aberdeen	179	2025	0.00	
+Heart Of Midlothian	179	2025	0.00	
+Livingston	179	2025	0.00	
+Kilmarnock	179	2025	0.00	
+Hibernian	179	2025	0.00	
+Motherwell	179	2025	0.00	
+ST Mirren	179	2025	0.00	
+Al-Fateh	307	2025	0.00	
+Al Shabab	307	2025	0.00	
+Al-Fayha	307	2025	0.00	
+Al Kholood	307	2025	0.00	
+Al-Ittihad FC	307	2025	0.00	
+Al Taawon	307	2025	0.00	
+Como	135	2025	0.00	
+Udinese	135	2025	0.00	
+Genoa	135	2025	0.00	
+Pisa	135	2025	0.00	
+Sassuolo	135	2025	0.00	
+Parma	135	2025	0.00	
+Juventus	135	2025	0.00	
+Lecce	135	2025	0.00	
+Atalanta	135	2025	0.00	
+AS Roma	135	2025	0.00	
+Sheffield Utd	40	2025	0.00	
+Oxford United	40	2025	0.00	
+Hull City	40	2025	0.00	
+Watford	40	2025	0.00	
+Portsmouth	40	2025	0.00	
+Ipswich	40	2025	0.00	
+Auxerre	61	2025	0.00	
+Paris Saint Germain	61	2025	0.00	
+Paris FC	61	2025	0.00	
+Leeds	39	2025	0.00	
+Manchester United	39	2025	0.00	
+Everton	39	2025	0.00	
+Brentford	39	2025	0.00	
+Newcastle	39	2025	0.00	
+Crystal Palace	39	2025	0.00	
+Tottenham	39	2025	0.00	
+Sunderland	39	2025	0.00	
+Fulham	39	2025	0.00	
+Liverpool	39	2025	0.00	
+Manchester City	39	2025	0.00	
+Chelsea	39	2025	0.00	
+Al-Hazm	307	2025	0.00	
+NEOM	307	2025	0.00	
+Al-Qadisiyah FC	307	2025	0.00	
+Al Riyadh	307	2025	0.00	
+Damac	307	2025	0.00	
+Al-Hilal Saudi FC	307	2025	0.00	
+Lazio	135	2025	0.00	
+Napoli	135	2025	0.00	
+Fiorentina	135	2025	0.00	
+Cremonese	135	2025	0.00	
+Verona	135	2025	0.00	
+Torino	135	2025	0.00	
+Inter	135	2025	0.00	
+Bologna	135	2025	0.00	
+Stade Brestois 29	61	2025	0.00	
+Auxerre	61	2025	0.00	
+Paris Saint Germain	61	2025	0.00	
+Paris FC	61	2025	0.00	
+Leeds	39	2025	0.00	
+Manchester United	39	2025	0.00	
+Everton	39	2025	0.00	
+Brentford	39	2025	0.00	
+Newcastle	39	2025	0.00	
+Crystal Palace	39	2025	0.00	
+Tottenham	39	2025	0.00	
+Sunderland	39	2025	0.00	
+Fulham	39	2025	0.00	
+Liverpool	39	2025	0.00	
+Manchester City	39	2025	0.00	
+Chelsea	39	2025	0.00	
+Al-Hazm	307	2025	0.00	
+NEOM	307	2025	0.00	
+Al-Qadisiyah FC	307	2025	0.00	
+Al Riyadh	307	2025	0.00	
+Damac	307	2025	0.00	
+Al-Hilal Saudi FC	307	2025	0.00	
+Lazio	135	2025	0.00	
+Napoli	135	2025	0.00	
+Fiorentina	135	2025	0.00	
+Cremonese	135	2025	0.00	
+Verona	135	2025	0.00	
+Torino	135	2025	0.00	
+Inter	135	2025	0.00	
+Bologna	135	2025	0.00	
+Benfica B	95	2025	0.00	
+FC Porto B	95	2025	0.00	
+Vizela	95	2025	0.00	
+Torreense	95	2025	0.00	
+Mirandes	141	2025	0.00	
+Almeria	141	2025	0.00	
+FC Andorra	141	2025	0.00	
+Cultural Leonesa	141	2025	0.00	
+Real Sociedad II	141	2025	0.00	
+Albacete	141	2025	0.00	
+Burgos	141	2025	0.00	
+Eibar	141	2025	0.00	
+Las Palmas	141	2025	0.00	
+Deportivo La Coruna	141	2025	0.00	
+Racing Santander	141	2025	0.00	
+Zaragoza	141	2025	0.00	
+Guadalajara Chivas	262	2025	0.00	
+Pachuca	262	2025	0.00	
+Mazatlán	262	2025	0.00	
+FC Juarez	262	2025	0.00	
+Atlas	262	2025	0.00	
+Puebla	262	2025	0.00	
+Club Tijuana	262	2025	0.00	
+Club America	262	2025	0.00	
+Celtic	179	2025	0.00	
+Dundee Utd	179	2025	0.00	
+Hibernian	179	2025	0.00	
+Motherwell	179	2025	0.00	
+Livingston	179	2025	0.00	
+Kilmarnock	179	2025	0.00	
+ST Mirren	179	2025	0.00	
+Falkirk	179	2025	0.00	
+NEOM	307	2025	0.00	
+Al-Fateh	307	2025	0.00	
+Al Riyadh	307	2025	0.00	
+Al-Fayha	307	2025	0.00	
+Al Okhdood	307	2025	0.00	
+Al-Ahli Jeddah	307	2025	0.00	
+Como	135	2025	0.00	
+Bologna	135	2025	0.00	
+Udinese	135	2025	0.00	
+Pisa	135	2025	0.00	
+AS Roma	135	2025	0.00	
+Sassuolo	135	2025	0.00	
+Atalanta	135	2025	0.00	
+Torino	135	2025	0.00	
+Avellino	136	2025	0.00	
+Sampdoria	136	2025	0.00	
+Carrarese	136	2025	0.00	
+Bari	136	2025	0.00	
+Frosinone	136	2025	0.00	
+Catanzaro	136	2025	0.00	
+Reggiana	136	2025	0.00	
+Venezia	136	2025	0.00	
+Sudtirol	136	2025	0.00	
+Spezia	136	2025	0.00	
+Virtus Entella	136	2025	0.00	
+Monza	136	2025	0.00	
+Juve Stabia	136	2025	0.00	
+Pescara	136	2025	0.00	
+Cesena	136	2025	0.00	
+Empoli	136	2025	0.00	
+Guimaraes	97	2025	0.00	
+SC Braga	97	2025	0.00	
+Valencia	140	2025	0.00	
+Elche	140	2025	0.00	
+Mirandes	141	2025	0.00	
+Almeria	141	2025	0.00	
+FC Andorra	141	2025	0.00	
+Cultural Leonesa	141	2025	0.00	
+Real Sociedad II	141	2025	0.00	
+Albacete	141	2025	0.00	
+Burgos	141	2025	0.00	
+Eibar	141	2025	0.00	
+Las Palmas	141	2025	0.00	
+Deportivo La Coruna	141	2025	0.00	
+Racing Santander	141	2025	0.00	
+Zaragoza	141	2025	0.00	
+Guadalajara Chivas	262	2025	0.00	
+Pachuca	262	2025	0.00	
+Mazatlán	262	2025	0.00	
+FC Juarez	262	2025	0.00	
+Atlas	262	2025	0.00	
+Puebla	262	2025	0.00	
+Club Tijuana	262	2025	0.00	
+Club America	262	2025	0.00	
+Celtic	179	2025	0.00	
+Dundee Utd	179	2025	0.00	
+Hibernian	179	2025	0.00	
+Motherwell	179	2025	0.00	
+Livingston	179	2025	0.00	
+Kilmarnock	179	2025	0.00	
+ST Mirren	179	2025	0.00	
+Falkirk	179	2025	0.00	
+NEOM	307	2025	0.00	
+Al-Fateh	307	2025	0.00	
+Real Sociedad II	141	2025	0.00	
+Albacete	141	2025	0.00	
+Burgos	141	2025	0.00	
+Eibar	141	2025	0.00	
+Las Palmas	141	2025	0.00	
+Deportivo La Coruna	141	2025	0.00	
+Racing Santander	141	2025	0.00	
+Zaragoza	141	2025	0.00	
+Guadalajara Chivas	262	2025	0.00	
+Pachuca	262	2025	0.00	
+Mazatlán	262	2025	0.00	
+FC Juarez	262	2025	0.00	
+Atlas	262	2025	0.00	
+Puebla	262	2025	0.00	
+Club Tijuana	262	2025	0.00	
+Club America	262	2025	0.00	
+Celtic	179	2025	0.00	
+Dundee Utd	179	2025	0.00	
+Hibernian	179	2025	0.00	
+Motherwell	179	2025	0.00	
+Livingston	179	2025	0.00	
+Kilmarnock	179	2025	0.00	
+ST Mirren	179	2025	0.00	
+Falkirk	179	2025	0.00	
+NEOM	307	2025	0.00	
+Al-Fateh	307	2025	0.00	
+FC Juarez	262	2025	0.00	
+Atlas	262	2025	0.00	
+Puebla	262	2025	0.00	
+Club Tijuana	262	2025	0.00	
+Club America	262	2025	0.00	
+Celtic	179	2025	0.00	
+Dundee Utd	179	2025	0.00	
+Hibernian	179	2025	0.00	
+Motherwell	179	2025	0.00	
+Livingston	179	2025	0.00	
+Kilmarnock	179	2025	0.00	
+ST Mirren	179	2025	0.00	
+Falkirk	179	2025	0.00	
+NEOM	307	2025	0.00	
+Al-Fateh	307	2025	0.00	
+Al Riyadh	307	2025	0.00	
+Al-Fayha	307	2025	0.00	
+Al Okhdood	307	2025	0.00	
+Al-Ahli Jeddah	307	2025	0.00	
+Como	135	2025	0.00	
+Bologna	135	2025	0.00	
+Udinese	135	2025	0.00	
+Pisa	135	2025	0.00	
+AS Roma	135	2025	0.00	
+Sassuolo	135	2025	0.00	
+Atalanta	135	2025	0.00	
+Torino	135	2025	0.00	
+Avellino	136	2025	0.00	
+Sampdoria	136	2025	0.00	
+Carrarese	136	2025	0.00	
+Bari	136	2025	0.00	
+Frosinone	136	2025	0.00	
+Catanzaro	136	2025	0.00	
+Reggiana	136	2025	0.00	
+Venezia	136	2025	0.00	
+Sudtirol	136	2025	0.00	
+Spezia	136	2025	0.00	
+Virtus Entella	136	2025	0.00	
+Monza	136	2025	0.00	
+Juve Stabia	136	2025	0.00	
+Pescara	136	2025	0.00	
+Cesena	136	2025	0.00	
+Empoli	136	2025	0.00	
+Guimaraes	97	2025	0.00	
+SC Braga	97	2025	0.00	
+Almeria	141	2025	0.00	
+Deportivo La Coruna	141	2025	0.00	
+Necaxa	262	2025	0.00	
+Atlas	262	2025	0.00	
+Guadalajara Chivas	262	2025	0.00	
+Club Queretaro	262	2025	0.00	
+Mazatlán	262	2025	0.00	
+Monterrey	262	2025	0.00	
+GIL Vicente	94	2025	0.00	
+Nacional	94	2025	0.00	
+Alverca	94	2025	0.00	
+Moreirense	94	2025	0.00	
+AVS	94	2025	0.00	
+Arouca	94	2025	0.00	
+Rio Ave	94	2025	0.00	
+Benfica	94	2025	0.00	
+Farense	95	2025	0.00	
+Oliveirense	95	2025	0.00	
+Felgueiras 1932	95	2025	0.00	
+Leixoes	95	2025	0.00	
+Penafiel	95	2025	0.00	
+Portimonense	95	2025	0.00	
+Benfica B	95	2025	0.00	
+Chaves	95	2025	0.00	
+Lens	61	2025	0.00	
+Auxerre	61	2025	0.00	
+Toulouse	61	2025	0.00	
+Nice	61	2025	0.00	
+Angers	61	2025	0.00	
+Avellino	136	2025	0.00	
+Carrarese	136	2025	0.00	
+Empoli	136	2025	0.00	
+Sudtirol	136	2025	0.00	
+Monza	136	2025	0.00	
+Frosinone	136	2025	0.00	
+Padova	136	2025	0.00	
+Mantova	136	2025	0.00	
+Venezia	136	2025	0.00	
+Catanzaro	136	2025	0.00	
+Reggiana	136	2025	0.00	
+Cesena	136	2025	0.00	
+Bari	136	2025	0.00	
+Juve Stabia	136	2025	0.00	
+FC Luzern	207	2025	0.00	
+FC Lugano	207	2025	0.00	
+FC Winterthur	207	2025	0.00	
+FC ST. Gallen	207	2025	0.00	
+BSC Young Boys	207	2025	0.00	
+Lausanne	207	2025	0.00	
+Başakşehir	203	2025	0.00	
+Fatih Karagümrük	203	2025	0.00	
+Galatasaray	203	2025	0.00	
+Gazişehir Gaziantep	203	2025	0.00	
+Almeria	141	2025	0.00	
+Deportivo La Coruna	141	2025	0.00	
+Necaxa	262	2025	0.00	
+Atlas	262	2025	0.00	
+Guadalajara Chivas	262	2025	0.00	
+Club Queretaro	262	2025	0.00	
+Mazatlán	262	2025	0.00	
+Monterrey	262	2025	0.00	
+GIL Vicente	94	2025	0.00	
+Nacional	94	2025	0.00	
+Alverca	94	2025	0.00	
+Moreirense	94	2025	0.00	
+AVS	94	2025	0.00	
+Arouca	94	2025	0.00	
+Rio Ave	94	2025	0.00	
+Benfica	94	2025	0.00	
+Farense	95	2025	0.00	
+Oliveirense	95	2025	0.00	
+Morton	181	2025	0.00	
+Stranraer	181	2025	0.00	
+Queen's Park	181	2025	0.00	
+Heart Of Midlothian	181	2025	0.00	
+Falkirk	181	2025	0.00	
+Udinese	135	2025	0.00	
+Inter	135	2025	0.00	
+Napoli	135	2025	0.00	
+Sassuolo	135	2025	0.00	
+Cagliari	135	2025	0.00	
+Juventus	135	2025	0.00	
+Avellino	136	2025	0.00	
+Carrarese	136	2025	0.00	
+Empoli	136	2025	0.00	
+Sudtirol	136	2025	0.00	
+Monza	136	2025	0.00	
+Frosinone	136	2025	0.00	
+Padova	136	2025	0.00	
+Mantova	136	2025	0.00	
+Venezia	136	2025	0.00	
+Catanzaro	136	2025	0.00	
+Reggiana	136	2025	0.00	
+Cesena	136	2025	0.00	
+Bari	136	2025	0.00	
+Juve Stabia	136	2025	0.00	
+FC Luzern	207	2025	0.00	
+FC Lugano	207	2025	0.00	
+FC Winterthur	207	2025	0.00	
+FC ST. Gallen	207	2025	0.00	
+BSC Young Boys	207	2025	0.00	
+Lausanne	207	2025	0.00	
+Başakşehir	203	2025	0.00	
+Fatih Karagümrük	203	2025	0.00	
+Galatasaray	203	2025	0.00	
+Gazişehir Gaziantep	203	2025	0.00	
+Marseille	61	2025	0.00	
+Estac Troyes	62	2025	0.00	
+Reims	62	2025	0.00	
+Grenoble	62	2025	0.00	
+RED Star FC 93	62	2025	0.00	
+Saint Etienne	62	2025	0.00	
+Clermont Foot	62	2025	0.00	
+Manchester United	39	2025	0.00	
+Manchester City	39	2025	0.00	
+Chelsea	39	2025	0.00	
+Brentford	39	2025	0.00	
+Leeds	39	2025	0.00	
+Fulham	39	2025	0.00	
+Liverpool	39	2025	0.00	
+Burnley	39	2025	0.00	
+Sunderland	39	2025	0.00	
+Crystal Palace	39	2025	0.00	
+Tottenham	39	2025	0.00	
+West Ham	39	2025	0.00	
+Nottingham Forest	39	2025	0.00	
+Arsenal	39	2025	0.00	
+Zulte Waregem	144	2025	0.00	
+Genk	144	2025	0.00	
+KVC Westerlo	144	2025	0.00	
+Cercle Brugge	144	2025	0.00	
+Union St. Gilloise	144	2025	0.00	
+KV Mechelen	144	2025	0.00	
+Al-Fayha	307	2025	0.00	
+Damac	307	2025	0.00	
+Al Kholood	307	2025	0.00	
+Al-Ahli Jeddah	307	2025	0.00	
+Al-Nassr	307	2025	0.00	
+Al Shabab	307	2025	0.00	
+Dunfermline	181	2025	0.00	
+Hibernian	181	2025	0.00	
+Airdrie United	181	2025	0.00	
+Arbroath	181	2025	0.00	
+Camelon Juniors	181	2025	0.00	
+Elgin City	181	2025	0.00	
+Dundee Utd	181	2025	0.00	
+Ayr Utd	181	2025	0.00	
+Necaxa	262	2025	0.00	
+Atlas	262	2025	0.00	
+Guadalajara Chivas	262	2025	0.00	
+Club Queretaro	262	2025	0.00	
+Mazatlán	262	2025	0.00	
+Monterrey	262	2025	0.00	
+GIL Vicente	94	2025	0.00	
+Nacional	94	2025	0.00	
+Alverca	94	2025	0.00	
+Moreirense	94	2025	0.00	
+AVS	94	2025	0.00	
+Arouca	94	2025	0.00	
+Rio Ave	94	2025	0.00	
+Benfica	94	2025	0.00	
+Farense	95	2025	0.00	
+Oliveirense	95	2025	0.00	
+River Plate	128	2025	0.00	
+Gimnasia L.P.	128	2025	0.00	
+Santa Fe	239	2025	0.00	
+Deportivo Pereira	239	2025	0.00	
+Chapecoense-sc	71	2025	0.00	
+Santos	71	2025	0.00	
+Corinthians	71	2025	0.00	
+Bahia	71	2025	0.00	
+Chapecoense-sc	71	2025	0.38	bahia,internacional,botafogo,palmeiras,sport recife
+2 de Mayo	250	2025	0.00	
+Olimpia	250	2025	0.00	
+Chapecoense-sc	71	2025	0.38	bahia,internacional,botafogo,palmeiras,sport recife
+Al Najma	307	2025	0.00	
+Al Riyadh	307	2025	0.00	
+Al-Ahli Jeddah	307	2025	0.00	
+Al-Ettifaq	307	2025	0.00	
+Al-Fayha	307	2025	0.00	
+Al Khaleej Saihat	307	2025	0.00	
+Ajax	2	2025	0.00	
+Olympiakos Piraeus	2	2025	0.00	
+Arsenal	2	2025	0.00	
+Kairat Almaty	2	2025	0.00	
+Athletic Club	2	2025	0.00	
+Sporting CP	2	2025	0.00	
+Atletico Madrid	2	2025	0.00	
+Bodo/Glimt	2	2025	0.00	
+Barcelona	2	2025	0.00	
+FC Copenhagen	2	2025	0.00	
+Bayer Leverkusen	2	2025	0.00	
+Villarreal	2	2025	0.00	
+Benfica	2	2025	0.00	
+Real Madrid	2	2025	0.00	
+Borussia Dortmund	2	2025	0.00	
+Inter	2	2025	0.00	
+Club Brugge KV	2	2025	0.00	
+Marseille	2	2025	0.00	
+Eintracht Frankfurt	2	2025	0.00	
+Tottenham	2	2025	0.00	
+Liverpool	2	2025	0.00	
+Chapecoense-sc	71	2025	0.38	bahia,internacional,botafogo,palmeiras,sport recife
