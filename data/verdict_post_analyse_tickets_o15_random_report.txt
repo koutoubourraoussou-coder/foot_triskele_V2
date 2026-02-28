@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-02-27
+Date run       : 2026-02-28
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (73 ids)
+Whitelist      : ON (77 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 4
+Ignorés (date>=today)    : 14
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -601,9 +601,18 @@ Ignorés (date>=today)    : 4
    ❌ Leg 3) 20:00 | saudi arabia | Al Riyadh vs Al-Ahli Jeddah | Over 1.5 (FT) | [EXPLOSION] | odd=1.18
    ✅ Leg 4) 20:00 | saudi arabia | Al-Fateh vs Damac | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Vendredi 2026-02-27 18:00→20:50 | code=A2 | odd=2.53
+   id=2026-02-27_1800_e4cee43984_O15R
+   legs=4 | WIN=4 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 18:00 | super lig | Başakşehir vs Konyaspor | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+   ✅ Leg 2) 18:00 | super lig | Trabzonspor vs Fatih Karagümrük | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ✅ Leg 3) 18:30 | 2. bundesliga | Fortuna Düsseldorf vs VfL Bochum | Over 1.5 (FT) | [TRÈS FORT] | odd=1.28
+   ✅ Leg 4) 19:00 | serie b | Monza vs Virtus Entella | Over 1.5 (FT) | [TRÈS FORT] | odd=1.35
+
 ====================================================================
-TOTAL tickets : 72
-✅ WIN     : 31
+TOTAL tickets : 73
+✅ WIN     : 32
 ❌ LOSS    : 39
 ⏳ PENDING : 2
 ====================================================================
