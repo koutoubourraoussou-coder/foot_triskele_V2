@@ -1,23 +1,23 @@
 import streamlit as st
 import pandas as pd
-import subprocess
 import os
 import re
-import sys
 import inspect
 from pathlib import Path
 from datetime import date, timedelta, datetime
+from zoneinfo import ZoneInfo
 
 # Racine du projet: remonte de tools/audit -> projet
 ROOT = Path(__file__).resolve().parents[2]
 ARCHIVE_DIR = ROOT / "archive"
-APP_VERSION = "BUILD_2026_02_27_V1"
+APP_VERSION = "BUILD_2026_03_01_V1"
+
+TZ = ZoneInfo("Europe/Paris")
 
 st.set_page_config(page_title="⚡️🤖 Machine TreeSkale", page_icon="⚡️", layout="wide")
 
 st.title("⚡️ Machine TreeSkale")
-st.markdown("Interface pour générer et consulter les tickets (System & Random) avec statut ✅/❌/⏳ quand dispo.")
-
+st.markdown("Interface pour consulter les tickets (System & Random) avec statut ✅/❌/⏳ quand dispo. (Génération via GitHub Actions RunMachine.)")
 
 # -----------------------------
 # Helpers: archives / périodes
@@ -36,7 +36,7 @@ def list_analyse_dirs() -> list[tuple[date, Path]]:
     """Liste tous les dossiers archive/analyse_YYYY-MM-DD triés par date (desc)."""
     if not ARCHIVE_DIR.exists():
         return []
-    out = []
+    out: list[tuple[date, Path]] = []
     for d in ARCHIVE_DIR.iterdir():
         if not d.is_dir():
             continue
@@ -54,7 +54,8 @@ def latest_analyse_dir() -> Path | None:
 
 def compute_period_range(label: str) -> tuple[date | None, date | None]:
     """Retourne (start, end) inclusifs. None/None => all time."""
-    today = date.today()
+    today = datetime.now(TZ).date()
+
     if label == "Veille":
         y = today - timedelta(days=1)
         return y, y
@@ -64,6 +65,7 @@ def compute_period_range(label: str) -> tuple[date | None, date | None]:
         return today - timedelta(days=29), today
     if label == "All time":
         return None, None
+
     return None, None
 
 
@@ -83,11 +85,23 @@ def style_status_cell(val):
     return ""
 
 
+def style_df_status(df: pd.DataFrame):
+    if df.empty or "Statut" not in df.columns:
+        return df.style
+    return df.style.applymap(style_status_cell, subset=["Statut"])
+
+
+def _count_status(df: pd.DataFrame, s: str) -> int:
+    if df.empty or "Statut" not in df.columns:
+        return 0
+    return int((df["Statut"] == s).sum())
+
+
 # -----------------------------
 # Parsing tickets (reports)
 # -----------------------------
 def parse_tickets_to_play(filepath: Path | str, fallback_day: date | None = None):
-    """Parse un fichier de tickets générés (tickets_report.txt / tickets_o15_random_report.txt)."""
+    """Parse un fichier de tickets générés (tickets_report*.txt / tickets_o15_random_report*.txt)."""
     filepath = Path(filepath)
     if not filepath.exists():
         return None
@@ -116,16 +130,21 @@ def parse_tickets_to_play(filepath: Path | str, fallback_day: date | None = None
         if day_val is None and fallback_day is not None:
             day_val = fallback_day
 
+        try:
+            cote_val = float(match.group(4))
+        except Exception:
+            cote_val = None
+
         data.append({
             "Jour": day_val,
             "Ticket": match.group(1),
             "Type": match.group(2),
             "Id": ticket_id,
-            "Cote": float(match.group(4)),
+            "Cote": cote_val,
             "Fenêtre de jeu": match.group(5).strip(),
             "Nb Matchs": nb_matches,
             "Détail": matches_text,
-            "Source": str(filepath)
+            "Source": str(filepath),
         })
 
     if data:
@@ -138,7 +157,7 @@ def load_tickets_dataset(report_filename: str, period_start: date | None, period
     """
     Charge les tickets depuis (dans cet ordre) :
     1) archive/analyse_YYYY-MM-DD/<report_filename>
-    2) ROOT/data/<report_filename>                 ✅ Streamlit Cloud (ton cas)
+    2) ROOT/data/<report_filename>
     3) ROOT/<report_filename>
 
     Filtre ensuite par Jour si possible.
@@ -154,7 +173,7 @@ def load_tickets_dataset(report_filename: str, period_start: date | None, period
         if df is not None and not df.empty:
             frames.append(df)
 
-    # 2) data/ (important pour Streamlit Cloud)
+    # 2) data/
     data_file = ROOT / "data" / report_filename
     if data_file.exists():
         df_data = parse_tickets_to_play(data_file, fallback_day=None)
@@ -270,6 +289,7 @@ def attach_verdict(df_tickets: pd.DataFrame, df_verdict: pd.DataFrame) -> pd.Dat
     """Merge tickets + verdict sur Id."""
     if df_tickets.empty:
         return df_tickets
+
     if df_verdict.empty:
         df = df_tickets.copy()
         df["Statut"] = None
@@ -289,7 +309,7 @@ def attach_verdict(df_tickets: pd.DataFrame, df_verdict: pd.DataFrame) -> pd.Dat
 # -----------------------------
 # Sidebar (contrôles)
 # -----------------------------
-st.sidebar.header("⚙️ Lancer la Machine")
+st.sidebar.header("⚙️ Machine (Affichage)")
 
 st.sidebar.markdown("### Période d'affichage")
 period_label = st.sidebar.selectbox(
@@ -299,39 +319,24 @@ period_label = st.sidebar.selectbox(
 )
 period_start, period_end = compute_period_range(period_label)
 
-st.sidebar.divider()
-st.sidebar.markdown("### Génération des Tickets")
-st.sidebar.info("Exécute run_machine.py pour récupérer les données API, faire les prédictions et construire les tickets.")
+today_paris = datetime.now(TZ).date()
+st.sidebar.caption(f"Aujourd'hui (Paris) : {today_paris.isoformat()}")
+if period_start and period_end:
+    st.sidebar.caption(f"Période : {period_start.isoformat()} → {period_end.isoformat()}")
+else:
+    st.sidebar.caption("Période : All time")
 
-if st.sidebar.button("🚀 Lancer Run Machine", type="primary", use_container_width=True):
-    with st.spinner("Exécution de run_machine.py en cours (ça peut prendre un moment)..."):
-        try:
-            result = subprocess.run(
-                [sys.executable, str(ROOT / "run_machine.py")],
-                capture_output=True,
-                text=True,
-                cwd=str(ROOT)
-            )
-            if result.returncode == 0:
-                st.sidebar.success("Tickets générés avec succès ! ✅")
-                st.rerun()
-            else:
-                st.sidebar.error("Erreur lors de l'exécution (stderr) :")
-                st.sidebar.code(result.stderr or "(stderr vide)")
-                st.sidebar.info("stdout :")
-                st.sidebar.code(result.stdout or "(stdout vide)")
-        except Exception as e:
-            st.sidebar.error(f"Erreur système: {e}")
+st.sidebar.divider()
+st.sidebar.markdown("### Génération des tickets")
+st.sidebar.info("Les tickets sont générés via GitHub Actions (workflow RunMachine). Ici : consultation uniquement.")
 
 st.sidebar.divider()
 st.sidebar.caption("Dossier actuel (Streamlit) : " + os.getcwd())
 st.sidebar.caption(f"ROOT: {ROOT}")
 st.sidebar.caption(f"ARCHIVE_DIR exists: {ARCHIVE_DIR.exists()}")
 st.sidebar.caption(f"Dernière archive: {latest_analyse_dir() or '—'}")
-
 st.sidebar.caption(f"App file: {__file__}")
 st.sidebar.caption(f"Version: {APP_VERSION}")
-
 st.sidebar.caption(f"collect_verdict_mapping signature: {inspect.signature(collect_verdict_mapping)}")
 
 # --- DIAG fichiers (pour voir exactement pourquoi "rien n'est trouvé")
@@ -339,8 +344,8 @@ with st.sidebar.expander("🧩 DIAG fichiers (existence)"):
     analyse = latest_analyse_dir()
     st.write(f"Latest analyse dir: {analyse or '—'}")
     candidates_to_check = [
-        "tickets_report.txt",
-        "tickets_o15_random_report.txt",
+        "tickets_report_global.txt",
+        "tickets_o15_random_report_global.txt",
         "verdict_post_analyse_tickets_report.txt",
         "verdict_post_analyse_tickets_o15_random_report.txt",
     ]
@@ -363,8 +368,12 @@ tab1, tab2 = st.tabs(["🎯 Tickets", "📄 Fichiers Bruts"])
 with tab1:
     st.header(f"Tickets — {period_label}")
 
-    if st.button("🔄 Rafraîchir l'affichage"):
-        st.rerun()
+    col_refresh, col_hint = st.columns([1, 3])
+    with col_refresh:
+        if st.button("🔄 Rafraîchir"):
+            st.rerun()
+    with col_hint:
+        st.caption("Astuce : sur Streamlit Cloud, un *Restart* peut être nécessaire après un pull / déploiement.")
 
     st.divider()
 
@@ -379,6 +388,15 @@ with tab1:
     df_sys = attach_verdict(df_sys, df_verdict_sys)
     df_rand = attach_verdict(df_rand, df_verdict_rand)
 
+    # KPIs simples
+    k1, k2, k3, k4 = st.columns(4)
+    k1.metric("Tickets Système", 0 if df_sys.empty else len(df_sys))
+    k2.metric("✅", _count_status(df_sys, "✅"))
+    k3.metric("❌", _count_status(df_sys, "❌"))
+    k4.metric("⏳", _count_status(df_sys, "⏳"))
+
+    st.divider()
+
     col1, col2 = st.columns(2)
 
     with col1:
@@ -386,15 +404,28 @@ with tab1:
 
         if not df_sys.empty:
             show_cols = ["Statut", "Jour", "Ticket", "Cote", "Fenêtre de jeu", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
-            st.dataframe(df_sys[show_cols], use_container_width=True, hide_index=True)
+            st.dataframe(
+                style_df_status(df_sys[show_cols]),
+                use_container_width=True,
+                hide_index=True,
+            )
 
             with st.expander("Voir le détail des matchs (Système)"):
                 for _, row in df_sys.iterrows():
                     jour_str = row["Jour"].isoformat() if pd.notna(row["Jour"]) else "—"
                     status = row["Statut"] if pd.notna(row["Statut"]) else "—"
-                    st.markdown(f"**{status} {row['Ticket']} — {jour_str} (Cote: {row['Cote']})**")
-                    st.caption(f"id={row['Id']} | fenêtre={row['Fenêtre de jeu']} | legs: W={row.get('Legs WIN')} L={row.get('Legs LOSS')} P={row.get('Legs PENDING')}")
-                    st.code(row["Détail"], language="text")
+                    cote = row["Cote"] if pd.notna(row["Cote"]) else "—"
+
+                    st.markdown(f"**{status} {row['Ticket']} — {jour_str} (Cote: {cote})**")
+                    st.caption(
+                        f"id={row['Id']} | fenêtre={row['Fenêtre de jeu']} | "
+                        f"legs: W={row.get('Legs WIN')} L={row.get('Legs LOSS')} P={row.get('Legs PENDING')}"
+                    )
+
+                    # Affichage plus lisible que st.code sur mobile
+                    lines = [l.strip() for l in str(row["Détail"]).splitlines() if l.strip()]
+                    for l in lines:
+                        st.write("• " + l)
                     st.divider()
         else:
             st.warning("Aucun ticket système trouvé sur cette période.")
@@ -404,15 +435,27 @@ with tab1:
 
         if not df_rand.empty:
             show_cols = ["Statut", "Jour", "Ticket", "Cote", "Fenêtre de jeu", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
-            st.dataframe(df_rand[show_cols], use_container_width=True, hide_index=True)
+            st.dataframe(
+                style_df_status(df_rand[show_cols]),
+                use_container_width=True,
+                hide_index=True,
+            )
 
             with st.expander("Voir le détail des matchs (Random)"):
                 for _, row in df_rand.iterrows():
                     jour_str = row["Jour"].isoformat() if pd.notna(row["Jour"]) else "—"
                     status = row["Statut"] if pd.notna(row["Statut"]) else "—"
-                    st.markdown(f"**{status} {row['Ticket']} — {jour_str} (Cote: {row['Cote']})**")
-                    st.caption(f"id={row['Id']} | fenêtre={row['Fenêtre de jeu']} | legs: W={row.get('Legs WIN')} L={row.get('Legs LOSS')} P={row.get('Legs PENDING')}")
-                    st.code(row["Détail"], language="text")
+                    cote = row["Cote"] if pd.notna(row["Cote"]) else "—"
+
+                    st.markdown(f"**{status} {row['Ticket']} — {jour_str} (Cote: {cote})**")
+                    st.caption(
+                        f"id={row['Id']} | fenêtre={row['Fenêtre de jeu']} | "
+                        f"legs: W={row.get('Legs WIN')} L={row.get('Legs LOSS')} P={row.get('Legs PENDING')}"
+                    )
+
+                    lines = [l.strip() for l in str(row["Détail"]).splitlines() if l.strip()]
+                    for l in lines:
+                        st.write("• " + l)
                     st.divider()
         else:
             st.warning("Aucun ticket O1.5 Random trouvé sur cette période.")
@@ -424,6 +467,8 @@ with tab2:
     report_type = st.selectbox(
         "Choisir le fichier texte à inspecter :",
         [
+            "tickets_report_global.txt",
+            "tickets_o15_random_report_global.txt",
             "tickets_report.txt",
             "tickets_o15_random_report.txt",
             "verdict_post_analyse_tickets_report.txt",

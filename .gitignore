@@ -4,7 +4,6 @@ venv/
 __pycache__/
 
 # Dossiers de données générées
-data/
 archive/
 
 # MacOS
