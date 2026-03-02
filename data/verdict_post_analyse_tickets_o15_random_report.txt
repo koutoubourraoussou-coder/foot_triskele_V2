@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-03-01
+Date run       : 2026-03-02
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
 Whitelist      : ON (81 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 13
+Ignorés (date>=today)    : 0
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -644,10 +644,43 @@ Ignorés (date>=today)    : 13
    ✅ Leg 3) 20:30 | mls | Chicago Fire vs CF Montreal | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.17
    ❌ Leg 4) 20:30 | super league switzerland | Servette FC vs FC Sion | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Dimanche 2026-03-01 01:30→04:20 | code=A2 | odd=2.31
+   id=2026-03-01_0130_010426daee_O15R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 01:30 | mls | Real Salt Lake vs Seattle Sounders | Over 1.5 (FT) | [TRÈS FORT] | odd=1.28
+   ❌ Leg 2) 02:30 | mls | FC Dallas vs Nashville SC | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+   ✅ Leg 3) 02:30 | primera a colombia | Independiente Medellin vs Bucaramanga | Over 1.5 (FT) | [MOYEN] | odd=1.48
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Dimanche 2026-03-01 12:15→15:20 | code=A2 | odd=2.34
+   id=2026-03-01_1215_3a8989ac8f_O15R
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 12:15 | eredivisie | PEC Zwolle vs Ajax | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.17
+   ✅ Leg 2) 12:30 | serie a italia | Cremonese vs AC Milan | Over 1.5 (FT) | [TRÈS FORT] | odd=1.28
+   ✅ Leg 3) 13:00 | premiership | Rangers vs Celtic | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+   ✅ Leg 4) 13:30 | 2. bundesliga | Eintracht Braunschweig vs Preußen Münster | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 3 | Dimanche 2026-03-01 16:15→18:35 | code=A2 | odd=2.22
+   id=2026-03-01_1615_af4dc3f16a_O15R
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 16:15 | laliga | Valencia vs Osasuna | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.42
+   ❌ Leg 2) 16:30 | super league switzerland | Grasshoppers vs FC Lugano | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+   ✅ Leg 3) 16:45 | eredivisie | Utrecht vs AZ Alkmaar | Over 1.5 (FT) | [TRÈS FORT] | odd=1.25
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 4 | Dimanche 2026-03-01 20:00→22:50 | code=A2 | odd=2.25
+   id=2026-03-01_2000_21b0d0d782_O15R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 20:00 | eredivisie | Excelsior vs GO Ahead Eagles | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+   ✅ Leg 2) 20:45 | serie a italia | AS Roma vs Juventus | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.42
+   ✅ Leg 3) 21:00 | laliga | Girona vs Celta Vigo | Over 1.5 (FT) | [TRÈS FORT] | odd=1.3
+
 ====================================================================
-TOTAL tickets : 77
+TOTAL tickets : 81
 ✅ WIN     : 32
-❌ LOSS    : 43
+❌ LOSS    : 47
 ⏳ PENDING : 2
 ====================================================================
 

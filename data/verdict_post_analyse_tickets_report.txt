@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-03-01
+Date run       : 2026-03-02
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (76 ids)
+Whitelist      : ON (77 ids)
 Ignorés (hors whitelist) : 16
-Ignorés (date>=today)    : 13
+Ignorés (date>=today)    : 4
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -565,10 +565,43 @@ Ignorés (date>=today)    : 13
    ✅ Leg 2) 20:00 | saudi arabia | Al-Fayha vs Al-Nassr | Over 1.5 (FT) | [TRÈS FORT] | odd=1.17
    ❌ Leg 3) 20:30 | mls | New York Red Bulls vs New England Revolution | HT+0.5 | [TRÈS FORT] | odd=1.33
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Dimanche 2026-03-01 02:05→04:20 | code=A2 | odd=2.24
+   id=2026-03-01_0205_b1f0c9e751_SYS
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 02:05 | liga mx | Monterrey vs Cruz Azul | HT+0.5 | [EXPLOSION] | odd=1.35
+   ✅ Leg 2) 02:06 | liga mx | Leon vs Necaxa | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+   ❌ Leg 3) 02:30 | mls | FC Dallas vs Nashville SC | HT+0.5 | [MEGA EXPLOSION] | odd=1.33
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Dimanche 2026-03-01 12:15→15:20 | code=A2 | odd=2.39
+   id=2026-03-01_1215_e363ab1cb6_SYS
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 12:15 | eredivisie | PEC Zwolle vs Ajax | HT+0.5 | [TRÈS FORT] | odd=1.25
+   ✅ Leg 2) 13:00 | premiership | Rangers vs Celtic | HT+0.5 | [MEGA EXPLOSION] | odd=1.33
+   ✅ Leg 3) 13:30 | 2. bundesliga | 1. FC Magdeburg vs Karlsruher SC | HT+0.5 | [MEGA EXPLOSION] | odd=1.22
+   ✅ Leg 4) 13:30 | pro league | Genk vs Gent | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 3 | Dimanche 2026-03-01 16:00→19:20 | code=A2 | odd=2.24
+   id=2026-03-01_1600_68ac1378ee_SYS
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 16:00 | pro league | KVC Westerlo vs Union St. Gilloise | HT+0.5 | [TRÈS FORT] | odd=1.33
+   ❌ Leg 2) 16:15 | laliga2 | Mirandes vs AD Ceuta FC | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.38
+   ✅ Leg 3) 17:30 | premier league | Arsenal vs Chelsea | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 4 | Dimanche 2026-03-01 20:00→22:50 | code=A2 | odd=2.3
+   id=2026-03-01_2000_80cc1ad90e_SYS
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 20:00 | eredivisie | Excelsior vs GO Ahead Eagles | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+   ✅ Leg 2) 20:00 | primera a colombia | Deportivo Pasto vs Cucuta | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.45
+   ✅ Leg 3) 21:00 | laliga | Girona vs Celta Vigo | Over 1.5 (FT) | [TRÈS FORT] | odd=1.3
+
 ====================================================================
-TOTAL tickets : 67
+TOTAL tickets : 71
 ✅ WIN     : 24
-❌ LOSS    : 42
+❌ LOSS    : 46
 ⏳ PENDING : 1
 ====================================================================
 

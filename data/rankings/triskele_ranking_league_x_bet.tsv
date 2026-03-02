@@ -1,5 +1,4 @@
 # league	bet_key	samples	success	fail	success_rate
-mls	TEAM1_SCORE_FT	19	19	0	1.000000
 taça de portugal	TEAM1_SCORE_FT	5	5	0	1.000000
 taça de portugal	HT05	5	5	0	1.000000
 taça de portugal	HT1X_HOME	5	5	0	1.000000
@@ -13,86 +12,86 @@ taça da liga	O15_FT	2	2	0	1.000000
 taça da liga	TEAM1_SCORE_FT	2	2	0	1.000000
 taça da liga	TEAM2_SCORE_FT	2	2	0	1.000000
 taça da liga	HT05	2	2	0	1.000000
+mls	TEAM1_SCORE_FT	28	26	2	0.928571
 scottish cup	TEAM1_SCORE_FT	22	20	2	0.909091
 uefa champions league	O15_FT	52	47	5	0.903846
-liga pro ecuador	TEAM1_SCORE_FT	10	9	1	0.900000
-mls	HT1X_HOME	19	17	2	0.894737
-eredivisie	TEAM1_SCORE_FT	64	57	7	0.890625
-super league switzerland	O15_FT	44	39	5	0.886364
-super league switzerland	TEAM1_SCORE_FT	44	39	5	0.886364
-superligaen	TEAM2_SCORE_FT	34	30	4	0.882353
-bundesliga	TEAM1_SCORE_FT	75	66	9	0.880000
+super league switzerland	TEAM1_SCORE_FT	47	42	5	0.893617
+superligaen	TEAM2_SCORE_FT	36	32	4	0.888889
+bundesliga	TEAM1_SCORE_FT	78	69	9	0.884615
 belgian cup	HT05	8	7	1	0.875000
+super league switzerland	O15_FT	47	41	6	0.872340
+eredivisie	TEAM1_SCORE_FT	69	60	9	0.869565
 uefa champions league	TEAM1_SCORE_FT	52	45	7	0.865385
 scottish cup	O15_FT	22	19	3	0.863636
-eredivisie	O15_FT	64	55	9	0.859375
-laliga	O15_FT	78	67	11	0.858974
+bundesliga	O15_FT	78	67	11	0.858974
+mls	HT1X_HOME	28	24	4	0.857143
 copa del rey	O15_FT	14	12	2	0.857143
 copa del rey	TEAM2_SCORE_FT	14	12	2	0.857143
-bundesliga	O15_FT	75	64	11	0.853333
+laliga	O15_FT	82	70	12	0.853659
 fa cup	TEAM2_SCORE_FT	47	40	7	0.851064
-laliga2	TEAM1_SCORE_FT	87	74	13	0.850575
-2. bundesliga	O15_FT	57	48	9	0.842105
-primera división paraguay	HT1X_HOME	30	25	5	0.833333
+2. bundesliga	O15_FT	60	51	9	0.850000
+primera división paraguay	HT1X_HOME	33	28	5	0.848485
+eredivisie	O15_FT	69	58	11	0.840580
+laliga2	TEAM1_SCORE_FT	91	76	15	0.835165
+2. bundesliga	TEAM1_SCORE_FT	60	50	10	0.833333
 coupe de france	O15_FT	24	20	4	0.833333
 uefa champions league	HT1X_HOME	52	43	9	0.826923
-2. bundesliga	TEAM1_SCORE_FT	57	47	10	0.824561
-primera a colombia	HT1X_HOME	57	47	10	0.824561
-liga portugal 2	HT1X_HOME	68	56	12	0.823529
-laliga	TEAM2_SCORE_FT	78	64	14	0.820513
-liga portugal	TEAM1_SCORE_FT	66	54	12	0.818182
-super league switzerland	TEAM2_SCORE_FT	44	36	8	0.818182
+super lig	HT1X_HOME	56	46	10	0.821429
+bundesliga	HT1X_HOME	78	64	14	0.820513
+primera a colombia	HT1X_HOME	61	50	11	0.819672
+liga portugal 2	HT1X_HOME	72	59	13	0.819444
 scottish cup	HT1X_HOME	22	18	4	0.818182
-bundesliga	HT1X_HOME	75	61	14	0.813333
-eredivisie	TEAM2_SCORE_FT	64	52	12	0.812500
-pro league	O15_FT	48	39	9	0.812500
-super lig	O15_FT	53	43	10	0.811321
-super lig	HT1X_HOME	53	43	10	0.811321
+laliga	TEAM2_SCORE_FT	82	67	15	0.817073
+laliga	HT1X_HOME	82	67	15	0.817073
+premier league	O15_FT	91	74	17	0.813187
+liga portugal	TEAM1_SCORE_FT	69	56	13	0.811594
 fa cup	O15_FT	47	38	9	0.808511
 fa cup	HT05	47	38	9	0.808511
-laliga	HT1X_HOME	78	63	15	0.807692
-premier league	O15_FT	87	70	17	0.804598
-laliga2	HT1X_HOME	87	70	17	0.804598
-liga portugal	O15_FT	66	53	13	0.803030
-liga profesional argentina	HT1X_HOME	86	69	17	0.802326
-liga pro ecuador	HT1X_HOME	10	8	2	0.800000
+superligaen	TEAM1_SCORE_FT	36	29	7	0.805556
+laliga	TEAM1_SCORE_FT	82	66	16	0.804878
+laliga2	HT1X_HOME	91	73	18	0.802198
+2. bundesliga	TEAM2_SCORE_FT	60	48	12	0.800000
 taça de portugal	O15_FT	5	4	1	0.800000
 taça de portugal	TEAM2_SCORE_FT	5	4	1	0.800000
+liga portugal	O15_FT	69	55	14	0.797101
 ligue 2	HT1X_HOME	69	55	14	0.797101
-laliga	TEAM1_SCORE_FT	78	62	16	0.794872
-superligaen	TEAM1_SCORE_FT	34	27	7	0.794118
+premiership	TEAM1_SCORE_FT	54	43	11	0.796296
 serie a brazil	HT1X_HOME	34	27	7	0.794118
-premiership	TEAM1_SCORE_FT	53	42	11	0.792453
 saudi arabia	TEAM1_SCORE_FT	114	90	24	0.789474
-2. bundesliga	TEAM2_SCORE_FT	57	45	12	0.789474
-mls	O15_FT	19	15	4	0.789474
+liga profesional argentina	HT1X_HOME	90	71	19	0.788889
+pro league	O15_FT	52	41	11	0.788462
 fa cup	TEAM1_SCORE_FT	47	37	10	0.787234
-liga mx	HT1X_HOME	60	47	13	0.783333
+super league switzerland	TEAM2_SCORE_FT	47	37	10	0.787234
+super lig	O15_FT	56	44	12	0.785714
+mls	O15_FT	28	22	6	0.785714
+liga pro ecuador	TEAM1_SCORE_FT	14	11	3	0.785714
+liga pro ecuador	HT1X_HOME	14	11	3	0.785714
+serie b	TEAM1_SCORE_FT	88	69	19	0.784091
+eredivisie	TEAM2_SCORE_FT	69	54	15	0.782609
+eredivisie	HT1X_HOME	69	54	15	0.782609
 championship	O15_FT	128	100	28	0.781250
 saudi arabia	O15_FT	114	89	25	0.780702
-serie b	TEAM1_SCORE_FT	85	66	19	0.776471
-super lig	TEAM1_SCORE_FT	53	41	12	0.773585
-bundesliga	HT05	75	58	17	0.773333
-super league switzerland	HT05	44	34	10	0.772727
-primera a colombia	TEAM1_SCORE_FT	57	44	13	0.771930
-pro league	TEAM2_SCORE_FT	48	37	11	0.770833
-premier league	TEAM1_SCORE_FT	87	67	20	0.770115
+premier league	TEAM1_SCORE_FT	91	71	20	0.780220
+superligaen	O15_FT	36	28	8	0.777778
+primera a colombia	TEAM1_SCORE_FT	61	47	14	0.770492
+bundesliga	HT05	78	60	18	0.769231
 uefa europa league	TEAM1_SCORE_FT	52	40	12	0.769231
-liga mx	TEAM1_SCORE_FT	60	46	14	0.766667
-eredivisie	HT1X_HOME	64	49	15	0.765625
-superligaen	O15_FT	34	26	8	0.764706
-ligue 1	HT05	63	48	15	0.761905
-laliga2	O15_FT	87	66	21	0.758621
-premiership	O15_FT	53	40	13	0.754717
-premiership	HT05	53	40	13	0.754717
-premiership	HT1X_HOME	53	40	13	0.754717
-2. bundesliga	HT05	57	43	14	0.754386
-serie a italia	O15_FT	89	67	22	0.752809
-serie a italia	TEAM1_SCORE_FT	89	67	22	0.752809
-liga mx	HT05	60	45	15	0.750000
+super league switzerland	HT05	47	36	11	0.765957
+serie a italia	O15_FT	93	71	22	0.763441
+liga mx	TEAM1_SCORE_FT	63	48	15	0.761905
+liga mx	HT05	63	48	15	0.761905
+premiership	O15_FT	54	41	13	0.759259
+premiership	HT05	54	41	13	0.759259
+premiership	HT1X_HOME	54	41	13	0.759259
+laliga2	O15_FT	91	69	22	0.758242
+liga portugal	HT1X_HOME	69	52	17	0.753623
+serie a italia	TEAM1_SCORE_FT	93	70	23	0.752688
+serie b	O15_FT	88	66	22	0.750000
+serie b	HT1X_HOME	88	66	22	0.750000
+ligue 1	HT05	68	51	17	0.750000
+2. bundesliga	HT05	60	45	15	0.750000
+super lig	TEAM1_SCORE_FT	56	42	14	0.750000
 uefa europa league	HT05	52	39	13	0.750000
-pro league	HT05	48	36	12	0.750000
-super league switzerland	HT1X_HOME	44	33	11	0.750000
 coupe de france	HT05	24	18	6	0.750000
 league cup	O15_FT	4	3	1	0.750000
 league cup	TEAM1_SCORE_FT	4	3	1	0.750000
@@ -100,102 +99,103 @@ league cup	TEAM2_SCORE_FT	4	3	1	0.750000
 league cup	HT1X_HOME	4	3	1	0.750000
 dfb pokal	TEAM1_SCORE_FT	4	3	1	0.750000
 schweizer cup	HT1X_HOME	4	3	1	0.750000
-ligue 1	O15_FT	63	47	16	0.746032
-liga portugal	HT1X_HOME	66	49	17	0.742424
-serie b	O15_FT	85	63	22	0.741176
-serie b	HT1X_HOME	85	63	22	0.741176
-mls	HT05	19	14	5	0.736842
-super lig	TEAM2_SCORE_FT	53	39	14	0.735849
-premier league	TEAM2_SCORE_FT	87	64	23	0.735632
-liga portugal 2	TEAM1_SCORE_FT	68	50	18	0.735294
+premier league	TEAM2_SCORE_FT	91	68	23	0.747253
+liga mx	O15_FT	63	47	16	0.746032
+liga mx	HT1X_HOME	63	47	16	0.746032
+super league switzerland	HT1X_HOME	47	35	12	0.744681
+liga portugal 2	TEAM1_SCORE_FT	72	53	19	0.736111
+ligue 1	TEAM1_SCORE_FT	68	50	18	0.735294
 serie a brazil	TEAM1_SCORE_FT	34	25	9	0.735294
 championship	HT1X_HOME	128	94	34	0.734375
-eredivisie	HT05	64	47	17	0.734375
-bundesliga	TEAM2_SCORE_FT	75	55	20	0.733333
-liga mx	O15_FT	60	44	16	0.733333
+pro league	TEAM2_SCORE_FT	52	38	14	0.730769
+pro league	HT05	52	38	14	0.730769
 uefa champions league	TEAM2_SCORE_FT	52	38	14	0.730769
-ligue 1	TEAM1_SCORE_FT	63	46	17	0.730159
-czech first league	HT1X_HOME	37	27	10	0.729730
-serie b	HT05	85	62	23	0.729412
+serie b	HT05	88	64	24	0.727273
+premier league	HT05	91	66	25	0.725275
+czech first league	HT1X_HOME	40	29	11	0.725000
+eredivisie	HT05	69	50	19	0.724638
+cymru premier league	O15_FT	36	26	10	0.722222
+cymru premier league	TEAM2_SCORE_FT	36	26	10	0.722222
+primera a colombia	O15_FT	61	44	17	0.721311
+ligue 1	O15_FT	68	49	19	0.720588
+ligue 1	HT1X_HOME	68	49	19	0.720588
+serie a italia	HT1X_HOME	93	67	26	0.720430
 saudi arabia	HT05	114	82	32	0.719298
-primera a colombia	O15_FT	57	41	16	0.719298
 championship	TEAM1_SCORE_FT	128	92	36	0.718750
-ligue 1	HT1X_HOME	63	45	18	0.714286
-cymru premier league	O15_FT	35	25	10	0.714286
-cymru premier league	TEAM2_SCORE_FT	35	25	10	0.714286
-cymru premier league	HT1X_HOME	35	25	10	0.714286
+bundesliga	TEAM2_SCORE_FT	78	56	22	0.717949
+laliga2	TEAM2_SCORE_FT	91	65	26	0.714286
+super lig	TEAM2_SCORE_FT	56	40	16	0.714286
+mls	HT05	28	20	8	0.714286
 copa del rey	HT1X_HOME	14	10	4	0.714286
-premier league	HT05	87	62	25	0.712644
 uefa champions league	HT05	52	37	15	0.711538
 uefa europa league	TEAM2_SCORE_FT	52	37	15	0.711538
 saudi arabia	TEAM2_SCORE_FT	114	81	33	0.710526
-pro league	TEAM1_SCORE_FT	48	34	14	0.708333
 coupe de france	TEAM2_SCORE_FT	24	17	7	0.708333
-serie a italia	HT1X_HOME	89	63	26	0.707865
+premier league	HT1X_HOME	91	64	27	0.703297
 fa cup	HT1X_HOME	47	33	14	0.702128
 saudi arabia	HT1X_HOME	114	80	34	0.701754
-2. bundesliga	HT1X_HOME	57	40	17	0.701754
-premier league	HT1X_HOME	87	61	26	0.701149
-laliga2	TEAM2_SCORE_FT	87	61	26	0.701149
-liga pro ecuador	HT05	10	7	3	0.700000
-super lig	HT05	53	37	16	0.698113
+2. bundesliga	HT1X_HOME	60	42	18	0.700000
+liga mx	TEAM2_SCORE_FT	63	44	19	0.698413
 championship	TEAM2_SCORE_FT	128	89	39	0.695312
-laliga2	HT05	87	60	27	0.689655
-serie a italia	HT05	89	61	28	0.685393
-liga mx	TEAM2_SCORE_FT	60	41	19	0.683333
+cymru premier league	HT1X_HOME	36	25	11	0.694444
+laliga2	HT05	91	63	28	0.692308
+pro league	TEAM1_SCORE_FT	52	36	16	0.692308
+serie a italia	HT05	93	64	29	0.688172
+serie b	TEAM2_SCORE_FT	88	60	28	0.681818
 championship	HT05	128	87	41	0.679688
+super lig	HT05	56	38	18	0.678571
 serie a brazil	HT05	34	23	11	0.676471
-czech first league	TEAM1_SCORE_FT	37	25	12	0.675676
+czech first league	TEAM1_SCORE_FT	40	27	13	0.675000
 uefa europa league	O15_FT	52	35	17	0.673077
-serie b	TEAM2_SCORE_FT	85	57	28	0.670588
-liga portugal	HT05	66	44	22	0.666667
-serie a italia	TEAM2_SCORE_FT	89	59	30	0.662921
-liga profesional argentina	TEAM1_SCORE_FT	86	57	29	0.662791
-liga portugal 2	TEAM2_SCORE_FT	68	45	23	0.661765
+serie a italia	TEAM2_SCORE_FT	93	62	31	0.666667
+liga portugal 2	TEAM2_SCORE_FT	72	48	24	0.666667
+liga portugal	HT05	69	46	23	0.666667
+primera a colombia	TEAM2_SCORE_FT	61	40	21	0.655738
+liga profesional argentina	TEAM1_SCORE_FT	90	59	31	0.655556
+pro league	HT1X_HOME	52	34	18	0.653846
+liga portugal	TEAM2_SCORE_FT	69	45	24	0.652174
 ligue 2	TEAM2_SCORE_FT	69	45	24	0.652174
-liga portugal	TEAM2_SCORE_FT	66	43	23	0.651515
-primera a colombia	TEAM2_SCORE_FT	57	37	20	0.649123
-czech first league	O15_FT	37	24	13	0.648649
-superligaen	HT05	34	22	12	0.647059
+czech first league	O15_FT	40	26	14	0.650000
 serie a brazil	TEAM2_SCORE_FT	34	22	12	0.647059
+laliga	HT05	82	53	29	0.646341
 copa del rey	TEAM1_SCORE_FT	14	9	5	0.642857
 copa del rey	HT05	14	9	5	0.642857
-laliga	HT05	78	50	28	0.641026
+liga pro ecuador	O15_FT	14	9	5	0.642857
+liga pro ecuador	HT05	14	9	5	0.642857
+primera a colombia	HT05	61	39	22	0.639344
+liga portugal 2	O15_FT	72	46	26	0.638889
+cymru premier league	TEAM1_SCORE_FT	36	23	13	0.638889
+cymru premier league	HT05	36	23	13	0.638889
+superligaen	HT05	36	23	13	0.638889
 ligue 2	TEAM1_SCORE_FT	69	44	25	0.637681
 scottish cup	HT05	22	14	8	0.636364
-ligue 1	TEAM2_SCORE_FT	63	40	23	0.634921
-liga portugal 2	O15_FT	68	43	25	0.632353
-primera a colombia	HT05	57	36	21	0.631579
-cymru premier league	TEAM1_SCORE_FT	35	22	13	0.628571
-cymru premier league	HT05	35	22	13	0.628571
-pro league	HT1X_HOME	48	30	18	0.625000
+ligue 1	TEAM2_SCORE_FT	68	43	25	0.632353
+premiership	TEAM2_SCORE_FT	54	34	20	0.629630
 coupe de france	TEAM1_SCORE_FT	24	15	9	0.625000
 belgian cup	O15_FT	8	5	3	0.625000
 belgian cup	TEAM2_SCORE_FT	8	5	3	0.625000
 belgian cup	HT1X_HOME	8	5	3	0.625000
 ligue 2	O15_FT	69	43	26	0.623188
-premiership	TEAM2_SCORE_FT	53	33	20	0.622642
-superligaen	HT1X_HOME	34	21	13	0.617647
 uefa europa league	HT1X_HOME	52	32	20	0.615385
-primera división paraguay	TEAM2_SCORE_FT	30	18	12	0.600000
-liga pro ecuador	O15_FT	10	6	4	0.600000
+superligaen	HT1X_HOME	36	22	14	0.611111
+czech first league	HT05	40	24	16	0.600000
+liga portugal 2	HT05	72	43	29	0.597222
 scottish cup	TEAM2_SCORE_FT	22	13	9	0.590909
-liga portugal 2	HT05	68	40	28	0.588235
 serie a brazil	O15_FT	34	20	14	0.588235
 ligue 2	HT05	69	40	29	0.579710
-czech first league	HT05	37	21	16	0.567568
-liga profesional argentina	HT05	86	47	39	0.546512
+primera división paraguay	TEAM2_SCORE_FT	33	19	14	0.575758
+liga pro ecuador	TEAM2_SCORE_FT	14	8	6	0.571429
+liga profesional argentina	HT05	90	49	41	0.544444
 coupe de france	HT1X_HOME	24	13	11	0.541667
-primera división paraguay	HT05	30	15	15	0.500000
-liga pro ecuador	TEAM2_SCORE_FT	10	5	5	0.500000
+primera división paraguay	TEAM1_SCORE_FT	33	17	16	0.515152
+liga profesional argentina	O15_FT	90	45	45	0.500000
+liga profesional argentina	TEAM2_SCORE_FT	90	45	45	0.500000
 belgian cup	TEAM1_SCORE_FT	8	4	4	0.500000
 league cup	HT05	4	2	2	0.500000
 dfb pokal	TEAM2_SCORE_FT	4	2	2	0.500000
-liga profesional argentina	O15_FT	86	42	44	0.488372
-liga profesional argentina	TEAM2_SCORE_FT	86	42	44	0.488372
-primera división paraguay	O15_FT	30	14	16	0.466667
-primera división paraguay	TEAM1_SCORE_FT	30	14	16	0.466667
-czech first league	TEAM2_SCORE_FT	37	17	20	0.459459
-mls	TEAM2_SCORE_FT	19	8	11	0.421053
+primera división paraguay	O15_FT	33	15	18	0.454545
+primera división paraguay	HT05	33	15	18	0.454545
+czech first league	TEAM2_SCORE_FT	40	18	22	0.450000
+mls	TEAM2_SCORE_FT	28	12	16	0.428571
 dfb pokal	HT05	4	1	3	0.250000
 taça da liga	HT1X_HOME	2	0	2	0.000000
