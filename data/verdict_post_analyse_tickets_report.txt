@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-03-02
+Date run       : 2026-03-03
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (77 ids)
+Whitelist      : ON (78 ids)
 Ignorés (hors whitelist) : 16
-Ignorés (date>=today)    : 4
+Ignorés (date>=today)    : 3
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -598,10 +598,19 @@ Ignorés (date>=today)    : 4
    ✅ Leg 2) 20:45 | ligue 1 | Marseille vs Lyon | Over 1.5 (FT) | [FORT PLUS] | odd=1.25
    ✅ Leg 3) 21:00 | laliga | Girona vs Celta Vigo | HT 1X Home | [TRÈS FORT] | odd=1.25
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Lundi 2026-03-02 01:00→21:50 | code=A2 | odd=2.57
+   id=2026-03-02_0100_0621ac0c06_SYS
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 01:00 | mls | Orlando City SC vs Inter Miami | HT+0.5 | [MEGA EXPLOSION] | odd=1.22
+   ✅ Leg 2) 03:15 | mls | San Diego vs St. Louis City | HT+0.5 | [MEGA EXPLOSION] | odd=1.25
+   ✅ Leg 3) 19:00 | liga portugal 2 | Feirense vs Felgueiras 1932 | HT 1X Home | [TRÈS FORT] | odd=1.22
+   ❌ Leg 4) 20:00 | laliga2 | Sporting Gijon vs Leganes | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.38
+
 ====================================================================
-TOTAL tickets : 71
+TOTAL tickets : 72
 ✅ WIN     : 26
-❌ LOSS    : 44
+❌ LOSS    : 45
 ⏳ PENDING : 1
 ====================================================================
 

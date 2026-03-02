@@ -1,19 +1,26 @@
-2026-03-02 21:00 | championship | Birmingham vs Middlesbrough
-2026-03-02 21:00 | laliga | Real Madrid vs Getafe
-2026-03-02 20:00 | laliga2 | Sporting Gijon vs Leganes
-2026-03-02 20:30 | laliga2 | Cordoba vs FC Andorra
-2026-03-02 21:15 | liga portugal | GIL Vicente vs Benfica
-2026-03-02 19:00 | liga portugal 2 | Feirense vs Felgueiras 1932
-2026-03-02 01:30 | liga profesional argentina | Defensa Y Justicia vs Lanus
-2026-03-02 01:30 | liga profesional argentina | Tigre vs Gimnasia L.P.
-2026-03-02 23:15 | liga profesional argentina | Deportivo Riestra vs Platense
-2026-03-02 23:15 | liga profesional argentina | Estudiantes L.P. vs Velez Sarsfield
-2026-03-02 20:45 | ligue 2 | Amiens vs Estac Troyes
-2026-03-02 01:00 | mls | Orlando City SC vs Inter Miami
-2026-03-02 03:15 | mls | San Diego vs St. Louis City
-2026-03-02 00:10 | primera a colombia | Deportivo Cali vs Fortaleza FC
-2026-03-02 02:30 | primera a colombia | Deportes Tolima vs Atletico Nacional
-2026-03-02 00:30 | primera división paraguay | Cerro Porteno vs Deportivo Recoleta
-2026-03-02 22:30 | primera división paraguay | Sportivo Luqueno vs Rubio NU
-2026-03-02 18:30 | serie a italia | Pisa vs Bologna
-2026-03-02 20:45 | serie a italia | Udinese vs Fiorentina
+2026-03-03 20:45 | championship | Ipswich vs Hull City
+2026-03-03 21:00 | copa del rey | Barcelona vs Atletico Madrid
+2026-03-03 21:00 | coupe de france | Strasbourg vs Reims
+2026-03-03 17:00 | cup | FK Jablonec vs Slavia Praha
+2026-03-03 20:00 | cup | Mlada Boleslav vs Sparta Praha
+2026-03-03 20:45 | cymru premier league | Barry Town vs Penybont
+2026-03-03 20:45 | cymru premier league | GAP Connah S Quay FC vs The New Saints
+2026-03-03 20:45 | fa cup | Port Vale vs Bristol City
+2026-03-03 01:30 | liga pro ecuador | Manta FC vs Independiente del Valle
+2026-03-03 01:30 | liga profesional argentina | Banfield vs Aldosivi
+2026-03-03 01:30 | liga profesional argentina | Independ. Rivadavia vs River Plate
+2026-03-03 23:00 | liga profesional argentina | Sarmiento Junin vs Estudiantes de Rio Cuarto
+2026-03-03 23:15 | liga profesional argentina | Huracan vs Belgrano Cordoba
+2026-03-03 20:30 | premier league | Bournemouth vs Brentford
+2026-03-03 20:30 | premier league | Everton vs Burnley
+2026-03-03 20:30 | premier league | Leeds vs Sunderland
+2026-03-03 21:15 | premier league | Wolves vs Liverpool
+2026-03-03 20:45 | premiership | Dundee Utd vs ST Mirren
+2026-03-03 00:30 | primera división paraguay | Club Sp. San Lorenzo vs Libertad Asuncion
+2026-03-03 19:00 | serie b | Padova vs Spezia
+2026-03-03 20:00 | serie b | Cesena vs Monza
+2026-03-03 20:00 | serie b | Reggiana vs Sudtirol
+2026-03-03 20:00 | serie b | Venezia vs Avellino
+2026-03-03 20:00 | serie b | Virtus Entella vs Modena
+2026-03-03 20:30 | super league switzerland | FC Winterthur vs Servette FC
+2026-03-03 21:45 | taça de portugal | Sporting CP vs FC Porto
