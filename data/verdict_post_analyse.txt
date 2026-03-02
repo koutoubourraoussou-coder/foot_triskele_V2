@@ -14037,20 +14037,6 @@ TSV: 3520094557	2026-02-28	primera división paraguay	Sportivo Ameliano	Olimpia	
 TSV: 3520094557	2026-02-28	primera división paraguay	Sportivo Ameliano	Olimpia	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1505002	0-1	0-0	22:30
 TSV: 3520094557	2026-02-28	primera división paraguay	Sportivo Ameliano	Olimpia	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505002	0-1	0-0	22:30
 TSV: 3520094557	2026-02-28	primera división paraguay	Sportivo Ameliano	Olimpia	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1505002	0-1	0-0	22:30
-TSV: 481397591	2026-03-01	primera a colombia	Deportivo Cali	Fortaleza FC	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	2H	1506084	1-1	1-0	00:10
-TSV: 481397591	2026-03-01	primera a colombia	Deportivo Cali	Fortaleza FC	HT1X_HOME	HT 1X Home	4.0	FORT	0	BAD_NO_BET	2H	1506084	1-1	1-0	00:10
-TSV: 481397591	2026-03-01	primera a colombia	Deportivo Cali	Fortaleza FC	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	2H	1506084	1-1	1-0	00:10
-TSV: 481397591	2026-03-01	primera a colombia	Deportivo Cali	Fortaleza FC	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	2H	1506084	1-1	1-0	00:10
-TSV: 481397591	2026-03-01	primera a colombia	Deportivo Cali	Fortaleza FC	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	2H	1506084	1-1	1-0	00:10
-TSV: 481397591	2026-03-01	primera a colombia	Deportivo Cali	Fortaleza FC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	2H	1506084	1-1	1-0	00:10
-TSV: 481397591	2026-03-01	primera a colombia	Deportivo Cali	Fortaleza FC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	2H	1506084	1-1	1-0	00:10
-TSV: 1643310358	2026-03-01	primera división paraguay	Cerro Porteno	Deportivo Recoleta	HT05	HT+0.5	5.0	FORT PLUS	1	LOSS	2H	1505003	1-0	0-0	00:30
-TSV: 1643310358	2026-03-01	primera división paraguay	Cerro Porteno	Deportivo Recoleta	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	BAD_NO_BET	2H	1505003	1-0	0-0	00:30
-TSV: 1643310358	2026-03-01	primera división paraguay	Cerro Porteno	Deportivo Recoleta	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	2H	1505003	1-0	0-0	00:30
-TSV: 1643310358	2026-03-01	primera división paraguay	Cerro Porteno	Deportivo Recoleta	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	GOOD_NO_BET	2H	1505003	1-0	0-0	00:30
-TSV: 1643310358	2026-03-01	primera división paraguay	Cerro Porteno	Deportivo Recoleta	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	LOSS	2H	1505003	1-0	0-0	00:30
-TSV: 1643310358	2026-03-01	primera división paraguay	Cerro Porteno	Deportivo Recoleta	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	2H	1505003	1-0	0-0	00:30
-TSV: 1643310358	2026-03-01	primera división paraguay	Cerro Porteno	Deportivo Recoleta	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	2H	1505003	1-0	0-0	00:30
 TSV: 1214763181	2026-03-01	liga pro ecuador	Emelec	Delfin SC	HT05	HT+0.5	1.0	FAIBLE	0	GOOD_NO_BET	FT	1519265	1-1	0-0	01:00
 TSV: 1214763181	2026-03-01	liga pro ecuador	Emelec	Delfin SC	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1519265	1-1	0-0	01:00
 TSV: 1214763181	2026-03-01	liga pro ecuador	Emelec	Delfin SC	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1519265	1-1	0-0	01:00
@@ -14144,11 +14130,11 @@ TSV: 2724653110	2026-03-01	mls	Los Angeles Galaxy	Charlotte	TEAM1_WIN_FT	Team1 w
 TSV: 2724653110	2026-03-01	mls	Los Angeles Galaxy	Charlotte	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1490130	3-0	3-0	04:30
 TSV: 1115704874	2026-03-01	liga portugal 2	Farense	Lusitânia Lourosa	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1398181	2-1	1-0	12:00
 TSV: 1115704874	2026-03-01	liga portugal 2	Farense	Lusitânia Lourosa	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1398181	2-1	1-0	12:00
-TSV: 1115704874	2026-03-01	liga portugal 2	Farense	Lusitânia Lourosa	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1398181	2-1	1-0	12:00
-TSV: 1115704874	2026-03-01	liga portugal 2	Farense	Lusitânia Lourosa	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1398181	2-1	1-0	12:00
-TSV: 1115704874	2026-03-01	liga portugal 2	Farense	Lusitânia Lourosa	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1398181	2-1	1-0	12:00
-TSV: 1115704874	2026-03-01	liga portugal 2	Farense	Lusitânia Lourosa	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1398181	2-1	1-0	12:00
-TSV: 1115704874	2026-03-01	liga portugal 2	Farense	Lusitânia Lourosa	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1398181	2-1	1-0	12:00
+TSV: 1115704874	2026-03-01	liga portugal 2	Farense	Lusitânia Lourosa	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1398181	2-1	1-0	12:00
+TSV: 1115704874	2026-03-01	liga portugal 2	Farense	Lusitânia Lourosa	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1398181	2-1	1-0	12:00
+TSV: 1115704874	2026-03-01	liga portugal 2	Farense	Lusitânia Lourosa	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1398181	2-1	1-0	12:00
+TSV: 1115704874	2026-03-01	liga portugal 2	Farense	Lusitânia Lourosa	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1398181	2-1	1-0	12:00
+TSV: 1115704874	2026-03-01	liga portugal 2	Farense	Lusitânia Lourosa	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1398181	2-1	1-0	12:00
 TSV: 668309224	2026-03-01	eredivisie	PEC Zwolle	Ajax	HT05	HT+0.5	6.0	TRÈS FORT	1	LOSS	FT	1381091	0-0	0-0	12:15
 TSV: 668309224	2026-03-01	eredivisie	PEC Zwolle	Ajax	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1381091	0-0	0-0	12:15
 TSV: 668309224	2026-03-01	eredivisie	PEC Zwolle	Ajax	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1381091	0-0	0-0	12:15
@@ -14177,13 +14163,6 @@ TSV: 3320546947	2026-03-01	premiership	Rangers	Celtic	TEAM2_SCORE_FT	Team2 score
 TSV: 3320546947	2026-03-01	premiership	Rangers	Celtic	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1382839	2-2	2-0	13:00
 TSV: 3320546947	2026-03-01	premiership	Rangers	Celtic	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1382839	2-2	2-0	13:00
 TSV: 3320546947	2026-03-01	premiership	Rangers	Celtic	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1382839	2-2	2-0	13:00
-TSV: 2786147799	2026-03-01	2. bundesliga	1. FC Magdeburg	Karlsruher SC	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1388828	1-3	0-1	13:30
-TSV: 2786147799	2026-03-01	2. bundesliga	1. FC Magdeburg	Karlsruher SC	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1388828	1-3	0-1	13:30
-TSV: 2786147799	2026-03-01	2. bundesliga	1. FC Magdeburg	Karlsruher SC	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1388828	1-3	0-1	13:30
-TSV: 2786147799	2026-03-01	2. bundesliga	1. FC Magdeburg	Karlsruher SC	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1388828	1-3	0-1	13:30
-TSV: 2786147799	2026-03-01	2. bundesliga	1. FC Magdeburg	Karlsruher SC	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1388828	1-3	0-1	13:30
-TSV: 2786147799	2026-03-01	2. bundesliga	1. FC Magdeburg	Karlsruher SC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1388828	1-3	0-1	13:30
-TSV: 2786147799	2026-03-01	2. bundesliga	1. FC Magdeburg	Karlsruher SC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1388828	1-3	0-1	13:30
 TSV: 2292450720	2026-03-01	2. bundesliga	Eintracht Braunschweig	Preußen Münster	HT05	HT+0.5	6.0	TRÈS FORT	1	LOSS	FT	1388822	1-2	0-0	13:30
 TSV: 2292450720	2026-03-01	2. bundesliga	Eintracht Braunschweig	Preußen Münster	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1388822	1-2	0-0	13:30
 TSV: 2292450720	2026-03-01	2. bundesliga	Eintracht Braunschweig	Preußen Münster	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1388822	1-2	0-0	13:30
@@ -14345,13 +14324,6 @@ TSV: 2392112177	2026-03-01	laliga2	Mirandes	AD Ceuta FC	TEAM2_SCORE_FT	Team2 sco
 TSV: 2392112177	2026-03-01	laliga2	Mirandes	AD Ceuta FC	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1392070	0-1	0-1	16:15
 TSV: 2392112177	2026-03-01	laliga2	Mirandes	AD Ceuta FC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1392070	0-1	0-1	16:15
 TSV: 2392112177	2026-03-01	laliga2	Mirandes	AD Ceuta FC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1392070	0-1	0-1	16:15
-TSV: 1797626134	2026-03-01	laliga2	Sporting Gijon	Leganes	HT05	HT+0.5	7.0	EXPLOSION	0	PENDING	SUSP	1392065			16:15
-TSV: 1797626134	2026-03-01	laliga2	Sporting Gijon	Leganes	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	PENDING	SUSP	1392065			16:15
-TSV: 1797626134	2026-03-01	laliga2	Sporting Gijon	Leganes	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	PENDING	SUSP	1392065			16:15
-TSV: 1797626134	2026-03-01	laliga2	Sporting Gijon	Leganes	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	PENDING	SUSP	1392065			16:15
-TSV: 1797626134	2026-03-01	laliga2	Sporting Gijon	Leganes	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	0	PENDING	SUSP	1392065			16:15
-TSV: 1797626134	2026-03-01	laliga2	Sporting Gijon	Leganes	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	PENDING	SUSP	1392065			16:15
-TSV: 1797626134	2026-03-01	laliga2	Sporting Gijon	Leganes	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	PENDING	SUSP	1392065			16:15
 TSV: 2127698480	2026-03-01	superligaen	Puskas Academy	Nyiregyhaza	HT05	HT+0.5	7.0	EXPLOSION	1	WIN	FT	1380317	1-2	0-1	16:15
 TSV: 2127698480	2026-03-01	superligaen	Puskas Academy	Nyiregyhaza	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1380317	1-2	0-1	16:15
 TSV: 2127698480	2026-03-01	superligaen	Puskas Academy	Nyiregyhaza	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1380317	1-2	0-1	16:15

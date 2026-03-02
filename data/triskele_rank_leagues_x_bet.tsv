@@ -91,13 +91,13 @@ premier league	HT1X_HOME	19	16	3	0.8421052631578947	True
 liga portugal	HT1X_HOME	25	21	4	0.84	True
 premiership	O15_FT	31	26	5	0.8387096774193549	True
 serie b	HT1X_HOME	37	31	6	0.8378378378378378	True
-2. bundesliga	O15_FT	49	41	8	0.8367346938775511	True
+2. bundesliga	O15_FT	48	40	8	0.8333333333333334	True
 laliga2	HT1X_HOME	48	40	8	0.8333333333333334	True
-2. bundesliga	HT05	30	25	5	0.8333333333333334	True
 laliga	TEAM2_SCORE_FT	12	10	2	0.8333333333333334	True
 ligue 1	TEAM1_SCORE_FT	6	5	1	0.8333333333333334	False
 scottish cup	HT1X_HOME	6	5	1	0.8333333333333334	False
 eredivisie	O15_FT	53	44	9	0.8301886792452831	True
+2. bundesliga	HT05	29	24	5	0.8275862068965517	True
 bundesliga	HT05	52	43	9	0.8269230769230769	True
 pro league	O15_FT	40	33	7	0.825	True
 super lig	HT1X_HOME	17	14	3	0.8235294117647058	True
@@ -122,17 +122,17 @@ cymru premier league	O15_FT	23	18	5	0.782608695652174	True
 liga mx	HT1X_HOME	23	18	5	0.782608695652174	True
 championship	HT1X_HOME	41	32	9	0.7804878048780488	True
 premier league	TEAM1_SCORE_FT	9	7	2	0.7777777777777778	False
-primera a colombia	HT05	31	24	7	0.7741935483870968	True
 premiership	HT05	22	17	5	0.7727272727272727	True
 liga mx	O15_FT	35	27	8	0.7714285714285715	True
+primera a colombia	HT05	30	23	7	0.7666666666666667	True
 serie b	O15_FT	47	36	11	0.7659574468085106	True
 liga profesional argentina	HT1X_HOME	46	35	11	0.7608695652173914	True
 championship	O15_FT	75	57	18	0.76	True
-primera a colombia	O15_FT	25	19	6	0.76	True
 serie a italia	HT1X_HOME	33	25	8	0.7575757575757576	True
 super league switzerland	HT05	33	25	8	0.7575757575757576	True
 uefa europa league	HT05	33	25	8	0.7575757575757576	True
 premier league	HT05	49	37	12	0.7551020408163265	True
+primera a colombia	O15_FT	24	18	6	0.75	True
 mls	HT05	20	15	5	0.75	True
 mls	O15_FT	20	15	5	0.75	True
 superligaen	HT05	16	12	4	0.75	True
@@ -202,9 +202,9 @@ taça de portugal	O25_FT	2	1	1	0.5	False
 liga portugal 2	O15_FT	29	14	15	0.4827586206896552	True
 ligue 2	HT05	23	11	12	0.4782608695652174	True
 czech first league	HT05	21	10	11	0.47619047619047616	True
+primera división paraguay	HT05	9	4	5	0.4444444444444444	False
+primera división paraguay	O15_FT	16	7	9	0.4375	True
 coupe de france	HT1X_HOME	7	3	4	0.42857142857142855	False
-primera división paraguay	O15_FT	17	7	10	0.4117647058823529	True
-primera división paraguay	HT05	10	4	6	0.4	False
 liga portugal	TEAM2_WIN_FT	5	2	3	0.4	False
 belgian cup	HT1X_HOME	3	1	2	0.3333333333333333	False
 copa del rey	HT1X_HOME	3	1	2	0.3333333333333333	False
