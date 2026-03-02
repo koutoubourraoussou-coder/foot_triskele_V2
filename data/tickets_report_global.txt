@@ -1937,3 +1937,16 @@ Aucun ticket.
   1) 20:00 | primera a colombia | Deportivo Pasto vs Cucuta | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.48
   2) 20:45 | ligue 1 | Marseille vs Lyon | Over 1.5 (FT) | FORT PLUS | odd=1.25
   3) 21:00 | laliga | Girona vs Celta Vigo | HT 1X Home | TRÈS FORT | odd=1.25
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-03-02 16:40:50 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-02_0100_0621ac0c06_SYS — cote = 2.57 — fenêtre 01:00 → 21:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 01:00 | mls | Orlando City SC vs Inter Miami | HT+0.5 | MEGA EXPLOSION | odd=1.22
+  2) 03:15 | mls | San Diego vs St. Louis City | HT+0.5 | MEGA EXPLOSION | odd=1.25
+  3) 19:00 | liga portugal 2 | Feirense vs Felgueiras 1932 | HT 1X Home | TRÈS FORT | odd=1.22
+  4) 20:00 | laliga2 | Sporting Gijon vs Leganes | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.38

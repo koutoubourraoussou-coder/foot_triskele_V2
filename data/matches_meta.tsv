@@ -1,89 +1,20 @@
 # date	league	home	away	league_id	home_id	away_id	fixture_id
-2026-03-01	2. bundesliga	1. FC Magdeburg	Karlsruher SC	79	179	785	1388828
-2026-03-01	2. bundesliga	Eintracht Braunschweig	Preußen Münster	79	744	1313	1388822
-2026-03-01	2. bundesliga	Hertha BSC	1. FC Nürnberg	79	159	171	1388825
-2026-03-01	bundesliga	VfB Stuttgart	VfL Wolfsburg	78	172	161	1388522
-2026-03-01	bundesliga	Eintracht Frankfurt	SC Freiburg	78	169	160	1388519
-2026-03-01	bundesliga	Hamburger SV	RB Leipzig	78	175	173	1388520
-2026-03-01	cymru premier league	Haverfordwest County AFC	Flint Town United	110	2194	5614	1509002
-2026-03-01	czech first league	Karviná	Slovácko	345	3716	3719	1384837
-2026-03-01	czech first league	Zlin	Plzen	345	603	567	1384842
-2026-03-01	czech first league	Sigma Olomouc	Bohemians 1905	345	2250	3714	1384840
-2026-03-01	eredivisie	PEC Zwolle	Ajax	88	193	194	1381091
-2026-03-01	eredivisie	FC Volendam	Groningen	88	416	202	1381084
-2026-03-01	eredivisie	Twente	Feyenoord	88	415	209	1381089
-2026-03-01	eredivisie	Utrecht	AZ Alkmaar	88	207	201	1381090
-2026-03-01	eredivisie	Excelsior	GO Ahead Eagles	88	196	410	1381083
-2026-03-01	laliga	Elche	Espanyol	140	797	540	1391071
-2026-03-01	laliga	Valencia	Osasuna	140	532	727	1391078
-2026-03-01	laliga	Real Betis	Sevilla	140	543	536	1391070
-2026-03-01	laliga	Girona	Celta Vigo	140	547	538	1391072
-2026-03-01	laliga2	Real Sociedad II	Deportivo La Coruna	141	9585	544	1392067
-2026-03-01	laliga2	Mirandes	AD Ceuta FC	141	799	10139	1392070
-2026-03-01	laliga2	Cultural Leonesa	Las Palmas	141	725	534	1392062
-2026-03-01	laliga2	Eibar	Cadiz	141	545	724	1392066
-2026-03-01	liga mx	Atletico San Luis	Puebla	262	2314	2291	1492530
-2026-03-01	liga mx	Toluca	Guadalajara Chivas	262	2281	2278	1492531
-2026-03-01	liga mx	Monterrey	Cruz Azul	262	2282	2295	1492533
-2026-03-01	liga mx	Leon	Necaxa	262	2289	2288	1492532
-2026-03-01	liga mx	Club America	Tigres UANL	262	2287	2279	1492534
-2026-03-01	liga portugal	Tondela	Santa Clara	94	218	227	1396451
-2026-03-01	liga portugal	Casa Pia	Moreirense	94	4716	215	1396445
-2026-03-01	liga portugal	Rio Ave	Famalicao	94	226	242	1396449
-2026-03-01	liga portugal 2	Farense	Lusitânia Lourosa	95	231	6358	1398181
-2026-03-01	liga portugal 2	Academico Viseu	Maritimo	95	238	214	1398176
-2026-03-01	liga portugal 2	Pacos Ferreira	Oliveirense	95	234	233	1398179
-2026-03-01	liga portugal 2	Penafiel	Benfica B	95	235	229	1398180
-2026-03-01	liga pro ecuador	Emelec	Delfin SC	242	1148	1149	1519265
-2026-03-01	liga pro ecuador	LDU de Quito	Macara	242	1158	1155	1519267
-2026-03-01	liga pro ecuador	Mushuc Runa SC	Universidad Catolica	242	1162	1157	1519270
-2026-03-01	liga pro ecuador	Deportivo Cuenca	Barcelona SC	242	1154	1152	1519264
-2026-03-01	liga profesional argentina	Independiente	Central Cordoba de Santiago	128	453	1065	1491931
-2026-03-01	liga profesional argentina	Talleres Cordoba	San Lorenzo	128	456	460	1491936
-2026-03-01	liga profesional argentina	Newells Old Boys	Rosario Central	128	457	437	1491934
-2026-03-01	liga profesional argentina	Argentinos JRS	Barracas Central	128	458	2432	1491923
-2026-03-01	liga profesional argentina	Instituto Cordoba	Union Santa Fe	128	478	441	1491933
-2026-03-01	ligue 1	Paris FC	Nice	61	114	84	1387911
-2026-03-01	ligue 1	Lille	Nantes	61	79	83	1387906
-2026-03-01	ligue 1	Lorient	Auxerre	61	97	108	1387907
-2026-03-01	ligue 1	Metz	Stade Brestois 29	61	112	106	1387909
-2026-03-01	ligue 1	Marseille	Lyon	61	81	80	1387908
-2026-03-01	mls	Real Salt Lake	Seattle Sounders	253	1606	1595	1490124
-2026-03-01	mls	San Jose Earthquakes	Atlanta United FC	253	1596	1608	1490125
-2026-03-01	mls	FC Dallas	Nashville SC	253	1597	9569	1490128
-2026-03-01	mls	Houston Dynamo	Los Angeles FC	253	1600	1616	1490126
-2026-03-01	mls	Sporting Kansas City	Columbus Crew	253	1611	1613	1490127
-2026-03-01	mls	Vancouver Whitecaps	Toronto FC	253	1603	1601	1490129
-2026-03-01	mls	Los Angeles Galaxy	Charlotte	253	1605	18310	1490130
-2026-03-01	mls	Austin	DC United	253	16489	1615	1490131
-2026-03-01	mls	Philadelphia Union	New York City FC	253	1599	1604	1490132
-2026-03-01	premier league	Brighton	Nottingham Forest	39	51	65	1379241
-2026-03-01	premier league	Fulham	Tottenham	39	36	47	1379243
-2026-03-01	premier league	Manchester United	Crystal Palace	39	33	52	1379246
-2026-03-01	premier league	Arsenal	Chelsea	39	42	49	1379239
-2026-03-01	premiership	Rangers	Celtic	179	257	247	1382839
-2026-03-01	primera a colombia	Jaguares	Junior	239	1133	1135	1506008
-2026-03-01	primera a colombia	Independiente Medellin	Bucaramanga	239	1128	1131	1506012
-2026-03-01	primera a colombia	Deportivo Pasto	Cucuta	239	1126	1470	1506013
-2026-03-01	primera a colombia	Águilas Doradas	Internacional de Bogota	239	1144	1134	1506014
-2026-03-01	primera división paraguay	2 de Mayo	Sportivo Trinidense	250	2140	1187	1505001
-2026-03-01	primera división paraguay	Nacional Asuncion	Club Guarani	250	1175	1174	1505004
-2026-03-01	pro league	Genk	Gent	144	742	631	1382636
-2026-03-01	pro league	KVC Westerlo	Union St. Gilloise	144	261	1393	1382641
-2026-03-01	pro league	Charleroi	Club Brugge KV	144	736	569	1382635
-2026-03-01	pro league	Cercle Brugge	Dender	144	741	6215	1382639
-2026-03-01	serie a italia	Cremonese	AC Milan	135	520	489	1378125
-2026-03-01	serie a italia	Sassuolo	Atalanta	135	488	499	1378130
-2026-03-01	serie a italia	Torino	Lazio	135	503	487	1378131
-2026-03-01	serie a italia	AS Roma	Juventus	135	497	496	1378129
-2026-03-01	serie b	Catanzaro	Frosinone	136	1687	512	1419858
-2026-03-01	serie b	Pescara	Palermo	136	525	522	1419859
-2026-03-01	serie b	Mantova	Carrarese	136	1693	1581	1419860
-2026-03-01	super league switzerland	Lausanne	FC Basel 1893	207	1014	551	1494557
-2026-03-01	super league switzerland	BSC Young Boys	FC Zurich	207	565	783	1494559
-2026-03-01	super league switzerland	Grasshoppers	FC Lugano	207	1013	606	1494558
-2026-03-01	super lig	Gençlerbirliği S.K.	Kayserispor	203	997	1001	1394643
-2026-03-01	super lig	Antalyaspor	Fenerbahçe	203	1005	611	1394640
-2026-03-01	super lig	Samsunspor	Gaziantep FK	203	3603	3573	1394647
-2026-03-01	superligaen	Puskas Academy	Nyiregyhaza	271	2391	2403	1380317
-2026-03-01	superligaen	Ferencvarosi TC	Kazincbarcikai	271	651	2410	1380314
+2026-03-02	championship	Birmingham	Middlesbrough	40	54	70	1386962
+2026-03-02	laliga	Real Madrid	Getafe	140	541	546	1391076
+2026-03-02	laliga2	Sporting Gijon	Leganes	141	731	537	1392065
+2026-03-02	laliga2	Cordoba	FC Andorra	141	713	8157	1396976
+2026-03-02	liga portugal	GIL Vicente	Benfica	94	762	211	1396447
+2026-03-02	liga portugal 2	Feirense	Felgueiras 1932	95	213	4744	1398177
+2026-03-02	liga profesional argentina	Defensa Y Justicia	Lanus	128	442	446	1491927
+2026-03-02	liga profesional argentina	Tigre	Gimnasia L.P.	128	452	434	1491937
+2026-03-02	liga profesional argentina	Deportivo Riestra	Platense	128	476	1064	1491928
+2026-03-02	liga profesional argentina	Estudiantes L.P.	Velez Sarsfield	128	450	438	1491929
+2026-03-02	ligue 2	Amiens	Estac Troyes	62	87	110	1389333
+2026-03-02	mls	Orlando City SC	Inter Miami	253	1598	9568	1490133
+2026-03-02	mls	San Diego	St. Louis City	253	25484	20787	1490134
+2026-03-02	primera a colombia	Deportivo Cali	Fortaleza FC	239	1127	1147	1506084
+2026-03-02	primera a colombia	Deportes Tolima	Atletico Nacional	239	1142	1137	1506016
+2026-03-02	primera división paraguay	Cerro Porteno	Deportivo Recoleta	250	1176	10476	1505003
+2026-03-02	primera división paraguay	Sportivo Luqueno	Rubio NU	250	1183	1185	1505006
+2026-03-02	serie a italia	Pisa	Bologna	135	801	500	1378128
+2026-03-02	serie a italia	Udinese	Fiorentina	135	494	502	1378132
