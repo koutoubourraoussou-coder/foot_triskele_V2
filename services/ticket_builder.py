@@ -1589,17 +1589,18 @@ def _try_build_ticket_system(
     return chosen
 
 def _try_build_ticket_random(
-    picks: List[Pick],
-    rng: random.Random,
-    threshold: float,
-    *,
-    league_bet: Optional[dict],
+        picks: List[Pick],
+        rng: random.Random,
+        threshold: float,
+        *,
+        league_bet: Optional[dict],
+        team_bet: Optional[dict],
 ) -> Optional[List[Pick]]:
     """
-    RANDOM (O15) time-budget :
-    - Gate ligue identique SYSTEM : league x bet >= 0.65 ET require_data=True (dec>0).
-    - Conserve TOPK meilleurs tickets 3L et 4L (score = _ticket_score_random).
-    - Tire UNIFORMÉMENT 1 ticket dans TOPK_3 et 1 ticket dans TOPK_4.
+    RANDOM O15 time-budget :
+    - Gate ligue identique SYSTEM (league x bet >= 0.65 ET requiredata=True dec>0).
+    - Conserve TOPK meilleurs tickets 3L et 4L (score = _ticket_score_system, par TEAM).
+    - Tire UNIFORMEMENT 1 ticket dans TOPK3 et 1 ticket dans TOPK4.
     - Compare avec règle 3%.
     - MAESTROLOGUE détaillé.
     """
@@ -1610,7 +1611,7 @@ def _try_build_ticket_random(
     it = 0
     pool = list(picks)
 
-    def _random_accept_pick(p: Pick) -> bool:
+    def random_accept_pick(p: Pick) -> bool:
         fam = _norm_bet_family(p.bet_key)
         lg = (p.league or "").strip()
         wr, dec = _league_bet_rate(league_bet, lg, fam)
@@ -1623,7 +1624,7 @@ def _try_build_ticket_random(
         fam = _norm_bet_family(p.bet_key)
         lg = (p.league or "").strip()
         wr, dec = _league_bet_rate(league_bet, lg, fam)
-        wr_by_pick.append(float(wr) if (wr is not None and dec > 0) else None)
+        wr_by_pick.append(float(wr) if wr is not None and dec > 0 else None)
 
     valid = [w for w in wr_by_pick if w is not None]
     mn = min(valid) if valid else None
@@ -1632,7 +1633,7 @@ def _try_build_ticket_random(
     def weight_from_wr(wr: float | None) -> float:
         if wr is None or mn is None or mx is None or mx == mn:
             return 1.0
-        w = 1.0 + (wr - mn) / (mx - mn)  # 1 -> 2
+        w = 1.0 + 2.0 * ((wr - mn) / (mx - mn))
         return max(1.0, min(2.0, w))
 
     weights = [weight_from_wr(w) for w in wr_by_pick]
@@ -1651,18 +1652,14 @@ def _try_build_ticket_random(
             mk = _match_key(p)
             if mk in used_matches:
                 continue
-
-            if not _random_accept_pick(p):
+            if not random_accept_pick(p):
                 rejected_by_gate += 1
                 continue
-
             chosen.append(p)
             used_matches.add(mk)
             total *= (p.odd or 1.0)
-
-            if len(chosen) >= wanted_legs:
+            if len(chosen) == wanted_legs:
                 break
-
         if len(chosen) != wanted_legs:
             return None
         if total < threshold:
@@ -1671,26 +1668,23 @@ def _try_build_ticket_random(
 
     top3 = _TopK(TOPK_SIZE)
     top4 = _TopK(TOPK_SIZE)
-
     found3 = 0
     found4 = 0
 
     while _now_perf() < deadline and it < SEARCH_MAX_ITER_RANDOM:
         it += 1
-
-        # ✅ tirage pondéré sans remise (plus efficace)
         order = _weighted_order_no_replacement(pool, weights, rng)
 
         res3 = _build_exact(order, wanted_legs=3)
         if res3:
             found3 += 1
-            sc3 = _ticket_score_random(res3, league_bet)
+            sc3 = _ticket_score_system(res3, league_bet, team_bet)  # ✅ CHANGÉ : TEAM
             top3.push(sc3, res3)
 
         res4 = _build_exact(order, wanted_legs=4)
         if res4:
             found4 += 1
-            sc4 = _ticket_score_random(res4, league_bet)
+            sc4 = _ticket_score_system(res4, league_bet, team_bet)  # ✅ CHANGÉ : TEAM
             top4.push(sc4, res4)
 
     items3 = top3.items_desc()
@@ -1701,7 +1695,6 @@ def _try_build_ticket_random(
 
     best3_picks = draw3.picks if draw3 else None
     best3_score = draw3.score if draw3 else -1e18
-
     best4_picks = draw4.picks if draw4 else None
     best4_score = draw4.score if draw4 else -1e18
 
@@ -1713,119 +1706,113 @@ def _try_build_ticket_random(
 
     if chosen:
         chosen = list(chosen)
+        mlevel = _maestro_level()
+        if mlevel >= 2:
+            lines: List[str] = []
+            lines.append("MAESTROLOGUE — RANDOM — TOPK uniform draw (3L vs 4L)")
+            lines.append("-" * 58)
+            lines.append(f"- TOPK_SIZE={TOPK_SIZE} uniform_draw={TOPK_UNIFORM_DRAW}")
+            lines.append(f"- league_gate_min_wr={LEAGUE_BET_MIN_WINRATE:.2f} requiredata=True")
+            lines.append(f"- règle préférer 3L si écart <= {PREFER_3LEGS_DELTA*100:.2f}%")
+            lines.append(f"- iterations={it} | valid_3L_found={found3} | valid_4L_found={found4}")
+            lines.append(f"- top3_size={len(items3)} | top4_size={len(items4)}")
+            lines.append(f"- picks_rejected_by_league_gate ~{rejected_by_gate}")
+            lines.append("")
 
-    mlevel = _maestro_level()
-    if mlevel >= 2:
-        lines: List[str] = []
-        lines.append("MAESTROLOGUE — RANDOM — TOPK uniform draw (3L vs 4L)")
-        lines.append("-" * 58)
-        lines.append(f"- TOPK_SIZE: {TOPK_SIZE} | uniform_draw={TOPK_UNIFORM_DRAW}")
-        lines.append(f"- league_gate_min_wr: {LEAGUE_BET_MIN_WINRATE:.2f} | require_data=True")
-        lines.append(f"- règle: préférer 3L si écart <= {PREFER_3LEGS_DELTA*100:.2f}%")
-        lines.append(f"- iterations: {it} | valid_3L_found: {found3} | valid_4L_found: {found4}")
-        lines.append(f"- top3_size: {len(items3)} | top4_size: {len(items4)}")
-        lines.append(f"- picks_rejected_by_league_gate (approx): {rejected_by_gate}")
-        lines.append("")
-
-        def _TicketOdd(picks_: List[Pick]) -> float:
-            prod = 1.0
-            for p in picks_:
-                prod *= (p.odd or 1.0)
-            return prod
-
-        def _snap(items: List[_TopKItem], tag: str) -> None:
-            lines.append(f"{tag} (desc):")
-            if not items:
-                lines.append("  (vide)")
+            def _snap(items: List[_TopKItem], tag: str) -> None:
+                lines.append(f"{tag} (desc):")
+                if not items:
+                    lines.append(" (vide)")
+                    lines.append("")
+                    return
+                for r, it_ in enumerate(items, start=1):
+                    lines.append(
+                        f" {tag}[{r}/{len(items)}]: score={_fmt_score_pct(it_.score)} | "
+                        f"legs={len(it_.picks)} | odd={_fmt_odd(_TicketOdd(list(it_.picks)))}"
+                    )
                 lines.append("")
-                return
-            for r, it_ in enumerate(items, start=1):
-                lines.append(
-                    f"  {tag}[{r}/{len(items)}]: score={_fmt_score_pct(it_.score)} | legs={len(it_.picks)} | odd={_fmt_odd(_TicketOdd(list(it_.picks)))}"
-                )
-            lines.append("")
 
-        _snap(items3, "TOP3")
-        _snap(items4, "TOP4")
+            _snap(items3, "TOP3")
+            _snap(items4, "TOP4")
 
-        if draw3:
-            rank3 = next((i for i, x in enumerate(items3, start=1) if x is draw3), None)
-            lines.append(f"DRAW_3L: picked rank={rank3}/{len(items3)} | score={_fmt_score_pct(draw3.score)} | odd={_fmt_odd(_TicketOdd(list(draw3.picks)))}")
-        else:
-            lines.append("DRAW_3L: (aucun)")
-
-        if draw4:
-            rank4 = next((i for i, x in enumerate(items4, start=1) if x is draw4), None)
-            lines.append(f"DRAW_4L: picked rank={rank4}/{len(items4)} | score={_fmt_score_pct(draw4.score)} | odd={_fmt_odd(_TicketOdd(list(draw4.picks)))}")
-        else:
-            lines.append("DRAW_4L: (aucun)")
-
-        if best4_picks and best3_picks and best4_score > 0:
-            delta_rel = abs(best4_score - best3_score) / best4_score
-            lines.append(f"- écart relatif: {delta_rel*100:.2f}%")
-        else:
-            lines.append("- écart relatif: —")
-
-        if chosen:
-            lines.append(f"=> choisi: {len(chosen)} legs | score={_fmt_score_pct(chosen_score)}")
-            lines.append("")
-            lines.append("Ticket choisi (aperçu)")
-            lines.append("-" * 22)
-            lines.extend(_short_ticket_lines(chosen, max_lines=(MAESTRO_MAX_DETAIL_LINES if mlevel >= 3 else 6)))
-        else:
-            lines.append("=> choisi: aucun (aucune combinaison valide)")
-
-        lines.append("")
-        _write_maestro_log("\n".join(lines) + "\n", append=True)
-
-    if mlevel >= 3 and chosen:
-        chosen_sorted = sorted(chosen, key=lambda p: _time_to_minutes(p.time_str))
-        score = _ticket_score_random(chosen_sorted, league_bet)
-
-        lines: List[str] = []
-        lines.append("MAESTROLOGUE — Détail du score (ticket choisi, RANDOM)")
-        lines.append("-" * 54)
-        lines.append(f"- score ticket: {score:.3f} ({_fmt_pct(score)})")
-        lines.append(f"- formule: wr_adj = wr(league x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00")
-        lines.append("")
-
-        out_lines: List[str] = []
-        for i, p in enumerate(chosen_sorted, start=1):
-            fam = _norm_bet_family(p.bet_key)
-            lg = (p.league or "").strip()
-            wr, dec = _league_bet_rate(league_bet, lg, fam)
-
-            if wr is not None and (dec or 0) > 0:
-                coef = _confidence_coef(int(dec), n_full=5, base=0.70)
-                adj = float(wr) * float(coef)
-                wr_str = f"{float(wr):.2f}"
-                dec_i = int(dec)
-                coef_str = f"{float(coef):.3f}"
-                adj_str = f"{float(adj):.3f}"
-                adj_pct = _fmt_pct(adj)
+            if draw3:
+                rank3 = next((i for i, x in enumerate(items3, start=1) if x is draw3), None)
+                lines.append(f"DRAW_3L: picked rank={rank3}/{len(items3)} | "
+                           f"score={_fmt_score_pct(draw3.score)} | "
+                           f"odd={_fmt_odd(_TicketOdd(list(draw3.picks)))}")
             else:
-                wr_str = "—"
-                dec_i = 0
-                coef_str = "0.000"
-                adj_str = "0.000"
-                adj_pct = _fmt_pct(0.0)
+                lines.append("DRAW_3L: (aucun)")
 
-            out_lines.append(
-                f"{i}) {p.time_str} | {p.league} | {p.home} vs {p.away} | bet={fam} | odd={_fmt_odd(p.odd)}"
-            )
-            out_lines.append(
-                f"   LEAGUE {lg}: wr={wr_str} dec={dec_i} coef={coef_str} => adj={adj_str} ({adj_pct})"
-            )
-            out_lines.append("")
+            if draw4:
+                rank4 = next((i for i, x in enumerate(items4, start=1) if x is draw4), None)
+                lines.append(f"DRAW_4L: picked rank={rank4}/{len(items4)} | "
+                           f"score={_fmt_score_pct(draw4.score)} | "
+                           f"odd={_fmt_odd(_TicketOdd(list(draw4.picks)))}")
+            else:
+                lines.append("DRAW_4L: (aucun)")
 
-        if len(out_lines) > MAESTRO_MAX_DETAIL_LINES:
-            out_lines = out_lines[:MAESTRO_MAX_DETAIL_LINES] + ["… (détails coupés: MAESTRO_MAX_DETAIL_LINES)"]
+            if best4_picks and best3_picks and best4_score > 0:
+                delta_rel = abs(best4_score - best3_score) / best4_score
+                lines.append(f"- écart relatif : {delta_rel*100:.2f}%")
+            else:
+                lines.append("- écart relatif : N/A")
 
-        lines.extend(out_lines)
-        lines.append("")
-        _write_maestro_log("\n".join(lines) + "\n", append=True)
+            if chosen:
+                lines.append(f" choisi : {len(chosen)} legs | score={_fmt_score_pct(chosen_score)}")
+                lines.append("")
+                lines.append("Ticket choisi (aperçu):")
+                lines.append("-" * 22)
+                lines.extend(_short_ticket_lines(chosen, max_lines=MAESTRO_MAX_DETAIL_LINES if mlevel == 3 else 6))
+            else:
+                lines.append(" choisi : aucun (aucune combinaison valide)")
 
-    return chosen
+            _write_maestro_log("\n".join(lines), append=True)
+
+        if mlevel >= 3 and chosen:
+            chosen_sorted = sorted(chosen, key=lambda p: _time_to_minutes(p.time_str))
+            score = _ticket_score_system(chosen_sorted, league_bet, team_bet)  # ✅ CHANGÉ : TEAM
+            lines: List[str] = []
+            lines.append("MAESTROLOGUE — Détail du score ticket choisi, RANDOM (scoring=TEAM)")
+            lines.append("-" * 62)
+            lines.append(f"- score ticket : {score:.3f} ({_fmt_pct(score)})")
+            lines.append("- formule : wr_adj = wr[team x bet] * coef(decided), coef(1)=0.70 coef(>=5)=1.00")
+            lines.append("")
+
+            outlines: List[str] = []
+            for i, p in enumerate(chosen_sorted, start=1):
+                fam = _norm_bet_family(p.bet_key)
+                lg = (p.league or "").strip()
+
+                # Détail TEAM (comme SYSTEM)
+                def _team_line(team: str) -> Dict[str, Any]:
+                    wr, dec = _team_rate(team_bet, team, lg, fam)
+                    if wr is None or dec <= 0:
+                        return {"team": team, "wr": None, "dec": 0, "coef": 0.0, "wr_adj": 0.0}
+                    coef = _confidence_coef(dec, n_full=5, base=0.70)
+                    return {"team": team, "wr": float(wr), "dec": int(dec), "coef": float(coef), "wr_adj": float(wr) * float(coef)}
+
+                home = _team_line(p.home)
+                away = _team_line(p.away)
+                wrs = [home["wr_adj"], away["wr_adj"]]
+                mean = sum(wrs) / len(wrs) if wrs else 0.0
+
+                outlines.append(f" {i}) {p.time_str} | {p.league} | {p.home} vs {p.away} | bet={fam} | odd={_fmt_odd(p.odd)}")
+                outlines.append(f"    TEAM  | home wr_adj={home['wr_adj']:.3f} ({_fmt_pct(home['wr_adj'])}) | "
+                               f"away wr_adj={away['wr_adj']:.3f} ({_fmt_pct(away['wr_adj'])})")
+                outlines.append(f"    MEAN  | match_mean={mean:.3f} ({_fmt_pct(mean)})")
+
+            if len(outlines) > MAESTRO_MAX_DETAIL_LINES:
+                outlines = outlines[:MAESTRO_MAX_DETAIL_LINES]
+                outlines.append(f"... {len(outlines)} détails (coupes {MAESTRO_MAX_DETAIL_LINES})")
+
+            lines.extend(outlines)
+            lines.append("")
+            _write_maestro_log("\n".join(lines), append=True)
+
+        return chosen
+
+    return None
+
 
 def _build_tickets_for_one_day(sorted_picks: List[Pick], *, mode: str) -> List[Ticket]:
     if not sorted_picks:
@@ -1939,10 +1926,8 @@ def _build_tickets_for_one_day(sorted_picks: List[Pick], *, mode: str) -> List[T
                     team_bet=team_bet,
                 )
             else:
-                combo = _try_build_ticket_random(
-                    ok_pool, rng, threshold=day_threshold,
-                    league_bet=league_bet,
-                )
+                combo = _try_build_ticket_random(ok_pool, rng, threshold=day_threshold, league_bet=league_bet, team_bet=team_bet)
+
 
             if combo:
                 combo_window_j = j
