@@ -185,9 +185,26 @@ def load_tickets_dataset(report_filename: str, period_start: date | None, period
         df_all = df_all[df_all["Jour"].notna()]
         df_all = df_all[(df_all["Jour"] >= period_start) & (df_all["Jour"] <= period_end)]
 
-    # Tri: jour desc, puis ticket
+    # --- Extraire heure depuis Id pour tri chronologique ---
+    def extract_time_from_id(ticket_id):
+        if not isinstance(ticket_id, str):
+            return None
+        m = re.search(r"\d{4}-\d{2}-\d{2}_(\d{4})_", ticket_id)
+        if m:
+            hhmm = m.group(1)
+            return int(hhmm)
+        return None
+
+    df_all["HeureTri"] = df_all["Id"].apply(extract_time_from_id)
+
+    # Tri: jour desc, puis heure asc
     if "Jour" in df_all.columns:
-        df_all = df_all.sort_values(by=["Jour", "Ticket"], ascending=[False, True])
+        df_all = df_all.sort_values(
+            by=["Jour", "HeureTri"],
+            ascending=[False, True]
+        )
+
+    df_all = df_all.drop(columns=["HeureTri"], errors="ignore")
 
     return df_all
 
