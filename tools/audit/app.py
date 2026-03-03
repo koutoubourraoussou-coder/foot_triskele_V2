@@ -101,7 +101,7 @@ def parse_tickets_to_play(filepath: Path | str, fallback_day: date | None = None
     )
 
     data = []
-    for match in ticket_pattern.finditer(content):
+    for ordre_source, match in enumerate(ticket_pattern.finditer(content), start=1):
         ticket_id = match.group(3).strip()
         matches_text = match.group(6).strip()
         nb_matches = len(re.findall(r"^\s*\d+\)", matches_text, re.MULTILINE))
@@ -114,14 +114,16 @@ def parse_tickets_to_play(filepath: Path | str, fallback_day: date | None = None
                 day_val = datetime.strptime(mday.group(1), "%Y-%m-%d").date()
             except ValueError:
                 day_val = None
+
         if day_val is None and fallback_day is not None:
             day_val = fallback_day
 
         data.append({
             "Jour": day_val,
+            "OrdreSource": ordre_source,
             "Ticket": match.group(1),
             "Type": match.group(2),
-            "Id": ticket_id,
+            "Id": _normalize_ticket_id(ticket_id),
             "Cote": float(match.group(4)),
             "Fenêtre de jeu": match.group(5).strip(),
             "Nb Matchs": nb_matches,
@@ -134,19 +136,216 @@ def parse_tickets_to_play(filepath: Path | str, fallback_day: date | None = None
 
     return None
 
+def _first_existing_col(df: pd.DataFrame, candidates: list[str]) -> str | None:
+    """Retourne le premier nom de colonne présent dans df parmi les candidats."""
+    for c in candidates:
+        if c in df.columns:
+            return c
+    return None
+
+
+def _normalize_ticket_id(val) -> str | None:
+    """Normalise un identifiant pour merge fiable."""
+    if pd.isna(val):
+        return None
+    s = str(val).strip()
+    return s if s else None
+
+
+def _safe_read_tsv(path: Path) -> pd.DataFrame | None:
+    """Lit un TSV sans casser l'app si le fichier est mal formé."""
+    try:
+        return pd.read_csv(path, sep="\t", dtype=str, encoding="utf-8", engine="python")
+    except Exception:
+        return None
+
+
+def _build_datetime_from_tsv_row(row, date_col: str | None, time_col: str | None, datetime_col: str | None):
+    """
+    Construit un timestamp depuis :
+    - une colonne datetime directe
+    - ou une colonne date + une colonne heure
+    Retourne pd.NaT si impossible.
+    """
+    if datetime_col:
+        raw_dt = row.get(datetime_col)
+        if pd.notna(raw_dt):
+            ts = pd.to_datetime(str(raw_dt).strip(), errors="coerce", dayfirst=False)
+            if pd.notna(ts):
+                return ts
+
+    if date_col and time_col:
+        raw_date = row.get(date_col)
+        raw_time = row.get(time_col)
+        if pd.notna(raw_date) and pd.notna(raw_time):
+            raw = f"{str(raw_date).strip()} {str(raw_time).strip()}"
+            ts = pd.to_datetime(raw, errors="coerce", dayfirst=False)
+            if pd.notna(ts):
+                return ts
+
+    return pd.NaT
+
+
+def collect_ticket_datetime_mapping_from_tsv(period_start: date | None, period_end: date | None) -> pd.DataFrame:
+    """
+    Construit une table de correspondance:
+    Id | DateTimeTSV
+
+    La fonction scanne les TSV dans :
+    - archive/analyse_YYYY-MM-DD/
+    - ROOT/data/
+    - ROOT/
+
+    IMPORTANT :
+    Adapte les listes *_CANDIDATES si tes noms de colonnes diffèrent.
+    """
+
+    TSV_FILE_CANDIDATES = [
+        "matches_meta.tsv",
+        "tickets_meta.tsv",
+        "matches.tsv",
+        "meta.tsv",
+    ]
+
+    ID_COL_CANDIDATES = [
+        "Id", "id", "ticket_id", "ticketId", "ticket_id_ref", "ticket_ref"
+    ]
+
+    DATETIME_COL_CANDIDATES = [
+        "DateTime", "datetime", "match_datetime", "kickoff_datetime", "event_datetime"
+    ]
+
+    DATE_COL_CANDIDATES = [
+        "Jour", "jour", "Date", "date", "match_date", "event_date"
+    ]
+
+    TIME_COL_CANDIDATES = [
+        "Heure", "heure", "Time", "time", "match_time", "event_time", "kickoff_time"
+    ]
+
+    frames = []
+
+    # 1) archives
+    for dday, dpath in list_analyse_dirs():
+        if not in_range(dday, period_start, period_end):
+            continue
+
+        for filename in TSV_FILE_CANDIDATES:
+            tsv_path = dpath / filename
+            if not tsv_path.exists():
+                continue
+
+            df = _safe_read_tsv(tsv_path)
+            if df is None or df.empty:
+                continue
+
+            id_col = _first_existing_col(df, ID_COL_CANDIDATES)
+            dt_col = _first_existing_col(df, DATETIME_COL_CANDIDATES)
+            date_col = _first_existing_col(df, DATE_COL_CANDIDATES)
+            time_col = _first_existing_col(df, TIME_COL_CANDIDATES)
+
+            if not id_col:
+                continue
+            if not dt_col and not (date_col and time_col):
+                continue
+
+            tmp = df.copy()
+            tmp["Id"] = tmp[id_col].apply(_normalize_ticket_id)
+            tmp["DateTimeTSV"] = tmp.apply(
+                lambda row: _build_datetime_from_tsv_row(row, date_col, time_col, dt_col),
+                axis=1
+            )
+            tmp = tmp[tmp["Id"].notna() & tmp["DateTimeTSV"].notna()][["Id", "DateTimeTSV"]]
+            if not tmp.empty:
+                frames.append(tmp)
+
+    # 2) data/
+    for filename in TSV_FILE_CANDIDATES:
+        tsv_path = ROOT / "data" / filename
+        if not tsv_path.exists():
+            continue
+
+        df = _safe_read_tsv(tsv_path)
+        if df is None or df.empty:
+            continue
+
+        id_col = _first_existing_col(df, ID_COL_CANDIDATES)
+        dt_col = _first_existing_col(df, DATETIME_COL_CANDIDATES)
+        date_col = _first_existing_col(df, DATE_COL_CANDIDATES)
+        time_col = _first_existing_col(df, TIME_COL_CANDIDATES)
+
+        if not id_col:
+            continue
+        if not dt_col and not (date_col and time_col):
+            continue
+
+        tmp = df.copy()
+        tmp["Id"] = tmp[id_col].apply(_normalize_ticket_id)
+        tmp["DateTimeTSV"] = tmp.apply(
+            lambda row: _build_datetime_from_tsv_row(row, date_col, time_col, dt_col),
+            axis=1
+        )
+        tmp = tmp[tmp["Id"].notna() & tmp["DateTimeTSV"].notna()][["Id", "DateTimeTSV"]]
+        if not tmp.empty:
+            frames.append(tmp)
+
+    # 3) racine
+    for filename in TSV_FILE_CANDIDATES:
+        tsv_path = ROOT / filename
+        if not tsv_path.exists():
+            continue
+
+        df = _safe_read_tsv(tsv_path)
+        if df is None or df.empty:
+            continue
+
+        id_col = _first_existing_col(df, ID_COL_CANDIDATES)
+        dt_col = _first_existing_col(df, DATETIME_COL_CANDIDATES)
+        date_col = _first_existing_col(df, DATE_COL_CANDIDATES)
+        time_col = _first_existing_col(df, TIME_COL_CANDIDATES)
+
+        if not id_col:
+            continue
+        if not dt_col and not (date_col and time_col):
+            continue
+
+        tmp = df.copy()
+        tmp["Id"] = tmp[id_col].apply(_normalize_ticket_id)
+        tmp["DateTimeTSV"] = tmp.apply(
+            lambda row: _build_datetime_from_tsv_row(row, date_col, time_col, dt_col),
+            axis=1
+        )
+        tmp = tmp[tmp["Id"].notna() & tmp["DateTimeTSV"].notna()][["Id", "DateTimeTSV"]]
+        if not tmp.empty:
+            frames.append(tmp)
+
+    if not frames:
+        return pd.DataFrame(columns=["Id", "DateTimeTSV"])
+
+    out = pd.concat(frames, ignore_index=True)
+
+    # si même Id trouvé plusieurs fois, on garde le timestamp le plus récent
+    out["DateTimeTSV"] = pd.to_datetime(out["DateTimeTSV"], errors="coerce")
+    out = out.dropna(subset=["Id", "DateTimeTSV"])
+    out = out.sort_values(by=["Id", "DateTimeTSV"], ascending=[True, False], kind="mergesort")
+    out = out.drop_duplicates(subset=["Id"], keep="first").reset_index(drop=True)
+
+    return out
+
 
 def load_tickets_dataset(report_filename: str, period_start: date | None, period_end: date | None) -> pd.DataFrame:
     """
-    Charge les tickets depuis (dans cet ordre) :
+    Charge les tickets depuis :
     1) archive/analyse_YYYY-MM-DD/<report_filename>
-    2) ROOT/data/<report_filename>                 ✅ Streamlit Cloud (ton cas)
+    2) ROOT/data/<report_filename>
     3) ROOT/<report_filename>
 
-    Filtre ensuite par Jour si possible.
+    Puis trie par vraie chronologie décroissante :
+    le plus récent en haut.
     """
     frames: list[pd.DataFrame] = []
 
-    # 1) Archives (multi-jours)
+    # 1) Archives
     for dday, dpath in list_analyse_dirs():
         if not in_range(dday, period_start, period_end):
             continue
@@ -155,7 +354,7 @@ def load_tickets_dataset(report_filename: str, period_start: date | None, period
         if df is not None and not df.empty:
             frames.append(df)
 
-    # 2) data/ (important pour Streamlit Cloud)
+    # 2) data/
     data_file = ROOT / "data" / report_filename
     if data_file.exists():
         df_data = parse_tickets_to_play(data_file, fallback_day=None)
@@ -171,40 +370,64 @@ def load_tickets_dataset(report_filename: str, period_start: date | None, period
 
     if not frames:
         return pd.DataFrame(
-            columns=["Jour", "Ticket", "Type", "Id", "Cote", "Fenêtre de jeu", "Nb Matchs", "Détail", "Source"]
+            columns=[
+                "Jour", "Ticket", "Type", "Id", "Cote", "Fenêtre de jeu",
+                "Nb Matchs", "Détail", "Source", "DateTimeTri", "OrdreFichier"
+            ]
         )
 
     df_all = pd.concat(frames, ignore_index=True)
 
-    # Dédup (si un même ticket se retrouve en root + data + archive)
+    # Ordre naturel du fichier : utile si plusieurs tickets ont la même heure
+    df_all["OrdreFichier"] = range(len(df_all))
+
+    # Dédup
     if "Id" in df_all.columns:
         df_all = df_all.drop_duplicates(subset=["Id"], keep="first")
 
-    # Filtre par date (si Jour est dispo)
+    # Filtre par date
     if period_start is not None and period_end is not None:
         df_all = df_all[df_all["Jour"].notna()]
         df_all = df_all[(df_all["Jour"] >= period_start) & (df_all["Jour"] <= period_end)]
 
-    # --- Extraire heure depuis Id pour tri chronologique ---
-    def extract_time_from_id(ticket_id):
+    def extract_datetime_from_id(ticket_id):
+        """
+        Extrait un datetime depuis un ID du type :
+        2026-03-03_1900_c88d2662f5_SYS
+        """
         if not isinstance(ticket_id, str):
-            return None
-        m = re.search(r"\d{4}-\d{2}-\d{2}_(\d{4})_", ticket_id)
-        if m:
-            hhmm = m.group(1)
-            return int(hhmm)
-        return None
+            return pd.NaT
 
-    df_all["HeureTri"] = df_all["Id"].apply(extract_time_from_id)
+        m = re.search(r"(\d{4}-\d{2}-\d{2})_(\d{4})_", ticket_id)
+        if not m:
+            return pd.NaT
 
-    # Tri: jour desc, puis heure asc
-    if "Jour" in df_all.columns:
-        df_all = df_all.sort_values(
-            by=["Jour", "HeureTri"],
-            ascending=[False, True]
+        date_part = m.group(1)
+        time_part = m.group(2)
+
+        try:
+            return pd.to_datetime(f"{date_part} {time_part[:2]}:{time_part[2:]}", errors="coerce")
+        except Exception:
+            return pd.NaT
+
+    df_all["DateTimeTri"] = df_all["Id"].apply(extract_datetime_from_id)
+
+    # Fallback : si jamais on n'arrive pas à extraire l'heure, on garde au moins le jour
+    mask_no_dt = df_all["DateTimeTri"].isna() & df_all["Jour"].notna()
+    if mask_no_dt.any():
+        df_all.loc[mask_no_dt, "DateTimeTri"] = pd.to_datetime(
+            df_all.loc[mask_no_dt, "Jour"].astype(str),
+            errors="coerce"
         )
 
-    df_all = df_all.drop(columns=["HeureTri"], errors="ignore")
+    # Tri final :
+    # - plus récent en haut
+    # - si même heure, on garde le dernier du fichier en haut
+    df_all = df_all.sort_values(
+        by=["DateTimeTri", "OrdreFichier"],
+        ascending=[False, False],
+        kind="mergesort"
+    ).reset_index(drop=True)
 
     return df_all
 
@@ -303,6 +526,49 @@ def attach_verdict(df_tickets: pd.DataFrame, df_verdict: pd.DataFrame) -> pd.Dat
     )
     return df
 
+def sort_tickets_for_display(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Trie les tickets par vraie date/heure extraite de l'Id.
+    Format attendu de l'Id :
+    YYYY-MM-DD_HHMM_xxxxxxxxxx_SUFFIX
+    Exemple :
+    2026-03-01_1615_a762f5a29f_015R
+
+    Résultat :
+    - le plus récent en haut
+    - à heure égale, on garde l'ordre d'origine
+    """
+    if df is None or df.empty:
+        return df
+
+    out = df.copy()
+    out["__row_order"] = range(len(out))
+
+    extracted = out["Id"].astype(str).str.extract(
+        r"(?P<d>\d{4}-\d{2}-\d{2})_(?P<t>\d{4})_"
+    )
+
+    out["DateTimeTri"] = pd.to_datetime(
+        extracted["d"] + " " + extracted["t"].str.slice(0, 2) + ":" + extracted["t"].str.slice(2, 4),
+        errors="coerce"
+    )
+
+    # Fallback si jamais un Id ne matche pas
+    if "Jour" in out.columns:
+        mask_no_dt = out["DateTimeTri"].isna() & out["Jour"].notna()
+        if mask_no_dt.any():
+            out.loc[mask_no_dt, "DateTimeTri"] = pd.to_datetime(
+                out.loc[mask_no_dt, "Jour"].astype(str),
+                errors="coerce"
+            )
+
+    out = out.sort_values(
+        by=["DateTimeTri", "__row_order"],
+        ascending=[False, False],
+        kind="mergesort"
+    ).drop(columns="__row_order").reset_index(drop=True)
+
+    return out
 
 # -----------------------------
 # Sidebar (contrôles)
@@ -397,13 +663,17 @@ with tab1:
     df_sys = attach_verdict(df_sys, df_verdict_sys)
     df_rand = attach_verdict(df_rand, df_verdict_rand)
 
+    # Tri final forcé juste avant affichage
+    df_sys = sort_tickets_for_display(df_sys)
+    df_rand = sort_tickets_for_display(df_rand)
+
     col1, col2 = st.columns(2)
 
     with col1:
         st.subheader("🛡️ Tickets Système (avec statut)")
 
         if not df_sys.empty:
-            show_cols = ["Statut", "Jour", "Ticket", "Cote", "Fenêtre de jeu", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
+            show_cols = ["Statut", "Jour", "DateTimeTri", "Ticket", "Cote", "Fenêtre de jeu", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
             st.dataframe(df_sys[show_cols], use_container_width=True, hide_index=True)
 
             with st.expander("Voir le détail des matchs (Système)"):
@@ -421,7 +691,7 @@ with tab1:
         st.subheader("🎲 Tickets O1.5 Random (avec statut)")
 
         if not df_rand.empty:
-            show_cols = ["Statut", "Jour", "Ticket", "Cote", "Fenêtre de jeu", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
+            show_cols = ["Statut", "Jour", "DateTimeTri", "Ticket", "Cote", "Fenêtre de jeu", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
             st.dataframe(df_rand[show_cols], use_container_width=True, hide_index=True)
 
             with st.expander("Voir le détail des matchs (Random)"):
