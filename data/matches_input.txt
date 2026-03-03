@@ -1,26 +1,25 @@
-2026-03-03 20:45 | championship | Ipswich vs Hull City
-2026-03-03 21:00 | copa del rey | Barcelona vs Atletico Madrid
-2026-03-03 21:00 | coupe de france | Strasbourg vs Reims
-2026-03-03 17:00 | cup | FK Jablonec vs Slavia Praha
-2026-03-03 20:00 | cup | Mlada Boleslav vs Sparta Praha
-2026-03-03 20:45 | cymru premier league | Barry Town vs Penybont
-2026-03-03 20:45 | cymru premier league | GAP Connah S Quay FC vs The New Saints
-2026-03-03 20:45 | fa cup | Port Vale vs Bristol City
-2026-03-03 01:30 | liga pro ecuador | Manta FC vs Independiente del Valle
-2026-03-03 01:30 | liga profesional argentina | Banfield vs Aldosivi
-2026-03-03 01:30 | liga profesional argentina | Independ. Rivadavia vs River Plate
-2026-03-03 23:00 | liga profesional argentina | Sarmiento Junin vs Estudiantes de Rio Cuarto
-2026-03-03 23:15 | liga profesional argentina | Huracan vs Belgrano Cordoba
-2026-03-03 20:30 | premier league | Bournemouth vs Brentford
-2026-03-03 20:30 | premier league | Everton vs Burnley
-2026-03-03 20:30 | premier league | Leeds vs Sunderland
-2026-03-03 21:15 | premier league | Wolves vs Liverpool
-2026-03-03 20:45 | premiership | Dundee Utd vs ST Mirren
-2026-03-03 00:30 | primera división paraguay | Club Sp. San Lorenzo vs Libertad Asuncion
-2026-03-03 19:00 | serie b | Padova vs Spezia
-2026-03-03 20:00 | serie b | Cesena vs Monza
-2026-03-03 20:00 | serie b | Reggiana vs Sudtirol
-2026-03-03 20:00 | serie b | Venezia vs Avellino
-2026-03-03 20:00 | serie b | Virtus Entella vs Modena
-2026-03-03 20:30 | super league switzerland | FC Winterthur vs Servette FC
-2026-03-03 21:45 | taça de portugal | Sporting CP vs FC Porto
+2026-03-04 20:30 | bundesliga | Hamburger SV vs Bayer Leverkusen
+2026-03-04 21:00 | copa del rey | Real Sociedad vs Athletic Club
+2026-03-04 20:30 | coupe de france | Lorient vs Nice
+2026-03-04 21:00 | coupe de france | Marseille vs Toulouse
+2026-03-04 17:00 | cup | Hradec Králové vs Baník Ostrava
+2026-03-04 19:00 | laliga | Rayo Vallecano vs Oviedo
+2026-03-04 02:00 | liga mx | Pachuca vs Necaxa
+2026-03-04 02:00 | liga mx | Santos Laguna vs Cruz Azul
+2026-03-04 04:00 | liga mx | Atletico San Luis vs Mazatlán
+2026-03-04 04:10 | liga mx | U.N.A.M. - Pumas vs Toluca
+2026-03-04 01:15 | liga profesional argentina | Atletico Tucuman vs Racing Club
+2026-03-04 20:30 | premier league | Aston Villa vs Chelsea
+2026-03-04 20:30 | premier league | Brighton vs Arsenal
+2026-03-04 20:30 | premier league | Fulham vs West Ham
+2026-03-04 20:30 | premier league | Manchester City vs Nottingham Forest
+2026-03-04 21:15 | premier league | Newcastle vs Manchester United
+2026-03-04 21:00 | premiership | Aberdeen vs Celtic
+2026-03-04 19:00 | serie b | Carrarese vs Catanzaro
+2026-03-04 20:00 | serie b | Bari vs Empoli
+2026-03-04 20:00 | serie b | Frosinone vs Pescara
+2026-03-04 20:00 | serie b | Juve Stabia vs Sampdoria
+2026-03-04 20:00 | serie b | Palermo vs Mantova
+2026-03-04 20:30 | super league switzerland | FC Lugano vs FC Sion
+2026-03-04 20:30 | super league switzerland | FC Luzern vs BSC Young Boys
+2026-03-04 20:30 | super league switzerland | FC Zurich vs Lausanne
