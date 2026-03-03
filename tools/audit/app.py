@@ -673,7 +673,9 @@ with tab1:
         st.subheader("🛡️ Tickets Système (avec statut)")
 
         if not df_sys.empty:
-            show_cols = ["Statut", "Jour", "DateTimeTri", "Ticket", "Cote", "Fenêtre de jeu", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
+            df_sys["Heure"] = df_sys["DateTimeTri"].dt.strftime("%H:%M")
+            df_sys["Heure"] = df_sys["Heure"].fillna("—")
+            show_cols = ["Statut", "Jour", "Heure", "Ticket", "Cote", "Fenêtre de jeu", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
             st.dataframe(df_sys[show_cols], use_container_width=True, hide_index=True)
 
             with st.expander("Voir le détail des matchs (Système)"):
@@ -691,7 +693,9 @@ with tab1:
         st.subheader("🎲 Tickets O1.5 Random (avec statut)")
 
         if not df_rand.empty:
-            show_cols = ["Statut", "Jour", "DateTimeTri", "Ticket", "Cote", "Fenêtre de jeu", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
+            df_rand["Heure"] = df_rand["DateTimeTri"].dt.strftime("%H:%M")
+            df_rand["Heure"] = df_rand["Heure"].fillna("—")
+            show_cols = ["Statut", "Jour", "Heure", "Ticket", "Cote", "Fenêtre de jeu", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
             st.dataframe(df_rand[show_cols], use_container_width=True, hide_index=True)
 
             with st.expander("Voir le détail des matchs (Random)"):
