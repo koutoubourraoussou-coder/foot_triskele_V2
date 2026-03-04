@@ -14297,3 +14297,108 @@ TSV:	698180312	2026-03-04	super league switzerland	FC Zurich	Lausanne	TEAM2_SCOR
 TSV:	698180312	2026-03-04	super league switzerland	FC Zurich	Lausanne	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.2 fixture=1494563	20:30
 TSV:	698180312	2026-03-04	super league switzerland	FC Zurich	Lausanne	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=3 fixture=1494563	20:30
 TSV:	698180312	2026-03-04	super league switzerland	FC Zurich	Lausanne	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.15 fixture=1494563	20:30
+TSV:	708227676	2026-03-05	coupe de france	Lyon	Lens	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.33 fixture=1519245	21:10
+TSV:	708227676	2026-03-05	coupe de france	Lyon	Lens	HT1X_HOME	HT 1X Home	4.0	FORT	0	odd=1.36 fixture=1519245	21:10
+TSV:	708227676	2026-03-05	coupe de france	Lyon	Lens	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.22 fixture=1519245	21:10
+TSV:	708227676	2026-03-05	coupe de france	Lyon	Lens	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.25 fixture=1519245	21:10
+TSV:	708227676	2026-03-05	coupe de france	Lyon	Lens	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.22 fixture=1519245	21:10
+TSV:	708227676	2026-03-05	coupe de france	Lyon	Lens	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.55 fixture=1519245	21:10
+TSV:	708227676	2026-03-05	coupe de france	Lyon	Lens	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=2.6 fixture=1519245	21:10
+TSV:	1015321793	2026-03-05	cup	Karviná	Plzen	HT05	HT+0.5	4.0	FORT	0	odd=1.33 fixture=1489363	17:00
+TSV:	1015321793	2026-03-05	cup	Karviná	Plzen	HT1X_HOME	HT 1X Home	0.0	KO	0	odd=1.57 fixture=1489363	17:00
+TSV:	1015321793	2026-03-05	cup	Karviná	Plzen	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.44 fixture=1489363	17:00
+TSV:	1015321793	2026-03-05	cup	Karviná	Plzen	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	odd=1.12 fixture=1489363	17:00
+TSV:	1015321793	2026-03-05	cup	Karviná	Plzen	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.22 fixture=1489363	17:00
+TSV:	1015321793	2026-03-05	cup	Karviná	Plzen	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=4.5 fixture=1489363	17:00
+TSV:	1015321793	2026-03-05	cup	Karviná	Plzen	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	odd=1.73 fixture=1489363	17:00
+TSV:	2014122597	2026-03-05	liga mx	Monterrey	Club Queretaro	HT05	HT+0.5	7.0	EXPLOSION	1	odd=1.3 fixture=1492539	02:00
+TSV:	2014122597	2026-03-05	liga mx	Monterrey	Club Queretaro	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.07 fixture=1492539	02:00
+TSV:	2014122597	2026-03-05	liga mx	Monterrey	Club Queretaro	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.08 fixture=1492539	02:00
+TSV:	2014122597	2026-03-05	liga mx	Monterrey	Club Queretaro	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.57 fixture=1492539	02:00
+TSV:	2014122597	2026-03-05	liga mx	Monterrey	Club Queretaro	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	odd=1.2 fixture=1492539	02:00
+TSV:	2014122597	2026-03-05	liga mx	Monterrey	Club Queretaro	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.44 fixture=1492539	02:00
+TSV:	2014122597	2026-03-05	liga mx	Monterrey	Club Queretaro	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=6.4 fixture=1492539	02:00
+TSV:	2980872551	2026-03-05	liga mx	Puebla	Tigres UANL	HT05	HT+0.5	5.0	FORT PLUS	1	odd=1.36 fixture=1492540	02:00
+TSV:	2980872551	2026-03-05	liga mx	Puebla	Tigres UANL	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	odd=1.5 fixture=1492540	02:00
+TSV:	2980872551	2026-03-05	liga mx	Puebla	Tigres UANL	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.36 fixture=1492540	02:00
+TSV:	2980872551	2026-03-05	liga mx	Puebla	Tigres UANL	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.18 fixture=1492540	02:00
+TSV:	2980872551	2026-03-05	liga mx	Puebla	Tigres UANL	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	odd=1.28 fixture=1492540	02:00
+TSV:	2980872551	2026-03-05	liga mx	Puebla	Tigres UANL	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.6 fixture=1492540	02:00
+TSV:	2980872551	2026-03-05	liga mx	Puebla	Tigres UANL	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	odd=1.97 fixture=1492540	02:00
+TSV:	2598110976	2026-03-05	liga mx	Atlas	Club Tijuana	HT05	HT+0.5	5.0	FORT PLUS	1	odd=1.36 fixture=1492541	04:00
+TSV:	2598110976	2026-03-05	liga mx	Atlas	Club Tijuana	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.22 fixture=1492541	04:00
+TSV:	2598110976	2026-03-05	liga mx	Atlas	Club Tijuana	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.22 fixture=1492541	04:00
+TSV:	2598110976	2026-03-05	liga mx	Atlas	Club Tijuana	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.36 fixture=1492541	04:00
+TSV:	2598110976	2026-03-05	liga mx	Atlas	Club Tijuana	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.28 fixture=1492541	04:00
+TSV:	2598110976	2026-03-05	liga mx	Atlas	Club Tijuana	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.12 fixture=1492541	04:00
+TSV:	2598110976	2026-03-05	liga mx	Atlas	Club Tijuana	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.25 fixture=1492541	04:00
+TSV:	464362863	2026-03-05	liga mx	Club America	FC Juarez	HT05	HT+0.5	5.0	FORT PLUS	1	odd=1.38 fixture=1492542	04:00
+TSV:	464362863	2026-03-05	liga mx	Club America	FC Juarez	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.1 fixture=1492542	04:00
+TSV:	464362863	2026-03-05	liga mx	Club America	FC Juarez	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.12 fixture=1492542	04:00
+TSV:	464362863	2026-03-05	liga mx	Club America	FC Juarez	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.73 fixture=1492542	04:00
+TSV:	464362863	2026-03-05	liga mx	Club America	FC Juarez	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.33 fixture=1492542	04:00
+TSV:	464362863	2026-03-05	liga mx	Club America	FC Juarez	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	odd=1.54 fixture=1492542	04:00
+TSV:	464362863	2026-03-05	liga mx	Club America	FC Juarez	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=6.5 fixture=1492542	04:00
+TSV:	371110963	2026-03-05	liga profesional argentina	Lanus	Boca Juniors	HT05	HT+0.5	1.0	FAIBLE	0	odd=1.6 fixture=1491915	01:00
+TSV:	371110963	2026-03-05	liga profesional argentina	Lanus	Boca Juniors	HT1X_HOME	HT 1X Home	4.0	FORT	0	odd=1.25 fixture=1491915	01:00
+TSV:	371110963	2026-03-05	liga profesional argentina	Lanus	Boca Juniors	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.44 fixture=1491915	01:00
+TSV:	371110963	2026-03-05	liga profesional argentina	Lanus	Boca Juniors	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.44 fixture=1491915	01:00
+TSV:	371110963	2026-03-05	liga profesional argentina	Lanus	Boca Juniors	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	odd=1.6 fixture=1491915	01:00
+TSV:	371110963	2026-03-05	liga profesional argentina	Lanus	Boca Juniors	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.78 fixture=1491915	01:00
+TSV:	371110963	2026-03-05	liga profesional argentina	Lanus	Boca Juniors	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.78 fixture=1491915	01:00
+TSV:	3003164620	2026-03-05	liga profesional argentina	Gimnasia M.	Defensa Y Justicia	HT05	HT+0.5	4.0	FORT	0	fixture=1491944	22:30
+TSV:	3003164620	2026-03-05	liga profesional argentina	Gimnasia M.	Defensa Y Justicia	HT1X_HOME	HT 1X Home	8.0	MEGA EXPLOSION	1	fixture=1491944	22:30
+TSV:	3003164620	2026-03-05	liga profesional argentina	Gimnasia M.	Defensa Y Justicia	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	fixture=1491944	22:30
+TSV:	3003164620	2026-03-05	liga profesional argentina	Gimnasia M.	Defensa Y Justicia	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	fixture=1491944	22:30
+TSV:	3003164620	2026-03-05	liga profesional argentina	Gimnasia M.	Defensa Y Justicia	O15_FT	Over 1.5 (FT)	4.0	FORT	0	fixture=1491944	22:30
+TSV:	3003164620	2026-03-05	liga profesional argentina	Gimnasia M.	Defensa Y Justicia	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	fixture=1491944	22:30
+TSV:	3003164620	2026-03-05	liga profesional argentina	Gimnasia M.	Defensa Y Justicia	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	fixture=1491944	22:30
+TSV:	1646248500	2026-03-05	premier league	Tottenham	Crystal Palace	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.36 fixture=1379257	21:00
+TSV:	1646248500	2026-03-05	premier league	Tottenham	Crystal Palace	HT1X_HOME	HT 1X Home	1.0	FAIBLE	0	odd=1.25 fixture=1379257	21:00
+TSV:	1646248500	2026-03-05	premier league	Tottenham	Crystal Palace	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.22 fixture=1379257	21:00
+TSV:	1646248500	2026-03-05	premier league	Tottenham	Crystal Palace	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	odd=1.3 fixture=1379257	21:00
+TSV:	1646248500	2026-03-05	premier league	Tottenham	Crystal Palace	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	odd=1.25 fixture=1379257	21:00
+TSV:	1646248500	2026-03-05	premier league	Tottenham	Crystal Palace	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.32 fixture=1379257	21:00
+TSV:	1646248500	2026-03-05	premier league	Tottenham	Crystal Palace	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=2.94 fixture=1379257	21:00
+TSV:	1544112114	2026-03-05	primera a colombia	Fortaleza FC	Jaguares	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.42 fixture=1506022	02:00
+TSV:	1544112114	2026-03-05	primera a colombia	Fortaleza FC	Jaguares	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.05 fixture=1506022	02:00
+TSV:	1544112114	2026-03-05	primera a colombia	Fortaleza FC	Jaguares	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.09 fixture=1506022	02:00
+TSV:	1544112114	2026-03-05	primera a colombia	Fortaleza FC	Jaguares	TEAM2_SCORE_FT	Team2 scores (FT)	6.0	TRÈS FORT	1	odd=2.08 fixture=1506022	02:00
+TSV:	1544112114	2026-03-05	primera a colombia	Fortaleza FC	Jaguares	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	odd=1.33 fixture=1506022	02:00
+TSV:	1544112114	2026-03-05	primera a colombia	Fortaleza FC	Jaguares	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.38 fixture=1506022	02:00
+TSV:	1544112114	2026-03-05	primera a colombia	Fortaleza FC	Jaguares	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=8.6 fixture=1506022	02:00
+TSV:	356251993	2026-03-05	primera a colombia	Deportes Tolima	Santa Fe	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.5 fixture=1506020	22:00
+TSV:	356251993	2026-03-05	primera a colombia	Deportes Tolima	Santa Fe	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.2 fixture=1506020	22:00
+TSV:	356251993	2026-03-05	primera a colombia	Deportes Tolima	Santa Fe	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.31 fixture=1506020	22:00
+TSV:	356251993	2026-03-05	primera a colombia	Deportes Tolima	Santa Fe	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.54 fixture=1506020	22:00
+TSV:	356251993	2026-03-05	primera a colombia	Deportes Tolima	Santa Fe	O15_FT	Over 1.5 (FT)	0.0	KO	0	odd=1.5 fixture=1506020	22:00
+TSV:	356251993	2026-03-05	primera a colombia	Deportes Tolima	Santa Fe	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.12 fixture=1506020	22:00
+TSV:	356251993	2026-03-05	primera a colombia	Deportes Tolima	Santa Fe	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.7 fixture=1506020	22:00
+TSV:	3075917994	2026-03-05	saudi arabia	Al Kholood	Al-Qadisiyah FC	HT05	HT+0.5	5.0	FORT PLUS	1	odd=1.25 fixture=1436131	20:00
+TSV:	3075917994	2026-03-05	saudi arabia	Al Kholood	Al-Qadisiyah FC	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.8 fixture=1436131	20:00
+TSV:	3075917994	2026-03-05	saudi arabia	Al Kholood	Al-Qadisiyah FC	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.5 fixture=1436131	20:00
+TSV:	3075917994	2026-03-05	saudi arabia	Al Kholood	Al-Qadisiyah FC	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	odd=1.07 fixture=1436131	20:00
+TSV:	3075917994	2026-03-05	saudi arabia	Al Kholood	Al-Qadisiyah FC	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.17 fixture=1436131	20:00
+TSV:	3075917994	2026-03-05	saudi arabia	Al Kholood	Al-Qadisiyah FC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=6 fixture=1436131	20:00
+TSV:	3075917994	2026-03-05	saudi arabia	Al Kholood	Al-Qadisiyah FC	TEAM2_WIN_FT	Team2 wins (FT)	4.0	FORT	0	odd=1.42 fixture=1436131	20:00
+TSV:	1531447790	2026-03-05	saudi arabia	Damac	Al Riyadh	HT05	HT+0.5	7.0	EXPLOSION	1	odd=1.5 fixture=1436132	20:00
+TSV:	1531447790	2026-03-05	saudi arabia	Damac	Al Riyadh	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.25 fixture=1436132	20:00
+TSV:	1531447790	2026-03-05	saudi arabia	Damac	Al Riyadh	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.29 fixture=1436132	20:00
+TSV:	1531447790	2026-03-05	saudi arabia	Damac	Al Riyadh	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.4 fixture=1436132	20:00
+TSV:	1531447790	2026-03-05	saudi arabia	Damac	Al Riyadh	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.4 fixture=1436132	20:00
+TSV:	1531447790	2026-03-05	saudi arabia	Damac	Al Riyadh	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.25 fixture=1436132	20:00
+TSV:	1531447790	2026-03-05	saudi arabia	Damac	Al Riyadh	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3 fixture=1436132	20:00
+TSV:	1684379280	2026-03-05	super league switzerland	FC Basel 1893	Grasshoppers	HT05	HT+0.5	6.0	TRÈS FORT	1	odd=1.25 fixture=1494564	20:30
+TSV:	1684379280	2026-03-05	super league switzerland	FC Basel 1893	Grasshoppers	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.18 fixture=1494564	20:30
+TSV:	1684379280	2026-03-05	super league switzerland	FC Basel 1893	Grasshoppers	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	odd=1.1 fixture=1494564	20:30
+TSV:	1684379280	2026-03-05	super league switzerland	FC Basel 1893	Grasshoppers	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	odd=1.36 fixture=1494564	20:30
+TSV:	1684379280	2026-03-05	super league switzerland	FC Basel 1893	Grasshoppers	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.18 fixture=1494564	20:30
+TSV:	1684379280	2026-03-05	super league switzerland	FC Basel 1893	Grasshoppers	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.62 fixture=1494564	20:30
+TSV:	1684379280	2026-03-05	super league switzerland	FC Basel 1893	Grasshoppers	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.6 fixture=1494564	20:30
+TSV:	1586313996	2026-03-05	super league switzerland	FC Thun	FC ST. Gallen	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.22 fixture=1494565	20:30
+TSV:	1586313996	2026-03-05	super league switzerland	FC Thun	FC ST. Gallen	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.3 fixture=1494565	20:30
+TSV:	1586313996	2026-03-05	super league switzerland	FC Thun	FC ST. Gallen	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	odd=1.15 fixture=1494565	20:30
+TSV:	1586313996	2026-03-05	super league switzerland	FC Thun	FC ST. Gallen	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	odd=1.22 fixture=1494565	20:30
+TSV:	1586313996	2026-03-05	super league switzerland	FC Thun	FC ST. Gallen	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.17 fixture=1494565	20:30
+TSV:	1586313996	2026-03-05	super league switzerland	FC Thun	FC ST. Gallen	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=2.1 fixture=1494565	20:30
+TSV:	1586313996	2026-03-05	super league switzerland	FC Thun	FC ST. Gallen	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.1 fixture=1494565	20:30

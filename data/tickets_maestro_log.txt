@@ -1,4 +1,4 @@
-RUN MAESTROLOGUE — 2026-03-04 00:03:50
+RUN MAESTROLOGUE — 2026-03-05 00:09:10
 - source_tsv: predictions.tsv
 - run_date: ALL
 - maestro_level: 3
@@ -8,321 +8,149 @@ MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
 ----------------------------------------------------------
 - generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
 - règle: préférer 3L si écart <= 3.00%
-- iterations: 24253 | valid_3L_found: 6438 | valid_4L_found: 0
-- top3_size: 1 | top4_size: 0
+- iterations: 15963 | valid_3L_found: 15963 | valid_4L_found: 15963
+- top3_size: 5 | top4_size: 4
 
 TOP3 (desc):
-  TOP3[1/1]: score=0.830 (83.0%) | legs=3 | odd=2.24
+  TOP3[1/5]: score=0.732 (73.2%) | legs=3 | odd=2.44
+  TOP3[2/5]: score=0.732 (73.2%) | legs=3 | odd=2.35
+  TOP3[3/5]: score=0.690 (69.0%) | legs=3 | odd=2.3
+  TOP3[4/5]: score=0.690 (69.0%) | legs=3 | odd=2.21
+  TOP3[5/5]: score=0.688 (68.8%) | legs=3 | odd=2.4
 
 TOP4 (desc):
-  (vide)
+  TOP4[1/4]: score=0.692 (69.2%) | legs=4 | odd=3.32
+  TOP4[2/4]: score=0.692 (69.2%) | legs=4 | odd=3.2
+  TOP4[3/4]: score=0.661 (66.1%) | legs=4 | odd=3.12
+  TOP4[4/4]: score=0.661 (66.1%) | legs=4 | odd=3.01
 
-DRAW_3L: picked rank=1/1 | score=0.830 (83.0%) | odd=2.24
-DRAW_4L: (aucun)
-- écart relatif: —
-=> choisi: 3 legs | score=0.830 (83.0%)
+DRAW_3L: picked rank=2/5 | score=0.732 (73.2%) | odd=2.35
+DRAW_4L: picked rank=1/4 | score=0.692 (69.2%) | odd=3.32
+- écart relatif: 5.81%
+=> choisi: 3 legs | score=0.732 (73.2%)
 
 Ticket choisi (aperçu)
 ----------------------
-  1) 01:15 | liga profesional argentina | Atletico Tucuman vs Racing Club | HT1X_HOME | odd=1.3
-  2) 02:00 | liga mx | Santos Laguna vs Cruz Azul | HT05 | odd=1.25
-  3) 02:00 | liga mx | Pachuca vs Necaxa | HT05 | odd=1.38
+  1) 02:00 | liga mx | Monterrey vs Club Queretaro | HT05 | odd=1.3
+  2) 04:00 | liga mx | Atlas vs Club Tijuana | HT05 | odd=1.36
+  3) 04:00 | liga mx | Club America vs FC Juarez | O15_FT | odd=1.33
 
 MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM)
 --------------------------------------------------------
-- score ticket: 0.830 (83.0%)
+- score ticket: 0.732 (73.2%)
 - formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
 
-1) 01:15 | liga profesional argentina | Atletico Tucuman vs Racing Club | bet=HT1X_HOME | odd=1.3
-   HOME Atletico Tucuman: wr=1.00 dec=3 coef=0.850 => adj=0.850 (85.0%)
-   AWAY Racing Club: wr=0.67 dec=3 coef=0.850 => adj=0.567 (56.7%)
+1) 02:00 | liga mx | Monterrey vs Club Queretaro | bet=HT05 | odd=1.3
+   HOME Monterrey: wr=0.75 dec=8 coef=1.000 => adj=0.750 (75.0%)
+   AWAY Club Queretaro: wr=0.67 dec=6 coef=1.000 => adj=0.667 (66.7%)
    MEAN match: 0.708 (70.8%)
 
-2) 02:00 | liga mx | Santos Laguna vs Cruz Azul | bet=HT05 | odd=1.25
-   HOME Santos Laguna: wr=1.00 dec=7 coef=1.000 => adj=1.000 (100.0%)
-   AWAY Cruz Azul: wr=0.86 dec=7 coef=1.000 => adj=0.857 (85.7%)
-   MEAN match: 0.929 (92.9%)
+2) 04:00 | liga mx | Atlas vs Club Tijuana | bet=HT05 | odd=1.36
+   HOME Atlas: wr=1.00 dec=8 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Club Tijuana: wr=0.57 dec=7 coef=1.000 => adj=0.571 (57.1%)
+   MEAN match: 0.786 (78.6%)
 
-3) 02:00 | liga mx | Pachuca vs Necaxa | bet=HT05 | odd=1.38
-   HOME Pachuca: wr=0.83 dec=6 coef=1.000 => adj=0.833 (83.3%)
-   AWAY Necaxa: wr=0.88 dec=8 coef=1.000 => adj=0.875 (87.5%)
-   MEAN match: 0.854 (85.4%)
+3) 04:00 | liga mx | Club America vs FC Juarez | bet=O15_FT | odd=1.33
+   HOME Club America: wr=0.57 dec=7 coef=1.000 => adj=0.571 (57.1%)
+   AWAY FC Juarez: wr=0.83 dec=6 coef=1.000 => adj=0.833 (83.3%)
+   MEAN match: 0.702 (70.2%)
 
 
 MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
 ----------------------------------------------------------
 - generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
 - règle: préférer 3L si écart <= 3.00%
-- iterations: 14581 | valid_3L_found: 3682 | valid_4L_found: 13735
+- iterations: 14825 | valid_3L_found: 3672 | valid_4L_found: 13473
 - top3_size: 5 | top4_size: 5
 
 TOP3 (desc):
-  TOP3[1/5]: score=0.858 (85.8%) | legs=3 | odd=2.24
-  TOP3[2/5]: score=0.856 (85.6%) | legs=3 | odd=2.25
-  TOP3[3/5]: score=0.848 (84.8%) | legs=3 | odd=2.24
-  TOP3[4/5]: score=0.847 (84.7%) | legs=3 | odd=2.32
-  TOP3[5/5]: score=0.847 (84.7%) | legs=3 | odd=2.29
+  TOP3[1/5]: score=0.807 (80.7%) | legs=3 | odd=2.29
+  TOP3[2/5]: score=0.803 (80.3%) | legs=3 | odd=2.23
+  TOP3[3/5]: score=0.800 (80.0%) | legs=3 | odd=2.29
+  TOP3[4/5]: score=0.779 (77.9%) | legs=3 | odd=2.39
+  TOP3[5/5]: score=0.765 (76.5%) | legs=3 | odd=2.23
 
 TOP4 (desc):
-  TOP4[1/5]: score=0.890 (89.0%) | legs=4 | odd=2.53
-  TOP4[2/5]: score=0.889 (88.9%) | legs=4 | odd=2.59
-  TOP4[3/5]: score=0.883 (88.3%) | legs=4 | odd=2.63
-  TOP4[4/5]: score=0.879 (87.9%) | legs=4 | odd=2.36
-  TOP4[5/5]: score=0.878 (87.8%) | legs=4 | odd=2.38
+  TOP4[1/5]: score=0.834 (83.4%) | legs=4 | odd=2.53
+  TOP4[2/5]: score=0.831 (83.1%) | legs=4 | odd=2.42
+  TOP4[3/5]: score=0.824 (82.4%) | legs=4 | odd=2.36
+  TOP4[4/5]: score=0.821 (82.1%) | legs=4 | odd=2.26
+  TOP4[5/5]: score=0.817 (81.7%) | legs=4 | odd=2.68
 
-DRAW_3L: picked rank=2/5 | score=0.856 (85.6%) | odd=2.25
-DRAW_4L: picked rank=3/5 | score=0.883 (88.3%) | odd=2.63
-- écart relatif: 3.00%
-=> choisi: 4 legs | score=0.883 (88.3%)
+DRAW_3L: picked rank=5/5 | score=0.765 (76.5%) | odd=2.23
+DRAW_4L: picked rank=1/5 | score=0.834 (83.4%) | odd=2.53
+- écart relatif: 8.35%
+=> choisi: 4 legs | score=0.834 (83.4%)
 
 Ticket choisi (aperçu)
 ----------------------
-  1) 19:00 | laliga | Rayo Vallecano vs Oviedo | O15_FT | odd=1.38
-  2) 20:00 | serie b | Palermo vs Mantova | O15_FT | odd=1.25
-  3) 20:30 | premier league | Fulham vs West Ham | O15_FT | odd=1.22
-  4) 20:30 | super league switzerland | FC Zurich vs Lausanne | TEAM1_SCORE_FT | odd=1.25
+  1) 20:00 | saudi arabia | Damac vs Al Riyadh | HT05 | odd=1.5
+  2) 20:30 | super league switzerland | FC Thun vs FC ST. Gallen | O15_FT | odd=1.17
+  3) 20:30 | super league switzerland | FC Basel 1893 vs Grasshoppers | O15_FT | odd=1.18
+  4) 21:10 | coupe de france | Lyon vs Lens | O15_FT | odd=1.22
 
 MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM)
 --------------------------------------------------------
-- score ticket: 0.883 (88.3%)
+- score ticket: 0.834 (83.4%)
 - formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
 
-1) 19:00 | laliga | Rayo Vallecano vs Oviedo | bet=O15_FT | odd=1.38
-   HOME Rayo Vallecano: wr=1.00 dec=7 coef=1.000 => adj=1.000 (100.0%)
-   AWAY Oviedo: wr=0.75 dec=8 coef=1.000 => adj=0.750 (75.0%)
-   MEAN match: 0.875 (87.5%)
+1) 20:00 | saudi arabia | Damac vs Al Riyadh | bet=HT05 | odd=1.5
+   HOME Damac: wr=0.85 dec=13 coef=1.000 => adj=0.846 (84.6%)
+   AWAY Al Riyadh: wr=0.83 dec=12 coef=1.000 => adj=0.833 (83.3%)
+   MEAN match: 0.840 (84.0%)
 
-2) 20:00 | serie b | Palermo vs Mantova | bet=O15_FT | odd=1.25
-   HOME Palermo: wr=0.88 dec=8 coef=1.000 => adj=0.875 (87.5%)
-   AWAY Mantova: wr=0.89 dec=9 coef=1.000 => adj=0.889 (88.9%)
-   MEAN match: 0.882 (88.2%)
+2) 20:30 | super league switzerland | FC Thun vs FC ST. Gallen | bet=O15_FT | odd=1.17
+   HOME FC Thun: wr=0.86 dec=7 coef=1.000 => adj=0.857 (85.7%)
+   AWAY FC ST. Gallen: wr=0.88 dec=8 coef=1.000 => adj=0.875 (87.5%)
+   MEAN match: 0.866 (86.6%)
 
-3) 20:30 | premier league | Fulham vs West Ham | bet=O15_FT | odd=1.22
-   HOME Fulham: wr=0.90 dec=10 coef=1.000 => adj=0.900 (90.0%)
-   AWAY West Ham: wr=0.88 dec=8 coef=1.000 => adj=0.875 (87.5%)
-   MEAN match: 0.887 (88.8%)
+3) 20:30 | super league switzerland | FC Basel 1893 vs Grasshoppers | bet=O15_FT | odd=1.18
+   HOME FC Basel 1893: wr=1.00 dec=7 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Grasshoppers: wr=0.71 dec=7 coef=1.000 => adj=0.714 (71.4%)
+   MEAN match: 0.857 (85.7%)
 
-4) 20:30 | super league switzerland | FC Zurich vs Lausanne | bet=TEAM1_SCORE_FT | odd=1.25
-   HOME FC Zurich: wr=1.00 dec=3 coef=0.850 => adj=0.850 (85.0%)
-   AWAY Lausanne: wr=1.00 dec=4 coef=0.925 => adj=0.925 (92.5%)
-   MEAN match: 0.887 (88.8%)
+4) 21:10 | coupe de france | Lyon vs Lens | bet=O15_FT | odd=1.22
+   HOME Lyon: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   AWAY Lens: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   MEAN match: 0.775 (77.5%)
 
 
-MAESTROLOGUE — SYSTEM — 2026-03-04
+MAESTROLOGUE — SYSTEM — 2026-03-05
 ========================================
-- picks_total: 51
+- picks_total: 22
 - base_spread: 90 min (rich=True)
-- day_max_possible_odd: 4.29
+- day_max_possible_odd: 5.86
 - threshold_used: 2.2 (target=2.2, fallback=1.7)
 
-Tranche scan: idx=0 | next_window_start=01:15
-  tranche_seed: 01:15 → 02:45
+Tranche scan: idx=0 | next_window_start=02:00
+  tranche_seed: 02:00 → 03:30
 
-  merge_until: j=0 | merged_in_window=7
-    - ok_window(after_perf_if_SYSTEM): 5
+  merge_until: j=0 | merged_in_window=4
+    - ok_window(after_perf_if_SYSTEM): 2
     - perf_reject: 2
     - out_window: 0
     - no_odd: 0 | odd_too_low: 0
-    - max_possible_odd(ok_window): 2.24
-
-      PERF_REJECT: 01:15 | liga profesional argentina | Atletico Tucuman vs Racing Club | O15_FT | odd=1.5 || LEAGUE_BET_LOW_SR | league=liga profesional argentina bet=O15_FT wr=0.50 decided=94 (min_wr=0.65)
-      PERF_REJECT: 02:00 | liga mx | Santos Laguna vs Cruz Azul | TEAM2_WIN_FT | odd=1.46 || GLOBAL_BET_LOW_SR | fam=TEAM2_WIN_FT wr=0.66 decided=41 (min_wr=0.70)
-
-Ticket: tranche=1 | cote=2.24 | 01:15 → 03:50 | fenêtre=45min
-  1) 01:15 | liga profesional argentina | Atletico Tucuman vs Racing Club | HT1X_HOME | odd=1.3
-  2) 02:00 | liga mx | Santos Laguna vs Cruz Azul | HT05 | odd=1.25
-  3) 02:00 | liga mx | Pachuca vs Necaxa | HT05 | odd=1.38
-
-Tranche scan: idx=1 | next_window_start=03:50
-  tranche_seed: 04:00 → 05:30
-
-  merge_until: j=1 | merged_in_window=4
-    - ok_window(after_perf_if_SYSTEM): 4
-    - perf_reject: 0
-    - out_window: 0
-    - no_odd: 0 | odd_too_low: 0
     - max_possible_odd(ok_window): 1.77
 
-  merge_until: j=2 | merged_in_window=5
-    - ok_window(after_perf_if_SYSTEM): 4
-    - perf_reject: 1
+      PERF_REJECT: 02:00 | primera a colombia | Fortaleza FC vs Jaguares | TEAM2_SCORE_FT | odd=2.08 || LEAGUE_BET_LOW_SR | league=primera a colombia bet=TEAM2_SCORE_FT wr=0.65 decided=62 (min_wr=0.70)
+      PERF_REJECT: 02:00 | primera a colombia | Fortaleza FC vs Jaguares | HT05 | odd=1.42 || LEAGUE_BET_LOW_SR | league=primera a colombia bet=HT05 wr=0.63 decided=62 (min_wr=0.70)
+
+  merge_until: j=1 | merged_in_window=8
+    - ok_window(after_perf_if_SYSTEM): 6
+    - perf_reject: 2
     - out_window: 0
     - no_odd: 0 | odd_too_low: 0
-    - max_possible_odd(ok_window): 1.77
+    - max_possible_odd(ok_window): 3.32
 
-      PERF_REJECT: 17:00 | cup | Hradec Králové vs Baník Ostrava | HT1X_HOME | odd=1.25 || LEAGUE_BET_NO_DATA | league=cup bet=HT1X_HOME decided=0 (require_data=True)
+      PERF_REJECT: 02:00 | primera a colombia | Fortaleza FC vs Jaguares | TEAM2_SCORE_FT | odd=2.08 || LEAGUE_BET_LOW_SR | league=primera a colombia bet=TEAM2_SCORE_FT wr=0.65 decided=62 (min_wr=0.70)
+      PERF_REJECT: 02:00 | primera a colombia | Fortaleza FC vs Jaguares | HT05 | odd=1.42 || LEAGUE_BET_LOW_SR | league=primera a colombia bet=HT05 wr=0.63 decided=62 (min_wr=0.70)
 
-  merge_until: j=3 | merged_in_window=34
-    - ok_window(after_perf_if_SYSTEM): 31
-    - perf_reject: 3
-    - out_window: 0
-    - no_odd: 0 | odd_too_low: 0
-    - max_possible_odd(ok_window): 3.73
+Ticket: tranche=1 | cote=2.35 | 02:00 → 05:50 | fenêtre=120min
+  1) 02:00 | liga mx | Monterrey vs Club Queretaro | HT05 | odd=1.3
+  2) 04:00 | liga mx | Atlas vs Club Tijuana | HT05 | odd=1.36
+  3) 04:00 | liga mx | Club America vs FC Juarez | O15_FT | odd=1.33
 
-      PERF_REJECT: 17:00 | cup | Hradec Králové vs Baník Ostrava | HT1X_HOME | odd=1.25 || LEAGUE_BET_NO_DATA | league=cup bet=HT1X_HOME decided=0 (require_data=True)
-      PERF_REJECT: 20:30 | premier league | Manchester City vs Nottingham Forest | TEAM1_WIN_FT | odd=1.4 || GLOBAL_BET_LOW_SR | fam=TEAM1_WIN_FT wr=0.69 decided=26 (min_wr=0.70)
-      PERF_REJECT: 20:30 | coupe de france | Lorient vs Nice | HT1X_HOME | odd=1.25 || LEAGUE_BET_LOW_SR | league=coupe de france bet=HT1X_HOME wr=0.54 decided=24 (min_wr=0.65)
-
-Ticket: tranche=2 | cote=2.63 | 19:00 → 22:20 | fenêtre=90min
-  1) 19:00 | laliga | Rayo Vallecano vs Oviedo | O15_FT | odd=1.38
-  2) 20:00 | serie b | Palermo vs Mantova | O15_FT | odd=1.25
-  3) 20:30 | premier league | Fulham vs West Ham | O15_FT | odd=1.22
-  4) 20:30 | super league switzerland | FC Zurich vs Lausanne | TEAM1_SCORE_FT | odd=1.25
-
-FIN JOURNÉE
-------------------
-- tickets_built: 2
-- next_window_start: 22:20
-
-MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
-----------------------------------------------------------------
-- gate_build: LEAGUE x BET >= 0.65 (require_data=True)
-- score_select: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
-- règle: préférer 3L si écart <= 3.00%
-- iterations: 35861 | valid_3L_found: 0 | valid_4L_found: 35861
-- top3_size: 0 | top4_size: 1
-- rejected_by_league_gate (approx): 0
-
-TOP3 (desc):
-  (vide)
-
-TOP4 (desc):
-  TOP4[1/1]: score=0.817 (81.7%) | legs=4 | odd=2.3
-
-DRAW_3L: (aucun)
-DRAW_4L: picked rank=1/1 | score=0.817 (81.7%) | odd=2.3
-- écart relatif: —
-=> choisi: 4 legs | score=0.817 (81.7%)
-
-Ticket choisi (aperçu)
-----------------------
-  1) 02:00 | liga mx | Pachuca vs Necaxa | O15_FT | odd=1.28
-  2) 02:00 | liga mx | Santos Laguna vs Cruz Azul | O15_FT | odd=1.18
-  3) 04:00 | liga mx | Atletico San Luis vs Mazatlán | O15_FT | odd=1.25
-  4) 04:10 | liga mx | U.N.A.M. - Pumas vs Toluca | O15_FT | odd=1.22
-
-MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
-------------------------------------------------------------------------------
-- score ticket: 0.817 (81.7%)
-- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
-
-1) 02:00 | liga mx | Pachuca vs Necaxa | bet=O15_FT | odd=1.28
-   HOME Pachuca: wr=0.67 dec=6 coef=1.000 => adj=0.667 (66.7%)
-   AWAY Necaxa: wr=0.88 dec=8 coef=1.000 => adj=0.875 (87.5%)
-   MEAN match: 0.771 (77.1%)
-
-2) 02:00 | liga mx | Santos Laguna vs Cruz Azul | bet=O15_FT | odd=1.18
-   HOME Santos Laguna: wr=1.00 dec=7 coef=1.000 => adj=1.000 (100.0%)
-   AWAY Cruz Azul: wr=0.86 dec=7 coef=1.000 => adj=0.857 (85.7%)
-   MEAN match: 0.928 (92.8%)
-
-3) 04:00 | liga mx | Atletico San Luis vs Mazatlán | bet=O15_FT | odd=1.25
-   HOME Atletico San Luis: wr=0.83 dec=6 coef=1.000 => adj=0.833 (83.3%)
-   AWAY Mazatlán: wr=0.88 dec=8 coef=1.000 => adj=0.875 (87.5%)
-   MEAN match: 0.854 (85.4%)
-
-4) 04:10 | liga mx | U.N.A.M. - Pumas vs Toluca | bet=O15_FT | odd=1.22
-   HOME U.N.A.M. - Pumas: wr=0.86 dec=7 coef=1.000 => adj=0.857 (85.7%)
-   AWAY Toluca: wr=0.57 dec=7 coef=1.000 => adj=0.571 (57.1%)
-   MEAN match: 0.714 (71.4%)
-
-
-MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
-----------------------------------------------------------------
-- gate_build: LEAGUE x BET >= 0.65 (require_data=True)
-- score_select: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
-- règle: préférer 3L si écart <= 3.00%
-- iterations: 26301 | valid_3L_found: 7891 | valid_4L_found: 25922
-- top3_size: 5 | top4_size: 5
-- rejected_by_league_gate (approx): 0
-
-TOP3 (desc):
-  TOP3[1/5]: score=0.847 (84.7%) | legs=3 | odd=2.29
-  TOP3[2/5]: score=0.844 (84.4%) | legs=3 | odd=2.24
-  TOP3[3/5]: score=0.836 (83.6%) | legs=3 | odd=2.21
-  TOP3[4/5]: score=0.831 (83.1%) | legs=3 | odd=2.22
-  TOP3[5/5]: score=0.829 (82.9%) | legs=3 | odd=2.45
-
-TOP4 (desc):
-  TOP4[1/5]: score=0.897 (89.7%) | legs=4 | odd=2.53
-  TOP4[2/5]: score=0.882 (88.2%) | legs=4 | odd=2.23
-  TOP4[3/5]: score=0.880 (88.0%) | legs=4 | odd=2.46
-  TOP4[4/5]: score=0.878 (87.8%) | legs=4 | odd=2.53
-  TOP4[5/5]: score=0.872 (87.2%) | legs=4 | odd=2.38
-
-DRAW_3L: picked rank=5/5 | score=0.829 (82.9%) | odd=2.45
-DRAW_4L: picked rank=3/5 | score=0.880 (88.0%) | odd=2.46
-- écart relatif: 5.81%
-=> choisi: 4 legs | score=0.880 (88.0%)
-
-Ticket choisi (aperçu)
-----------------------
-  1) 19:00 | laliga | Rayo Vallecano vs Oviedo | O15_FT | odd=1.38
-  2) 20:30 | premier league | Aston Villa vs Chelsea | O15_FT | odd=1.22
-  3) 20:30 | premier league | Fulham vs West Ham | O15_FT | odd=1.22
-  4) 20:30 | super league switzerland | FC Zurich vs Lausanne | O15_FT | odd=1.2
-
-MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
-------------------------------------------------------------------------------
-- score ticket: 0.880 (88.0%)
-- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
-
-1) 19:00 | laliga | Rayo Vallecano vs Oviedo | bet=O15_FT | odd=1.38
-   HOME Rayo Vallecano: wr=1.00 dec=7 coef=1.000 => adj=1.000 (100.0%)
-   AWAY Oviedo: wr=0.75 dec=8 coef=1.000 => adj=0.750 (75.0%)
-   MEAN match: 0.875 (87.5%)
-
-2) 20:30 | premier league | Aston Villa vs Chelsea | bet=O15_FT | odd=1.22
-   HOME Aston Villa: wr=0.62 dec=8 coef=1.000 => adj=0.625 (62.5%)
-   AWAY Chelsea: wr=1.00 dec=9 coef=1.000 => adj=1.000 (100.0%)
-   MEAN match: 0.812 (81.2%)
-
-3) 20:30 | premier league | Fulham vs West Ham | bet=O15_FT | odd=1.22
-   HOME Fulham: wr=0.90 dec=10 coef=1.000 => adj=0.900 (90.0%)
-   AWAY West Ham: wr=0.88 dec=8 coef=1.000 => adj=0.875 (87.5%)
-   MEAN match: 0.887 (88.8%)
-
-4) 20:30 | super league switzerland | FC Zurich vs Lausanne | bet=O15_FT | odd=1.2
-   HOME FC Zurich: wr=1.00 dec=7 coef=1.000 => adj=1.000 (100.0%)
-   AWAY Lausanne: wr=0.89 dec=9 coef=1.000 => adj=0.889 (88.9%)
-   MEAN match: 0.945 (94.5%)
-
-
-MAESTROLOGUE — RANDOM — 2026-03-04
-========================================
-- picks_total: 23
-- base_spread: 90 min (rich=True)
-- day_max_possible_odd: 4.23
-- threshold_used: 2.2 (target=2.2, fallback=1.7)
-
-Tranche scan: idx=0 | next_window_start=01:15
-  tranche_seed: 01:15 → 02:45
-
-  merge_until: j=0 | merged_in_window=3
-    - ok_window(after_perf_if_SYSTEM): 2
-    - perf_reject: 1
-    - out_window: 0
-    - no_odd: 0 | odd_too_low: 0
-    - max_possible_odd(ok_window): 1.51
-
-      PERF_REJECT: 01:15 | liga profesional argentina | Atletico Tucuman vs Racing Club | O15_FT | odd=1.5 || RANDOM_LEAGUE_LOW_SR | league=liga profesional argentina bet=O15_FT wr=0.50 decided=94 (min_wr=0.65)
-
-  merge_until: j=1 | merged_in_window=5
-    - ok_window(after_perf_if_SYSTEM): 4
-    - perf_reject: 1
-    - out_window: 0
-    - no_odd: 0 | odd_too_low: 0
-    - max_possible_odd(ok_window): 2.3
-
-      PERF_REJECT: 01:15 | liga profesional argentina | Atletico Tucuman vs Racing Club | O15_FT | odd=1.5 || RANDOM_LEAGUE_LOW_SR | league=liga profesional argentina bet=O15_FT wr=0.50 decided=94 (min_wr=0.65)
-
-Ticket: tranche=1 | cote=2.3 | 02:00 → 06:00 | fenêtre=130min
-  1) 02:00 | liga mx | Pachuca vs Necaxa | O15_FT | odd=1.28
-  2) 02:00 | liga mx | Santos Laguna vs Cruz Azul | O15_FT | odd=1.18
-  3) 04:00 | liga mx | Atletico San Luis vs Mazatlán | O15_FT | odd=1.25
-  4) 04:10 | liga mx | U.N.A.M. - Pumas vs Toluca | O15_FT | odd=1.22
-
-Tranche scan: idx=2 | next_window_start=06:00
+Tranche scan: idx=2 | next_window_start=05:50
   tranche_seed: 17:00 → 18:30
 
   merge_until: j=2 | merged_in_window=1
@@ -332,27 +160,210 @@ Tranche scan: idx=2 | next_window_start=06:00
     - no_odd: 0 | odd_too_low: 0
     - max_possible_odd(ok_window): 1
 
-      PERF_REJECT: 17:00 | cup | Hradec Králové vs Baník Ostrava | O15_FT | odd=1.28 || RANDOM_LEAGUE_NO_DATA | league=cup bet=O15_FT decided=0 (require_data=True)
+      PERF_REJECT: 17:00 | cup | Karviná vs Plzen | O15_FT | odd=1.22 || LEAGUE_BET_LOW_SR | league=cup bet=O15_FT wr=0.50 decided=2 (min_wr=0.70)
 
-  merge_until: j=3 | merged_in_window=14
-    - ok_window(after_perf_if_SYSTEM): 13
-    - perf_reject: 1
+  merge_until: j=3 | merged_in_window=13
+    - ok_window(after_perf_if_SYSTEM): 10
+    - perf_reject: 3
     - out_window: 0
     - no_odd: 0 | odd_too_low: 0
-    - max_possible_odd(ok_window): 3.89
+    - max_possible_odd(ok_window): 3.31
 
-      PERF_REJECT: 17:00 | cup | Hradec Králové vs Baník Ostrava | O15_FT | odd=1.28 || RANDOM_LEAGUE_NO_DATA | league=cup bet=O15_FT decided=0 (require_data=True)
+      PERF_REJECT: 17:00 | cup | Karviná vs Plzen | O15_FT | odd=1.22 || LEAGUE_BET_LOW_SR | league=cup bet=O15_FT wr=0.50 decided=2 (min_wr=0.70)
+      PERF_REJECT: 20:00 | saudi arabia | Al Kholood vs Al-Qadisiyah FC | HT05 | odd=1.25 || TWO_TEAM_REJECT | Al Kholood wr=0.62 dec=13 | Al-Qadisiyah FC wr=0.75 dec=12
+      PERF_REJECT: 21:00 | premier league | Tottenham vs Crystal Palace | HT05 | odd=1.36 || TWO_TEAM_REJECT | Tottenham wr=0.90 dec=10 | Crystal Palace wr=0.60 dec=10
 
-Ticket: tranche=2 | cote=2.46 | 19:00 → 22:20 | fenêtre=90min
-  1) 19:00 | laliga | Rayo Vallecano vs Oviedo | O15_FT | odd=1.38
-  2) 20:30 | premier league | Aston Villa vs Chelsea | O15_FT | odd=1.22
-  3) 20:30 | premier league | Fulham vs West Ham | O15_FT | odd=1.22
-  4) 20:30 | super league switzerland | FC Zurich vs Lausanne | O15_FT | odd=1.2
+Ticket: tranche=2 | cote=2.53 | 20:00 → 23:00 | fenêtre=70min
+  1) 20:00 | saudi arabia | Damac vs Al Riyadh | HT05 | odd=1.5
+  2) 20:30 | super league switzerland | FC Thun vs FC ST. Gallen | O15_FT | odd=1.17
+  3) 20:30 | super league switzerland | FC Basel 1893 vs Grasshoppers | O15_FT | odd=1.18
+  4) 21:10 | coupe de france | Lyon vs Lens | O15_FT | odd=1.22
 
 FIN JOURNÉE
 ------------------
 - tickets_built: 2
-- next_window_start: 22:20
+- next_window_start: 23:00
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- gate_build: LEAGUE x BET >= 0.70 (require_data=True)
+- score_select: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 33424 | valid_3L_found: 4439 | valid_4L_found: 33424
+- top3_size: 2 | top4_size: 5
+- rejected_by_league_gate (approx): 0
+
+TOP3 (desc):
+  TOP3[1/2]: score=0.688 (68.8%) | legs=3 | odd=2.26
+  TOP3[2/2]: score=0.658 (65.8%) | legs=3 | odd=2.26
+
+TOP4 (desc):
+  TOP4[1/5]: score=0.719 (71.9%) | legs=4 | odd=2.72
+  TOP4[2/5]: score=0.697 (69.7%) | legs=4 | odd=2.72
+  TOP4[3/5]: score=0.687 (68.7%) | legs=4 | odd=2.61
+  TOP4[4/5]: score=0.686 (68.6%) | legs=4 | odd=2.61
+  TOP4[5/5]: score=0.659 (65.9%) | legs=4 | odd=2.9
+
+DRAW_3L: picked rank=2/2 | score=0.658 (65.8%) | odd=2.26
+DRAW_4L: picked rank=4/5 | score=0.686 (68.6%) | odd=2.61
+- écart relatif: 4.11%
+=> choisi: 4 legs | score=0.686 (68.6%)
+
+Ticket choisi (aperçu)
+----------------------
+  1) 02:00 | liga mx | Monterrey vs Club Queretaro | O15_FT | odd=1.2
+  2) 02:00 | liga mx | Puebla vs Tigres UANL | O15_FT | odd=1.28
+  3) 02:00 | primera a colombia | Fortaleza FC vs Jaguares | O15_FT | odd=1.33
+  4) 04:00 | liga mx | Atlas vs Club Tijuana | O15_FT | odd=1.28
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.686 (68.6%)
+- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 02:00 | liga mx | Monterrey vs Club Queretaro | bet=O15_FT | odd=1.2
+   HOME Monterrey: wr=0.62 dec=8 coef=1.000 => adj=0.625 (62.5%)
+   AWAY Club Queretaro: wr=1.00 dec=6 coef=1.000 => adj=1.000 (100.0%)
+   MEAN match: 0.812 (81.2%)
+
+2) 02:00 | liga mx | Puebla vs Tigres UANL | bet=O15_FT | odd=1.28
+   HOME Puebla: wr=0.43 dec=7 coef=1.000 => adj=0.429 (42.9%)
+   AWAY Tigres UANL: wr=0.71 dec=7 coef=1.000 => adj=0.714 (71.4%)
+   MEAN match: 0.572 (57.1%)
+
+3) 02:00 | primera a colombia | Fortaleza FC vs Jaguares | bet=O15_FT | odd=1.33
+   HOME Fortaleza FC: wr=1.00 dec=7 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Jaguares: wr=0.40 dec=5 coef=1.000 => adj=0.400 (40.0%)
+   MEAN match: 0.700 (70.0%)
+
+4) 04:00 | liga mx | Atlas vs Club Tijuana | bet=O15_FT | odd=1.28
+   HOME Atlas: wr=0.75 dec=8 coef=1.000 => adj=0.750 (75.0%)
+   AWAY Club Tijuana: wr=0.57 dec=7 coef=1.000 => adj=0.571 (57.1%)
+   MEAN match: 0.660 (66.0%)
+
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- gate_build: LEAGUE x BET >= 0.70 (require_data=True)
+- score_select: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 41236 | valid_3L_found: 0 | valid_4L_found: 22355
+- top3_size: 0 | top4_size: 5
+- rejected_by_league_gate (approx): 0
+
+TOP3 (desc):
+  (vide)
+
+TOP4 (desc):
+  TOP4[1/5]: score=0.830 (83.0%) | legs=4 | odd=2.42
+  TOP4[2/5]: score=0.824 (82.4%) | legs=4 | odd=2.36
+  TOP4[3/5]: score=0.821 (82.1%) | legs=4 | odd=2.26
+  TOP4[4/5]: score=0.810 (81.0%) | legs=4 | odd=2.5
+  TOP4[5/5]: score=0.808 (80.8%) | legs=4 | odd=2.52
+
+DRAW_3L: (aucun)
+DRAW_4L: picked rank=2/5 | score=0.824 (82.4%) | odd=2.36
+- écart relatif: —
+=> choisi: 4 legs | score=0.824 (82.4%)
+
+Ticket choisi (aperçu)
+----------------------
+  1) 20:00 | saudi arabia | Damac vs Al Riyadh | O15_FT | odd=1.4
+  2) 20:30 | super league switzerland | FC Basel 1893 vs Grasshoppers | O15_FT | odd=1.18
+  3) 20:30 | super league switzerland | FC Thun vs FC ST. Gallen | O15_FT | odd=1.17
+  4) 21:10 | coupe de france | Lyon vs Lens | O15_FT | odd=1.22
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.824 (82.4%)
+- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 20:00 | saudi arabia | Damac vs Al Riyadh | bet=O15_FT | odd=1.4
+   HOME Damac: wr=0.85 dec=13 coef=1.000 => adj=0.846 (84.6%)
+   AWAY Al Riyadh: wr=0.75 dec=12 coef=1.000 => adj=0.750 (75.0%)
+   MEAN match: 0.798 (79.8%)
+
+2) 20:30 | super league switzerland | FC Basel 1893 vs Grasshoppers | bet=O15_FT | odd=1.18
+   HOME FC Basel 1893: wr=1.00 dec=7 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Grasshoppers: wr=0.71 dec=7 coef=1.000 => adj=0.714 (71.4%)
+   MEAN match: 0.857 (85.7%)
+
+3) 20:30 | super league switzerland | FC Thun vs FC ST. Gallen | bet=O15_FT | odd=1.17
+   HOME FC Thun: wr=0.86 dec=7 coef=1.000 => adj=0.857 (85.7%)
+   AWAY FC ST. Gallen: wr=0.88 dec=8 coef=1.000 => adj=0.875 (87.5%)
+   MEAN match: 0.866 (86.6%)
+
+4) 21:10 | coupe de france | Lyon vs Lens | bet=O15_FT | odd=1.22
+   HOME Lyon: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   AWAY Lens: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   MEAN match: 0.775 (77.5%)
+
+
+MAESTROLOGUE — RANDOM — 2026-03-05
+========================================
+- picks_total: 14
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 4.47
+- threshold_used: 2.2 (target=2.2, fallback=1.7)
+
+Tranche scan: idx=0 | next_window_start=01:00
+  tranche_seed: 01:00 → 02:30
+
+  merge_until: j=0 | merged_in_window=4
+    - ok_window(after_perf_if_SYSTEM): 3
+    - perf_reject: 1
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 2.04
+
+      PERF_REJECT: 01:00 | liga profesional argentina | Lanus vs Boca Juniors | O15_FT | odd=1.6 || RANDOM_LEAGUE_LOW_SR | league=liga profesional argentina bet=O15_FT wr=0.51 decided=98 (min_wr=0.70)
+
+  merge_until: j=1 | merged_in_window=6
+    - ok_window(after_perf_if_SYSTEM): 5
+    - perf_reject: 1
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 2.9
+
+      PERF_REJECT: 01:00 | liga profesional argentina | Lanus vs Boca Juniors | O15_FT | odd=1.6 || RANDOM_LEAGUE_LOW_SR | league=liga profesional argentina bet=O15_FT wr=0.51 decided=98 (min_wr=0.70)
+
+Ticket: tranche=1 | cote=2.61 | 02:00 → 05:50 | fenêtre=120min
+  1) 02:00 | liga mx | Monterrey vs Club Queretaro | O15_FT | odd=1.2
+  2) 02:00 | liga mx | Puebla vs Tigres UANL | O15_FT | odd=1.28
+  3) 02:00 | primera a colombia | Fortaleza FC vs Jaguares | O15_FT | odd=1.33
+  4) 04:00 | liga mx | Atlas vs Club Tijuana | O15_FT | odd=1.28
+
+Tranche scan: idx=2 | next_window_start=05:50
+  tranche_seed: 17:00 → 18:30
+
+  merge_until: j=2 | merged_in_window=1
+    - ok_window(after_perf_if_SYSTEM): 0
+    - perf_reject: 1
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 1
+
+      PERF_REJECT: 17:00 | cup | Karviná vs Plzen | O15_FT | odd=1.22 || RANDOM_LEAGUE_LOW_SR | league=cup bet=O15_FT wr=0.50 decided=2 (min_wr=0.70)
+
+  merge_until: j=3 | merged_in_window=7
+    - ok_window(after_perf_if_SYSTEM): 6
+    - perf_reject: 1
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 2.52
+
+      PERF_REJECT: 17:00 | cup | Karviná vs Plzen | O15_FT | odd=1.22 || RANDOM_LEAGUE_LOW_SR | league=cup bet=O15_FT wr=0.50 decided=2 (min_wr=0.70)
+
+Ticket: tranche=2 | cote=2.36 | 20:00 → 23:00 | fenêtre=70min
+  1) 20:00 | saudi arabia | Damac vs Al Riyadh | O15_FT | odd=1.4
+  2) 20:30 | super league switzerland | FC Basel 1893 vs Grasshoppers | O15_FT | odd=1.18
+  3) 20:30 | super league switzerland | FC Thun vs FC ST. Gallen | O15_FT | odd=1.17
+  4) 21:10 | coupe de france | Lyon vs Lens | O15_FT | odd=1.22
+
+FIN JOURNÉE
+------------------
+- tickets_built: 2
+- next_window_start: 23:00
 
 RUN SUMMARY
 - system_tickets: 2 | o15_tickets: 2

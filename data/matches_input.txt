@@ -1,25 +1,15 @@
-2026-03-04 20:30 | bundesliga | Hamburger SV vs Bayer Leverkusen
-2026-03-04 21:00 | copa del rey | Real Sociedad vs Athletic Club
-2026-03-04 20:30 | coupe de france | Lorient vs Nice
-2026-03-04 21:00 | coupe de france | Marseille vs Toulouse
-2026-03-04 17:00 | cup | Hradec Králové vs Baník Ostrava
-2026-03-04 19:00 | laliga | Rayo Vallecano vs Oviedo
-2026-03-04 02:00 | liga mx | Pachuca vs Necaxa
-2026-03-04 02:00 | liga mx | Santos Laguna vs Cruz Azul
-2026-03-04 04:00 | liga mx | Atletico San Luis vs Mazatlán
-2026-03-04 04:10 | liga mx | U.N.A.M. - Pumas vs Toluca
-2026-03-04 01:15 | liga profesional argentina | Atletico Tucuman vs Racing Club
-2026-03-04 20:30 | premier league | Aston Villa vs Chelsea
-2026-03-04 20:30 | premier league | Brighton vs Arsenal
-2026-03-04 20:30 | premier league | Fulham vs West Ham
-2026-03-04 20:30 | premier league | Manchester City vs Nottingham Forest
-2026-03-04 21:15 | premier league | Newcastle vs Manchester United
-2026-03-04 21:00 | premiership | Aberdeen vs Celtic
-2026-03-04 19:00 | serie b | Carrarese vs Catanzaro
-2026-03-04 20:00 | serie b | Bari vs Empoli
-2026-03-04 20:00 | serie b | Frosinone vs Pescara
-2026-03-04 20:00 | serie b | Juve Stabia vs Sampdoria
-2026-03-04 20:00 | serie b | Palermo vs Mantova
-2026-03-04 20:30 | super league switzerland | FC Lugano vs FC Sion
-2026-03-04 20:30 | super league switzerland | FC Luzern vs BSC Young Boys
-2026-03-04 20:30 | super league switzerland | FC Zurich vs Lausanne
+2026-03-05 21:10 | coupe de france | Lyon vs Lens
+2026-03-05 17:00 | cup | Karviná vs Plzen
+2026-03-05 02:00 | liga mx | Monterrey vs Club Queretaro
+2026-03-05 02:00 | liga mx | Puebla vs Tigres UANL
+2026-03-05 04:00 | liga mx | Atlas vs Club Tijuana
+2026-03-05 04:00 | liga mx | Club America vs FC Juarez
+2026-03-05 01:00 | liga profesional argentina | Lanus vs Boca Juniors
+2026-03-05 22:30 | liga profesional argentina | Gimnasia M. vs Defensa Y Justicia
+2026-03-05 21:00 | premier league | Tottenham vs Crystal Palace
+2026-03-05 02:00 | primera a colombia | Fortaleza FC vs Jaguares
+2026-03-05 22:00 | primera a colombia | Deportes Tolima vs Santa Fe
+2026-03-05 20:00 | saudi arabia | Al Kholood vs Al-Qadisiyah FC
+2026-03-05 20:00 | saudi arabia | Damac vs Al Riyadh
+2026-03-05 20:30 | super league switzerland | FC Basel 1893 vs Grasshoppers
+2026-03-05 20:30 | super league switzerland | FC Thun vs FC ST. Gallen
