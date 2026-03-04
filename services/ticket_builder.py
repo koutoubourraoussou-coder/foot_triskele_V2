@@ -81,7 +81,7 @@ O15_CANON = "O15_FT"
 # ----------------------------
 # ✅ RÈGLES "SYSTÈME" : PERFORMANCE / WINRATES
 # ----------------------------
-GLOBAL_BET_MIN_DECIDED = 10
+GLOBAL_BET_MIN_DECIDED = 7
 GLOBAL_BET_MIN_WINRATE = 0.70
 
 LEAGUE_BET_MIN_WINRATE = 0.70
