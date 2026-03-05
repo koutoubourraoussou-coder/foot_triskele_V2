@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-03-05
+Date run       : 2026-03-06
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (87 ids)
+Whitelist      : ON (88 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 8
+Ignorés (date>=today)    : 4
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -713,10 +713,28 @@ Ignorés (date>=today)    : 8
    ❌ Leg 3) 20:30 | premier league | Fulham vs West Ham | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
    ✅ Leg 4) 20:30 | super league switzerland | FC Zurich vs Lausanne | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Jeudi 2026-03-05 02:00→05:50 | code=A2 | odd=2.61
+   id=2026-03-05_0200_d002da4cda_O15R
+   legs=4 | WIN=4 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 02:00 | liga mx | Monterrey vs Club Queretaro | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.2
+   ✅ Leg 2) 02:00 | liga mx | Puebla vs Tigres UANL | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.28
+   ✅ Leg 3) 02:00 | primera a colombia | Fortaleza FC vs Jaguares | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.33
+   ✅ Leg 4) 04:00 | liga mx | Atlas vs Club Tijuana | Over 1.5 (FT) | [FORT PLUS] | odd=1.28
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Jeudi 2026-03-05 20:00→23:00 | code=A2 | odd=2.36
+   id=2026-03-05_2000_4b89d4476d_O15R
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 20:00 | saudi arabia | Damac vs Al Riyadh | Over 1.5 (FT) | [TRÈS FORT] | odd=1.4
+   ❌ Leg 2) 20:30 | super league switzerland | FC Basel 1893 vs Grasshoppers | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
+   ✅ Leg 3) 20:30 | super league switzerland | FC Thun vs FC ST. Gallen | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.17
+   ✅ Leg 4) 21:10 | coupe de france | Lyon vs Lens | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+
 ====================================================================
-TOTAL tickets : 85
-✅ WIN     : 35
-❌ LOSS    : 48
+TOTAL tickets : 87
+✅ WIN     : 36
+❌ LOSS    : 49
 ⏳ PENDING : 2
 ====================================================================
 

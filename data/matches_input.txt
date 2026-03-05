@@ -1,15 +1,26 @@
-2026-03-05 21:10 | coupe de france | Lyon vs Lens
-2026-03-05 17:00 | cup | Karviná vs Plzen
-2026-03-05 02:00 | liga mx | Monterrey vs Club Queretaro
-2026-03-05 02:00 | liga mx | Puebla vs Tigres UANL
-2026-03-05 04:00 | liga mx | Atlas vs Club Tijuana
-2026-03-05 04:00 | liga mx | Club America vs FC Juarez
-2026-03-05 01:00 | liga profesional argentina | Lanus vs Boca Juniors
-2026-03-05 22:30 | liga profesional argentina | Gimnasia M. vs Defensa Y Justicia
-2026-03-05 21:00 | premier league | Tottenham vs Crystal Palace
-2026-03-05 02:00 | primera a colombia | Fortaleza FC vs Jaguares
-2026-03-05 22:00 | primera a colombia | Deportes Tolima vs Santa Fe
-2026-03-05 20:00 | saudi arabia | Al Kholood vs Al-Qadisiyah FC
-2026-03-05 20:00 | saudi arabia | Damac vs Al Riyadh
-2026-03-05 20:30 | super league switzerland | FC Basel 1893 vs Grasshoppers
-2026-03-05 20:30 | super league switzerland | FC Thun vs FC ST. Gallen
+2026-03-06 18:30 | 2. bundesliga | FC Schalke 04 vs Arminia Bielefeld
+2026-03-06 18:30 | 2. bundesliga | SV Elversberg vs 1. FC Magdeburg
+2026-03-06 20:30 | bundesliga | Bayern München vs Borussia Mönchengladbach
+2026-03-06 21:00 | championship | Preston vs Oxford United
+2026-03-06 20:00 | eredivisie | Heracles vs Utrecht
+2026-03-06 21:00 | fa cup | Wolves vs Liverpool
+2026-03-06 21:00 | laliga | Celta Vigo vs Real Madrid
+2026-03-06 20:30 | laliga2 | Cadiz vs Zaragoza
+2026-03-06 21:15 | liga portugal | Famalicao vs Arouca
+2026-03-06 19:00 | liga portugal 2 | Chaves vs Academico Viseu
+2026-03-06 20:45 | ligue 1 | Paris Saint Germain vs Monaco
+2026-03-06 20:00 | ligue 2 | Boulogne vs Amiens
+2026-03-06 20:00 | ligue 2 | Laval vs Guingamp
+2026-03-06 20:00 | ligue 2 | Nancy vs Montpellier
+2026-03-06 20:00 | ligue 2 | PAU vs Bastia
+2026-03-06 20:00 | ligue 2 | Rodez vs Grenoble
+2026-03-06 00:10 | primera a colombia | Llaneros vs Internacional de Bogota
+2026-03-06 02:20 | primera a colombia | Junior vs Alianza Valledupar
+2026-03-06 20:45 | pro league | RAAL La Louvière vs Antwerp
+2026-03-06 20:00 | saudi arabia | Al Khaleej Saihat vs Al-Hazm
+2026-03-06 20:00 | saudi arabia | Al Taawon vs Al-Fateh
+2026-03-06 20:00 | saudi arabia | Al-Ahli Jeddah vs Al-Ittihad FC
+2026-03-06 20:00 | saudi arabia | Al-Hilal Saudi FC vs Al Najma
+2026-03-06 20:45 | scottish cup | Falkirk vs Dundee Utd
+2026-03-06 20:45 | serie a italia | Napoli vs Torino
+2026-03-06 20:00 | superligaen | Kisvarda FC vs Puskas Academy

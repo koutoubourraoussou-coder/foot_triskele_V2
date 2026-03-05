@@ -49,6 +49,7 @@ league cup	HT1X_HOME	1	1	0	1.0	False
 liga portugal 2	O25_FT	1	1	0	1.0	False
 premiership	TEAM1_WIN_FT	1	1	0	1.0	False
 premiership	TEAM2_WIN_FT	1	1	0	1.0	False
+primera a colombia	TEAM2_SCORE_FT	1	1	0	1.0	False
 pro league	TEAM1_WIN_FT	1	1	0	1.0	False
 pro league	TEAM2_SCORE_FT	1	1	0	1.0	False
 saudi arabia	TEAM1_WIN_FT	1	1	0	1.0	False
@@ -66,20 +67,19 @@ saudi arabia	TEAM1_SCORE_FT	16	15	1	0.9375	True
 eredivisie	TEAM2_SCORE_FT	14	13	1	0.9285714285714286	True
 premiership	HT1X_HOME	11	10	1	0.9090909090909091	False
 uefa champions league	O15_FT	50	45	5	0.9	True
-super league switzerland	O15_FT	45	40	5	0.8888888888888888	True
 cymru premier league	HT1X_HOME	9	8	1	0.8888888888888888	False
 ligue 1	TEAM2_SCORE_FT	9	8	1	0.8888888888888888	False
 eredivisie	HT1X_HOME	17	15	2	0.8823529411764706	True
 scottish cup	O15_FT	16	14	2	0.875	True
 championship	TEAM1_SCORE_FT	8	7	1	0.875	False
 liga pro ecuador	HT1X_HOME	8	7	1	0.875	False
+super league switzerland	O15_FT	47	41	6	0.8723404255319149	True
 laliga	O15_FT	54	47	7	0.8703703703703703	True
 ligue 1	HT1X_HOME	15	13	2	0.8666666666666667	True
 saudi arabia	TEAM2_SCORE_FT	15	13	2	0.8666666666666667	True
 super league switzerland	TEAM1_SCORE_FT	15	13	2	0.8666666666666667	True
 primera división paraguay	HT1X_HOME	14	12	2	0.8571428571428571	True
 pro league	HT1X_HOME	14	12	2	0.8571428571428571	True
-super league switzerland	TEAM2_SCORE_FT	14	12	2	0.8571428571428571	True
 mls	HT1X_HOME	7	6	1	0.8571428571428571	False
 liga portugal	O15_FT	48	41	7	0.8541666666666666	True
 saudi arabia	HT1X_HOME	34	29	5	0.8529411764705882	True
@@ -104,16 +104,16 @@ laliga2	HT1X_HOME	49	40	9	0.8163265306122449	True
 serie b	HT1X_HOME	42	34	8	0.8095238095238095	True
 ligue 2	HT1X_HOME	21	17	4	0.8095238095238095	True
 superligaen	O15_FT	26	21	5	0.8076923076923077	True
+liga mx	O15_FT	41	33	8	0.8048780487804879	True
 super lig	O15_FT	46	37	9	0.8043478260869565	True
 super lig	HT05	35	28	7	0.8	True
+super league switzerland	TEAM2_SCORE_FT	15	12	3	0.8	True
 bundesliga	TEAM2_SCORE_FT	10	8	2	0.8	False
 uefa champions league	HT1X_HOME	10	8	2	0.8	False
 fa cup	O25_FT	5	4	1	0.8	False
 saudi arabia	TEAM2_WIN_FT	5	4	1	0.8	False
 super lig	TEAM2_SCORE_FT	5	4	1	0.8	False
 serie b	O15_FT	54	43	11	0.7962962962962963	True
-liga mx	O15_FT	39	31	8	0.7948717948717948	True
-liga mx	HT1X_HOME	24	19	5	0.7916666666666666	True
 premiership	HT05	24	19	5	0.7916666666666666	True
 primera a colombia	HT1X_HOME	24	19	5	0.7916666666666666	True
 bundesliga	O15_FT	56	44	12	0.7857142857142857	True
@@ -121,44 +121,46 @@ championship	HT1X_HOME	42	33	9	0.7857142857142857	True
 fa cup	HT05	28	22	6	0.7857142857142857	True
 laliga2	O15_FT	46	36	10	0.782608695652174	True
 copa del rey	O15_FT	9	7	2	0.7777777777777778	False
+coupe de france	O15_FT	9	7	2	0.7777777777777778	False
 premier league	TEAM1_SCORE_FT	9	7	2	0.7777777777777778	False
 mls	HT05	22	17	5	0.7727272727272727	True
 mls	O15_FT	22	17	5	0.7727272727272727	True
 premier league	O15_FT	65	50	15	0.7692307692307693	True
+liga mx	HT1X_HOME	26	20	6	0.7692307692307693	True
 serie b	HT05	51	39	12	0.7647058823529411	True
 liga profesional argentina	HT1X_HOME	50	38	12	0.76	True
 cymru premier league	O15_FT	25	19	6	0.76	True
-primera a colombia	O15_FT	25	19	6	0.76	True
 serie a italia	HT1X_HOME	33	25	8	0.7575757575757576	True
 uefa europa league	HT05	33	25	8	0.7575757575757576	True
 championship	O15_FT	76	57	19	0.75	True
-primera a colombia	HT05	32	24	8	0.75	True
 superligaen	HT05	16	12	4	0.75	True
 fa cup	O15_FT	12	9	3	0.75	True
-coupe de france	O15_FT	8	6	2	0.75	False
 copa del rey	TEAM1_SCORE_FT	4	3	1	0.75	False
 ligue 1	TEAM2_WIN_FT	4	3	1	0.75	False
 serie b	TEAM2_SCORE_FT	4	3	1	0.75	False
-saudi arabia	O15_FT	69	51	18	0.7391304347826086	True
+saudi arabia	O15_FT	70	52	18	0.7428571428571429	True
 serie a italia	O15_FT	46	34	12	0.7391304347826086	True
-premier league	HT05	56	41	15	0.7321428571428571	True
-super league switzerland	HT05	37	27	10	0.7297297297297297	True
+premier league	HT05	57	42	15	0.7368421052631579	True
+primera a colombia	O15_FT	26	19	7	0.7307692307692307	True
 liga profesional argentina	HT05	11	8	3	0.7272727272727273	False
 serie a brazil	HT1X_HOME	11	8	3	0.7272727272727273	False
-liga mx	HT05	36	26	10	0.7222222222222222	True
+liga mx	HT05	40	29	11	0.725	True
 2. bundesliga	HT1X_HOME	18	13	5	0.7222222222222222	True
 ligue 1	HT05	32	23	9	0.71875	True
+super league switzerland	HT05	39	28	11	0.717948717948718	True
 uefa champions league	HT05	39	28	11	0.717948717948718	True
+saudi arabia	HT05	60	43	17	0.7166666666666667	True
 pro league	HT05	35	25	10	0.7142857142857143	True
 premiership	TEAM2_SCORE_FT	7	5	2	0.7142857142857143	False
-saudi arabia	HT05	59	42	17	0.711864406779661	True
 liga portugal	HT05	34	24	10	0.7058823529411765	True
+primera a colombia	HT05	34	24	10	0.7058823529411765	True
 serie a italia	HT05	44	31	13	0.7045454545454546	True
 ligue 1	O15_FT	45	31	14	0.6888888888888889	True
 eredivisie	HT05	48	33	15	0.6875	True
 fa cup	HT1X_HOME	16	11	5	0.6875	True
 scottish cup	HT05	16	11	5	0.6875	True
 laliga	HT05	37	25	12	0.6756756756756757	True
+coupe de france	HT05	18	12	6	0.6666666666666666	True
 superligaen	HT1X_HOME	15	10	5	0.6666666666666666	True
 uefa europa league	HT1X_HOME	15	10	5	0.6666666666666666	True
 czech first league	HT1X_HOME	12	8	4	0.6666666666666666	True
@@ -173,7 +175,6 @@ super league switzerland	TEAM2_WIN_FT	3	2	1	0.6666666666666666	False
 laliga2	HT05	47	31	16	0.6595744680851063	True
 uefa europa league	O15_FT	43	28	15	0.6511627906976745	True
 ligue 2	O15_FT	34	22	12	0.6470588235294118	True
-coupe de france	HT05	17	11	6	0.6470588235294118	True
 serie a brazil	O15_FT	25	16	9	0.64	True
 czech first league	O15_FT	27	17	10	0.6296296296296297	True
 liga profesional argentina	O15_FT	16	10	6	0.625	True
@@ -193,6 +194,7 @@ primera división paraguay	O15_FT	18	9	9	0.5	True
 copa del rey	HT1X_HOME	4	2	2	0.5	False
 bundesliga	TEAM2_WIN_FT	2	1	1	0.5	False
 championship	TEAM1_WIN_FT	2	1	1	0.5	False
+cup	O15_FT	2	1	1	0.5	False
 cymru premier league	O25_FT	2	1	1	0.5	False
 laliga	O25_FT	2	1	1	0.5	False
 league cup	HT05	2	1	1	0.5	False
@@ -216,7 +218,6 @@ primera a colombia	TEAM2_WIN_FT	3	1	2	0.3333333333333333	False
 belgian cup	O15_FT	2	0	2	0.0	False
 laliga2	O25_FT	2	0	2	0.0	False
 copa del rey	O25_FT	1	0	1	0.0	False
-cup	O15_FT	1	0	1	0.0	False
 eredivisie	O25_FT	1	0	1	0.0	False
 eredivisie	TEAM1_WIN_FT	1	0	1	0.0	False
 liga portugal 2	TEAM1_WIN_FT	1	0	1	0.0	False

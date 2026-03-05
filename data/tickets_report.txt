@@ -1,23 +1,13 @@
 TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
 ==================================================
 
-📅 Jeudi 2026-03-05 — Tranche 1 (fenêtre ~120min)
-------------------------------------------------
+📅 Vendredi 2026-03-06 — Tranche 1 (fenêtre ~90min)
+--------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-03-05_0200_64cb8644e0_SYS — cote = 2.35 — fenêtre 02:00 → 05:50  
+  🎟️ TICKET 1.1 (A2) — id=2026-03-06_1830_120db0f2cb_SYS — cote = 2.35 — fenêtre 18:30 → 21:50  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 02:00 | liga mx | Monterrey vs Club Queretaro | HT+0.5 | EXPLOSION | odd=1.3
-  2) 04:00 | liga mx | Atlas vs Club Tijuana | HT+0.5 | FORT PLUS | odd=1.36
-  3) 04:00 | liga mx | Club America vs FC Juarez | Over 1.5 (FT) | TRÈS FORT | odd=1.33
-
-📅 Jeudi 2026-03-05 — Tranche 2 (fenêtre ~70min)
------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-03-05_2000_3d9228558e_SYS — cote = 2.53 — fenêtre 20:00 → 23:00  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 20:00 | saudi arabia | Damac vs Al Riyadh | HT+0.5 | EXPLOSION | odd=1.5
-  2) 20:30 | super league switzerland | FC Thun vs FC ST. Gallen | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
-  3) 20:30 | super league switzerland | FC Basel 1893 vs Grasshoppers | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
-  4) 21:10 | coupe de france | Lyon vs Lens | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  1) 18:30 | 2. bundesliga | FC Schalke 04 vs Arminia Bielefeld | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  2) 20:00 | saudi arabia | Al Khaleej Saihat vs Al-Hazm | Over 1.5 (FT) | TRÈS FORT | odd=1.2
+  3) 20:00 | superligaen | Kisvarda FC vs Puskas Academy | Over 1.5 (FT) | TRÈS FORT | odd=1.36
+  4) 20:00 | saudi arabia | Al Taawon vs Al-Fateh | Team1 scores (FT) | FORT PLUS | odd=1.15

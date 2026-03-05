@@ -2006,3 +2006,16 @@ Aucun ticket.
   2) 20:30 | super league switzerland | FC Thun vs FC ST. Gallen | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
   3) 20:30 | super league switzerland | FC Basel 1893 vs Grasshoppers | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
   4) 21:10 | coupe de france | Lyon vs Lens | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-03-06 00:44:25 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-06_1830_120db0f2cb_SYS — cote = 2.35 — fenêtre 18:30 → 21:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 18:30 | 2. bundesliga | FC Schalke 04 vs Arminia Bielefeld | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  2) 20:00 | saudi arabia | Al Khaleej Saihat vs Al-Hazm | Over 1.5 (FT) | TRÈS FORT | odd=1.2
+  3) 20:00 | superligaen | Kisvarda FC vs Puskas Academy | Over 1.5 (FT) | TRÈS FORT | odd=1.36
+  4) 20:00 | saudi arabia | Al Taawon vs Al-Fateh | Team1 scores (FT) | FORT PLUS | odd=1.15
