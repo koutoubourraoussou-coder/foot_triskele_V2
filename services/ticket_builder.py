@@ -46,7 +46,7 @@ MIN_ACCEPT_ODD = 1.70
 MATCH_DURATION_MIN = 110
 
 # ✅ Exclusions (SYSTEM uniquement) — vide => on n'exclut plus HT05 ni HT1X
-EXCLUDED_BET_GROUPS: Set[str] = set()
+EXCLUDED_BET_GROUPS: Set[str] = {"HT1X", "HT05"}
 
 MAX_LEG_SIZE = 4
 
@@ -94,7 +94,7 @@ TWO_TEAM_HIGH = 0.80
 TWO_TEAM_LOW = 0.63
 
 WEIGHT_MIN = 1.0
-WEIGHT_MAX = 2.5
+WEIGHT_MAX = 2.2
 WEIGHT_BASELINE = 0.70
 WEIGHT_CEIL = 1.00
 
