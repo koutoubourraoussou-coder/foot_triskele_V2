@@ -75,6 +75,13 @@ TICKETS_O15_RANDOM_TSV_FILE = Path("data/tickets_o15_random.tsv")
 TICKETS_REPORT_GLOBAL_FILE = Path("data/tickets_report_global.txt")
 TICKETS_O15_REPORT_GLOBAL_FILE = Path("data/tickets_o15_random_report_global.txt")
 
+# ✅ Pools exportés en global cumulatif
+SYSTEM_POOL_BASE_GLOBAL_FILE = Path("data/system_pool_base_global.tsv")
+SYSTEM_POOL_EFFECTIVE_GLOBAL_FILE = Path("data/system_pool_effective_global.tsv")
+
+O15_RANDOM_POOL_BASE_GLOBAL_FILE = Path("data/o15_random_pool_base_global.tsv")
+O15_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE = Path("data/o15_random_pool_effective_global.tsv")
+
 # Bet key canon pour O15
 O15_CANON = "O15_FT"
 
@@ -1306,6 +1313,54 @@ def filter_o15_random_all(picks: List[Pick]) -> List[Pick]:
     out.sort(key=lambda x: (_time_to_minutes(x.time_str), -(x.odd or 0.0)))
     return out
 
+def filter_effective_system_pool(
+    picks: List[Pick],
+    league_bet: Optional[dict],
+    team_bet: Optional[dict],
+) -> List[Pick]:
+    """
+    Pool réellement jouable par le pipeline SYSTEM :
+    - déjà filtré structurellement
+    - puis validé par les vrais gates perf SYSTEM
+    """
+    out: List[Pick] = []
+    for p in picks:
+        if _system_accept_pick(p, league_bet, team_bet):
+            out.append(p)
+
+    out.sort(key=lambda x: (_time_to_minutes(x.time_str), -(x.odd or 0.0)))
+    return out
+
+
+def filter_effective_random_pool(
+    picks: List[Pick],
+    league_bet: Optional[dict],
+) -> List[Pick]:
+    """
+    Pool réellement jouable par le pipeline RANDOM :
+    - déjà filtré structurellement sur O15
+    - puis validé par le gate league x bet
+    """
+    cfg = T()
+    out: List[Pick] = []
+
+    for p in picks:
+        fam = _norm_bet_family(p.bet_key)
+        lg = (p.league or "").strip()
+        wr, dec = _league_bet_rate(league_bet, lg, fam)
+
+        if dec <= 0:
+            if cfg.league_bet_require_data:
+                continue
+            out.append(p)
+            continue
+
+        if wr is not None and float(wr) >= float(cfg.league_bet_min_winrate):
+            out.append(p)
+
+    out.sort(key=lambda x: (_time_to_minutes(x.time_str), -(x.odd or 0.0)))
+    return out
+
 # ----------------------------
 # Tranches "physiques"
 # ----------------------------
@@ -2407,6 +2462,98 @@ def append_report_to_global(
 
     return added
 
+def append_playable_picks_to_global(
+    *,
+    picks: List[Pick],
+    global_path: Path,
+    pipeline_name: str,
+    run_date: Optional[str],
+    source_tsv: str,
+) -> int:
+    """
+    Append cumulatif des picks jouables dans data/.
+    Dédup par signature métier :
+      (date, match_id, bet_family, time, league, home, away)
+    """
+    if not picks:
+        return 0
+
+    global_path.parent.mkdir(parents=True, exist_ok=True)
+
+    existing: Set[str] = set()
+    if global_path.exists() and global_path.stat().st_size > 0:
+        with global_path.open("r", encoding="utf-8", errors="ignore") as f:
+            for raw in f:
+                line = (raw or "").strip()
+                if not line.startswith("TSV:"):
+                    continue
+                parts = line[4:].lstrip().split("\t")
+                if len(parts) < 9:
+                    continue
+                sig = "||".join(parts[:7])  # date, match_id, bet_family, time, league, home, away
+                existing.add(sig)
+
+    new_lines: List[str] = []
+
+    for p in picks:
+        bet_family = _norm_bet_family(p.bet_key)
+        sig_parts = [
+            p.date or "",
+            p.match_id or "",
+            bet_family,
+            p.time_str or "",
+            p.league or "",
+            p.home or "",
+            p.away or "",
+        ]
+        sig = "||".join(sig_parts)
+        if sig in existing:
+            continue
+
+        odd_s = _fmt_odd(p.odd)
+        fixture_s = p.fixture_id or ""
+
+        line = "TSV: " + "\t".join([
+            p.date or "",
+            p.match_id or "",
+            bet_family,
+            p.time_str or "",
+            p.league or "",
+            p.home or "",
+            p.away or "",
+            odd_s,
+            fixture_s,
+            pipeline_name,
+            Path(source_tsv).name,
+        ])
+        new_lines.append(line)
+        existing.add(sig)
+
+    if not new_lines:
+        return 0
+
+    file_was_empty = (not global_path.exists()) or global_path.stat().st_size == 0
+
+    with global_path.open("a", encoding="utf-8") as f:
+        if file_was_empty:
+            f.write(f"{pipeline_name} — PLAYABLE PICKS GLOBAL\n")
+            f.write("=" * 42 + "\n")
+            f.write("Format TSV:\n")
+            f.write("date\tmatch_id\tbet_family\ttime\tleague\thome\taway\todd\tfixture_id\tpipeline\tsource\n\n")
+
+        stamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        rd_part = f"run_date={run_date}" if run_date else "run_date=ALL"
+        f.write(
+            f"# ------------------------------------------------------------------\n"
+            f"# APPEND {pipeline_name} | {stamp} | {rd_part} | source={Path(source_tsv).name}\n"
+            f"# ------------------------------------------------------------------\n"
+        )
+        for line in new_lines:
+            f.write(line + "\n")
+        f.write("\n")
+
+    return len(new_lines)
+
 # ----------------------------
 # API : 2 pipelines AUTOMATIQUES
 # ----------------------------
@@ -2441,9 +2588,36 @@ def generate_tickets_from_tsv(
         tickets_o15_report_path = _run_scoped_or_data("tickets_o15_random_report.txt")
 
         suffix = f" — {run_date}" if run_date else ""
+        league_bet, team_bet = _load_rankings()
 
-        playable_system = filter_playable_system(picks)
-        tickets_system = build_tickets(playable_system, mode="SYSTEM")
+        system_pool_base = filter_playable_system(picks)
+        system_pool_effective = filter_effective_system_pool(system_pool_base, league_bet, team_bet)
+
+        added_system_pool_base = append_playable_picks_to_global(
+            picks=system_pool_base,
+            global_path=SYSTEM_POOL_BASE_GLOBAL_FILE,
+            pipeline_name="SYSTEM_POOL_BASE",
+            run_date=run_date,
+            source_tsv=tsv_path,
+        )
+        if added_system_pool_base:
+            print(f"📦 [SYSTEM] Pool base exporté : {SYSTEM_POOL_BASE_GLOBAL_FILE} (+{added_system_pool_base} lignes)")
+        else:
+            print(f"ℹ️ [SYSTEM] Pool base inchangé : {SYSTEM_POOL_BASE_GLOBAL_FILE}")
+
+        added_system_pool_effective = append_playable_picks_to_global(
+            picks=system_pool_effective,
+            global_path=SYSTEM_POOL_EFFECTIVE_GLOBAL_FILE,
+            pipeline_name="SYSTEM_POOL_EFFECTIVE",
+            run_date=run_date,
+            source_tsv=tsv_path,
+        )
+        if added_system_pool_effective:
+            print(f"📦 [SYSTEM] Pool effectif exporté : {SYSTEM_POOL_EFFECTIVE_GLOBAL_FILE} (+{added_system_pool_effective} lignes)")
+        else:
+            print(f"ℹ️ [SYSTEM] Pool effectif inchangé : {SYSTEM_POOL_EFFECTIVE_GLOBAL_FILE}")
+
+        tickets_system = build_tickets(system_pool_base, mode="SYSTEM")
 
         added_sys = write_tickets_tsv(tickets_system, TICKETS_TSV_FILE, id_suffix="SYS")
         if added_sys:
@@ -2475,8 +2649,34 @@ def generate_tickets_from_tsv(
         else:
             print(f"ℹ️ [SYSTEM] Global report inchangé (0 nouveau ticket) : {TICKETS_REPORT_GLOBAL_FILE}")
 
-        playable_o15 = filter_o15_random_all(picks)
-        tickets_o15 = build_tickets(playable_o15, mode="RANDOM")
+        o15_random_pool_base = filter_o15_random_all(picks)
+        o15_random_pool_effective = filter_effective_random_pool(o15_random_pool_base, league_bet)
+
+        added_o15_random_pool_base = append_playable_picks_to_global(
+            picks=o15_random_pool_base,
+            global_path=O15_RANDOM_POOL_BASE_GLOBAL_FILE,
+            pipeline_name="O15_RANDOM_POOL_BASE",
+            run_date=run_date,
+            source_tsv=tsv_path,
+        )
+        if added_o15_random_pool_base:
+            print(f"📦 [O15_RANDOM_ALL] Pool base exporté : {O15_RANDOM_POOL_BASE_GLOBAL_FILE} (+{added_o15_random_pool_base} lignes)")
+        else:
+            print(f"ℹ️ [O15_RANDOM_ALL] Pool base inchangé : {O15_RANDOM_POOL_BASE_GLOBAL_FILE}")
+
+        added_o15_random_pool_effective = append_playable_picks_to_global(
+            picks=o15_random_pool_effective,
+            global_path=O15_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE,
+            pipeline_name="O15_RANDOM_POOL_EFFECTIVE",
+            run_date=run_date,
+            source_tsv=tsv_path,
+        )
+        if added_o15_random_pool_effective:
+            print(f"📦 [O15_RANDOM_ALL] Pool effectif exporté : {O15_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE} (+{added_o15_random_pool_effective} lignes)")
+        else:
+            print(f"ℹ️ [O15_RANDOM_ALL] Pool effectif inchangé : {O15_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE}")
+
+        tickets_o15 = build_tickets(o15_random_pool_base, mode="RANDOM")
 
         added_o15 = write_tickets_tsv(tickets_o15, TICKETS_O15_RANDOM_TSV_FILE, id_suffix="O15R")
         if added_o15:
