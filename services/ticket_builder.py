@@ -128,6 +128,60 @@ PREFER_3LEGS_DELTA = 0.03
 TOPK_SIZE = 5  # réglable : 5,6,7,8,9,10...
 TOPK_UNIFORM_DRAW = True  # tu veux uniforme
 
+# ====================================================
+# CONFIG PILOTABLE PAR OPTIMISEUR
+# ====================================================
+
+@dataclass(frozen=True)
+class BuilderTuning:
+    # Gates / seuils SYSTEM
+    global_bet_min_decided: int = GLOBAL_BET_MIN_DECIDED
+    global_bet_min_winrate: float = GLOBAL_BET_MIN_WINRATE
+    league_bet_min_winrate: float = LEAGUE_BET_MIN_WINRATE
+    league_bet_require_data: bool = LEAGUE_BET_REQUIRE_DATA
+    team_min_decided: int = TEAM_MIN_DECIDED
+    team_min_winrate: float = TEAM_MIN_WINRATE
+    two_team_high: float = TWO_TEAM_HIGH
+    two_team_low: float = TWO_TEAM_LOW
+
+    # Pondération
+    weight_min: float = WEIGHT_MIN
+    weight_max: float = WEIGHT_MAX
+    weight_baseline: float = WEIGHT_BASELINE
+    weight_ceil: float = WEIGHT_CEIL
+
+    # Recherche / sélection
+    topk_size: int = TOPK_SIZE
+    topk_uniform_draw: bool = TOPK_UNIFORM_DRAW
+    prefer_3legs_delta: float = PREFER_3LEGS_DELTA
+    search_budget_ms_system: int = SEARCH_BUDGET_MS_SYSTEM
+    search_budget_ms_random: int = SEARCH_BUDGET_MS_RANDOM
+
+    # Exclusions SYSTEM
+    excluded_bet_groups: Set[str] = frozenset(EXCLUDED_BET_GROUPS)
+
+    # Objectif ticket
+    target_odd: float = TARGET_ODD
+    min_accept_odd: float = MIN_ACCEPT_ODD
+
+
+_DEFAULT_TUNING = BuilderTuning()
+_ACTIVE_TUNING: Optional[BuilderTuning] = None
+
+
+def T() -> BuilderTuning:
+    return _ACTIVE_TUNING or _DEFAULT_TUNING
+
+
+def _set_active_tuning(tuning: Optional[BuilderTuning]) -> None:
+    global _ACTIVE_TUNING
+    _ACTIVE_TUNING = tuning
+
+
+def _clear_active_tuning() -> None:
+    global _ACTIVE_TUNING
+    _ACTIVE_TUNING = None
+
 def _maestro_enabled() -> bool:
     v = os.environ.get("TRISKELE_MAESTRO", "").strip()
     if v.lower() in ("0", "false", "no", "off"):
@@ -604,7 +658,7 @@ def _bet_group(bet_key: str) -> str:
     return "OTHER"
 
 def _is_excluded_pick_system(p: Pick) -> bool:
-    return _bet_group(p.bet_key) in (EXCLUDED_BET_GROUPS or set())
+    return _bet_group(p.bet_key) in (T().excluded_bet_groups or set())
 
 def _match_key(p: Pick) -> str:
     if p.fixture_id:
@@ -883,7 +937,9 @@ def _load_global_bet_stats() -> Dict[str, Dict[str, float]]:
 # ----------------------------
 # SYSTEM gating + weighting
 # ----------------------------
+
 def _global_bet_is_eligible(p: Pick) -> bool:
+    cfg = T()
     fam = _norm_bet_family(p.bet_key)
     stats = _load_global_bet_stats().get(fam)
     if not stats:
@@ -891,8 +947,8 @@ def _global_bet_is_eligible(p: Pick) -> bool:
 
     decided = int(stats.get("decided", 0) or 0)
     win_rate = float(stats.get("win_rate", 0.0) or 0.0)
-    if decided >= GLOBAL_BET_MIN_DECIDED:
-        return win_rate >= GLOBAL_BET_MIN_WINRATE
+    if decided >= cfg.global_bet_min_decided:
+        return win_rate >= cfg.global_bet_min_winrate
     return True
 
 def _team_row(team_bet: Optional[dict], team: str, league: str, bet_key: str) -> Optional[dict]:
@@ -947,9 +1003,8 @@ def _league_bet_is_eligible(
     p: Pick,
     league_bet: Optional[dict],
 ) -> bool:
-    """
-    Gate sur (league x famille de pari).
-    """
+    cfg = T()
+
     if not ENABLE_RANKINGS:
         return True
 
@@ -959,11 +1014,13 @@ def _league_bet_is_eligible(
     wr, dec = _league_bet_rate(league_bet, league, fam)
 
     if dec <= 0:
-        return (not LEAGUE_BET_REQUIRE_DATA)
+        return (not cfg.league_bet_require_data)
 
-    return (wr is not None) and (wr >= LEAGUE_BET_MIN_WINRATE)
+    return (wr is not None) and (wr >= cfg.league_bet_min_winrate)
 
 def _system_accept_pick(p: Pick, league_bet: Optional[dict], team_bet: Optional[dict]) -> bool:
+    cfg = T()
+
     if not ENABLE_RANKINGS:
         return True
 
@@ -979,36 +1036,36 @@ def _system_accept_pick(p: Pick, league_bet: Optional[dict], team_bet: Optional[
 
     if len(teams) == 1:
         wr, dec = _team_rate(team_bet, teams[0], league, bet_key)
-        if dec >= TEAM_MIN_DECIDED:
-            return (wr is not None) and (wr >= TEAM_MIN_WINRATE)
+        if dec >= cfg.team_min_decided:
+            return (wr is not None) and (wr >= cfg.team_min_winrate)
         return True
 
     t1, t2 = teams[0], teams[1]
     wr1, dec1 = _team_rate(team_bet, t1, league, bet_key)
     wr2, dec2 = _team_rate(team_bet, t2, league, bet_key)
 
-    if dec1 >= TEAM_MIN_DECIDED and (wr1 is None or wr1 < TEAM_MIN_WINRATE):
-        if dec2 >= TEAM_MIN_DECIDED and wr2 is not None:
+    if dec1 >= cfg.team_min_decided and (wr1 is None or wr1 < cfg.team_min_winrate):
+        if dec2 >= cfg.team_min_decided and wr2 is not None:
             hi = max(wr1 or 0.0, wr2)
             lo = min(wr1 or 0.0, wr2)
-            if hi >= TWO_TEAM_HIGH and lo >= TWO_TEAM_LOW:
+            if hi >= cfg.two_team_high and lo >= cfg.two_team_low:
                 return True
         return False
 
-    if dec2 >= TEAM_MIN_DECIDED and (wr2 is None or wr2 < TEAM_MIN_WINRATE):
-        if dec1 >= TEAM_MIN_DECIDED and wr1 is not None:
+    if dec2 >= cfg.team_min_decided and (wr2 is None or wr2 < cfg.team_min_winrate):
+        if dec1 >= cfg.team_min_decided and wr1 is not None:
             hi = max(wr1, wr2 or 0.0)
             lo = min(wr1, wr2 or 0.0)
-            if hi >= TWO_TEAM_HIGH and lo >= TWO_TEAM_LOW:
+            if hi >= cfg.two_team_high and lo >= cfg.two_team_low:
                 return True
         return False
 
-    if dec1 >= TEAM_MIN_DECIDED and dec2 >= TEAM_MIN_DECIDED and (wr1 is not None) and (wr2 is not None):
+    if dec1 >= cfg.team_min_decided and dec2 >= cfg.team_min_decided and (wr1 is not None) and (wr2 is not None):
         lo = min(wr1, wr2)
         hi = max(wr1, wr2)
-        if lo >= TEAM_MIN_WINRATE:
+        if lo >= cfg.team_min_winrate:
             return True
-        if hi >= TWO_TEAM_HIGH and lo >= TWO_TEAM_LOW:
+        if hi >= cfg.two_team_high and lo >= cfg.two_team_low:
             return True
         return False
 
@@ -1018,8 +1075,10 @@ def _system_match_mean_winrate(p: Pick, league_bet: Optional[dict], team_bet: Op
     """
     Moyenne WR baseline équipes du match, avec sécurité coef(n).
     """
+    cfg = T()
+
     if not ENABLE_RANKINGS:
-        return WEIGHT_BASELINE
+        return cfg.weight_baseline
 
     bet_key = _norm_bet_family(p.bet_key)
     league = (p.league or "").strip()
@@ -1034,7 +1093,7 @@ def _system_match_mean_winrate(p: Pick, league_bet: Optional[dict], team_bet: Op
             vals.append(float(wr) * c)
 
     if not vals:
-        return WEIGHT_BASELINE
+        return cfg.weight_baseline
 
     m = sum(vals) / len(vals)
     if m < 0.0:
@@ -1044,22 +1103,23 @@ def _system_match_mean_winrate(p: Pick, league_bet: Optional[dict], team_bet: Op
     return m
 
 def _winrate_to_weight(mean_wr: float) -> float:
+    cfg = T()
+
     wr = float(mean_wr or 0.0)
-    if wr <= WEIGHT_BASELINE:
-        return WEIGHT_MIN
-    if wr >= WEIGHT_CEIL:
-        return WEIGHT_MAX
+    if wr <= cfg.weight_baseline:
+        return cfg.weight_min
+    if wr >= cfg.weight_ceil:
+        return cfg.weight_max
 
-    span = max(1e-9, (WEIGHT_CEIL - WEIGHT_BASELINE))
-    x = (wr - WEIGHT_BASELINE) / span
-    w = WEIGHT_MIN + (WEIGHT_MAX - WEIGHT_MIN) * (x ** 0.5)
+    span = max(1e-9, (cfg.weight_ceil - cfg.weight_baseline))
+    x = (wr - cfg.weight_baseline) / span
+    w = cfg.weight_min + (cfg.weight_max - cfg.weight_min) * (x ** 0.5)
 
-    if w < WEIGHT_MIN:
-        w = WEIGHT_MIN
-    if w > WEIGHT_MAX:
-        w = WEIGHT_MAX
+    if w < cfg.weight_min:
+        w = cfg.weight_min
+    if w > cfg.weight_max:
+        w = cfg.weight_max
     return w
-
 
 def _system_priority_weight_league(p: Pick, league_bet: Optional[dict]) -> float:
     """
@@ -1313,13 +1373,15 @@ def _short_pick(p: Pick) -> str:
     return f"{p.time_str} | {p.league} | {p.home} vs {p.away} | {_norm_bet_family(p.bet_key)} | odd={_fmt_odd(p.odd)}"
 
 def _system_reject_reason(p: Pick, league_bet: Optional[dict], team_bet: Optional[dict]) -> Optional[str]:
+    cfg = T()
+
     if not _global_bet_is_eligible(p):
         fam = _norm_bet_family(p.bet_key)
         s = _load_global_bet_stats().get(fam, {})
         dec = int(s.get("decided", 0) or 0)
         wr = float(s.get("win_rate", 0.0) or 0.0)
-        if dec >= GLOBAL_BET_MIN_DECIDED:
-            return f"GLOBAL_BET_LOW_SR | fam={fam} wr={wr:.2f} decided={dec} (min_wr={GLOBAL_BET_MIN_WINRATE:.2f})"
+        if dec >= cfg.global_bet_min_decided:
+            return f"GLOBAL_BET_LOW_SR | fam={fam} wr={wr:.2f} decided={dec} (min_wr={cfg.global_bet_min_winrate:.2f})"
         return f"GLOBAL_BET_UNKNOWN | fam={fam} decided={dec}"
 
     fam = _norm_bet_family(p.bet_key)
@@ -1327,11 +1389,11 @@ def _system_reject_reason(p: Pick, league_bet: Optional[dict], team_bet: Optiona
     wr, dec = _league_bet_rate(league_bet, lg, fam)
 
     if dec <= 0:
-        if LEAGUE_BET_REQUIRE_DATA:
-            return f"LEAGUE_BET_NO_DATA | league={lg} bet={fam} decided=0 (require_data=True)"
+        if cfg.league_bet_require_data:
+            return f"LEAGUE_BET_NO_DATA | league={lg} bet={fam} decided=0 (require_data={cfg.league_bet_require_data})"
     else:
-        if wr is not None and wr < LEAGUE_BET_MIN_WINRATE:
-            return f"LEAGUE_BET_LOW_SR | league={lg} bet={fam} wr={wr:.2f} decided={dec} (min_wr={LEAGUE_BET_MIN_WINRATE:.2f})"
+        if wr is not None and wr < cfg.league_bet_min_winrate:
+            return f"LEAGUE_BET_LOW_SR | league={lg} bet={fam} wr={wr:.2f} decided={dec} (min_wr={cfg.league_bet_min_winrate:.2f})"
 
     bet_key = fam
     league = lg
@@ -1343,55 +1405,55 @@ def _system_reject_reason(p: Pick, league_bet: Optional[dict], team_bet: Optiona
     if len(teams) == 1:
         t = teams[0]
         t_wr, t_dec = _team_wr(t)
-        if t_dec >= TEAM_MIN_DECIDED and (t_wr is None or t_wr < TEAM_MIN_WINRATE):
-            return f"TEAM_LOW_SR | team={t} league={league} bet={bet_key} wr={float(t_wr or 0):.2f} decided={t_dec} (min_wr={TEAM_MIN_WINRATE:.2f})"
+        if t_dec >= cfg.team_min_decided and (t_wr is None or t_wr < cfg.team_min_winrate):
+            return f"TEAM_LOW_SR | team={t} league={league} bet={bet_key} wr={float(t_wr or 0):.2f} decided={t_dec} (min_wr={cfg.team_min_winrate:.2f})"
         return None
 
     t1, t2 = teams[0], teams[1]
     wr1, dec1 = _team_wr(t1)
     wr2, dec2 = _team_wr(t2)
 
-    if dec1 >= TEAM_MIN_DECIDED and (wr1 is None or wr1 < TEAM_MIN_WINRATE):
-        if dec2 >= TEAM_MIN_DECIDED and wr2 is not None:
+    if dec1 >= cfg.team_min_decided and (wr1 is None or wr1 < cfg.team_min_winrate):
+        if dec2 >= cfg.team_min_decided and wr2 is not None:
             hi = max(float(wr1 or 0.0), float(wr2))
             lo = min(float(wr1 or 0.0), float(wr2))
-            if hi >= TWO_TEAM_HIGH and lo >= TWO_TEAM_LOW:
+            if hi >= cfg.two_team_high and lo >= cfg.two_team_low:
                 return None
         return f"TWO_TEAM_REJECT | {t1} wr={float(wr1 or 0):.2f} dec={dec1} | {t2} wr={float(wr2 or 0):.2f} dec={dec2}"
 
-    if dec2 >= TEAM_MIN_DECIDED and (wr2 is None or wr2 < TEAM_MIN_WINRATE):
-        if dec1 >= TEAM_MIN_DECIDED and wr1 is not None:
+    if dec2 >= cfg.team_min_decided and (wr2 is None or wr2 < cfg.team_min_winrate):
+        if dec1 >= cfg.team_min_decided and wr1 is not None:
             hi = max(float(wr1), float(wr2 or 0.0))
             lo = min(float(wr1), float(wr2 or 0.0))
-            if hi >= TWO_TEAM_HIGH and lo >= TWO_TEAM_LOW:
+            if hi >= cfg.two_team_high and lo >= cfg.two_team_low:
                 return None
         return f"TWO_TEAM_REJECT | {t1} wr={float(wr1 or 0):.2f} dec={dec1} | {t2} wr={float(wr2 or 0):.2f} dec={dec2}"
 
-    if dec1 >= TEAM_MIN_DECIDED and dec2 >= TEAM_MIN_DECIDED and wr1 is not None and wr2 is not None:
+    if dec1 >= cfg.team_min_decided and dec2 >= cfg.team_min_decided and wr1 is not None and wr2 is not None:
         lo = min(float(wr1), float(wr2))
         hi = max(float(wr1), float(wr2))
-        if lo >= TEAM_MIN_WINRATE:
+        if lo >= cfg.team_min_winrate:
             return None
-        if hi >= TWO_TEAM_HIGH and lo >= TWO_TEAM_LOW:
+        if hi >= cfg.two_team_high and lo >= cfg.two_team_low:
             return None
         return f"TWO_TEAM_REJECT | {t1} wr={float(wr1):.2f} dec={dec1} | {t2} wr={float(wr2):.2f} dec={dec2}"
 
     return None
 
 def _random_reject_reason(p: Pick, league_bet: Optional[dict]) -> Optional[str]:
-    """
-    RANDOM gate = LEAGUE x BET (require_data=True) + min winrate.
-    Retourne une raison lisible si rejeté, sinon None.
-    """
+    cfg = T()
+
     fam = _norm_bet_family(p.bet_key)
     lg = (p.league or "").strip()
     wr, dec = _league_bet_rate(league_bet, lg, fam)
 
     if dec <= 0:
-        return f"RANDOM_LEAGUE_NO_DATA | league={lg} bet={fam} decided=0 (require_data=True)"
+        if cfg.league_bet_require_data:
+            return f"RANDOM_LEAGUE_NO_DATA | league={lg} bet={fam} decided=0 (require_data={cfg.league_bet_require_data})"
+        return None
 
-    if wr is not None and float(wr) < float(LEAGUE_BET_MIN_WINRATE):
-        return f"RANDOM_LEAGUE_LOW_SR | league={lg} bet={fam} wr={float(wr):.2f} decided={int(dec)} (min_wr={LEAGUE_BET_MIN_WINRATE:.2f})"
+    if wr is not None and float(wr) < float(cfg.league_bet_min_winrate):
+        return f"RANDOM_LEAGUE_LOW_SR | league={lg} bet={fam} wr={float(wr):.2f} decided={int(dec)} (min_wr={cfg.league_bet_min_winrate:.2f})"
 
     return None
 
@@ -1472,18 +1534,12 @@ def _try_build_ticket_system(
     league_bet: Optional[dict],
     team_bet: Optional[dict],
 ) -> Optional[List[Pick]]:
-    """
-    SYSTEM time-budget :
-    - Génère beaucoup de tickets valides (3 legs / 4 legs).
-    - Conserve TOPK meilleurs (score final = _ticket_score_system).
-    - Tire UNIFORMÉMENT 1 ticket dans TOPK_3 et 1 ticket dans TOPK_4.
-    - Compare avec règle 3% (prefer 3L if close).
-    - MAESTROLOGUE détaillé : TopK + tirages + décision + détail score du choisi (niveau 3).
-    """
+    cfg = T()
+
     if not picks:
         return None
 
-    deadline = _deadline_ms(SEARCH_BUDGET_MS_SYSTEM)
+    deadline = _deadline_ms(cfg.search_budget_ms_system)
     it = 0
     pool = list(picks)
 
@@ -1516,16 +1572,14 @@ def _try_build_ticket_system(
 
         return None
 
-    top3 = _TopK(TOPK_SIZE)
-    top4 = _TopK(TOPK_SIZE)
+    top3 = _TopK(cfg.topk_size)
+    top4 = _TopK(cfg.topk_size)
 
     found3 = 0
     found4 = 0
 
     while _now_perf() < deadline and it < SEARCH_MAX_ITER_SYSTEM:
         it += 1
-
-        # ✅ tirage pondéré sans remise (plus efficace)
         order = _weighted_order_no_replacement(pool, weights, rng)
 
         res3 = _build_exact(order, legs=3)
@@ -1543,8 +1597,8 @@ def _try_build_ticket_system(
     items3 = top3.items_desc()
     items4 = top4.items_desc()
 
-    draw3 = _uniform_draw_topk(rng, items3) if TOPK_UNIFORM_DRAW else (items3[0] if items3 else None)
-    draw4 = _uniform_draw_topk(rng, items4) if TOPK_UNIFORM_DRAW else (items4[0] if items4 else None)
+    draw3 = _uniform_draw_topk(rng, items3) if cfg.topk_uniform_draw else (items3[0] if items3 else None)
+    draw4 = _uniform_draw_topk(rng, items4) if cfg.topk_uniform_draw else (items4[0] if items4 else None)
 
     best3_picks = draw3.picks if draw3 else None
     best3_score = draw3.score if draw3 else -1e18
@@ -1555,22 +1609,19 @@ def _try_build_ticket_system(
     chosen, chosen_score = _prefer_3legs_if_close(
         best4_picks, best4_score,
         best3_picks, best3_score,
-        prefer_delta=PREFER_3LEGS_DELTA,
+        prefer_delta=cfg.prefer_3legs_delta,
     )
 
     if chosen:
         chosen = list(chosen)
 
-    # ===============================
-    # MAESTROLOGUE — TopK + Tirages + Décision
-    # ===============================
     mlevel = _maestro_level()
     if mlevel >= 2:
         lines: List[str] = []
         lines.append("MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)")
         lines.append("-" * 58)
         lines.append("- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus")
-        lines.append(f"- règle: préférer 3L si écart <= {PREFER_3LEGS_DELTA*100:.2f}%")
+        lines.append(f"- règle: préférer 3L si écart <= {cfg.prefer_3legs_delta*100:.2f}%")
         lines.append(f"- iterations: {it} | valid_3L_found: {found3} | valid_4L_found: {found4}")
         lines.append(f"- top3_size: {len(items3)} | top4_size: {len(items4)}")
         lines.append("")
@@ -1589,7 +1640,7 @@ def _try_build_ticket_system(
                 return
             for r, it_ in enumerate(items, start=1):
                 lines.append(
-                    f"  {tag}[{r}/{len(items)}]: score={_fmt_score_pct(it_.score)} | legs={len(it_.picks)} | odd={_fmt_odd(_TicketOdd(it_.picks))}"
+                    f"  {tag}[{r}/{len(items)}]: score={_fmt_score_pct(it_.score)} | legs={len(it_.picks)} | odd={_fmt_odd(_TicketOdd(list(it_.picks)))}"
                 )
             lines.append("")
 
@@ -1626,9 +1677,6 @@ def _try_build_ticket_system(
         lines.append("")
         _write_maestro_log("\n".join(lines) + "\n", append=True)
 
-    # ===============================
-    # MAESTROLOGUE — Détail scoring du ticket choisi (niveau 3)
-    # ===============================
     if mlevel >= 3 and chosen:
         chosen_sorted = sorted(chosen, key=lambda p: _time_to_minutes(p.time_str))
         score = _ticket_score_system(chosen_sorted, league_bet, team_bet)
@@ -1679,70 +1727,49 @@ def _try_build_ticket_random(
     league_bet: Optional[dict],
     team_bet: Optional[dict],
 ) -> Optional[List[Pick]]:
-    """
-    RANDOM (O15) — autonome :
-    - BUILD (gate) : LEAGUE x BET (>= LEAGUE_BET_MIN_WINRATE) + require_data=True
-    - SELECT (score final) : TEAM x BET (home + away) avec sécurité coef(decided)
-    - TopK + tirage UNIFORME + règle 3L si proche
+    cfg = T()
 
-    IMPORTANT : cette fonction ne doit PAS reprendre le wording SYSTEM dans le maestrologue.
-    """
     if not picks:
         return None
     if league_bet is None:
-        # RANDOM dépend du gate ligue => sans league_bet on ne construit rien
         return None
 
-    deadline = _deadline_ms(SEARCH_BUDGET_MS_RANDOM)
+    deadline = _deadline_ms(cfg.search_budget_ms_random)
     it = 0
     pool = list(picks)
 
-    # ----------------------------
-    # 1) Gate RANDOM = LEAGUE x BET (require_data=True)
-    # ----------------------------
     def _random_accept_pick(p: Pick) -> bool:
         fam = _norm_bet_family(p.bet_key)
         lg = (p.league or "").strip()
         wr, dec = _league_bet_rate(league_bet, lg, fam)
         if dec <= 0:
-            return False
-        return (wr is not None) and (float(wr) >= float(LEAGUE_BET_MIN_WINRATE))
+            return (not cfg.league_bet_require_data)
+        return (wr is not None) and (float(wr) >= float(cfg.league_bet_min_winrate))
 
-    # ----------------------------
-    # 2) Weights de génération (RANDOM) : LEAGUE x BET (simple)
-    #    -> on favorise les ligues/bets qui performent + un tout petit bonus cote
-    # ----------------------------
     wr_by_pick: List[Optional[float]] = []
-    dec_by_pick: List[int] = []
     for p in pool:
         fam = _norm_bet_family(p.bet_key)
         lg = (p.league or "").strip()
         wr, dec = _league_bet_rate(league_bet, lg, fam)
         if wr is not None and dec > 0:
-            # même “sécurité statistique” que partout
             c = _confidence_coef(int(dec), n_full=5, base=0.70)
             wr_by_pick.append(float(wr) * float(c))
-            dec_by_pick.append(int(dec))
         else:
             wr_by_pick.append(None)
-            dec_by_pick.append(0)
 
     valid = [w for w in wr_by_pick if w is not None]
     mn = min(valid) if valid else None
     mx = max(valid) if valid else None
 
     def _weight_from_wr_adj(wr_adj: float | None, odd: Optional[float]) -> float:
-        # base 1.0 → 2.0 selon wr_adj
         if wr_adj is None or mn is None or mx is None or mx == mn:
             w_perf = 1.0
         else:
-            w_perf = 1.0 + (float(wr_adj) - float(mn)) / (float(mx) - float(mn))  # 1 -> 2
+            w_perf = 1.0 + (float(wr_adj) - float(mn)) / (float(mx) - float(mn))
             w_perf = max(1.0, min(2.0, w_perf))
 
-        # micro bonus cote (très léger)
         o = float(odd or 1.0)
         w_odd = (0.90 + 0.10 * min(2.0, o))
-
         return max(RANK_EPS, float(w_perf) * float(w_odd))
 
     weights = [_weight_from_wr_adj(w, p.odd) for w, p in zip(wr_by_pick, pool)]
@@ -1751,9 +1778,6 @@ def _try_build_ticket_random(
 
     rejected_by_league_gate = 0
 
-    # ----------------------------
-    # 3) Construction d’un ticket EXACT (3 ou 4 legs), 1 pick par match
-    # ----------------------------
     def _build_exact(order: List[Pick], wanted_legs: int) -> Optional[List[Pick]]:
         nonlocal rejected_by_league_gate
         chosen: List[Pick] = []
@@ -1782,14 +1806,11 @@ def _try_build_ticket_random(
             return None
         return chosen
 
-    # ----------------------------
-    # 4) Score final RANDOM = TEAM x BET (home+away)
-    # ----------------------------
     def _final_score(ticket_picks: List[Pick]) -> float:
         return _ticket_score_random_team(ticket_picks, team_bet)
 
-    top3 = _TopK(TOPK_SIZE)
-    top4 = _TopK(TOPK_SIZE)
+    top3 = _TopK(cfg.topk_size)
+    top4 = _TopK(cfg.topk_size)
 
     found3 = 0
     found4 = 0
@@ -1811,8 +1832,8 @@ def _try_build_ticket_random(
     items3 = top3.items_desc()
     items4 = top4.items_desc()
 
-    draw3 = _uniform_draw_topk(rng, items3) if TOPK_UNIFORM_DRAW else (items3[0] if items3 else None)
-    draw4 = _uniform_draw_topk(rng, items4) if TOPK_UNIFORM_DRAW else (items4[0] if items4 else None)
+    draw3 = _uniform_draw_topk(rng, items3) if cfg.topk_uniform_draw else (items3[0] if items3 else None)
+    draw4 = _uniform_draw_topk(rng, items4) if cfg.topk_uniform_draw else (items4[0] if items4 else None)
 
     best3_picks = draw3.picks if draw3 else None
     best3_score = draw3.score if draw3 else -1e18
@@ -1823,15 +1844,12 @@ def _try_build_ticket_random(
     chosen, chosen_score = _prefer_3legs_if_close(
         best4_picks, best4_score,
         best3_picks, best3_score,
-        prefer_delta=PREFER_3LEGS_DELTA,
+        prefer_delta=cfg.prefer_3legs_delta,
     )
 
     if chosen:
         chosen = list(chosen)
 
-    # ----------------------------
-    # 5) MAESTROLOGUE RANDOM (niveaux 2/3) — wording RANDOM ONLY
-    # ----------------------------
     mlevel = _maestro_level()
     if mlevel >= 2:
         def _ticket_odd(picks_: List[Pick]) -> float:
@@ -1843,9 +1861,9 @@ def _try_build_ticket_random(
         lines: List[str] = []
         lines.append("MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)")
         lines.append("-" * 64)
-        lines.append(f"- gate_build: LEAGUE x BET >= {LEAGUE_BET_MIN_WINRATE:.2f} (require_data=True)")
+        lines.append(f"- gate_build: LEAGUE x BET >= {cfg.league_bet_min_winrate:.2f} (require_data={cfg.league_bet_require_data})")
         lines.append("- score_select: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)")
-        lines.append(f"- règle: préférer 3L si écart <= {PREFER_3LEGS_DELTA*100:.2f}%")
+        lines.append(f"- règle: préférer 3L si écart <= {cfg.prefer_3legs_delta*100:.2f}%")
         lines.append(f"- iterations: {it} | valid_3L_found: {found3} | valid_4L_found: {found4}")
         lines.append(f"- top3_size: {len(items3)} | top4_size: {len(items4)}")
         lines.append(f"- rejected_by_league_gate (approx): {rejected_by_league_gate}")
@@ -1900,9 +1918,6 @@ def _try_build_ticket_random(
         lines.append("")
         _write_maestro_log("\n".join(lines) + "\n", append=True)
 
-    # ----------------------------
-    # 6) MAESTROLOGUE RANDOM niveau 3 : détail scoring TEAM x BET du ticket choisi
-    # ----------------------------
     if mlevel >= 3 and chosen:
         chosen_sorted = sorted(chosen, key=lambda p: _time_to_minutes(p.time_str))
         score = _ticket_score_random_team(chosen_sorted, team_bet)
@@ -1919,7 +1934,6 @@ def _try_build_ticket_random(
             fam = _norm_bet_family(p.bet_key)
             lg = (p.league or "").strip()
 
-            # HOME
             wr1, dec1 = _team_rate(team_bet, p.home, lg, fam)
             if wr1 is not None and dec1 > 0:
                 coef1 = _confidence_coef(int(dec1), n_full=5, base=0.70)
@@ -1935,7 +1949,6 @@ def _try_build_ticket_random(
                 adj1_str = "0.000"
                 adj1_pct = _fmt_pct(0.0)
 
-            # AWAY
             wr2, dec2 = _team_rate(team_bet, p.away, lg, fam)
             if wr2 is not None and dec2 > 0:
                 coef2 = _confidence_coef(int(dec2), n_full=5, base=0.70)
@@ -1951,7 +1964,6 @@ def _try_build_ticket_random(
                 adj2_str = "0.000"
                 adj2_pct = _fmt_pct(0.0)
 
-            # MEAN match (sur adj dispo)
             vals: List[float] = []
             if wr1 is not None and int(dec1 or 0) > 0:
                 vals.append(float(adj1_str))
@@ -1990,7 +2002,8 @@ def _build_tickets_for_one_day(sorted_picks: List[Pick], *, mode: str) -> List[T
     base_spread = SPREAD_MAX_RICH_MIN if is_rich else SPREAD_START_POOR_MIN
 
     day_max = _max_possible_odd(sorted_picks)
-    day_threshold = TARGET_ODD if day_max >= TARGET_ODD else MIN_ACCEPT_ODD
+    cfg = T()
+    day_threshold = cfg.target_odd if day_max >= cfg.target_odd else cfg.min_accept_odd
 
     tranches = _build_base_tranches(sorted_picks, base_spread)
 
@@ -2011,7 +2024,7 @@ def _build_tickets_for_one_day(sorted_picks: List[Pick], *, mode: str) -> List[T
         maestro_lines.append(f"- picks_total: {len(sorted_picks)}")
         maestro_lines.append(f"- base_spread: {base_spread} min (rich={is_rich})")
         maestro_lines.append(f"- day_max_possible_odd: {_fmt_odd(day_max)}")
-        maestro_lines.append(f"- threshold_used: {_fmt_odd(day_threshold)} (target={_fmt_odd(TARGET_ODD)}, fallback={_fmt_odd(MIN_ACCEPT_ODD)})")
+        maestro_lines.append(f"- threshold_used: {_fmt_odd(day_threshold)} (target={_fmt_odd(cfg.target_odd)}, fallback={_fmt_odd(cfg.min_accept_odd)})")
         maestro_lines.append("")
 
     idx = 0
@@ -2121,7 +2134,7 @@ def _build_tickets_for_one_day(sorted_picks: List[Pick], *, mode: str) -> List[T
         group_no += 1
         t = Ticket(
             picks=combo_sorted,
-            target_reached=(day_threshold == TARGET_ODD),
+            target_reached=(day_threshold == cfg.target_odd),
             group_no=group_no,
             option_no=1,
             spread_minutes=_ticket_spread_minutes(combo_sorted),
@@ -2200,7 +2213,7 @@ def write_tickets_tsv(tickets: List[Ticket], path: Path, *, id_suffix: str = "")
     for t in tickets:
         tid = _ticket_id(t, suffix=id_suffix)
         total = t.total_odd
-        code = "A2" if total >= TARGET_ODD else "RESTE"
+        code = "A2" if total >= T().target_odd else "RESTE"
         tot = _fmt_odd(total)
 
         date = t.picks[0].date if t.picks else ""
@@ -2264,7 +2277,7 @@ def render_tickets_report(tickets: List[Ticket], title: str, *, id_suffix: str =
 
         for t in group_tickets:
             total_str = _fmt_odd(t.total_odd)
-            code = "A2" if t.total_odd >= TARGET_ODD else "RESTE"
+            code = "A2" if t.total_odd >= T().target_odd else "RESTE"
             ticket_label = f"{t.group_no}.{t.option_no}"
             tid = _ticket_id(t, suffix=id_suffix)
 
@@ -2402,116 +2415,120 @@ def _filter_picks_by_run_date(picks: List[Pick], run_date: Optional[str]) -> Lis
         return picks
     return [p for p in picks if (p.date or "").strip() == run_date.strip()]
 
-def generate_tickets_from_tsv(tsv_path: str, run_date: Optional[str] = None) -> TicketBuildOutput:
-    if _maestro_level() >= 1:
-        stamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        hdr = (
-            f"RUN MAESTROLOGUE — {stamp}\n"
-            f"- source_tsv: {Path(tsv_path).name}\n"
-            f"- run_date: {run_date or 'ALL'}\n"
-            f"- maestro_level: {_maestro_level()}\n"
-            f"{'='*40}\n\n"
+def generate_tickets_from_tsv(
+    tsv_path: str,
+    run_date: Optional[str] = None,
+    tuning: Optional[BuilderTuning] = None,
+) -> TicketBuildOutput:
+    _set_active_tuning(tuning)
+
+    try:
+        if _maestro_level() >= 1:
+            stamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            hdr = (
+                f"RUN MAESTROLOGUE — {stamp}\n"
+                f"- source_tsv: {Path(tsv_path).name}\n"
+                f"- run_date: {run_date or 'ALL'}\n"
+                f"- maestro_level: {_maestro_level()}\n"
+                f"{'='*40}\n\n"
+            )
+            _write_maestro_log(hdr, append=True)
+
+        picks_all = load_predictions_tsv(tsv_path)
+        picks = _filter_picks_by_run_date(picks_all, run_date)
+
+        tickets_report_path = _run_scoped_or_data("tickets_report.txt")
+        tickets_o15_report_path = _run_scoped_or_data("tickets_o15_random_report.txt")
+
+        suffix = f" — {run_date}" if run_date else ""
+
+        playable_system = filter_playable_system(picks)
+        tickets_system = build_tickets(playable_system, mode="SYSTEM")
+
+        added_sys = write_tickets_tsv(tickets_system, TICKETS_TSV_FILE, id_suffix="SYS")
+        if added_sys:
+            print(f"✅ [SYSTEM] Tickets TSV ajoutés : {TICKETS_TSV_FILE} (+{added_sys} lignes)")
+        else:
+            print("⚠️ [SYSTEM] Aucun ticket TSV écrit (tickets=0 ou dédup).")
+
+        report_system = render_tickets_report(
+            tickets_system,
+            title=f"TICKETS TRISKÈLE{suffix} — SYSTEM — depuis {Path(tsv_path).name}",
+            id_suffix="SYS",
         )
-        _write_maestro_log(hdr, append=True)
-
-    picks_all = load_predictions_tsv(tsv_path)
-    picks = _filter_picks_by_run_date(picks_all, run_date)
-
-    tickets_report_path = _run_scoped_or_data("tickets_report.txt")
-    tickets_o15_report_path = _run_scoped_or_data("tickets_o15_random_report.txt")
-
-    suffix = f" — {run_date}" if run_date else ""
-
-    # ----------------------------
-    # A) SYSTEM
-    # ----------------------------
-    playable_system = filter_playable_system(picks)
-    tickets_system = build_tickets(playable_system, mode="SYSTEM")
-
-    added_sys = write_tickets_tsv(tickets_system, TICKETS_TSV_FILE, id_suffix="SYS")
-    if added_sys:
-        print(f"✅ [SYSTEM] Tickets TSV ajoutés : {TICKETS_TSV_FILE} (+{added_sys} lignes)")
-    else:
-        print("⚠️ [SYSTEM] Aucun ticket TSV écrit (tickets=0 ou dédup).")
-
-    report_system = render_tickets_report(
-        tickets_system,
-        title=f"TICKETS TRISKÈLE{suffix} — SYSTEM — depuis {Path(tsv_path).name}",
-        id_suffix="SYS",
-    )
-    _write_report_robust(
-        run_path=tickets_report_path,
-        data_path=Path("data/tickets_report.txt"),
-        text=report_system,
-    )
-    print(f"📝 [SYSTEM] TicketsReport écrit : {tickets_report_path} + data/tickets_report.txt")
-
-    added_sys_global = append_report_to_global(
-        report_text=report_system,
-        global_path=TICKETS_REPORT_GLOBAL_FILE,
-        pipeline_name="SYSTEM",
-        run_date=run_date,
-        source_tsv=tsv_path,
-    )
-    if added_sys_global:
-        print(f"🧾 [SYSTEM] Global report alimenté : {TICKETS_REPORT_GLOBAL_FILE} (+{added_sys_global} tickets)")
-    else:
-        print(f"ℹ️ [SYSTEM] Global report inchangé (0 nouveau ticket) : {TICKETS_REPORT_GLOBAL_FILE}")
-
-    # ----------------------------
-    # B) O15 RANDOM ALL
-    # ----------------------------
-    playable_o15 = filter_o15_random_all(picks)
-    tickets_o15 = build_tickets(playable_o15, mode="RANDOM")
-
-    added_o15 = write_tickets_tsv(tickets_o15, TICKETS_O15_RANDOM_TSV_FILE, id_suffix="O15R")
-    if added_o15:
-        print(f"✅ [O15_RANDOM_ALL] Tickets TSV ajoutés : {TICKETS_O15_RANDOM_TSV_FILE} (+{added_o15} lignes)")
-    else:
-        print("⚠️ [O15_RANDOM_ALL] Aucun ticket TSV écrit (tickets=0 ou dédup).")
-
-    report_o15 = render_tickets_report(
-        tickets_o15,
-        title=f"TICKETS TRISKÈLE{suffix} — O15_RANDOM_ALL — depuis {Path(tsv_path).name}",
-        id_suffix="O15R",
-    )
-    _write_report_robust(
-        run_path=tickets_o15_report_path,
-        data_path=Path("data/tickets_o15_random_report.txt"),
-        text=report_o15,
-    )
-    print(f"📝 [O15_RANDOM_ALL] TicketsReport écrit : {tickets_o15_report_path} + data/tickets_o15_random_report.txt")
-
-    added_o15_global = append_report_to_global(
-        report_text=report_o15,
-        global_path=TICKETS_O15_REPORT_GLOBAL_FILE,
-        pipeline_name="O15_RANDOM_ALL",
-        run_date=run_date,
-        source_tsv=tsv_path,
-    )
-    if added_o15_global:
-        print(f"🧾 [O15_RANDOM_ALL] Global report alimenté : {TICKETS_O15_REPORT_GLOBAL_FILE} (+{added_o15_global} tickets)")
-    else:
-        print(f"ℹ️ [O15_RANDOM_ALL] Global report inchangé (0 nouveau ticket) : {TICKETS_O15_REPORT_GLOBAL_FILE}")
-
-    if _maestro_level() >= 1:
-        foot = (
-            f"RUN SUMMARY\n"
-            f"- system_tickets: {len(tickets_system)} | o15_tickets: {len(tickets_o15)}\n"
-            f"{'-'*40}\n\n"
+        _write_report_robust(
+            run_path=tickets_report_path,
+            data_path=Path("data/tickets_report.txt"),
+            text=report_system,
         )
-        _write_maestro_log(foot, append=True)
+        print(f"📝 [SYSTEM] TicketsReport écrit : {tickets_report_path} + data/tickets_report.txt")
 
-    return TicketBuildOutput(
-        tickets_system=tickets_system,
-        report_system=report_system,
-        tickets_o15=tickets_o15,
-        report_o15=report_o15,
-        added_sys=added_sys,
-        added_o15=added_o15,
-        added_sys_global=added_sys_global,
-        added_o15_global=added_o15_global,
-    )
+        added_sys_global = append_report_to_global(
+            report_text=report_system,
+            global_path=TICKETS_REPORT_GLOBAL_FILE,
+            pipeline_name="SYSTEM",
+            run_date=run_date,
+            source_tsv=tsv_path,
+        )
+        if added_sys_global:
+            print(f"🧾 [SYSTEM] Global report alimenté : {TICKETS_REPORT_GLOBAL_FILE} (+{added_sys_global} tickets)")
+        else:
+            print(f"ℹ️ [SYSTEM] Global report inchangé (0 nouveau ticket) : {TICKETS_REPORT_GLOBAL_FILE}")
+
+        playable_o15 = filter_o15_random_all(picks)
+        tickets_o15 = build_tickets(playable_o15, mode="RANDOM")
+
+        added_o15 = write_tickets_tsv(tickets_o15, TICKETS_O15_RANDOM_TSV_FILE, id_suffix="O15R")
+        if added_o15:
+            print(f"✅ [O15_RANDOM_ALL] Tickets TSV ajoutés : {TICKETS_O15_RANDOM_TSV_FILE} (+{added_o15} lignes)")
+        else:
+            print("⚠️ [O15_RANDOM_ALL] Aucun ticket TSV écrit (tickets=0 ou dédup).")
+
+        report_o15 = render_tickets_report(
+            tickets_o15,
+            title=f"TICKETS TRISKÈLE{suffix} — O15_RANDOM_ALL — depuis {Path(tsv_path).name}",
+            id_suffix="O15R",
+        )
+        _write_report_robust(
+            run_path=tickets_o15_report_path,
+            data_path=Path("data/tickets_o15_random_report.txt"),
+            text=report_o15,
+        )
+        print(f"📝 [O15_RANDOM_ALL] TicketsReport écrit : {tickets_o15_report_path} + data/tickets_o15_random_report.txt")
+
+        added_o15_global = append_report_to_global(
+            report_text=report_o15,
+            global_path=TICKETS_O15_REPORT_GLOBAL_FILE,
+            pipeline_name="O15_RANDOM_ALL",
+            run_date=run_date,
+            source_tsv=tsv_path,
+        )
+        if added_o15_global:
+            print(f"🧾 [O15_RANDOM_ALL] Global report alimenté : {TICKETS_O15_REPORT_GLOBAL_FILE} (+{added_o15_global} tickets)")
+        else:
+            print(f"ℹ️ [O15_RANDOM_ALL] Global report inchangé (0 nouveau ticket) : {TICKETS_O15_REPORT_GLOBAL_FILE}")
+
+        if _maestro_level() >= 1:
+            foot = (
+                f"RUN SUMMARY\n"
+                f"- system_tickets: {len(tickets_system)} | o15_tickets: {len(tickets_o15)}\n"
+                f"{'-'*40}\n\n"
+            )
+            _write_maestro_log(foot, append=True)
+
+        return TicketBuildOutput(
+            tickets_system=tickets_system,
+            report_system=report_system,
+            tickets_o15=tickets_o15,
+            report_o15=report_o15,
+            added_sys=added_sys,
+            added_o15=added_o15,
+            added_sys_global=added_sys_global,
+            added_o15_global=added_o15_global,
+        )
+
+    finally:
+        _clear_active_tuning()
 
 if __name__ == "__main__":
     import sys
