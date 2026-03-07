@@ -2019,3 +2019,36 @@ Aucun ticket.
   2) 20:00 | saudi arabia | Al Khaleej Saihat vs Al-Hazm | Over 1.5 (FT) | TRÈS FORT | odd=1.2
   3) 20:00 | superligaen | Kisvarda FC vs Puskas Academy | Over 1.5 (FT) | TRÈS FORT | odd=1.36
   4) 20:00 | saudi arabia | Al Taawon vs Al-Fateh | Team1 scores (FT) | FORT PLUS | odd=1.15
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-03-07 03:57:52 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-07_0200_63465b25a9_SYS — cote = 2.23 — fenêtre 02:00 → 14:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 02:00 | liga mx | Mazatlán vs Leon | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  2) 04:00 | liga mx | Necaxa vs U.N.A.M. - Pumas | Team2 scores (FT) | TRÈS FORT | odd=1.22
+  3) 13:00 | 2. bundesliga | 1. FC Nürnberg vs Fortuna Düsseldorf | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  4) 13:00 | 2. bundesliga | SV Darmstadt 98 vs Holstein Kiel | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+
+📅 Samedi 2026-03-07 — Tranche 2 (fenêtre ~30min)
+------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-03-07_1600_968dd3d5bd_SYS — cote = 2.43 — fenêtre 16:00 → 18:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:00 | championship | Ipswich vs Leicester | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  2) 16:15 | laliga2 | Real Sociedad II vs Castellón | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  3) 16:30 | liga portugal | Alverca vs AVS | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
+  4) 16:30 | eredivisie | Groningen vs Ajax | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+
+📅 Samedi 2026-03-07 — Tranche 3 (fenêtre ~60min)
+------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-03-07_2030_d105caad8c_SYS — cote = 2.25 — fenêtre 20:30 → 23:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:30 | super league switzerland | FC Lugano vs FC Luzern | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  2) 21:00 | laliga | Athletic Club vs Barcelona | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
+  3) 21:05 | ligue 1 | Toulouse vs Marseille | Over 1.5 (FT) | FORT PLUS | odd=1.28
+  4) 21:30 | liga portugal | Estoril vs Casa Pia | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25

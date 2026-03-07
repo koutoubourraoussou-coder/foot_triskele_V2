@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-03-06
+Date run       : 2026-03-07
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (83 ids)
+Whitelist      : ON (86 ids)
 Ignorés (hors whitelist) : 16
-Ignorés (date>=today)    : 4
+Ignorés (date>=today)    : 12
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -649,10 +649,19 @@ Ignorés (date>=today)    : 4
    ✅ Leg 3) 20:30 | super league switzerland | FC Thun vs FC ST. Gallen | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.17
    ✅ Leg 4) 21:10 | coupe de france | Lyon vs Lens | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Vendredi 2026-03-06 18:30→21:50 | code=A2 | odd=2.35
+   id=2026-03-06_1830_120db0f2cb_SYS
+   legs=4 | WIN=2 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 18:30 | 2. bundesliga | FC Schalke 04 vs Arminia Bielefeld | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+   ✅ Leg 2) 20:00 | saudi arabia | Al Khaleej Saihat vs Al-Hazm | Over 1.5 (FT) | [TRÈS FORT] | odd=1.2
+   ✅ Leg 3) 20:00 | saudi arabia | Al Taawon vs Al-Fateh | Team1 scores (FT) | [FORT PLUS] | odd=1.15
+   ❌ Leg 4) 20:00 | superligaen | Kisvarda FC vs Puskas Academy | Over 1.5 (FT) | [TRÈS FORT] | odd=1.36
+
 ====================================================================
-TOTAL tickets : 77
+TOTAL tickets : 78
 ✅ WIN     : 26
-❌ LOSS    : 50
+❌ LOSS    : 51
 ⏳ PENDING : 1
 ====================================================================
 

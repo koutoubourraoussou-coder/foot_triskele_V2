@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-03-06
+Date run       : 2026-03-07
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (88 ids)
+Whitelist      : ON (91 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 4
+Ignorés (date>=today)    : 12
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -731,10 +731,19 @@ Ignorés (date>=today)    : 4
    ✅ Leg 3) 20:30 | super league switzerland | FC Thun vs FC ST. Gallen | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.17
    ✅ Leg 4) 21:10 | coupe de france | Lyon vs Lens | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Vendredi 2026-03-06 02:20→21:50 | code=A2 | odd=2.45
+   id=2026-03-06_0220_7abd683263_O15R
+   legs=4 | WIN=2 | LOSS=2 | PENDING=0
+   ✅ Leg 1) 02:20 | primera a colombia | Junior vs Alianza Valledupar | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.33
+   ❌ Leg 2) 18:30 | 2. bundesliga | FC Schalke 04 vs Arminia Bielefeld | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+   ❌ Leg 3) 20:00 | eredivisie | Heracles vs Utrecht | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+   ✅ Leg 4) 20:00 | saudi arabia | Al Taawon vs Al-Fateh | Over 1.5 (FT) | [TRÈS FORT] | odd=1.18
+
 ====================================================================
-TOTAL tickets : 87
+TOTAL tickets : 88
 ✅ WIN     : 36
-❌ LOSS    : 49
+❌ LOSS    : 50
 ⏳ PENDING : 2
 ====================================================================
 

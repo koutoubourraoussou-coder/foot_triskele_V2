@@ -1,13 +1,35 @@
 TICKETS TRISKÈLE — O15_RANDOM_ALL — depuis predictions.tsv
 ==========================================================
 
-📅 Vendredi 2026-03-06 — Tranche 1 (fenêtre ~1060min)
-----------------------------------------------------
+📅 Samedi 2026-03-07 — Tranche 1 (fenêtre ~660min)
+-------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-03-06_0220_7abd683263_O15R — cote = 2.45 — fenêtre 02:20 → 21:50  
+  🎟️ TICKET 1.1 (A2) — id=2026-03-07_0200_2329da8564_O15R — cote = 2.29 — fenêtre 02:00 → 14:50  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 02:20 | primera a colombia | Junior vs Alianza Valledupar | Over 1.5 (FT) | MOYEN PLUS | odd=1.33
-  2) 18:30 | 2. bundesliga | FC Schalke 04 vs Arminia Bielefeld | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
-  3) 20:00 | saudi arabia | Al Taawon vs Al-Fateh | Over 1.5 (FT) | TRÈS FORT | odd=1.18
-  4) 20:00 | eredivisie | Heracles vs Utrecht | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  1) 02:00 | liga mx | Mazatlán vs Leon | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  2) 04:00 | liga mx | Necaxa vs U.N.A.M. - Pumas | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  3) 13:00 | 2. bundesliga | SV Darmstadt 98 vs Holstein Kiel | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  4) 13:00 | 2. bundesliga | 1. FC Nürnberg vs Fortuna Düsseldorf | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+
+📅 Samedi 2026-03-07 — Tranche 2 (fenêtre ~75min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-03-07_1600_b5960f3e2c_O15R — cote = 2.23 — fenêtre 16:00 → 19:05  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:00 | championship | Bristol City vs Coventry | Over 1.5 (FT) | MOYEN PLUS | odd=1.25
+  2) 16:00 | championship | Ipswich vs Leicester | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  3) 16:30 | eredivisie | Groningen vs Ajax | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  4) 17:15 | serie b | Venezia vs Reggiana | Over 1.5 (FT) | FORT PLUS | odd=1.22
+
+📅 Samedi 2026-03-07 — Tranche 3 (fenêtre ~60min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-03-07_2030_784d597fbb_O15R — cote = 2.25 — fenêtre 20:30 → 23:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:30 | super league switzerland | FC Lugano vs FC Luzern | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  2) 21:00 | laliga | Athletic Club vs Barcelona | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
+  3) 21:05 | ligue 1 | Toulouse vs Marseille | Over 1.5 (FT) | FORT PLUS | odd=1.28
+  4) 21:30 | liga portugal | Estoril vs Casa Pia | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
