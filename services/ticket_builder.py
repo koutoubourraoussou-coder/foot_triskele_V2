@@ -100,9 +100,9 @@ TEAM_MIN_WINRATE = 0.70
 TWO_TEAM_HIGH = 0.78
 TWO_TEAM_LOW = 0.66
 
-WEIGHT_MIN = 0.8
-WEIGHT_MAX = 2.0
-WEIGHT_BASELINE = 0.74
+WEIGHT_MIN = 0.9
+WEIGHT_MAX = 2.2
+WEIGHT_BASELINE = 0.70
 WEIGHT_CEIL = 1.00
 
 # ----------------------------
@@ -132,8 +132,8 @@ PREFER_3LEGS_DELTA = 0.03
 # ----------------------------
 # ✅ TOP-K UNIFORM DRAW (cas commun SYSTEM + RANDOM)
 # ----------------------------
-TOPK_SIZE = 3  # réglable : 5,6,7,8,9,10...
-TOPK_UNIFORM_DRAW = False  # tu veux uniforme
+TOPK_SIZE = 5  # réglable : 5,6,7,8,9,10...
+TOPK_UNIFORM_DRAW = True  # tu veux uniforme
 
 # ====================================================
 # CONFIG PILOTABLE PAR OPTIMISEUR
