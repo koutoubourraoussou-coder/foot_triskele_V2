@@ -7,6 +7,7 @@ import os
 import random
 import shutil
 import tempfile
+from concurrent.futures import ProcessPoolExecutor, as_completed
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Tuple
@@ -24,6 +25,8 @@ DEFAULT_TOP_N = 3
 DEFAULT_TRIALS = 1000
 DEFAULT_MAX_DAYS = 60
 DEFAULT_VALID_DAYS = 12
+DEFAULT_JOBS = 1
+DEFAULT_START_BANKROLL = 100.0
 
 RUIN_STREAK_LIMIT = 6  # au-delà = profil quasi disqualifié
 MIN_DECIDED_TICKETS_VALID = 8  # garde-fou contre les faux profils "parfaits" sur trop peu de tickets
@@ -52,11 +55,14 @@ class PipelineMetrics:
     loss_rate: float = 0.0
     unknown_rate: float = 0.0
     max_loss_streak: int = 0
+    max_win_streak: int = 0
 
-    # métriques financières ajoutées
+    # métriques financières
     profit_flat: float = 0.0
     yield_flat: float = 0.0
     max_drawdown: float = 0.0
+    final_bankroll_flat: float = DEFAULT_START_BANKROLL
+    bankroll_multiple_flat: float = 1.0
 
     def to_dict(self) -> dict:
         return {
@@ -71,9 +77,12 @@ class PipelineMetrics:
             "loss_rate": round(self.loss_rate, 4),
             "unknown_rate": round(self.unknown_rate, 4),
             "max_loss_streak": self.max_loss_streak,
+            "max_win_streak": self.max_win_streak,
             "profit_flat": round(self.profit_flat, 4),
             "yield_flat": round(self.yield_flat, 4),
             "max_drawdown": round(self.max_drawdown, 4),
+            "final_bankroll_flat": round(self.final_bankroll_flat, 4),
+            "bankroll_multiple_flat": round(self.bankroll_multiple_flat, 4),
         }
 
 
@@ -93,6 +102,20 @@ class ProfileResult:
             "random_o15": self.random_o15.to_dict(),
             "combined": self.combined,
         }
+
+
+@dataclass
+class DayPipelineEval:
+    ticket_results: List[Optional[bool]]
+    ticket_profits: List[float]
+    active_day: bool
+
+
+@dataclass
+class DayEval:
+    day: str
+    system: DayPipelineEval
+    random_o15: DayPipelineEval
 
 
 # =========================================================
@@ -177,11 +200,19 @@ def _split_datasets_chronological(
 # =========================================================
 # VERDICTS
 # =========================================================
+_VERDICT_CACHE: Dict[str, Dict[Tuple[str, str], str]] = {}
+
+
 def _parse_verdict_file(path: Path) -> Dict[Tuple[str, str], str]:
     """
     Map:
       (match_id, bet_family) -> WIN / LOSS
     """
+    cache_key = str(path.resolve())
+    cached = _VERDICT_CACHE.get(cache_key)
+    if cached is not None:
+        return cached
+
     out: Dict[Tuple[str, str], str] = {}
 
     with path.open("r", encoding="utf-8", errors="ignore") as f:
@@ -207,6 +238,7 @@ def _parse_verdict_file(path: Path) -> Dict[Tuple[str, str], str]:
             fam = tb._norm_bet_family(bet_key)
             out[(match_id, fam)] = ev
 
+    _VERDICT_CACHE[cache_key] = out
     return out
 
 
@@ -236,6 +268,7 @@ class _PatchedBuilderIO:
 
         self.old_env_maestro = os.environ.get("TRISKELE_MAESTRO")
         self.old_env_run_dir = os.environ.get("TRISKELE_RUN_DIR")
+        self.old_env_optimizer_fast = os.environ.get("TRISKELE_OPTIMIZER_FAST")
 
         self.old_tickets_tsv = tb.TICKETS_TSV_FILE
         self.old_o15_tsv = tb.TICKETS_O15_RANDOM_TSV_FILE
@@ -248,6 +281,7 @@ class _PatchedBuilderIO:
 
         os.environ["TRISKELE_MAESTRO"] = "0"
         os.environ["TRISKELE_RUN_DIR"] = str(self.workdir)
+        os.environ["TRISKELE_OPTIMIZER_FAST"] = "1"
 
         tb.TICKETS_TSV_FILE = self.workdir / "tickets.tsv"
         tb.TICKETS_O15_RANDOM_TSV_FILE = self.workdir / "tickets_o15_random.tsv"
@@ -273,6 +307,11 @@ class _PatchedBuilderIO:
         else:
             os.environ["TRISKELE_RUN_DIR"] = self.old_env_run_dir
 
+        if self.old_env_optimizer_fast is None:
+            os.environ.pop("TRISKELE_OPTIMIZER_FAST", None)
+        else:
+            os.environ["TRISKELE_OPTIMIZER_FAST"] = self.old_env_optimizer_fast
+
 
 # =========================================================
 # HELPERS FINANCE / PROFIT
@@ -287,10 +326,6 @@ def _safe_float(v: object) -> Optional[float]:
 
 
 def _ticket_total_odd(ticket: Ticket) -> Optional[float]:
-    """
-    Essaie de récupérer la cote totale du ticket sans dépendre
-    d'un seul nom d'attribut.
-    """
     candidate_attrs = [
         "total_odd",
         "total_odds",
@@ -307,7 +342,6 @@ def _ticket_total_odd(ticket: Ticket) -> Optional[float]:
             if val is not None and val > 0:
                 return val
 
-    # Fallback : produit des cotes des picks si dispo
     picks = getattr(ticket, "picks", None)
     if picks:
         prod = 1.0
@@ -375,20 +409,27 @@ def _finalize_metrics(
     m.tickets = len(ticket_results)
 
     current_loss_streak = 0
+    current_win_streak = 0
     equity = 0.0
     equity_curve: List[float] = [0.0]
 
     for idx, r in enumerate(ticket_results):
         if r is True:
             m.wins += 1
+            current_win_streak += 1
             current_loss_streak = 0
+            if current_win_streak > m.max_win_streak:
+                m.max_win_streak = current_win_streak
         elif r is False:
             m.losses += 1
             current_loss_streak += 1
+            current_win_streak = 0
             if current_loss_streak > m.max_loss_streak:
                 m.max_loss_streak = current_loss_streak
         else:
             m.unknown += 1
+            current_win_streak = 0
+            current_loss_streak = 0
 
         profit = ticket_profits[idx] if idx < len(ticket_profits) else 0.0
         equity += profit
@@ -412,6 +453,10 @@ def _finalize_metrics(
         m.yield_flat = m.profit_flat / decided
 
     m.max_drawdown = _compute_max_drawdown(equity_curve)
+    m.final_bankroll_flat = DEFAULT_START_BANKROLL + m.profit_flat
+    m.bankroll_multiple_flat = (
+        m.final_bankroll_flat / DEFAULT_START_BANKROLL if DEFAULT_START_BANKROLL > 0 else 0.0
+    )
 
     return m
 
@@ -424,10 +469,15 @@ def _mean_pipeline_values(system_m: PipelineMetrics, random_m: PipelineMetrics) 
         ) / 2.0,
         "mean_unknown_rate": (system_m.unknown_rate + random_m.unknown_rate) / 2.0,
         "worst_max_loss_streak": max(system_m.max_loss_streak, random_m.max_loss_streak),
+        "best_max_win_streak": max(system_m.max_win_streak, random_m.max_win_streak),
         "min_decided_tickets": min(system_m.decided_tickets, random_m.decided_tickets),
         "mean_profit_flat": (system_m.profit_flat + random_m.profit_flat) / 2.0,
         "mean_yield_flat": (system_m.yield_flat + random_m.yield_flat) / 2.0,
         "worst_max_drawdown": max(system_m.max_drawdown, random_m.max_drawdown),
+        "mean_final_bankroll_flat": (system_m.final_bankroll_flat + random_m.final_bankroll_flat) / 2.0,
+        "mean_bankroll_multiple_flat": (
+            system_m.bankroll_multiple_flat + random_m.bankroll_multiple_flat
+        ) / 2.0,
     }
 
 
@@ -445,7 +495,6 @@ def _profile_rank_score(
     - intégrer profit / yield / drawdown
     - pénaliser les profils trop beaux en train mais moins bons en validation
     """
-
     train_c = _mean_pipeline_values(train_system, train_random)
     valid_c = _mean_pipeline_values(valid_system, valid_random)
 
@@ -565,56 +614,118 @@ def _serialize_tuning(t: BuilderTuning) -> dict:
     return d
 
 
+def _tuning_signature(t: BuilderTuning) -> str:
+    d = _serialize_tuning(t)
+    return json.dumps(d, sort_keys=True, ensure_ascii=False)
+
+
+def _build_trial_plan(trials: int, seed: int) -> List[BuilderTuning]:
+    rng = random.Random(seed)
+
+    out: List[BuilderTuning] = []
+    seen: set[str] = set()
+
+    baseline = _baseline_tuning()
+    baseline_sig = _tuning_signature(baseline)
+    out.append(baseline)
+    seen.add(baseline_sig)
+
+    attempt_guard = max(trials * 20, 1000)
+
+    while len(out) < trials and attempt_guard > 0:
+        attempt_guard -= 1
+        t = _sample_tuning(rng)
+        sig = _tuning_signature(t)
+        if sig in seen:
+            continue
+        seen.add(sig)
+        out.append(t)
+
+    return out
+
+
 # =========================================================
 # EVALUATION
 # =========================================================
-def _evaluate_dataset_slice(
+def _evaluate_one_day(
+    ds: DayDataset,
+    tuning: BuilderTuning,
+    tmp_root: Path,
+) -> DayEval:
+    verdict_map = _parse_verdict_file(ds.verdict_file)
+    run_dir = tmp_root / ds.day
+
+    with _PatchedBuilderIO(run_dir):
+        out: TicketBuildOutput = tb.generate_tickets_from_tsv(
+            str(ds.predictions_tsv),
+            run_date=None,
+            tuning=tuning,
+        )
+
+    system_results: List[Optional[bool]] = []
+    system_profits: List[float] = []
+    for ticket in out.tickets_system:
+        outcome = _ticket_outcome(ticket, verdict_map)
+        system_results.append(outcome)
+        system_profits.append(_flat_profit_for_ticket(ticket, outcome))
+
+    random_results: List[Optional[bool]] = []
+    random_profits: List[float] = []
+    for ticket in out.tickets_o15:
+        outcome = _ticket_outcome(ticket, verdict_map)
+        random_results.append(outcome)
+        random_profits.append(_flat_profit_for_ticket(ticket, outcome))
+
+    return DayEval(
+        day=ds.day,
+        system=DayPipelineEval(
+            ticket_results=system_results,
+            ticket_profits=system_profits,
+            active_day=bool(out.tickets_system),
+        ),
+        random_o15=DayPipelineEval(
+            ticket_results=random_results,
+            ticket_profits=random_profits,
+            active_day=bool(out.tickets_o15),
+        ),
+    )
+
+
+def _aggregate_pipeline_metrics(
+    day_evals: List[DayEval],
+    *,
+    pipeline_name: str,
+) -> PipelineMetrics:
+    ticket_results: List[Optional[bool]] = []
+    ticket_profits: List[float] = []
+    active_days = 0
+
+    for day_eval in day_evals:
+        pe = day_eval.system if pipeline_name == "system" else day_eval.random_o15
+        ticket_results.extend(pe.ticket_results)
+        ticket_profits.extend(pe.ticket_profits)
+        if pe.active_day:
+            active_days += 1
+
+    return _finalize_metrics(
+        ticket_results=ticket_results,
+        ticket_profits=ticket_profits,
+        active_days=active_days,
+    )
+
+
+def _evaluate_all_days(
     datasets: List[DayDataset],
     tuning: BuilderTuning,
     keep_temp: bool = False,
-) -> Tuple[PipelineMetrics, PipelineMetrics]:
-    system_results: List[Optional[bool]] = []
-    random_results: List[Optional[bool]] = []
-
-    system_profits: List[float] = []
-    random_profits: List[float] = []
-
-    system_active_days = 0
-    random_active_days = 0
-
+) -> List[DayEval]:
     tmp_root = Path(tempfile.mkdtemp(prefix="triskele_opt_"))
+    out: List[DayEval] = []
 
     try:
         for ds in datasets:
-            verdict_map = _parse_verdict_file(ds.verdict_file)
-            run_dir = tmp_root / ds.day
-
-            with _PatchedBuilderIO(run_dir):
-                out: TicketBuildOutput = tb.generate_tickets_from_tsv(
-                    str(ds.predictions_tsv),
-                    run_date=None,
-                    tuning=tuning,
-                )
-
-            if out.tickets_system:
-                system_active_days += 1
-            if out.tickets_o15:
-                random_active_days += 1
-
-            for ticket in out.tickets_system:
-                outcome = _ticket_outcome(ticket, verdict_map)
-                system_results.append(outcome)
-                system_profits.append(_flat_profit_for_ticket(ticket, outcome))
-
-            for ticket in out.tickets_o15:
-                outcome = _ticket_outcome(ticket, verdict_map)
-                random_results.append(outcome)
-                random_profits.append(_flat_profit_for_ticket(ticket, outcome))
-
-        system_m = _finalize_metrics(system_results, system_profits, system_active_days)
-        random_m = _finalize_metrics(random_results, random_profits, random_active_days)
-        return system_m, random_m
-
+            out.append(_evaluate_one_day(ds, tuning, tmp_root))
+        return out
     finally:
         if keep_temp:
             print(f"[optimizer] temp conservé: {tmp_root}")
@@ -629,28 +740,26 @@ def evaluate_profile(
     valid_days: int = DEFAULT_VALID_DAYS,
 ) -> ProfileResult:
     train_ds, valid_ds = _split_datasets_chronological(datasets, valid_days=valid_days)
+    train_days = {d.day for d in train_ds}
+    valid_days_set = {d.day for d in valid_ds}
 
-    overall_system, overall_random = _evaluate_dataset_slice(
+    all_day_evals = _evaluate_all_days(
         datasets=datasets,
         tuning=tuning,
         keep_temp=keep_temp,
     )
 
-    train_system, train_random = _evaluate_dataset_slice(
-        datasets=train_ds,
-        tuning=tuning,
-        keep_temp=keep_temp,
-    )
+    train_day_evals = [x for x in all_day_evals if x.day in train_days]
+    valid_day_evals = [x for x in all_day_evals if x.day in valid_days_set]
 
-    if valid_ds:
-        valid_system, valid_random = _evaluate_dataset_slice(
-            datasets=valid_ds,
-            tuning=tuning,
-            keep_temp=keep_temp,
-        )
-    else:
-        valid_system = PipelineMetrics()
-        valid_random = PipelineMetrics()
+    overall_system = _aggregate_pipeline_metrics(all_day_evals, pipeline_name="system")
+    overall_random = _aggregate_pipeline_metrics(all_day_evals, pipeline_name="random")
+
+    train_system = _aggregate_pipeline_metrics(train_day_evals, pipeline_name="system")
+    train_random = _aggregate_pipeline_metrics(train_day_evals, pipeline_name="random")
+
+    valid_system = _aggregate_pipeline_metrics(valid_day_evals, pipeline_name="system")
+    valid_random = _aggregate_pipeline_metrics(valid_day_evals, pipeline_name="random")
 
     rank_score = _profile_rank_score(
         train_system=train_system,
@@ -669,10 +778,13 @@ def evaluate_profile(
             "mean_tickets_per_active_day": round(overall_c["mean_tickets_per_active_day"], 4),
             "mean_unknown_rate": round(overall_c["mean_unknown_rate"], 4),
             "worst_max_loss_streak": int(overall_c["worst_max_loss_streak"]),
+            "best_max_win_streak": int(overall_c["best_max_win_streak"]),
             "min_decided_tickets": int(overall_c["min_decided_tickets"]),
             "mean_profit_flat": round(overall_c["mean_profit_flat"], 4),
             "mean_yield_flat": round(overall_c["mean_yield_flat"], 4),
             "worst_max_drawdown": round(overall_c["worst_max_drawdown"], 4),
+            "mean_final_bankroll_flat": round(overall_c["mean_final_bankroll_flat"], 4),
+            "mean_bankroll_multiple_flat": round(overall_c["mean_bankroll_multiple_flat"], 4),
         },
         "train": {
             "days": len(train_ds),
@@ -680,10 +792,13 @@ def evaluate_profile(
             "mean_tickets_per_active_day": round(train_c["mean_tickets_per_active_day"], 4),
             "mean_unknown_rate": round(train_c["mean_unknown_rate"], 4),
             "worst_max_loss_streak": int(train_c["worst_max_loss_streak"]),
+            "best_max_win_streak": int(train_c["best_max_win_streak"]),
             "min_decided_tickets": int(train_c["min_decided_tickets"]),
             "mean_profit_flat": round(train_c["mean_profit_flat"], 4),
             "mean_yield_flat": round(train_c["mean_yield_flat"], 4),
             "worst_max_drawdown": round(train_c["worst_max_drawdown"], 4),
+            "mean_final_bankroll_flat": round(train_c["mean_final_bankroll_flat"], 4),
+            "mean_bankroll_multiple_flat": round(train_c["mean_bankroll_multiple_flat"], 4),
         },
         "valid": {
             "days": len(valid_ds),
@@ -691,13 +806,15 @@ def evaluate_profile(
             "mean_tickets_per_active_day": round(valid_c["mean_tickets_per_active_day"], 4),
             "mean_unknown_rate": round(valid_c["mean_unknown_rate"], 4),
             "worst_max_loss_streak": int(valid_c["worst_max_loss_streak"]),
+            "best_max_win_streak": int(valid_c["best_max_win_streak"]),
             "min_decided_tickets": int(valid_c["min_decided_tickets"]),
             "mean_profit_flat": round(valid_c["mean_profit_flat"], 4),
             "mean_yield_flat": round(valid_c["mean_yield_flat"], 4),
             "worst_max_drawdown": round(valid_c["worst_max_drawdown"], 4),
+            "mean_final_bankroll_flat": round(valid_c["mean_final_bankroll_flat"], 4),
+            "mean_bankroll_multiple_flat": round(valid_c["mean_bankroll_multiple_flat"], 4),
         },
         "generalization_gap": {
-            # gap signé réel
             "win_rate_gap_train_minus_valid": round(
                 train_c["mean_win_rate"] - valid_c["mean_win_rate"],
                 4,
@@ -714,7 +831,6 @@ def evaluate_profile(
                 train_c["mean_yield_flat"] - valid_c["mean_yield_flat"],
                 4,
             ),
-            # drop réellement pénalisé
             "win_rate_drop_penalized": round(
                 max(0.0, train_c["mean_win_rate"] - valid_c["mean_win_rate"]),
                 4,
@@ -743,6 +859,16 @@ def evaluate_profile(
     )
 
 
+def _evaluate_profile_job(args: Tuple[List[DayDataset], BuilderTuning, bool, int]) -> ProfileResult:
+    datasets, tuning, keep_temp, valid_days = args
+    return evaluate_profile(
+        datasets=datasets,
+        tuning=tuning,
+        keep_temp=keep_temp,
+        valid_days=valid_days,
+    )
+
+
 # =========================================================
 # OUTPUT
 # =========================================================
@@ -764,12 +890,16 @@ def _render_top_profiles(top_profiles: List[ProfileResult]) -> str:
         lines.append(
             f"SYSTEM  | win_rate={prof.system.win_rate:.3f} | tickets/jour={prof.system.avg_tickets_per_active_day:.2f} "
             f"| decided={prof.system.decided_tickets} | max_loss_streak={prof.system.max_loss_streak} "
-            f"| profit={prof.system.profit_flat:.2f} | yield={prof.system.yield_flat:.3f} | max_dd={prof.system.max_drawdown:.2f}"
+            f"| max_win_streak={prof.system.max_win_streak} | profit={prof.system.profit_flat:.2f} "
+            f"| yield={prof.system.yield_flat:.3f} | max_dd={prof.system.max_drawdown:.2f} "
+            f"| bankroll={prof.system.final_bankroll_flat:.2f} | x{prof.system.bankroll_multiple_flat:.2f}"
         )
         lines.append(
             f"RANDOM  | win_rate={prof.random_o15.win_rate:.3f} | tickets/jour={prof.random_o15.avg_tickets_per_active_day:.2f} "
             f"| decided={prof.random_o15.decided_tickets} | max_loss_streak={prof.random_o15.max_loss_streak} "
-            f"| profit={prof.random_o15.profit_flat:.2f} | yield={prof.random_o15.yield_flat:.3f} | max_dd={prof.random_o15.max_drawdown:.2f}"
+            f"| max_win_streak={prof.random_o15.max_win_streak} | profit={prof.random_o15.profit_flat:.2f} "
+            f"| yield={prof.random_o15.yield_flat:.3f} | max_dd={prof.random_o15.max_drawdown:.2f} "
+            f"| bankroll={prof.random_o15.final_bankroll_flat:.2f} | x{prof.random_o15.bankroll_multiple_flat:.2f}"
         )
         lines.append(
             f"COMBINÉ | mean_win_rate={overall.get('mean_win_rate', 0.0):.3f} "
@@ -777,21 +907,30 @@ def _render_top_profiles(top_profiles: List[ProfileResult]) -> str:
             f"| mean_profit={overall.get('mean_profit_flat', 0.0):.2f} "
             f"| mean_yield={overall.get('mean_yield_flat', 0.0):.3f} "
             f"| worst_streak={overall.get('worst_max_loss_streak', 0)} "
-            f"| worst_dd={overall.get('worst_max_drawdown', 0.0):.2f}"
+            f"| best_win_streak={overall.get('best_max_win_streak', 0)} "
+            f"| worst_dd={overall.get('worst_max_drawdown', 0.0):.2f} "
+            f"| bankroll={overall.get('mean_final_bankroll_flat', DEFAULT_START_BANKROLL):.2f} "
+            f"| x{overall.get('mean_bankroll_multiple_flat', 1.0):.2f}"
         )
         lines.append("")
         lines.append(
             f"TRAIN   | jours={train.get('days', 0)} | mean_win_rate={train.get('mean_win_rate', 0.0):.3f} "
             f"| mean_tickets/jour={train.get('mean_tickets_per_active_day', 0.0):.2f} "
             f"| mean_profit={train.get('mean_profit_flat', 0.0):.2f} "
-            f"| mean_yield={train.get('mean_yield_flat', 0.0):.3f}"
+            f"| mean_yield={train.get('mean_yield_flat', 0.0):.3f} "
+            f"| best_win_streak={train.get('best_max_win_streak', 0)} "
+            f"| bankroll={train.get('mean_final_bankroll_flat', DEFAULT_START_BANKROLL):.2f} "
+            f"| x{train.get('mean_bankroll_multiple_flat', 1.0):.2f}"
         )
         lines.append(
             f"VALID   | jours={valid.get('days', 0)} | mean_win_rate={valid.get('mean_win_rate', 0.0):.3f} "
             f"| mean_tickets/jour={valid.get('mean_tickets_per_active_day', 0.0):.2f} "
             f"| mean_profit={valid.get('mean_profit_flat', 0.0):.2f} "
             f"| mean_yield={valid.get('mean_yield_flat', 0.0):.3f} "
-            f"| min_decided={valid.get('min_decided_tickets', 0)}"
+            f"| best_win_streak={valid.get('best_max_win_streak', 0)} "
+            f"| min_decided={valid.get('min_decided_tickets', 0)} "
+            f"| bankroll={valid.get('mean_final_bankroll_flat', DEFAULT_START_BANKROLL):.2f} "
+            f"| x{valid.get('mean_bankroll_multiple_flat', 1.0):.2f}"
         )
         lines.append(
             f"GAP     | wr_train-valid={gap.get('win_rate_gap_train_minus_valid', 0.0):+.3f} "
@@ -824,8 +963,8 @@ def run_optimizer(
     seed: int,
     keep_temp: bool = False,
     valid_days: int = DEFAULT_VALID_DAYS,
+    jobs: int = DEFAULT_JOBS,
 ) -> None:
-    rng = random.Random(seed)
     output_dir.mkdir(parents=True, exist_ok=True)
 
     datasets = discover_datasets(archive_dir, max_days=max_days)
@@ -837,29 +976,55 @@ def run_optimizer(
     print(f"[optimizer] datasets retenus: {len(datasets)}")
     print(f"[optimizer] période: {datasets[0].day} -> {datasets[-1].day}")
     print(f"[optimizer] split chrono: train={len(train_ds)} jours | valid={len(valid_ds)} jours")
-    print(f"[optimizer] trials: {trials}")
+    print(f"[optimizer] trials demandés: {trials}")
+
+    trial_plan = _build_trial_plan(trials=trials, seed=seed)
+    if len(trial_plan) < trials:
+        print(
+            f"[optimizer] warning: seulement {len(trial_plan)} profils uniques générés "
+            f"sur {trials} demandés."
+        )
+
+    effective_trials = len(trial_plan)
+    effective_jobs = max(1, int(jobs or 1))
 
     profiles: List[ProfileResult] = []
 
-    print("[optimizer] trial 1 / {} (baseline)".format(trials))
-    baseline = evaluate_profile(
-        datasets,
-        _baseline_tuning(),
-        keep_temp=keep_temp,
-        valid_days=valid_days,
-    )
-    profiles.append(baseline)
+    if effective_jobs == 1:
+        for idx, tuning in enumerate(trial_plan, start=1):
+            if idx == 1:
+                print(f"[optimizer] trial {idx} / {effective_trials} (baseline)")
+            else:
+                print(f"[optimizer] trial {idx} / {effective_trials}")
+            prof = evaluate_profile(
+                datasets=datasets,
+                tuning=tuning,
+                keep_temp=keep_temp,
+                valid_days=valid_days,
+            )
+            profiles.append(prof)
+    else:
+        print(f"[optimizer] jobs parallèles: {effective_jobs}")
 
-    for i in range(1, trials):
-        tuning = _sample_tuning(rng)
-        print(f"[optimizer] trial {i+1} / {trials}")
-        prof = evaluate_profile(
-            datasets,
-            tuning,
-            keep_temp=keep_temp,
-            valid_days=valid_days,
-        )
-        profiles.append(prof)
+        future_to_idx: Dict[object, int] = {}
+        with ProcessPoolExecutor(max_workers=effective_jobs) as ex:
+            for idx, tuning in enumerate(trial_plan, start=1):
+                fut = ex.submit(
+                    _evaluate_profile_job,
+                    (datasets, tuning, keep_temp, valid_days),
+                )
+                future_to_idx[fut] = idx
+
+            done_count = 0
+            for fut in as_completed(future_to_idx):
+                idx = future_to_idx[fut]
+                prof = fut.result()
+                profiles.append(prof)
+                done_count += 1
+                if idx == 1:
+                    print(f"[optimizer] trial {done_count} / {effective_trials} terminé (baseline)")
+                else:
+                    print(f"[optimizer] trial {done_count} / {effective_trials} terminé")
 
     profiles.sort(key=lambda p: p.rank_score, reverse=True)
     top_profiles = profiles[:top_n]
@@ -897,6 +1062,7 @@ def main() -> None:
     parser.add_argument("--valid-days", type=int, default=DEFAULT_VALID_DAYS)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--keep-temp", action="store_true")
+    parser.add_argument("--jobs", type=int, default=DEFAULT_JOBS)
     args = parser.parse_args()
 
     run_optimizer(
@@ -908,6 +1074,7 @@ def main() -> None:
         seed=args.seed,
         keep_temp=args.keep_temp,
         valid_days=args.valid_days,
+        jobs=args.jobs,
     )
 
 

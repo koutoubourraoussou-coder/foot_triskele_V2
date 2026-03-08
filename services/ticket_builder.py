@@ -37,11 +37,11 @@ import heapq
 # ----------------------------
 # Constantes (réglages rapides)
 # ----------------------------
-TARGET_ODD = 2.20
+TARGET_ODD = 2.40
 MIN_ODD = 1.15
 
 # Fallback uniquement si la journée ne permet AUCUN ticket >= TARGET_ODD
-MIN_ACCEPT_ODD = 1.70
+MIN_ACCEPT_ODD = 1.60
 
 MATCH_DURATION_MIN = 110
 
@@ -51,8 +51,8 @@ EXCLUDED_BET_GROUPS: Set[str] = {"HT1X", "HT05"}
 MAX_LEG_SIZE = 4
 
 # ✅ recherche time-budget (au lieu de N tentatives)
-SEARCH_BUDGET_MS_SYSTEM = 800
-SEARCH_BUDGET_MS_RANDOM = 800
+SEARCH_BUDGET_MS_SYSTEM = 1200
+SEARCH_BUDGET_MS_RANDOM = 1200
 
 # garde-fou (si machine très lente ou pools énormes)
 SEARCH_MAX_ITER_SYSTEM = 200000
@@ -91,18 +91,18 @@ O15_CANON = "O15_FT"
 GLOBAL_BET_MIN_DECIDED = 7
 GLOBAL_BET_MIN_WINRATE = 0.70
 
-LEAGUE_BET_MIN_WINRATE = 0.70
-LEAGUE_BET_REQUIRE_DATA = True  # True = 0 match => rejet ; False = 0 match => passe
+LEAGUE_BET_MIN_WINRATE = 0.68
+LEAGUE_BET_REQUIRE_DATA = False  # True = 0 match => rejet ; False = 0 match => passe
 
 TEAM_MIN_DECIDED = 10
-TEAM_MIN_WINRATE = 0.75
+TEAM_MIN_WINRATE = 0.70
 
-TWO_TEAM_HIGH = 0.80
-TWO_TEAM_LOW = 0.63
+TWO_TEAM_HIGH = 0.78
+TWO_TEAM_LOW = 0.66
 
-WEIGHT_MIN = 1.0
-WEIGHT_MAX = 2.2
-WEIGHT_BASELINE = 0.70
+WEIGHT_MIN = 0.8
+WEIGHT_MAX = 2.0
+WEIGHT_BASELINE = 0.74
 WEIGHT_CEIL = 1.00
 
 # ----------------------------
@@ -132,8 +132,8 @@ PREFER_3LEGS_DELTA = 0.03
 # ----------------------------
 # ✅ TOP-K UNIFORM DRAW (cas commun SYSTEM + RANDOM)
 # ----------------------------
-TOPK_SIZE = 5  # réglable : 5,6,7,8,9,10...
-TOPK_UNIFORM_DRAW = True  # tu veux uniforme
+TOPK_SIZE = 3  # réglable : 5,6,7,8,9,10...
+TOPK_UNIFORM_DRAW = False  # tu veux uniforme
 
 # ====================================================
 # CONFIG PILOTABLE PAR OPTIMISEUR
@@ -237,6 +237,10 @@ def _write_maestro_log(text: str, *, append: bool = True) -> None:
         _write_report_robust(run_path=run_path, data_path=MAESTRO_LOG_FILE, text=merged)
     else:
         _write_report_robust(run_path=run_path, data_path=MAESTRO_LOG_FILE, text=text)
+
+def _optimizer_fast_mode() -> bool:
+    v = os.environ.get("TRISKELE_OPTIMIZER_FAST", "").strip().lower()
+    return v in ("1", "true", "yes", "on")
 
 # ----------------------------
 # Modèle interne
@@ -2589,124 +2593,137 @@ def generate_tickets_from_tsv(
 
         suffix = f" — {run_date}" if run_date else ""
         league_bet, team_bet = _load_rankings()
+        fast_mode = _optimizer_fast_mode()
 
         system_pool_base = filter_playable_system(picks)
         system_pool_effective = filter_effective_system_pool(system_pool_base, league_bet, team_bet)
 
-        added_system_pool_base = append_playable_picks_to_global(
-            picks=system_pool_base,
-            global_path=SYSTEM_POOL_BASE_GLOBAL_FILE,
-            pipeline_name="SYSTEM_POOL_BASE",
-            run_date=run_date,
-            source_tsv=tsv_path,
-        )
-        if added_system_pool_base:
-            print(f"📦 [SYSTEM] Pool base exporté : {SYSTEM_POOL_BASE_GLOBAL_FILE} (+{added_system_pool_base} lignes)")
-        else:
-            print(f"ℹ️ [SYSTEM] Pool base inchangé : {SYSTEM_POOL_BASE_GLOBAL_FILE}")
+        if not fast_mode:
+            added_system_pool_base = append_playable_picks_to_global(
+                picks=system_pool_base,
+                global_path=SYSTEM_POOL_BASE_GLOBAL_FILE,
+                pipeline_name="SYSTEM_POOL_BASE",
+                run_date=run_date,
+                source_tsv=tsv_path,
+            )
+            if added_system_pool_base:
+                print(f"📦 [SYSTEM] Pool base exporté : {SYSTEM_POOL_BASE_GLOBAL_FILE} (+{added_system_pool_base} lignes)")
+            else:
+                print(f"ℹ️ [SYSTEM] Pool base inchangé : {SYSTEM_POOL_BASE_GLOBAL_FILE}")
 
-        added_system_pool_effective = append_playable_picks_to_global(
-            picks=system_pool_effective,
-            global_path=SYSTEM_POOL_EFFECTIVE_GLOBAL_FILE,
-            pipeline_name="SYSTEM_POOL_EFFECTIVE",
-            run_date=run_date,
-            source_tsv=tsv_path,
-        )
-        if added_system_pool_effective:
-            print(f"📦 [SYSTEM] Pool effectif exporté : {SYSTEM_POOL_EFFECTIVE_GLOBAL_FILE} (+{added_system_pool_effective} lignes)")
-        else:
-            print(f"ℹ️ [SYSTEM] Pool effectif inchangé : {SYSTEM_POOL_EFFECTIVE_GLOBAL_FILE}")
+            added_system_pool_effective = append_playable_picks_to_global(
+                picks=system_pool_effective,
+                global_path=SYSTEM_POOL_EFFECTIVE_GLOBAL_FILE,
+                pipeline_name="SYSTEM_POOL_EFFECTIVE",
+                run_date=run_date,
+                source_tsv=tsv_path,
+            )
+            if added_system_pool_effective:
+                print(f"📦 [SYSTEM] Pool effectif exporté : {SYSTEM_POOL_EFFECTIVE_GLOBAL_FILE} (+{added_system_pool_effective} lignes)")
+            else:
+                print(f"ℹ️ [SYSTEM] Pool effectif inchangé : {SYSTEM_POOL_EFFECTIVE_GLOBAL_FILE}")
 
         tickets_system = build_tickets(system_pool_base, mode="SYSTEM")
 
-        added_sys = write_tickets_tsv(tickets_system, TICKETS_TSV_FILE, id_suffix="SYS")
-        if added_sys:
-            print(f"✅ [SYSTEM] Tickets TSV ajoutés : {TICKETS_TSV_FILE} (+{added_sys} lignes)")
-        else:
-            print("⚠️ [SYSTEM] Aucun ticket TSV écrit (tickets=0 ou dédup).")
+        if not fast_mode:
+            added_sys = write_tickets_tsv(tickets_system, TICKETS_TSV_FILE, id_suffix="SYS")
+            if added_sys:
+                print(f"✅ [SYSTEM] Tickets TSV ajoutés : {TICKETS_TSV_FILE} (+{added_sys} lignes)")
+            else:
+                print("⚠️ [SYSTEM] Aucun ticket TSV écrit (tickets=0 ou dédup).")
 
-        report_system = render_tickets_report(
-            tickets_system,
-            title=f"TICKETS TRISKÈLE{suffix} — SYSTEM — depuis {Path(tsv_path).name}",
-            id_suffix="SYS",
-        )
-        _write_report_robust(
-            run_path=tickets_report_path,
-            data_path=Path("data/tickets_report.txt"),
-            text=report_system,
-        )
-        print(f"📝 [SYSTEM] TicketsReport écrit : {tickets_report_path} + data/tickets_report.txt")
+            report_system = render_tickets_report(
+                tickets_system,
+                title=f"TICKETS TRISKÈLE{suffix} — SYSTEM — depuis {Path(tsv_path).name}",
+                id_suffix="SYS",
+            )
+            _write_report_robust(
+                run_path=tickets_report_path,
+                data_path=Path("data/tickets_report.txt"),
+                text=report_system,
+            )
+            print(f"📝 [SYSTEM] TicketsReport écrit : {tickets_report_path} + data/tickets_report.txt")
 
-        added_sys_global = append_report_to_global(
-            report_text=report_system,
-            global_path=TICKETS_REPORT_GLOBAL_FILE,
-            pipeline_name="SYSTEM",
-            run_date=run_date,
-            source_tsv=tsv_path,
-        )
-        if added_sys_global:
-            print(f"🧾 [SYSTEM] Global report alimenté : {TICKETS_REPORT_GLOBAL_FILE} (+{added_sys_global} tickets)")
+            added_sys_global = append_report_to_global(
+                report_text=report_system,
+                global_path=TICKETS_REPORT_GLOBAL_FILE,
+                pipeline_name="SYSTEM",
+                run_date=run_date,
+                source_tsv=tsv_path,
+            )
+            if added_sys_global:
+                print(f"🧾 [SYSTEM] Global report alimenté : {TICKETS_REPORT_GLOBAL_FILE} (+{added_sys_global} tickets)")
+            else:
+                print(f"ℹ️ [SYSTEM] Global report inchangé (0 nouveau ticket) : {TICKETS_REPORT_GLOBAL_FILE}")
         else:
-            print(f"ℹ️ [SYSTEM] Global report inchangé (0 nouveau ticket) : {TICKETS_REPORT_GLOBAL_FILE}")
+            added_sys = 0
+            added_sys_global = 0
+            report_system = ""
 
         o15_random_pool_base = filter_o15_random_all(picks)
         o15_random_pool_effective = filter_effective_random_pool(o15_random_pool_base, league_bet)
 
-        added_o15_random_pool_base = append_playable_picks_to_global(
-            picks=o15_random_pool_base,
-            global_path=O15_RANDOM_POOL_BASE_GLOBAL_FILE,
-            pipeline_name="O15_RANDOM_POOL_BASE",
-            run_date=run_date,
-            source_tsv=tsv_path,
-        )
-        if added_o15_random_pool_base:
-            print(f"📦 [O15_RANDOM_ALL] Pool base exporté : {O15_RANDOM_POOL_BASE_GLOBAL_FILE} (+{added_o15_random_pool_base} lignes)")
-        else:
-            print(f"ℹ️ [O15_RANDOM_ALL] Pool base inchangé : {O15_RANDOM_POOL_BASE_GLOBAL_FILE}")
+        if not fast_mode:
+            added_o15_random_pool_base = append_playable_picks_to_global(
+                picks=o15_random_pool_base,
+                global_path=O15_RANDOM_POOL_BASE_GLOBAL_FILE,
+                pipeline_name="O15_RANDOM_POOL_BASE",
+                run_date=run_date,
+                source_tsv=tsv_path,
+            )
+            if added_o15_random_pool_base:
+                print(f"📦 [O15_RANDOM_ALL] Pool base exporté : {O15_RANDOM_POOL_BASE_GLOBAL_FILE} (+{added_o15_random_pool_base} lignes)")
+            else:
+                print(f"ℹ️ [O15_RANDOM_ALL] Pool base inchangé : {O15_RANDOM_POOL_BASE_GLOBAL_FILE}")
 
-        added_o15_random_pool_effective = append_playable_picks_to_global(
-            picks=o15_random_pool_effective,
-            global_path=O15_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE,
-            pipeline_name="O15_RANDOM_POOL_EFFECTIVE",
-            run_date=run_date,
-            source_tsv=tsv_path,
-        )
-        if added_o15_random_pool_effective:
-            print(f"📦 [O15_RANDOM_ALL] Pool effectif exporté : {O15_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE} (+{added_o15_random_pool_effective} lignes)")
-        else:
-            print(f"ℹ️ [O15_RANDOM_ALL] Pool effectif inchangé : {O15_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE}")
+            added_o15_random_pool_effective = append_playable_picks_to_global(
+                picks=o15_random_pool_effective,
+                global_path=O15_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE,
+                pipeline_name="O15_RANDOM_POOL_EFFECTIVE",
+                run_date=run_date,
+                source_tsv=tsv_path,
+            )
+            if added_o15_random_pool_effective:
+                print(f"📦 [O15_RANDOM_ALL] Pool effectif exporté : {O15_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE} (+{added_o15_random_pool_effective} lignes)")
+            else:
+                print(f"ℹ️ [O15_RANDOM_ALL] Pool effectif inchangé : {O15_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE}")
 
         tickets_o15 = build_tickets(o15_random_pool_base, mode="RANDOM")
 
-        added_o15 = write_tickets_tsv(tickets_o15, TICKETS_O15_RANDOM_TSV_FILE, id_suffix="O15R")
-        if added_o15:
-            print(f"✅ [O15_RANDOM_ALL] Tickets TSV ajoutés : {TICKETS_O15_RANDOM_TSV_FILE} (+{added_o15} lignes)")
-        else:
-            print("⚠️ [O15_RANDOM_ALL] Aucun ticket TSV écrit (tickets=0 ou dédup).")
+        if not fast_mode:
+            added_o15 = write_tickets_tsv(tickets_o15, TICKETS_O15_RANDOM_TSV_FILE, id_suffix="O15R")
+            if added_o15:
+                print(f"✅ [O15_RANDOM_ALL] Tickets TSV ajoutés : {TICKETS_O15_RANDOM_TSV_FILE} (+{added_o15} lignes)")
+            else:
+                print("⚠️ [O15_RANDOM_ALL] Aucun ticket TSV écrit (tickets=0 ou dédup).")
 
-        report_o15 = render_tickets_report(
-            tickets_o15,
-            title=f"TICKETS TRISKÈLE{suffix} — O15_RANDOM_ALL — depuis {Path(tsv_path).name}",
-            id_suffix="O15R",
-        )
-        _write_report_robust(
-            run_path=tickets_o15_report_path,
-            data_path=Path("data/tickets_o15_random_report.txt"),
-            text=report_o15,
-        )
-        print(f"📝 [O15_RANDOM_ALL] TicketsReport écrit : {tickets_o15_report_path} + data/tickets_o15_random_report.txt")
+            report_o15 = render_tickets_report(
+                tickets_o15,
+                title=f"TICKETS TRISKÈLE{suffix} — O15_RANDOM_ALL — depuis {Path(tsv_path).name}",
+                id_suffix="O15R",
+            )
+            _write_report_robust(
+                run_path=tickets_o15_report_path,
+                data_path=Path("data/tickets_o15_random_report.txt"),
+                text=report_o15,
+            )
+            print(f"📝 [O15_RANDOM_ALL] TicketsReport écrit : {tickets_o15_report_path} + data/tickets_o15_random_report.txt")
 
-        added_o15_global = append_report_to_global(
-            report_text=report_o15,
-            global_path=TICKETS_O15_REPORT_GLOBAL_FILE,
-            pipeline_name="O15_RANDOM_ALL",
-            run_date=run_date,
-            source_tsv=tsv_path,
-        )
-        if added_o15_global:
-            print(f"🧾 [O15_RANDOM_ALL] Global report alimenté : {TICKETS_O15_REPORT_GLOBAL_FILE} (+{added_o15_global} tickets)")
+            added_o15_global = append_report_to_global(
+                report_text=report_o15,
+                global_path=TICKETS_O15_REPORT_GLOBAL_FILE,
+                pipeline_name="O15_RANDOM_ALL",
+                run_date=run_date,
+                source_tsv=tsv_path,
+            )
+            if added_o15_global:
+                print(f"🧾 [O15_RANDOM_ALL] Global report alimenté : {TICKETS_O15_REPORT_GLOBAL_FILE} (+{added_o15_global} tickets)")
+            else:
+                print(f"ℹ️ [O15_RANDOM_ALL] Global report inchangé (0 nouveau ticket) : {TICKETS_O15_REPORT_GLOBAL_FILE}")
         else:
-            print(f"ℹ️ [O15_RANDOM_ALL] Global report inchangé (0 nouveau ticket) : {TICKETS_O15_REPORT_GLOBAL_FILE}")
+            added_o15 = 0
+            added_o15_global = 0
+            report_o15 = ""
 
         if _maestro_level() >= 1:
             foot = (
