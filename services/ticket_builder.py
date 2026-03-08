@@ -37,7 +37,7 @@ import heapq
 # ----------------------------
 # Constantes (réglages rapides)
 # ----------------------------
-TARGET_ODD = 2.40
+TARGET_ODD = 2.20
 MIN_ODD = 1.15
 
 # Fallback uniquement si la journée ne permet AUCUN ticket >= TARGET_ODD
