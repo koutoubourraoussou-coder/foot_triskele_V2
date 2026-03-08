@@ -1,35 +1,43 @@
 TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
 ==================================================
 
-📅 Samedi 2026-03-07 — Tranche 1 (fenêtre ~660min)
--------------------------------------------------
+📅 Dimanche 2026-03-08 — Tranche 1 (fenêtre ~60min)
+--------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-03-07_0200_63465b25a9_SYS — cote = 2.23 — fenêtre 02:00 → 14:50  
+  🎟️ TICKET 1.1 (A2) — id=2026-03-08_0130_7e93c47895_SYS — cote = 2.41 — fenêtre 01:30 → 04:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 02:00 | liga mx | Mazatlán vs Leon | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
-  2) 04:00 | liga mx | Necaxa vs U.N.A.M. - Pumas | Team2 scores (FT) | TRÈS FORT | odd=1.22
-  3) 13:00 | 2. bundesliga | 1. FC Nürnberg vs Fortuna Düsseldorf | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
-  4) 13:00 | 2. bundesliga | SV Darmstadt 98 vs Holstein Kiel | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  1) 01:30 | mls | Columbus Crew vs Chicago Fire | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
+  2) 02:05 | liga mx | Atlas vs Guadalajara Chivas | Over 1.5 (FT) | EXPLOSION | odd=1.3
+  3) 02:06 | liga mx | Pachuca vs Puebla | Over 1.5 (FT) | FORT PLUS | odd=1.3
+  4) 02:30 | mls | St. Louis City vs Seattle Sounders | Over 1.5 (FT) | TRÈS FORT | odd=1.22
 
-📅 Samedi 2026-03-07 — Tranche 2 (fenêtre ~30min)
-------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-03-07_1600_968dd3d5bd_SYS — cote = 2.43 — fenêtre 16:00 → 18:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 16:00 | championship | Ipswich vs Leicester | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
-  2) 16:15 | laliga2 | Real Sociedad II vs Castellón | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
-  3) 16:30 | liga portugal | Alverca vs AVS | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
-  4) 16:30 | eredivisie | Groningen vs Ajax | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
-
-📅 Samedi 2026-03-07 — Tranche 3 (fenêtre ~60min)
-------------------------------------------------
+📅 Dimanche 2026-03-08 — Tranche 2 (fenêtre ~90min)
+--------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-03-07_2030_d105caad8c_SYS — cote = 2.25 — fenêtre 20:30 → 23:20  
+  🎟️ TICKET 2.1 (A2) — id=2026-03-08_1130_c8bed1961b_SYS — cote = 2.61 — fenêtre 11:30 → 14:50  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 20:30 | super league switzerland | FC Lugano vs FC Luzern | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
-  2) 21:00 | laliga | Athletic Club vs Barcelona | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
-  3) 21:05 | ligue 1 | Toulouse vs Marseille | Over 1.5 (FT) | FORT PLUS | odd=1.28
-  4) 21:30 | liga portugal | Estoril vs Casa Pia | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  1) 11:30 | super lig | Rizespor vs Antalyaspor | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  2) 12:30 | serie a italia | Lecce vs Cremonese | Over 1.5 (FT) | FORT PLUS | odd=1.45
+  3) 13:00 | fa cup | Fulham vs Southampton | Team2 scores (FT) | TRÈS FORT | odd=1.44
+
+📅 Dimanche 2026-03-08 — Tranche 3 (fenêtre ~15min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-03-08_1615_2e57a6d567_SYS — cote = 2.33 — fenêtre 16:15 → 18:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:15 | laliga2 | FC Andorra vs Sporting Gijon | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
+  2) 16:30 | super league switzerland | Grasshoppers vs Lausanne | Team1 scores (FT) | FORT PLUS | odd=1.25
+  3) 16:30 | liga portugal | Estrela vs GIL Vicente | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.4
+
+📅 Dimanche 2026-03-08 — Tranche 4 (fenêtre ~135min)
+---------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-03-08_1915_fbbd4e9e4f_SYS — cote = 2.42 — fenêtre 19:15 → 23:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 19:15 | pro league | St. Truiden vs Cercle Brugge | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
+  2) 20:45 | serie a italia | AC Milan vs Inter | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.35
+  3) 21:30 | liga portugal | Santa Clara vs Guimaraes | Over 1.5 (FT) | EXPLOSION | odd=1.53

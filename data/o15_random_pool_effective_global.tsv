@@ -1,0 +1,74 @@
+O15_RANDOM_POOL_EFFECTIVE — PLAYABLE PICKS GLOBAL
+==========================================
+Format TSV:
+date	match_id	bet_family	time	league	home	away	odd	fixture_id	pipeline	source
+
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_EFFECTIVE | 2026-03-09 00:16:15 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-08	3548687214	O15_FT	01:30	mls	Atlanta United FC	Real Salt Lake	1.28	1490140	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	873395033	O15_FT	01:30	mls	Charlotte	Austin	1.28	1490141	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	172831139	O15_FT	01:30	mls	Philadelphia Union	San Jose Earthquakes	1.22	1490139	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	3441408338	O15_FT	01:30	mls	Columbus Crew	Chicago Fire	1.17	1490138	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	1057837023	O15_FT	02:05	liga mx	Atlas	Guadalajara Chivas	1.3	1492548	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	2724755303	O15_FT	02:06	liga mx	Pachuca	Puebla	1.3	1492547	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	2234684779	O15_FT	02:30	mls	Nashville SC	Minnesota United FC	1.22	1490143	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	3139403063	O15_FT	02:30	mls	St. Louis City	Seattle Sounders	1.22	1490142	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	733264987	O15_FT	02:30	mls	Sporting Kansas City	San Diego	1.17	1490144	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	323941124	O15_FT	03:30	mls	Colorado Rapids	Los Angeles Galaxy	1.15	1490145	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	3308703859	O15_FT	04:00	liga mx	Tigres UANL	Monterrey	1.25	1492549	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	970957243	O15_FT	04:30	mls	Portland Timbers	Vancouver Whitecaps	1.18	1490147	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	4279981362	O15_FT	11:30	super lig	Gaziantep FK	Fatih Karagümrük	1.28	1394654	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	1708636238	O15_FT	11:30	super lig	Rizespor	Antalyaspor	1.25	1394657	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	1450106791	O15_FT	12:15	eredivisie	Sparta Rotterdam	PEC Zwolle	1.15	1381100	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	2806107792	O15_FT	12:30	serie a italia	Lecce	Cremonese	1.45	1378141	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	3961235073	O15_FT	13:00	fa cup	Fulham	Southampton	1.18	1523410	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	1659377629	O15_FT	13:30	2. bundesliga	Preußen Münster	Hertha BSC	1.22	1388837	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	2794390490	O15_FT	13:30	2. bundesliga	Karlsruher SC	Dynamo Dresden	1.2	1388834	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	902674822	O15_FT	13:30	superligaen	MTK Budapest	Diosgyori VTK	1.2	1380320	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	1251374317	O15_FT	14:00	super lig	Konyaspor	Kasımpaşa	1.38	1394656	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	3662693112	O15_FT	14:00	laliga2	Las Palmas	AD Ceuta FC	1.33	1392076	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	2452552777	O15_FT	14:00	laliga	Villarreal	Elche	1.2	1391088	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	1153712568	O15_FT	14:00	scottish cup	Rangers	Celtic	1.2	1521024	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	1383804812	O15_FT	14:00	super league switzerland	FC ST. Gallen	FC Basel 1893	1.18	1494569	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	3646602574	O15_FT	14:30	fa cup	Port Vale	Sunderland	1.33	1529058	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	1006745778	O15_FT	14:30	eredivisie	Fortuna Sittard	Telstar	1.22	1381099	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	2458962266	O15_FT	14:30	eredivisie	GO Ahead Eagles	Twente	1.18	1381093	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	3982177400	O15_FT	15:00	serie b	Mantova	Juve Stabia	1.38	1419880	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	1814333369	O15_FT	15:00	serie a italia	Bologna	Hellas Verona	1.36	1378135	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	4294827532	O15_FT	15:00	serie a italia	Fiorentina	Parma	1.3	1378137	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	745328334	O15_FT	15:00	serie b	Catanzaro	Empoli	1.3	1419876	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	161623374	O15_FT	15:00	serie b	Frosinone	Sampdoria	1.25	1419871	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	2125603453	O15_FT	15:30	bundesliga	FC St. Pauli	Eintracht Frankfurt	1.33	1388530	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	923395873	O15_FT	16:00	pro league	Gent	KV Mechelen	1.2	1382649	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	3656357777	O15_FT	16:15	laliga	Getafe	Real Betis	1.57	1391083	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	868592875	O15_FT	16:15	laliga2	FC Andorra	Sporting Gijon	1.33	1396977	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	841816495	O15_FT	16:30	liga portugal	Estrela	GIL Vicente	1.4	1396457	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	4217806445	O15_FT	16:30	super league switzerland	Grasshoppers	Lausanne	1.25	1494570	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	3154485886	O15_FT	16:45	eredivisie	NAC Breda	Feyenoord	1.2	1381096	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	1514042876	O15_FT	17:15	ligue 1	Stade Brestois 29	Le Havre	1.38	1387915	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	1522683418	O15_FT	17:15	serie b	Carrarese	Palermo	1.38	1419874	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	2582939734	O15_FT	17:15	ligue 1	Lille	Lorient	1.28	1387917	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	2965124386	O15_FT	17:15	ligue 1	Nice	Rennes	1.22	1387920	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	316833179	O15_FT	17:30	bundesliga	Union Berlin	Werder Bremen	1.38	1388531	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	16538167	O15_FT	17:30	championship	QPR	Middlesbrough	1.25	1386978	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	4241371929	O15_FT	17:30	fa cup	Leeds	Norwich	1.2	1523411	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	3671850011	O15_FT	17:45	superligaen	Kazincbarcikai	Debreceni VSC	1.22	1380318	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	1893426084	O15_FT	18:00	serie a italia	Genoa	AS Roma	1.5	1378138	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	3413573008	O15_FT	18:00	super lig	Fenerbahçe	Samsunspor	1.25	1394653	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	1216210624	O15_FT	18:30	laliga2	Leganes	Eibar	1.57	1392078	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	1765558839	O15_FT	18:30	laliga	Sevilla	Rayo Vallecano	1.4	1391086	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	2017417503	O15_FT	18:30	pro league	Zulte Waregem	Standard Liege	1.28	1382643	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	49034790	O15_FT	18:30	superligaen	Nyiregyhaza	Ferencvarosi TC	1.28	1380321	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	633978529	O15_FT	18:30	laliga2	Racing Santander	Cordoba	1.25	1392075	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	3842348195	O15_FT	19:00	liga portugal	Benfica	FC Porto	1.48	1396454	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	2094887191	O15_FT	19:15	pro league	St. Truiden	Cercle Brugge	1.17	1382645	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	3130352792	O15_FT	19:30	serie b	Pescara	Bari	1.3	1419879	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	3490642595	O15_FT	20:30	scottish cup	ST Mirren	Partick	1.3	1521025	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	2109161129	O15_FT	20:45	serie a italia	AC Milan	Inter	1.35	1378142	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	205933658	O15_FT	20:45	ligue 1	Lyon	Paris FC	1.25	1387918	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	2477147823	O15_FT	21:00	laliga	Valencia	Alaves	1.48	1391087	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	1151146383	O15_FT	21:00	laliga2	Deportivo La Coruna	Granada CF	1.42	1392074	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	1984568614	O15_FT	21:30	liga portugal	Santa Clara	Guimaraes	1.53	1396460	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-08	894070785	O15_FT	21:30	mls	New York Red Bulls	CF Montreal	1.2	1490148	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+
