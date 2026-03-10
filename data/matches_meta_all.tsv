@@ -3296,9 +3296,7 @@
 2026-02-18	uefa champions league	Olympiakos Piraeus	Bayer Leverkusen	2	553	168	1515521
 2026-02-18	uefa champions league	Qarabag	Newcastle	2	556	34	1515518
 2026-02-19	liga profesional argentina	Defensa Y Justicia	Belgrano Cordoba	128	442	440	1491897
-2026-02-19	liga profesional argentina	Independ. Rivadavia	Independiente	128	473	453	1491901
 2026-02-19	liga profesional argentina	Instituto Cordoba	Atletico Tucuman	128	478	455	1491902
-2026-02-19	liga profesional argentina	San Lorenzo	Estudiantes de Rio Cuarto	128	460	2424	1491905
 2026-02-19	primera a colombia	Junior	America de Cali	239	1135	1138	1505995
 2026-02-19	primera división paraguay	Club Sp. San Lorenzo	Sportivo Trinidense	250	2125	1187	1504993
 2026-02-19	saudi arabia	Al Kholood	Al Riyadh	307	10509	10511	1436119
@@ -3907,12 +3905,9 @@
 2026-03-05	liga mx	Club America	FC Juarez	262	2287	2298	1492542
 2026-03-05	liga mx	Monterrey	Club Queretaro	262	2282	2290	1492539
 2026-03-05	liga mx	Puebla	Tigres UANL	262	2291	2279	1492540
-2026-03-05	liga profesional argentina	Gimnasia M.	Defensa Y Justicia	128	1066	442	1491944
 2026-03-05	liga profesional argentina	Lanus	Boca Juniors	128	446	451	1491915
 2026-03-05	premier league	Tottenham	Crystal Palace	39	47	52	1379257
-2026-03-05	primera a colombia	Deportes Tolima	Santa Fe	239	1142	1139	1506020
 2026-03-05	primera a colombia	Fortaleza FC	Jaguares	239	1147	1133	1506022
-2026-03-05	saudi arabia	Al Kholood	Al-Qadisiyah FC	307	10509	2933	1436131
 2026-03-05	saudi arabia	Damac	Al Riyadh	307	2956	10511	1436132
 2026-03-05	super league switzerland	FC Basel 1893	Grasshoppers	207	551	1013	1494564
 2026-03-05	super league switzerland	FC Thun	FC ST. Gallen	207	1012	1011	1494565
@@ -4111,3 +4106,35 @@
 2026-03-08	superligaen	Kazincbarcikai	Debreceni VSC	271	2410	2392	1380318
 2026-03-08	superligaen	MTK Budapest	Diosgyori VTK	271	2396	2393	1380320
 2026-03-08	superligaen	Nyiregyhaza	Ferencvarosi TC	271	2403	651	1380321
+2026-03-09	fa cup	West Ham	Brentford	45	48	55	1523414
+2026-03-09	laliga	Espanyol	Oviedo	140	540	718	1391082
+2026-03-09	laliga2	Almeria	Cultural Leonesa	141	723	725	1392073
+2026-03-09	liga mx	Club Tijuana	Santos Laguna	262	2280	2285	1492552
+2026-03-09	liga mx	Toluca	FC Juarez	262	2281	2298	1492551
+2026-03-09	liga portugal	Tondela	Rio Ave	94	218	226	1396461
+2026-03-09	liga portugal 2	Benfica B	Feirense	95	229	213	1398185
+2026-03-09	ligue 2	Dunkerque	Reims	62	1304	93	1389336
+2026-03-09	mls	FC Cincinnati	Toronto FC	253	2242	1601	1490149
+2026-03-09	primera división paraguay	Rubio NU	2 de Mayo	250	1185	2140	1505011
+2026-03-09	primera división paraguay	Sportivo Trinidense	Nacional Asuncion	250	1187	1175	1505012
+2026-03-09	serie a italia	Lazio	Sassuolo	135	487	488	1378140
+2026-03-09	super lig	Alanyaspor	Gençlerbirliği S.K.	203	996	997	1394649
+2026-03-09	super lig	Eyüpspor	Kocaelispor	203	3588	7411	1394652
+2026-03-09	super lig	Kayserispor	Trabzonspor	203	1001	998	1394655
+2026-03-10	championship	Leicester	Bristol City	40	46	56	1386987
+2026-03-10	championship	Millwall	Derby	40	58	69	1386988
+2026-03-10	championship	Portsmouth	Swansea	40	1355	76	1386983
+2026-03-10	championship	Sheffield Wednesday	Watford	40	74	38	1386990
+2026-03-10	championship	Stoke City	Ipswich	40	75	57	1386989
+2026-03-10	championship	Wrexham	Hull City	40	1837	64	1386986
+2026-03-10	liga pro ecuador	Orense SC	Manta FC	242	1992	1980	1519278
+2026-03-10	liga profesional argentina	Independiente	Union Santa Fe	128	453	441	1491962
+2026-03-10	liga profesional argentina	Tigre	Velez Sarsfield	128	452	438	1491967
+2026-03-10	primera a colombia	Deportivo Pasto	America de Cali	239	1126	1138	1506021
+2026-03-10	primera a colombia	Llaneros	Jaguares	239	1464	1133	1506078
+2026-03-10	primera a colombia	Millonarios	Cucuta	239	1125	1470	1506026
+2026-03-10	primera división paraguay	Deportivo Recoleta	Sportivo Ameliano	250	10476	10487	1505010
+2026-03-10	uefa champions league	Atalanta	Bayern München	2	499	157	1528324
+2026-03-10	uefa champions league	Atletico Madrid	Tottenham	2	530	47	1528323
+2026-03-10	uefa champions league	Galatasaray	Liverpool	2	645	40	1528321
+2026-03-10	uefa champions league	Newcastle	Barcelona	2	34	529	1528319

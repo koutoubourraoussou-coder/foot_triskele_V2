@@ -61,3 +61,24 @@ TSV: 2026-03-08	205933658	O15_FT	20:45	ligue 1	Lyon	Paris FC	1.25	1387918	SYSTEM
 TSV: 2026-03-08	1984568614	O15_FT	21:30	liga portugal	Santa Clara	Guimaraes	1.53	1396460	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-03-08	894070785	O15_FT	21:30	mls	New York Red Bulls	CF Montreal	1.2	1490148	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-03-10 01:57:18 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-09	3048753286	O15_FT	04:06	liga mx	Club Tijuana	Santos Laguna	1.2	1492552	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-09	3811264279	O15_FT	18:00	super lig	Alanyaspor	Gençlerbirliği S.K.	1.33	1394649	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-09	3811264279	TEAM1_SCORE_FT	18:00	super lig	Alanyaspor	Gençlerbirliği S.K.	1.22	1394649	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-09	1615772259	O15_FT	20:30	fa cup	West Ham	Brentford	1.28	1523414	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-09	1486313751	O15_FT	20:45	serie a italia	Lazio	Sassuolo	1.38	1378140	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-09	4093428160	O15_FT	21:00	laliga	Espanyol	Oviedo	1.36	1391082	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-09	3390541619	O15_FT	21:15	liga portugal	Tondela	Rio Ave	1.35	1396461	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-03-10 02:07:43 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-10	3127553174	O15_FT	02:30	primera a colombia	Deportivo Pasto	America de Cali	1.53	1506021	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-10	3442222592	O15_FT	18:45	uefa champions league	Galatasaray	Liverpool	1.15	1528321	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-10	2164348761	O15_FT	20:45	championship	Millwall	Derby	1.35	1386988	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-10	3875393646	O15_FT	20:45	championship	Sheffield Wednesday	Watford	1.25	1386990	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-10	2164348761	TEAM1_SCORE_FT	20:45	championship	Millwall	Derby	1.22	1386988	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-10	1360980729	O15_FT	21:00	uefa champions league	Atletico Madrid	Tottenham	1.2	1528323	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+

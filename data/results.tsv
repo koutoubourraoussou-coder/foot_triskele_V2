@@ -1856,7 +1856,6 @@ TSV: 2026-02-21	super lig	Konyaspor	Galatasaray	1394638	2-0	FT	0-0
 TSV: 2026-02-21	superligaen	Nyiregyhaza	Kisvarda FC	1380308	2-2	FT	1-2
 TSV: 2026-02-21	superligaen	Kazincbarcikai	Puskas Academy	1380306	0-2	FT	0-2
 TSV: 2026-02-21	superligaen	Ujpest	Diosgyori VTK	1380310	2-1	FT	2-0
-TSV: 2026-02-21	liga profesional argentina	Independ. Rivadavia	Independiente	1491901	3-2	FT	1-0
 TSV: 2026-02-21	liga mx	Atlas	Atletico San Luis	1492519	3-2	FT	1-2
 TSV: 2026-02-21	primera a colombia	Atletico Nacional	Alianza Valledupar	1506001	3-0	FT	2-0
 TSV: 2026-02-22	2. bundesliga	Hannover 96	Dynamo Dresden	1388816	0-0	FT	0-0
@@ -1943,7 +1942,6 @@ TSV: 2026-02-22	super lig	Beşiktaş	Göztepe	1394632	4-0	FT	2-0
 TSV: 2026-02-22	super lig	Fatih Karagümrük	Samsunspor	1394636	0-0	FT	0-0
 TSV: 2026-02-22	superligaen	Zalaegerszegi TE	Debreceni VSC	1380311	1-1	FT	1-0
 TSV: 2026-02-22	superligaen	Paks	Gyori ETO FC	1380309	3-4	FT	1-3
-TSV: 2026-02-22	liga profesional argentina	San Lorenzo	Estudiantes de Rio Cuarto	1491905	2-0	FT	1-0
 TSV: 2026-02-22	liga mx	U.N.A.M. - Pumas	Monterrey	1492523	2-0	2H	2-0
 TSV: 2026-02-22	liga pro ecuador	Independiente del Valle	Guayaquil City FC	1519259	2-0	2H	2-0
 TSV: 2026-02-22	primera a colombia	Chico	Águilas Doradas	1506004	0-0	2H	0-0
@@ -2425,7 +2423,6 @@ TSV: 2026-03-07	primera división paraguay	Club Guarani	Cerro Porteno	1505007	0-
 TSV: 2026-03-07	pro league	OH Leuven	KVC Westerlo	1382644	0-1	FT	0-1
 TSV: 2026-03-07	pro league	Dender	Charleroi	1382647	2-2	FT	2-1
 TSV: 2026-03-07	pro league	Union St. Gilloise	Genk	1382648	2-1	FT	1-0
-TSV: 2026-03-07	saudi arabia	Al Kholood	Al-Qadisiyah FC	1436131	1-4	FT	1-3
 TSV: 2026-03-07	saudi arabia	Al Okhdood	Al-Fayha	1436130	0-5	FT	0-1
 TSV: 2026-03-07	saudi arabia	Al-Ettifaq	Al Shabab	1436137	1-1	FT	0-0
 TSV: 2026-03-07	saudi arabia	Al-Nassr	NEOM	1436133	1-0	FT	0-0
@@ -2505,7 +2502,7 @@ TSV: 2026-03-08	mls	Colorado Rapids	Los Angeles Galaxy	1490145	4-1	FT	1-0
 TSV: 2026-03-08	mls	Los Angeles FC	FC Dallas	1490146	1-0	FT	0-0
 TSV: 2026-03-08	mls	Portland Timbers	Vancouver Whitecaps	1490147	1-4	FT	0-1
 TSV: 2026-03-08	mls	New York Red Bulls	CF Montreal	1490148	0-3	FT	0-2
-TSV: 2026-03-08	primera división paraguay	Olimpia	Club Sp. San Lorenzo	1505009	1-1	2H	0-0
+TSV: 2026-03-08	primera división paraguay	Olimpia	Club Sp. San Lorenzo	1505009	1-1	FT	0-0
 TSV: 2026-03-08	pro league	Club Brugge KV	Anderlecht	1382646	2-2	FT	1-1
 TSV: 2026-03-08	pro league	Gent	KV Mechelen	1382649	3-1	FT	2-0
 TSV: 2026-03-08	pro league	Zulte Waregem	Standard Liege	1382643	0-1	FT	0-0
@@ -2532,3 +2529,21 @@ TSV: 2026-03-08	super lig	Fenerbahçe	Samsunspor	1394653	3-2	FT	1-2
 TSV: 2026-03-08	superligaen	MTK Budapest	Diosgyori VTK	1380320	1-1	FT	0-1
 TSV: 2026-03-08	superligaen	Kazincbarcikai	Debreceni VSC	1380318	0-3	FT	0-1
 TSV: 2026-03-08	superligaen	Nyiregyhaza	Ferencvarosi TC	1380321	1-3	FT	1-2
+TSV: 2026-03-08	liga mx	Toluca	FC Juarez	1492551	3-1	FT	0-0
+TSV: 2026-03-08	mls	FC Cincinnati	Toronto FC	1490149	0-1	FT	0-0
+TSV: 2026-03-08	primera división paraguay	Rubio NU	2 de Mayo	1505011	0-1	FT	0-0
+TSV: 2026-03-09	fa cup	West Ham	Brentford	1523414	2-2	PEN	2-1
+TSV: 2026-03-09	laliga	Espanyol	Oviedo	1391082	1-1	FT	1-1
+TSV: 2026-03-09	laliga2	Almeria	Cultural Leonesa	1392073	3-0	FT	1-0
+TSV: 2026-03-09	liga mx	Club Tijuana	Santos Laguna	1492552	1-2	FT	0-0
+TSV: 2026-03-09	liga portugal	Tondela	Rio Ave	1396461	0-1	FT	0-0
+TSV: 2026-03-09	liga portugal 2	Benfica B	Feirense	1398185	3-0	FT	1-0
+TSV: 2026-03-09	ligue 2	Dunkerque	Reims	1389336	1-1	FT	1-0
+TSV: 2026-03-09	primera división paraguay	Sportivo Trinidense	Nacional Asuncion	1505012	1-1	FT	1-1
+TSV: 2026-03-09	serie a italia	Lazio	Sassuolo	1378140	2-1	FT	1-1
+TSV: 2026-03-09	super lig	Eyüpspor	Kocaelispor	1394652	0-1	FT	0-1
+TSV: 2026-03-09	super lig	Alanyaspor	Gençlerbirliği S.K.	1394649	0-0	FT	0-0
+TSV: 2026-03-09	super lig	Kayserispor	Trabzonspor	1394655	1-3	FT	0-2
+TSV: 2026-03-09	primera a colombia	Llaneros	Jaguares	1506078	2-0	FT	1-0
+TSV: 2026-03-09	primera a colombia	Millonarios	Cucuta	1506026	2-0	2H	0-0
+TSV: 2026-03-09	primera división paraguay	Deportivo Recoleta	Sportivo Ameliano	1505010	0-1	2H	0-0

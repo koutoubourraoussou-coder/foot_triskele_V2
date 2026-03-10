@@ -201,7 +201,6 @@
 2026-02-21	liga portugal 2	Torreense	Benfica B	95	4799	229	1398175	DATE_FALLBACK
 2026-02-21	liga portugal 2	Maritimo	Sporting CP B	95	214	761	1398172	DATE_FALLBACK
 2026-02-21	liga portugal 2	Oliveirense	União de Leiria	95	233	4662	1398173	DATE_FALLBACK
-2026-02-21	liga profesional argentina	Independ. Rivadavia	Independiente	128	473	453	1491901	DATE_FALLBACK
 2026-02-21	mls	St. Louis City	Charlotte	253	20787	18310	1490775	DATE_FALLBACK
 2026-02-21	mls	FC Cincinnati	Atlanta United FC	253	2242	1608	1490776	DATE_FALLBACK
 2026-02-21	primera división paraguay	Cerro Porteno	Olimpia	250	1176	1182	1504990	DATE_FALLBACK
@@ -237,7 +236,6 @@
 2026-02-21	superligaen	Nyiregyhaza	Kisvarda FC	271	2403	2394	1380308	DATE_FALLBACK
 2026-02-21	superligaen	Kazincbarcikai	Puskas Academy	271	2410	2391	1380306	DATE_FALLBACK
 2026-02-21	superligaen	Ujpest	Diosgyori VTK	271	2255	2393	1380310	DATE_FALLBACK
-2026-02-21	liga profesional argentina	Independ. Rivadavia	Independiente	128	473	453	1491901	DATE_FALLBACK
 2026-02-22	czech first league	Bohemians 1905	Dukla Praha	345	3714	3715	1384827	DATE_FALLBACK
 2026-02-22	czech first league	Baník Ostrava	Mlada Boleslav	345	3713	640	1384830	DATE_FALLBACK
 2026-02-22	czech first league	Teplice	Sigma Olomouc	345	3720	2250	1384834	DATE_FALLBACK
@@ -294,7 +292,6 @@
 2026-02-22	primera división paraguay	Club Guarani	2 de Mayo	250	1174	2140	1504996	DATE_FALLBACK
 2026-02-22	superligaen	Zalaegerszegi TE	Debreceni VSC	271	2414	2392	1380311	DATE_FALLBACK
 2026-02-22	superligaen	Paks	Gyori ETO FC	271	2390	2402	1380309	DATE_FALLBACK
-2026-02-22	liga profesional argentina	San Lorenzo	Estudiantes de Rio Cuarto	128	460	2424	1491905	DATE_FALLBACK
 2026-02-22	primera división paraguay	Sportivo Luqueno	Club Guarani	250	1183	1174	1504994	DATE_FALLBACK
 2026-02-23	laliga2	Cadiz	Real Sociedad II	141	724	9585	1392051	DATE_FALLBACK
 2026-02-23	liga portugal	Famalicao	Casa Pia	94	242	4716	1396441	DATE_FALLBACK
@@ -459,7 +456,6 @@
 2026-03-07	mls	DC United	Inter Miami	253	1615	9568	1490137	DATE_FALLBACK
 2026-03-07	premiership	Dundee	Motherwell	179	253	256	1382811	DATE_FALLBACK
 2026-03-07	primera división paraguay	Club Guarani	Cerro Porteno	250	1174	1176	1505007	DATE_FALLBACK
-2026-03-07	saudi arabia	Al Kholood	Al-Qadisiyah FC	307	10509	2933	1436131	DATE_FALLBACK
 2026-03-07	saudi arabia	Al Okhdood	Al-Fayha	307	2977	2944	1436130	DATE_FALLBACK
 2026-03-07	saudi arabia	Al-Ettifaq	Al Shabab	307	2934	2940	1436137	DATE_FALLBACK
 2026-03-07	saudi arabia	Al-Nassr	NEOM	307	2939	10513	1436133	DATE_FALLBACK
@@ -500,3 +496,43 @@
 2026-03-08	superligaen	MTK Budapest	Diosgyori VTK	271	2396	2393	1380320	DATE_FALLBACK
 2026-03-08	superligaen	Kazincbarcikai	Debreceni VSC	271	2410	2392	1380318	DATE_FALLBACK
 2026-03-08	superligaen	Nyiregyhaza	Ferencvarosi TC	271	2403	651	1380321	DATE_FALLBACK
+2026-03-08	czech first league	Baník Ostrava	Zlin	345	3713	603	1384847	DATE_FALLBACK
+2026-03-08	czech first league	Hradec Králové	Plzen	345	3723	567	1384844	DATE_FALLBACK
+2026-03-08	czech first league	Karviná	Pardubice	345	3716	3724	1384846	DATE_FALLBACK
+2026-03-08	czech first league	Slavia Praha	Sparta Praha	345	560	628	1384848	DATE_FALLBACK
+2026-03-08	laliga2	Las Palmas	AD Ceuta FC	141	534	10139	1392076	DATE_FALLBACK
+2026-03-08	laliga2	FC Andorra	Sporting Gijon	141	8157	731	1396977	DATE_FALLBACK
+2026-03-08	laliga2	Leganes	Eibar	141	537	545	1392078	DATE_FALLBACK
+2026-03-08	laliga2	Racing Santander	Cordoba	141	4665	713	1392075	DATE_FALLBACK
+2026-03-08	laliga2	Deportivo La Coruna	Granada CF	141	544	715	1392074	DATE_FALLBACK
+2026-03-08	liga portugal	Estrela	GIL Vicente	94	15130	762	1396457	DATE_FALLBACK
+2026-03-08	liga portugal	Benfica	FC Porto	94	211	212	1396454	DATE_FALLBACK
+2026-03-08	liga portugal	Santa Clara	Guimaraes	94	227	224	1396460	DATE_FALLBACK
+2026-03-08	liga portugal 2	Felgueiras 1932	Vizela	95	4744	810	1398187	DATE_FALLBACK
+2026-03-08	liga portugal 2	Leixoes	União de Leiria	95	244	4662	1398188	DATE_FALLBACK
+2026-03-08	liga portugal 2	Maritimo	FC Porto B	95	214	243	1398190	DATE_FALLBACK
+2026-03-08	liga portugal 2	Lusitânia Lourosa	Sporting CP B	95	6358	761	1398189	DATE_FALLBACK
+2026-03-08	mls	Atlanta United FC	Real Salt Lake	253	1608	1606	1490140	DATE_FALLBACK
+2026-03-08	mls	Charlotte	Austin	253	18310	16489	1490141	DATE_FALLBACK
+2026-03-08	mls	Columbus Crew	Chicago Fire	253	1613	1607	1490138	DATE_FALLBACK
+2026-03-08	mls	Philadelphia Union	San Jose Earthquakes	253	1599	1596	1490139	DATE_FALLBACK
+2026-03-08	mls	Nashville SC	Minnesota United FC	253	9569	1612	1490143	DATE_FALLBACK
+2026-03-08	mls	Sporting Kansas City	San Diego	253	1611	25484	1490144	DATE_FALLBACK
+2026-03-08	mls	St. Louis City	Seattle Sounders	253	20787	1595	1490142	DATE_FALLBACK
+2026-03-08	mls	Colorado Rapids	Los Angeles Galaxy	253	1610	1605	1490145	DATE_FALLBACK
+2026-03-08	mls	Los Angeles FC	FC Dallas	253	1616	1597	1490146	DATE_FALLBACK
+2026-03-08	mls	Portland Timbers	Vancouver Whitecaps	253	1617	1603	1490147	DATE_FALLBACK
+2026-03-08	mls	New York Red Bulls	CF Montreal	253	1602	1614	1490148	DATE_FALLBACK
+2026-03-08	primera división paraguay	Olimpia	Club Sp. San Lorenzo	250	1182	2125	1505009	DATE_FALLBACK
+2026-03-08	scottish cup	Rangers	Celtic	181	257	247	1521024	DATE_FALLBACK
+2026-03-08	scottish cup	ST Mirren	Partick	181	251	901	1521025	DATE_FALLBACK
+2026-03-08	superligaen	MTK Budapest	Diosgyori VTK	271	2396	2393	1380320	DATE_FALLBACK
+2026-03-08	superligaen	Kazincbarcikai	Debreceni VSC	271	2410	2392	1380318	DATE_FALLBACK
+2026-03-08	superligaen	Nyiregyhaza	Ferencvarosi TC	271	2403	651	1380321	DATE_FALLBACK
+2026-03-09	laliga2	Almeria	Cultural Leonesa	141	723	725	1392073	DATE_FALLBACK
+2026-03-09	liga portugal	Tondela	Rio Ave	94	218	226	1396461	DATE_FALLBACK
+2026-03-09	liga portugal 2	Benfica B	Feirense	95	229	213	1398185	DATE_FALLBACK
+2026-03-08	mls	FC Cincinnati	Toronto FC	253	2242	1601	1490149	DATE_FALLBACK
+2026-03-08	primera división paraguay	Rubio NU	2 de Mayo	250	1185	2140	1505011	DATE_FALLBACK
+2026-03-09	primera división paraguay	Sportivo Trinidense	Nacional Asuncion	250	1187	1175	1505012	DATE_FALLBACK
+2026-03-09	primera división paraguay	Deportivo Recoleta	Sportivo Ameliano	250	10476	10487	1505010	DATE_FALLBACK

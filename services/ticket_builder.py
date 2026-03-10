@@ -58,12 +58,15 @@ SEARCH_BUDGET_MS_RANDOM = 1200
 SEARCH_MAX_ITER_SYSTEM = 200000
 SEARCH_MAX_ITER_RANDOM = 200000
 
-RICH_DAY_MIN_PLAYABLES = 12
+# ----------------------------
+# Gestion journalière / fenêtres
+# ----------------------------
+RICH_DAY_MATCH_COUNT = 18          # grosse journée = 2 tickets max
+DAY_MAX_TICKETS_POOR = 1
+DAY_MAX_TICKETS_RICH = 2
 
-SPREAD_MAX_RICH_MIN = 90
-SPREAD_START_POOR_MIN = 180
-SPREAD_GROWTH_FACTOR = 2
-SPREAD_MAX_ABSOLUTE_MIN = 24 * 60
+MIN_SIDE_MATCHES_FOR_SPLIT = 4     # évite une fenêtre vide ou ridicule
+SPLIT_GAP_WEIGHT = 0.35            # bonus si la coupure tombe dans un vrai creux horaire
 
 # Sorties SYSTEM
 TICKETS_TSV_FILE = Path("data/tickets.tsv")
@@ -1368,32 +1371,159 @@ def filter_effective_random_pool(
 # ----------------------------
 # Tranches "physiques"
 # ----------------------------
+
 @dataclass(frozen=True)
 class Tranche:
     start_min: int
     end_min: int
     picks: List[Pick]
 
-def _build_base_tranches(sorted_picks: List[Pick], base_spread: int) -> List[Tranche]:
-    tranches: List[Tranche] = []
-    i = 0
-    n = len(sorted_picks)
-    while i < n:
-        start_min = _time_to_minutes(sorted_picks[i].time_str)
-        end_min = start_min + base_spread
-        bucket: List[Pick] = []
-        while i < n:
-            tm = _time_to_minutes(sorted_picks[i].time_str)
-            if tm < start_min:
-                i += 1
-                continue
-            if tm <= end_min:
-                bucket.append(sorted_picks[i])
-                i += 1
-            else:
-                break
-        tranches.append(Tranche(start_min=start_min, end_min=end_min, picks=bucket))
-    return tranches
+def _unique_match_count(picks: List[Pick]) -> int:
+    return len({_match_key(p) for p in picks})
+
+def _build_day_tranches(sorted_picks: List[Pick], *, rich_day: bool) -> List[Tranche]:
+    """
+    Petite journée :
+      - 1 seule grande fenêtre
+
+    Grosse journée :
+      - 2 grandes fenêtres max
+      - coupure déterministe entre deux groupes horaires
+      - on favorise :
+          1) des côtés pas trop déséquilibrés en nombre de matchs
+          2) une vraie pause horaire (gap) entre les deux
+      - on ne coupe jamais au milieu d'un paquet de matchs à la même heure
+    """
+    if not sorted_picks:
+        return []
+
+    # 1 seule fenêtre si journée normale
+    if not rich_day:
+        mins = [_time_to_minutes(p.time_str) for p in sorted_picks]
+        mins = [m for m in mins if m < 10**8]
+        if not mins:
+            return []
+        return [Tranche(start_min=min(mins), end_min=max(mins), picks=list(sorted_picks))]
+
+    # Regroupement par heure exacte
+    groups: List[Tuple[int, List[Pick], int]] = []
+    current_tm: Optional[int] = None
+    current_picks: List[Pick] = []
+
+    for p in sorted(sorted_picks, key=lambda x: _time_to_minutes(x.time_str)):
+        tm = _time_to_minutes(p.time_str)
+        if tm >= 10**8:
+            continue
+
+        if current_tm is None or tm != current_tm:
+            if current_picks:
+                groups.append(
+                    (
+                        current_tm,
+                        list(current_picks),
+                        len({_match_key(x) for x in current_picks}),
+                    )
+                )
+            current_tm = tm
+            current_picks = [p]
+        else:
+            current_picks.append(p)
+
+    if current_picks and current_tm is not None:
+        groups.append(
+            (
+                current_tm,
+                list(current_picks),
+                len({_match_key(x) for x in current_picks}),
+            )
+        )
+
+    if len(groups) <= 1:
+        mins = [_time_to_minutes(p.time_str) for p in sorted_picks]
+        mins = [m for m in mins if m < 10**8]
+        if not mins:
+            return []
+        return [Tranche(start_min=min(mins), end_min=max(mins), picks=list(sorted_picks))]
+
+    total_matches = sum(g[2] for g in groups)
+    if total_matches < (2 * MIN_SIDE_MATCHES_FOR_SPLIT):
+        mins = [_time_to_minutes(p.time_str) for p in sorted_picks]
+        mins = [m for m in mins if m < 10**8]
+        if not mins:
+            return []
+        return [Tranche(start_min=min(mins), end_min=max(mins), picks=list(sorted_picks))]
+
+    # Choix déterministe de la coupure :
+    # - équilibre gauche/droite
+    # - bonus si la coupure tombe dans un gros creux horaire
+    best_idx: Optional[int] = None
+    best_score: Optional[float] = None
+    best_gap: int = -1
+
+    left_matches = 0
+    for i in range(len(groups) - 1):
+        tm_i, _, cnt_i = groups[i]
+        tm_next, _, _ = groups[i + 1]
+
+        left_matches += cnt_i
+        right_matches = total_matches - left_matches
+
+        if left_matches < MIN_SIDE_MATCHES_FOR_SPLIT:
+            continue
+        if right_matches < MIN_SIDE_MATCHES_FOR_SPLIT:
+            continue
+
+        gap_min = max(0, tm_next - tm_i)
+        imbalance = abs(left_matches - right_matches) / max(1, total_matches)
+        gap_bonus = min(gap_min, 180) / 180.0
+
+        # plus le score est bas, mieux c'est
+        score = imbalance - (gap_bonus * SPLIT_GAP_WEIGHT)
+
+        if (
+            best_score is None
+            or score < best_score
+            or (abs(score - best_score) < 1e-9 and gap_min > best_gap)
+        ):
+            best_score = score
+            best_idx = i
+            best_gap = gap_min
+
+    if best_idx is None:
+        mins = [_time_to_minutes(p.time_str) for p in sorted_picks]
+        mins = [m for m in mins if m < 10**8]
+        if not mins:
+            return []
+        return [Tranche(start_min=min(mins), end_min=max(mins), picks=list(sorted_picks))]
+
+    cut_time = groups[best_idx + 1][0]
+
+    left_picks = [p for p in sorted_picks if _time_to_minutes(p.time_str) < cut_time]
+    right_picks = [p for p in sorted_picks if _time_to_minutes(p.time_str) >= cut_time]
+
+    out: List[Tranche] = []
+
+    if left_picks:
+        left_mins = [_time_to_minutes(p.time_str) for p in left_picks if _time_to_minutes(p.time_str) < 10**8]
+        out.append(
+            Tranche(
+                start_min=min(left_mins),
+                end_min=max(left_mins),
+                picks=left_picks,
+            )
+        )
+
+    if right_picks:
+        right_mins = [_time_to_minutes(p.time_str) for p in right_picks if _time_to_minutes(p.time_str) < 10**8]
+        out.append(
+            Tranche(
+                start_min=min(right_mins),
+                end_min=max(right_mins),
+                picks=right_picks,
+            )
+        )
+
+    return out
 
 def _max_possible_odd(picks: List[Pick]) -> float:
     if not picks:
@@ -2057,14 +2187,15 @@ def _build_tickets_for_one_day(sorted_picks: List[Pick], *, mode: str) -> List[T
 
     league_bet, team_bet = _load_rankings()
 
-    is_rich = len(sorted_picks) >= RICH_DAY_MIN_PLAYABLES
-    base_spread = SPREAD_MAX_RICH_MIN if is_rich else SPREAD_START_POOR_MIN
+    day_match_count = _unique_match_count(sorted_picks)
+    is_rich = day_match_count >= RICH_DAY_MATCH_COUNT
+    max_tickets_today = DAY_MAX_TICKETS_RICH if is_rich else DAY_MAX_TICKETS_POOR
 
     day_max = _max_possible_odd(sorted_picks)
     cfg = T()
     day_threshold = cfg.target_odd if day_max >= cfg.target_odd else cfg.min_accept_odd
 
-    tranches = _build_base_tranches(sorted_picks, base_spread)
+    windows = _build_day_tranches(sorted_picks, rich_day=is_rich)
 
     rng = random.Random()
     used_legs: set[Tuple[str, str]] = set()
@@ -2072,120 +2203,90 @@ def _build_tickets_for_one_day(sorted_picks: List[Pick], *, mode: str) -> List[T
     tickets_out: List[Ticket] = []
     group_no = 0
 
-    next_allowed_start_min = tranches[0].start_min if tranches else 10**9
+    next_allowed_start_min = 0
 
     mlevel = _maestro_level()
     maestro_lines: List[str] = []
+
     if mlevel >= 1:
         d = sorted_picks[0].date if sorted_picks else "—"
         maestro_lines.append(f"MAESTROLOGUE — {mode.upper()} — {d}")
         maestro_lines.append("=" * 40)
         maestro_lines.append(f"- picks_total: {len(sorted_picks)}")
-        maestro_lines.append(f"- base_spread: {base_spread} min (rich={is_rich})")
+        maestro_lines.append(f"- unique_matches_day: {day_match_count}")
+        maestro_lines.append(f"- rich_day: {is_rich}")
+        maestro_lines.append(f"- max_tickets_today: {max_tickets_today}")
+        maestro_lines.append(f"- windows_count: {len(windows)}")
         maestro_lines.append(f"- day_max_possible_odd: {_fmt_odd(day_max)}")
-        maestro_lines.append(f"- threshold_used: {_fmt_odd(day_threshold)} (target={_fmt_odd(cfg.target_odd)}, fallback={_fmt_odd(cfg.min_accept_odd)})")
+        maestro_lines.append(
+            f"- threshold_used: {_fmt_odd(day_threshold)} "
+            f"(target={_fmt_odd(cfg.target_odd)}, fallback={_fmt_odd(cfg.min_accept_odd)})"
+        )
+        maestro_lines.append(f"- replay_after_last_kickoff: {MATCH_DURATION_MIN} min")
         maestro_lines.append("")
 
-    idx = 0
-    while idx < len(tranches):
-        while idx < len(tranches) and tranches[idx].end_min < next_allowed_start_min:
-            idx += 1
-        if idx >= len(tranches):
+    for widx, tr in enumerate(windows, start=1):
+        if len(tickets_out) >= max_tickets_today:
             break
 
-        merged_start = tranches[idx].start_min
-        merged_end = tranches[idx].end_min
+        # on respecte :
+        # - pas de doublon de legs déjà utilisés
+        # - pas de début avant la prochaine heure rejouable
+        window_filtered = [
+            p for p in tr.picks
+            if (p.match_id, p.bet_key) not in used_legs
+            and _time_to_minutes(p.time_str) >= next_allowed_start_min
+        ]
 
-        # On va élargir progressivement la fenêtre (merge) jusqu'à :
-        # - trouver un ticket
-        # - ou épuiser les tranches
-        merged_acc: List[Pick] = []
-        j = idx
+        diag = _diagnose_pool(
+            window_filtered,
+            mode=mode,
+            next_allowed_start_min=next_allowed_start_min,
+            league_bet=league_bet,
+            team_bet=team_bet,
+        )
+        ok_pool = diag["OK_WINDOW"]
 
         if mlevel >= 2:
-            maestro_lines.append(f"Tranche scan: idx={idx} | next_window_start={_minutes_to_time(next_allowed_start_min)}")
-            maestro_lines.append(f"  tranche_seed: {_minutes_to_time(merged_start)} → {_minutes_to_time(merged_end)}")
+            maestro_lines.append(
+                f"WINDOW {widx} | {_minutes_to_time(tr.start_min)} -> {_minutes_to_time(tr.end_min)}"
+            )
+            maestro_lines.append(f"  - raw_window_picks: {len(tr.picks)}")
+            maestro_lines.append(f"  - filtered_window_picks: {len(window_filtered)}")
+            maestro_lines.append(f"  - ok_window: {len(diag['OK_WINDOW'])}")
+            maestro_lines.append(f"  - perf_reject: {len(diag['PERF_REJECT'])}")
+            maestro_lines.append(f"  - out_window: {len(diag['OUT_WINDOW'])}")
+            maestro_lines.append(f"  - no_odd: {len(diag['NO_ODD'])} | odd_too_low: {len(diag['ODD_TOO_LOW'])}")
+            maestro_lines.append(f"  - max_possible_odd(ok_window): {_fmt_odd(_max_possible_odd(ok_pool))}")
             maestro_lines.append("")
 
-        combo: Optional[List[Pick]] = None
-        combo_window_j: Optional[int] = None
+        if _max_possible_odd(ok_pool) < day_threshold:
+            if mlevel >= 2:
+                maestro_lines.append(f"  -> SKIP WINDOW {widx}: cote max insuffisante")
+                maestro_lines.append("")
+            continue
 
-        while j < len(tranches):
-            merged_end = tranches[j].end_min
-            merged_acc.extend(tranches[j].picks)
-
-            # Filtre structurel : pas de doublon (match_id, bet_key) déjà utilisé + respect next_allowed_start_min
-            merged_filtered = [
-                p for p in merged_acc
-                if (p.match_id, p.bet_key) not in used_legs
-                and _time_to_minutes(p.time_str) >= next_allowed_start_min
-            ]
-
-            # Diagnostic (et surtout pool réellement jouable)
-            diag = _diagnose_pool(
-                merged_filtered,
-                mode=mode,
-                next_allowed_start_min=next_allowed_start_min,
+        if mode.upper() == "SYSTEM":
+            combo = _try_build_ticket_system(
+                ok_pool,
+                rng,
+                threshold=day_threshold,
                 league_bet=league_bet,
                 team_bet=team_bet,
             )
-            ok_pool = diag["OK_WINDOW"]
+        else:
+            combo = _try_build_ticket_random(
+                ok_pool,
+                rng,
+                threshold=day_threshold,
+                league_bet=league_bet,
+                team_bet=team_bet,
+            )
 
-            if mlevel >= 2:
-                maestro_lines.append(f"  merge_until: j={j} | merged_in_window={len(merged_filtered)}")
-                maestro_lines.append(f"    - ok_window(after_perf_if_SYSTEM): {len(diag['OK_WINDOW'])}")
-                maestro_lines.append(f"    - perf_reject: {len(diag['PERF_REJECT'])}")
-                maestro_lines.append(f"    - out_window: {len(diag['OUT_WINDOW'])}")
-                maestro_lines.append(f"    - no_odd: {len(diag['NO_ODD'])} | odd_too_low: {len(diag['ODD_TOO_LOW'])}")
-                maestro_lines.append(f"    - max_possible_odd(ok_window): {_fmt_odd(_max_possible_odd(diag['OK_WINDOW']))}")
-                maestro_lines.append("")
-
-                if mlevel >= 3:
-                    examples: List[str] = []
-                    for cat in ("PERF_REJECT", "NO_ODD", "ODD_TOO_LOW"):
-                        for p in diag[cat][:10]:
-                            rk = f"{_match_key(p)}|{_norm_bet_family(p.bet_key)}"
-                            why = diag.get("REASONS", {}).get(rk, "—")
-                            examples.append(f"      {cat}: {_short_pick(p)} || {why}")
-                    if examples:
-                        maestro_lines.extend(examples[:MAESTRO_MAX_DETAIL_LINES])
-                        maestro_lines.append("")
-
-            # IMPORTANT : la faisabilité doit être testée sur ok_pool (après perf gate SYSTEM)
-            if _max_possible_odd(ok_pool) < day_threshold:
-                j += 1
-                continue
-
-            # Fenêtre faisable => on tente de construire un ticket
-            if mode.upper() == "SYSTEM":
-                combo = _try_build_ticket_system(
-                    ok_pool, rng, threshold=day_threshold,
-                    league_bet=league_bet,
-                    team_bet=team_bet,
-                )
-            else:
-                combo = _try_build_ticket_random(
-                    ok_pool, rng, threshold=day_threshold,
-                    league_bet=league_bet,
-                    team_bet=team_bet,
-                )
-
-            if combo:
-                combo_window_j = j
-                break
-
-            # Si aucune combinaison trouvée, on élargit la fenêtre et on retente (merge + 1 tranche)
-            if mlevel >= 2:
-                maestro_lines.append("  Aucune combinaison trouvée (recherche épuisée). -> élargissement fenêtre (merge + 1)")
-                maestro_lines.append("")
-            j += 1
-
-        # Si on n'a rien trouvé même après élargissement
         if not combo:
             if mlevel >= 2:
-                maestro_lines.append(f"  Impossible de construire un ticket après merge jusqu'à j={j-1}.")
+                maestro_lines.append(f"  -> SKIP WINDOW {widx}: aucune combinaison valide")
                 maestro_lines.append("")
-            idx = j  # on repart après la dernière tranche testée
             continue
 
         combo_sorted = sorted(combo, key=lambda p: _time_to_minutes(p.time_str))
@@ -2204,19 +2305,22 @@ def _build_tickets_for_one_day(sorted_picks: List[Pick], *, mode: str) -> List[T
             used_legs.add((p.match_id, p.bet_key))
 
         if mlevel >= 1:
-            maestro_lines.append(f"Ticket: tranche={group_no} | cote={_fmt_odd(t.total_odd)} | {t.start_time} → {t.end_time} | fenêtre={t.spread_minutes}min")
+            maestro_lines.append(
+                f"Ticket: tranche={group_no} | cote={_fmt_odd(t.total_odd)} "
+                f"| {t.start_time} → {t.end_time} | fenêtre={t.spread_minutes}min"
+            )
             if mlevel >= 2:
                 for k, p in enumerate(combo_sorted, start=1):
                     maestro_lines.append(f"  {k}) {_short_pick(p)}")
             maestro_lines.append("")
 
+        # prochaine heure rejouable = fin du ticket
         next_allowed_start_min = t.end_time_minutes
-        idx = _find_next_tranche_index(tranches, after_min=next_allowed_start_min)
 
     if mlevel >= 1:
         maestro_lines.append("FIN JOURNÉE")
         maestro_lines.append("-" * 18)
-        maestro_lines.append(f"- tickets_built: {len(tickets_out)}")
+        maestro_lines.append(f"- tickets_built: {len(tickets_out)} / {max_tickets_today}")
         maestro_lines.append(f"- next_window_start: {_minutes_to_time(next_allowed_start_min)}")
         maestro_lines.append("")
         _write_maestro_log("\n".join(maestro_lines).rstrip() + "\n\n", append=True)

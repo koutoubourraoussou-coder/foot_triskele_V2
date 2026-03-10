@@ -1,87 +1,17 @@
-2026-03-08 13:30 | 2. bundesliga | Hannover 96 vs SpVgg Greuther Fürth
-2026-03-08 13:30 | 2. bundesliga | Karlsruher SC vs Dynamo Dresden
-2026-03-08 13:30 | 2. bundesliga | Preußen Münster vs Hertha BSC
-2026-03-08 15:30 | bundesliga | FC St. Pauli vs Eintracht Frankfurt
-2026-03-08 17:30 | bundesliga | Union Berlin vs Werder Bremen
-2026-03-08 17:30 | championship | QPR vs Middlesbrough
-2026-03-08 13:00 | czech first league | Baník Ostrava vs Zlin
-2026-03-08 15:30 | czech first league | Hradec Králové vs Plzen
-2026-03-08 15:30 | czech first league | Karviná vs Pardubice
-2026-03-08 18:30 | czech first league | Slavia Praha vs Sparta Praha
-2026-03-08 12:15 | eredivisie | Sparta Rotterdam vs PEC Zwolle
-2026-03-08 14:30 | eredivisie | Fortuna Sittard vs Telstar
-2026-03-08 14:30 | eredivisie | GO Ahead Eagles vs Twente
-2026-03-08 16:45 | eredivisie | NAC Breda vs Feyenoord
-2026-03-08 20:00 | eredivisie | NEC Nijmegen vs FC Volendam
-2026-03-08 13:00 | fa cup | Fulham vs Southampton
-2026-03-08 14:30 | fa cup | Port Vale vs Sunderland
-2026-03-08 17:30 | fa cup | Leeds vs Norwich
-2026-03-08 14:00 | laliga | Villarreal vs Elche
-2026-03-08 16:15 | laliga | Getafe vs Real Betis
-2026-03-08 18:30 | laliga | Sevilla vs Rayo Vallecano
-2026-03-08 21:00 | laliga | Valencia vs Alaves
-2026-03-08 14:00 | laliga2 | Las Palmas vs AD Ceuta FC
-2026-03-08 16:15 | laliga2 | FC Andorra vs Sporting Gijon
-2026-03-08 18:30 | laliga2 | Leganes vs Eibar
-2026-03-08 18:30 | laliga2 | Racing Santander vs Cordoba
-2026-03-08 21:00 | laliga2 | Deportivo La Coruna vs Granada CF
-2026-03-08 00:00 | liga mx | Club Queretaro vs Club America
-2026-03-08 00:00 | liga mx | Cruz Azul vs Atletico San Luis
-2026-03-08 02:05 | liga mx | Atlas vs Guadalajara Chivas
-2026-03-08 02:06 | liga mx | Pachuca vs Puebla
-2026-03-08 04:00 | liga mx | Tigres UANL vs Monterrey
-2026-03-08 16:30 | liga portugal | Estrela vs GIL Vicente
-2026-03-08 19:00 | liga portugal | Benfica vs FC Porto
-2026-03-08 21:30 | liga portugal | Santa Clara vs Guimaraes
-2026-03-08 12:00 | liga portugal 2 | Felgueiras 1932 vs Vizela
-2026-03-08 15:00 | liga portugal 2 | Leixoes vs União de Leiria
-2026-03-08 16:30 | liga portugal 2 | Maritimo vs FC Porto B
-2026-03-08 19:00 | liga portugal 2 | Lusitânia Lourosa vs Sporting CP B
-2026-03-08 01:00 | liga pro ecuador | Libertad vs LDU de Quito
-2026-03-08 17:00 | liga pro ecuador | Aucas vs Deportivo Cuenca
-2026-03-08 19:30 | liga pro ecuador | Macara vs Tecnico Universitario
-2026-03-08 22:00 | liga pro ecuador | Universidad Catolica vs Leones del Norte
-2026-03-08 15:00 | ligue 1 | Lens vs Metz
-2026-03-08 17:15 | ligue 1 | Lille vs Lorient
-2026-03-08 17:15 | ligue 1 | Nice vs Rennes
-2026-03-08 17:15 | ligue 1 | Stade Brestois 29 vs Le Havre
-2026-03-08 20:45 | ligue 1 | Lyon vs Paris FC
-2026-03-08 01:30 | mls | Atlanta United FC vs Real Salt Lake
-2026-03-08 01:30 | mls | Charlotte vs Austin
-2026-03-08 01:30 | mls | Columbus Crew vs Chicago Fire
-2026-03-08 01:30 | mls | Philadelphia Union vs San Jose Earthquakes
-2026-03-08 02:30 | mls | Nashville SC vs Minnesota United FC
-2026-03-08 02:30 | mls | Sporting Kansas City vs San Diego
-2026-03-08 02:30 | mls | St. Louis City vs Seattle Sounders
-2026-03-08 03:30 | mls | Colorado Rapids vs Los Angeles Galaxy
-2026-03-08 04:30 | mls | Los Angeles FC vs FC Dallas
-2026-03-08 04:30 | mls | Portland Timbers vs Vancouver Whitecaps
-2026-03-08 21:30 | mls | New York Red Bulls vs CF Montreal
-2026-03-08 00:30 | primera división paraguay | Libertad Asuncion vs Sportivo Luqueno
-2026-03-08 22:30 | primera división paraguay | Olimpia vs Club Sp. San Lorenzo
-2026-03-08 13:30 | pro league | Club Brugge KV vs Anderlecht
-2026-03-08 16:00 | pro league | Gent vs KV Mechelen
-2026-03-08 18:30 | pro league | Zulte Waregem vs Standard Liege
-2026-03-08 19:15 | pro league | St. Truiden vs Cercle Brugge
-2026-03-08 14:00 | scottish cup | Rangers vs Celtic
-2026-03-08 20:30 | scottish cup | ST Mirren vs Partick
-2026-03-08 12:30 | serie a italia | Lecce vs Cremonese
-2026-03-08 15:00 | serie a italia | Bologna vs Hellas Verona
-2026-03-08 15:00 | serie a italia | Fiorentina vs Parma
-2026-03-08 18:00 | serie a italia | Genoa vs AS Roma
-2026-03-08 20:45 | serie a italia | AC Milan vs Inter
-2026-03-08 15:00 | serie b | Catanzaro vs Empoli
-2026-03-08 15:00 | serie b | Frosinone vs Sampdoria
-2026-03-08 15:00 | serie b | Mantova vs Juve Stabia
-2026-03-08 17:15 | serie b | Carrarese vs Palermo
-2026-03-08 19:30 | serie b | Pescara vs Bari
-2026-03-08 14:00 | super league switzerland | FC ST. Gallen vs FC Basel 1893
-2026-03-08 16:30 | super league switzerland | BSC Young Boys vs FC Thun
-2026-03-08 16:30 | super league switzerland | Grasshoppers vs Lausanne
-2026-03-08 11:30 | super lig | Gaziantep FK vs Fatih Karagümrük
-2026-03-08 11:30 | super lig | Rizespor vs Antalyaspor
-2026-03-08 14:00 | super lig | Konyaspor vs Kasımpaşa
-2026-03-08 18:00 | super lig | Fenerbahçe vs Samsunspor
-2026-03-08 13:30 | superligaen | MTK Budapest vs Diosgyori VTK
-2026-03-08 17:45 | superligaen | Kazincbarcikai vs Debreceni VSC
-2026-03-08 18:30 | superligaen | Nyiregyhaza vs Ferencvarosi TC
+2026-03-10 20:45 | championship | Leicester vs Bristol City
+2026-03-10 20:45 | championship | Millwall vs Derby
+2026-03-10 20:45 | championship | Portsmouth vs Swansea
+2026-03-10 20:45 | championship | Sheffield Wednesday vs Watford
+2026-03-10 20:45 | championship | Wrexham vs Hull City
+2026-03-10 21:00 | championship | Stoke City vs Ipswich
+2026-03-10 01:30 | liga pro ecuador | Orense SC vs Manta FC
+2026-03-10 23:45 | liga profesional argentina | Independiente vs Union Santa Fe
+2026-03-10 23:45 | liga profesional argentina | Tigre vs Velez Sarsfield
+2026-03-10 00:00 | primera a colombia | Llaneros vs Jaguares
+2026-03-10 00:20 | primera a colombia | Millonarios vs Cucuta
+2026-03-10 02:30 | primera a colombia | Deportivo Pasto vs America de Cali
+2026-03-10 00:30 | primera división paraguay | Deportivo Recoleta vs Sportivo Ameliano
+2026-03-10 18:45 | uefa champions league | Galatasaray vs Liverpool
+2026-03-10 21:00 | uefa champions league | Atalanta vs Bayern München
+2026-03-10 21:00 | uefa champions league | Atletico Madrid vs Tottenham
+2026-03-10 21:00 | uefa champions league | Newcastle vs Barcelona

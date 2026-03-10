@@ -1,6 +1,1 @@
 # date | league | home vs away | reason
-2026-02-19 | liga profesional argentina | San Lorenzo vs Estudiantes de Rio Cuarto | FIXTURE_NOT_FOUND_ROBUST
-2026-02-19 | liga profesional argentina | Independ. Rivadavia vs Independiente | FIXTURE_NOT_FOUND_ROBUST
-2026-03-05 | liga profesional argentina | Gimnasia M. vs Defensa Y Justicia | FIXTURE_NOT_FOUND_ROBUST
-2026-03-05 | primera a colombia | Deportes Tolima vs Santa Fe | FIXTURE_NOT_FOUND_ROBUST
-2026-03-05 | saudi arabia | Al Kholood vs Al-Qadisiyah FC | FIXTURE_NOT_FOUND_ROBUST
