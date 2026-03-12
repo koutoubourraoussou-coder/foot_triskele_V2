@@ -135,8 +135,8 @@ PREFER_3LEGS_DELTA = 0.03
 # ----------------------------
 # ✅ TOP-K UNIFORM DRAW (cas commun SYSTEM + RANDOM)
 # ----------------------------
-TOPK_SIZE = 5  # réglable : 5,6,7,8,9,10...
-TOPK_UNIFORM_DRAW = True  # tu veux uniforme
+TOPK_SIZE = 3  # réglable : 5,6,7,8,9,10...
+TOPK_UNIFORM_DRAW = False  # tu veux uniforme
 
 # ====================================================
 # CONFIG PILOTABLE PAR OPTIMISEUR
