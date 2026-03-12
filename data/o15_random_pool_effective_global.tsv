@@ -113,3 +113,10 @@ TSV: 2026-03-11	1503919026	O15_FT	21:00	uefa champions league	Real Madrid	Manche
 TSV: 2026-03-11	1526165365	O15_FT	21:00	uefa champions league	Bodo/Glimt	Sporting CP	1.2	1528325	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-03-11	3140599723	O15_FT	21:00	uefa champions league	Paris Saint Germain	Chelsea	1.18	1528320	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_EFFECTIVE | 2026-03-12 02:43:02 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-12	4024322825	O15_FT	20:00	saudi arabia	Al Najma	Damac	1.33	1436140	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-12	2717520725	O15_FT	20:00	saudi arabia	NEOM	Al Taawon	1.28	1436145	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-12	1612190162	O15_FT	20:00	saudi arabia	Al-Hazm	Al Kholood	1.25	1436139	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

@@ -139,3 +139,28 @@ TSV: 2026-03-11	3739401124	O15_FT	21:30	liga profesional argentina	Banfield	Gimn
 TSV: 2026-03-11	3658131665	O15_FT	23:00	serie a brazil	Atletico-MG	Internacional	1.3	1492151	O15_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-03-11	3967964970	O15_FT	23:45	liga profesional argentina	Boca Juniors	San Lorenzo	1.62	1491956	O15_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_BASE | 2026-03-12 02:43:02 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-12	2703734464	O15_FT	01:30	serie a brazil	Corinthians	Coritiba	1.38	1492153	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	2377197462	O15_FT	01:30	serie a brazil	Flamengo	Cruzeiro	1.33	1492154	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	976125772	O15_FT	02:00	liga profesional argentina	Atletico Tucuman	Aldosivi	1.48	1491954	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	3735989975	O15_FT	02:00	liga profesional argentina	Independ. Rivadavia	Barracas Central	1.45	1491963	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	1098254266	O15_FT	18:45	uefa europa league	Bologna	AS Roma	1.45	1528335	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	2632677719	O15_FT	18:45	uefa europa league	Panathinaikos	Real Betis	1.4	1528337	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	1690823700	O15_FT	18:45	uefa europa league	Lille	Aston Villa	1.33	1528334	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	160402603	O15_FT	18:45	uefa europa league	VfB Stuttgart	FC Porto	1.28	1528336	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	4024322825	O15_FT	20:00	saudi arabia	Al Najma	Damac	1.33	1436140	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	2717520725	O15_FT	20:00	saudi arabia	NEOM	Al Taawon	1.28	1436145	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	1612190162	O15_FT	20:00	saudi arabia	Al-Hazm	Al Kholood	1.25	1436139	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	968536175	O15_FT	21:00	liga profesional argentina	Deportivo Riestra	Gimnasia M.	1.8	1491958	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	1647472686	O15_FT	21:00	liga profesional argentina	Defensa Y Justicia	Central Cordoba de Santiago	1.57	1491957	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	1764706808	O15_FT	21:00	uefa europa league	Celta Vigo	Lyon	1.33	1528338	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	3990700356	O15_FT	21:00	uefa europa league	Ferencvarosi TC	SC Braga	1.33	1528340	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	1019303232	O15_FT	21:00	uefa europa league	Genk	SC Freiburg	1.3	1528341	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	3178927669	O15_FT	21:00	uefa europa league	Nottingham Forest	FC Midtjylland	1.22	1528339	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	3453051855	O15_FT	23:00	serie a brazil	remo	Fluminense	1.3	1492157	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	2538414070	O15_FT	23:15	liga profesional argentina	Talleres Cordoba	Instituto Cordoba	1.62	1491966	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	2672342018	O15_FT	23:15	liga profesional argentina	Estudiantes de Rio Cuarto	Belgrano Cordoba	1.57	1491960	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	324808270	O15_FT	23:30	serie a brazil	Vasco DA Gama	Palmeiras	1.28	1492159	O15_RANDOM_POOL_BASE	predictions.tsv
+
