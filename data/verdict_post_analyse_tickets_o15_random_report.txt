@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-03-10
+Date run       : 2026-03-12
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (95 ids)
+Whitelist      : ON (96 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 3
+Ignorés (date>=today)    : 0
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -791,10 +791,26 @@ Ignorés (date>=today)    : 3
    ✅ Leg 2) 21:00 | laliga | Espanyol vs Oviedo | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.36
    ❌ Leg 3) 21:15 | liga portugal | Tondela vs Rio Ave | Over 1.5 (FT) | [EXPLOSION] | odd=1.35
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Mardi 2026-03-10 02:30→22:35 | code=A2 | odd=2.69
+   id=2026-03-10_0230_1fcfc824d4_O15R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 02:30 | primera a colombia | Deportivo Pasto vs America de Cali | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.53
+   ✅ Leg 2) 20:45 | championship | Leicester vs Bristol City | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.3
+   ❌ Leg 3) 20:45 | championship | Millwall vs Derby | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.35
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Mercredi 2026-03-11 02:30→22:35 | code=A2 | odd=2.26
+   id=2026-03-11_0230_884d2a1e5a_O15R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 02:30 | primera a colombia | Junior vs Atletico Nacional | Over 1.5 (FT) | [FORT PLUS] | odd=1.33
+   ❌ Leg 2) 20:45 | championship | Birmingham vs QPR | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
+   ✅ Leg 3) 20:45 | championship | Norwich vs Sheffield Utd | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
+
 ====================================================================
-TOTAL tickets : 94
+TOTAL tickets : 96
 ✅ WIN     : 39
-❌ LOSS    : 53
+❌ LOSS    : 55
 ⏳ PENDING : 2
 ====================================================================
 

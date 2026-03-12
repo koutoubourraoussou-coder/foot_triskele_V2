@@ -16676,3 +16676,234 @@ TSV: 97998697	2026-03-09	primera división paraguay	Sportivo Trinidense	Nacional
 TSV: 97998697	2026-03-09	primera división paraguay	Sportivo Trinidense	Nacional Asuncion	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1505012	1-1	1-1	22:30
 TSV: 97998697	2026-03-09	primera división paraguay	Sportivo Trinidense	Nacional Asuncion	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505012	1-1	1-1	22:30
 TSV: 97998697	2026-03-09	primera división paraguay	Sportivo Trinidense	Nacional Asuncion	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505012	1-1	1-1	22:30
+TSV: 2915370153	2026-03-10	primera a colombia	Bucaramanga	Deportivo Pereira	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1506018	3-0	1-0	00:20
+TSV: 2915370153	2026-03-10	primera a colombia	Bucaramanga	Deportivo Pereira	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1506018	3-0	1-0	00:20
+TSV: 2915370153	2026-03-10	primera a colombia	Bucaramanga	Deportivo Pereira	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1506018	3-0	1-0	00:20
+TSV: 2915370153	2026-03-10	primera a colombia	Bucaramanga	Deportivo Pereira	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506018	3-0	1-0	00:20
+TSV: 2915370153	2026-03-10	primera a colombia	Bucaramanga	Deportivo Pereira	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1506018	3-0	1-0	00:20
+TSV: 2915370153	2026-03-10	primera a colombia	Bucaramanga	Deportivo Pereira	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1506018	3-0	1-0	00:20
+TSV: 2915370153	2026-03-10	primera a colombia	Bucaramanga	Deportivo Pereira	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506018	3-0	1-0	00:20
+TSV: 3615802641	2026-03-10	liga pro ecuador	Orense SC	Manta FC	HT05	HT+0.5	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1519278	1-1	0-0	01:30
+TSV: 3615802641	2026-03-10	liga pro ecuador	Orense SC	Manta FC	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1519278	1-1	0-0	01:30
+TSV: 3615802641	2026-03-10	liga pro ecuador	Orense SC	Manta FC	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1519278	1-1	0-0	01:30
+TSV: 3615802641	2026-03-10	liga pro ecuador	Orense SC	Manta FC	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1519278	1-1	0-0	01:30
+TSV: 3615802641	2026-03-10	liga pro ecuador	Orense SC	Manta FC	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1519278	1-1	0-0	01:30
+TSV: 3615802641	2026-03-10	liga pro ecuador	Orense SC	Manta FC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1519278	1-1	0-0	01:30
+TSV: 3615802641	2026-03-10	liga pro ecuador	Orense SC	Manta FC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1519278	1-1	0-0	01:30
+TSV: 3127553174	2026-03-10	primera a colombia	Deportivo Pasto	America de Cali	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1506021	2-0	2-0	02:30
+TSV: 3127553174	2026-03-10	primera a colombia	Deportivo Pasto	America de Cali	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1506021	2-0	2-0	02:30
+TSV: 3127553174	2026-03-10	primera a colombia	Deportivo Pasto	America de Cali	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1506021	2-0	2-0	02:30
+TSV: 3127553174	2026-03-10	primera a colombia	Deportivo Pasto	America de Cali	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	GOOD_NO_BET	FT	1506021	2-0	2-0	02:30
+TSV: 3127553174	2026-03-10	primera a colombia	Deportivo Pasto	America de Cali	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1506021	2-0	2-0	02:30
+TSV: 3127553174	2026-03-10	primera a colombia	Deportivo Pasto	America de Cali	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1506021	2-0	2-0	02:30
+TSV: 3127553174	2026-03-10	primera a colombia	Deportivo Pasto	America de Cali	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506021	2-0	2-0	02:30
+TSV: 3442222592	2026-03-10	uefa champions league	Galatasaray	Liverpool	HT05	HT+0.5	5.0	FORT PLUS	1	WIN	FT	1528321	1-0	1-0	18:45
+TSV: 3442222592	2026-03-10	uefa champions league	Galatasaray	Liverpool	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1528321	1-0	1-0	18:45
+TSV: 3442222592	2026-03-10	uefa champions league	Galatasaray	Liverpool	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1528321	1-0	1-0	18:45
+TSV: 3442222592	2026-03-10	uefa champions league	Galatasaray	Liverpool	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	GOOD_NO_BET	FT	1528321	1-0	1-0	18:45
+TSV: 3442222592	2026-03-10	uefa champions league	Galatasaray	Liverpool	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1528321	1-0	1-0	18:45
+TSV: 3442222592	2026-03-10	uefa champions league	Galatasaray	Liverpool	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1528321	1-0	1-0	18:45
+TSV: 3442222592	2026-03-10	uefa champions league	Galatasaray	Liverpool	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1528321	1-0	1-0	18:45
+TSV: 489755888	2026-03-10	championship	Leicester	Bristol City	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386987	2-0	2-0	20:45
+TSV: 489755888	2026-03-10	championship	Leicester	Bristol City	HT1X_HOME	HT 1X Home	4.0	FORT	0	BAD_NO_BET	FT	1386987	2-0	2-0	20:45
+TSV: 489755888	2026-03-10	championship	Leicester	Bristol City	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1386987	2-0	2-0	20:45
+TSV: 489755888	2026-03-10	championship	Leicester	Bristol City	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1386987	2-0	2-0	20:45
+TSV: 489755888	2026-03-10	championship	Leicester	Bristol City	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386987	2-0	2-0	20:45
+TSV: 489755888	2026-03-10	championship	Leicester	Bristol City	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1386987	2-0	2-0	20:45
+TSV: 489755888	2026-03-10	championship	Leicester	Bristol City	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1386987	2-0	2-0	20:45
+TSV: 2164348761	2026-03-10	championship	Millwall	Derby	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386988	1-0	1-0	20:45
+TSV: 2164348761	2026-03-10	championship	Millwall	Derby	HT1X_HOME	HT 1X Home	4.0	FORT	0	BAD_NO_BET	FT	1386988	1-0	1-0	20:45
+TSV: 2164348761	2026-03-10	championship	Millwall	Derby	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	WIN	FT	1386988	1-0	1-0	20:45
+TSV: 2164348761	2026-03-10	championship	Millwall	Derby	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1386988	1-0	1-0	20:45
+TSV: 2164348761	2026-03-10	championship	Millwall	Derby	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1386988	1-0	1-0	20:45
+TSV: 2164348761	2026-03-10	championship	Millwall	Derby	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1386988	1-0	1-0	20:45
+TSV: 2164348761	2026-03-10	championship	Millwall	Derby	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1386988	1-0	1-0	20:45
+TSV: 3129047739	2026-03-10	championship	Portsmouth	Swansea	HT05	HT+0.5	2.0	MOYEN	0	BAD_NO_BET	FT	1386983	1-2	0-2	20:45
+TSV: 3129047739	2026-03-10	championship	Portsmouth	Swansea	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	LOSS	FT	1386983	1-2	0-2	20:45
+TSV: 3129047739	2026-03-10	championship	Portsmouth	Swansea	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1386983	1-2	0-2	20:45
+TSV: 3129047739	2026-03-10	championship	Portsmouth	Swansea	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386983	1-2	0-2	20:45
+TSV: 3129047739	2026-03-10	championship	Portsmouth	Swansea	O15_FT	Over 1.5 (FT)	4.0	FORT	0	BAD_NO_BET	FT	1386983	1-2	0-2	20:45
+TSV: 3129047739	2026-03-10	championship	Portsmouth	Swansea	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1386983	1-2	0-2	20:45
+TSV: 3129047739	2026-03-10	championship	Portsmouth	Swansea	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1386983	1-2	0-2	20:45
+TSV: 3875393646	2026-03-10	championship	Sheffield Wednesday	Watford	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1386990	1-1	0-0	20:45
+TSV: 3875393646	2026-03-10	championship	Sheffield Wednesday	Watford	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1386990	1-1	0-0	20:45
+TSV: 3875393646	2026-03-10	championship	Sheffield Wednesday	Watford	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386990	1-1	0-0	20:45
+TSV: 3875393646	2026-03-10	championship	Sheffield Wednesday	Watford	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1386990	1-1	0-0	20:45
+TSV: 3875393646	2026-03-10	championship	Sheffield Wednesday	Watford	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1386990	1-1	0-0	20:45
+TSV: 3875393646	2026-03-10	championship	Sheffield Wednesday	Watford	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1386990	1-1	0-0	20:45
+TSV: 3875393646	2026-03-10	championship	Sheffield Wednesday	Watford	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1386990	1-1	0-0	20:45
+TSV: 4122779485	2026-03-10	championship	Wrexham	Hull City	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1386986	1-2	0-1	20:45
+TSV: 4122779485	2026-03-10	championship	Wrexham	Hull City	HT1X_HOME	HT 1X Home	8.0	MEGA EXPLOSION	1	LOSS	FT	1386986	1-2	0-1	20:45
+TSV: 4122779485	2026-03-10	championship	Wrexham	Hull City	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386986	1-2	0-1	20:45
+TSV: 4122779485	2026-03-10	championship	Wrexham	Hull City	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1386986	1-2	0-1	20:45
+TSV: 4122779485	2026-03-10	championship	Wrexham	Hull City	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1386986	1-2	0-1	20:45
+TSV: 4122779485	2026-03-10	championship	Wrexham	Hull City	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1386986	1-2	0-1	20:45
+TSV: 4122779485	2026-03-10	championship	Wrexham	Hull City	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1386986	1-2	0-1	20:45
+TSV: 3159035048	2026-03-10	championship	Stoke City	Ipswich	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1386989	3-3	2-0	21:00
+TSV: 3159035048	2026-03-10	championship	Stoke City	Ipswich	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386989	3-3	2-0	21:00
+TSV: 3159035048	2026-03-10	championship	Stoke City	Ipswich	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1386989	3-3	2-0	21:00
+TSV: 3159035048	2026-03-10	championship	Stoke City	Ipswich	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1386989	3-3	2-0	21:00
+TSV: 3159035048	2026-03-10	championship	Stoke City	Ipswich	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386989	3-3	2-0	21:00
+TSV: 3159035048	2026-03-10	championship	Stoke City	Ipswich	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1386989	3-3	2-0	21:00
+TSV: 3159035048	2026-03-10	championship	Stoke City	Ipswich	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1386989	3-3	2-0	21:00
+TSV: 110169433	2026-03-10	uefa champions league	Atalanta	Bayern München	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1528324	1-6	0-3	21:00
+TSV: 110169433	2026-03-10	uefa champions league	Atalanta	Bayern München	HT1X_HOME	HT 1X Home	0.0	KO	0	GOOD_NO_BET	FT	1528324	1-6	0-3	21:00
+TSV: 110169433	2026-03-10	uefa champions league	Atalanta	Bayern München	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1528324	1-6	0-3	21:00
+TSV: 110169433	2026-03-10	uefa champions league	Atalanta	Bayern München	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1528324	1-6	0-3	21:00
+TSV: 110169433	2026-03-10	uefa champions league	Atalanta	Bayern München	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1528324	1-6	0-3	21:00
+TSV: 110169433	2026-03-10	uefa champions league	Atalanta	Bayern München	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1528324	1-6	0-3	21:00
+TSV: 110169433	2026-03-10	uefa champions league	Atalanta	Bayern München	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1528324	1-6	0-3	21:00
+TSV: 1360980729	2026-03-10	uefa champions league	Atletico Madrid	Tottenham	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1528323	5-2	4-1	21:00
+TSV: 1360980729	2026-03-10	uefa champions league	Atletico Madrid	Tottenham	HT1X_HOME	HT 1X Home	8.0	MEGA EXPLOSION	1	WIN	FT	1528323	5-2	4-1	21:00
+TSV: 1360980729	2026-03-10	uefa champions league	Atletico Madrid	Tottenham	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1528323	5-2	4-1	21:00
+TSV: 1360980729	2026-03-10	uefa champions league	Atletico Madrid	Tottenham	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1528323	5-2	4-1	21:00
+TSV: 1360980729	2026-03-10	uefa champions league	Atletico Madrid	Tottenham	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1528323	5-2	4-1	21:00
+TSV: 1360980729	2026-03-10	uefa champions league	Atletico Madrid	Tottenham	TEAM1_WIN_FT	Team1 wins (FT)	6.0	TRÈS FORT	1	WIN	FT	1528323	5-2	4-1	21:00
+TSV: 1360980729	2026-03-10	uefa champions league	Atletico Madrid	Tottenham	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1528323	5-2	4-1	21:00
+TSV: 1216773788	2026-03-10	uefa champions league	Newcastle	Barcelona	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1528319	1-1	0-0	21:00
+TSV: 1216773788	2026-03-10	uefa champions league	Newcastle	Barcelona	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1528319	1-1	0-0	21:00
+TSV: 1216773788	2026-03-10	uefa champions league	Newcastle	Barcelona	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1528319	1-1	0-0	21:00
+TSV: 1216773788	2026-03-10	uefa champions league	Newcastle	Barcelona	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1528319	1-1	0-0	21:00
+TSV: 1216773788	2026-03-10	uefa champions league	Newcastle	Barcelona	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1528319	1-1	0-0	21:00
+TSV: 1216773788	2026-03-10	uefa champions league	Newcastle	Barcelona	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1528319	1-1	0-0	21:00
+TSV: 1216773788	2026-03-10	uefa champions league	Newcastle	Barcelona	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1528319	1-1	0-0	21:00
+TSV: 2573546795	2026-03-10	liga profesional argentina	Independiente	Union Santa Fe	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1491962	4-4	1-3	23:45
+TSV: 2573546795	2026-03-10	liga profesional argentina	Independiente	Union Santa Fe	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	LOSS	FT	1491962	4-4	1-3	23:45
+TSV: 2573546795	2026-03-10	liga profesional argentina	Independiente	Union Santa Fe	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1491962	4-4	1-3	23:45
+TSV: 2573546795	2026-03-10	liga profesional argentina	Independiente	Union Santa Fe	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1491962	4-4	1-3	23:45
+TSV: 2573546795	2026-03-10	liga profesional argentina	Independiente	Union Santa Fe	O15_FT	Over 1.5 (FT)	0.0	KO	0	BAD_NO_BET	FT	1491962	4-4	1-3	23:45
+TSV: 2573546795	2026-03-10	liga profesional argentina	Independiente	Union Santa Fe	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1491962	4-4	1-3	23:45
+TSV: 2573546795	2026-03-10	liga profesional argentina	Independiente	Union Santa Fe	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491962	4-4	1-3	23:45
+TSV: 3600094654	2026-03-10	liga profesional argentina	Tigre	Velez Sarsfield	HT05	HT+0.5	0.0	KO	0	BAD_NO_BET	FT	1491967	1-1	1-0	23:45
+TSV: 3600094654	2026-03-10	liga profesional argentina	Tigre	Velez Sarsfield	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1491967	1-1	1-0	23:45
+TSV: 3600094654	2026-03-10	liga profesional argentina	Tigre	Velez Sarsfield	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1491967	1-1	1-0	23:45
+TSV: 3600094654	2026-03-10	liga profesional argentina	Tigre	Velez Sarsfield	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1491967	1-1	1-0	23:45
+TSV: 3600094654	2026-03-10	liga profesional argentina	Tigre	Velez Sarsfield	O15_FT	Over 1.5 (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1491967	1-1	1-0	23:45
+TSV: 3600094654	2026-03-10	liga profesional argentina	Tigre	Velez Sarsfield	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491967	1-1	1-0	23:45
+TSV: 3600094654	2026-03-10	liga profesional argentina	Tigre	Velez Sarsfield	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491967	1-1	1-0	23:45
+TSV: 3103981140	2026-03-11	serie a brazil	Mirassol	Santos	HT05	HT+0.5	7.0	EXPLOSION	1	WIN	FT	1492156	2-2	1-0	01:30
+TSV: 3103981140	2026-03-11	serie a brazil	Mirassol	Santos	HT1X_HOME	HT 1X Home	4.0	FORT	0	BAD_NO_BET	FT	1492156	2-2	1-0	01:30
+TSV: 3103981140	2026-03-11	serie a brazil	Mirassol	Santos	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1492156	2-2	1-0	01:30
+TSV: 3103981140	2026-03-11	serie a brazil	Mirassol	Santos	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492156	2-2	1-0	01:30
+TSV: 3103981140	2026-03-11	serie a brazil	Mirassol	Santos	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1492156	2-2	1-0	01:30
+TSV: 3103981140	2026-03-11	serie a brazil	Mirassol	Santos	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1492156	2-2	1-0	01:30
+TSV: 3103981140	2026-03-11	serie a brazil	Mirassol	Santos	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1492156	2-2	1-0	01:30
+TSV: 499055290	2026-03-11	liga profesional argentina	Newells Old Boys	Platense	HT05	HT+0.5	7.0	EXPLOSION	1	WIN	FT	1491964	1-1	1-0	02:00
+TSV: 499055290	2026-03-11	liga profesional argentina	Newells Old Boys	Platense	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1491964	1-1	1-0	02:00
+TSV: 499055290	2026-03-11	liga profesional argentina	Newells Old Boys	Platense	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1491964	1-1	1-0	02:00
+TSV: 499055290	2026-03-11	liga profesional argentina	Newells Old Boys	Platense	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1491964	1-1	1-0	02:00
+TSV: 499055290	2026-03-11	liga profesional argentina	Newells Old Boys	Platense	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1491964	1-1	1-0	02:00
+TSV: 499055290	2026-03-11	liga profesional argentina	Newells Old Boys	Platense	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491964	1-1	1-0	02:00
+TSV: 499055290	2026-03-11	liga profesional argentina	Newells Old Boys	Platense	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491964	1-1	1-0	02:00
+TSV: 2447657675	2026-03-11	liga profesional argentina	Sarmiento Junin	Racing Club	HT05	HT+0.5	0.0	KO	0	GOOD_NO_BET	FT	1491965	0-0	0-0	02:00
+TSV: 2447657675	2026-03-11	liga profesional argentina	Sarmiento Junin	Racing Club	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1491965	0-0	0-0	02:00
+TSV: 2447657675	2026-03-11	liga profesional argentina	Sarmiento Junin	Racing Club	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491965	0-0	0-0	02:00
+TSV: 2447657675	2026-03-11	liga profesional argentina	Sarmiento Junin	Racing Club	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1491965	0-0	0-0	02:00
+TSV: 2447657675	2026-03-11	liga profesional argentina	Sarmiento Junin	Racing Club	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1491965	0-0	0-0	02:00
+TSV: 2447657675	2026-03-11	liga profesional argentina	Sarmiento Junin	Racing Club	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491965	0-0	0-0	02:00
+TSV: 2447657675	2026-03-11	liga profesional argentina	Sarmiento Junin	Racing Club	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491965	0-0	0-0	02:00
+TSV: 2400755155	2026-03-11	primera a colombia	Junior	Atletico Nacional	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1505956	0-4	0-1	02:30
+TSV: 2400755155	2026-03-11	primera a colombia	Junior	Atletico Nacional	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1505956	0-4	0-1	02:30
+TSV: 2400755155	2026-03-11	primera a colombia	Junior	Atletico Nacional	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	GOOD_NO_BET	FT	1505956	0-4	0-1	02:30
+TSV: 2400755155	2026-03-11	primera a colombia	Junior	Atletico Nacional	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1505956	0-4	0-1	02:30
+TSV: 2400755155	2026-03-11	primera a colombia	Junior	Atletico Nacional	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1505956	0-4	0-1	02:30
+TSV: 2400755155	2026-03-11	primera a colombia	Junior	Atletico Nacional	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1505956	0-4	0-1	02:30
+TSV: 2400755155	2026-03-11	primera a colombia	Junior	Atletico Nacional	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1505956	0-4	0-1	02:30
+TSV: 2524479980	2026-03-11	uefa champions league	Bayer Leverkusen	Arsenal	HT05	HT+0.5	5.0	FORT PLUS	1	LOSS	FT	1528322	1-1	0-0	18:45
+TSV: 2524479980	2026-03-11	uefa champions league	Bayer Leverkusen	Arsenal	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1528322	1-1	0-0	18:45
+TSV: 2524479980	2026-03-11	uefa champions league	Bayer Leverkusen	Arsenal	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1528322	1-1	0-0	18:45
+TSV: 2524479980	2026-03-11	uefa champions league	Bayer Leverkusen	Arsenal	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1528322	1-1	0-0	18:45
+TSV: 2524479980	2026-03-11	uefa champions league	Bayer Leverkusen	Arsenal	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1528322	1-1	0-0	18:45
+TSV: 2524479980	2026-03-11	uefa champions league	Bayer Leverkusen	Arsenal	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1528322	1-1	0-0	18:45
+TSV: 2524479980	2026-03-11	uefa champions league	Bayer Leverkusen	Arsenal	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1528322	1-1	0-0	18:45
+TSV: 4202794187	2026-03-11	championship	Birmingham	QPR	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386985	1-0	1-0	20:45
+TSV: 4202794187	2026-03-11	championship	Birmingham	QPR	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1386985	1-0	1-0	20:45
+TSV: 4202794187	2026-03-11	championship	Birmingham	QPR	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386985	1-0	1-0	20:45
+TSV: 4202794187	2026-03-11	championship	Birmingham	QPR	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1386985	1-0	1-0	20:45
+TSV: 4202794187	2026-03-11	championship	Birmingham	QPR	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1386985	1-0	1-0	20:45
+TSV: 4202794187	2026-03-11	championship	Birmingham	QPR	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1386985	1-0	1-0	20:45
+TSV: 4202794187	2026-03-11	championship	Birmingham	QPR	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1386985	1-0	1-0	20:45
+TSV: 2602423683	2026-03-11	championship	Middlesbrough	Charlton	HT05	HT+0.5	4.0	FORT	0	GOOD_NO_BET	FT	1386992	0-1	0-0	20:45
+TSV: 2602423683	2026-03-11	championship	Middlesbrough	Charlton	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1386992	0-1	0-0	20:45
+TSV: 2602423683	2026-03-11	championship	Middlesbrough	Charlton	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1386992	0-1	0-0	20:45
+TSV: 2602423683	2026-03-11	championship	Middlesbrough	Charlton	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1386992	0-1	0-0	20:45
+TSV: 2602423683	2026-03-11	championship	Middlesbrough	Charlton	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1386992	0-1	0-0	20:45
+TSV: 2602423683	2026-03-11	championship	Middlesbrough	Charlton	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1386992	0-1	0-0	20:45
+TSV: 2602423683	2026-03-11	championship	Middlesbrough	Charlton	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1386992	0-1	0-0	20:45
+TSV: 3604351297	2026-03-11	championship	Norwich	Sheffield Utd	HT05	HT+0.5	5.0	FORT PLUS	1	WIN	FT	1386984	2-1	0-1	20:45
+TSV: 3604351297	2026-03-11	championship	Norwich	Sheffield Utd	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	LOSS	FT	1386984	2-1	0-1	20:45
+TSV: 3604351297	2026-03-11	championship	Norwich	Sheffield Utd	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386984	2-1	0-1	20:45
+TSV: 3604351297	2026-03-11	championship	Norwich	Sheffield Utd	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1386984	2-1	0-1	20:45
+TSV: 3604351297	2026-03-11	championship	Norwich	Sheffield Utd	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1386984	2-1	0-1	20:45
+TSV: 3604351297	2026-03-11	championship	Norwich	Sheffield Utd	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1386984	2-1	0-1	20:45
+TSV: 3604351297	2026-03-11	championship	Norwich	Sheffield Utd	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1386984	2-1	0-1	20:45
+TSV: 1561413369	2026-03-11	championship	Oxford United	Blackburn	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1386993	1-0	1-0	20:45
+TSV: 1561413369	2026-03-11	championship	Oxford United	Blackburn	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386993	1-0	1-0	20:45
+TSV: 1561413369	2026-03-11	championship	Oxford United	Blackburn	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386993	1-0	1-0	20:45
+TSV: 1561413369	2026-03-11	championship	Oxford United	Blackburn	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1386993	1-0	1-0	20:45
+TSV: 1561413369	2026-03-11	championship	Oxford United	Blackburn	O15_FT	Over 1.5 (FT)	4.0	FORT	0	GOOD_NO_BET	FT	1386993	1-0	1-0	20:45
+TSV: 1561413369	2026-03-11	championship	Oxford United	Blackburn	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1386993	1-0	1-0	20:45
+TSV: 1561413369	2026-03-11	championship	Oxford United	Blackburn	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1386993	1-0	1-0	20:45
+TSV: 653412915	2026-03-11	championship	West Brom	Southampton	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386991	1-1	1-0	20:45
+TSV: 653412915	2026-03-11	championship	West Brom	Southampton	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386991	1-1	1-0	20:45
+TSV: 653412915	2026-03-11	championship	West Brom	Southampton	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1386991	1-1	1-0	20:45
+TSV: 653412915	2026-03-11	championship	West Brom	Southampton	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1386991	1-1	1-0	20:45
+TSV: 653412915	2026-03-11	championship	West Brom	Southampton	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1386991	1-1	1-0	20:45
+TSV: 653412915	2026-03-11	championship	West Brom	Southampton	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1386991	1-1	1-0	20:45
+TSV: 653412915	2026-03-11	championship	West Brom	Southampton	TEAM2_WIN_FT	Team2 wins (FT)	4.0	FORT	0	GOOD_NO_BET	FT	1386991	1-1	1-0	20:45
+TSV: 2257635152	2026-03-11	championship	Coventry	Preston	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386994	3-0	2-0	21:00
+TSV: 2257635152	2026-03-11	championship	Coventry	Preston	HT1X_HOME	HT 1X Home	4.0	FORT	0	BAD_NO_BET	FT	1386994	3-0	2-0	21:00
+TSV: 2257635152	2026-03-11	championship	Coventry	Preston	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1386994	3-0	2-0	21:00
+TSV: 2257635152	2026-03-11	championship	Coventry	Preston	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1386994	3-0	2-0	21:00
+TSV: 2257635152	2026-03-11	championship	Coventry	Preston	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1386994	3-0	2-0	21:00
+TSV: 2257635152	2026-03-11	championship	Coventry	Preston	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386994	3-0	2-0	21:00
+TSV: 2257635152	2026-03-11	championship	Coventry	Preston	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1386994	3-0	2-0	21:00
+TSV: 1526165365	2026-03-11	uefa champions league	Bodo/Glimt	Sporting CP	HT05	HT+0.5	5.0	FORT PLUS	1	WIN	FT	1528325	3-0	2-0	21:00
+TSV: 1526165365	2026-03-11	uefa champions league	Bodo/Glimt	Sporting CP	HT1X_HOME	HT 1X Home	4.0	FORT	0	BAD_NO_BET	FT	1528325	3-0	2-0	21:00
+TSV: 1526165365	2026-03-11	uefa champions league	Bodo/Glimt	Sporting CP	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1528325	3-0	2-0	21:00
+TSV: 1526165365	2026-03-11	uefa champions league	Bodo/Glimt	Sporting CP	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	GOOD_NO_BET	FT	1528325	3-0	2-0	21:00
+TSV: 1526165365	2026-03-11	uefa champions league	Bodo/Glimt	Sporting CP	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1528325	3-0	2-0	21:00
+TSV: 1526165365	2026-03-11	uefa champions league	Bodo/Glimt	Sporting CP	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1528325	3-0	2-0	21:00
+TSV: 1526165365	2026-03-11	uefa champions league	Bodo/Glimt	Sporting CP	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1528325	3-0	2-0	21:00
+TSV: 3140599723	2026-03-11	uefa champions league	Paris Saint Germain	Chelsea	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1528320	5-2	2-1	21:00
+TSV: 3140599723	2026-03-11	uefa champions league	Paris Saint Germain	Chelsea	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1528320	5-2	2-1	21:00
+TSV: 3140599723	2026-03-11	uefa champions league	Paris Saint Germain	Chelsea	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	WIN	FT	1528320	5-2	2-1	21:00
+TSV: 3140599723	2026-03-11	uefa champions league	Paris Saint Germain	Chelsea	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1528320	5-2	2-1	21:00
+TSV: 3140599723	2026-03-11	uefa champions league	Paris Saint Germain	Chelsea	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1528320	5-2	2-1	21:00
+TSV: 3140599723	2026-03-11	uefa champions league	Paris Saint Germain	Chelsea	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1528320	5-2	2-1	21:00
+TSV: 3140599723	2026-03-11	uefa champions league	Paris Saint Germain	Chelsea	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1528320	5-2	2-1	21:00
+TSV: 1503919026	2026-03-11	uefa champions league	Real Madrid	Manchester City	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1528318	3-0	3-0	21:00
+TSV: 1503919026	2026-03-11	uefa champions league	Real Madrid	Manchester City	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1528318	3-0	3-0	21:00
+TSV: 1503919026	2026-03-11	uefa champions league	Real Madrid	Manchester City	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1528318	3-0	3-0	21:00
+TSV: 1503919026	2026-03-11	uefa champions league	Real Madrid	Manchester City	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	LOSS	FT	1528318	3-0	3-0	21:00
+TSV: 1503919026	2026-03-11	uefa champions league	Real Madrid	Manchester City	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1528318	3-0	3-0	21:00
+TSV: 1503919026	2026-03-11	uefa champions league	Real Madrid	Manchester City	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1528318	3-0	3-0	21:00
+TSV: 1503919026	2026-03-11	uefa champions league	Real Madrid	Manchester City	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1528318	3-0	3-0	21:00
+TSV: 3001494381	2026-03-11	liga profesional argentina	Argentinos JRS	Rosario Central	HT05	HT+0.5	4.0	FORT	0	GOOD_NO_BET	FT	1491953	0-0	0-0	21:30
+TSV: 3001494381	2026-03-11	liga profesional argentina	Argentinos JRS	Rosario Central	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1491953	0-0	0-0	21:30
+TSV: 3001494381	2026-03-11	liga profesional argentina	Argentinos JRS	Rosario Central	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1491953	0-0	0-0	21:30
+TSV: 3001494381	2026-03-11	liga profesional argentina	Argentinos JRS	Rosario Central	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1491953	0-0	0-0	21:30
+TSV: 3001494381	2026-03-11	liga profesional argentina	Argentinos JRS	Rosario Central	O15_FT	Over 1.5 (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1491953	0-0	0-0	21:30
+TSV: 3001494381	2026-03-11	liga profesional argentina	Argentinos JRS	Rosario Central	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1491953	0-0	0-0	21:30
+TSV: 3001494381	2026-03-11	liga profesional argentina	Argentinos JRS	Rosario Central	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491953	0-0	0-0	21:30
+TSV: 3739401124	2026-03-11	liga profesional argentina	Banfield	Gimnasia L.P.	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1491955	1-2	0-2	21:30
+TSV: 3739401124	2026-03-11	liga profesional argentina	Banfield	Gimnasia L.P.	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1491955	1-2	0-2	21:30
+TSV: 3739401124	2026-03-11	liga profesional argentina	Banfield	Gimnasia L.P.	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1491955	1-2	0-2	21:30
+TSV: 3739401124	2026-03-11	liga profesional argentina	Banfield	Gimnasia L.P.	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1491955	1-2	0-2	21:30
+TSV: 3739401124	2026-03-11	liga profesional argentina	Banfield	Gimnasia L.P.	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1491955	1-2	0-2	21:30
+TSV: 3739401124	2026-03-11	liga profesional argentina	Banfield	Gimnasia L.P.	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491955	1-2	0-2	21:30
+TSV: 3739401124	2026-03-11	liga profesional argentina	Banfield	Gimnasia L.P.	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1491955	1-2	0-2	21:30
+TSV: 3658131665	2026-03-11	serie a brazil	Atletico-MG	Internacional	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1492151	1-0	1-0	23:00
+TSV: 3658131665	2026-03-11	serie a brazil	Atletico-MG	Internacional	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1492151	1-0	1-0	23:00
+TSV: 3658131665	2026-03-11	serie a brazil	Atletico-MG	Internacional	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1492151	1-0	1-0	23:00
+TSV: 3658131665	2026-03-11	serie a brazil	Atletico-MG	Internacional	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1492151	1-0	1-0	23:00
+TSV: 3658131665	2026-03-11	serie a brazil	Atletico-MG	Internacional	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1492151	1-0	1-0	23:00
+TSV: 3658131665	2026-03-11	serie a brazil	Atletico-MG	Internacional	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1492151	1-0	1-0	23:00
+TSV: 3658131665	2026-03-11	serie a brazil	Atletico-MG	Internacional	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492151	1-0	1-0	23:00
+TSV: 3967964970	2026-03-11	liga profesional argentina	Boca Juniors	San Lorenzo	HT05	HT+0.5	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1491956	1-1	0-0	23:45
+TSV: 3967964970	2026-03-11	liga profesional argentina	Boca Juniors	San Lorenzo	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1491956	1-1	0-0	23:45
+TSV: 3967964970	2026-03-11	liga profesional argentina	Boca Juniors	San Lorenzo	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1491956	1-1	0-0	23:45
+TSV: 3967964970	2026-03-11	liga profesional argentina	Boca Juniors	San Lorenzo	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1491956	1-1	0-0	23:45
+TSV: 3967964970	2026-03-11	liga profesional argentina	Boca Juniors	San Lorenzo	O15_FT	Over 1.5 (FT)	4.0	FORT	0	BAD_NO_BET	FT	1491956	1-1	0-0	23:45
+TSV: 3967964970	2026-03-11	liga profesional argentina	Boca Juniors	San Lorenzo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491956	1-1	0-0	23:45
+TSV: 3967964970	2026-03-11	liga profesional argentina	Boca Juniors	San Lorenzo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491956	1-1	0-0	23:45

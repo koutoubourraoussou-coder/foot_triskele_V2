@@ -2100,3 +2100,15 @@ Aucun ticket.
   1) 02:30 | primera a colombia | Deportivo Pasto vs America de Cali | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.53
   2) 20:45 | championship | Millwall vs Derby | Team1 scores (FT) | FORT PLUS | odd=1.22
   3) 21:00 | uefa champions league | Atletico Madrid vs Tottenham | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-03-12 02:21:45 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-11_0230_fad573b42e_SYS — cote = 2.26 — fenêtre 02:30 → 22:35  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 02:30 | primera a colombia | Junior vs Atletico Nacional | Over 1.5 (FT) | FORT PLUS | odd=1.33
+  2) 20:45 | championship | Birmingham vs QPR | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
+  3) 20:45 | championship | Norwich vs Sheffield Utd | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.28

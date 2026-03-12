@@ -97,3 +97,22 @@ TSV: 2026-03-10	2164348761	TEAM1_SCORE_FT	20:45	championship	Millwall	Derby	1.22
 TSV: 2026-03-10	1360980729	TEAM1_WIN_FT	21:00	uefa champions league	Atletico Madrid	Tottenham	1.54	1528323	SYSTEM_POOL_BASE	predictions.tsv
 TSV: 2026-03-10	1360980729	O15_FT	21:00	uefa champions league	Atletico Madrid	Tottenham	1.2	1528323	SYSTEM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-03-12 02:21:43 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-11	3103981140	O15_FT	01:30	serie a brazil	Mirassol	Santos	1.3	1492156	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	499055290	O15_FT	02:00	liga profesional argentina	Newells Old Boys	Platense	1.7	1491964	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	2400755155	O15_FT	02:30	primera a colombia	Junior	Atletico Nacional	1.33	1505956	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	2524479980	O15_FT	18:45	uefa champions league	Bayer Leverkusen	Arsenal	1.22	1528322	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	4202794187	O15_FT	20:45	championship	Birmingham	QPR	1.33	1386985	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	653412915	O15_FT	20:45	championship	West Brom	Southampton	1.3	1386991	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	3604351297	O15_FT	20:45	championship	Norwich	Sheffield Utd	1.28	1386984	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	2257635152	O15_FT	21:00	championship	Coventry	Preston	1.22	1386994	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	1503919026	O15_FT	21:00	uefa champions league	Real Madrid	Manchester City	1.22	1528318	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	1526165365	O15_FT	21:00	uefa champions league	Bodo/Glimt	Sporting CP	1.2	1528325	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	3140599723	O15_FT	21:00	uefa champions league	Paris Saint Germain	Chelsea	1.18	1528320	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	3140599723	TEAM1_SCORE_FT	21:00	uefa champions league	Paris Saint Germain	Chelsea	1.17	1528320	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	1503919026	TEAM2_SCORE_FT	21:00	uefa champions league	Real Madrid	Manchester City	1.15	1528318	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	3739401124	O15_FT	21:30	liga profesional argentina	Banfield	Gimnasia L.P.	1.48	1491955	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	3658131665	O15_FT	23:00	serie a brazil	Atletico-MG	Internacional	1.3	1492151	SYSTEM_POOL_BASE	predictions.tsv
+

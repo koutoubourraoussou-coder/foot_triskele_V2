@@ -117,3 +117,25 @@ TSV: 2026-03-10	1360980729	O15_FT	21:00	uefa champions league	Atletico Madrid	To
 TSV: 2026-03-10	3600094654	O15_FT	23:45	liga profesional argentina	Tigre	Velez Sarsfield	1.65	1491967	O15_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-03-10	2573546795	O15_FT	23:45	liga profesional argentina	Independiente	Union Santa Fe	1.57	1491962	O15_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_BASE | 2026-03-12 02:21:45 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-11	3103981140	O15_FT	01:30	serie a brazil	Mirassol	Santos	1.3	1492156	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	499055290	O15_FT	02:00	liga profesional argentina	Newells Old Boys	Platense	1.7	1491964	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	2447657675	O15_FT	02:00	liga profesional argentina	Sarmiento Junin	Racing Club	1.53	1491965	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	2400755155	O15_FT	02:30	primera a colombia	Junior	Atletico Nacional	1.33	1505956	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	2524479980	O15_FT	18:45	uefa champions league	Bayer Leverkusen	Arsenal	1.22	1528322	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	1561413369	O15_FT	20:45	championship	Oxford United	Blackburn	1.53	1386993	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	4202794187	O15_FT	20:45	championship	Birmingham	QPR	1.33	1386985	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	653412915	O15_FT	20:45	championship	West Brom	Southampton	1.3	1386991	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	3604351297	O15_FT	20:45	championship	Norwich	Sheffield Utd	1.28	1386984	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	2602423683	O15_FT	20:45	championship	Middlesbrough	Charlton	1.22	1386992	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	2257635152	O15_FT	21:00	championship	Coventry	Preston	1.22	1386994	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	1503919026	O15_FT	21:00	uefa champions league	Real Madrid	Manchester City	1.22	1528318	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	1526165365	O15_FT	21:00	uefa champions league	Bodo/Glimt	Sporting CP	1.2	1528325	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	3140599723	O15_FT	21:00	uefa champions league	Paris Saint Germain	Chelsea	1.18	1528320	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	3001494381	O15_FT	21:30	liga profesional argentina	Argentinos JRS	Rosario Central	1.53	1491953	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	3739401124	O15_FT	21:30	liga profesional argentina	Banfield	Gimnasia L.P.	1.48	1491955	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	3658131665	O15_FT	23:00	serie a brazil	Atletico-MG	Internacional	1.3	1492151	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-11	3967964970	O15_FT	23:45	liga profesional argentina	Boca Juniors	San Lorenzo	1.62	1491956	O15_RANDOM_POOL_BASE	predictions.tsv
+

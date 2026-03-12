@@ -1,17 +1,19 @@
-2026-03-10 20:45 | championship | Leicester vs Bristol City
-2026-03-10 20:45 | championship | Millwall vs Derby
-2026-03-10 20:45 | championship | Portsmouth vs Swansea
-2026-03-10 20:45 | championship | Sheffield Wednesday vs Watford
-2026-03-10 20:45 | championship | Wrexham vs Hull City
-2026-03-10 21:00 | championship | Stoke City vs Ipswich
-2026-03-10 01:30 | liga pro ecuador | Orense SC vs Manta FC
-2026-03-10 23:45 | liga profesional argentina | Independiente vs Union Santa Fe
-2026-03-10 23:45 | liga profesional argentina | Tigre vs Velez Sarsfield
-2026-03-10 00:00 | primera a colombia | Llaneros vs Jaguares
-2026-03-10 00:20 | primera a colombia | Millonarios vs Cucuta
-2026-03-10 02:30 | primera a colombia | Deportivo Pasto vs America de Cali
-2026-03-10 00:30 | primera división paraguay | Deportivo Recoleta vs Sportivo Ameliano
-2026-03-10 18:45 | uefa champions league | Galatasaray vs Liverpool
-2026-03-10 21:00 | uefa champions league | Atalanta vs Bayern München
-2026-03-10 21:00 | uefa champions league | Atletico Madrid vs Tottenham
-2026-03-10 21:00 | uefa champions league | Newcastle vs Barcelona
+2026-03-11 20:45 | championship | Birmingham vs QPR
+2026-03-11 20:45 | championship | Middlesbrough vs Charlton
+2026-03-11 20:45 | championship | Norwich vs Sheffield Utd
+2026-03-11 20:45 | championship | Oxford United vs Blackburn
+2026-03-11 20:45 | championship | West Brom vs Southampton
+2026-03-11 21:00 | championship | Coventry vs Preston
+2026-03-11 02:00 | liga profesional argentina | Newells Old Boys vs Platense
+2026-03-11 02:00 | liga profesional argentina | Sarmiento Junin vs Racing Club
+2026-03-11 21:30 | liga profesional argentina | Argentinos JRS vs Rosario Central
+2026-03-11 21:30 | liga profesional argentina | Banfield vs Gimnasia L.P.
+2026-03-11 23:45 | liga profesional argentina | Boca Juniors vs San Lorenzo
+2026-03-11 00:20 | primera a colombia | Bucaramanga vs Deportivo Pereira
+2026-03-11 02:30 | primera a colombia | Junior vs Atletico Nacional
+2026-03-11 01:30 | serie a brazil | Mirassol vs Santos
+2026-03-11 23:00 | serie a brazil | Atletico-MG vs Internacional
+2026-03-11 18:45 | uefa champions league | Bayer Leverkusen vs Arsenal
+2026-03-11 21:00 | uefa champions league | Bodo/Glimt vs Sporting CP
+2026-03-11 21:00 | uefa champions league | Paris Saint Germain vs Chelsea
+2026-03-11 21:00 | uefa champions league | Real Madrid vs Manchester City

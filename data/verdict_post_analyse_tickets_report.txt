@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-03-10
+Date run       : 2026-03-12
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (90 ids)
+Whitelist      : ON (91 ids)
 Ignorés (hors whitelist) : 16
-Ignorés (date>=today)    : 3
+Ignorés (date>=today)    : 0
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -710,10 +710,26 @@ Ignorés (date>=today)    : 3
    ✅ Leg 2) 21:00 | laliga | Espanyol vs Oviedo | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.36
    ❌ Leg 3) 21:15 | liga portugal | Tondela vs Rio Ave | Over 1.5 (FT) | [EXPLOSION] | odd=1.35
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Mardi 2026-03-10 02:30→22:50 | code=A2 | odd=2.24
+   id=2026-03-10_0230_399521de22_SYS
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 02:30 | primera a colombia | Deportivo Pasto vs America de Cali | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.53
+   ✅ Leg 2) 20:45 | championship | Millwall vs Derby | Team1 scores (FT) | [FORT PLUS] | odd=1.22
+   ✅ Leg 3) 21:00 | uefa champions league | Atletico Madrid vs Tottenham | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Mercredi 2026-03-11 02:30→22:35 | code=A2 | odd=2.26
+   id=2026-03-11_0230_fad573b42e_SYS
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 02:30 | primera a colombia | Junior vs Atletico Nacional | Over 1.5 (FT) | [FORT PLUS] | odd=1.33
+   ❌ Leg 2) 20:45 | championship | Birmingham vs QPR | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
+   ✅ Leg 3) 20:45 | championship | Norwich vs Sheffield Utd | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
+
 ====================================================================
-TOTAL tickets : 84
-✅ WIN     : 28
-❌ LOSS    : 55
+TOTAL tickets : 86
+✅ WIN     : 29
+❌ LOSS    : 56
 ⏳ PENDING : 1
 ====================================================================
 
