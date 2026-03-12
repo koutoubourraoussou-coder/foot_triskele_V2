@@ -2772,7 +2772,7 @@ def generate_tickets_from_tsv(
             else:
                 print(f"ℹ️ [SYSTEM] Pool effectif inchangé : {SYSTEM_POOL_EFFECTIVE_GLOBAL_FILE}")
 
-        tickets_system = build_tickets(system_pool_base, mode="SYSTEM")
+        tickets_system = build_tickets(system_pool_effective, mode="SYSTEM")
 
         if not fast_mode:
             added_sys = write_tickets_tsv(tickets_system, TICKETS_TSV_FILE, id_suffix="SYS")
@@ -2837,7 +2837,7 @@ def generate_tickets_from_tsv(
             else:
                 print(f"ℹ️ [O15_RANDOM_ALL] Pool effectif inchangé : {O15_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE}")
 
-        tickets_o15 = build_tickets(o15_random_pool_base, mode="RANDOM")
+        tickets_o15 = build_tickets(o15_random_pool_effective, mode="RANDOM")
 
         if not fast_mode:
             added_o15 = write_tickets_tsv(tickets_o15, TICKETS_O15_RANDOM_TSV_FILE, id_suffix="O15R")
