@@ -2202,7 +2202,6 @@ def _build_tickets_for_one_day(sorted_picks: List[Pick], *, mode: str) -> List[T
 
     tickets_out: List[Ticket] = []
     group_no = 0
-
     next_allowed_start_min = 0
 
     mlevel = _maestro_level()
@@ -2225,97 +2224,143 @@ def _build_tickets_for_one_day(sorted_picks: List[Pick], *, mode: str) -> List[T
         maestro_lines.append(f"- replay_after_last_kickoff: {MATCH_DURATION_MIN} min")
         maestro_lines.append("")
 
-    for widx, tr in enumerate(windows, start=1):
+    idx = 0
+    while idx < len(windows):
         if len(tickets_out) >= max_tickets_today:
             break
 
-        # on respecte :
-        # - pas de doublon de legs déjà utilisés
-        # - pas de début avant la prochaine heure rejouable
-        window_filtered = [
-            p for p in tr.picks
-            if (p.match_id, p.bet_key) not in used_legs
-            and _time_to_minutes(p.time_str) >= next_allowed_start_min
-        ]
+        merge_start_idx = idx
+        merge_end_idx = idx
+        merged_picks = list(windows[idx].picks)
 
-        diag = _diagnose_pool(
-            window_filtered,
-            mode=mode,
-            next_allowed_start_min=next_allowed_start_min,
-            league_bet=league_bet,
-            team_bet=team_bet,
-        )
-        ok_pool = diag["OK_WINDOW"]
+        combo: Optional[List[Pick]] = None
+        final_ok_pool: List[Pick] = []
+        final_diag: Optional[Dict[str, Any]] = None
 
-        if mlevel >= 2:
-            maestro_lines.append(
-                f"WINDOW {widx} | {_minutes_to_time(tr.start_min)} -> {_minutes_to_time(tr.end_min)}"
+        while True:
+            merged_start = min(
+                (_time_to_minutes(p.time_str) for p in merged_picks),
+                default=10**9
             )
-            maestro_lines.append(f"  - raw_window_picks: {len(tr.picks)}")
-            maestro_lines.append(f"  - filtered_window_picks: {len(window_filtered)}")
-            maestro_lines.append(f"  - ok_window: {len(diag['OK_WINDOW'])}")
-            maestro_lines.append(f"  - perf_reject: {len(diag['PERF_REJECT'])}")
-            maestro_lines.append(f"  - out_window: {len(diag['OUT_WINDOW'])}")
-            maestro_lines.append(f"  - no_odd: {len(diag['NO_ODD'])} | odd_too_low: {len(diag['ODD_TOO_LOW'])}")
-            maestro_lines.append(f"  - max_possible_odd(ok_window): {_fmt_odd(_max_possible_odd(ok_pool))}")
-            maestro_lines.append("")
+            merged_end = max(
+                (_time_to_minutes(p.time_str) for p in merged_picks),
+                default=-1
+            )
 
-        if _max_possible_odd(ok_pool) < day_threshold:
-            if mlevel >= 2:
-                maestro_lines.append(f"  -> SKIP WINDOW {widx}: cote max insuffisante")
-                maestro_lines.append("")
-            continue
+            window_filtered = [
+                p for p in merged_picks
+                if (p.match_id, p.bet_key) not in used_legs
+                and _time_to_minutes(p.time_str) >= next_allowed_start_min
+            ]
 
-        if mode.upper() == "SYSTEM":
-            combo = _try_build_ticket_system(
-                ok_pool,
-                rng,
-                threshold=day_threshold,
+            diag = _diagnose_pool(
+                window_filtered,
+                mode=mode,
+                next_allowed_start_min=next_allowed_start_min,
                 league_bet=league_bet,
                 team_bet=team_bet,
             )
+            ok_pool = diag["OK_WINDOW"]
+            max_ok_odd = _max_possible_odd(ok_pool)
+
+            if mlevel >= 2:
+                label = (
+                    f"WINDOW {merge_start_idx + 1}"
+                    if merge_start_idx == merge_end_idx
+                    else f"WINDOWS {merge_start_idx + 1}->{merge_end_idx + 1} (MERGED)"
+                )
+                maestro_lines.append(
+                    f"{label} | {_minutes_to_time(merged_start)} -> {_minutes_to_time(merged_end)}"
+                )
+                maestro_lines.append(f"  - raw_window_picks: {len(merged_picks)}")
+                maestro_lines.append(f"  - filtered_window_picks: {len(window_filtered)}")
+                maestro_lines.append(f"  - ok_window: {len(diag['OK_WINDOW'])}")
+                maestro_lines.append(f"  - perf_reject: {len(diag['PERF_REJECT'])}")
+                maestro_lines.append(f"  - out_window: {len(diag['OUT_WINDOW'])}")
+                maestro_lines.append(f"  - no_odd: {len(diag['NO_ODD'])} | odd_too_low: {len(diag['ODD_TOO_LOW'])}")
+                maestro_lines.append(f"  - max_possible_odd(ok_window): {_fmt_odd(max_ok_odd)}")
+
+            if max_ok_odd < day_threshold:
+                if merge_end_idx + 1 < len(windows):
+                    merge_end_idx += 1
+                    merged_picks.extend(windows[merge_end_idx].picks)
+
+                    if mlevel >= 2:
+                        maestro_lines.append(
+                            f"  -> MERGE avec WINDOW {merge_end_idx + 1} car cote max insuffisante "
+                            f"({_fmt_odd(max_ok_odd)} < {_fmt_odd(day_threshold)})"
+                        )
+                        maestro_lines.append("")
+                    continue
+                else:
+                    if mlevel >= 2:
+                        maestro_lines.append(
+                            f"  -> ABANDON: cote max insuffisante même après fusion "
+                            f"({_fmt_odd(max_ok_odd)} < {_fmt_odd(day_threshold)})"
+                        )
+                        maestro_lines.append("")
+                    final_ok_pool = ok_pool
+                    final_diag = diag
+                    break
+
+            if mode.upper() == "SYSTEM":
+                combo = _try_build_ticket_system(
+                    ok_pool,
+                    rng,
+                    threshold=day_threshold,
+                    league_bet=league_bet,
+                    team_bet=team_bet,
+                )
+            else:
+                combo = _try_build_ticket_random(
+                    ok_pool,
+                    rng,
+                    threshold=day_threshold,
+                    league_bet=league_bet,
+                    team_bet=team_bet,
+                )
+
+            final_ok_pool = ok_pool
+            final_diag = diag
+
+            if not combo:
+                if mlevel >= 2:
+                    maestro_lines.append("  -> ABANDON: aucune combinaison valide")
+                    maestro_lines.append("")
+                break
+
+            break
+
+        if combo:
+            combo_sorted = sorted(combo, key=lambda p: _time_to_minutes(p.time_str))
+
+            group_no += 1
+            t = Ticket(
+                picks=combo_sorted,
+                target_reached=(day_threshold == cfg.target_odd),
+                group_no=group_no,
+                option_no=1,
+                spread_minutes=_ticket_spread_minutes(combo_sorted),
+            )
+            tickets_out.append(t)
+
+            for p in combo_sorted:
+                used_legs.add((p.match_id, p.bet_key))
+
+            if mlevel >= 1:
+                maestro_lines.append(
+                    f"Ticket: tranche={group_no} | cote={_fmt_odd(t.total_odd)} "
+                    f"| {t.start_time} → {t.end_time} | fenêtre={t.spread_minutes}min"
+                )
+                if mlevel >= 2:
+                    for k, p in enumerate(combo_sorted, start=1):
+                        maestro_lines.append(f"  {k}) {_short_pick(p)}")
+                maestro_lines.append("")
+
+            next_allowed_start_min = t.end_time_minutes
+            idx = merge_end_idx + 1
         else:
-            combo = _try_build_ticket_random(
-                ok_pool,
-                rng,
-                threshold=day_threshold,
-                league_bet=league_bet,
-                team_bet=team_bet,
-            )
-
-        if not combo:
-            if mlevel >= 2:
-                maestro_lines.append(f"  -> SKIP WINDOW {widx}: aucune combinaison valide")
-                maestro_lines.append("")
-            continue
-
-        combo_sorted = sorted(combo, key=lambda p: _time_to_minutes(p.time_str))
-
-        group_no += 1
-        t = Ticket(
-            picks=combo_sorted,
-            target_reached=(day_threshold == cfg.target_odd),
-            group_no=group_no,
-            option_no=1,
-            spread_minutes=_ticket_spread_minutes(combo_sorted),
-        )
-        tickets_out.append(t)
-
-        for p in combo_sorted:
-            used_legs.add((p.match_id, p.bet_key))
-
-        if mlevel >= 1:
-            maestro_lines.append(
-                f"Ticket: tranche={group_no} | cote={_fmt_odd(t.total_odd)} "
-                f"| {t.start_time} → {t.end_time} | fenêtre={t.spread_minutes}min"
-            )
-            if mlevel >= 2:
-                for k, p in enumerate(combo_sorted, start=1):
-                    maestro_lines.append(f"  {k}) {_short_pick(p)}")
-            maestro_lines.append("")
-
-        # prochaine heure rejouable = fin du ticket
-        next_allowed_start_min = t.end_time_minutes
+            idx = merge_end_idx + 1
 
     if mlevel >= 1:
         maestro_lines.append("FIN JOURNÉE")
