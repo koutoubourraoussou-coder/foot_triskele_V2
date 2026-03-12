@@ -164,3 +164,36 @@ TSV: 2026-03-12	2538414070	O15_FT	23:15	liga profesional argentina	Talleres Cord
 TSV: 2026-03-12	2672342018	O15_FT	23:15	liga profesional argentina	Estudiantes de Rio Cuarto	Belgrano Cordoba	1.57	1491960	O15_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-03-12	324808270	O15_FT	23:30	serie a brazil	Vasco DA Gama	Palmeiras	1.28	1492159	O15_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_BASE | 2026-03-13 00:48:13 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-13	768175323	O15_FT	01:30	liga profesional argentina	Huracan	River Plate	1.65	1491961	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	1604738088	O15_FT	01:30	serie a brazil	Gremio	RB Bragantino	1.3	1492155	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	3263894662	O15_FT	17:45	superligaen	Diosgyori VTK	Kazincbarcikai	1.22	1380325	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	3163795978	O15_FT	18:00	super lig	Antalyaspor	Gaziantep FK	1.33	1394658	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	3059187214	O15_FT	18:00	super lig	Fatih Karagümrük	Fenerbahçe	1.22	1394662	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	3393604760	O15_FT	18:30	2. bundesliga	SpVgg Greuther Fürth	SV Elversberg	1.18	1388841	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	1414169727	O15_FT	19:00	liga portugal 2	Farense	Felgueiras 1932	1.36	1398199	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	3349240306	O15_FT	19:00	liga portugal 2	Sporting CP B	Chaves	1.36	1398200	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	789354357	O15_FT	20:00	ligue 2	Bastia	Boulogne	1.5	1389351	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	2576500103	O15_FT	20:00	ligue 2	Montpellier	Laval	1.36	1389343	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	2940655444	O15_FT	20:00	ligue 2	Nancy	Le Mans	1.36	1389346	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	3709725068	O15_FT	20:00	saudi arabia	Al-Fayha	Al-Ettifaq	1.28	1436142	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	3785426332	O15_FT	20:00	ligue 2	Clermont Foot	PAU	1.25	1389344	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	54633063	O15_FT	20:00	ligue 2	Guingamp	Amiens	1.22	1389348	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	529930543	O15_FT	20:00	saudi arabia	Al-Qadisiyah FC	Al-Ahli Jeddah	1.22	1436146	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	3078267598	O15_FT	20:00	eredivisie	PEC Zwolle	Groningen	1.2	1381109	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	1511545282	O15_FT	20:00	saudi arabia	Al Riyadh	Al-Ittihad FC	1.18	1436138	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	3539515412	O15_FT	20:30	bundesliga	Borussia Mönchengladbach	FC St. Pauli	1.42	1388534	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	197366873	O15_FT	20:30	laliga2	Mirandes	Cadiz	1.4	1392085	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	4118888026	O15_FT	20:30	serie b	Modena	Spezia	1.33	1419884	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	249545901	O15_FT	20:45	serie a italia	Torino	Parma	1.42	1378151	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	1510932343	O15_FT	20:45	cymru premier league	Haverfordwest County AFC	Cardiff MET	1.36	1509004	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	821196566	O15_FT	20:45	cymru premier league	Caernarfon Town	GAP Connah S Quay FC	1.22	1508973	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	763567694	O15_FT	20:45	ligue 1	Marseille	Auxerre	1.22	1387926	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	2974788570	O15_FT	20:45	pro league	Gent	Zulte Waregem	1.2	1382651	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	3309680897	O15_FT	21:00	championship	Wrexham	Swansea	1.35	1386996	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	3290652820	O15_FT	21:00	laliga	Alaves	Villarreal	1.33	1391089	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	3265220663	O15_FT	22:30	liga pro ecuador	Tecnico Universitario	Libertad	1.44	1519287	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	3254211547	O15_FT	22:30	primera división paraguay	Sportivo Luqueno	Club Sp. San Lorenzo	1.36	1505018	O15_RANDOM_POOL_BASE	predictions.tsv
+

@@ -1064,3 +1064,16 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
   1) 20:00 | saudi arabia | Al Najma vs Damac | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
   2) 20:00 | saudi arabia | Al-Hazm vs Al Kholood | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
   3) 20:00 | saudi arabia | NEOM vs Al Taawon | Over 1.5 (FT) | FORT | odd=1.28
+
+
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_ALL | 2026-03-13 00:48:14 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-13_1745_64c6485f4d_O15R — cote = 2.21 — fenêtre 17:45 → 21:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 17:45 | superligaen | Diosgyori VTK vs Kazincbarcikai | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  2) 18:30 | 2. bundesliga | SpVgg Greuther Fürth vs SV Elversberg | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  3) 20:00 | saudi arabia | Al-Fayha vs Al-Ettifaq | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.28
+  4) 20:00 | eredivisie | PEC Zwolle vs Groningen | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2

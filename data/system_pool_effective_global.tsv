@@ -103,3 +103,21 @@ TSV: 2026-03-11	1503919026	TEAM2_SCORE_FT	21:00	uefa champions league	Real Madri
 TSV: 2026-03-12	4024322825	O15_FT	20:00	saudi arabia	Al Najma	Damac	1.33	1436140	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-03-12	1612190162	O15_FT	20:00	saudi arabia	Al-Hazm	Al Kholood	1.25	1436139	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-03-13 00:48:12 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-13	3263894662	O15_FT	17:45	superligaen	Diosgyori VTK	Kazincbarcikai	1.22	1380325	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-13	3059187214	TEAM1_SCORE_FT	18:00	super lig	Fatih Karagümrük	Fenerbahçe	1.67	1394662	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-13	3059187214	O15_FT	18:00	super lig	Fatih Karagümrük	Fenerbahçe	1.22	1394662	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-13	3393604760	O15_FT	18:30	2. bundesliga	SpVgg Greuther Fürth	SV Elversberg	1.18	1388841	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-13	3709725068	O15_FT	20:00	saudi arabia	Al-Fayha	Al-Ettifaq	1.28	1436142	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-13	3078267598	O15_FT	20:00	eredivisie	PEC Zwolle	Groningen	1.2	1381109	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-13	3539515412	O15_FT	20:30	bundesliga	Borussia Mönchengladbach	FC St. Pauli	1.42	1388534	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-13	197366873	O15_FT	20:30	laliga2	Mirandes	Cadiz	1.4	1392085	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-13	1510932343	O15_FT	20:45	cymru premier league	Haverfordwest County AFC	Cardiff MET	1.36	1509004	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-13	821196566	O15_FT	20:45	cymru premier league	Caernarfon Town	GAP Connah S Quay FC	1.22	1508973	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-13	763567694	O15_FT	20:45	ligue 1	Marseille	Auxerre	1.22	1387926	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-13	2974788570	O15_FT	20:45	pro league	Gent	Zulte Waregem	1.2	1382651	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-13	3309680897	O15_FT	21:00	championship	Wrexham	Swansea	1.35	1386996	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-13	3290652820	O15_FT	21:00	laliga	Alaves	Villarreal	1.33	1391089	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+

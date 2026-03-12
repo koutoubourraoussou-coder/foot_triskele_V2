@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-03-12
+Date run       : 2026-03-13
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (91 ids)
+Whitelist      : ON (92 ids)
 Ignorés (hors whitelist) : 16
-Ignorés (date>=today)    : 0
+Ignorés (date>=today)    : 3
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
