@@ -1,26 +1,8 @@
-RUN MAESTROLOGUE — 2026-03-12 03:28:11
+RUN MAESTROLOGUE — 2026-03-12 17:36:25
 - source_tsv: predictions.tsv
 - run_date: ALL
 - maestro_level: 3
 ========================================
-
-MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
-----------------------------------------------------------
-- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
-- règle: préférer 3L si écart <= 3.00%
-- iterations: 69015 | valid_3L_found: 0 | valid_4L_found: 0
-- top3_size: 0 | top4_size: 0
-
-TOP3 (desc):
-  (vide)
-
-TOP4 (desc):
-  (vide)
-
-DRAW_3L: (aucun)
-DRAW_4L: (aucun)
-- écart relatif: —
-=> choisi: aucun (aucune combinaison valide)
 
 MAESTROLOGUE — SYSTEM — 2026-03-12
 ========================================
@@ -29,7 +11,7 @@ MAESTROLOGUE — SYSTEM — 2026-03-12
 - rich_day: False
 - max_tickets_today: 1
 - windows_count: 1
-- day_max_possible_odd: 1.66
+- day_max_possible_odd: 1.56
 - threshold_used: 1.6 (target=2.2, fallback=1.6)
 - replay_after_last_kickoff: 110 min
 
@@ -40,8 +22,8 @@ WINDOW 1 | 20:00 -> 20:00
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 1.66
-  -> ABANDON: aucune combinaison valide
+  - max_possible_odd(ok_window): 1.56
+  -> ABANDON: cote max insuffisante même après fusion (1.56 < 1.6)
 
 FIN JOURNÉE
 ------------------
@@ -53,43 +35,43 @@ MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
 - gate_build: LEAGUE x BET >= 0.68 (require_data=False)
 - score_select: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
 - règle: préférer 3L si écart <= 3.00%
-- iterations: 63814 | valid_3L_found: 63814 | valid_4L_found: 0
+- iterations: 70952 | valid_3L_found: 70952 | valid_4L_found: 0
 - top3_size: 1 | top4_size: 0
 - rejected_by_league_gate (approx): 0
 
 TOP3 (desc):
-  TOP3[1/1]: score=0.773 (77.3%) | legs=3 | odd=2.13
+  TOP3[1/1]: score=0.773 (77.3%) | legs=3 | odd=1.95
 
 TOP4 (desc):
   (vide)
 
-DRAW_3L: picked rank=1/1 | score=0.773 (77.3%) | odd=2.13
+DRAW_3L: picked rank=1/1 | score=0.773 (77.3%) | odd=1.95
 DRAW_4L: (aucun)
 - écart relatif: —
 => choisi: 3 legs | score=0.773 (77.3%)
 
 Ticket choisi (aperçu)
 ----------------------
-  1) 20:00 | saudi arabia | Al Najma vs Damac | O15_FT | odd=1.33
-  2) 20:00 | saudi arabia | Al-Hazm vs Al Kholood | O15_FT | odd=1.25
-  3) 20:00 | saudi arabia | NEOM vs Al Taawon | O15_FT | odd=1.28
+  1) 20:00 | saudi arabia | Al Najma vs Damac | O15_FT | odd=1.28
+  2) 20:00 | saudi arabia | Al-Hazm vs Al Kholood | O15_FT | odd=1.22
+  3) 20:00 | saudi arabia | NEOM vs Al Taawon | O15_FT | odd=1.25
 
 MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
 ------------------------------------------------------------------------------
 - score ticket: 0.773 (77.3%)
 - formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
 
-1) 20:00 | saudi arabia | Al Najma vs Damac | bet=O15_FT | odd=1.33
+1) 20:00 | saudi arabia | Al Najma vs Damac | bet=O15_FT | odd=1.28
    HOME Al Najma: wr=0.86 dec=14 coef=1.000 => adj=0.857 (85.7%)
    AWAY Damac: wr=0.86 dec=14 coef=1.000 => adj=0.857 (85.7%)
    MEAN match: 0.857 (85.7%)
 
-2) 20:00 | saudi arabia | Al-Hazm vs Al Kholood | bet=O15_FT | odd=1.25
+2) 20:00 | saudi arabia | Al-Hazm vs Al Kholood | bet=O15_FT | odd=1.22
    HOME Al-Hazm: wr=1.00 dec=13 coef=1.000 => adj=1.000 (100.0%)
    AWAY Al Kholood: wr=0.69 dec=13 coef=1.000 => adj=0.692 (69.2%)
    MEAN match: 0.846 (84.6%)
 
-3) 20:00 | saudi arabia | NEOM vs Al Taawon | bet=O15_FT | odd=1.28
+3) 20:00 | saudi arabia | NEOM vs Al Taawon | bet=O15_FT | odd=1.25
    HOME NEOM: wr=0.54 dec=13 coef=1.000 => adj=0.538 (53.8%)
    AWAY Al Taawon: wr=0.69 dec=13 coef=1.000 => adj=0.692 (69.2%)
    MEAN match: 0.615 (61.5%)
@@ -102,7 +84,7 @@ MAESTROLOGUE — RANDOM — 2026-03-12
 - rich_day: False
 - max_tickets_today: 1
 - windows_count: 1
-- day_max_possible_odd: 2.13
+- day_max_possible_odd: 1.95
 - threshold_used: 1.6 (target=2.2, fallback=1.6)
 - replay_after_last_kickoff: 110 min
 
@@ -113,11 +95,11 @@ WINDOW 1 | 20:00 -> 20:00
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 2.13
-Ticket: tranche=1 | cote=2.13 | 20:00 → 21:50 | fenêtre=0min
-  1) 20:00 | saudi arabia | Al Najma vs Damac | O15_FT | odd=1.33
-  2) 20:00 | saudi arabia | Al-Hazm vs Al Kholood | O15_FT | odd=1.25
-  3) 20:00 | saudi arabia | NEOM vs Al Taawon | O15_FT | odd=1.28
+  - max_possible_odd(ok_window): 1.95
+Ticket: tranche=1 | cote=1.95 | 20:00 → 21:50 | fenêtre=0min
+  1) 20:00 | saudi arabia | Al Najma vs Damac | O15_FT | odd=1.28
+  2) 20:00 | saudi arabia | Al-Hazm vs Al Kholood | O15_FT | odd=1.22
+  3) 20:00 | saudi arabia | NEOM vs Al Taawon | O15_FT | odd=1.25
 
 FIN JOURNÉE
 ------------------
