@@ -61,7 +61,7 @@ SEARCH_MAX_ITER_RANDOM = 200000
 # ----------------------------
 # Gestion journalière / fenêtres
 # ----------------------------
-RICH_DAY_MATCH_COUNT = 18          # grosse journée = 2 tickets max
+RICH_DAY_MATCH_COUNT = 20          # grosse journée = 2 tickets max
 DAY_MAX_TICKETS_POOR = 1
 DAY_MAX_TICKETS_RICH = 2
 
@@ -136,7 +136,7 @@ PREFER_3LEGS_DELTA = 0.03
 # ✅ TOP-K UNIFORM DRAW (cas commun SYSTEM + RANDOM)
 # ----------------------------
 TOPK_SIZE = 3  # réglable : 5,6,7,8,9,10...
-TOPK_UNIFORM_DRAW = True  # tu veux uniforme
+TOPK_UNIFORM_DRAW = False  # tu veux uniforme
 
 # ====================================================
 # CONFIG PILOTABLE PAR OPTIMISEUR
