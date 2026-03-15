@@ -1396,38 +1396,109 @@ def _goal_score_team_from_stats(bet_key: str, s: Dict[str, float]) -> float:
 
 def _make_empty_league_goal_stats() -> Dict[str, float]:
     return {
+        # volumes
         "matches": 0.0,
         "ht_matches": 0.0,
+
+        # sommes buts
         "ft_goals_sum": 0.0,
         "ht_goals_sum": 0.0,
         "home_goals_sum": 0.0,
         "away_goals_sum": 0.0,
         "home_ht_goals_sum": 0.0,
         "away_ht_goals_sum": 0.0,
+
+        # distributions FT total buts
+        "ft_total_0": 0.0,
+        "ft_total_1": 0.0,
+        "ft_total_2": 0.0,
+        "ft_total_3": 0.0,
+        "ft_total_4_plus": 0.0,
+
+        # distributions HT total buts
+        "ht_total_0": 0.0,
+        "ht_total_1": 0.0,
+        "ht_total_2_plus": 0.0,
+
+        # hits FT
+        "o05_hits": 0.0,
         "o15_hits": 0.0,
-        "ht05_hits": 0.0,
+        "o25_hits": 0.0,
+        "o35_hits": 0.0,
+        "exact_2_hits": 0.0,
+        "exact_3_hits": 0.0,
+
+        # équipes marquent / BTTS
         "home_scored_hits": 0.0,
         "away_scored_hits": 0.0,
+        "btts_hits": 0.0,
+
+        # issues FT
         "home_win_hits": 0.0,
+        "draw_hits": 0.0,
         "away_win_hits": 0.0,
+
+        # hits HT
+        "ht05_hits": 0.0,
+        "ht15_hits": 0.0,
+        "ht_home_lead_hits": 0.0,
+        "ht_draw_hits": 0.0,
+        "ht_away_lead_hits": 0.0,
         "ht1x_home_hits": 0.0,
     }
 
 
 def _make_empty_team_goal_stats() -> Dict[str, float]:
     return {
+        # volumes
         "matches": 0.0,
         "ht_matches": 0.0,
+
+        # sommes
         "goals_for_sum": 0.0,
         "goals_against_sum": 0.0,
         "goals_total_sum": 0.0,
         "ht_goals_for_sum": 0.0,
         "ht_goals_against_sum": 0.0,
         "ht_goals_total_sum": 0.0,
+
+        # distributions buts marqués par l’équipe
+        "gf_0": 0.0,
+        "gf_1": 0.0,
+        "gf_2": 0.0,
+        "gf_3_plus": 0.0,
+
+        # distributions total buts du match
+        "total_0": 0.0,
+        "total_1": 0.0,
+        "total_2": 0.0,
+        "total_3": 0.0,
+        "total_4_plus": 0.0,
+
+        # hits équipe
         "scored_hits": 0.0,
+        "conceded_hits": 0.0,
+        "clean_sheet_hits": 0.0,
+        "failed_to_score_hits": 0.0,
+
+        # issues FT
         "win_hits": 0.0,
+        "draw_hits": 0.0,
+        "loss_hits": 0.0,
+
+        # hits match FT
         "o15_hits": 0.0,
+        "o25_hits": 0.0,
+        "o35_hits": 0.0,
+        "exact_2_hits": 0.0,
+        "exact_3_hits": 0.0,
+
+        # hits HT
         "ht05_hits": 0.0,
+        "ht15_hits": 0.0,
+        "ht_lead_hits": 0.0,
+        "ht_draw_hits": 0.0,
+        "ht_trail_hits": 0.0,
         "ht1x_hits": 0.0,
     }
 
@@ -1534,30 +1605,73 @@ def update_triskele_rankings_from_history() -> None:
         gh_ht = m.get("gh_ht")
         ga_ht = m.get("ga_ht")
 
+        ft_total = gh + ga
+
         # ---------------- LEAGUE GOAL STATS ----------------
         lg = league_goal_stats.setdefault(league, _make_empty_league_goal_stats())
+
         lg["matches"] += 1
-        lg["ft_goals_sum"] += (gh + ga)
+        lg["ft_goals_sum"] += ft_total
         lg["home_goals_sum"] += gh
         lg["away_goals_sum"] += ga
-        lg["o15_hits"] += 1 if (gh + ga) >= 2 else 0
+
+        # distribution FT
+        if ft_total == 0:
+            lg["ft_total_0"] += 1
+        elif ft_total == 1:
+            lg["ft_total_1"] += 1
+        elif ft_total == 2:
+            lg["ft_total_2"] += 1
+        elif ft_total == 3:
+            lg["ft_total_3"] += 1
+        else:
+            lg["ft_total_4_plus"] += 1
+
+        # hits FT
+        lg["o05_hits"] += 1 if ft_total >= 1 else 0
+        lg["o15_hits"] += 1 if ft_total >= 2 else 0
+        lg["o25_hits"] += 1 if ft_total >= 3 else 0
+        lg["o35_hits"] += 1 if ft_total >= 4 else 0
+        lg["exact_2_hits"] += 1 if ft_total == 2 else 0
+        lg["exact_3_hits"] += 1 if ft_total == 3 else 0
+
+        # équipes / BTTS
         lg["home_scored_hits"] += 1 if gh >= 1 else 0
         lg["away_scored_hits"] += 1 if ga >= 1 else 0
+        lg["btts_hits"] += 1 if (gh >= 1 and ga >= 1) else 0
+
+        # issues FT
         lg["home_win_hits"] += 1 if gh > ga else 0
+        lg["draw_hits"] += 1 if gh == ga else 0
         lg["away_win_hits"] += 1 if ga > gh else 0
 
+        # HT
         if gh_ht is not None and ga_ht is not None:
+            ht_total = gh_ht + ga_ht
+
             lg["ht_matches"] += 1
-            lg["ht_goals_sum"] += (gh_ht + ga_ht)
+            lg["ht_goals_sum"] += ht_total
             lg["home_ht_goals_sum"] += gh_ht
             lg["away_ht_goals_sum"] += ga_ht
-            lg["ht05_hits"] += 1 if (gh_ht + ga_ht) >= 1 else 0
+
+            if ht_total == 0:
+                lg["ht_total_0"] += 1
+            elif ht_total == 1:
+                lg["ht_total_1"] += 1
+            else:
+                lg["ht_total_2_plus"] += 1
+
+            lg["ht05_hits"] += 1 if ht_total >= 1 else 0
+            lg["ht15_hits"] += 1 if ht_total >= 2 else 0
+            lg["ht_home_lead_hits"] += 1 if gh_ht > ga_ht else 0
+            lg["ht_draw_hits"] += 1 if gh_ht == ga_ht else 0
+            lg["ht_away_lead_hits"] += 1 if ga_ht > gh_ht else 0
             lg["ht1x_home_hits"] += 1 if gh_ht >= ga_ht else 0
 
         # ---------------- BET BASELINES ----------------
         bet_results: Dict[str, Optional[bool]] = {}
 
-        bet_results["O15_FT"] = (gh + ga) >= 2
+        bet_results["O15_FT"] = ft_total >= 2
         bet_results["TEAM1_SCORE_FT"] = gh >= 1
         bet_results["TEAM2_SCORE_FT"] = ga >= 1
         bet_results["TEAM1_WIN_FT"] = gh > ga
@@ -1574,14 +1688,12 @@ def update_triskele_rankings_from_history() -> None:
             if ok is None:
                 continue
 
-            # ----- LEAGUE baseline
             lk = (league, bet_key)
             league_bet.setdefault(lk, {"samples": 0, "success": 0})
             league_bet[lk]["samples"] += 1
             if ok:
                 league_bet[lk]["success"] += 1
 
-            # ----- TEAM baseline
             targets = _team_targets_for_bet(home, away, bet_key)
             for team in targets:
                 tk = (league, team, bet_key)
@@ -1590,143 +1702,103 @@ def update_triskele_rankings_from_history() -> None:
                 if ok:
                     team_bet[tk]["success"] += 1
 
-        # ---------------- TEAM GOAL STATS ----------------
-        # O15 / HT05 => home + away
+        # ---------------- TEAM GOAL STATS helper ----------------
+        def _update_team_goal_stats(team_name: str, bet_key: str, gf: int, ga2: int, ghf_ht: Optional[int], gaf_ht: Optional[int]) -> None:
+            st = team_goal_stats.setdefault((league, team_name, bet_key), _make_empty_team_goal_stats())
+
+            total = gf + ga2
+            st["matches"] += 1
+            st["goals_for_sum"] += gf
+            st["goals_against_sum"] += ga2
+            st["goals_total_sum"] += total
+
+            # distribution buts marqués équipe
+            if gf == 0:
+                st["gf_0"] += 1
+            elif gf == 1:
+                st["gf_1"] += 1
+            elif gf == 2:
+                st["gf_2"] += 1
+            else:
+                st["gf_3_plus"] += 1
+
+            # distribution total match
+            if total == 0:
+                st["total_0"] += 1
+            elif total == 1:
+                st["total_1"] += 1
+            elif total == 2:
+                st["total_2"] += 1
+            elif total == 3:
+                st["total_3"] += 1
+            else:
+                st["total_4_plus"] += 1
+
+            # hits équipe / match
+            st["scored_hits"] += 1 if gf >= 1 else 0
+            st["conceded_hits"] += 1 if ga2 >= 1 else 0
+            st["clean_sheet_hits"] += 1 if ga2 == 0 else 0
+            st["failed_to_score_hits"] += 1 if gf == 0 else 0
+
+            st["win_hits"] += 1 if gf > ga2 else 0
+            st["draw_hits"] += 1 if gf == ga2 else 0
+            st["loss_hits"] += 1 if gf < ga2 else 0
+
+            st["o15_hits"] += 1 if total >= 2 else 0
+            st["o25_hits"] += 1 if total >= 3 else 0
+            st["o35_hits"] += 1 if total >= 4 else 0
+            st["exact_2_hits"] += 1 if total == 2 else 0
+            st["exact_3_hits"] += 1 if total == 3 else 0
+
+            if ghf_ht is not None and gaf_ht is not None:
+                ht_total = ghf_ht + gaf_ht
+                st["ht_matches"] += 1
+                st["ht_goals_for_sum"] += ghf_ht
+                st["ht_goals_against_sum"] += gaf_ht
+                st["ht_goals_total_sum"] += ht_total
+                st["ht05_hits"] += 1 if ht_total >= 1 else 0
+                st["ht15_hits"] += 1 if ht_total >= 2 else 0
+                st["ht_lead_hits"] += 1 if ghf_ht > gaf_ht else 0
+                st["ht_draw_hits"] += 1 if ghf_ht == gaf_ht else 0
+                st["ht_trail_hits"] += 1 if ghf_ht < gaf_ht else 0
+                st["ht1x_hits"] += 1 if ghf_ht >= gaf_ht else 0
+
+        # Bets match-level => home + away
         for team_name, gf, ga2, ghf_ht, gaf_ht in [
             (home, gh, ga, gh_ht, ga_ht),
             (away, ga, gh, ga_ht, gh_ht),
         ]:
-            # O15_FT
-            tk = (league, team_name, "O15_FT")
-            st = team_goal_stats.setdefault(tk, _make_empty_team_goal_stats())
-            st["matches"] += 1
-            st["goals_for_sum"] += gf
-            st["goals_against_sum"] += ga2
-            st["goals_total_sum"] += (gf + ga2)
-            st["scored_hits"] += 1 if gf >= 1 else 0
-            st["o15_hits"] += 1 if (gf + ga2) >= 2 else 0
-            st["win_hits"] += 1 if gf > ga2 else 0
-
+            _update_team_goal_stats(team_name, "O15_FT", gf, ga2, ghf_ht, gaf_ht)
             if ghf_ht is not None and gaf_ht is not None:
-                st["ht_matches"] += 1
-                st["ht_goals_for_sum"] += ghf_ht
-                st["ht_goals_against_sum"] += gaf_ht
-                st["ht_goals_total_sum"] += (ghf_ht + gaf_ht)
-                st["ht05_hits"] += 1 if (ghf_ht + gaf_ht) >= 1 else 0
-                st["ht1x_hits"] += 1 if ghf_ht >= gaf_ht else 0
+                _update_team_goal_stats(team_name, "HT05", gf, ga2, ghf_ht, gaf_ht)
 
-            # HT05
-            tk_ht05 = (league, team_name, "HT05")
-            st_ht05 = team_goal_stats.setdefault(tk_ht05, _make_empty_team_goal_stats())
-            if ghf_ht is not None and gaf_ht is not None:
-                st_ht05["matches"] += 1
-                st_ht05["ht_matches"] += 1
-                st_ht05["goals_for_sum"] += gf
-                st_ht05["goals_against_sum"] += ga2
-                st_ht05["goals_total_sum"] += (gf + ga2)
-                st_ht05["ht_goals_for_sum"] += ghf_ht
-                st_ht05["ht_goals_against_sum"] += gaf_ht
-                st_ht05["ht_goals_total_sum"] += (ghf_ht + gaf_ht)
-                st_ht05["scored_hits"] += 1 if gf >= 1 else 0
-                st_ht05["o15_hits"] += 1 if (gf + ga2) >= 2 else 0
-                st_ht05["ht05_hits"] += 1 if (ghf_ht + gaf_ht) >= 1 else 0
-                st_ht05["ht1x_hits"] += 1 if ghf_ht >= gaf_ht else 0
-                st_ht05["win_hits"] += 1 if gf > ga2 else 0
-
-        # HOME-specific
-        tk_home_score = (league, home, "TEAM1_SCORE_FT")
-        st = team_goal_stats.setdefault(tk_home_score, _make_empty_team_goal_stats())
-        st["matches"] += 1
-        st["goals_for_sum"] += gh
-        st["goals_against_sum"] += ga
-        st["goals_total_sum"] += (gh + ga)
-        st["scored_hits"] += 1 if gh >= 1 else 0
-        st["o15_hits"] += 1 if (gh + ga) >= 2 else 0
-        st["win_hits"] += 1 if gh > ga else 0
+        # Home-specific
+        _update_team_goal_stats(home, "TEAM1_SCORE_FT", gh, ga, gh_ht, ga_ht)
+        _update_team_goal_stats(home, "TEAM1_WIN_FT", gh, ga, gh_ht, ga_ht)
         if gh_ht is not None and ga_ht is not None:
-            st["ht_matches"] += 1
-            st["ht_goals_for_sum"] += gh_ht
-            st["ht_goals_against_sum"] += ga_ht
-            st["ht_goals_total_sum"] += (gh_ht + ga_ht)
-            st["ht05_hits"] += 1 if (gh_ht + ga_ht) >= 1 else 0
-            st["ht1x_hits"] += 1 if gh_ht >= ga_ht else 0
+            _update_team_goal_stats(home, "HT1X_HOME", gh, ga, gh_ht, ga_ht)
 
-        tk_home_win = (league, home, "TEAM1_WIN_FT")
-        st = team_goal_stats.setdefault(tk_home_win, _make_empty_team_goal_stats())
-        st["matches"] += 1
-        st["goals_for_sum"] += gh
-        st["goals_against_sum"] += ga
-        st["goals_total_sum"] += (gh + ga)
-        st["scored_hits"] += 1 if gh >= 1 else 0
-        st["o15_hits"] += 1 if (gh + ga) >= 2 else 0
-        st["win_hits"] += 1 if gh > ga else 0
-        if gh_ht is not None and ga_ht is not None:
-            st["ht_matches"] += 1
-            st["ht_goals_for_sum"] += gh_ht
-            st["ht_goals_against_sum"] += ga_ht
-            st["ht_goals_total_sum"] += (gh_ht + ga_ht)
-            st["ht05_hits"] += 1 if (gh_ht + ga_ht) >= 1 else 0
-            st["ht1x_hits"] += 1 if gh_ht >= ga_ht else 0
-
-        tk_ht1x = (league, home, "HT1X_HOME")
-        st = team_goal_stats.setdefault(tk_ht1x, _make_empty_team_goal_stats())
-        if gh_ht is not None and ga_ht is not None:
-            st["matches"] += 1
-            st["ht_matches"] += 1
-            st["goals_for_sum"] += gh
-            st["goals_against_sum"] += ga
-            st["goals_total_sum"] += (gh + ga)
-            st["ht_goals_for_sum"] += gh_ht
-            st["ht_goals_against_sum"] += ga_ht
-            st["ht_goals_total_sum"] += (gh_ht + ga_ht)
-            st["scored_hits"] += 1 if gh >= 1 else 0
-            st["o15_hits"] += 1 if (gh + ga) >= 2 else 0
-            st["win_hits"] += 1 if gh > ga else 0
-            st["ht05_hits"] += 1 if (gh_ht + ga_ht) >= 1 else 0
-            st["ht1x_hits"] += 1 if gh_ht >= ga_ht else 0
-
-        # AWAY-specific
-        tk_away_score = (league, away, "TEAM2_SCORE_FT")
-        st = team_goal_stats.setdefault(tk_away_score, _make_empty_team_goal_stats())
-        st["matches"] += 1
-        st["goals_for_sum"] += ga
-        st["goals_against_sum"] += gh
-        st["goals_total_sum"] += (gh + ga)
-        st["scored_hits"] += 1 if ga >= 1 else 0
-        st["o15_hits"] += 1 if (gh + ga) >= 2 else 0
-        st["win_hits"] += 1 if ga > gh else 0
-        if gh_ht is not None and ga_ht is not None:
-            st["ht_matches"] += 1
-            st["ht_goals_for_sum"] += ga_ht
-            st["ht_goals_against_sum"] += gh_ht
-            st["ht_goals_total_sum"] += (gh_ht + ga_ht)
-            st["ht05_hits"] += 1 if (gh_ht + ga_ht) >= 1 else 0
-            st["ht1x_hits"] += 1 if ga_ht >= gh_ht else 0
-
-        tk_away_win = (league, away, "TEAM2_WIN_FT")
-        st = team_goal_stats.setdefault(tk_away_win, _make_empty_team_goal_stats())
-        st["matches"] += 1
-        st["goals_for_sum"] += ga
-        st["goals_against_sum"] += gh
-        st["goals_total_sum"] += (gh + ga)
-        st["scored_hits"] += 1 if ga >= 1 else 0
-        st["o15_hits"] += 1 if (gh + ga) >= 2 else 0
-        st["win_hits"] += 1 if ga > gh else 0
-        if gh_ht is not None and ga_ht is not None:
-            st["ht_matches"] += 1
-            st["ht_goals_for_sum"] += ga_ht
-            st["ht_goals_against_sum"] += gh_ht
-            st["ht_goals_total_sum"] += (gh_ht + ga_ht)
-            st["ht05_hits"] += 1 if (gh_ht + ga_ht) >= 1 else 0
-            st["ht1x_hits"] += 1 if ga_ht >= gh_ht else 0
+        # Away-specific
+        _update_team_goal_stats(away, "TEAM2_SCORE_FT", ga, gh, ga_ht, gh_ht)
+        _update_team_goal_stats(away, "TEAM2_WIN_FT", ga, gh, ga_ht, gh_ht)
 
     # -------------------------------------------------
-    # 3) WRITE baseline rankings
+    # 3) WRITE baseline rankings (DETAILLED)
     # -------------------------------------------------
     TRISKELE_RANKINGS_DIR.mkdir(parents=True, exist_ok=True)
 
     with TRISKELE_RANKING_LEAGUE_BET_FILE.open("w", encoding="utf-8") as f:
-        f.write("# league\tbet_key\tsamples\tsuccess\tfail\tsuccess_rate\n")
+        f.write(
+            "# league\tbet_key\tsamples\tsuccess\tfail\tsuccess_rate\t"
+            "matches\tht_matches\tavg_ft_goals\tavg_ht_goals\t"
+            "goals_0\tgoals_1\tgoals_2\tgoals_3\tgoals_4_plus\t"
+            "rate_o05_ft\trate_o15_ft\trate_o25_ft\trate_o35_ft\t"
+            "rate_exact_2\trate_exact_3\t"
+            "home_scored_rate\taway_scored_rate\tbtts_rate\t"
+            "home_win_rate\tdraw_rate\taway_win_rate\t"
+            "rate_ht05\trate_ht15\t"
+            "rate_ht_home_lead\trate_ht_draw\trate_ht_away_lead\trate_ht1x_home\n"
+        )
 
         rows = []
         for (league, bet_key), agg in league_bet.items():
@@ -1734,83 +1806,371 @@ def update_triskele_rankings_from_history() -> None:
             w = agg["success"]
             fail = s - w
             sr = (w / s) if s else 0.0
-            rows.append((sr, s, league, bet_key, w, fail))
 
-        rows.sort(key=lambda x: (-x[0], -x[1], x[2], x[3]))
-
-        for sr, s, league, bet_key, w, fail in rows:
-            f.write(f"{league}\t{bet_key}\t{s}\t{w}\t{fail}\t{sr:.6f}\n")
-
-    with TRISKELE_RANKING_TEAM_BET_FILE.open("w", encoding="utf-8") as f:
-        f.write("# league\tteam\tbet_key\tsamples\tsuccess\tfail\tsuccess_rate\n")
-
-        rows = []
-        for (league, team, bet_key), agg in team_bet.items():
-            s = agg["samples"]
-            w = agg["success"]
-            fail = s - w
-            sr = (w / s) if s else 0.0
-            rows.append((sr, s, league, team, bet_key, w, fail))
-
-        rows.sort(key=lambda x: (-x[0], -x[1], x[2], x[3], x[4]))
-
-        for sr, s, league, team, bet_key, w, fail in rows:
-            f.write(f"{league}\t{team}\t{bet_key}\t{s}\t{w}\t{fail}\t{sr:.6f}\n")
-
-    # -------------------------------------------------
-    # 4) WRITE goals league
-    # -------------------------------------------------
-    with TRISKELE_GOALS_LEAGUE_BET_FILE.open("w", encoding="utf-8") as f:
-        f.write("# league\tbet_key\tmatches\tht_matches\tgoals_score\n")
-
-        rows = []
-        for (league, bet_key), agg in league_bet.items():
             lg = league_goal_stats.get(league, _make_empty_league_goal_stats())
-            score = _goal_score_league_from_stats(bet_key, lg)
+            matches_n = int(lg.get("matches", 0))
+            ht_matches_n = int(lg.get("ht_matches", 0))
+
+            avg_ft_goals = _safe_rate(lg.get("ft_goals_sum", 0.0), matches_n)
+            avg_ht_goals = _safe_rate(lg.get("ht_goals_sum", 0.0), ht_matches_n)
+
             rows.append((
-                score,
-                int(agg["samples"]),
+                sr,
+                s,
                 league,
                 bet_key,
-                int(lg.get("matches", 0)),
-                int(lg.get("ht_matches", 0)),
+                w,
+                fail,
+                matches_n,
+                ht_matches_n,
+                avg_ft_goals,
+                avg_ht_goals,
+                int(lg.get("ft_total_0", 0)),
+                int(lg.get("ft_total_1", 0)),
+                int(lg.get("ft_total_2", 0)),
+                int(lg.get("ft_total_3", 0)),
+                int(lg.get("ft_total_4_plus", 0)),
+                _safe_rate(lg.get("o05_hits", 0.0), matches_n),
+                _safe_rate(lg.get("o15_hits", 0.0), matches_n),
+                _safe_rate(lg.get("o25_hits", 0.0), matches_n),
+                _safe_rate(lg.get("o35_hits", 0.0), matches_n),
+                _safe_rate(lg.get("exact_2_hits", 0.0), matches_n),
+                _safe_rate(lg.get("exact_3_hits", 0.0), matches_n),
+                _safe_rate(lg.get("home_scored_hits", 0.0), matches_n),
+                _safe_rate(lg.get("away_scored_hits", 0.0), matches_n),
+                _safe_rate(lg.get("btts_hits", 0.0), matches_n),
+                _safe_rate(lg.get("home_win_hits", 0.0), matches_n),
+                _safe_rate(lg.get("draw_hits", 0.0), matches_n),
+                _safe_rate(lg.get("away_win_hits", 0.0), matches_n),
+                _safe_rate(lg.get("ht05_hits", 0.0), ht_matches_n),
+                _safe_rate(lg.get("ht15_hits", 0.0), ht_matches_n),
+                _safe_rate(lg.get("ht_home_lead_hits", 0.0), ht_matches_n),
+                _safe_rate(lg.get("ht_draw_hits", 0.0), ht_matches_n),
+                _safe_rate(lg.get("ht_away_lead_hits", 0.0), ht_matches_n),
+                _safe_rate(lg.get("ht1x_home_hits", 0.0), ht_matches_n),
             ))
 
         rows.sort(key=lambda x: (-x[0], -x[1], x[2], x[3]))
 
-        for score, samples, league, bet_key, matches, ht_matches in rows:
-            f.write(f"{league}\t{bet_key}\t{matches}\t{ht_matches}\t{score:.6f}\n")
+        for row in rows:
+            (
+                sr, s, league, bet_key, w, fail,
+                matches_n, ht_matches_n, avg_ft_goals, avg_ht_goals,
+                g0, g1, g2, g3, g4p,
+                r_o05, r_o15, r_o25, r_o35, r_ex2, r_ex3,
+                r_home_sc, r_away_sc, r_btts,
+                r_hw, r_dr, r_aw,
+                r_ht05, r_ht15, r_ht_hlead, r_ht_draw, r_ht_alead, r_ht1x
+            ) = row
 
-    # -------------------------------------------------
-    # 5) WRITE goals team
-    # -------------------------------------------------
-    with TRISKELE_GOALS_TEAM_BET_FILE.open("w", encoding="utf-8") as f:
-        f.write("# league\tteam\tbet_key\tmatches\tht_matches\tgoals_score\n")
+            f.write(
+                f"{league}\t{bet_key}\t{s}\t{w}\t{fail}\t{sr:.6f}\t"
+                f"{matches_n}\t{ht_matches_n}\t{avg_ft_goals:.6f}\t{avg_ht_goals:.6f}\t"
+                f"{g0}\t{g1}\t{g2}\t{g3}\t{g4p}\t"
+                f"{r_o05:.6f}\t{r_o15:.6f}\t{r_o25:.6f}\t{r_o35:.6f}\t"
+                f"{r_ex2:.6f}\t{r_ex3:.6f}\t"
+                f"{r_home_sc:.6f}\t{r_away_sc:.6f}\t{r_btts:.6f}\t"
+                f"{r_hw:.6f}\t{r_dr:.6f}\t{r_aw:.6f}\t"
+                f"{r_ht05:.6f}\t{r_ht15:.6f}\t"
+                f"{r_ht_hlead:.6f}\t{r_ht_draw:.6f}\t{r_ht_alead:.6f}\t{r_ht1x:.6f}\n"
+            )
+
+    with TRISKELE_RANKING_TEAM_BET_FILE.open("w", encoding="utf-8") as f:
+        f.write(
+            "# league\tteam\tbet_key\tsamples\tsuccess\tfail\tsuccess_rate\t"
+            "matches\tht_matches\t"
+            "avg_goals_for\tavg_goals_against\tavg_goals_total\t"
+            "avg_ht_goals_for\tavg_ht_goals_against\tavg_ht_goals_total\t"
+            "goals_for_0\tgoals_for_1\tgoals_for_2\tgoals_for_3_plus\t"
+            "total_0\ttotal_1\ttotal_2\ttotal_3\ttotal_4_plus\t"
+            "rate_scored\trate_conceded\trate_clean_sheet\trate_failed_to_score\t"
+            "rate_win\trate_draw\trate_loss\t"
+            "rate_o15_match\trate_o25_match\trate_o35_match\t"
+            "rate_exact_2_match\trate_exact_3_match\t"
+            "rate_ht05_match\trate_ht15_match\trate_ht_lead\trate_ht_draw\trate_ht_trail\trate_ht1x\n"
+        )
 
         rows = []
         for (league, team, bet_key), agg in team_bet.items():
+            s = agg["samples"]
+            w = agg["success"]
+            fail = s - w
+            sr = (w / s) if s else 0.0
+
             tg = team_goal_stats.get((league, team, bet_key), _make_empty_team_goal_stats())
-            score = _goal_score_team_from_stats(bet_key, tg)
+            matches_n = int(tg.get("matches", 0))
+            ht_matches_n = int(tg.get("ht_matches", 0))
+
             rows.append((
-                score,
-                int(agg["samples"]),
+                sr,
+                s,
                 league,
                 team,
                 bet_key,
-                int(tg.get("matches", 0)),
-                int(tg.get("ht_matches", 0)),
+                w,
+                fail,
+                matches_n,
+                ht_matches_n,
+                _safe_rate(tg.get("goals_for_sum", 0.0), matches_n),
+                _safe_rate(tg.get("goals_against_sum", 0.0), matches_n),
+                _safe_rate(tg.get("goals_total_sum", 0.0), matches_n),
+                _safe_rate(tg.get("ht_goals_for_sum", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht_goals_against_sum", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht_goals_total_sum", 0.0), ht_matches_n),
+                int(tg.get("gf_0", 0)),
+                int(tg.get("gf_1", 0)),
+                int(tg.get("gf_2", 0)),
+                int(tg.get("gf_3_plus", 0)),
+                int(tg.get("total_0", 0)),
+                int(tg.get("total_1", 0)),
+                int(tg.get("total_2", 0)),
+                int(tg.get("total_3", 0)),
+                int(tg.get("total_4_plus", 0)),
+                _safe_rate(tg.get("scored_hits", 0.0), matches_n),
+                _safe_rate(tg.get("conceded_hits", 0.0), matches_n),
+                _safe_rate(tg.get("clean_sheet_hits", 0.0), matches_n),
+                _safe_rate(tg.get("failed_to_score_hits", 0.0), matches_n),
+                _safe_rate(tg.get("win_hits", 0.0), matches_n),
+                _safe_rate(tg.get("draw_hits", 0.0), matches_n),
+                _safe_rate(tg.get("loss_hits", 0.0), matches_n),
+                _safe_rate(tg.get("o15_hits", 0.0), matches_n),
+                _safe_rate(tg.get("o25_hits", 0.0), matches_n),
+                _safe_rate(tg.get("o35_hits", 0.0), matches_n),
+                _safe_rate(tg.get("exact_2_hits", 0.0), matches_n),
+                _safe_rate(tg.get("exact_3_hits", 0.0), matches_n),
+                _safe_rate(tg.get("ht05_hits", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht15_hits", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht_lead_hits", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht_draw_hits", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht_trail_hits", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht1x_hits", 0.0), ht_matches_n),
             ))
 
         rows.sort(key=lambda x: (-x[0], -x[1], x[2], x[3], x[4]))
 
-        for score, samples, league, team, bet_key, matches, ht_matches in rows:
-            f.write(f"{league}\t{team}\t{bet_key}\t{matches}\t{ht_matches}\t{score:.6f}\n")
+        for row in rows:
+            (
+                sr, s, league, team, bet_key, w, fail,
+                matches_n, ht_matches_n,
+                avg_gf, avg_ga, avg_gt,
+                avg_ht_gf, avg_ht_ga, avg_ht_gt,
+                gf0, gf1, gf2, gf3p,
+                t0, t1, t2, t3, t4p,
+                r_scored, r_conceded, r_cs, r_fts,
+                r_win, r_draw, r_loss,
+                r_o15, r_o25, r_o35, r_ex2, r_ex3,
+                r_ht05, r_ht15, r_ht_lead, r_ht_draw, r_ht_trail, r_ht1x
+            ) = row
+
+            f.write(
+                f"{league}\t{team}\t{bet_key}\t{s}\t{w}\t{fail}\t{sr:.6f}\t"
+                f"{matches_n}\t{ht_matches_n}\t"
+                f"{avg_gf:.6f}\t{avg_ga:.6f}\t{avg_gt:.6f}\t"
+                f"{avg_ht_gf:.6f}\t{avg_ht_ga:.6f}\t{avg_ht_gt:.6f}\t"
+                f"{gf0}\t{gf1}\t{gf2}\t{gf3p}\t"
+                f"{t0}\t{t1}\t{t2}\t{t3}\t{t4p}\t"
+                f"{r_scored:.6f}\t{r_conceded:.6f}\t{r_cs:.6f}\t{r_fts:.6f}\t"
+                f"{r_win:.6f}\t{r_draw:.6f}\t{r_loss:.6f}\t"
+                f"{r_o15:.6f}\t{r_o25:.6f}\t{r_o35:.6f}\t"
+                f"{r_ex2:.6f}\t{r_ex3:.6f}\t"
+                f"{r_ht05:.6f}\t{r_ht15:.6f}\t{r_ht_lead:.6f}\t{r_ht_draw:.6f}\t{r_ht_trail:.6f}\t{r_ht1x:.6f}\n"
+            )
 
     # -------------------------------------------------
-    # 6) WRITE composite league
+    # 4) WRITE goals league (DETAILLED)
+    # -------------------------------------------------
+    with TRISKELE_GOALS_LEAGUE_BET_FILE.open("w", encoding="utf-8") as f:
+        f.write(
+            "# league\tbet_key\tmatches\tht_matches\t"
+            "avg_ft_goals\tavg_ht_goals\t"
+            "goals_0\tgoals_1\tgoals_2\tgoals_3\tgoals_4_plus\t"
+            "rate_o05_ft\trate_o15_ft\trate_o25_ft\trate_o35_ft\t"
+            "rate_exact_2\trate_exact_3\t"
+            "home_scored_rate\taway_scored_rate\tbtts_rate\t"
+            "home_win_rate\tdraw_rate\taway_win_rate\t"
+            "rate_ht05\trate_ht15\t"
+            "rate_ht_home_lead\trate_ht_draw\trate_ht_away_lead\trate_ht1x_home\t"
+            "goals_score\n"
+        )
+
+        rows = []
+        for (league, bet_key), _agg in league_bet.items():
+            lg = league_goal_stats.get(league, _make_empty_league_goal_stats())
+            matches_n = int(lg.get("matches", 0))
+            ht_matches_n = int(lg.get("ht_matches", 0))
+            score = _goal_score_league_from_stats(bet_key, lg)
+
+            rows.append((
+                score,
+                matches_n,
+                league,
+                bet_key,
+                ht_matches_n,
+                _safe_rate(lg.get("ft_goals_sum", 0.0), matches_n),
+                _safe_rate(lg.get("ht_goals_sum", 0.0), ht_matches_n),
+                int(lg.get("ft_total_0", 0)),
+                int(lg.get("ft_total_1", 0)),
+                int(lg.get("ft_total_2", 0)),
+                int(lg.get("ft_total_3", 0)),
+                int(lg.get("ft_total_4_plus", 0)),
+                _safe_rate(lg.get("o05_hits", 0.0), matches_n),
+                _safe_rate(lg.get("o15_hits", 0.0), matches_n),
+                _safe_rate(lg.get("o25_hits", 0.0), matches_n),
+                _safe_rate(lg.get("o35_hits", 0.0), matches_n),
+                _safe_rate(lg.get("exact_2_hits", 0.0), matches_n),
+                _safe_rate(lg.get("exact_3_hits", 0.0), matches_n),
+                _safe_rate(lg.get("home_scored_hits", 0.0), matches_n),
+                _safe_rate(lg.get("away_scored_hits", 0.0), matches_n),
+                _safe_rate(lg.get("btts_hits", 0.0), matches_n),
+                _safe_rate(lg.get("home_win_hits", 0.0), matches_n),
+                _safe_rate(lg.get("draw_hits", 0.0), matches_n),
+                _safe_rate(lg.get("away_win_hits", 0.0), matches_n),
+                _safe_rate(lg.get("ht05_hits", 0.0), ht_matches_n),
+                _safe_rate(lg.get("ht15_hits", 0.0), ht_matches_n),
+                _safe_rate(lg.get("ht_home_lead_hits", 0.0), ht_matches_n),
+                _safe_rate(lg.get("ht_draw_hits", 0.0), ht_matches_n),
+                _safe_rate(lg.get("ht_away_lead_hits", 0.0), ht_matches_n),
+                _safe_rate(lg.get("ht1x_home_hits", 0.0), ht_matches_n),
+            ))
+
+        rows.sort(key=lambda x: (-x[0], -x[1], x[2], x[3]))
+
+        for row in rows:
+            (
+                score, matches_n, league, bet_key, ht_matches_n,
+                avg_ft_goals, avg_ht_goals,
+                g0, g1, g2, g3, g4p,
+                r_o05, r_o15, r_o25, r_o35, r_ex2, r_ex3,
+                r_home_sc, r_away_sc, r_btts,
+                r_hw, r_dr, r_aw,
+                r_ht05, r_ht15, r_ht_hlead, r_ht_draw, r_ht_alead, r_ht1x
+            ) = row
+
+            f.write(
+                f"{league}\t{bet_key}\t{matches_n}\t{ht_matches_n}\t"
+                f"{avg_ft_goals:.6f}\t{avg_ht_goals:.6f}\t"
+                f"{g0}\t{g1}\t{g2}\t{g3}\t{g4p}\t"
+                f"{r_o05:.6f}\t{r_o15:.6f}\t{r_o25:.6f}\t{r_o35:.6f}\t"
+                f"{r_ex2:.6f}\t{r_ex3:.6f}\t"
+                f"{r_home_sc:.6f}\t{r_away_sc:.6f}\t{r_btts:.6f}\t"
+                f"{r_hw:.6f}\t{r_dr:.6f}\t{r_aw:.6f}\t"
+                f"{r_ht05:.6f}\t{r_ht15:.6f}\t"
+                f"{r_ht_hlead:.6f}\t{r_ht_draw:.6f}\t{r_ht_alead:.6f}\t{r_ht1x:.6f}\t"
+                f"{score:.6f}\n"
+            )
+
+    # -------------------------------------------------
+    # 5) WRITE goals team (DETAILLED)
+    # -------------------------------------------------
+    with TRISKELE_GOALS_TEAM_BET_FILE.open("w", encoding="utf-8") as f:
+        f.write(
+            "# league\tteam\tbet_key\tmatches\tht_matches\t"
+            "avg_goals_for\tavg_goals_against\tavg_goals_total\t"
+            "avg_ht_goals_for\tavg_ht_goals_against\tavg_ht_goals_total\t"
+            "goals_for_0\tgoals_for_1\tgoals_for_2\tgoals_for_3_plus\t"
+            "total_0\ttotal_1\ttotal_2\ttotal_3\ttotal_4_plus\t"
+            "rate_scored\trate_conceded\trate_clean_sheet\trate_failed_to_score\t"
+            "rate_win\trate_draw\trate_loss\t"
+            "rate_o15_match\trate_o25_match\trate_o35_match\t"
+            "rate_exact_2_match\trate_exact_3_match\t"
+            "rate_ht05_match\trate_ht15_match\trate_ht_lead\trate_ht_draw\trate_ht_trail\trate_ht1x\t"
+            "goals_score\n"
+        )
+
+        rows = []
+        for (league, team, bet_key), _agg in team_bet.items():
+            tg = team_goal_stats.get((league, team, bet_key), _make_empty_team_goal_stats())
+            matches_n = int(tg.get("matches", 0))
+            ht_matches_n = int(tg.get("ht_matches", 0))
+            score = _goal_score_team_from_stats(bet_key, tg)
+
+            rows.append((
+                score,
+                matches_n,
+                league,
+                team,
+                bet_key,
+                ht_matches_n,
+                _safe_rate(tg.get("goals_for_sum", 0.0), matches_n),
+                _safe_rate(tg.get("goals_against_sum", 0.0), matches_n),
+                _safe_rate(tg.get("goals_total_sum", 0.0), matches_n),
+                _safe_rate(tg.get("ht_goals_for_sum", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht_goals_against_sum", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht_goals_total_sum", 0.0), ht_matches_n),
+                int(tg.get("gf_0", 0)),
+                int(tg.get("gf_1", 0)),
+                int(tg.get("gf_2", 0)),
+                int(tg.get("gf_3_plus", 0)),
+                int(tg.get("total_0", 0)),
+                int(tg.get("total_1", 0)),
+                int(tg.get("total_2", 0)),
+                int(tg.get("total_3", 0)),
+                int(tg.get("total_4_plus", 0)),
+                _safe_rate(tg.get("scored_hits", 0.0), matches_n),
+                _safe_rate(tg.get("conceded_hits", 0.0), matches_n),
+                _safe_rate(tg.get("clean_sheet_hits", 0.0), matches_n),
+                _safe_rate(tg.get("failed_to_score_hits", 0.0), matches_n),
+                _safe_rate(tg.get("win_hits", 0.0), matches_n),
+                _safe_rate(tg.get("draw_hits", 0.0), matches_n),
+                _safe_rate(tg.get("loss_hits", 0.0), matches_n),
+                _safe_rate(tg.get("o15_hits", 0.0), matches_n),
+                _safe_rate(tg.get("o25_hits", 0.0), matches_n),
+                _safe_rate(tg.get("o35_hits", 0.0), matches_n),
+                _safe_rate(tg.get("exact_2_hits", 0.0), matches_n),
+                _safe_rate(tg.get("exact_3_hits", 0.0), matches_n),
+                _safe_rate(tg.get("ht05_hits", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht15_hits", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht_lead_hits", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht_draw_hits", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht_trail_hits", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht1x_hits", 0.0), ht_matches_n),
+            ))
+
+        rows.sort(key=lambda x: (-x[0], -x[1], x[2], x[3], x[4]))
+
+        for row in rows:
+            (
+                score, matches_n, league, team, bet_key, ht_matches_n,
+                avg_gf, avg_ga, avg_gt,
+                avg_ht_gf, avg_ht_ga, avg_ht_gt,
+                gf0, gf1, gf2, gf3p,
+                t0, t1, t2, t3, t4p,
+                r_scored, r_conceded, r_cs, r_fts,
+                r_win, r_draw, r_loss,
+                r_o15, r_o25, r_o35, r_ex2, r_ex3,
+                r_ht05, r_ht15, r_ht_lead, r_ht_draw, r_ht_trail, r_ht1x
+            ) = row
+
+            f.write(
+                f"{league}\t{team}\t{bet_key}\t{matches_n}\t{ht_matches_n}\t"
+                f"{avg_gf:.6f}\t{avg_ga:.6f}\t{avg_gt:.6f}\t"
+                f"{avg_ht_gf:.6f}\t{avg_ht_ga:.6f}\t{avg_ht_gt:.6f}\t"
+                f"{gf0}\t{gf1}\t{gf2}\t{gf3p}\t"
+                f"{t0}\t{t1}\t{t2}\t{t3}\t{t4p}\t"
+                f"{r_scored:.6f}\t{r_conceded:.6f}\t{r_cs:.6f}\t{r_fts:.6f}\t"
+                f"{r_win:.6f}\t{r_draw:.6f}\t{r_loss:.6f}\t"
+                f"{r_o15:.6f}\t{r_o25:.6f}\t{r_o35:.6f}\t"
+                f"{r_ex2:.6f}\t{r_ex3:.6f}\t"
+                f"{r_ht05:.6f}\t{r_ht15:.6f}\t{r_ht_lead:.6f}\t{r_ht_draw:.6f}\t{r_ht_trail:.6f}\t{r_ht1x:.6f}\t"
+                f"{score:.6f}\n"
+            )
+
+    # -------------------------------------------------
+    # 6) WRITE composite league (DETAILLED)
     # -------------------------------------------------
     with TRISKELE_COMPOSITE_LEAGUE_BET_FILE.open("w", encoding="utf-8") as f:
-        f.write("# league\tbet_key\tsamples\tsuccess\tfail\tbase_rate\tgoals_score\tcomposite_score\n")
+        f.write(
+            "# league\tbet_key\tsamples\tsuccess\tfail\tbase_rate\t"
+            "matches\tht_matches\tavg_ft_goals\tavg_ht_goals\t"
+            "goals_0\tgoals_1\tgoals_2\tgoals_3\tgoals_4_plus\t"
+            "rate_o05_ft\trate_o15_ft\trate_o25_ft\trate_o35_ft\t"
+            "rate_exact_2\trate_exact_3\t"
+            "home_scored_rate\taway_scored_rate\tbtts_rate\t"
+            "home_win_rate\tdraw_rate\taway_win_rate\t"
+            "rate_ht05\trate_ht15\t"
+            "rate_ht_home_lead\trate_ht_draw\trate_ht_away_lead\trate_ht1x_home\t"
+            "goals_score\tcomposite_score\n"
+        )
 
         rows = []
         for (league, bet_key), agg in league_bet.items():
@@ -1818,26 +2178,96 @@ def update_triskele_rankings_from_history() -> None:
             w = agg["success"]
             fail = s - w
             base_rate = (w / s) if s else 0.0
-            goals_score = _goal_score_league_from_stats(
-                bet_key,
-                league_goal_stats.get(league, _make_empty_league_goal_stats()),
-            )
+
+            lg = league_goal_stats.get(league, _make_empty_league_goal_stats())
+            matches_n = int(lg.get("matches", 0))
+            ht_matches_n = int(lg.get("ht_matches", 0))
+            goals_score = _goal_score_league_from_stats(bet_key, lg)
             composite = _composite_score(base_rate, goals_score)
-            rows.append((composite, s, league, bet_key, w, fail, base_rate, goals_score))
+
+            rows.append((
+                composite,
+                s,
+                league,
+                bet_key,
+                w,
+                fail,
+                base_rate,
+                matches_n,
+                ht_matches_n,
+                _safe_rate(lg.get("ft_goals_sum", 0.0), matches_n),
+                _safe_rate(lg.get("ht_goals_sum", 0.0), ht_matches_n),
+                int(lg.get("ft_total_0", 0)),
+                int(lg.get("ft_total_1", 0)),
+                int(lg.get("ft_total_2", 0)),
+                int(lg.get("ft_total_3", 0)),
+                int(lg.get("ft_total_4_plus", 0)),
+                _safe_rate(lg.get("o05_hits", 0.0), matches_n),
+                _safe_rate(lg.get("o15_hits", 0.0), matches_n),
+                _safe_rate(lg.get("o25_hits", 0.0), matches_n),
+                _safe_rate(lg.get("o35_hits", 0.0), matches_n),
+                _safe_rate(lg.get("exact_2_hits", 0.0), matches_n),
+                _safe_rate(lg.get("exact_3_hits", 0.0), matches_n),
+                _safe_rate(lg.get("home_scored_hits", 0.0), matches_n),
+                _safe_rate(lg.get("away_scored_hits", 0.0), matches_n),
+                _safe_rate(lg.get("btts_hits", 0.0), matches_n),
+                _safe_rate(lg.get("home_win_hits", 0.0), matches_n),
+                _safe_rate(lg.get("draw_hits", 0.0), matches_n),
+                _safe_rate(lg.get("away_win_hits", 0.0), matches_n),
+                _safe_rate(lg.get("ht05_hits", 0.0), ht_matches_n),
+                _safe_rate(lg.get("ht15_hits", 0.0), ht_matches_n),
+                _safe_rate(lg.get("ht_home_lead_hits", 0.0), ht_matches_n),
+                _safe_rate(lg.get("ht_draw_hits", 0.0), ht_matches_n),
+                _safe_rate(lg.get("ht_away_lead_hits", 0.0), ht_matches_n),
+                _safe_rate(lg.get("ht1x_home_hits", 0.0), ht_matches_n),
+                goals_score,
+            ))
 
         rows.sort(key=lambda x: (-x[0], -x[1], x[2], x[3]))
 
-        for composite, s, league, bet_key, w, fail, base_rate, goals_score in rows:
+        for row in rows:
+            (
+                composite, s, league, bet_key, w, fail, base_rate,
+                matches_n, ht_matches_n, avg_ft_goals, avg_ht_goals,
+                g0, g1, g2, g3, g4p,
+                r_o05, r_o15, r_o25, r_o35, r_ex2, r_ex3,
+                r_home_sc, r_away_sc, r_btts,
+                r_hw, r_dr, r_aw,
+                r_ht05, r_ht15, r_ht_hlead, r_ht_draw, r_ht_alead, r_ht1x,
+                goals_score
+            ) = row
+
             f.write(
-                f"{league}\t{bet_key}\t{s}\t{w}\t{fail}\t"
-                f"{base_rate:.6f}\t{goals_score:.6f}\t{composite:.6f}\n"
+                f"{league}\t{bet_key}\t{s}\t{w}\t{fail}\t{base_rate:.6f}\t"
+                f"{matches_n}\t{ht_matches_n}\t{avg_ft_goals:.6f}\t{avg_ht_goals:.6f}\t"
+                f"{g0}\t{g1}\t{g2}\t{g3}\t{g4p}\t"
+                f"{r_o05:.6f}\t{r_o15:.6f}\t{r_o25:.6f}\t{r_o35:.6f}\t"
+                f"{r_ex2:.6f}\t{r_ex3:.6f}\t"
+                f"{r_home_sc:.6f}\t{r_away_sc:.6f}\t{r_btts:.6f}\t"
+                f"{r_hw:.6f}\t{r_dr:.6f}\t{r_aw:.6f}\t"
+                f"{r_ht05:.6f}\t{r_ht15:.6f}\t"
+                f"{r_ht_hlead:.6f}\t{r_ht_draw:.6f}\t{r_ht_alead:.6f}\t{r_ht1x:.6f}\t"
+                f"{goals_score:.6f}\t{composite:.6f}\n"
             )
 
     # -------------------------------------------------
-    # 7) WRITE composite team
+    # 7) WRITE composite team (DETAILLED)
     # -------------------------------------------------
     with TRISKELE_COMPOSITE_TEAM_BET_FILE.open("w", encoding="utf-8") as f:
-        f.write("# league\tteam\tbet_key\tsamples\tsuccess\tfail\tbase_rate\tgoals_score\tcomposite_score\n")
+        f.write(
+            "# league\tteam\tbet_key\tsamples\tsuccess\tfail\tbase_rate\t"
+            "matches\tht_matches\t"
+            "avg_goals_for\tavg_goals_against\tavg_goals_total\t"
+            "avg_ht_goals_for\tavg_ht_goals_against\tavg_ht_goals_total\t"
+            "goals_for_0\tgoals_for_1\tgoals_for_2\tgoals_for_3_plus\t"
+            "total_0\ttotal_1\ttotal_2\ttotal_3\ttotal_4_plus\t"
+            "rate_scored\trate_conceded\trate_clean_sheet\trate_failed_to_score\t"
+            "rate_win\trate_draw\trate_loss\t"
+            "rate_o15_match\trate_o25_match\trate_o35_match\t"
+            "rate_exact_2_match\trate_exact_3_match\t"
+            "rate_ht05_match\trate_ht15_match\trate_ht_lead\trate_ht_draw\trate_ht_trail\trate_ht1x\t"
+            "goals_score\tcomposite_score\n"
+        )
 
         rows = []
         for (league, team, bet_key), agg in team_bet.items():
@@ -1845,19 +2275,90 @@ def update_triskele_rankings_from_history() -> None:
             w = agg["success"]
             fail = s - w
             base_rate = (w / s) if s else 0.0
-            goals_score = _goal_score_team_from_stats(
-                bet_key,
-                team_goal_stats.get((league, team, bet_key), _make_empty_team_goal_stats()),
-            )
+
+            tg = team_goal_stats.get((league, team, bet_key), _make_empty_team_goal_stats())
+            matches_n = int(tg.get("matches", 0))
+            ht_matches_n = int(tg.get("ht_matches", 0))
+            goals_score = _goal_score_team_from_stats(bet_key, tg)
             composite = _composite_score(base_rate, goals_score)
-            rows.append((composite, s, league, team, bet_key, w, fail, base_rate, goals_score))
+
+            rows.append((
+                composite,
+                s,
+                league,
+                team,
+                bet_key,
+                w,
+                fail,
+                base_rate,
+                matches_n,
+                ht_matches_n,
+                _safe_rate(tg.get("goals_for_sum", 0.0), matches_n),
+                _safe_rate(tg.get("goals_against_sum", 0.0), matches_n),
+                _safe_rate(tg.get("goals_total_sum", 0.0), matches_n),
+                _safe_rate(tg.get("ht_goals_for_sum", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht_goals_against_sum", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht_goals_total_sum", 0.0), ht_matches_n),
+                int(tg.get("gf_0", 0)),
+                int(tg.get("gf_1", 0)),
+                int(tg.get("gf_2", 0)),
+                int(tg.get("gf_3_plus", 0)),
+                int(tg.get("total_0", 0)),
+                int(tg.get("total_1", 0)),
+                int(tg.get("total_2", 0)),
+                int(tg.get("total_3", 0)),
+                int(tg.get("total_4_plus", 0)),
+                _safe_rate(tg.get("scored_hits", 0.0), matches_n),
+                _safe_rate(tg.get("conceded_hits", 0.0), matches_n),
+                _safe_rate(tg.get("clean_sheet_hits", 0.0), matches_n),
+                _safe_rate(tg.get("failed_to_score_hits", 0.0), matches_n),
+                _safe_rate(tg.get("win_hits", 0.0), matches_n),
+                _safe_rate(tg.get("draw_hits", 0.0), matches_n),
+                _safe_rate(tg.get("loss_hits", 0.0), matches_n),
+                _safe_rate(tg.get("o15_hits", 0.0), matches_n),
+                _safe_rate(tg.get("o25_hits", 0.0), matches_n),
+                _safe_rate(tg.get("o35_hits", 0.0), matches_n),
+                _safe_rate(tg.get("exact_2_hits", 0.0), matches_n),
+                _safe_rate(tg.get("exact_3_hits", 0.0), matches_n),
+                _safe_rate(tg.get("ht05_hits", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht15_hits", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht_lead_hits", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht_draw_hits", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht_trail_hits", 0.0), ht_matches_n),
+                _safe_rate(tg.get("ht1x_hits", 0.0), ht_matches_n),
+                goals_score,
+            ))
 
         rows.sort(key=lambda x: (-x[0], -x[1], x[2], x[3], x[4]))
 
-        for composite, s, league, team, bet_key, w, fail, base_rate, goals_score in rows:
+        for row in rows:
+            (
+                composite, s, league, team, bet_key, w, fail, base_rate,
+                matches_n, ht_matches_n,
+                avg_gf, avg_ga, avg_gt,
+                avg_ht_gf, avg_ht_ga, avg_ht_gt,
+                gf0, gf1, gf2, gf3p,
+                t0, t1, t2, t3, t4p,
+                r_scored, r_conceded, r_cs, r_fts,
+                r_win, r_draw, r_loss,
+                r_o15, r_o25, r_o35, r_ex2, r_ex3,
+                r_ht05, r_ht15, r_ht_lead, r_ht_draw, r_ht_trail, r_ht1x,
+                goals_score
+            ) = row
+
             f.write(
-                f"{league}\t{team}\t{bet_key}\t{s}\t{w}\t{fail}\t"
-                f"{base_rate:.6f}\t{goals_score:.6f}\t{composite:.6f}\n"
+                f"{league}\t{team}\t{bet_key}\t{s}\t{w}\t{fail}\t{base_rate:.6f}\t"
+                f"{matches_n}\t{ht_matches_n}\t"
+                f"{avg_gf:.6f}\t{avg_ga:.6f}\t{avg_gt:.6f}\t"
+                f"{avg_ht_gf:.6f}\t{avg_ht_ga:.6f}\t{avg_ht_gt:.6f}\t"
+                f"{gf0}\t{gf1}\t{gf2}\t{gf3p}\t"
+                f"{t0}\t{t1}\t{t2}\t{t3}\t{t4p}\t"
+                f"{r_scored:.6f}\t{r_conceded:.6f}\t{r_cs:.6f}\t{r_fts:.6f}\t"
+                f"{r_win:.6f}\t{r_draw:.6f}\t{r_loss:.6f}\t"
+                f"{r_o15:.6f}\t{r_o25:.6f}\t{r_o35:.6f}\t"
+                f"{r_ex2:.6f}\t{r_ex3:.6f}\t"
+                f"{r_ht05:.6f}\t{r_ht15:.6f}\t{r_ht_lead:.6f}\t{r_ht_draw:.6f}\t{r_ht_trail:.6f}\t{r_ht1x:.6f}\t"
+                f"{goals_score:.6f}\t{composite:.6f}\n"
             )
 
     print("🔥 BASELINE + GOALS + COMPOSITE recalculés depuis results.tsv")
