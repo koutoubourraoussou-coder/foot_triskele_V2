@@ -127,10 +127,10 @@ TEAM_RANKING_MODE   = "COMPOSITE"
 # ✅ Quel rideau on utilise pour chaque phase
 # options: "LEAGUE" | "TEAM"
 SYSTEM_BUILD_SOURCE  = "LEAGUE"   # génération des tickets SYSTEM
-SYSTEM_SELECT_SOURCE = "TEAMS"     # sélection finale des meilleurs tickets SYSTEM
+SYSTEM_SELECT_SOURCE = "LEAGUE"     # sélection finale des meilleurs tickets SYSTEM
 
 RANDOM_BUILD_SOURCE  = "LEAGUE"   # génération des tickets RANDOM
-RANDOM_SELECT_SOURCE = "TEAMS"     # sélection finale des meilleurs tickets RANDOM
+RANDOM_SELECT_SOURCE = "LEAGUE"     # sélection finale des meilleurs tickets RANDOM
 
 GLOBAL_VERDICT_HISTORY_FILE = Path("data/verdict_post_analyse.txt")
 
