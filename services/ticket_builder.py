@@ -15,7 +15,6 @@
 #      ✅ Random = tirage uniforme (hors contraintes de structure: 1 pick/match, fenêtres, etc.)
 #      ✅ FIX: même logique de reprise (1er match après fin du ticket) + tri par heure
 #
-#   ✅ UPDATE: on accepte HT1X & HT05
 #   ✅ MAESTROLOGUE: niveaux 1/2/3, défaut = 3 (détaillé), override via env
 #
 # ----------------------------------------------------
@@ -45,7 +44,7 @@ MIN_ACCEPT_ODD = 1.60
 
 MATCH_DURATION_MIN = 110
 
-# ✅ Exclusions (SYSTEM uniquement) — vide => on n'exclut plus HT05 ni HT1X
+# ✅ Exclusions (SYSTEM uniquement) — on exclut encore HT05 et HT1X pour l'instant
 EXCLUDED_BET_GROUPS: Set[str] = {"HT1X", "HT05"}
 
 MAX_LEG_SIZE = 4
@@ -113,9 +112,25 @@ WEIGHT_CEIL = 1.00
 # ----------------------------
 ENABLE_RANKINGS = True
 
-# ✅ Unique source : data/rankings/
-RANKINGS_LEAGUE_BET_FILE = Path("data/rankings/triskele_ranking_league_x_bet.tsv")
-RANKINGS_TEAM_BET_FILE   = Path("data/rankings/triskele_ranking_team_x_bet.tsv")
+# ✅ Fichiers dispo
+RANKINGS_LEAGUE_BET_FILE_CLASSIC = Path("data/rankings/triskele_ranking_league_x_bet.tsv")
+RANKINGS_TEAM_BET_FILE_CLASSIC   = Path("data/rankings/triskele_ranking_team_x_bet.tsv")
+
+RANKINGS_LEAGUE_BET_FILE_COMPOSITE = Path("data/rankings/triskele_composite_league_x_bet.tsv")
+RANKINGS_TEAM_BET_FILE_COMPOSITE   = Path("data/rankings/triskele_composite_team_x_bet.tsv")
+
+# ✅ Quel fichier on branche réellement
+# options: "CLASSIC" | "COMPOSITE"
+LEAGUE_RANKING_MODE = "COMPOSITE"
+TEAM_RANKING_MODE   = "COMPOSITE"
+
+# ✅ Quel rideau on utilise pour chaque phase
+# options: "LEAGUE" | "TEAM"
+SYSTEM_BUILD_SOURCE  = "LEAGUE"   # génération des tickets SYSTEM
+SYSTEM_SELECT_SOURCE = "TEAM"     # sélection finale des meilleurs tickets SYSTEM
+
+RANDOM_BUILD_SOURCE  = "LEAGUE"   # génération des tickets RANDOM
+RANDOM_SELECT_SOURCE = "TEAM"     # sélection finale des meilleurs tickets RANDOM
 
 GLOBAL_VERDICT_HISTORY_FILE = Path("data/verdict_post_analyse.txt")
 
@@ -135,8 +150,8 @@ PREFER_3LEGS_DELTA = 0.03
 # ----------------------------
 # ✅ TOP-K UNIFORM DRAW (cas commun SYSTEM + RANDOM)
 # ----------------------------
-TOPK_SIZE = 3  # réglable : 5,6,7,8,9,10...
-TOPK_UNIFORM_DRAW = False  # tu veux uniforme
+TOPK_SIZE = 5  # réglable : 5,6,7,8,9,10...
+TOPK_UNIFORM_DRAW = True  # tu veux uniforme
 
 # ====================================================
 # CONFIG PILOTABLE PAR OPTIMISEUR
@@ -773,10 +788,50 @@ def _detect_header_row(rows: List[List[str]], wanted: Set[str]) -> Tuple[Optiona
 
 _rankings_cache: dict | None = None
 
+def _resolve_ranking_paths() -> Tuple[Path, Path]:
+    league_mode = (LEAGUE_RANKING_MODE or "").strip().upper()
+    team_mode = (TEAM_RANKING_MODE or "").strip().upper()
+
+    if league_mode == "COMPOSITE":
+        league_path = RANKINGS_LEAGUE_BET_FILE_COMPOSITE
+    else:
+        league_path = RANKINGS_LEAGUE_BET_FILE_CLASSIC
+
+    if team_mode == "COMPOSITE":
+        team_path = RANKINGS_TEAM_BET_FILE_COMPOSITE
+    else:
+        team_path = RANKINGS_TEAM_BET_FILE_CLASSIC
+
+    return league_path, team_path
+
+
+def _extract_rank_rate(row: dict) -> float:
+    """
+    Priorité :
+    - composite_score si présent
+    - success_rate sinon
+    """
+    if row is None:
+        return 0.0
+
+    if "composite_score" in row:
+        try:
+            return float(row.get("composite_score", 0.0) or 0.0)
+        except Exception:
+            return 0.0
+
+    try:
+        return float(row.get("win_rate", 0.0) or 0.0)
+    except Exception:
+        return 0.0
+
+
 def _load_rankings() -> Tuple[Optional[dict], Optional[dict]]:
     """
     Charge UNIQUEMENT les fichiers de data/rankings/.
-    ZÉRO fallback.
+    Accepte :
+      - fichiers CLASSIC : success_rate
+      - fichiers COMPOSITE : composite_score
     """
     global _rankings_cache
     if _rankings_cache is not None:
@@ -786,8 +841,7 @@ def _load_rankings() -> Tuple[Optional[dict], Optional[dict]]:
         _rankings_cache = {"league_bet": None, "team_bet": None}
         return None, None
 
-    league_path = RANKINGS_LEAGUE_BET_FILE
-    team_path = RANKINGS_TEAM_BET_FILE
+    league_path, team_path = _resolve_ranking_paths()
 
     missing = []
     if not (league_path.exists() and league_path.stat().st_size > 0):
@@ -803,10 +857,20 @@ def _load_rankings() -> Tuple[Optional[dict], Optional[dict]]:
     # LEAGUE x BET
     # ----------------------------
     rows = _read_tsv_rows(league_path)
-    wanted = {"league", "bet_key", "samples", "success", "fail", "success_rate"}
-    idx_map, data_start = _detect_header_row(rows, wanted)
 
     lb: dict = {}
+
+    header_classic = {"league", "bet_key", "samples", "success", "fail", "success_rate"}
+    header_composite = {"league", "bet_key", "samples", "success", "fail", "base_rate", "goals_score", "composite_score"}
+
+    idx_map, data_start = _detect_header_row(rows, header_classic)
+    is_composite = False
+
+    if idx_map is None:
+        idx_map, data_start = _detect_header_row(rows, header_composite)
+        if idx_map is not None:
+            is_composite = True
+
     for r in rows[data_start:]:
         try:
             cols = [c.strip() for c in r]
@@ -821,28 +885,53 @@ def _load_rankings() -> Tuple[Optional[dict], Optional[dict]]:
                 samples = int(cols[idx_map["samples"]])
                 success = int(cols[idx_map["success"]])
                 fail = int(cols[idx_map["fail"]])
-                success_rate = float(cols[idx_map["success_rate"]])
 
-                decided = samples
-                wins = success
-                losses = fail
-                win_rate = success_rate
+                if is_composite:
+                    rate = float(cols[idx_map["composite_score"]])
+                else:
+                    rate = float(cols[idx_map["success_rate"]])
+
+                lb[(league, bet_key)] = {
+                    "decided": samples,
+                    "wins": success,
+                    "losses": fail,
+                    "win_rate": rate,
+                    "is_composite": is_composite,
+                }
             else:
-                if len(cols) < 6:
-                    continue
-                league = cols[0]
-                bet_key = cols[1]
-                decided = int(cols[2])
-                wins = int(cols[3])
-                losses = int(cols[4])
-                win_rate = float(cols[5])
+                # fallback sans header
+                if len(cols) >= 8:
+                    # composite
+                    league = cols[0]
+                    bet_key = cols[1]
+                    samples = int(cols[2])
+                    success = int(cols[3])
+                    fail = int(cols[4])
+                    rate = float(cols[7])
 
-            lb[(league, bet_key)] = {
-                "decided": decided,
-                "wins": wins,
-                "losses": losses,
-                "win_rate": win_rate,
-            }
+                    lb[(league, bet_key)] = {
+                        "decided": samples,
+                        "wins": success,
+                        "losses": fail,
+                        "win_rate": rate,
+                        "is_composite": True,
+                    }
+                elif len(cols) >= 6:
+                    # classic
+                    league = cols[0]
+                    bet_key = cols[1]
+                    samples = int(cols[2])
+                    success = int(cols[3])
+                    fail = int(cols[4])
+                    rate = float(cols[5])
+
+                    lb[(league, bet_key)] = {
+                        "decided": samples,
+                        "wins": success,
+                        "losses": fail,
+                        "win_rate": rate,
+                        "is_composite": False,
+                    }
         except Exception:
             continue
 
@@ -852,10 +941,20 @@ def _load_rankings() -> Tuple[Optional[dict], Optional[dict]]:
     # TEAM x BET
     # ----------------------------
     rows = _read_tsv_rows(team_path)
-    wanted = {"league", "team", "bet_key", "samples", "success", "fail", "success_rate"}
-    idx_map, data_start = _detect_header_row(rows, wanted)
 
     tb: dict = {}
+
+    header_classic = {"league", "team", "bet_key", "samples", "success", "fail", "success_rate"}
+    header_composite = {"league", "team", "bet_key", "samples", "success", "fail", "base_rate", "goals_score", "composite_score"}
+
+    idx_map, data_start = _detect_header_row(rows, header_classic)
+    is_composite = False
+
+    if idx_map is None:
+        idx_map, data_start = _detect_header_row(rows, header_composite)
+        if idx_map is not None:
+            is_composite = True
+
     for r in rows[data_start:]:
         try:
             cols = [c.strip() for c in r]
@@ -871,29 +970,54 @@ def _load_rankings() -> Tuple[Optional[dict], Optional[dict]]:
                 samples = int(cols[idx_map["samples"]])
                 success = int(cols[idx_map["success"]])
                 fail = int(cols[idx_map["fail"]])
-                success_rate = float(cols[idx_map["success_rate"]])
 
-                decided = samples
-                wins = success
-                losses = fail
-                win_rate = success_rate
+                if is_composite:
+                    rate = float(cols[idx_map["composite_score"]])
+                else:
+                    rate = float(cols[idx_map["success_rate"]])
+
+                tb[(team, league, bet_key)] = {
+                    "decided": samples,
+                    "wins": success,
+                    "losses": fail,
+                    "win_rate": rate,
+                    "is_composite": is_composite,
+                }
             else:
-                if len(cols) < 7:
-                    continue
-                league = cols[0]
-                team = cols[1]
-                bet_key = cols[2]
-                decided = int(cols[3])
-                wins = int(cols[4])
-                losses = int(cols[5])
-                win_rate = float(cols[6])
+                if len(cols) >= 9:
+                    # composite
+                    league = cols[0]
+                    team = cols[1]
+                    bet_key = cols[2]
+                    samples = int(cols[3])
+                    success = int(cols[4])
+                    fail = int(cols[5])
+                    rate = float(cols[8])
 
-            tb[(team, league, bet_key)] = {
-                "decided": decided,
-                "wins": wins,
-                "losses": losses,
-                "win_rate": win_rate,
-            }
+                    tb[(team, league, bet_key)] = {
+                        "decided": samples,
+                        "wins": success,
+                        "losses": fail,
+                        "win_rate": rate,
+                        "is_composite": True,
+                    }
+                elif len(cols) >= 7:
+                    # classic
+                    league = cols[0]
+                    team = cols[1]
+                    bet_key = cols[2]
+                    samples = int(cols[3])
+                    success = int(cols[4])
+                    fail = int(cols[5])
+                    rate = float(cols[6])
+
+                    tb[(team, league, bet_key)] = {
+                        "decided": samples,
+                        "wins": success,
+                        "losses": fail,
+                        "win_rate": rate,
+                        "is_composite": False,
+                    }
         except Exception:
             continue
 
@@ -1031,6 +1155,96 @@ def _league_bet_is_eligible(
         return (not cfg.league_bet_require_data)
 
     return (wr is not None) and (wr >= cfg.league_bet_min_winrate)
+
+def _ticket_score_system_league(picks: List[Pick], league_bet: Optional[dict]) -> float:
+    if not picks:
+        return -1e9
+
+    vals: List[float] = []
+
+    for p in picks:
+        fam = _norm_bet_family(p.bet_key)
+        league = (p.league or "").strip()
+
+        wr, dec = _league_bet_rate(league_bet, league, fam)
+        if wr is not None and dec > 0:
+            c = _confidence_coef(dec, n_full=5, base=0.70)
+            vals.append(float(wr) * c)
+        else:
+            vals.append(0.0)
+
+    return sum(vals) / len(vals)
+
+
+def _system_match_mean_team_rate(p: Pick, team_bet: Optional[dict]) -> float:
+    if not ENABLE_RANKINGS:
+        return WEIGHT_BASELINE
+
+    fam = _norm_bet_family(p.bet_key)
+    league = (p.league or "").strip()
+    teams = _pick_primary_teams(p)
+
+    vals: List[float] = []
+    for t in teams:
+        wr, dec = _team_rate(team_bet, t, league, fam)
+        if wr is not None and dec > 0:
+            c = _confidence_coef(dec, n_full=5, base=0.70)
+            vals.append(float(wr) * c)
+
+    if not vals:
+        return WEIGHT_BASELINE
+
+    m = sum(vals) / len(vals)
+    return max(0.0, min(1.0, m))
+
+
+def _system_priority_weight_team(p: Pick, team_bet: Optional[dict]) -> float:
+    mean_wr = _system_match_mean_team_rate(p, team_bet)
+    w_perf = _winrate_to_weight(mean_wr)
+
+    o = float(p.odd or 1.0)
+    w_odd = (0.90 + 0.10 * min(2.0, o))
+
+    return max(RANK_EPS, w_perf) * w_odd
+
+
+def _system_generation_weight(
+    p: Pick,
+    league_bet: Optional[dict],
+    team_bet: Optional[dict],
+) -> float:
+    src = (SYSTEM_BUILD_SOURCE or "").strip().upper()
+
+    if src == "TEAM":
+        return _system_priority_weight_team(p, team_bet)
+
+    return _system_priority_weight_league(p, league_bet)
+
+
+def _system_ticket_final_score(
+    picks: List[Pick],
+    league_bet: Optional[dict],
+    team_bet: Optional[dict],
+) -> float:
+    src = (SYSTEM_SELECT_SOURCE or "").strip().upper()
+
+    if src == "LEAGUE":
+        return _ticket_score_system_league(picks, league_bet)
+
+    return _ticket_score_system(picks, league_bet, team_bet)
+
+
+def _random_ticket_final_score(
+    picks: List[Pick],
+    league_bet: Optional[dict],
+    team_bet: Optional[dict],
+) -> float:
+    src = (RANDOM_SELECT_SOURCE or "").strip().upper()
+
+    if src == "LEAGUE":
+        return _ticket_score_random(picks, league_bet)
+
+    return _ticket_score_random_team(picks, team_bet)
 
 def _system_accept_pick(p: Pick, league_bet: Optional[dict], team_bet: Optional[dict]) -> bool:
     cfg = T()
@@ -1342,18 +1556,44 @@ def filter_effective_system_pool(
 def filter_effective_random_pool(
     picks: List[Pick],
     league_bet: Optional[dict],
+    team_bet: Optional[dict],
 ) -> List[Pick]:
     """
-    Pool réellement jouable par le pipeline RANDOM :
-    - déjà filtré structurellement sur O15
-    - puis validé par le gate league x bet
+    Pool réellement jouable par le pipeline RANDOM.
+
+    Pilotable via RANDOM_BUILD_SOURCE :
+    - LEAGUE -> gate build sur league x bet
+    - TEAM   -> gate build sur team x bet
     """
     cfg = T()
     out: List[Pick] = []
+    build_src = (RANDOM_BUILD_SOURCE or "").strip().upper()
 
     for p in picks:
         fam = _norm_bet_family(p.bet_key)
         lg = (p.league or "").strip()
+
+        if build_src == "TEAM":
+            teams = _pick_primary_teams(p)
+
+            vals: List[Tuple[Optional[float], int]] = []
+            for team in teams:
+                vals.append(_team_rate(team_bet, team, lg, fam))
+
+            usable = [(wr, dec) for wr, dec in vals if dec > 0 and wr is not None]
+
+            if not usable:
+                if cfg.league_bet_require_data:
+                    continue
+                out.append(p)
+                continue
+
+            min_wr = min(float(wr) for wr, _dec in usable)
+            if min_wr >= float(cfg.league_bet_min_winrate):
+                out.append(p)
+            continue
+
+        # build_src == LEAGUE
         wr, dec = _league_bet_rate(league_bet, lg, fam)
 
         if dec <= 0:
@@ -1368,15 +1608,12 @@ def filter_effective_random_pool(
     out.sort(key=lambda x: (_time_to_minutes(x.time_str), -(x.odd or 0.0)))
     return out
 
-# ----------------------------
-# Tranches "physiques"
-# ----------------------------
-
 @dataclass(frozen=True)
 class Tranche:
     start_min: int
     end_min: int
     picks: List[Pick]
+
 
 def _unique_match_count(picks: List[Pick]) -> int:
     return len({_match_key(p) for p in picks})
@@ -1629,11 +1866,41 @@ def _system_reject_reason(p: Pick, league_bet: Optional[dict], team_bet: Optiona
 
     return None
 
-def _random_reject_reason(p: Pick, league_bet: Optional[dict]) -> Optional[str]:
+def _random_reject_reason(
+    p: Pick,
+    league_bet: Optional[dict],
+    team_bet: Optional[dict],
+) -> Optional[str]:
     cfg = T()
-
     fam = _norm_bet_family(p.bet_key)
     lg = (p.league or "").strip()
+    build_src = (RANDOM_BUILD_SOURCE or "").strip().upper()
+
+    if build_src == "TEAM":
+        teams = _pick_primary_teams(p)
+        vals: List[Tuple[str, Optional[float], int]] = []
+
+        for team in teams:
+            wr, dec = _team_rate(team_bet, team, lg, fam)
+            vals.append((team, wr, dec))
+
+        usable = [(team, wr, dec) for team, wr, dec in vals if dec > 0 and wr is not None]
+
+        if not usable:
+            if cfg.league_bet_require_data:
+                return f"RANDOM_TEAM_NO_DATA | league={lg} bet={fam} teams={[t for t in teams]} (require_data={cfg.league_bet_require_data})"
+            return None
+
+        min_team, min_wr, min_dec = min(usable, key=lambda x: float(x[1]))
+        if float(min_wr) < float(cfg.league_bet_min_winrate):
+            return (
+                f"RANDOM_TEAM_LOW_SR | league={lg} bet={fam} "
+                f"team={min_team} wr={float(min_wr):.2f} decided={int(min_dec)} "
+                f"(min_wr={cfg.league_bet_min_winrate:.2f})"
+            )
+        return None
+
+    # build_src == LEAGUE
     wr, dec = _league_bet_rate(league_bet, lg, fam)
 
     if dec <= 0:
@@ -1701,7 +1968,7 @@ def _diagnose_pool(
 
         if mode_u == "RANDOM":
             # RANDOM gate = league x bet (require_data=True)
-            reason = _random_reject_reason(p, league_bet)
+            reason = _random_reject_reason(p, league_bet, team_bet)
             if reason:
                 res["PERF_REJECT"].append(p)
                 res["REASONS"][_reason_key(p)] = reason
@@ -1732,12 +1999,12 @@ def _try_build_ticket_system(
     it = 0
     pool = list(picks)
 
-    weights = [_system_priority_weight_league(p, league_bet) for p in pool]
+    weights = [_system_generation_weight(p, league_bet, team_bet) for p in pool]
     if not any(w > 0 for w in weights):
         weights = [1.0 for _ in pool]
 
     def _final_score(ticket_picks: List[Pick]) -> float:
-        return _ticket_score_system(ticket_picks, league_bet, team_bet)
+        return _system_ticket_final_score(ticket_picks, league_bet, team_bet)
 
     def _build_exact(order: List[Pick], legs: int) -> Optional[List[Pick]]:
         chosen: List[Pick] = []
@@ -1809,7 +2076,9 @@ def _try_build_ticket_system(
         lines: List[str] = []
         lines.append("MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)")
         lines.append("-" * 58)
-        lines.append("- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus")
+        lines.append(
+    f"- generation_weights: {SYSTEM_BUILD_SOURCE} x BET (wr_adj = wr * coef(decided)) + small odd bonus"
+)
         lines.append(f"- règle: préférer 3L si écart <= {cfg.prefer_3legs_delta*100:.2f}%")
         lines.append(f"- iterations: {it} | valid_3L_found: {found3} | valid_4L_found: {found4}")
         lines.append(f"- top3_size: {len(items3)} | top4_size: {len(items4)}")
@@ -1855,7 +2124,9 @@ def _try_build_ticket_system(
             lines.append("- écart relatif: —")
 
         if chosen:
-            lines.append(f"=> choisi: {len(chosen)} legs | score={_fmt_score_pct(chosen_score)}")
+            lines.append(
+    f"=> choisi: {len(chosen)} legs | score={_fmt_score_pct(chosen_score)} | final_source={SYSTEM_SELECT_SOURCE}"
+)
             lines.append("")
             lines.append("Ticket choisi (aperçu)")
             lines.append("-" * 22)
@@ -1866,45 +2137,85 @@ def _try_build_ticket_system(
         lines.append("")
         _write_maestro_log("\n".join(lines) + "\n", append=True)
 
-    if mlevel >= 3 and chosen:
-        chosen_sorted = sorted(chosen, key=lambda p: _time_to_minutes(p.time_str))
-        score = _ticket_score_system(chosen_sorted, league_bet, team_bet)
-        details = [_explain_pick_system(p, league_bet, team_bet) for p in chosen_sorted]
+        if mlevel >= 3 and chosen:
+            chosen_sorted = sorted(chosen, key=lambda p: _time_to_minutes(p.time_str))
+            select_src = (SYSTEM_SELECT_SOURCE or "").strip().upper()
+            score = _system_ticket_final_score(chosen_sorted, league_bet, team_bet)
 
-        lines: List[str] = []
-        lines.append("MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM)")
-        lines.append("-" * 56)
-        lines.append(f"- score ticket: {score:.3f} ({_fmt_pct(score)})")
-        lines.append(f"- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00")
-        lines.append("")
+            lines: List[str] = []
+            lines.append(f"MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, {select_src} x BET)")
+            lines.append("-" * 78)
+            lines.append(f"- score ticket: {score:.3f} ({_fmt_pct(score)})")
 
-        out_lines: List[str] = []
-        for i, d in enumerate(details, start=1):
-            p = chosen_sorted[i - 1]
-            out_lines.append(
-                f"{i}) {p.time_str} | {p.league} | {p.home} vs {p.away} | bet={d['fam']} | odd={_fmt_odd(p.odd)}"
-            )
+            if select_src == "LEAGUE":
+                lines.append("- formule: wr_adj = wr(league x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00")
+            else:
+                lines.append("- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00")
 
-            h = d["home"]
-            a = d["away"]
-            h_wr_str = "—" if h["wr"] is None else f"{float(h['wr']):.2f}"
-            a_wr_str = "—" if a["wr"] is None else f"{float(a['wr']):.2f}"
+            lines.append("")
 
-            out_lines.append(
-                f"   HOME {h['team']}: wr={h_wr_str} dec={h['dec']} coef={h['coef']:.3f} => adj={h['wr_adj']:.3f} ({_fmt_pct(h['wr_adj'])})"
-            )
-            out_lines.append(
-                f"   AWAY {a['team']}: wr={a_wr_str} dec={a['dec']} coef={a['coef']:.3f} => adj={a['wr_adj']:.3f} ({_fmt_pct(a['wr_adj'])})"
-            )
-            out_lines.append(f"   MEAN match: {d['mean']:.3f} ({_fmt_pct(d['mean'])})")
-            out_lines.append("")
+            out_lines: List[str] = []
 
-        if len(out_lines) > MAESTRO_MAX_DETAIL_LINES:
-            out_lines = out_lines[:MAESTRO_MAX_DETAIL_LINES] + ["… (détails coupés: MAESTRO_MAX_DETAIL_LINES)"]
+            for i, p in enumerate(chosen_sorted, start=1):
+                fam = _norm_bet_family(p.bet_key)
+                lg = (p.league or "").strip()
 
-        lines.extend(out_lines)
-        lines.append("")
-        _write_maestro_log("\n".join(lines) + "\n", append=True)
+                out_lines.append(
+                    f"{i}) {p.time_str} | {p.league} | {p.home} vs {p.away} | bet={fam} | odd={_fmt_odd(p.odd)}"
+                )
+
+                if select_src == "LEAGUE":
+                    wr, dec = _league_bet_rate(league_bet, lg, fam)
+                    if wr is not None and dec > 0:
+                        coef = _confidence_coef(int(dec), n_full=5, base=0.70)
+                        adj = float(wr) * float(coef)
+                        out_lines.append(
+                            f"   LEAGUE {lg}: wr={float(wr):.2f} dec={int(dec)} coef={float(coef):.3f} => adj={float(adj):.3f} ({_fmt_pct(adj)})"
+                        )
+                    else:
+                        out_lines.append(
+                            f"   LEAGUE {lg}: wr=— dec=0 coef=0.000 => adj=0.000 ({_fmt_pct(0.0)})"
+                        )
+                else:
+                    vals: List[float] = []
+
+                    wr1, dec1 = _team_rate(team_bet, p.home, lg, fam)
+                    if wr1 is not None and dec1 > 0:
+                        coef1 = _confidence_coef(int(dec1), n_full=5, base=0.70)
+                        adj1 = float(wr1) * float(coef1)
+                        vals.append(adj1)
+                        out_lines.append(
+                            f"   HOME {p.home}: wr={float(wr1):.2f} dec={int(dec1)} coef={float(coef1):.3f} => adj={float(adj1):.3f} ({_fmt_pct(adj1)})"
+                        )
+                    else:
+                        out_lines.append(
+                            f"   HOME {p.home}: wr=— dec=0 coef=0.000 => adj=0.000 ({_fmt_pct(0.0)})"
+                        )
+
+                    wr2, dec2 = _team_rate(team_bet, p.away, lg, fam)
+                    if wr2 is not None and dec2 > 0:
+                        coef2 = _confidence_coef(int(dec2), n_full=5, base=0.70)
+                        adj2 = float(wr2) * float(coef2)
+                        vals.append(adj2)
+                        out_lines.append(
+                            f"   AWAY {p.away}: wr={float(wr2):.2f} dec={int(dec2)} coef={float(coef2):.3f} => adj={float(adj2):.3f} ({_fmt_pct(adj2)})"
+                        )
+                    else:
+                        out_lines.append(
+                            f"   AWAY {p.away}: wr=— dec=0 coef=0.000 => adj=0.000 ({_fmt_pct(0.0)})"
+                        )
+
+                    mean = (sum(vals) / len(vals)) if vals else 0.0
+                    out_lines.append(f"   MEAN match: {mean:.3f} ({_fmt_pct(mean)})")
+
+                out_lines.append("")
+
+            if len(out_lines) > MAESTRO_MAX_DETAIL_LINES:
+                out_lines = out_lines[:MAESTRO_MAX_DETAIL_LINES] + ["… (détails coupés: MAESTRO_MAX_DETAIL_LINES)"]
+
+            lines.extend(out_lines)
+            lines.append("")
+            _write_maestro_log("\n".join(lines) + "\n", append=True)
 
     return chosen
 
@@ -1920,55 +2231,91 @@ def _try_build_ticket_random(
 
     if not picks:
         return None
-    if league_bet is None:
-        return None
 
     deadline = _deadline_ms(cfg.search_budget_ms_random)
     it = 0
     pool = list(picks)
 
+    build_src = (RANDOM_BUILD_SOURCE or "").strip().upper()
+    select_src = (RANDOM_SELECT_SOURCE or "").strip().upper()
+
     def _random_accept_pick(p: Pick) -> bool:
         fam = _norm_bet_family(p.bet_key)
         lg = (p.league or "").strip()
+
+        if build_src == "TEAM":
+            teams = _pick_primary_teams(p)
+            vals: List[Tuple[Optional[float], int]] = []
+
+            for team in teams:
+                vals.append(_team_rate(team_bet, team, lg, fam))
+
+            usable = [(wr, dec) for wr, dec in vals if dec > 0 and wr is not None]
+
+            if not usable:
+                return (not cfg.league_bet_require_data)
+
+            min_wr = min(float(wr) for wr, _dec in usable)
+            return min_wr >= float(cfg.league_bet_min_winrate)
+
         wr, dec = _league_bet_rate(league_bet, lg, fam)
         if dec <= 0:
             return (not cfg.league_bet_require_data)
         return (wr is not None) and (float(wr) >= float(cfg.league_bet_min_winrate))
 
-    wr_by_pick: List[Optional[float]] = []
+    score_by_pick: List[Optional[float]] = []
+
     for p in pool:
         fam = _norm_bet_family(p.bet_key)
         lg = (p.league or "").strip()
-        wr, dec = _league_bet_rate(league_bet, lg, fam)
-        if wr is not None and dec > 0:
-            c = _confidence_coef(int(dec), n_full=5, base=0.70)
-            wr_by_pick.append(float(wr) * float(c))
-        else:
-            wr_by_pick.append(None)
 
-    valid = [w for w in wr_by_pick if w is not None]
+        if build_src == "TEAM":
+            teams = _pick_primary_teams(p)
+            vals: List[float] = []
+
+            for team in teams:
+                wr, dec = _team_rate(team_bet, team, lg, fam)
+                if wr is not None and dec > 0:
+                    c = _confidence_coef(int(dec), n_full=5, base=0.70)
+                    vals.append(float(wr) * float(c))
+
+            if vals:
+                score_by_pick.append(sum(vals) / len(vals))
+            else:
+                score_by_pick.append(None)
+
+        else:
+            wr, dec = _league_bet_rate(league_bet, lg, fam)
+            if wr is not None and dec > 0:
+                c = _confidence_coef(int(dec), n_full=5, base=0.70)
+                score_by_pick.append(float(wr) * float(c))
+            else:
+                score_by_pick.append(None)
+
+    valid = [w for w in score_by_pick if w is not None]
     mn = min(valid) if valid else None
     mx = max(valid) if valid else None
 
-    def _weight_from_wr_adj(wr_adj: float | None, odd: Optional[float]) -> float:
-        if wr_adj is None or mn is None or mx is None or mx == mn:
+    def _weight_from_rank_signal(rank_signal: float | None, odd: Optional[float]) -> float:
+        if rank_signal is None or mn is None or mx is None or mx == mn:
             w_perf = 1.0
         else:
-            w_perf = 1.0 + (float(wr_adj) - float(mn)) / (float(mx) - float(mn))
+            w_perf = 1.0 + (float(rank_signal) - float(mn)) / (float(mx) - float(mn))
             w_perf = max(1.0, min(2.0, w_perf))
 
         o = float(odd or 1.0)
         w_odd = (0.90 + 0.10 * min(2.0, o))
         return max(RANK_EPS, float(w_perf) * float(w_odd))
 
-    weights = [_weight_from_wr_adj(w, p.odd) for w, p in zip(wr_by_pick, pool)]
+    weights = [_weight_from_rank_signal(w, p.odd) for w, p in zip(score_by_pick, pool)]
     if not any(w > 0 for w in weights):
         weights = [1.0 for _ in pool]
 
-    rejected_by_league_gate = 0
+    rejected_by_build_gate = 0
 
     def _build_exact(order: List[Pick], wanted_legs: int) -> Optional[List[Pick]]:
-        nonlocal rejected_by_league_gate
+        nonlocal rejected_by_build_gate
+
         chosen: List[Pick] = []
         used_matches: set[str] = set()
         total = 1.0
@@ -1979,7 +2326,7 @@ def _try_build_ticket_random(
                 continue
 
             if not _random_accept_pick(p):
-                rejected_by_league_gate += 1
+                rejected_by_build_gate += 1
                 continue
 
             chosen.append(p)
@@ -1996,7 +2343,7 @@ def _try_build_ticket_random(
         return chosen
 
     def _final_score(ticket_picks: List[Pick]) -> float:
-        return _ticket_score_random_team(ticket_picks, team_bet)
+        return _random_ticket_final_score(ticket_picks, league_bet, team_bet)
 
     top3 = _TopK(cfg.topk_size)
     top4 = _TopK(cfg.topk_size)
@@ -2050,12 +2397,16 @@ def _try_build_ticket_random(
         lines: List[str] = []
         lines.append("MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)")
         lines.append("-" * 64)
-        lines.append(f"- gate_build: LEAGUE x BET >= {cfg.league_bet_min_winrate:.2f} (require_data={cfg.league_bet_require_data})")
-        lines.append("- score_select: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)")
+        lines.append(
+            f"- build_source: {build_src} x BET >= {cfg.league_bet_min_winrate:.2f} (require_data={cfg.league_bet_require_data})"
+        )
+        lines.append(
+            f"- select_source: {select_src} x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)"
+        )
         lines.append(f"- règle: préférer 3L si écart <= {cfg.prefer_3legs_delta*100:.2f}%")
         lines.append(f"- iterations: {it} | valid_3L_found: {found3} | valid_4L_found: {found4}")
         lines.append(f"- top3_size: {len(items3)} | top4_size: {len(items4)}")
-        lines.append(f"- rejected_by_league_gate (approx): {rejected_by_league_gate}")
+        lines.append(f"- rejected_by_build_gate (approx): {rejected_by_build_gate}")
         lines.append("")
 
         def _snap(items: List[_TopKItem], tag: str) -> None:
@@ -2096,7 +2447,9 @@ def _try_build_ticket_random(
             lines.append("- écart relatif: —")
 
         if chosen:
-            lines.append(f"=> choisi: {len(chosen)} legs | score={_fmt_score_pct(chosen_score)}")
+            lines.append(
+                f"=> choisi: {len(chosen)} legs | score={_fmt_score_pct(chosen_score)} | final_source={select_src}"
+            )
             lines.append("")
             lines.append("Ticket choisi (aperçu)")
             lines.append("-" * 22)
@@ -2109,13 +2462,13 @@ def _try_build_ticket_random(
 
     if mlevel >= 3 and chosen:
         chosen_sorted = sorted(chosen, key=lambda p: _time_to_minutes(p.time_str))
-        score = _ticket_score_random_team(chosen_sorted, team_bet)
+        score = _random_ticket_final_score(chosen_sorted, league_bet, team_bet)
 
         lines: List[str] = []
-        lines.append("MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)")
+        lines.append(f"MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, {select_src} x BET)")
         lines.append("-" * 78)
         lines.append(f"- score ticket: {score:.3f} ({_fmt_pct(score)})")
-        lines.append("- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00")
+        lines.append("- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00")
         lines.append("")
 
         out_lines: List[str] = []
@@ -2123,53 +2476,48 @@ def _try_build_ticket_random(
             fam = _norm_bet_family(p.bet_key)
             lg = (p.league or "").strip()
 
-            wr1, dec1 = _team_rate(team_bet, p.home, lg, fam)
-            if wr1 is not None and dec1 > 0:
-                coef1 = _confidence_coef(int(dec1), n_full=5, base=0.70)
-                adj1 = float(wr1) * float(coef1)
-                wr1_str = f"{float(wr1):.2f}"
-                coef1_str = f"{float(coef1):.3f}"
-                adj1_str = f"{float(adj1):.3f}"
-                adj1_pct = _fmt_pct(adj1)
-            else:
-                wr1_str = "—"
-                dec1 = 0
-                coef1_str = "0.000"
-                adj1_str = "0.000"
-                adj1_pct = _fmt_pct(0.0)
-
-            wr2, dec2 = _team_rate(team_bet, p.away, lg, fam)
-            if wr2 is not None and dec2 > 0:
-                coef2 = _confidence_coef(int(dec2), n_full=5, base=0.70)
-                adj2 = float(wr2) * float(coef2)
-                wr2_str = f"{float(wr2):.2f}"
-                coef2_str = f"{float(coef2):.3f}"
-                adj2_str = f"{float(adj2):.3f}"
-                adj2_pct = _fmt_pct(adj2)
-            else:
-                wr2_str = "—"
-                dec2 = 0
-                coef2_str = "0.000"
-                adj2_str = "0.000"
-                adj2_pct = _fmt_pct(0.0)
-
-            vals: List[float] = []
-            if wr1 is not None and int(dec1 or 0) > 0:
-                vals.append(float(adj1_str))
-            if wr2 is not None and int(dec2 or 0) > 0:
-                vals.append(float(adj2_str))
-            mean = (sum(vals) / len(vals)) if vals else 0.0
-
             out_lines.append(
                 f"{i}) {p.time_str} | {p.league} | {p.home} vs {p.away} | bet={fam} | odd={_fmt_odd(p.odd)}"
             )
-            out_lines.append(
-                f"   HOME {p.home}: wr={wr1_str} dec={int(dec1)} coef={coef1_str} => adj={adj1_str} ({adj1_pct})"
-            )
-            out_lines.append(
-                f"   AWAY {p.away}: wr={wr2_str} dec={int(dec2)} coef={coef2_str} => adj={adj2_str} ({adj2_pct})"
-            )
-            out_lines.append(f"   MEAN match: {mean:.3f} ({_fmt_pct(mean)})")
+
+            if select_src == "LEAGUE":
+                wr, dec = _league_bet_rate(league_bet, lg, fam)
+                if wr is not None and dec > 0:
+                    coef = _confidence_coef(int(dec), n_full=5, base=0.70)
+                    adj = float(wr) * float(coef)
+                    out_lines.append(
+                        f"   LEAGUE {lg}: wr={float(wr):.2f} dec={int(dec)} coef={float(coef):.3f} => adj={float(adj):.3f} ({_fmt_pct(adj)})"
+                    )
+                else:
+                    out_lines.append(f"   LEAGUE {lg}: wr=— dec=0 coef=0.000 => adj=0.000 ({_fmt_pct(0.0)})")
+            else:
+                vals: List[float] = []
+
+                wr1, dec1 = _team_rate(team_bet, p.home, lg, fam)
+                if wr1 is not None and dec1 > 0:
+                    coef1 = _confidence_coef(int(dec1), n_full=5, base=0.70)
+                    adj1 = float(wr1) * float(coef1)
+                    vals.append(adj1)
+                    out_lines.append(
+                        f"   HOME {p.home}: wr={float(wr1):.2f} dec={int(dec1)} coef={float(coef1):.3f} => adj={float(adj1):.3f} ({_fmt_pct(adj1)})"
+                    )
+                else:
+                    out_lines.append(f"   HOME {p.home}: wr=— dec=0 coef=0.000 => adj=0.000 ({_fmt_pct(0.0)})")
+
+                wr2, dec2 = _team_rate(team_bet, p.away, lg, fam)
+                if wr2 is not None and dec2 > 0:
+                    coef2 = _confidence_coef(int(dec2), n_full=5, base=0.70)
+                    adj2 = float(wr2) * float(coef2)
+                    vals.append(adj2)
+                    out_lines.append(
+                        f"   AWAY {p.away}: wr={float(wr2):.2f} dec={int(dec2)} coef={float(coef2):.3f} => adj={float(adj2):.3f} ({_fmt_pct(adj2)})"
+                    )
+                else:
+                    out_lines.append(f"   AWAY {p.away}: wr=— dec=0 coef=0.000 => adj=0.000 ({_fmt_pct(0.0)})")
+
+                mean = (sum(vals) / len(vals)) if vals else 0.0
+                out_lines.append(f"   MEAN match: {mean:.3f} ({_fmt_pct(mean)})")
+
             out_lines.append("")
 
         if len(out_lines) > MAESTRO_MAX_DETAIL_LINES:
@@ -2810,7 +3158,7 @@ def generate_tickets_from_tsv(
             report_system = ""
 
         o15_random_pool_base = filter_o15_random_all(picks)
-        o15_random_pool_effective = filter_effective_random_pool(o15_random_pool_base, league_bet)
+        o15_random_pool_effective = filter_effective_random_pool(o15_random_pool_base, league_bet, team_bet)
 
         if not fast_mode:
             added_o15_random_pool_base = append_playable_picks_to_global(
