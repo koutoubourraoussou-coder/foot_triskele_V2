@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-03-13
+Date run       : 2026-03-15
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (98 ids)
+Whitelist      : ON (100 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 4
+Ignorés (date>=today)    : 0
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -815,10 +815,37 @@ Ignorés (date>=today)    : 4
    ✅ Leg 2) 20:00 | saudi arabia | Al-Hazm vs Al Kholood | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
    ✅ Leg 3) 20:00 | saudi arabia | NEOM vs Al Taawon | Over 1.5 (FT) | [FORT] | odd=1.28
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Vendredi 2026-03-13 17:45→21:50 | code=A2 | odd=2.21
+   id=2026-03-13_1745_64c6485f4d_O15R
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 17:45 | superligaen | Diosgyori VTK vs Kazincbarcikai | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+   ✅ Leg 2) 18:30 | 2. bundesliga | SpVgg Greuther Fürth vs SV Elversberg | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
+   ✅ Leg 3) 20:00 | eredivisie | PEC Zwolle vs Groningen | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ❌ Leg 4) 20:00 | saudi arabia | Al-Fayha vs Al-Ettifaq | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Samedi 2026-03-14 13:00→17:50 | code=A2 | odd=2.23
+   id=2026-03-14_1300_5e1b6b56c7_O15R
+   legs=4 | WIN=4 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 13:00 | 2. bundesliga | Holstein Kiel vs 1. FC Nürnberg | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+   ✅ Leg 2) 15:00 | serie b | Empoli vs Mantova | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.3
+   ✅ Leg 3) 15:30 | bundesliga | Borussia Dortmund vs FC Augsburg | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.17
+   ✅ Leg 4) 16:00 | premiership | Celtic vs Motherwell | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Samedi 2026-03-14 18:00→21:20 | code=A2 | odd=2.39
+   id=2026-03-14_1800_1241e861f9_O15R
+   legs=4 | WIN=2 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 18:00 | super lig | Trabzonspor vs Rizespor | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
+   ❌ Leg 2) 18:30 | premier league | Chelsea vs Newcastle | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.17
+   ✅ Leg 3) 19:00 | liga portugal | GIL Vicente vs Alverca | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
+   ✅ Leg 4) 19:30 | superligaen | Debreceni VSC vs Nyiregyhaza | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.3
+
 ====================================================================
-TOTAL tickets : 97
-✅ WIN     : 40
-❌ LOSS    : 55
+TOTAL tickets : 100
+✅ WIN     : 41
+❌ LOSS    : 57
 ⏳ PENDING : 2
 ====================================================================
 

@@ -1,12 +1,24 @@
 TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
 ==================================================
 
-📅 Vendredi 2026-03-13 — Tranche 1 (fenêtre ~195min)
----------------------------------------------------
+📅 Samedi 2026-03-14 — Tranche 1 (fenêtre ~180min)
+-------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-03-13_1745_0f20c39235_SYS — cote = 2.21 — fenêtre 17:45 → 22:50  
+  🎟️ TICKET 1.1 (A2) — id=2026-03-14_1300_8d98f1c3b3_SYS — cote = 2.32 — fenêtre 13:00 → 17:50  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 17:45 | superligaen | Diosgyori VTK vs Kazincbarcikai | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
-  2) 20:45 | cymru premier league | Haverfordwest County AFC vs Cardiff MET | Over 1.5 (FT) | EXPLOSION | odd=1.36
-  3) 21:00 | laliga | Alaves vs Villarreal | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
+  1) 13:00 | 2. bundesliga | Holstein Kiel vs 1. FC Nürnberg | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  2) 16:00 | championship | Leicester vs QPR | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3
+  3) 16:00 | premier league | Burnley vs Bournemouth | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  4) 16:00 | premiership | Celtic vs Motherwell | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+
+📅 Samedi 2026-03-14 — Tranche 2 (fenêtre ~150min)
+-------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-03-14_1800_ca3360f24f_SYS — cote = 2.24 — fenêtre 18:00 → 22:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 18:00 | super lig | Trabzonspor vs Rizespor | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  2) 18:30 | premier league | Chelsea vs Newcastle | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
+  3) 19:00 | liga portugal | GIL Vicente vs Alverca | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
+  4) 20:30 | 2. bundesliga | Hertha BSC vs VfL Bochum | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22

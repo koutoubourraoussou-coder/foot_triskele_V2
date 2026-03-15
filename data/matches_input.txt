@@ -1,33 +1,101 @@
-2026-03-13 18:30 | 2. bundesliga | 1. FC Magdeburg vs SV Darmstadt 98
-2026-03-13 18:30 | 2. bundesliga | SpVgg Greuther Fürth vs SV Elversberg
-2026-03-13 20:30 | bundesliga | Borussia Mönchengladbach vs FC St. Pauli
-2026-03-13 21:00 | championship | Wrexham vs Swansea
-2026-03-13 20:45 | cymru premier league | Caernarfon Town vs GAP Connah S Quay FC
-2026-03-13 20:45 | cymru premier league | Haverfordwest County AFC vs Cardiff MET
-2026-03-13 20:45 | cymru premier league | llanelli AFC vs Briton Ferry
-2026-03-13 20:00 | eredivisie | PEC Zwolle vs Groningen
-2026-03-13 21:00 | laliga | Alaves vs Villarreal
-2026-03-13 20:30 | laliga2 | Mirandes vs Cadiz
-2026-03-13 19:00 | liga portugal 2 | Farense vs Felgueiras 1932
-2026-03-13 19:00 | liga portugal 2 | Sporting CP B vs Chaves
-2026-03-13 22:30 | liga pro ecuador | Tecnico Universitario vs Libertad
-2026-03-13 01:30 | liga profesional argentina | Huracan vs River Plate
-2026-03-13 20:45 | ligue 1 | Marseille vs Auxerre
-2026-03-13 20:00 | ligue 2 | Bastia vs Boulogne
-2026-03-13 20:00 | ligue 2 | Clermont Foot vs PAU
-2026-03-13 20:00 | ligue 2 | Guingamp vs Amiens
-2026-03-13 20:00 | ligue 2 | Montpellier vs Laval
-2026-03-13 20:00 | ligue 2 | Nancy vs Le Mans
-2026-03-13 22:30 | primera división paraguay | Sportivo Luqueno vs Club Sp. San Lorenzo
-2026-03-13 20:45 | pro league | Gent vs Zulte Waregem
-2026-03-13 20:00 | saudi arabia | Al Riyadh vs Al-Ittihad FC
-2026-03-13 20:00 | saudi arabia | Al-Fayha vs Al-Ettifaq
-2026-03-13 20:00 | saudi arabia | Al-Qadisiyah FC vs Al-Ahli Jeddah
-2026-03-13 00:00 | serie a brazil | Sao Paulo vs Chapecoense-sc
-2026-03-13 01:30 | serie a brazil | Gremio vs RB Bragantino
-2026-03-13 20:45 | serie a italia | Torino vs Parma
-2026-03-13 20:30 | serie b | Modena vs Spezia
-2026-03-13 18:00 | super lig | Antalyaspor vs Gaziantep FK
-2026-03-13 18:00 | super lig | Fatih Karagümrük vs Fenerbahçe
-2026-03-13 17:45 | superligaen | Diosgyori VTK vs Kazincbarcikai
-2026-03-13 20:00 | superligaen | Gyori ETO FC vs MTK Budapest
+2026-03-14 13:00 | 2. bundesliga | Arminia Bielefeld vs SC Paderborn 07
+2026-03-14 13:00 | 2. bundesliga | Eintracht Braunschweig vs Fortuna Düsseldorf
+2026-03-14 13:00 | 2. bundesliga | Holstein Kiel vs 1. FC Nürnberg
+2026-03-14 20:30 | 2. bundesliga | Hertha BSC vs VfL Bochum
+2026-03-14 15:30 | bundesliga | 1899 Hoffenheim vs VfL Wolfsburg
+2026-03-14 15:30 | bundesliga | Bayer Leverkusen vs Bayern München
+2026-03-14 15:30 | bundesliga | Borussia Dortmund vs FC Augsburg
+2026-03-14 15:30 | bundesliga | Eintracht Frankfurt vs 1. FC Heidenheim
+2026-03-14 18:30 | bundesliga | Hamburger SV vs 1. FC Köln
+2026-03-14 13:30 | championship | Coventry vs Southampton
+2026-03-14 13:30 | championship | Middlesbrough vs Bristol City
+2026-03-14 13:30 | championship | Oxford United vs Charlton
+2026-03-14 16:00 | championship | Birmingham vs Sheffield Utd
+2026-03-14 16:00 | championship | Leicester vs QPR
+2026-03-14 16:00 | championship | Millwall vs Blackburn
+2026-03-14 16:00 | championship | Norwich vs Preston
+2026-03-14 16:00 | championship | Sheffield Wednesday vs Ipswich
+2026-03-14 16:00 | championship | Stoke City vs Watford
+2026-03-14 16:00 | championship | West Brom vs Hull City
+2026-03-14 13:30 | cymru premier league | Flint Town United vs Bala Town
+2026-03-14 15:30 | cymru premier league | Colwyn Bay vs Barry Town
+2026-03-14 15:30 | cymru premier league | Penybont vs The New Saints
+2026-03-14 15:00 | czech first league | Dukla Praha vs FK Jablonec
+2026-03-14 15:00 | czech first league | Hradec Králové vs Baník Ostrava
+2026-03-14 15:00 | czech first league | Mlada Boleslav vs Pardubice
+2026-03-14 18:00 | czech first league | Zlin vs Slavia Praha
+2026-03-14 16:30 | eredivisie | FC Volendam vs Fortuna Sittard
+2026-03-14 18:45 | eredivisie | PSV Eindhoven vs NEC Nijmegen
+2026-03-14 20:00 | eredivisie | Heerenveen vs Telstar
+2026-03-14 21:00 | eredivisie | Ajax vs Sparta Rotterdam
+2026-03-14 14:00 | laliga | Girona vs Athletic Club
+2026-03-14 16:15 | laliga | Atletico Madrid vs Getafe
+2026-03-14 18:30 | laliga | Oviedo vs Valencia
+2026-03-14 21:00 | laliga | Real Madrid vs Elche
+2026-03-14 16:15 | laliga2 | Cultural Leonesa vs Racing Santander
+2026-03-14 18:30 | laliga2 | Valladolid vs Leganes
+2026-03-14 18:30 | laliga2 | Zaragoza vs Almeria
+2026-03-14 21:00 | laliga2 | AD Ceuta FC vs Deportivo La Coruna
+2026-03-14 02:00 | liga mx | Puebla vs Necaxa
+2026-03-14 04:00 | liga mx | FC Juarez vs Monterrey
+2026-03-14 16:30 | liga portugal | Guimaraes vs Famalicao
+2026-03-14 19:00 | liga portugal | GIL Vicente vs Alverca
+2026-03-14 21:30 | liga portugal | Arouca vs Benfica
+2026-03-14 12:00 | liga portugal 2 | Academico Viseu vs Leixoes
+2026-03-14 15:00 | liga portugal 2 | Pacos Ferreira vs Benfica B
+2026-03-14 01:00 | liga pro ecuador | Deportivo Cuenca vs Leones del Norte
+2026-03-14 20:00 | liga pro ecuador | Independiente del Valle vs Aucas
+2026-03-14 22:30 | liga pro ecuador | Delfin SC vs Manta FC
+2026-03-14 00:00 | liga profesional argentina | Estudiantes L.P. vs Lanus
+2026-03-14 23:00 | liga profesional argentina | Platense vs Velez Sarsfield
+2026-03-14 17:00 | ligue 1 | Lorient vs Lens
+2026-03-14 19:00 | ligue 1 | Angers vs Nice
+2026-03-14 21:05 | ligue 1 | Monaco vs Stade Brestois 29
+2026-03-14 14:00 | ligue 2 | RED Star FC 93 vs Dunkerque
+2026-03-14 14:00 | ligue 2 | Reims vs Rodez
+2026-03-14 20:00 | ligue 2 | Grenoble vs Saint Etienne
+2026-03-14 18:00 | mls | Toronto FC vs New York Red Bulls
+2026-03-14 20:15 | mls | Atlanta United FC vs Philadelphia Union
+2026-03-14 23:15 | mls | Columbus Crew vs Nashville SC
+2026-03-14 16:00 | premier league | Burnley vs Bournemouth
+2026-03-14 16:00 | premier league | Sunderland vs Brighton
+2026-03-14 18:30 | premier league | Arsenal vs Everton
+2026-03-14 18:30 | premier league | Chelsea vs Newcastle
+2026-03-14 21:00 | premier league | West Ham vs Manchester City
+2026-03-14 16:00 | premiership | Aberdeen vs Falkirk
+2026-03-14 16:00 | premiership | Celtic vs Motherwell
+2026-03-14 16:00 | premiership | Hibernian vs Livingston
+2026-03-14 21:00 | premiership | Kilmarnock vs Heart Of Midlothian
+2026-03-14 00:20 | primera a colombia | Once Caldas vs Deportivo Pasto
+2026-03-14 02:30 | primera a colombia | Atletico Nacional vs Llaneros
+2026-03-14 20:00 | primera a colombia | Internacional de Bogota vs Bucaramanga
+2026-03-14 22:10 | primera a colombia | Cucuta vs Deportivo Cali
+2026-03-14 00:30 | primera división paraguay | 2 de Mayo vs Libertad Asuncion
+2026-03-14 22:30 | primera división paraguay | Deportivo Recoleta vs Olimpia
+2026-03-14 16:00 | pro league | Charleroi vs OH Leuven
+2026-03-14 18:15 | pro league | Union St. Gilloise vs Dender
+2026-03-14 20:45 | pro league | KVC Westerlo vs Club Brugge KV
+2026-03-14 20:00 | saudi arabia | Al Khaleej Saihat vs Al-Nassr
+2026-03-14 20:00 | saudi arabia | Al Shabab vs Al Okhdood
+2026-03-14 20:00 | saudi arabia | Al-Fateh vs Al-Hilal Saudi FC
+2026-03-14 22:30 | serie a brazil | Vitoria vs Atletico-MG
+2026-03-14 15:00 | serie a italia | Inter vs Atalanta
+2026-03-14 18:00 | serie a italia | Napoli vs Lecce
+2026-03-14 20:45 | serie a italia | Udinese vs Juventus
+2026-03-14 15:00 | serie b | Bari vs Reggiana
+2026-03-14 15:00 | serie b | Cesena vs Frosinone
+2026-03-14 15:00 | serie b | Empoli vs Mantova
+2026-03-14 15:00 | serie b | Juve Stabia vs Carrarese
+2026-03-14 15:00 | serie b | Padova vs Catanzaro
+2026-03-14 17:15 | serie b | Monza vs Palermo
+2026-03-14 19:30 | serie b | Sampdoria vs Venezia
+2026-03-14 18:00 | super league switzerland | FC Thun vs Grasshoppers
+2026-03-14 18:00 | super league switzerland | FC Zurich vs FC Sion
+2026-03-14 20:30 | super league switzerland | FC ST. Gallen vs FC Lugano
+2026-03-14 11:30 | super lig | Kocaelispor vs Konyaspor
+2026-03-14 18:00 | super lig | Galatasaray vs Başakşehir
+2026-03-14 18:00 | super lig | Göztepe vs Alanyaspor
+2026-03-14 18:00 | super lig | Trabzonspor vs Rizespor
+2026-03-14 14:30 | superligaen | Ujpest vs Kisvarda FC
+2026-03-14 17:00 | superligaen | Paks vs Zalaegerszegi TE
+2026-03-14 19:30 | superligaen | Debreceni VSC vs Nyiregyhaza

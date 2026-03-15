@@ -197,3 +197,93 @@ TSV: 2026-03-13	3290652820	O15_FT	21:00	laliga	Alaves	Villarreal	1.33	1391089	O1
 TSV: 2026-03-13	3265220663	O15_FT	22:30	liga pro ecuador	Tecnico Universitario	Libertad	1.44	1519287	O15_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-03-13	3254211547	O15_FT	22:30	primera división paraguay	Sportivo Luqueno	Club Sp. San Lorenzo	1.36	1505018	O15_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_BASE | 2026-03-15 03:15:13 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-14	2021447280	O15_FT	01:00	liga pro ecuador	Deportivo Cuenca	Leones del Norte	1.44	1519281	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	2852050703	O15_FT	02:00	liga mx	Puebla	Necaxa	1.22	1492553	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	800319859	O15_FT	02:30	primera a colombia	Atletico Nacional	Llaneros	1.22	1506028	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1039052641	O15_FT	04:00	liga mx	FC Juarez	Monterrey	1.22	1492555	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	2077768934	O15_FT	11:30	super lig	Kocaelispor	Konyaspor	1.44	1394664	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3641159449	O15_FT	12:00	liga portugal 2	Academico Viseu	Leixoes	1.36	1398194	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3382496301	O15_FT	13:00	2. bundesliga	Eintracht Braunschweig	Fortuna Düsseldorf	1.25	1388840	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3664366350	O15_FT	13:00	2. bundesliga	Arminia Bielefeld	SC Paderborn 07	1.22	1388839	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	807932914	O15_FT	13:00	2. bundesliga	Holstein Kiel	1. FC Nürnberg	1.22	1388843	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3701543234	O15_FT	13:30	championship	Oxford United	Charlton	1.44	1386998	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3714566635	O15_FT	13:30	cymru premier league	Flint Town United	Bala Town	1.25	1509003	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	217852178	O15_FT	13:30	championship	Coventry	Southampton	1.2	1386995	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3881650632	O15_FT	13:30	championship	Middlesbrough	Bristol City	1.17	1387003	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	4068741491	O15_FT	14:00	ligue 2	RED Star FC 93	Dunkerque	1.36	1389347	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1611755238	O15_FT	14:00	laliga	Girona	Athletic Club	1.3	1391093	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3243654502	O15_FT	14:00	ligue 2	Reims	Rodez	1.2	1389350	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	2719339140	O15_FT	14:30	superligaen	Ujpest	Kisvarda FC	1.3	1380329	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1893129715	O15_FT	15:00	serie b	Juve Stabia	Carrarese	1.4	1419889	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	980491750	O15_FT	15:00	czech first league	Dukla Praha	FK Jablonec	1.36	1384851	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	855360106	O15_FT	15:00	serie b	Bari	Reggiana	1.36	1419882	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3178667276	O15_FT	15:00	czech first league	Hradec Králové	Baník Ostrava	1.3	1384852	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3828577776	O15_FT	15:00	liga portugal 2	Pacos Ferreira	Benfica B	1.3	1398198	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	974614292	O15_FT	15:00	serie b	Empoli	Mantova	1.3	1419883	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	2814829624	O15_FT	15:00	serie b	Padova	Catanzaro	1.3	1419885	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3263165048	O15_FT	15:00	czech first league	Mlada Boleslav	Pardubice	1.22	1384854	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1701746724	O15_FT	15:00	serie a italia	Inter	Atalanta	1.2	1378146	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	593689869	O15_FT	15:00	serie b	Cesena	Frosinone	1.18	1419890	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	525851331	O15_FT	15:30	cymru premier league	Colwyn Bay	Barry Town	1.28	1508974	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3235364687	O15_FT	15:30	cymru premier league	Penybont	The New Saints	1.22	1508975	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3817970793	O15_FT	15:30	bundesliga	Borussia Dortmund	FC Augsburg	1.17	1388535	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3548127851	O15_FT	15:30	bundesliga	Eintracht Frankfurt	1. FC Heidenheim	1.17	1388536	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	970282903	O15_FT	16:00	championship	Millwall	Blackburn	1.36	1386997	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	2626520746	O15_FT	16:00	championship	Stoke City	Watford	1.36	1387005	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3169613480	O15_FT	16:00	championship	West Brom	Hull City	1.36	1387004	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	2152998448	O15_FT	16:00	premier league	Sunderland	Brighton	1.36	1379267	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	881145482	O15_FT	16:00	premiership	Aberdeen	Falkirk	1.36	1382840	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	151845147	O15_FT	16:00	championship	Leicester	QPR	1.3	1386999	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1563956859	O15_FT	16:00	championship	Birmingham	Sheffield Utd	1.28	1387000	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	4277854301	O15_FT	16:00	championship	Norwich	Preston	1.25	1387001	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1624817658	O15_FT	16:00	premier league	Burnley	Bournemouth	1.22	1379261	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	4060788866	O15_FT	16:00	pro league	Charleroi	OH Leuven	1.22	1382657	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	4102291675	O15_FT	16:00	championship	Sheffield Wednesday	Ipswich	1.2	1387006	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	2395362908	O15_FT	16:00	premiership	Celtic	Motherwell	1.2	1382841	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3908237002	O15_FT	16:00	premiership	Hibernian	Livingston	1.17	1382843	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	791201514	O15_FT	16:15	laliga	Atletico Madrid	Getafe	1.5	1391090	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	2206163670	O15_FT	16:15	laliga2	Cultural Leonesa	Racing Santander	1.33	1392088	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1945486138	O15_FT	16:30	liga portugal	Guimaraes	Famalicao	1.33	1396470	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3396469279	O15_FT	16:30	eredivisie	FC Volendam	Fortuna Sittard	1.18	1381103	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	2975062851	O15_FT	17:00	ligue 1	Lorient	Lens	1.22	1387925	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1089117628	O15_FT	17:00	superligaen	Paks	Zalaegerszegi TE	1.17	1380328	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3863869768	O15_FT	17:15	serie b	Monza	Palermo	1.33	1419887	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	2961356159	O15_FT	18:00	serie a italia	Napoli	Lecce	1.4	1378148	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	680389579	O15_FT	18:00	super lig	Göztepe	Alanyaspor	1.4	1394661	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3557966748	O15_FT	18:00	czech first league	Zlin	Slavia Praha	1.3	1384858	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1099590777	O15_FT	18:00	super league switzerland	FC Zurich	FC Sion	1.2	1494573	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	4278683531	O15_FT	18:00	super lig	Trabzonspor	Rizespor	1.18	1394666	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1999558111	O15_FT	18:00	super league switzerland	FC Thun	Grasshoppers	1.17	1494572	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	993849519	O15_FT	18:15	pro league	Union St. Gilloise	Dender	1.22	1382652	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	2634283665	O15_FT	18:30	laliga	Oviedo	Valencia	1.4	1391098	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1395211170	O15_FT	18:30	laliga2	Valladolid	Leganes	1.36	1392094	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	60688469	O15_FT	18:30	premier league	Arsenal	Everton	1.3	1379259	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3608402903	O15_FT	18:30	laliga2	Zaragoza	Almeria	1.28	1392087	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1470628563	O15_FT	18:30	bundesliga	Hamburger SV	1. FC Köln	1.25	1388538	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	2723525589	O15_FT	18:30	premier league	Chelsea	Newcastle	1.17	1379262	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1251676621	O15_FT	19:00	ligue 1	Angers	Nice	1.4	1387923	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3384315143	O15_FT	19:00	liga portugal	GIL Vicente	Alverca	1.33	1396466	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1947360345	O15_FT	19:30	serie b	Sampdoria	Venezia	1.3	1419881	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3490076858	O15_FT	19:30	superligaen	Debreceni VSC	Nyiregyhaza	1.3	1380324	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	407814429	O15_FT	20:00	primera a colombia	Internacional de Bogota	Bucaramanga	1.44	1506029	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	4065980743	O15_FT	20:00	liga pro ecuador	Independiente del Valle	Aucas	1.28	1519284	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1053721825	O15_FT	20:00	ligue 2	Grenoble	Saint Etienne	1.25	1389349	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3296861500	O15_FT	20:15	mls	Atlanta United FC	Philadelphia Union	1.25	1490150	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3141456001	O15_FT	20:30	2. bundesliga	Hertha BSC	VfL Bochum	1.22	1388842	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	2138937729	O15_FT	20:30	super league switzerland	FC ST. Gallen	FC Lugano	1.2	1494574	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3375153384	O15_FT	20:45	serie a italia	Udinese	Juventus	1.25	1378152	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	2085653529	O15_FT	21:00	laliga2	AD Ceuta FC	Deportivo La Coruna	1.33	1392086	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	927545233	O15_FT	21:00	premiership	Kilmarnock	Heart Of Midlothian	1.25	1382844	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1555337138	O15_FT	21:00	premier league	West Ham	Manchester City	1.17	1379268	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1093447011	O15_FT	21:05	ligue 1	Monaco	Stade Brestois 29	1.2	1387928	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3531353929	O15_FT	21:30	liga portugal	Arouca	Benfica	1.17	1396463	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3756584332	O15_FT	22:10	primera a colombia	Cucuta	Deportivo Cali	1.33	1506030	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	2550499324	O15_FT	22:30	serie a brazil	Vitoria	Atletico-MG	1.38	1492169	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	847093499	O15_FT	22:30	liga pro ecuador	Delfin SC	Manta FC	1.36	1519280	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1198142349	O15_FT	22:30	primera división paraguay	Deportivo Recoleta	Olimpia	1.23	1505017	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	2769296257	O15_FT	23:00	liga profesional argentina	Platense	Velez Sarsfield	1.73	1491976	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	2428507456	O15_FT	23:15	mls	Columbus Crew	Nashville SC	1.18	1490152	O15_RANDOM_POOL_BASE	predictions.tsv
+
