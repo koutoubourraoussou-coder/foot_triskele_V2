@@ -121,8 +121,8 @@ RANKINGS_TEAM_BET_FILE_COMPOSITE   = Path("data/rankings/triskele_composite_team
 
 # ✅ Quel fichier on branche réellement
 # options: "CLASSIC" | "COMPOSITE"
-LEAGUE_RANKING_MODE = "CLASSIC"
-TEAM_RANKING_MODE   = "CLASSIC"
+LEAGUE_RANKING_MODE = "COMPOSITE"
+TEAM_RANKING_MODE   = "COMPOSITE"
 
 # ✅ Quel rideau on utilise pour chaque phase
 # options: "LEAGUE" | "TEAM"
