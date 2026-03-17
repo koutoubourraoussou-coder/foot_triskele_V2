@@ -368,3 +368,24 @@ TSV: 2026-03-15	956631553	O15_FT	22:30	serie a brazil	Coritiba	remo	1.33	1492163
 TSV: 2026-03-15	3617490163	O15_FT	22:30	serie a brazil	Palmeiras	Mirassol	1.25	1492167	O15_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-03-15	3206490442	O15_FT	23:45	liga profesional argentina	River Plate	Sarmiento Junin	1.45	1491978	O15_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_BASE | 2026-03-17 20:01:09 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-16	2626959242	O15_FT	02:00	liga profesional argentina	Tigre	Argentinos JRS	1.7	1491981	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-16	2151063470	O15_FT	02:00	liga profesional argentina	Union Santa Fe	Boca Juniors	1.62	1491982	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-16	2303860388	O15_FT	02:00	liga mx	Club America	Mazatlán	1.2	1492561	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-16	2679656840	O15_FT	02:30	primera a colombia	Junior	Fortaleza FC	1.35	1506036	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-16	1739156320	O15_FT	19:30	liga profesional argentina	Aldosivi	Huracan	1.8	1491968	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-16	4098819134	O15_FT	19:30	liga profesional argentina	Barracas Central	Atletico Tucuman	1.62	1491969	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-16	3570901731	O15_FT	19:45	liga portugal 2	FC Porto B	Oliveirense	1.28	1398195	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-16	1671986277	O15_FT	20:00	superligaen	Ferencvarosi TC	Puskas Academy	1.2	1380326	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-16	2906024871	O15_FT	20:30	laliga2	Albacete	Las Palmas	1.42	1392084	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-16	2783707356	O15_FT	20:45	serie a italia	Cremonese	Fiorentina	1.35	1378145	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-16	446761327	O15_FT	20:45	ligue 2	Annecy	Estac Troyes	1.33	1389345	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-16	604470706	O15_FT	20:45	cymru premier league	Cardiff MET	Briton Ferry	1.22	1509001	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-16	2883440736	O15_FT	21:00	championship	Portsmouth	Derby	1.4	1387002	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-16	192850797	O15_FT	21:00	laliga	Rayo Vallecano	Levante	1.33	1391095	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-16	4105777101	O15_FT	21:00	premier league	Brentford	Wolves	1.22	1379260	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-16	2864781155	O15_FT	21:15	liga portugal 2	Torreense	Portimonense	1.25	1398201	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-16	3125418122	O15_FT	22:30	liga profesional argentina	San Lorenzo	Defensa Y Justicia	1.65	1491980	O15_RANDOM_POOL_BASE	predictions.tsv
+

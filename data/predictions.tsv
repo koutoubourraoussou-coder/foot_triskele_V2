@@ -1748,3 +1748,171 @@ TSV:	4213400599	2026-03-15	super lig	Samsunspor	Kayserispor	TEAM2_SCORE_FT	Team2
 TSV:	4213400599	2026-03-15	super lig	Samsunspor	Kayserispor	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	odd=1.33 fixture=1394665	18:00
 TSV:	4213400599	2026-03-15	super lig	Samsunspor	Kayserispor	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.97 fixture=1394665	18:00
 TSV:	4213400599	2026-03-15	super lig	Samsunspor	Kayserispor	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.8 fixture=1394665	18:00
+TSV:	2883440736	2026-03-16	championship	Portsmouth	Derby	HT05	HT+0.5	4.0	FORT	0	odd=1.42 fixture=1387002	21:00
+TSV:	2883440736	2026-03-16	championship	Portsmouth	Derby	HT1X_HOME	HT 1X Home	4.0	FORT	0	odd=1.22 fixture=1387002	21:00
+TSV:	2883440736	2026-03-16	championship	Portsmouth	Derby	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.25 fixture=1387002	21:00
+TSV:	2883440736	2026-03-16	championship	Portsmouth	Derby	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	odd=1.44 fixture=1387002	21:00
+TSV:	2883440736	2026-03-16	championship	Portsmouth	Derby	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.4 fixture=1387002	21:00
+TSV:	2883440736	2026-03-16	championship	Portsmouth	Derby	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.2 fixture=1387002	21:00
+TSV:	2883440736	2026-03-16	championship	Portsmouth	Derby	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=3.3 fixture=1387002	21:00
+TSV:	604470706	2026-03-16	cymru premier league	Cardiff MET	Briton Ferry	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.33 fixture=1509001	20:45
+TSV:	604470706	2026-03-16	cymru premier league	Cardiff MET	Briton Ferry	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.28 fixture=1509001	20:45
+TSV:	604470706	2026-03-16	cymru premier league	Cardiff MET	Briton Ferry	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.15 fixture=1509001	20:45
+TSV:	604470706	2026-03-16	cymru premier league	Cardiff MET	Briton Ferry	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	odd=1.32 fixture=1509001	20:45
+TSV:	604470706	2026-03-16	cymru premier league	Cardiff MET	Briton Ferry	O15_FT	Over 1.5 (FT)	4.0	FORT	0	odd=1.22 fixture=1509001	20:45
+TSV:	604470706	2026-03-16	cymru premier league	Cardiff MET	Briton Ferry	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.05 fixture=1509001	20:45
+TSV:	604470706	2026-03-16	cymru premier league	Cardiff MET	Briton Ferry	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.2 fixture=1509001	20:45
+TSV:	192850797	2026-03-16	laliga	Rayo Vallecano	Levante	HT05	HT+0.5	4.0	FORT	0	odd=1.36 fixture=1391095	21:00
+TSV:	192850797	2026-03-16	laliga	Rayo Vallecano	Levante	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.17 fixture=1391095	21:00
+TSV:	192850797	2026-03-16	laliga	Rayo Vallecano	Levante	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	odd=1.17 fixture=1391095	21:00
+TSV:	192850797	2026-03-16	laliga	Rayo Vallecano	Levante	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.6 fixture=1391095	21:00
+TSV:	192850797	2026-03-16	laliga	Rayo Vallecano	Levante	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.33 fixture=1391095	21:00
+TSV:	192850797	2026-03-16	laliga	Rayo Vallecano	Levante	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=1.69 fixture=1391095	21:00
+TSV:	192850797	2026-03-16	laliga	Rayo Vallecano	Levante	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=5 fixture=1391095	21:00
+TSV:	2906024871	2026-03-16	laliga2	Albacete	Las Palmas	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.44 fixture=1392084	20:30
+TSV:	2906024871	2026-03-16	laliga2	Albacete	Las Palmas	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.33 fixture=1392084	20:30
+TSV:	2906024871	2026-03-16	laliga2	Albacete	Las Palmas	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.4 fixture=1392084	20:30
+TSV:	2906024871	2026-03-16	laliga2	Albacete	Las Palmas	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	odd=1.35 fixture=1392084	20:30
+TSV:	2906024871	2026-03-16	laliga2	Albacete	Las Palmas	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.42 fixture=1392084	20:30
+TSV:	2906024871	2026-03-16	laliga2	Albacete	Las Palmas	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.75 fixture=1392084	20:30
+TSV:	2906024871	2026-03-16	laliga2	Albacete	Las Palmas	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=2.5 fixture=1392084	20:30
+TSV:	1207220401	2026-03-15	liga mx	Tigres UANL	Club Queretaro	HT05	HT+0.5	5.0	FORT PLUS	1	odd=1.3 fixture=1492554	00:00
+TSV:	1207220401	2026-03-15	liga mx	Tigres UANL	Club Queretaro	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.06 fixture=1492554	00:00
+TSV:	1207220401	2026-03-15	liga mx	Tigres UANL	Club Queretaro	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.08 fixture=1492554	00:00
+TSV:	1207220401	2026-03-15	liga mx	Tigres UANL	Club Queretaro	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.65 fixture=1492554	00:00
+TSV:	1207220401	2026-03-15	liga mx	Tigres UANL	Club Queretaro	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	odd=1.22 fixture=1492554	00:00
+TSV:	1207220401	2026-03-15	liga mx	Tigres UANL	Club Queretaro	TEAM1_WIN_FT	Team1 wins (FT)	4.0	FORT	0	odd=1.4 fixture=1492554	00:00
+TSV:	1207220401	2026-03-15	liga mx	Tigres UANL	Club Queretaro	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=7.9 fixture=1492554	00:00
+TSV:	2303860388	2026-03-16	liga mx	Club America	Mazatlán	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.28 fixture=1492561	02:00
+TSV:	2303860388	2026-03-16	liga mx	Club America	Mazatlán	HT1X_HOME	HT 1X Home	4.0	FORT	0	odd=1.04 fixture=1492561	02:00
+TSV:	2303860388	2026-03-16	liga mx	Club America	Mazatlán	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	odd=1.07 fixture=1492561	02:00
+TSV:	2303860388	2026-03-16	liga mx	Club America	Mazatlán	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.75 fixture=1492561	02:00
+TSV:	2303860388	2026-03-16	liga mx	Club America	Mazatlán	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.2 fixture=1492561	02:00
+TSV:	2303860388	2026-03-16	liga mx	Club America	Mazatlán	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=1.33 fixture=1492561	02:00
+TSV:	2303860388	2026-03-16	liga mx	Club America	Mazatlán	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=8.1 fixture=1492561	02:00
+TSV:	3570901731	2026-03-16	liga portugal 2	FC Porto B	Oliveirense	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.4 fixture=1398195	19:45
+TSV:	3570901731	2026-03-16	liga portugal 2	FC Porto B	Oliveirense	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.25 fixture=1398195	19:45
+TSV:	3570901731	2026-03-16	liga portugal 2	FC Porto B	Oliveirense	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.18 fixture=1398195	19:45
+TSV:	3570901731	2026-03-16	liga portugal 2	FC Porto B	Oliveirense	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.37 fixture=1398195	19:45
+TSV:	3570901731	2026-03-16	liga portugal 2	FC Porto B	Oliveirense	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	odd=1.28 fixture=1398195	19:45
+TSV:	3570901731	2026-03-16	liga portugal 2	FC Porto B	Oliveirense	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	odd=2 fixture=1398195	19:45
+TSV:	3570901731	2026-03-16	liga portugal 2	FC Porto B	Oliveirense	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.5 fixture=1398195	19:45
+TSV:	2864781155	2026-03-16	liga portugal 2	Torreense	Portimonense	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.36 fixture=1398201	21:15
+TSV:	2864781155	2026-03-16	liga portugal 2	Torreense	Portimonense	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.12 fixture=1398201	21:15
+TSV:	2864781155	2026-03-16	liga portugal 2	Torreense	Portimonense	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	odd=1.11 fixture=1398201	21:15
+TSV:	2864781155	2026-03-16	liga portugal 2	Torreense	Portimonense	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.57 fixture=1398201	21:15
+TSV:	2864781155	2026-03-16	liga portugal 2	Torreense	Portimonense	O15_FT	Over 1.5 (FT)	4.0	FORT	0	odd=1.25 fixture=1398201	21:15
+TSV:	2864781155	2026-03-16	liga portugal 2	Torreense	Portimonense	TEAM1_WIN_FT	Team1 wins (FT)	5.0	FORT PLUS	1	odd=1.53 fixture=1398201	21:15
+TSV:	2864781155	2026-03-16	liga portugal 2	Torreense	Portimonense	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=5.75 fixture=1398201	21:15
+TSV:	3448128535	2026-03-15	liga pro ecuador	Guayaquil City FC	Barcelona SC	HT05	HT+0.5	4.0	FORT	0	odd=1.44 fixture=1519283	00:15
+TSV:	3448128535	2026-03-15	liga pro ecuador	Guayaquil City FC	Barcelona SC	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.53 fixture=1519283	00:15
+TSV:	3448128535	2026-03-15	liga pro ecuador	Guayaquil City FC	Barcelona SC	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	odd=1.57 fixture=1519283	00:15
+TSV:	3448128535	2026-03-15	liga pro ecuador	Guayaquil City FC	Barcelona SC	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.22 fixture=1519283	00:15
+TSV:	3448128535	2026-03-15	liga pro ecuador	Guayaquil City FC	Barcelona SC	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.36 fixture=1519283	00:15
+TSV:	3448128535	2026-03-15	liga pro ecuador	Guayaquil City FC	Barcelona SC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.9 fixture=1519283	00:15
+TSV:	3448128535	2026-03-15	liga pro ecuador	Guayaquil City FC	Barcelona SC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=1.9 fixture=1519283	00:15
+TSV:	2626959242	2026-03-16	liga profesional argentina	Tigre	Argentinos JRS	HT05	HT+0.5	2.0	MOYEN	0	odd=1.62 fixture=1491981	02:00
+TSV:	2626959242	2026-03-16	liga profesional argentina	Tigre	Argentinos JRS	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.22 fixture=1491981	02:00
+TSV:	2626959242	2026-03-16	liga profesional argentina	Tigre	Argentinos JRS	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.5 fixture=1491981	02:00
+TSV:	2626959242	2026-03-16	liga profesional argentina	Tigre	Argentinos JRS	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.55 fixture=1491981	02:00
+TSV:	2626959242	2026-03-16	liga profesional argentina	Tigre	Argentinos JRS	O15_FT	Over 1.5 (FT)	1.0	FAIBLE	0	odd=1.7 fixture=1491981	02:00
+TSV:	2626959242	2026-03-16	liga profesional argentina	Tigre	Argentinos JRS	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.75 fixture=1491981	02:00
+TSV:	2626959242	2026-03-16	liga profesional argentina	Tigre	Argentinos JRS	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.05 fixture=1491981	02:00
+TSV:	2151063470	2026-03-16	liga profesional argentina	Union Santa Fe	Boca Juniors	HT05	HT+0.5	1.0	FAIBLE	0	odd=1.6 fixture=1491982	02:00
+TSV:	2151063470	2026-03-16	liga profesional argentina	Union Santa Fe	Boca Juniors	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.25 fixture=1491982	02:00
+TSV:	2151063470	2026-03-16	liga profesional argentina	Union Santa Fe	Boca Juniors	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.5 fixture=1491982	02:00
+TSV:	2151063470	2026-03-16	liga profesional argentina	Union Santa Fe	Boca Juniors	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.44 fixture=1491982	02:00
+TSV:	2151063470	2026-03-16	liga profesional argentina	Union Santa Fe	Boca Juniors	O15_FT	Over 1.5 (FT)	1.0	FAIBLE	0	odd=1.62 fixture=1491982	02:00
+TSV:	2151063470	2026-03-16	liga profesional argentina	Union Santa Fe	Boca Juniors	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.84 fixture=1491982	02:00
+TSV:	2151063470	2026-03-16	liga profesional argentina	Union Santa Fe	Boca Juniors	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.86 fixture=1491982	02:00
+TSV:	1739156320	2026-03-16	liga profesional argentina	Aldosivi	Huracan	HT05	HT+0.5	4.0	FORT	0	odd=1.7 fixture=1491968	19:30
+TSV:	1739156320	2026-03-16	liga profesional argentina	Aldosivi	Huracan	HT1X_HOME	HT 1X Home	4.0	FORT	0	odd=1.28 fixture=1491968	19:30
+TSV:	1739156320	2026-03-16	liga profesional argentina	Aldosivi	Huracan	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.67 fixture=1491968	19:30
+TSV:	1739156320	2026-03-16	liga profesional argentina	Aldosivi	Huracan	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.5 fixture=1491968	19:30
+TSV:	1739156320	2026-03-16	liga profesional argentina	Aldosivi	Huracan	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	odd=1.8 fixture=1491968	19:30
+TSV:	1739156320	2026-03-16	liga profesional argentina	Aldosivi	Huracan	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=3.15 fixture=1491968	19:30
+TSV:	1739156320	2026-03-16	liga profesional argentina	Aldosivi	Huracan	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.58 fixture=1491968	19:30
+TSV:	4098819134	2026-03-16	liga profesional argentina	Barracas Central	Atletico Tucuman	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.6 fixture=1491969	19:30
+TSV:	4098819134	2026-03-16	liga profesional argentina	Barracas Central	Atletico Tucuman	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.25 fixture=1491969	19:30
+TSV:	4098819134	2026-03-16	liga profesional argentina	Barracas Central	Atletico Tucuman	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.44 fixture=1491969	19:30
+TSV:	4098819134	2026-03-16	liga profesional argentina	Barracas Central	Atletico Tucuman	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.44 fixture=1491969	19:30
+TSV:	4098819134	2026-03-16	liga profesional argentina	Barracas Central	Atletico Tucuman	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.62 fixture=1491969	19:30
+TSV:	4098819134	2026-03-16	liga profesional argentina	Barracas Central	Atletico Tucuman	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.84 fixture=1491969	19:30
+TSV:	4098819134	2026-03-16	liga profesional argentina	Barracas Central	Atletico Tucuman	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.78 fixture=1491969	19:30
+TSV:	3125418122	2026-03-16	liga profesional argentina	San Lorenzo	Defensa Y Justicia	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.6 fixture=1491980	22:30
+TSV:	3125418122	2026-03-16	liga profesional argentina	San Lorenzo	Defensa Y Justicia	HT1X_HOME	HT 1X Home	8.0	MEGA EXPLOSION	1	odd=1.17 fixture=1491980	22:30
+TSV:	3125418122	2026-03-16	liga profesional argentina	San Lorenzo	Defensa Y Justicia	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.36 fixture=1491980	22:30
+TSV:	3125418122	2026-03-16	liga profesional argentina	San Lorenzo	Defensa Y Justicia	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.7 fixture=1491980	22:30
+TSV:	3125418122	2026-03-16	liga profesional argentina	San Lorenzo	Defensa Y Justicia	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	odd=1.65 fixture=1491980	22:30
+TSV:	3125418122	2026-03-16	liga profesional argentina	San Lorenzo	Defensa Y Justicia	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=2.24 fixture=1491980	22:30
+TSV:	3125418122	2026-03-16	liga profesional argentina	San Lorenzo	Defensa Y Justicia	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.9 fixture=1491980	22:30
+TSV:	446761327	2026-03-16	ligue 2	Annecy	Estac Troyes	HT05	HT+0.5	4.0	FORT	0	odd=1.44 fixture=1389345	20:45
+TSV:	446761327	2026-03-16	ligue 2	Annecy	Estac Troyes	HT1X_HOME	HT 1X Home	8.0	MEGA EXPLOSION	1	odd=1.33 fixture=1389345	20:45
+TSV:	446761327	2026-03-16	ligue 2	Annecy	Estac Troyes	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	odd=1.3 fixture=1389345	20:45
+TSV:	446761327	2026-03-16	ligue 2	Annecy	Estac Troyes	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.33 fixture=1389345	20:45
+TSV:	446761327	2026-03-16	ligue 2	Annecy	Estac Troyes	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	odd=1.33 fixture=1389345	20:45
+TSV:	446761327	2026-03-16	ligue 2	Annecy	Estac Troyes	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.6 fixture=1389345	20:45
+TSV:	446761327	2026-03-16	ligue 2	Annecy	Estac Troyes	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.5 fixture=1389345	20:45
+TSV:	3621819100	2026-03-15	mls	San Jose Earthquakes	Seattle Sounders	HT05	HT+0.5	6.0	TRÈS FORT	1	odd=1.3 fixture=1490164	00:00
+TSV:	3621819100	2026-03-15	mls	San Jose Earthquakes	Seattle Sounders	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.3 fixture=1490164	00:00
+TSV:	3621819100	2026-03-15	mls	San Jose Earthquakes	Seattle Sounders	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	odd=1.22 fixture=1490164	00:00
+TSV:	3621819100	2026-03-15	mls	San Jose Earthquakes	Seattle Sounders	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	odd=1.25 fixture=1490164	00:00
+TSV:	3621819100	2026-03-15	mls	San Jose Earthquakes	Seattle Sounders	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.22 fixture=1490164	00:00
+TSV:	3621819100	2026-03-15	mls	San Jose Earthquakes	Seattle Sounders	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.4 fixture=1490164	00:00
+TSV:	3621819100	2026-03-15	mls	San Jose Earthquakes	Seattle Sounders	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.68 fixture=1490164	00:00
+TSV:	4105777101	2026-03-16	premier league	Brentford	Wolves	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.3 fixture=1379260	21:00
+TSV:	4105777101	2026-03-16	premier league	Brentford	Wolves	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.14 fixture=1379260	21:00
+TSV:	4105777101	2026-03-16	premier league	Brentford	Wolves	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.11 fixture=1379260	21:00
+TSV:	4105777101	2026-03-16	premier league	Brentford	Wolves	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.5 fixture=1379260	21:00
+TSV:	4105777101	2026-03-16	premier league	Brentford	Wolves	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.22 fixture=1379260	21:00
+TSV:	4105777101	2026-03-16	premier league	Brentford	Wolves	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.56 fixture=1379260	21:00
+TSV:	4105777101	2026-03-16	premier league	Brentford	Wolves	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=5.5 fixture=1379260	21:00
+TSV:	1164579519	2026-03-15	primera a colombia	Jaguares	Independiente Medellin	HT05	HT+0.5	6.0	TRÈS FORT	1	odd=1.42 fixture=1506035	00:20
+TSV:	1164579519	2026-03-15	primera a colombia	Jaguares	Independiente Medellin	HT1X_HOME	HT 1X Home	4.0	FORT	0	odd=1.53 fixture=1506035	00:20
+TSV:	1164579519	2026-03-15	primera a colombia	Jaguares	Independiente Medellin	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	odd=1.6 fixture=1506035	00:20
+TSV:	1164579519	2026-03-15	primera a colombia	Jaguares	Independiente Medellin	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.21 fixture=1506035	00:20
+TSV:	1164579519	2026-03-15	primera a colombia	Jaguares	Independiente Medellin	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.38 fixture=1506035	00:20
+TSV:	1164579519	2026-03-15	primera a colombia	Jaguares	Independiente Medellin	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=4.2 fixture=1506035	00:20
+TSV:	1164579519	2026-03-15	primera a colombia	Jaguares	Independiente Medellin	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=1.9 fixture=1506035	00:20
+TSV:	2679656840	2026-03-16	primera a colombia	Junior	Fortaleza FC	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.4 fixture=1506036	02:30
+TSV:	2679656840	2026-03-16	primera a colombia	Junior	Fortaleza FC	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.15 fixture=1506036	02:30
+TSV:	2679656840	2026-03-16	primera a colombia	Junior	Fortaleza FC	TEAM1_SCORE_FT	Team1 scores (FT)	7.0	EXPLOSION	1	odd=1.16 fixture=1506036	02:30
+TSV:	2679656840	2026-03-16	primera a colombia	Junior	Fortaleza FC	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.61 fixture=1506036	02:30
+TSV:	2679656840	2026-03-16	primera a colombia	Junior	Fortaleza FC	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.35 fixture=1506036	02:30
+TSV:	2679656840	2026-03-16	primera a colombia	Junior	Fortaleza FC	TEAM1_WIN_FT	Team1 wins (FT)	5.0	FORT PLUS	1	odd=1.72 fixture=1506036	02:30
+TSV:	2679656840	2026-03-16	primera a colombia	Junior	Fortaleza FC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=5 fixture=1506036	02:30
+TSV:	530838821	2026-03-15	primera división paraguay	Sportivo Ameliano	Club Guarani	HT05	HT+0.5	1.0	FAIBLE	0	odd=1.5 fixture=1505014	00:30
+TSV:	530838821	2026-03-15	primera división paraguay	Sportivo Ameliano	Club Guarani	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.3 fixture=1505014	00:30
+TSV:	530838821	2026-03-15	primera división paraguay	Sportivo Ameliano	Club Guarani	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.36 fixture=1505014	00:30
+TSV:	530838821	2026-03-15	primera división paraguay	Sportivo Ameliano	Club Guarani	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.33 fixture=1505014	00:30
+TSV:	530838821	2026-03-15	primera división paraguay	Sportivo Ameliano	Club Guarani	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.4 fixture=1505014	00:30
+TSV:	530838821	2026-03-15	primera división paraguay	Sportivo Ameliano	Club Guarani	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.7 fixture=1505014	00:30
+TSV:	530838821	2026-03-15	primera división paraguay	Sportivo Ameliano	Club Guarani	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.5 fixture=1505014	00:30
+TSV:	2506044694	2026-03-15	serie a brazil	Cruzeiro	Vasco DA Gama	HT05	HT+0.5	7.0	EXPLOSION	1	odd=1.4 fixture=1492164	00:30
+TSV:	2506044694	2026-03-15	serie a brazil	Cruzeiro	Vasco DA Gama	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.18 fixture=1492164	00:30
+TSV:	2506044694	2026-03-15	serie a brazil	Cruzeiro	Vasco DA Gama	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.22 fixture=1492164	00:30
+TSV:	2506044694	2026-03-15	serie a brazil	Cruzeiro	Vasco DA Gama	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.44 fixture=1492164	00:30
+TSV:	2506044694	2026-03-15	serie a brazil	Cruzeiro	Vasco DA Gama	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.38 fixture=1492164	00:30
+TSV:	2506044694	2026-03-15	serie a brazil	Cruzeiro	Vasco DA Gama	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.91 fixture=1492164	00:30
+TSV:	2506044694	2026-03-15	serie a brazil	Cruzeiro	Vasco DA Gama	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.1 fixture=1492164	00:30
+TSV:	3288905349	2026-03-15	serie a brazil	RB Bragantino	Sao Paulo	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.48 fixture=1492161	00:30
+TSV:	3288905349	2026-03-15	serie a brazil	RB Bragantino	Sao Paulo	HT1X_HOME	HT 1X Home	4.0	FORT	0	odd=1.22 fixture=1492161	00:30
+TSV:	3288905349	2026-03-15	serie a brazil	RB Bragantino	Sao Paulo	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	odd=1.3 fixture=1492161	00:30
+TSV:	3288905349	2026-03-15	serie a brazil	RB Bragantino	Sao Paulo	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.4 fixture=1492161	00:30
+TSV:	3288905349	2026-03-15	serie a brazil	RB Bragantino	Sao Paulo	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	odd=1.42 fixture=1492161	00:30
+TSV:	3288905349	2026-03-15	serie a brazil	RB Bragantino	Sao Paulo	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=2.34 fixture=1492161	00:30
+TSV:	3288905349	2026-03-15	serie a brazil	RB Bragantino	Sao Paulo	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=3.1 fixture=1492161	00:30
+TSV:	2783707356	2026-03-16	serie a italia	Cremonese	Fiorentina	HT05	HT+0.5	1.0	FAIBLE	0	odd=1.42 fixture=1378145	20:45
+TSV:	2783707356	2026-03-16	serie a italia	Cremonese	Fiorentina	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.48 fixture=1378145	20:45
+TSV:	2783707356	2026-03-16	serie a italia	Cremonese	Fiorentina	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.44 fixture=1378145	20:45
+TSV:	2783707356	2026-03-16	serie a italia	Cremonese	Fiorentina	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	odd=1.2 fixture=1378145	20:45
+TSV:	2783707356	2026-03-16	serie a italia	Cremonese	Fiorentina	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	odd=1.35 fixture=1378145	20:45
+TSV:	2783707356	2026-03-16	serie a italia	Cremonese	Fiorentina	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=4.1 fixture=1378145	20:45
+TSV:	2783707356	2026-03-16	serie a italia	Cremonese	Fiorentina	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	odd=1.9 fixture=1378145	20:45
+TSV:	1671986277	2026-03-16	superligaen	Ferencvarosi TC	Puskas Academy	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.3 fixture=1380326	20:00
+TSV:	1671986277	2026-03-16	superligaen	Ferencvarosi TC	Puskas Academy	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.1 fixture=1380326	20:00
+TSV:	1671986277	2026-03-16	superligaen	Ferencvarosi TC	Puskas Academy	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	fixture=1380326	20:00
+TSV:	1671986277	2026-03-16	superligaen	Ferencvarosi TC	Puskas Academy	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	fixture=1380326	20:00
+TSV:	1671986277	2026-03-16	superligaen	Ferencvarosi TC	Puskas Academy	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.2 fixture=1380326	20:00
+TSV:	1671986277	2026-03-16	superligaen	Ferencvarosi TC	Puskas Academy	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	odd=1.4 fixture=1380326	20:00
+TSV:	1671986277	2026-03-16	superligaen	Ferencvarosi TC	Puskas Academy	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=7.5 fixture=1380326	20:00

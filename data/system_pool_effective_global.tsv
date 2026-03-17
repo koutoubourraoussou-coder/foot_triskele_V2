@@ -266,3 +266,20 @@ TSV: 2026-03-15	3014155183	HT1X_HOME	21:30	liga profesional argentina	Belgrano C
 TSV: 2026-03-15	3617490163	HT05	22:30	serie a brazil	Palmeiras	Mirassol	1.33	1492167	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-03-15	3617490163	HT1X_HOME	22:30	serie a brazil	Palmeiras	Mirassol	1.15	1492167	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-03-17 20:01:08 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-16	2303860388	HT05	02:00	liga mx	Club America	Mazatlán	1.28	1492561	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-16	2303860388	O15_FT	02:00	liga mx	Club America	Mazatlán	1.2	1492561	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-16	2679656840	O15_FT	02:30	primera a colombia	Junior	Fortaleza FC	1.35	1506036	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-16	2679656840	TEAM1_SCORE_FT	02:30	primera a colombia	Junior	Fortaleza FC	1.16	1506036	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-16	2679656840	HT1X_HOME	02:30	primera a colombia	Junior	Fortaleza FC	1.15	1506036	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-16	3570901731	HT1X_HOME	19:45	liga portugal 2	FC Porto B	Oliveirense	1.25	1398195	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-16	1671986277	O15_FT	20:00	superligaen	Ferencvarosi TC	Puskas Academy	1.2	1380326	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-16	2906024871	HT1X_HOME	20:30	laliga2	Albacete	Las Palmas	1.33	1392084	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-16	446761327	HT1X_HOME	20:45	ligue 2	Annecy	Estac Troyes	1.33	1389345	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-16	192850797	O15_FT	21:00	laliga	Rayo Vallecano	Levante	1.33	1391095	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-16	4105777101	O15_FT	21:00	premier league	Brentford	Wolves	1.22	1379260	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-16	192850797	TEAM1_SCORE_FT	21:00	laliga	Rayo Vallecano	Levante	1.17	1391095	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-16	3125418122	HT1X_HOME	22:30	liga profesional argentina	San Lorenzo	Defensa Y Justicia	1.17	1491980	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+
