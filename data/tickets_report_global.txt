@@ -2147,3 +2147,44 @@ Aucun ticket.
   2) 18:30 | premier league | Chelsea vs Newcastle | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
   3) 19:00 | liga portugal | GIL Vicente vs Alverca | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
   4) 20:30 | 2. bundesliga | Hertha BSC vs VfL Bochum | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-03-17 19:43:35 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-15_0130_f975e8c1a3_SYS — cote = 2.41 — fenêtre 01:30 → 06:00  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 01:30 | mls | Chicago Fire vs DC United | HT+0.5 | MEGA EXPLOSION | odd=1.29
+  2) 02:30 | mls | Real Salt Lake vs Austin | HT 1X Home | FORT PLUS | odd=1.2
+  3) 02:30 | mls | Los Angeles Galaxy vs Sporting Kansas City | HT 1X Home | TRÈS FORT | odd=1.17
+  4) 04:10 | liga mx | U.N.A.M. - Pumas vs Cruz Azul | HT+0.5 | MEGA EXPLOSION | odd=1.33
+
+📅 Dimanche 2026-03-15 — Tranche 2 (fenêtre ~105min)
+---------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-03-15_1215_049d7d204d_SYS — cote = 2.41 — fenêtre 12:15 → 15:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 12:15 | eredivisie | Twente vs Utrecht | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  2) 13:30 | 2. bundesliga | FC Schalke 04 vs Hannover 96 | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  3) 14:00 | super league switzerland | Lausanne vs BSC Young Boys | Team1 scores (FT) | FORT PLUS | odd=1.18
+  4) 14:00 | laliga | Mallorca vs Espanyol | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.42
+
+📅 Dimanche 2026-03-15 — Tranche 3 (fenêtre ~90min)
+--------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-03-15_1630_21d0b0542b_SYS — cote = 2.44 — fenêtre 16:30 → 19:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:30 | super league switzerland | FC Basel 1893 vs Servette FC | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  2) 17:30 | bundesliga | SC Freiburg vs Union Berlin | HT 1X Home | TRÈS FORT | odd=1.22
+  3) 18:00 | super lig | Gençlerbirliği S.K. vs Beşiktaş | HT 1X Home | TRÈS FORT | odd=1.67
+
+📅 Dimanche 2026-03-15 — Tranche 4 (fenêtre ~90min)
+--------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-03-15_2000_35c2c271fc_SYS — cote = 2.42 — fenêtre 20:00 → 23:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:00 | serie a brazil | Internacional vs Bahia | HT+0.5 | FORT PLUS | odd=1.33
+  2) 21:00 | laliga | Real Sociedad vs Osasuna | Over 1.5 (FT) | EXPLOSION | odd=1.3
+  3) 21:30 | primera a colombia | Deportivo Pereira vs Águilas Doradas | HT 1X Home | FORT PLUS | odd=1.4
