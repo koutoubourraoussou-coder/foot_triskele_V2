@@ -1,24 +1,20 @@
-2026-03-16 21:00 | championship | Portsmouth vs Derby
-2026-03-16 20:45 | cymru premier league | Cardiff MET vs Briton Ferry
-2026-03-16 21:00 | laliga | Rayo Vallecano vs Levante
-2026-03-16 20:30 | laliga2 | Albacete vs Las Palmas
-2026-03-16 00:00 | liga mx | Tigres UANL vs Club Queretaro
-2026-03-16 02:00 | liga mx | Club America vs Mazatlán
-2026-03-16 19:45 | liga portugal 2 | FC Porto B vs Oliveirense
-2026-03-16 21:15 | liga portugal 2 | Torreense vs Portimonense
-2026-03-16 00:15 | liga pro ecuador | Guayaquil City FC vs Barcelona SC
-2026-03-16 02:00 | liga profesional argentina | Tigre vs Argentinos JRS
-2026-03-16 02:00 | liga profesional argentina | Union Santa Fe vs Boca Juniors
-2026-03-16 19:30 | liga profesional argentina | Aldosivi vs Huracan
-2026-03-16 19:30 | liga profesional argentina | Barracas Central vs Atletico Tucuman
-2026-03-16 22:30 | liga profesional argentina | San Lorenzo vs Defensa Y Justicia
-2026-03-16 20:45 | ligue 2 | Annecy vs Estac Troyes
-2026-03-16 00:00 | mls | San Jose Earthquakes vs Seattle Sounders
-2026-03-16 21:00 | premier league | Brentford vs Wolves
-2026-03-16 00:20 | primera a colombia | Jaguares vs Independiente Medellin
-2026-03-16 02:30 | primera a colombia | Junior vs Fortaleza FC
-2026-03-16 00:30 | primera división paraguay | Sportivo Ameliano vs Club Guarani
-2026-03-16 00:30 | serie a brazil | Cruzeiro vs Vasco DA Gama
-2026-03-16 00:30 | serie a brazil | RB Bragantino vs Sao Paulo
-2026-03-16 20:45 | serie a italia | Cremonese vs Fiorentina
-2026-03-16 20:00 | superligaen | Ferencvarosi TC vs Puskas Academy
+2026-03-17 20:45 | championship | Watford vs Wrexham
+2026-03-17 22:30 | liga pro ecuador | Universidad Catolica vs Deportivo Cuenca
+2026-03-17 00:00 | liga profesional argentina | Racing Club vs Estudiantes de Rio Cuarto
+2026-03-17 02:15 | liga profesional argentina | Instituto Cordoba vs Independiente
+2026-03-17 23:00 | liga profesional argentina | Lanus vs Newells Old Boys
+2026-03-17 22:10 | primera a colombia | Llaneros vs Cucuta
+2026-03-17 22:30 | primera división paraguay | Club Sp. San Lorenzo vs 2 de Mayo
+2026-03-17 00:00 | serie a brazil | Chapecoense-sc vs Gremio
+2026-03-17 19:00 | serie b | Palermo vs Juve Stabia
+2026-03-17 20:00 | serie b | Catanzaro vs Modena
+2026-03-17 20:00 | serie b | Mantova vs Cesena
+2026-03-17 20:00 | serie b | Reggiana vs Monza
+2026-03-17 20:00 | serie b | Spezia vs Empoli
+2026-03-17 20:00 | serie b | Venezia vs Padova
+2026-03-17 19:00 | super league switzerland | FC ST. Gallen vs FC Lugano
+2026-03-17 18:00 | super lig | Fenerbahçe vs Gaziantep FK
+2026-03-17 18:45 | uefa champions league | Sporting CP vs Bodo/Glimt
+2026-03-17 21:00 | uefa champions league | Arsenal vs Bayer Leverkusen
+2026-03-17 21:00 | uefa champions league | Chelsea vs Paris Saint Germain
+2026-03-17 21:00 | uefa champions league | Manchester City vs Real Madrid

@@ -389,3 +389,21 @@ TSV: 2026-03-16	4105777101	O15_FT	21:00	premier league	Brentford	Wolves	1.22	137
 TSV: 2026-03-16	2864781155	O15_FT	21:15	liga portugal 2	Torreense	Portimonense	1.25	1398201	O15_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-03-16	3125418122	O15_FT	22:30	liga profesional argentina	San Lorenzo	Defensa Y Justicia	1.65	1491980	O15_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_BASE | 2026-03-17 20:09:20 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-17	3831428951	O15_FT	02:15	liga profesional argentina	Instituto Cordoba	Independiente	1.57	1491974	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-17	1587243488	O15_FT	19:00	serie b	Palermo	Juve Stabia	1.4	1419897	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-17	677361107	O15_FT	19:00	super league switzerland	FC ST. Gallen	FC Lugano	1.22	1494574	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-17	2164448029	O15_FT	20:00	serie b	Reggiana	Monza	1.4	1419898	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-17	4119013302	O15_FT	20:00	serie b	Spezia	Empoli	1.4	1419895	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-17	3080256950	O15_FT	20:00	serie b	Catanzaro	Modena	1.38	1419899	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-17	4246671417	O15_FT	20:00	serie b	Mantova	Cesena	1.3	1419893	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-17	4213835125	O15_FT	20:00	serie b	Venezia	Padova	1.2	1419891	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-17	2994023045	O15_FT	20:45	championship	Watford	Wrexham	1.33	1386977	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-17	2877877364	O15_FT	21:00	uefa champions league	Arsenal	Bayer Leverkusen	1.22	1528330	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-17	116772043	O15_FT	22:10	primera a colombia	Llaneros	Cucuta	1.33	1506037	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-17	2029168082	O15_FT	22:30	primera división paraguay	Club Sp. San Lorenzo	2 de Mayo	1.44	1505023	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-17	1934271844	O15_FT	22:30	liga pro ecuador	Universidad Catolica	Deportivo Cuenca	1.33	1519295	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-17	3656839728	O15_FT	23:00	liga profesional argentina	Lanus	Newells Old Boys	1.48	1491975	O15_RANDOM_POOL_BASE	predictions.tsv
+

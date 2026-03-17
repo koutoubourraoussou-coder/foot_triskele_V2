@@ -291,3 +291,17 @@ TSV: 2026-03-16	2883440736	O15_FT	21:00	championship	Portsmouth	Derby	1.4	138700
 TSV: 2026-03-16	192850797	O15_FT	21:00	laliga	Rayo Vallecano	Levante	1.33	1391095	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-03-16	4105777101	O15_FT	21:00	premier league	Brentford	Wolves	1.22	1379260	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_EFFECTIVE | 2026-03-17 20:09:20 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-17	1587243488	O15_FT	19:00	serie b	Palermo	Juve Stabia	1.4	1419897	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	677361107	O15_FT	19:00	super league switzerland	FC ST. Gallen	FC Lugano	1.22	1494574	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	2164448029	O15_FT	20:00	serie b	Reggiana	Monza	1.4	1419898	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	4119013302	O15_FT	20:00	serie b	Spezia	Empoli	1.4	1419895	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	3080256950	O15_FT	20:00	serie b	Catanzaro	Modena	1.38	1419899	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	4246671417	O15_FT	20:00	serie b	Mantova	Cesena	1.3	1419893	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	4213835125	O15_FT	20:00	serie b	Venezia	Padova	1.2	1419891	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	2994023045	O15_FT	20:45	championship	Watford	Wrexham	1.33	1386977	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	2877877364	O15_FT	21:00	uefa champions league	Arsenal	Bayer Leverkusen	1.22	1528330	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	116772043	O15_FT	22:10	primera a colombia	Llaneros	Cucuta	1.33	1506037	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

@@ -283,3 +283,23 @@ TSV: 2026-03-16	4105777101	O15_FT	21:00	premier league	Brentford	Wolves	1.22	137
 TSV: 2026-03-16	192850797	TEAM1_SCORE_FT	21:00	laliga	Rayo Vallecano	Levante	1.17	1391095	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-03-16	3125418122	HT1X_HOME	22:30	liga profesional argentina	San Lorenzo	Defensa Y Justicia	1.17	1491980	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-03-17 20:09:20 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-17	4280828067	HT05	18:45	uefa champions league	Sporting CP	Bodo/Glimt	1.18	1528333	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	677361107	HT05	19:00	super league switzerland	FC ST. Gallen	FC Lugano	1.29	1494574	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	677361107	O15_FT	19:00	super league switzerland	FC ST. Gallen	FC Lugano	1.22	1494574	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	677361107	TEAM1_SCORE_FT	19:00	super league switzerland	FC ST. Gallen	FC Lugano	1.17	1494574	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	2164448029	HT05	20:00	serie b	Reggiana	Monza	1.4	1419898	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	2164448029	O15_FT	20:00	serie b	Reggiana	Monza	1.4	1419898	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	3080256950	O15_FT	20:00	serie b	Catanzaro	Modena	1.38	1419899	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	4246671417	HT05	20:00	serie b	Mantova	Cesena	1.35	1419893	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	4246671417	O15_FT	20:00	serie b	Mantova	Cesena	1.3	1419893	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	4213835125	HT05	20:00	serie b	Venezia	Padova	1.25	1419891	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	2994023045	O15_FT	20:45	championship	Watford	Wrexham	1.33	1386977	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	2877877364	O15_FT	21:00	uefa champions league	Arsenal	Bayer Leverkusen	1.22	1528330	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	1740221820	TEAM2_SCORE_FT	21:00	uefa champions league	Chelsea	Paris Saint Germain	1.2	1528328	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	1740221820	HT05	21:00	uefa champions league	Chelsea	Paris Saint Germain	1.18	1528328	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	3393156464	HT05	21:00	uefa champions league	Manchester City	Real Madrid	1.18	1528326	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-17	116772043	O15_FT	22:10	primera a colombia	Llaneros	Cucuta	1.33	1506037	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+

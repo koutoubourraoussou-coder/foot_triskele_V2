@@ -1146,3 +1146,16 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
   2) 20:00 | superligaen | Ferencvarosi TC vs Puskas Academy | Over 1.5 (FT) | FORT PLUS | odd=1.2
   3) 21:00 | laliga | Rayo Vallecano vs Levante | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
   4) 21:00 | championship | Portsmouth vs Derby | Over 1.5 (FT) | FORT PLUS | odd=1.4
+
+
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_ALL | 2026-03-17 20:09:21 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-17_1900_87eebd26a6_O15R — cote = 2.73 — fenêtre 19:00 → 22:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 19:00 | super league switzerland | FC ST. Gallen vs FC Lugano | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  2) 20:00 | serie b | Catanzaro vs Modena | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.38
+  3) 20:45 | championship | Watford vs Wrexham | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
+  4) 21:00 | uefa champions league | Arsenal vs Bayer Leverkusen | Over 1.5 (FT) | FORT PLUS | odd=1.22

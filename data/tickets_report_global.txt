@@ -2201,3 +2201,16 @@ Aucun ticket.
   2) 02:30 | primera a colombia | Junior vs Fortaleza FC | HT 1X Home | FORT PLUS | odd=1.15
   3) 20:45 | ligue 2 | Annecy vs Estac Troyes | HT 1X Home | MEGA EXPLOSION | odd=1.33
   4) 21:00 | laliga | Rayo Vallecano vs Levante | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-03-17 20:09:20 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-17_1900_d4b27c4656_SYS — cote = 2.62 — fenêtre 19:00 → 22:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 19:00 | super league switzerland | FC ST. Gallen vs FC Lugano | Team1 scores (FT) | FORT PLUS | odd=1.17
+  2) 20:00 | serie b | Catanzaro vs Modena | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.38
+  3) 20:45 | championship | Watford vs Wrexham | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
+  4) 21:00 | uefa champions league | Arsenal vs Bayer Leverkusen | Over 1.5 (FT) | FORT PLUS | odd=1.22
