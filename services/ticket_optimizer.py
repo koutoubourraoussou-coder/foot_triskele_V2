@@ -601,6 +601,11 @@ def _sample_tuning(rng: random.Random) -> BuilderTuning:
         excluded_bet_groups=rng.choice(excluded_options),
         target_odd=target_odd,
         min_accept_odd=min_accept_odd,
+        rich_day_match_count=rng.choice([16, 18, 20, 22]),
+        day_max_windows_poor=rng.choice([1, 2]),
+        day_max_windows_rich=rng.choice([2, 3, 4]),
+        min_side_matches_for_split=rng.choice([3, 4, 5]),
+        split_gap_weight=rng.choice([0.20, 0.30, 0.35, 0.45, 0.60]),
     )
 
 

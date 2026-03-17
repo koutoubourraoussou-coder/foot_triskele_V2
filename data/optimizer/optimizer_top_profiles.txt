@@ -1,115 +1,420 @@
 TOP PROFILS OPTIMISEUR
 ======================
 
-#1 | score=314.7094
+#1 | score=193.7930
 ------------------------------------------------------------
-SYSTEM  | win_rate=0.740 | tickets/jour=1.50 | decided=50 | max_loss_streak=3 | max_win_streak=8 | profit=43.73 | yield=0.875 | max_dd=3.00 | bankroll=143.73 | x1.44
-RANDOM  | win_rate=0.727 | tickets/jour=1.82 | decided=22 | max_loss_streak=1 | max_win_streak=2 | profit=19.12 | yield=0.869 | max_dd=2.00 | bankroll=119.12 | x1.19
-COMBINÉ | mean_win_rate=0.734 | mean_tickets/jour=1.66 | mean_profit=31.43 | mean_yield=0.872 | worst_streak=3 | best_win_streak=8 | worst_dd=3.00 | bankroll=131.43 | x1.31
+SYSTEM  | win_rate=0.624 | tickets/jour=1.69 | decided=85 | max_loss_streak=3 | max_win_streak=10 | profit=50.14 | yield=0.590 | max_dd=3.09 | bankroll=150.14 | x1.50
+RANDOM  | win_rate=0.565 | tickets/jour=1.68 | decided=23 | max_loss_streak=2 | max_win_streak=2 | profit=9.27 | yield=0.403 | max_dd=4.46 | bankroll=109.27 | x1.09
+COMBINÉ | mean_win_rate=0.594 | mean_tickets/jour=1.68 | mean_profit=29.71 | mean_yield=0.496 | worst_streak=3 | best_win_streak=10 | worst_dd=4.46 | bankroll=129.71 | x1.30
 
-TRAIN   | jours=44 | mean_win_rate=0.629 | mean_tickets/jour=1.62 | mean_profit=15.48 | mean_yield=0.593 | best_win_streak=7 | bankroll=115.48 | x1.15
-VALID   | jours=12 | mean_win_rate=0.967 | mean_tickets/jour=1.75 | mean_profit=15.95 | mean_yield=1.491 | best_win_streak=8 | min_decided=7 | bankroll=115.95 | x1.16
-GAP     | wr_train-valid=-0.338 | tickets_train-valid=-0.13 | profit_train-valid=-0.47 | yield_train-valid=-0.898
-DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=0.00 | yield_penalisé=0.000
+TRAIN   | jours=48 | mean_win_rate=0.547 | mean_tickets/jour=1.59 | mean_profit=16.25 | mean_yield=0.376 | best_win_streak=5 | bankroll=116.25 | x1.16
+VALID   | jours=12 | mean_win_rate=0.725 | mean_tickets/jour=1.96 | mean_profit=13.46 | mean_yield=0.826 | best_win_streak=10 | min_decided=6 | bankroll=113.46 | x1.13
+GAP     | wr_train-valid=-0.178 | tickets_train-valid=-0.36 | profit_train-valid=+2.79 | yield_train-valid=-0.450
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=2.79 | yield_penalisé=0.000
 
 TUNING
 {
   "global_bet_min_decided": 12,
-  "global_bet_min_winrate": 0.7,
-  "league_bet_min_winrate": 0.7,
-  "league_bet_require_data": false,
+  "global_bet_min_winrate": 0.65,
+  "league_bet_min_winrate": 0.72,
+  "league_bet_require_data": true,
   "team_min_decided": 8,
-  "team_min_winrate": 0.68,
-  "two_team_high": 0.78,
-  "two_team_low": 0.55,
+  "team_min_winrate": 0.7,
+  "two_team_high": 0.85,
+  "two_team_low": 0.58,
   "weight_min": 1.0,
-  "weight_max": 2.5,
-  "weight_baseline": 0.66,
+  "weight_max": 2.2,
+  "weight_baseline": 0.74,
   "weight_ceil": 1.0,
-  "topk_size": 3,
+  "topk_size": 8,
+  "topk_uniform_draw": false,
+  "prefer_3legs_delta": 0.0,
+  "search_budget_ms_system": 500,
+  "search_budget_ms_random": 500,
+  "excluded_bet_groups": [],
+  "target_odd": 2.4,
+  "min_accept_odd": 1.8,
+  "rich_day_match_count": 16,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 4,
+  "min_side_matches_for_split": 5,
+  "split_gap_weight": 0.6
+}
+
+#2 | score=183.5080
+------------------------------------------------------------
+SYSTEM  | win_rate=0.564 | tickets/jour=1.39 | decided=55 | max_loss_streak=3 | max_win_streak=5 | profit=21.06 | yield=0.383 | max_dd=3.60 | bankroll=121.06 | x1.21
+RANDOM  | win_rate=0.533 | tickets/jour=1.63 | decided=30 | max_loss_streak=1 | max_win_streak=3 | profit=8.88 | yield=0.296 | max_dd=3.21 | bankroll=108.88 | x1.09
+COMBINÉ | mean_win_rate=0.548 | mean_tickets/jour=1.51 | mean_profit=14.97 | mean_yield=0.340 | worst_streak=3 | best_win_streak=5 | worst_dd=3.60 | bankroll=114.97 | x1.15
+
+TRAIN   | jours=48 | mean_win_rate=0.491 | mean_tickets/jour=1.49 | mean_profit=7.72 | mean_yield=0.200 | best_win_streak=5 | bankroll=107.72 | x1.08
+VALID   | jours=12 | mean_win_rate=0.736 | mean_tickets/jour=1.56 | mean_profit=7.24 | mean_yield=0.797 | best_win_streak=3 | min_decided=7 | bankroll=107.24 | x1.07
+GAP     | wr_train-valid=-0.245 | tickets_train-valid=-0.07 | profit_train-valid=+0.48 | yield_train-valid=-0.597
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=0.48 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 10,
+  "global_bet_min_winrate": 0.72,
+  "league_bet_min_winrate": 0.75,
+  "league_bet_require_data": true,
+  "team_min_decided": 12,
+  "team_min_winrate": 0.72,
+  "two_team_high": 0.8,
+  "two_team_low": 0.6,
+  "weight_min": 1.0,
+  "weight_max": 2.2,
+  "weight_baseline": 0.62,
+  "weight_ceil": 0.95,
+  "topk_size": 8,
   "topk_uniform_draw": true,
-  "prefer_3legs_delta": 0.05,
-  "search_budget_ms_system": 1200,
+  "prefer_3legs_delta": 0.02,
+  "search_budget_ms_system": 300,
   "search_budget_ms_random": 300,
   "excluded_bet_groups": [
     "HT05",
     "HT1X"
   ],
   "target_odd": 2.4,
-  "min_accept_odd": 1.8
+  "min_accept_odd": 1.6,
+  "rich_day_match_count": 22,
+  "day_max_windows_poor": 2,
+  "day_max_windows_rich": 3,
+  "min_side_matches_for_split": 4,
+  "split_gap_weight": 0.45
 }
 
-#2 | score=275.7646
+#3 | score=178.2873
 ------------------------------------------------------------
-SYSTEM  | win_rate=0.774 | tickets/jour=1.50 | decided=53 | max_loss_streak=3 | max_win_streak=9 | profit=51.49 | yield=0.972 | max_dd=3.00 | bankroll=151.49 | x1.51
-RANDOM  | win_rate=0.611 | tickets/jour=1.61 | decided=18 | max_loss_streak=2 | max_win_streak=1 | profit=9.96 | yield=0.553 | max_dd=3.00 | bankroll=109.96 | x1.10
-COMBINÉ | mean_win_rate=0.692 | mean_tickets/jour=1.56 | mean_profit=30.72 | mean_yield=0.762 | worst_streak=3 | best_win_streak=9 | worst_dd=3.00 | bankroll=130.72 | x1.31
+SYSTEM  | win_rate=0.557 | tickets/jour=1.43 | decided=70 | max_loss_streak=6 | max_win_streak=4 | profit=26.56 | yield=0.379 | max_dd=6.00 | bankroll=126.56 | x1.27
+RANDOM  | win_rate=0.632 | tickets/jour=1.52 | decided=19 | max_loss_streak=1 | max_win_streak=1 | profit=10.88 | yield=0.573 | max_dd=2.00 | bankroll=110.88 | x1.11
+COMBINÉ | mean_win_rate=0.594 | mean_tickets/jour=1.48 | mean_profit=18.72 | mean_yield=0.476 | worst_streak=6 | best_win_streak=4 | worst_dd=6.00 | bankroll=118.72 | x1.19
 
-TRAIN   | jours=44 | mean_win_rate=0.601 | mean_tickets/jour=1.55 | mean_profit=16.62 | mean_yield=0.532 | best_win_streak=6 | bankroll=116.62 | x1.17
-VALID   | jours=12 | mean_win_rate=0.969 | mean_tickets/jour=1.57 | mean_profit=14.11 | mean_yield=1.464 | best_win_streak=9 | min_decided=4 | bankroll=114.11 | x1.14
-GAP     | wr_train-valid=-0.367 | tickets_train-valid=-0.02 | profit_train-valid=+2.51 | yield_train-valid=-0.932
-DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=2.51 | yield_penalisé=0.000
+TRAIN   | jours=48 | mean_win_rate=0.533 | mean_tickets/jour=1.41 | mean_profit=10.50 | mean_yield=0.332 | best_win_streak=4 | bankroll=110.50 | x1.10
+VALID   | jours=12 | mean_win_rate=0.740 | mean_tickets/jour=1.67 | mean_profit=8.22 | mean_yield=0.821 | best_win_streak=3 | min_decided=6 | bankroll=108.22 | x1.08
+GAP     | wr_train-valid=-0.207 | tickets_train-valid=-0.25 | profit_train-valid=+2.27 | yield_train-valid=-0.489
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=2.27 | yield_penalisé=0.000
 
 TUNING
 {
-  "global_bet_min_decided": 10,
-  "global_bet_min_winrate": 0.75,
-  "league_bet_min_winrate": 0.75,
+  "global_bet_min_decided": 12,
+  "global_bet_min_winrate": 0.7,
+  "league_bet_min_winrate": 0.72,
   "league_bet_require_data": false,
-  "team_min_decided": 6,
+  "team_min_decided": 15,
   "team_min_winrate": 0.7,
-  "two_team_high": 0.85,
-  "two_team_low": 0.58,
-  "weight_min": 1.2,
-  "weight_max": 1.8,
-  "weight_baseline": 0.74,
-  "weight_ceil": 0.95,
+  "two_team_high": 0.82,
+  "two_team_low": 0.55,
+  "weight_min": 0.8,
+  "weight_max": 2.0,
+  "weight_baseline": 0.78,
+  "weight_ceil": 0.92,
   "topk_size": 3,
   "topk_uniform_draw": true,
-  "prefer_3legs_delta": 0.05,
+  "prefer_3legs_delta": 0.08,
   "search_budget_ms_system": 800,
   "search_budget_ms_random": 500,
   "excluded_bet_groups": [
-    "HT05"
+    "HT1X"
   ],
   "target_odd": 2.4,
-  "min_accept_odd": 1.6
+  "min_accept_odd": 1.8,
+  "rich_day_match_count": 22,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 3,
+  "min_side_matches_for_split": 4,
+  "split_gap_weight": 0.45
 }
 
-#3 | score=274.0906
+#4 | score=169.1432
 ------------------------------------------------------------
-SYSTEM  | win_rate=0.849 | tickets/jour=1.51 | decided=53 | max_loss_streak=2 | max_win_streak=15 | profit=61.06 | yield=1.152 | max_dd=3.00 | bankroll=161.06 | x1.61
-RANDOM  | win_rate=0.783 | tickets/jour=1.82 | decided=23 | max_loss_streak=1 | max_win_streak=2 | profit=23.47 | yield=1.021 | max_dd=1.00 | bankroll=123.47 | x1.23
-COMBINÉ | mean_win_rate=0.816 | mean_tickets/jour=1.66 | mean_profit=42.27 | mean_yield=1.086 | worst_streak=2 | best_win_streak=15 | worst_dd=3.00 | bankroll=142.27 | x1.42
+SYSTEM  | win_rate=0.589 | tickets/jour=1.45 | decided=73 | max_loss_streak=3 | max_win_streak=8 | profit=34.49 | yield=0.472 | max_dd=7.00 | bankroll=134.49 | x1.34
+RANDOM  | win_rate=0.444 | tickets/jour=1.53 | decided=27 | max_loss_streak=3 | max_win_streak=3 | profit=3.76 | yield=0.139 | max_dd=6.00 | bankroll=103.76 | x1.04
+COMBINÉ | mean_win_rate=0.517 | mean_tickets/jour=1.49 | mean_profit=19.12 | mean_yield=0.306 | worst_streak=3 | best_win_streak=8 | worst_dd=7.00 | bankroll=119.12 | x1.19
 
-TRAIN   | jours=44 | mean_win_rate=0.769 | mean_tickets/jour=1.63 | mean_profit=27.81 | mean_yield=0.958 | best_win_streak=15 | bankroll=127.81 | x1.28
-VALID   | jours=12 | mean_win_rate=0.967 | mean_tickets/jour=1.75 | mean_profit=14.46 | mean_yield=1.496 | best_win_streak=8 | min_decided=5 | bankroll=114.46 | x1.14
-GAP     | wr_train-valid=-0.198 | tickets_train-valid=-0.12 | profit_train-valid=+13.34 | yield_train-valid=-0.538
-DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=13.34 | yield_penalisé=0.000
+TRAIN   | jours=48 | mean_win_rate=0.464 | mean_tickets/jour=1.42 | mean_profit=8.46 | mean_yield=0.170 | best_win_streak=4 | bankroll=108.46 | x1.08
+VALID   | jours=12 | mean_win_rate=0.695 | mean_tickets/jour=1.71 | mean_profit=10.66 | mean_yield=0.765 | best_win_streak=6 | min_decided=5 | bankroll=110.66 | x1.11
+GAP     | wr_train-valid=-0.231 | tickets_train-valid=-0.29 | profit_train-valid=-2.21 | yield_train-valid=-0.595
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=0.00 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 12,
+  "global_bet_min_winrate": 0.62,
+  "league_bet_min_winrate": 0.65,
+  "league_bet_require_data": false,
+  "team_min_decided": 6,
+  "team_min_winrate": 0.68,
+  "two_team_high": 0.85,
+  "two_team_low": 0.63,
+  "weight_min": 0.8,
+  "weight_max": 3.0,
+  "weight_baseline": 0.62,
+  "weight_ceil": 0.98,
+  "topk_size": 5,
+  "topk_uniform_draw": true,
+  "prefer_3legs_delta": 0.0,
+  "search_budget_ms_system": 800,
+  "search_budget_ms_random": 500,
+  "excluded_bet_groups": [
+    "HT1X"
+  ],
+  "target_odd": 2.3,
+  "min_accept_odd": 1.8,
+  "rich_day_match_count": 20,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 3,
+  "min_side_matches_for_split": 4,
+  "split_gap_weight": 0.6
+}
+
+#5 | score=168.6112
+------------------------------------------------------------
+SYSTEM  | win_rate=0.495 | tickets/jour=1.70 | decided=93 | max_loss_streak=8 | max_win_streak=7 | profit=20.79 | yield=0.224 | max_dd=8.00 | bankroll=120.79 | x1.21
+RANDOM  | win_rate=0.440 | tickets/jour=1.76 | decided=25 | max_loss_streak=3 | max_win_streak=2 | profit=1.99 | yield=0.080 | max_dd=7.46 | bankroll=101.99 | x1.02
+COMBINÉ | mean_win_rate=0.467 | mean_tickets/jour=1.73 | mean_profit=11.39 | mean_yield=0.152 | worst_streak=8 | best_win_streak=7 | worst_dd=8.00 | bankroll=111.39 | x1.11
+
+TRAIN   | jours=48 | mean_win_rate=0.396 | mean_tickets/jour=1.64 | mean_profit=2.15 | mean_yield=-0.021 | best_win_streak=4 | bankroll=102.15 | x1.02
+VALID   | jours=12 | mean_win_rate=0.726 | mean_tickets/jour=2.00 | mean_profit=9.24 | mean_yield=0.787 | best_win_streak=4 | min_decided=5 | bankroll=109.24 | x1.09
+GAP     | wr_train-valid=-0.330 | tickets_train-valid=-0.36 | profit_train-valid=-7.09 | yield_train-valid=-0.808
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=0.00 | yield_penalisé=0.000
 
 TUNING
 {
   "global_bet_min_decided": 7,
   "global_bet_min_winrate": 0.7,
-  "league_bet_min_winrate": 0.68,
-  "league_bet_require_data": false,
+  "league_bet_min_winrate": 0.65,
+  "league_bet_require_data": true,
   "team_min_decided": 10,
-  "team_min_winrate": 0.7,
-  "two_team_high": 0.78,
+  "team_min_winrate": 0.75,
+  "two_team_high": 0.82,
+  "two_team_low": 0.55,
+  "weight_min": 0.8,
+  "weight_max": 2.0,
+  "weight_baseline": 0.7,
+  "weight_ceil": 1.0,
+  "topk_size": 10,
+  "topk_uniform_draw": false,
+  "prefer_3legs_delta": 0.02,
+  "search_budget_ms_system": 300,
+  "search_budget_ms_random": 500,
+  "excluded_bet_groups": [],
+  "target_odd": 2.4,
+  "min_accept_odd": 1.6,
+  "rich_day_match_count": 16,
+  "day_max_windows_poor": 2,
+  "day_max_windows_rich": 4,
+  "min_side_matches_for_split": 5,
+  "split_gap_weight": 0.6
+}
+
+#6 | score=167.4275
+------------------------------------------------------------
+SYSTEM  | win_rate=0.699 | tickets/jour=1.51 | decided=73 | max_loss_streak=3 | max_win_streak=9 | profit=57.10 | yield=0.782 | max_dd=4.00 | bankroll=157.10 | x1.57
+RANDOM  | win_rate=0.630 | tickets/jour=1.59 | decided=27 | max_loss_streak=3 | max_win_streak=3 | profit=15.34 | yield=0.568 | max_dd=4.00 | bankroll=115.34 | x1.15
+COMBINÉ | mean_win_rate=0.664 | mean_tickets/jour=1.55 | mean_profit=36.22 | mean_yield=0.675 | worst_streak=3 | best_win_streak=9 | worst_dd=4.00 | bankroll=136.22 | x1.36
+
+TRAIN   | jours=48 | mean_win_rate=0.643 | mean_tickets/jour=1.48 | mean_profit=24.80 | mean_yield=0.625 | best_win_streak=6 | bankroll=124.80 | x1.25
+VALID   | jours=12 | mean_win_rate=0.728 | mean_tickets/jour=1.75 | mean_profit=11.42 | mean_yield=0.825 | best_win_streak=7 | min_decided=6 | bankroll=111.42 | x1.11
+GAP     | wr_train-valid=-0.085 | tickets_train-valid=-0.27 | profit_train-valid=+13.37 | yield_train-valid=-0.199
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=13.37 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 5,
+  "global_bet_min_winrate": 0.62,
+  "league_bet_min_winrate": 0.68,
+  "league_bet_require_data": true,
+  "team_min_decided": 6,
+  "team_min_winrate": 0.75,
+  "two_team_high": 0.85,
   "two_team_low": 0.66,
   "weight_min": 0.8,
   "weight_max": 2.0,
-  "weight_baseline": 0.74,
-  "weight_ceil": 1.0,
-  "topk_size": 3,
+  "weight_baseline": 0.78,
+  "weight_ceil": 0.95,
+  "topk_size": 5,
   "topk_uniform_draw": false,
-  "prefer_3legs_delta": 0.03,
-  "search_budget_ms_system": 1200,
+  "prefer_3legs_delta": 0.0,
+  "search_budget_ms_system": 300,
   "search_budget_ms_random": 500,
+  "excluded_bet_groups": [
+    "HT1X"
+  ],
+  "target_odd": 2.4,
+  "min_accept_odd": 1.7,
+  "rich_day_match_count": 18,
+  "day_max_windows_poor": 2,
+  "day_max_windows_rich": 3,
+  "min_side_matches_for_split": 5,
+  "split_gap_weight": 0.35
+}
+
+#7 | score=166.0036
+------------------------------------------------------------
+SYSTEM  | win_rate=0.650 | tickets/jour=1.49 | decided=60 | max_loss_streak=3 | max_win_streak=6 | profit=34.89 | yield=0.582 | max_dd=3.00 | bankroll=134.89 | x1.35
+RANDOM  | win_rate=0.692 | tickets/jour=1.55 | decided=26 | max_loss_streak=2 | max_win_streak=2 | profit=18.85 | yield=0.725 | max_dd=2.00 | bankroll=118.85 | x1.19
+COMBINÉ | mean_win_rate=0.671 | mean_tickets/jour=1.52 | mean_profit=26.87 | mean_yield=0.653 | worst_streak=3 | best_win_streak=6 | worst_dd=3.00 | bankroll=126.87 | x1.27
+
+TRAIN   | jours=48 | mean_win_rate=0.652 | mean_tickets/jour=1.43 | mean_profit=17.21 | mean_yield=0.599 | best_win_streak=5 | bankroll=117.21 | x1.17
+VALID   | jours=12 | mean_win_rate=0.716 | mean_tickets/jour=1.77 | mean_profit=9.66 | mean_yield=0.782 | best_win_streak=6 | min_decided=6 | bankroll=109.66 | x1.10
+GAP     | wr_train-valid=-0.063 | tickets_train-valid=-0.34 | profit_train-valid=+7.55 | yield_train-valid=-0.183
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=7.55 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 12,
+  "global_bet_min_winrate": 0.72,
+  "league_bet_min_winrate": 0.7,
+  "league_bet_require_data": false,
+  "team_min_decided": 8,
+  "team_min_winrate": 0.68,
+  "two_team_high": 0.85,
+  "two_team_low": 0.66,
+  "weight_min": 1.0,
+  "weight_max": 1.8,
+  "weight_baseline": 0.66,
+  "weight_ceil": 0.92,
+  "topk_size": 3,
+  "topk_uniform_draw": true,
+  "prefer_3legs_delta": 0.05,
+  "search_budget_ms_system": 300,
+  "search_budget_ms_random": 300,
   "excluded_bet_groups": [
     "HT05",
     "HT1X"
   ],
   "target_odd": 2.4,
-  "min_accept_odd": 1.6
+  "min_accept_odd": 1.7,
+  "rich_day_match_count": 18,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 3,
+  "min_side_matches_for_split": 4,
+  "split_gap_weight": 0.35
+}
+
+#8 | score=165.4797
+------------------------------------------------------------
+SYSTEM  | win_rate=0.500 | tickets/jour=1.53 | decided=82 | max_loss_streak=5 | max_win_streak=4 | profit=23.22 | yield=0.283 | max_dd=5.48 | bankroll=123.22 | x1.23
+RANDOM  | win_rate=0.478 | tickets/jour=1.76 | decided=23 | max_loss_streak=3 | max_win_streak=2 | profit=4.62 | yield=0.201 | max_dd=7.00 | bankroll=104.62 | x1.05
+COMBINÉ | mean_win_rate=0.489 | mean_tickets/jour=1.64 | mean_profit=13.92 | mean_yield=0.242 | worst_streak=5 | best_win_streak=4 | worst_dd=7.00 | bankroll=113.92 | x1.14
+
+TRAIN   | jours=48 | mean_win_rate=0.452 | mean_tickets/jour=1.55 | mean_profit=7.90 | mean_yield=0.152 | best_win_streak=4 | bankroll=107.90 | x1.08
+VALID   | jours=12 | mean_win_rate=0.786 | mean_tickets/jour=1.92 | mean_profit=6.02 | mean_yield=1.002 | best_win_streak=2 | min_decided=2 | bankroll=106.02 | x1.06
+GAP     | wr_train-valid=-0.334 | tickets_train-valid=-0.36 | profit_train-valid=+1.88 | yield_train-valid=-0.850
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=1.88 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 12,
+  "global_bet_min_winrate": 0.7,
+  "league_bet_min_winrate": 0.62,
+  "league_bet_require_data": false,
+  "team_min_decided": 10,
+  "team_min_winrate": 0.8,
+  "two_team_high": 0.85,
+  "two_team_low": 0.6,
+  "weight_min": 0.8,
+  "weight_max": 3.0,
+  "weight_baseline": 0.62,
+  "weight_ceil": 1.0,
+  "topk_size": 10,
+  "topk_uniform_draw": true,
+  "prefer_3legs_delta": 0.02,
+  "search_budget_ms_system": 800,
+  "search_budget_ms_random": 300,
+  "excluded_bet_groups": [
+    "HT05"
+  ],
+  "target_odd": 2.3,
+  "min_accept_odd": 1.8,
+  "rich_day_match_count": 22,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 4,
+  "min_side_matches_for_split": 3,
+  "split_gap_weight": 0.45
+}
+
+#9 | score=164.7912
+------------------------------------------------------------
+SYSTEM  | win_rate=0.584 | tickets/jour=1.55 | decided=77 | max_loss_streak=4 | max_win_streak=9 | profit=31.46 | yield=0.409 | max_dd=5.00 | bankroll=131.46 | x1.31
+RANDOM  | win_rate=0.611 | tickets/jour=1.71 | decided=18 | max_loss_streak=2 | max_win_streak=2 | profit=9.01 | yield=0.501 | max_dd=3.00 | bankroll=109.01 | x1.09
+COMBINÉ | mean_win_rate=0.598 | mean_tickets/jour=1.63 | mean_profit=20.24 | mean_yield=0.455 | worst_streak=4 | best_win_streak=9 | worst_dd=5.00 | bankroll=120.24 | x1.20
+
+TRAIN   | jours=48 | mean_win_rate=0.549 | mean_tickets/jour=1.54 | mean_profit=10.78 | mean_yield=0.348 | best_win_streak=8 | bankroll=110.78 | x1.11
+VALID   | jours=12 | mean_win_rate=0.750 | mean_tickets/jour=1.92 | mean_profit=9.46 | mean_yield=0.784 | best_win_streak=6 | min_decided=4 | bankroll=109.46 | x1.09
+GAP     | wr_train-valid=-0.201 | tickets_train-valid=-0.38 | profit_train-valid=+1.32 | yield_train-valid=-0.436
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=1.32 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 10,
+  "global_bet_min_winrate": 0.65,
+  "league_bet_min_winrate": 0.62,
+  "league_bet_require_data": false,
+  "team_min_decided": 10,
+  "team_min_winrate": 0.75,
+  "two_team_high": 0.82,
+  "two_team_low": 0.6,
+  "weight_min": 1.0,
+  "weight_max": 2.2,
+  "weight_baseline": 0.74,
+  "weight_ceil": 0.92,
+  "topk_size": 5,
+  "topk_uniform_draw": true,
+  "prefer_3legs_delta": 0.08,
+  "search_budget_ms_system": 800,
+  "search_budget_ms_random": 300,
+  "excluded_bet_groups": [
+    "HT1X"
+  ],
+  "target_odd": 2.3,
+  "min_accept_odd": 1.7,
+  "rich_day_match_count": 22,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 4,
+  "min_side_matches_for_split": 5,
+  "split_gap_weight": 0.45
+}
+
+#10 | score=164.5992
+------------------------------------------------------------
+SYSTEM  | win_rate=0.592 | tickets/jour=1.52 | decided=71 | max_loss_streak=5 | max_win_streak=6 | profit=29.64 | yield=0.417 | max_dd=6.93 | bankroll=129.64 | x1.30
+RANDOM  | win_rate=0.789 | tickets/jour=1.66 | decided=19 | max_loss_streak=1 | max_win_streak=2 | profit=18.37 | yield=0.967 | max_dd=2.00 | bankroll=118.37 | x1.18
+COMBINÉ | mean_win_rate=0.691 | mean_tickets/jour=1.59 | mean_profit=24.00 | mean_yield=0.692 | worst_streak=5 | best_win_streak=6 | worst_dd=6.93 | bankroll=124.00 | x1.24
+
+TRAIN   | jours=48 | mean_win_rate=0.665 | mean_tickets/jour=1.49 | mean_profit=16.49 | mean_yield=0.626 | best_win_streak=6 | bankroll=116.49 | x1.16
+VALID   | jours=12 | mean_win_rate=0.809 | mean_tickets/jour=1.88 | mean_profit=7.51 | mean_yield=0.993 | best_win_streak=4 | min_decided=3 | bankroll=107.51 | x1.08
+GAP     | wr_train-valid=-0.144 | tickets_train-valid=-0.38 | profit_train-valid=+8.98 | yield_train-valid=-0.367
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=8.98 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 12,
+  "global_bet_min_winrate": 0.62,
+  "league_bet_min_winrate": 0.72,
+  "league_bet_require_data": true,
+  "team_min_decided": 6,
+  "team_min_winrate": 0.75,
+  "two_team_high": 0.88,
+  "two_team_low": 0.66,
+  "weight_min": 0.8,
+  "weight_max": 1.8,
+  "weight_baseline": 0.78,
+  "weight_ceil": 1.0,
+  "topk_size": 3,
+  "topk_uniform_draw": true,
+  "prefer_3legs_delta": 0.03,
+  "search_budget_ms_system": 500,
+  "search_budget_ms_random": 800,
+  "excluded_bet_groups": [
+    "HT05"
+  ],
+  "target_odd": 2.3,
+  "min_accept_odd": 1.8,
+  "rich_day_match_count": 18,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 4,
+  "min_side_matches_for_split": 4,
+  "split_gap_weight": 0.3
 }
