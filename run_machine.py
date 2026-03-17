@@ -53,7 +53,7 @@ def run(cmd: list[str], title: str, *, env: dict | None = None) -> None:
 # "MANUAL" -> utilise DATE_MANUAL
 # "RANGE"  -> utilise une plage DATE_RANGE_START → DATE_RANGE_END (inclus)
 
-DATE_MODE = "MANUAL"          # "TODAY", "MANUAL" ou "RANGE"
+DATE_MODE = "TODAY"          # "TODAY", "MANUAL" ou "RANGE"
 
 # Utilisé si DATE_MODE == "MANUAL"
 DATE_MANUAL = "2026-03-16"    # YYYY-MM-DD
