@@ -2214,3 +2214,16 @@ Aucun ticket.
   2) 20:00 | serie b | Catanzaro vs Modena | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.38
   3) 20:45 | championship | Watford vs Wrexham | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
   4) 21:00 | uefa champions league | Arsenal vs Bayer Leverkusen | Over 1.5 (FT) | FORT PLUS | odd=1.22
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-03-18 00:12:52 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-18_2045_7ad42c8caa_SYS — cote = 2.6 — fenêtre 20:45 → 01:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:45 | championship | Southampton vs Norwich | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  2) 21:00 | uefa champions league | Tottenham vs Atletico Madrid | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  3) 22:30 | liga pro ecuador | Manta FC vs Guayaquil City FC | HT 1X Home | MEGA EXPLOSION | odd=1.22
+  4) 23:30 | serie a brazil | Atletico Paranaense vs Cruzeiro | HT+0.5 | TRÈS FORT | odd=1.42

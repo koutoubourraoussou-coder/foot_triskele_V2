@@ -1,1 +1,3 @@
 # date | league | home vs away | reason
+2026-03-17 | primera a colombia | Bucaramanga vs Once Caldas | GOALS_MISSING:1506038
+2026-03-17 | primera división paraguay | Olimpia vs Sportivo Luqueno | GOALS_MISSING:1505021

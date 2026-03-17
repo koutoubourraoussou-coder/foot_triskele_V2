@@ -443,3 +443,40 @@ TSV: 2026-03-17	1934271844	HT05	22:30	liga pro ecuador	Universidad Catolica	Depo
 TSV: 2026-03-17	1934271844	O15_FT	22:30	liga pro ecuador	Universidad Catolica	Deportivo Cuenca	1.33	1519295	SYSTEM_POOL_BASE	predictions.tsv
 TSV: 2026-03-17	3656839728	HT05	23:00	liga profesional argentina	Lanus	Newells Old Boys	1.48	1491975	SYSTEM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-03-18 00:12:51 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-18	1624928308	HT05	01:00	liga pro ecuador	Leones del Norte	LDU de Quito	1.53	1519290	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	1624928308	O15_FT	01:00	liga pro ecuador	Leones del Norte	LDU de Quito	1.44	1519290	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	1760810646	HT1X_HOME	01:15	liga profesional argentina	Gimnasia M.	Estudiantes L.P.	1.36	1491973	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	4151832262	HT05	16:30	uefa europa league	SC Braga	Ferencvarosi TC	1.3	1528348	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	4151832262	O15_FT	16:30	uefa europa league	SC Braga	Ferencvarosi TC	1.25	1528348	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	3631041239	TEAM2_WIN_FT	18:00	super lig	Eyüpspor	Trabzonspor	1.58	1394670	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	3166115383	O15_FT	18:00	super lig	Başakşehir	Antalyaspor	1.2	1394668	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	1604790461	HT05	18:45	uefa champions league	Barcelona	Newcastle	1.18	1528327	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	1452646286	HT05	19:00	super lig	Rizespor	Samsunspor	1.37	1394675	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	2895907387	HT05	19:00	super lig	Göztepe	Galatasaray	1.32	1394672	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	1452646286	O15_FT	19:00	super lig	Rizespor	Samsunspor	1.29	1394675	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	245058993	HT05	19:00	serie b	Frosinone	Bari	1.25	1419896	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	2895907387	O15_FT	19:00	super lig	Göztepe	Galatasaray	1.24	1394672	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	245058993	O15_FT	19:00	serie b	Frosinone	Bari	1.18	1419896	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	1898451492	TEAM1_WIN_FT	20:00	liga pro ecuador	Macara	Delfin SC	1.67	1519292	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	1338802826	O15_FT	20:00	serie b	Carrarese	Sampdoria	1.45	1419892	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	1338802826	HT05	20:00	serie b	Carrarese	Sampdoria	1.44	1419892	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	2664333479	HT1X_HOME	20:00	serie b	Avellino	Sudtirol	1.33	1419900	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	335430380	O15_FT	20:00	serie b	Pescara	Virtus Entella	1.3	1419894	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	2940863738	O15_FT	20:45	championship	Southampton	Norwich	1.25	1386974	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	1682430182	TEAM2_WIN_FT	21:00	uefa champions league	Tottenham	Atletico Madrid	2.48	1528331	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	1682430182	HT05	21:00	uefa champions league	Tottenham	Atletico Madrid	1.28	1528331	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	1682430182	O15_FT	21:00	uefa champions league	Tottenham	Atletico Madrid	1.2	1528331	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	3950178689	HT05	21:00	uefa champions league	Bayern München	Atalanta	1.18	1528332	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	1891608756	O15_FT	22:10	primera a colombia	Deportivo Pasto	Chico	1.45	1506040	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	432913061	HT05	22:30	primera división paraguay	Rubio NU	Cerro Porteno	1.44	1505022	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	432913061	O15_FT	22:30	primera división paraguay	Rubio NU	Cerro Porteno	1.36	1505022	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	3189495697	O15_FT	22:30	liga pro ecuador	Manta FC	Guayaquil City FC	1.28	1519293	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	3189495697	HT1X_HOME	22:30	liga pro ecuador	Manta FC	Guayaquil City FC	1.22	1519293	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	358449948	HT05	23:00	serie a brazil	Palmeiras	Botafogo	1.33	1492177	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	829320109	O15_FT	23:00	serie a brazil	Bahia	RB Bragantino	1.3	1492172	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	2954677499	HT05	23:30	serie a brazil	Atletico Paranaense	Cruzeiro	1.42	1492170	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	2954677499	O15_FT	23:30	serie a brazil	Atletico Paranaense	Cruzeiro	1.36	1492170	SYSTEM_POOL_BASE	predictions.tsv
+

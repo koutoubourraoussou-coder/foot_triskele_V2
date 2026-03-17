@@ -305,3 +305,20 @@ TSV: 2026-03-17	2994023045	O15_FT	20:45	championship	Watford	Wrexham	1.33	138697
 TSV: 2026-03-17	2877877364	O15_FT	21:00	uefa champions league	Arsenal	Bayer Leverkusen	1.22	1528330	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-03-17	116772043	O15_FT	22:10	primera a colombia	Llaneros	Cucuta	1.33	1506037	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_EFFECTIVE | 2026-03-18 00:12:52 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-18	1124233070	O15_FT	02:30	primera a colombia	Millonarios	Atletico Nacional	1.4	1506039	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-18	2432467578	O15_FT	14:00	super lig	Alanyaspor	Kocaelispor	1.42	1394667	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-18	3166115383	O15_FT	18:00	super lig	Başakşehir	Antalyaspor	1.2	1394668	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-18	3631041239	O15_FT	18:00	super lig	Eyüpspor	Trabzonspor	1.2	1394670	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-18	1452646286	O15_FT	19:00	super lig	Rizespor	Samsunspor	1.29	1394675	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-18	2895907387	O15_FT	19:00	super lig	Göztepe	Galatasaray	1.24	1394672	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-18	245058993	O15_FT	19:00	serie b	Frosinone	Bari	1.18	1419896	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-18	1338802826	O15_FT	20:00	serie b	Carrarese	Sampdoria	1.45	1419892	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-18	2664333479	O15_FT	20:00	serie b	Avellino	Sudtirol	1.42	1419900	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-18	335430380	O15_FT	20:00	serie b	Pescara	Virtus Entella	1.3	1419894	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-18	2940863738	O15_FT	20:45	championship	Southampton	Norwich	1.25	1386974	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-18	1682430182	O15_FT	21:00	uefa champions league	Tottenham	Atletico Madrid	1.2	1528331	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-18	1891608756	O15_FT	22:10	primera a colombia	Deportivo Pasto	Chico	1.45	1506040	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

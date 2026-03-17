@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-03-17
+Date run       : 2026-03-18
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (105 ids)
+Whitelist      : ON (106 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 4
+Ignorés (date>=today)    : 3
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -878,10 +878,19 @@ Ignorés (date>=today)    : 4
    ❌ Leg 3) 21:00 | championship | Portsmouth vs Derby | Over 1.5 (FT) | [FORT PLUS] | odd=1.4
    ✅ Leg 4) 21:00 | laliga | Rayo Vallecano vs Levante | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
 
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 1 | Mardi 2026-03-17 19:00→22:50 | code=A2 | odd=2.73
+   id=2026-03-17_1900_87eebd26a6_O15R
+   legs=4 | WIN=3 | LOSS=0 | PENDING=1
+   ✅ Leg 1) 19:00 | super league switzerland | FC ST. Gallen vs FC Lugano | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+   ⏳ Leg 2) 20:00 | serie b | Catanzaro vs Modena | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.38
+   ✅ Leg 3) 20:45 | championship | Watford vs Wrexham | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
+   ✅ Leg 4) 21:00 | uefa champions league | Arsenal vs Bayer Leverkusen | Over 1.5 (FT) | [FORT PLUS] | odd=1.22
+
 ====================================================================
-TOTAL tickets : 104
+TOTAL tickets : 105
 ✅ WIN     : 43
 ❌ LOSS    : 59
-⏳ PENDING : 2
+⏳ PENDING : 3
 ====================================================================
 

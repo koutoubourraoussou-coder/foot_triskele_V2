@@ -2,9 +2,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-03-17
+Date run       : 2026-03-18
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (100 ids)
+Whitelist      : ON (101 ids)
 Ignorés (hors whitelist) : 16
 Ignorés (date>=today)    : 4
 
@@ -795,10 +795,19 @@ Ignorés (date>=today)    : 4
    ✅ Leg 3) 20:45 | ligue 2 | Annecy vs Estac Troyes | HT 1X Home | [MEGA EXPLOSION] | odd=1.33
    ✅ Leg 4) 21:00 | laliga | Rayo Vallecano vs Levante | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
 
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 1 | Mardi 2026-03-17 19:00→22:50 | code=A2 | odd=2.62
+   id=2026-03-17_1900_d4b27c4656_SYS
+   legs=4 | WIN=3 | LOSS=0 | PENDING=1
+   ✅ Leg 1) 19:00 | super league switzerland | FC ST. Gallen vs FC Lugano | Team1 scores (FT) | [FORT PLUS] | odd=1.17
+   ⏳ Leg 2) 20:00 | serie b | Catanzaro vs Modena | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.38
+   ✅ Leg 3) 20:45 | championship | Watford vs Wrexham | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
+   ✅ Leg 4) 21:00 | uefa champions league | Arsenal vs Bayer Leverkusen | Over 1.5 (FT) | [FORT PLUS] | odd=1.22
+
 ====================================================================
-TOTAL tickets : 94
+TOTAL tickets : 95
 ✅ WIN     : 32
 ❌ LOSS    : 61
-⏳ PENDING : 1
+⏳ PENDING : 2
 ====================================================================
 
