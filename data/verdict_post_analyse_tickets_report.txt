@@ -2,9 +2,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-03-18
+Date run       : 2026-03-19
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (101 ids)
+Whitelist      : ON (102 ids)
 Ignorés (hors whitelist) : 16
 Ignorés (date>=today)    : 4
 
@@ -804,10 +804,19 @@ Ignorés (date>=today)    : 4
    ✅ Leg 3) 20:45 | championship | Watford vs Wrexham | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
    ✅ Leg 4) 21:00 | uefa champions league | Arsenal vs Bayer Leverkusen | Over 1.5 (FT) | [FORT PLUS] | odd=1.22
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Mercredi 2026-03-18 20:45→01:20 | code=A2 | odd=2.6
+   id=2026-03-18_2045_7ad42c8caa_SYS
+   legs=4 | WIN=2 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 20:45 | championship | Southampton vs Norwich | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+   ✅ Leg 2) 21:00 | uefa champions league | Tottenham vs Atletico Madrid | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ❌ Leg 3) 22:30 | liga pro ecuador | Manta FC vs Guayaquil City FC | HT 1X Home | [MEGA EXPLOSION] | odd=1.22
+   ✅ Leg 4) 23:30 | serie a brazil | Atletico Paranaense vs Cruzeiro | HT+0.5 | [TRÈS FORT] | odd=1.42
+
 ====================================================================
-TOTAL tickets : 95
+TOTAL tickets : 96
 ✅ WIN     : 32
-❌ LOSS    : 61
+❌ LOSS    : 62
 ⏳ PENDING : 2
 ====================================================================
 

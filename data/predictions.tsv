@@ -2252,3 +2252,178 @@ TSV:	4151832262	2026-03-18	uefa europa league	SC Braga	Ferencvarosi TC	TEAM2_SCO
 TSV:	4151832262	2026-03-18	uefa europa league	SC Braga	Ferencvarosi TC	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.25 fixture=1528348	16:30
 TSV:	4151832262	2026-03-18	uefa europa league	SC Braga	Ferencvarosi TC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.5 fixture=1528348	16:30
 TSV:	4151832262	2026-03-18	uefa europa league	SC Braga	Ferencvarosi TC	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=5.9 fixture=1528348	16:30
+TSV:	3203768733	2026-03-19	liga mx	Guadalajara Chivas	Leon	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.25 fixture=1492543	03:07
+TSV:	3203768733	2026-03-19	liga mx	Guadalajara Chivas	Leon	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.06 fixture=1492543	03:07
+TSV:	3203768733	2026-03-19	liga mx	Guadalajara Chivas	Leon	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	odd=1.07 fixture=1492543	03:07
+TSV:	3203768733	2026-03-19	liga mx	Guadalajara Chivas	Leon	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.6 fixture=1492543	03:07
+TSV:	3203768733	2026-03-19	liga mx	Guadalajara Chivas	Leon	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.17 fixture=1492543	03:07
+TSV:	3203768733	2026-03-19	liga mx	Guadalajara Chivas	Leon	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	odd=1.37 fixture=1492543	03:07
+TSV:	3203768733	2026-03-19	liga mx	Guadalajara Chivas	Leon	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=7.5 fixture=1492543	03:07
+TSV:	4185303411	2026-03-19	liga pro ecuador	Libertad	Barcelona SC	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.4 fixture=1519291	01:00
+TSV:	4185303411	2026-03-19	liga pro ecuador	Libertad	Barcelona SC	HT1X_HOME	HT 1X Home	0.0	KO	0	odd=1.36 fixture=1519291	01:00
+TSV:	4185303411	2026-03-19	liga pro ecuador	Libertad	Barcelona SC	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	odd=1.33 fixture=1519291	01:00
+TSV:	4185303411	2026-03-19	liga pro ecuador	Libertad	Barcelona SC	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	odd=1.29 fixture=1519291	01:00
+TSV:	4185303411	2026-03-19	liga pro ecuador	Libertad	Barcelona SC	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.3 fixture=1519291	01:00
+TSV:	4185303411	2026-03-19	liga pro ecuador	Libertad	Barcelona SC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.8 fixture=1519291	01:00
+TSV:	4185303411	2026-03-19	liga pro ecuador	Libertad	Barcelona SC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.5 fixture=1519291	01:00
+TSV:	678107887	2026-03-19	liga pro ecuador	Aucas	Tecnico Universitario	HT05	HT+0.5	6.0	TRÈS FORT	1	odd=1.44 fixture=1519288	20:00
+TSV:	678107887	2026-03-19	liga pro ecuador	Aucas	Tecnico Universitario	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.14 fixture=1519288	20:00
+TSV:	678107887	2026-03-19	liga pro ecuador	Aucas	Tecnico Universitario	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.2 fixture=1519288	20:00
+TSV:	678107887	2026-03-19	liga pro ecuador	Aucas	Tecnico Universitario	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.6 fixture=1519288	20:00
+TSV:	678107887	2026-03-19	liga pro ecuador	Aucas	Tecnico Universitario	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.36 fixture=1519288	20:00
+TSV:	678107887	2026-03-19	liga pro ecuador	Aucas	Tecnico Universitario	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.75 fixture=1519288	20:00
+TSV:	678107887	2026-03-19	liga pro ecuador	Aucas	Tecnico Universitario	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.5 fixture=1519288	20:00
+TSV:	1152685358	2026-03-19	liga pro ecuador	Orense SC	Mushuc Runa SC	HT05	HT+0.5	6.0	TRÈS FORT	1	odd=1.44 fixture=1519294	22:30
+TSV:	1152685358	2026-03-19	liga pro ecuador	Orense SC	Mushuc Runa SC	HT1X_HOME	HT 1X Home	4.0	FORT	0	odd=1.17 fixture=1519294	22:30
+TSV:	1152685358	2026-03-19	liga pro ecuador	Orense SC	Mushuc Runa SC	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.2 fixture=1519294	22:30
+TSV:	1152685358	2026-03-19	liga pro ecuador	Orense SC	Mushuc Runa SC	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.44 fixture=1519294	22:30
+TSV:	1152685358	2026-03-19	liga pro ecuador	Orense SC	Mushuc Runa SC	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.33 fixture=1519294	22:30
+TSV:	1152685358	2026-03-19	liga pro ecuador	Orense SC	Mushuc Runa SC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.9 fixture=1519294	22:30
+TSV:	1152685358	2026-03-19	liga pro ecuador	Orense SC	Mushuc Runa SC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4 fixture=1519294	22:30
+TSV:	95194339	2026-03-18	primera a colombia	Internacional de Bogota	Deportivo Pereira	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.4 fixture=1506041	00:20
+TSV:	95194339	2026-03-18	primera a colombia	Internacional de Bogota	Deportivo Pereira	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.09 fixture=1506041	00:20
+TSV:	95194339	2026-03-18	primera a colombia	Internacional de Bogota	Deportivo Pereira	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.11 fixture=1506041	00:20
+TSV:	95194339	2026-03-18	primera a colombia	Internacional de Bogota	Deportivo Pereira	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.87 fixture=1506041	00:20
+TSV:	95194339	2026-03-18	primera a colombia	Internacional de Bogota	Deportivo Pereira	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.35 fixture=1506041	00:20
+TSV:	95194339	2026-03-18	primera a colombia	Internacional de Bogota	Deportivo Pereira	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=1.48 fixture=1506041	00:20
+TSV:	95194339	2026-03-18	primera a colombia	Internacional de Bogota	Deportivo Pereira	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=7.4 fixture=1506041	00:20
+TSV:	3096905688	2026-03-19	primera a colombia	Bucaramanga	Once Caldas	HT05	HT+0.5	2.0	MOYEN	0	odd=1.33 fixture=1506038	01:30
+TSV:	3096905688	2026-03-19	primera a colombia	Bucaramanga	Once Caldas	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.18 fixture=1506038	01:30
+TSV:	3096905688	2026-03-19	primera a colombia	Bucaramanga	Once Caldas	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.17 fixture=1506038	01:30
+TSV:	3096905688	2026-03-19	primera a colombia	Bucaramanga	Once Caldas	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.43 fixture=1506038	01:30
+TSV:	3096905688	2026-03-19	primera a colombia	Bucaramanga	Once Caldas	O15_FT	Over 1.5 (FT)	0.0	KO	0	odd=1.28 fixture=1506038	01:30
+TSV:	3096905688	2026-03-19	primera a colombia	Bucaramanga	Once Caldas	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.91 fixture=1506038	01:30
+TSV:	3096905688	2026-03-19	primera a colombia	Bucaramanga	Once Caldas	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.2 fixture=1506038	01:30
+TSV:	1021445106	2026-03-19	primera a colombia	Deportivo Cali	Santa Fe	HT05	HT+0.5	4.0	FORT	0	odd=1.42 fixture=1506042	02:30
+TSV:	1021445106	2026-03-19	primera a colombia	Deportivo Cali	Santa Fe	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.22 fixture=1506042	02:30
+TSV:	1021445106	2026-03-19	primera a colombia	Deportivo Cali	Santa Fe	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.28 fixture=1506042	02:30
+TSV:	1021445106	2026-03-19	primera a colombia	Deportivo Cali	Santa Fe	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	odd=1.5 fixture=1506042	02:30
+TSV:	1021445106	2026-03-19	primera a colombia	Deportivo Cali	Santa Fe	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	odd=1.42 fixture=1506042	02:30
+TSV:	1021445106	2026-03-19	primera a colombia	Deportivo Cali	Santa Fe	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.18 fixture=1506042	02:30
+TSV:	1021445106	2026-03-19	primera a colombia	Deportivo Cali	Santa Fe	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	odd=3.5 fixture=1506042	02:30
+TSV:	3809362945	2026-03-19	primera a colombia	Alianza Valledupar	Jaguares	HT05	HT+0.5	2.0	MOYEN	0	odd=1.5 fixture=1506043	22:10
+TSV:	3809362945	2026-03-19	primera a colombia	Alianza Valledupar	Jaguares	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.17 fixture=1506043	22:10
+TSV:	3809362945	2026-03-19	primera a colombia	Alianza Valledupar	Jaguares	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.22 fixture=1506043	22:10
+TSV:	3809362945	2026-03-19	primera a colombia	Alianza Valledupar	Jaguares	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.69 fixture=1506043	22:10
+TSV:	3809362945	2026-03-19	primera a colombia	Alianza Valledupar	Jaguares	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	odd=1.48 fixture=1506043	22:10
+TSV:	3809362945	2026-03-19	primera a colombia	Alianza Valledupar	Jaguares	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.86 fixture=1506043	22:10
+TSV:	3809362945	2026-03-19	primera a colombia	Alianza Valledupar	Jaguares	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.4 fixture=1506043	22:10
+TSV:	2590707023	2026-03-18	primera división paraguay	Club Guarani	Deportivo Recoleta	HT05	HT+0.5	4.0	FORT	0	odd=1.4 fixture=1505019	00:30
+TSV:	2590707023	2026-03-18	primera división paraguay	Club Guarani	Deportivo Recoleta	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	odd=1.17 fixture=1505019	00:30
+TSV:	2590707023	2026-03-18	primera división paraguay	Club Guarani	Deportivo Recoleta	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.18 fixture=1505019	00:30
+TSV:	2590707023	2026-03-18	primera división paraguay	Club Guarani	Deportivo Recoleta	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.49 fixture=1505019	00:30
+TSV:	2590707023	2026-03-18	primera división paraguay	Club Guarani	Deportivo Recoleta	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.3 fixture=1505019	00:30
+TSV:	2590707023	2026-03-18	primera división paraguay	Club Guarani	Deportivo Recoleta	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.83 fixture=1505019	00:30
+TSV:	2590707023	2026-03-18	primera división paraguay	Club Guarani	Deportivo Recoleta	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.8 fixture=1505019	00:30
+TSV:	216911489	2026-03-18	primera división paraguay	Libertad Asuncion	Nacional Asuncion	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.53 fixture=1505020	00:30
+TSV:	216911489	2026-03-18	primera división paraguay	Libertad Asuncion	Nacional Asuncion	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.22 fixture=1505020	00:30
+TSV:	216911489	2026-03-18	primera división paraguay	Libertad Asuncion	Nacional Asuncion	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.31 fixture=1505020	00:30
+TSV:	216911489	2026-03-18	primera división paraguay	Libertad Asuncion	Nacional Asuncion	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.51 fixture=1505020	00:30
+TSV:	216911489	2026-03-18	primera división paraguay	Libertad Asuncion	Nacional Asuncion	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.44 fixture=1505020	00:30
+TSV:	216911489	2026-03-18	primera división paraguay	Libertad Asuncion	Nacional Asuncion	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.2 fixture=1505020	00:30
+TSV:	216911489	2026-03-18	primera división paraguay	Libertad Asuncion	Nacional Asuncion	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.2 fixture=1505020	00:30
+TSV:	3092662000	2026-03-18	serie a brazil	Atletico-MG	Sao Paulo	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.48 fixture=1492171	00:00
+TSV:	3092662000	2026-03-18	serie a brazil	Atletico-MG	Sao Paulo	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.25 fixture=1492171	00:00
+TSV:	3092662000	2026-03-18	serie a brazil	Atletico-MG	Sao Paulo	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.33 fixture=1492171	00:00
+TSV:	3092662000	2026-03-18	serie a brazil	Atletico-MG	Sao Paulo	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.4 fixture=1492171	00:00
+TSV:	3092662000	2026-03-18	serie a brazil	Atletico-MG	Sao Paulo	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.42 fixture=1492171	00:00
+TSV:	3092662000	2026-03-18	serie a brazil	Atletico-MG	Sao Paulo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.38 fixture=1492171	00:00
+TSV:	3092662000	2026-03-18	serie a brazil	Atletico-MG	Sao Paulo	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=3.2 fixture=1492171	00:00
+TSV:	635258631	2026-03-18	serie a brazil	Mirassol	Coritiba	HT05	HT+0.5	4.0	FORT	0	odd=1.38 fixture=1492176	00:00
+TSV:	635258631	2026-03-18	serie a brazil	Mirassol	Coritiba	HT1X_HOME	HT 1X Home	4.0	FORT	0	odd=1.14 fixture=1492176	00:00
+TSV:	635258631	2026-03-18	serie a brazil	Mirassol	Coritiba	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.15 fixture=1492176	00:00
+TSV:	635258631	2026-03-18	serie a brazil	Mirassol	Coritiba	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.67 fixture=1492176	00:00
+TSV:	635258631	2026-03-18	serie a brazil	Mirassol	Coritiba	O15_FT	Over 1.5 (FT)	4.0	FORT	0	odd=1.33 fixture=1492176	00:00
+TSV:	635258631	2026-03-18	serie a brazil	Mirassol	Coritiba	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=1.63 fixture=1492176	00:00
+TSV:	635258631	2026-03-18	serie a brazil	Mirassol	Coritiba	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=6 fixture=1492176	00:00
+TSV:	1817574811	2026-03-19	serie a brazil	Santos	Internacional	HT05	HT+0.5	5.0	FORT PLUS	1	odd=1.33 fixture=1492178	01:30
+TSV:	1817574811	2026-03-19	serie a brazil	Santos	Internacional	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.25 fixture=1492178	01:30
+TSV:	1817574811	2026-03-19	serie a brazil	Santos	Internacional	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	odd=1.25 fixture=1492178	01:30
+TSV:	1817574811	2026-03-19	serie a brazil	Santos	Internacional	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.3 fixture=1492178	01:30
+TSV:	1817574811	2026-03-19	serie a brazil	Santos	Internacional	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.28 fixture=1492178	01:30
+TSV:	1817574811	2026-03-19	serie a brazil	Santos	Internacional	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=2.32 fixture=1492178	01:30
+TSV:	1817574811	2026-03-19	serie a brazil	Santos	Internacional	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.25 fixture=1492178	01:30
+TSV:	199715269	2026-03-19	serie a brazil	Vasco DA Gama	Fluminense	HT05	HT+0.5	4.0	FORT	0	odd=1.42 fixture=1492179	01:30
+TSV:	199715269	2026-03-19	serie a brazil	Vasco DA Gama	Fluminense	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.4 fixture=1492179	01:30
+TSV:	199715269	2026-03-19	serie a brazil	Vasco DA Gama	Fluminense	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.44 fixture=1492179	01:30
+TSV:	199715269	2026-03-19	serie a brazil	Vasco DA Gama	Fluminense	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.29 fixture=1492179	01:30
+TSV:	199715269	2026-03-19	serie a brazil	Vasco DA Gama	Fluminense	O15_FT	Over 1.5 (FT)	4.0	FORT	0	odd=1.4 fixture=1492179	01:30
+TSV:	199715269	2026-03-19	serie a brazil	Vasco DA Gama	Fluminense	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.5 fixture=1492179	01:30
+TSV:	199715269	2026-03-19	serie a brazil	Vasco DA Gama	Fluminense	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=2.12 fixture=1492179	01:30
+TSV:	2794348141	2026-03-19	serie a brazil	Gremio	Vitoria	HT05	HT+0.5	6.0	TRÈS FORT	1	odd=1.38 fixture=1492175	23:00
+TSV:	2794348141	2026-03-19	serie a brazil	Gremio	Vitoria	HT1X_HOME	HT 1X Home	4.0	FORT	0	odd=1.18 fixture=1492175	23:00
+TSV:	2794348141	2026-03-19	serie a brazil	Gremio	Vitoria	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.18 fixture=1492175	23:00
+TSV:	2794348141	2026-03-19	serie a brazil	Gremio	Vitoria	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.44 fixture=1492175	23:00
+TSV:	2794348141	2026-03-19	serie a brazil	Gremio	Vitoria	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.3 fixture=1492175	23:00
+TSV:	2794348141	2026-03-19	serie a brazil	Gremio	Vitoria	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.86 fixture=1492175	23:00
+TSV:	2794348141	2026-03-19	serie a brazil	Gremio	Vitoria	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=4.2 fixture=1492175	23:00
+TSV:	449892822	2026-03-19	super lig	Kayserispor	Fatih Karagümrük	HT05	HT+0.5	4.0	FORT	0	odd=1.36 fixture=1394673	14:00
+TSV:	449892822	2026-03-19	super lig	Kayserispor	Fatih Karagümrük	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	odd=1.22 fixture=1394673	14:00
+TSV:	449892822	2026-03-19	super lig	Kayserispor	Fatih Karagümrük	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.2 fixture=1394673	14:00
+TSV:	449892822	2026-03-19	super lig	Kayserispor	Fatih Karagümrük	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	odd=1.4 fixture=1394673	14:00
+TSV:	449892822	2026-03-19	super lig	Kayserispor	Fatih Karagümrük	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	odd=1.28 fixture=1394673	14:00
+TSV:	449892822	2026-03-19	super lig	Kayserispor	Fatih Karagümrük	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.97 fixture=1394673	14:00
+TSV:	449892822	2026-03-19	super lig	Kayserispor	Fatih Karagümrük	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.65 fixture=1394673	14:00
+TSV:	1418363399	2026-03-19	super lig	Beşiktaş	Kasımpaşa	HT05	HT+0.5	7.0	EXPLOSION	1	odd=1.25 fixture=1394669	18:00
+TSV:	1418363399	2026-03-19	super lig	Beşiktaş	Kasımpaşa	HT1X_HOME	HT 1X Home	4.0	FORT	0	odd=1.06 fixture=1394669	18:00
+TSV:	1418363399	2026-03-19	super lig	Beşiktaş	Kasımpaşa	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	odd=1.07 fixture=1394669	18:00
+TSV:	1418363399	2026-03-19	super lig	Beşiktaş	Kasımpaşa	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.62 fixture=1394669	18:00
+TSV:	1418363399	2026-03-19	super lig	Beşiktaş	Kasımpaşa	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	odd=1.18 fixture=1394669	18:00
+TSV:	1418363399	2026-03-19	super lig	Beşiktaş	Kasımpaşa	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=1.35 fixture=1394669	18:00
+TSV:	1418363399	2026-03-19	super lig	Beşiktaş	Kasımpaşa	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=8.1 fixture=1394669	18:00
+TSV:	3276986696	2026-03-19	super lig	Konyaspor	Gençlerbirliği S.K.	HT05	HT+0.5	0.0	KO	0	odd=1.4 fixture=1394674	18:00
+TSV:	3276986696	2026-03-19	super lig	Konyaspor	Gençlerbirliği S.K.	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.17 fixture=1394674	18:00
+TSV:	3276986696	2026-03-19	super lig	Konyaspor	Gençlerbirliği S.K.	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.18 fixture=1394674	18:00
+TSV:	3276986696	2026-03-19	super lig	Konyaspor	Gençlerbirliği S.K.	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.55 fixture=1394674	18:00
+TSV:	3276986696	2026-03-19	super lig	Konyaspor	Gençlerbirliği S.K.	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	odd=1.36 fixture=1394674	18:00
+TSV:	3276986696	2026-03-19	super lig	Konyaspor	Gençlerbirliği S.K.	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.8 fixture=1394674	18:00
+TSV:	3276986696	2026-03-19	super lig	Konyaspor	Gençlerbirliği S.K.	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.4 fixture=1394674	18:00
+TSV:	954513385	2026-03-19	uefa europa league	FC Midtjylland	Nottingham Forest	HT05	HT+0.5	1.0	FAIBLE	0	odd=1.33 fixture=1528347	18:45
+TSV:	954513385	2026-03-19	uefa europa league	FC Midtjylland	Nottingham Forest	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.4 fixture=1528347	18:45
+TSV:	954513385	2026-03-19	uefa europa league	FC Midtjylland	Nottingham Forest	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.35 fixture=1528347	18:45
+TSV:	954513385	2026-03-19	uefa europa league	FC Midtjylland	Nottingham Forest	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.18 fixture=1528347	18:45
+TSV:	954513385	2026-03-19	uefa europa league	FC Midtjylland	Nottingham Forest	O15_FT	Over 1.5 (FT)	0.0	KO	0	odd=1.25 fixture=1528347	18:45
+TSV:	954513385	2026-03-19	uefa europa league	FC Midtjylland	Nottingham Forest	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.15 fixture=1528347	18:45
+TSV:	954513385	2026-03-19	uefa europa league	FC Midtjylland	Nottingham Forest	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.12 fixture=1528347	18:45
+TSV:	858270615	2026-03-19	uefa europa league	Lyon	Celta Vigo	HT05	HT+0.5	6.0	TRÈS FORT	1	odd=1.38 fixture=1528346	18:45
+TSV:	858270615	2026-03-19	uefa europa league	Lyon	Celta Vigo	HT1X_HOME	HT 1X Home	0.0	KO	0	odd=1.2 fixture=1528346	18:45
+TSV:	858270615	2026-03-19	uefa europa league	Lyon	Celta Vigo	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.22 fixture=1528346	18:45
+TSV:	858270615	2026-03-19	uefa europa league	Lyon	Celta Vigo	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.44 fixture=1528346	18:45
+TSV:	858270615	2026-03-19	uefa europa league	Lyon	Celta Vigo	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.36 fixture=1528346	18:45
+TSV:	858270615	2026-03-19	uefa europa league	Lyon	Celta Vigo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2 fixture=1528346	18:45
+TSV:	858270615	2026-03-19	uefa europa league	Lyon	Celta Vigo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.75 fixture=1528346	18:45
+TSV:	1462451301	2026-03-19	uefa europa league	SC Freiburg	Genk	HT05	HT+0.5	6.0	TRÈS FORT	1	odd=1.3 fixture=1528349	18:45
+TSV:	1462451301	2026-03-19	uefa europa league	SC Freiburg	Genk	HT1X_HOME	HT 1X Home	1.0	FAIBLE	0	odd=1.15 fixture=1528349	18:45
+TSV:	1462451301	2026-03-19	uefa europa league	SC Freiburg	Genk	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.12 fixture=1528349	18:45
+TSV:	1462451301	2026-03-19	uefa europa league	SC Freiburg	Genk	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.53 fixture=1528349	18:45
+TSV:	1462451301	2026-03-19	uefa europa league	SC Freiburg	Genk	O15_FT	Over 1.5 (FT)	4.0	FORT	0	odd=1.22 fixture=1528349	18:45
+TSV:	1462451301	2026-03-19	uefa europa league	SC Freiburg	Genk	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.56 fixture=1528349	18:45
+TSV:	1462451301	2026-03-19	uefa europa league	SC Freiburg	Genk	TEAM2_WIN_FT	Team2 wins (FT)	4.0	FORT	0	odd=5.5 fixture=1528349	18:45
+TSV:	3238100338	2026-03-19	uefa europa league	AS Roma	Bologna	HT05	HT+0.5	0.0	KO	0	odd=1.42 fixture=1528343	21:00
+TSV:	3238100338	2026-03-19	uefa europa league	AS Roma	Bologna	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.15 fixture=1528343	21:00
+TSV:	3238100338	2026-03-19	uefa europa league	AS Roma	Bologna	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.2 fixture=1528343	21:00
+TSV:	3238100338	2026-03-19	uefa europa league	AS Roma	Bologna	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	odd=1.62 fixture=1528343	21:00
+TSV:	3238100338	2026-03-19	uefa europa league	AS Roma	Bologna	O15_FT	Over 1.5 (FT)	4.0	FORT	0	odd=1.4 fixture=1528343	21:00
+TSV:	3238100338	2026-03-19	uefa europa league	AS Roma	Bologna	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.78 fixture=1528343	21:00
+TSV:	3238100338	2026-03-19	uefa europa league	AS Roma	Bologna	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=4.55 fixture=1528343	21:00
+TSV:	968440772	2026-03-19	uefa europa league	Aston Villa	Lille	HT05	HT+0.5	2.0	MOYEN	0	odd=1.35 fixture=1528342	21:00
+TSV:	968440772	2026-03-19	uefa europa league	Aston Villa	Lille	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	odd=1.15 fixture=1528342	21:00
+TSV:	968440772	2026-03-19	uefa europa league	Aston Villa	Lille	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.15 fixture=1528342	21:00
+TSV:	968440772	2026-03-19	uefa europa league	Aston Villa	Lille	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.53 fixture=1528342	21:00
+TSV:	968440772	2026-03-19	uefa europa league	Aston Villa	Lille	O15_FT	Over 1.5 (FT)	4.0	FORT	0	odd=1.28 fixture=1528342	21:00
+TSV:	968440772	2026-03-19	uefa europa league	Aston Villa	Lille	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.65 fixture=1528342	21:00
+TSV:	968440772	2026-03-19	uefa europa league	Aston Villa	Lille	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=4.85 fixture=1528342	21:00
+TSV:	3076839426	2026-03-19	uefa europa league	FC Porto	VfB Stuttgart	HT05	HT+0.5	6.0	TRÈS FORT	1	odd=1.33 fixture=1528344	21:00
+TSV:	3076839426	2026-03-19	uefa europa league	FC Porto	VfB Stuttgart	HT1X_HOME	HT 1X Home	4.0	FORT	0	odd=1.3 fixture=1528344	21:00
+TSV:	3076839426	2026-03-19	uefa europa league	FC Porto	VfB Stuttgart	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.22 fixture=1528344	21:00
+TSV:	3076839426	2026-03-19	uefa europa league	FC Porto	VfB Stuttgart	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.29 fixture=1528344	21:00
+TSV:	3076839426	2026-03-19	uefa europa league	FC Porto	VfB Stuttgart	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.25 fixture=1528344	21:00
+TSV:	3076839426	2026-03-19	uefa europa league	FC Porto	VfB Stuttgart	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=2.42 fixture=1528344	21:00
+TSV:	3076839426	2026-03-19	uefa europa league	FC Porto	VfB Stuttgart	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=2.7 fixture=1528344	21:00
+TSV:	1129339705	2026-03-19	uefa europa league	Real Betis	Panathinaikos	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.36 fixture=1528345	21:00
+TSV:	1129339705	2026-03-19	uefa europa league	Real Betis	Panathinaikos	HT1X_HOME	HT 1X Home	0.0	KO	0	odd=1.07 fixture=1528345	21:00
+TSV:	1129339705	2026-03-19	uefa europa league	Real Betis	Panathinaikos	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.11 fixture=1528345	21:00
+TSV:	1129339705	2026-03-19	uefa europa league	Real Betis	Panathinaikos	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	odd=1.8 fixture=1528345	21:00
+TSV:	1129339705	2026-03-19	uefa europa league	Real Betis	Panathinaikos	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	odd=1.25 fixture=1528345	21:00
+TSV:	1129339705	2026-03-19	uefa europa league	Real Betis	Panathinaikos	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.38 fixture=1528345	21:00
+TSV:	1129339705	2026-03-19	uefa europa league	Real Betis	Panathinaikos	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	odd=8.5 fixture=1528345	21:00

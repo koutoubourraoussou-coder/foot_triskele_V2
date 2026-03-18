@@ -322,3 +322,14 @@ TSV: 2026-03-18	2940863738	O15_FT	20:45	championship	Southampton	Norwich	1.25	13
 TSV: 2026-03-18	1682430182	O15_FT	21:00	uefa champions league	Tottenham	Atletico Madrid	1.2	1528331	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-03-18	1891608756	O15_FT	22:10	primera a colombia	Deportivo Pasto	Chico	1.45	1506040	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_EFFECTIVE | 2026-03-19 00:04:50 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-19	3096905688	O15_FT	01:30	primera a colombia	Bucaramanga	Once Caldas	1.28	1506038	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-19	1021445106	O15_FT	02:30	primera a colombia	Deportivo Cali	Santa Fe	1.42	1506042	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-19	3203768733	O15_FT	03:07	liga mx	Guadalajara Chivas	Leon	1.17	1492543	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-19	449892822	O15_FT	14:00	super lig	Kayserispor	Fatih Karagümrük	1.28	1394673	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-19	3276986696	O15_FT	18:00	super lig	Konyaspor	Gençlerbirliği S.K.	1.36	1394674	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-19	1418363399	O15_FT	18:00	super lig	Beşiktaş	Kasımpaşa	1.18	1394669	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-19	3809362945	O15_FT	22:10	primera a colombia	Alianza Valledupar	Jaguares	1.48	1506043	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

@@ -1,28 +1,25 @@
-2026-03-18 20:45 | championship | Southampton vs Norwich
-2026-03-18 01:00 | liga pro ecuador | Leones del Norte vs LDU de Quito
-2026-03-18 20:00 | liga pro ecuador | Macara vs Delfin SC
-2026-03-18 22:30 | liga pro ecuador | Manta FC vs Guayaquil City FC
-2026-03-18 01:15 | liga profesional argentina | Central Cordoba de Santiago vs Deportivo Riestra
-2026-03-18 01:15 | liga profesional argentina | Gimnasia M. vs Estudiantes L.P.
-2026-03-18 00:20 | primera a colombia | Bucaramanga vs Once Caldas
-2026-03-18 02:30 | primera a colombia | Millonarios vs Atletico Nacional
-2026-03-18 22:10 | primera a colombia | Deportivo Pasto vs Chico
-2026-03-18 00:30 | primera división paraguay | Olimpia vs Sportivo Luqueno
-2026-03-18 22:30 | primera división paraguay | Rubio NU vs Cerro Porteno
-2026-03-18 23:00 | serie a brazil | Bahia vs RB Bragantino
-2026-03-18 23:00 | serie a brazil | Palmeiras vs Botafogo
-2026-03-18 23:30 | serie a brazil | Atletico Paranaense vs Cruzeiro
-2026-03-18 19:00 | serie b | Frosinone vs Bari
-2026-03-18 20:00 | serie b | Avellino vs Sudtirol
-2026-03-18 20:00 | serie b | Carrarese vs Sampdoria
-2026-03-18 20:00 | serie b | Pescara vs Virtus Entella
-2026-03-18 14:00 | super lig | Alanyaspor vs Kocaelispor
-2026-03-18 18:00 | super lig | Başakşehir vs Antalyaspor
-2026-03-18 18:00 | super lig | Eyüpspor vs Trabzonspor
-2026-03-18 19:00 | super lig | Göztepe vs Galatasaray
-2026-03-18 19:00 | super lig | Rizespor vs Samsunspor
-2026-03-18 18:45 | uefa champions league | Barcelona vs Newcastle
-2026-03-18 21:00 | uefa champions league | Bayern München vs Atalanta
-2026-03-18 21:00 | uefa champions league | Liverpool vs Galatasaray
-2026-03-18 21:00 | uefa champions league | Tottenham vs Atletico Madrid
-2026-03-18 16:30 | uefa europa league | SC Braga vs Ferencvarosi TC
+2026-03-19 03:07 | liga mx | Guadalajara Chivas vs Leon
+2026-03-19 01:00 | liga pro ecuador | Libertad vs Barcelona SC
+2026-03-19 20:00 | liga pro ecuador | Aucas vs Tecnico Universitario
+2026-03-19 22:30 | liga pro ecuador | Orense SC vs Mushuc Runa SC
+2026-03-19 00:20 | primera a colombia | Internacional de Bogota vs Deportivo Pereira
+2026-03-19 01:30 | primera a colombia | Bucaramanga vs Once Caldas
+2026-03-19 02:30 | primera a colombia | Deportivo Cali vs Santa Fe
+2026-03-19 22:10 | primera a colombia | Alianza Valledupar vs Jaguares
+2026-03-19 00:30 | primera división paraguay | Club Guarani vs Deportivo Recoleta
+2026-03-19 00:30 | primera división paraguay | Libertad Asuncion vs Nacional Asuncion
+2026-03-19 00:00 | serie a brazil | Atletico-MG vs Sao Paulo
+2026-03-19 00:00 | serie a brazil | Mirassol vs Coritiba
+2026-03-19 01:30 | serie a brazil | Santos vs Internacional
+2026-03-19 01:30 | serie a brazil | Vasco DA Gama vs Fluminense
+2026-03-19 23:00 | serie a brazil | Gremio vs Vitoria
+2026-03-19 14:00 | super lig | Kayserispor vs Fatih Karagümrük
+2026-03-19 18:00 | super lig | Beşiktaş vs Kasımpaşa
+2026-03-19 18:00 | super lig | Konyaspor vs Gençlerbirliği S.K.
+2026-03-19 18:45 | uefa europa league | FC Midtjylland vs Nottingham Forest
+2026-03-19 18:45 | uefa europa league | Lyon vs Celta Vigo
+2026-03-19 18:45 | uefa europa league | SC Freiburg vs Genk
+2026-03-19 21:00 | uefa europa league | AS Roma vs Bologna
+2026-03-19 21:00 | uefa europa league | Aston Villa vs Lille
+2026-03-19 21:00 | uefa europa league | FC Porto vs VfB Stuttgart
+2026-03-19 21:00 | uefa europa league | Real Betis vs Panathinaikos

@@ -1,4 +1,4 @@
-RUN MAESTROLOGUE — 2026-03-18 00:12:51
+RUN MAESTROLOGUE — 2026-03-19 00:04:50
 - source_tsv: predictions.tsv
 - run_date: ALL
 - maestro_level: 3
@@ -8,63 +8,63 @@ MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
 ----------------------------------------------------------
 - generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
 - règle: préférer 3L si écart <= 0.00%
-- iterations: 12207 | valid_3L_found: 810 | valid_4L_found: 8787
+- iterations: 14897 | valid_3L_found: 623 | valid_4L_found: 9518
 - top3_size: 8 | top4_size: 8
 
 TOP3 (desc):
-  TOP3[1/8]: score=0.813 (81.3%) | legs=3 | odd=2.47
-  TOP3[2/8]: score=0.777 (77.7%) | legs=3 | odd=2.46
-  TOP3[3/8]: score=0.777 (77.7%) | legs=3 | odd=2.51
-  TOP3[4/8]: score=0.772 (77.2%) | legs=3 | odd=2.57
-  TOP3[5/8]: score=0.772 (77.2%) | legs=3 | odd=2.41
-  TOP3[6/8]: score=0.770 (77.0%) | legs=3 | odd=2.42
-  TOP3[7/8]: score=0.770 (77.0%) | legs=3 | odd=2.74
-  TOP3[8/8]: score=0.769 (76.9%) | legs=3 | odd=2.41
+  TOP3[1/8]: score=0.766 (76.6%) | legs=3 | odd=2.53
+  TOP3[2/8]: score=0.766 (76.6%) | legs=3 | odd=2.44
+  TOP3[3/8]: score=0.766 (76.6%) | legs=3 | odd=2.5
+  TOP3[4/8]: score=0.750 (75.0%) | legs=3 | odd=2.5
+  TOP3[5/8]: score=0.750 (75.0%) | legs=3 | odd=2.59
+  TOP3[6/8]: score=0.750 (75.0%) | legs=3 | odd=2.41
+  TOP3[7/8]: score=0.750 (75.0%) | legs=3 | odd=2.44
+  TOP3[8/8]: score=0.750 (75.0%) | legs=3 | odd=2.53
 
 TOP4 (desc):
-  TOP4[1/8]: score=0.821 (82.1%) | legs=4 | odd=2.6
-  TOP4[2/8]: score=0.821 (82.1%) | legs=4 | odd=2.43
-  TOP4[3/8]: score=0.819 (81.9%) | legs=4 | odd=2.76
-  TOP4[4/8]: score=0.816 (81.6%) | legs=4 | odd=2.7
-  TOP4[5/8]: score=0.816 (81.6%) | legs=4 | odd=2.45
-  TOP4[6/8]: score=0.816 (81.6%) | legs=4 | odd=2.53
-  TOP4[7/8]: score=0.815 (81.5%) | legs=4 | odd=2.83
-  TOP4[8/8]: score=0.814 (81.4%) | legs=4 | odd=2.58
+  TOP4[1/8]: score=0.800 (80.0%) | legs=4 | odd=2.53
+  TOP4[2/8]: score=0.793 (79.3%) | legs=4 | odd=2.53
+  TOP4[3/8]: score=0.793 (79.3%) | legs=4 | odd=2.51
+  TOP4[4/8]: score=0.791 (79.1%) | legs=4 | odd=2.51
+  TOP4[5/8]: score=0.791 (79.1%) | legs=4 | odd=2.53
+  TOP4[6/8]: score=0.788 (78.8%) | legs=4 | odd=2.44
+  TOP4[7/8]: score=0.788 (78.8%) | legs=4 | odd=2.59
+  TOP4[8/8]: score=0.788 (78.8%) | legs=4 | odd=2.48
 
-DRAW_3L: picked rank=1/8 | score=0.813 (81.3%) | odd=2.47
-DRAW_4L: picked rank=1/8 | score=0.821 (82.1%) | odd=2.6
-- écart relatif: 0.96%
-=> choisi: 4 legs | score=0.821 (82.1%) | final_source=LEAGUE
+DRAW_3L: picked rank=1/8 | score=0.766 (76.6%) | odd=2.53
+DRAW_4L: picked rank=1/8 | score=0.800 (80.0%) | odd=2.53
+- écart relatif: 4.30%
+=> choisi: 4 legs | score=0.800 (80.0%) | final_source=LEAGUE
 
 Ticket choisi (aperçu)
 ----------------------
-  1) 20:45 | championship | Southampton vs Norwich | O15_FT | odd=1.25
-  2) 21:00 | uefa champions league | Tottenham vs Atletico Madrid | O15_FT | odd=1.2
-  3) 22:30 | liga pro ecuador | Manta FC vs Guayaquil City FC | HT1X_HOME | odd=1.22
-  4) 23:30 | serie a brazil | Atletico Paranaense vs Cruzeiro | HT05 | odd=1.42
+  1) 01:30 | primera a colombia | Bucaramanga vs Once Caldas | HT1X_HOME | odd=1.18
+  2) 01:30 | serie a brazil | Santos vs Internacional | HT05 | odd=1.33
+  3) 22:10 | primera a colombia | Alianza Valledupar vs Jaguares | HT1X_HOME | odd=1.17
+  4) 23:00 | serie a brazil | Gremio vs Vitoria | HT05 | odd=1.38
 
 MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, LEAGUE x BET)
 ------------------------------------------------------------------------------
-- score ticket: 0.821 (82.1%)
+- score ticket: 0.800 (80.0%)
 - formule: wr_adj = wr(league x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
 
-1) 20:45 | championship | Southampton vs Norwich | bet=O15_FT | odd=1.25
-   LEAGUE championship: wr=0.79 dec=164 coef=1.000 => adj=0.788 (78.8%)
+1) 01:30 | primera a colombia | Bucaramanga vs Once Caldas | bet=HT1X_HOME | odd=1.18
+   LEAGUE primera a colombia: wr=0.82 dec=82 coef=1.000 => adj=0.819 (81.9%)
 
-2) 21:00 | uefa champions league | Tottenham vs Atletico Madrid | bet=O15_FT | odd=1.2
-   LEAGUE uefa champions league: wr=0.91 dec=60 coef=1.000 => adj=0.910 (91.0%)
+2) 01:30 | serie a brazil | Santos vs Internacional | bet=HT05 | odd=1.33
+   LEAGUE serie a brazil: wr=0.78 dec=53 coef=1.000 => adj=0.782 (78.2%)
 
-3) 22:30 | liga pro ecuador | Manta FC vs Guayaquil City FC | bet=HT1X_HOME | odd=1.22
-   LEAGUE liga pro ecuador: wr=0.80 dec=31 coef=1.000 => adj=0.802 (80.2%)
+3) 22:10 | primera a colombia | Alianza Valledupar vs Jaguares | bet=HT1X_HOME | odd=1.17
+   LEAGUE primera a colombia: wr=0.82 dec=82 coef=1.000 => adj=0.819 (81.9%)
 
-4) 23:30 | serie a brazil | Atletico Paranaense vs Cruzeiro | bet=HT05 | odd=1.42
+4) 23:00 | serie a brazil | Gremio vs Vitoria | bet=HT05 | odd=1.38
    LEAGUE serie a brazil: wr=0.78 dec=53 coef=1.000 => adj=0.782 (78.2%)
 
 
-MAESTROLOGUE — SYSTEM — 2026-03-18
+MAESTROLOGUE — SYSTEM — 2026-03-19
 ========================================
-- picks_total: 15
-- unique_matches_day: 14
+- picks_total: 12
+- unique_matches_day: 11
 - rich_day: False
 - max_windows_today: 1
 - windows_count: 1
@@ -72,85 +72,89 @@ MAESTROLOGUE — SYSTEM — 2026-03-18
 - min_accept_odd: 1.8
 - replay_after_last_kickoff: 110 min
 
-WINDOW 1 | 01:15 -> 23:30
-  - raw_window_picks: 15
-  - filtered_window_picks: 15
-  - ok_window: 15
+WINDOW 1 | 01:30 -> 23:00
+  - raw_window_picks: 12
+  - filtered_window_picks: 12
+  - ok_window: 12
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 3.72
+  - max_possible_odd(ok_window): 3.44
   - threshold_used_here: 2.4
-Ticket: tranche=1 | cote=2.6 | seuil_local=2.4 | 20:45 → 01:20 | fenêtre=165min
-  1) 20:45 | championship | Southampton vs Norwich | O15_FT | odd=1.25
-  2) 21:00 | uefa champions league | Tottenham vs Atletico Madrid | O15_FT | odd=1.2
-  3) 22:30 | liga pro ecuador | Manta FC vs Guayaquil City FC | HT1X_HOME | odd=1.22
-  4) 23:30 | serie a brazil | Atletico Paranaense vs Cruzeiro | HT05 | odd=1.42
+Ticket: tranche=1 | cote=2.53 | seuil_local=2.4 | 01:30 → 00:50 | fenêtre=1290min
+  1) 01:30 | primera a colombia | Bucaramanga vs Once Caldas | HT1X_HOME | odd=1.18
+  2) 01:30 | serie a brazil | Santos vs Internacional | HT05 | odd=1.33
+  3) 22:10 | primera a colombia | Alianza Valledupar vs Jaguares | HT1X_HOME | odd=1.17
+  4) 23:00 | serie a brazil | Gremio vs Vitoria | HT05 | odd=1.38
 
 FIN JOURNÉE
 ------------------
 - tickets_built: 1 / 1
-- next_window_start: 01:20
+- next_window_start: 00:50
 
 MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
 ----------------------------------------------------------------
 - build_source: LEAGUE x BET >= 0.72 (require_data=True)
 - select_source: LEAGUE x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
 - règle: préférer 3L si écart <= 0.00%
-- iterations: 18750 | valid_3L_found: 4592 | valid_4L_found: 16860
+- iterations: 23137 | valid_3L_found: 4219 | valid_4L_found: 22131
 - top3_size: 8 | top4_size: 8
 - rejected_by_build_gate (approx): 0
 
 TOP3 (desc):
-  TOP3[1/8]: score=0.816 (81.6%) | legs=3 | odd=2.47
-  TOP3[2/8]: score=0.814 (81.4%) | legs=3 | odd=2.42
-  TOP3[3/8]: score=0.814 (81.4%) | legs=3 | odd=2.47
-  TOP3[4/8]: score=0.808 (80.8%) | legs=3 | odd=2.52
-  TOP3[5/8]: score=0.808 (80.8%) | legs=3 | odd=2.47
-  TOP3[6/8]: score=0.808 (80.8%) | legs=3 | odd=2.44
-  TOP3[7/8]: score=0.806 (80.6%) | legs=3 | odd=2.47
-  TOP3[8/8]: score=0.801 (80.1%) | legs=3 | odd=2.44
+  TOP3[1/8]: score=0.761 (76.1%) | legs=3 | odd=2.46
+  TOP3[2/8]: score=0.761 (76.1%) | legs=3 | odd=2.47
+  TOP3[3/8]: score=0.761 (76.1%) | legs=3 | odd=2.58
+  TOP3[4/8]: score=0.755 (75.5%) | legs=3 | odd=2.86
+  TOP3[5/8]: score=0.755 (75.5%) | legs=3 | odd=2.47
+  TOP3[6/8]: score=0.755 (75.5%) | legs=3 | odd=2.58
+  TOP3[7/8]: score=0.755 (75.5%) | legs=3 | odd=2.48
+  TOP3[8/8]: score=0.755 (75.5%) | legs=3 | odd=2.42
 
 TOP4 (desc):
-  TOP4[1/8]: score=0.809 (80.9%) | legs=4 | odd=2.83
-  TOP4[2/8]: score=0.809 (80.9%) | legs=4 | odd=3.09
-  TOP4[3/8]: score=0.809 (80.9%) | legs=4 | odd=2.77
-  TOP4[4/8]: score=0.809 (80.9%) | legs=4 | odd=2.51
-  TOP4[5/8]: score=0.809 (80.9%) | legs=4 | odd=2.57
-  TOP4[6/8]: score=0.807 (80.7%) | legs=4 | odd=2.56
-  TOP4[7/8]: score=0.807 (80.7%) | legs=4 | odd=2.75
-  TOP4[8/8]: score=0.807 (80.7%) | legs=4 | odd=2.51
+  TOP4[1/8]: score=0.771 (77.1%) | legs=4 | odd=2.4
+  TOP4[2/8]: score=0.767 (76.7%) | legs=4 | odd=2.67
+  TOP4[3/8]: score=0.767 (76.7%) | legs=4 | odd=2.51
+  TOP4[4/8]: score=0.767 (76.7%) | legs=4 | odd=2.4
+  TOP4[5/8]: score=0.767 (76.7%) | legs=4 | odd=2.78
+  TOP4[6/8]: score=0.767 (76.7%) | legs=4 | odd=3.01
+  TOP4[7/8]: score=0.767 (76.7%) | legs=4 | odd=2.62
+  TOP4[8/8]: score=0.767 (76.7%) | legs=4 | odd=2.61
 
-DRAW_3L: picked rank=1/8 | score=0.816 (81.6%) | odd=2.47
-DRAW_4L: picked rank=1/8 | score=0.809 (80.9%) | odd=2.83
-- écart relatif: 0.87%
-=> choisi: 3 legs | score=0.816 (81.6%) | final_source=LEAGUE
+DRAW_3L: picked rank=1/8 | score=0.761 (76.1%) | odd=2.46
+DRAW_4L: picked rank=1/8 | score=0.771 (77.1%) | odd=2.4
+- écart relatif: 1.28%
+=> choisi: 4 legs | score=0.771 (77.1%) | final_source=LEAGUE
 
 Ticket choisi (aperçu)
 ----------------------
-  1) 20:00 | serie b | Avellino vs Sudtirol | O15_FT | odd=1.42
-  2) 20:00 | serie b | Carrarese vs Sampdoria | O15_FT | odd=1.45
-  3) 21:00 | uefa champions league | Tottenham vs Atletico Madrid | O15_FT | odd=1.2
+  1) 03:07 | liga mx | Guadalajara Chivas vs Leon | O15_FT | odd=1.17
+  2) 14:00 | super lig | Kayserispor vs Fatih Karagümrük | O15_FT | odd=1.28
+  3) 18:00 | super lig | Konyaspor vs Gençlerbirliği S.K. | O15_FT | odd=1.36
+  4) 18:00 | super lig | Beşiktaş vs Kasımpaşa | O15_FT | odd=1.18
 
 MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, LEAGUE x BET)
 ------------------------------------------------------------------------------
-- score ticket: 0.816 (81.6%)
+- score ticket: 0.771 (77.1%)
 - formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
 
-1) 20:00 | serie b | Avellino vs Sudtirol | bet=O15_FT | odd=1.42
-   LEAGUE serie b: wr=0.77 dec=118 coef=1.000 => adj=0.769 (76.9%)
+1) 03:07 | liga mx | Guadalajara Chivas vs Leon | bet=O15_FT | odd=1.17
+   LEAGUE liga mx: wr=0.78 dec=89 coef=1.000 => adj=0.784 (78.4%)
 
-2) 20:00 | serie b | Carrarese vs Sampdoria | bet=O15_FT | odd=1.45
-   LEAGUE serie b: wr=0.77 dec=118 coef=1.000 => adj=0.769 (76.9%)
+2) 14:00 | super lig | Kayserispor vs Fatih Karagümrük | bet=O15_FT | odd=1.28
+   LEAGUE super lig: wr=0.77 dec=75 coef=1.000 => adj=0.766 (76.6%)
 
-3) 21:00 | uefa champions league | Tottenham vs Atletico Madrid | bet=O15_FT | odd=1.2
-   LEAGUE uefa champions league: wr=0.91 dec=60 coef=1.000 => adj=0.910 (91.0%)
+3) 18:00 | super lig | Konyaspor vs Gençlerbirliği S.K. | bet=O15_FT | odd=1.36
+   LEAGUE super lig: wr=0.77 dec=75 coef=1.000 => adj=0.766 (76.6%)
+
+4) 18:00 | super lig | Beşiktaş vs Kasımpaşa | bet=O15_FT | odd=1.18
+   LEAGUE super lig: wr=0.77 dec=75 coef=1.000 => adj=0.766 (76.6%)
 
 
-MAESTROLOGUE — RANDOM — 2026-03-18
+MAESTROLOGUE — RANDOM — 2026-03-19
 ========================================
-- picks_total: 13
-- unique_matches_day: 13
+- picks_total: 7
+- unique_matches_day: 7
 - rich_day: False
 - max_windows_today: 1
 - windows_count: 1
@@ -158,24 +162,25 @@ MAESTROLOGUE — RANDOM — 2026-03-18
 - min_accept_odd: 1.8
 - replay_after_last_kickoff: 110 min
 
-WINDOW 1 | 02:30 -> 22:10
-  - raw_window_picks: 13
-  - filtered_window_picks: 13
-  - ok_window: 13
+WINDOW 1 | 01:30 -> 22:10
+  - raw_window_picks: 7
+  - filtered_window_picks: 7
+  - ok_window: 7
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 4.24
+  - max_possible_odd(ok_window): 3.66
   - threshold_used_here: 2.4
-Ticket: tranche=1 | cote=2.47 | seuil_local=2.4 | 20:00 → 22:50 | fenêtre=60min
-  1) 20:00 | serie b | Avellino vs Sudtirol | O15_FT | odd=1.42
-  2) 20:00 | serie b | Carrarese vs Sampdoria | O15_FT | odd=1.45
-  3) 21:00 | uefa champions league | Tottenham vs Atletico Madrid | O15_FT | odd=1.2
+Ticket: tranche=1 | cote=2.4 | seuil_local=2.4 | 03:07 → 19:50 | fenêtre=893min
+  1) 03:07 | liga mx | Guadalajara Chivas vs Leon | O15_FT | odd=1.17
+  2) 14:00 | super lig | Kayserispor vs Fatih Karagümrük | O15_FT | odd=1.28
+  3) 18:00 | super lig | Konyaspor vs Gençlerbirliği S.K. | O15_FT | odd=1.36
+  4) 18:00 | super lig | Beşiktaş vs Kasımpaşa | O15_FT | odd=1.18
 
 FIN JOURNÉE
 ------------------
 - tickets_built: 1 / 1
-- next_window_start: 22:50
+- next_window_start: 19:50
 
 RUN SUMMARY
 - system_tickets: 1 | o15_tickets: 1

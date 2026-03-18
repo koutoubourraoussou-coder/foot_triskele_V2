@@ -2227,3 +2227,16 @@ Aucun ticket.
   2) 21:00 | uefa champions league | Tottenham vs Atletico Madrid | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
   3) 22:30 | liga pro ecuador | Manta FC vs Guayaquil City FC | HT 1X Home | MEGA EXPLOSION | odd=1.22
   4) 23:30 | serie a brazil | Atletico Paranaense vs Cruzeiro | HT+0.5 | TRÈS FORT | odd=1.42
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-03-19 00:04:50 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-19_0130_ee38dfb214_SYS — cote = 2.53 — fenêtre 01:30 → 00:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 01:30 | primera a colombia | Bucaramanga vs Once Caldas | HT 1X Home | FORT PLUS | odd=1.18
+  2) 01:30 | serie a brazil | Santos vs Internacional | HT+0.5 | FORT PLUS | odd=1.33
+  3) 22:10 | primera a colombia | Alianza Valledupar vs Jaguares | HT 1X Home | TRÈS FORT | odd=1.17
+  4) 23:00 | serie a brazil | Gremio vs Vitoria | HT+0.5 | TRÈS FORT | odd=1.38

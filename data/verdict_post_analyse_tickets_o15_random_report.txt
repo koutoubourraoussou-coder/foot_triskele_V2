@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-03-18
+Date run       : 2026-03-19
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (106 ids)
+Whitelist      : ON (107 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 3
+Ignorés (date>=today)    : 4
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -887,9 +887,17 @@ Ignorés (date>=today)    : 3
    ✅ Leg 3) 20:45 | championship | Watford vs Wrexham | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
    ✅ Leg 4) 21:00 | uefa champions league | Arsenal vs Bayer Leverkusen | Over 1.5 (FT) | [FORT PLUS] | odd=1.22
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Mercredi 2026-03-18 20:00→22:50 | code=A2 | odd=2.47
+   id=2026-03-18_2000_cbba419246_O15R
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 20:00 | serie b | Avellino vs Sudtirol | Over 1.5 (FT) | [MOYEN] | odd=1.42
+   ✅ Leg 2) 20:00 | serie b | Carrarese vs Sampdoria | Over 1.5 (FT) | [FORT PLUS] | odd=1.45
+   ✅ Leg 3) 21:00 | uefa champions league | Tottenham vs Atletico Madrid | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+
 ====================================================================
-TOTAL tickets : 105
-✅ WIN     : 43
+TOTAL tickets : 106
+✅ WIN     : 44
 ❌ LOSS    : 59
 ⏳ PENDING : 3
 ====================================================================

@@ -322,3 +322,19 @@ TSV: 2026-03-18	3189495697	HT1X_HOME	22:30	liga pro ecuador	Manta FC	Guayaquil C
 TSV: 2026-03-18	358449948	HT05	23:00	serie a brazil	Palmeiras	Botafogo	1.33	1492177	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-03-18	2954677499	HT05	23:30	serie a brazil	Atletico Paranaense	Cruzeiro	1.42	1492170	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-03-19 00:04:50 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-19	1817574811	HT05	01:30	serie a brazil	Santos	Internacional	1.33	1492178	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-19	3096905688	HT1X_HOME	01:30	primera a colombia	Bucaramanga	Once Caldas	1.18	1506038	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-19	3203768733	HT05	03:07	liga mx	Guadalajara Chivas	Leon	1.25	1492543	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-19	3203768733	O15_FT	03:07	liga mx	Guadalajara Chivas	Leon	1.17	1492543	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-19	1418363399	O15_FT	18:00	super lig	Beşiktaş	Kasımpaşa	1.18	1394669	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-19	3276986696	HT1X_HOME	18:00	super lig	Konyaspor	Gençlerbirliği S.K.	1.17	1394674	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-19	858270615	HT05	18:45	uefa europa league	Lyon	Celta Vigo	1.38	1528346	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-19	1462451301	HT05	18:45	uefa europa league	SC Freiburg	Genk	1.3	1528349	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-19	1129339705	HT05	21:00	uefa europa league	Real Betis	Panathinaikos	1.36	1528345	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-19	3076839426	HT05	21:00	uefa europa league	FC Porto	VfB Stuttgart	1.33	1528344	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-19	3809362945	HT1X_HOME	22:10	primera a colombia	Alianza Valledupar	Jaguares	1.17	1506043	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-19	2794348141	HT05	23:00	serie a brazil	Gremio	Vitoria	1.38	1492175	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+
