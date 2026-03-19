@@ -147,7 +147,7 @@ MAESTRO_LOG_FILE = Path("data/tickets_maestro_log.txt")
 MAESTRO_MAX_DETAIL_LINES = 30       # limite pour niveau 3 (évite pavés)
 
 # explication décision 3L vs 4L (pour logs)
-PREFER_3LEGS_DELTA = 0.00
+PREFER_3LEGS_DELTA = 0.03
 
 # ----------------------------
 # ✅ TOP-K UNIFORM DRAW (cas commun SYSTEM + RANDOM)
