@@ -2,9 +2,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-03-19
+Date run       : 2026-03-20
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (102 ids)
+Whitelist      : ON (103 ids)
 Ignorés (hors whitelist) : 16
 Ignorés (date>=today)    : 4
 
@@ -813,10 +813,19 @@ Ignorés (date>=today)    : 4
    ❌ Leg 3) 22:30 | liga pro ecuador | Manta FC vs Guayaquil City FC | HT 1X Home | [MEGA EXPLOSION] | odd=1.22
    ✅ Leg 4) 23:30 | serie a brazil | Atletico Paranaense vs Cruzeiro | HT+0.5 | [TRÈS FORT] | odd=1.42
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Jeudi 2026-03-19 01:30→00:50 | code=A2 | odd=2.53
+   id=2026-03-19_0130_ee38dfb214_SYS
+   legs=4 | WIN=2 | LOSS=1 | PENDING=1
+   ⏳ Leg 1) 01:30 | primera a colombia | Bucaramanga vs Once Caldas | HT 1X Home | [FORT PLUS] | odd=1.18
+   ❌ Leg 2) 01:30 | serie a brazil | Santos vs Internacional | HT+0.5 | [FORT PLUS] | odd=1.33
+   ✅ Leg 3) 22:10 | primera a colombia | Alianza Valledupar vs Jaguares | HT 1X Home | [TRÈS FORT] | odd=1.17
+   ✅ Leg 4) 23:00 | serie a brazil | Gremio vs Vitoria | HT+0.5 | [TRÈS FORT] | odd=1.38
+
 ====================================================================
-TOTAL tickets : 96
+TOTAL tickets : 97
 ✅ WIN     : 32
-❌ LOSS    : 62
+❌ LOSS    : 63
 ⏳ PENDING : 2
 ====================================================================
 

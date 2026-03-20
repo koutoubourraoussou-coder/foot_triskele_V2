@@ -1184,3 +1184,16 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
   2) 14:00 | super lig | Kayserispor vs Fatih Karagümrük | Over 1.5 (FT) | EXPLOSION | odd=1.28
   3) 18:00 | super lig | Konyaspor vs Gençlerbirliği S.K. | Over 1.5 (FT) | MOYEN PLUS | odd=1.36
   4) 18:00 | super lig | Beşiktaş vs Kasımpaşa | Over 1.5 (FT) | EXPLOSION | odd=1.18
+
+
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_ALL | 2026-03-20 02:22:11 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-20_1830_5d04967e12_O15R — cote = 2.45 — fenêtre 18:30 → 22:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 18:30 | 2. bundesliga | Hannover 96 vs Eintracht Braunschweig | Over 1.5 (FT) | TRÈS FORT | odd=1.18
+  2) 20:00 | eredivisie | Heracles vs Excelsior | Over 1.5 (FT) | TRÈS FORT | odd=1.25
+  3) 21:00 | laliga | Villarreal vs Real Sociedad | Over 1.5 (FT) | TRÈS FORT | odd=1.25
+  4) 21:00 | championship | Preston vs Stoke City | Over 1.5 (FT) | MOYEN PLUS | odd=1.33

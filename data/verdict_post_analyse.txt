@@ -18985,6 +18985,27 @@ TSV: 635258631	2026-03-18	serie a brazil	Mirassol	Coritiba	TEAM2_SCORE_FT	Team2 
 TSV: 635258631	2026-03-18	serie a brazil	Mirassol	Coritiba	O15_FT	Over 1.5 (FT)	4.0	FORT	0	GOOD_NO_BET	1H	1492176	0-0	0-0	00:00
 TSV: 635258631	2026-03-18	serie a brazil	Mirassol	Coritiba	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	1H	1492176	0-0	0-0	00:00
 TSV: 635258631	2026-03-18	serie a brazil	Mirassol	Coritiba	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	1H	1492176	0-0	0-0	00:00
+TSV: 95194339	2026-03-18	primera a colombia	Internacional de Bogota	Deportivo Pereira	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1506041	2-2	0-1	00:20
+TSV: 95194339	2026-03-18	primera a colombia	Internacional de Bogota	Deportivo Pereira	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1506041	2-2	0-1	00:20
+TSV: 95194339	2026-03-18	primera a colombia	Internacional de Bogota	Deportivo Pereira	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1506041	2-2	0-1	00:20
+TSV: 95194339	2026-03-18	primera a colombia	Internacional de Bogota	Deportivo Pereira	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1506041	2-2	0-1	00:20
+TSV: 95194339	2026-03-18	primera a colombia	Internacional de Bogota	Deportivo Pereira	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1506041	2-2	0-1	00:20
+TSV: 95194339	2026-03-18	primera a colombia	Internacional de Bogota	Deportivo Pereira	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1506041	2-2	0-1	00:20
+TSV: 95194339	2026-03-18	primera a colombia	Internacional de Bogota	Deportivo Pereira	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1506041	2-2	0-1	00:20
+TSV: 2590707023	2026-03-18	primera división paraguay	Club Guarani	Deportivo Recoleta	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1505019	3-1	0-1	00:30
+TSV: 2590707023	2026-03-18	primera división paraguay	Club Guarani	Deportivo Recoleta	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	GOOD_NO_BET	FT	1505019	3-1	0-1	00:30
+TSV: 2590707023	2026-03-18	primera división paraguay	Club Guarani	Deportivo Recoleta	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1505019	3-1	0-1	00:30
+TSV: 2590707023	2026-03-18	primera división paraguay	Club Guarani	Deportivo Recoleta	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1505019	3-1	0-1	00:30
+TSV: 2590707023	2026-03-18	primera división paraguay	Club Guarani	Deportivo Recoleta	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1505019	3-1	0-1	00:30
+TSV: 2590707023	2026-03-18	primera división paraguay	Club Guarani	Deportivo Recoleta	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1505019	3-1	0-1	00:30
+TSV: 2590707023	2026-03-18	primera división paraguay	Club Guarani	Deportivo Recoleta	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505019	3-1	0-1	00:30
+TSV: 216911489	2026-03-18	primera división paraguay	Libertad Asuncion	Nacional Asuncion	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1505020	2-1	1-0	00:30
+TSV: 216911489	2026-03-18	primera división paraguay	Libertad Asuncion	Nacional Asuncion	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1505020	2-1	1-0	00:30
+TSV: 216911489	2026-03-18	primera división paraguay	Libertad Asuncion	Nacional Asuncion	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1505020	2-1	1-0	00:30
+TSV: 216911489	2026-03-18	primera división paraguay	Libertad Asuncion	Nacional Asuncion	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1505020	2-1	1-0	00:30
+TSV: 216911489	2026-03-18	primera división paraguay	Libertad Asuncion	Nacional Asuncion	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1505020	2-1	1-0	00:30
+TSV: 216911489	2026-03-18	primera división paraguay	Libertad Asuncion	Nacional Asuncion	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1505020	2-1	1-0	00:30
+TSV: 216911489	2026-03-18	primera división paraguay	Libertad Asuncion	Nacional Asuncion	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505020	2-1	1-0	00:30
 TSV: 1624928308	2026-03-18	liga pro ecuador	Leones del Norte	LDU de Quito	HT05	HT+0.5	6.0	TRÈS FORT	1	LOSS	FT	1519290	0-2	0-0	01:00
 TSV: 1624928308	2026-03-18	liga pro ecuador	Leones del Norte	LDU de Quito	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1519290	0-2	0-0	01:00
 TSV: 1624928308	2026-03-18	liga pro ecuador	Leones del Norte	LDU de Quito	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1519290	0-2	0-0	01:00
@@ -19167,3 +19188,157 @@ TSV: 2954677499	2026-03-18	serie a brazil	Atletico Paranaense	Cruzeiro	TEAM2_SCO
 TSV: 2954677499	2026-03-18	serie a brazil	Atletico Paranaense	Cruzeiro	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	WIN	1H	1492170	2-0	2-0	23:30
 TSV: 2954677499	2026-03-18	serie a brazil	Atletico Paranaense	Cruzeiro	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	1H	1492170	2-0	2-0	23:30
 TSV: 2954677499	2026-03-18	serie a brazil	Atletico Paranaense	Cruzeiro	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	1H	1492170	2-0	2-0	23:30
+TSV: 2745177322	2026-03-19	primera división paraguay	Sportivo Trinidense	Sportivo Ameliano	HT05	HT+0.5	0.0	KO	0	BAD_NO_BET	FT	1505024	1-1	0-1	00:00
+TSV: 2745177322	2026-03-19	primera división paraguay	Sportivo Trinidense	Sportivo Ameliano	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	LOSS	FT	1505024	1-1	0-1	00:00
+TSV: 2745177322	2026-03-19	primera división paraguay	Sportivo Trinidense	Sportivo Ameliano	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1505024	1-1	0-1	00:00
+TSV: 2745177322	2026-03-19	primera división paraguay	Sportivo Trinidense	Sportivo Ameliano	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1505024	1-1	0-1	00:00
+TSV: 2745177322	2026-03-19	primera división paraguay	Sportivo Trinidense	Sportivo Ameliano	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1505024	1-1	0-1	00:00
+TSV: 2745177322	2026-03-19	primera división paraguay	Sportivo Trinidense	Sportivo Ameliano	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505024	1-1	0-1	00:00
+TSV: 2745177322	2026-03-19	primera división paraguay	Sportivo Trinidense	Sportivo Ameliano	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505024	1-1	0-1	00:00
+TSV: 2113071759	2026-03-19	serie a brazil	Flamengo	remo	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1492174	3-0	1-0	00:00
+TSV: 2113071759	2026-03-19	serie a brazil	Flamengo	remo	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1492174	3-0	1-0	00:00
+TSV: 2113071759	2026-03-19	serie a brazil	Flamengo	remo	TEAM1_SCORE_FT	Team1 scores (FT)	6.0	TRÈS FORT	1	WIN	FT	1492174	3-0	1-0	00:00
+TSV: 2113071759	2026-03-19	serie a brazil	Flamengo	remo	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1492174	3-0	1-0	00:00
+TSV: 2113071759	2026-03-19	serie a brazil	Flamengo	remo	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1492174	3-0	1-0	00:00
+TSV: 2113071759	2026-03-19	serie a brazil	Flamengo	remo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1492174	3-0	1-0	00:00
+TSV: 2113071759	2026-03-19	serie a brazil	Flamengo	remo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492174	3-0	1-0	00:00
+TSV: 3762522301	2026-03-19	primera a colombia	Deportes Tolima	Fortaleza FC	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1506044	2-0	1-0	00:20
+TSV: 3762522301	2026-03-19	primera a colombia	Deportes Tolima	Fortaleza FC	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1506044	2-0	1-0	00:20
+TSV: 3762522301	2026-03-19	primera a colombia	Deportes Tolima	Fortaleza FC	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1506044	2-0	1-0	00:20
+TSV: 3762522301	2026-03-19	primera a colombia	Deportes Tolima	Fortaleza FC	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506044	2-0	1-0	00:20
+TSV: 3762522301	2026-03-19	primera a colombia	Deportes Tolima	Fortaleza FC	O15_FT	Over 1.5 (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1506044	2-0	1-0	00:20
+TSV: 3762522301	2026-03-19	primera a colombia	Deportes Tolima	Fortaleza FC	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1506044	2-0	1-0	00:20
+TSV: 3762522301	2026-03-19	primera a colombia	Deportes Tolima	Fortaleza FC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506044	2-0	1-0	00:20
+TSV: 4185303411	2026-03-19	liga pro ecuador	Libertad	Barcelona SC	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1519291	0-0	0-0	01:00
+TSV: 4185303411	2026-03-19	liga pro ecuador	Libertad	Barcelona SC	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1519291	0-0	0-0	01:00
+TSV: 4185303411	2026-03-19	liga pro ecuador	Libertad	Barcelona SC	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	GOOD_NO_BET	FT	1519291	0-0	0-0	01:00
+TSV: 4185303411	2026-03-19	liga pro ecuador	Libertad	Barcelona SC	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	LOSS	FT	1519291	0-0	0-0	01:00
+TSV: 4185303411	2026-03-19	liga pro ecuador	Libertad	Barcelona SC	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1519291	0-0	0-0	01:00
+TSV: 4185303411	2026-03-19	liga pro ecuador	Libertad	Barcelona SC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1519291	0-0	0-0	01:00
+TSV: 4185303411	2026-03-19	liga pro ecuador	Libertad	Barcelona SC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1519291	0-0	0-0	01:00
+TSV: 1817574811	2026-03-19	serie a brazil	Santos	Internacional	HT05	HT+0.5	5.0	FORT PLUS	1	LOSS	FT	1492178	1-2	0-0	01:30
+TSV: 1817574811	2026-03-19	serie a brazil	Santos	Internacional	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492178	1-2	0-0	01:30
+TSV: 1817574811	2026-03-19	serie a brazil	Santos	Internacional	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	WIN	FT	1492178	1-2	0-0	01:30
+TSV: 1817574811	2026-03-19	serie a brazil	Santos	Internacional	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1492178	1-2	0-0	01:30
+TSV: 1817574811	2026-03-19	serie a brazil	Santos	Internacional	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1492178	1-2	0-0	01:30
+TSV: 1817574811	2026-03-19	serie a brazil	Santos	Internacional	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1492178	1-2	0-0	01:30
+TSV: 1817574811	2026-03-19	serie a brazil	Santos	Internacional	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1492178	1-2	0-0	01:30
+TSV: 199715269	2026-03-19	serie a brazil	Vasco DA Gama	Fluminense	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1492179	3-2	0-1	01:30
+TSV: 199715269	2026-03-19	serie a brazil	Vasco DA Gama	Fluminense	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1492179	3-2	0-1	01:30
+TSV: 199715269	2026-03-19	serie a brazil	Vasco DA Gama	Fluminense	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1492179	3-2	0-1	01:30
+TSV: 199715269	2026-03-19	serie a brazil	Vasco DA Gama	Fluminense	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1492179	3-2	0-1	01:30
+TSV: 199715269	2026-03-19	serie a brazil	Vasco DA Gama	Fluminense	O15_FT	Over 1.5 (FT)	4.0	FORT	0	BAD_NO_BET	FT	1492179	3-2	0-1	01:30
+TSV: 199715269	2026-03-19	serie a brazil	Vasco DA Gama	Fluminense	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1492179	3-2	0-1	01:30
+TSV: 199715269	2026-03-19	serie a brazil	Vasco DA Gama	Fluminense	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1492179	3-2	0-1	01:30
+TSV: 1021445106	2026-03-19	primera a colombia	Deportivo Cali	Santa Fe	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1506042	1-1	0-1	02:30
+TSV: 1021445106	2026-03-19	primera a colombia	Deportivo Cali	Santa Fe	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1506042	1-1	0-1	02:30
+TSV: 1021445106	2026-03-19	primera a colombia	Deportivo Cali	Santa Fe	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1506042	1-1	0-1	02:30
+TSV: 1021445106	2026-03-19	primera a colombia	Deportivo Cali	Santa Fe	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1506042	1-1	0-1	02:30
+TSV: 1021445106	2026-03-19	primera a colombia	Deportivo Cali	Santa Fe	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1506042	1-1	0-1	02:30
+TSV: 1021445106	2026-03-19	primera a colombia	Deportivo Cali	Santa Fe	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506042	1-1	0-1	02:30
+TSV: 1021445106	2026-03-19	primera a colombia	Deportivo Cali	Santa Fe	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1506042	1-1	0-1	02:30
+TSV: 3203768733	2026-03-19	liga mx	Guadalajara Chivas	Leon	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1492543	5-0	1-0	03:07
+TSV: 3203768733	2026-03-19	liga mx	Guadalajara Chivas	Leon	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1492543	5-0	1-0	03:07
+TSV: 3203768733	2026-03-19	liga mx	Guadalajara Chivas	Leon	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1492543	5-0	1-0	03:07
+TSV: 3203768733	2026-03-19	liga mx	Guadalajara Chivas	Leon	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1492543	5-0	1-0	03:07
+TSV: 3203768733	2026-03-19	liga mx	Guadalajara Chivas	Leon	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1492543	5-0	1-0	03:07
+TSV: 3203768733	2026-03-19	liga mx	Guadalajara Chivas	Leon	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492543	5-0	1-0	03:07
+TSV: 3203768733	2026-03-19	liga mx	Guadalajara Chivas	Leon	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492543	5-0	1-0	03:07
+TSV: 449892822	2026-03-19	super lig	Kayserispor	Fatih Karagümrük	HT05	HT+0.5	4.0	FORT	0	GOOD_NO_BET	FT	1394673	1-0	0-0	14:00
+TSV: 449892822	2026-03-19	super lig	Kayserispor	Fatih Karagümrük	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	BAD_NO_BET	FT	1394673	1-0	0-0	14:00
+TSV: 449892822	2026-03-19	super lig	Kayserispor	Fatih Karagümrük	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1394673	1-0	0-0	14:00
+TSV: 449892822	2026-03-19	super lig	Kayserispor	Fatih Karagümrük	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	GOOD_NO_BET	FT	1394673	1-0	0-0	14:00
+TSV: 449892822	2026-03-19	super lig	Kayserispor	Fatih Karagümrük	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	LOSS	FT	1394673	1-0	0-0	14:00
+TSV: 449892822	2026-03-19	super lig	Kayserispor	Fatih Karagümrük	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1394673	1-0	0-0	14:00
+TSV: 449892822	2026-03-19	super lig	Kayserispor	Fatih Karagümrük	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1394673	1-0	0-0	14:00
+TSV: 1418363399	2026-03-19	super lig	Beşiktaş	Kasımpaşa	HT05	HT+0.5	7.0	EXPLOSION	1	WIN	FT	1394669	2-1	2-0	18:00
+TSV: 1418363399	2026-03-19	super lig	Beşiktaş	Kasımpaşa	HT1X_HOME	HT 1X Home	4.0	FORT	0	BAD_NO_BET	FT	1394669	2-1	2-0	18:00
+TSV: 1418363399	2026-03-19	super lig	Beşiktaş	Kasımpaşa	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	WIN	FT	1394669	2-1	2-0	18:00
+TSV: 1418363399	2026-03-19	super lig	Beşiktaş	Kasımpaşa	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1394669	2-1	2-0	18:00
+TSV: 1418363399	2026-03-19	super lig	Beşiktaş	Kasımpaşa	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	WIN	FT	1394669	2-1	2-0	18:00
+TSV: 1418363399	2026-03-19	super lig	Beşiktaş	Kasımpaşa	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1394669	2-1	2-0	18:00
+TSV: 1418363399	2026-03-19	super lig	Beşiktaş	Kasımpaşa	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1394669	2-1	2-0	18:00
+TSV: 3276986696	2026-03-19	super lig	Konyaspor	Gençlerbirliği S.K.	HT05	HT+0.5	0.0	KO	0	GOOD_NO_BET	FT	1394674	1-0	0-0	18:00
+TSV: 3276986696	2026-03-19	super lig	Konyaspor	Gençlerbirliği S.K.	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1394674	1-0	0-0	18:00
+TSV: 3276986696	2026-03-19	super lig	Konyaspor	Gençlerbirliği S.K.	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1394674	1-0	0-0	18:00
+TSV: 3276986696	2026-03-19	super lig	Konyaspor	Gençlerbirliği S.K.	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1394674	1-0	0-0	18:00
+TSV: 3276986696	2026-03-19	super lig	Konyaspor	Gençlerbirliği S.K.	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1394674	1-0	0-0	18:00
+TSV: 3276986696	2026-03-19	super lig	Konyaspor	Gençlerbirliği S.K.	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1394674	1-0	0-0	18:00
+TSV: 3276986696	2026-03-19	super lig	Konyaspor	Gençlerbirliği S.K.	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1394674	1-0	0-0	18:00
+TSV: 954513385	2026-03-19	uefa europa league	FC Midtjylland	Nottingham Forest	HT05	HT+0.5	1.0	FAIBLE	0	BAD_NO_BET	PEN	1528347	1-2	0-1	18:45
+TSV: 954513385	2026-03-19	uefa europa league	FC Midtjylland	Nottingham Forest	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	LOSS	PEN	1528347	1-2	0-1	18:45
+TSV: 954513385	2026-03-19	uefa europa league	FC Midtjylland	Nottingham Forest	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	PEN	1528347	1-2	0-1	18:45
+TSV: 954513385	2026-03-19	uefa europa league	FC Midtjylland	Nottingham Forest	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	PEN	1528347	1-2	0-1	18:45
+TSV: 954513385	2026-03-19	uefa europa league	FC Midtjylland	Nottingham Forest	O15_FT	Over 1.5 (FT)	0.0	KO	0	BAD_NO_BET	PEN	1528347	1-2	0-1	18:45
+TSV: 954513385	2026-03-19	uefa europa league	FC Midtjylland	Nottingham Forest	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	PEN	1528347	1-2	0-1	18:45
+TSV: 954513385	2026-03-19	uefa europa league	FC Midtjylland	Nottingham Forest	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	PEN	1528347	1-2	0-1	18:45
+TSV: 858270615	2026-03-19	uefa europa league	Lyon	Celta Vigo	HT05	HT+0.5	6.0	TRÈS FORT	1	LOSS	FT	1528346	0-2	0-0	18:45
+TSV: 858270615	2026-03-19	uefa europa league	Lyon	Celta Vigo	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1528346	0-2	0-0	18:45
+TSV: 858270615	2026-03-19	uefa europa league	Lyon	Celta Vigo	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1528346	0-2	0-0	18:45
+TSV: 858270615	2026-03-19	uefa europa league	Lyon	Celta Vigo	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1528346	0-2	0-0	18:45
+TSV: 858270615	2026-03-19	uefa europa league	Lyon	Celta Vigo	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1528346	0-2	0-0	18:45
+TSV: 858270615	2026-03-19	uefa europa league	Lyon	Celta Vigo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1528346	0-2	0-0	18:45
+TSV: 858270615	2026-03-19	uefa europa league	Lyon	Celta Vigo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1528346	0-2	0-0	18:45
+TSV: 1462451301	2026-03-19	uefa europa league	SC Freiburg	Genk	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1528349	5-1	2-1	18:45
+TSV: 1462451301	2026-03-19	uefa europa league	SC Freiburg	Genk	HT1X_HOME	HT 1X Home	1.0	FAIBLE	0	BAD_NO_BET	FT	1528349	5-1	2-1	18:45
+TSV: 1462451301	2026-03-19	uefa europa league	SC Freiburg	Genk	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1528349	5-1	2-1	18:45
+TSV: 1462451301	2026-03-19	uefa europa league	SC Freiburg	Genk	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1528349	5-1	2-1	18:45
+TSV: 1462451301	2026-03-19	uefa europa league	SC Freiburg	Genk	O15_FT	Over 1.5 (FT)	4.0	FORT	0	BAD_NO_BET	FT	1528349	5-1	2-1	18:45
+TSV: 1462451301	2026-03-19	uefa europa league	SC Freiburg	Genk	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1528349	5-1	2-1	18:45
+TSV: 1462451301	2026-03-19	uefa europa league	SC Freiburg	Genk	TEAM2_WIN_FT	Team2 wins (FT)	4.0	FORT	0	GOOD_NO_BET	FT	1528349	5-1	2-1	18:45
+TSV: 678107887	2026-03-19	liga pro ecuador	Aucas	Tecnico Universitario	HT05	HT+0.5	6.0	TRÈS FORT	1	LOSS	FT	1519288	0-1	0-0	20:00
+TSV: 678107887	2026-03-19	liga pro ecuador	Aucas	Tecnico Universitario	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1519288	0-1	0-0	20:00
+TSV: 678107887	2026-03-19	liga pro ecuador	Aucas	Tecnico Universitario	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1519288	0-1	0-0	20:00
+TSV: 678107887	2026-03-19	liga pro ecuador	Aucas	Tecnico Universitario	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1519288	0-1	0-0	20:00
+TSV: 678107887	2026-03-19	liga pro ecuador	Aucas	Tecnico Universitario	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	LOSS	FT	1519288	0-1	0-0	20:00
+TSV: 678107887	2026-03-19	liga pro ecuador	Aucas	Tecnico Universitario	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1519288	0-1	0-0	20:00
+TSV: 678107887	2026-03-19	liga pro ecuador	Aucas	Tecnico Universitario	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1519288	0-1	0-0	20:00
+TSV: 3238100338	2026-03-19	uefa europa league	AS Roma	Bologna	HT05	HT+0.5	0.0	KO	0	BAD_NO_BET	AET	1528343	3-4	1-2	21:00
+TSV: 3238100338	2026-03-19	uefa europa league	AS Roma	Bologna	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	LOSS	AET	1528343	3-4	1-2	21:00
+TSV: 3238100338	2026-03-19	uefa europa league	AS Roma	Bologna	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	AET	1528343	3-4	1-2	21:00
+TSV: 3238100338	2026-03-19	uefa europa league	AS Roma	Bologna	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	BAD_NO_BET	AET	1528343	3-4	1-2	21:00
+TSV: 3238100338	2026-03-19	uefa europa league	AS Roma	Bologna	O15_FT	Over 1.5 (FT)	4.0	FORT	0	BAD_NO_BET	AET	1528343	3-4	1-2	21:00
+TSV: 3238100338	2026-03-19	uefa europa league	AS Roma	Bologna	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	AET	1528343	3-4	1-2	21:00
+TSV: 3238100338	2026-03-19	uefa europa league	AS Roma	Bologna	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	AET	1528343	3-4	1-2	21:00
+TSV: 968440772	2026-03-19	uefa europa league	Aston Villa	Lille	HT05	HT+0.5	2.0	MOYEN	0	GOOD_NO_BET	FT	1528342	2-0	0-0	21:00
+TSV: 968440772	2026-03-19	uefa europa league	Aston Villa	Lille	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	BAD_NO_BET	FT	1528342	2-0	0-0	21:00
+TSV: 968440772	2026-03-19	uefa europa league	Aston Villa	Lille	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1528342	2-0	0-0	21:00
+TSV: 968440772	2026-03-19	uefa europa league	Aston Villa	Lille	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1528342	2-0	0-0	21:00
+TSV: 968440772	2026-03-19	uefa europa league	Aston Villa	Lille	O15_FT	Over 1.5 (FT)	4.0	FORT	0	BAD_NO_BET	FT	1528342	2-0	0-0	21:00
+TSV: 968440772	2026-03-19	uefa europa league	Aston Villa	Lille	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1528342	2-0	0-0	21:00
+TSV: 968440772	2026-03-19	uefa europa league	Aston Villa	Lille	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1528342	2-0	0-0	21:00
+TSV: 3076839426	2026-03-19	uefa europa league	FC Porto	VfB Stuttgart	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1528344	2-0	1-0	21:00
+TSV: 3076839426	2026-03-19	uefa europa league	FC Porto	VfB Stuttgart	HT1X_HOME	HT 1X Home	4.0	FORT	0	BAD_NO_BET	FT	1528344	2-0	1-0	21:00
+TSV: 3076839426	2026-03-19	uefa europa league	FC Porto	VfB Stuttgart	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1528344	2-0	1-0	21:00
+TSV: 3076839426	2026-03-19	uefa europa league	FC Porto	VfB Stuttgart	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1528344	2-0	1-0	21:00
+TSV: 3076839426	2026-03-19	uefa europa league	FC Porto	VfB Stuttgart	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1528344	2-0	1-0	21:00
+TSV: 3076839426	2026-03-19	uefa europa league	FC Porto	VfB Stuttgart	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1528344	2-0	1-0	21:00
+TSV: 3076839426	2026-03-19	uefa europa league	FC Porto	VfB Stuttgart	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1528344	2-0	1-0	21:00
+TSV: 1129339705	2026-03-19	uefa europa league	Real Betis	Panathinaikos	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1528345	4-0	2-0	21:00
+TSV: 1129339705	2026-03-19	uefa europa league	Real Betis	Panathinaikos	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1528345	4-0	2-0	21:00
+TSV: 1129339705	2026-03-19	uefa europa league	Real Betis	Panathinaikos	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1528345	4-0	2-0	21:00
+TSV: 1129339705	2026-03-19	uefa europa league	Real Betis	Panathinaikos	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	GOOD_NO_BET	FT	1528345	4-0	2-0	21:00
+TSV: 1129339705	2026-03-19	uefa europa league	Real Betis	Panathinaikos	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	WIN	FT	1528345	4-0	2-0	21:00
+TSV: 1129339705	2026-03-19	uefa europa league	Real Betis	Panathinaikos	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1528345	4-0	2-0	21:00
+TSV: 1129339705	2026-03-19	uefa europa league	Real Betis	Panathinaikos	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1528345	4-0	2-0	21:00
+TSV: 3809362945	2026-03-19	primera a colombia	Alianza Valledupar	Jaguares	HT05	HT+0.5	2.0	MOYEN	0	BAD_NO_BET	FT	1506043	1-0	1-0	22:10
+TSV: 3809362945	2026-03-19	primera a colombia	Alianza Valledupar	Jaguares	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1506043	1-0	1-0	22:10
+TSV: 3809362945	2026-03-19	primera a colombia	Alianza Valledupar	Jaguares	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1506043	1-0	1-0	22:10
+TSV: 3809362945	2026-03-19	primera a colombia	Alianza Valledupar	Jaguares	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1506043	1-0	1-0	22:10
+TSV: 3809362945	2026-03-19	primera a colombia	Alianza Valledupar	Jaguares	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1506043	1-0	1-0	22:10
+TSV: 3809362945	2026-03-19	primera a colombia	Alianza Valledupar	Jaguares	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1506043	1-0	1-0	22:10
+TSV: 3809362945	2026-03-19	primera a colombia	Alianza Valledupar	Jaguares	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506043	1-0	1-0	22:10
+TSV: 1152685358	2026-03-19	liga pro ecuador	Orense SC	Mushuc Runa SC	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1519294	3-2	3-0	22:30
+TSV: 1152685358	2026-03-19	liga pro ecuador	Orense SC	Mushuc Runa SC	HT1X_HOME	HT 1X Home	4.0	FORT	0	BAD_NO_BET	FT	1519294	3-2	3-0	22:30
+TSV: 1152685358	2026-03-19	liga pro ecuador	Orense SC	Mushuc Runa SC	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1519294	3-2	3-0	22:30
+TSV: 1152685358	2026-03-19	liga pro ecuador	Orense SC	Mushuc Runa SC	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1519294	3-2	3-0	22:30
+TSV: 1152685358	2026-03-19	liga pro ecuador	Orense SC	Mushuc Runa SC	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1519294	3-2	3-0	22:30
+TSV: 1152685358	2026-03-19	liga pro ecuador	Orense SC	Mushuc Runa SC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1519294	3-2	3-0	22:30
+TSV: 1152685358	2026-03-19	liga pro ecuador	Orense SC	Mushuc Runa SC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1519294	3-2	3-0	22:30
+TSV: 2794348141	2026-03-19	serie a brazil	Gremio	Vitoria	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1492175	2-0	1-0	23:00
+TSV: 2794348141	2026-03-19	serie a brazil	Gremio	Vitoria	HT1X_HOME	HT 1X Home	4.0	FORT	0	BAD_NO_BET	FT	1492175	2-0	1-0	23:00
+TSV: 2794348141	2026-03-19	serie a brazil	Gremio	Vitoria	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1492175	2-0	1-0	23:00
+TSV: 2794348141	2026-03-19	serie a brazil	Gremio	Vitoria	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1492175	2-0	1-0	23:00
+TSV: 2794348141	2026-03-19	serie a brazil	Gremio	Vitoria	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1492175	2-0	1-0	23:00
+TSV: 2794348141	2026-03-19	serie a brazil	Gremio	Vitoria	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1492175	2-0	1-0	23:00
+TSV: 2794348141	2026-03-19	serie a brazil	Gremio	Vitoria	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1492175	2-0	1-0	23:00

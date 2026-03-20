@@ -2,9 +2,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-03-19
+Date run       : 2026-03-20
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (107 ids)
+Whitelist      : ON (108 ids)
 Ignorés (hors whitelist) : 5
 Ignorés (date>=today)    : 4
 
@@ -895,10 +895,19 @@ Ignorés (date>=today)    : 4
    ✅ Leg 2) 20:00 | serie b | Carrarese vs Sampdoria | Over 1.5 (FT) | [FORT PLUS] | odd=1.45
    ✅ Leg 3) 21:00 | uefa champions league | Tottenham vs Atletico Madrid | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Jeudi 2026-03-19 03:07→19:50 | code=A2 | odd=2.4
+   id=2026-03-19_0307_2cf5d35c5c_O15R
+   legs=4 | WIN=2 | LOSS=2 | PENDING=0
+   ✅ Leg 1) 03:07 | liga mx | Guadalajara Chivas vs Leon | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.17
+   ❌ Leg 2) 14:00 | super lig | Kayserispor vs Fatih Karagümrük | Over 1.5 (FT) | [EXPLOSION] | odd=1.28
+   ✅ Leg 3) 18:00 | super lig | Beşiktaş vs Kasımpaşa | Over 1.5 (FT) | [EXPLOSION] | odd=1.18
+   ❌ Leg 4) 18:00 | super lig | Konyaspor vs Gençlerbirliği S.K. | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.36
+
 ====================================================================
-TOTAL tickets : 106
+TOTAL tickets : 107
 ✅ WIN     : 44
-❌ LOSS    : 59
+❌ LOSS    : 60
 ⏳ PENDING : 3
 ====================================================================
 

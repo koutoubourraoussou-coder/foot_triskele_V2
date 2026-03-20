@@ -1,25 +1,29 @@
-2026-03-19 03:07 | liga mx | Guadalajara Chivas vs Leon
-2026-03-19 01:00 | liga pro ecuador | Libertad vs Barcelona SC
-2026-03-19 20:00 | liga pro ecuador | Aucas vs Tecnico Universitario
-2026-03-19 22:30 | liga pro ecuador | Orense SC vs Mushuc Runa SC
-2026-03-19 00:20 | primera a colombia | Internacional de Bogota vs Deportivo Pereira
-2026-03-19 01:30 | primera a colombia | Bucaramanga vs Once Caldas
-2026-03-19 02:30 | primera a colombia | Deportivo Cali vs Santa Fe
-2026-03-19 22:10 | primera a colombia | Alianza Valledupar vs Jaguares
-2026-03-19 00:30 | primera división paraguay | Club Guarani vs Deportivo Recoleta
-2026-03-19 00:30 | primera división paraguay | Libertad Asuncion vs Nacional Asuncion
-2026-03-19 00:00 | serie a brazil | Atletico-MG vs Sao Paulo
-2026-03-19 00:00 | serie a brazil | Mirassol vs Coritiba
-2026-03-19 01:30 | serie a brazil | Santos vs Internacional
-2026-03-19 01:30 | serie a brazil | Vasco DA Gama vs Fluminense
-2026-03-19 23:00 | serie a brazil | Gremio vs Vitoria
-2026-03-19 14:00 | super lig | Kayserispor vs Fatih Karagümrük
-2026-03-19 18:00 | super lig | Beşiktaş vs Kasımpaşa
-2026-03-19 18:00 | super lig | Konyaspor vs Gençlerbirliği S.K.
-2026-03-19 18:45 | uefa europa league | FC Midtjylland vs Nottingham Forest
-2026-03-19 18:45 | uefa europa league | Lyon vs Celta Vigo
-2026-03-19 18:45 | uefa europa league | SC Freiburg vs Genk
-2026-03-19 21:00 | uefa europa league | AS Roma vs Bologna
-2026-03-19 21:00 | uefa europa league | Aston Villa vs Lille
-2026-03-19 21:00 | uefa europa league | FC Porto vs VfB Stuttgart
-2026-03-19 21:00 | uefa europa league | Real Betis vs Panathinaikos
+2026-03-20 18:30 | 2. bundesliga | Hannover 96 vs Eintracht Braunschweig
+2026-03-20 18:30 | 2. bundesliga | Karlsruher SC vs SpVgg Greuther Fürth
+2026-03-20 20:30 | bundesliga | RB Leipzig vs 1899 Hoffenheim
+2026-03-20 21:00 | championship | Preston vs Stoke City
+2026-03-20 20:45 | cymru premier league | llanelli AFC vs Cardiff MET
+2026-03-20 20:45 | cymru premier league | The New Saints vs Colwyn Bay
+2026-03-20 20:00 | eredivisie | Heracles vs Excelsior
+2026-03-20 21:00 | laliga | Villarreal vs Real Sociedad
+2026-03-20 20:30 | laliga2 | Huesca vs Almeria
+2026-03-20 21:15 | liga portugal | Estrela vs Casa Pia
+2026-03-20 19:00 | liga portugal 2 | Chaves vs União de Leiria
+2026-03-20 01:00 | liga pro ecuador | Emelec vs Independiente del Valle
+2026-03-20 20:45 | ligue 1 | Lens vs Angers
+2026-03-20 20:00 | ligue 2 | Amiens vs Le Mans
+2026-03-20 20:00 | ligue 2 | Boulogne vs Nancy
+2026-03-20 20:00 | ligue 2 | Clermont Foot vs RED Star FC 93
+2026-03-20 20:00 | ligue 2 | Laval vs Grenoble
+2026-03-20 20:00 | ligue 2 | PAU vs Montpellier
+2026-03-20 20:00 | ligue 2 | Rodez vs Bastia
+2026-03-20 21:00 | premier league | Bournemouth vs Manchester United
+2026-03-20 00:20 | primera a colombia | Deportes Tolima vs Fortaleza FC
+2026-03-20 02:30 | primera a colombia | Independiente Medellin vs Junior
+2026-03-20 22:00 | primera a colombia | Águilas Doradas vs America de Cali
+2026-03-20 00:00 | primera división paraguay | Sportivo Trinidense vs Sportivo Ameliano
+2026-03-20 00:00 | serie a brazil | Flamengo vs remo
+2026-03-20 01:30 | serie a brazil | Chapecoense-sc vs Corinthians
+2026-03-20 18:30 | serie a italia | Cagliari vs Napoli
+2026-03-20 20:45 | serie a italia | Genoa vs Udinese
+2026-03-20 20:00 | superligaen | MTK Budapest vs Paks

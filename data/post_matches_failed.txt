@@ -1,5 +1,2 @@
 # date | league | home vs away | reason
 2026-03-17 | primera a colombia | Bucaramanga vs Once Caldas | FIXTURE_NOT_FOUND_ROBUST
-2026-03-18 | primera a colombia | Internacional de Bogota vs Deportivo Pereira | GOALS_MISSING:1506041
-2026-03-18 | primera división paraguay | Club Guarani vs Deportivo Recoleta | GOALS_MISSING:1505019
-2026-03-18 | primera división paraguay | Libertad Asuncion vs Nacional Asuncion | GOALS_MISSING:1505020

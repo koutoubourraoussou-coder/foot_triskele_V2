@@ -333,3 +333,20 @@ TSV: 2026-03-19	3276986696	O15_FT	18:00	super lig	Konyaspor	Gençlerbirliği S.K
 TSV: 2026-03-19	1418363399	O15_FT	18:00	super lig	Beşiktaş	Kasımpaşa	1.18	1394669	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-03-19	3809362945	O15_FT	22:10	primera a colombia	Alianza Valledupar	Jaguares	1.48	1506043	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_EFFECTIVE | 2026-03-20 02:22:11 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-20	2391174484	O15_FT	02:30	primera a colombia	Independiente Medellin	Junior	1.25	1506045	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	2744906779	O15_FT	18:30	serie a italia	Cagliari	Napoli	1.42	1378156	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	3696299304	O15_FT	18:30	2. bundesliga	Hannover 96	Eintracht Braunschweig	1.18	1388852	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	3867980751	O15_FT	18:30	2. bundesliga	Karlsruher SC	SpVgg Greuther Fürth	1.17	1388853	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	3120446320	O15_FT	20:00	eredivisie	Heracles	Excelsior	1.25	1381112	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	3252601108	O15_FT	20:30	laliga2	Huesca	Almeria	1.33	1392096	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	3995672830	O15_FT	20:45	serie a italia	Genoa	Udinese	1.48	1378159	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	649287096	O15_FT	20:45	cymru premier league	llanelli AFC	Cardiff MET	1.22	1509007	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	290609989	O15_FT	21:00	championship	Preston	Stoke City	1.33	1387017	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	469408746	O15_FT	21:00	laliga	Villarreal	Real Sociedad	1.25	1391108	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	1969959607	O15_FT	21:00	premier league	Bournemouth	Manchester United	1.18	1379270	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	1085273957	O15_FT	21:15	liga portugal	Estrela	Casa Pia	1.4	1396475	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	2872157144	O15_FT	22:00	primera a colombia	Águilas Doradas	America de Cali	1.44	1506046	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

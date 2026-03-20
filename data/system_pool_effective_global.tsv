@@ -338,3 +338,19 @@ TSV: 2026-03-19	3076839426	HT05	21:00	uefa europa league	FC Porto	VfB Stuttgart	
 TSV: 2026-03-19	3809362945	HT1X_HOME	22:10	primera a colombia	Alianza Valledupar	Jaguares	1.17	1506043	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-03-19	2794348141	HT05	23:00	serie a brazil	Gremio	Vitoria	1.38	1492175	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-03-20 02:22:10 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-20	2744906779	O15_FT	18:30	serie a italia	Cagliari	Napoli	1.42	1378156	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	3867980751	HT05	18:30	2. bundesliga	Karlsruher SC	SpVgg Greuther Fürth	1.28	1388853	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	3867980751	O15_FT	18:30	2. bundesliga	Karlsruher SC	SpVgg Greuther Fürth	1.17	1388853	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	3120446320	O15_FT	20:00	eredivisie	Heracles	Excelsior	1.25	1381112	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	230171352	HT1X_HOME	20:00	ligue 2	Boulogne	Nancy	1.25	1389356	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	2657741325	HT1X_HOME	20:00	ligue 2	Laval	Grenoble	1.22	1389354	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	1258875780	TEAM1_SCORE_FT	20:00	superligaen	MTK Budapest	Paks	1.18	1380332	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	1654583924	TEAM2_SCORE_FT	20:30	bundesliga	RB Leipzig	1899 Hoffenheim	1.22	1388548	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	469408746	TEAM2_SCORE_FT	21:00	laliga	Villarreal	Real Sociedad	1.36	1391108	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	469408746	O15_FT	21:00	laliga	Villarreal	Real Sociedad	1.25	1391108	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	2872157144	O15_FT	22:00	primera a colombia	Águilas Doradas	America de Cali	1.44	1506046	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-20	2872157144	TEAM1_SCORE_FT	22:00	primera a colombia	Águilas Doradas	America de Cali	1.41	1506046	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+
