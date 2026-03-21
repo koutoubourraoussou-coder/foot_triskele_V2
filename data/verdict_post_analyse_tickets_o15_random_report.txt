@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-03-20
+Date run       : 2026-03-21
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (108 ids)
+Whitelist      : ON (111 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 4
+Ignorés (date>=today)    : 11
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -904,10 +904,19 @@ Ignorés (date>=today)    : 4
    ✅ Leg 3) 18:00 | super lig | Beşiktaş vs Kasımpaşa | Over 1.5 (FT) | [EXPLOSION] | odd=1.18
    ❌ Leg 4) 18:00 | super lig | Konyaspor vs Gençlerbirliği S.K. | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.36
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Vendredi 2026-03-20 18:30→22:50 | code=A2 | odd=2.45
+   id=2026-03-20_1830_5d04967e12_O15R
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 18:30 | 2. bundesliga | Hannover 96 vs Eintracht Braunschweig | Over 1.5 (FT) | [TRÈS FORT] | odd=1.18
+   ✅ Leg 2) 20:00 | eredivisie | Heracles vs Excelsior | Over 1.5 (FT) | [TRÈS FORT] | odd=1.25
+   ✅ Leg 3) 21:00 | championship | Preston vs Stoke City | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.33
+   ✅ Leg 4) 21:00 | laliga | Villarreal vs Real Sociedad | Over 1.5 (FT) | [TRÈS FORT] | odd=1.25
+
 ====================================================================
-TOTAL tickets : 107
+TOTAL tickets : 108
 ✅ WIN     : 44
-❌ LOSS    : 60
+❌ LOSS    : 61
 ⏳ PENDING : 3
 ====================================================================
 

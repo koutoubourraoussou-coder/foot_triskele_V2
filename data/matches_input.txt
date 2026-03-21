@@ -1,29 +1,90 @@
-2026-03-20 18:30 | 2. bundesliga | Hannover 96 vs Eintracht Braunschweig
-2026-03-20 18:30 | 2. bundesliga | Karlsruher SC vs SpVgg Greuther Fürth
-2026-03-20 20:30 | bundesliga | RB Leipzig vs 1899 Hoffenheim
-2026-03-20 21:00 | championship | Preston vs Stoke City
-2026-03-20 20:45 | cymru premier league | llanelli AFC vs Cardiff MET
-2026-03-20 20:45 | cymru premier league | The New Saints vs Colwyn Bay
-2026-03-20 20:00 | eredivisie | Heracles vs Excelsior
-2026-03-20 21:00 | laliga | Villarreal vs Real Sociedad
-2026-03-20 20:30 | laliga2 | Huesca vs Almeria
-2026-03-20 21:15 | liga portugal | Estrela vs Casa Pia
-2026-03-20 19:00 | liga portugal 2 | Chaves vs União de Leiria
-2026-03-20 01:00 | liga pro ecuador | Emelec vs Independiente del Valle
-2026-03-20 20:45 | ligue 1 | Lens vs Angers
-2026-03-20 20:00 | ligue 2 | Amiens vs Le Mans
-2026-03-20 20:00 | ligue 2 | Boulogne vs Nancy
-2026-03-20 20:00 | ligue 2 | Clermont Foot vs RED Star FC 93
-2026-03-20 20:00 | ligue 2 | Laval vs Grenoble
-2026-03-20 20:00 | ligue 2 | PAU vs Montpellier
-2026-03-20 20:00 | ligue 2 | Rodez vs Bastia
-2026-03-20 21:00 | premier league | Bournemouth vs Manchester United
-2026-03-20 00:20 | primera a colombia | Deportes Tolima vs Fortaleza FC
-2026-03-20 02:30 | primera a colombia | Independiente Medellin vs Junior
-2026-03-20 22:00 | primera a colombia | Águilas Doradas vs America de Cali
-2026-03-20 00:00 | primera división paraguay | Sportivo Trinidense vs Sportivo Ameliano
-2026-03-20 00:00 | serie a brazil | Flamengo vs remo
-2026-03-20 01:30 | serie a brazil | Chapecoense-sc vs Corinthians
-2026-03-20 18:30 | serie a italia | Cagliari vs Napoli
-2026-03-20 20:45 | serie a italia | Genoa vs Udinese
-2026-03-20 20:00 | superligaen | MTK Budapest vs Paks
+2026-03-21 13:00 | 2. bundesliga | 1. FC Nürnberg vs 1. FC Kaiserslautern
+2026-03-21 13:00 | 2. bundesliga | SC Paderborn 07 vs Dynamo Dresden
+2026-03-21 13:00 | 2. bundesliga | SV Elversberg vs Arminia Bielefeld
+2026-03-21 20:30 | 2. bundesliga | SV Darmstadt 98 vs FC Schalke 04
+2026-03-21 15:30 | bundesliga | 1. FC Heidenheim vs Bayer Leverkusen
+2026-03-21 15:30 | bundesliga | 1. FC Köln vs Borussia Mönchengladbach
+2026-03-21 15:30 | bundesliga | Bayern München vs Union Berlin
+2026-03-21 15:30 | bundesliga | VfL Wolfsburg vs Werder Bremen
+2026-03-21 18:30 | bundesliga | Borussia Dortmund vs Hamburger SV
+2026-03-21 13:30 | championship | Blackburn vs Middlesbrough
+2026-03-21 13:30 | championship | Derby vs Birmingham
+2026-03-21 13:30 | championship | Ipswich vs Millwall
+2026-03-21 16:00 | championship | Bristol City vs West Brom
+2026-03-21 16:00 | championship | Charlton vs Norwich
+2026-03-21 16:00 | championship | Hull City vs Sheffield Wednesday
+2026-03-21 16:00 | championship | QPR vs Portsmouth
+2026-03-21 16:00 | championship | Sheffield Utd vs Wrexham
+2026-03-21 16:00 | championship | Southampton vs Oxford United
+2026-03-21 16:00 | championship | Watford vs Leicester
+2026-03-21 18:15 | championship | Swansea vs Coventry
+2026-03-21 15:30 | cymru premier league | Barry Town vs Caernarfon Town
+2026-03-21 15:30 | cymru premier league | Briton Ferry vs Flint Town United
+2026-03-21 15:30 | cymru premier league | GAP Connah S Quay FC vs Penybont
+2026-03-21 18:15 | cymru premier league | Bala Town vs Haverfordwest County AFC
+2026-03-21 16:30 | eredivisie | Fortuna Sittard vs Twente
+2026-03-21 18:45 | eredivisie | Sparta Rotterdam vs FC Volendam
+2026-03-21 21:00 | eredivisie | PEC Zwolle vs NAC Breda
+2026-03-21 14:00 | laliga | Elche vs Mallorca
+2026-03-21 16:15 | laliga | Espanyol vs Getafe
+2026-03-21 18:30 | laliga | Levante vs Oviedo
+2026-03-21 18:30 | laliga | Osasuna vs Girona
+2026-03-21 21:00 | laliga | Sevilla vs Valencia
+2026-03-21 14:00 | laliga2 | Leganes vs AD Ceuta FC
+2026-03-21 16:15 | laliga2 | FC Andorra vs Eibar
+2026-03-21 16:15 | laliga2 | Racing Santander vs Albacete
+2026-03-21 18:30 | laliga2 | Cadiz vs Malaga
+2026-03-21 21:00 | laliga2 | Deportivo La Coruna vs Zaragoza
+2026-03-21 02:00 | liga mx | Necaxa vs Club Tijuana
+2026-03-21 04:06 | liga mx | Mazatlán vs Cruz Azul
+2026-03-21 16:30 | liga portugal | Famalicao vs Nacional
+2026-03-21 16:30 | liga portugal | Moreirense vs Arouca
+2026-03-21 19:00 | liga portugal | Benfica vs Guimaraes
+2026-03-21 19:00 | liga portugal | Santa Clara vs GIL Vicente
+2026-03-21 21:30 | liga portugal | Tondela vs AVS
+2026-03-21 12:00 | liga portugal 2 | Lusitânia Lourosa vs Academico Viseu
+2026-03-21 15:00 | liga portugal 2 | Penafiel vs Vizela
+2026-03-21 16:30 | liga portugal 2 | Maritimo vs Oliveirense
+2026-03-21 19:00 | liga portugal 2 | Portimonense vs FC Porto B
+2026-03-21 20:00 | liga pro ecuador | Delfin SC vs Libertad
+2026-03-21 22:30 | liga pro ecuador | Deportivo Cuenca vs Macara
+2026-03-21 01:00 | liga profesional argentina | Atletico Tucuman vs Gimnasia L.P.
+2026-03-21 01:00 | liga profesional argentina | Banfield vs Tigre
+2026-03-21 19:30 | liga profesional argentina | Velez Sarsfield vs Lanus
+2026-03-21 21:45 | liga profesional argentina | Defensa Y Justicia vs Union Santa Fe
+2026-03-21 21:45 | liga profesional argentina | Newells Old Boys vs Gimnasia M.
+2026-03-21 17:00 | ligue 1 | Toulouse vs Lorient
+2026-03-21 19:00 | ligue 1 | Auxerre vs Stade Brestois 29
+2026-03-21 21:05 | ligue 1 | Nice vs Paris Saint Germain
+2026-03-21 14:00 | ligue 2 | Estac Troyes vs Dunkerque
+2026-03-21 14:00 | ligue 2 | Guingamp vs Reims
+2026-03-21 20:00 | ligue 2 | Saint Etienne vs Annecy
+2026-03-21 18:00 | mls | Toronto FC vs Columbus Crew
+2026-03-21 21:30 | mls | Philadelphia Union vs Chicago Fire
+2026-03-21 23:15 | mls | Nashville SC vs Orlando City SC
+2026-03-21 13:30 | premier league | Brighton vs Liverpool
+2026-03-21 16:00 | premier league | Fulham vs Burnley
+2026-03-21 16:00 | premier league | Manchester City vs Crystal Palace
+2026-03-21 18:30 | premier league | Everton vs Chelsea
+2026-03-21 21:00 | premier league | Leeds vs Brentford
+2026-03-21 16:00 | premiership | Falkirk vs ST Mirren
+2026-03-21 16:00 | premiership | Heart Of Midlothian vs Dundee
+2026-03-21 16:00 | premiership | Kilmarnock vs Livingston
+2026-03-21 16:00 | premiership | Motherwell vs Hibernian
+2026-03-21 18:45 | premiership | Rangers vs Aberdeen
+2026-03-21 22:30 | primera división paraguay | Club Guarani vs Olimpia
+2026-03-21 20:00 | serie a brazil | RB Bragantino vs Botafogo
+2026-03-21 22:30 | serie a brazil | Fluminense vs Atletico-MG
+2026-03-21 15:00 | serie a italia | Parma vs Cremonese
+2026-03-21 18:00 | serie a italia | AC Milan vs Torino
+2026-03-21 20:45 | serie a italia | Juventus vs Sassuolo
+2026-03-21 15:00 | serie b | Cesena vs Catanzaro
+2026-03-21 15:00 | serie b | Juve Stabia vs Spezia
+2026-03-21 15:00 | serie b | Padova vs Palermo
+2026-03-21 17:15 | serie b | Monza vs Venezia
+2026-03-21 19:30 | serie b | Modena vs Mantova
+2026-03-21 18:00 | super league switzerland | FC Zurich vs FC Thun
+2026-03-21 18:00 | super league switzerland | Servette FC vs Grasshoppers
+2026-03-21 20:30 | super league switzerland | FC Sion vs FC ST. Gallen
+2026-03-21 14:00 | superligaen | Nyiregyhaza vs Diosgyori VTK
+2026-03-21 16:30 | superligaen | Zalaegerszegi TE vs Ujpest

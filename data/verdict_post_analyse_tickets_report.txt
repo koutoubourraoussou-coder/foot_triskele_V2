@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-03-20
+Date run       : 2026-03-21
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (103 ids)
+Whitelist      : ON (107 ids)
 Ignorés (hors whitelist) : 16
-Ignorés (date>=today)    : 4
+Ignorés (date>=today)    : 14
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -822,10 +822,19 @@ Ignorés (date>=today)    : 4
    ✅ Leg 3) 22:10 | primera a colombia | Alianza Valledupar vs Jaguares | HT 1X Home | [TRÈS FORT] | odd=1.17
    ✅ Leg 4) 23:00 | serie a brazil | Gremio vs Vitoria | HT+0.5 | [TRÈS FORT] | odd=1.38
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Vendredi 2026-03-20 18:30→23:50 | code=A2 | odd=2.58
+   id=2026-03-20_1830_2615ec0f10_SYS
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 18:30 | 2. bundesliga | Karlsruher SC vs SpVgg Greuther Fürth | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.17
+   ✅ Leg 2) 20:00 | eredivisie | Heracles vs Excelsior | Over 1.5 (FT) | [TRÈS FORT] | odd=1.25
+   ✅ Leg 3) 21:00 | laliga | Villarreal vs Real Sociedad | Over 1.5 (FT) | [TRÈS FORT] | odd=1.25
+   ❌ Leg 4) 22:00 | primera a colombia | Águilas Doradas vs America de Cali | Team1 scores (FT) | [TRÈS FORT] | odd=1.41
+
 ====================================================================
-TOTAL tickets : 97
+TOTAL tickets : 98
 ✅ WIN     : 32
-❌ LOSS    : 63
+❌ LOSS    : 64
 ⏳ PENDING : 2
 ====================================================================
 

@@ -1,13 +1,44 @@
 TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
 ==================================================
 
-📅 Vendredi 2026-03-20 — Tranche 1 (fenêtre ~210min)
----------------------------------------------------
+📅 Samedi 2026-03-21 — Tranche 1 (fenêtre ~60min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-21_1300_0d886fb254_SYS — cote = 2.4 — fenêtre 13:00 → 15:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 13:00 | 2. bundesliga | SC Paderborn 07 vs Dynamo Dresden | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  2) 13:00 | 2. bundesliga | SV Elversberg vs Arminia Bielefeld | Over 1.5 (FT) | EXPLOSION | odd=1.18
+  3) 13:30 | championship | Ipswich vs Millwall | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  4) 14:00 | laliga | Elche vs Mallorca | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.38
+
+📅 Samedi 2026-03-21 — Tranche 2 (fenêtre ~30min)
+------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-03-20_1830_2615ec0f10_SYS — cote = 2.58 — fenêtre 18:30 → 23:50  
+  🎟️ TICKET 2.1 (A2) — id=2026-03-21_1600_5e092f2f54_SYS — cote = 2.44 — fenêtre 16:00 → 18:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 18:30 | 2. bundesliga | Karlsruher SC vs SpVgg Greuther Fürth | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
-  2) 20:00 | eredivisie | Heracles vs Excelsior | Over 1.5 (FT) | TRÈS FORT | odd=1.25
-  3) 21:00 | laliga | Villarreal vs Real Sociedad | Over 1.5 (FT) | TRÈS FORT | odd=1.25
-  4) 22:00 | primera a colombia | Águilas Doradas vs America de Cali | Team1 scores (FT) | TRÈS FORT | odd=1.41
+  1) 16:00 | championship | Watford vs Leicester | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.28
+  2) 16:00 | championship | Bristol City vs West Brom | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36
+  3) 16:30 | eredivisie | Fortuna Sittard vs Twente | Team1 scores (FT) | FORT PLUS | odd=1.4
+
+📅 Samedi 2026-03-21 — Tranche 3
+-------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-03-21_1830_e15afa6655_SYS — cote = 2.44 — fenêtre 18:30 → 20:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 18:30 | laliga2 | Cadiz vs Malaga | HT+0.5 | MEGA EXPLOSION | odd=1.36
+  2) 18:30 | laliga | Osasuna vs Girona | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3
+  3) 18:30 | laliga | Levante vs Oviedo | Over 1.5 (FT) | TRÈS FORT | odd=1.38
+
+📅 Samedi 2026-03-21 — Tranche 4 (fenêtre ~30min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-03-21_2030_ad66f669dc_SYS — cote = 2.65 — fenêtre 20:30 → 22:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:30 | super league switzerland | FC Sion vs FC ST. Gallen | Over 1.5 (FT) | FORT PLUS | odd=1.25
+  2) 20:30 | 2. bundesliga | SV Darmstadt 98 vs FC Schalke 04 | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  3) 21:00 | eredivisie | PEC Zwolle vs NAC Breda | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  4) 21:00 | laliga | Sevilla vs Valencia | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.45
