@@ -1,34 +1,34 @@
 TICKETS TRISKÈLE — O15_RANDOM_ALL — depuis predictions.tsv
 ==========================================================
 
-📅 Samedi 2026-03-21 — Tranche 1 (fenêtre ~690min)
--------------------------------------------------
+📅 Dimanche 2026-03-22 — Tranche 1 (fenêtre ~130min)
+---------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (RESTE) — id=2026-03-22_0200_a32a3334ca_O15R — cote = 1.83 — fenêtre 02:00 → 06:00  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 02:00 | liga mx | Atletico San Luis vs Leon | Over 1.5 (FT) | MOYEN PLUS | odd=1.2
+  2) 02:05 | liga mx | Monterrey vs Guadalajara Chivas | Over 1.5 (FT) | FORT PLUS | odd=1.22
+  3) 04:10 | liga mx | U.N.A.M. - Pumas vs Club America | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+
+📅 Dimanche 2026-03-22 — Tranche 2 (fenêtre ~60min)
+--------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-03-21_0200_22186879f1_O15R — cote = 2.43 — fenêtre 02:00 → 15:20  
+  🎟️ TICKET 2.1 (A2) — id=2026-03-22_1330_7bcd41714a_O15R — cote = 2.43 — fenêtre 13:30 → 16:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 02:00 | liga mx | Necaxa vs Club Tijuana | Over 1.5 (FT) | EXPLOSION | odd=1.22
-  2) 13:00 | 2. bundesliga | 1. FC Nürnberg vs 1. FC Kaiserslautern | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
-  3) 13:30 | championship | Blackburn vs Middlesbrough | Over 1.5 (FT) | MOYEN PLUS | odd=1.3
-  4) 13:30 | championship | Derby vs Birmingham | Over 1.5 (FT) | FORT PLUS | odd=1.3
+  1) 13:30 | 2. bundesliga | VfL Bochum vs Holstein Kiel | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  2) 14:00 | laliga2 | Burgos vs Cordoba | Over 1.5 (FT) | FORT | odd=1.42
+  3) 14:30 | eredivisie | Feyenoord vs Ajax | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
+  4) 14:30 | eredivisie | Utrecht vs GO Ahead Eagles | Over 1.5 (FT) | EXPLOSION | odd=1.22
 
-📅 Samedi 2026-03-21 — Tranche 2 (fenêtre ~30min)
-------------------------------------------------
+📅 Dimanche 2026-03-22 — Tranche 3 (fenêtre ~120min)
+---------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-03-21_1530_9a4d435106_O15R — cote = 2.59 — fenêtre 15:30 → 17:50  
+  🎟️ TICKET 3.1 (A2) — id=2026-03-22_1630_8f617d4060_O15R — cote = 2.51 — fenêtre 16:30 → 20:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 15:30 | bundesliga | 1. FC Köln vs Borussia Mönchengladbach | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
-  2) 15:30 | bundesliga | VfL Wolfsburg vs Werder Bremen | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
-  3) 15:30 | bundesliga | 1. FC Heidenheim vs Bayer Leverkusen | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
-  4) 16:00 | championship | QPR vs Portsmouth | Over 1.5 (FT) | TRÈS FORT | odd=1.44
-
-📅 Samedi 2026-03-21 — Tranche 3 (fenêtre ~150min)
--------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-03-21_1830_0d44493b04_O15R — cote = 2.5 — fenêtre 18:30 → 22:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 18:30 | laliga | Levante vs Oviedo | Over 1.5 (FT) | TRÈS FORT | odd=1.38
-  2) 20:30 | super league switzerland | FC Sion vs FC ST. Gallen | Over 1.5 (FT) | FORT PLUS | odd=1.25
-  3) 21:00 | laliga | Sevilla vs Valencia | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.45
+  1) 16:30 | super league switzerland | FC Luzern vs Lausanne | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.15
+  2) 16:45 | eredivisie | Groningen vs AZ Alkmaar | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  3) 17:30 | bundesliga | FC St. Pauli vs SC Freiburg | Over 1.5 (FT) | TRÈS FORT | odd=1.42
+  4) 18:30 | laliga | Athletic Club vs Real Betis | Over 1.5 (FT) | TRÈS FORT | odd=1.28

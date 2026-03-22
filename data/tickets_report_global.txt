@@ -2294,3 +2294,43 @@ Aucun ticket.
   2) 20:30 | 2. bundesliga | SV Darmstadt 98 vs FC Schalke 04 | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
   3) 21:00 | eredivisie | PEC Zwolle vs NAC Breda | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
   4) 21:00 | laliga | Sevilla vs Valencia | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.45
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-03-22 07:39:38 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-22_0100_f2c80e701f_SYS — cote = 2.48 — fenêtre 01:00 → 06:00  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 01:00 | serie a brazil | Sao Paulo vs Palmeiras | HT 1X Home | TRÈS FORT | odd=1.3
+  2) 01:30 | mls | St. Louis City vs New England Revolution | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  3) 01:45 | mls | Austin vs Los Angeles FC | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  4) 04:10 | liga mx | U.N.A.M. - Pumas vs Club America | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+
+📅 Dimanche 2026-03-22 — Tranche 2 (fenêtre ~180min)
+---------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-03-22_1330_a6a8773242_SYS — cote = 2.69 — fenêtre 13:30 → 18:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 13:30 | premiership | Dundee Utd vs Celtic | HT 1X Home | TRÈS FORT | odd=1.8
+  2) 16:30 | super league switzerland | BSC Young Boys vs FC Lugano | Team1 scores (FT) | TRÈS FORT | odd=1.3
+  3) 16:30 | super league switzerland | FC Luzern vs Lausanne | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.15
+
+📅 Dimanche 2026-03-22 — Tranche 3
+---------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-03-22_1830_9741ba8cc2_SYS — cote = 2.56 — fenêtre 18:30 → 20:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 18:30 | laliga | Athletic Club vs Real Betis | Over 1.5 (FT) | TRÈS FORT | odd=1.28
+  2) 18:30 | pro league | Dender vs Gent | Over 1.5 (FT) | FORT PLUS | odd=1.25
+  3) 18:30 | pro league | Club Brugge KV vs KV Mechelen | Team2 scores (FT) | FORT PLUS | odd=1.6
+
+📅 Dimanche 2026-03-22 — Tranche 4 (fenêtre ~30min)
+--------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-03-22_2130_f838ee1756_SYS — cote = 2.49 — fenêtre 21:30 → 23:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 21:30 | liga pro ecuador | Barcelona SC vs Universidad Catolica | HT 1X Home | TRÈS FORT | odd=1.22
+  2) 21:45 | liga profesional argentina | Estudiantes de Rio Cuarto vs River Plate | HT 1X Home | TRÈS FORT | odd=1.57
+  3) 22:00 | primera a colombia | Alianza Valledupar vs Deportivo Cali | HT 1X Home | TRÈS FORT | odd=1.3
