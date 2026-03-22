@@ -489,3 +489,11 @@ TSV: 2026-03-22	516358277	O15_FT	21:00	laliga	Real Madrid	Atletico Madrid	1.18	1
 TSV: 2026-03-22	3288530412	O15_FT	21:30	liga portugal	SC Braga	FC Porto	1.42	1396473	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-03-22	1968115876	O15_FT	22:00	primera a colombia	Alianza Valledupar	Deportivo Cali	1.45	1506048	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_EFFECTIVE | 2026-03-23 00:11:09 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-23	1792737380	O15_FT	02:06	liga mx	FC Juarez	Tigres UANL	1.28	1492570	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-23	784163190	O15_FT	20:00	primera a colombia	Chico	Deportes Tolima	1.42	1506051	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-23	2730845885	O15_FT	20:30	laliga2	Castellón	Cultural Leonesa	1.18	1392098	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-23	55028759	O15_FT	22:10	primera a colombia	Santa Fe	Independiente Medellin	1.35	1506052	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

@@ -2334,3 +2334,15 @@ Aucun ticket.
   1) 21:30 | liga pro ecuador | Barcelona SC vs Universidad Catolica | HT 1X Home | TRÈS FORT | odd=1.22
   2) 21:45 | liga profesional argentina | Estudiantes de Rio Cuarto vs River Plate | HT 1X Home | TRÈS FORT | odd=1.57
   3) 22:00 | primera a colombia | Alianza Valledupar vs Deportivo Cali | HT 1X Home | TRÈS FORT | odd=1.3
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-03-23 00:11:09 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (RESTE) — id=2026-03-23_0215_a5ebe68c31_SYS — cote = 1.83 — fenêtre 02:15 → 00:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 02:15 | liga profesional argentina | Independ. Rivadavia vs Rosario Central | HT 1X Home | FORT PLUS | odd=1.28
+  2) 22:10 | primera a colombia | Santa Fe vs Independiente Medellin | HT 1X Home | FORT PLUS | odd=1.22
+  3) 22:30 | liga pro ecuador | Guayaquil City FC vs Leones del Norte | HT 1X Home | TRÈS FORT | odd=1.17

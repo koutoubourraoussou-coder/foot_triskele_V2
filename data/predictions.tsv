@@ -3918,3 +3918,115 @@ TSV:	1676253989	2026-03-22	superligaen	Kisvarda FC	Ferencvarosi TC	TEAM2_SCORE_F
 TSV:	1676253989	2026-03-22	superligaen	Kisvarda FC	Ferencvarosi TC	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	odd=1.22 fixture=1380331	19:15
 TSV:	1676253989	2026-03-22	superligaen	Kisvarda FC	Ferencvarosi TC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=5.5 fixture=1380331	19:15
 TSV:	1676253989	2026-03-22	superligaen	Kisvarda FC	Ferencvarosi TC	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=1.5 fixture=1380331	19:15
+TSV:	2730845885	2026-03-23	laliga2	Castellón	Cultural Leonesa	HT05	HT+0.5	5.0	FORT PLUS	1	odd=1.25 fixture=1392098	20:30
+TSV:	2730845885	2026-03-23	laliga2	Castellón	Cultural Leonesa	HT1X_HOME	HT 1X Home	4.0	FORT	0	odd=1.1 fixture=1392098	20:30
+TSV:	2730845885	2026-03-23	laliga2	Castellón	Cultural Leonesa	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	odd=1.06 fixture=1392098	20:30
+TSV:	2730845885	2026-03-23	laliga2	Castellón	Cultural Leonesa	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.6 fixture=1392098	20:30
+TSV:	2730845885	2026-03-23	laliga2	Castellón	Cultural Leonesa	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.18 fixture=1392098	20:30
+TSV:	2730845885	2026-03-23	laliga2	Castellón	Cultural Leonesa	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=1.35 fixture=1392098	20:30
+TSV:	2730845885	2026-03-23	laliga2	Castellón	Cultural Leonesa	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=7 fixture=1392098	20:30
+TSV:	1795197454	2026-03-22	liga mx	Pachuca	Toluca	HT05	HT+0.5	4.0	FORT	0	odd=1.28 fixture=1492565	00:00
+TSV:	1795197454	2026-03-22	liga mx	Pachuca	Toluca	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.5 fixture=1492565	00:00
+TSV:	1795197454	2026-03-22	liga mx	Pachuca	Toluca	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.3 fixture=1492565	00:00
+TSV:	1795197454	2026-03-22	liga mx	Pachuca	Toluca	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	odd=1.15 fixture=1492565	00:00
+TSV:	1795197454	2026-03-22	liga mx	Pachuca	Toluca	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	odd=1.2 fixture=1492565	00:00
+TSV:	1795197454	2026-03-22	liga mx	Pachuca	Toluca	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.55 fixture=1492565	00:00
+TSV:	1795197454	2026-03-22	liga mx	Pachuca	Toluca	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=1.9 fixture=1492565	00:00
+TSV:	1775237511	2026-03-22	liga mx	Santos Laguna	Puebla	HT05	HT+0.5	2.0	MOYEN	0	odd=1.3 fixture=1492569	00:00
+TSV:	1775237511	2026-03-22	liga mx	Santos Laguna	Puebla	HT1X_HOME	HT 1X Home	4.0	FORT	0	odd=1.35 fixture=1492569	00:00
+TSV:	1775237511	2026-03-22	liga mx	Santos Laguna	Puebla	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.22 fixture=1492569	00:00
+TSV:	1775237511	2026-03-22	liga mx	Santos Laguna	Puebla	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	odd=1.25 fixture=1492569	00:00
+TSV:	1775237511	2026-03-22	liga mx	Santos Laguna	Puebla	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	odd=1.25 fixture=1492569	00:00
+TSV:	1775237511	2026-03-22	liga mx	Santos Laguna	Puebla	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.54 fixture=1492569	00:00
+TSV:	1775237511	2026-03-22	liga mx	Santos Laguna	Puebla	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=2.54 fixture=1492569	00:00
+TSV:	1792737380	2026-03-23	liga mx	FC Juarez	Tigres UANL	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.36 fixture=1492570	02:06
+TSV:	1792737380	2026-03-23	liga mx	FC Juarez	Tigres UANL	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.4 fixture=1492570	02:06
+TSV:	1792737380	2026-03-23	liga mx	FC Juarez	Tigres UANL	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.33 fixture=1492570	02:06
+TSV:	1792737380	2026-03-23	liga mx	FC Juarez	Tigres UANL	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	odd=1.22 fixture=1492570	02:06
+TSV:	1792737380	2026-03-23	liga mx	FC Juarez	Tigres UANL	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	odd=1.28 fixture=1492570	02:06
+TSV:	1792737380	2026-03-23	liga mx	FC Juarez	Tigres UANL	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.15 fixture=1492570	02:06
+TSV:	1792737380	2026-03-23	liga mx	FC Juarez	Tigres UANL	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=2.18 fixture=1492570	02:06
+TSV:	1043835039	2026-03-22	liga pro ecuador	Mushuc Runa SC	Emelec	HT05	HT+0.5	5.0	FORT PLUS	1	odd=1.44 fixture=1519302	00:15
+TSV:	1043835039	2026-03-22	liga pro ecuador	Mushuc Runa SC	Emelec	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.22 fixture=1519302	00:15
+TSV:	1043835039	2026-03-22	liga pro ecuador	Mushuc Runa SC	Emelec	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.25 fixture=1519302	00:15
+TSV:	1043835039	2026-03-22	liga pro ecuador	Mushuc Runa SC	Emelec	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.4 fixture=1519302	00:15
+TSV:	1043835039	2026-03-22	liga pro ecuador	Mushuc Runa SC	Emelec	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.36 fixture=1519302	00:15
+TSV:	1043835039	2026-03-22	liga pro ecuador	Mushuc Runa SC	Emelec	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.15 fixture=1519302	00:15
+TSV:	1043835039	2026-03-22	liga pro ecuador	Mushuc Runa SC	Emelec	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.4 fixture=1519302	00:15
+TSV:	120506531	2026-03-23	liga pro ecuador	Guayaquil City FC	Leones del Norte	HT05	HT+0.5	2.0	MOYEN	0	odd=1.62 fixture=1519300	22:30
+TSV:	120506531	2026-03-23	liga pro ecuador	Guayaquil City FC	Leones del Norte	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.17 fixture=1519300	22:30
+TSV:	120506531	2026-03-23	liga pro ecuador	Guayaquil City FC	Leones del Norte	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.36 fixture=1519300	22:30
+TSV:	120506531	2026-03-23	liga pro ecuador	Guayaquil City FC	Leones del Norte	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.67 fixture=1519300	22:30
+TSV:	120506531	2026-03-23	liga pro ecuador	Guayaquil City FC	Leones del Norte	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.62 fixture=1519300	22:30
+TSV:	120506531	2026-03-23	liga pro ecuador	Guayaquil City FC	Leones del Norte	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.1 fixture=1519300	22:30
+TSV:	120506531	2026-03-23	liga pro ecuador	Guayaquil City FC	Leones del Norte	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.5 fixture=1519300	22:30
+TSV:	1643023394	2026-03-22	liga profesional argentina	Boca Juniors	Instituto Cordoba	HT05	HT+0.5	1.0	FAIBLE	0	odd=1.5 fixture=1491987	00:00
+TSV:	1643023394	2026-03-22	liga profesional argentina	Boca Juniors	Instituto Cordoba	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.1 fixture=1491987	00:00
+TSV:	1643023394	2026-03-22	liga profesional argentina	Boca Juniors	Instituto Cordoba	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.2 fixture=1491987	00:00
+TSV:	1643023394	2026-03-22	liga profesional argentina	Boca Juniors	Instituto Cordoba	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.85 fixture=1491987	00:00
+TSV:	1643023394	2026-03-22	liga profesional argentina	Boca Juniors	Instituto Cordoba	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	odd=1.48 fixture=1491987	00:00
+TSV:	1643023394	2026-03-22	liga profesional argentina	Boca Juniors	Instituto Cordoba	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	odd=1.64 fixture=1491987	00:00
+TSV:	1643023394	2026-03-22	liga profesional argentina	Boca Juniors	Instituto Cordoba	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=6 fixture=1491987	00:00
+TSV:	4120387008	2026-03-23	liga profesional argentina	Argentinos JRS	Platense	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.6 fixture=1491983	02:15
+TSV:	4120387008	2026-03-23	liga profesional argentina	Argentinos JRS	Platense	HT1X_HOME	HT 1X Home	8.0	MEGA EXPLOSION	1	odd=1.12 fixture=1491983	02:15
+TSV:	4120387008	2026-03-23	liga profesional argentina	Argentinos JRS	Platense	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	odd=1.29 fixture=1491983	02:15
+TSV:	4120387008	2026-03-23	liga profesional argentina	Argentinos JRS	Platense	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.8 fixture=1491983	02:15
+TSV:	4120387008	2026-03-23	liga profesional argentina	Argentinos JRS	Platense	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	odd=1.62 fixture=1491983	02:15
+TSV:	4120387008	2026-03-23	liga profesional argentina	Argentinos JRS	Platense	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	odd=1.9 fixture=1491983	02:15
+TSV:	4120387008	2026-03-23	liga profesional argentina	Argentinos JRS	Platense	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.8 fixture=1491983	02:15
+TSV:	3986225295	2026-03-23	liga profesional argentina	Independ. Rivadavia	Rosario Central	HT05	HT+0.5	4.0	FORT	0	odd=1.5 fixture=1491994	02:15
+TSV:	3986225295	2026-03-23	liga profesional argentina	Independ. Rivadavia	Rosario Central	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.28 fixture=1491994	02:15
+TSV:	3986225295	2026-03-23	liga profesional argentina	Independ. Rivadavia	Rosario Central	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.4 fixture=1491994	02:15
+TSV:	3986225295	2026-03-23	liga profesional argentina	Independ. Rivadavia	Rosario Central	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.4 fixture=1491994	02:15
+TSV:	3986225295	2026-03-23	liga profesional argentina	Independ. Rivadavia	Rosario Central	O15_FT	Over 1.5 (FT)	0.0	KO	0	odd=1.53 fixture=1491994	02:15
+TSV:	3986225295	2026-03-23	liga profesional argentina	Independ. Rivadavia	Rosario Central	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.75 fixture=1491994	02:15
+TSV:	3986225295	2026-03-23	liga profesional argentina	Independ. Rivadavia	Rosario Central	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.75 fixture=1491994	02:15
+TSV:	402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	HT05	HT+0.5	0.0	KO	0	odd=1.5 fixture=1491990	23:00
+TSV:	402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	odd=1.08 fixture=1491990	23:00
+TSV:	402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.2 fixture=1491990	23:00
+TSV:	402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=2 fixture=1491990	23:00
+TSV:	402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	O15_FT	Over 1.5 (FT)	0.0	KO	0	odd=1.48 fixture=1491990	23:00
+TSV:	402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.51 fixture=1491990	23:00
+TSV:	402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=7.7 fixture=1491990	23:00
+TSV:	2226555661	2026-03-22	mls	San Diego	Real Salt Lake	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.25 fixture=1490179	00:00
+TSV:	2226555661	2026-03-22	mls	San Diego	Real Salt Lake	HT1X_HOME	HT 1X Home	0.0	KO	0	odd=1.25 fixture=1490179	00:00
+TSV:	2226555661	2026-03-22	mls	San Diego	Real Salt Lake	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	odd=1.15 fixture=1490179	00:00
+TSV:	2226555661	2026-03-22	mls	San Diego	Real Salt Lake	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.25 fixture=1490179	00:00
+TSV:	2226555661	2026-03-22	mls	San Diego	Real Salt Lake	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.18 fixture=1490179	00:00
+TSV:	2226555661	2026-03-22	mls	San Diego	Real Salt Lake	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	odd=2.02 fixture=1490179	00:00
+TSV:	2226555661	2026-03-22	mls	San Diego	Real Salt Lake	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.25 fixture=1490179	00:00
+TSV:	784163190	2026-03-23	primera a colombia	Chico	Deportes Tolima	HT05	HT+0.5	5.0	FORT PLUS	1	odd=1.42 fixture=1506051	20:00
+TSV:	784163190	2026-03-23	primera a colombia	Chico	Deportes Tolima	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.5 fixture=1506051	20:00
+TSV:	784163190	2026-03-23	primera a colombia	Chico	Deportes Tolima	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.66 fixture=1506051	20:00
+TSV:	784163190	2026-03-23	primera a colombia	Chico	Deportes Tolima	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.21 fixture=1506051	20:00
+TSV:	784163190	2026-03-23	primera a colombia	Chico	Deportes Tolima	O15_FT	Over 1.5 (FT)	4.0	FORT	0	odd=1.42 fixture=1506051	20:00
+TSV:	784163190	2026-03-23	primera a colombia	Chico	Deportes Tolima	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=4.2 fixture=1506051	20:00
+TSV:	784163190	2026-03-23	primera a colombia	Chico	Deportes Tolima	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=1.86 fixture=1506051	20:00
+TSV:	55028759	2026-03-23	primera a colombia	Santa Fe	Independiente Medellin	HT05	HT+0.5	5.0	FORT PLUS	1	odd=1.4 fixture=1506052	22:10
+TSV:	55028759	2026-03-23	primera a colombia	Santa Fe	Independiente Medellin	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.22 fixture=1506052	22:10
+TSV:	55028759	2026-03-23	primera a colombia	Santa Fe	Independiente Medellin	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.23 fixture=1506052	22:10
+TSV:	55028759	2026-03-23	primera a colombia	Santa Fe	Independiente Medellin	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.4 fixture=1506052	22:10
+TSV:	55028759	2026-03-23	primera a colombia	Santa Fe	Independiente Medellin	O15_FT	Over 1.5 (FT)	0.0	KO	0	odd=1.35 fixture=1506052	22:10
+TSV:	55028759	2026-03-23	primera a colombia	Santa Fe	Independiente Medellin	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.2 fixture=1506052	22:10
+TSV:	55028759	2026-03-23	primera a colombia	Santa Fe	Independiente Medellin	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.25 fixture=1506052	22:10
+TSV:	3464360071	2026-03-22	primera división paraguay	Sportivo Luqueno	2 de Mayo	HT05	HT+0.5	6.0	TRÈS FORT	1	odd=1.44 fixture=1505029	00:30
+TSV:	3464360071	2026-03-22	primera división paraguay	Sportivo Luqueno	2 de Mayo	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.22 fixture=1505029	00:30
+TSV:	3464360071	2026-03-22	primera división paraguay	Sportivo Luqueno	2 de Mayo	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.24 fixture=1505029	00:30
+TSV:	3464360071	2026-03-22	primera división paraguay	Sportivo Luqueno	2 de Mayo	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.48 fixture=1505029	00:30
+TSV:	3464360071	2026-03-22	primera división paraguay	Sportivo Luqueno	2 de Mayo	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.36 fixture=1505029	00:30
+TSV:	3464360071	2026-03-22	primera división paraguay	Sportivo Luqueno	2 de Mayo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.1 fixture=1505029	00:30
+TSV:	3464360071	2026-03-22	primera división paraguay	Sportivo Luqueno	2 de Mayo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.4 fixture=1505029	00:30
+TSV:	2046879123	2026-03-23	primera división paraguay	Sportivo Trinidense	Deportivo Recoleta	HT05	HT+0.5	2.0	MOYEN	0	odd=1.44 fixture=1505030	22:30
+TSV:	2046879123	2026-03-23	primera división paraguay	Sportivo Trinidense	Deportivo Recoleta	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	odd=1.13 fixture=1505030	22:30
+TSV:	2046879123	2026-03-23	primera división paraguay	Sportivo Trinidense	Deportivo Recoleta	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.24 fixture=1505030	22:30
+TSV:	2046879123	2026-03-23	primera división paraguay	Sportivo Trinidense	Deportivo Recoleta	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.46 fixture=1505030	22:30
+TSV:	2046879123	2026-03-23	primera división paraguay	Sportivo Trinidense	Deportivo Recoleta	O15_FT	Over 1.5 (FT)	4.0	FORT	0	odd=1.33 fixture=1505030	22:30
+TSV:	2046879123	2026-03-23	primera división paraguay	Sportivo Trinidense	Deportivo Recoleta	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.01 fixture=1505030	22:30
+TSV:	2046879123	2026-03-23	primera división paraguay	Sportivo Trinidense	Deportivo Recoleta	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.44 fixture=1505030	22:30
+TSV:	2451606422	2026-03-22	serie a brazil	Corinthians	Flamengo	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.48 fixture=1492182	00:30
+TSV:	2451606422	2026-03-22	serie a brazil	Corinthians	Flamengo	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.36 fixture=1492182	00:30
+TSV:	2451606422	2026-03-22	serie a brazil	Corinthians	Flamengo	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.44 fixture=1492182	00:30
+TSV:	2451606422	2026-03-22	serie a brazil	Corinthians	Flamengo	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	odd=1.29 fixture=1492182	00:30
+TSV:	2451606422	2026-03-22	serie a brazil	Corinthians	Flamengo	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	odd=1.45 fixture=1492182	00:30
+TSV:	2451606422	2026-03-22	serie a brazil	Corinthians	Flamengo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.3 fixture=1492182	00:30
+TSV:	2451606422	2026-03-22	serie a brazil	Corinthians	Flamengo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.24 fixture=1492182	00:30

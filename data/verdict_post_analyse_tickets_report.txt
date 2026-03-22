@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-03-22
+Date run       : 2026-03-23
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (111 ids)
+Whitelist      : ON (112 ids)
 Ignorés (hors whitelist) : 16
-Ignorés (date>=today)    : 13
+Ignorés (date>=today)    : 3
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -865,10 +865,43 @@ Ignorés (date>=today)    : 13
    ✅ Leg 3) 21:00 | eredivisie | PEC Zwolle vs NAC Breda | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
    ✅ Leg 4) 21:00 | laliga | Sevilla vs Valencia | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.45
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Dimanche 2026-03-22 01:00→06:00 | code=A2 | odd=2.48
+   id=2026-03-22_0100_f2c80e701f_SYS
+   legs=4 | WIN=1 | LOSS=3 | PENDING=0
+   ❌ Leg 1) 01:00 | serie a brazil | Sao Paulo vs Palmeiras | HT 1X Home | [TRÈS FORT] | odd=1.3
+   ✅ Leg 2) 01:30 | mls | St. Louis City vs New England Revolution | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+   ❌ Leg 3) 01:45 | mls | Austin vs Los Angeles FC | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+   ❌ Leg 4) 04:10 | liga mx | U.N.A.M. - Pumas vs Club America | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 2 | Dimanche 2026-03-22 13:30→18:20 | code=A2 | odd=2.69
+   id=2026-03-22_1330_a6a8773242_SYS
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 13:30 | premiership | Dundee Utd vs Celtic | HT 1X Home | [TRÈS FORT] | odd=1.8
+   ✅ Leg 2) 16:30 | super league switzerland | BSC Young Boys vs FC Lugano | Team1 scores (FT) | [TRÈS FORT] | odd=1.3
+   ✅ Leg 3) 16:30 | super league switzerland | FC Luzern vs Lausanne | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.15
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 3 | Dimanche 2026-03-22 18:30→20:20 | code=A2 | odd=2.56
+   id=2026-03-22_1830_9741ba8cc2_SYS
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 18:30 | laliga | Athletic Club vs Real Betis | Over 1.5 (FT) | [TRÈS FORT] | odd=1.28
+   ✅ Leg 2) 18:30 | pro league | Club Brugge KV vs KV Mechelen | Team2 scores (FT) | [FORT PLUS] | odd=1.6
+   ✅ Leg 3) 18:30 | pro league | Dender vs Gent | Over 1.5 (FT) | [FORT PLUS] | odd=1.25
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 4 | Dimanche 2026-03-22 21:30→23:50 | code=A2 | odd=2.49
+   id=2026-03-22_2130_f838ee1756_SYS
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 21:30 | liga pro ecuador | Barcelona SC vs Universidad Catolica | HT 1X Home | [TRÈS FORT] | odd=1.22
+   ✅ Leg 2) 21:45 | liga profesional argentina | Estudiantes de Rio Cuarto vs River Plate | HT 1X Home | [TRÈS FORT] | odd=1.57
+   ✅ Leg 3) 22:00 | primera a colombia | Alianza Valledupar vs Deportivo Cali | HT 1X Home | [TRÈS FORT] | odd=1.3
+
 ====================================================================
-TOTAL tickets : 102
-✅ WIN     : 34
-❌ LOSS    : 66
+TOTAL tickets : 106
+✅ WIN     : 37
+❌ LOSS    : 67
 ⏳ PENDING : 2
 ====================================================================
 

@@ -661,3 +661,16 @@ TSV: 2026-03-22	1006605966	O15_FT	22:30	serie a brazil	Vitoria	Mirassol	1.42	149
 TSV: 2026-03-22	1240648764	O15_FT	22:30	primera división paraguay	Club Sp. San Lorenzo	Nacional Asuncion	1.4	1505028	O15_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-03-22	3433665803	O15_FT	22:30	serie a brazil	Internacional	Chapecoense-sc	1.22	1492185	O15_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_BASE | 2026-03-23 00:11:09 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-23	1792737380	O15_FT	02:06	liga mx	FC Juarez	Tigres UANL	1.28	1492570	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	4120387008	O15_FT	02:15	liga profesional argentina	Argentinos JRS	Platense	1.62	1491983	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	3986225295	O15_FT	02:15	liga profesional argentina	Independ. Rivadavia	Rosario Central	1.53	1491994	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	784163190	O15_FT	20:00	primera a colombia	Chico	Deportes Tolima	1.42	1506051	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	2730845885	O15_FT	20:30	laliga2	Castellón	Cultural Leonesa	1.18	1392098	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	55028759	O15_FT	22:10	primera a colombia	Santa Fe	Independiente Medellin	1.35	1506052	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	120506531	O15_FT	22:30	liga pro ecuador	Guayaquil City FC	Leones del Norte	1.62	1519300	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	2046879123	O15_FT	22:30	primera división paraguay	Sportivo Trinidense	Deportivo Recoleta	1.33	1505030	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	402429760	O15_FT	23:00	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	1.48	1491990	O15_RANDOM_POOL_BASE	predictions.tsv
+

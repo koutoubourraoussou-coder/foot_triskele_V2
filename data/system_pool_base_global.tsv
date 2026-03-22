@@ -847,3 +847,15 @@ TSV: 2026-03-22	1006605966	O15_FT	22:30	serie a brazil	Vitoria	Mirassol	1.42	149
 TSV: 2026-03-22	1006605966	HT1X_HOME	22:30	serie a brazil	Vitoria	Mirassol	1.3	1492189	SYSTEM_POOL_BASE	predictions.tsv
 TSV: 2026-03-22	3433665803	O15_FT	22:30	serie a brazil	Internacional	Chapecoense-sc	1.22	1492185	SYSTEM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-03-23 00:11:08 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-23	3986225295	HT1X_HOME	02:15	liga profesional argentina	Independ. Rivadavia	Rosario Central	1.28	1491994	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	784163190	HT05	20:00	primera a colombia	Chico	Deportes Tolima	1.42	1506051	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	2730845885	HT05	20:30	laliga2	Castellón	Cultural Leonesa	1.25	1392098	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	2730845885	O15_FT	20:30	laliga2	Castellón	Cultural Leonesa	1.18	1392098	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	55028759	HT05	22:10	primera a colombia	Santa Fe	Independiente Medellin	1.4	1506052	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	55028759	HT1X_HOME	22:10	primera a colombia	Santa Fe	Independiente Medellin	1.22	1506052	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	120506531	O15_FT	22:30	liga pro ecuador	Guayaquil City FC	Leones del Norte	1.62	1519300	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	120506531	HT1X_HOME	22:30	liga pro ecuador	Guayaquil City FC	Leones del Norte	1.17	1519300	SYSTEM_POOL_BASE	predictions.tsv
+

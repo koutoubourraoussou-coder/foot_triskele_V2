@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-03-22
+Date run       : 2026-03-23
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (114 ids)
+Whitelist      : ON (115 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 11
+Ignorés (date>=today)    : 3
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -939,10 +939,36 @@ Ignorés (date>=today)    : 11
    ✅ Leg 2) 20:30 | super league switzerland | FC Sion vs FC ST. Gallen | Over 1.5 (FT) | [FORT PLUS] | odd=1.25
    ✅ Leg 3) 21:00 | laliga | Sevilla vs Valencia | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.45
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Dimanche 2026-03-22 02:00→06:00 | code=RESTE | odd=1.83
+   id=2026-03-22_0200_a32a3334ca_O15R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 02:00 | liga mx | Atletico San Luis vs Leon | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.2
+   ✅ Leg 2) 02:05 | liga mx | Monterrey vs Guadalajara Chivas | Over 1.5 (FT) | [FORT PLUS] | odd=1.22
+   ❌ Leg 3) 04:10 | liga mx | U.N.A.M. - Pumas vs Club America | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 2 | Dimanche 2026-03-22 13:30→16:20 | code=A2 | odd=2.43
+   id=2026-03-22_1330_7bcd41714a_O15R
+   legs=4 | WIN=4 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 13:30 | 2. bundesliga | VfL Bochum vs Holstein Kiel | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ✅ Leg 2) 14:00 | laliga2 | Burgos vs Cordoba | Over 1.5 (FT) | [FORT] | odd=1.42
+   ✅ Leg 3) 14:30 | eredivisie | Feyenoord vs Ajax | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.17
+   ✅ Leg 4) 14:30 | eredivisie | Utrecht vs GO Ahead Eagles | Over 1.5 (FT) | [EXPLOSION] | odd=1.22
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 3 | Dimanche 2026-03-22 16:30→20:20 | code=A2 | odd=2.51
+   id=2026-03-22_1630_8f617d4060_O15R
+   legs=4 | WIN=4 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 16:30 | super league switzerland | FC Luzern vs Lausanne | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.15
+   ✅ Leg 2) 16:45 | eredivisie | Groningen vs AZ Alkmaar | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ✅ Leg 3) 17:30 | bundesliga | FC St. Pauli vs SC Freiburg | Over 1.5 (FT) | [TRÈS FORT] | odd=1.42
+   ✅ Leg 4) 18:30 | laliga | Athletic Club vs Real Betis | Over 1.5 (FT) | [TRÈS FORT] | odd=1.28
+
 ====================================================================
-TOTAL tickets : 111
-✅ WIN     : 45
-❌ LOSS    : 63
+TOTAL tickets : 114
+✅ WIN     : 47
+❌ LOSS    : 64
 ⏳ PENDING : 3
 ====================================================================
 
