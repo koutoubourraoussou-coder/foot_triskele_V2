@@ -1,5 +1,2 @@
 # date | league | home vs away | reason
 2026-03-17 | primera a colombia | Bucaramanga vs Once Caldas | FIXTURE_NOT_FOUND_ROBUST
-2026-03-22 | liga pro ecuador | Mushuc Runa SC vs Emelec | GOALS_MISSING:1519302
-2026-03-22 | primera división paraguay | Sportivo Luqueno vs 2 de Mayo | GOALS_MISSING:1505029
-2026-03-22 | serie a brazil | Corinthians vs Flamengo | GOALS_MISSING:1492182

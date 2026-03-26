@@ -20224,6 +20224,34 @@ TSV: 2226555661	2026-03-22	mls	San Diego	Real Salt Lake	TEAM2_SCORE_FT	Team2 sco
 TSV: 2226555661	2026-03-22	mls	San Diego	Real Salt Lake	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	0	PENDING	PST	1490179			00:00
 TSV: 2226555661	2026-03-22	mls	San Diego	Real Salt Lake	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	PENDING	PST	1490179			00:00
 TSV: 2226555661	2026-03-22	mls	San Diego	Real Salt Lake	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	PENDING	PST	1490179			00:00
+TSV: 1795197454	2026-03-22	liga mx	Pachuca	Toluca	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	LOSS	FT	1492565	1-1	0-1	00:00
+TSV: 1775237511	2026-03-22	liga mx	Santos Laguna	Puebla	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492569	2-1	0-0	00:00
+TSV: 1643023394	2026-03-22	liga profesional argentina	Boca Juniors	Instituto Cordoba	O25_FT	Over 2.5 (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491987	2-0	0-0	00:00
+TSV: 2226555661	2026-03-22	mls	San Diego	Real Salt Lake	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1490179	2-2	1-1	00:00
+TSV: 1043835039	2026-03-22	liga pro ecuador	Mushuc Runa SC	Emelec	HT05	HT+0.5	5.0	FORT PLUS	1	WIN	FT	1519302	2-0	1-0	00:15
+TSV: 1043835039	2026-03-22	liga pro ecuador	Mushuc Runa SC	Emelec	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1519302	2-0	1-0	00:15
+TSV: 1043835039	2026-03-22	liga pro ecuador	Mushuc Runa SC	Emelec	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1519302	2-0	1-0	00:15
+TSV: 1043835039	2026-03-22	liga pro ecuador	Mushuc Runa SC	Emelec	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1519302	2-0	1-0	00:15
+TSV: 1043835039	2026-03-22	liga pro ecuador	Mushuc Runa SC	Emelec	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1519302	2-0	1-0	00:15
+TSV: 1043835039	2026-03-22	liga pro ecuador	Mushuc Runa SC	Emelec	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1519302	2-0	1-0	00:15
+TSV: 1043835039	2026-03-22	liga pro ecuador	Mushuc Runa SC	Emelec	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1519302	2-0	1-0	00:15
+TSV: 1043835039	2026-03-22	liga pro ecuador	Mushuc Runa SC	Emelec	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1519302	2-0	1-0	00:15
+TSV: 3464360071	2026-03-22	primera división paraguay	Sportivo Luqueno	2 de Mayo	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1505029	0-2	0-1	00:30
+TSV: 3464360071	2026-03-22	primera división paraguay	Sportivo Luqueno	2 de Mayo	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1505029	0-2	0-1	00:30
+TSV: 3464360071	2026-03-22	primera división paraguay	Sportivo Luqueno	2 de Mayo	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1505029	0-2	0-1	00:30
+TSV: 3464360071	2026-03-22	primera división paraguay	Sportivo Luqueno	2 de Mayo	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1505029	0-2	0-1	00:30
+TSV: 3464360071	2026-03-22	primera división paraguay	Sportivo Luqueno	2 de Mayo	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1505029	0-2	0-1	00:30
+TSV: 3464360071	2026-03-22	primera división paraguay	Sportivo Luqueno	2 de Mayo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505029	0-2	0-1	00:30
+TSV: 3464360071	2026-03-22	primera división paraguay	Sportivo Luqueno	2 de Mayo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1505029	0-2	0-1	00:30
+TSV: 2451606422	2026-03-22	serie a brazil	Corinthians	Flamengo	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1492182	1-1	1-1	00:30
+TSV: 2451606422	2026-03-22	serie a brazil	Corinthians	Flamengo	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1492182	1-1	1-1	00:30
+TSV: 2451606422	2026-03-22	serie a brazil	Corinthians	Flamengo	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1492182	1-1	1-1	00:30
+TSV: 2451606422	2026-03-22	serie a brazil	Corinthians	Flamengo	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	WIN	FT	1492182	1-1	1-1	00:30
+TSV: 2451606422	2026-03-22	serie a brazil	Corinthians	Flamengo	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	WIN	FT	1492182	1-1	1-1	00:30
+TSV: 2451606422	2026-03-22	serie a brazil	Corinthians	Flamengo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492182	1-1	1-1	00:30
+TSV: 2451606422	2026-03-22	serie a brazil	Corinthians	Flamengo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492182	1-1	1-1	00:30
+TSV: 3464360071	2026-03-22	primera división paraguay	Sportivo Luqueno	2 de Mayo	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1505029	0-2	0-1	00:30
+TSV: 2451606422	2026-03-22	serie a brazil	Corinthians	Flamengo	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	LOSS	FT	1492182	1-1	1-1	00:30
 TSV: 1859034426	2026-03-22	liga pro ecuador	LDU de Quito	Manta FC	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1519301	1-0	1-0	01:00
 TSV: 1859034426	2026-03-22	liga pro ecuador	LDU de Quito	Manta FC	HT1X_HOME	HT 1X Home	4.0	FORT	0	BAD_NO_BET	FT	1519301	1-0	1-0	01:00
 TSV: 1859034426	2026-03-22	liga pro ecuador	LDU de Quito	Manta FC	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1519301	1-0	1-0	01:00
@@ -20840,3 +20868,75 @@ TSV: 1006605966	2026-03-22	serie a brazil	Vitoria	Mirassol	TEAM2_SCORE_FT	Team2 
 TSV: 1006605966	2026-03-22	serie a brazil	Vitoria	Mirassol	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	LOSS	2H	1492189	1-0	1-0	22:30
 TSV: 1006605966	2026-03-22	serie a brazil	Vitoria	Mirassol	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	2H	1492189	1-0	1-0	22:30
 TSV: 1006605966	2026-03-22	serie a brazil	Vitoria	Mirassol	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	2H	1492189	1-0	1-0	22:30
+TSV: 1792737380	2026-03-23	liga mx	FC Juarez	Tigres UANL	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492570	2-1	1-1	02:06
+TSV: 1792737380	2026-03-23	liga mx	FC Juarez	Tigres UANL	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492570	2-1	1-1	02:06
+TSV: 1792737380	2026-03-23	liga mx	FC Juarez	Tigres UANL	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1492570	2-1	1-1	02:06
+TSV: 1792737380	2026-03-23	liga mx	FC Juarez	Tigres UANL	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1492570	2-1	1-1	02:06
+TSV: 1792737380	2026-03-23	liga mx	FC Juarez	Tigres UANL	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492570	2-1	1-1	02:06
+TSV: 1792737380	2026-03-23	liga mx	FC Juarez	Tigres UANL	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1492570	2-1	1-1	02:06
+TSV: 1792737380	2026-03-23	liga mx	FC Juarez	Tigres UANL	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1492570	2-1	1-1	02:06
+TSV: 1792737380	2026-03-23	liga mx	FC Juarez	Tigres UANL	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492570	2-1	1-1	02:06
+TSV: 4120387008	2026-03-23	liga profesional argentina	Argentinos JRS	Platense	HT05	HT+0.5	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1491983	1-0	0-0	02:15
+TSV: 4120387008	2026-03-23	liga profesional argentina	Argentinos JRS	Platense	HT1X_HOME	HT 1X Home	8.0	MEGA EXPLOSION	1	WIN	FT	1491983	1-0	0-0	02:15
+TSV: 4120387008	2026-03-23	liga profesional argentina	Argentinos JRS	Platense	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1491983	1-0	0-0	02:15
+TSV: 4120387008	2026-03-23	liga profesional argentina	Argentinos JRS	Platense	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491983	1-0	0-0	02:15
+TSV: 4120387008	2026-03-23	liga profesional argentina	Argentinos JRS	Platense	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1491983	1-0	0-0	02:15
+TSV: 4120387008	2026-03-23	liga profesional argentina	Argentinos JRS	Platense	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1491983	1-0	0-0	02:15
+TSV: 4120387008	2026-03-23	liga profesional argentina	Argentinos JRS	Platense	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491983	1-0	0-0	02:15
+TSV: 3986225295	2026-03-23	liga profesional argentina	Independ. Rivadavia	Rosario Central	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1491994	2-0	2-0	02:15
+TSV: 3986225295	2026-03-23	liga profesional argentina	Independ. Rivadavia	Rosario Central	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1491994	2-0	2-0	02:15
+TSV: 3986225295	2026-03-23	liga profesional argentina	Independ. Rivadavia	Rosario Central	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1491994	2-0	2-0	02:15
+TSV: 3986225295	2026-03-23	liga profesional argentina	Independ. Rivadavia	Rosario Central	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491994	2-0	2-0	02:15
+TSV: 3986225295	2026-03-23	liga profesional argentina	Independ. Rivadavia	Rosario Central	O15_FT	Over 1.5 (FT)	0.0	KO	0	BAD_NO_BET	FT	1491994	2-0	2-0	02:15
+TSV: 3986225295	2026-03-23	liga profesional argentina	Independ. Rivadavia	Rosario Central	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1491994	2-0	2-0	02:15
+TSV: 3986225295	2026-03-23	liga profesional argentina	Independ. Rivadavia	Rosario Central	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491994	2-0	2-0	02:15
+TSV: 4120387008	2026-03-23	liga profesional argentina	Argentinos JRS	Platense	O25_FT	Over 2.5 (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491983	1-0	0-0	02:15
+TSV: 3986225295	2026-03-23	liga profesional argentina	Independ. Rivadavia	Rosario Central	O25_FT	Over 2.5 (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491994	2-0	2-0	02:15
+TSV: 784163190	2026-03-23	primera a colombia	Chico	Deportes Tolima	HT05	HT+0.5	5.0	FORT PLUS	1	WIN	FT	1506051	1-1	1-0	20:00
+TSV: 784163190	2026-03-23	primera a colombia	Chico	Deportes Tolima	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1506051	1-1	1-0	20:00
+TSV: 784163190	2026-03-23	primera a colombia	Chico	Deportes Tolima	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1506051	1-1	1-0	20:00
+TSV: 784163190	2026-03-23	primera a colombia	Chico	Deportes Tolima	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1506051	1-1	1-0	20:00
+TSV: 784163190	2026-03-23	primera a colombia	Chico	Deportes Tolima	O15_FT	Over 1.5 (FT)	4.0	FORT	0	BAD_NO_BET	FT	1506051	1-1	1-0	20:00
+TSV: 784163190	2026-03-23	primera a colombia	Chico	Deportes Tolima	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506051	1-1	1-0	20:00
+TSV: 784163190	2026-03-23	primera a colombia	Chico	Deportes Tolima	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1506051	1-1	1-0	20:00
+TSV: 784163190	2026-03-23	primera a colombia	Chico	Deportes Tolima	O25_FT	Over 2.5 (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506051	1-1	1-0	20:00
+TSV: 2730845885	2026-03-23	laliga2	Castellón	Cultural Leonesa	HT05	HT+0.5	5.0	FORT PLUS	1	LOSS	FT	1392098	1-1	0-0	20:30
+TSV: 2730845885	2026-03-23	laliga2	Castellón	Cultural Leonesa	HT1X_HOME	HT 1X Home	4.0	FORT	0	BAD_NO_BET	FT	1392098	1-1	0-0	20:30
+TSV: 2730845885	2026-03-23	laliga2	Castellón	Cultural Leonesa	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1392098	1-1	0-0	20:30
+TSV: 2730845885	2026-03-23	laliga2	Castellón	Cultural Leonesa	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1392098	1-1	0-0	20:30
+TSV: 2730845885	2026-03-23	laliga2	Castellón	Cultural Leonesa	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1392098	1-1	0-0	20:30
+TSV: 2730845885	2026-03-23	laliga2	Castellón	Cultural Leonesa	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1392098	1-1	0-0	20:30
+TSV: 2730845885	2026-03-23	laliga2	Castellón	Cultural Leonesa	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1392098	1-1	0-0	20:30
+TSV: 2730845885	2026-03-23	laliga2	Castellón	Cultural Leonesa	O25_FT	Over 2.5 (FT)	7.0	EXPLOSION	1	LOSS	FT	1392098	1-1	0-0	20:30
+TSV: 55028759	2026-03-23	primera a colombia	Santa Fe	Independiente Medellin	HT05	HT+0.5	5.0	FORT PLUS	1	WIN	FT	1506052	2-1	1-0	22:10
+TSV: 55028759	2026-03-23	primera a colombia	Santa Fe	Independiente Medellin	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1506052	2-1	1-0	22:10
+TSV: 55028759	2026-03-23	primera a colombia	Santa Fe	Independiente Medellin	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1506052	2-1	1-0	22:10
+TSV: 55028759	2026-03-23	primera a colombia	Santa Fe	Independiente Medellin	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1506052	2-1	1-0	22:10
+TSV: 55028759	2026-03-23	primera a colombia	Santa Fe	Independiente Medellin	O15_FT	Over 1.5 (FT)	0.0	KO	0	BAD_NO_BET	FT	1506052	2-1	1-0	22:10
+TSV: 55028759	2026-03-23	primera a colombia	Santa Fe	Independiente Medellin	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1506052	2-1	1-0	22:10
+TSV: 55028759	2026-03-23	primera a colombia	Santa Fe	Independiente Medellin	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506052	2-1	1-0	22:10
+TSV: 55028759	2026-03-23	primera a colombia	Santa Fe	Independiente Medellin	O25_FT	Over 2.5 (FT)	0.0	KO	0	BAD_NO_BET	FT	1506052	2-1	1-0	22:10
+TSV: 120506531	2026-03-23	liga pro ecuador	Guayaquil City FC	Leones del Norte	HT05	HT+0.5	2.0	MOYEN	0	GOOD_NO_BET	FT	1519300	0-0	0-0	22:30
+TSV: 120506531	2026-03-23	liga pro ecuador	Guayaquil City FC	Leones del Norte	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1519300	0-0	0-0	22:30
+TSV: 120506531	2026-03-23	liga pro ecuador	Guayaquil City FC	Leones del Norte	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1519300	0-0	0-0	22:30
+TSV: 120506531	2026-03-23	liga pro ecuador	Guayaquil City FC	Leones del Norte	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1519300	0-0	0-0	22:30
+TSV: 120506531	2026-03-23	liga pro ecuador	Guayaquil City FC	Leones del Norte	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	LOSS	FT	1519300	0-0	0-0	22:30
+TSV: 120506531	2026-03-23	liga pro ecuador	Guayaquil City FC	Leones del Norte	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1519300	0-0	0-0	22:30
+TSV: 120506531	2026-03-23	liga pro ecuador	Guayaquil City FC	Leones del Norte	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1519300	0-0	0-0	22:30
+TSV: 2046879123	2026-03-23	primera división paraguay	Sportivo Trinidense	Deportivo Recoleta	HT05	HT+0.5	2.0	MOYEN	0	BAD_NO_BET	FT	1505030	3-2	2-1	22:30
+TSV: 2046879123	2026-03-23	primera división paraguay	Sportivo Trinidense	Deportivo Recoleta	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1505030	3-2	2-1	22:30
+TSV: 2046879123	2026-03-23	primera división paraguay	Sportivo Trinidense	Deportivo Recoleta	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1505030	3-2	2-1	22:30
+TSV: 2046879123	2026-03-23	primera división paraguay	Sportivo Trinidense	Deportivo Recoleta	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1505030	3-2	2-1	22:30
+TSV: 2046879123	2026-03-23	primera división paraguay	Sportivo Trinidense	Deportivo Recoleta	O15_FT	Over 1.5 (FT)	4.0	FORT	0	BAD_NO_BET	FT	1505030	3-2	2-1	22:30
+TSV: 2046879123	2026-03-23	primera división paraguay	Sportivo Trinidense	Deportivo Recoleta	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1505030	3-2	2-1	22:30
+TSV: 2046879123	2026-03-23	primera división paraguay	Sportivo Trinidense	Deportivo Recoleta	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505030	3-2	2-1	22:30
+TSV: 120506531	2026-03-23	liga pro ecuador	Guayaquil City FC	Leones del Norte	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1519300	0-0	0-0	22:30
+TSV: 2046879123	2026-03-23	primera división paraguay	Sportivo Trinidense	Deportivo Recoleta	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1505030	3-2	2-1	22:30
+TSV: 402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	HT05	HT+0.5	0.0	KO	0	GOOD_NO_BET	FT	1491990	5-0	0-0	23:00
+TSV: 402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	BAD_NO_BET	FT	1491990	5-0	0-0	23:00
+TSV: 402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1491990	5-0	0-0	23:00
+TSV: 402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1491990	5-0	0-0	23:00
+TSV: 402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	O15_FT	Over 1.5 (FT)	0.0	KO	0	BAD_NO_BET	FT	1491990	5-0	0-0	23:00
+TSV: 402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1491990	5-0	0-0	23:00
+TSV: 402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491990	5-0	0-0	23:00
+TSV: 402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	O25_FT	Over 2.5 (FT)	0.0	KO	0	BAD_NO_BET	FT	1491990	5-0	0-0	23:00

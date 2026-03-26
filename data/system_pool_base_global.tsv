@@ -859,3 +859,8 @@ TSV: 2026-03-23	55028759	HT1X_HOME	22:10	primera a colombia	Santa Fe	Independien
 TSV: 2026-03-23	120506531	O15_FT	22:30	liga pro ecuador	Guayaquil City FC	Leones del Norte	1.62	1519300	SYSTEM_POOL_BASE	predictions.tsv
 TSV: 2026-03-23	120506531	HT1X_HOME	22:30	liga pro ecuador	Guayaquil City FC	Leones del Norte	1.17	1519300	SYSTEM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-03-26 04:51:30 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-23	2730845885	O25_FT	20:30	laliga2	Castellón	Cultural Leonesa	1.51	1392098	SYSTEM_POOL_BASE	predictions.tsv
+

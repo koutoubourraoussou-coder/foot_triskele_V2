@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-03-23
+Date run       : 2026-03-26
 Output         : data/verdict_post_analyse_tickets_report.txt
 Whitelist      : ON (112 ids)
 Ignorés (hors whitelist) : 16
-Ignorés (date>=today)    : 3
+Ignorés (date>=today)    : 0
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -898,9 +898,17 @@ Ignorés (date>=today)    : 3
    ✅ Leg 2) 21:45 | liga profesional argentina | Estudiantes de Rio Cuarto vs River Plate | HT 1X Home | [TRÈS FORT] | odd=1.57
    ✅ Leg 3) 22:00 | primera a colombia | Alianza Valledupar vs Deportivo Cali | HT 1X Home | [TRÈS FORT] | odd=1.3
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Lundi 2026-03-23 02:15→00:20 | code=RESTE | odd=1.83
+   id=2026-03-23_0215_a5ebe68c31_SYS
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 02:15 | liga profesional argentina | Independ. Rivadavia vs Rosario Central | HT 1X Home | [FORT PLUS] | odd=1.28
+   ✅ Leg 2) 22:10 | primera a colombia | Santa Fe vs Independiente Medellin | HT 1X Home | [FORT PLUS] | odd=1.22
+   ✅ Leg 3) 22:30 | liga pro ecuador | Guayaquil City FC vs Leones del Norte | HT 1X Home | [TRÈS FORT] | odd=1.17
+
 ====================================================================
-TOTAL tickets : 106
-✅ WIN     : 37
+TOTAL tickets : 107
+✅ WIN     : 38
 ❌ LOSS    : 67
 ⏳ PENDING : 2
 ====================================================================

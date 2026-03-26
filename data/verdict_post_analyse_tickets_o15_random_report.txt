@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-03-23
+Date run       : 2026-03-26
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
 Whitelist      : ON (115 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 3
+Ignorés (date>=today)    : 0
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -965,9 +965,17 @@ Ignorés (date>=today)    : 3
    ✅ Leg 3) 17:30 | bundesliga | FC St. Pauli vs SC Freiburg | Over 1.5 (FT) | [TRÈS FORT] | odd=1.42
    ✅ Leg 4) 18:30 | laliga | Athletic Club vs Real Betis | Over 1.5 (FT) | [TRÈS FORT] | odd=1.28
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Lundi 2026-03-23 02:06→00:00 | code=A2 | odd=2.45
+   id=2026-03-23_0206_da564a25e4_O15R
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 02:06 | liga mx | FC Juarez vs Tigres UANL | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.28
+   ✅ Leg 2) 20:00 | primera a colombia | Chico vs Deportes Tolima | Over 1.5 (FT) | [FORT] | odd=1.42
+   ✅ Leg 3) 22:10 | primera a colombia | Santa Fe vs Independiente Medellin | Over 1.5 (FT) | [KO] | odd=1.35
+
 ====================================================================
-TOTAL tickets : 114
-✅ WIN     : 47
+TOTAL tickets : 115
+✅ WIN     : 48
 ❌ LOSS    : 64
 ⏳ PENDING : 3
 ====================================================================
