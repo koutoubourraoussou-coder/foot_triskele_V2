@@ -469,16 +469,16 @@ def main():
                 MATCHES_INPUT_FILE.read_text(encoding="utf-8"),
                 encoding="utf-8",
             )
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"⚠️ [WARN] Snapshot matches_input.txt échoué : {e}")
 
         try:
             (run_dir / "matches_meta.tsv").write_text(
                 MATCHES_META_FILE.read_text(encoding="utf-8"),
                 encoding="utf-8",
             )
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"⚠️ [WARN] Snapshot matches_meta.tsv échoué : {e}")
 
         run(
             [sys.executable, str(ROOT / "main.py")],

@@ -67,6 +67,12 @@
     "cymru premier league": 110,
 
     "uefa champions league": 2,
-    "uefa europa league": 3
+    "uefa europa league": 3,
+
+    "world cup": 1,
+    "uefa nations league": 5,
+    "africa cup of nations": 6,
+    "international friendlies": 10,
+    "club friendly games": 667
   }
 }

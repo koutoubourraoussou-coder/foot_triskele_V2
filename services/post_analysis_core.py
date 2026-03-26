@@ -328,7 +328,7 @@ def _time_to_minutes(t: str) -> int:
         hh, mm = (t or "").split(":")
         return int(hh) * 60 + int(mm)
     except Exception:
-        return 10**9
+        return 0
 
 
 def _weekday_fr(date_str: str) -> str:
@@ -939,8 +939,8 @@ def fetch_match_result(
 
         try:
             _write_meta_heal_line(date, league, home, away, chosen_fx)
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"⚠️ [WARN] Écriture meta_heal échouée ({home} vs {away}) : {e}")
 
     fixture_info = chosen_fx.get("fixture", {}) or {}
     goals = chosen_fx.get("goals", {}) or {}
@@ -1063,11 +1063,24 @@ def build_post_verdict(pred: Dict[str, Any], res: Dict[str, Any]) -> Dict[str, A
         "FT_O15",
         "FT15",
         "FT_OVER15",
-        "FT_OVER15",
         "FT_OVER_1_5",
     ):
         if isinstance(gh_ft, int) and isinstance(ga_ft, int):
             real_ok = (gh_ft + ga_ft) >= 2
+
+    elif bet_key in (
+        "O25_FT",
+        "FT_OVER_2_5",
+        "OVER25",
+        "OVER_2_5",
+        "O25",
+        "FT_O25",
+        "FT25",
+        "FT_OVER25",
+        "FT_OVER_2_5",
+    ):
+        if isinstance(gh_ft, int) and isinstance(ga_ft, int):
+            real_ok = (gh_ft + ga_ft) >= 3
 
     elif bet_key in ("TEAM1_WIN_FT", "TEAM1_WIN", "HOME_WIN", "T1_WIN"):
         if isinstance(gh_ft, int) and isinstance(ga_ft, int):
@@ -1235,8 +1248,15 @@ def _team_targets_for_bet(home: str, away: str, bet_key: str) -> list[str]:
         "FT_O15",
         "FT15",
         "FT_OVER15",
-        "FT_OVER15",
         "FT_OVER_1_5",
+        "O25_FT",
+        "FT_OVER_2_5",
+        "OVER25",
+        "OVER_2_5",
+        "O25",
+        "FT_O25",
+        "FT25",
+        "FT_OVER25",
     ):
         return [home, away]
 
@@ -1672,6 +1692,7 @@ def update_triskele_rankings_from_history() -> None:
         bet_results: Dict[str, Optional[bool]] = {}
 
         bet_results["O15_FT"] = ft_total >= 2
+        bet_results["O25_FT"] = ft_total >= 3
         bet_results["TEAM1_SCORE_FT"] = gh >= 1
         bet_results["TEAM2_SCORE_FT"] = ga >= 1
         bet_results["TEAM1_WIN_FT"] = gh > ga

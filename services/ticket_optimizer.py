@@ -503,13 +503,13 @@ def _profile_rank_score(
 
     score = 0.0
 
-    # Base
-    score += ref["mean_win_rate"] * 100.0
+    # Base — win_rate réduit car streak devient métrique dominante (martingale)
+    score += ref["mean_win_rate"] * 70.0
     score += ref["mean_tickets_per_active_day"] * 10.0
 
     # Financier
     score += ref["mean_profit_flat"] * 2.5
-    score += ref["mean_yield_flat"] * 120.0
+    score += ref["mean_yield_flat"] * 100.0
 
     # Bonus équilibre SYSTEM / RANDOM
     ref_min_tickets = min(
@@ -521,17 +521,20 @@ def _profile_rank_score(
     # Pénalité inconnus
     score -= ref["mean_unknown_rate"] * 30.0
 
-    # Pénalité streak
+    # Pénalité streak — continue et agressive (alignée martingale)
+    # En martingale, chaque défaite supplémentaire coûte exponentiellement plus cher.
     worst_streak = int(ref["worst_max_loss_streak"])
     if worst_streak >= RUIN_STREAK_LIMIT:
         score -= 1000.0
     elif worst_streak == 5:
-        score -= 80.0
+        score -= 250.0   # était -80
     elif worst_streak == 4:
-        score -= 20.0
+        score -= 80.0    # était -20
+    elif worst_streak == 3:
+        score -= 15.0    # nouveau : série de 3 déjà pénalisée
 
-    # Pénalité drawdown
-    score -= ref["worst_max_drawdown"] * 3.0
+    # Pénalité drawdown — plus élevée car martingale sensible aux creux
+    score -= ref["worst_max_drawdown"] * 6.0  # était 3.0
 
     if use_valid:
         min_decided = int(valid_c["min_decided_tickets"])
@@ -558,6 +561,7 @@ def _profile_rank_score(
 # TUNING SEARCH SPACE
 # =========================================================
 def _sample_tuning(rng: random.Random) -> BuilderTuning:
+    """Recherche aléatoire dans l'espace resserré (valeurs non présentes dans les top profils retirées)."""
     excluded_options = [
         frozenset({"HT1X", "HT05"}),
         frozenset({"HT1X"}),
@@ -566,46 +570,175 @@ def _sample_tuning(rng: random.Random) -> BuilderTuning:
     ]
 
     weight_baseline = rng.choice([0.62, 0.66, 0.70, 0.74, 0.78])
-    weight_ceil = rng.choice([0.92, 0.95, 0.98, 1.00])
+    weight_ceil = rng.choice([0.92, 0.95, 1.00])  # retiré 0.98 (absent des top profils)
     if weight_ceil <= weight_baseline:
         weight_ceil = min(1.00, weight_baseline + 0.15)
 
-    two_team_low = rng.choice([0.55, 0.58, 0.60, 0.63, 0.66, 0.70])
-    two_team_high = rng.choice([0.78, 0.80, 0.82, 0.85, 0.88])
+    two_team_low = rng.choice([0.55, 0.58, 0.60, 0.63, 0.66])  # retiré 0.70
+    two_team_high = rng.choice([0.80, 0.82, 0.85, 0.88])  # retiré 0.78
     if two_team_high <= two_team_low:
         two_team_high = min(0.95, two_team_low + 0.15)
 
-    target_odd = rng.choice([2.00, 2.10, 2.20, 2.30, 2.40])
-    min_accept_odd = rng.choice([1.60, 1.70, 1.80, 1.90])
+    target_odd = rng.choice([2.30, 2.40])  # retiré 2.00, 2.10, 2.20 (absents des top profils)
+    min_accept_odd = rng.choice([1.60, 1.70, 1.80])  # retiré 1.90
     if min_accept_odd > target_odd:
         min_accept_odd = target_odd
 
     return BuilderTuning(
         global_bet_min_decided=rng.choice([5, 7, 10, 12]),
-        global_bet_min_winrate=rng.choice([0.62, 0.65, 0.68, 0.70, 0.72, 0.75]),
+        global_bet_min_winrate=rng.choice([0.62, 0.65, 0.68, 0.70, 0.72]),  # retiré 0.75
         league_bet_min_winrate=rng.choice([0.62, 0.65, 0.68, 0.70, 0.72, 0.75]),
         league_bet_require_data=rng.choice([True, False]),
         team_min_decided=rng.choice([6, 8, 10, 12, 15]),
-        team_min_winrate=rng.choice([0.68, 0.70, 0.72, 0.75, 0.78, 0.80]),
+        team_min_winrate=rng.choice([0.68, 0.70, 0.72, 0.75, 0.78]),  # retiré 0.80
         two_team_high=two_team_high,
         two_team_low=two_team_low,
         weight_min=rng.choice([0.8, 1.0, 1.2]),
-        weight_max=rng.choice([1.8, 2.0, 2.2, 2.5, 3.0]),
+        weight_max=rng.choice([1.8, 2.0, 2.2, 2.5]),  # retiré 3.0
         weight_baseline=weight_baseline,
         weight_ceil=weight_ceil,
         topk_size=rng.choice([3, 5, 8, 10]),
         topk_uniform_draw=rng.choice([True, False]),
         prefer_3legs_delta=rng.choice([0.00, 0.02, 0.03, 0.05, 0.08]),
-        search_budget_ms_system=rng.choice([300, 500, 800, 1200]),
-        search_budget_ms_random=rng.choice([300, 500, 800, 1200]),
+        search_budget_ms_system=rng.choice([300, 500, 800]),  # retiré 1200
+        search_budget_ms_random=rng.choice([300, 500, 800]),  # retiré 1200
         excluded_bet_groups=rng.choice(excluded_options),
         target_odd=target_odd,
         min_accept_odd=min_accept_odd,
-        rich_day_match_count=rng.choice([16, 18, 20, 22]),
+        rich_day_match_count=rng.choice([16, 18, 20]),  # retiré 22
         day_max_windows_poor=rng.choice([1, 2]),
         day_max_windows_rich=rng.choice([2, 3, 4]),
         min_side_matches_for_split=rng.choice([3, 4, 5]),
         split_gap_weight=rng.choice([0.20, 0.30, 0.35, 0.45, 0.60]),
+        league_ranking_mode=rng.choice(["CLASSIC", "COMPOSITE"]),
+        team_ranking_mode=rng.choice(["CLASSIC", "COMPOSITE"]),
+        system_build_source=rng.choice(["LEAGUE", "TEAM"]),
+        system_select_source=rng.choice(["LEAGUE", "TEAM"]),
+        random_build_source=rng.choice(["LEAGUE", "TEAM"]),
+        random_select_source=rng.choice(["LEAGUE", "TEAM"]),
+    )
+
+
+def _load_saved_top_profiles(path: Path) -> List[BuilderTuning]:
+    """Charge les top profils sauvegardés pour la recherche focalisée."""
+    if not path.exists():
+        return []
+    try:
+        with path.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+        profiles = []
+        for entry in data:
+            t = entry.get("tuning", {})
+            if not t:
+                continue
+            eg = t.get("excluded_bet_groups", [])
+            profiles.append(BuilderTuning(
+                global_bet_min_decided=t.get("global_bet_min_decided", 12),
+                global_bet_min_winrate=t.get("global_bet_min_winrate", 0.65),
+                league_bet_min_winrate=t.get("league_bet_min_winrate", 0.72),
+                league_bet_require_data=t.get("league_bet_require_data", True),
+                team_min_decided=t.get("team_min_decided", 8),
+                team_min_winrate=t.get("team_min_winrate", 0.70),
+                two_team_high=t.get("two_team_high", 0.85),
+                two_team_low=t.get("two_team_low", 0.58),
+                weight_min=t.get("weight_min", 1.0),
+                weight_max=t.get("weight_max", 2.0),
+                weight_baseline=t.get("weight_baseline", 0.74),
+                weight_ceil=t.get("weight_ceil", 1.0),
+                topk_size=t.get("topk_size", 8),
+                topk_uniform_draw=t.get("topk_uniform_draw", False),
+                prefer_3legs_delta=t.get("prefer_3legs_delta", 0.0),
+                search_budget_ms_system=t.get("search_budget_ms_system", 500),
+                search_budget_ms_random=t.get("search_budget_ms_random", 500),
+                excluded_bet_groups=frozenset(eg),
+                target_odd=t.get("target_odd", 2.4),
+                min_accept_odd=t.get("min_accept_odd", 1.8),
+                rich_day_match_count=t.get("rich_day_match_count", 16),
+                day_max_windows_poor=t.get("day_max_windows_poor", 1),
+                day_max_windows_rich=t.get("day_max_windows_rich", 4),
+                min_side_matches_for_split=t.get("min_side_matches_for_split", 5),
+                split_gap_weight=t.get("split_gap_weight", 0.60),
+                league_ranking_mode=t.get("league_ranking_mode", "CLASSIC"),
+                team_ranking_mode=t.get("team_ranking_mode", "CLASSIC"),
+                system_build_source=t.get("system_build_source", "LEAGUE"),
+                system_select_source=t.get("system_select_source", "LEAGUE"),
+                random_build_source=t.get("random_build_source", "LEAGUE"),
+                random_select_source=t.get("random_select_source", "LEAGUE"),
+            ))
+        return profiles
+    except Exception as e:
+        print(f"⚠️ [WARN] Chargement top profils échoué : {e}")
+        return []
+
+
+def _sample_tuning_focused(rng: random.Random, top_profiles: List[BuilderTuning]) -> BuilderTuning:
+    """
+    Génère un profil en mutant légèrement un top profil existant.
+    Chaque paramètre a 30% de chance d'être modifié, 70% de rester identique au parent.
+    Permet d'explorer le voisinage des bons profils sans repartir de zéro.
+    """
+    parent = rng.choice(top_profiles)
+    MUTATION_RATE = 0.30
+
+    def maybe(options, current):
+        if rng.random() < MUTATION_RATE:
+            return rng.choice(options)
+        return current
+
+    excluded_options = [
+        frozenset({"HT1X", "HT05"}),
+        frozenset({"HT1X"}),
+        frozenset({"HT05"}),
+        frozenset(),
+    ]
+
+    weight_baseline = maybe([0.62, 0.66, 0.70, 0.74, 0.78], parent.weight_baseline)
+    weight_ceil = maybe([0.92, 0.95, 1.00], parent.weight_ceil)
+    if weight_ceil <= weight_baseline:
+        weight_ceil = min(1.0, weight_baseline + 0.15)
+
+    two_team_low = maybe([0.55, 0.58, 0.60, 0.63, 0.66], parent.two_team_low)
+    two_team_high = maybe([0.80, 0.82, 0.85, 0.88], parent.two_team_high)
+    if two_team_high <= two_team_low:
+        two_team_high = min(0.95, two_team_low + 0.15)
+
+    target_odd = maybe([2.30, 2.40], parent.target_odd)
+    min_accept_odd = maybe([1.60, 1.70, 1.80], parent.min_accept_odd)
+    if min_accept_odd > target_odd:
+        min_accept_odd = target_odd
+
+    return BuilderTuning(
+        global_bet_min_decided=maybe([5, 7, 10, 12], parent.global_bet_min_decided),
+        global_bet_min_winrate=maybe([0.62, 0.65, 0.68, 0.70, 0.72], parent.global_bet_min_winrate),
+        league_bet_min_winrate=maybe([0.62, 0.65, 0.68, 0.70, 0.72, 0.75], parent.league_bet_min_winrate),
+        league_bet_require_data=maybe([True, False], parent.league_bet_require_data),
+        team_min_decided=maybe([6, 8, 10, 12, 15], parent.team_min_decided),
+        team_min_winrate=maybe([0.68, 0.70, 0.72, 0.75, 0.78], parent.team_min_winrate),
+        two_team_high=two_team_high,
+        two_team_low=two_team_low,
+        weight_min=maybe([0.8, 1.0, 1.2], parent.weight_min),
+        weight_max=maybe([1.8, 2.0, 2.2, 2.5], parent.weight_max),
+        weight_baseline=weight_baseline,
+        weight_ceil=weight_ceil,
+        topk_size=maybe([3, 5, 8, 10], parent.topk_size),
+        topk_uniform_draw=maybe([True, False], parent.topk_uniform_draw),
+        prefer_3legs_delta=maybe([0.00, 0.02, 0.03, 0.05, 0.08], parent.prefer_3legs_delta),
+        search_budget_ms_system=maybe([300, 500, 800], parent.search_budget_ms_system),
+        search_budget_ms_random=maybe([300, 500, 800], parent.search_budget_ms_random),
+        excluded_bet_groups=maybe(excluded_options, parent.excluded_bet_groups),
+        target_odd=target_odd,
+        min_accept_odd=min_accept_odd,
+        rich_day_match_count=maybe([16, 18, 20], parent.rich_day_match_count),
+        day_max_windows_poor=maybe([1, 2], parent.day_max_windows_poor),
+        day_max_windows_rich=maybe([2, 3, 4], parent.day_max_windows_rich),
+        min_side_matches_for_split=maybe([3, 4, 5], parent.min_side_matches_for_split),
+        split_gap_weight=maybe([0.20, 0.30, 0.35, 0.45, 0.60], parent.split_gap_weight),
+        league_ranking_mode=maybe(["CLASSIC", "COMPOSITE"], parent.league_ranking_mode),
+        team_ranking_mode=maybe(["CLASSIC", "COMPOSITE"], parent.team_ranking_mode),
+        system_build_source=maybe(["LEAGUE", "TEAM"], parent.system_build_source),
+        system_select_source=maybe(["LEAGUE", "TEAM"], parent.system_select_source),
+        random_build_source=maybe(["LEAGUE", "TEAM"], parent.random_build_source),
+        random_select_source=maybe(["LEAGUE", "TEAM"], parent.random_select_source),
     )
 
 
@@ -625,18 +758,47 @@ def _tuning_signature(t: BuilderTuning) -> str:
 
 
 def _build_trial_plan(trials: int, seed: int) -> List[BuilderTuning]:
+    """
+    Construit le plan de recherche :
+    - 1 baseline
+    - 60% focalisé autour des top profils sauvegardés (si disponibles)
+    - reste : aléatoire dans l'espace resserré
+    """
     rng = random.Random(seed)
 
     out: List[BuilderTuning] = []
     seen: set[str] = set()
 
     baseline = _baseline_tuning()
-    baseline_sig = _tuning_signature(baseline)
     out.append(baseline)
-    seen.add(baseline_sig)
+    seen.add(_tuning_signature(baseline))
 
-    attempt_guard = max(trials * 20, 1000)
+    # Charger top profils pour recherche focalisée
+    top_profiles = _load_saved_top_profiles(Path("data/optimizer/optimizer_top_profiles.json"))
 
+    n_focused = int((trials - 1) * 0.50) if top_profiles else 0
+    n_random = trials - 1 - n_focused
+
+    if top_profiles:
+        print(f"[optimizer] Recherche focalisée : {n_focused} essais autour de {len(top_profiles)} top profils + {n_random} aléatoires")
+    else:
+        print(f"[optimizer] Aucun top profil trouvé → recherche entièrement aléatoire ({n_random} essais)")
+
+    attempt_guard = max(trials * 30, 2000)
+
+    # Phase 1 : focalisée (mutation des top profils)
+    focused_added = 0
+    while focused_added < n_focused and attempt_guard > 0:
+        attempt_guard -= 1
+        t = _sample_tuning_focused(rng, top_profiles)
+        sig = _tuning_signature(t)
+        if sig in seen:
+            continue
+        seen.add(sig)
+        out.append(t)
+        focused_added += 1
+
+    # Phase 2 : aléatoire dans espace resserré
     while len(out) < trials and attempt_guard > 0:
         attempt_guard -= 1
         t = _sample_tuning(rng)

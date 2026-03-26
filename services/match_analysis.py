@@ -7,6 +7,7 @@
 #   3) TEAM_TO_SCORE               (TEAM1 marque / TEAM2 marque)
 #   4) FT_OVER_1_5                 (Plus de 1.5 buts dans le match)
 #   5) TEAM_WIN                    (TEAM1 gagne / TEAM2 gagne)
+#   6) FT_OVER_2_5                 (Plus de 2.5 buts dans le match)
 # ----------------------------------------------------
 
 from typing import Dict, Any, List, Tuple, Optional
@@ -25,6 +26,7 @@ BETKEY_HT1X_HOME = "HT1X_HOME"
 BETKEY_TEAM1_SCORE_FT = "TEAM1_SCORE_FT"
 BETKEY_TEAM2_SCORE_FT = "TEAM2_SCORE_FT"
 BETKEY_O15_FT = "O15_FT"
+BETKEY_O25_FT = "O25_FT"
 BETKEY_TEAM1_WIN_FT = "TEAM1_WIN_FT"
 BETKEY_TEAM2_WIN_FT = "TEAM2_WIN_FT"
 
@@ -171,17 +173,67 @@ def _base_level_ft_over15(pct_a: float, pct_b: float) -> Tuple[str, Dict[str, An
             return "EXPLOSION", info
         return "TRÈS FORT", info
 
-    return "MOYEN", info    
+    return "MOYEN", info
+
+
+def _base_level_ft_over25(pct_a: float, pct_b: float) -> Tuple[str, Dict[str, Any]]:
+    """
+    Base Over 2.5 (FT) — seuils abaissés de ~12.5 pts vs O15 car le pari est plus difficile.
+    """
+    lo = min(pct_a, pct_b)
+    hi = max(pct_a, pct_b)
+    info = {"lo": lo, "hi": hi}
+
+    if lo < 37.5 and hi < 37.5:
+        return "KO", info
+    if lo < 37.5 and hi < 50.0:
+        return "KO", info
+
+    if lo >= 37.5 and hi < 50.0:
+        return "FAIBLE", info
+    if lo >= 37.5 and hi >= 50.0 and hi < 62.5:
+        return "MOYEN", info
+    if lo >= 50.0 and hi < 62.5:
+        return "MOYEN PLUS", info
+    if lo >= 50.0 and hi >= 62.5 and hi < 75.0:
+        return "FORT", info
+    if lo >= 62.5 and hi < 75.0:
+        return "FORT PLUS", info
+    if lo >= 62.5 and hi >= 75.0:
+        if (lo == 100.0 and hi >= 75.0) or (hi == 100.0 and lo >= 75.0):
+            return "MEGA EXPLOSION", info
+        if lo >= 75.0 and hi >= 75.0:
+            return "EXPLOSION", info
+        return "TRÈS FORT", info
+
+    return "MOYEN", info
 
 
 # ----------------------------------------------------
 # THERMOSTAT (seuil minimal pour écrire dans les TSV "jouables")
+# Seuil PAR BET KEY — calibré sur winrates réels (verdict_post_analyse.txt)
 # ----------------------------------------------------
-MIN_LEVEL_EXPORT = "FORT PLUS"  # change ici : "FORT", "EXPLOSION", etc.
+MIN_LEVEL_EXPORT = "FORT"  # fallback générique (utilisé dans les _final_verdict_* internes)
+
+MIN_LEVEL_BY_BET: dict[str, str] = {
+    # Winrate MOYEN PLUS > seuil rentabilité → on abaisse
+    "HT1X_HOME":      "MOYEN PLUS",   # 73.1% à MOYEN PLUS (n=1084)
+    "TEAM1_SCORE_FT": "MOYEN PLUS",   # 78.6% à MOYEN PLUS (n=770)
+    "O15_FT":         "MOYEN PLUS",   # 74.5% à MOYEN PLUS (n=384)
+    # Winrate MOYEN PLUS correct mais pas exceptionnel → on garde FORT
+    "HT05":           "FORT",         # 65.6% à MOYEN PLUS (n=619)
+    "TEAM2_SCORE_FT": "FORT",         # 68.8% à MOYEN PLUS (n=832)
+    # O25_FT : pas encore de données calibrées → seuil prudent
+    "O25_FT":         "FORT",
+    # Paris WIN : winrate MOYEN PLUS trop faible → on monte
+    "TEAM1_WIN_FT":   "FORT PLUS",    # 55.8% à MOYEN PLUS (n=54)
+    "TEAM2_WIN_FT":   "FORT PLUS",    # 43.2% à MOYEN PLUS (n=155)
+}
 
 
-def _is_exportable(level: str) -> bool:
-    return _level_index(level) >= _level_index(MIN_LEVEL_EXPORT)
+def _is_exportable(level: str, bet_key: str = "") -> bool:
+    threshold = MIN_LEVEL_BY_BET.get(bet_key, MIN_LEVEL_EXPORT)
+    return _level_index(level) >= _level_index(threshold)
 
 
 def _level_name(idx: int) -> str:
@@ -1392,6 +1444,261 @@ def _build_human_explain_over15(team1: str, team2: str, v: Dict[str, Any]) -> Li
 
 
 # ----------------------------------------------------
+# 4b) PARI : OVER 2.5 (FT)
+# ----------------------------------------------------
+def _match_over25_ft(m: Dict[str, Any]) -> bool:
+    """
+    True si total buts FT >= 3
+    """
+    ft_total = m.get("ft_total") or m.get("goals_total")
+    if isinstance(ft_total, (int, float)):
+        return float(ft_total) >= 3.0
+
+    gf, ga = _ft_goals_for_against(m)
+    if gf is not None and ga is not None:
+        return (gf + ga) >= 3
+
+    score = m.get("score") or m.get("full_time_score") or m.get("ft_score")
+    if isinstance(score, str):
+        s = score.replace(":", "-").strip()
+        parts = s.split("-")
+        if len(parts) == 2:
+            a = _safe_int(parts[0])
+            b = _safe_int(parts[1])
+            return (a + b) >= 3
+
+    return False
+
+
+def _compute_over25_pct(matches: List[Dict[str, Any]]) -> float:
+    if not matches:
+        return 0.0
+    return 100.0 * _count_ratio([_match_over25_ft(m) for m in matches])
+
+
+def _over25_badges_recent(matches_recent: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """
+    Badges récents (Over 2.5) :
+    - malus si 0/4 ou 1/4 en over2.5
+    - regular_badge si >=3/4
+    - explosive_badge si un match à 5+ buts
+    """
+    n = len(matches_recent)
+    pct = _compute_over25_pct(matches_recent)
+    count_ok = sum(1 for m in matches_recent if _match_over25_ft(m))
+
+    malus = 0
+    if n >= 4 and count_ok <= 1:
+        malus = -1
+
+    regular_badge = (n >= 4 and count_ok >= 3)
+
+    max_ft = 0
+    for m in matches_recent:
+        gf, ga = _ft_goals_for_against(m)
+        if gf is not None and ga is not None:
+            max_ft = max(max_ft, gf + ga)
+        else:
+            ft_total = m.get("ft_total") or m.get("goals_total")
+            if isinstance(ft_total, (int, float)):
+                max_ft = max(max_ft, int(ft_total))
+
+    explosive = (max_ft >= 5)
+
+    boost = 0
+    if regular_badge:
+        boost = max(boost, 1)
+    if regular_badge and pct >= 100.0:
+        boost = max(boost, 2)
+    if explosive:
+        boost = max(boost, 2)
+
+    return {
+        "n": n,
+        "pct": pct,
+        "count_ok": count_ok,
+        "malus": malus,
+        "regular_badge": regular_badge,
+        "explosive_badge": explosive,
+        "boost": boost,
+        "max_ft": max_ft,
+    }
+
+
+def _h2h_over25_pct(h2h: List[Dict[str, Any]]) -> Tuple[float, int, int]:
+    """
+    Over 2.5 sur H2H : goals_home + goals_away >= 3
+    """
+    if not h2h:
+        return 0.0, 0, 0
+    ok = 0
+    n = 0
+    for m in h2h:
+        gh = m.get("goals_home")
+        ga = m.get("goals_away")
+        if not isinstance(gh, (int, float)) or not isinstance(ga, (int, float)):
+            continue
+        n += 1
+        if (int(gh) + int(ga)) >= 3:
+            ok += 1
+    pct = (100.0 * ok / n) if n > 0 else 0.0
+    return pct, ok, n
+
+
+def _final_verdict_over25(team1_last: List[Dict[str, Any]], team2_last: List[Dict[str, Any]], h2h: List[Dict[str, Any]]) -> Dict[str, Any]:
+    a8 = (team1_last or [])[:8]
+    b8 = (team2_last or [])[:8]
+
+    pct_a8 = _compute_over25_pct(a8)
+    pct_b8 = _compute_over25_pct(b8)
+
+    base_level, base_info = _base_level_ft_over25(pct_a8, pct_b8)
+    idx_base = _level_index(base_level)
+    idx = idx_base
+
+    a4 = (team1_last or [])[:4]
+    b4 = (team2_last or [])[:4]
+    recent_a = _over25_badges_recent(a4)
+    recent_b = _over25_badges_recent(b4)
+
+    h2h_mapped = _map_h2h(h2h, focus_team="")
+    h2h3 = _select_h2h_recent(h2h_mapped, 3)
+    h2h_pct, h2h_ok, h2h_n = _h2h_over25_pct(h2h3)
+
+    boost_h2h = 0
+    malus_h2h = 0
+    if h2h_n >= 3:
+        if h2h_ok <= 1:
+            malus_h2h = -1
+        elif h2h_ok == 3:
+            boost_h2h = 1
+
+    malus_recent = -1 if (int(recent_a.get("malus") or 0) < 0 or int(recent_b.get("malus") or 0) < 0) else 0
+
+    idx_after_malus = idx + malus_recent + malus_h2h
+    idx = idx_after_malus
+
+    boost_a = int(recent_a.get("boost") or 0)
+    boost_b = int(recent_b.get("boost") or 0)
+
+    boosts = sorted([boost_a, boost_b, boost_h2h], reverse=True)
+    kept1 = boosts[0] if boosts else 0
+    kept2 = boosts[1] if len(boosts) >= 2 else 0
+    total_boost = int(_clamp(float(kept1 + kept2), 0.0, 4.0))
+
+    idx_before_boost = idx
+    idx += total_boost
+    idx_after_boost = idx
+
+    explosivite_badge = (idx_after_boost - idx_before_boost) >= 2
+
+    final_level = _level_name(idx)
+    final_idx = _level_index(final_level)
+    final_idx, h2h_cap_applied = _cap_h2h_if_weak(final_idx, h2h_n, h2h_ok)
+    final_level = _level_name(final_idx)
+
+    keep = _is_exportable(final_level)
+
+    return {
+        "bet": "FT_OVER_2_5",
+        "keep": keep,
+        "base_level": base_level,
+        "final_level": final_level,
+        "explosivite_badge": explosivite_badge,
+        "pct_a8": pct_a8,
+        "pct_b8": pct_b8,
+        "recent_a": recent_a,
+        "recent_b": recent_b,
+        "h2h_pct": h2h_pct,
+        "h2h_ok": h2h_ok,
+        "h2h_n": h2h_n,
+        "base_info": base_info,
+        "boost_a": boost_a,
+        "boost_b": boost_b,
+        "boost_h2h": boost_h2h,
+        "kept_boost_1": kept1,
+        "kept_boost_2": kept2,
+        "total_boost": total_boost,
+        "malus_recent": malus_recent,
+        "malus_h2h": malus_h2h,
+        "idx_base": idx_base,
+        "idx_after_malus": idx_after_malus,
+        "idx_after_boost": idx_after_boost,
+        "h2h_cap_applied": h2h_cap_applied,
+    }
+
+
+def _build_human_explain_over25(team1: str, team2: str, v: Dict[str, Any]) -> List[str]:
+    lines: List[str] = []
+
+    base = str(v.get("base_level") or "")
+    final = str(v.get("final_level") or "")
+
+    lines.append(_bold(f"Au départ, ce pari est classé { _verdict_color_name(base) }, car :"))
+    lines.append(_bullet(f"8 derniers matchs - {team1} finit en Over 2.5 dans { _format_pct(float(v.get('pct_a8') or 0.0)) } des matchs."))
+    lines.append(_bullet(f"8 derniers matchs - {team2} finit en Over 2.5 dans { _format_pct(float(v.get('pct_b8') or 0.0)) } des matchs."))
+
+    ra = v.get("recent_a") or {}
+    rb = v.get("recent_b") or {}
+
+    lines.append(_line_blank())
+    lines.append(_bold("La forme récente influence le verdict :"))
+    lines.append(_bullet(f"Sur les 4 derniers matchs, {team1} est à { _format_pct(float(ra.get('pct') or 0.0)) } (match le plus riche : {ra.get('max_ft', 0)} buts)."))
+    lines.append(_bullet(f"Sur les 4 derniers matchs, {team2} est à { _format_pct(float(rb.get('pct') or 0.0)) } (match le plus riche : {rb.get('max_ft', 0)} buts)."))
+
+    h2h_n = int(v.get("h2h_n") or 0)
+    if h2h_n >= 3:
+        lines.append(_line_blank())
+        lines.append(_bold("Confrontations directes (H2H) :"))
+        lines.append(_bullet(f"Sur les 3 derniers H2H, Over 2.5 dans { _format_pct(float(v.get('h2h_pct') or 0.0)) } des matchs ({int(v.get('h2h_ok') or 0)}/3)."))
+
+    boost_a = int(v.get("boost_a") or 0)
+    boost_b = int(v.get("boost_b") or 0)
+    boost_h2h = int(v.get("boost_h2h") or 0)
+
+    kept1 = int(v.get("kept_boost_1") or 0)
+    kept2 = int(v.get("kept_boost_2") or 0)
+    total_boost = int(v.get("total_boost") or 0)
+
+    malus_recent = int(v.get("malus_recent") or 0)
+    malus_h2h = int(v.get("malus_h2h") or 0)
+
+    lines.append(_line_blank())
+    lines.append(_bold("Les badges (bonus / malus) :"))
+    lines.append(_bullet(f"Boosts détectés : {team1}={_color_delta(boost_a)}  |  {team2}={_color_delta(boost_b)}  |  H2H={_color_delta(boost_h2h)}."))
+
+    if total_boost > 0:
+        lines.append(_bullet(f"Boost total appliqué : { _color_delta(total_boost) } (on garde les 2 meilleurs : {kept1} et {kept2})."))
+    else:
+        lines.append(_bullet("Aucun boost notable sur les signaux forts."))
+
+    if malus_recent != 0:
+        lines.append(_bullet(f"Malus récents : { _color_delta(malus_recent) } (une équipe a fait 0/4 ou 1/4)."))
+
+    if h2h_n >= 3:
+        lines.append(_bullet(f"H2H (3 derniers) : { _format_pct(float(v.get('h2h_pct') or 0.0)) } = {int(v.get('h2h_ok') or 0)}/3 en Over 2.5."))
+
+    if malus_h2h != 0:
+        lines.append(_bullet(f"Signal H2H : { _color_delta(malus_h2h) } (0/3 ou 1/3)."))
+
+    if boost_h2h > 0:
+        lines.append(_bullet(f"Signal H2H : { _color_delta(boost_h2h) } (3/3)."))
+
+    if v.get("explosivite_badge"):
+        lines.append(_line_blank())
+        lines.append(_color("Explosivité : saut important de niveaux (signaux très forts).", "ok"))
+
+    if v.get("h2h_cap_applied"):
+        lines.append(_line_blank())
+        lines.append(_color(_bold("Mais attention :"), "warn"))
+        lines.append(_bullet("CAP appliqué : H2H faible ⇒ verdict plafonné à MOYEN PLUS."))
+
+    lines.append(_line_blank())
+    lines.append(_bold(f"Verdict final : { _verdict_color_name(final) }."))
+    return lines
+
+
+# ----------------------------------------------------
 # 5) PARI : TEAM WIN (TEAM1 gagne / TEAM2 gagne)
 # ----------------------------------------------------
 def _compute_team_win_pct(matches: List[Dict[str, Any]]) -> float:
@@ -1908,6 +2215,14 @@ def _pick_market_odd(bet_key: str, market_odds: Dict[str, Any]) -> Optional[floa
             or market_odds.get("o15_odds")
         )
 
+    elif k in ("O25_FT", "O25", "FT_O25", "OVER25", "OVER_2_5", "FT_OVER25", "FT_OVER_2_5"):
+        val = (
+            market_odds.get("ft_over25_odds")
+            or market_odds.get("over25_odds")
+            or market_odds.get("over_2_5_odds")
+            or market_odds.get("o25_odds")
+        )
+
     elif k in ("TEAM1_WIN_FT", "TEAM1_WIN", "HOME_WIN", "T1_WIN"):
         val = market_odds.get("home_win_odds") or market_odds.get("team1_win_odds")
     elif k in ("TEAM2_WIN_FT", "TEAM2_WIN", "AWAY_WIN", "T2_WIN"):
@@ -1976,6 +2291,9 @@ def run_full_analysis(team1: str, team2: str, data: Dict[str, Any]) -> Dict[str,
     # Over 1.5 (FT) (toujours analysé)
     over15 = _final_verdict_over15(team1_last, team2_last, h2h)
 
+    # Over 2.5 (FT) (toujours analysé)
+    over25 = _final_verdict_over25(team1_last, team2_last, h2h)
+
     rapport_lines: List[str] = []
     rapport_lines.append(f"{ANSI_BOLD}MATCH{ANSI_RESET} : {team1} – {team2} ⚽️")
     rapport_lines.append(_line_blank())
@@ -2023,6 +2341,13 @@ def run_full_analysis(team1: str, team2: str, data: Dict[str, Any]) -> Dict[str,
     rapport_lines.extend(_build_human_explain_over15(team1, team2, over15))
     rapport_lines.append(_line_blank())
 
+    # ---- PARI 6 ----
+    rapport_lines.append("...")
+    rapport_lines.append(_line_blank())
+    rapport_lines.append(_section_title("PARI 6 — OVER 2.5 BUTS (FT)"))
+    rapport_lines.extend(_build_human_explain_over25(team1, team2, over25))
+    rapport_lines.append(_line_blank())
+
     # ---- PARI 5 ----
     rapport_lines.append("...")
     rapport_lines.append(_line_blank())
@@ -2049,7 +2374,7 @@ def run_full_analysis(team1: str, team2: str, data: Dict[str, Any]) -> Dict[str,
 
     # BET 1 — HT +0.5 (CANONIQUE)
     ht05_label = str(ht05.get("final_level") or "")
-    ht05_is_candidate = _is_exportable(ht05_label)
+    ht05_is_candidate = _is_exportable(ht05_label, BETKEY_HT05)
     ht05_score = float(_level_index(ht05_label))
     odd_ht05 = _pick_market_odd(BETKEY_HT05, market_odds)
     ht05_comment = _build_comment_with_odds(fixture_id, odd_ht05)
@@ -2080,7 +2405,7 @@ def run_full_analysis(team1: str, team2: str, data: Dict[str, Any]) -> Dict[str,
 
     # BET 2 — 1X HT DOMICILE (CANONIQUE)
     dcht_label = str(dcht.get("final_level") or "")
-    dcht_is_candidate = _is_exportable(dcht_label)
+    dcht_is_candidate = _is_exportable(dcht_label, BETKEY_HT1X_HOME)
     dcht_score = float(_level_index(dcht_label))
     odd_ht1x = _pick_market_odd(BETKEY_HT1X_HOME, market_odds)
     dcht_comment = _build_comment_with_odds(fixture_id, odd_ht1x)
@@ -2111,7 +2436,7 @@ def run_full_analysis(team1: str, team2: str, data: Dict[str, Any]) -> Dict[str,
 
     # BET 3 — TEAM TO SCORE (CANONIQUE FT)
     t1_label = str(t1_score.get("final_level") or "")
-    t1_is_candidate = _is_exportable(t1_label)
+    t1_is_candidate = _is_exportable(t1_label, BETKEY_TEAM1_SCORE_FT)
     t1_score_idx = float(_level_index(t1_label))
     odd_t1 = _pick_market_odd(BETKEY_TEAM1_SCORE_FT, market_odds)
     t1_comment = _build_comment_with_odds(fixture_id, odd_t1)
@@ -2141,7 +2466,7 @@ def run_full_analysis(team1: str, team2: str, data: Dict[str, Any]) -> Dict[str,
     )
 
     t2_label = str(t2_score.get("final_level") or "")
-    t2_is_candidate = _is_exportable(t2_label)
+    t2_is_candidate = _is_exportable(t2_label, BETKEY_TEAM2_SCORE_FT)
     t2_score_idx = float(_level_index(t2_label))
     odd_t2 = _pick_market_odd(BETKEY_TEAM2_SCORE_FT, market_odds)
     t2_comment = _build_comment_with_odds(fixture_id, odd_t2)
@@ -2172,7 +2497,7 @@ def run_full_analysis(team1: str, team2: str, data: Dict[str, Any]) -> Dict[str,
 
     # BET 4 — Over 1.5 FT (CANONIQUE)
     o15_label = str(over15.get("final_level") or "")
-    o15_is_candidate = _is_exportable(o15_label)
+    o15_is_candidate = _is_exportable(o15_label, BETKEY_O15_FT)
     o15_score = float(_level_index(o15_label))
     odd_o15 = _pick_market_odd(BETKEY_O15_FT, market_odds)
     o15_comment = _build_comment_with_odds(fixture_id, odd_o15)
@@ -2201,9 +2526,40 @@ def run_full_analysis(team1: str, team2: str, data: Dict[str, Any]) -> Dict[str,
         }
     )
 
+    # BET 6 — Over 2.5 FT (CANONIQUE)
+    o25_label = str(over25.get("final_level") or "")
+    o25_is_candidate = _is_exportable(o25_label, BETKEY_O25_FT)
+    o25_score = float(_level_index(o25_label))
+    odd_o25 = _pick_market_odd(BETKEY_O25_FT, market_odds)
+    o25_comment = _build_comment_with_odds(fixture_id, odd_o25)
+
+    o25_tsv = build_prediction_tsv_line(
+        match_id=match_id,
+        date_str=date_str,
+        league=league,
+        home=team1,
+        away=team2,
+        bet_key=BETKEY_O25_FT,
+        metric="Over 2.5 (FT)",
+        score=o25_score,
+        label=o25_label,
+        is_candidate=o25_is_candidate,
+        comment=o25_comment,
+    )
+    bets.append(
+        {
+            "key": BETKEY_O25_FT,
+            "metric": "Over 2.5 (FT)",
+            "score": o25_score,
+            "label": o25_label,
+            "is_candidate": o25_is_candidate,
+            "tsv": o25_tsv,
+        }
+    )
+
     # BET 5 — TEAM WIN FT (CANONIQUE)
     t1w_label = str(t1_win.get("final_level") or "")
-    t1w_is_candidate = _is_exportable(t1w_label)
+    t1w_is_candidate = _is_exportable(t1w_label, BETKEY_TEAM1_WIN_FT)
     t1w_score = float(_level_index(t1w_label))
     odd_t1w = _pick_market_odd(BETKEY_TEAM1_WIN_FT, market_odds)
     t1w_comment = _build_comment_with_odds(fixture_id, odd_t1w)
@@ -2233,7 +2589,7 @@ def run_full_analysis(team1: str, team2: str, data: Dict[str, Any]) -> Dict[str,
     )
 
     t2w_label = str(t2_win.get("final_level") or "")
-    t2w_is_candidate = _is_exportable(t2w_label)
+    t2w_is_candidate = _is_exportable(t2w_label, BETKEY_TEAM2_WIN_FT)
     t2w_score = float(_level_index(t2w_label))
     odd_t2w = _pick_market_odd(BETKEY_TEAM2_WIN_FT, market_odds)
     t2w_comment = _build_comment_with_odds(fixture_id, odd_t2w)

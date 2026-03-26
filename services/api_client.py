@@ -78,8 +78,8 @@ def _get_run_dir() -> Optional[Path]:
     p = Path(rd)
     try:
         p.mkdir(parents=True, exist_ok=True)
-    except Exception:
-        pass
+    except Exception as e:
+        print(f"⚠️ [WARN] Impossible de créer TRISKELE_RUN_DIR ({p}): {e}")
     return p
 
 
@@ -450,7 +450,7 @@ def _find_league_id(league_name: Optional[str]) -> Optional[int]:
             best_score = score
             best_id = api_id
 
-    if best_id is None or best_score < 0.50:
+    if best_id is None or best_score < 0.75:
         print(f"⚠️ Aucun match de ligue acceptable : '{league_name}' (sim max {best_score:.2f})")
         _append_missing_league_log(raw, norm)
         return None
@@ -553,7 +553,7 @@ def _find_team_id(
 
     best_id, best_score, candidates = _pick_best_candidate(results)
 
-    if best_id is None or best_score < 0.50:
+    if best_id is None or best_score < 0.75:
         print(
             f"⚠️ Aucun match acceptable pour : {team_name} "
             f"(sim max {best_score:.2f}, mode={'global' if used_global else 'league'})"
@@ -1076,6 +1076,7 @@ def _get_market_odds_for_fixture(
         "ht_over05_odds": None,
         "ht_1x_odds": None,
         "ft_over15_odds": None,
+        "ft_over25_odds": None,
         "team1_score_odds": None,
         "team2_score_odds": None,
     }
@@ -1135,6 +1136,11 @@ def _get_market_odds_for_fixture(
         v = _norm_free(v_raw)
         raw_s = str(v_raw or "")
         return ("over" in v) and (("1 5" in v) or ("1.5" in raw_s) or ("1,5" in raw_s))
+
+    def _is_over_25(v_raw: Any) -> bool:
+        v = _norm_free(v_raw)
+        raw_s = str(v_raw or "")
+        return ("over" in v) and (("2 5" in v) or ("2.5" in raw_s) or ("2,5" in raw_s))
 
     def _is_first_half_market(name_raw: str) -> bool:
         n = _norm_compact(name_raw)
@@ -1251,7 +1257,7 @@ def _get_market_odds_for_fixture(
                             out["ht_1x_odds"] = odd
                             break
 
-            if out.get("ft_over15_odds") is None:
+            if out.get("ft_over15_odds") is None or out.get("ft_over25_odds") is None:
                 if (not _is_first_half_market(bet_name_raw)) and (not _is_second_half_market(bet_name_raw)) and _looks_like_ou_market(bet_name_raw):
                     if _contains_team_specific_marker(bet_name_raw):
                         continue
@@ -1259,9 +1265,11 @@ def _get_market_odds_for_fixture(
                         odd = _as_float(v.get("odd"))
                         if odd is None:
                             continue
-                        if _is_over_15(v.get("value") or ""):
+                        val_str = v.get("value") or ""
+                        if out.get("ft_over15_odds") is None and _is_over_15(val_str):
                             out["ft_over15_odds"] = odd
-                            break
+                        if out.get("ft_over25_odds") is None and _is_over_25(val_str):
+                            out["ft_over25_odds"] = odd
 
             if (out.get("team1_score_odds") is None) or (out.get("team2_score_odds") is None):
                 if _is_first_half_market(bet_name_raw) or _is_second_half_market(bet_name_raw):
@@ -1293,7 +1301,7 @@ def _get_market_odds_for_fixture(
         needed = [
             "home_win_odds", "draw_odds", "away_win_odds",
             "ht_over05_odds", "ht_1x_odds",
-            "ft_over15_odds",
+            "ft_over15_odds", "ft_over25_odds",
             "team1_score_odds", "team2_score_odds",
         ]
         return any(out.get(k) is None for k in needed)

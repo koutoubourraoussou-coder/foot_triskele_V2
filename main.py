@@ -62,6 +62,7 @@ KEY_ALIASES = {
     "TEAM1_SCORE_FT": {"TEAM1_SCORE", "T1_SCORE", "TEAM1_TO_SCORE", "TEAM1_SCORE_FT"},
     "TEAM2_SCORE_FT": {"TEAM2_SCORE", "T2_SCORE", "TEAM2_TO_SCORE", "TEAM2_SCORE_FT"},
     "O15_FT": {"O15", "O15_FT", "FT_O15", "OVER15", "OVER_1_5", "OVER_1_5_FT"},
+    "O25_FT": {"O25", "O25_FT", "FT_O25", "OVER25", "OVER_2_5", "OVER_2_5_FT"},
     "TEAM1_WIN_FT": {"TEAM1_WIN", "TEAM1_WIN_FT", "T1_WIN", "HOME_WIN", "HOME_WIN_FT"},
     "TEAM2_WIN_FT": {"TEAM2_WIN", "TEAM2_WIN_FT", "T2_WIN", "AWAY_WIN", "AWAY_WIN_FT"},
 }
@@ -123,6 +124,7 @@ TEAM2_SCORE_JOUABLE_FILE = DATA_DIR / "team2_score_jouables.tsv"
 MIN_ODD_JOUABLE = 1.15
 
 O15_FT_JOUABLE_FILE = DATA_DIR / "o15_ft_jouables.tsv"
+O25_FT_JOUABLE_FILE = DATA_DIR / "o25_ft_jouables.tsv"
 TEAM1_WIN_JOUABLE_FILE = DATA_DIR / "team1_win_jouables.tsv"
 TEAM2_WIN_JOUABLE_FILE = DATA_DIR / "team2_win_jouables.tsv"
 
@@ -696,6 +698,7 @@ def archive_main_outputs() -> None:
         _archive_tsv_for_date(TEAM2_SCORE_JOUABLE_FILE, archive_dir / "team2_score_jouables.tsv", target_date)
 
         _archive_tsv_for_date(O15_FT_JOUABLE_FILE, archive_dir / "o15_ft_jouables.tsv", target_date)
+        _archive_tsv_for_date(O25_FT_JOUABLE_FILE, archive_dir / "o25_ft_jouables.tsv", target_date)
         _archive_tsv_for_date(TEAM1_WIN_JOUABLE_FILE, archive_dir / "team1_win_jouables.tsv", target_date)
         _archive_tsv_for_date(TEAM2_WIN_JOUABLE_FILE, archive_dir / "team2_win_jouables.tsv", target_date)
 
@@ -920,6 +923,7 @@ def main() -> None:
     team2_score_candidates: List[BetEntry] = []
 
     o15_candidates: List[BetEntry] = []
+    o25_candidates: List[BetEntry] = []
     team1_win_candidates: List[BetEntry] = []
     team2_win_candidates: List[BetEntry] = []
 
@@ -1034,6 +1038,8 @@ def main() -> None:
                 team2_score_candidates.append((match_key_with_time, score_f, label, odd_val))
             elif canon_key == "O15_FT":
                 o15_candidates.append((match_key_with_time, score_f, label, odd_val))
+            elif canon_key == "O25_FT":
+                o25_candidates.append((match_key_with_time, score_f, label, odd_val))
             elif canon_key == "TEAM1_WIN_FT":
                 team1_win_candidates.append((match_key_with_time, score_f, label, odd_val))
             elif canon_key == "TEAM2_WIN_FT":
@@ -1125,6 +1131,11 @@ def main() -> None:
         write_sorted_bet_file(O15_FT_JOUABLE_FILE, metric="Over 15 (FT)", entries=o15_candidates)
     else:
         print("\nℹ️ Aucun Over 1.5 (FT) jouable détecté sur cette série.")
+
+    if o25_candidates:
+        write_sorted_bet_file(O25_FT_JOUABLE_FILE, metric="Over 25 (FT)", entries=o25_candidates)
+    else:
+        print("\nℹ️ Aucun Over 2.5 (FT) jouable détecté sur cette série.")
 
     if team1_win_candidates:
         write_sorted_bet_file(TEAM1_WIN_JOUABLE_FILE, metric="Team1 wins (FT)", entries=team1_win_candidates)

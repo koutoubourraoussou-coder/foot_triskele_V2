@@ -198,6 +198,14 @@ class BuilderTuning:
     min_side_matches_for_split: int = MIN_SIDE_MATCHES_FOR_SPLIT
     split_gap_weight: float = SPLIT_GAP_WEIGHT
 
+    # Source des rankings (pilotable par l'optimizer)
+    league_ranking_mode: str = LEAGUE_RANKING_MODE    # "CLASSIC" | "COMPOSITE"
+    team_ranking_mode: str = TEAM_RANKING_MODE        # "CLASSIC" | "COMPOSITE"
+    system_build_source: str = SYSTEM_BUILD_SOURCE    # "LEAGUE" | "TEAM"
+    system_select_source: str = SYSTEM_SELECT_SOURCE  # "LEAGUE" | "TEAM"
+    random_build_source: str = RANDOM_BUILD_SOURCE    # "LEAGUE" | "TEAM"
+    random_select_source: str = RANDOM_SELECT_SOURCE  # "LEAGUE" | "TEAM"
+
 
 _DEFAULT_TUNING = BuilderTuning()
 _ACTIVE_TUNING: Optional[BuilderTuning] = None
@@ -742,6 +750,19 @@ def _norm_bet_family(bet_key: str) -> str:
     ):
         return "O15_FT"
 
+    if bk in (
+        "O25_FT",
+        "FT_OVER_2_5",
+        "OVER25",
+        "OVER_2_5",
+        "O25",
+        "FT_O25",
+        "FT25",
+        "FT_OVER25",
+        "FT_OVER_2_5",
+    ):
+        return "O25_FT"
+
     if bk in ("TEAM1_SCORE_FT", "TEAM1_SCORE", "T1_SCORE", "TEAM1_TO_SCORE"):
         return "TEAM1_SCORE_FT"
 
@@ -770,7 +791,7 @@ def _pick_primary_teams(p: Pick) -> List[str]:
 
 def _is_two_team_bet(p: Pick) -> bool:
     fam = _norm_bet_family(p.bet_key)
-    return fam in ("O15_FT", "HT05")
+    return fam in ("O15_FT", "O25_FT", "HT05")
 
 # ----------------------------
 # Rankings loaders (TSV robust)
@@ -798,18 +819,12 @@ def _detect_header_row(rows: List[List[str]], wanted: Set[str]) -> Tuple[Optiona
 _rankings_cache: dict | None = None
 
 def _resolve_ranking_paths() -> Tuple[Path, Path]:
-    league_mode = (LEAGUE_RANKING_MODE or "").strip().upper()
-    team_mode = (TEAM_RANKING_MODE or "").strip().upper()
+    cfg = T()
+    league_mode = (cfg.league_ranking_mode or "").strip().upper()
+    team_mode   = (cfg.team_ranking_mode   or "").strip().upper()
 
-    if league_mode == "COMPOSITE":
-        league_path = RANKINGS_LEAGUE_BET_FILE_COMPOSITE
-    else:
-        league_path = RANKINGS_LEAGUE_BET_FILE_CLASSIC
-
-    if team_mode == "COMPOSITE":
-        team_path = RANKINGS_TEAM_BET_FILE_COMPOSITE
-    else:
-        team_path = RANKINGS_TEAM_BET_FILE_CLASSIC
+    league_path = RANKINGS_LEAGUE_BET_FILE_COMPOSITE if league_mode == "COMPOSITE" else RANKINGS_LEAGUE_BET_FILE_CLASSIC
+    team_path   = RANKINGS_TEAM_BET_FILE_COMPOSITE   if team_mode   == "COMPOSITE" else RANKINGS_TEAM_BET_FILE_CLASSIC
 
     return league_path, team_path
 
@@ -1222,7 +1237,7 @@ def _system_generation_weight(
     league_bet: Optional[dict],
     team_bet: Optional[dict],
 ) -> float:
-    src = (SYSTEM_BUILD_SOURCE or "").strip().upper()
+    src = (T().system_build_source or "").strip().upper()
 
     if src == "TEAM":
         return _system_priority_weight_team(p, team_bet)
@@ -1235,7 +1250,7 @@ def _system_ticket_final_score(
     league_bet: Optional[dict],
     team_bet: Optional[dict],
 ) -> float:
-    src = (SYSTEM_SELECT_SOURCE or "").strip().upper()
+    src = (T().system_select_source or "").strip().upper()
 
     if src == "LEAGUE":
         return _ticket_score_system_league(picks, league_bet)
@@ -1248,7 +1263,7 @@ def _random_ticket_final_score(
     league_bet: Optional[dict],
     team_bet: Optional[dict],
 ) -> float:
-    src = (RANDOM_SELECT_SOURCE or "").strip().upper()
+    src = (T().random_select_source or "").strip().upper()
 
     if src == "LEAGUE":
         return _ticket_score_random(picks, league_bet)
@@ -1576,7 +1591,7 @@ def filter_effective_random_pool(
     """
     cfg = T()
     out: List[Pick] = []
-    build_src = (RANDOM_BUILD_SOURCE or "").strip().upper()
+    build_src = (cfg.random_build_source or "").strip().upper()
 
     for p in picks:
         fam = _norm_bet_family(p.bet_key)
@@ -1944,7 +1959,7 @@ def _random_reject_reason(
     cfg = T()
     fam = _norm_bet_family(p.bet_key)
     lg = (p.league or "").strip()
-    build_src = (RANDOM_BUILD_SOURCE or "").strip().upper()
+    build_src = (cfg.random_build_source or "").strip().upper()
 
     if build_src == "TEAM":
         teams = _pick_primary_teams(p)
@@ -2147,7 +2162,7 @@ def _try_build_ticket_system(
         lines.append("MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)")
         lines.append("-" * 58)
         lines.append(
-    f"- generation_weights: {SYSTEM_BUILD_SOURCE} x BET (wr_adj = wr * coef(decided)) + small odd bonus"
+    f"- generation_weights: {cfg.system_build_source} x BET (wr_adj = wr * coef(decided)) + small odd bonus"
 )
         lines.append(f"- règle: préférer 3L si écart <= {cfg.prefer_3legs_delta*100:.2f}%")
         lines.append(f"- iterations: {it} | valid_3L_found: {found3} | valid_4L_found: {found4}")
@@ -2195,7 +2210,7 @@ def _try_build_ticket_system(
 
         if chosen:
             lines.append(
-    f"=> choisi: {len(chosen)} legs | score={_fmt_score_pct(chosen_score)} | final_source={SYSTEM_SELECT_SOURCE}"
+    f"=> choisi: {len(chosen)} legs | score={_fmt_score_pct(chosen_score)} | final_source={cfg.system_select_source}"
 )
             lines.append("")
             lines.append("Ticket choisi (aperçu)")
@@ -2209,7 +2224,7 @@ def _try_build_ticket_system(
 
         if mlevel >= 3 and chosen:
             chosen_sorted = sorted(chosen, key=lambda p: _time_to_minutes(p.time_str))
-            select_src = (SYSTEM_SELECT_SOURCE or "").strip().upper()
+            select_src = (cfg.system_select_source or "").strip().upper()
             score = _system_ticket_final_score(chosen_sorted, league_bet, team_bet)
 
             lines: List[str] = []
@@ -2306,8 +2321,8 @@ def _try_build_ticket_random(
     it = 0
     pool = list(picks)
 
-    build_src = (RANDOM_BUILD_SOURCE or "").strip().upper()
-    select_src = (RANDOM_SELECT_SOURCE or "").strip().upper()
+    build_src = (cfg.random_build_source or "").strip().upper()
+    select_src = (cfg.random_select_source or "").strip().upper()
 
     def _random_accept_pick(p: Pick) -> bool:
         fam = _norm_bet_family(p.bet_key)
