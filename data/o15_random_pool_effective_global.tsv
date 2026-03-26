@@ -507,3 +507,8 @@ TSV: 2026-03-24	2256975407	O15_FT	21:30	primera a colombia	Deportivo Pereira	Cuc
 # ------------------------------------------------------------------
 TSV: 2026-03-25	1835025595	O15_FT	02:00	primera a colombia	Fortaleza FC	Deportivo Pasto	1.48	1506055	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_EFFECTIVE | 2026-03-26 05:08:19 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-26	850924886	O15_FT	02:00	primera a colombia	America de Cali	Llaneros	1.35	1506056	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

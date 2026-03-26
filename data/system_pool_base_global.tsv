@@ -889,3 +889,10 @@ TSV: 2026-03-25	1340278348	HT05	23:30	primera división paraguay	Club Guarani	2 
 TSV: 2026-03-25	1340278348	O15_FT	23:30	primera división paraguay	Club Guarani	2 de Mayo	1.36	1504996	SYSTEM_POOL_BASE	predictions.tsv
 TSV: 2026-03-25	1340278348	HT1X_HOME	23:30	primera división paraguay	Club Guarani	2 de Mayo	1.17	1504996	SYSTEM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-03-26 05:08:19 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-26	850924886	O25_FT	02:00	primera a colombia	America de Cali	Llaneros	2.05	1506056	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	850924886	HT05	02:00	primera a colombia	America de Cali	Llaneros	1.42	1506056	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	850924886	O15_FT	02:00	primera a colombia	America de Cali	Llaneros	1.35	1506056	SYSTEM_POOL_BASE	predictions.tsv
+

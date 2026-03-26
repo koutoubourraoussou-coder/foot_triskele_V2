@@ -688,3 +688,8 @@ TSV: 2026-03-25	1835025595	O15_FT	02:00	primera a colombia	Fortaleza FC	Deportiv
 TSV: 2026-03-25	215767011	O15_FT	23:00	liga profesional argentina	Deportivo Riestra	San Lorenzo	1.85	1491989	O15_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-03-25	1340278348	O15_FT	23:30	primera división paraguay	Club Guarani	2 de Mayo	1.36	1504996	O15_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_BASE | 2026-03-26 05:08:19 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-26	850924886	O15_FT	02:00	primera a colombia	America de Cali	Llaneros	1.35	1506056	O15_RANDOM_POOL_BASE	predictions.tsv
+
