@@ -73,6 +73,13 @@
     "uefa nations league": 5,
     "africa cup of nations": 6,
     "international friendlies": 10,
-    "club friendly games": 667
+    "club friendly games": 667,
+
+    "conmebol wc qualifiers": 29,
+    "concacaf wc qualifiers": 31,
+    "uefa wc qualifiers": 32,
+    "afc wc qualifiers": 34,
+    "caf wc qualifiers": 36,
+    "ofc wc qualifiers": 152
   }
 }

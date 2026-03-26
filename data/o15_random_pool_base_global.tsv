@@ -693,3 +693,13 @@ TSV: 2026-03-25	1340278348	O15_FT	23:30	primera división paraguay	Club Guarani	
 # ------------------------------------------------------------------
 TSV: 2026-03-26	850924886	O15_FT	02:00	primera a colombia	America de Cali	Llaneros	1.35	1506056	O15_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_BASE | 2026-03-26 05:17:20 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-26	719758734	O15_FT	13:00	international friendlies	Vietnam	Bangladesh	1.15	1536905	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	3738572055	O15_FT	16:00	international friendlies	Moldova	Lithuania	1.45	1514459	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	1093632257	O15_FT	18:00	international friendlies	Cyprus	Belarus	1.38	1507579	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	71122843	O15_FT	18:00	international friendlies	Georgia	Israel	1.28	1502469	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	2966875923	O15_FT	19:30	international friendlies	Hungary U21	Israel U21	1.28	1536906	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	3848011896	O15_FT	21:00	international friendlies	Brazil	France	1.22	1501815	O15_RANDOM_POOL_BASE	predictions.tsv
+

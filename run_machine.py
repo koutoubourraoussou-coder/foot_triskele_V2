@@ -84,6 +84,19 @@ CIVIL_YEAR_LEAGUE_IDS: set[int] = {
     251,  # Division Intermedia (optionnel)
     501,  # Copa Paraguay (optionnel)
     961,  # Supercopa (optionnel)
+
+    # Compétitions internationales (saison = année civile du tournoi)
+    1,    # FIFA World Cup
+    5,    # UEFA Nations League
+    6,    # Africa Cup of Nations
+    10,   # International Friendlies
+    29,   # CONMEBOL WC Qualifiers
+    30,   # CONCACAF WC Qualifiers (ancienne formule)
+    31,   # CONCACAF WC Qualifiers
+    32,   # UEFA WC Qualifiers
+    34,   # AFC WC Qualifiers
+    36,   # CAF WC Qualifiers
+    152,  # OFC WC Qualifiers
 }
 
 

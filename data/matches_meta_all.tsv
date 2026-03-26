@@ -1554,7 +1554,6 @@
 2025-12-15	laliga2	Castellón	Mirandes	141	5254	799	1391959
 2025-12-15	liga mx	Toluca	Tigres UANL	262	2281	2279	1489447
 2025-12-15	liga portugal	FC Porto	Estrela	94	212	15130	1396358
-2025-12-15	liga portugal	Nacional	Tondela	94	225	218	1396360
 2025-12-15	liga portugal	SC Braga	Santa Clara	94	217	227	1396355
 2025-12-15	ligue 2	Boulogne	Estac Troyes	62	1299	110	1389269
 2025-12-15	premier league	Manchester United	Bournemouth	39	33	35	1379125
@@ -1568,7 +1567,6 @@
 2025-12-16	copa del rey	Sporting Gijon	Valencia	143	731	532	1490968
 2025-12-16	cymru premier league	Cardiff MET	Briton Ferry	110	353	2201	1401109
 2025-12-16	league cup	Cardiff	Chelsea	48	43	49	1484850
-2025-12-16	liga portugal 2	Maritimo	Benfica B	95	214	229	1398089
 2025-12-16	liga pro ecuador	Emelec	El Nacional	242	1148	1150	1479560
 2025-12-16	super league switzerland	FC ST. Gallen	FC Sion	207	1011	630	1382398
 2025-12-16	super league switzerland	FC Winterthur	FC Thun	207	2180	1012	1382399
@@ -1756,7 +1754,6 @@
 2026-01-02	saudi arabia	Al-Ettifaq	Al Okhdood	307	2934	2977	1436027
 2026-01-02	serie a italia	Cagliari	AC Milan	135	490	489	1378035
 2026-01-03	cymru premier league	GAP Connah S Quay FC	Barry Town	110	357	361	1401111
-2026-01-03	cymru premier league	The New Saints	Bala Town	110	354	352	1401131
 2026-01-03	laliga	Celta Vigo	Valencia	140	538	532	1390990
 2026-01-03	laliga	Elche	Villarreal	140	797	533	1390991
 2026-01-03	laliga	Espanyol	Barcelona	140	540	529	1390992
@@ -1851,7 +1848,6 @@
 2026-01-05	liga portugal 2	Vizela	Torreense	95	810	4799	1398121
 2026-01-05	ligue 2	Montpellier	Dunkerque	62	82	1304	1389278
 2026-01-06	copa del rey	Granada CF	Rayo Vallecano	143	715	728	1490980
-2026-01-06	cymru premier league	The New Saints	Bala Town	110	354	352	1401131
 2026-01-06	premier league	West Ham	Nottingham Forest	39	48	65	1379178
 2026-01-06	premiership	Livingston	ST Mirren	179	255	251	1382729
 2026-01-06	premiership	Rangers	Aberdeen	179	257	252	1382731
@@ -1976,7 +1972,6 @@
 2026-01-11	coupe de france	Lille	Lyon	66	79	80	1495626
 2026-01-11	coupe de france	Metz	Montpellier	66	112	82	1495627
 2026-01-11	coupe de france	Nantes	Nice	66	83	84	1495629
-2026-01-11	coupe de france	Sochaux	Lens	66	115	116	1495632
 2026-01-11	eredivisie	GO Ahead Eagles	Fortuna Sittard	88	410	205	1381021
 2026-01-11	eredivisie	Heerenveen	Feyenoord	88	210	209	1381023
 2026-01-11	eredivisie	Sparta Rotterdam	Heracles	88	426	206	1381026
@@ -2033,12 +2028,6 @@
 2026-01-13	copa del rey	Deportivo La Coruna	Atletico Madrid	143	544	530	1503644
 2026-01-13	copa del rey	Real Sociedad	Osasuna	143	548	727	1503646
 2026-01-13	coupe de france	Bayeux	Marseille	66	15116	81	1495620
-2026-01-13	cymru premier league	Barry Town	llanelli AFC	110	361	355	1401139
-2026-01-13	cymru premier league	Caernarfon Town	GAP Connah S Quay FC	110	356	357	1401144
-2026-01-13	cymru premier league	Flint Town United	Bala Town	110	5614	352	1401140
-2026-01-13	cymru premier league	Haverfordwest County AFC	Briton Ferry	110	2194	2201	1401142
-2026-01-13	cymru premier league	Penybont	Cardiff MET	110	2191	353	1401143
-2026-01-13	cymru premier league	The New Saints	Colwyn Bay	110	354	5611	1401141
 2026-01-13	league cup	Newcastle	Manchester City	48	34	50	1494072
 2026-01-13	liga mx	Puebla	Mazatlán	262	2291	14002	1491802
 2026-01-13	saudi arabia	Al Okhdood	Al Kholood	307	2977	10509	1436039
@@ -2064,7 +2053,6 @@
 2026-01-14	saudi arabia	Al-Qadisiyah FC	Al-Fayha	307	2933	2944	1436046
 2026-01-14	serie a italia	Inter	Lecce	135	505	867	1378018
 2026-01-14	serie a italia	Napoli	Parma	135	492	523	1378021
-2026-01-14	super league switzerland	FC Sion	FC Winterthur	207	630	2180	1382406
 2026-01-14	super league switzerland	Servette FC	Lausanne	207	2184	1014	1382397
 2026-01-14	taça de portugal	FC Porto	Benfica	96	212	211	1494403
 2026-01-14	taça de portugal	Fafe	SC Braga	96	809	217	1502134
@@ -2202,12 +2190,9 @@
 2026-01-20	championship	Swansea	Blackburn	40	76	67	1386878
 2026-01-20	championship	West Brom	Norwich	40	60	71	1386876
 2026-01-20	championship	Wrexham	Leicester	40	1837	46	1386881
-2026-01-20	fa cup	Salford City	Swindon Town	45	1844	1353	1490813
-2026-01-20	premiership	Livingston	ST Mirren	179	255	251	1382729
 2026-01-20	saudi arabia	Al Shabab	Al Najma	307	2940	2992	1436059
 2026-01-20	saudi arabia	Al-Ahli Jeddah	Al Khaleej Saihat	307	2929	2928	1436058
 2026-01-20	saudi arabia	Al-Fateh	Al Kholood	307	2931	10509	1436060
-2026-01-20	scottish cup	Stranraer	Queen's Park	181	6785	6778	1488595
 2026-01-20	uefa champions league	Bodo/Glimt	Manchester City	2	327	50	1451129
 2026-01-20	uefa champions league	FC Copenhagen	Napoli	2	400	492	1451132
 2026-01-20	uefa champions league	Inter	Arsenal	2	505	42	1451136
@@ -2220,7 +2205,6 @@
 2026-01-21	championship	Southampton	Sheffield Utd	40	41	62	1386884
 2026-01-21	championship	Stoke City	Middlesbrough	40	75	70	1386886
 2026-01-21	championship	Watford	Portsmouth	40	38	1355	1386885
-2026-01-21	eredivisie	AZ Alkmaar	Excelsior	88	201	196	1381003
 2026-01-21	liga portugal 2	União de Leiria	Vizela	95	4662	810	1398106
 2026-01-21	saudi arabia	Al Okhdood	Al Riyadh	307	2977	10511	1436063
 2026-01-21	saudi arabia	Al-Ettifaq	NEOM	307	2934	10513	1436062
@@ -2430,8 +2414,6 @@
 2026-01-26	saudi arabia	Al-Nassr	Al Taawon	307	2939	2936	1436070
 2026-01-26	serie a italia	Verona	Udinese	135	504	494	1378083
 2026-01-26	super lig	Eyüpspor	Beşiktaş	203	3588	549	1394596
-2026-01-27	bundesliga	FC St. Pauli	RB Leipzig	78	186	173	1388449
-2026-01-27	bundesliga	Werder Bremen	1899 Hoffenheim	78	162	167	1388451
 2026-01-28	liga profesional argentina	Aldosivi	Barracas Central	128	463	2432	1491833
 2026-01-28	liga profesional argentina	Atletico Tucuman	Central Cordoba de Santiago	128	455	1065	1491834
 2026-01-28	liga profesional argentina	Gimnasia M.	San Lorenzo	128	1066	460	1491839
@@ -4737,4 +4719,15 @@
 2026-03-25	liga profesional argentina	Deportivo Riestra	San Lorenzo	128	476	460	1491989
 2026-03-25	primera a colombia	Fortaleza FC	Deportivo Pasto	239	1147	1126	1506055
 2026-03-25	primera a colombia	Junior	Bucaramanga	239	1135	1131	1506054
+2026-03-26	international friendlies	Brazil	France	10	6	2	1501815
+2026-03-26	international friendlies	Cyprus	Belarus	10	1106	1100	1507579
+2026-03-26	international friendlies	Georgia	Israel	10	1104	1116	1502469
+2026-03-26	international friendlies	Hungary U21	Israel U21	10	16500	8200	1536906
+2026-03-26	international friendlies	Iceland U19	USA U18	10	10337	22342	1537174
+2026-03-26	international friendlies	Kyrgyz Republic U23	Serbia U21	10	10941	8222	1537173
+2026-03-26	international friendlies	Moldova	Lithuania	10	1114	1097	1514459
+2026-03-26	international friendlies	Qatar	Serbia	10	1569	14	1514460
+2026-03-26	international friendlies	Singapore	Faroe Islands	10	1546	1098	1526334
+2026-03-26	international friendlies	United Arab Emirates	Armenia	10	1563	1094	1526335
+2026-03-26	international friendlies	Vietnam	Bangladesh	10	1542	1560	1536905
 2026-03-26	primera a colombia	America de Cali	Llaneros	239	1138	1464	1506056
