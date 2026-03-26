@@ -1,12 +1,4 @@
 TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
 ==================================================
 
-📅 Lundi 2026-03-23 — Tranche 1 (fenêtre ~1215min)
--------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (RESTE) — id=2026-03-23_0215_a5ebe68c31_SYS — cote = 1.83 — fenêtre 02:15 → 00:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 02:15 | liga profesional argentina | Independ. Rivadavia vs Rosario Central | HT 1X Home | FORT PLUS | odd=1.28
-  2) 22:10 | primera a colombia | Santa Fe vs Independiente Medellin | HT 1X Home | FORT PLUS | odd=1.22
-  3) 22:30 | liga pro ecuador | Guayaquil City FC vs Leones del Norte | HT 1X Home | TRÈS FORT | odd=1.17
+Aucun ticket.

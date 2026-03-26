@@ -1,53 +1,13 @@
-RUN MAESTROLOGUE — 2026-03-26 04:51:30
+RUN MAESTROLOGUE — 2026-03-26 04:54:32
 - source_tsv: predictions.tsv
 - run_date: ALL
 - maestro_level: 3
 ========================================
 
-MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
-----------------------------------------------------------
-- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
-- règle: préférer 3L si écart <= 3.00%
-- iterations: 13607 | valid_3L_found: 6493 | valid_4L_found: 13607
-- top3_size: 2 | top4_size: 1
-
-TOP3 (desc):
-  TOP3[1/2]: score=0.797 (79.7%) | legs=3 | odd=1.83
-  TOP3[2/2]: score=0.777 (77.7%) | legs=3 | odd=1.84
-
-TOP4 (desc):
-  TOP4[1/1]: score=0.790 (79.0%) | legs=4 | odd=2.16
-
-DRAW_3L: picked rank=1/2 | score=0.797 (79.7%) | odd=1.83
-DRAW_4L: picked rank=1/1 | score=0.790 (79.0%) | odd=2.16
-- écart relatif: 0.89%
-=> choisi: 3 legs | score=0.797 (79.7%) | final_source=LEAGUE
-
-Ticket choisi (aperçu)
-----------------------
-  1) 02:15 | liga profesional argentina | Independ. Rivadavia vs Rosario Central | HT1X_HOME | odd=1.28
-  2) 22:10 | primera a colombia | Santa Fe vs Independiente Medellin | HT1X_HOME | odd=1.22
-  3) 22:30 | liga pro ecuador | Guayaquil City FC vs Leones del Norte | HT1X_HOME | odd=1.17
-
-MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, LEAGUE x BET)
-------------------------------------------------------------------------------
-- score ticket: 0.797 (79.7%)
-- formule: wr_adj = wr(league x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
-
-1) 02:15 | liga profesional argentina | Independ. Rivadavia vs Rosario Central | bet=HT1X_HOME | odd=1.28
-   LEAGUE liga profesional argentina: wr=0.75 dec=138 coef=1.000 => adj=0.754 (75.4%)
-
-2) 22:10 | primera a colombia | Santa Fe vs Independiente Medellin | bet=HT1X_HOME | odd=1.22
-   LEAGUE primera a colombia: wr=0.81 dec=93 coef=1.000 => adj=0.809 (80.9%)
-
-3) 22:30 | liga pro ecuador | Guayaquil City FC vs Leones del Norte | bet=HT1X_HOME | odd=1.17
-   LEAGUE liga pro ecuador: wr=0.83 dec=44 coef=1.000 => adj=0.830 (83.0%)
-
-
-MAESTROLOGUE — SYSTEM — 2026-03-23
+MAESTROLOGUE — SYSTEM — 2026-03-24
 ========================================
 - picks_total: 4
-- unique_matches_day: 4
+- unique_matches_day: 2
 - rich_day: False
 - max_windows_today: 1
 - windows_count: 1
@@ -55,70 +15,26 @@ MAESTROLOGUE — SYSTEM — 2026-03-23
 - min_accept_odd: 1.8
 - replay_after_last_kickoff: 110 min
 
-WINDOW 1 | 02:15 -> 22:30
+WINDOW 1 | 01:00 -> 21:30
   - raw_window_picks: 4
   - filtered_window_picks: 4
   - ok_window: 4
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 2.16
-  - threshold_used_here: 1.8
-Ticket: tranche=1 | cote=1.83 | seuil_local=1.8 | 02:15 → 00:20 | fenêtre=1215min
-  1) 02:15 | liga profesional argentina | Independ. Rivadavia vs Rosario Central | HT1X_HOME | odd=1.28
-  2) 22:10 | primera a colombia | Santa Fe vs Independiente Medellin | HT1X_HOME | odd=1.22
-  3) 22:30 | liga pro ecuador | Guayaquil City FC vs Leones del Norte | HT1X_HOME | odd=1.17
+  - max_possible_odd(ok_window): 1.64
+  - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
+  -> ABANDON: cote max insuffisante même après fusion (1.64 < min_accept=1.8)
 
 FIN JOURNÉE
 ------------------
-- tickets_built: 1 / 1
-- next_window_start: 00:20
+- tickets_built: 0 / 1
+- next_window_start: 00:00
 
-MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
-----------------------------------------------------------------
-- build_source: LEAGUE x BET >= 0.72 (require_data=True)
-- select_source: LEAGUE x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
-- règle: préférer 3L si écart <= 3.00%
-- iterations: 23532 | valid_3L_found: 3038 | valid_4L_found: 23532
-- top3_size: 1 | top4_size: 1
-- rejected_by_build_gate (approx): 0
-
-TOP3 (desc):
-  TOP3[1/1]: score=0.753 (75.3%) | legs=3 | odd=2.45
-
-TOP4 (desc):
-  TOP4[1/1]: score=0.757 (75.7%) | legs=4 | odd=2.9
-
-DRAW_3L: picked rank=1/1 | score=0.753 (75.3%) | odd=2.45
-DRAW_4L: picked rank=1/1 | score=0.757 (75.7%) | odd=2.9
-- écart relatif: 0.56%
-=> choisi: 3 legs | score=0.753 (75.3%) | final_source=LEAGUE
-
-Ticket choisi (aperçu)
-----------------------
-  1) 02:06 | liga mx | FC Juarez vs Tigres UANL | O15_FT | odd=1.28
-  2) 20:00 | primera a colombia | Chico vs Deportes Tolima | O15_FT | odd=1.42
-  3) 22:10 | primera a colombia | Santa Fe vs Independiente Medellin | O15_FT | odd=1.35
-
-MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, LEAGUE x BET)
-------------------------------------------------------------------------------
-- score ticket: 0.753 (75.3%)
-- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
-
-1) 02:06 | liga mx | FC Juarez vs Tigres UANL | bet=O15_FT | odd=1.28
-   LEAGUE liga mx: wr=0.76 dec=98 coef=1.000 => adj=0.764 (76.4%)
-
-2) 20:00 | primera a colombia | Chico vs Deportes Tolima | bet=O15_FT | odd=1.42
-   LEAGUE primera a colombia: wr=0.75 dec=93 coef=1.000 => adj=0.747 (74.7%)
-
-3) 22:10 | primera a colombia | Santa Fe vs Independiente Medellin | bet=O15_FT | odd=1.35
-   LEAGUE primera a colombia: wr=0.75 dec=93 coef=1.000 => adj=0.747 (74.7%)
-
-
-MAESTROLOGUE — RANDOM — 2026-03-23
+MAESTROLOGUE — RANDOM — 2026-03-24
 ========================================
-- picks_total: 4
-- unique_matches_day: 4
+- picks_total: 1
+- unique_matches_day: 1
 - rich_day: False
 - max_windows_today: 1
 - windows_count: 1
@@ -126,26 +42,23 @@ MAESTROLOGUE — RANDOM — 2026-03-23
 - min_accept_odd: 1.8
 - replay_after_last_kickoff: 110 min
 
-WINDOW 1 | 02:06 -> 22:10
-  - raw_window_picks: 4
-  - filtered_window_picks: 4
-  - ok_window: 4
+WINDOW 1 | 21:30 -> 21:30
+  - raw_window_picks: 1
+  - filtered_window_picks: 1
+  - ok_window: 1
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 2.9
-  - threshold_used_here: 2.4
-Ticket: tranche=1 | cote=2.45 | seuil_local=2.4 | 02:06 → 00:00 | fenêtre=1204min
-  1) 02:06 | liga mx | FC Juarez vs Tigres UANL | O15_FT | odd=1.28
-  2) 20:00 | primera a colombia | Chico vs Deportes Tolima | O15_FT | odd=1.42
-  3) 22:10 | primera a colombia | Santa Fe vs Independiente Medellin | O15_FT | odd=1.35
+  - max_possible_odd(ok_window): 1.4
+  - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
+  -> ABANDON: cote max insuffisante même après fusion (1.4 < min_accept=1.8)
 
 FIN JOURNÉE
 ------------------
-- tickets_built: 1 / 1
+- tickets_built: 0 / 1
 - next_window_start: 00:00
 
 RUN SUMMARY
-- system_tickets: 1 | o15_tickets: 1
+- system_tickets: 0 | o15_tickets: 0
 ----------------------------------------
 

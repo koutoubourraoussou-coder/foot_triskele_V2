@@ -497,3 +497,8 @@ TSV: 2026-03-23	784163190	O15_FT	20:00	primera a colombia	Chico	Deportes Tolima	
 TSV: 2026-03-23	2730845885	O15_FT	20:30	laliga2	Castellón	Cultural Leonesa	1.18	1392098	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-03-23	55028759	O15_FT	22:10	primera a colombia	Santa Fe	Independiente Medellin	1.35	1506052	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_EFFECTIVE | 2026-03-26 04:54:32 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-24	2256975407	O15_FT	21:30	primera a colombia	Deportivo Pereira	Cucuta	1.4	1506049	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

@@ -20868,6 +20868,22 @@ TSV: 1006605966	2026-03-22	serie a brazil	Vitoria	Mirassol	TEAM2_SCORE_FT	Team2 
 TSV: 1006605966	2026-03-22	serie a brazil	Vitoria	Mirassol	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	LOSS	2H	1492189	1-0	1-0	22:30
 TSV: 1006605966	2026-03-22	serie a brazil	Vitoria	Mirassol	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	2H	1492189	1-0	1-0	22:30
 TSV: 1006605966	2026-03-22	serie a brazil	Vitoria	Mirassol	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	2H	1492189	1-0	1-0	22:30
+TSV: 4014774312	2026-03-23	primera a colombia	Jaguares	Águilas Doradas	HT05	HT+0.5	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1506053	1-1	0-0	00:20
+TSV: 4014774312	2026-03-23	primera a colombia	Jaguares	Águilas Doradas	HT1X_HOME	HT 1X Home	4.0	FORT	1	WIN	FT	1506053	1-1	0-0	00:20
+TSV: 4014774312	2026-03-23	primera a colombia	Jaguares	Águilas Doradas	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1506053	1-1	0-0	00:20
+TSV: 4014774312	2026-03-23	primera a colombia	Jaguares	Águilas Doradas	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	WIN	FT	1506053	1-1	0-0	00:20
+TSV: 4014774312	2026-03-23	primera a colombia	Jaguares	Águilas Doradas	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	WIN	FT	1506053	1-1	0-0	00:20
+TSV: 4014774312	2026-03-23	primera a colombia	Jaguares	Águilas Doradas	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1506053	1-1	0-0	00:20
+TSV: 4014774312	2026-03-23	primera a colombia	Jaguares	Águilas Doradas	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506053	1-1	0-0	00:20
+TSV: 4014774312	2026-03-23	primera a colombia	Jaguares	Águilas Doradas	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1506053	1-1	0-0	00:20
+TSV: 133670527	2026-03-23	primera división paraguay	Rubio NU	Sportivo Ameliano	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1505027	1-2	0-1	00:30
+TSV: 133670527	2026-03-23	primera división paraguay	Rubio NU	Sportivo Ameliano	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	LOSS	FT	1505027	1-2	0-1	00:30
+TSV: 133670527	2026-03-23	primera división paraguay	Rubio NU	Sportivo Ameliano	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1505027	1-2	0-1	00:30
+TSV: 133670527	2026-03-23	primera división paraguay	Rubio NU	Sportivo Ameliano	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1505027	1-2	0-1	00:30
+TSV: 133670527	2026-03-23	primera división paraguay	Rubio NU	Sportivo Ameliano	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1505027	1-2	0-1	00:30
+TSV: 133670527	2026-03-23	primera división paraguay	Rubio NU	Sportivo Ameliano	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1505027	1-2	0-1	00:30
+TSV: 133670527	2026-03-23	primera división paraguay	Rubio NU	Sportivo Ameliano	TEAM1_WIN_FT	Team1 wins (FT)	4.0	FORT	0	GOOD_NO_BET	FT	1505027	1-2	0-1	00:30
+TSV: 133670527	2026-03-23	primera división paraguay	Rubio NU	Sportivo Ameliano	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1505027	1-2	0-1	00:30
 TSV: 1792737380	2026-03-23	liga mx	FC Juarez	Tigres UANL	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492570	2-1	1-1	02:06
 TSV: 1792737380	2026-03-23	liga mx	FC Juarez	Tigres UANL	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492570	2-1	1-1	02:06
 TSV: 1792737380	2026-03-23	liga mx	FC Juarez	Tigres UANL	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1492570	2-1	1-1	02:06
@@ -20940,3 +20956,27 @@ TSV: 402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Co
 TSV: 402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1491990	5-0	0-0	23:00
 TSV: 402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491990	5-0	0-0	23:00
 TSV: 402429760	2026-03-23	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	O25_FT	Over 2.5 (FT)	0.0	KO	0	BAD_NO_BET	FT	1491990	5-0	0-0	23:00
+TSV: 3251690797	2026-03-24	liga pro ecuador	Aucas	Orense SC	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1519296	3-2	2-0	01:00
+TSV: 3251690797	2026-03-24	liga pro ecuador	Aucas	Orense SC	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1519296	3-2	2-0	01:00
+TSV: 3251690797	2026-03-24	liga pro ecuador	Aucas	Orense SC	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1519296	3-2	2-0	01:00
+TSV: 3251690797	2026-03-24	liga pro ecuador	Aucas	Orense SC	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1519296	3-2	2-0	01:00
+TSV: 3251690797	2026-03-24	liga pro ecuador	Aucas	Orense SC	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1519296	3-2	2-0	01:00
+TSV: 3251690797	2026-03-24	liga pro ecuador	Aucas	Orense SC	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1519296	3-2	2-0	01:00
+TSV: 3251690797	2026-03-24	liga pro ecuador	Aucas	Orense SC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1519296	3-2	2-0	01:00
+TSV: 3251690797	2026-03-24	liga pro ecuador	Aucas	Orense SC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1519296	3-2	2-0	01:00
+TSV: 1243512501	2026-03-24	liga profesional argentina	Huracan	Barracas Central	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1491992	0-0	0-0	01:15
+TSV: 1243512501	2026-03-24	liga profesional argentina	Huracan	Barracas Central	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	WIN	FT	1491992	0-0	0-0	01:15
+TSV: 1243512501	2026-03-24	liga profesional argentina	Huracan	Barracas Central	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1491992	0-0	0-0	01:15
+TSV: 1243512501	2026-03-24	liga profesional argentina	Huracan	Barracas Central	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1491992	0-0	0-0	01:15
+TSV: 1243512501	2026-03-24	liga profesional argentina	Huracan	Barracas Central	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	LOSS	FT	1491992	0-0	0-0	01:15
+TSV: 1243512501	2026-03-24	liga profesional argentina	Huracan	Barracas Central	O25_FT	Over 2.5 (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491992	0-0	0-0	01:15
+TSV: 1243512501	2026-03-24	liga profesional argentina	Huracan	Barracas Central	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491992	0-0	0-0	01:15
+TSV: 1243512501	2026-03-24	liga profesional argentina	Huracan	Barracas Central	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491992	0-0	0-0	01:15
+TSV: 2256975407	2026-03-24	primera a colombia	Deportivo Pereira	Cucuta	HT05	HT+0.5	7.0	EXPLOSION	1	WIN	FT	1506049	2-2	1-0	21:30
+TSV: 2256975407	2026-03-24	primera a colombia	Deportivo Pereira	Cucuta	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	WIN	FT	1506049	2-2	1-0	21:30
+TSV: 2256975407	2026-03-24	primera a colombia	Deportivo Pereira	Cucuta	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1506049	2-2	1-0	21:30
+TSV: 2256975407	2026-03-24	primera a colombia	Deportivo Pereira	Cucuta	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1506049	2-2	1-0	21:30
+TSV: 2256975407	2026-03-24	primera a colombia	Deportivo Pereira	Cucuta	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1506049	2-2	1-0	21:30
+TSV: 2256975407	2026-03-24	primera a colombia	Deportivo Pereira	Cucuta	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1506049	2-2	1-0	21:30
+TSV: 2256975407	2026-03-24	primera a colombia	Deportivo Pereira	Cucuta	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506049	2-2	1-0	21:30
+TSV: 2256975407	2026-03-24	primera a colombia	Deportivo Pereira	Cucuta	TEAM2_WIN_FT	Team2 wins (FT)	6.0	TRÈS FORT	1	LOSS	FT	1506049	2-2	1-0	21:30

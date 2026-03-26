@@ -539,3 +539,11 @@ TSV: 2026-03-23	2730845885	O15_FT	20:30	laliga2	Castellón	Cultural Leonesa	1.18
 TSV: 2026-03-23	55028759	HT1X_HOME	22:10	primera a colombia	Santa Fe	Independiente Medellin	1.22	1506052	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-03-23	120506531	HT1X_HOME	22:30	liga pro ecuador	Guayaquil City FC	Leones del Norte	1.17	1519300	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-03-26 04:54:32 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-24	3251690797	HT1X_HOME	01:00	liga pro ecuador	Aucas	Orense SC	1.16	1519296	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-24	2256975407	TEAM1_SCORE_FT	21:30	primera a colombia	Deportivo Pereira	Cucuta	1.41	1506049	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-24	2256975407	O15_FT	21:30	primera a colombia	Deportivo Pereira	Cucuta	1.4	1506049	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-24	2256975407	HT1X_HOME	21:30	primera a colombia	Deportivo Pereira	Cucuta	1.36	1506049	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+
