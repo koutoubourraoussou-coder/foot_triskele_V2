@@ -4135,3 +4135,35 @@ TSV:	133670527	2026-03-23	primera división paraguay	Rubio NU	Sportivo Ameliano	
 TSV:	133670527	2026-03-23	primera división paraguay	Rubio NU	Sportivo Ameliano	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	odd=2.45 fixture=1505027	00:30
 TSV:	133670527	2026-03-23	primera división paraguay	Rubio NU	Sportivo Ameliano	TEAM1_WIN_FT	Team1 wins (FT)	4.0	FORT	0	odd=2.6 fixture=1505027	00:30
 TSV:	133670527	2026-03-23	primera división paraguay	Rubio NU	Sportivo Ameliano	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.5 fixture=1505027	00:30
+TSV:	215767011	2026-03-25	liga profesional argentina	Deportivo Riestra	San Lorenzo	HT05	HT+0.5	0.0	KO	0	odd=1.77 fixture=1491989	23:00
+TSV:	215767011	2026-03-25	liga profesional argentina	Deportivo Riestra	San Lorenzo	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.18 fixture=1491989	23:00
+TSV:	215767011	2026-03-25	liga profesional argentina	Deportivo Riestra	San Lorenzo	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.44 fixture=1491989	23:00
+TSV:	215767011	2026-03-25	liga profesional argentina	Deportivo Riestra	San Lorenzo	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.8 fixture=1491989	23:00
+TSV:	215767011	2026-03-25	liga profesional argentina	Deportivo Riestra	San Lorenzo	O15_FT	Over 1.5 (FT)	0.0	KO	0	odd=1.85 fixture=1491989	23:00
+TSV:	215767011	2026-03-25	liga profesional argentina	Deportivo Riestra	San Lorenzo	O25_FT	Over 2.5 (FT)	0.0	KO	0	odd=3.7 fixture=1491989	23:00
+TSV:	215767011	2026-03-25	liga profesional argentina	Deportivo Riestra	San Lorenzo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.36 fixture=1491989	23:00
+TSV:	215767011	2026-03-25	liga profesional argentina	Deportivo Riestra	San Lorenzo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.7 fixture=1491989	23:00
+TSV:	4234859617	2026-03-24	primera a colombia	Junior	Bucaramanga	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.42 fixture=1506054	00:00
+TSV:	4234859617	2026-03-24	primera a colombia	Junior	Bucaramanga	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.22 fixture=1506054	00:00
+TSV:	4234859617	2026-03-24	primera a colombia	Junior	Bucaramanga	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.27 fixture=1506054	00:00
+TSV:	4234859617	2026-03-24	primera a colombia	Junior	Bucaramanga	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.47 fixture=1506054	00:00
+TSV:	4234859617	2026-03-24	primera a colombia	Junior	Bucaramanga	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.42 fixture=1506054	00:00
+TSV:	4234859617	2026-03-24	primera a colombia	Junior	Bucaramanga	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	odd=2.25 fixture=1506054	00:00
+TSV:	4234859617	2026-03-24	primera a colombia	Junior	Bucaramanga	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.16 fixture=1506054	00:00
+TSV:	4234859617	2026-03-24	primera a colombia	Junior	Bucaramanga	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.5 fixture=1506054	00:00
+TSV:	1835025595	2026-03-25	primera a colombia	Fortaleza FC	Deportivo Pasto	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.48 fixture=1506055	02:00
+TSV:	1835025595	2026-03-25	primera a colombia	Fortaleza FC	Deportivo Pasto	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.25 fixture=1506055	02:00
+TSV:	1835025595	2026-03-25	primera a colombia	Fortaleza FC	Deportivo Pasto	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.33 fixture=1506055	02:00
+TSV:	1835025595	2026-03-25	primera a colombia	Fortaleza FC	Deportivo Pasto	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.43 fixture=1506055	02:00
+TSV:	1835025595	2026-03-25	primera a colombia	Fortaleza FC	Deportivo Pasto	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.48 fixture=1506055	02:00
+TSV:	1835025595	2026-03-25	primera a colombia	Fortaleza FC	Deportivo Pasto	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	odd=2.45 fixture=1506055	02:00
+TSV:	1835025595	2026-03-25	primera a colombia	Fortaleza FC	Deportivo Pasto	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.42 fixture=1506055	02:00
+TSV:	1835025595	2026-03-25	primera a colombia	Fortaleza FC	Deportivo Pasto	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	odd=3.05 fixture=1506055	02:00
+TSV:	1340278348	2026-03-25	primera división paraguay	Club Guarani	2 de Mayo	HT05	HT+0.5	5.0	FORT PLUS	1	odd=1.44 fixture=1504996	23:30
+TSV:	1340278348	2026-03-25	primera división paraguay	Club Guarani	2 de Mayo	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.17 fixture=1504996	23:30
+TSV:	1340278348	2026-03-25	primera división paraguay	Club Guarani	2 de Mayo	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.19 fixture=1504996	23:30
+TSV:	1340278348	2026-03-25	primera división paraguay	Club Guarani	2 de Mayo	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.55 fixture=1504996	23:30
+TSV:	1340278348	2026-03-25	primera división paraguay	Club Guarani	2 de Mayo	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.36 fixture=1504996	23:30
+TSV:	1340278348	2026-03-25	primera división paraguay	Club Guarani	2 de Mayo	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=2.2 fixture=1504996	23:30
+TSV:	1340278348	2026-03-25	primera división paraguay	Club Guarani	2 de Mayo	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=1.83 fixture=1504996	23:30
+TSV:	1340278348	2026-03-25	primera división paraguay	Club Guarani	2 de Mayo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.2 fixture=1504996	23:30

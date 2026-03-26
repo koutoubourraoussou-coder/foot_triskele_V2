@@ -681,3 +681,10 @@ TSV: 2026-03-24	3251690797	O15_FT	01:00	liga pro ecuador	Aucas	Orense SC	1.3	151
 TSV: 2026-03-24	1243512501	O15_FT	01:15	liga profesional argentina	Huracan	Barracas Central	1.62	1491992	O15_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-03-24	2256975407	O15_FT	21:30	primera a colombia	Deportivo Pereira	Cucuta	1.4	1506049	O15_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_BASE | 2026-03-26 05:02:49 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-25	1835025595	O15_FT	02:00	primera a colombia	Fortaleza FC	Deportivo Pasto	1.48	1506055	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-25	215767011	O15_FT	23:00	liga profesional argentina	Deportivo Riestra	San Lorenzo	1.85	1491989	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-25	1340278348	O15_FT	23:30	primera división paraguay	Club Guarani	2 de Mayo	1.36	1504996	O15_RANDOM_POOL_BASE	predictions.tsv
+

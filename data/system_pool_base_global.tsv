@@ -879,3 +879,13 @@ TSV: 2026-03-24	2256975407	TEAM1_SCORE_FT	21:30	primera a colombia	Deportivo Per
 TSV: 2026-03-24	2256975407	O15_FT	21:30	primera a colombia	Deportivo Pereira	Cucuta	1.4	1506049	SYSTEM_POOL_BASE	predictions.tsv
 TSV: 2026-03-24	2256975407	HT1X_HOME	21:30	primera a colombia	Deportivo Pereira	Cucuta	1.36	1506049	SYSTEM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-03-26 05:02:49 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-25	1835025595	O15_FT	02:00	primera a colombia	Fortaleza FC	Deportivo Pasto	1.48	1506055	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-25	1835025595	HT1X_HOME	02:00	primera a colombia	Fortaleza FC	Deportivo Pasto	1.25	1506055	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-25	215767011	HT1X_HOME	23:00	liga profesional argentina	Deportivo Riestra	San Lorenzo	1.18	1491989	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-25	1340278348	HT05	23:30	primera división paraguay	Club Guarani	2 de Mayo	1.44	1504996	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-25	1340278348	O15_FT	23:30	primera división paraguay	Club Guarani	2 de Mayo	1.36	1504996	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-25	1340278348	HT1X_HOME	23:30	primera división paraguay	Club Guarani	2 de Mayo	1.17	1504996	SYSTEM_POOL_BASE	predictions.tsv
+
