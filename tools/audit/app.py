@@ -785,137 +785,202 @@ with tab2:
 
 
 # ============================================================
-# TAB 3 — INSIGHTS (Rankings ligues & équipes)
+# TAB 3 — INSIGHTS (Rankings ligues & équipes — base complète)
 # ============================================================
+
+# Injecte ROOT dans sys.path pour importer stats_dashboard
+import sys as _sys
+if str(ROOT / "services") not in _sys.path:
+    _sys.path.insert(0, str(ROOT / "services"))
+if str(ROOT) not in _sys.path:
+    _sys.path.insert(0, str(ROOT))
+
+from stats_dashboard import (
+    _pct,
+    _safe_div,
+    _render_table,
+    _baseline_to_int,
+    _baseline_to_float,
+    _standardize_baseline_league_x_bet,
+    _standardize_baseline_team_x_bet,
+)
+
+RANKINGS_DIR = ROOT / "data" / "rankings"
+RANK_LEAGUE_FILE = RANKINGS_DIR / "triskele_ranking_league_x_bet.tsv"
+RANK_TEAM_FILE   = RANKINGS_DIR / "triskele_ranking_team_x_bet.tsv"
+
+BET_LABELS_MAP = {
+    "HT05":           "HT +0.5 (but à la MT)",
+    "HT1X_HOME":      "HT 1X Home (DC MT domicile)",
+    "O15_FT":         "Over 1.5 (FT)",
+    "O25_FT":         "Over 2.5 (FT)",
+    "TEAM1_SCORE_FT": "Équipe 1 marque (FT)",
+    "TEAM2_SCORE_FT": "Équipe 2 marque (FT)",
+    "TEAM1_WIN_FT":   "Victoire Équipe 1 (FT)",
+    "TEAM2_WIN_FT":   "Victoire Équipe 2 (FT)",
+}
+
+# Colonnes stats enrichies présentes dans triskele_ranking_*
+LEAGUE_EXTRA_COLS = [
+    "avg_ft_goals", "avg_ht_goals",
+    "rate_o05_ft", "rate_o15_ft", "rate_o25_ft", "rate_o35_ft",
+    "home_scored_rate", "away_scored_rate", "btts_rate",
+    "home_win_rate", "draw_rate", "away_win_rate",
+    "rate_ht05", "rate_ht1x_home",
+]
+TEAM_EXTRA_COLS = [
+    "avg_goals_for", "avg_goals_against", "avg_goals_total",
+    "rate_scored", "rate_conceded", "rate_clean_sheet",
+    "rate_win", "rate_draw", "rate_loss",
+    "rate_o15_match", "rate_o25_match",
+    "rate_ht05_match", "rate_ht1x",
+]
+
+@st.cache_data(ttl=60)
+def _load_ranking_tsv(path_str: str) -> pd.DataFrame:
+    p = Path(path_str)
+    if not p.exists() or p.stat().st_size == 0:
+        return pd.DataFrame()
+    try:
+        return pd.read_csv(p, sep="\t", dtype=str, keep_default_na=False)
+    except Exception:
+        return pd.DataFrame()
+
+
 with tab3:
     st.header("Insights — Rankings Triskèle")
-    st.caption("Basé sur les fichiers triskele_rank_leagues_x_bet.tsv et triskele_rank_teams_x_bet.tsv")
+    st.caption(f"Source : {RANKINGS_DIR}")
 
-    @st.cache_data(ttl=60)
-    def load_rank_leagues() -> pd.DataFrame:
-        p = ROOT / "data" / "triskele_rank_leagues_x_bet.tsv"
-        if not p.exists():
-            return pd.DataFrame()
-        df = pd.read_csv(p, sep="\t", dtype=str)
-        for col in ["decided", "wins", "losses"]:
-            if col in df.columns:
-                df[col] = pd.to_numeric(df[col], errors="coerce")
-        if "win_rate" in df.columns:
-            df["win_rate"] = pd.to_numeric(df["win_rate"], errors="coerce")
-        return df
+    df_lg_raw = _load_ranking_tsv(str(RANK_LEAGUE_FILE))
+    df_tm_raw = _load_ranking_tsv(str(RANK_TEAM_FILE))
 
-    @st.cache_data(ttl=60)
-    def load_rank_teams() -> pd.DataFrame:
-        p = ROOT / "data" / "triskele_rank_teams_x_bet.tsv"
-        if not p.exists():
-            return pd.DataFrame()
-        df = pd.read_csv(p, sep="\t", dtype=str)
-        for col in ["decided", "wins", "losses", "win_rate", "team_weight_rank", "team_weight"]:
-            if col in df.columns:
-                df[col] = pd.to_numeric(df[col], errors="coerce")
-        return df
+    df_lg_std = _standardize_baseline_league_x_bet(df_lg_raw)
+    df_tm_std = _standardize_baseline_team_x_bet(df_tm_raw)
 
-    BET_LABELS = {
-        "HT05":         "HT +0.5 (but à la MT)",
-        "HT1X_HOME":    "HT 1X Home (DC MT domicile)",
-        "O15_FT":       "Over 1.5 (FT)",
-        "O25_FT":       "Over 2.5 (FT)",
-        "TEAM1_SCORE_FT": "Équipe 1 marque (FT)",
-        "TEAM2_SCORE_FT": "Équipe 2 marque (FT)",
-        "TEAM1_WIN_FT": "Victoire Équipe 1 (FT)",
-        "TEAM2_WIN_FT": "Victoire Équipe 2 (FT)",
-    }
-
-    df_leagues = load_rank_leagues()
-    df_teams   = load_rank_teams()
-
-    if df_leagues.empty and df_teams.empty:
-        st.warning("Fichiers de ranking introuvables dans data/.")
+    if df_lg_std.empty and df_tm_std.empty:
+        st.warning(f"Fichiers de ranking introuvables dans {RANKINGS_DIR}")
     else:
-        # ── Filtre pari ──
-        available_bets = sorted(df_leagues["bet_key"].dropna().unique().tolist()) if not df_leagues.empty else []
-        bet_options = {k: f"{k} — {BET_LABELS.get(k, k)}" for k in available_bets}
-        selected_bet = st.selectbox(
-            "Filtrer par type de pari :",
-            options=list(bet_options.keys()),
-            format_func=lambda k: bet_options[k],
-            index=0
-        )
+        # ── Filtres globaux ──
+        fcol1, fcol2, fcol3 = st.columns([2, 2, 1])
 
-        # ── Toggle éligibles seulement ──
-        only_eligible = st.toggle("Éligibles seulement (seuil de données suffisant)", value=True)
+        with fcol1:
+            all_bets = sorted(df_lg_std["bet_key"].dropna().unique().tolist()) if not df_lg_std.empty else []
+            sel_bets = st.multiselect(
+                "Type(s) de pari",
+                options=all_bets,
+                default=[],
+                format_func=lambda k: f"{k} — {BET_LABELS_MAP.get(k, k)}",
+                key="ins_bets"
+            )
 
-        st.divider()
+        with fcol2:
+            all_leagues = sorted(df_lg_std["league"].dropna().unique().tolist()) if not df_lg_std.empty else []
+            sel_leagues_ins = st.multiselect("Championnat(s)", options=all_leagues, default=[], key="ins_leagues")
 
-        # ─────────────────────────────────────────────
-        # SECTION LIGUES
-        # ─────────────────────────────────────────────
-        st.subheader(f"🌍 Ligues — {bet_options[selected_bet]}")
-
-        if not df_leagues.empty:
-            df_lg = df_leagues[df_leagues["bet_key"] == selected_bet].copy()
-            if only_eligible and "eligible" in df_lg.columns:
-                df_lg = df_lg[df_lg["eligible"].str.strip().str.lower() == "true"]
-            df_lg = df_lg.sort_values("win_rate", ascending=False).reset_index(drop=True)
-
-            if df_lg.empty:
-                st.info("Aucune ligue éligible pour ce pari. Désactive le filtre 'éligibles'.")
-            else:
-                df_lg["Taux %"] = (df_lg["win_rate"] * 100).round(1)
-                display_lg = df_lg.rename(columns={
-                    "league": "Ligue",
-                    "decided": "Matchs",
-                    "wins": "✅ Gagnés",
-                    "losses": "❌ Perdus",
-                })[["Ligue", "Matchs", "✅ Gagnés", "❌ Perdus", "Taux %"]]
-
-                st.dataframe(
-                    display_lg.style.background_gradient(subset=["Taux %"], cmap="RdYlGn", vmin=0, vmax=100),
-                    use_container_width=True, hide_index=True
-                )
-        else:
-            st.info("Fichier triskele_rank_leagues_x_bet.tsv introuvable.")
+        with fcol3:
+            min_samples = st.number_input("Min matchs", min_value=1, value=5, step=1, key="ins_min")
 
         st.divider()
 
-        # ─────────────────────────────────────────────
-        # SECTION ÉQUIPES
-        # ─────────────────────────────────────────────
-        st.subheader(f"👥 Équipes — {bet_options[selected_bet]}")
+        sub_lg, sub_tm = st.tabs(["🌍 Ligues × Bet", "👥 Équipes × Bet"])
 
-        if not df_teams.empty:
-            df_tm = df_teams[df_teams["bet_key"] == selected_bet].copy()
-            if only_eligible and "eligible" in df_tm.columns:
-                df_tm = df_tm[df_tm["eligible"].str.strip().str.lower() == "true"]
-            df_tm = df_tm.sort_values("win_rate", ascending=False).reset_index(drop=True)
-
-            if df_tm.empty:
-                st.info("Aucune équipe éligible pour ce pari. Désactive le filtre 'éligibles'.")
+        # ─────────────────────────────────────────────
+        # ONGLET LIGUES
+        # ─────────────────────────────────────────────
+        with sub_lg:
+            if df_lg_std.empty:
+                st.info(f"Fichier introuvable : {RANK_LEAGUE_FILE}")
             else:
-                df_tm["Taux %"] = (df_tm["win_rate"] * 100).round(1)
-                cols_show = ["team", "decided", "wins", "losses", "Taux %"]
-                rename_map = {
-                    "team": "Équipe",
-                    "decided": "Matchs",
-                    "wins": "✅ Gagnés",
-                    "losses": "❌ Perdus",
-                }
-                if "team_weight" in df_tm.columns:
-                    cols_show.append("team_weight")
-                    rename_map["team_weight"] = "Poids"
-                display_tm = df_tm[cols_show].rename(columns=rename_map)
-                if "Poids" in display_tm.columns:
-                    display_tm["Poids"] = display_tm["Poids"].round(3)
+                # Merge colonnes stats enrichies depuis fichier brut si disponibles
+                df_lg = df_lg_std.copy()
+                if not df_lg_raw.empty:
+                    norm_raw = df_lg_raw.copy()
+                    norm_raw.columns = [c.strip().lstrip("#").strip().lower() for c in norm_raw.columns]
+                    extra_present = [c for c in LEAGUE_EXTRA_COLS if c in norm_raw.columns]
+                    if extra_present and "league" in norm_raw.columns and "bet_key" in norm_raw.columns:
+                        norm_raw["league"] = norm_raw["league"].astype(str).str.strip()
+                        norm_raw["bet_key"] = norm_raw["bet_key"].astype(str).str.strip().str.upper()
+                        for c in extra_present:
+                            norm_raw[c] = pd.to_numeric(norm_raw[c], errors="coerce")
+                        df_lg = df_lg.merge(
+                            norm_raw[["league", "bet_key"] + extra_present],
+                            on=["league", "bet_key"], how="left"
+                        )
 
-                # Filtre texte équipe
-                search = st.text_input("Rechercher une équipe :", key="team_search")
-                if search:
-                    display_tm = display_tm[display_tm["Équipe"].str.contains(search, case=False, na=False)]
+                # Filtres
+                if sel_bets:
+                    df_lg = df_lg[df_lg["bet_key"].isin(sel_bets)]
+                if sel_leagues_ins:
+                    df_lg = df_lg[df_lg["league"].isin(sel_leagues_ins)]
+                df_lg = df_lg[df_lg["decided"] >= int(min_samples)]
+                df_lg = df_lg.sort_values(by=["win_rate", "decided"], ascending=[False, False]).reset_index(drop=True)
 
-                st.dataframe(
-                    display_tm.style.background_gradient(subset=["Taux %"], cmap="RdYlGn", vmin=0, vmax=100),
-                    use_container_width=True, hide_index=True
-                )
-                st.caption(f"{len(display_tm)} équipes affichées")
-        else:
-            st.info("Fichier triskele_rank_teams_x_bet.tsv introuvable.")
+                if df_lg.empty:
+                    st.info("Aucune ligue avec ces filtres.")
+                else:
+                    # Construction du tableau d'affichage
+                    display_cols = {"league": "Championnat", "bet_key": "Bet",
+                                    "decided": "Matchs", "wins": "✅ Wins",
+                                    "losses": "❌ Losses", "win_rate": "Taux"}
+                    extra_display = {c: c for c in LEAGUE_EXTRA_COLS if c in df_lg.columns}
+                    all_display = {**display_cols, **extra_display}
+
+                    view = df_lg[[c for c in all_display.keys() if c in df_lg.columns]].copy()
+                    view = view.rename(columns={k: v for k, v in all_display.items() if k in view.columns})
+
+                    _render_table(view, percent_cols=["Taux"] + [v for v in extra_display.values()], height=600)
+                    st.caption(f"{len(df_lg)} ligues affichées")
+
+        # ─────────────────────────────────────────────
+        # ONGLET ÉQUIPES
+        # ─────────────────────────────────────────────
+        with sub_tm:
+            if df_tm_std.empty:
+                st.info(f"Fichier introuvable : {RANK_TEAM_FILE}")
+            else:
+                df_tm = df_tm_std.copy()
+                if not df_tm_raw.empty:
+                    norm_raw_t = df_tm_raw.copy()
+                    norm_raw_t.columns = [c.strip().lstrip("#").strip().lower() for c in norm_raw_t.columns]
+                    extra_t = [c for c in TEAM_EXTRA_COLS if c in norm_raw_t.columns]
+                    key_cols_t = ["league", "team", "bet_key"] if "league" in norm_raw_t.columns else ["team", "bet_key"]
+                    if extra_t and all(k in norm_raw_t.columns for k in key_cols_t):
+                        for k in key_cols_t:
+                            norm_raw_t[k] = norm_raw_t[k].astype(str).str.strip()
+                        if "bet_key" in norm_raw_t.columns:
+                            norm_raw_t["bet_key"] = norm_raw_t["bet_key"].str.upper()
+                        for c in extra_t:
+                            norm_raw_t[c] = pd.to_numeric(norm_raw_t[c], errors="coerce")
+                        df_tm = df_tm.merge(
+                            norm_raw_t[key_cols_t + extra_t],
+                            on=key_cols_t, how="left"
+                        )
+
+                # Filtres
+                if sel_bets:
+                    df_tm = df_tm[df_tm["bet_key"].isin(sel_bets)]
+                if sel_leagues_ins and "league" in df_tm.columns:
+                    df_tm = df_tm[df_tm["league"].isin(sel_leagues_ins)]
+                df_tm = df_tm[df_tm["decided"] >= int(min_samples)]
+
+                # Recherche équipe
+                search_tm = st.text_input("🔍 Rechercher une équipe", key="ins_team_search")
+                if search_tm:
+                    df_tm = df_tm[df_tm["team"].str.contains(search_tm, case=False, na=False)]
+
+                df_tm = df_tm.sort_values(by=["win_rate", "decided"], ascending=[False, False]).reset_index(drop=True)
+
+                if df_tm.empty:
+                    st.info("Aucune équipe avec ces filtres.")
+                else:
+                    display_cols_t = {"league": "Championnat", "team": "Équipe", "bet_key": "Bet",
+                                      "decided": "Matchs", "wins": "✅ Wins",
+                                      "losses": "❌ Losses", "win_rate": "Taux"}
+                    extra_display_t = {c: c for c in TEAM_EXTRA_COLS if c in df_tm.columns}
+                    all_display_t = {**display_cols_t, **extra_display_t}
+
+                    view_t = df_tm[[c for c in all_display_t.keys() if c in df_tm.columns]].copy()
+                    view_t = view_t.rename(columns={k: v for k, v in all_display_t.items() if k in view_t.columns})
+
+                    _render_table(view_t, percent_cols=["Taux"] + [v for v in extra_display_t.values()], height=600)
+                    st.caption(f"{len(df_tm)} équipes affichées")
