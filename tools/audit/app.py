@@ -438,26 +438,34 @@ def load_tickets_dataset(report_filename: str, period_start: date | None, period
 def parse_verdict_file_to_df(path: Path, source_day: date | None = None) -> pd.DataFrame:
     """
     Parse un fichier verdict_post_analyse_*.txt et retourne un DF:
-    Id | Statut | Legs WIN | Legs LOSS | Legs PENDING | VerdictJour | VerdictSource
+    Id | Statut | Legs WIN | Legs LOSS | Legs PENDING | LegsDétail | VerdictJour | VerdictSource
     """
     text = path.read_text(encoding="utf-8", errors="replace")
 
-    # Chaque bloc ticket commence par: ✅ Ticket 1 | ... puis "id=...." puis "legs=... | WIN=... | LOSS=... | PENDING=..."
-    ticket_block = re.compile(
+    header_re = re.compile(
         r"(?P<status>[✅❌⏳])\s*Ticket\s*(?P<num>\d+)\s*\|.*?\n"
         r"\s*id=(?P<id>[^\s]+)\s*\n"
         r"\s*legs=(?P<legs>\d+)\s*\|\s*WIN=(?P<win>\d+)\s*\|\s*LOSS=(?P<loss>\d+)\s*\|\s*PENDING=(?P<pending>\d+)",
         re.DOTALL
     )
+    leg_re = re.compile(r"([✅❌⏳])\s*(Leg\s*\d+\).*)")
 
     rows = []
-    for m in ticket_block.finditer(text):
+    for block in re.split(r"─{10,}", text):
+        m = header_re.search(block)
+        if not m:
+            continue
+        leg_lines = [
+            f"{lm.group(1)} {lm.group(2).strip()}"
+            for lm in leg_re.finditer(block)
+        ]
         rows.append({
             "Id": m.group("id").strip(),
             "Statut": m.group("status"),
             "Legs WIN": int(m.group("win")),
             "Legs LOSS": int(m.group("loss")),
             "Legs PENDING": int(m.group("pending")),
+            "LegsDétail": leg_lines,
             "VerdictJour": source_day,
             "VerdictSource": str(path),
         })
@@ -517,14 +525,39 @@ def attach_verdict(df_tickets: pd.DataFrame, df_verdict: pd.DataFrame) -> pd.Dat
         df["Legs WIN"] = None
         df["Legs LOSS"] = None
         df["Legs PENDING"] = None
+        df["LegsDétail"] = None
         return df
 
-    df = df_tickets.merge(
-        df_verdict[["Id", "Statut", "Legs WIN", "Legs LOSS", "Legs PENDING"]],
-        on="Id",
-        how="left"
-    )
+    merge_cols = ["Id", "Statut", "Legs WIN", "Legs LOSS", "Legs PENDING"]
+    if "LegsDétail" in df_verdict.columns:
+        merge_cols.append("LegsDétail")
+
+    df = df_tickets.merge(df_verdict[merge_cols], on="Id", how="left")
+    if "LegsDétail" not in df.columns:
+        df["LegsDétail"] = None
     return df
+
+
+def render_ticket_legs(row):
+    """Affiche les legs d'un ticket avec coloration vert/rouge/gris selon résultat."""
+    legs = row.get("LegsDétail") if hasattr(row, "get") else None
+    if legs and isinstance(legs, list) and len(legs) > 0:
+        html_parts = []
+        for leg in legs:
+            s = leg.strip()
+            if s.startswith("✅"):
+                bg = "#1a4d1a"
+            elif s.startswith("❌"):
+                bg = "#4d1a1a"
+            else:
+                bg = "#2d3748"
+            html_parts.append(
+                f'<div style="background:{bg};padding:5px 10px;border-radius:4px;'
+                f'margin:2px 0;font-family:monospace;font-size:13px;color:#f0f0f0">{s}</div>'
+            )
+        st.markdown("".join(html_parts), unsafe_allow_html=True)
+    else:
+        st.code(row["Détail"], language="text")
 
 def sort_tickets_for_display(df: pd.DataFrame) -> pd.DataFrame:
     """
@@ -642,7 +675,7 @@ with st.sidebar.expander("🧩 DIAG fichiers (existence)"):
 # -----------------------------
 # Contenu principal
 # -----------------------------
-tab1, tab2 = st.tabs(["🎯 Tickets", "📄 Fichiers Bruts"])
+tab1, tab2, tab3 = st.tabs(["🎯 Tickets", "📄 Fichiers Bruts", "📊 Insights"])
 
 with tab1:
     st.header(f"Tickets — {period_label}")
@@ -684,7 +717,7 @@ with tab1:
                     status = row["Statut"] if pd.notna(row["Statut"]) else "—"
                     st.markdown(f"**{status} {row['Ticket']} — {jour_str} (Cote: {row['Cote']})**")
                     st.caption(f"id={row['Id']} | fenêtre={row['Fenêtre de jeu']} | legs: W={row.get('Legs WIN')} L={row.get('Legs LOSS')} P={row.get('Legs PENDING')}")
-                    st.code(row["Détail"], language="text")
+                    render_ticket_legs(row)
                     st.divider()
         else:
             st.warning("Aucun ticket système trouvé sur cette période.")
@@ -704,7 +737,7 @@ with tab1:
                     status = row["Statut"] if pd.notna(row["Statut"]) else "—"
                     st.markdown(f"**{status} {row['Ticket']} — {jour_str} (Cote: {row['Cote']})**")
                     st.caption(f"id={row['Id']} | fenêtre={row['Fenêtre de jeu']} | legs: W={row.get('Legs WIN')} L={row.get('Legs LOSS')} P={row.get('Legs PENDING')}")
-                    st.code(row["Détail"], language="text")
+                    render_ticket_legs(row)
                     st.divider()
         else:
             st.warning("Aucun ticket O1.5 Random trouvé sur cette période.")
@@ -749,3 +782,140 @@ with tab2:
             file_path.read_text(encoding="utf-8", errors="replace"),
             height=650
         )
+
+
+# ============================================================
+# TAB 3 — INSIGHTS (Rankings ligues & équipes)
+# ============================================================
+with tab3:
+    st.header("Insights — Rankings Triskèle")
+    st.caption("Basé sur les fichiers triskele_rank_leagues_x_bet.tsv et triskele_rank_teams_x_bet.tsv")
+
+    @st.cache_data(ttl=60)
+    def load_rank_leagues() -> pd.DataFrame:
+        p = ROOT / "data" / "triskele_rank_leagues_x_bet.tsv"
+        if not p.exists():
+            return pd.DataFrame()
+        df = pd.read_csv(p, sep="\t", dtype=str)
+        for col in ["decided", "wins", "losses"]:
+            if col in df.columns:
+                df[col] = pd.to_numeric(df[col], errors="coerce")
+        if "win_rate" in df.columns:
+            df["win_rate"] = pd.to_numeric(df["win_rate"], errors="coerce")
+        return df
+
+    @st.cache_data(ttl=60)
+    def load_rank_teams() -> pd.DataFrame:
+        p = ROOT / "data" / "triskele_rank_teams_x_bet.tsv"
+        if not p.exists():
+            return pd.DataFrame()
+        df = pd.read_csv(p, sep="\t", dtype=str)
+        for col in ["decided", "wins", "losses", "win_rate", "team_weight_rank", "team_weight"]:
+            if col in df.columns:
+                df[col] = pd.to_numeric(df[col], errors="coerce")
+        return df
+
+    BET_LABELS = {
+        "HT05":         "HT +0.5 (but à la MT)",
+        "HT1X_HOME":    "HT 1X Home (DC MT domicile)",
+        "O15_FT":       "Over 1.5 (FT)",
+        "O25_FT":       "Over 2.5 (FT)",
+        "TEAM1_SCORE_FT": "Équipe 1 marque (FT)",
+        "TEAM2_SCORE_FT": "Équipe 2 marque (FT)",
+        "TEAM1_WIN_FT": "Victoire Équipe 1 (FT)",
+        "TEAM2_WIN_FT": "Victoire Équipe 2 (FT)",
+    }
+
+    df_leagues = load_rank_leagues()
+    df_teams   = load_rank_teams()
+
+    if df_leagues.empty and df_teams.empty:
+        st.warning("Fichiers de ranking introuvables dans data/.")
+    else:
+        # ── Filtre pari ──
+        available_bets = sorted(df_leagues["bet_key"].dropna().unique().tolist()) if not df_leagues.empty else []
+        bet_options = {k: f"{k} — {BET_LABELS.get(k, k)}" for k in available_bets}
+        selected_bet = st.selectbox(
+            "Filtrer par type de pari :",
+            options=list(bet_options.keys()),
+            format_func=lambda k: bet_options[k],
+            index=0
+        )
+
+        # ── Toggle éligibles seulement ──
+        only_eligible = st.toggle("Éligibles seulement (seuil de données suffisant)", value=True)
+
+        st.divider()
+
+        # ─────────────────────────────────────────────
+        # SECTION LIGUES
+        # ─────────────────────────────────────────────
+        st.subheader(f"🌍 Ligues — {bet_options[selected_bet]}")
+
+        if not df_leagues.empty:
+            df_lg = df_leagues[df_leagues["bet_key"] == selected_bet].copy()
+            if only_eligible and "eligible" in df_lg.columns:
+                df_lg = df_lg[df_lg["eligible"].str.strip().str.lower() == "true"]
+            df_lg = df_lg.sort_values("win_rate", ascending=False).reset_index(drop=True)
+
+            if df_lg.empty:
+                st.info("Aucune ligue éligible pour ce pari. Désactive le filtre 'éligibles'.")
+            else:
+                df_lg["Taux %"] = (df_lg["win_rate"] * 100).round(1)
+                display_lg = df_lg.rename(columns={
+                    "league": "Ligue",
+                    "decided": "Matchs",
+                    "wins": "✅ Gagnés",
+                    "losses": "❌ Perdus",
+                })[["Ligue", "Matchs", "✅ Gagnés", "❌ Perdus", "Taux %"]]
+
+                st.dataframe(
+                    display_lg.style.background_gradient(subset=["Taux %"], cmap="RdYlGn", vmin=0, vmax=100),
+                    use_container_width=True, hide_index=True
+                )
+        else:
+            st.info("Fichier triskele_rank_leagues_x_bet.tsv introuvable.")
+
+        st.divider()
+
+        # ─────────────────────────────────────────────
+        # SECTION ÉQUIPES
+        # ─────────────────────────────────────────────
+        st.subheader(f"👥 Équipes — {bet_options[selected_bet]}")
+
+        if not df_teams.empty:
+            df_tm = df_teams[df_teams["bet_key"] == selected_bet].copy()
+            if only_eligible and "eligible" in df_tm.columns:
+                df_tm = df_tm[df_tm["eligible"].str.strip().str.lower() == "true"]
+            df_tm = df_tm.sort_values("win_rate", ascending=False).reset_index(drop=True)
+
+            if df_tm.empty:
+                st.info("Aucune équipe éligible pour ce pari. Désactive le filtre 'éligibles'.")
+            else:
+                df_tm["Taux %"] = (df_tm["win_rate"] * 100).round(1)
+                cols_show = ["team", "decided", "wins", "losses", "Taux %"]
+                rename_map = {
+                    "team": "Équipe",
+                    "decided": "Matchs",
+                    "wins": "✅ Gagnés",
+                    "losses": "❌ Perdus",
+                }
+                if "team_weight" in df_tm.columns:
+                    cols_show.append("team_weight")
+                    rename_map["team_weight"] = "Poids"
+                display_tm = df_tm[cols_show].rename(columns=rename_map)
+                if "Poids" in display_tm.columns:
+                    display_tm["Poids"] = display_tm["Poids"].round(3)
+
+                # Filtre texte équipe
+                search = st.text_input("Rechercher une équipe :", key="team_search")
+                if search:
+                    display_tm = display_tm[display_tm["Équipe"].str.contains(search, case=False, na=False)]
+
+                st.dataframe(
+                    display_tm.style.background_gradient(subset=["Taux %"], cmap="RdYlGn", vmin=0, vmax=100),
+                    use_container_width=True, hide_index=True
+                )
+                st.caption(f"{len(display_tm)} équipes affichées")
+        else:
+            st.info("Fichier triskele_rank_teams_x_bet.tsv introuvable.")
