@@ -951,3 +951,73 @@ TSV: 2026-03-26	440943912	HT1X_HOME	20:45	uefa wc qualifiers	Slovakia	Kosovo	1.2
 TSV: 2026-03-26	1286112827	HT1X_HOME	20:45	uefa wc qualifiers	Czech Republic	Rep. Of Ireland	1.17	1487923	SYSTEM_POOL_BASE	predictions.tsv
 TSV: 2026-03-26	2707294273	TEAM1_SCORE_FT	20:45	uefa wc qualifiers	Wales	Bosnia & Herzegovina	1.17	1487929	SYSTEM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-03-27 17:50:22 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-27	682514211	O15_FT	01:00	liga profesional argentina	Argentinos JRS	Lanus	1.57	1491893	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	4190224086	O15_FT	13:30	international friendlies	Iran	Nigeria	1.44	1527854	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1232143080	O25_FT	14:00	international friendlies	Tunisia U20	Mauritania U20	1.9	1537171	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1232143080	TEAM2_SCORE_FT	14:00	international friendlies	Tunisia U20	Mauritania U20	1.5	1537171	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1232143080	HT05	14:00	international friendlies	Tunisia U20	Mauritania U20	1.36	1537171	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1232143080	O15_FT	14:00	international friendlies	Tunisia U20	Mauritania U20	1.28	1537171	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1232143080	HT1X_HOME	14:00	international friendlies	Tunisia U20	Mauritania U20	1.2	1537171	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	297889635	HT05	15:30	international friendlies	Italy U20	England U20	1.39	1536908	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	297889635	O15_FT	15:30	international friendlies	Italy U20	England U20	1.3	1536908	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	297889635	TEAM2_SCORE_FT	15:30	international friendlies	Italy U20	England U20	1.28	1536908	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	297889635	HT1X_HOME	15:30	international friendlies	Italy U20	England U20	1.26	1536908	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	747004000	O15_FT	16:00	international friendlies	Benin	Liberia	1.57	1537640	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	747004000	HT05	16:00	international friendlies	Benin	Liberia	1.53	1537640	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	173218561	HT05	16:00	international friendlies	Russia	Mali	1.46	1525450	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3776625672	O15_FT	16:00	international friendlies	Guinea	Togo	1.42	1528271	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	173218561	O15_FT	16:00	international friendlies	Russia	Mali	1.35	1525450	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3776625672	TEAM1_SCORE_FT	16:00	international friendlies	Guinea	Togo	1.27	1528271	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	747004000	HT1X_HOME	16:00	international friendlies	Benin	Liberia	1.15	1537640	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1564283800	O25_FT	18:00	international friendlies	Montenegro	Andorra	1.91	1527856	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	64148703	TEAM1_WIN_FT	18:00	international friendlies	Austria	Ghana	1.57	1511731	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1564283800	HT05	18:00	international friendlies	Montenegro	Andorra	1.36	1527856	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	64148703	HT05	18:00	international friendlies	Austria	Ghana	1.35	1511731	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1564283800	O15_FT	18:00	international friendlies	Montenegro	Andorra	1.28	1527856	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	64148703	O15_FT	18:00	international friendlies	Austria	Ghana	1.25	1511731	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3989846649	O25_FT	18:30	international friendlies	Jordan	Costa Rica	2.2	1527855	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3989846649	HT05	18:30	international friendlies	Jordan	Costa Rica	1.44	1527855	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3989846649	TEAM1_SCORE_FT	18:30	international friendlies	Jordan	Costa Rica	1.4	1527855	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3989846649	O15_FT	18:30	international friendlies	Jordan	Costa Rica	1.38	1527855	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3989846649	HT1X_HOME	18:30	international friendlies	Jordan	Costa Rica	1.33	1527855	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	2558825703	HT1X_HOME	18:30	international friendlies	Saudi Arabia	Egypt	1.33	1514461	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3322306026	O15_FT	19:00	international friendlies	Libya	Niger	1.44	1536907	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3322306026	TEAM1_SCORE_FT	19:00	international friendlies	Libya	Niger	1.3	1536907	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3409356927	HT05	19:00	laliga2	Cordoba	Mirandes	1.25	1392111	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3322306026	HT1X_HOME	19:00	international friendlies	Libya	Niger	1.2	1536907	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3409356927	O15_FT	19:00	laliga2	Cordoba	Mirandes	1.2	1392111	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3409356927	HT1X_HOME	19:00	laliga2	Cordoba	Mirandes	1.17	1392111	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3112545071	O25_FT	20:00	international friendlies	Greece	Paraguay	2.1	1527858	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3112545071	O15_FT	20:00	international friendlies	Greece	Paraguay	1.38	1527858	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3112545071	TEAM1_SCORE_FT	20:00	international friendlies	Greece	Paraguay	1.22	1527858	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3112545071	HT1X_HOME	20:00	international friendlies	Greece	Paraguay	1.2	1527858	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	853299717	HT05	20:30	international friendlies	Algeria	Guatemala	1.4	1527859	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	853299717	O15_FT	20:30	international friendlies	Algeria	Guatemala	1.36	1527859	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1890606432	O25_FT	20:45	international friendlies	England	Uruguay	2.1	1502470	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	4162542754	HT1X_HOME	20:45	cymru premier league	Caernarfon Town	The New Saints	1.8	1508979	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3290547590	O25_FT	20:45	international friendlies	Netherlands	Norway	1.62	1503005	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	4162542754	O25_FT	20:45	cymru premier league	Caernarfon Town	The New Saints	1.5	1508979	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	900994503	HT1X_HOME	20:45	international friendlies	Switzerland	Germany	1.48	1502471	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	4162542754	TEAM1_SCORE_FT	20:45	cymru premier league	Caernarfon Town	The New Saints	1.42	1508979	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1890606432	HT05	20:45	international friendlies	England	Uruguay	1.4	1502470	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1890606432	O15_FT	20:45	international friendlies	England	Uruguay	1.35	1502470	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	900994503	HT05	20:45	international friendlies	Switzerland	Germany	1.3	1502471	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3290547590	HT05	20:45	international friendlies	Netherlands	Norway	1.28	1503005	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	4162542754	HT05	20:45	cymru premier league	Caernarfon Town	The New Saints	1.25	1508979	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	900994503	O15_FT	20:45	international friendlies	Switzerland	Germany	1.22	1502471	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3290547590	O15_FT	20:45	international friendlies	Netherlands	Norway	1.2	1503005	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	742938259	HT05	21:00	international friendlies	Spain	Serbia	1.18	1536910	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1305293929	O15_FT	21:15	international friendlies	Morocco	Ecuador	1.62	1522229	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1305293929	TEAM1_SCORE_FT	21:15	international friendlies	Morocco	Ecuador	1.44	1522229	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1305293929	HT1X_HOME	21:15	international friendlies	Morocco	Ecuador	1.25	1522229	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	2317327555	O15_FT	22:00	primera a colombia	Águilas Doradas	Alianza Valledupar	1.57	1506057	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	2317327555	HT1X_HOME	22:00	primera a colombia	Águilas Doradas	Alianza Valledupar	1.2	1506057	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3805282673	O25_FT	22:30	primera división paraguay	Nacional Asuncion	Sportivo Luqueno	2.5	1505034	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3805282673	HT05	22:30	primera división paraguay	Nacional Asuncion	Sportivo Luqueno	1.53	1505034	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3805282673	O15_FT	22:30	primera división paraguay	Nacional Asuncion	Sportivo Luqueno	1.44	1505034	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3805282673	TEAM1_SCORE_FT	22:30	primera división paraguay	Nacional Asuncion	Sportivo Luqueno	1.27	1505034	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3805282673	HT1X_HOME	22:30	primera división paraguay	Nacional Asuncion	Sportivo Luqueno	1.17	1505034	SYSTEM_POOL_BASE	predictions.tsv
+

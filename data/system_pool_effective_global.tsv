@@ -554,3 +554,12 @@ TSV: 2026-03-25	1835025595	O15_FT	02:00	primera a colombia	Fortaleza FC	Deportiv
 TSV: 2026-03-25	1835025595	HT1X_HOME	02:00	primera a colombia	Fortaleza FC	Deportivo Pasto	1.25	1506055	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-03-25	215767011	HT1X_HOME	23:00	liga profesional argentina	Deportivo Riestra	San Lorenzo	1.18	1491989	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-03-27 17:50:22 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-27	3409356927	HT05	19:00	laliga2	Cordoba	Mirandes	1.25	1392111	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3409356927	O15_FT	19:00	laliga2	Cordoba	Mirandes	1.2	1392111	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3409356927	HT1X_HOME	19:00	laliga2	Cordoba	Mirandes	1.17	1392111	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	2317327555	O15_FT	22:00	primera a colombia	Águilas Doradas	Alianza Valledupar	1.57	1506057	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	2317327555	HT1X_HOME	22:00	primera a colombia	Águilas Doradas	Alianza Valledupar	1.2	1506057	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+

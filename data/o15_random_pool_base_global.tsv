@@ -715,3 +715,28 @@ TSV: 2026-03-26	2707294273	O15_FT	20:45	uefa wc qualifiers	Wales	Bosnia & Herzeg
 TSV: 2026-03-26	3825602624	O15_FT	20:45	uefa wc qualifiers	Italy	Northern Ireland	1.28	1487925	O15_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-03-26	4085794911	O15_FT	20:45	uefa wc qualifiers	Denmark	FYR Macedonia	1.2	1487924	O15_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_BASE | 2026-03-27 17:50:23 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-27	682514211	O15_FT	01:00	liga profesional argentina	Argentinos JRS	Lanus	1.57	1491893	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	4190224086	O15_FT	13:30	international friendlies	Iran	Nigeria	1.44	1527854	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1232143080	O15_FT	14:00	international friendlies	Tunisia U20	Mauritania U20	1.28	1537171	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	297889635	O15_FT	15:30	international friendlies	Italy U20	England U20	1.3	1536908	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	747004000	O15_FT	16:00	international friendlies	Benin	Liberia	1.57	1537640	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3776625672	O15_FT	16:00	international friendlies	Guinea	Togo	1.42	1528271	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	173218561	O15_FT	16:00	international friendlies	Russia	Mali	1.35	1525450	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1564283800	O15_FT	18:00	international friendlies	Montenegro	Andorra	1.28	1527856	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	64148703	O15_FT	18:00	international friendlies	Austria	Ghana	1.25	1511731	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	2558825703	O15_FT	18:30	international friendlies	Saudi Arabia	Egypt	1.44	1514461	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3989846649	O15_FT	18:30	international friendlies	Jordan	Costa Rica	1.38	1527855	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3322306026	O15_FT	19:00	international friendlies	Libya	Niger	1.44	1536907	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3409356927	O15_FT	19:00	laliga2	Cordoba	Mirandes	1.2	1392111	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3112545071	O15_FT	20:00	international friendlies	Greece	Paraguay	1.38	1527858	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	853299717	O15_FT	20:30	international friendlies	Algeria	Guatemala	1.36	1527859	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1890606432	O15_FT	20:45	international friendlies	England	Uruguay	1.35	1502470	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	900994503	O15_FT	20:45	international friendlies	Switzerland	Germany	1.22	1502471	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3290547590	O15_FT	20:45	international friendlies	Netherlands	Norway	1.2	1503005	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1305293929	O15_FT	21:15	international friendlies	Morocco	Ecuador	1.62	1522229	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	2317327555	O15_FT	22:00	primera a colombia	Águilas Doradas	Alianza Valledupar	1.57	1506057	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3805282673	O15_FT	22:30	primera división paraguay	Nacional Asuncion	Sportivo Luqueno	1.44	1505034	O15_RANDOM_POOL_BASE	predictions.tsv
+

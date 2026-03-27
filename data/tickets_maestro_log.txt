@@ -1,12 +1,31 @@
-RUN MAESTROLOGUE — 2026-03-26 20:20:25
+RUN MAESTROLOGUE — 2026-03-27 17:50:22
 - source_tsv: predictions.tsv
 - run_date: ALL
 - maestro_level: 3
 ========================================
 
-MAESTROLOGUE — RANDOM — 2026-03-26
-- picks_total: 1
-- unique_matches_day: 1
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 14422 | valid_3L_found: 0 | valid_4L_found: 0
+- top3_size: 0 | top4_size: 0
+
+TOP3 (desc):
+  (vide)
+
+TOP4 (desc):
+  (vide)
+
+DRAW_3L: (aucun)
+DRAW_4L: (aucun)
+- écart relatif: —
+=> choisi: aucun (aucune combinaison valide)
+
+MAESTROLOGUE — SYSTEM — 2026-03-27
+========================================
+- picks_total: 5
+- unique_matches_day: 2
 - rich_day: False
 - max_windows_today: 1
 - windows_count: 1
@@ -14,16 +33,63 @@ MAESTROLOGUE — RANDOM — 2026-03-26
 - min_accept_odd: 1.8
 - replay_after_last_kickoff: 110 min
 
-WINDOW 1 | 02:00 -> 02:00
-  - raw_window_picks: 1
-  - filtered_window_picks: 1
-  - ok_window: 1
+WINDOW 1 | 19:00 -> 22:00
+  - raw_window_picks: 5
+  - filtered_window_picks: 5
+  - ok_window: 5
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 1.35
-  - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
-  -> ABANDON: cote max insuffisante même après fusion (1.35 < min_accept=1.8)
+  - max_possible_odd(ok_window): 1.96
+  - threshold_used_here: 1.8
+  -> ABANDON: aucune combinaison valide
+
+FIN JOURNÉE
+------------------
+- tickets_built: 0 / 1
+- next_window_start: 00:00
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: LEAGUE x BET >= 0.72 (require_data=True)
+- select_source: LEAGUE x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 67289 | valid_3L_found: 0 | valid_4L_found: 0
+- top3_size: 0 | top4_size: 0
+- rejected_by_build_gate (approx): 0
+
+TOP3 (desc):
+  (vide)
+
+TOP4 (desc):
+  (vide)
+
+DRAW_3L: (aucun)
+DRAW_4L: (aucun)
+- écart relatif: —
+=> choisi: aucun (aucune combinaison valide)
+
+MAESTROLOGUE — RANDOM — 2026-03-27
+========================================
+- picks_total: 2
+- unique_matches_day: 2
+- rich_day: False
+- max_windows_today: 1
+- windows_count: 1
+- target_odd: 2.4
+- min_accept_odd: 1.8
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 19:00 -> 22:00
+  - raw_window_picks: 2
+  - filtered_window_picks: 2
+  - ok_window: 2
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 1.88
+  - threshold_used_here: 1.8
+  -> ABANDON: aucune combinaison valide
 
 FIN JOURNÉE
 ------------------

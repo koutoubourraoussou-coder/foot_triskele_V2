@@ -1,20 +1,39 @@
-2026-03-26 12:00 | international friendlies | Iceland U19 vs USA U18
-2026-03-26 13:00 | international friendlies | Vietnam vs Bangladesh
-2026-03-26 14:00 | international friendlies | Qatar vs Serbia
-2026-03-26 14:00 | international friendlies | Singapore vs Faroe Islands
-2026-03-26 15:00 | international friendlies | Kyrgyz Republic U23 vs Serbia U21
-2026-03-26 16:00 | international friendlies | Moldova vs Lithuania
-2026-03-26 16:25 | international friendlies | United Arab Emirates vs Armenia
-2026-03-26 18:00 | international friendlies | Cyprus vs Belarus
-2026-03-26 18:00 | international friendlies | Georgia vs Israel
-2026-03-26 19:30 | international friendlies | Hungary U21 vs Israel U21
-2026-03-26 21:00 | international friendlies | Brazil vs France
-2026-03-26 02:00 | primera a colombia | America de Cali vs Llaneros
-2026-03-26 18:00 | uefa wc qualifiers | Türkiye vs Romania
-2026-03-26 20:45 | uefa wc qualifiers | Czech Republic vs Rep. Of Ireland
-2026-03-26 20:45 | uefa wc qualifiers | Denmark vs FYR Macedonia
-2026-03-26 20:45 | uefa wc qualifiers | Italy vs Northern Ireland
-2026-03-26 20:45 | uefa wc qualifiers | Poland vs Albania
-2026-03-26 20:45 | uefa wc qualifiers | Slovakia vs Kosovo
-2026-03-26 20:45 | uefa wc qualifiers | Ukraine vs Sweden
-2026-03-26 20:45 | uefa wc qualifiers | Wales vs Bosnia & Herzegovina
+2026-03-27 20:45 | cymru premier league | Caernarfon Town vs The New Saints
+2026-03-27 00:30 | international friendlies | Colombia vs Croatia
+2026-03-27 07:00 | international friendlies | Japan U21 vs USA U21
+2026-03-27 13:30 | international friendlies | Iran vs Nigeria
+2026-03-27 14:00 | international friendlies | Benin vs Palestine
+2026-03-27 14:00 | international friendlies | Kyrgyz Republic U23 vs Jordan U23
+2026-03-27 14:00 | international friendlies | Liberia vs Mauritania
+2026-03-27 14:00 | international friendlies | Tunisia U20 vs Mauritania U20
+2026-03-27 14:30 | international friendlies | Russia U21 vs Uzbekistan U23
+2026-03-27 15:00 | international friendlies | Argentina U20 vs United States U20
+2026-03-27 15:30 | international friendlies | Italy U20 vs England U20
+2026-03-27 16:00 | international friendlies | Benin vs Liberia
+2026-03-27 16:00 | international friendlies | Guinea vs Togo
+2026-03-27 16:00 | international friendlies | Russia vs Mali
+2026-03-27 16:00 | international friendlies | Slovakia U18 vs Serbia U18
+2026-03-27 17:00 | international friendlies | Côte d'Ivoire U20 vs Tunisia U23
+2026-03-27 17:00 | international friendlies | Kyrgyz Republic U20 vs Bosnia-Herzegovina U17
+2026-03-27 17:00 | international friendlies | Mexico U20 vs Costa Rica U20
+2026-03-27 17:00 | international friendlies | UAE U23 vs Oman U23
+2026-03-27 17:30 | international friendlies | Russia vs Nicaragua
+2026-03-27 18:00 | international friendlies | Algeria U23 vs Congo DR U23
+2026-03-27 18:00 | international friendlies | Austria vs Ghana
+2026-03-27 18:00 | international friendlies | Montenegro vs Andorra
+2026-03-27 18:00 | international friendlies | South Africa vs Panama
+2026-03-27 18:30 | international friendlies | Jordan vs Costa Rica
+2026-03-27 18:30 | international friendlies | Saudi Arabia vs Egypt
+2026-03-27 19:00 | international friendlies | Libya vs Niger
+2026-03-27 20:00 | international friendlies | Greece vs Paraguay
+2026-03-27 20:30 | international friendlies | Algeria vs Guatemala
+2026-03-27 20:45 | international friendlies | England vs Uruguay
+2026-03-27 20:45 | international friendlies | Netherlands vs Norway
+2026-03-27 20:45 | international friendlies | Switzerland vs Germany
+2026-03-27 21:00 | international friendlies | Spain vs Serbia
+2026-03-27 21:15 | international friendlies | Morocco vs Ecuador
+2026-03-27 19:00 | laliga2 | Cordoba vs Mirandes
+2026-03-27 01:00 | liga profesional argentina | Argentinos JRS vs Lanus
+2026-03-27 22:00 | primera a colombia | Águilas Doradas vs Alianza Valledupar
+2026-03-27 00:00 | primera división paraguay | Deportivo Recoleta vs Rubio NU
+2026-03-27 22:30 | primera división paraguay | Nacional Asuncion vs Sportivo Luqueno

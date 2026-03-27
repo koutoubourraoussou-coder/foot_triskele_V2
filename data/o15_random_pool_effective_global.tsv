@@ -512,3 +512,9 @@ TSV: 2026-03-25	1835025595	O15_FT	02:00	primera a colombia	Fortaleza FC	Deportiv
 # ------------------------------------------------------------------
 TSV: 2026-03-26	850924886	O15_FT	02:00	primera a colombia	America de Cali	Llaneros	1.35	1506056	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_EFFECTIVE | 2026-03-27 17:50:23 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-27	3409356927	O15_FT	19:00	laliga2	Cordoba	Mirandes	1.2	1392111	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	2317327555	O15_FT	22:00	primera a colombia	Águilas Doradas	Alianza Valledupar	1.57	1506057	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+
