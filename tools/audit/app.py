@@ -14,6 +14,18 @@ ROOT = Path(__file__).resolve().parents[2]
 ARCHIVE_DIR = ROOT / "archive"
 APP_VERSION = "BUILD_2026_02_27_V1"
 
+# Imports stats_dashboard (doit être fait AVANT tout code Streamlit)
+for _p in [str(ROOT / "services"), str(ROOT)]:
+    if _p not in sys.path:
+        sys.path.insert(0, _p)
+
+from stats_dashboard import (  # noqa: E402
+    _pct,
+    _render_table,
+    _standardize_baseline_league_x_bet,
+    _standardize_baseline_team_x_bet,
+)
+
 st.set_page_config(page_title="⚡️🤖 Machine TreeSkale", page_icon="⚡️", layout="wide")
 
 st.title("⚡️ Machine TreeSkale")
@@ -787,23 +799,6 @@ with tab2:
 # ============================================================
 # TAB 3 — INSIGHTS (Rankings ligues & équipes — base complète)
 # ============================================================
-
-# Injecte ROOT dans sys.path pour importer stats_dashboard
-import sys as _sys
-if str(ROOT / "services") not in _sys.path:
-    _sys.path.insert(0, str(ROOT / "services"))
-if str(ROOT) not in _sys.path:
-    _sys.path.insert(0, str(ROOT))
-
-from stats_dashboard import (
-    _pct,
-    _safe_div,
-    _render_table,
-    _baseline_to_int,
-    _baseline_to_float,
-    _standardize_baseline_league_x_bet,
-    _standardize_baseline_team_x_bet,
-)
 
 RANKINGS_DIR = ROOT / "data" / "rankings"
 RANK_LEAGUE_FILE = RANKINGS_DIR / "triskele_ranking_league_x_bet.tsv"
