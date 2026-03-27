@@ -896,20 +896,6 @@ BET_LABELS_MAP = {
 }
 
 # Colonnes stats enrichies présentes dans triskele_ranking_*
-LEAGUE_EXTRA_COLS = [
-    "avg_ft_goals", "avg_ht_goals",
-    "rate_o05_ft", "rate_o15_ft", "rate_o25_ft", "rate_o35_ft",
-    "home_scored_rate", "away_scored_rate", "btts_rate",
-    "home_win_rate", "draw_rate", "away_win_rate",
-    "rate_ht05", "rate_ht1x_home",
-]
-TEAM_EXTRA_COLS = [
-    "avg_goals_for", "avg_goals_against", "avg_goals_total",
-    "rate_scored", "rate_conceded", "rate_clean_sheet",
-    "rate_win", "rate_draw", "rate_loss",
-    "rate_o15_match", "rate_o25_match",
-    "rate_ht05_match", "rate_ht1x",
-]
 
 @st.cache_data(ttl=60)
 def _load_ranking_tsv(path_str: str) -> pd.DataFrame:
@@ -970,23 +956,7 @@ with tab3:
             if df_lg_std.empty:
                 st.info(f"Fichier introuvable : {RANK_LEAGUE_FILE}")
             else:
-                # Merge colonnes stats enrichies depuis fichier brut si disponibles
                 df_lg = df_lg_std.copy()
-                if not df_lg_raw.empty:
-                    norm_raw = df_lg_raw.copy()
-                    norm_raw.columns = [c.strip().lstrip("#").strip().lower() for c in norm_raw.columns]
-                    extra_present = [c for c in LEAGUE_EXTRA_COLS if c in norm_raw.columns]
-                    if extra_present and "league" in norm_raw.columns and "bet_key" in norm_raw.columns:
-                        norm_raw["league"] = norm_raw["league"].astype(str).str.strip()
-                        norm_raw["bet_key"] = norm_raw["bet_key"].astype(str).str.strip().str.upper()
-                        for c in extra_present:
-                            norm_raw[c] = pd.to_numeric(norm_raw[c], errors="coerce")
-                        df_lg = df_lg.merge(
-                            norm_raw[["league", "bet_key"] + extra_present],
-                            on=["league", "bet_key"], how="left"
-                        )
-
-                # Filtres
                 if sel_bets:
                     df_lg = df_lg[df_lg["bet_key"].isin(sel_bets)]
                 if sel_leagues_ins:
@@ -997,17 +967,13 @@ with tab3:
                 if df_lg.empty:
                     st.info("Aucune ligue avec ces filtres.")
                 else:
-                    # Construction du tableau d'affichage
-                    display_cols = {"league": "Championnat", "bet_key": "Bet",
-                                    "decided": "Matchs", "wins": "✅ Wins",
-                                    "losses": "❌ Losses", "win_rate": "Taux"}
-                    extra_display = {c: c for c in LEAGUE_EXTRA_COLS if c in df_lg.columns}
-                    all_display = {**display_cols, **extra_display}
-
-                    view = df_lg[[c for c in all_display.keys() if c in df_lg.columns]].copy()
-                    view = view.rename(columns={k: v for k, v in all_display.items() if k in view.columns})
-
-                    _render_table(view, percent_cols=["Taux"] + [v for v in extra_display.values()], height=600)
+                    view = df_lg[["league", "bet_key", "decided", "wins", "losses", "win_rate"]].copy()
+                    view = view.rename(columns={
+                        "league": "Championnat", "bet_key": "Bet",
+                        "decided": "Matchs", "wins": "✅ Wins",
+                        "losses": "❌ Losses", "win_rate": "Taux"
+                    })
+                    _render_table(view, percent_cols=["Taux"], height=600)
                     st.caption(f"{len(df_lg)} ligues affichées")
 
         # ─────────────────────────────────────────────
@@ -1018,24 +984,6 @@ with tab3:
                 st.info(f"Fichier introuvable : {RANK_TEAM_FILE}")
             else:
                 df_tm = df_tm_std.copy()
-                if not df_tm_raw.empty:
-                    norm_raw_t = df_tm_raw.copy()
-                    norm_raw_t.columns = [c.strip().lstrip("#").strip().lower() for c in norm_raw_t.columns]
-                    extra_t = [c for c in TEAM_EXTRA_COLS if c in norm_raw_t.columns]
-                    key_cols_t = ["league", "team", "bet_key"] if "league" in norm_raw_t.columns else ["team", "bet_key"]
-                    if extra_t and all(k in norm_raw_t.columns for k in key_cols_t):
-                        for k in key_cols_t:
-                            norm_raw_t[k] = norm_raw_t[k].astype(str).str.strip()
-                        if "bet_key" in norm_raw_t.columns:
-                            norm_raw_t["bet_key"] = norm_raw_t["bet_key"].str.upper()
-                        for c in extra_t:
-                            norm_raw_t[c] = pd.to_numeric(norm_raw_t[c], errors="coerce")
-                        df_tm = df_tm.merge(
-                            norm_raw_t[key_cols_t + extra_t],
-                            on=key_cols_t, how="left"
-                        )
-
-                # Filtres
                 if sel_bets:
                     df_tm = df_tm[df_tm["bet_key"].isin(sel_bets)]
                 if sel_leagues_ins and "league" in df_tm.columns:
@@ -1043,20 +991,17 @@ with tab3:
                 if sel_teams_ins:
                     df_tm = df_tm[df_tm["team"].isin(sel_teams_ins)]
                 df_tm = df_tm[df_tm["decided"] >= int(min_samples)]
-
                 df_tm = df_tm.sort_values(by=["win_rate", "decided"], ascending=[False, False]).reset_index(drop=True)
 
                 if df_tm.empty:
                     st.info("Aucune équipe avec ces filtres.")
                 else:
-                    display_cols_t = {"league": "Championnat", "team": "Équipe", "bet_key": "Bet",
-                                      "decided": "Matchs", "wins": "✅ Wins",
-                                      "losses": "❌ Losses", "win_rate": "Taux"}
-                    extra_display_t = {c: c for c in TEAM_EXTRA_COLS if c in df_tm.columns}
-                    all_display_t = {**display_cols_t, **extra_display_t}
-
-                    view_t = df_tm[[c for c in all_display_t.keys() if c in df_tm.columns]].copy()
-                    view_t = view_t.rename(columns={k: v for k, v in all_display_t.items() if k in view_t.columns})
-
-                    _render_table(view_t, percent_cols=["Taux"] + [v for v in extra_display_t.values()], height=600)
+                    cols_t = ["league", "team", "bet_key", "decided", "wins", "losses", "win_rate"]
+                    view_t = df_tm[[c for c in cols_t if c in df_tm.columns]].copy()
+                    view_t = view_t.rename(columns={
+                        "league": "Championnat", "team": "Équipe", "bet_key": "Bet",
+                        "decided": "Matchs", "wins": "✅ Wins",
+                        "losses": "❌ Losses", "win_rate": "Taux"
+                    })
+                    _render_table(view_t, percent_cols=["Taux"], height=600)
                     st.caption(f"{len(df_tm)} équipes affichées")
