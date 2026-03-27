@@ -5406,27 +5406,6 @@ TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	TEAM2_SCOR
 TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	0	PENDING	PST	1505956			02:00
 TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	PENDING	PST	1505956			02:00
 TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	HT05	HT+0.5	8.0	MEGA EXPLOSION	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	HT05	HT+0.5	8.0	MEGA EXPLOSION	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	HT05	HT+0.5	8.0	MEGA EXPLOSION	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	PENDING	PST	1505956			02:00
-TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	PENDING	PST	1505956			02:00
 TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	239	2-6	1-3	02:00
 TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	239	2-6	1-3	02:00
 TSV: 199783245	2026-01-31	primera a colombia	Junior	Atletico Nacional	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	239	2-6	1-3	02:00
@@ -6106,13 +6085,6 @@ TSV: 723112159	2026-02-01	liga portugal 2	Sporting CP B	Oliveirense	TEAM2_SCORE_
 TSV: 723112159	2026-02-01	liga portugal 2	Sporting CP B	Oliveirense	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1398147	2-0	1-0	12:00
 TSV: 723112159	2026-02-01	liga portugal 2	Sporting CP B	Oliveirense	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1398147	2-0	1-0	12:00
 TSV: 723112159	2026-02-01	liga portugal 2	Sporting CP B	Oliveirense	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1398147	2-0	1-0	12:00
-TSV: 2929187483	2026-02-01	liga portugal 2	União de Leiria	Pacos Ferreira	HT05	HT+0.5	3.0	MOYEN PLUS	0	PENDING	PST	1398144			12:00
-TSV: 2929187483	2026-02-01	liga portugal 2	União de Leiria	Pacos Ferreira	HT1X_HOME	HT 1X Home	8.0	MEGA EXPLOSION	0	PENDING	PST	1398144			12:00
-TSV: 2929187483	2026-02-01	liga portugal 2	União de Leiria	Pacos Ferreira	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	PENDING	PST	1398144			12:00
-TSV: 2929187483	2026-02-01	liga portugal 2	União de Leiria	Pacos Ferreira	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	PENDING	PST	1398144			12:00
-TSV: 2929187483	2026-02-01	liga portugal 2	União de Leiria	Pacos Ferreira	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	PENDING	PST	1398144			12:00
-TSV: 2929187483	2026-02-01	liga portugal 2	União de Leiria	Pacos Ferreira	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	PENDING	PST	1398144			12:00
-TSV: 2929187483	2026-02-01	liga portugal 2	União de Leiria	Pacos Ferreira	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	PENDING	PST	1398144			12:00
 TSV: 2929187483	2026-02-01	liga portugal 2	União de Leiria	Pacos Ferreira	HT05	HT+0.5	3.0	MOYEN PLUS	0	PENDING	PST	1398144			12:00
 TSV: 2929187483	2026-02-01	liga portugal 2	União de Leiria	Pacos Ferreira	HT1X_HOME	HT 1X Home	8.0	MEGA EXPLOSION	0	PENDING	PST	1398144			12:00
 TSV: 2929187483	2026-02-01	liga portugal 2	União de Leiria	Pacos Ferreira	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	PENDING	PST	1398144			12:00
@@ -6813,20 +6785,6 @@ TSV: 2606474666	2026-02-03	serie a italia	Bologna	AC Milan	TEAM2_SCORE_FT	Team2 
 TSV: 2606474666	2026-02-03	serie a italia	Bologna	AC Milan	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1378084	0-3	0-2	20:45
 TSV: 2606474666	2026-02-03	serie a italia	Bologna	AC Milan	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1378084	0-3	0-2	20:45
 TSV: 2606474666	2026-02-03	serie a italia	Bologna	AC Milan	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1378084	0-3	0-2	20:45
-TSV: 2278119494	2026-02-03	championship	Portsmouth	Ipswich	HT05	HT+0.5	2.0	MOYEN	0	PENDING	PST	1386857			20:45
-TSV: 2278119494	2026-02-03	championship	Portsmouth	Ipswich	HT1X_HOME	HT 1X Home	1.0	FAIBLE	0	PENDING	PST	1386857			20:45
-TSV: 2278119494	2026-02-03	championship	Portsmouth	Ipswich	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	PENDING	PST	1386857			20:45
-TSV: 2278119494	2026-02-03	championship	Portsmouth	Ipswich	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	PENDING	PST	1386857			20:45
-TSV: 2278119494	2026-02-03	championship	Portsmouth	Ipswich	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	PENDING	PST	1386857			20:45
-TSV: 2278119494	2026-02-03	championship	Portsmouth	Ipswich	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	PENDING	PST	1386857			20:45
-TSV: 2278119494	2026-02-03	championship	Portsmouth	Ipswich	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	PENDING	PST	1386857			20:45
-TSV: 2278119494	2026-02-03	championship	Portsmouth	Ipswich	HT05	HT+0.5	2.0	MOYEN	0	PENDING	PST	1386857			20:45
-TSV: 2278119494	2026-02-03	championship	Portsmouth	Ipswich	HT1X_HOME	HT 1X Home	1.0	FAIBLE	0	PENDING	PST	1386857			20:45
-TSV: 2278119494	2026-02-03	championship	Portsmouth	Ipswich	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	PENDING	PST	1386857			20:45
-TSV: 2278119494	2026-02-03	championship	Portsmouth	Ipswich	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	PENDING	PST	1386857			20:45
-TSV: 2278119494	2026-02-03	championship	Portsmouth	Ipswich	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	PENDING	PST	1386857			20:45
-TSV: 2278119494	2026-02-03	championship	Portsmouth	Ipswich	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	PENDING	PST	1386857			20:45
-TSV: 2278119494	2026-02-03	championship	Portsmouth	Ipswich	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	PENDING	PST	1386857			20:45
 TSV: 3737130876	2026-02-03	copa del rey	Albacete	Barcelona	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1509770	1-2	0-1	21:00
 TSV: 3737130876	2026-02-03	copa del rey	Albacete	Barcelona	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	LOSS	FT	1509770	1-2	0-1	21:00
 TSV: 3737130876	2026-02-03	copa del rey	Albacete	Barcelona	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1509770	1-2	0-1	21:00

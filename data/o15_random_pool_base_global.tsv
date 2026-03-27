@@ -703,3 +703,15 @@ TSV: 2026-03-26	71122843	O15_FT	18:00	international friendlies	Georgia	Israel	1.
 TSV: 2026-03-26	2966875923	O15_FT	19:30	international friendlies	Hungary U21	Israel U21	1.28	1536906	O15_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-03-26	3848011896	O15_FT	21:00	international friendlies	Brazil	France	1.22	1501815	O15_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_BASE | 2026-03-26 20:20:25 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-26	3954480068	O15_FT	18:00	uefa wc qualifiers	Türkiye	Romania	1.2	1487922	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	440943912	O15_FT	20:45	uefa wc qualifiers	Slovakia	Kosovo	1.5	1487927	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	2549667776	O15_FT	20:45	uefa wc qualifiers	Poland	Albania	1.42	1487926	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	1286112827	O15_FT	20:45	uefa wc qualifiers	Czech Republic	Rep. Of Ireland	1.4	1487923	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	145391418	O15_FT	20:45	uefa wc qualifiers	Ukraine	Sweden	1.38	1487928	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	2707294273	O15_FT	20:45	uefa wc qualifiers	Wales	Bosnia & Herzegovina	1.33	1487929	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	3825602624	O15_FT	20:45	uefa wc qualifiers	Italy	Northern Ireland	1.28	1487925	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	4085794911	O15_FT	20:45	uefa wc qualifiers	Denmark	FYR Macedonia	1.2	1487924	O15_RANDOM_POOL_BASE	predictions.tsv
+

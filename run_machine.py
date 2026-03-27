@@ -90,13 +90,17 @@ CIVIL_YEAR_LEAGUE_IDS: set[int] = {
     5,    # UEFA Nations League
     6,    # Africa Cup of Nations
     10,   # International Friendlies
-    29,   # CONMEBOL WC Qualifiers
-    30,   # CONCACAF WC Qualifiers (ancienne formule)
-    31,   # CONCACAF WC Qualifiers
-    32,   # UEFA WC Qualifiers
-    34,   # AFC WC Qualifiers
-    36,   # CAF WC Qualifiers
-    152,  # OFC WC Qualifiers
+}
+
+# Saisons FORCÉES : certaines compétitions ont une saison fixe indépendante de la date
+# (ex: qualifs WC 2026 lancées en 2024 → season=2024 même en 2026)
+FORCED_SEASON_LEAGUE_IDS: dict[int, int] = {
+    32:  2024,  # UEFA WC Qualifiers 2026 (lancés sept. 2024)
+    29:  2023,  # CONMEBOL WC Qualifiers 2026 (lancés sept. 2023)
+    31:  2024,  # CONCACAF WC Qualifiers 2026
+    34:  2025,  # AFC WC Qualifiers 2026
+    36:  2023,  # CAF WC Qualifiers 2026
+    152: 2024,  # OFC WC Qualifiers 2026
 }
 
 
@@ -155,9 +159,13 @@ def load_league_ids_from_aliases() -> dict[int, str]:
 def _infer_season_for_league(league_id: int, date_str: str) -> int:
     """
     Détermine la season API-FOOTBALL.
+    - saison forcée (FORCED_SEASON_LEAGUE_IDS) -> valeur fixe
     - ligues CIVIL YEAR -> season = année (ex: 2026)
     - ligues EURO-like  -> season = année-1 si Jan→Jun, sinon année
     """
+    if league_id in FORCED_SEASON_LEAGUE_IDS:
+        return FORCED_SEASON_LEAGUE_IDS[league_id]
+
     y = int(date_str[:4])
     m = int(date_str[5:7])
 
