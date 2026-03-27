@@ -936,7 +936,7 @@ with tab3:
         st.warning(f"Fichiers de ranking introuvables dans {RANKINGS_DIR}")
     else:
         # ── Filtres globaux ──
-        fcol1, fcol2, fcol3 = st.columns([2, 2, 1])
+        fcol1, fcol2, fcol3, fcol4 = st.columns([2, 2, 2, 1])
 
         with fcol1:
             all_bets = sorted(df_lg_std["bet_key"].dropna().unique().tolist()) if not df_lg_std.empty else []
@@ -953,6 +953,10 @@ with tab3:
             sel_leagues_ins = st.multiselect("Championnat(s)", options=all_leagues, default=[], key="ins_leagues")
 
         with fcol3:
+            all_teams = sorted(df_tm_std["team"].dropna().unique().tolist()) if not df_tm_std.empty else []
+            sel_teams_ins = st.multiselect("Équipe(s)", options=all_teams, default=[], key="ins_teams")
+
+        with fcol4:
             min_samples = st.number_input("Min matchs", min_value=1, value=5, step=1, key="ins_min")
 
         st.divider()
@@ -1036,12 +1040,9 @@ with tab3:
                     df_tm = df_tm[df_tm["bet_key"].isin(sel_bets)]
                 if sel_leagues_ins and "league" in df_tm.columns:
                     df_tm = df_tm[df_tm["league"].isin(sel_leagues_ins)]
+                if sel_teams_ins:
+                    df_tm = df_tm[df_tm["team"].isin(sel_teams_ins)]
                 df_tm = df_tm[df_tm["decided"] >= int(min_samples)]
-
-                # Recherche équipe
-                search_tm = st.text_input("🔍 Rechercher une équipe", key="ins_team_search")
-                if search_tm:
-                    df_tm = df_tm[df_tm["team"].str.contains(search_tm, case=False, na=False)]
 
                 df_tm = df_tm.sort_values(by=["win_rate", "decided"], ascending=[False, False]).reset_index(drop=True)
 
