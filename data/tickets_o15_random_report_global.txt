@@ -890,3 +890,34 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
   1) 02:06 | liga mx | FC Juarez vs Tigres UANL | Over 1.5 (FT) | MOYEN PLUS | odd=1.28
   2) 20:00 | primera a colombia | Chico vs Deportes Tolima | Over 1.5 (FT) | FORT | odd=1.42
   3) 22:10 | primera a colombia | Santa Fe vs Independiente Medellin | Over 1.5 (FT) | KO | odd=1.35
+
+
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_ALL | 2026-03-28 00:25:46 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-28_0210_1ad03d0c16_O15R — cote = 2.56 — fenêtre 02:10 → 16:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 02:10 | primera a colombia | Bucaramanga vs Santa Fe | Over 1.5 (FT) | KO | odd=1.45
+  2) 12:35 | international friendlies | China PR U23 vs Korea DPR U23 | Over 1.5 (FT) | MOYEN | odd=1.31
+  3) 15:00 | international friendlies | South Korea vs Ivory Coast | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.35
+
+📅 Samedi 2026-03-28 — Tranche 2 (fenêtre ~60min)
+------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-03-28_1700_98cc449313_O15R — cote = 3.06 — fenêtre 17:00 → 19:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 17:00 | international friendlies | Senegal vs Peru | Over 1.5 (FT) | TRÈS FORT | odd=1.33
+  2) 18:00 | international friendlies | Hungary vs Slovenia | Over 1.5 (FT) | FORT PLUS | odd=1.33
+  3) 18:00 | international friendlies | Canada vs Iceland | Over 1.5 (FT) | MOYEN | odd=1.28
+  4) 18:00 | international friendlies | Scotland vs Japan | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.35
+
+📅 Samedi 2026-03-28 — Tranche 3 (fenêtre ~90min)
+------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-03-28_2030_ee52cc376f_O15R — cote = 2.41 — fenêtre 20:30 → 23:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:30 | international friendlies | USA vs Belgium | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  2) 21:00 | laliga2 | Sporting Gijon vs Deportivo La Coruna | Over 1.5 (FT) | FORT PLUS | odd=1.42
+  3) 22:00 | primera a colombia | Cucuta vs Chico | Over 1.5 (FT) | EXPLOSION | odd=1.36

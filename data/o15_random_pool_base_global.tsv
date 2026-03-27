@@ -740,3 +740,28 @@ TSV: 2026-03-27	1305293929	O15_FT	21:15	international friendlies	Morocco	Ecuador
 TSV: 2026-03-27	2317327555	O15_FT	22:00	primera a colombia	Águilas Doradas	Alianza Valledupar	1.57	1506057	O15_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-03-27	3805282673	O15_FT	22:30	primera división paraguay	Nacional Asuncion	Sportivo Luqueno	1.44	1505034	O15_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_BASE | 2026-03-28 00:25:44 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-28	1363767996	O15_FT	02:10	primera a colombia	Bucaramanga	Santa Fe	1.45	1506058	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1716100050	O15_FT	08:00	international friendlies	Thailand U23	Vietnam U23	1.3	1536912	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	4294054213	O15_FT	12:35	international friendlies	China PR U23	Korea DPR U23	1.31	1536913	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	3039553678	O15_FT	13:30	cymru premier league	Haverfordwest County AFC	Briton Ferry	1.22	1509009	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1777522783	O15_FT	14:00	laliga2	AD Ceuta FC	Cadiz	1.35	1392112	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1620029964	O15_FT	15:00	international friendlies	South Korea	Ivory Coast	1.35	1527860	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	425007190	O15_FT	15:00	international friendlies	San Marino	Faroe Islands	1.28	1536916	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1521500014	O15_FT	15:30	cymru premier league	Cardiff MET	Bala Town	1.33	1509010	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	4080552550	O15_FT	15:30	cymru premier league	Penybont	Colwyn Bay	1.25	1508980	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	3769692594	O15_FT	16:15	laliga2	Valladolid	Burgos	1.48	1392116	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	4039264215	O15_FT	16:15	laliga2	Granada CF	Huesca	1.42	1392106	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	4072750447	O15_FT	17:00	international friendlies	Senegal	Peru	1.33	1527861	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	3765185638	O15_FT	18:00	international friendlies	Scotland	Japan	1.35	1511777	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1296564362	O15_FT	18:00	international friendlies	Hungary	Slovenia	1.33	1514071	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	410469257	O15_FT	18:00	international friendlies	Canada	Iceland	1.28	1512760	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1210868676	O15_FT	18:30	laliga2	Malaga	Leganes	1.33	1392108	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1926187846	O15_FT	20:30	international friendlies	USA	Belgium	1.25	1503003	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1997175157	O15_FT	21:00	laliga2	Sporting Gijon	Deportivo La Coruna	1.42	1392115	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1601315884	O15_FT	21:00	laliga2	Albacete	Castellón	1.22	1392109	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	2329932594	O15_FT	22:00	primera a colombia	Cucuta	Chico	1.36	1506059	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1417302251	O15_FT	22:30	primera división paraguay	Olimpia	2 de Mayo	1.33	1505035	O15_RANDOM_POOL_BASE	predictions.tsv
+

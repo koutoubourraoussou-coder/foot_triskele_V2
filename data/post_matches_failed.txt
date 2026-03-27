@@ -1,2 +1,4 @@
 # date | league | home vs away | reason
 2026-03-17 | primera a colombia | Bucaramanga vs Once Caldas | FIXTURE_NOT_FOUND_ROBUST
+2026-03-27 | international friendlies | Russia vs Mali | GOALS_MISSING:1525450
+2026-03-27 | primera división paraguay | Sportivo Ameliano vs Libertad Asuncion | GOALS_MISSING:1505031
