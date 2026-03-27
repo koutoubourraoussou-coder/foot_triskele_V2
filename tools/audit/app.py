@@ -638,14 +638,14 @@ def render_ticket_legs(row):
         for leg in legs:
             s = leg.strip()
             if s.startswith("✅"):
-                color = "#4ade80"
+                bg = "#1a4d1a"
             elif s.startswith("❌"):
-                color = "#f87171"
+                bg = "#4d1a1a"
             else:
-                color = "#9ca3af"
+                bg = "#2d3748"
             html_parts.append(
-                f'<div style="font-family:monospace;font-size:13px;color:{color};'
-                f'padding:2px 0;margin:1px 0">{s}</div>'
+                f'<div style="background:{bg};padding:5px 10px;border-radius:4px;'
+                f'margin:2px 0;font-family:monospace;font-size:13px;color:#f0f0f0">{s}</div>'
             )
         st.markdown("".join(html_parts), unsafe_allow_html=True)
     else:
