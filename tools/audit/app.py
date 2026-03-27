@@ -14,17 +14,97 @@ ROOT = Path(__file__).resolve().parents[2]
 ARCHIVE_DIR = ROOT / "archive"
 APP_VERSION = "BUILD_2026_02_27_V1"
 
-# Imports stats_dashboard (doit être fait AVANT tout code Streamlit)
-for _p in [str(ROOT / "services"), str(ROOT)]:
-    if _p not in sys.path:
-        sys.path.insert(0, _p)
+# ── Helpers rankings (inline, pas d'import externe) ──────────────────────────
 
-from stats_dashboard import (  # noqa: E402
-    _pct,
-    _render_table,
-    _standardize_baseline_league_x_bet,
-    _standardize_baseline_team_x_bet,
-)
+def _pct(x) -> str:
+    try:
+        return f"{100.0 * float(x):.1f}%"
+    except Exception:
+        return ""
+
+def _to_int_s(s) -> int:
+    try:
+        return int(float(str(s).strip())) if str(s).strip() else 0
+    except Exception:
+        return 0
+
+def _to_float_s(s) -> float:
+    try:
+        return float(str(s).strip().replace(",", ".")) if str(s).strip() else 0.0
+    except Exception:
+        return 0.0
+
+def _render_table(df: pd.DataFrame, percent_cols=None, height: int = 520):
+    if df.empty:
+        st.info("Aucune donnée.")
+        return
+    view = df.copy()
+    for c in (percent_cols or []):
+        if c in view.columns:
+            view[c] = view[c].apply(lambda x: _pct(x) if not isinstance(x, str) else x)
+    st.dataframe(view, use_container_width=True, height=height)
+
+def _standardize_baseline_league_x_bet(df: pd.DataFrame) -> pd.DataFrame:
+    empty = pd.DataFrame(columns=["league", "bet_key", "decided", "wins", "losses", "win_rate"])
+    if df is None or df.empty:
+        return empty
+    cols = {str(c).strip().lstrip("#").strip().lower(): c for c in df.columns}
+    # format A : samples/success/fail
+    if {"league", "bet_key", "samples", "success", "fail"}.issubset(cols):
+        out = pd.DataFrame()
+        out["league"]   = df[cols["league"]].astype(str).str.strip()
+        out["bet_key"]  = df[cols["bet_key"]].astype(str).str.strip().str.upper()
+        out["decided"]  = df[cols["samples"]].apply(_to_int_s)
+        out["wins"]     = df[cols["success"]].apply(_to_int_s)
+        out["losses"]   = df[cols["fail"]].apply(_to_int_s)
+        sr = df[cols["success_rate"]].apply(_to_float_s) if "success_rate" in cols else None
+        out["win_rate"] = sr.apply(lambda x: x / 100.0 if x > 1.00001 else x) if sr is not None \
+                          else out.apply(lambda r: r["wins"] / r["decided"] if r["decided"] > 0 else 0.0, axis=1)
+        return out
+    # format B : decided/wins/losses
+    if {"league", "bet_key", "decided", "wins", "losses"}.issubset(cols):
+        out = pd.DataFrame()
+        out["league"]   = df[cols["league"]].astype(str).str.strip()
+        out["bet_key"]  = df[cols["bet_key"]].astype(str).str.strip().str.upper()
+        out["decided"]  = df[cols["decided"]].apply(_to_int_s)
+        out["wins"]     = df[cols["wins"]].apply(_to_int_s)
+        out["losses"]   = df[cols["losses"]].apply(_to_int_s)
+        out["win_rate"] = df[cols["win_rate"]].apply(_to_float_s) if "win_rate" in cols \
+                          else out.apply(lambda r: r["wins"] / r["decided"] if r["decided"] > 0 else 0.0, axis=1)
+        return out
+    return empty
+
+def _standardize_baseline_team_x_bet(df: pd.DataFrame) -> pd.DataFrame:
+    empty = pd.DataFrame(columns=["league", "team", "bet_key", "decided", "wins", "losses", "win_rate"])
+    if df is None or df.empty:
+        return empty
+    cols = {str(c).strip().lstrip("#").strip().lower(): c for c in df.columns}
+    # format A
+    if {"league", "team", "bet_key", "samples", "success", "fail"}.issubset(cols):
+        out = pd.DataFrame()
+        out["league"]   = df[cols["league"]].astype(str).str.strip()
+        out["team"]     = df[cols["team"]].astype(str).str.strip()
+        out["bet_key"]  = df[cols["bet_key"]].astype(str).str.strip().str.upper()
+        out["decided"]  = df[cols["samples"]].apply(_to_int_s)
+        out["wins"]     = df[cols["success"]].apply(_to_int_s)
+        out["losses"]   = df[cols["fail"]].apply(_to_int_s)
+        sr = df[cols["success_rate"]].apply(_to_float_s) if "success_rate" in cols else None
+        out["win_rate"] = sr.apply(lambda x: x / 100.0 if x > 1.00001 else x) if sr is not None \
+                          else out.apply(lambda r: r["wins"] / r["decided"] if r["decided"] > 0 else 0.0, axis=1)
+        return out
+    # format B
+    if {"team", "bet_key", "decided", "wins", "losses"}.issubset(cols):
+        out = pd.DataFrame()
+        out["league"]   = df[cols["league"]].astype(str).str.strip() if "league" in cols else ""
+        out["team"]     = df[cols["team"]].astype(str).str.strip()
+        out["bet_key"]  = df[cols["bet_key"]].astype(str).str.strip().str.upper()
+        out["decided"]  = df[cols["decided"]].apply(_to_int_s)
+        out["wins"]     = df[cols["wins"]].apply(_to_int_s)
+        out["losses"]   = df[cols["losses"]].apply(_to_int_s)
+        out["win_rate"] = df[cols["win_rate"]].apply(_to_float_s) if "win_rate" in cols \
+                          else out.apply(lambda r: r["wins"] / r["decided"] if r["decided"] > 0 else 0.0, axis=1)
+        return out
+    return empty
 
 st.set_page_config(page_title="⚡️🤖 Machine TreeSkale", page_icon="⚡️", layout="wide")
 
