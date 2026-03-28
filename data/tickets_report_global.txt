@@ -1644,3 +1644,15 @@ Aucun ticket.
   1) 17:00 | international friendlies | Senegal vs Peru | HT+0.5 | FORT PLUS | odd=1.36
   2) 18:00 | international friendlies | Hungary vs Slovenia | HT+0.5 | FORT | odd=1.38
   3) 18:00 | international friendlies | Scotland vs Japan | HT+0.5 | MEGA EXPLOSION | odd=1.4
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-03-29 00:33:17 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-29_1500_451f800d97_SYS — cote = 2.55 — fenêtre 15:00 → 01:00  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 15:00 | international friendlies | Armenia vs Belarus | HT+0.5 | MEGA EXPLOSION | odd=1.4
+  2) 15:00 | international friendlies | Lithuania vs Georgia | HT+0.5 | TRÈS FORT | odd=1.4
+  3) 23:10 | primera a colombia | Internacional de Bogota vs Junior | HT 1X Home | MOYEN PLUS | odd=1.3

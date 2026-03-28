@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-03-28
+Date run       : 2026-03-29
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (114 ids)
+Whitelist      : ON (115 ids)
 Ignorés (hors whitelist) : 16
-Ignorés (date>=today)    : 6
+Ignorés (date>=today)    : 3
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -906,10 +906,26 @@ Ignorés (date>=today)    : 6
    ✅ Leg 2) 22:10 | primera a colombia | Santa Fe vs Independiente Medellin | HT 1X Home | [FORT PLUS] | odd=1.22
    ✅ Leg 3) 22:30 | liga pro ecuador | Guayaquil City FC vs Leones del Norte | HT 1X Home | [TRÈS FORT] | odd=1.17
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Samedi 2026-03-28 08:00→16:50 | code=A2 | odd=2.65
+   id=2026-03-28_0800_44997c11a9_SYS
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 08:00 | international friendlies | Thailand U23 vs Vietnam U23 | HT+0.5 | [FORT] | odd=1.4
+   ✅ Leg 2) 15:00 | international friendlies | San Marino vs Faroe Islands | HT+0.5 | [MEGA EXPLOSION] | odd=1.35
+   ✅ Leg 3) 15:00 | international friendlies | South Korea vs Ivory Coast | HT+0.5 | [TRÈS FORT] | odd=1.4
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Samedi 2026-03-28 17:00→19:50 | code=A2 | odd=2.63
+   id=2026-03-28_1700_db6a710daa_SYS
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ✅ Leg 1) 17:00 | international friendlies | Senegal vs Peru | HT+0.5 | [FORT PLUS] | odd=1.36
+   ❌ Leg 2) 18:00 | international friendlies | Hungary vs Slovenia | HT+0.5 | [FORT] | odd=1.38
+   ❌ Leg 3) 18:00 | international friendlies | Scotland vs Japan | HT+0.5 | [MEGA EXPLOSION] | odd=1.4
+
 ====================================================================
-TOTAL tickets : 107
-✅ WIN     : 38
-❌ LOSS    : 67
+TOTAL tickets : 109
+✅ WIN     : 39
+❌ LOSS    : 68
 ⏳ PENDING : 2
 ====================================================================
 

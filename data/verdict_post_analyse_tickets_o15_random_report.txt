@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-03-28
+Date run       : 2026-03-29
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (118 ids)
+Whitelist      : ON (119 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 10
+Ignorés (date>=today)    : 3
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -973,10 +973,35 @@ Ignorés (date>=today)    : 10
    ✅ Leg 2) 20:00 | primera a colombia | Chico vs Deportes Tolima | Over 1.5 (FT) | [FORT] | odd=1.42
    ✅ Leg 3) 22:10 | primera a colombia | Santa Fe vs Independiente Medellin | Over 1.5 (FT) | [KO] | odd=1.35
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Samedi 2026-03-28 02:10→16:50 | code=A2 | odd=2.56
+   id=2026-03-28_0210_1ad03d0c16_O15R
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 02:10 | primera a colombia | Bucaramanga vs Santa Fe | Over 1.5 (FT) | [KO] | odd=1.45
+   ✅ Leg 2) 12:35 | international friendlies | China PR U23 vs Korea DPR U23 | Over 1.5 (FT) | [MOYEN] | odd=1.31
+   ✅ Leg 3) 15:00 | international friendlies | South Korea vs Ivory Coast | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.35
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Samedi 2026-03-28 17:00→19:50 | code=A2 | odd=3.06
+   id=2026-03-28_1700_98cc449313_O15R
+   legs=4 | WIN=2 | LOSS=2 | PENDING=0
+   ✅ Leg 1) 17:00 | international friendlies | Senegal vs Peru | Over 1.5 (FT) | [TRÈS FORT] | odd=1.33
+   ✅ Leg 2) 18:00 | international friendlies | Canada vs Iceland | Over 1.5 (FT) | [MOYEN] | odd=1.28
+   ❌ Leg 3) 18:00 | international friendlies | Hungary vs Slovenia | Over 1.5 (FT) | [FORT PLUS] | odd=1.33
+   ❌ Leg 4) 18:00 | international friendlies | Scotland vs Japan | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.35
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 3 | Samedi 2026-03-28 20:30→23:50 | code=A2 | odd=2.41
+   id=2026-03-28_2030_ee52cc376f_O15R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 20:30 | international friendlies | USA vs Belgium | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+   ✅ Leg 2) 21:00 | laliga2 | Sporting Gijon vs Deportivo La Coruna | Over 1.5 (FT) | [FORT PLUS] | odd=1.42
+   ❌ Leg 3) 22:00 | primera a colombia | Cucuta vs Chico | Over 1.5 (FT) | [EXPLOSION] | odd=1.36
+
 ====================================================================
-TOTAL tickets : 115
-✅ WIN     : 48
-❌ LOSS    : 64
+TOTAL tickets : 118
+✅ WIN     : 49
+❌ LOSS    : 66
 ⏳ PENDING : 3
 ====================================================================
 

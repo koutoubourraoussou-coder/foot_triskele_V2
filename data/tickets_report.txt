@@ -1,22 +1,12 @@
 TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
 ==================================================
 
-📅 Samedi 2026-03-28 — Tranche 1 (fenêtre ~420min)
--------------------------------------------------
+📅 Dimanche 2026-03-29 — Tranche 1 (fenêtre ~490min)
+---------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-03-28_0800_44997c11a9_SYS — cote = 2.65 — fenêtre 08:00 → 16:50  
+  🎟️ TICKET 1.1 (A2) — id=2026-03-29_1500_451f800d97_SYS — cote = 2.55 — fenêtre 15:00 → 01:00  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 08:00 | international friendlies | Thailand U23 vs Vietnam U23 | HT+0.5 | FORT | odd=1.4
-  2) 15:00 | international friendlies | San Marino vs Faroe Islands | HT+0.5 | MEGA EXPLOSION | odd=1.35
-  3) 15:00 | international friendlies | South Korea vs Ivory Coast | HT+0.5 | TRÈS FORT | odd=1.4
-
-📅 Samedi 2026-03-28 — Tranche 2 (fenêtre ~60min)
-------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-03-28_1700_db6a710daa_SYS — cote = 2.63 — fenêtre 17:00 → 19:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 17:00 | international friendlies | Senegal vs Peru | HT+0.5 | FORT PLUS | odd=1.36
-  2) 18:00 | international friendlies | Hungary vs Slovenia | HT+0.5 | FORT | odd=1.38
-  3) 18:00 | international friendlies | Scotland vs Japan | HT+0.5 | MEGA EXPLOSION | odd=1.4
+  1) 15:00 | international friendlies | Armenia vs Belarus | HT+0.5 | MEGA EXPLOSION | odd=1.4
+  2) 15:00 | international friendlies | Lithuania vs Georgia | HT+0.5 | TRÈS FORT | odd=1.4
+  3) 23:10 | primera a colombia | Internacional de Bogota vs Junior | HT 1X Home | MOYEN PLUS | odd=1.3
