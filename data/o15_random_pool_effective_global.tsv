@@ -553,3 +553,8 @@ TSV: 2026-03-29	3208118917	O15_FT	18:30	laliga2	Zaragoza	Racing Santander	1.33	1
 TSV: 2026-03-29	622724741	O15_FT	21:00	laliga2	Almeria	Real Sociedad II	1.2	1392114	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-03-29	795554991	O15_FT	23:10	primera a colombia	Internacional de Bogota	Junior	1.33	1506062	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_EFFECTIVE | 2026-03-30 05:30:02 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-30	4133036125	O15_FT	03:30	primera a colombia	Llaneros	Once Caldas	1.25	1506065	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

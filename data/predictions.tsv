@@ -5017,3 +5017,123 @@ TSV:	853069655	2026-03-28	primera división paraguay	Cerro Porteno	Club Sp. San 
 TSV:	853069655	2026-03-28	primera división paraguay	Cerro Porteno	Club Sp. San Lorenzo	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	odd=1.85 fixture=1505032	00:30
 TSV:	853069655	2026-03-28	primera división paraguay	Cerro Porteno	Club Sp. San Lorenzo	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=1.36 fixture=1505032	00:30
 TSV:	853069655	2026-03-28	primera división paraguay	Cerro Porteno	Club Sp. San Lorenzo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=7.5 fixture=1505032	00:30
+TSV:	327243181	2026-03-30	international friendlies	Slovakia U18	Serbia U18	HT05	HT+0.5	4.0	FORT	1	fixture=1537191	11:00
+TSV:	327243181	2026-03-30	international friendlies	Slovakia U18	Serbia U18	HT1X_HOME	HT 1X Home	0.0	KO	0	fixture=1537191	11:00
+TSV:	327243181	2026-03-30	international friendlies	Slovakia U18	Serbia U18	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	fixture=1537191	11:00
+TSV:	327243181	2026-03-30	international friendlies	Slovakia U18	Serbia U18	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	fixture=1537191	11:00
+TSV:	327243181	2026-03-30	international friendlies	Slovakia U18	Serbia U18	O15_FT	Over 1.5 (FT)	4.0	FORT	1	fixture=1537191	11:00
+TSV:	327243181	2026-03-30	international friendlies	Slovakia U18	Serbia U18	O25_FT	Over 2.5 (FT)	4.0	FORT	1	fixture=1537191	11:00
+TSV:	327243181	2026-03-30	international friendlies	Slovakia U18	Serbia U18	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	fixture=1537191	11:00
+TSV:	327243181	2026-03-30	international friendlies	Slovakia U18	Serbia U18	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	fixture=1537191	11:00
+TSV:	1821086588	2026-03-30	international friendlies	Uzbekistan U19	Japan U19	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	fixture=1537192	11:00
+TSV:	1821086588	2026-03-30	international friendlies	Uzbekistan U19	Japan U19	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	fixture=1537192	11:00
+TSV:	1821086588	2026-03-30	international friendlies	Uzbekistan U19	Japan U19	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	fixture=1537192	11:00
+TSV:	1821086588	2026-03-30	international friendlies	Uzbekistan U19	Japan U19	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	fixture=1537192	11:00
+TSV:	1821086588	2026-03-30	international friendlies	Uzbekistan U19	Japan U19	O15_FT	Over 1.5 (FT)	4.0	FORT	1	fixture=1537192	11:00
+TSV:	1821086588	2026-03-30	international friendlies	Uzbekistan U19	Japan U19	O25_FT	Over 2.5 (FT)	4.0	FORT	1	fixture=1537192	11:00
+TSV:	1821086588	2026-03-30	international friendlies	Uzbekistan U19	Japan U19	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	fixture=1537192	11:00
+TSV:	1821086588	2026-03-30	international friendlies	Uzbekistan U19	Japan U19	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	fixture=1537192	11:00
+TSV:	3548028422	2026-03-30	international friendlies	Russia U21	Jordan U23	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.43 fixture=1537190	14:00
+TSV:	3548028422	2026-03-30	international friendlies	Russia U21	Jordan U23	HT1X_HOME	HT 1X Home	0.0	KO	0	odd=1.01 fixture=1537190	14:00
+TSV:	3548028422	2026-03-30	international friendlies	Russia U21	Jordan U23	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.07 fixture=1537190	14:00
+TSV:	3548028422	2026-03-30	international friendlies	Russia U21	Jordan U23	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=2.34 fixture=1537190	14:00
+TSV:	3548028422	2026-03-30	international friendlies	Russia U21	Jordan U23	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.25 fixture=1537190	14:00
+TSV:	3548028422	2026-03-30	international friendlies	Russia U21	Jordan U23	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.83 fixture=1537190	14:00
+TSV:	3548028422	2026-03-30	international friendlies	Russia U21	Jordan U23	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=1.24 fixture=1537190	14:00
+TSV:	3548028422	2026-03-30	international friendlies	Russia U21	Jordan U23	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=13.25 fixture=1537190	14:00
+TSV:	3845442196	2026-03-30	international friendlies	United Arab Emirates	Faroe Islands	HT05	HT+0.5	5.0	FORT PLUS	1	fixture=1528273	14:00
+TSV:	3845442196	2026-03-30	international friendlies	United Arab Emirates	Faroe Islands	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	fixture=1528273	14:00
+TSV:	3845442196	2026-03-30	international friendlies	United Arab Emirates	Faroe Islands	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	fixture=1528273	14:00
+TSV:	3845442196	2026-03-30	international friendlies	United Arab Emirates	Faroe Islands	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	fixture=1528273	14:00
+TSV:	3845442196	2026-03-30	international friendlies	United Arab Emirates	Faroe Islands	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	fixture=1528273	14:00
+TSV:	3845442196	2026-03-30	international friendlies	United Arab Emirates	Faroe Islands	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	fixture=1528273	14:00
+TSV:	3845442196	2026-03-30	international friendlies	United Arab Emirates	Faroe Islands	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	fixture=1528273	14:00
+TSV:	3845442196	2026-03-30	international friendlies	United Arab Emirates	Faroe Islands	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	fixture=1528273	14:00
+TSV:	3106746938	2026-03-30	international friendlies	Albania U21	Uzbekistan U23	HT05	HT+0.5	3.0	MOYEN PLUS	0	fixture=1537189	14:30
+TSV:	3106746938	2026-03-30	international friendlies	Albania U21	Uzbekistan U23	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	fixture=1537189	14:30
+TSV:	3106746938	2026-03-30	international friendlies	Albania U21	Uzbekistan U23	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	fixture=1537189	14:30
+TSV:	3106746938	2026-03-30	international friendlies	Albania U21	Uzbekistan U23	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	fixture=1537189	14:30
+TSV:	3106746938	2026-03-30	international friendlies	Albania U21	Uzbekistan U23	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	fixture=1537189	14:30
+TSV:	3106746938	2026-03-30	international friendlies	Albania U21	Uzbekistan U23	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	fixture=1537189	14:30
+TSV:	3106746938	2026-03-30	international friendlies	Albania U21	Uzbekistan U23	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	fixture=1537189	14:30
+TSV:	3106746938	2026-03-30	international friendlies	Albania U21	Uzbekistan U23	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	fixture=1537189	14:30
+TSV:	3954097368	2026-03-30	international friendlies	Tunisia U20	Mauritania U20	HT05	HT+0.5	6.0	TRÈS FORT	1	odd=1.25 fixture=1537188	15:00
+TSV:	3954097368	2026-03-30	international friendlies	Tunisia U20	Mauritania U20	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.12 fixture=1537188	15:00
+TSV:	3954097368	2026-03-30	international friendlies	Tunisia U20	Mauritania U20	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.07 fixture=1537188	15:00
+TSV:	3954097368	2026-03-30	international friendlies	Tunisia U20	Mauritania U20	TEAM2_SCORE_FT	Team2 scores (FT)	6.0	TRÈS FORT	1	odd=1.34 fixture=1537188	15:00
+TSV:	3954097368	2026-03-30	international friendlies	Tunisia U20	Mauritania U20	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.13 fixture=1537188	15:00
+TSV:	3954097368	2026-03-30	international friendlies	Tunisia U20	Mauritania U20	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	odd=1.52 fixture=1537188	15:00
+TSV:	3954097368	2026-03-30	international friendlies	Tunisia U20	Mauritania U20	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.65 fixture=1537188	15:00
+TSV:	3954097368	2026-03-30	international friendlies	Tunisia U20	Mauritania U20	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=4.15 fixture=1537188	15:00
+TSV:	1657749622	2026-03-30	international friendlies	Kyrgyz Republic U20	Bosnia-Herzegovina U17	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	fixture=1537187	17:00
+TSV:	1657749622	2026-03-30	international friendlies	Kyrgyz Republic U20	Bosnia-Herzegovina U17	HT1X_HOME	HT 1X Home	0.0	KO	0	fixture=1537187	17:00
+TSV:	1657749622	2026-03-30	international friendlies	Kyrgyz Republic U20	Bosnia-Herzegovina U17	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	fixture=1537187	17:00
+TSV:	1657749622	2026-03-30	international friendlies	Kyrgyz Republic U20	Bosnia-Herzegovina U17	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	fixture=1537187	17:00
+TSV:	1657749622	2026-03-30	international friendlies	Kyrgyz Republic U20	Bosnia-Herzegovina U17	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	fixture=1537187	17:00
+TSV:	1657749622	2026-03-30	international friendlies	Kyrgyz Republic U20	Bosnia-Herzegovina U17	O25_FT	Over 2.5 (FT)	4.0	FORT	1	fixture=1537187	17:00
+TSV:	1657749622	2026-03-30	international friendlies	Kyrgyz Republic U20	Bosnia-Herzegovina U17	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	fixture=1537187	17:00
+TSV:	1657749622	2026-03-30	international friendlies	Kyrgyz Republic U20	Bosnia-Herzegovina U17	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	fixture=1537187	17:00
+TSV:	1251978168	2026-03-30	international friendlies	Mexico U20	Costa Rica U20	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	fixture=1537186	17:00
+TSV:	1251978168	2026-03-30	international friendlies	Mexico U20	Costa Rica U20	HT1X_HOME	HT 1X Home	0.0	KO	0	fixture=1537186	17:00
+TSV:	1251978168	2026-03-30	international friendlies	Mexico U20	Costa Rica U20	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	fixture=1537186	17:00
+TSV:	1251978168	2026-03-30	international friendlies	Mexico U20	Costa Rica U20	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	fixture=1537186	17:00
+TSV:	1251978168	2026-03-30	international friendlies	Mexico U20	Costa Rica U20	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	fixture=1537186	17:00
+TSV:	1251978168	2026-03-30	international friendlies	Mexico U20	Costa Rica U20	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	fixture=1537186	17:00
+TSV:	1251978168	2026-03-30	international friendlies	Mexico U20	Costa Rica U20	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	fixture=1537186	17:00
+TSV:	1251978168	2026-03-30	international friendlies	Mexico U20	Costa Rica U20	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	fixture=1537186	17:00
+TSV:	1368645119	2026-03-30	international friendlies	Cyprus	Moldova	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.35 fixture=1507580	18:00
+TSV:	1368645119	2026-03-30	international friendlies	Cyprus	Moldova	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.14 fixture=1507580	18:00
+TSV:	1368645119	2026-03-30	international friendlies	Cyprus	Moldova	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.15 fixture=1507580	18:00
+TSV:	1368645119	2026-03-30	international friendlies	Cyprus	Moldova	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.53 fixture=1507580	18:00
+TSV:	1368645119	2026-03-30	international friendlies	Cyprus	Moldova	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.28 fixture=1507580	18:00
+TSV:	1368645119	2026-03-30	international friendlies	Cyprus	Moldova	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.85 fixture=1507580	18:00
+TSV:	1368645119	2026-03-30	international friendlies	Cyprus	Moldova	TEAM1_WIN_FT	Team1 wins (FT)	4.0	FORT	0	odd=1.67 fixture=1507580	18:00
+TSV:	1368645119	2026-03-30	international friendlies	Cyprus	Moldova	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.8 fixture=1507580	18:00
+TSV:	1836836	2026-03-30	international friendlies	Netherlands U21	Belgium U21	HT05	HT+0.5	2.0	MOYEN	0	odd=1.28 fixture=1514833	18:30
+TSV:	1836836	2026-03-30	international friendlies	Netherlands U21	Belgium U21	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.28 fixture=1514833	18:30
+TSV:	1836836	2026-03-30	international friendlies	Netherlands U21	Belgium U21	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.14 fixture=1514833	18:30
+TSV:	1836836	2026-03-30	international friendlies	Netherlands U21	Belgium U21	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.25 fixture=1514833	18:30
+TSV:	1836836	2026-03-30	international friendlies	Netherlands U21	Belgium U21	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.18 fixture=1514833	18:30
+TSV:	1836836	2026-03-30	international friendlies	Netherlands U21	Belgium U21	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	odd=1.6 fixture=1514833	18:30
+TSV:	1836836	2026-03-30	international friendlies	Netherlands U21	Belgium U21	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=2.05 fixture=1514833	18:30
+TSV:	1836836	2026-03-30	international friendlies	Netherlands U21	Belgium U21	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.75 fixture=1514833	18:30
+TSV:	1820939758	2026-03-30	international friendlies	Germany	Ghana	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.2 fixture=1501816	20:45
+TSV:	1820939758	2026-03-30	international friendlies	Germany	Ghana	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.02 fixture=1501816	20:45
+TSV:	1820939758	2026-03-30	international friendlies	Germany	Ghana	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.03 fixture=1501816	20:45
+TSV:	1820939758	2026-03-30	international friendlies	Germany	Ghana	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.67 fixture=1501816	20:45
+TSV:	1820939758	2026-03-30	international friendlies	Germany	Ghana	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.11 fixture=1501816	20:45
+TSV:	1820939758	2026-03-30	international friendlies	Germany	Ghana	O25_FT	Over 2.5 (FT)	4.0	FORT	1	odd=1.38 fixture=1501816	20:45
+TSV:	1820939758	2026-03-30	international friendlies	Germany	Ghana	TEAM1_WIN_FT	Team1 wins (FT)	5.0	FORT PLUS	1	odd=1.19 fixture=1501816	20:45
+TSV:	1820939758	2026-03-30	international friendlies	Germany	Ghana	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=15 fixture=1501816	20:45
+TSV:	1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	HT05	HT+0.5	6.0	TRÈS FORT	1	odd=1.4 fixture=1506063	01:20
+TSV:	1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.36 fixture=1506063	01:20
+TSV:	1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.34 fixture=1506063	01:20
+TSV:	1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.24 fixture=1506063	01:20
+TSV:	1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.33 fixture=1506063	01:20
+TSV:	1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	odd=2 fixture=1506063	01:20
+TSV:	1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.05 fixture=1506063	01:20
+TSV:	1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.28 fixture=1506063	01:20
+TSV:	4133036125	2026-03-30	primera a colombia	Llaneros	Once Caldas	HT05	HT+0.5	4.0	FORT	1	odd=1.33 fixture=1506065	03:30
+TSV:	4133036125	2026-03-30	primera a colombia	Llaneros	Once Caldas	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.38 fixture=1506065	03:30
+TSV:	4133036125	2026-03-30	primera a colombia	Llaneros	Once Caldas	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.28 fixture=1506065	03:30
+TSV:	4133036125	2026-03-30	primera a colombia	Llaneros	Once Caldas	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.21 fixture=1506065	03:30
+TSV:	4133036125	2026-03-30	primera a colombia	Llaneros	Once Caldas	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.25 fixture=1506065	03:30
+TSV:	4133036125	2026-03-30	primera a colombia	Llaneros	Once Caldas	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=1.8 fixture=1506065	03:30
+TSV:	4133036125	2026-03-30	primera a colombia	Llaneros	Once Caldas	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.92 fixture=1506065	03:30
+TSV:	4133036125	2026-03-30	primera a colombia	Llaneros	Once Caldas	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=2.3 fixture=1506065	03:30
+TSV:	2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	HT05	HT+0.5	2.0	MOYEN	0	odd=1.44 fixture=1505033	00:00
+TSV:	2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.22 fixture=1505033	00:00
+TSV:	2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.24 fixture=1505033	00:00
+TSV:	2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.44 fixture=1505033	00:00
+TSV:	2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.36 fixture=1505033	00:00
+TSV:	2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=2.15 fixture=1505033	00:00
+TSV:	2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.1 fixture=1505033	00:00
+TSV:	2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.2 fixture=1505033	00:00
+TSV:	2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	HT05	HT+0.5	6.0	TRÈS FORT	1	odd=1.42 fixture=1492150	00:30
+TSV:	2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.18 fixture=1492150	00:30
+TSV:	2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.25 fixture=1492150	00:30
+TSV:	2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.44 fixture=1492150	00:30
+TSV:	2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.38 fixture=1492150	00:30
+TSV:	2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=2.15 fixture=1492150	00:30
+TSV:	2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2 fixture=1492150	00:30
+TSV:	2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.8 fixture=1492150	00:30

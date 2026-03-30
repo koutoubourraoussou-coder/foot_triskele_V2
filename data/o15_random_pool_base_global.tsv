@@ -782,3 +782,11 @@ TSV: 2026-03-29	1156079206	O15_FT	21:00	international friendlies	Colombia	France
 TSV: 2026-03-29	622724741	O15_FT	21:00	laliga2	Almeria	Real Sociedad II	1.2	1392114	O15_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-03-29	795554991	O15_FT	23:10	primera a colombia	Internacional de Bogota	Junior	1.33	1506062	O15_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_BASE | 2026-03-30 05:30:02 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-30	4133036125	O15_FT	03:30	primera a colombia	Llaneros	Once Caldas	1.25	1506065	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	3548028422	O15_FT	14:00	international friendlies	Russia U21	Jordan U23	1.25	1537190	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	1368645119	O15_FT	18:00	international friendlies	Cyprus	Moldova	1.28	1507580	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	1836836	O15_FT	18:30	international friendlies	Netherlands U21	Belgium U21	1.18	1514833	O15_RANDOM_POOL_BASE	predictions.tsv
+

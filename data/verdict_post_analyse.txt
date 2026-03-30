@@ -21738,3 +21738,131 @@ TSV: 2375640281	2026-03-28	international friendlies	Brazil U20	Paraguay U20	O15_
 TSV: 2375640281	2026-03-28	international friendlies	Brazil U20	Paraguay U20	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	WIN	2H	1537194	3-1	2-1	23:00
 TSV: 2375640281	2026-03-28	international friendlies	Brazil U20	Paraguay U20	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	2H	1537194	3-1	2-1	23:00
 TSV: 2375640281	2026-03-28	international friendlies	Brazil U20	Paraguay U20	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	2H	1537194	3-1	2-1	23:00
+TSV: 2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	HT05	HT+0.5	2.0	MOYEN	0	GOOD_NO_BET	FT	1505033	0-0	0-0	00:00
+TSV: 2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1505033	0-0	0-0	00:00
+TSV: 2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505033	0-0	0-0	00:00
+TSV: 2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505033	0-0	0-0	00:00
+TSV: 2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	LOSS	FT	1505033	0-0	0-0	00:00
+TSV: 2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1505033	0-0	0-0	00:00
+TSV: 2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505033	0-0	0-0	00:00
+TSV: 2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505033	0-0	0-0	00:00
+TSV: 2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1492150	4-1	2-1	00:30
+TSV: 2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1492150	4-1	2-1	00:30
+TSV: 2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1492150	4-1	2-1	00:30
+TSV: 2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1492150	4-1	2-1	00:30
+TSV: 2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1492150	4-1	2-1	00:30
+TSV: 2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1492150	4-1	2-1	00:30
+TSV: 2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1492150	4-1	2-1	00:30
+TSV: 2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492150	4-1	2-1	00:30
+TSV: 186550019	2026-03-29	international friendlies	Haiti	Tunisia	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1512761	0-1	0-1	01:00
+TSV: 186550019	2026-03-29	international friendlies	Haiti	Tunisia	HT1X_HOME	HT 1X Home	0.0	KO	0	GOOD_NO_BET	FT	1512761	0-1	0-1	01:00
+TSV: 186550019	2026-03-29	international friendlies	Haiti	Tunisia	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	LOSS	FT	1512761	0-1	0-1	01:00
+TSV: 186550019	2026-03-29	international friendlies	Haiti	Tunisia	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1512761	0-1	0-1	01:00
+TSV: 186550019	2026-03-29	international friendlies	Haiti	Tunisia	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1512761	0-1	0-1	01:00
+TSV: 186550019	2026-03-29	international friendlies	Haiti	Tunisia	O25_FT	Over 2.5 (FT)	4.0	FORT	1	LOSS	FT	1512761	0-1	0-1	01:00
+TSV: 186550019	2026-03-29	international friendlies	Haiti	Tunisia	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1512761	0-1	0-1	01:00
+TSV: 186550019	2026-03-29	international friendlies	Haiti	Tunisia	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1512761	0-1	0-1	01:00
+TSV: 1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1506063	1-2	1-1	01:20
+TSV: 1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	WIN	FT	1506063	1-2	1-1	01:20
+TSV: 1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1506063	1-2	1-1	01:20
+TSV: 1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	WIN	FT	1506063	1-2	1-1	01:20
+TSV: 1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1506063	1-2	1-1	01:20
+TSV: 1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1506063	1-2	1-1	01:20
+TSV: 1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506063	1-2	1-1	01:20
+TSV: 1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1506063	1-2	1-1	01:20
+TSV: 894047846	2026-03-29	international friendlies	Mexico	Portugal	HT05	HT+0.5	4.0	FORT	1	LOSS	FT	1514464	0-0	0-0	03:00
+TSV: 894047846	2026-03-29	international friendlies	Mexico	Portugal	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	WIN	FT	1514464	0-0	0-0	03:00
+TSV: 894047846	2026-03-29	international friendlies	Mexico	Portugal	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1514464	0-0	0-0	03:00
+TSV: 894047846	2026-03-29	international friendlies	Mexico	Portugal	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1514464	0-0	0-0	03:00
+TSV: 894047846	2026-03-29	international friendlies	Mexico	Portugal	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	LOSS	FT	1514464	0-0	0-0	03:00
+TSV: 894047846	2026-03-29	international friendlies	Mexico	Portugal	O25_FT	Over 2.5 (FT)	4.0	FORT	1	LOSS	FT	1514464	0-0	0-0	03:00
+TSV: 894047846	2026-03-29	international friendlies	Mexico	Portugal	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1514464	0-0	0-0	03:00
+TSV: 894047846	2026-03-29	international friendlies	Mexico	Portugal	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1514464	0-0	0-0	03:00
+TSV: 1474028546	2026-03-29	primera a colombia	Deportivo Cali	Deportivo Pereira	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1506061	1-0	1-0	03:20
+TSV: 1474028546	2026-03-29	primera a colombia	Deportivo Cali	Deportivo Pereira	HT1X_HOME	HT 1X Home	4.0	FORT	1	WIN	FT	1506061	1-0	1-0	03:20
+TSV: 1474028546	2026-03-29	primera a colombia	Deportivo Cali	Deportivo Pereira	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1506061	1-0	1-0	03:20
+TSV: 1474028546	2026-03-29	primera a colombia	Deportivo Cali	Deportivo Pereira	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1506061	1-0	1-0	03:20
+TSV: 1474028546	2026-03-29	primera a colombia	Deportivo Cali	Deportivo Pereira	O15_FT	Over 1.5 (FT)	4.0	FORT	1	LOSS	FT	1506061	1-0	1-0	03:20
+TSV: 1474028546	2026-03-29	primera a colombia	Deportivo Cali	Deportivo Pereira	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1506061	1-0	1-0	03:20
+TSV: 1474028546	2026-03-29	primera a colombia	Deportivo Cali	Deportivo Pereira	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1506061	1-0	1-0	03:20
+TSV: 1474028546	2026-03-29	primera a colombia	Deportivo Cali	Deportivo Pereira	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1506061	1-0	1-0	03:20
+TSV: 3894978394	2026-03-29	laliga2	Eibar	Las Palmas	HT05	HT+0.5	4.0	FORT	1	WIN	FT	1392107	3-1	3-1	14:00
+TSV: 3894978394	2026-03-29	laliga2	Eibar	Las Palmas	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	WIN	FT	1392107	3-1	3-1	14:00
+TSV: 3894978394	2026-03-29	laliga2	Eibar	Las Palmas	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1392107	3-1	3-1	14:00
+TSV: 3894978394	2026-03-29	laliga2	Eibar	Las Palmas	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1392107	3-1	3-1	14:00
+TSV: 3894978394	2026-03-29	laliga2	Eibar	Las Palmas	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1392107	3-1	3-1	14:00
+TSV: 3894978394	2026-03-29	laliga2	Eibar	Las Palmas	O25_FT	Over 2.5 (FT)	0.0	KO	0	BAD_NO_BET	FT	1392107	3-1	3-1	14:00
+TSV: 3894978394	2026-03-29	laliga2	Eibar	Las Palmas	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1392107	3-1	3-1	14:00
+TSV: 3894978394	2026-03-29	laliga2	Eibar	Las Palmas	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1392107	3-1	3-1	14:00
+TSV: 1814516694	2026-03-29	international friendlies	Armenia	Belarus	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1514832	1-2	0-1	15:00
+TSV: 1814516694	2026-03-29	international friendlies	Armenia	Belarus	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	LOSS	FT	1514832	1-2	0-1	15:00
+TSV: 1814516694	2026-03-29	international friendlies	Armenia	Belarus	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1514832	1-2	0-1	15:00
+TSV: 1814516694	2026-03-29	international friendlies	Armenia	Belarus	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	WIN	FT	1514832	1-2	0-1	15:00
+TSV: 1814516694	2026-03-29	international friendlies	Armenia	Belarus	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1514832	1-2	0-1	15:00
+TSV: 1814516694	2026-03-29	international friendlies	Armenia	Belarus	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1514832	1-2	0-1	15:00
+TSV: 1814516694	2026-03-29	international friendlies	Armenia	Belarus	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1514832	1-2	0-1	15:00
+TSV: 1814516694	2026-03-29	international friendlies	Armenia	Belarus	TEAM2_WIN_FT	Team2 wins (FT)	4.0	FORT	0	BAD_NO_BET	FT	1514832	1-2	0-1	15:00
+TSV: 1450039736	2026-03-29	international friendlies	Lithuania	Georgia	HT05	HT+0.5	6.0	TRÈS FORT	1	LOSS	FT	1502472	0-2	0-0	15:00
+TSV: 1450039736	2026-03-29	international friendlies	Lithuania	Georgia	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	WIN	FT	1502472	0-2	0-0	15:00
+TSV: 1450039736	2026-03-29	international friendlies	Lithuania	Georgia	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1502472	0-2	0-0	15:00
+TSV: 1450039736	2026-03-29	international friendlies	Lithuania	Georgia	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1502472	0-2	0-0	15:00
+TSV: 1450039736	2026-03-29	international friendlies	Lithuania	Georgia	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1502472	0-2	0-0	15:00
+TSV: 1450039736	2026-03-29	international friendlies	Lithuania	Georgia	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	LOSS	FT	1502472	0-2	0-0	15:00
+TSV: 1450039736	2026-03-29	international friendlies	Lithuania	Georgia	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1502472	0-2	0-0	15:00
+TSV: 1450039736	2026-03-29	international friendlies	Lithuania	Georgia	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1502472	0-2	0-0	15:00
+TSV: 3516784386	2026-03-29	cymru premier league	GAP Connah S Quay FC	Barry Town	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1508981	1-1	0-1	15:30
+TSV: 3516784386	2026-03-29	cymru premier league	GAP Connah S Quay FC	Barry Town	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	LOSS	FT	1508981	1-1	0-1	15:30
+TSV: 3516784386	2026-03-29	cymru premier league	GAP Connah S Quay FC	Barry Town	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1508981	1-1	0-1	15:30
+TSV: 3516784386	2026-03-29	cymru premier league	GAP Connah S Quay FC	Barry Town	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	WIN	FT	1508981	1-1	0-1	15:30
+TSV: 3516784386	2026-03-29	cymru premier league	GAP Connah S Quay FC	Barry Town	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	WIN	FT	1508981	1-1	0-1	15:30
+TSV: 3516784386	2026-03-29	cymru premier league	GAP Connah S Quay FC	Barry Town	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1508981	1-1	0-1	15:30
+TSV: 3516784386	2026-03-29	cymru premier league	GAP Connah S Quay FC	Barry Town	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1508981	1-1	0-1	15:30
+TSV: 3516784386	2026-03-29	cymru premier league	GAP Connah S Quay FC	Barry Town	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1508981	1-1	0-1	15:30
+TSV: 3430748370	2026-03-29	laliga2	Cultural Leonesa	FC Andorra	HT05	HT+0.5	4.0	FORT	1	WIN	FT	1396980	0-4	0-2	16:15
+TSV: 3430748370	2026-03-29	laliga2	Cultural Leonesa	FC Andorra	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	LOSS	FT	1396980	0-4	0-2	16:15
+TSV: 3430748370	2026-03-29	laliga2	Cultural Leonesa	FC Andorra	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1396980	0-4	0-2	16:15
+TSV: 3430748370	2026-03-29	laliga2	Cultural Leonesa	FC Andorra	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1396980	0-4	0-2	16:15
+TSV: 3430748370	2026-03-29	laliga2	Cultural Leonesa	FC Andorra	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1396980	0-4	0-2	16:15
+TSV: 3430748370	2026-03-29	laliga2	Cultural Leonesa	FC Andorra	O25_FT	Over 2.5 (FT)	4.0	FORT	1	WIN	FT	1396980	0-4	0-2	16:15
+TSV: 3430748370	2026-03-29	laliga2	Cultural Leonesa	FC Andorra	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1396980	0-4	0-2	16:15
+TSV: 3430748370	2026-03-29	laliga2	Cultural Leonesa	FC Andorra	TEAM2_WIN_FT	Team2 wins (FT)	4.0	FORT	0	BAD_NO_BET	FT	1396980	0-4	0-2	16:15
+TSV: 3048177195	2026-03-29	liga portugal 2	União de Leiria	Pacos Ferreira	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1398144	2-0	1-0	16:30
+TSV: 3048177195	2026-03-29	liga portugal 2	União de Leiria	Pacos Ferreira	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1398144	2-0	1-0	16:30
+TSV: 3048177195	2026-03-29	liga portugal 2	União de Leiria	Pacos Ferreira	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1398144	2-0	1-0	16:30
+TSV: 3048177195	2026-03-29	liga portugal 2	União de Leiria	Pacos Ferreira	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1398144	2-0	1-0	16:30
+TSV: 3048177195	2026-03-29	liga portugal 2	União de Leiria	Pacos Ferreira	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	WIN	FT	1398144	2-0	1-0	16:30
+TSV: 3048177195	2026-03-29	liga portugal 2	União de Leiria	Pacos Ferreira	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1398144	2-0	1-0	16:30
+TSV: 3048177195	2026-03-29	liga portugal 2	União de Leiria	Pacos Ferreira	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1398144	2-0	1-0	16:30
+TSV: 3048177195	2026-03-29	liga portugal 2	União de Leiria	Pacos Ferreira	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1398144	2-0	1-0	16:30
+TSV: 3208118917	2026-03-29	laliga2	Zaragoza	Racing Santander	HT05	HT+0.5	4.0	FORT	1	LOSS	FT	1392110	2-0	0-0	18:30
+TSV: 3208118917	2026-03-29	laliga2	Zaragoza	Racing Santander	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	WIN	FT	1392110	2-0	0-0	18:30
+TSV: 3208118917	2026-03-29	laliga2	Zaragoza	Racing Santander	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1392110	2-0	0-0	18:30
+TSV: 3208118917	2026-03-29	laliga2	Zaragoza	Racing Santander	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1392110	2-0	0-0	18:30
+TSV: 3208118917	2026-03-29	laliga2	Zaragoza	Racing Santander	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1392110	2-0	0-0	18:30
+TSV: 3208118917	2026-03-29	laliga2	Zaragoza	Racing Santander	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1392110	2-0	0-0	18:30
+TSV: 3208118917	2026-03-29	laliga2	Zaragoza	Racing Santander	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1392110	2-0	0-0	18:30
+TSV: 3208118917	2026-03-29	laliga2	Zaragoza	Racing Santander	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1392110	2-0	0-0	18:30
+TSV: 1156079206	2026-03-29	international friendlies	Colombia	France	HT05	HT+0.5	4.0	FORT	1	WIN	FT	1514465	1-3	0-2	21:00
+TSV: 1156079206	2026-03-29	international friendlies	Colombia	France	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	GOOD_NO_BET	FT	1514465	1-3	0-2	21:00
+TSV: 1156079206	2026-03-29	international friendlies	Colombia	France	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1514465	1-3	0-2	21:00
+TSV: 1156079206	2026-03-29	international friendlies	Colombia	France	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1514465	1-3	0-2	21:00
+TSV: 1156079206	2026-03-29	international friendlies	Colombia	France	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1514465	1-3	0-2	21:00
+TSV: 1156079206	2026-03-29	international friendlies	Colombia	France	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1514465	1-3	0-2	21:00
+TSV: 1156079206	2026-03-29	international friendlies	Colombia	France	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1514465	1-3	0-2	21:00
+TSV: 1156079206	2026-03-29	international friendlies	Colombia	France	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1514465	1-3	0-2	21:00
+TSV: 622724741	2026-03-29	laliga2	Almeria	Real Sociedad II	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1392114	5-1	2-0	21:00
+TSV: 622724741	2026-03-29	laliga2	Almeria	Real Sociedad II	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1392114	5-1	2-0	21:00
+TSV: 622724741	2026-03-29	laliga2	Almeria	Real Sociedad II	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	WIN	FT	1392114	5-1	2-0	21:00
+TSV: 622724741	2026-03-29	laliga2	Almeria	Real Sociedad II	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	WIN	FT	1392114	5-1	2-0	21:00
+TSV: 622724741	2026-03-29	laliga2	Almeria	Real Sociedad II	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1392114	5-1	2-0	21:00
+TSV: 622724741	2026-03-29	laliga2	Almeria	Real Sociedad II	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1392114	5-1	2-0	21:00
+TSV: 622724741	2026-03-29	laliga2	Almeria	Real Sociedad II	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1392114	5-1	2-0	21:00
+TSV: 622724741	2026-03-29	laliga2	Almeria	Real Sociedad II	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1392114	5-1	2-0	21:00
+TSV: 795554991	2026-03-29	primera a colombia	Internacional de Bogota	Junior	HT05	HT+0.5	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1506062	0-1	0-0	23:10
+TSV: 795554991	2026-03-29	primera a colombia	Internacional de Bogota	Junior	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	WIN	FT	1506062	0-1	0-0	23:10
+TSV: 795554991	2026-03-29	primera a colombia	Internacional de Bogota	Junior	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1506062	0-1	0-0	23:10
+TSV: 795554991	2026-03-29	primera a colombia	Internacional de Bogota	Junior	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	WIN	FT	1506062	0-1	0-0	23:10
+TSV: 795554991	2026-03-29	primera a colombia	Internacional de Bogota	Junior	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	LOSS	FT	1506062	0-1	0-0	23:10
+TSV: 795554991	2026-03-29	primera a colombia	Internacional de Bogota	Junior	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1506062	0-1	0-0	23:10
+TSV: 795554991	2026-03-29	primera a colombia	Internacional de Bogota	Junior	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506062	0-1	0-0	23:10
+TSV: 795554991	2026-03-29	primera a colombia	Internacional de Bogota	Junior	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1506062	0-1	0-0	23:10

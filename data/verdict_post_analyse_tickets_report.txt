@@ -2,9 +2,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-03-29
+Date run       : 2026-03-30
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (115 ids)
+Whitelist      : ON (116 ids)
 Ignorés (hors whitelist) : 16
 Ignorés (date>=today)    : 3
 
@@ -922,10 +922,18 @@ Ignorés (date>=today)    : 3
    ❌ Leg 2) 18:00 | international friendlies | Hungary vs Slovenia | HT+0.5 | [FORT] | odd=1.38
    ❌ Leg 3) 18:00 | international friendlies | Scotland vs Japan | HT+0.5 | [MEGA EXPLOSION] | odd=1.4
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Dimanche 2026-03-29 15:00→01:00 | code=A2 | odd=2.55
+   id=2026-03-29_1500_451f800d97_SYS
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 15:00 | international friendlies | Armenia vs Belarus | HT+0.5 | [MEGA EXPLOSION] | odd=1.4
+   ❌ Leg 2) 15:00 | international friendlies | Lithuania vs Georgia | HT+0.5 | [TRÈS FORT] | odd=1.4
+   ✅ Leg 3) 23:10 | primera a colombia | Internacional de Bogota vs Junior | HT 1X Home | [MOYEN PLUS] | odd=1.3
+
 ====================================================================
-TOTAL tickets : 109
+TOTAL tickets : 110
 ✅ WIN     : 39
-❌ LOSS    : 68
+❌ LOSS    : 69
 ⏳ PENDING : 2
 ====================================================================
 

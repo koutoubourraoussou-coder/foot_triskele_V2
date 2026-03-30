@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-03-29
+Date run       : 2026-03-30
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
 Whitelist      : ON (119 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 3
+Ignorés (date>=today)    : 0
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -998,9 +998,17 @@ Ignorés (date>=today)    : 3
    ✅ Leg 2) 21:00 | laliga2 | Sporting Gijon vs Deportivo La Coruna | Over 1.5 (FT) | [FORT PLUS] | odd=1.42
    ❌ Leg 3) 22:00 | primera a colombia | Cucuta vs Chico | Over 1.5 (FT) | [EXPLOSION] | odd=1.36
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Dimanche 2026-03-29 14:00→20:20 | code=A2 | odd=3.11
+   id=2026-03-29_1400_411cbbcb0e_O15R
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 14:00 | laliga2 | Eibar vs Las Palmas | Over 1.5 (FT) | [MOYEN] | odd=1.53
+   ✅ Leg 2) 16:15 | laliga2 | Cultural Leonesa vs FC Andorra | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.53
+   ✅ Leg 3) 18:30 | laliga2 | Zaragoza vs Racing Santander | Over 1.5 (FT) | [FORT PLUS] | odd=1.33
+
 ====================================================================
-TOTAL tickets : 118
-✅ WIN     : 49
+TOTAL tickets : 119
+✅ WIN     : 50
 ❌ LOSS    : 66
 ⏳ PENDING : 3
 ====================================================================

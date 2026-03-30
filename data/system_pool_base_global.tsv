@@ -1134,3 +1134,24 @@ TSV: 2026-03-29	795554991	O15_FT	23:10	primera a colombia	Internacional de Bogot
 TSV: 2026-03-29	795554991	TEAM2_SCORE_FT	23:10	primera a colombia	Internacional de Bogota	Junior	1.31	1506062	SYSTEM_POOL_BASE	predictions.tsv
 TSV: 2026-03-29	795554991	HT1X_HOME	23:10	primera a colombia	Internacional de Bogota	Junior	1.3	1506062	SYSTEM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-03-30 05:30:01 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-30	4133036125	HT1X_HOME	03:30	primera a colombia	Llaneros	Once Caldas	1.38	1506065	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	4133036125	HT05	03:30	primera a colombia	Llaneros	Once Caldas	1.33	1506065	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	4133036125	O15_FT	03:30	primera a colombia	Llaneros	Once Caldas	1.25	1506065	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	3548028422	HT05	14:00	international friendlies	Russia U21	Jordan U23	1.43	1537190	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	3548028422	O15_FT	14:00	international friendlies	Russia U21	Jordan U23	1.25	1537190	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	3954097368	O25_FT	15:00	international friendlies	Tunisia U20	Mauritania U20	1.52	1537188	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	3954097368	TEAM2_SCORE_FT	15:00	international friendlies	Tunisia U20	Mauritania U20	1.34	1537188	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	3954097368	HT05	15:00	international friendlies	Tunisia U20	Mauritania U20	1.25	1537188	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	1368645119	O25_FT	18:00	international friendlies	Cyprus	Moldova	1.85	1507580	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	1368645119	HT05	18:00	international friendlies	Cyprus	Moldova	1.35	1507580	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	1368645119	O15_FT	18:00	international friendlies	Cyprus	Moldova	1.28	1507580	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	1368645119	TEAM1_SCORE_FT	18:00	international friendlies	Cyprus	Moldova	1.15	1507580	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	1836836	HT1X_HOME	18:30	international friendlies	Netherlands U21	Belgium U21	1.28	1514833	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	1836836	O15_FT	18:30	international friendlies	Netherlands U21	Belgium U21	1.18	1514833	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	1820939758	O25_FT	20:45	international friendlies	Germany	Ghana	1.38	1501816	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	1820939758	HT05	20:45	international friendlies	Germany	Ghana	1.2	1501816	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	1820939758	TEAM1_WIN_FT	20:45	international friendlies	Germany	Ghana	1.19	1501816	SYSTEM_POOL_BASE	predictions.tsv
+
