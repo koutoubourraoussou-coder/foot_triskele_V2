@@ -1,0 +1,333 @@
+VALIDATION COMPLÈTE — TOP PROFILS (Monte Carlo 200 runs)
+============================================================
+Martingale : B0=100.0 | max_losses=4
+
+#1 | score_optimizer=200.0988
+------------------------------------------------------------
+SYSTEM  | win_rate=0.776 | tickets=67 | tickets/jour=1.25 | worst_streak=3 | best_streak=10 | profit_flat=65.70 | yield=0.981
+RANDOM  | win_rate=0.898 | tickets=59 | tickets/jour=1.30 | worst_streak=1 | best_streak=18 | profit_flat=82.17 | yield=1.393
+COMBINÉ | win_rate=0.837 | worst_streak=3 | best_streak=18 | profit_flat=73.93
+
+  [SYSTEM] Monte Carlo 200 runs
+    Tickets      : moy=66.8 | min=66.0 | max=67.0 | σ=0.4
+    Win rate     : moy=0.773 | min=0.716 | max=0.806 | σ=0.018
+    Pire serie L : moy=2.2 | min=2.0 | max=4.0 | σ=0.4  ← pire tous runs=4
+    Meil. serie W: moy=12.5 | min=9.0 | max=20.0 | σ=1.6  ← meilleure tous runs=20
+
+    MART.NORMALE | multiplicateur : moy=242.3 | min=0.0 | max=353.8 | σ=39.8
+                 | profit         : moy=24128.5 | min=-100.0 | max=35275.2 | σ=3983.3
+                 | pire serie L   : moy=2.2 | min=2.0 | max=4.0 | σ=0.4
+                 | meill. serie W : moy=12.5 | min=9.0 | max=20.0 | σ=1.6
+                 | ruine          : 0.5% (1/200)
+
+    MART.SAFE    | multiplicateur : moy=20.9 | min=4.4 | max=26.6 | σ=1.9
+                 | profit         : moy=1987.8 | min=338.0 | max=2556.2 | σ=189.0
+                 | pire serie L   : moy=2.2 | min=2.0 | max=4.0 | σ=0.4
+                 | meill. serie W : moy=12.5 | min=9.0 | max=20.0 | σ=1.6
+                 | ruine          : 0.0% (0/200)
+                 | doublings      : moy=6.8 | min=3.0 | max=7.0 | σ=0.5
+                 | restarts       : moy=0.0 | min=0.0 | max=0.0 | σ=0.0
+
+  [RANDOM] Monte Carlo 200 runs
+    Tickets      : moy=58.7 | min=58.0 | max=59.0 | σ=0.5
+    Win rate     : moy=0.887 | min=0.831 | max=0.932 | σ=0.021
+    Pire serie L : moy=1.3 | min=1.0 | max=2.0 | σ=0.5  ← pire tous runs=2
+    Meil. serie W: moy=26.4 | min=16.0 | max=36.0 | σ=4.0  ← meilleure tous runs=36
+
+    MART.NORMALE | multiplicateur : moy=298.5 | min=201.0 | max=1079.8 | σ=156.5
+                 | profit         : moy=29752.6 | min=19997.3 | max=107880.6 | σ=15652.5
+                 | pire serie L   : moy=1.3 | min=1.0 | max=2.0 | σ=0.5
+                 | meill. serie W : moy=26.4 | min=16.0 | max=36.0 | σ=4.0
+                 | ruine          : 0.0% (0/200)
+
+    MART.SAFE    | multiplicateur : moy=22.1 | min=19.7 | max=41.0 | σ=3.9
+                 | profit         : moy=2112.3 | min=1869.7 | max=3999.3 | σ=385.0
+                 | pire serie L   : moy=1.3 | min=1.0 | max=2.0 | σ=0.5
+                 | meill. serie W : moy=26.4 | min=16.0 | max=36.0 | σ=4.0
+                 | ruine          : 0.0% (0/200)
+                 | doublings      : moy=7.0 | min=7.0 | max=8.0 | σ=0.2
+                 | restarts       : moy=0.0 | min=0.0 | max=0.0 | σ=0.0
+
+TUNING
+{
+  "global_bet_min_decided": 7,
+  "global_bet_min_winrate": 0.62,
+  "league_bet_min_winrate": 0.65,
+  "league_bet_require_data": false,
+  "team_min_decided": 8,
+  "team_min_winrate": 0.7,
+  "two_team_high": 0.88,
+  "two_team_low": 0.6,
+  "weight_min": 1.2,
+  "weight_max": 2.0,
+  "weight_baseline": 0.74,
+  "weight_ceil": 1.0,
+  "topk_size": 3,
+  "topk_uniform_draw": false,
+  "prefer_3legs_delta": 0.0,
+  "search_budget_ms_system": 500,
+  "search_budget_ms_random": 300,
+  "excluded_bet_groups": [
+    "HT05"
+  ],
+  "target_odd": 2.4,
+  "min_accept_odd": 1.7,
+  "rich_day_match_count": 18,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 2,
+  "min_side_matches_for_split": 3,
+  "split_gap_weight": 0.35,
+  "league_ranking_mode": "CLASSIC",
+  "team_ranking_mode": "COMPOSITE",
+  "system_build_source": "LEAGUE",
+  "system_select_source": "TEAM",
+  "random_build_source": "LEAGUE",
+  "random_select_source": "TEAM",
+  "hybrid_alpha": 0.4
+}
+
+#2 | score_optimizer=103.4612
+------------------------------------------------------------
+SYSTEM  | win_rate=0.800 | tickets=70 | tickets/jour=1.39 | worst_streak=2 | best_streak=7 | profit_flat=70.82 | yield=1.012
+RANDOM  | win_rate=0.873 | tickets=63 | tickets/jour=1.47 | worst_streak=2 | best_streak=12 | profit_flat=73.66 | yield=1.169
+COMBINÉ | win_rate=0.837 | worst_streak=2 | best_streak=12 | profit_flat=72.24
+
+  [SYSTEM] Monte Carlo 200 runs
+    Tickets      : moy=71.2 | min=69.0 | max=75.0 | σ=1.2
+    Win rate     : moy=0.804 | min=0.722 | max=0.887 | σ=0.035
+    Pire serie L : moy=2.3 | min=1.0 | max=4.0 | σ=0.7  ← pire tous runs=4
+    Meil. serie W: moy=14.3 | min=7.0 | max=26.0 | σ=3.1  ← meilleure tous runs=26
+
+    MART.NORMALE | multiplicateur : moy=385.2 | min=0.0 | max=658.9 | σ=125.0
+                 | profit         : moy=38419.5 | min=-100.0 | max=65791.1 | σ=12497.5
+                 | pire serie L   : moy=2.3 | min=1.0 | max=4.0 | σ=0.7
+                 | meill. serie W : moy=14.3 | min=7.0 | max=26.0 | σ=3.2
+                 | ruine          : 2.5% (5/200)
+
+    MART.SAFE    | multiplicateur : moy=23.9 | min=2.5 | max=30.1 | σ=3.5
+                 | profit         : moy=2294.2 | min=154.1 | max=2909.1 | σ=349.1
+                 | pire serie L   : moy=2.3 | min=1.0 | max=4.0 | σ=0.7
+                 | meill. serie W : moy=14.3 | min=7.0 | max=26.0 | σ=3.1
+                 | ruine          : 0.0% (0/200)
+                 | doublings      : moy=7.4 | min=2.0 | max=8.0 | σ=0.9
+                 | restarts       : moy=0.0 | min=0.0 | max=1.0 | σ=0.2
+
+  [RANDOM] Monte Carlo 200 runs
+    Tickets      : moy=62.5 | min=61.0 | max=63.0 | σ=0.6
+    Win rate     : moy=0.822 | min=0.742 | max=0.905 | σ=0.030
+    Pire serie L : moy=2.1 | min=2.0 | max=4.0 | σ=0.3  ← pire tous runs=4
+    Meil. serie W: moy=12.0 | min=8.0 | max=24.0 | σ=2.7  ← meilleure tous runs=24
+
+    MART.NORMALE | multiplicateur : moy=200.8 | min=0.0 | max=542.7 | σ=50.8
+                 | profit         : moy=19982.0 | min=-100.0 | max=54170.2 | σ=5076.4
+                 | pire serie L   : moy=2.1 | min=2.0 | max=4.0 | σ=0.3
+                 | meill. serie W : moy=12.0 | min=8.0 | max=24.0 | σ=2.7
+                 | ruine          : 2.0% (4/200)
+
+    MART.SAFE    | multiplicateur : moy=19.6 | min=6.5 | max=33.4 | σ=1.8
+                 | profit         : moy=1860.2 | min=548.9 | max=3234.5 | σ=178.6
+                 | pire serie L   : moy=2.1 | min=2.0 | max=4.0 | σ=0.3
+                 | meill. serie W : moy=12.0 | min=8.0 | max=24.0 | σ=2.7
+                 | ruine          : 0.0% (0/200)
+                 | doublings      : moy=6.8 | min=4.0 | max=7.0 | σ=0.4
+                 | restarts       : moy=0.0 | min=0.0 | max=1.0 | σ=0.2
+
+TUNING
+{
+  "global_bet_min_decided": 10,
+  "global_bet_min_winrate": 0.7,
+  "league_bet_min_winrate": 0.72,
+  "league_bet_require_data": true,
+  "team_min_decided": 8,
+  "team_min_winrate": 0.78,
+  "two_team_high": 0.85,
+  "two_team_low": 0.58,
+  "weight_min": 0.8,
+  "weight_max": 2.0,
+  "weight_baseline": 0.78,
+  "weight_ceil": 1.0,
+  "topk_size": 5,
+  "topk_uniform_draw": true,
+  "prefer_3legs_delta": 0.0,
+  "search_budget_ms_system": 800,
+  "search_budget_ms_random": 300,
+  "excluded_bet_groups": [],
+  "target_odd": 2.3,
+  "min_accept_odd": 1.6,
+  "rich_day_match_count": 20,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 3,
+  "min_side_matches_for_split": 4,
+  "split_gap_weight": 0.2,
+  "league_ranking_mode": "COMPOSITE",
+  "team_ranking_mode": "CLASSIC",
+  "system_build_source": "TEAM",
+  "system_select_source": "TEAM",
+  "random_build_source": "TEAM",
+  "random_select_source": "TEAM",
+  "hybrid_alpha": 0.8
+}
+
+#3 | score_optimizer=82.0380
+------------------------------------------------------------
+SYSTEM  | win_rate=0.686 | tickets=86 | tickets/jour=1.62 | worst_streak=4 | best_streak=9 | profit_flat=62.80 | yield=0.730
+RANDOM  | win_rate=0.783 | tickets=69 | tickets/jour=1.54 | worst_streak=2 | best_streak=12 | profit_flat=103.45 | yield=1.499
+COMBINÉ | win_rate=0.734 | worst_streak=4 | best_streak=12 | profit_flat=83.13
+
+  [SYSTEM] Monte Carlo 200 runs
+    Tickets      : moy=84.9 | min=81.0 | max=89.0 | σ=1.4
+    Win rate     : moy=0.725 | min=0.639 | max=0.809 | σ=0.034
+    Pire serie L : moy=3.5 | min=1.0 | max=7.0 | σ=1.0  ← pire tous runs=7
+    Meil. serie W: moy=11.6 | min=6.0 | max=22.0 | σ=3.1  ← meilleure tous runs=22
+
+    MART.NORMALE | multiplicateur : moy=565.1 | min=0.0 | max=2292.1 | σ=598.9
+                 | profit         : moy=56408.7 | min=-100.0 | max=229114.4 | σ=59890.1
+                 | pire serie L   : moy=3.4 | min=1.0 | max=5.0 | σ=0.8
+                 | meill. serie W : moy=7.8 | min=0.0 | max=21.0 | σ=6.2
+                 | ruine          : 43.5% (87/200)
+
+    MART.SAFE    | multiplicateur : moy=20.2 | min=0.0 | max=40.8 | σ=15.9
+                 | profit         : moy=1919.2 | min=-100.0 | max=3981.7 | σ=1586.1
+                 | pire serie L   : moy=3.4 | min=1.0 | max=5.0 | σ=0.8
+                 | meill. serie W : moy=8.0 | min=0.0 | max=21.0 | σ=6.2
+                 | ruine          : 34.5% (69/200)
+                 | doublings      : moy=5.5 | min=0.0 | max=10.0 | σ=4.2
+                 | restarts       : moy=0.1 | min=0.0 | max=1.0 | σ=0.3
+
+  [RANDOM] Monte Carlo 200 runs
+    Tickets      : moy=70.3 | min=67.0 | max=73.0 | σ=1.1
+    Win rate     : moy=0.770 | min=0.676 | max=0.871 | σ=0.039
+    Pire serie L : moy=2.6 | min=1.0 | max=6.0 | σ=0.9  ← pire tous runs=6
+    Meil. serie W: moy=13.1 | min=6.0 | max=27.0 | σ=4.4  ← meilleure tous runs=27
+
+    MART.NORMALE | multiplicateur : moy=910.9 | min=0.0 | max=8614.4 | σ=1060.8
+                 | profit         : moy=90990.6 | min=-100.0 | max=861339.3 | σ=106079.1
+                 | pire serie L   : moy=2.5 | min=1.0 | max=5.0 | σ=0.8
+                 | meill. serie W : moy=12.3 | min=4.0 | max=27.0 | σ=4.8
+                 | ruine          : 9.5% (19/200)
+
+    MART.SAFE    | multiplicateur : moy=37.1 | min=1.0 | max=218.1 | σ=26.4
+                 | profit         : moy=3609.6 | min=1.8 | max=21710.8 | σ=2639.2
+                 | pire serie L   : moy=2.5 | min=1.0 | max=5.0 | σ=0.8
+                 | meill. serie W : moy=13.1 | min=6.0 | max=27.0 | σ=4.4
+                 | ruine          : 0.0% (0/200)
+                 | doublings      : moy=7.2 | min=1.0 | max=9.0 | σ=1.5
+                 | restarts       : moy=0.1 | min=0.0 | max=2.0 | σ=0.3
+
+TUNING
+{
+  "global_bet_min_decided": 10,
+  "global_bet_min_winrate": 0.62,
+  "league_bet_min_winrate": 0.65,
+  "league_bet_require_data": true,
+  "team_min_decided": 6,
+  "team_min_winrate": 0.75,
+  "two_team_high": 0.8,
+  "two_team_low": 0.66,
+  "weight_min": 1.0,
+  "weight_max": 2.0,
+  "weight_baseline": 0.74,
+  "weight_ceil": 0.95,
+  "topk_size": 10,
+  "topk_uniform_draw": true,
+  "prefer_3legs_delta": 0.08,
+  "search_budget_ms_system": 500,
+  "search_budget_ms_random": 500,
+  "excluded_bet_groups": [],
+  "target_odd": 2.4,
+  "min_accept_odd": 1.8,
+  "rich_day_match_count": 18,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 4,
+  "min_side_matches_for_split": 5,
+  "split_gap_weight": 0.6,
+  "league_ranking_mode": "CLASSIC",
+  "team_ranking_mode": "COMPOSITE",
+  "system_build_source": "LEAGUE",
+  "system_select_source": "HYBRID",
+  "random_build_source": "TEAM",
+  "random_select_source": "TEAM",
+  "hybrid_alpha": 0.6
+}
+
+#4 | score_optimizer=-64.9133 ⭐ ACTUEL (score=193)
+------------------------------------------------------------
+SYSTEM  | win_rate=0.598 | tickets=87 | tickets/jour=1.66 | worst_streak=4 | best_streak=10 | profit_flat=43.13 | yield=0.496
+RANDOM  | win_rate=0.563 | tickets=71 | tickets/jour=1.58 | worst_streak=4 | best_streak=5 | profit_flat=28.65 | yield=0.404
+COMBINÉ | win_rate=0.581 | worst_streak=4 | best_streak=10 | profit_flat=35.89
+
+  [SYSTEM] Monte Carlo 200 runs
+    Tickets      : moy=87.0 | min=86.0 | max=88.0 | σ=0.6
+    Win rate     : moy=0.634 | min=0.586 | max=0.674 | σ=0.018
+    Pire serie L : moy=3.9 | min=3.0 | max=4.0 | σ=0.3  ← pire tous runs=4
+    Meil. serie W: moy=9.8 | min=9.0 | max=10.0 | σ=0.4  ← meilleure tous runs=10
+
+    MART.NORMALE | multiplicateur : moy=102.6 | min=0.0 | max=983.1 | σ=268.8
+                 | profit         : moy=10159.2 | min=-100.0 | max=98212.1 | σ=26880.0
+                 | pire serie L   : moy=3.9 | min=3.0 | max=4.0 | σ=0.3
+                 | meill. serie W : moy=9.8 | min=9.0 | max=10.0 | σ=0.4
+                 | ruine          : 50.5% (101/200)
+
+    MART.SAFE    | multiplicateur : moy=17.6 | min=2.5 | max=33.2 | σ=8.7
+                 | profit         : moy=1663.0 | min=146.9 | max=3219.8 | σ=865.3
+                 | pire serie L   : moy=3.9 | min=3.0 | max=4.0 | σ=0.3
+                 | meill. serie W : moy=9.8 | min=9.0 | max=10.0 | σ=0.4
+                 | ruine          : 0.0% (0/200)
+                 | doublings      : moy=6.3 | min=2.0 | max=9.0 | σ=1.4
+                 | restarts       : moy=0.5 | min=0.0 | max=3.0 | σ=0.6
+
+  [RANDOM] Monte Carlo 200 runs
+    Tickets      : moy=70.5 | min=70.0 | max=71.0 | σ=0.5
+    Win rate     : moy=0.530 | min=0.457 | max=0.577 | σ=0.020
+    Pire serie L : moy=5.3 | min=4.0 | max=7.0 | σ=1.3  ← pire tous runs=7
+    Meil. serie W: moy=4.8 | min=4.0 | max=6.0 | σ=0.6  ← meilleure tous runs=6
+
+    MART.NORMALE | multiplicateur : moy=0.0 | min=0.0 | max=0.0 | σ=0.0
+                 | profit         : moy=-100.0 | min=-100.0 | max=-100.0 | σ=0.0
+                 | pire serie L   : moy=4.3 | min=4.0 | max=5.0 | σ=0.4
+                 | meill. serie W : moy=4.6 | min=4.0 | max=6.0 | σ=0.5
+                 | ruine          : 79.0% (158/200)
+
+    MART.SAFE    | multiplicateur : moy=12.0 | min=2.9 | max=16.7 | σ=4.3
+                 | profit         : moy=1097.4 | min=186.3 | max=1570.1 | σ=432.7
+                 | pire serie L   : moy=4.2 | min=4.0 | max=5.0 | σ=0.4
+                 | meill. serie W : moy=4.8 | min=4.0 | max=6.0 | σ=0.6
+                 | ruine          : 0.0% (0/200)
+                 | doublings      : moy=4.5 | min=2.0 | max=6.0 | σ=1.1
+                 | restarts       : moy=0.9 | min=0.0 | max=2.0 | σ=0.5
+
+TUNING
+{
+  "global_bet_min_decided": 12,
+  "global_bet_min_winrate": 0.65,
+  "league_bet_min_winrate": 0.72,
+  "league_bet_require_data": true,
+  "team_min_decided": 8,
+  "team_min_winrate": 0.7,
+  "two_team_high": 0.85,
+  "two_team_low": 0.58,
+  "weight_min": 1.0,
+  "weight_max": 2.2,
+  "weight_baseline": 0.74,
+  "weight_ceil": 1.0,
+  "topk_size": 8,
+  "topk_uniform_draw": false,
+  "prefer_3legs_delta": 0.03,
+  "search_budget_ms_system": 500,
+  "search_budget_ms_random": 500,
+  "excluded_bet_groups": [],
+  "target_odd": 2.4,
+  "min_accept_odd": 1.8,
+  "rich_day_match_count": 16,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 4,
+  "min_side_matches_for_split": 5,
+  "split_gap_weight": 0.6,
+  "league_ranking_mode": "COMPOSITE",
+  "team_ranking_mode": "COMPOSITE",
+  "system_build_source": "LEAGUE",
+  "system_select_source": "LEAGUE",
+  "random_build_source": "LEAGUE",
+  "random_select_source": "LEAGUE",
+  "hybrid_alpha": 0.6
+}

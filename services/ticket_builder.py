@@ -40,18 +40,18 @@ TARGET_ODD = 2.40
 MIN_ODD = 1.15
 
 # Fallback uniquement si la journée ne permet AUCUN ticket >= TARGET_ODD
-MIN_ACCEPT_ODD = 1.80
+MIN_ACCEPT_ODD = 1.70
 
 MATCH_DURATION_MIN = 110
 
 # ✅ Exclusions (SYSTEM uniquement) — on exclut encore HT05 et HT1X pour l'instant
-EXCLUDED_BET_GROUPS: Set[str] = set ()
+EXCLUDED_BET_GROUPS: Set[str] = {"HT05"}
 
 MAX_LEG_SIZE = 4
 
 # ✅ recherche time-budget (au lieu de N tentatives)
 SEARCH_BUDGET_MS_SYSTEM = 500
-SEARCH_BUDGET_MS_RANDOM = 500
+SEARCH_BUDGET_MS_RANDOM = 300
 
 # garde-fou (si machine très lente ou pools énormes)
 SEARCH_MAX_ITER_SYSTEM = 200000
@@ -60,14 +60,14 @@ SEARCH_MAX_ITER_RANDOM = 200000
 # ----------------------------
 # Gestion journalière / fenêtres
 # ----------------------------
-RICH_DAY_MATCH_COUNT = 16
+RICH_DAY_MATCH_COUNT = 18
 
 # Nombre max de fenêtres / tickets possibles selon le type de journée
 DAY_MAX_WINDOWS_POOR = 1
-DAY_MAX_WINDOWS_RICH = 4
+DAY_MAX_WINDOWS_RICH = 2
 
-MIN_SIDE_MATCHES_FOR_SPLIT = 5     # évite une fenêtre vide ou ridicule
-SPLIT_GAP_WEIGHT = 0.6            # bonus si la coupure tombe dans un vrai creux horaire
+MIN_SIDE_MATCHES_FOR_SPLIT = 3     # évite une fenêtre vide ou ridicule
+SPLIT_GAP_WEIGHT = 0.35           # bonus si la coupure tombe dans un vrai creux horaire
 
 # Sorties SYSTEM
 TICKETS_TSV_FILE = Path("data/tickets.tsv")
@@ -92,20 +92,20 @@ O15_CANON = "O15_FT"
 # ----------------------------
 # ✅ RÈGLES "SYSTÈME" : PERFORMANCE / WINRATES
 # ----------------------------
-GLOBAL_BET_MIN_DECIDED = 12
-GLOBAL_BET_MIN_WINRATE = 0.65
+GLOBAL_BET_MIN_DECIDED = 7
+GLOBAL_BET_MIN_WINRATE = 0.62
 
-LEAGUE_BET_MIN_WINRATE = 0.72
-LEAGUE_BET_REQUIRE_DATA = True  # True = 0 match => rejet ; False = 0 match => passe
+LEAGUE_BET_MIN_WINRATE = 0.65
+LEAGUE_BET_REQUIRE_DATA = False  # True = 0 match => rejet ; False = 0 match => passe
 
 TEAM_MIN_DECIDED = 8
 TEAM_MIN_WINRATE = 0.70
 
-TWO_TEAM_HIGH = 0.85
-TWO_TEAM_LOW = 0.58
+TWO_TEAM_HIGH = 0.88
+TWO_TEAM_LOW = 0.60
 
-WEIGHT_MIN = 1.0
-WEIGHT_MAX = 2.2
+WEIGHT_MIN = 1.2
+WEIGHT_MAX = 2.0
 WEIGHT_BASELINE = 0.74
 WEIGHT_CEIL = 1.00
 
@@ -123,16 +123,19 @@ RANKINGS_TEAM_BET_FILE_COMPOSITE   = Path("data/rankings/triskele_composite_team
 
 # ✅ Quel fichier on branche réellement
 # options: "CLASSIC" | "COMPOSITE"
-LEAGUE_RANKING_MODE = "COMPOSITE"
+LEAGUE_RANKING_MODE = "CLASSIC"
 TEAM_RANKING_MODE   = "COMPOSITE"
 
 # ✅ Quel rideau on utilise pour chaque phase
 # options: "LEAGUE" | "TEAM"
 SYSTEM_BUILD_SOURCE  = "LEAGUE"   # génération des tickets SYSTEM
-SYSTEM_SELECT_SOURCE = "LEAGUE"     # sélection finale des meilleurs tickets SYSTEM
+SYSTEM_SELECT_SOURCE = "TEAM"     # sélection finale des meilleurs tickets SYSTEM  ("LEAGUE" | "TEAM" | "HYBRID")
 
 RANDOM_BUILD_SOURCE  = "LEAGUE"   # génération des tickets RANDOM
-RANDOM_SELECT_SOURCE = "LEAGUE"     # sélection finale des meilleurs tickets RANDOM
+RANDOM_SELECT_SOURCE = "TEAM"     # sélection finale des meilleurs tickets RANDOM
+
+# ✅ HYBRID SELECT : poids de la league dans le score final (0.0=pur team, 1.0=pur league)
+HYBRID_ALPHA = 0.4
 
 GLOBAL_VERDICT_HISTORY_FILE = Path("data/verdict_post_analyse.txt")
 
@@ -147,12 +150,12 @@ MAESTRO_LOG_FILE = Path("data/tickets_maestro_log.txt")
 MAESTRO_MAX_DETAIL_LINES = 30       # limite pour niveau 3 (évite pavés)
 
 # explication décision 3L vs 4L (pour logs)
-PREFER_3LEGS_DELTA = 0.03
+PREFER_3LEGS_DELTA = 0.0
 
 # ----------------------------
 # ✅ TOP-K UNIFORM DRAW (cas commun SYSTEM + RANDOM)
 # ----------------------------
-TOPK_SIZE = 8  # réglable : 5,6,7,8,9,10...
+TOPK_SIZE = 3  # réglable : 5,6,7,8,9,10...
 TOPK_UNIFORM_DRAW = False  # tu veux uniforme
 
 # ====================================================
@@ -202,9 +205,12 @@ class BuilderTuning:
     league_ranking_mode: str = LEAGUE_RANKING_MODE    # "CLASSIC" | "COMPOSITE"
     team_ranking_mode: str = TEAM_RANKING_MODE        # "CLASSIC" | "COMPOSITE"
     system_build_source: str = SYSTEM_BUILD_SOURCE    # "LEAGUE" | "TEAM"
-    system_select_source: str = SYSTEM_SELECT_SOURCE  # "LEAGUE" | "TEAM"
+    system_select_source: str = SYSTEM_SELECT_SOURCE  # "LEAGUE" | "TEAM" | "HYBRID"
     random_build_source: str = RANDOM_BUILD_SOURCE    # "LEAGUE" | "TEAM"
     random_select_source: str = RANDOM_SELECT_SOURCE  # "LEAGUE" | "TEAM"
+
+    # HYBRID SELECT : poids relatif league vs team (0=pur team, 1=pur league)
+    hybrid_alpha: float = HYBRID_ALPHA
 
 
 _DEFAULT_TUNING = BuilderTuning()
@@ -1200,6 +1206,63 @@ def _ticket_score_system_league(picks: List[Pick], league_bet: Optional[dict]) -
     return sum(vals) / len(vals)
 
 
+def _ticket_score_hybrid(
+    picks: List[Pick],
+    league_bet: Optional[dict],
+    team_bet: Optional[dict],
+    alpha: float = 0.6,
+) -> float:
+    """
+    SCORE HYBRID SELECT :
+
+    Pour chaque pick :
+      - score_league = wr_league_adj  (league × bet)
+      - score_team   = mean(wr_home_adj, wr_away_adj)  (team × bet)
+
+    Si team data absent (decided=0 pour home ET away) → fallback pur league.
+    Sinon : hybrid = alpha × score_league + (1-alpha) × score_team
+
+    Score final = moyenne sur les picks du ticket.
+    """
+    if not picks:
+        return -1e9
+
+    match_scores: List[float] = []
+
+    for p in picks:
+        fam = _norm_bet_family(p.bet_key)
+        league = (p.league or "").strip()
+
+        # League score
+        wr_l, dec_l = _league_bet_rate(league_bet, league, fam)
+        if wr_l is not None and dec_l > 0:
+            c_l = _confidence_coef(dec_l, n_full=5, base=0.70)
+            score_league = float(wr_l) * c_l
+        else:
+            score_league = 0.0
+
+        # Team score
+        team_vals: List[float] = []
+        for t in [p.home, p.away]:
+            if not t:
+                continue
+            wr_t, dec_t = _team_rate(team_bet, t, league, fam)
+            if wr_t is not None and dec_t > 0:
+                c_t = _confidence_coef(dec_t, n_full=5, base=0.70)
+                team_vals.append(float(wr_t) * c_t)
+
+        if team_vals:
+            score_team = sum(team_vals) / len(team_vals)
+            score = alpha * score_league + (1.0 - alpha) * score_team
+        else:
+            # Pas de données team → fallback pur league
+            score = score_league
+
+        match_scores.append(score)
+
+    return sum(match_scores) / len(match_scores)
+
+
 def _system_match_mean_team_rate(p: Pick, team_bet: Optional[dict]) -> float:
     if not ENABLE_RANKINGS:
         return WEIGHT_BASELINE
@@ -1250,10 +1313,14 @@ def _system_ticket_final_score(
     league_bet: Optional[dict],
     team_bet: Optional[dict],
 ) -> float:
-    src = (T().system_select_source or "").strip().upper()
+    cfg = T()
+    src = (cfg.system_select_source or "").strip().upper()
 
     if src == "LEAGUE":
         return _ticket_score_system_league(picks, league_bet)
+
+    if src == "HYBRID":
+        return _ticket_score_hybrid(picks, league_bet, team_bet, alpha=cfg.hybrid_alpha)
 
     return _ticket_score_system(picks, league_bet, team_bet)
 

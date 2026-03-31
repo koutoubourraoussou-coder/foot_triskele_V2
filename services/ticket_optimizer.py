@@ -7,6 +7,7 @@ import os
 import random
 import shutil
 import tempfile
+import time
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from dataclasses import asdict, dataclass
 from pathlib import Path
@@ -21,7 +22,7 @@ from services.ticket_builder import BuilderTuning, Ticket, TicketBuildOutput
 # =========================================================
 DEFAULT_ARCHIVE_DIR = Path("archive")
 DEFAULT_OUTPUT_DIR = Path("data/optimizer")
-DEFAULT_TOP_N = 3
+DEFAULT_TOP_N = 10
 DEFAULT_TRIALS = 1000
 DEFAULT_MAX_DAYS = 60
 DEFAULT_VALID_DAYS = 12
@@ -203,10 +204,50 @@ def _split_datasets_chronological(
 _VERDICT_CACHE: Dict[str, Dict[Tuple[str, str], str]] = {}
 
 
+_RESULTS_TSV_PATH = Path("data/results.tsv")
+_O15_FT_FAM = "O15_FT"
+
+
+def _load_o15_verdicts_from_results() -> Dict[Tuple[str, str], str]:
+    """
+    Calcule les verdicts O15_FT depuis results.tsv.
+    Format TSV : date | league | home | away | fixture_id | score_FT | status | score_HT
+    WIN si total buts FT > 1.5, LOSS sinon.
+    """
+    out: Dict[Tuple[str, str], str] = {}
+    if not _RESULTS_TSV_PATH.exists():
+        return out
+
+    with _RESULTS_TSV_PATH.open("r", encoding="utf-8", errors="ignore") as f:
+        for raw in f:
+            line = (raw or "").strip()
+            if not line.startswith("TSV:"):
+                continue
+            parts = line[4:].lstrip().split("\t")
+            if len(parts) < 6:
+                continue
+            fixture_id = parts[4].strip()
+            score_ft   = parts[5].strip()
+            if not fixture_id or "-" not in score_ft:
+                continue
+            try:
+                g1, g2 = score_ft.split("-", 1)
+                total = int(g1.strip()) + int(g2.strip())
+            except (ValueError, AttributeError):
+                continue
+            verdict = "WIN" if total > 1 else "LOSS"
+            out[(fixture_id, _O15_FT_FAM)] = verdict
+
+    return out
+
+
 def _parse_verdict_file(path: Path) -> Dict[Tuple[str, str], str]:
     """
     Map:
       (match_id, bet_family) -> WIN / LOSS
+
+    Enrichi automatiquement avec les verdicts O15_FT calculés depuis results.tsv
+    pour les match_ids non couverts par le fichier verdict principal.
     """
     cache_key = str(path.resolve())
     cached = _VERDICT_CACHE.get(cache_key)
@@ -237,6 +278,12 @@ def _parse_verdict_file(path: Path) -> Dict[Tuple[str, str], str]:
 
             fam = tb._norm_bet_family(bet_key)
             out[(match_id, fam)] = ev
+
+    # Enrichissement O15_FT depuis results.tsv (comble les match_ids manquants)
+    o15_from_results = _load_o15_verdicts_from_results()
+    for key, verdict in o15_from_results.items():
+        if key not in out:
+            out[key] = verdict
 
     _VERDICT_CACHE[cache_key] = out
     return out
@@ -613,7 +660,8 @@ def _sample_tuning(rng: random.Random) -> BuilderTuning:
         league_ranking_mode=rng.choice(["CLASSIC", "COMPOSITE"]),
         team_ranking_mode=rng.choice(["CLASSIC", "COMPOSITE"]),
         system_build_source=rng.choice(["LEAGUE", "TEAM"]),
-        system_select_source=rng.choice(["LEAGUE", "TEAM"]),
+        system_select_source=rng.choice(["LEAGUE", "TEAM", "HYBRID"]),
+        hybrid_alpha=rng.choice([0.4, 0.5, 0.6, 0.7, 0.8]),
         random_build_source=rng.choice(["LEAGUE", "TEAM"]),
         random_select_source=rng.choice(["LEAGUE", "TEAM"]),
     )
@@ -662,6 +710,7 @@ def _load_saved_top_profiles(path: Path) -> List[BuilderTuning]:
                 team_ranking_mode=t.get("team_ranking_mode", "CLASSIC"),
                 system_build_source=t.get("system_build_source", "LEAGUE"),
                 system_select_source=t.get("system_select_source", "LEAGUE"),
+                hybrid_alpha=t.get("hybrid_alpha", 0.6),
                 random_build_source=t.get("random_build_source", "LEAGUE"),
                 random_select_source=t.get("random_select_source", "LEAGUE"),
             ))
@@ -736,7 +785,8 @@ def _sample_tuning_focused(rng: random.Random, top_profiles: List[BuilderTuning]
         league_ranking_mode=maybe(["CLASSIC", "COMPOSITE"], parent.league_ranking_mode),
         team_ranking_mode=maybe(["CLASSIC", "COMPOSITE"], parent.team_ranking_mode),
         system_build_source=maybe(["LEAGUE", "TEAM"], parent.system_build_source),
-        system_select_source=maybe(["LEAGUE", "TEAM"], parent.system_select_source),
+        system_select_source=maybe(["LEAGUE", "TEAM", "HYBRID"], parent.system_select_source),
+        hybrid_alpha=maybe([0.4, 0.5, 0.6, 0.7, 0.8], parent.hybrid_alpha),
         random_build_source=maybe(["LEAGUE", "TEAM"], parent.random_build_source),
         random_select_source=maybe(["LEAGUE", "TEAM"], parent.random_select_source),
     )
@@ -811,6 +861,61 @@ def _build_trial_plan(trials: int, seed: int) -> List[BuilderTuning]:
     return out
 
 
+def _build_match_to_fixture_map(predictions_tsv: Path) -> Dict[str, str]:
+    """
+    Extrait le mapping match_id → fixture_id depuis predictions.tsv.
+    Format colonne 11 : "odd=X fixture=YYYYYYY"
+    """
+    out: Dict[str, str] = {}
+    if not predictions_tsv.exists():
+        return out
+    with predictions_tsv.open("r", encoding="utf-8", errors="ignore") as f:
+        for raw in f:
+            line = (raw or "").strip()
+            if not line.startswith("TSV:"):
+                continue
+            parts = line[4:].lstrip().split("\t")
+            if len(parts) < 11:
+                continue
+            match_id = parts[0].strip()
+            meta = parts[10].strip()
+            if "fixture=" not in meta:
+                continue
+            try:
+                fixture_id = meta.split("fixture=")[1].strip().split()[0]
+                if match_id and fixture_id:
+                    out[match_id] = fixture_id
+            except (IndexError, ValueError):
+                continue
+    return out
+
+
+def _enrich_verdict_map_with_results(
+    verdict_map: Dict[Tuple[str, str], str],
+    predictions_tsv: Path,
+) -> Dict[Tuple[str, str], str]:
+    """
+    Complète verdict_map avec les verdicts O15_FT calculés depuis results.tsv,
+    en utilisant le mapping match_id → fixture_id extrait des predictions.
+    """
+    o15_by_fixture = _load_o15_verdicts_from_results()
+    if not o15_by_fixture:
+        return verdict_map
+
+    match_to_fixture = _build_match_to_fixture_map(predictions_tsv)
+    if not match_to_fixture:
+        return verdict_map
+
+    enriched = dict(verdict_map)
+    for match_id, fixture_id in match_to_fixture.items():
+        key_match   = (match_id,   _O15_FT_FAM)
+        key_fixture = (fixture_id, _O15_FT_FAM)
+        if key_match not in enriched and key_fixture in o15_by_fixture:
+            enriched[key_match] = o15_by_fixture[key_fixture]
+
+    return enriched
+
+
 # =========================================================
 # EVALUATION
 # =========================================================
@@ -820,6 +925,7 @@ def _evaluate_one_day(
     tmp_root: Path,
 ) -> DayEval:
     verdict_map = _parse_verdict_file(ds.verdict_file)
+    verdict_map = _enrich_verdict_map_with_results(verdict_map, ds.predictions_tsv)
     run_dir = tmp_root / ds.day
 
     with _PatchedBuilderIO(run_dir):
@@ -1026,6 +1132,146 @@ def evaluate_profile(
     )
 
 
+def _extract_ticket_sequences(
+    day_evals: List[DayEval],
+) -> Tuple[List[Tuple[bool, float]], List[Tuple[bool, float]]]:
+    """
+    Extrait les séquences brutes (is_win, odd) pour SYSTEM et RANDOM.
+    Utilisé pour la simulation martingale dans validate_profiles.py.
+    """
+    system_seq: List[Tuple[bool, float]] = []
+    random_seq: List[Tuple[bool, float]] = []
+    for de in day_evals:
+        for result, profit in zip(de.system.ticket_results, de.system.ticket_profits):
+            if result is None:
+                continue
+            is_win = result is True
+            odd = float(profit + 1.0) if is_win else 2.0
+            system_seq.append((is_win, odd))
+        for result, profit in zip(de.random_o15.ticket_results, de.random_o15.ticket_profits):
+            if result is None:
+                continue
+            is_win = result is True
+            odd = float(profit + 1.0) if is_win else 2.0
+            random_seq.append((is_win, odd))
+    return system_seq, random_seq
+
+
+def evaluate_profile_with_sequences(
+    datasets: List[DayDataset],
+    tuning: BuilderTuning,
+    keep_temp: bool = False,
+    valid_days: int = DEFAULT_VALID_DAYS,
+) -> Tuple[ProfileResult, List[Tuple[bool, float]], List[Tuple[bool, float]]]:
+    """
+    Comme evaluate_profile mais retourne aussi les séquences brutes (is_win, odd)
+    pour SYSTEM et RANDOM — en un seul passage sur les données.
+    """
+    train_ds, valid_ds = _split_datasets_chronological(datasets, valid_days=valid_days)
+    train_days = {d.day for d in train_ds}
+    valid_days_set = {d.day for d in valid_ds}
+
+    all_day_evals = _evaluate_all_days(datasets=datasets, tuning=tuning, keep_temp=keep_temp)
+
+    system_seq, random_seq = _extract_ticket_sequences(all_day_evals)
+
+    train_day_evals = [x for x in all_day_evals if x.day in train_days]
+    valid_day_evals = [x for x in all_day_evals if x.day in valid_days_set]
+
+    overall_system = _aggregate_pipeline_metrics(all_day_evals, pipeline_name="system")
+    overall_random = _aggregate_pipeline_metrics(all_day_evals, pipeline_name="random")
+    train_system = _aggregate_pipeline_metrics(train_day_evals, pipeline_name="system")
+    train_random = _aggregate_pipeline_metrics(train_day_evals, pipeline_name="random")
+    valid_system = _aggregate_pipeline_metrics(valid_day_evals, pipeline_name="system")
+    valid_random = _aggregate_pipeline_metrics(valid_day_evals, pipeline_name="random")
+
+    rank_score = _profile_rank_score(
+        train_system=train_system,
+        train_random=train_random,
+        valid_system=valid_system,
+        valid_random=valid_random,
+    )
+
+    overall_c = _mean_pipeline_values(overall_system, overall_random)
+    train_c = _mean_pipeline_values(train_system, train_random)
+    valid_c = _mean_pipeline_values(valid_system, valid_random)
+
+    combined = {
+        "overall": {
+            "mean_win_rate": round(overall_c["mean_win_rate"], 4),
+            "mean_tickets_per_active_day": round(overall_c["mean_tickets_per_active_day"], 4),
+            "mean_unknown_rate": round(overall_c["mean_unknown_rate"], 4),
+            "worst_max_loss_streak": int(overall_c["worst_max_loss_streak"]),
+            "best_max_win_streak": int(overall_c["best_max_win_streak"]),
+            "min_decided_tickets": int(overall_c["min_decided_tickets"]),
+            "mean_profit_flat": round(overall_c["mean_profit_flat"], 4),
+            "mean_yield_flat": round(overall_c["mean_yield_flat"], 4),
+            "worst_max_drawdown": round(overall_c["worst_max_drawdown"], 4),
+            "mean_final_bankroll_flat": round(overall_c["mean_final_bankroll_flat"], 4),
+            "mean_bankroll_multiple_flat": round(overall_c["mean_bankroll_multiple_flat"], 4),
+        },
+        "train": {
+            "days": len(train_ds),
+            "mean_win_rate": round(train_c["mean_win_rate"], 4),
+            "mean_tickets_per_active_day": round(train_c["mean_tickets_per_active_day"], 4),
+            "mean_unknown_rate": round(train_c["mean_unknown_rate"], 4),
+            "worst_max_loss_streak": int(train_c["worst_max_loss_streak"]),
+            "best_max_win_streak": int(train_c["best_max_win_streak"]),
+            "min_decided_tickets": int(train_c["min_decided_tickets"]),
+            "mean_profit_flat": round(train_c["mean_profit_flat"], 4),
+            "mean_yield_flat": round(train_c["mean_yield_flat"], 4),
+            "worst_max_drawdown": round(train_c["worst_max_drawdown"], 4),
+            "mean_final_bankroll_flat": round(train_c["mean_final_bankroll_flat"], 4),
+            "mean_bankroll_multiple_flat": round(train_c["mean_bankroll_multiple_flat"], 4),
+        },
+        "valid": {
+            "days": len(valid_ds),
+            "mean_win_rate": round(valid_c["mean_win_rate"], 4),
+            "mean_tickets_per_active_day": round(valid_c["mean_tickets_per_active_day"], 4),
+            "mean_unknown_rate": round(valid_c["mean_unknown_rate"], 4),
+            "worst_max_loss_streak": int(valid_c["worst_max_loss_streak"]),
+            "best_max_win_streak": int(valid_c["best_max_win_streak"]),
+            "min_decided_tickets": int(valid_c["min_decided_tickets"]),
+            "mean_profit_flat": round(valid_c["mean_profit_flat"], 4),
+            "mean_yield_flat": round(valid_c["mean_yield_flat"], 4),
+            "worst_max_drawdown": round(valid_c["worst_max_drawdown"], 4),
+            "mean_final_bankroll_flat": round(valid_c["mean_final_bankroll_flat"], 4),
+            "mean_bankroll_multiple_flat": round(valid_c["mean_bankroll_multiple_flat"], 4),
+        },
+        "generalization_gap": {
+            "win_rate_gap_train_minus_valid": round(train_c["mean_win_rate"] - valid_c["mean_win_rate"], 4),
+            "tickets_gap_train_minus_valid": round(train_c["mean_tickets_per_active_day"] - valid_c["mean_tickets_per_active_day"], 4),
+            "profit_gap_train_minus_valid": round(train_c["mean_profit_flat"] - valid_c["mean_profit_flat"], 4),
+            "yield_gap_train_minus_valid": round(train_c["mean_yield_flat"] - valid_c["mean_yield_flat"], 4),
+            "win_rate_drop_penalized": round(max(0.0, train_c["mean_win_rate"] - valid_c["mean_win_rate"]), 4),
+            "tickets_drop_penalized": round(max(0.0, train_c["mean_tickets_per_active_day"] - valid_c["mean_tickets_per_active_day"]), 4),
+            "profit_drop_penalized": round(max(0.0, train_c["mean_profit_flat"] - valid_c["mean_profit_flat"]), 4),
+            "yield_drop_penalized": round(max(0.0, train_c["mean_yield_flat"] - valid_c["mean_yield_flat"]), 4),
+        },
+    }
+
+    prof = ProfileResult(
+        rank_score=rank_score,
+        tuning=tuning,
+        system=overall_system,
+        random_o15=overall_random,
+        combined=combined,
+    )
+    return prof, system_seq, random_seq
+
+
+def _evaluate_profile_with_seqs_job(
+    args: Tuple[List[DayDataset], BuilderTuning, bool, int],
+) -> Tuple[ProfileResult, List[Tuple[bool, float]], List[Tuple[bool, float]]]:
+    datasets, tuning, keep_temp, valid_days = args
+    return evaluate_profile_with_sequences(
+        datasets=datasets,
+        tuning=tuning,
+        keep_temp=keep_temp,
+        valid_days=valid_days,
+    )
+
+
 def _evaluate_profile_job(args: Tuple[List[DayDataset], BuilderTuning, bool, int]) -> ProfileResult:
     datasets, tuning, keep_temp, valid_days = args
     return evaluate_profile(
@@ -1156,13 +1402,34 @@ def run_optimizer(
     effective_jobs = max(1, int(jobs or 1))
 
     profiles: List[ProfileResult] = []
+    checkpoint_every = 100
+    checkpoint_path = output_dir / "optimizer_checkpoint.json"
+    start_time = time.time()
+
+    def _print_progress(done: int, total: int, label: str = "") -> None:
+        elapsed = time.time() - start_time
+        rate = done / elapsed if elapsed > 0 else 0
+        eta = (total - done) / rate if rate > 0 else 0
+        best = max((p.rank_score for p in profiles), default=0.0)
+        eta_str = f"{eta / 60:.0f}min" if eta < 3600 else f"{eta / 3600:.1f}h"
+        suffix = f" ({label})" if label else ""
+        print(
+            f"[optimizer] {done}/{total}{suffix}"
+            f" | best={best:.4f}"
+            f" | {elapsed / 60:.1f}min écoulées"
+            f" | ETA ~{eta_str}",
+            flush=True,
+        )
+
+    def _save_checkpoint(current_profiles: List[ProfileResult]) -> None:
+        sorted_cp = sorted(current_profiles, key=lambda p: p.rank_score, reverse=True)
+        checkpoint_path.write_text(
+            json.dumps([p.to_dict() for p in sorted_cp[:top_n]], ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
 
     if effective_jobs == 1:
         for idx, tuning in enumerate(trial_plan, start=1):
-            if idx == 1:
-                print(f"[optimizer] trial {idx} / {effective_trials} (baseline)")
-            else:
-                print(f"[optimizer] trial {idx} / {effective_trials}")
             prof = evaluate_profile(
                 datasets=datasets,
                 tuning=tuning,
@@ -1170,6 +1437,11 @@ def run_optimizer(
                 valid_days=valid_days,
             )
             profiles.append(prof)
+            label = "baseline" if idx == 1 else ""
+            _print_progress(idx, effective_trials, label)
+            if idx % checkpoint_every == 0:
+                _save_checkpoint(profiles)
+                print(f"[optimizer] checkpoint sauvegardé ({idx} trials)", flush=True)
     else:
         print(f"[optimizer] jobs parallèles: {effective_jobs}")
 
@@ -1188,10 +1460,11 @@ def run_optimizer(
                 prof = fut.result()
                 profiles.append(prof)
                 done_count += 1
-                if idx == 1:
-                    print(f"[optimizer] trial {done_count} / {effective_trials} terminé (baseline)")
-                else:
-                    print(f"[optimizer] trial {done_count} / {effective_trials} terminé")
+                label = "baseline" if idx == 1 else ""
+                _print_progress(done_count, effective_trials, label)
+                if done_count % checkpoint_every == 0:
+                    _save_checkpoint(profiles)
+                    print(f"[optimizer] checkpoint sauvegardé ({done_count} trials)", flush=True)
 
     profiles.sort(key=lambda p: p.rank_score, reverse=True)
     top_profiles = profiles[:top_n]

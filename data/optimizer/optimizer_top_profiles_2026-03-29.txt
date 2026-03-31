@@ -1,0 +1,145 @@
+TOP PROFILS OPTIMISEUR
+======================
+
+#1 | score=220.4782
+------------------------------------------------------------
+SYSTEM  | win_rate=0.705 | tickets/jour=1.66 | decided=88 | max_loss_streak=4 | max_win_streak=9 | profit=70.90 | yield=0.806 | max_dd=4.00 | bankroll=170.90 | x1.71
+RANDOM  | win_rate=0.867 | tickets/jour=1.59 | decided=30 | max_loss_streak=1 | max_win_streak=3 | profit=35.89 | yield=1.196 | max_dd=2.00 | bankroll=135.89 | x1.36
+COMBINÉ | mean_win_rate=0.786 | mean_tickets/jour=1.62 | mean_profit=53.39 | mean_yield=1.001 | worst_streak=4 | best_win_streak=9 | worst_dd=4.00 | bankroll=153.39 | x1.53
+
+TRAIN   | jours=48 | mean_win_rate=0.740 | mean_tickets/jour=1.60 | mean_profit=35.76 | mean_yield=0.889 | best_win_streak=9 | bankroll=135.76 | x1.36
+VALID   | jours=12 | mean_win_rate=0.925 | mean_tickets/jour=1.71 | mean_profit=17.64 | mean_yield=1.341 | best_win_streak=8 | min_decided=8 | bankroll=117.64 | x1.18
+GAP     | wr_train-valid=-0.185 | tickets_train-valid=-0.11 | profit_train-valid=+18.12 | yield_train-valid=-0.452
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=18.12 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 10,
+  "global_bet_min_winrate": 0.62,
+  "league_bet_min_winrate": 0.65,
+  "league_bet_require_data": true,
+  "team_min_decided": 6,
+  "team_min_winrate": 0.75,
+  "two_team_high": 0.8,
+  "two_team_low": 0.66,
+  "weight_min": 1.0,
+  "weight_max": 2.0,
+  "weight_baseline": 0.74,
+  "weight_ceil": 0.95,
+  "topk_size": 10,
+  "topk_uniform_draw": true,
+  "prefer_3legs_delta": 0.08,
+  "search_budget_ms_system": 500,
+  "search_budget_ms_random": 500,
+  "excluded_bet_groups": [],
+  "target_odd": 2.4,
+  "min_accept_odd": 1.8,
+  "rich_day_match_count": 18,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 4,
+  "min_side_matches_for_split": 5,
+  "split_gap_weight": 0.6,
+  "league_ranking_mode": "CLASSIC",
+  "team_ranking_mode": "COMPOSITE",
+  "system_build_source": "LEAGUE",
+  "system_select_source": "HYBRID",
+  "random_build_source": "TEAM",
+  "random_select_source": "TEAM",
+  "hybrid_alpha": 0.6
+}
+
+#2 | score=216.8404
+------------------------------------------------------------
+SYSTEM  | win_rate=0.773 | tickets/jour=1.25 | decided=66 | max_loss_streak=2 | max_win_streak=12 | profit=63.83 | yield=0.967 | max_dd=2.11 | bankroll=163.83 | x1.64
+RANDOM  | win_rate=0.909 | tickets/jour=1.30 | decided=22 | max_loss_streak=1 | max_win_streak=3 | profit=30.03 | yield=1.365 | max_dd=1.00 | bankroll=130.03 | x1.30
+COMBINÉ | mean_win_rate=0.841 | mean_tickets/jour=1.28 | mean_profit=46.93 | mean_yield=1.166 | worst_streak=2 | best_win_streak=12 | worst_dd=2.11 | bankroll=146.93 | x1.47
+
+TRAIN   | jours=48 | mean_win_rate=0.807 | mean_tickets/jour=1.29 | mean_profit=32.03 | mean_yield=1.034 | best_win_streak=12 | bankroll=132.03 | x1.32
+VALID   | jours=12 | mean_win_rate=0.964 | mean_tickets/jour=1.25 | mean_profit=14.90 | mean_yield=1.639 | best_win_streak=9 | min_decided=5 | bankroll=114.90 | x1.15
+GAP     | wr_train-valid=-0.158 | tickets_train-valid=+0.04 | profit_train-valid=+17.12 | yield_train-valid=-0.605
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.04 | profit_penalisé=17.12 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 7,
+  "global_bet_min_winrate": 0.62,
+  "league_bet_min_winrate": 0.65,
+  "league_bet_require_data": false,
+  "team_min_decided": 8,
+  "team_min_winrate": 0.7,
+  "two_team_high": 0.88,
+  "two_team_low": 0.6,
+  "weight_min": 1.2,
+  "weight_max": 2.0,
+  "weight_baseline": 0.74,
+  "weight_ceil": 1.0,
+  "topk_size": 3,
+  "topk_uniform_draw": false,
+  "prefer_3legs_delta": 0.0,
+  "search_budget_ms_system": 500,
+  "search_budget_ms_random": 300,
+  "excluded_bet_groups": [
+    "HT05"
+  ],
+  "target_odd": 2.4,
+  "min_accept_odd": 1.7,
+  "rich_day_match_count": 18,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 2,
+  "min_side_matches_for_split": 3,
+  "split_gap_weight": 0.35,
+  "league_ranking_mode": "CLASSIC",
+  "team_ranking_mode": "COMPOSITE",
+  "system_build_source": "LEAGUE",
+  "system_select_source": "TEAM",
+  "random_build_source": "LEAGUE",
+  "random_select_source": "TEAM",
+  "hybrid_alpha": 0.4
+}
+
+#3 | score=215.9393
+------------------------------------------------------------
+SYSTEM  | win_rate=0.778 | tickets/jour=1.38 | decided=72 | max_loss_streak=2 | max_win_streak=6 | profit=70.78 | yield=0.983 | max_dd=2.00 | bankroll=170.78 | x1.71
+RANDOM  | win_rate=0.926 | tickets/jour=1.40 | decided=27 | max_loss_streak=1 | max_win_streak=5 | profit=32.38 | yield=1.199 | max_dd=1.00 | bankroll=132.38 | x1.32
+COMBINÉ | mean_win_rate=0.852 | mean_tickets/jour=1.39 | mean_profit=51.58 | mean_yield=1.091 | worst_streak=2 | best_win_streak=6 | worst_dd=2.00 | bankroll=151.58 | x1.52
+
+TRAIN   | jours=48 | mean_win_rate=0.831 | mean_tickets/jour=1.36 | mean_profit=35.67 | mean_yield=0.973 | best_win_streak=6 | bankroll=135.67 | x1.36
+VALID   | jours=12 | mean_win_rate=0.906 | mean_tickets/jour=1.46 | mean_profit=15.91 | mean_yield=1.401 | best_win_streak=4 | min_decided=8 | bankroll=115.91 | x1.16
+GAP     | wr_train-valid=-0.075 | tickets_train-valid=-0.09 | profit_train-valid=+19.75 | yield_train-valid=-0.428
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=19.75 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 10,
+  "global_bet_min_winrate": 0.7,
+  "league_bet_min_winrate": 0.72,
+  "league_bet_require_data": true,
+  "team_min_decided": 8,
+  "team_min_winrate": 0.78,
+  "two_team_high": 0.85,
+  "two_team_low": 0.58,
+  "weight_min": 0.8,
+  "weight_max": 2.0,
+  "weight_baseline": 0.78,
+  "weight_ceil": 1.0,
+  "topk_size": 5,
+  "topk_uniform_draw": true,
+  "prefer_3legs_delta": 0.0,
+  "search_budget_ms_system": 800,
+  "search_budget_ms_random": 300,
+  "excluded_bet_groups": [],
+  "target_odd": 2.3,
+  "min_accept_odd": 1.6,
+  "rich_day_match_count": 20,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 3,
+  "min_side_matches_for_split": 4,
+  "split_gap_weight": 0.2,
+  "league_ranking_mode": "COMPOSITE",
+  "team_ranking_mode": "CLASSIC",
+  "system_build_source": "TEAM",
+  "system_select_source": "TEAM",
+  "random_build_source": "TEAM",
+  "random_select_source": "TEAM",
+  "hybrid_alpha": 0.8
+}
