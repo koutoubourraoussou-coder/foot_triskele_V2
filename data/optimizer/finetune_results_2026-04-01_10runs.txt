@@ -1,0 +1,40 @@
+FINE-TUNING PROFIL #1 — one-at-a-time
+Date : 2026-04-01  |  10 runs/variante  |  61 jours
+Martingale : B0=100.0 | max_losses=4
+======================================================================
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : league_bet_min_winrate  (valeur base profil #1 = 0.65)
+══════════════════════════════════════════════════════════════════════
+
+    ▶ #1  league_bet_min_winrate = 0.6  [score=13.495]
+      [SYSTEM]  WR=0.731  tickets=84  pire_série=4
+             NORM x656.54  (min=0.00 max=1311.24)  ruine=40%
+             SAFE x19.89  (min=0.00 max=34.83)  ruine=40%  doublings_moy=5.3
+      [RANDOM]  WR=0.723  tickets=70  pire_série=5
+             NORM x806.30  (min=0.00 max=2116.59)  ruine=20%
+             SAFE x38.48  (min=22.18 max=57.49)  ruine=0%  doublings_moy=7.4
+
+    ▶ #2  league_bet_min_winrate = 0.7  [score=11.660]
+      [SYSTEM]  WR=0.686  tickets=83  pire_série=4
+             NORM x191.69  (min=0.00 max=694.74)  ruine=40%
+             SAFE x23.01  (min=9.98 max=29.80)  ruine=0%  doublings_moy=7.3
+      [RANDOM]  WR=0.801  tickets=70  pire_série=6
+             NORM x270.72  (min=0.00 max=460.15)  ruine=20%
+             SAFE x18.27  (min=0.00 max=25.49)  ruine=20%  doublings_moy=5.7
+
+    ○ #3  league_bet_min_winrate = 0.65  [score=4.161]  ← BASE
+      [SYSTEM]  WR=0.716  tickets=85  pire_série=5
+             NORM x474.89  (min=0.00 max=1382.57)  ruine=50%
+             SAFE x16.17  (min=0.00 max=35.27)  ruine=50%  doublings_moy=4.3
+      [RANDOM]  WR=0.767  tickets=70  pire_série=4
+             NORM x513.19  (min=0.00 max=2195.53)  ruine=0%
+             SAFE x25.11  (min=2.53 max=72.13)  ruine=0%  doublings_moy=6.4
+
+  ★ GAGNANT : league_bet_min_winrate = 0.6  (+9.334 vs base)
+
+======================================================================
+  RÉCAPITULATIF — MEILLEURES VALEURS PAR PARAMÈTRE
+======================================================================
+
+  league_bet_min_winrate          0.6                             score=13.495  delta=+9.334  ← CHANGE

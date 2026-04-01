@@ -1,0 +1,49 @@
+COMPARAISON PROFIL #1 ORIGINAL vs AMÉLIORÉ
+Date : 2026-04-01  |  50 runs/variante  |  61 jours
+Améliorations appliquées :
+  two_team_high : 0.8  →  0.9
+  global_bet_min_winrate : 0.62  →  0.65
+  league_bet_require_data : True  →  False
+  league_bet_min_winrate : 0.65  →  0.6
+======================================================================
+
+──────────────────────────────────────────────────────────────────────
+  ORIGINAL  (profil #1 tel quel)
+──────────────────────────────────────────────────────────────────────
+  [SYSTEM]  50 runs
+    Win rate      : moy=0.732 min=0.635 max=0.791 σ=0.030
+    Tickets/run   : moy=85.3 min=82.0 max=90.0 σ=1.6
+    Pire série L  : moy=3.6  max_absolu=6
+    NORM x596.29  (moy=596.29 min=0.00 max=1950.48 σ=678.30)  ruine=48%
+    SAFE x19.31  (moy=19.31 min=0.00 max=40.87 σ=16.96)  ruine=42%  doublings=5.2
+
+  [RANDOM]  50 runs
+    Win rate      : moy=0.766 min=0.648 max=0.873 σ=0.045
+    Tickets/run   : moy=69.6 min=67.0 max=72.0 σ=1.2
+    Pire série L  : moy=2.6  max_absolu=4
+    NORM x892.84  (moy=892.84 min=0.00 max=3938.00 σ=915.32)  ruine=6%
+    SAFE x38.10  (moy=38.10 min=1.05 max=105.83 σ=25.64)  ruine=0%  doublings=7.0
+
+──────────────────────────────────────────────────────────────────────
+  AMÉLIORÉ  (profil #1 v2)
+──────────────────────────────────────────────────────────────────────
+  [SYSTEM]  50 runs
+    Win rate      : moy=0.687 min=0.563 max=0.759 σ=0.040
+    Tickets/run   : moy=85.9 min=83.0 max=88.0 σ=1.3
+    Pire série L  : moy=3.1  max_absolu=5
+    NORM x767.02  (moy=767.02 min=0.00 max=1670.69 σ=448.65)  ruine=18%
+    SAFE x30.68  (moy=30.68 min=12.09 max=38.10 σ=4.98)  ruine=0%  doublings=8.4
+
+  [RANDOM]  50 runs
+    Win rate      : moy=0.734 min=0.671 max=0.831 σ=0.040
+    Tickets/run   : moy=69.9 min=68.0 max=72.0 σ=0.9
+    Pire série L  : moy=3.1  max_absolu=5
+    NORM x1205.15  (moy=1205.15 min=0.00 max=4872.84 σ=1156.04)  ruine=16%
+    SAFE x44.49  (moy=44.49 min=2.36 max=101.83 σ=24.34)  ruine=0%  doublings=7.0
+
+======================================================================
+  VERDICT SYSTEM
+  ★ GAGNANT : AMÉLIORÉ  (score=15.548 vs 9.456, +6.092)
+
+  VERDICT RANDOM
+  ★ GAGNANT : AMÉLIORÉ  (score=22.466 vs 19.279, +3.187)

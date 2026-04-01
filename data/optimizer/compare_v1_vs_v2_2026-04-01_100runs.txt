@@ -1,0 +1,97 @@
+COMPARAISON PROFIL #1 ORIGINAL vs AMÉLIORÉ
+Date : 2026-04-01  |  100 runs/variante  |  61 jours
+Améliorations appliquées :
+  two_team_high : 0.8  →  0.9
+  global_bet_min_winrate : 0.62  →  0.65
+  league_bet_require_data : True  →  False
+  league_bet_min_winrate : 0.65  →  0.6
+======================================================================
+
+──────────────────────────────────────────────────────────────────────
+  ORIGINAL  (profil #1 tel quel)
+──────────────────────────────────────────────────────────────────────
+  [SYSTEM]  100 runs
+    Tickets/run      : moy=84.8  min=82  max=89
+    Win rate         : moy=0.725  min=0.643  max=0.812  σ=0.038
+    Pire série L     : moy=3.5  max_absolu=8  (pire run jamais vu)
+    Meill. série V   : moy=11.1  max_absolu=20  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=602.74  min=0.00  max=1633.94  σ=597.11
+      Profit (€)     : moy=60174.24  min=-100.00  max=163293.90  σ=59711.01
+      Pire série L   : moy=3.3  min=2.0  max=5.0  σ=0.8
+      Ruine          : 40%  (40/100 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=22.33  min=0.00  max=37.99  σ=15.30
+      Profit (€)     : moy=2133.49  min=-100.00  max=3698.90  σ=1529.86
+      Pire série L   : moy=3.3  min=2.0  max=5.0  σ=0.7
+      Doublings/run  : moy=6.1  min=0  max=9
+      Ruine          : 30%  (30/100 runs)
+
+  [RANDOM]  100 runs
+    Tickets/run      : moy=70.0  min=67  max=72
+    Win rate         : moy=0.762  min=0.634  max=0.847  σ=0.035
+    Pire série L     : moy=2.7  max_absolu=5  (pire run jamais vu)
+    Meill. série V   : moy=12.7  max_absolu=24  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=831.51  min=0.00  max=3938.43  σ=949.11
+      Profit (€)     : moy=83051.05  min=-100.00  max=393743.55  σ=94911.42
+      Pire série L   : moy=2.6  min=1.0  max=5.0  σ=0.8
+      Ruine          : 11%  (11/100 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=35.20  min=1.02  max=112.43  σ=23.56
+      Profit (€)     : moy=3420.40  min=2.23  max=11142.88  σ=2355.83
+      Pire série L   : moy=2.6  min=1.0  max=4.0  σ=0.8
+      Doublings/run  : moy=7.0  min=1  max=9
+      Ruine          : 0%  (0/100 runs)
+
+──────────────────────────────────────────────────────────────────────
+  AMÉLIORÉ  (profil #1 v2)
+──────────────────────────────────────────────────────────────────────
+  [SYSTEM]  100 runs
+    Tickets/run      : moy=85.9  min=83  max=89
+    Win rate         : moy=0.682  min=0.576  max=0.771  σ=0.035
+    Pire série L     : moy=3.0  max_absolu=6  (pire run jamais vu)
+    Meill. série V   : moy=8.3  max_absolu=16  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=799.10  min=0.00  max=1369.20  σ=385.08
+      Profit (€)     : moy=79809.62  min=-100.00  max=136819.64  σ=38508.13
+      Pire série L   : moy=3.0  min=2.0  max=5.0  σ=0.7
+      Ruine          : 13%  (13/100 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=31.21  min=11.45  max=37.23  σ=3.94
+      Profit (€)     : moy=3020.99  min=1044.87  max=3623.36  σ=393.83
+      Pire série L   : moy=3.0  min=2.0  max=5.0  σ=0.7
+      Doublings/run  : moy=8.5  min=6  max=9
+      Ruine          : 0%  (0/100 runs)
+
+  [RANDOM]  100 runs
+    Tickets/run      : moy=70.2  min=67  max=72
+    Win rate         : moy=0.728  min=0.620  max=0.797  σ=0.037
+    Pire série L     : moy=3.0  max_absolu=6  (pire run jamais vu)
+    Meill. série V   : moy=9.7  max_absolu=19  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=1384.91  min=0.00  max=7812.66  σ=1337.18
+      Profit (€)     : moy=138390.50  min=-100.00  max=781165.72  σ=133718.43
+      Pire série L   : moy=3.0  min=2.0  max=5.0  σ=0.8
+      Ruine          : 21%  (21/100 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=52.86  min=4.10  max=211.22  σ=27.22
+      Profit (€)     : moy=5186.36  min=309.57  max=21022.37  σ=2722.03
+      Pire série L   : moy=3.0  min=2.0  max=5.0  σ=0.8
+      Doublings/run  : moy=7.5  min=3  max=9
+      Ruine          : 0%  (0/100 runs)
+
+======================================================================
+  VERDICT SYSTEM
+  ★ GAGNANT : AMÉLIORÉ  (score=15.809 vs 11.085, +4.725)
+
+  VERDICT RANDOM
+  ★ GAGNANT : AMÉLIORÉ  (score=26.650 vs 17.831, +8.820)

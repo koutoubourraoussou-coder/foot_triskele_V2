@@ -1,0 +1,94 @@
+FINE-TUNING PROFIL #1 — one-at-a-time
+Date : 2026-04-01  |  2 runs/variante  |  61 jours
+Martingale : B0=100.0 | max_losses=4
+======================================================================
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : system_select_source  (valeur base profil #1 = HYBRID)
+══════════════════════════════════════════════════════════════════════
+
+    ▶ #1  system_select_source = TEAM  [score=27.210]
+      [SYSTEM]  WR=0.757  tickets=84  pire_série=4
+             NORM x929.35  (min=0.00 max=1858.69)  ruine=50%
+             SAFE x20.28  (min=0.00 max=40.57)  ruine=50%  doublings_moy=5.0
+      [RANDOM]  WR=0.775  tickets=71  pire_série=3
+             NORM x2374.44  (min=1432.04 max=3316.85)  ruine=0%
+             SAFE x78.61  (min=40.73 max=116.49)  ruine=0%  doublings_moy=7.5
+
+    ▶ #2  system_select_source = LEAGUE  [score=23.859]
+      [SYSTEM]  WR=0.629  tickets=85  pire_série=4
+             NORM x328.29  (min=0.00 max=656.58)  ruine=0%
+             SAFE x26.96  (min=25.07 max=28.85)  ruine=0%  doublings_moy=8.0
+      [RANDOM]  WR=0.739  tickets=71  pire_série=2
+             NORM x664.85  (min=378.46 max=951.24)  ruine=0%
+             SAFE x32.35  (min=23.97 max=40.72)  ruine=0%  doublings_moy=7.0
+
+    ○ #3  system_select_source = HYBRID  [score=8.483]  ← BASE
+      [SYSTEM]  WR=0.752  tickets=84  pire_série=4
+             NORM x444.42  (min=0.00 max=888.85)  ruine=50%
+             SAFE x16.23  (min=0.00 max=32.46)  ruine=50%  doublings_moy=4.5
+      [RANDOM]  WR=0.743  tickets=70  pire_série=4
+             NORM x606.11  (min=0.00 max=1212.22)  ruine=50%
+             SAFE x35.85  (min=32.92 max=38.78)  ruine=0%  doublings_moy=7.5
+
+  ★ GAGNANT : system_select_source = TEAM  (+18.727 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : league_bet_min_winrate  (valeur base profil #1 = 0.65)
+══════════════════════════════════════════════════════════════════════
+
+    ▶ #1  league_bet_min_winrate = 0.7  [score=20.839]
+      [SYSTEM]  WR=0.653  tickets=84  pire_série=3
+             NORM x781.52  (min=692.43 max=870.62)  ruine=0%
+             SAFE x30.59  (min=29.04 max=32.13)  ruine=0%  doublings_moy=8.5
+      [RANDOM]  WR=0.807  tickets=70  pire_série=3
+             NORM x269.32  (min=237.72 max=300.93)  ruine=0%
+             SAFE x21.15  (min=20.42 max=21.87)  ruine=0%  doublings_moy=7.0
+
+    ○ #2  league_bet_min_winrate = 0.65  [score=3.079]  ← BASE
+      [SYSTEM]  WR=0.713  tickets=86  pire_série=5
+             NORM x793.58  (min=0.00 max=1587.16)  ruine=50%
+             SAFE x18.68  (min=0.00 max=37.35)  ruine=50%  doublings_moy=4.5
+      [RANDOM]  WR=0.752  tickets=70  pire_série=6
+             NORM x128.35  (min=0.00 max=256.70)  ruine=50%
+             SAFE x19.91  (min=18.02 max=21.79)  ruine=0%  doublings_moy=6.5
+
+    ▶ #3  league_bet_min_winrate = 0.6  [score=-7.601]
+      [SYSTEM]  WR=0.708  tickets=84  pire_série=5
+             NORM x0.00  (min=0.00 max=0.00)  ruine=100%
+             SAFE x0.00  (min=0.00 max=0.00)  ruine=100%  doublings_moy=0.0
+      [RANDOM]  WR=0.655  tickets=71  pire_série=5
+             NORM x640.33  (min=0.00 max=1280.66)  ruine=50%
+             SAFE x43.16  (min=42.31 max=44.00)  ruine=0%  doublings_moy=7.0
+
+  ★ GAGNANT : league_bet_min_winrate = 0.7  (+17.759 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : league_bet_require_data  (valeur base profil #1 = True)
+══════════════════════════════════════════════════════════════════════
+
+    ▶ #1  league_bet_require_data = False  [score=28.306]
+      [SYSTEM]  WR=0.749  tickets=86  pire_série=4
+             NORM x923.27  (min=0.00 max=1846.54)  ruine=0%
+             SAFE x32.61  (min=25.76 max=39.47)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.724  tickets=70  pire_série=6
+             NORM x847.82  (min=0.00 max=1695.64)  ruine=50%
+             SAFE x37.79  (min=16.68 max=58.89)  ruine=0%  doublings_moy=6.5
+
+    ○ #2  league_bet_require_data = True  [score=-4.794]  ← BASE
+      [SYSTEM]  WR=0.740  tickets=86  pire_série=4
+             NORM x0.00  (min=0.00 max=0.00)  ruine=100%
+             SAFE x0.00  (min=0.00 max=0.00)  ruine=100%  doublings_moy=0.0
+      [RANDOM]  WR=0.790  tickets=69  pire_série=2
+             NORM x1350.55  (min=1022.96 max=1678.14)  ruine=0%
+             SAFE x50.13  (min=35.34 max=64.93)  ruine=0%  doublings_moy=7.5
+
+  ★ GAGNANT : league_bet_require_data = False  (+33.100 vs base)
+
+======================================================================
+  RÉCAPITULATIF — MEILLEURES VALEURS PAR PARAMÈTRE
+======================================================================
+
+  system_select_source            TEAM                            score=27.210  delta=+18.727  ← CHANGE
+  league_bet_min_winrate          0.7                             score=20.839  delta=+17.759  ← CHANGE
+  league_bet_require_data         False                           score=28.306  delta=+33.100  ← CHANGE

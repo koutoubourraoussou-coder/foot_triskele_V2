@@ -10,6 +10,8 @@
 #   6) FT_OVER_2_5                 (Plus de 2.5 buts dans le match)
 # ----------------------------------------------------
 
+import json
+from pathlib import Path
 from typing import Dict, Any, List, Tuple, Optional
 from datetime import datetime
 
@@ -229,6 +231,29 @@ MIN_LEVEL_BY_BET: dict[str, str] = {
     "TEAM1_WIN_FT":   "FORT PLUS",    # 55.8% à MOYEN PLUS (n=54)
     "TEAM2_WIN_FT":   "FORT PLUS",    # 43.2% à MOYEN PLUS (n=155)
 }
+
+_DYNAMIC_THRESHOLDS_FILE = Path("data/min_level_by_bet.json")
+
+
+def _load_dynamic_thresholds() -> None:
+    """
+    Charge data/min_level_by_bet.json (généré par compute_label_thresholds.py)
+    et met à jour MIN_LEVEL_BY_BET avec les seuils calculés dynamiquement.
+    Seuls les bet_keys avec un min_level non-null sont mis à jour.
+    """
+    if not _DYNAMIC_THRESHOLDS_FILE.exists():
+        return
+    try:
+        data = json.loads(_DYNAMIC_THRESHOLDS_FILE.read_text(encoding="utf-8"))
+        for bet_key, info in data.items():
+            min_level = info.get("min_level")
+            if min_level is not None:
+                MIN_LEVEL_BY_BET[bet_key] = min_level
+    except Exception:
+        pass  # En cas d'erreur, on garde les valeurs codées en dur
+
+
+_load_dynamic_thresholds()
 
 
 def _is_exportable(level: str, bet_key: str = "") -> bool:

@@ -1,0 +1,716 @@
+FINE-TUNING PROFIL #1 — one-at-a-time
+Date : 2026-03-31  |  2 runs/variante  |  61 jours
+Martingale : B0=100.0 | max_losses=4
+======================================================================
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : league_ranking_mode  (valeur base profil #1 = CLASSIC)
+══════════════════════════════════════════════════════════════════════
+
+    ○ #1  league_ranking_mode = CLASSIC  [score=9.738]  ← BASE
+      [SYSTEM]  WR=0.756  tickets=84  pire_série=4
+             NORM x808.65  (min=0.00 max=1617.29)  ruine=50%
+             SAFE x18.75  (min=0.00 max=37.49)  ruine=50%  doublings_moy=4.5
+      [RANDOM]  WR=0.754  tickets=71  pire_série=2
+             NORM x1101.54  (min=277.91 max=1925.18)  ruine=0%
+             SAFE x36.47  (min=21.83 max=51.12)  ruine=0%  doublings_moy=7.5
+
+    ▶ #2  league_ranking_mode = COMPOSITE  [score=4.868]
+      [SYSTEM]  WR=0.725  tickets=84  pire_série=4
+             NORM x371.78  (min=0.00 max=743.57)  ruine=50%
+             SAFE x14.60  (min=0.00 max=29.20)  ruine=50%  doublings_moy=4.0
+      [RANDOM]  WR=0.766  tickets=70  pire_série=7
+             NORM x659.24  (min=0.00 max=1318.48)  ruine=50%
+             SAFE x28.45  (min=18.56 max=38.34)  ruine=0%  doublings_moy=7.0
+
+  ★ GAGNANT : league_ranking_mode = CLASSIC  (+0.000 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : team_ranking_mode  (valeur base profil #1 = COMPOSITE)
+══════════════════════════════════════════════════════════════════════
+
+    ○ #1  team_ranking_mode = COMPOSITE  [score=35.691]  ← BASE
+      [SYSTEM]  WR=0.734  tickets=84  pire_série=3
+             NORM x1202.09  (min=1135.36 max=1268.83)  ruine=0%
+             SAFE x34.59  (min=34.26 max=34.93)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.780  tickets=70  pire_série=2
+             NORM x2022.46  (min=411.03 max=3633.89)  ruine=0%
+             SAFE x54.26  (min=25.36 max=83.15)  ruine=0%  doublings_moy=8.0
+
+    ▶ #2  team_ranking_mode = CLASSIC  [score=10.867]
+      [SYSTEM]  WR=0.719  tickets=86  pire_série=5
+             NORM x555.27  (min=0.00 max=1110.55)  ruine=50%
+             SAFE x16.57  (min=0.00 max=33.14)  ruine=50%  doublings_moy=4.5
+      [RANDOM]  WR=0.824  tickets=71  pire_série=2
+             NORM x1568.23  (min=598.70 max=2537.77)  ruine=0%
+             SAFE x41.46  (min=27.65 max=55.27)  ruine=0%  doublings_moy=8.0
+
+  ★ GAGNANT : team_ranking_mode = COMPOSITE  (+0.000 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : system_build_source  (valeur base profil #1 = LEAGUE)
+══════════════════════════════════════════════════════════════════════
+
+    ○ #1  system_build_source = LEAGUE  [score=35.185]  ← BASE
+      [SYSTEM]  WR=0.734  tickets=84  pire_série=3
+             NORM x1105.82  (min=936.80 max=1274.84)  ruine=0%
+             SAFE x33.25  (min=31.80 max=34.71)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.794  tickets=70  pire_série=2
+             NORM x1812.27  (min=1727.04 max=1897.49)  ruine=0%
+             SAFE x54.33  (min=43.81 max=64.85)  ruine=0%  doublings_moy=8.0
+
+    ▶ #2  system_build_source = TEAM  [score=28.185]
+      [SYSTEM]  WR=0.747  tickets=85  pire_série=3
+             NORM x1571.80  (min=1404.23 max=1739.36)  ruine=0%
+             SAFE x36.81  (min=35.31 max=38.31)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.752  tickets=70  pire_série=3
+             NORM x703.52  (min=397.02 max=1010.02)  ruine=0%
+             SAFE x33.28  (min=24.24 max=42.31)  ruine=0%  doublings_moy=7.0
+
+  ★ GAGNANT : system_build_source = LEAGUE  (+0.000 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : system_select_source  (valeur base profil #1 = HYBRID)
+══════════════════════════════════════════════════════════════════════
+
+    ▶ #1  system_select_source = LEAGUE  [score=20.854]
+      [SYSTEM]  WR=0.570  tickets=85  pire_série=3
+             NORM x670.57  (min=554.58 max=786.55)  ruine=0%
+             SAFE x29.79  (min=28.77 max=30.80)  ruine=0%  doublings_moy=8.0
+      [RANDOM]  WR=0.773  tickets=70  pire_série=4
+             NORM x151.29  (min=0.00 max=302.59)  ruine=0%
+             SAFE x22.02  (min=21.82 max=22.21)  ruine=0%  doublings_moy=7.0
+
+    ▶ #2  system_select_source = TEAM  [score=-10.318]
+      [SYSTEM]  WR=0.795  tickets=88  pire_série=4
+             NORM x0.00  (min=0.00 max=0.00)  ruine=100%
+             SAFE x0.00  (min=0.00 max=0.00)  ruine=100%  doublings_moy=0.0
+      [RANDOM]  WR=0.787  tickets=70  pire_série=2
+             NORM x908.91  (min=415.81 max=1402.00)  ruine=0%
+             SAFE x36.31  (min=25.46 max=47.16)  ruine=0%  doublings_moy=7.5
+
+    ○ #3  system_select_source = HYBRID  [score=-20.375]  ← BASE
+      [SYSTEM]  WR=0.688  tickets=85  pire_série=5
+             NORM x0.00  (min=0.00 max=0.00)  ruine=100%
+             SAFE x0.00  (min=0.00 max=0.00)  ruine=100%  doublings_moy=0.0
+      [RANDOM]  WR=0.761  tickets=69  pire_série=4
+             NORM x137.93  (min=0.00 max=275.86)  ruine=50%
+             SAFE x11.20  (min=1.09 max=21.31)  ruine=0%  doublings_moy=4.0
+
+  ★ GAGNANT : system_select_source = LEAGUE  (+41.230 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : random_build_source  (valeur base profil #1 = TEAM)
+══════════════════════════════════════════════════════════════════════
+
+    ○ #1  random_build_source = TEAM  [score=24.900]  ← BASE
+      [SYSTEM]  WR=0.761  tickets=86  pire_série=3
+             NORM x1488.17  (min=1186.81 max=1789.53)  ruine=0%
+             SAFE x36.78  (min=33.60 max=39.96)  ruine=0%  doublings_moy=9.5
+      [RANDOM]  WR=0.743  tickets=70  pire_série=4
+             NORM x896.09  (min=0.00 max=1792.18)  ruine=50%
+             SAFE x25.09  (min=4.96 max=45.23)  ruine=0%  doublings_moy=5.5
+
+    ▶ #2  random_build_source = LEAGUE  [score=15.164]
+      [SYSTEM]  WR=0.720  tickets=88  pire_série=4
+             NORM x851.20  (min=0.00 max=1702.40)  ruine=50%
+             SAFE x19.12  (min=0.00 max=38.25)  ruine=50%  doublings_moy=4.5
+      [RANDOM]  WR=0.711  tickets=72  pire_série=4
+             NORM x1890.56  (min=0.00 max=3781.12)  ruine=0%
+             SAFE x49.68  (min=2.46 max=96.89)  ruine=0%  doublings_moy=5.0
+
+  ★ GAGNANT : random_build_source = TEAM  (+0.000 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : random_select_source  (valeur base profil #1 = TEAM)
+══════════════════════════════════════════════════════════════════════
+
+    ▶ #1  random_select_source = LEAGUE  [score=25.049]
+      [SYSTEM]  WR=0.760  tickets=85  pire_série=3
+             NORM x1356.82  (min=1274.56 max=1439.07)  ruine=0%
+             SAFE x36.99  (min=36.22 max=37.77)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.655  tickets=71  pire_série=5
+             NORM x0.00  (min=0.00 max=0.00)  ruine=50%
+             SAFE x25.28  (min=2.40 max=48.15)  ruine=0%  doublings_moy=4.0
+
+    ○ #2  random_select_source = TEAM  [score=22.411]  ← BASE
+      [SYSTEM]  WR=0.704  tickets=84  pire_série=3
+             NORM x1043.71  (min=875.50 max=1211.91)  ruine=0%
+             SAFE x32.77  (min=31.36 max=34.18)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.750  tickets=70  pire_série=3
+             NORM x325.49  (min=319.44 max=331.54)  ruine=0%
+             SAFE x22.89  (min=22.38 max=23.40)  ruine=0%  doublings_moy=7.0
+
+    ▶ #3  random_select_source = HYBRID  [score=6.558]
+      [SYSTEM]  WR=0.750  tickets=84  pire_série=4
+             NORM x531.03  (min=0.00 max=1062.05)  ruine=50%
+             SAFE x16.66  (min=0.00 max=33.32)  ruine=50%  doublings_moy=4.5
+      [RANDOM]  WR=0.733  tickets=70  pire_série=4
+             NORM x184.17  (min=0.00 max=368.34)  ruine=50%
+             SAFE x30.61  (min=24.20 max=37.03)  ruine=0%  doublings_moy=7.0
+
+  ★ GAGNANT : random_select_source = LEAGUE  (+2.638 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : hybrid_alpha  (valeur base profil #1 = 0.6)
+══════════════════════════════════════════════════════════════════════
+
+    ▶ #1  hybrid_alpha = 0.2  [score=40.311]
+      [SYSTEM]  WR=0.799  tickets=84  pire_série=3
+             NORM x1818.55  (min=1581.55 max=2055.54)  ruine=0%
+             SAFE x39.03  (min=38.05 max=40.02)  ruine=0%  doublings_moy=10.0
+      [RANDOM]  WR=0.763  tickets=70  pire_série=3
+             NORM x1631.44  (min=329.97 max=2932.92)  ruine=0%
+             SAFE x61.35  (min=22.36 max=100.34)  ruine=0%  doublings_moy=7.0
+
+    ▶ #2  hybrid_alpha = 0.4  [score=25.289]
+      [SYSTEM]  WR=0.713  tickets=84  pire_série=3
+             NORM x959.16  (min=954.28 max=964.03)  ruine=0%
+             SAFE x32.26  (min=31.95 max=32.57)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.804  tickets=69  pire_série=3
+             NORM x733.65  (min=370.60 max=1096.70)  ruine=0%
+             SAFE x30.58  (min=24.26 max=36.91)  ruine=0%  doublings_moy=8.0
+
+    ▶ #3  hybrid_alpha = 0.8  [score=23.131]
+      [SYSTEM]  WR=0.666  tickets=86  pire_série=4
+             NORM x457.73  (min=0.00 max=915.46)  ruine=0%
+             SAFE x16.44  (min=0.00 max=32.87)  ruine=0%  doublings_moy=4.5
+      [RANDOM]  WR=0.775  tickets=69  pire_série=3
+             NORM x1124.56  (min=1077.99 max=1171.13)  ruine=0%
+             SAFE x41.03  (min=38.25 max=43.81)  ruine=0%  doublings_moy=7.5
+
+    ○ #4  hybrid_alpha = 0.6  [score=22.389]  ← BASE
+      [SYSTEM]  WR=0.692  tickets=86  pire_série=3
+             NORM x989.96  (min=880.80 max=1099.12)  ruine=0%
+             SAFE x32.43  (min=31.62 max=33.24)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.777  tickets=70  pire_série=4
+             NORM x520.98  (min=0.00 max=1041.95)  ruine=50%
+             SAFE x23.18  (min=2.43 max=43.93)  ruine=0%  doublings_moy=4.5
+
+  ★ GAGNANT : hybrid_alpha = 0.2  (+17.922 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : topk_size  (valeur base profil #1 = 10)
+══════════════════════════════════════════════════════════════════════
+
+    ▶ #1  topk_size = 8  [score=31.756]
+      [SYSTEM]  WR=0.731  tickets=86  pire_série=4
+             NORM x613.79  (min=0.00 max=1227.58)  ruine=50%
+             SAFE x26.93  (min=20.07 max=33.80)  ruine=0%  doublings_moy=8.5
+      [RANDOM]  WR=0.752  tickets=70  pire_série=3
+             NORM x1689.02  (min=1465.81 max=1912.23)  ruine=0%
+             SAFE x52.08  (min=41.87 max=62.30)  ruine=0%  doublings_moy=7.5
+
+    ▶ #2  topk_size = 15  [score=17.930]
+      [SYSTEM]  WR=0.706  tickets=85  pire_série=4
+             NORM x582.34  (min=0.00 max=1164.67)  ruine=50%
+             SAFE x17.74  (min=0.00 max=35.48)  ruine=50%  doublings_moy=4.5
+      [RANDOM]  WR=0.724  tickets=69  pire_série=5
+             NORM x1620.82  (min=0.00 max=3241.64)  ruine=50%
+             SAFE x57.98  (min=40.95 max=75.01)  ruine=0%  doublings_moy=7.0
+
+    ▶ #3  topk_size = 20  [score=7.462]
+      [SYSTEM]  WR=0.731  tickets=86  pire_série=4
+             NORM x0.00  (min=0.00 max=0.00)  ruine=50%
+             SAFE x9.12  (min=0.00 max=18.24)  ruine=50%  doublings_moy=4.0
+      [RANDOM]  WR=0.763  tickets=70  pire_série=3
+             NORM x1391.98  (min=323.30 max=2460.66)  ruine=0%
+             SAFE x40.41  (min=22.89 max=57.93)  ruine=0%  doublings_moy=8.0
+
+    ○ #4  topk_size = 10  [score=6.516]  ← BASE
+      [SYSTEM]  WR=0.696  tickets=84  pire_série=4
+             NORM x337.14  (min=0.00 max=674.28)  ruine=50%
+             SAFE x14.32  (min=0.00 max=28.63)  ruine=50%  doublings_moy=4.0
+      [RANDOM]  WR=0.754  tickets=71  pire_série=3
+             NORM x920.51  (min=354.28 max=1486.74)  ruine=0%
+             SAFE x32.86  (min=23.57 max=42.15)  ruine=0%  doublings_moy=8.0
+
+    ▶ #5  topk_size = 5  [score=2.884]
+      [SYSTEM]  WR=0.717  tickets=85  pire_série=4
+             NORM x360.63  (min=0.00 max=721.27)  ruine=50%
+             SAFE x14.67  (min=0.00 max=29.34)  ruine=50%  doublings_moy=4.0
+      [RANDOM]  WR=0.808  tickets=70  pire_série=2
+             NORM x392.11  (min=308.04 max=476.18)  ruine=0%
+             SAFE x23.41  (min=21.71 max=25.11)  ruine=0%  doublings_moy=7.5
+
+  ★ GAGNANT : topk_size = 8  (+25.241 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : topk_uniform_draw  (valeur base profil #1 = True)
+══════════════════════════════════════════════════════════════════════
+
+    ○ #1  topk_uniform_draw = True  [score=42.899]  ← BASE
+      [SYSTEM]  WR=0.713  tickets=86  pire_série=4
+             NORM x621.70  (min=0.00 max=1243.39)  ruine=50%
+             SAFE x31.62  (min=27.73 max=35.52)  ruine=0%  doublings_moy=8.5
+      [RANDOM]  WR=0.780  tickets=70  pire_série=3
+             NORM x2996.86  (min=2539.89 max=3453.83)  ruine=0%
+             SAFE x75.25  (min=60.28 max=90.22)  ruine=0%  doublings_moy=8.0
+
+    ▶ #2  topk_uniform_draw = False  [score=22.135]
+      [SYSTEM]  WR=0.771  tickets=83  pire_série=4
+             NORM x470.49  (min=0.00 max=940.98)  ruine=50%
+             SAFE x30.19  (min=27.88 max=32.49)  ruine=0%  doublings_moy=8.5
+      [RANDOM]  WR=0.856  tickets=70  pire_série=3
+             NORM x417.78  (min=385.53 max=450.04)  ruine=0%
+             SAFE x24.74  (min=23.75 max=25.73)  ruine=0%  doublings_moy=8.0
+
+  ★ GAGNANT : topk_uniform_draw = True  (+0.000 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : team_min_winrate  (valeur base profil #1 = 0.75)
+══════════════════════════════════════════════════════════════════════
+
+    ▶ #1  team_min_winrate = 0.8  [score=27.682]
+      [SYSTEM]  WR=0.683  tickets=84  pire_série=4
+             NORM x496.70  (min=0.00 max=993.39)  ruine=50%
+             SAFE x30.68  (min=28.10 max=33.26)  ruine=0%  doublings_moy=8.5
+      [RANDOM]  WR=0.797  tickets=69  pire_série=2
+             NORM x1166.50  (min=1137.74 max=1195.27)  ruine=0%
+             SAFE x38.15  (min=37.97 max=38.34)  ruine=0%  doublings_moy=8.0
+
+    ○ #2  team_min_winrate = 0.75  [score=27.159]  ← BASE
+      [SYSTEM]  WR=0.708  tickets=86  pire_série=4
+             NORM x0.00  (min=0.00 max=0.00)  ruine=100%
+             SAFE x28.87  (min=25.53 max=32.21)  ruine=0%  doublings_moy=8.5
+      [RANDOM]  WR=0.766  tickets=70  pire_série=3
+             NORM x1309.28  (min=1226.50 max=1392.06)  ruine=0%
+             SAFE x38.66  (min=38.00 max=39.32)  ruine=0%  doublings_moy=8.0
+
+    ▶ #3  team_min_winrate = 0.65  [score=22.940]
+      [SYSTEM]  WR=0.662  tickets=88  pire_série=4
+             NORM x443.76  (min=0.00 max=887.52)  ruine=50%
+             SAFE x33.25  (min=32.42 max=34.09)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.768  tickets=69  pire_série=3
+             NORM x353.91  (min=310.03 max=397.78)  ruine=0%
+             SAFE x23.74  (min=22.49 max=24.99)  ruine=0%  doublings_moy=7.5
+
+    ▶ #4  team_min_winrate = 0.7  [score=22.746]
+      [SYSTEM]  WR=0.667  tickets=87  pire_série=5
+             NORM x0.00  (min=0.00 max=0.00)  ruine=100%
+             SAFE x9.52  (min=0.00 max=19.03)  ruine=50%  doublings_moy=3.0
+      [RANDOM]  WR=0.709  tickets=70  pire_série=3
+             NORM x2174.49  (min=878.84 max=3470.14)  ruine=0%
+             SAFE x78.25  (min=39.84 max=116.67)  ruine=0%  doublings_moy=7.0
+
+  ★ GAGNANT : team_min_winrate = 0.8  (+0.523 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : team_min_decided  (valeur base profil #1 = 6)
+══════════════════════════════════════════════════════════════════════
+
+    ▶ #1  team_min_decided = 8  [score=27.959]
+      [SYSTEM]  WR=0.715  tickets=86  pire_série=3
+             NORM x1258.76  (min=1143.28 max=1374.24)  ruine=0%
+             SAFE x35.95  (min=35.01 max=36.89)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.772  tickets=70  pire_série=6
+             NORM x197.83  (min=0.00 max=395.66)  ruine=50%
+             SAFE x33.58  (min=24.42 max=42.73)  ruine=0%  doublings_moy=7.0
+
+    ○ #2  team_min_decided = 6  [score=26.152]  ← BASE
+      [SYSTEM]  WR=0.746  tickets=84  pire_série=3
+             NORM x1277.45  (min=1276.19 max=1278.70)  ruine=0%
+             SAFE x34.85  (min=34.38 max=35.33)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.761  tickets=71  pire_série=3
+             NORM x724.08  (min=412.92 max=1035.25)  ruine=0%
+             SAFE x30.15  (min=25.40 max=34.90)  ruine=0%  doublings_moy=8.0
+
+    ▶ #3  team_min_decided = 4  [score=23.700]
+      [SYSTEM]  WR=0.720  tickets=80  pire_série=4
+             NORM x524.11  (min=0.00 max=1048.22)  ruine=0%
+             SAFE x20.02  (min=6.80 max=33.23)  ruine=0%  doublings_moy=6.5
+      [RANDOM]  WR=0.754  tickets=69  pire_série=2
+             NORM x846.92  (min=276.40 max=1417.43)  ruine=0%
+             SAFE x38.86  (min=21.39 max=56.34)  ruine=0%  doublings_moy=7.0
+
+    ▶ #4  team_min_decided = 10  [score=6.678]
+      [SYSTEM]  WR=0.672  tickets=86  pire_série=6
+             NORM x725.91  (min=0.00 max=1451.82)  ruine=50%
+             SAFE x18.41  (min=0.00 max=36.82)  ruine=50%  doublings_moy=5.0
+      [RANDOM]  WR=0.737  tickets=68  pire_série=3
+             NORM x678.14  (min=299.32 max=1056.95)  ruine=0%
+             SAFE x29.18  (min=22.03 max=36.33)  ruine=0%  doublings_moy=7.5
+
+  ★ GAGNANT : team_min_decided = 8  (+1.807 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : two_team_high  (valeur base profil #1 = 0.8)
+══════════════════════════════════════════════════════════════════════
+
+    ▶ #1  two_team_high = 0.75  [score=29.232]
+      [SYSTEM]  WR=0.698  tickets=84  pire_série=3
+             NORM x1012.05  (min=818.14 max=1205.96)  ruine=0%
+             SAFE x33.22  (min=31.32 max=35.12)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.746  tickets=69  pire_série=3
+             NORM x1011.57  (min=250.55 max=1772.60)  ruine=0%
+             SAFE x39.50  (min=21.22 max=57.78)  ruine=0%  doublings_moy=7.0
+
+    ▶ #2  two_team_high = 0.85  [score=24.437]
+      [SYSTEM]  WR=0.689  tickets=84  pire_série=3
+             NORM x763.85  (min=760.16 max=767.54)  ruine=0%
+             SAFE x30.59  (min=30.52 max=30.66)  ruine=0%  doublings_moy=8.5
+      [RANDOM]  WR=0.792  tickets=70  pire_série=2
+             NORM x701.47  (min=457.58 max=945.35)  ruine=0%
+             SAFE x30.13  (min=25.51 max=34.75)  ruine=0%  doublings_moy=8.0
+
+    ▶ #3  two_team_high = 0.9  [score=23.493]
+      [SYSTEM]  WR=0.701  tickets=84  pire_série=4
+             NORM x382.00  (min=0.00 max=764.00)  ruine=50%
+             SAFE x26.46  (min=22.09 max=30.83)  ruine=0%  doublings_moy=7.5
+      [RANDOM]  WR=0.770  tickets=70  pire_série=3
+             NORM x871.37  (min=338.97 max=1403.76)  ruine=0%
+             SAFE x31.91  (min=23.24 max=40.57)  ruine=0%  doublings_moy=8.0
+
+    ○ #4  two_team_high = 0.8  [score=-1.767]  ← BASE
+      [SYSTEM]  WR=0.700  tickets=85  pire_série=5
+             NORM x0.00  (min=0.00 max=0.00)  ruine=100%
+             SAFE x14.69  (min=0.00 max=29.37)  ruine=50%  doublings_moy=4.0
+      [RANDOM]  WR=0.754  tickets=69  pire_série=4
+             NORM x150.78  (min=0.00 max=301.56)  ruine=50%
+             SAFE x11.78  (min=1.14 max=22.43)  ruine=0%  doublings_moy=4.0
+
+  ★ GAGNANT : two_team_high = 0.75  (+30.998 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : two_team_low  (valeur base profil #1 = 0.66)
+══════════════════════════════════════════════════════════════════════
+
+    ▶ #1  two_team_low = 0.7  [score=29.547]
+      [SYSTEM]  WR=0.682  tickets=84  pire_série=3
+             NORM x888.64  (min=622.31 max=1154.96)  ruine=0%
+             SAFE x31.63  (min=28.62 max=34.64)  ruine=0%  doublings_moy=8.5
+      [RANDOM]  WR=0.772  tickets=68  pire_série=2
+             NORM x882.10  (min=323.63 max=1440.56)  ruine=0%
+             SAFE x41.88  (min=22.57 max=61.18)  ruine=0%  doublings_moy=7.0
+
+    ○ #2  two_team_low = 0.66  [score=27.486]  ← BASE
+      [SYSTEM]  WR=0.703  tickets=86  pire_série=3
+             NORM x1276.92  (min=1070.82 max=1483.01)  ruine=0%
+             SAFE x35.39  (min=34.04 max=36.74)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.843  tickets=70  pire_série=2
+             NORM x952.96  (min=487.03 max=1418.88)  ruine=0%
+             SAFE x32.94  (min=25.73 max=40.15)  ruine=0%  doublings_moy=8.0
+
+    ▶ #3  two_team_low = 0.75  [score=25.761]
+      [SYSTEM]  WR=0.657  tickets=83  pire_série=4
+             NORM x309.00  (min=0.00 max=618.00)  ruine=0%
+             SAFE x19.99  (min=11.64 max=28.35)  ruine=0%  doublings_moy=7.0
+      [RANDOM]  WR=0.752  tickets=70  pire_série=3
+             NORM x979.97  (min=483.82 max=1476.11)  ruine=0%
+             SAFE x44.06  (min=26.55 max=61.56)  ruine=0%  doublings_moy=7.5
+
+    ▶ #4  two_team_low = 0.6  [score=15.920]
+      [SYSTEM]  WR=0.671  tickets=82  pire_série=4
+             NORM x0.00  (min=0.00 max=0.00)  ruine=100%
+             SAFE x11.35  (min=0.00 max=22.70)  ruine=50%  doublings_moy=3.5
+      [RANDOM]  WR=0.766  tickets=70  pire_série=2
+             NORM x1429.44  (min=395.31 max=2463.57)  ruine=0%
+             SAFE x59.34  (min=24.38 max=94.31)  ruine=0%  doublings_moy=7.0
+
+  ★ GAGNANT : two_team_low = 0.7  (+2.061 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : global_bet_min_winrate  (valeur base profil #1 = 0.62)
+══════════════════════════════════════════════════════════════════════
+
+    ▶ #1  global_bet_min_winrate = 0.65  [score=42.328]
+      [SYSTEM]  WR=0.742  tickets=87  pire_série=3
+             NORM x1460.01  (min=1248.68 max=1671.33)  ruine=0%
+             SAFE x36.22  (min=34.16 max=38.28)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.796  tickets=71  pire_série=3
+             NORM x2060.33  (min=504.97 max=3615.69)  ruine=0%
+             SAFE x69.22  (min=27.72 max=110.71)  ruine=0%  doublings_moy=8.0
+
+    ○ #2  global_bet_min_winrate = 0.62  [score=24.885]  ← BASE
+      [SYSTEM]  WR=0.719  tickets=86  pire_série=4
+             NORM x732.87  (min=0.00 max=1465.75)  ruine=50%
+             SAFE x24.01  (min=11.43 max=36.58)  ruine=0%  doublings_moy=7.5
+      [RANDOM]  WR=0.814  tickets=70  pire_série=2
+             NORM x1185.64  (min=343.76 max=2027.53)  ruine=0%
+             SAFE x37.82  (min=22.91 max=52.73)  ruine=0%  doublings_moy=7.5
+
+    ▶ #3  global_bet_min_winrate = 0.68  [score=23.382]
+      [SYSTEM]  WR=0.721  tickets=82  pire_série=3
+             NORM x1112.74  (min=948.01 max=1277.46)  ruine=0%
+             SAFE x33.38  (min=32.29 max=34.47)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.794  tickets=70  pire_série=4
+             NORM x881.73  (min=0.00 max=1763.47)  ruine=50%
+             SAFE x24.69  (min=2.40 max=46.99)  ruine=0%  doublings_moy=5.0
+
+    ▶ #4  global_bet_min_winrate = 0.58  [score=22.699]
+      [SYSTEM]  WR=0.722  tickets=84  pire_série=3
+             NORM x1182.46  (min=1043.41 max=1321.51)  ruine=0%
+             SAFE x34.82  (min=34.65 max=34.98)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.761  tickets=69  pire_série=2
+             NORM x283.58  (min=277.63 max=289.54)  ruine=0%
+             SAFE x21.56  (min=21.38 max=21.74)  ruine=0%  doublings_moy=7.0
+
+  ★ GAGNANT : global_bet_min_winrate = 0.65  (+17.443 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : global_bet_min_decided  (valeur base profil #1 = 10)
+══════════════════════════════════════════════════════════════════════
+
+    ○ #1  global_bet_min_decided = 10  [score=36.325]  ← BASE
+      [SYSTEM]  WR=0.735  tickets=83  pire_série=5
+             NORM x569.17  (min=0.00 max=1138.34)  ruine=50%
+             SAFE x30.90  (min=25.96 max=35.84)  ruine=0%  doublings_moy=8.5
+      [RANDOM]  WR=0.798  tickets=70  pire_série=2
+             NORM x2321.79  (min=1052.66 max=3590.91)  ruine=0%
+             SAFE x59.53  (min=42.68 max=76.37)  ruine=0%  doublings_moy=7.5
+
+    ▶ #2  global_bet_min_decided = 8  [score=10.065]
+      [SYSTEM]  WR=0.707  tickets=87  pire_série=4
+             NORM x548.91  (min=0.00 max=1097.82)  ruine=50%
+             SAFE x16.60  (min=0.00 max=33.21)  ruine=50%  doublings_moy=4.5
+      [RANDOM]  WR=0.785  tickets=70  pire_série=2
+             NORM x1339.58  (min=1224.17 max=1455.00)  ruine=0%
+             SAFE x39.44  (min=38.21 max=40.66)  ruine=0%  doublings_moy=8.0
+
+    ▶ #3  global_bet_min_decided = 15  [score=9.432]
+      [SYSTEM]  WR=0.717  tickets=86  pire_série=4
+             NORM x540.46  (min=0.00 max=1080.92)  ruine=50%
+             SAFE x16.78  (min=0.00 max=33.56)  ruine=50%  doublings_moy=4.5
+      [RANDOM]  WR=0.817  tickets=71  pire_série=2
+             NORM x898.32  (min=515.52 max=1281.12)  ruine=0%
+             SAFE x37.67  (min=26.79 max=48.54)  ruine=0%  doublings_moy=8.0
+
+    ▶ #4  global_bet_min_decided = 5  [score=8.682]
+      [SYSTEM]  WR=0.715  tickets=84  pire_série=4
+             NORM x589.18  (min=0.00 max=1178.37)  ruine=50%
+             SAFE x16.97  (min=0.00 max=33.94)  ruine=50%  doublings_moy=4.5
+      [RANDOM]  WR=0.820  tickets=70  pire_série=2
+             NORM x789.17  (min=567.47 max=1010.88)  ruine=0%
+             SAFE x35.60  (min=27.34 max=43.87)  ruine=0%  doublings_moy=7.5
+
+  ★ GAGNANT : global_bet_min_decided = 10  (+0.000 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : league_bet_min_winrate  (valeur base profil #1 = 0.65)
+══════════════════════════════════════════════════════════════════════
+
+    ▶ #1  league_bet_min_winrate = 0.7  [score=23.861]
+      [SYSTEM]  WR=0.712  tickets=85  pire_série=4
+             NORM x468.65  (min=0.00 max=937.30)  ruine=0%
+             SAFE x29.41  (min=26.86 max=31.96)  ruine=0%  doublings_moy=8.5
+      [RANDOM]  WR=0.775  tickets=69  pire_série=3
+             NORM x702.28  (min=243.07 max=1161.49)  ruine=0%
+             SAFE x29.87  (min=20.40 max=39.35)  ruine=0%  doublings_moy=7.5
+
+    ○ #2  league_bet_min_winrate = 0.65  [score=-8.434]  ← BASE
+      [SYSTEM]  WR=0.744  tickets=86  pire_série=4
+             NORM x0.00  (min=0.00 max=0.00)  ruine=100%
+             SAFE x0.00  (min=0.00 max=0.00)  ruine=100%  doublings_moy=0.0
+      [RANDOM]  WR=0.762  tickets=70  pire_série=3
+             NORM x965.84  (min=357.90 max=1573.77)  ruine=0%
+             SAFE x41.04  (min=23.91 max=58.17)  ruine=0%  doublings_moy=7.5
+
+    ▶ #3  league_bet_min_winrate = 0.6  [score=-17.179]
+      [SYSTEM]  WR=0.720  tickets=84  pire_série=4
+             NORM x555.39  (min=0.00 max=1110.77)  ruine=50%
+             SAFE x17.15  (min=0.00 max=34.29)  ruine=50%  doublings_moy=4.5
+      [RANDOM]  WR=0.676  tickets=71  pire_série=4
+             NORM x0.00  (min=0.00 max=0.00)  ruine=50%
+             SAFE x2.06  (min=0.00 max=4.11)  ruine=50%  doublings_moy=1.5
+
+  ★ GAGNANT : league_bet_min_winrate = 0.7  (+32.295 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : league_bet_require_data  (valeur base profil #1 = True)
+══════════════════════════════════════════════════════════════════════
+
+    ▶ #1  league_bet_require_data = False  [score=41.520]
+      [SYSTEM]  WR=0.740  tickets=86  pire_série=4
+             NORM x669.32  (min=0.00 max=1338.63)  ruine=0%
+             SAFE x27.69  (min=19.94 max=35.45)  ruine=0%  doublings_moy=8.5
+      [RANDOM]  WR=0.777  tickets=70  pire_série=3
+             NORM x2096.10  (min=1208.16 max=2984.04)  ruine=0%
+             SAFE x75.73  (min=45.06 max=106.39)  ruine=0%  doublings_moy=7.5
+
+    ○ #2  league_bet_require_data = True  [score=3.150]  ← BASE
+      [SYSTEM]  WR=0.743  tickets=86  pire_série=4
+             NORM x0.00  (min=0.00 max=0.00)  ruine=100%
+             SAFE x15.87  (min=0.00 max=31.73)  ruine=50%  doublings_moy=4.5
+      [RANDOM]  WR=0.762  tickets=70  pire_série=3
+             NORM x347.06  (min=212.31 max=481.81)  ruine=0%
+             SAFE x22.88  (min=19.73 max=26.03)  ruine=0%  doublings_moy=7.5
+
+  ★ GAGNANT : league_bet_require_data = False  (+38.370 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : target_odd  (valeur base profil #1 = 2.4)
+══════════════════════════════════════════════════════════════════════
+
+    ○ #1  target_odd = 2.4  [score=32.205]  ← BASE
+      [SYSTEM]  WR=0.730  tickets=87  pire_série=3
+             NORM x1547.92  (min=1479.65 max=1616.18)  ruine=0%
+             SAFE x36.78  (min=36.09 max=37.48)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.808  tickets=70  pire_série=3
+             NORM x1588.56  (min=1269.68 max=1907.44)  ruine=0%
+             SAFE x43.34  (min=37.57 max=49.12)  ruine=0%  doublings_moy=8.0
+
+    ▶ #2  target_odd = 2.2  [score=21.112]
+      [SYSTEM]  WR=0.771  tickets=88  pire_série=2
+             NORM x513.84  (min=462.10 max=565.59)  ruine=0%
+             SAFE x26.33  (min=25.68 max=26.99)  ruine=0%  doublings_moy=8.0
+      [RANDOM]  WR=0.794  tickets=70  pire_série=3
+             NORM x390.23  (min=252.28 max=528.19)  ruine=0%
+             SAFE x26.06  (min=20.90 max=31.22)  ruine=0%  doublings_moy=7.0
+
+    ▶ #3  target_odd = 2.8  [score=20.000]
+      [SYSTEM]  WR=0.690  tickets=87  pire_série=5
+             NORM x3400.85  (min=0.00 max=6801.71)  ruine=50%
+             SAFE x29.49  (min=0.00 max=58.98)  ruine=50%  doublings_moy=5.5
+      [RANDOM]  WR=0.703  tickets=68  pire_série=4
+             NORM x1663.36  (min=0.00 max=3326.72)  ruine=0%
+             SAFE x51.41  (min=48.66 max=54.16)  ruine=0%  doublings_moy=8.5
+
+    ▶ #4  target_odd = 2.6  [score=8.348]
+      [SYSTEM]  WR=0.704  tickets=84  pire_série=4
+             NORM x0.00  (min=0.00 max=0.00)  ruine=100%
+             SAFE x21.02  (min=0.00 max=42.04)  ruine=50%  doublings_moy=5.0
+      [RANDOM]  WR=0.655  tickets=70  pire_série=4
+             NORM x1260.91  (min=0.00 max=2521.82)  ruine=50%
+             SAFE x30.76  (min=2.82 max=58.71)  ruine=0%  doublings_moy=5.0
+
+  ★ GAGNANT : target_odd = 2.4  (+0.000 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : min_accept_odd  (valeur base profil #1 = 1.8)
+══════════════════════════════════════════════════════════════════════
+
+    ▶ #1  min_accept_odd = 1.7  [score=31.865]
+      [SYSTEM]  WR=0.720  tickets=84  pire_série=3
+             NORM x1080.66  (min=897.44 max=1263.89)  ruine=0%
+             SAFE x33.06  (min=31.70 max=34.41)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.767  tickets=68  pire_série=3
+             NORM x1375.47  (min=1252.47 max=1498.47)  ruine=0%
+             SAFE x46.23  (min=40.20 max=52.26)  ruine=0%  doublings_moy=7.5
+
+    ○ #2  min_accept_odd = 1.8  [score=28.865]  ← BASE
+      [SYSTEM]  WR=0.758  tickets=85  pire_série=3
+             NORM x1574.86  (min=1197.79 max=1951.94)  ruine=0%
+             SAFE x37.04  (min=34.16 max=39.91)  ruine=0%  doublings_moy=9.5
+      [RANDOM]  WR=0.800  tickets=70  pire_série=3
+             NORM x770.86  (min=405.06 max=1136.66)  ruine=0%
+             SAFE x34.74  (min=24.51 max=44.97)  ruine=0%  doublings_moy=7.5
+
+    ▶ #3  min_accept_odd = 1.6  [score=20.769]
+      [SYSTEM]  WR=0.728  tickets=86  pire_série=4
+             NORM x0.00  (min=0.00 max=0.00)  ruine=100%
+             SAFE x15.64  (min=0.00 max=31.29)  ruine=50%  doublings_moy=4.5
+      [RANDOM]  WR=0.789  tickets=69  pire_série=3
+             NORM x2183.66  (min=331.92 max=4035.41)  ruine=0%
+             SAFE x67.15  (min=22.85 max=111.45)  ruine=0%  doublings_moy=7.5
+
+    ▶ #4  min_accept_odd = 1.9  [score=-3.917]
+      [SYSTEM]  WR=0.735  tickets=85  pire_série=4
+             NORM x0.00  (min=0.00 max=0.00)  ruine=100%
+             SAFE x0.00  (min=0.00 max=0.00)  ruine=100%  doublings_moy=0.0
+      [RANDOM]  WR=0.796  tickets=71  pire_série=2
+             NORM x1687.62  (min=1617.89 max=1757.34)  ruine=0%
+             SAFE x52.32  (min=42.67 max=61.97)  ruine=0%  doublings_moy=7.5
+
+  ★ GAGNANT : min_accept_odd = 1.7  (+2.999 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : prefer_3legs_delta  (valeur base profil #1 = 0.08)
+══════════════════════════════════════════════════════════════════════
+
+    ○ #1  prefer_3legs_delta = 0.08  [score=22.935]  ← BASE
+      [SYSTEM]  WR=0.685  tickets=84  pire_série=4
+             NORM x0.00  (min=0.00 max=0.00)  ruine=50%
+             SAFE x24.69  (min=23.89 max=25.49)  ruine=0%  doublings_moy=8.0
+      [RANDOM]  WR=0.781  tickets=71  pire_série=3
+             NORM x906.05  (min=337.15 max=1474.94)  ruine=0%
+             SAFE x32.28  (min=23.72 max=40.84)  ruine=0%  doublings_moy=7.5
+
+    ▶ #2  prefer_3legs_delta = 0.12  [score=15.949]
+      [SYSTEM]  WR=0.722  tickets=84  pire_série=5
+             NORM x0.00  (min=0.00 max=0.00)  ruine=50%
+             SAFE x13.61  (min=0.00 max=27.22)  ruine=50%  doublings_moy=4.0
+      [RANDOM]  WR=0.695  tickets=70  pire_série=2
+             NORM x1276.31  (min=223.02 max=2329.60)  ruine=0%
+             SAFE x57.16  (min=19.82 max=94.50)  ruine=0%  doublings_moy=7.0
+
+    ▶ #3  prefer_3legs_delta = 0.05  [score=11.866]
+      [SYSTEM]  WR=0.729  tickets=85  pire_série=4
+             NORM x395.36  (min=0.00 max=790.73)  ruine=50%
+             SAFE x15.45  (min=0.00 max=30.90)  ruine=50%  doublings_moy=4.5
+      [RANDOM]  WR=0.810  tickets=71  pire_série=2
+             NORM x1739.74  (min=581.51 max=2897.98)  ruine=0%
+             SAFE x45.08  (min=27.13 max=63.03)  ruine=0%  doublings_moy=8.0
+
+    ▶ #4  prefer_3legs_delta = 0.0  [score=5.412]
+      [SYSTEM]  WR=0.741  tickets=85  pire_série=4
+             NORM x0.00  (min=0.00 max=0.00)  ruine=100%
+             SAFE x13.65  (min=0.00 max=27.29)  ruine=50%  doublings_moy=4.0
+      [RANDOM]  WR=0.775  tickets=71  pire_série=3
+             NORM x857.07  (min=694.86 max=1019.28)  ruine=0%
+             SAFE x30.75  (min=28.96 max=32.55)  ruine=0%  doublings_moy=8.5
+
+  ★ GAGNANT : prefer_3legs_delta = 0.08  (+0.000 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : excluded_bet_groups  (valeur base profil #1 = frozenset())
+══════════════════════════════════════════════════════════════════════
+
+    ▶ #1  excluded_bet_groups = {HT05, TEAM1_WIN_FT, TEAM2_WIN_FT}  [score=26.640]
+      [SYSTEM]  WR=0.652  tickets=82  pire_série=3
+             NORM x417.34  (min=338.62 max=496.07)  ruine=0%
+             SAFE x24.85  (min=22.99 max=26.71)  ruine=0%  doublings_moy=7.5
+      [RANDOM]  WR=0.816  tickets=70  pire_série=2
+             NORM x1415.97  (min=1369.66 max=1462.28)  ruine=0%
+             SAFE x41.38  (min=40.33 max=42.43)  ruine=0%  doublings_moy=8.0
+
+    ▶ #2  excluded_bet_groups = {HT05}  [score=26.268]
+      [SYSTEM]  WR=0.631  tickets=80  pire_série=3
+             NORM x368.81  (min=345.54 max=392.07)  ruine=0%
+             SAFE x23.74  (min=23.26 max=24.22)  ruine=0%  doublings_moy=7.5
+      [RANDOM]  WR=0.837  tickets=70  pire_série=2
+             NORM x1494.02  (min=1485.71 max=1502.32)  ruine=0%
+             SAFE x41.56  (min=40.94 max=42.19)  ruine=0%  doublings_moy=9.0
+
+    ○ #3  excluded_bet_groups = {}  [score=21.132]  ← BASE
+      [SYSTEM]  WR=0.724  tickets=85  pire_série=3
+             NORM x1035.70  (min=943.90 max=1127.49)  ruine=0%
+             SAFE x33.71  (min=32.57 max=34.85)  ruine=0%  doublings_moy=9.0
+      [RANDOM]  WR=0.735  tickets=68  pire_série=4
+             NORM x148.30  (min=0.00 max=296.60)  ruine=50%
+             SAFE x18.75  (min=15.40 max=22.10)  ruine=0%  doublings_moy=6.5
+
+    ▶ #4  excluded_bet_groups = {TEAM1_WIN_FT, TEAM2_WIN_FT}  [score=5.015]
+      [SYSTEM]  WR=0.736  tickets=87  pire_série=4
+             NORM x721.63  (min=0.00 max=1443.26)  ruine=50%
+             SAFE x17.88  (min=0.00 max=35.75)  ruine=50%  doublings_moy=4.5
+      [RANDOM]  WR=0.794  tickets=70  pire_série=4
+             NORM x229.97  (min=0.00 max=459.93)  ruine=50%
+             SAFE x25.53  (min=25.07 max=25.98)  ruine=0%  doublings_moy=7.5
+
+  ★ GAGNANT : excluded_bet_groups = {HT05, TEAM1_WIN_FT, TEAM2_WIN_FT}  (+5.508 vs base)
+
+======================================================================
+  RÉCAPITULATIF — MEILLEURES VALEURS PAR PARAMÈTRE
+======================================================================
+
+  league_ranking_mode             CLASSIC                         score=9.738  delta=+0.000  (inchangé)
+  team_ranking_mode               COMPOSITE                       score=35.691  delta=+0.000  (inchangé)
+  system_build_source             LEAGUE                          score=35.185  delta=+0.000  (inchangé)
+  system_select_source            LEAGUE                          score=20.854  delta=+41.230  ← CHANGE
+  random_build_source             TEAM                            score=24.900  delta=+0.000  (inchangé)
+  random_select_source            LEAGUE                          score=25.049  delta=+2.638  ← CHANGE
+  hybrid_alpha                    0.2                             score=40.311  delta=+17.922  ← CHANGE
+  topk_size                       8                               score=31.756  delta=+25.241  ← CHANGE
+  topk_uniform_draw               True                            score=42.899  delta=+0.000  (inchangé)
+  team_min_winrate                0.8                             score=27.682  delta=+0.523  ← CHANGE
+  team_min_decided                8                               score=27.959  delta=+1.807  ← CHANGE
+  two_team_high                   0.75                            score=29.232  delta=+30.998  ← CHANGE
+  two_team_low                    0.7                             score=29.547  delta=+2.061  ← CHANGE
+  global_bet_min_winrate          0.65                            score=42.328  delta=+17.443  ← CHANGE
+  global_bet_min_decided          10                              score=36.325  delta=+0.000  (inchangé)
+  league_bet_min_winrate          0.7                             score=23.861  delta=+32.295  ← CHANGE
+  league_bet_require_data         False                           score=41.520  delta=+38.370  ← CHANGE
+  target_odd                      2.4                             score=32.205  delta=+0.000  (inchangé)
+  min_accept_odd                  1.7                             score=31.865  delta=+2.999  ← CHANGE
+  prefer_3legs_delta              0.08                            score=22.935  delta=+0.000  (inchangé)
+  excluded_bet_groups             {HT05, TEAM1_WIN_FT, TEAM2_WIN_FT}  score=26.640  delta=+5.508  ← CHANGE

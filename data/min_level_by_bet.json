@@ -1,0 +1,377 @@
+{
+  "HT05": {
+    "min_level": "MEGA EXPLOSION",
+    "stats": {
+      "KO": {
+        "wins": 74,
+        "total": 121,
+        "winrate": 0.6116
+      },
+      "FAIBLE": {
+        "wins": 80,
+        "total": 114,
+        "winrate": 0.7018
+      },
+      "MOYEN": {
+        "wins": 137,
+        "total": 208,
+        "winrate": 0.6587
+      },
+      "MOYEN PLUS": {
+        "wins": 423,
+        "total": 643,
+        "winrate": 0.6579
+      },
+      "FORT": {
+        "wins": 260,
+        "total": 373,
+        "winrate": 0.6971
+      },
+      "FORT PLUS": {
+        "wins": 265,
+        "total": 389,
+        "winrate": 0.6812
+      },
+      "TRÈS FORT": {
+        "wins": 251,
+        "total": 352,
+        "winrate": 0.7131
+      },
+      "EXPLOSION": {
+        "wins": 134,
+        "total": 202,
+        "winrate": 0.6634
+      },
+      "MEGA EXPLOSION": {
+        "wins": 493,
+        "total": 664,
+        "winrate": 0.7425
+      }
+    }
+  },
+  "HT1X_HOME": {
+    "min_level": "MOYEN PLUS",
+    "stats": {
+      "KO": {
+        "wins": 185,
+        "total": 256,
+        "winrate": 0.7227
+      },
+      "FAIBLE": {
+        "wins": 53,
+        "total": 78,
+        "winrate": 0.6795
+      },
+      "MOYEN": {
+        "wins": 89,
+        "total": 140,
+        "winrate": 0.6357
+      },
+      "MOYEN PLUS": {
+        "wins": 814,
+        "total": 1114,
+        "winrate": 0.7307
+      },
+      "FORT": {
+        "wins": 349,
+        "total": 449,
+        "winrate": 0.7773
+      },
+      "FORT PLUS": {
+        "wins": 373,
+        "total": 460,
+        "winrate": 0.8109
+      },
+      "TRÈS FORT": {
+        "wins": 405,
+        "total": 515,
+        "winrate": 0.7864
+      },
+      "MEGA EXPLOSION": {
+        "wins": 40,
+        "total": 55,
+        "winrate": 0.7273
+      }
+    }
+  },
+  "TEAM1_SCORE_FT": {
+    "min_level": "MOYEN PLUS",
+    "stats": {
+      "KO": {
+        "wins": 246,
+        "total": 346,
+        "winrate": 0.711
+      },
+      "FAIBLE": {
+        "wins": 280,
+        "total": 401,
+        "winrate": 0.6983
+      },
+      "MOYEN": {
+        "wins": 488,
+        "total": 676,
+        "winrate": 0.7219
+      },
+      "MOYEN PLUS": {
+        "wins": 633,
+        "total": 806,
+        "winrate": 0.7854
+      },
+      "FORT": {
+        "wins": 485,
+        "total": 593,
+        "winrate": 0.8179
+      },
+      "FORT PLUS": {
+        "wins": 181,
+        "total": 204,
+        "winrate": 0.8873
+      },
+      "TRÈS FORT": {
+        "wins": 14,
+        "total": 20,
+        "winrate": 0.7
+      },
+      "EXPLOSION": {
+        "wins": 19,
+        "total": 21,
+        "winrate": 0.9048
+      }
+    }
+  },
+  "TEAM2_SCORE_FT": {
+    "min_level": "FORT",
+    "stats": {
+      "KO": {
+        "wins": 192,
+        "total": 342,
+        "winrate": 0.5614
+      },
+      "FAIBLE": {
+        "wins": 234,
+        "total": 367,
+        "winrate": 0.6376
+      },
+      "MOYEN": {
+        "wins": 421,
+        "total": 629,
+        "winrate": 0.6693
+      },
+      "MOYEN PLUS": {
+        "wins": 587,
+        "total": 857,
+        "winrate": 0.6849
+      },
+      "FORT": {
+        "wins": 458,
+        "total": 622,
+        "winrate": 0.7363
+      },
+      "FORT PLUS": {
+        "wins": 167,
+        "total": 215,
+        "winrate": 0.7767
+      },
+      "TRÈS FORT": {
+        "wins": 14,
+        "total": 19,
+        "winrate": 0.7368
+      },
+      "EXPLOSION": {
+        "wins": 13,
+        "total": 16,
+        "winrate": 0.8125
+      }
+    }
+  },
+  "TEAM1_WIN_FT": {
+    "min_level": null,
+    "stats": {
+      "KO": {
+        "wins": 884,
+        "total": 2226,
+        "winrate": 0.3971
+      },
+      "FAIBLE": {
+        "wins": 192,
+        "total": 374,
+        "winrate": 0.5134
+      },
+      "MOYEN": {
+        "wins": 111,
+        "total": 220,
+        "winrate": 0.5045
+      },
+      "MOYEN PLUS": {
+        "wins": 92,
+        "total": 161,
+        "winrate": 0.5714
+      },
+      "FORT": {
+        "wins": 31,
+        "total": 46,
+        "winrate": 0.6739
+      },
+      "FORT PLUS": {
+        "wins": 19,
+        "total": 31,
+        "winrate": 0.6129
+      },
+      "TRÈS FORT": {
+        "wins": 6,
+        "total": 9,
+        "winrate": 0.6667
+      }
+    }
+  },
+  "TEAM2_WIN_FT": {
+    "min_level": null,
+    "stats": {
+      "KO": {
+        "wins": 591,
+        "total": 2232,
+        "winrate": 0.2648
+      },
+      "FAIBLE": {
+        "wins": 115,
+        "total": 345,
+        "winrate": 0.3333
+      },
+      "MOYEN": {
+        "wins": 78,
+        "total": 201,
+        "winrate": 0.3881
+      },
+      "MOYEN PLUS": {
+        "wins": 70,
+        "total": 160,
+        "winrate": 0.4375
+      },
+      "FORT": {
+        "wins": 39,
+        "total": 70,
+        "winrate": 0.5571
+      },
+      "FORT PLUS": {
+        "wins": 19,
+        "total": 36,
+        "winrate": 0.5278
+      },
+      "TRÈS FORT": {
+        "wins": 13,
+        "total": 18,
+        "winrate": 0.7222
+      },
+      "EXPLOSION": {
+        "wins": 2,
+        "total": 4,
+        "winrate": 0.5
+      },
+      "MEGA EXPLOSION": {
+        "wins": 1,
+        "total": 1,
+        "winrate": 1.0
+      }
+    }
+  },
+  "O25_FT": {
+    "min_level": null,
+    "stats": {
+      "KO": {
+        "wins": 19,
+        "total": 47,
+        "winrate": 0.4043
+      },
+      "FAIBLE": {
+        "wins": 10,
+        "total": 26,
+        "winrate": 0.3846
+      },
+      "MOYEN": {
+        "wins": 17,
+        "total": 36,
+        "winrate": 0.4722
+      },
+      "MOYEN PLUS": {
+        "wins": 41,
+        "total": 84,
+        "winrate": 0.4881
+      },
+      "FORT": {
+        "wins": 17,
+        "total": 32,
+        "winrate": 0.5312
+      },
+      "FORT PLUS": {
+        "wins": 16,
+        "total": 22,
+        "winrate": 0.7273
+      },
+      "TRÈS FORT": {
+        "wins": 16,
+        "total": 30,
+        "winrate": 0.5333
+      },
+      "EXPLOSION": {
+        "wins": 7,
+        "total": 10,
+        "winrate": 0.7
+      },
+      "MEGA EXPLOSION": {
+        "wins": 14,
+        "total": 21,
+        "winrate": 0.6667
+      }
+    }
+  },
+  "O15_FT": {
+    "min_level": "MOYEN PLUS",
+    "stats": {
+      "KO": {
+        "wins": 38,
+        "total": 57,
+        "winrate": 0.6667
+      },
+      "FAIBLE": {
+        "wins": 25,
+        "total": 45,
+        "winrate": 0.5556
+      },
+      "MOYEN": {
+        "wins": 86,
+        "total": 130,
+        "winrate": 0.6615
+      },
+      "MOYEN PLUS": {
+        "wins": 296,
+        "total": 402,
+        "winrate": 0.7363
+      },
+      "FORT": {
+        "wins": 157,
+        "total": 224,
+        "winrate": 0.7009
+      },
+      "FORT PLUS": {
+        "wins": 231,
+        "total": 319,
+        "winrate": 0.7241
+      },
+      "TRÈS FORT": {
+        "wins": 235,
+        "total": 313,
+        "winrate": 0.7508
+      },
+      "EXPLOSION": {
+        "wins": 128,
+        "total": 179,
+        "winrate": 0.7151
+      },
+      "MEGA EXPLOSION": {
+        "wins": 839,
+        "total": 1084,
+        "winrate": 0.774
+      }
+    }
+  }
+}

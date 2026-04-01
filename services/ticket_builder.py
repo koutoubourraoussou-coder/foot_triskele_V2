@@ -40,18 +40,18 @@ TARGET_ODD = 2.40
 MIN_ODD = 1.15
 
 # Fallback uniquement si la journée ne permet AUCUN ticket >= TARGET_ODD
-MIN_ACCEPT_ODD = 1.70
+MIN_ACCEPT_ODD = 1.80
 
 MATCH_DURATION_MIN = 110
 
 # ✅ Exclusions (SYSTEM uniquement) — on exclut encore HT05 et HT1X pour l'instant
-EXCLUDED_BET_GROUPS: Set[str] = {"HT05"}
+EXCLUDED_BET_GROUPS: Set[str] = set()
 
 MAX_LEG_SIZE = 4
 
 # ✅ recherche time-budget (au lieu de N tentatives)
 SEARCH_BUDGET_MS_SYSTEM = 500
-SEARCH_BUDGET_MS_RANDOM = 300
+SEARCH_BUDGET_MS_RANDOM = 500
 
 # garde-fou (si machine très lente ou pools énormes)
 SEARCH_MAX_ITER_SYSTEM = 200000
@@ -64,10 +64,10 @@ RICH_DAY_MATCH_COUNT = 18
 
 # Nombre max de fenêtres / tickets possibles selon le type de journée
 DAY_MAX_WINDOWS_POOR = 1
-DAY_MAX_WINDOWS_RICH = 2
+DAY_MAX_WINDOWS_RICH = 4
 
-MIN_SIDE_MATCHES_FOR_SPLIT = 3     # évite une fenêtre vide ou ridicule
-SPLIT_GAP_WEIGHT = 0.35           # bonus si la coupure tombe dans un vrai creux horaire
+MIN_SIDE_MATCHES_FOR_SPLIT = 5     # évite une fenêtre vide ou ridicule
+SPLIT_GAP_WEIGHT = 0.6            # bonus si la coupure tombe dans un vrai creux horaire
 
 # Sorties SYSTEM
 TICKETS_TSV_FILE = Path("data/tickets.tsv")
@@ -92,22 +92,22 @@ O15_CANON = "O15_FT"
 # ----------------------------
 # ✅ RÈGLES "SYSTÈME" : PERFORMANCE / WINRATES
 # ----------------------------
-GLOBAL_BET_MIN_DECIDED = 7
-GLOBAL_BET_MIN_WINRATE = 0.62
+GLOBAL_BET_MIN_DECIDED = 10
+GLOBAL_BET_MIN_WINRATE = 0.65
 
-LEAGUE_BET_MIN_WINRATE = 0.65
+LEAGUE_BET_MIN_WINRATE = 0.60
 LEAGUE_BET_REQUIRE_DATA = False  # True = 0 match => rejet ; False = 0 match => passe
 
-TEAM_MIN_DECIDED = 8
-TEAM_MIN_WINRATE = 0.70
+TEAM_MIN_DECIDED = 6
+TEAM_MIN_WINRATE = 0.75
 
-TWO_TEAM_HIGH = 0.88
-TWO_TEAM_LOW = 0.60
+TWO_TEAM_HIGH = 0.90
+TWO_TEAM_LOW = 0.66
 
-WEIGHT_MIN = 1.2
+WEIGHT_MIN = 1.0
 WEIGHT_MAX = 2.0
 WEIGHT_BASELINE = 0.74
-WEIGHT_CEIL = 1.00
+WEIGHT_CEIL = 0.95
 
 # ----------------------------
 # Fichiers "rankings" issus de post-analyse (SOURCE UNIQUE — SANS FALLBACK)
@@ -129,13 +129,13 @@ TEAM_RANKING_MODE   = "COMPOSITE"
 # ✅ Quel rideau on utilise pour chaque phase
 # options: "LEAGUE" | "TEAM"
 SYSTEM_BUILD_SOURCE  = "LEAGUE"   # génération des tickets SYSTEM
-SYSTEM_SELECT_SOURCE = "TEAM"     # sélection finale des meilleurs tickets SYSTEM  ("LEAGUE" | "TEAM" | "HYBRID")
+SYSTEM_SELECT_SOURCE = "HYBRID"   # sélection finale des meilleurs tickets SYSTEM  ("LEAGUE" | "TEAM" | "HYBRID")
 
-RANDOM_BUILD_SOURCE  = "LEAGUE"   # génération des tickets RANDOM
+RANDOM_BUILD_SOURCE  = "TEAM"     # génération des tickets RANDOM
 RANDOM_SELECT_SOURCE = "TEAM"     # sélection finale des meilleurs tickets RANDOM
 
 # ✅ HYBRID SELECT : poids de la league dans le score final (0.0=pur team, 1.0=pur league)
-HYBRID_ALPHA = 0.4
+HYBRID_ALPHA = 0.6
 
 GLOBAL_VERDICT_HISTORY_FILE = Path("data/verdict_post_analyse.txt")
 
@@ -150,13 +150,13 @@ MAESTRO_LOG_FILE = Path("data/tickets_maestro_log.txt")
 MAESTRO_MAX_DETAIL_LINES = 30       # limite pour niveau 3 (évite pavés)
 
 # explication décision 3L vs 4L (pour logs)
-PREFER_3LEGS_DELTA = 0.0
+PREFER_3LEGS_DELTA = 0.08
 
 # ----------------------------
 # ✅ TOP-K UNIFORM DRAW (cas commun SYSTEM + RANDOM)
 # ----------------------------
-TOPK_SIZE = 3  # réglable : 5,6,7,8,9,10...
-TOPK_UNIFORM_DRAW = False  # tu veux uniforme
+TOPK_SIZE = 10
+TOPK_UNIFORM_DRAW = True
 
 # ====================================================
 # CONFIG PILOTABLE PAR OPTIMISEUR
