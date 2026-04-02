@@ -1,0 +1,55 @@
+FINE-TUNING PROFIL #1 — one-at-a-time
+Date : 2026-04-01  |  20 runs/variante  |  61 jours
+Martingale : B0=100.0 | max_losses=4
+======================================================================
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : team_ranking_mode  (valeur base profil #1 = COMPOSITE)
+══════════════════════════════════════════════════════════════════════
+
+    ○ #1  team_ranking_mode = COMPOSITE  [score=41.026]  ← BASE
+      [SYSTEM]  WR=0.671  tickets=86  pire_série=6
+             NORM x602.35  (min=0.00 max=1284.15)  ruine=25%
+             SAFE x28.25  (min=2.40 max=34.93)  ruine=0%  doublings_moy=7.8
+      [RANDOM]  WR=0.678  tickets=73  pire_série=5
+             NORM x2382.30  (min=0.00 max=7235.46)  ruine=30%
+             SAFE x77.11  (min=0.00 max=186.93)  ruine=5%  doublings_moy=7.0
+
+    ▶ #2  team_ranking_mode = CLASSIC  [score=37.574]
+      [SYSTEM]  WR=0.673  tickets=86  pire_série=6
+             NORM x472.67  (min=0.00 max=1134.23)  ruine=30%
+             SAFE x26.15  (min=2.37 max=33.69)  ruine=0%  doublings_moy=7.6
+      [RANDOM]  WR=0.700  tickets=73  pire_série=4
+             NORM x2290.51  (min=0.00 max=8885.34)  ruine=10%
+             SAFE x70.57  (min=0.00 max=226.62)  ruine=5%  doublings_moy=7.0
+
+  ★ GAGNANT : team_ranking_mode = COMPOSITE  (+0.000 vs base)
+
+══════════════════════════════════════════════════════════════════════
+  PARAMÈTRE : random_build_source  (valeur base profil #1 = TEAM)
+══════════════════════════════════════════════════════════════════════
+
+    ○ #1  random_build_source = TEAM  [score=29.673]  ← BASE
+      [SYSTEM]  WR=0.671  tickets=87  pire_série=6
+             NORM x350.72  (min=0.00 max=1144.27)  ruine=50%
+             SAFE x25.30  (min=0.00 max=33.93)  ruine=0%  doublings_moy=7.3
+      [RANDOM]  WR=0.690  tickets=73  pire_série=6
+             NORM x1620.56  (min=0.00 max=8324.21)  ruine=30%
+             SAFE x54.80  (min=0.00 max=220.02)  ruine=10%  doublings_moy=6.5
+
+    ▶ #2  random_build_source = LEAGUE  [score=20.771]
+      [SYSTEM]  WR=0.664  tickets=86  pire_série=6
+             NORM x377.03  (min=0.00 max=1022.57)  ruine=40%
+             SAFE x23.39  (min=0.00 max=34.11)  ruine=5%  doublings_moy=7.0
+      [RANDOM]  WR=0.649  tickets=76  pire_série=8
+             NORM x646.34  (min=0.00 max=3582.20)  ruine=45%
+             SAFE x31.33  (min=1.13 max=78.80)  ruine=0%  doublings_moy=6.5
+
+  ★ GAGNANT : random_build_source = TEAM  (+0.000 vs base)
+
+======================================================================
+  RÉCAPITULATIF — MEILLEURES VALEURS PAR PARAMÈTRE
+======================================================================
+
+  team_ranking_mode               COMPOSITE                       score=41.026  delta=+0.000  (inchangé)
+  random_build_source             TEAM                            score=29.673  delta=+0.000  (inchangé)

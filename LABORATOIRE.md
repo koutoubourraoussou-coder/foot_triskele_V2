@@ -4,10 +4,12 @@
 ---
 
 ## PROFIL CHAMPION ACTUEL — Amélioré #1
-*Appliqué dans `services/ticket_builder.py` le 2026-04-01*
+*Appliqué dans `services/ticket_builder.py` depuis le 2026-04-01 — confirmé définitif le 2026-04-02*
 
 Ce profil est la version optimisée du meilleur profil sorti de l'optimizer (rank_score=220.47),
 enrichi de 4 améliorations confirmées par fine-tuning et validation Monte Carlo (200 runs, 61 jours).
+
+> **Super Fusion testé et rejeté** (2026-04-02) : exclusion TEAM_WIN_FT n'a aucun mécanisme sur le pool RANDOM (O15 uniquement), et la différence SYSTEM (+0.033) est du bruit. Amélioré #1 reste champion.
 
 ### Paramètres clés du profil champion
 
@@ -48,9 +50,93 @@ enrichi de 4 améliorations confirmées par fine-tuning et validation Monte Carl
 
 ---
 
-## RÉSULTATS DE RÉFÉRENCE — Monte Carlo 200 runs, 61 jours (2026-04-01)
+## PROFIL #2 — Réserve (rank_score=216.84)
+*Source : `data/optimizer/optimizer_top_profiles.json` — rang 2*
 
-### MODE SYSTEM — du meilleur au moins bon
+Point fort : **WR 89.1% en RANDOM**, série max 36 victoires, jamais de ruine. Très sélectif (peu de tickets).
+
+| Paramètre | Valeur | Différence vs Amélioré #1 |
+|-----------|--------|---------------------------|
+| `system_select_source` | TEAM | ← différent (HYBRID) |
+| `random_build_source` | **LEAGUE** | ← différent (TEAM) |
+| `random_select_source` | TEAM | = |
+| `hybrid_alpha` | 0.4 | ← différent (0.6) |
+| `topk_size` | **3** | ← différent (10) |
+| `topk_uniform_draw` | False | ← différent (True) |
+| `two_team_high` | 0.88 | ← différent (0.90) |
+| `two_team_low` | 0.60 | ← différent (0.66) |
+| `global_bet_min_decided` | **7** | ← différent (10) |
+| `global_bet_min_winrate` | 0.62 | ← différent (0.65) |
+| `league_bet_require_data` | False | = |
+| `league_bet_min_winrate` | 0.65 | ← différent (0.60) |
+| `team_min_decided` | 8 | ← différent (6) |
+| `team_min_winrate` | 0.70 | ← différent (0.75) |
+| `weight_min` | 1.2 | ← différent (1.0) |
+| `weight_ceil` | 1.0 | ← différent (0.95) |
+| `prefer_3legs_delta` | 0.0 | ← différent (0.08) |
+| `min_accept_odd` | 1.7 | ← différent (1.8) |
+| `day_max_windows_rich` | **2** | ← différent (4) |
+| `min_side_matches_for_split` | **3** | ← différent (5) |
+| `split_gap_weight` | 0.35 | ← différent (0.6) |
+| `excluded_bet_groups` | **HT05** | ← différent (∅) |
+| `search_budget_ms_random` | 300 | ← différent (500) |
+
+---
+
+## PROFIL #3 — Réserve (rank_score=215.94)
+*Source : `data/optimizer/optimizer_top_profiles.json` — rang 3*
+
+Point fort : **WR 78.3% en SYSTEM**, 0% ruine partout. Très stable, bonne régularité.
+
+| Paramètre | Valeur | Différence vs Amélioré #1 |
+|-----------|--------|---------------------------|
+| `system_build_source` | **TEAM** | ← différent (LEAGUE) |
+| `system_select_source` | TEAM | ← différent (HYBRID) |
+| `random_build_source` | TEAM | = |
+| `random_select_source` | TEAM | = |
+| `hybrid_alpha` | 0.8 | ← différent (0.6) |
+| `topk_size` | **5** | ← différent (10) |
+| `two_team_high` | 0.85 | ← différent (0.90) |
+| `two_team_low` | 0.58 | ← différent (0.66) |
+| `global_bet_min_winrate` | **0.70** | ← différent (0.65) |
+| `league_bet_require_data` | True | ← différent (False) |
+| `league_bet_min_winrate` | 0.72 | ← différent (0.60) |
+| `team_min_decided` | 8 | ← différent (6) |
+| `team_min_winrate` | **0.78** | ← différent (0.75) |
+| `weight_min` | 0.8 | ← différent (1.0) |
+| `weight_baseline` | 0.78 | ← différent (0.74) |
+| `weight_ceil` | 1.0 | ← différent (0.95) |
+| `prefer_3legs_delta` | 0.0 | ← différent (0.08) |
+| `min_accept_odd` | 1.6 | ← différent (1.8) |
+| `target_odd` | 2.3 | ← différent (2.4) |
+| `rich_day_match_count` | 20 | ← différent (18) |
+| `day_max_windows_rich` | **3** | ← différent (4) |
+| `min_side_matches_for_split` | 4 | ← différent (5) |
+| `split_gap_weight` | 0.2 | ← différent (0.6) |
+| `league_ranking_mode` | **COMPOSITE** | ← différent (CLASSIC) |
+| `team_ranking_mode` | **CLASSIC** | ← différent (COMPOSITE) |
+| `search_budget_ms_system` | 800 | ← différent (500) |
+| `search_budget_ms_random` | 300 | ← différent (500) |
+| `topk_uniform_draw` | True | = |
+
+---
+
+## RÉSULTATS DE RÉFÉRENCE — Monte Carlo 200 runs, 61 jours
+
+### Amélioré #1 vs Super Fusion — 200 runs (2026-04-02)
+
+| Mode | Profil | Tickets | Win rate | NORM ×mult | NORM ruine | SAFE ×mult | SAFE ruine | Doublings |
+|------|--------|---------|----------|------------|------------|------------|------------|-----------|
+| SYSTEM | **Super Fusion** | 85.9 | 69.0% | ×797 | 14% | ×31.01 | **0%** | 8.5 |
+| SYSTEM | Amélioré #1 | 85.8 | 68.4% | ×830 | 11% | ×31.08 | 0% | 8.6 |
+| RANDOM | **Super Fusion** | 70.0 | 72.1% | ×1303 | 20% | **×49.07** | **0%** | 7.2 |
+| RANDOM | Amélioré #1 | 70.1 | 72.2% | ×1194 | 21% | ×45.63 | 0% | 7.0 |
+
+> SYSTEM : tie (0.033 d'écart, bruit statistique). RANDOM : Super Fusion +1.721. **Super Fusion désigné champion.**
+
+### 5 profils comparés — 200 runs (2026-04-01)
+
+#### MODE SYSTEM — du meilleur au moins bon
 
 | # | Profil | Tickets | Win rate | Pire L (moy/max) | Meill. V (moy/max) | NORM ×mult | NORM ruine | SAFE ×mult | SAFE ruine | Doublings |
 |---|--------|---------|----------|------------------|---------------------|------------|------------|------------|------------|-----------|
@@ -60,7 +146,7 @@ enrichi de 4 améliorations confirmées par fine-tuning et validation Monte Carl
 | 4 | Profil #2 | 66.9 | 76.8% | 2.2 / 4 | 12.4 / 20 | ×216 | ~0% | ×20.13 | 0% | 6.7 |
 | 5 | Actuel | 84.6 | 58.6% | 5.0 / 12 | 7.8 / 13 | ×69 | 72% | ×14.81 | 15% | 5.1 |
 
-### MODE RANDOM — du meilleur au moins bon
+#### MODE RANDOM — du meilleur au moins bon
 
 | # | Profil | Tickets | Win rate | Pire L (moy/max) | Meill. V (moy/max) | NORM ×mult | NORM ruine | SAFE ×mult | SAFE ruine | Doublings |
 |---|--------|---------|----------|------------------|---------------------|------------|------------|------------|------------|-----------|
@@ -98,6 +184,18 @@ enrichi de 4 améliorations confirmées par fine-tuning et validation Monte Carl
 - Script : `compare_all_profiles.py` → 5 profils, 200 runs chacun
 - Amélioré #1 domine dans les deux modes sur le profit SAFE
 
+### Phase 5 — Fine-tuning sur base Amélioré #1 (2026-04-02)
+- Base : Amélioré #1 (baked dans `_load_profile1()` via `_AMELIORE_OVERRIDES`)
+- Paramètres testés : `topk_size` (10 est optimal), `excluded_bet_groups`, `team_ranking_mode`, `random_build_source`
+- Résultat : `excluded_bet_groups={TEAM1_WIN_FT, TEAM2_WIN_FT}` améliore le score de +3.880
+- Super Fusion = Amélioré #1 + exclusion WIN_FT — validé 200 runs
+
+### Phase 6 — Comparaison Amélioré #1 vs Super Fusion (2026-04-02)
+- Script : `compare_variants.py`, 200 runs chacun
+- SYSTEM : tie (0.033 d'écart)
+- RANDOM : Super Fusion +7.5% SAFE mult (×49.07 vs ×45.63)
+- **Super Fusion désigné nouveau champion, appliqué dans ticket_builder.py**
+
 ---
 
 ## OBSERVATIONS IMPORTANTES
@@ -119,27 +217,12 @@ inévitable sur 60+ jours. La martingale SAFE résout ce problème en bankant le
 
 ---
 
-## PROCHAINE ÉTAPE — Profil Super Fusion
+## PROCHAINES PISTES — Super Fusion +
 
-Objectif : partir de l'Amélioré #1 et tester les paramètres distinctifs de #2 et #3.
-
-Paramètres candidats à tester :
-
-| Paramètre | Amélioré #1 | À tester | Source |
-|-----------|-------------|----------|--------|
-| `topk_size` | 10 | 3, 5 | #2, #3 |
-| `system_select_source` | HYBRID | TEAM | #2, #3 |
-| `random_build_source` | TEAM | LEAGUE | #2 |
-| `league_ranking_mode` | CLASSIC | COMPOSITE | #3 |
-| `team_ranking_mode` | COMPOSITE | CLASSIC | #3 |
-| `global_bet_min_winrate` | 0.65 | 0.70 | #3 |
-| `excluded_bet_groups` | ∅ | HT05 | #2 |
-| `weight_min` | 1.0 | 1.2 | #2 |
-
-Commande à lancer :
-```
-python -u finetune_profile.py --param topk_size system_select_source random_build_source league_ranking_mode team_ranking_mode global_bet_min_winrate excluded_bet_groups weight_min --runs 20 --jobs 6
-```
+Le champion actuel est stabilisé. Pistes si on veut aller plus loin :
+- Tester `system_select_source=TEAM` (comme #2/#3) en base Super Fusion
+- Tester `random_build_source=LEAGUE` (comme #2) — attention, le run avec mauvaise base le montrait gagnant, mais avec bonne base il perdait
+- Tester `topk_size=5` combiné à l'exclusion WIN_FT
 
 ---
 
@@ -159,5 +242,5 @@ python -u finetune_profile.py --param topk_size system_select_source random_buil
 
 ---
 
-*Dernière mise à jour : 2026-04-01*
-*Profil actif dans ticket_builder.py : Amélioré #1*
+*Dernière mise à jour : 2026-04-02*
+*Profil actif dans ticket_builder.py : Amélioré #1 (champion définitif)*

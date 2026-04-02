@@ -59,7 +59,7 @@ PARAM_GRID: List[Tuple[str, List[Any]]] = [
     # Scoring hybride
     ("hybrid_alpha",              [0.2, 0.4, 0.6, 0.8]),
     # Pool & tirage
-    ("topk_size",                 [5, 8, 10, 15, 20]),
+    ("topk_size",                 [3, 5, 8, 10, 15, 20]),
     ("topk_uniform_draw",         [True, False]),
     # Filtres équipes
     ("team_min_winrate",          [0.65, 0.70, 0.75, 0.80]),
@@ -79,6 +79,8 @@ PARAM_GRID: List[Tuple[str, List[Any]]] = [
     ("excluded_bet_groups",       [
         frozenset(),
         frozenset(["HT05"]),
+        frozenset(["HT1X_HOME"]),
+        frozenset(["HT05", "HT1X_HOME"]),
         frozenset(["TEAM1_WIN_FT", "TEAM2_WIN_FT"]),
         frozenset(["HT05", "TEAM1_WIN_FT", "TEAM2_WIN_FT"]),
     ]),
@@ -86,12 +88,21 @@ PARAM_GRID: List[Tuple[str, List[Any]]] = [
 
 
 # =========================================================
-# CHARGEMENT PROFIL #1
+# CHARGEMENT PROFIL DE BASE — Amélioré #1 (champion actuel)
+# Base = profil #1 JSON + 4 améliorations confirmées par Monte Carlo
 # =========================================================
+# Améliorations confirmées (validées le 2026-04-01, 200 runs)
+_AMELIORE_OVERRIDES = {
+    "two_team_high":          0.90,   # était 0.80
+    "global_bet_min_winrate": 0.65,   # était 0.62
+    "league_bet_require_data": False,  # était True
+    "league_bet_min_winrate": 0.60,   # était 0.65
+}
+
 def _load_profile1() -> BuilderTuning:
     raw = json.loads(ALL_PROFILES_PATH.read_text(encoding="utf-8"))
     t   = sorted(raw, key=lambda p: p.get("rank_score", -1e9), reverse=True)[0]["tuning"]
-    return BuilderTuning(
+    base = BuilderTuning(
         global_bet_min_decided    = t.get("global_bet_min_decided",     10),
         global_bet_min_winrate    = t.get("global_bet_min_winrate",     0.62),
         league_bet_min_winrate    = t.get("league_bet_min_winrate",     0.65),
@@ -125,6 +136,7 @@ def _load_profile1() -> BuilderTuning:
         random_build_source       = t.get("random_build_source",        "TEAM"),
         random_select_source      = t.get("random_select_source",       "TEAM"),
     )
+    return replace(base, **_AMELIORE_OVERRIDES)
 
 
 # =========================================================
@@ -349,7 +361,7 @@ def _render_variant(label: str, mc_sys: dict, mc_rnd: dict, is_base: bool) -> Li
 def main() -> None:
     parser = argparse.ArgumentParser(description="Fine-tuning one-at-a-time du profil #1 TRISKÈLE")
     parser.add_argument("--archive-dir", type=Path, default=DEFAULT_ARCHIVE_DIR)
-    parser.add_argument("--runs",  type=int, default=2,
+    parser.add_argument("--runs",  type=int, default=20,
                         help="Nombre de runs Monte Carlo par variante (défaut=2)")
     parser.add_argument("--jobs",  type=int, default=DEFAULT_JOBS)
     parser.add_argument("--param", type=str, nargs="+", default=None,
@@ -383,7 +395,7 @@ def main() -> None:
             overrides[key] = val
         base_tuning = replace(base_tuning, **overrides)
         print(f"[finetune] Surcharges base : {overrides}")
-    print(f"[finetune] Profil #1 chargé")
+    print(f"[finetune] Amélioré #1 chargé (base = profil #1 + 4 améliorations confirmées)")
 
     datasets = discover_datasets(args.archive_dir, max_days=None)
     if not datasets:

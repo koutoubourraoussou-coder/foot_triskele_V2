@@ -44,7 +44,7 @@ MIN_ACCEPT_ODD = 1.80
 
 MATCH_DURATION_MIN = 110
 
-# ✅ Exclusions (SYSTEM uniquement) — on exclut encore HT05 et HT1X pour l'instant
+# ✅ Exclusions — aucune exclusion (Amélioré #1 confirmé champion, 2026-04-02)
 EXCLUDED_BET_GROUPS: Set[str] = set()
 
 MAX_LEG_SIZE = 4

@@ -1,0 +1,94 @@
+COMPARAISON AMÉLIORÉ #1 vs SUPER FUSION
+Date : 2026-04-02  |  200 runs/variante  |  61 jours
+Différence Super Fusion vs Amélioré #1 :
+  excluded_bet_groups : ∅  →  {TEAM1_WIN_FT, TEAM2_WIN_FT}
+======================================================================
+
+──────────────────────────────────────────────────────────────────────
+  AMÉLIORÉ #1  (champion actuel)
+──────────────────────────────────────────────────────────────────────
+  [SYSTEM]  200 runs
+    Tickets/run      : moy=85.8  min=82  max=91
+    Win rate         : moy=0.684  min=0.575  max=0.776  σ=0.033
+    Pire série L     : moy=3.0  max_absolu=9  (pire run jamais vu)
+    Meill. série V   : moy=8.5  max_absolu=16  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=830.57  min=0.00  max=1773.29  σ=409.59
+      Profit (€)     : moy=82956.90  min=-100.00  max=177229.31  σ=40958.52
+      Pire série L   : moy=2.9  min=2.0  max=5.0  σ=0.7
+      Ruine          : 11%  (22/200 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=31.08  min=14.80  max=39.69  σ=4.59
+      Profit (€)     : moy=3008.25  min=1380.14  max=3869.09  σ=458.61
+      Pire série L   : moy=2.9  min=2.0  max=5.0  σ=0.7
+      Doublings/run  : moy=8.6  min=7  max=10
+      Ruine          : 0%  (0/200 runs)
+
+  [RANDOM]  200 runs
+    Tickets/run      : moy=70.1  min=68  max=74
+    Win rate         : moy=0.722  min=0.592  max=0.841  σ=0.039
+    Pire série L     : moy=3.2  max_absolu=6  (pire run jamais vu)
+    Meill. série V   : moy=10.0  max_absolu=23  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=1194.90  min=0.00  max=5775.36  σ=1190.63
+      Profit (€)     : moy=119389.55  min=-100.00  max=577435.94  σ=119062.71
+      Pire série L   : moy=3.1  min=1.0  max=5.0  σ=0.8
+      Ruine          : 21%  (42/200 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=45.63  min=1.03  max=142.66  σ=26.85
+      Profit (€)     : moy=4462.64  min=2.59  max=14165.73  σ=2684.88
+      Pire série L   : moy=3.1  min=1.0  max=5.0  σ=0.8
+      Doublings/run  : moy=7.0  min=1  max=9
+      Ruine          : 0%  (0/200 runs)
+
+──────────────────────────────────────────────────────────────────────
+  SUPER FUSION (+ excl. WIN_FT)
+──────────────────────────────────────────────────────────────────────
+  [SYSTEM]  200 runs
+    Tickets/run      : moy=85.9  min=81  max=89
+    Win rate         : moy=0.690  min=0.547  max=0.788  σ=0.037
+    Pire série L     : moy=3.0  max_absolu=8  (pire run jamais vu)
+    Meill. série V   : moy=8.5  max_absolu=16  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=797.42  min=0.00  max=1602.64  σ=433.42
+      Profit (€)     : moy=79641.90  min=-100.00  max=160163.73  σ=43342.25
+      Pire série L   : moy=2.9  min=2.0  max=5.0  σ=0.8
+      Ruine          : 14%  (29/200 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=31.01  min=6.54  max=38.06  σ=4.68
+      Profit (€)     : moy=3001.37  min=553.78  max=3705.81  σ=467.61
+      Pire série L   : moy=2.9  min=2.0  max=5.0  σ=0.8
+      Doublings/run  : moy=8.5  min=4  max=10
+      Ruine          : 0%  (0/200 runs)
+
+  [RANDOM]  200 runs
+    Tickets/run      : moy=70.0  min=68  max=73
+    Win rate         : moy=0.721  min=0.614  max=0.817  σ=0.041
+    Pire série L     : moy=3.1  max_absolu=5  (pire run jamais vu)
+    Meill. série V   : moy=9.6  max_absolu=24  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=1303.24  min=0.00  max=6345.60  σ=1217.38
+      Profit (€)     : moy=130223.98  min=-100.00  max=634459.64  σ=121737.76
+      Pire série L   : moy=3.1  min=1.0  max=5.0  σ=0.8
+      Ruine          : 20%  (39/200 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=49.07  min=2.24  max=176.99  σ=29.18
+      Profit (€)     : moy=4806.87  min=124.34  max=17598.48  σ=2918.23
+      Pire série L   : moy=3.1  min=1.0  max=5.0  σ=0.8
+      Doublings/run  : moy=7.2  min=2  max=9
+      Ruine          : 0%  (0/200 runs)
+
+======================================================================
+  VERDICT SYSTEM
+  ★ GAGNANT : AMÉLIORÉ #1  (score=15.746 vs 15.714, +0.033)
+
+  VERDICT RANDOM
+  ★ GAGNANT : SUPER FUSION  (score=24.751 vs 23.030, +1.721)

@@ -79,11 +79,17 @@ def _load_profile1() -> BuilderTuning:
     )
 
 
-IMPROVEMENTS = {
+# Améliorations déjà appliquées → base = Amélioré #1
+AMELIORE_OVERRIDES = {
     "two_team_high":          0.90,
     "global_bet_min_winrate": 0.65,
-    "league_bet_require_data":False,
+    "league_bet_require_data": False,
     "league_bet_min_winrate": 0.60,
+}
+
+# Super Fusion = Amélioré #1 + exclusion des paris victoire équipe
+SUPER_FUSION_EXTRA = {
+    "excluded_bet_groups": frozenset(["TEAM1_WIN_FT", "TEAM2_WIN_FT"]),
 }
 
 
@@ -236,16 +242,17 @@ def main():
     parser.add_argument("--jobs",  type=int, default=DEFAULT_JOBS)
     args = parser.parse_args()
 
-    original = _load_profile1()
-    improved = replace(original, **IMPROVEMENTS)
+    base     = _load_profile1()
+    ameliore = replace(base, **AMELIORE_OVERRIDES)
+    fusion   = replace(ameliore, **SUPER_FUSION_EXTRA)
 
     variants = [
-        ("ORIGINAL  (profil #1 tel quel)", original),
-        ("AMÉLIORÉ  (profil #1 v2)",       improved),
+        ("AMÉLIORÉ #1  (champion actuel)", ameliore),
+        ("SUPER FUSION (+ excl. WIN_FT)",  fusion),
     ]
 
-    print(f"[compare] Profil #1 original vs amélioré")
-    print(f"[compare] Améliorations : {IMPROVEMENTS}")
+    print(f"[compare] Amélioré #1 vs Super Fusion")
+    print(f"[compare] Différence : {SUPER_FUSION_EXTRA}")
 
     datasets = discover_datasets(args.archive_dir, max_days=None)
     print(f"[compare] {len(datasets)} jours  |  {args.runs} runs/variante  |  {args.jobs} jobs")
@@ -284,10 +291,10 @@ def main():
     print(f"\n[compare] Terminé en {(time.time()-start)/60:.1f}min\n")
 
     lines = [
-        f"COMPARAISON PROFIL #1 ORIGINAL vs AMÉLIORÉ",
+        f"COMPARAISON AMÉLIORÉ #1 vs SUPER FUSION",
         f"Date : {date.today()}  |  {args.runs} runs/variante  |  {len(datasets)} jours",
-        f"Améliorations appliquées :",
-        *[f"  {k} : {original.__dict__[k] if hasattr(original, k) else '?'}  →  {v}" for k, v in IMPROVEMENTS.items()],
+        f"Différence Super Fusion vs Amélioré #1 :",
+        f"  excluded_bet_groups : ∅  →  {{TEAM1_WIN_FT, TEAM2_WIN_FT}}",
         "=" * 70, "",
     ]
 
@@ -308,16 +315,16 @@ def main():
 
     lines.append("=" * 70)
     lines.append("  VERDICT SYSTEM")
-    lines.append(_winner_line(mcs[0][0], mcs[1][0], "ORIGINAL", "AMÉLIORÉ"))
+    lines.append(_winner_line(mcs[0][0], mcs[1][0], "AMÉLIORÉ #1", "SUPER FUSION"))
     lines.append("")
     lines.append("  VERDICT RANDOM")
-    lines.append(_winner_line(mcs[0][1], mcs[1][1], "ORIGINAL", "AMÉLIORÉ"))
+    lines.append(_winner_line(mcs[0][1], mcs[1][1], "AMÉLIORÉ #1", "SUPER FUSION"))
     lines.append("")
 
     output = "\n".join(lines)
     print(output)
 
-    out_path = OUTPUT_DIR / f"compare_v1_vs_v2_{date.today()}_{args.runs}runs.txt"
+    out_path = OUTPUT_DIR / f"compare_ameliore_vs_fusion_{date.today()}_{args.runs}runs.txt"
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     out_path.write_text(output, encoding="utf-8")
     print(f"\n[compare] Résultats écrits dans {out_path}")
