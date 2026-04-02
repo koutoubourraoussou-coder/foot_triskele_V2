@@ -1300,3 +1300,31 @@ TSV: 2026-04-01	3186377093	O25_FT	23:30	primera división paraguay	Rubio NU	Club
 TSV: 2026-04-01	3186377093	TEAM1_SCORE_FT	23:30	primera división paraguay	Rubio NU	Club Guarani	1.56	1505039	SYSTEM_POOL_BASE	predictions.tsv
 TSV: 2026-04-01	3186377093	O15_FT	23:30	primera división paraguay	Rubio NU	Club Guarani	1.36	1505039	SYSTEM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-04-03 00:13:34 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-02	621827949	O15_FT	02:30	serie a brazil	Fluminense	Corinthians	1.42	1492196	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1743496049	O25_FT	03:30	primera a colombia	Atletico Nacional	Cucuta	1.48	1506070	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1743496049	O15_FT	03:30	primera a colombia	Atletico Nacional	Cucuta	1.15	1506070	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	802795404	O15_FT	19:00	laliga2	Las Palmas	Granada CF	1.38	1392123	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	802795404	TEAM1_SCORE_FT	19:00	laliga2	Las Palmas	Granada CF	1.17	1392123	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	4008458981	O25_FT	20:00	laliga2	Real Sociedad II	Eibar	2	1392118	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1818688398	O15_FT	20:00	liga profesional argentina	Barracas Central	Sarmiento Junin	1.65	1492000	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1992937428	O25_FT	20:00	laliga2	Castellón	Almeria	1.5	1392117	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1818688398	TEAM1_SCORE_FT	20:00	liga profesional argentina	Barracas Central	Sarmiento Junin	1.44	1492000	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	4008458981	HT05	20:00	laliga2	Real Sociedad II	Eibar	1.4	1392118	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	4008458981	TEAM1_SCORE_FT	20:00	laliga2	Real Sociedad II	Eibar	1.36	1392118	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	4008458981	O15_FT	20:00	laliga2	Real Sociedad II	Eibar	1.33	1392118	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1992937428	HT05	20:00	laliga2	Castellón	Almeria	1.25	1392117	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1992937428	HT1X_HOME	20:00	laliga2	Castellón	Almeria	1.25	1392117	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1992937428	TEAM2_SCORE_FT	20:00	laliga2	Castellón	Almeria	1.25	1392117	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1818688398	HT1X_HOME	20:00	liga profesional argentina	Barracas Central	Sarmiento Junin	1.22	1492000	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1992937428	O15_FT	20:00	laliga2	Castellón	Almeria	1.17	1392117	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	913305615	TEAM2_SCORE_FT	21:00	primera a colombia	Chico	Deportivo Pereira	1.62	1506071	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	913305615	O15_FT	21:00	primera a colombia	Chico	Deportivo Pereira	1.45	1506071	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	913305615	HT1X_HOME	21:00	primera a colombia	Chico	Deportivo Pereira	1.17	1506071	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	2767257062	O15_FT	21:30	laliga2	Leganes	Zaragoza	1.42	1392119	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	2767257062	HT1X_HOME	21:30	laliga2	Leganes	Zaragoza	1.2	1392119	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	452570480	HT1X_HOME	22:30	liga profesional argentina	Tigre	Independ. Rivadavia	1.2	1492011	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	3336733230	O15_FT	23:10	primera a colombia	America de Cali	Bucaramanga	1.4	1506072	SYSTEM_POOL_BASE	predictions.tsv
+

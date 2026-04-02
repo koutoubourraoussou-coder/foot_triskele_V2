@@ -1,13 +1,13 @@
 TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
 ==================================================
 
-📅 Mercredi 2026-04-01 — Tranche 1 (fenêtre ~250min)
----------------------------------------------------
+📅 Jeudi 2026-04-02 — Tranche 1 (fenêtre ~990min)
+------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-01_1900_786e00b657_SYS — cote = 2.71 — fenêtre 19:00 → 01:00  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-02_0330_ea85eef7de_SYS — cote = 2.42 — fenêtre 03:30 → 21:50  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 19:00 | laliga2 | FC Andorra vs Malaga | Over 1.5 (FT) | MOYEN PLUS | odd=1.3
-  2) 20:00 | laliga2 | Huesca vs Cultural Leonesa | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.4
-  3) 20:00 | laliga2 | Burgos vs AD Ceuta FC | Team1 scores (FT) | MOYEN PLUS | odd=1.22
-  4) 23:10 | primera a colombia | Alianza Valledupar vs Deportivo Pasto | HT 1X Home | MOYEN PLUS | odd=1.22
+  1) 03:30 | primera a colombia | Atletico Nacional vs Cucuta | Over 1.5 (FT) | FORT PLUS | odd=1.15
+  2) 19:00 | laliga2 | Las Palmas vs Granada CF | Team1 scores (FT) | MOYEN PLUS | odd=1.17
+  3) 20:00 | laliga2 | Castellón vs Almeria | HT 1X Home | MOYEN PLUS | odd=1.25
+  4) 20:00 | liga profesional argentina | Barracas Central vs Sarmiento Junin | Team1 scores (FT) | MOYEN PLUS | odd=1.44

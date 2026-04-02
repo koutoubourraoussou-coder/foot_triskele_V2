@@ -726,3 +726,16 @@ TSV: 2026-04-01	2339294554	TEAM1_SCORE_FT	20:00	laliga2	Burgos	AD Ceuta FC	1.22	
 TSV: 2026-04-01	1900765375	HT1X_HOME	21:30	laliga2	Racing Santander	Sporting Gijon	1.2	1392120	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-01	1671234688	HT1X_HOME	23:10	primera a colombia	Alianza Valledupar	Deportivo Pasto	1.22	1506068	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-04-03 00:13:34 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-02	1743496049	O15_FT	03:30	primera a colombia	Atletico Nacional	Cucuta	1.15	1506070	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-02	802795404	TEAM1_SCORE_FT	19:00	laliga2	Las Palmas	Granada CF	1.17	1392123	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-02	1818688398	TEAM1_SCORE_FT	20:00	liga profesional argentina	Barracas Central	Sarmiento Junin	1.44	1492000	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-02	1992937428	HT05	20:00	laliga2	Castellón	Almeria	1.25	1392117	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-02	1992937428	HT1X_HOME	20:00	laliga2	Castellón	Almeria	1.25	1392117	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-02	1818688398	HT1X_HOME	20:00	liga profesional argentina	Barracas Central	Sarmiento Junin	1.22	1492000	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-02	1992937428	O15_FT	20:00	laliga2	Castellón	Almeria	1.17	1392117	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-02	913305615	HT1X_HOME	21:00	primera a colombia	Chico	Deportivo Pereira	1.17	1506071	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-02	452570480	HT1X_HOME	22:30	liga profesional argentina	Tigre	Independ. Rivadavia	1.2	1492011	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+

@@ -1,14 +1,18 @@
-2026-04-01 01:00 | international friendlies | USA vs Portugal
-2026-04-01 01:30 | international friendlies | Argentina vs Zambia
-2026-04-01 01:30 | international friendlies | Canada vs Tunisia
-2026-04-01 02:00 | international friendlies | Brazil vs Croatia
-2026-04-01 03:00 | international friendlies | Mexico vs Belgium
-2026-04-01 19:00 | laliga2 | FC Andorra vs Malaga
-2026-04-01 20:00 | laliga2 | Burgos vs AD Ceuta FC
-2026-04-01 20:00 | laliga2 | Huesca vs Cultural Leonesa
-2026-04-01 21:30 | laliga2 | Racing Santander vs Sporting Gijon
-2026-04-01 03:00 | primera a colombia | Deportes Tolima vs Águilas Doradas
-2026-04-01 23:10 | primera a colombia | Alianza Valledupar vs Deportivo Pasto
-2026-04-01 01:30 | primera división paraguay | Club Sp. San Lorenzo vs Sportivo Ameliano
-2026-04-01 01:30 | primera división paraguay | Sportivo Luqueno vs Cerro Porteno
-2026-04-01 23:30 | primera división paraguay | Rubio NU vs Club Guarani
+2026-04-02 19:00 | laliga2 | Las Palmas vs Granada CF
+2026-04-02 20:00 | laliga2 | Castellón vs Almeria
+2026-04-02 20:00 | laliga2 | Real Sociedad II vs Eibar
+2026-04-02 21:30 | laliga2 | Leganes vs Zaragoza
+2026-04-02 01:00 | liga profesional argentina | Lanus vs Platense
+2026-04-02 20:00 | liga profesional argentina | Barracas Central vs Sarmiento Junin
+2026-04-02 22:30 | liga profesional argentina | Tigre vs Independ. Rivadavia
+2026-04-02 01:30 | primera a colombia | Santa Fe vs Llaneros
+2026-04-02 03:30 | primera a colombia | Atletico Nacional vs Cucuta
+2026-04-02 21:00 | primera a colombia | Chico vs Deportivo Pereira
+2026-04-02 23:10 | primera a colombia | America de Cali vs Bucaramanga
+2026-04-02 01:30 | primera división paraguay | Sportivo Trinidense vs Olimpia
+2026-04-02 00:30 | serie a brazil | Botafogo vs Mirassol
+2026-04-02 00:30 | serie a brazil | Internacional vs Sao Paulo
+2026-04-02 01:00 | serie a brazil | Bahia vs Atletico Paranaense
+2026-04-02 01:00 | serie a brazil | Cruzeiro vs Vitoria
+2026-04-02 01:30 | serie a brazil | Coritiba vs Vasco DA Gama
+2026-04-02 02:30 | serie a brazil | Fluminense vs Corinthians

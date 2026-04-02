@@ -2,9 +2,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-04-02
+Date run       : 2026-04-03
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (122 ids)
+Whitelist      : ON (123 ids)
 Ignorés (hors whitelist) : 5
 Ignorés (date>=today)    : 0
 
@@ -1030,9 +1030,17 @@ Ignorés (date>=today)    : 0
    ✅ Leg 2) 20:00 | laliga2 | Huesca vs Cultural Leonesa | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.4
    ❌ Leg 3) 23:10 | primera a colombia | Alianza Valledupar vs Deportivo Pasto | Over 1.5 (FT) | [MOYEN] | odd=1.57
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Jeudi 2026-04-02 19:00→00:20 | code=A2 | odd=2.42
+   id=2026-04-02_1900_f4d35990a4_O15R
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 19:00 | laliga2 | Las Palmas vs Granada CF | Over 1.5 (FT) | [EXPLOSION] | odd=1.38
+   ✅ Leg 2) 20:00 | laliga2 | Castellón vs Almeria | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.17
+   ✅ Leg 3) 22:30 | liga profesional argentina | Tigre vs Independ. Rivadavia | Over 1.5 (FT) | [MOYEN] | odd=1.5
+
 ====================================================================
-TOTAL tickets : 122
-✅ WIN     : 52
+TOTAL tickets : 123
+✅ WIN     : 53
 ❌ LOSS    : 67
 ⏳ PENDING : 3
 ====================================================================

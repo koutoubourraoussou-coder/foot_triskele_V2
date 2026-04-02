@@ -601,3 +601,13 @@ TSV: 2026-04-01	869662321	O15_FT	20:00	laliga2	Huesca	Cultural Leonesa	1.4	13921
 TSV: 2026-04-01	1900765375	O15_FT	21:30	laliga2	Racing Santander	Sporting Gijon	1.22	1392120	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-01	1671234688	O15_FT	23:10	primera a colombia	Alianza Valledupar	Deportivo Pasto	1.57	1506068	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_EFFECTIVE | 2026-04-03 00:13:34 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-02	1743496049	O15_FT	03:30	primera a colombia	Atletico Nacional	Cucuta	1.15	1506070	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-02	802795404	O15_FT	19:00	laliga2	Las Palmas	Granada CF	1.38	1392123	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-02	1992937428	O15_FT	20:00	laliga2	Castellón	Almeria	1.17	1392117	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-02	913305615	O15_FT	21:00	primera a colombia	Chico	Deportivo Pereira	1.45	1506071	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-02	2767257062	O15_FT	21:30	laliga2	Leganes	Zaragoza	1.42	1392119	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-02	452570480	O15_FT	22:30	liga profesional argentina	Tigre	Independ. Rivadavia	1.5	1492011	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

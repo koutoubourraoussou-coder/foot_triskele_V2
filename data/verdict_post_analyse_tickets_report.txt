@@ -2,9 +2,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-04-02
+Date run       : 2026-04-03
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (119 ids)
+Whitelist      : ON (120 ids)
 Ignorés (hors whitelist) : 16
 Ignorés (date>=today)    : 0
 
@@ -963,10 +963,19 @@ Ignorés (date>=today)    : 0
    ✅ Leg 3) 20:00 | laliga2 | Huesca vs Cultural Leonesa | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.4
    ✅ Leg 4) 23:10 | primera a colombia | Alianza Valledupar vs Deportivo Pasto | HT 1X Home | [MOYEN PLUS] | odd=1.22
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Jeudi 2026-04-02 03:30→21:50 | code=A2 | odd=2.42
+   id=2026-04-02_0330_ea85eef7de_SYS
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 03:30 | primera a colombia | Atletico Nacional vs Cucuta | Over 1.5 (FT) | [FORT PLUS] | odd=1.15
+   ✅ Leg 2) 19:00 | laliga2 | Las Palmas vs Granada CF | Team1 scores (FT) | [MOYEN PLUS] | odd=1.17
+   ✅ Leg 3) 20:00 | laliga2 | Castellón vs Almeria | HT 1X Home | [MOYEN PLUS] | odd=1.25
+   ✅ Leg 4) 20:00 | liga profesional argentina | Barracas Central vs Sarmiento Junin | Team1 scores (FT) | [MOYEN PLUS] | odd=1.44
+
 ====================================================================
-TOTAL tickets : 114
+TOTAL tickets : 115
 ✅ WIN     : 41
-❌ LOSS    : 71
+❌ LOSS    : 72
 ⏳ PENDING : 2
 ====================================================================
 
