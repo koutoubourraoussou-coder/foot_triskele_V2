@@ -90,10 +90,10 @@ def _load_ameliore1() -> BuilderTuning:
 # =========================================================
 def _build_variants(base: BuilderTuning):
     return [
-        ("Amélioré #1  (LEAGUE build SYSTEM)",
-         base),
-        ("TEAM build SYSTEM",
-         replace(base, system_build_source="TEAM")),
+        ("Ancien filtre  (min_decided=1, toutes équipes)",
+         replace(base, team_min_decided=1)),
+        ("Nouveau filtre (min_decided=6, équipes fiables)",
+         base),  # team_min_decided=6 par défaut
     ]
 
 
@@ -252,7 +252,7 @@ def main():
     base     = _load_ameliore1()
     variants = _build_variants(base)
 
-    print(f"[compare] system_build_source : LEAGUE vs TEAM")
+    print(f"[compare] Filtre RANDOM pool : ancien (min_decided=1) vs nouveau (min_decided=6)")
     for name, _ in variants:
         print(f"  · {name}")
 
@@ -326,7 +326,7 @@ def main():
     output = "\n".join(lines)
     print(output)
 
-    out_path = OUTPUT_DIR / f"compare_system_build_{date.today()}_{args.runs}runs.txt"
+    out_path = OUTPUT_DIR / f"compare_pool_filter_{date.today()}_{args.runs}runs.txt"
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     out_path.write_text(output, encoding="utf-8")
     print(f"\n[compare] Résultats écrits dans {out_path}")
