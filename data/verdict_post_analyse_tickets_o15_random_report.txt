@@ -4,7 +4,7 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 Source tickets : data/tickets_o15_random.tsv
 Date run       : 2026-04-02
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (121 ids)
+Whitelist      : ON (122 ids)
 Ignorés (hors whitelist) : 5
 Ignorés (date>=today)    : 0
 
@@ -1022,10 +1022,18 @@ Ignorés (date>=today)    : 0
    ✅ Leg 2) 20:00 | international friendlies | Peru vs Honduras | Over 1.5 (FT) | [FORT PLUS] | odd=1.45
    ✅ Leg 3) 20:00 | laliga2 | Deportivo La Coruna vs Cordoba | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Mercredi 2026-04-01 02:00→01:00 | code=A2 | odd=2.64
+   id=2026-04-01_0200_d3f125724f_O15R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 02:00 | international friendlies | Brazil vs Croatia | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ✅ Leg 2) 20:00 | laliga2 | Huesca vs Cultural Leonesa | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.4
+   ❌ Leg 3) 23:10 | primera a colombia | Alianza Valledupar vs Deportivo Pasto | Over 1.5 (FT) | [MOYEN] | odd=1.57
+
 ====================================================================
-TOTAL tickets : 121
+TOTAL tickets : 122
 ✅ WIN     : 52
-❌ LOSS    : 66
+❌ LOSS    : 67
 ⏳ PENDING : 3
 ====================================================================
 
