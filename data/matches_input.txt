@@ -1,15 +1,57 @@
-2026-03-30 11:00 | international friendlies | Slovakia U18 vs Serbia U18
-2026-03-30 11:00 | international friendlies | Uzbekistan U19 vs Japan U19
-2026-03-30 14:00 | international friendlies | Russia U21 vs Jordan U23
-2026-03-30 14:00 | international friendlies | United Arab Emirates vs Faroe Islands
-2026-03-30 14:30 | international friendlies | Albania U21 vs Uzbekistan U23
-2026-03-30 15:00 | international friendlies | Tunisia U20 vs Mauritania U20
-2026-03-30 17:00 | international friendlies | Kyrgyz Republic U20 vs Bosnia-Herzegovina U17
-2026-03-30 17:00 | international friendlies | Mexico U20 vs Costa Rica U20
-2026-03-30 18:00 | international friendlies | Cyprus vs Moldova
-2026-03-30 18:30 | international friendlies | Netherlands U21 vs Belgium U21
-2026-03-30 20:45 | international friendlies | Germany vs Ghana
-2026-03-30 01:20 | primera a colombia | Deportivo Pasto vs Atletico Nacional
-2026-03-30 03:30 | primera a colombia | Llaneros vs Once Caldas
-2026-03-30 00:00 | primera división paraguay | Club Guarani vs Sportivo Trinidense
-2026-03-30 00:30 | serie a brazil | Atletico Paranaense vs Botafogo
+2026-03-31 09:00 | international friendlies | Korea DPR U23 vs Thailand U23
+2026-03-31 11:00 | international friendlies | Equatorial Guinea vs Madagascar
+2026-03-31 12:00 | international friendlies | India U17 vs Korea Republic U17
+2026-03-31 12:00 | international friendlies | Korea Republic U23 vs USA U21
+2026-03-31 13:35 | international friendlies | China PR U20 vs Australia U20
+2026-03-31 13:35 | international friendlies | China PR U23 vs Vietnam U23
+2026-03-31 14:00 | international friendlies | Morocco U18 vs Iceland U19
+2026-03-31 14:00 | international friendlies | Palestine vs Mauritania
+2026-03-31 14:00 | international friendlies | Qatar vs Argentina
+2026-03-31 15:00 | international friendlies | Botswana vs Malawi
+2026-03-31 15:00 | international friendlies | Costa Rica vs Iran
+2026-03-31 15:00 | international friendlies | Egypt U20 vs Algeria U20
+2026-03-31 15:00 | international friendlies | Portugal U18 vs USA U18
+2026-03-31 15:30 | international friendlies | India U23 vs Tajikistan U23
+2026-03-31 15:45 | international friendlies | UAE U23 vs Oman U23
+2026-03-31 16:30 | international friendlies | Chile U20 vs Peru U20
+2026-03-31 16:45 | international friendlies | Croatia U18 vs England U18
+2026-03-31 17:00 | international friendlies | Liberia vs Libya
+2026-03-31 17:00 | international friendlies | Niger vs Togo
+2026-03-31 18:00 | international friendlies | Montenegro vs Slovenia
+2026-03-31 18:00 | international friendlies | Norway vs Switzerland
+2026-03-31 18:00 | international friendlies | San Marino vs Andorra
+2026-03-31 18:00 | international friendlies | Serbia vs Saudi Arabia
+2026-03-31 18:00 | international friendlies | Zimbabwe vs Zambia U23
+2026-03-31 19:00 | international friendlies | Hungary vs Greece
+2026-03-31 19:00 | international friendlies | Russia vs Mali
+2026-03-31 19:30 | international friendlies | Haiti vs Iceland
+2026-03-31 19:30 | international friendlies | Jordan vs Nigeria
+2026-03-31 19:30 | international friendlies | South Africa vs Panama
+2026-03-31 20:00 | international friendlies | Guinea vs Benin
+2026-03-31 20:00 | international friendlies | Morocco vs Paraguay
+2026-03-31 20:00 | international friendlies | Peru vs Honduras
+2026-03-31 20:30 | international friendlies | Algeria vs Uruguay
+2026-03-31 20:30 | international friendlies | Scotland vs Ivory Coast
+2026-03-31 20:45 | international friendlies | Austria vs South Korea
+2026-03-31 20:45 | international friendlies | England vs Japan
+2026-03-31 20:45 | international friendlies | Netherlands vs Ecuador
+2026-03-31 20:45 | international friendlies | Rep. Of Ireland vs FYR Macedonia
+2026-03-31 20:45 | international friendlies | Slovakia vs Romania
+2026-03-31 20:45 | international friendlies | Ukraine vs Albania
+2026-03-31 20:45 | international friendlies | Wales vs Northern Ireland
+2026-03-31 21:00 | international friendlies | Brazil U20 vs Paraguay U20
+2026-03-31 21:00 | international friendlies | Burkina Faso vs Guinea-Bissau
+2026-03-31 21:00 | international friendlies | Senegal vs Gambia
+2026-03-31 21:00 | international friendlies | Spain vs Egypt
+2026-03-31 19:00 | laliga2 | Mirandes vs Albacete
+2026-03-31 20:00 | laliga2 | Deportivo La Coruna vs Cordoba
+2026-03-31 21:30 | laliga2 | Valladolid vs Cadiz
+2026-03-31 19:00 | liga profesional argentina | Aldosivi vs Argentinos JRS
+2026-03-31 01:10 | primera a colombia | Independiente Medellin vs America de Cali
+2026-03-31 03:20 | primera a colombia | Millonarios vs Fortaleza FC
+2026-03-31 01:30 | primera división paraguay | Libertad Asuncion vs Deportivo Recoleta
+2026-03-31 23:30 | primera división paraguay | 2 de Mayo vs Nacional Asuncion
+2026-03-31 20:45 | uefa wc qualifiers | Bosnia & Herzegovina vs Italy
+2026-03-31 20:45 | uefa wc qualifiers | Czech Republic vs Denmark
+2026-03-31 20:45 | uefa wc qualifiers | Kosovo vs Türkiye
+2026-03-31 20:45 | uefa wc qualifiers | Sweden vs Poland

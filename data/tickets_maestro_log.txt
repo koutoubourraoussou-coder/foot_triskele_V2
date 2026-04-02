@@ -1,4 +1,4 @@
-RUN MAESTROLOGUE — 2026-03-30 05:30:01
+RUN MAESTROLOGUE — 2026-04-02 07:21:35
 - source_tsv: predictions.tsv
 - run_date: ALL
 - maestro_level: 3
@@ -7,110 +7,383 @@ RUN MAESTROLOGUE — 2026-03-30 05:30:01
 MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
 ----------------------------------------------------------
 - generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
-- règle: préférer 3L si écart <= 3.00%
-- iterations: 12931 | valid_3L_found: 3474 | valid_4L_found: 12931
-- top3_size: 4 | top4_size: 8
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 7892 | valid_3L_found: 3134 | valid_4L_found: 7892
+- top3_size: 10 | top4_size: 10
 
 TOP3 (desc):
-  TOP3[1/4]: score=0.814 (81.4%) | legs=3 | odd=2.66
-  TOP3[2/4]: score=0.814 (81.4%) | legs=3 | odd=2.47
-  TOP3[3/4]: score=0.808 (80.8%) | legs=3 | odd=2.41
-  TOP3[4/4]: score=0.784 (78.4%) | legs=3 | odd=2.41
+  TOP3[1/10]: score=0.702 (70.2%) | legs=3 | odd=2.42
+  TOP3[2/10]: score=0.668 (66.8%) | legs=3 | odd=2.42
+  TOP3[3/10]: score=0.660 (66.0%) | legs=3 | odd=2.48
+  TOP3[4/10]: score=0.657 (65.7%) | legs=3 | odd=2.44
+  TOP3[5/10]: score=0.655 (65.5%) | legs=3 | odd=2.55
+  TOP3[6/10]: score=0.631 (63.1%) | legs=3 | odd=2.42
+  TOP3[7/10]: score=0.629 (62.9%) | legs=3 | odd=2.53
+  TOP3[8/10]: score=0.625 (62.5%) | legs=3 | odd=2.5
+  TOP3[9/10]: score=0.623 (62.3%) | legs=3 | odd=2.44
+  TOP3[10/10]: score=0.623 (62.3%) | legs=3 | odd=2.61
 
 TOP4 (desc):
-  TOP4[1/8]: score=0.813 (81.3%) | legs=4 | odd=3.33
-  TOP4[2/8]: score=0.813 (81.3%) | legs=4 | odd=2.96
-  TOP4[3/8]: score=0.813 (81.3%) | legs=4 | odd=3.2
-  TOP4[4/8]: score=0.813 (81.3%) | legs=4 | odd=2.79
-  TOP4[5/8]: score=0.808 (80.8%) | legs=4 | odd=2.9
-  TOP4[6/8]: score=0.790 (79.0%) | legs=4 | odd=2.53
-  TOP4[7/8]: score=0.790 (79.0%) | legs=4 | odd=2.68
-  TOP4[8/8]: score=0.790 (79.0%) | legs=4 | odd=2.9
+  TOP4[1/10]: score=0.696 (69.6%) | legs=4 | odd=2.92
+  TOP4[2/10]: score=0.691 (69.1%) | legs=4 | odd=3
+  TOP4[3/10]: score=0.668 (66.8%) | legs=4 | odd=3.15
+  TOP4[4/10]: score=0.666 (66.6%) | legs=4 | odd=3
+  TOP4[5/10]: score=0.666 (66.6%) | legs=4 | odd=3.29
+  TOP4[6/10]: score=0.664 (66.4%) | legs=4 | odd=3.24
+  TOP4[7/10]: score=0.662 (66.2%) | legs=4 | odd=3.39
+  TOP4[8/10]: score=0.660 (66.0%) | legs=4 | odd=3.07
+  TOP4[9/10]: score=0.656 (65.6%) | legs=4 | odd=3.16
+  TOP4[10/10]: score=0.638 (63.8%) | legs=4 | odd=3.24
 
-DRAW_3L: picked rank=1/4 | score=0.814 (81.4%) | odd=2.66
-DRAW_4L: picked rank=1/8 | score=0.813 (81.3%) | odd=3.33
-- écart relatif: 0.18%
-=> choisi: 3 legs | score=0.814 (81.4%) | final_source=LEAGUE
+DRAW_3L: picked rank=9/10 | score=0.623 (62.3%) | odd=2.44
+DRAW_4L: picked rank=7/10 | score=0.662 (66.2%) | odd=3.39
+- écart relatif: 5.85%
+=> choisi: 3 legs | score=0.623 (62.3%) | final_source=HYBRID
 
 Ticket choisi (aperçu)
 ----------------------
-  1) 03:30 | primera a colombia | Llaneros vs Once Caldas | HT1X_HOME | odd=1.38
-  2) 14:00 | international friendlies | Russia U21 vs Jordan U23 | HT05 | odd=1.43
-  3) 18:00 | international friendlies | Cyprus vs Moldova | HT05 | odd=1.35
+  1) 03:20 | primera a colombia | Millonarios vs Fortaleza FC | O15_FT | odd=1.3
+  2) 09:00 | international friendlies | Korea DPR U23 vs Thailand U23 | O15_FT | odd=1.34
+  3) 13:35 | international friendlies | China PR U23 vs Vietnam U23 | O15_FT | odd=1.4
 
-MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, LEAGUE x BET)
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, HYBRID x BET)
 ------------------------------------------------------------------------------
-- score ticket: 0.814 (81.4%)
-- formule: wr_adj = wr(league x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+- score ticket: 0.623 (62.3%)
+- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
 
-1) 03:30 | primera a colombia | Llaneros vs Once Caldas | bet=HT1X_HOME | odd=1.38
-   LEAGUE primera a colombia: wr=0.83 dec=104 coef=1.000 => adj=0.826 (82.6%)
+1) 03:20 | primera a colombia | Millonarios vs Fortaleza FC | bet=O15_FT | odd=1.3
+   HOME Millonarios: wr=0.74 dec=11 coef=1.000 => adj=0.743 (74.3%)
+   AWAY Fortaleza FC: wr=0.99 dec=11 coef=1.000 => adj=0.991 (99.1%)
+   MEAN match: 0.867 (86.7%)
 
-2) 14:00 | international friendlies | Russia U21 vs Jordan U23 | bet=HT05 | odd=1.43
-   LEAGUE international friendlies: wr=0.81 dec=56 coef=1.000 => adj=0.808 (80.8%)
+2) 09:00 | international friendlies | Korea DPR U23 vs Thailand U23 | bet=O15_FT | odd=1.34
+   HOME Korea DPR U23: wr=0.97 dec=1 coef=0.700 => adj=0.680 (68.0%)
+   AWAY Thailand U23: wr=0.07 dec=1 coef=0.700 => adj=0.048 (4.8%)
+   MEAN match: 0.364 (36.4%)
 
-3) 18:00 | international friendlies | Cyprus vs Moldova | bet=HT05 | odd=1.35
-   LEAGUE international friendlies: wr=0.81 dec=56 coef=1.000 => adj=0.808 (80.8%)
+3) 13:35 | international friendlies | China PR U23 vs Vietnam U23 | bet=O15_FT | odd=1.4
+   HOME China PR U23: wr=0.97 dec=1 coef=0.700 => adj=0.680 (68.0%)
+   AWAY Vietnam U23: wr=0.02 dec=1 coef=0.700 => adj=0.016 (1.6%)
+   MEAN match: 0.348 (34.8%)
 
 
-MAESTROLOGUE — SYSTEM — 2026-03-30
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 7518 | valid_3L_found: 3813 | valid_4L_found: 7333
+- top3_size: 10 | top4_size: 10
+
+TOP3 (desc):
+  TOP3[1/10]: score=0.734 (73.4%) | legs=3 | odd=2.76
+  TOP3[2/10]: score=0.718 (71.8%) | legs=3 | odd=2.52
+  TOP3[3/10]: score=0.718 (71.8%) | legs=3 | odd=2.5
+  TOP3[4/10]: score=0.718 (71.8%) | legs=3 | odd=2.56
+  TOP3[5/10]: score=0.717 (71.7%) | legs=3 | odd=2.58
+  TOP3[6/10]: score=0.717 (71.7%) | legs=3 | odd=2.44
+  TOP3[7/10]: score=0.717 (71.7%) | legs=3 | odd=2.64
+  TOP3[8/10]: score=0.716 (71.6%) | legs=3 | odd=2.72
+  TOP3[9/10]: score=0.715 (71.5%) | legs=3 | odd=2.44
+  TOP3[10/10]: score=0.715 (71.5%) | legs=3 | odd=2.42
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.721 (72.1%) | legs=4 | odd=3.51
+  TOP4[2/10]: score=0.721 (72.1%) | legs=4 | odd=3.53
+  TOP4[3/10]: score=0.721 (72.1%) | legs=4 | odd=3.17
+  TOP4[4/10]: score=0.721 (72.1%) | legs=4 | odd=3.59
+  TOP4[5/10]: score=0.721 (72.1%) | legs=4 | odd=3.31
+  TOP4[6/10]: score=0.719 (71.9%) | legs=4 | odd=4.14
+  TOP4[7/10]: score=0.718 (71.8%) | legs=4 | odd=3.87
+  TOP4[8/10]: score=0.718 (71.8%) | legs=4 | odd=3.23
+  TOP4[9/10]: score=0.711 (71.1%) | legs=4 | odd=3.59
+  TOP4[10/10]: score=0.711 (71.1%) | legs=4 | odd=3.67
+
+DRAW_3L: picked rank=4/10 | score=0.718 (71.8%) | odd=2.56
+DRAW_4L: picked rank=9/10 | score=0.711 (71.1%) | odd=3.59
+- écart relatif: 0.94%
+=> choisi: 3 legs | score=0.718 (71.8%) | final_source=HYBRID
+
+Ticket choisi (aperçu)
+----------------------
+  1) 19:00 | liga profesional argentina | Aldosivi vs Argentinos JRS | HT1X_HOME | odd=1.45
+  2) 19:30 | international friendlies | Haiti vs Iceland | HT05 | odd=1.36
+  3) 19:30 | international friendlies | Jordan vs Nigeria | O15_FT | odd=1.3
+
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, HYBRID x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.718 (71.8%)
+- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 19:00 | liga profesional argentina | Aldosivi vs Argentinos JRS | bet=HT1X_HOME | odd=1.45
+   HOME Aldosivi: wr=0.63 dec=3 coef=0.850 => adj=0.533 (53.3%)
+   AWAY Argentinos JRS: wr=0.79 dec=6 coef=1.000 => adj=0.786 (78.6%)
+   MEAN match: 0.659 (65.9%)
+
+2) 19:30 | international friendlies | Haiti vs Iceland | bet=HT05 | odd=1.36
+   HOME Haiti: wr=0.93 dec=1 coef=0.700 => adj=0.653 (65.3%)
+   AWAY Iceland: wr=1.00 dec=1 coef=0.700 => adj=0.700 (70.0%)
+   MEAN match: 0.677 (67.7%)
+
+3) 19:30 | international friendlies | Jordan vs Nigeria | bet=O15_FT | odd=1.3
+   HOME Jordan: wr=1.00 dec=1 coef=0.700 => adj=0.700 (70.0%)
+   AWAY Nigeria: wr=1.00 dec=1 coef=0.700 => adj=0.697 (69.7%)
+   MEAN match: 0.698 (69.8%)
+
+
+MAESTROLOGUE — SYSTEM — 2026-03-31
 ========================================
-- picks_total: 6
-- unique_matches_day: 5
-- rich_day: False
-- max_windows_today: 1
-- windows_count: 1
+- picks_total: 83
+- unique_matches_day: 43
+- rich_day: True
+- max_windows_today: 4
+- windows_count: 4
 - target_odd: 2.4
 - min_accept_odd: 1.8
 - replay_after_last_kickoff: 110 min
 
-WINDOW 1 | 03:30 -> 20:45
+WINDOW 1 | 03:20 -> 13:35
+  - raw_window_picks: 8
+  - filtered_window_picks: 8
+  - ok_window: 8
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 3.49
+  - threshold_used_here: 2.4
+Ticket: tranche=1 | cote=2.44 | seuil_local=2.4 | 03:20 → 15:25 | fenêtre=615min
+  1) 03:20 | primera a colombia | Millonarios vs Fortaleza FC | O15_FT | odd=1.3
+  2) 09:00 | international friendlies | Korea DPR U23 vs Thailand U23 | O15_FT | odd=1.34
+  3) 13:35 | international friendlies | China PR U23 vs Vietnam U23 | O15_FT | odd=1.4
+
+WINDOW 2 | 15:00 -> 15:45
+  - raw_window_picks: 10
+  - filtered_window_picks: 4
+  - ok_window: 4
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 1.61
+  - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
+  -> MERGE avec WINDOW 3 car cote max insuffisante (1.61 < min_accept=1.8)
+
+WINDOWS 2->3 (MERGED) | 15:00 -> 19:30
+  - raw_window_picks: 32
+  - filtered_window_picks: 26
+  - ok_window: 26
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 5.39
+  - threshold_used_here: 2.4
+Ticket: tranche=2 | cote=2.56 | seuil_local=2.4 | 19:00 → 21:20 | fenêtre=30min
+  1) 19:00 | liga profesional argentina | Aldosivi vs Argentinos JRS | HT1X_HOME | odd=1.45
+  2) 19:30 | international friendlies | Haiti vs Iceland | HT05 | odd=1.36
+  3) 19:30 | international friendlies | Jordan vs Nigeria | O15_FT | odd=1.3
+
+WINDOW 4 | 20:00 -> 23:30
+  - raw_window_picks: 43
+  - filtered_window_picks: 2
+  - ok_window: 2
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 1.74
+  - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
+  -> ABANDON: cote max insuffisante même après fusion (1.74 < min_accept=1.8)
+
+FIN JOURNÉE
+------------------
+- tickets_built: 2 / 4
+- next_window_start: 21:20
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 15523 | valid_3L_found: 1096 | valid_4L_found: 14237
+- top3_size: 1 | top4_size: 10
+- rejected_by_build_gate (approx): 0
+
+TOP3 (desc):
+  TOP3[1/1]: score=0.755 (75.5%) | legs=3 | odd=2.42
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.742 (74.2%) | legs=4 | odd=2.7
+  TOP4[2/10]: score=0.741 (74.1%) | legs=4 | odd=3.1
+  TOP4[3/10]: score=0.741 (74.1%) | legs=4 | odd=2.95
+  TOP4[4/10]: score=0.741 (74.1%) | legs=4 | odd=2.84
+  TOP4[5/10]: score=0.700 (70.0%) | legs=4 | odd=2.91
+  TOP4[6/10]: score=0.567 (56.7%) | legs=4 | odd=2.59
+  TOP4[7/10]: score=0.567 (56.7%) | legs=4 | odd=2.47
+  TOP4[8/10]: score=0.566 (56.6%) | legs=4 | odd=2.73
+  TOP4[9/10]: score=0.566 (56.6%) | legs=4 | odd=2.83
+  TOP4[10/10]: score=0.566 (56.6%) | legs=4 | odd=2.6
+
+DRAW_3L: picked rank=1/1 | score=0.755 (75.5%) | odd=2.42
+DRAW_4L: picked rank=4/10 | score=0.741 (74.1%) | odd=2.84
+- écart relatif: 1.86%
+=> choisi: 3 legs | score=0.755 (75.5%) | final_source=TEAM
+
+Ticket choisi (aperçu)
+----------------------
+  1) 03:20 | primera a colombia | Millonarios vs Fortaleza FC | O15_FT | odd=1.3
+  2) 11:00 | international friendlies | Equatorial Guinea vs Madagascar | O15_FT | odd=1.33
+  3) 15:00 | international friendlies | Costa Rica vs Iran | O15_FT | odd=1.4
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.755 (75.5%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 03:20 | primera a colombia | Millonarios vs Fortaleza FC | bet=O15_FT | odd=1.3
+   HOME Millonarios: wr=0.74 dec=11 coef=1.000 => adj=0.743 (74.3%)
+   AWAY Fortaleza FC: wr=0.99 dec=11 coef=1.000 => adj=0.991 (99.1%)
+   MEAN match: 0.867 (86.7%)
+
+2) 11:00 | international friendlies | Equatorial Guinea vs Madagascar | bet=O15_FT | odd=1.33
+   HOME Equatorial Guinea: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+   AWAY Madagascar: wr=1.00 dec=1 coef=0.700 => adj=0.700 (70.0%)
+   MEAN match: 0.700 (70.0%)
+
+3) 15:00 | international friendlies | Costa Rica vs Iran | bet=O15_FT | odd=1.4
+   HOME Costa Rica: wr=1.00 dec=1 coef=0.700 => adj=0.700 (70.0%)
+   AWAY Iran: wr=1.00 dec=1 coef=0.700 => adj=0.697 (69.7%)
+   MEAN match: 0.698 (69.8%)
+
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 12417 | valid_3L_found: 4102 | valid_4L_found: 12296
+- top3_size: 10 | top4_size: 10
+- rejected_by_build_gate (approx): 0
+
+TOP3 (desc):
+  TOP3[1/10]: score=0.766 (76.6%) | legs=3 | odd=2.55
+  TOP3[2/10]: score=0.758 (75.8%) | legs=3 | odd=2.47
+  TOP3[3/10]: score=0.751 (75.1%) | legs=3 | odd=2.44
+  TOP3[4/10]: score=0.751 (75.1%) | legs=3 | odd=2.5
+  TOP3[5/10]: score=0.745 (74.5%) | legs=3 | odd=2.65
+  TOP3[6/10]: score=0.743 (74.3%) | legs=3 | odd=2.41
+  TOP3[7/10]: score=0.737 (73.7%) | legs=3 | odd=2.56
+  TOP3[8/10]: score=0.734 (73.4%) | legs=3 | odd=2.78
+  TOP3[9/10]: score=0.705 (70.5%) | legs=3 | odd=2.53
+  TOP3[10/10]: score=0.705 (70.5%) | legs=3 | odd=2.59
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.756 (75.6%) | legs=4 | odd=2.81
+  TOP4[2/10]: score=0.756 (75.6%) | legs=4 | odd=2.59
+  TOP4[3/10]: score=0.755 (75.5%) | legs=4 | odd=2.66
+  TOP4[4/10]: score=0.751 (75.1%) | legs=4 | odd=2.98
+  TOP4[5/10]: score=0.751 (75.1%) | legs=4 | odd=3.05
+  TOP4[6/10]: score=0.751 (75.1%) | legs=4 | odd=2.82
+  TOP4[7/10]: score=0.749 (74.9%) | legs=4 | odd=3.24
+  TOP4[8/10]: score=0.749 (74.9%) | legs=4 | odd=3.06
+  TOP4[9/10]: score=0.749 (74.9%) | legs=4 | odd=3.32
+  TOP4[10/10]: score=0.748 (74.8%) | legs=4 | odd=2.64
+
+DRAW_3L: picked rank=6/10 | score=0.743 (74.3%) | odd=2.41
+DRAW_4L: picked rank=2/10 | score=0.756 (75.6%) | odd=2.59
+- écart relatif: 1.73%
+=> choisi: 3 legs | score=0.743 (74.3%) | final_source=TEAM
+
+Ticket choisi (aperçu)
+----------------------
+  1) 19:30 | international friendlies | Jordan vs Nigeria | O15_FT | odd=1.3
+  2) 20:00 | laliga2 | Deportivo La Coruna vs Cordoba | O15_FT | odd=1.28
+  3) 20:00 | international friendlies | Peru vs Honduras | O15_FT | odd=1.45
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.743 (74.3%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 19:30 | international friendlies | Jordan vs Nigeria | bet=O15_FT | odd=1.3
+   HOME Jordan: wr=1.00 dec=1 coef=0.700 => adj=0.700 (70.0%)
+   AWAY Nigeria: wr=1.00 dec=1 coef=0.700 => adj=0.697 (69.7%)
+   MEAN match: 0.698 (69.8%)
+
+2) 20:00 | laliga2 | Deportivo La Coruna vs Cordoba | bet=O15_FT | odd=1.28
+   HOME Deportivo La Coruna: wr=0.77 dec=13 coef=1.000 => adj=0.769 (76.9%)
+   AWAY Cordoba: wr=0.99 dec=12 coef=1.000 => adj=0.993 (99.2%)
+   MEAN match: 0.881 (88.1%)
+
+3) 20:00 | international friendlies | Peru vs Honduras | bet=O15_FT | odd=1.45
+   HOME Peru: wr=0.93 dec=1 coef=0.700 => adj=0.649 (64.9%)
+   AWAY Honduras: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+   MEAN match: 0.649 (64.9%)
+
+
+MAESTROLOGUE — RANDOM — 2026-03-31
+========================================
+- picks_total: 30
+- unique_matches_day: 30
+- rich_day: True
+- max_windows_today: 4
+- windows_count: 4
+- target_odd: 2.4
+- min_accept_odd: 1.8
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 03:20 -> 15:45
   - raw_window_picks: 6
   - filtered_window_picks: 6
   - ok_window: 6
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 3.33
+  - max_possible_odd(ok_window): 3.1
   - threshold_used_here: 2.4
-Ticket: tranche=1 | cote=2.66 | seuil_local=2.4 | 03:30 → 19:50 | fenêtre=870min
-  1) 03:30 | primera a colombia | Llaneros vs Once Caldas | HT1X_HOME | odd=1.38
-  2) 14:00 | international friendlies | Russia U21 vs Jordan U23 | HT05 | odd=1.43
-  3) 18:00 | international friendlies | Cyprus vs Moldova | HT05 | odd=1.35
+Ticket: tranche=1 | cote=2.42 | seuil_local=2.4 | 03:20 → 16:50 | fenêtre=700min
+  1) 03:20 | primera a colombia | Millonarios vs Fortaleza FC | O15_FT | odd=1.3
+  2) 11:00 | international friendlies | Equatorial Guinea vs Madagascar | O15_FT | odd=1.33
+  3) 15:00 | international friendlies | Costa Rica vs Iran | O15_FT | odd=1.4
 
-FIN JOURNÉE
-------------------
-- tickets_built: 1 / 1
-- next_window_start: 19:50
+WINDOW 2 | 18:00 -> 20:00
+  - raw_window_picks: 9
+  - filtered_window_picks: 9
+  - ok_window: 9
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 3.99
+  - threshold_used_here: 2.4
+Ticket: tranche=2 | cote=2.41 | seuil_local=2.4 | 19:30 → 21:50 | fenêtre=30min
+  1) 19:30 | international friendlies | Jordan vs Nigeria | O15_FT | odd=1.3
+  2) 20:00 | laliga2 | Deportivo La Coruna vs Cordoba | O15_FT | odd=1.28
+  3) 20:00 | international friendlies | Peru vs Honduras | O15_FT | odd=1.45
 
-MAESTROLOGUE — RANDOM — 2026-03-30
-========================================
-- picks_total: 1
-- unique_matches_day: 1
-- rich_day: False
-- max_windows_today: 1
-- windows_count: 1
-- target_odd: 2.4
-- min_accept_odd: 1.8
-- replay_after_last_kickoff: 110 min
+WINDOW 3 | 20:30 -> 20:45
+  - raw_window_picks: 10
+  - filtered_window_picks: 0
+  - ok_window: 0
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 1
+  - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
+  -> MERGE avec WINDOW 4 car cote max insuffisante (1 < min_accept=1.8)
 
-WINDOW 1 | 03:30 -> 03:30
-  - raw_window_picks: 1
+WINDOWS 3->4 (MERGED) | 20:30 -> 23:30
+  - raw_window_picks: 15
   - filtered_window_picks: 1
   - ok_window: 1
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 1.25
+  - max_possible_odd(ok_window): 1.44
   - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
-  -> ABANDON: cote max insuffisante même après fusion (1.25 < min_accept=1.8)
+  -> ABANDON: cote max insuffisante même après fusion (1.44 < min_accept=1.8)
 
 FIN JOURNÉE
 ------------------
-- tickets_built: 0 / 1
-- next_window_start: 00:00
+- tickets_built: 2 / 4
+- next_window_start: 21:50
 
 RUN SUMMARY
-- system_tickets: 1 | o15_tickets: 0
+- system_tickets: 2 | o15_tickets: 2
 ----------------------------------------
 

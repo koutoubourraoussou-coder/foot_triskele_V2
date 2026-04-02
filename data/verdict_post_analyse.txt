@@ -21866,3 +21866,539 @@ TSV: 795554991	2026-03-29	primera a colombia	Internacional de Bogota	Junior	O15_
 TSV: 795554991	2026-03-29	primera a colombia	Internacional de Bogota	Junior	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1506062	0-1	0-0	23:10
 TSV: 795554991	2026-03-29	primera a colombia	Internacional de Bogota	Junior	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506062	0-1	0-0	23:10
 TSV: 795554991	2026-03-29	primera a colombia	Internacional de Bogota	Junior	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1506062	0-1	0-0	23:10
+TSV: 3750642184	2026-03-30	primera a colombia	Independiente Medellin	America de Cali	HT05	HT+0.5	7.0	EXPLOSION	0	BAD_NO_BET	FT	1506064	2-1	0-1	01:10
+TSV: 3750642184	2026-03-30	primera a colombia	Independiente Medellin	America de Cali	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	LOSS	FT	1506064	2-1	0-1	01:10
+TSV: 3750642184	2026-03-30	primera a colombia	Independiente Medellin	America de Cali	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	WIN	FT	1506064	2-1	0-1	01:10
+TSV: 3750642184	2026-03-30	primera a colombia	Independiente Medellin	America de Cali	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1506064	2-1	0-1	01:10
+TSV: 3750642184	2026-03-30	primera a colombia	Independiente Medellin	America de Cali	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1506064	2-1	0-1	01:10
+TSV: 3750642184	2026-03-30	primera a colombia	Independiente Medellin	America de Cali	O25_FT	Over 2.5 (FT)	4.0	FORT	1	WIN	FT	1506064	2-1	0-1	01:10
+TSV: 3750642184	2026-03-30	primera a colombia	Independiente Medellin	America de Cali	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1506064	2-1	0-1	01:10
+TSV: 3750642184	2026-03-30	primera a colombia	Independiente Medellin	America de Cali	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506064	2-1	0-1	01:10
+TSV: 568304699	2026-03-30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	HT05	HT+0.5	7.0	EXPLOSION	0	GOOD_NO_BET	FT	1505038	1-0	0-0	01:30
+TSV: 568304699	2026-03-30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	BAD_NO_BET	FT	1505038	1-0	0-0	01:30
+TSV: 568304699	2026-03-30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1505038	1-0	0-0	01:30
+TSV: 568304699	2026-03-30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	LOSS	FT	1505038	1-0	0-0	01:30
+TSV: 568304699	2026-03-30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	LOSS	FT	1505038	1-0	0-0	01:30
+TSV: 568304699	2026-03-30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	LOSS	FT	1505038	1-0	0-0	01:30
+TSV: 568304699	2026-03-30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1505038	1-0	0-0	01:30
+TSV: 568304699	2026-03-30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505038	1-0	0-0	01:30
+TSV: 4133036125	2026-03-30	primera a colombia	Llaneros	Once Caldas	HT05	HT+0.5	4.0	FORT	1	WIN	FT	1506065	1-1	1-1	03:30
+TSV: 4133036125	2026-03-30	primera a colombia	Llaneros	Once Caldas	HT1X_HOME	HT 1X Home	4.0	FORT	1	WIN	FT	1506065	1-1	1-1	03:30
+TSV: 4133036125	2026-03-30	primera a colombia	Llaneros	Once Caldas	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1506065	1-1	1-1	03:30
+TSV: 4133036125	2026-03-30	primera a colombia	Llaneros	Once Caldas	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1506065	1-1	1-1	03:30
+TSV: 4133036125	2026-03-30	primera a colombia	Llaneros	Once Caldas	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	WIN	FT	1506065	1-1	1-1	03:30
+TSV: 4133036125	2026-03-30	primera a colombia	Llaneros	Once Caldas	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1506065	1-1	1-1	03:30
+TSV: 4133036125	2026-03-30	primera a colombia	Llaneros	Once Caldas	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506065	1-1	1-1	03:30
+TSV: 4133036125	2026-03-30	primera a colombia	Llaneros	Once Caldas	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1506065	1-1	1-1	03:30
+TSV: 327243181	2026-03-30	international friendlies	Slovakia U18	Serbia U18	HT05	HT+0.5	4.0	FORT	1	LOSS	FT	1537191	1-1	0-0	11:00
+TSV: 327243181	2026-03-30	international friendlies	Slovakia U18	Serbia U18	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1537191	1-1	0-0	11:00
+TSV: 327243181	2026-03-30	international friendlies	Slovakia U18	Serbia U18	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1537191	1-1	0-0	11:00
+TSV: 327243181	2026-03-30	international friendlies	Slovakia U18	Serbia U18	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1537191	1-1	0-0	11:00
+TSV: 327243181	2026-03-30	international friendlies	Slovakia U18	Serbia U18	O15_FT	Over 1.5 (FT)	4.0	FORT	1	WIN	FT	1537191	1-1	0-0	11:00
+TSV: 327243181	2026-03-30	international friendlies	Slovakia U18	Serbia U18	O25_FT	Over 2.5 (FT)	4.0	FORT	1	LOSS	FT	1537191	1-1	0-0	11:00
+TSV: 327243181	2026-03-30	international friendlies	Slovakia U18	Serbia U18	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1537191	1-1	0-0	11:00
+TSV: 327243181	2026-03-30	international friendlies	Slovakia U18	Serbia U18	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1537191	1-1	0-0	11:00
+TSV: 1821086588	2026-03-30	international friendlies	Uzbekistan U19	Japan U19	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1537192	1-1	0-1	11:00
+TSV: 1821086588	2026-03-30	international friendlies	Uzbekistan U19	Japan U19	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	GOOD_NO_BET	FT	1537192	1-1	0-1	11:00
+TSV: 1821086588	2026-03-30	international friendlies	Uzbekistan U19	Japan U19	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	WIN	FT	1537192	1-1	0-1	11:00
+TSV: 1821086588	2026-03-30	international friendlies	Uzbekistan U19	Japan U19	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1537192	1-1	0-1	11:00
+TSV: 1821086588	2026-03-30	international friendlies	Uzbekistan U19	Japan U19	O15_FT	Over 1.5 (FT)	4.0	FORT	1	WIN	FT	1537192	1-1	0-1	11:00
+TSV: 1821086588	2026-03-30	international friendlies	Uzbekistan U19	Japan U19	O25_FT	Over 2.5 (FT)	4.0	FORT	1	LOSS	FT	1537192	1-1	0-1	11:00
+TSV: 1821086588	2026-03-30	international friendlies	Uzbekistan U19	Japan U19	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1537192	1-1	0-1	11:00
+TSV: 1821086588	2026-03-30	international friendlies	Uzbekistan U19	Japan U19	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1537192	1-1	0-1	11:00
+TSV: 3548028422	2026-03-30	international friendlies	Russia U21	Jordan U23	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1537190	1-2	0-1	14:00
+TSV: 3548028422	2026-03-30	international friendlies	Russia U21	Jordan U23	HT1X_HOME	HT 1X Home	0.0	KO	0	GOOD_NO_BET	FT	1537190	1-2	0-1	14:00
+TSV: 3548028422	2026-03-30	international friendlies	Russia U21	Jordan U23	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1537190	1-2	0-1	14:00
+TSV: 3548028422	2026-03-30	international friendlies	Russia U21	Jordan U23	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1537190	1-2	0-1	14:00
+TSV: 3548028422	2026-03-30	international friendlies	Russia U21	Jordan U23	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1537190	1-2	0-1	14:00
+TSV: 3548028422	2026-03-30	international friendlies	Russia U21	Jordan U23	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1537190	1-2	0-1	14:00
+TSV: 3548028422	2026-03-30	international friendlies	Russia U21	Jordan U23	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1537190	1-2	0-1	14:00
+TSV: 3548028422	2026-03-30	international friendlies	Russia U21	Jordan U23	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1537190	1-2	0-1	14:00
+TSV: 3845442196	2026-03-30	international friendlies	United Arab Emirates	Faroe Islands	HT05	HT+0.5	5.0	FORT PLUS	0	PENDING	CANC	1528273			14:00
+TSV: 3845442196	2026-03-30	international friendlies	United Arab Emirates	Faroe Islands	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	0	PENDING	CANC	1528273			14:00
+TSV: 3845442196	2026-03-30	international friendlies	United Arab Emirates	Faroe Islands	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	PENDING	CANC	1528273			14:00
+TSV: 3845442196	2026-03-30	international friendlies	United Arab Emirates	Faroe Islands	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	PENDING	CANC	1528273			14:00
+TSV: 3845442196	2026-03-30	international friendlies	United Arab Emirates	Faroe Islands	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	PENDING	CANC	1528273			14:00
+TSV: 3845442196	2026-03-30	international friendlies	United Arab Emirates	Faroe Islands	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	PENDING	CANC	1528273			14:00
+TSV: 3845442196	2026-03-30	international friendlies	United Arab Emirates	Faroe Islands	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	PENDING	CANC	1528273			14:00
+TSV: 3845442196	2026-03-30	international friendlies	United Arab Emirates	Faroe Islands	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	PENDING	CANC	1528273			14:00
+TSV: 3106746938	2026-03-30	international friendlies	Albania U21	Uzbekistan U23	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1537189	3-2	3-1	14:30
+TSV: 3106746938	2026-03-30	international friendlies	Albania U21	Uzbekistan U23	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1537189	3-2	3-1	14:30
+TSV: 3106746938	2026-03-30	international friendlies	Albania U21	Uzbekistan U23	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1537189	3-2	3-1	14:30
+TSV: 3106746938	2026-03-30	international friendlies	Albania U21	Uzbekistan U23	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1537189	3-2	3-1	14:30
+TSV: 3106746938	2026-03-30	international friendlies	Albania U21	Uzbekistan U23	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1537189	3-2	3-1	14:30
+TSV: 3106746938	2026-03-30	international friendlies	Albania U21	Uzbekistan U23	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1537189	3-2	3-1	14:30
+TSV: 3106746938	2026-03-30	international friendlies	Albania U21	Uzbekistan U23	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1537189	3-2	3-1	14:30
+TSV: 3106746938	2026-03-30	international friendlies	Albania U21	Uzbekistan U23	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1537189	3-2	3-1	14:30
+TSV: 3954097368	2026-03-30	international friendlies	Tunisia U20	Mauritania U20	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1537188	3-0	2-0	15:00
+TSV: 3954097368	2026-03-30	international friendlies	Tunisia U20	Mauritania U20	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1537188	3-0	2-0	15:00
+TSV: 3954097368	2026-03-30	international friendlies	Tunisia U20	Mauritania U20	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	WIN	FT	1537188	3-0	2-0	15:00
+TSV: 3954097368	2026-03-30	international friendlies	Tunisia U20	Mauritania U20	TEAM2_SCORE_FT	Team2 scores (FT)	6.0	TRÈS FORT	1	LOSS	FT	1537188	3-0	2-0	15:00
+TSV: 3954097368	2026-03-30	international friendlies	Tunisia U20	Mauritania U20	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1537188	3-0	2-0	15:00
+TSV: 3954097368	2026-03-30	international friendlies	Tunisia U20	Mauritania U20	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1537188	3-0	2-0	15:00
+TSV: 3954097368	2026-03-30	international friendlies	Tunisia U20	Mauritania U20	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1537188	3-0	2-0	15:00
+TSV: 3954097368	2026-03-30	international friendlies	Tunisia U20	Mauritania U20	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1537188	3-0	2-0	15:00
+TSV: 1657749622	2026-03-30	international friendlies	Kyrgyz Republic U20	Bosnia-Herzegovina U17	HT05	HT+0.5	8.0	MEGA EXPLOSION	0	PENDING	CANC	1537187			17:00
+TSV: 1657749622	2026-03-30	international friendlies	Kyrgyz Republic U20	Bosnia-Herzegovina U17	HT1X_HOME	HT 1X Home	0.0	KO	0	PENDING	CANC	1537187			17:00
+TSV: 1657749622	2026-03-30	international friendlies	Kyrgyz Republic U20	Bosnia-Herzegovina U17	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	PENDING	CANC	1537187			17:00
+TSV: 1657749622	2026-03-30	international friendlies	Kyrgyz Republic U20	Bosnia-Herzegovina U17	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	PENDING	CANC	1537187			17:00
+TSV: 1657749622	2026-03-30	international friendlies	Kyrgyz Republic U20	Bosnia-Herzegovina U17	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	0	PENDING	CANC	1537187			17:00
+TSV: 1657749622	2026-03-30	international friendlies	Kyrgyz Republic U20	Bosnia-Herzegovina U17	O25_FT	Over 2.5 (FT)	4.0	FORT	0	PENDING	CANC	1537187			17:00
+TSV: 1657749622	2026-03-30	international friendlies	Kyrgyz Republic U20	Bosnia-Herzegovina U17	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	PENDING	CANC	1537187			17:00
+TSV: 1657749622	2026-03-30	international friendlies	Kyrgyz Republic U20	Bosnia-Herzegovina U17	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	PENDING	CANC	1537187			17:00
+TSV: 1251978168	2026-03-30	international friendlies	Mexico U20	Costa Rica U20	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1537186	1-0	0-0	17:00
+TSV: 1251978168	2026-03-30	international friendlies	Mexico U20	Costa Rica U20	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1537186	1-0	0-0	17:00
+TSV: 1251978168	2026-03-30	international friendlies	Mexico U20	Costa Rica U20	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1537186	1-0	0-0	17:00
+TSV: 1251978168	2026-03-30	international friendlies	Mexico U20	Costa Rica U20	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1537186	1-0	0-0	17:00
+TSV: 1251978168	2026-03-30	international friendlies	Mexico U20	Costa Rica U20	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1537186	1-0	0-0	17:00
+TSV: 1251978168	2026-03-30	international friendlies	Mexico U20	Costa Rica U20	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1537186	1-0	0-0	17:00
+TSV: 1251978168	2026-03-30	international friendlies	Mexico U20	Costa Rica U20	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1537186	1-0	0-0	17:00
+TSV: 1251978168	2026-03-30	international friendlies	Mexico U20	Costa Rica U20	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1537186	1-0	0-0	17:00
+TSV: 1368645119	2026-03-30	international friendlies	Cyprus	Moldova	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1507580	3-2	3-0	18:00
+TSV: 1368645119	2026-03-30	international friendlies	Cyprus	Moldova	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	WIN	FT	1507580	3-2	3-0	18:00
+TSV: 1368645119	2026-03-30	international friendlies	Cyprus	Moldova	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1507580	3-2	3-0	18:00
+TSV: 1368645119	2026-03-30	international friendlies	Cyprus	Moldova	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1507580	3-2	3-0	18:00
+TSV: 1368645119	2026-03-30	international friendlies	Cyprus	Moldova	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1507580	3-2	3-0	18:00
+TSV: 1368645119	2026-03-30	international friendlies	Cyprus	Moldova	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1507580	3-2	3-0	18:00
+TSV: 1368645119	2026-03-30	international friendlies	Cyprus	Moldova	TEAM1_WIN_FT	Team1 wins (FT)	4.0	FORT	0	BAD_NO_BET	FT	1507580	3-2	3-0	18:00
+TSV: 1368645119	2026-03-30	international friendlies	Cyprus	Moldova	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1507580	3-2	3-0	18:00
+TSV: 1836836	2026-03-30	international friendlies	Netherlands U21	Belgium U21	HT05	HT+0.5	2.0	MOYEN	0	BAD_NO_BET	FT	1514833	2-1	2-0	18:30
+TSV: 1836836	2026-03-30	international friendlies	Netherlands U21	Belgium U21	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1514833	2-1	2-0	18:30
+TSV: 1836836	2026-03-30	international friendlies	Netherlands U21	Belgium U21	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	WIN	FT	1514833	2-1	2-0	18:30
+TSV: 1836836	2026-03-30	international friendlies	Netherlands U21	Belgium U21	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1514833	2-1	2-0	18:30
+TSV: 1836836	2026-03-30	international friendlies	Netherlands U21	Belgium U21	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1514833	2-1	2-0	18:30
+TSV: 1836836	2026-03-30	international friendlies	Netherlands U21	Belgium U21	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1514833	2-1	2-0	18:30
+TSV: 1836836	2026-03-30	international friendlies	Netherlands U21	Belgium U21	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1514833	2-1	2-0	18:30
+TSV: 1836836	2026-03-30	international friendlies	Netherlands U21	Belgium U21	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1514833	2-1	2-0	18:30
+TSV: 1820939758	2026-03-30	international friendlies	Germany	Ghana	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1501816	2-1	1-0	20:45
+TSV: 1820939758	2026-03-30	international friendlies	Germany	Ghana	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1501816	2-1	1-0	20:45
+TSV: 1820939758	2026-03-30	international friendlies	Germany	Ghana	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1501816	2-1	1-0	20:45
+TSV: 1820939758	2026-03-30	international friendlies	Germany	Ghana	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1501816	2-1	1-0	20:45
+TSV: 1820939758	2026-03-30	international friendlies	Germany	Ghana	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1501816	2-1	1-0	20:45
+TSV: 1820939758	2026-03-30	international friendlies	Germany	Ghana	O25_FT	Over 2.5 (FT)	4.0	FORT	1	WIN	FT	1501816	2-1	1-0	20:45
+TSV: 1820939758	2026-03-30	international friendlies	Germany	Ghana	TEAM1_WIN_FT	Team1 wins (FT)	5.0	FORT PLUS	1	WIN	FT	1501816	2-1	1-0	20:45
+TSV: 1820939758	2026-03-30	international friendlies	Germany	Ghana	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1501816	2-1	1-0	20:45
+TSV: 1543095958	2026-03-31	primera a colombia	Millonarios	Fortaleza FC	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1506066	2-2	2-1	03:20
+TSV: 1543095958	2026-03-31	primera a colombia	Millonarios	Fortaleza FC	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1506066	2-2	2-1	03:20
+TSV: 1543095958	2026-03-31	primera a colombia	Millonarios	Fortaleza FC	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	WIN	FT	1506066	2-2	2-1	03:20
+TSV: 1543095958	2026-03-31	primera a colombia	Millonarios	Fortaleza FC	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1506066	2-2	2-1	03:20
+TSV: 1543095958	2026-03-31	primera a colombia	Millonarios	Fortaleza FC	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1506066	2-2	2-1	03:20
+TSV: 1543095958	2026-03-31	primera a colombia	Millonarios	Fortaleza FC	O25_FT	Over 2.5 (FT)	0.0	KO	0	BAD_NO_BET	FT	1506066	2-2	2-1	03:20
+TSV: 1543095958	2026-03-31	primera a colombia	Millonarios	Fortaleza FC	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1506066	2-2	2-1	03:20
+TSV: 1543095958	2026-03-31	primera a colombia	Millonarios	Fortaleza FC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506066	2-2	2-1	03:20
+TSV: 652196874	2026-03-31	international friendlies	Korea DPR U23	Thailand U23	HT05	HT+0.5	5.0	FORT PLUS	0	BAD_NO_BET	FT	1536917	3-1	2-0	09:00
+TSV: 652196874	2026-03-31	international friendlies	Korea DPR U23	Thailand U23	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	WIN	FT	1536917	3-1	2-0	09:00
+TSV: 652196874	2026-03-31	international friendlies	Korea DPR U23	Thailand U23	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1536917	3-1	2-0	09:00
+TSV: 652196874	2026-03-31	international friendlies	Korea DPR U23	Thailand U23	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1536917	3-1	2-0	09:00
+TSV: 652196874	2026-03-31	international friendlies	Korea DPR U23	Thailand U23	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1536917	3-1	2-0	09:00
+TSV: 652196874	2026-03-31	international friendlies	Korea DPR U23	Thailand U23	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1536917	3-1	2-0	09:00
+TSV: 652196874	2026-03-31	international friendlies	Korea DPR U23	Thailand U23	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1536917	3-1	2-0	09:00
+TSV: 652196874	2026-03-31	international friendlies	Korea DPR U23	Thailand U23	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1536917	3-1	2-0	09:00
+TSV: 2783067321	2026-03-31	international friendlies	Equatorial Guinea	Madagascar	HT05	HT+0.5	7.0	EXPLOSION	0	BAD_NO_BET	FT	1537181	1-1	1-0	11:00
+TSV: 2783067321	2026-03-31	international friendlies	Equatorial Guinea	Madagascar	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	BAD_NO_BET	FT	1537181	1-1	1-0	11:00
+TSV: 2783067321	2026-03-31	international friendlies	Equatorial Guinea	Madagascar	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1537181	1-1	1-0	11:00
+TSV: 2783067321	2026-03-31	international friendlies	Equatorial Guinea	Madagascar	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1537181	1-1	1-0	11:00
+TSV: 2783067321	2026-03-31	international friendlies	Equatorial Guinea	Madagascar	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	WIN	FT	1537181	1-1	1-0	11:00
+TSV: 2783067321	2026-03-31	international friendlies	Equatorial Guinea	Madagascar	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1537181	1-1	1-0	11:00
+TSV: 2783067321	2026-03-31	international friendlies	Equatorial Guinea	Madagascar	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1537181	1-1	1-0	11:00
+TSV: 2783067321	2026-03-31	international friendlies	Equatorial Guinea	Madagascar	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1537181	1-1	1-0	11:00
+TSV: 3020483173	2026-03-31	international friendlies	India U17	Korea Republic U17	HT05	HT+0.5	7.0	EXPLOSION	0	GOOD_NO_BET	FT	1539015	1-2		12:00
+TSV: 3020483173	2026-03-31	international friendlies	India U17	Korea Republic U17	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	BAD_NO_BET	FT	1539015	1-2		12:00
+TSV: 3020483173	2026-03-31	international friendlies	India U17	Korea Republic U17	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1539015	1-2		12:00
+TSV: 3020483173	2026-03-31	international friendlies	India U17	Korea Republic U17	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1539015	1-2		12:00
+TSV: 3020483173	2026-03-31	international friendlies	India U17	Korea Republic U17	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	WIN	FT	1539015	1-2		12:00
+TSV: 3020483173	2026-03-31	international friendlies	India U17	Korea Republic U17	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1539015	1-2		12:00
+TSV: 3020483173	2026-03-31	international friendlies	India U17	Korea Republic U17	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1539015	1-2		12:00
+TSV: 3020483173	2026-03-31	international friendlies	India U17	Korea Republic U17	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1539015	1-2		12:00
+TSV: 3566384217	2026-03-31	international friendlies	China PR U20	Australia U20	HT05	HT+0.5	5.0	FORT PLUS	0	GOOD_NO_BET	FT	1537185	2-4	0-0	13:35
+TSV: 3566384217	2026-03-31	international friendlies	China PR U20	Australia U20	HT1X_HOME	HT 1X Home	4.0	FORT	1	WIN	FT	1537185	2-4	0-0	13:35
+TSV: 3566384217	2026-03-31	international friendlies	China PR U20	Australia U20	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	WIN	FT	1537185	2-4	0-0	13:35
+TSV: 3566384217	2026-03-31	international friendlies	China PR U20	Australia U20	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1537185	2-4	0-0	13:35
+TSV: 3566384217	2026-03-31	international friendlies	China PR U20	Australia U20	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1537185	2-4	0-0	13:35
+TSV: 3566384217	2026-03-31	international friendlies	China PR U20	Australia U20	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1537185	2-4	0-0	13:35
+TSV: 3566384217	2026-03-31	international friendlies	China PR U20	Australia U20	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1537185	2-4	0-0	13:35
+TSV: 3566384217	2026-03-31	international friendlies	China PR U20	Australia U20	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1537185	2-4	0-0	13:35
+TSV: 1687912304	2026-03-31	international friendlies	China PR U23	Vietnam U23	HT05	HT+0.5	1.0	FAIBLE	0	BAD_NO_BET	FT	1536918	1-0	1-0	13:35
+TSV: 1687912304	2026-03-31	international friendlies	China PR U23	Vietnam U23	HT1X_HOME	HT 1X Home	4.0	FORT	1	WIN	FT	1536918	1-0	1-0	13:35
+TSV: 1687912304	2026-03-31	international friendlies	China PR U23	Vietnam U23	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1536918	1-0	1-0	13:35
+TSV: 1687912304	2026-03-31	international friendlies	China PR U23	Vietnam U23	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1536918	1-0	1-0	13:35
+TSV: 1687912304	2026-03-31	international friendlies	China PR U23	Vietnam U23	O15_FT	Over 1.5 (FT)	4.0	FORT	1	LOSS	FT	1536918	1-0	1-0	13:35
+TSV: 1687912304	2026-03-31	international friendlies	China PR U23	Vietnam U23	O25_FT	Over 2.5 (FT)	4.0	FORT	1	LOSS	FT	1536918	1-0	1-0	13:35
+TSV: 1687912304	2026-03-31	international friendlies	China PR U23	Vietnam U23	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1536918	1-0	1-0	13:35
+TSV: 1687912304	2026-03-31	international friendlies	China PR U23	Vietnam U23	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1536918	1-0	1-0	13:35
+TSV: 586073394	2026-03-31	international friendlies	Morocco U18	Iceland U19	HT05	HT+0.5	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1537184	2-1		14:00
+TSV: 586073394	2026-03-31	international friendlies	Morocco U18	Iceland U19	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	BAD_NO_BET	FT	1537184	2-1		14:00
+TSV: 586073394	2026-03-31	international friendlies	Morocco U18	Iceland U19	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1537184	2-1		14:00
+TSV: 586073394	2026-03-31	international friendlies	Morocco U18	Iceland U19	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1537184	2-1		14:00
+TSV: 586073394	2026-03-31	international friendlies	Morocco U18	Iceland U19	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1537184	2-1		14:00
+TSV: 586073394	2026-03-31	international friendlies	Morocco U18	Iceland U19	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1537184	2-1		14:00
+TSV: 586073394	2026-03-31	international friendlies	Morocco U18	Iceland U19	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1537184	2-1		14:00
+TSV: 586073394	2026-03-31	international friendlies	Morocco U18	Iceland U19	TEAM2_WIN_FT	Team2 wins (FT)	4.0	FORT	0	GOOD_NO_BET	FT	1537184	2-1		14:00
+TSV: 1890783948	2026-03-31	international friendlies	Palestine	Mauritania	HT05	HT+0.5	2.0	MOYEN	0	PENDING	CANC	1536920			14:00
+TSV: 1890783948	2026-03-31	international friendlies	Palestine	Mauritania	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	0	PENDING	CANC	1536920			14:00
+TSV: 1890783948	2026-03-31	international friendlies	Palestine	Mauritania	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	PENDING	CANC	1536920			14:00
+TSV: 1890783948	2026-03-31	international friendlies	Palestine	Mauritania	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	PENDING	CANC	1536920			14:00
+TSV: 1890783948	2026-03-31	international friendlies	Palestine	Mauritania	O15_FT	Over 1.5 (FT)	1.0	FAIBLE	0	PENDING	CANC	1536920			14:00
+TSV: 1890783948	2026-03-31	international friendlies	Palestine	Mauritania	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	PENDING	CANC	1536920			14:00
+TSV: 1890783948	2026-03-31	international friendlies	Palestine	Mauritania	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	PENDING	CANC	1536920			14:00
+TSV: 1890783948	2026-03-31	international friendlies	Palestine	Mauritania	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	PENDING	CANC	1536920			14:00
+TSV: 1961105579	2026-03-31	international friendlies	Qatar	Argentina	HT05	HT+0.5	4.0	FORT	0	PENDING	CANC	1514470			14:00
+TSV: 1961105579	2026-03-31	international friendlies	Qatar	Argentina	HT1X_HOME	HT 1X Home	0.0	KO	0	PENDING	CANC	1514470			14:00
+TSV: 1961105579	2026-03-31	international friendlies	Qatar	Argentina	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	PENDING	CANC	1514470			14:00
+TSV: 1961105579	2026-03-31	international friendlies	Qatar	Argentina	TEAM2_SCORE_FT	Team2 scores (FT)	6.0	TRÈS FORT	0	PENDING	CANC	1514470			14:00
+TSV: 1961105579	2026-03-31	international friendlies	Qatar	Argentina	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	0	PENDING	CANC	1514470			14:00
+TSV: 1961105579	2026-03-31	international friendlies	Qatar	Argentina	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	PENDING	CANC	1514470			14:00
+TSV: 1961105579	2026-03-31	international friendlies	Qatar	Argentina	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	PENDING	CANC	1514470			14:00
+TSV: 1961105579	2026-03-31	international friendlies	Qatar	Argentina	TEAM2_WIN_FT	Team2 wins (FT)	6.0	TRÈS FORT	0	PENDING	CANC	1514470			14:00
+TSV: 69976450	2026-03-31	international friendlies	Botswana	Malawi	HT05	HT+0.5	2.0	MOYEN	0	GOOD_NO_BET	FT	1538303	1-0	0-0	15:00
+TSV: 69976450	2026-03-31	international friendlies	Botswana	Malawi	HT1X_HOME	HT 1X Home	4.0	FORT	1	WIN	FT	1538303	1-0	0-0	15:00
+TSV: 69976450	2026-03-31	international friendlies	Botswana	Malawi	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1538303	1-0	0-0	15:00
+TSV: 69976450	2026-03-31	international friendlies	Botswana	Malawi	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1538303	1-0	0-0	15:00
+TSV: 69976450	2026-03-31	international friendlies	Botswana	Malawi	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1538303	1-0	0-0	15:00
+TSV: 69976450	2026-03-31	international friendlies	Botswana	Malawi	O25_FT	Over 2.5 (FT)	0.0	KO	0	GOOD_NO_BET	FT	1538303	1-0	0-0	15:00
+TSV: 69976450	2026-03-31	international friendlies	Botswana	Malawi	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1538303	1-0	0-0	15:00
+TSV: 69976450	2026-03-31	international friendlies	Botswana	Malawi	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1538303	1-0	0-0	15:00
+TSV: 3927484368	2026-03-31	international friendlies	Costa Rica	Iran	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1527862	0-5	0-4	15:00
+TSV: 3927484368	2026-03-31	international friendlies	Costa Rica	Iran	HT1X_HOME	HT 1X Home	4.0	FORT	1	LOSS	FT	1527862	0-5	0-4	15:00
+TSV: 3927484368	2026-03-31	international friendlies	Costa Rica	Iran	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1527862	0-5	0-4	15:00
+TSV: 3927484368	2026-03-31	international friendlies	Costa Rica	Iran	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1527862	0-5	0-4	15:00
+TSV: 3927484368	2026-03-31	international friendlies	Costa Rica	Iran	O15_FT	Over 1.5 (FT)	4.0	FORT	1	WIN	FT	1527862	0-5	0-4	15:00
+TSV: 3927484368	2026-03-31	international friendlies	Costa Rica	Iran	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1527862	0-5	0-4	15:00
+TSV: 3927484368	2026-03-31	international friendlies	Costa Rica	Iran	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1527862	0-5	0-4	15:00
+TSV: 3927484368	2026-03-31	international friendlies	Costa Rica	Iran	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1527862	0-5	0-4	15:00
+TSV: 2045698074	2026-03-31	international friendlies	Egypt U20	Algeria U20	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1538305	0-0	0-0	15:00
+TSV: 2045698074	2026-03-31	international friendlies	Egypt U20	Algeria U20	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1538305	0-0	0-0	15:00
+TSV: 2045698074	2026-03-31	international friendlies	Egypt U20	Algeria U20	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1538305	0-0	0-0	15:00
+TSV: 2045698074	2026-03-31	international friendlies	Egypt U20	Algeria U20	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	LOSS	FT	1538305	0-0	0-0	15:00
+TSV: 2045698074	2026-03-31	international friendlies	Egypt U20	Algeria U20	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1538305	0-0	0-0	15:00
+TSV: 2045698074	2026-03-31	international friendlies	Egypt U20	Algeria U20	O25_FT	Over 2.5 (FT)	7.0	EXPLOSION	1	LOSS	FT	1538305	0-0	0-0	15:00
+TSV: 2045698074	2026-03-31	international friendlies	Egypt U20	Algeria U20	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1538305	0-0	0-0	15:00
+TSV: 2045698074	2026-03-31	international friendlies	Egypt U20	Algeria U20	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1538305	0-0	0-0	15:00
+TSV: 3282028786	2026-03-31	international friendlies	Portugal U18	USA U18	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1537182	1-1	1-0	15:00
+TSV: 3282028786	2026-03-31	international friendlies	Portugal U18	USA U18	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1537182	1-1	1-0	15:00
+TSV: 3282028786	2026-03-31	international friendlies	Portugal U18	USA U18	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	WIN	FT	1537182	1-1	1-0	15:00
+TSV: 3282028786	2026-03-31	international friendlies	Portugal U18	USA U18	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1537182	1-1	1-0	15:00
+TSV: 3282028786	2026-03-31	international friendlies	Portugal U18	USA U18	O15_FT	Over 1.5 (FT)	4.0	FORT	1	WIN	FT	1537182	1-1	1-0	15:00
+TSV: 3282028786	2026-03-31	international friendlies	Portugal U18	USA U18	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1537182	1-1	1-0	15:00
+TSV: 3282028786	2026-03-31	international friendlies	Portugal U18	USA U18	TEAM1_WIN_FT	Team1 wins (FT)	5.0	FORT PLUS	1	LOSS	FT	1537182	1-1	1-0	15:00
+TSV: 3282028786	2026-03-31	international friendlies	Portugal U18	USA U18	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1537182	1-1	1-0	15:00
+TSV: 2524519764	2026-03-31	international friendlies	India U23	Tajikistan U23	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1537183	0-1	0-1	15:30
+TSV: 2524519764	2026-03-31	international friendlies	India U23	Tajikistan U23	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	LOSS	FT	1537183	0-1	0-1	15:30
+TSV: 2524519764	2026-03-31	international friendlies	India U23	Tajikistan U23	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1537183	0-1	0-1	15:30
+TSV: 2524519764	2026-03-31	international friendlies	India U23	Tajikistan U23	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1537183	0-1	0-1	15:30
+TSV: 2524519764	2026-03-31	international friendlies	India U23	Tajikistan U23	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	LOSS	FT	1537183	0-1	0-1	15:30
+TSV: 2524519764	2026-03-31	international friendlies	India U23	Tajikistan U23	O25_FT	Over 2.5 (FT)	4.0	FORT	1	LOSS	FT	1537183	0-1	0-1	15:30
+TSV: 2524519764	2026-03-31	international friendlies	India U23	Tajikistan U23	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1537183	0-1	0-1	15:30
+TSV: 2524519764	2026-03-31	international friendlies	India U23	Tajikistan U23	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1537183	0-1	0-1	15:30
+TSV: 1773344924	2026-03-31	international friendlies	UAE U23	Oman U23	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1537642	3-1	1-1	15:45
+TSV: 1773344924	2026-03-31	international friendlies	UAE U23	Oman U23	HT1X_HOME	HT 1X Home	4.0	FORT	1	WIN	FT	1537642	3-1	1-1	15:45
+TSV: 1773344924	2026-03-31	international friendlies	UAE U23	Oman U23	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1537642	3-1	1-1	15:45
+TSV: 1773344924	2026-03-31	international friendlies	UAE U23	Oman U23	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1537642	3-1	1-1	15:45
+TSV: 1773344924	2026-03-31	international friendlies	UAE U23	Oman U23	O15_FT	Over 1.5 (FT)	4.0	FORT	1	WIN	FT	1537642	3-1	1-1	15:45
+TSV: 1773344924	2026-03-31	international friendlies	UAE U23	Oman U23	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1537642	3-1	1-1	15:45
+TSV: 1773344924	2026-03-31	international friendlies	UAE U23	Oman U23	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1537642	3-1	1-1	15:45
+TSV: 1773344924	2026-03-31	international friendlies	UAE U23	Oman U23	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1537642	3-1	1-1	15:45
+TSV: 3921273635	2026-03-31	international friendlies	Chile U20	Peru U20	HT05	HT+0.5	4.0	FORT	0	GOOD_NO_BET	FT	1538304	1-1		16:30
+TSV: 3921273635	2026-03-31	international friendlies	Chile U20	Peru U20	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	BAD_NO_BET	FT	1538304	1-1		16:30
+TSV: 3921273635	2026-03-31	international friendlies	Chile U20	Peru U20	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	WIN	FT	1538304	1-1		16:30
+TSV: 3921273635	2026-03-31	international friendlies	Chile U20	Peru U20	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1538304	1-1		16:30
+TSV: 3921273635	2026-03-31	international friendlies	Chile U20	Peru U20	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1538304	1-1		16:30
+TSV: 3921273635	2026-03-31	international friendlies	Chile U20	Peru U20	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1538304	1-1		16:30
+TSV: 3921273635	2026-03-31	international friendlies	Chile U20	Peru U20	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1538304	1-1		16:30
+TSV: 3921273635	2026-03-31	international friendlies	Chile U20	Peru U20	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1538304	1-1		16:30
+TSV: 2671736843	2026-03-31	international friendlies	Liberia	Libya	HT05	HT+0.5	2.0	MOYEN	0	BAD_NO_BET	FT	1528275	2-2	0-2	17:00
+TSV: 2671736843	2026-03-31	international friendlies	Liberia	Libya	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	GOOD_NO_BET	FT	1528275	2-2	0-2	17:00
+TSV: 2671736843	2026-03-31	international friendlies	Liberia	Libya	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1528275	2-2	0-2	17:00
+TSV: 2671736843	2026-03-31	international friendlies	Liberia	Libya	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1528275	2-2	0-2	17:00
+TSV: 2671736843	2026-03-31	international friendlies	Liberia	Libya	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	WIN	FT	1528275	2-2	0-2	17:00
+TSV: 2671736843	2026-03-31	international friendlies	Liberia	Libya	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1528275	2-2	0-2	17:00
+TSV: 2671736843	2026-03-31	international friendlies	Liberia	Libya	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1528275	2-2	0-2	17:00
+TSV: 2671736843	2026-03-31	international friendlies	Liberia	Libya	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1528275	2-2	0-2	17:00
+TSV: 2389823949	2026-03-31	international friendlies	Niger	Togo	HT05	HT+0.5	7.0	EXPLOSION	0	BAD_NO_BET	FT	1536919	0-1	0-1	17:00
+TSV: 2389823949	2026-03-31	international friendlies	Niger	Togo	HT1X_HOME	HT 1X Home	4.0	FORT	1	LOSS	FT	1536919	0-1	0-1	17:00
+TSV: 2389823949	2026-03-31	international friendlies	Niger	Togo	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	LOSS	FT	1536919	0-1	0-1	17:00
+TSV: 2389823949	2026-03-31	international friendlies	Niger	Togo	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1536919	0-1	0-1	17:00
+TSV: 2389823949	2026-03-31	international friendlies	Niger	Togo	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1536919	0-1	0-1	17:00
+TSV: 2389823949	2026-03-31	international friendlies	Niger	Togo	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	LOSS	FT	1536919	0-1	0-1	17:00
+TSV: 2389823949	2026-03-31	international friendlies	Niger	Togo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1536919	0-1	0-1	17:00
+TSV: 2389823949	2026-03-31	international friendlies	Niger	Togo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1536919	0-1	0-1	17:00
+TSV: 446583069	2026-03-31	international friendlies	Montenegro	Slovenia	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1514469	2-3	2-1	18:00
+TSV: 446583069	2026-03-31	international friendlies	Montenegro	Slovenia	HT1X_HOME	HT 1X Home	4.0	FORT	1	WIN	FT	1514469	2-3	2-1	18:00
+TSV: 446583069	2026-03-31	international friendlies	Montenegro	Slovenia	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1514469	2-3	2-1	18:00
+TSV: 446583069	2026-03-31	international friendlies	Montenegro	Slovenia	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1514469	2-3	2-1	18:00
+TSV: 446583069	2026-03-31	international friendlies	Montenegro	Slovenia	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1514469	2-3	2-1	18:00
+TSV: 446583069	2026-03-31	international friendlies	Montenegro	Slovenia	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1514469	2-3	2-1	18:00
+TSV: 446583069	2026-03-31	international friendlies	Montenegro	Slovenia	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1514469	2-3	2-1	18:00
+TSV: 446583069	2026-03-31	international friendlies	Montenegro	Slovenia	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1514469	2-3	2-1	18:00
+TSV: 3445308961	2026-03-31	international friendlies	Norway	Switzerland	HT05	HT+0.5	7.0	EXPLOSION	0	GOOD_NO_BET	FT	1503006	0-0	0-0	18:00
+TSV: 3445308961	2026-03-31	international friendlies	Norway	Switzerland	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	BAD_NO_BET	FT	1503006	0-0	0-0	18:00
+TSV: 3445308961	2026-03-31	international friendlies	Norway	Switzerland	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	LOSS	FT	1503006	0-0	0-0	18:00
+TSV: 3445308961	2026-03-31	international friendlies	Norway	Switzerland	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1503006	0-0	0-0	18:00
+TSV: 3445308961	2026-03-31	international friendlies	Norway	Switzerland	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1503006	0-0	0-0	18:00
+TSV: 3445308961	2026-03-31	international friendlies	Norway	Switzerland	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1503006	0-0	0-0	18:00
+TSV: 3445308961	2026-03-31	international friendlies	Norway	Switzerland	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1503006	0-0	0-0	18:00
+TSV: 3445308961	2026-03-31	international friendlies	Norway	Switzerland	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1503006	0-0	0-0	18:00
+TSV: 3775184831	2026-03-31	international friendlies	San Marino	Andorra	HT05	HT+0.5	4.0	FORT	0	GOOD_NO_BET	FT	1527864	0-0	0-0	18:00
+TSV: 3775184831	2026-03-31	international friendlies	San Marino	Andorra	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	BAD_NO_BET	FT	1527864	0-0	0-0	18:00
+TSV: 3775184831	2026-03-31	international friendlies	San Marino	Andorra	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1527864	0-0	0-0	18:00
+TSV: 3775184831	2026-03-31	international friendlies	San Marino	Andorra	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1527864	0-0	0-0	18:00
+TSV: 3775184831	2026-03-31	international friendlies	San Marino	Andorra	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	LOSS	FT	1527864	0-0	0-0	18:00
+TSV: 3775184831	2026-03-31	international friendlies	San Marino	Andorra	O25_FT	Over 2.5 (FT)	4.0	FORT	1	LOSS	FT	1527864	0-0	0-0	18:00
+TSV: 3775184831	2026-03-31	international friendlies	San Marino	Andorra	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1527864	0-0	0-0	18:00
+TSV: 3775184831	2026-03-31	international friendlies	San Marino	Andorra	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1527864	0-0	0-0	18:00
+TSV: 1182731404	2026-03-31	international friendlies	Serbia	Saudi Arabia	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1514468	2-1	0-1	18:00
+TSV: 1182731404	2026-03-31	international friendlies	Serbia	Saudi Arabia	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	GOOD_NO_BET	FT	1514468	2-1	0-1	18:00
+TSV: 1182731404	2026-03-31	international friendlies	Serbia	Saudi Arabia	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1514468	2-1	0-1	18:00
+TSV: 1182731404	2026-03-31	international friendlies	Serbia	Saudi Arabia	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1514468	2-1	0-1	18:00
+TSV: 1182731404	2026-03-31	international friendlies	Serbia	Saudi Arabia	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1514468	2-1	0-1	18:00
+TSV: 1182731404	2026-03-31	international friendlies	Serbia	Saudi Arabia	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1514468	2-1	0-1	18:00
+TSV: 1182731404	2026-03-31	international friendlies	Serbia	Saudi Arabia	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1514468	2-1	0-1	18:00
+TSV: 1182731404	2026-03-31	international friendlies	Serbia	Saudi Arabia	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1514468	2-1	0-1	18:00
+TSV: 776432543	2026-03-31	international friendlies	Zimbabwe	Zambia U23	HT05	HT+0.5	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1538306	1-0	0-0	18:00
+TSV: 776432543	2026-03-31	international friendlies	Zimbabwe	Zambia U23	HT1X_HOME	HT 1X Home	8.0	MEGA EXPLOSION	1	WIN	FT	1538306	1-0	0-0	18:00
+TSV: 776432543	2026-03-31	international friendlies	Zimbabwe	Zambia U23	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1538306	1-0	0-0	18:00
+TSV: 776432543	2026-03-31	international friendlies	Zimbabwe	Zambia U23	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1538306	1-0	0-0	18:00
+TSV: 776432543	2026-03-31	international friendlies	Zimbabwe	Zambia U23	O15_FT	Over 1.5 (FT)	4.0	FORT	1	LOSS	FT	1538306	1-0	0-0	18:00
+TSV: 776432543	2026-03-31	international friendlies	Zimbabwe	Zambia U23	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1538306	1-0	0-0	18:00
+TSV: 776432543	2026-03-31	international friendlies	Zimbabwe	Zambia U23	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1538306	1-0	0-0	18:00
+TSV: 776432543	2026-03-31	international friendlies	Zimbabwe	Zambia U23	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1538306	1-0	0-0	18:00
+TSV: 2560123510	2026-03-31	international friendlies	Hungary	Greece	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1514072	0-0	0-0	19:00
+TSV: 2560123510	2026-03-31	international friendlies	Hungary	Greece	HT1X_HOME	HT 1X Home	4.0	FORT	1	WIN	FT	1514072	0-0	0-0	19:00
+TSV: 2560123510	2026-03-31	international friendlies	Hungary	Greece	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1514072	0-0	0-0	19:00
+TSV: 2560123510	2026-03-31	international friendlies	Hungary	Greece	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1514072	0-0	0-0	19:00
+TSV: 2560123510	2026-03-31	international friendlies	Hungary	Greece	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1514072	0-0	0-0	19:00
+TSV: 2560123510	2026-03-31	international friendlies	Hungary	Greece	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1514072	0-0	0-0	19:00
+TSV: 2560123510	2026-03-31	international friendlies	Hungary	Greece	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1514072	0-0	0-0	19:00
+TSV: 2560123510	2026-03-31	international friendlies	Hungary	Greece	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1514072	0-0	0-0	19:00
+TSV: 3741978726	2026-03-31	international friendlies	Russia	Mali	HT05	HT+0.5	4.0	FORT	0	GOOD_NO_BET	FT	1536922	0-0	0-0	19:00
+TSV: 3741978726	2026-03-31	international friendlies	Russia	Mali	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1536922	0-0	0-0	19:00
+TSV: 3741978726	2026-03-31	international friendlies	Russia	Mali	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1536922	0-0	0-0	19:00
+TSV: 3741978726	2026-03-31	international friendlies	Russia	Mali	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1536922	0-0	0-0	19:00
+TSV: 3741978726	2026-03-31	international friendlies	Russia	Mali	O15_FT	Over 1.5 (FT)	4.0	FORT	1	LOSS	FT	1536922	0-0	0-0	19:00
+TSV: 3741978726	2026-03-31	international friendlies	Russia	Mali	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1536922	0-0	0-0	19:00
+TSV: 3741978726	2026-03-31	international friendlies	Russia	Mali	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1536922	0-0	0-0	19:00
+TSV: 3741978726	2026-03-31	international friendlies	Russia	Mali	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1536922	0-0	0-0	19:00
+TSV: 2235705872	2026-03-31	laliga2	Mirandes	Albacete	HT05	HT+0.5	7.0	EXPLOSION	0	BAD_NO_BET	FT	1392124	1-1	1-0	19:00
+TSV: 2235705872	2026-03-31	laliga2	Mirandes	Albacete	HT1X_HOME	HT 1X Home	4.0	FORT	1	WIN	FT	1392124	1-1	1-0	19:00
+TSV: 2235705872	2026-03-31	laliga2	Mirandes	Albacete	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1392124	1-1	1-0	19:00
+TSV: 2235705872	2026-03-31	laliga2	Mirandes	Albacete	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	WIN	FT	1392124	1-1	1-0	19:00
+TSV: 2235705872	2026-03-31	laliga2	Mirandes	Albacete	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	WIN	FT	1392124	1-1	1-0	19:00
+TSV: 2235705872	2026-03-31	laliga2	Mirandes	Albacete	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1392124	1-1	1-0	19:00
+TSV: 2235705872	2026-03-31	laliga2	Mirandes	Albacete	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1392124	1-1	1-0	19:00
+TSV: 2235705872	2026-03-31	laliga2	Mirandes	Albacete	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1392124	1-1	1-0	19:00
+TSV: 1093390790	2026-03-31	liga profesional argentina	Aldosivi	Argentinos JRS	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1491908	0-2	0-2	19:00
+TSV: 1093390790	2026-03-31	liga profesional argentina	Aldosivi	Argentinos JRS	HT1X_HOME	HT 1X Home	4.0	FORT	1	LOSS	FT	1491908	0-2	0-2	19:00
+TSV: 1093390790	2026-03-31	liga profesional argentina	Aldosivi	Argentinos JRS	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1491908	0-2	0-2	19:00
+TSV: 1093390790	2026-03-31	liga profesional argentina	Aldosivi	Argentinos JRS	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1491908	0-2	0-2	19:00
+TSV: 1093390790	2026-03-31	liga profesional argentina	Aldosivi	Argentinos JRS	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	WIN	FT	1491908	0-2	0-2	19:00
+TSV: 1093390790	2026-03-31	liga profesional argentina	Aldosivi	Argentinos JRS	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1491908	0-2	0-2	19:00
+TSV: 1093390790	2026-03-31	liga profesional argentina	Aldosivi	Argentinos JRS	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491908	0-2	0-2	19:00
+TSV: 1093390790	2026-03-31	liga profesional argentina	Aldosivi	Argentinos JRS	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1491908	0-2	0-2	19:00
+TSV: 712728224	2026-03-31	international friendlies	Haiti	Iceland	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1512764	1-1	0-0	19:30
+TSV: 712728224	2026-03-31	international friendlies	Haiti	Iceland	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1512764	1-1	0-0	19:30
+TSV: 712728224	2026-03-31	international friendlies	Haiti	Iceland	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1512764	1-1	0-0	19:30
+TSV: 712728224	2026-03-31	international friendlies	Haiti	Iceland	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1512764	1-1	0-0	19:30
+TSV: 712728224	2026-03-31	international friendlies	Haiti	Iceland	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1512764	1-1	0-0	19:30
+TSV: 712728224	2026-03-31	international friendlies	Haiti	Iceland	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	LOSS	FT	1512764	1-1	0-0	19:30
+TSV: 712728224	2026-03-31	international friendlies	Haiti	Iceland	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1512764	1-1	0-0	19:30
+TSV: 712728224	2026-03-31	international friendlies	Haiti	Iceland	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1512764	1-1	0-0	19:30
+TSV: 737890035	2026-03-31	international friendlies	Jordan	Nigeria	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1527863	2-2	1-2	19:30
+TSV: 737890035	2026-03-31	international friendlies	Jordan	Nigeria	HT1X_HOME	HT 1X Home	1.0	FAIBLE	0	GOOD_NO_BET	FT	1527863	2-2	1-2	19:30
+TSV: 737890035	2026-03-31	international friendlies	Jordan	Nigeria	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1527863	2-2	1-2	19:30
+TSV: 737890035	2026-03-31	international friendlies	Jordan	Nigeria	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1527863	2-2	1-2	19:30
+TSV: 737890035	2026-03-31	international friendlies	Jordan	Nigeria	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1527863	2-2	1-2	19:30
+TSV: 737890035	2026-03-31	international friendlies	Jordan	Nigeria	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1527863	2-2	1-2	19:30
+TSV: 737890035	2026-03-31	international friendlies	Jordan	Nigeria	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1527863	2-2	1-2	19:30
+TSV: 737890035	2026-03-31	international friendlies	Jordan	Nigeria	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1527863	2-2	1-2	19:30
+TSV: 3770188396	2026-03-31	international friendlies	South Africa	Panama	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1528276	1-2	0-0	19:30
+TSV: 3770188396	2026-03-31	international friendlies	South Africa	Panama	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1528276	1-2	0-0	19:30
+TSV: 3770188396	2026-03-31	international friendlies	South Africa	Panama	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1528276	1-2	0-0	19:30
+TSV: 3770188396	2026-03-31	international friendlies	South Africa	Panama	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	WIN	FT	1528276	1-2	0-0	19:30
+TSV: 3770188396	2026-03-31	international friendlies	South Africa	Panama	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1528276	1-2	0-0	19:30
+TSV: 3770188396	2026-03-31	international friendlies	South Africa	Panama	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1528276	1-2	0-0	19:30
+TSV: 3770188396	2026-03-31	international friendlies	South Africa	Panama	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1528276	1-2	0-0	19:30
+TSV: 3770188396	2026-03-31	international friendlies	South Africa	Panama	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1528276	1-2	0-0	19:30
+TSV: 2091352803	2026-03-31	international friendlies	Guinea	Benin	HT05	HT+0.5	2.0	MOYEN	0	BAD_NO_BET	FT	1528274	0-1	0-1	20:00
+TSV: 2091352803	2026-03-31	international friendlies	Guinea	Benin	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	LOSS	FT	1528274	0-1	0-1	20:00
+TSV: 2091352803	2026-03-31	international friendlies	Guinea	Benin	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	LOSS	FT	1528274	0-1	0-1	20:00
+TSV: 2091352803	2026-03-31	international friendlies	Guinea	Benin	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1528274	0-1	0-1	20:00
+TSV: 2091352803	2026-03-31	international friendlies	Guinea	Benin	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	LOSS	FT	1528274	0-1	0-1	20:00
+TSV: 2091352803	2026-03-31	international friendlies	Guinea	Benin	O25_FT	Over 2.5 (FT)	0.0	KO	0	GOOD_NO_BET	FT	1528274	0-1	0-1	20:00
+TSV: 2091352803	2026-03-31	international friendlies	Guinea	Benin	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1528274	0-1	0-1	20:00
+TSV: 2091352803	2026-03-31	international friendlies	Guinea	Benin	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1528274	0-1	0-1	20:00
+TSV: 1893985504	2026-03-31	international friendlies	Morocco	Paraguay	HT05	HT+0.5	2.0	MOYEN	0	GOOD_NO_BET	FT	1522230	2-1	0-0	20:00
+TSV: 1893985504	2026-03-31	international friendlies	Morocco	Paraguay	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1522230	2-1	0-0	20:00
+TSV: 1893985504	2026-03-31	international friendlies	Morocco	Paraguay	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	WIN	FT	1522230	2-1	0-0	20:00
+TSV: 1893985504	2026-03-31	international friendlies	Morocco	Paraguay	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1522230	2-1	0-0	20:00
+TSV: 1893985504	2026-03-31	international friendlies	Morocco	Paraguay	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1522230	2-1	0-0	20:00
+TSV: 1893985504	2026-03-31	international friendlies	Morocco	Paraguay	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1522230	2-1	0-0	20:00
+TSV: 1893985504	2026-03-31	international friendlies	Morocco	Paraguay	TEAM1_WIN_FT	Team1 wins (FT)	4.0	FORT	0	BAD_NO_BET	FT	1522230	2-1	0-0	20:00
+TSV: 1893985504	2026-03-31	international friendlies	Morocco	Paraguay	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1522230	2-1	0-0	20:00
+TSV: 1477822620	2026-03-31	international friendlies	Peru	Honduras	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1528277	2-2	1-1	20:00
+TSV: 1477822620	2026-03-31	international friendlies	Peru	Honduras	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1528277	2-2	1-1	20:00
+TSV: 1477822620	2026-03-31	international friendlies	Peru	Honduras	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1528277	2-2	1-1	20:00
+TSV: 1477822620	2026-03-31	international friendlies	Peru	Honduras	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1528277	2-2	1-1	20:00
+TSV: 1477822620	2026-03-31	international friendlies	Peru	Honduras	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1528277	2-2	1-1	20:00
+TSV: 1477822620	2026-03-31	international friendlies	Peru	Honduras	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1528277	2-2	1-1	20:00
+TSV: 1477822620	2026-03-31	international friendlies	Peru	Honduras	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1528277	2-2	1-1	20:00
+TSV: 1477822620	2026-03-31	international friendlies	Peru	Honduras	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1528277	2-2	1-1	20:00
+TSV: 1733576401	2026-03-31	laliga2	Deportivo La Coruna	Cordoba	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1392121	2-0	2-0	20:00
+TSV: 1733576401	2026-03-31	laliga2	Deportivo La Coruna	Cordoba	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1392121	2-0	2-0	20:00
+TSV: 1733576401	2026-03-31	laliga2	Deportivo La Coruna	Cordoba	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	WIN	FT	1392121	2-0	2-0	20:00
+TSV: 1733576401	2026-03-31	laliga2	Deportivo La Coruna	Cordoba	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	LOSS	FT	1392121	2-0	2-0	20:00
+TSV: 1733576401	2026-03-31	laliga2	Deportivo La Coruna	Cordoba	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1392121	2-0	2-0	20:00
+TSV: 1733576401	2026-03-31	laliga2	Deportivo La Coruna	Cordoba	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1392121	2-0	2-0	20:00
+TSV: 1733576401	2026-03-31	laliga2	Deportivo La Coruna	Cordoba	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1392121	2-0	2-0	20:00
+TSV: 1733576401	2026-03-31	laliga2	Deportivo La Coruna	Cordoba	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1392121	2-0	2-0	20:00
+TSV: 774953694	2026-03-31	international friendlies	Algeria	Uruguay	HT05	HT+0.5	5.0	FORT PLUS	0	GOOD_NO_BET	FT	1528280	0-0	0-0	20:30
+TSV: 774953694	2026-03-31	international friendlies	Algeria	Uruguay	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1528280	0-0	0-0	20:30
+TSV: 774953694	2026-03-31	international friendlies	Algeria	Uruguay	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	LOSS	FT	1528280	0-0	0-0	20:30
+TSV: 774953694	2026-03-31	international friendlies	Algeria	Uruguay	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1528280	0-0	0-0	20:30
+TSV: 774953694	2026-03-31	international friendlies	Algeria	Uruguay	O15_FT	Over 1.5 (FT)	4.0	FORT	1	LOSS	FT	1528280	0-0	0-0	20:30
+TSV: 774953694	2026-03-31	international friendlies	Algeria	Uruguay	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1528280	0-0	0-0	20:30
+TSV: 774953694	2026-03-31	international friendlies	Algeria	Uruguay	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1528280	0-0	0-0	20:30
+TSV: 774953694	2026-03-31	international friendlies	Algeria	Uruguay	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1528280	0-0	0-0	20:30
+TSV: 81771692	2026-03-31	international friendlies	Scotland	Ivory Coast	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1528278	0-1	0-1	20:30
+TSV: 81771692	2026-03-31	international friendlies	Scotland	Ivory Coast	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	LOSS	FT	1528278	0-1	0-1	20:30
+TSV: 81771692	2026-03-31	international friendlies	Scotland	Ivory Coast	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1528278	0-1	0-1	20:30
+TSV: 81771692	2026-03-31	international friendlies	Scotland	Ivory Coast	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1528278	0-1	0-1	20:30
+TSV: 81771692	2026-03-31	international friendlies	Scotland	Ivory Coast	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	LOSS	FT	1528278	0-1	0-1	20:30
+TSV: 81771692	2026-03-31	international friendlies	Scotland	Ivory Coast	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	LOSS	FT	1528278	0-1	0-1	20:30
+TSV: 81771692	2026-03-31	international friendlies	Scotland	Ivory Coast	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1528278	0-1	0-1	20:30
+TSV: 81771692	2026-03-31	international friendlies	Scotland	Ivory Coast	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1528278	0-1	0-1	20:30
+TSV: 1506108305	2026-03-31	international friendlies	Austria	South Korea	HT05	HT+0.5	6.0	TRÈS FORT	0	GOOD_NO_BET	FT	1511732	1-0	0-0	20:45
+TSV: 1506108305	2026-03-31	international friendlies	Austria	South Korea	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	WIN	FT	1511732	1-0	0-0	20:45
+TSV: 1506108305	2026-03-31	international friendlies	Austria	South Korea	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1511732	1-0	0-0	20:45
+TSV: 1506108305	2026-03-31	international friendlies	Austria	South Korea	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1511732	1-0	0-0	20:45
+TSV: 1506108305	2026-03-31	international friendlies	Austria	South Korea	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1511732	1-0	0-0	20:45
+TSV: 1506108305	2026-03-31	international friendlies	Austria	South Korea	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	LOSS	FT	1511732	1-0	0-0	20:45
+TSV: 1506108305	2026-03-31	international friendlies	Austria	South Korea	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1511732	1-0	0-0	20:45
+TSV: 1506108305	2026-03-31	international friendlies	Austria	South Korea	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1511732	1-0	0-0	20:45
+TSV: 1798466423	2026-03-31	international friendlies	England	Japan	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1502473	0-1	0-1	20:45
+TSV: 1798466423	2026-03-31	international friendlies	England	Japan	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	GOOD_NO_BET	FT	1502473	0-1	0-1	20:45
+TSV: 1798466423	2026-03-31	international friendlies	England	Japan	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1502473	0-1	0-1	20:45
+TSV: 1798466423	2026-03-31	international friendlies	England	Japan	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1502473	0-1	0-1	20:45
+TSV: 1798466423	2026-03-31	international friendlies	England	Japan	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1502473	0-1	0-1	20:45
+TSV: 1798466423	2026-03-31	international friendlies	England	Japan	O25_FT	Over 2.5 (FT)	4.0	FORT	1	LOSS	FT	1502473	0-1	0-1	20:45
+TSV: 1798466423	2026-03-31	international friendlies	England	Japan	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1502473	0-1	0-1	20:45
+TSV: 1798466423	2026-03-31	international friendlies	England	Japan	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1502473	0-1	0-1	20:45
+TSV: 1919917037	2026-03-31	international friendlies	Netherlands	Ecuador	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1503007	1-1	1-1	20:45
+TSV: 1919917037	2026-03-31	international friendlies	Netherlands	Ecuador	HT1X_HOME	HT 1X Home	4.0	FORT	1	WIN	FT	1503007	1-1	1-1	20:45
+TSV: 1919917037	2026-03-31	international friendlies	Netherlands	Ecuador	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1503007	1-1	1-1	20:45
+TSV: 1919917037	2026-03-31	international friendlies	Netherlands	Ecuador	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1503007	1-1	1-1	20:45
+TSV: 1919917037	2026-03-31	international friendlies	Netherlands	Ecuador	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1503007	1-1	1-1	20:45
+TSV: 1919917037	2026-03-31	international friendlies	Netherlands	Ecuador	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1503007	1-1	1-1	20:45
+TSV: 1919917037	2026-03-31	international friendlies	Netherlands	Ecuador	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1503007	1-1	1-1	20:45
+TSV: 1919917037	2026-03-31	international friendlies	Netherlands	Ecuador	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1503007	1-1	1-1	20:45
+TSV: 560721987	2026-03-31	international friendlies	Rep. Of Ireland	FYR Macedonia	HT05	HT+0.5	6.0	TRÈS FORT	0	GOOD_NO_BET	FT	1538307	0-0	0-0	20:45
+TSV: 560721987	2026-03-31	international friendlies	Rep. Of Ireland	FYR Macedonia	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1538307	0-0	0-0	20:45
+TSV: 560721987	2026-03-31	international friendlies	Rep. Of Ireland	FYR Macedonia	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1538307	0-0	0-0	20:45
+TSV: 560721987	2026-03-31	international friendlies	Rep. Of Ireland	FYR Macedonia	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1538307	0-0	0-0	20:45
+TSV: 560721987	2026-03-31	international friendlies	Rep. Of Ireland	FYR Macedonia	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	LOSS	FT	1538307	0-0	0-0	20:45
+TSV: 560721987	2026-03-31	international friendlies	Rep. Of Ireland	FYR Macedonia	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	LOSS	FT	1538307	0-0	0-0	20:45
+TSV: 560721987	2026-03-31	international friendlies	Rep. Of Ireland	FYR Macedonia	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1538307	0-0	0-0	20:45
+TSV: 560721987	2026-03-31	international friendlies	Rep. Of Ireland	FYR Macedonia	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1538307	0-0	0-0	20:45
+TSV: 3771675027	2026-03-31	international friendlies	Slovakia	Romania	HT05	HT+0.5	6.0	TRÈS FORT	0	BAD_NO_BET	FT	1538308	2-0	1-0	20:45
+TSV: 3771675027	2026-03-31	international friendlies	Slovakia	Romania	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	BAD_NO_BET	FT	1538308	2-0	1-0	20:45
+TSV: 3771675027	2026-03-31	international friendlies	Slovakia	Romania	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1538308	2-0	1-0	20:45
+TSV: 3771675027	2026-03-31	international friendlies	Slovakia	Romania	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1538308	2-0	1-0	20:45
+TSV: 3771675027	2026-03-31	international friendlies	Slovakia	Romania	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	WIN	FT	1538308	2-0	1-0	20:45
+TSV: 3771675027	2026-03-31	international friendlies	Slovakia	Romania	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	LOSS	FT	1538308	2-0	1-0	20:45
+TSV: 3771675027	2026-03-31	international friendlies	Slovakia	Romania	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1538308	2-0	1-0	20:45
+TSV: 3771675027	2026-03-31	international friendlies	Slovakia	Romania	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1538308	2-0	1-0	20:45
+TSV: 2332703945	2026-03-31	international friendlies	Ukraine	Albania	HT05	HT+0.5	4.0	FORT	0	GOOD_NO_BET	FT	1537646	1-0	0-0	20:45
+TSV: 2332703945	2026-03-31	international friendlies	Ukraine	Albania	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	WIN	FT	1537646	1-0	0-0	20:45
+TSV: 2332703945	2026-03-31	international friendlies	Ukraine	Albania	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1537646	1-0	0-0	20:45
+TSV: 2332703945	2026-03-31	international friendlies	Ukraine	Albania	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	LOSS	FT	1537646	1-0	0-0	20:45
+TSV: 2332703945	2026-03-31	international friendlies	Ukraine	Albania	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	LOSS	FT	1537646	1-0	0-0	20:45
+TSV: 2332703945	2026-03-31	international friendlies	Ukraine	Albania	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	LOSS	FT	1537646	1-0	0-0	20:45
+TSV: 2332703945	2026-03-31	international friendlies	Ukraine	Albania	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1537646	1-0	0-0	20:45
+TSV: 2332703945	2026-03-31	international friendlies	Ukraine	Albania	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1537646	1-0	0-0	20:45
+TSV: 1330634213	2026-03-31	international friendlies	Wales	Northern Ireland	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1538309	1-1	0-1	20:45
+TSV: 1330634213	2026-03-31	international friendlies	Wales	Northern Ireland	HT1X_HOME	HT 1X Home	4.0	FORT	1	LOSS	FT	1538309	1-1	0-1	20:45
+TSV: 1330634213	2026-03-31	international friendlies	Wales	Northern Ireland	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1538309	1-1	0-1	20:45
+TSV: 1330634213	2026-03-31	international friendlies	Wales	Northern Ireland	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1538309	1-1	0-1	20:45
+TSV: 1330634213	2026-03-31	international friendlies	Wales	Northern Ireland	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1538309	1-1	0-1	20:45
+TSV: 1330634213	2026-03-31	international friendlies	Wales	Northern Ireland	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	LOSS	FT	1538309	1-1	0-1	20:45
+TSV: 1330634213	2026-03-31	international friendlies	Wales	Northern Ireland	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1538309	1-1	0-1	20:45
+TSV: 1330634213	2026-03-31	international friendlies	Wales	Northern Ireland	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1538309	1-1	0-1	20:45
+TSV: 1875856114	2026-03-31	uefa wc qualifiers	Bosnia & Herzegovina	Italy	HT05	HT+0.5	2.0	MOYEN	0	BAD_NO_BET	PEN	1537578	1-1	0-1	20:45
+TSV: 1875856114	2026-03-31	uefa wc qualifiers	Bosnia & Herzegovina	Italy	HT1X_HOME	HT 1X Home	0.0	KO	0	GOOD_NO_BET	PEN	1537578	1-1	0-1	20:45
+TSV: 1875856114	2026-03-31	uefa wc qualifiers	Bosnia & Herzegovina	Italy	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	PEN	1537578	1-1	0-1	20:45
+TSV: 1875856114	2026-03-31	uefa wc qualifiers	Bosnia & Herzegovina	Italy	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	WIN	PEN	1537578	1-1	0-1	20:45
+TSV: 1875856114	2026-03-31	uefa wc qualifiers	Bosnia & Herzegovina	Italy	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	PEN	1537578	1-1	0-1	20:45
+TSV: 1875856114	2026-03-31	uefa wc qualifiers	Bosnia & Herzegovina	Italy	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	PEN	1537578	1-1	0-1	20:45
+TSV: 1875856114	2026-03-31	uefa wc qualifiers	Bosnia & Herzegovina	Italy	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	PEN	1537578	1-1	0-1	20:45
+TSV: 1875856114	2026-03-31	uefa wc qualifiers	Bosnia & Herzegovina	Italy	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	PEN	1537578	1-1	0-1	20:45
+TSV: 4141116178	2026-03-31	uefa wc qualifiers	Czech Republic	Denmark	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	PEN	1537579	1-1	1-0	20:45
+TSV: 4141116178	2026-03-31	uefa wc qualifiers	Czech Republic	Denmark	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	PEN	1537579	1-1	1-0	20:45
+TSV: 4141116178	2026-03-31	uefa wc qualifiers	Czech Republic	Denmark	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	PEN	1537579	1-1	1-0	20:45
+TSV: 4141116178	2026-03-31	uefa wc qualifiers	Czech Republic	Denmark	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	PEN	1537579	1-1	1-0	20:45
+TSV: 4141116178	2026-03-31	uefa wc qualifiers	Czech Republic	Denmark	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	PEN	1537579	1-1	1-0	20:45
+TSV: 4141116178	2026-03-31	uefa wc qualifiers	Czech Republic	Denmark	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	LOSS	PEN	1537579	1-1	1-0	20:45
+TSV: 4141116178	2026-03-31	uefa wc qualifiers	Czech Republic	Denmark	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	PEN	1537579	1-1	1-0	20:45
+TSV: 4141116178	2026-03-31	uefa wc qualifiers	Czech Republic	Denmark	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	PEN	1537579	1-1	1-0	20:45
+TSV: 2607110108	2026-03-31	uefa wc qualifiers	Kosovo	Türkiye	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1537580	0-1	0-0	20:45
+TSV: 2607110108	2026-03-31	uefa wc qualifiers	Kosovo	Türkiye	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	WIN	FT	1537580	0-1	0-0	20:45
+TSV: 2607110108	2026-03-31	uefa wc qualifiers	Kosovo	Türkiye	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	LOSS	FT	1537580	0-1	0-0	20:45
+TSV: 2607110108	2026-03-31	uefa wc qualifiers	Kosovo	Türkiye	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1537580	0-1	0-0	20:45
+TSV: 2607110108	2026-03-31	uefa wc qualifiers	Kosovo	Türkiye	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	LOSS	FT	1537580	0-1	0-0	20:45
+TSV: 2607110108	2026-03-31	uefa wc qualifiers	Kosovo	Türkiye	O25_FT	Over 2.5 (FT)	4.0	FORT	1	LOSS	FT	1537580	0-1	0-0	20:45
+TSV: 2607110108	2026-03-31	uefa wc qualifiers	Kosovo	Türkiye	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1537580	0-1	0-0	20:45
+TSV: 2607110108	2026-03-31	uefa wc qualifiers	Kosovo	Türkiye	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1537580	0-1	0-0	20:45
+TSV: 1025423486	2026-03-31	uefa wc qualifiers	Sweden	Poland	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1537581	3-2	2-1	20:45
+TSV: 1025423486	2026-03-31	uefa wc qualifiers	Sweden	Poland	HT1X_HOME	HT 1X Home	1.0	FAIBLE	0	BAD_NO_BET	FT	1537581	3-2	2-1	20:45
+TSV: 1025423486	2026-03-31	uefa wc qualifiers	Sweden	Poland	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1537581	3-2	2-1	20:45
+TSV: 1025423486	2026-03-31	uefa wc qualifiers	Sweden	Poland	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	WIN	FT	1537581	3-2	2-1	20:45
+TSV: 1025423486	2026-03-31	uefa wc qualifiers	Sweden	Poland	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1537581	3-2	2-1	20:45
+TSV: 1025423486	2026-03-31	uefa wc qualifiers	Sweden	Poland	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1537581	3-2	2-1	20:45
+TSV: 1025423486	2026-03-31	uefa wc qualifiers	Sweden	Poland	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1537581	3-2	2-1	20:45
+TSV: 1025423486	2026-03-31	uefa wc qualifiers	Sweden	Poland	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1537581	3-2	2-1	20:45
+TSV: 959993013	2026-03-31	international friendlies	Brazil U20	Paraguay U20	HT05	HT+0.5	0.0	KO	0	BAD_NO_BET	FT	1537180	3-1	1-1	21:00
+TSV: 959993013	2026-03-31	international friendlies	Brazil U20	Paraguay U20	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1537180	3-1	1-1	21:00
+TSV: 959993013	2026-03-31	international friendlies	Brazil U20	Paraguay U20	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	WIN	FT	1537180	3-1	1-1	21:00
+TSV: 959993013	2026-03-31	international friendlies	Brazil U20	Paraguay U20	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1537180	3-1	1-1	21:00
+TSV: 959993013	2026-03-31	international friendlies	Brazil U20	Paraguay U20	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	WIN	FT	1537180	3-1	1-1	21:00
+TSV: 959993013	2026-03-31	international friendlies	Brazil U20	Paraguay U20	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1537180	3-1	1-1	21:00
+TSV: 959993013	2026-03-31	international friendlies	Brazil U20	Paraguay U20	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1537180	3-1	1-1	21:00
+TSV: 959993013	2026-03-31	international friendlies	Brazil U20	Paraguay U20	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1537180	3-1	1-1	21:00
+TSV: 1516042717	2026-03-31	international friendlies	Burkina Faso	Guinea-Bissau	HT05	HT+0.5	2.0	MOYEN	0	GOOD_NO_BET	FT	1537179	1-1	0-0	21:00
+TSV: 1516042717	2026-03-31	international friendlies	Burkina Faso	Guinea-Bissau	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1537179	1-1	0-0	21:00
+TSV: 1516042717	2026-03-31	international friendlies	Burkina Faso	Guinea-Bissau	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1537179	1-1	0-0	21:00
+TSV: 1516042717	2026-03-31	international friendlies	Burkina Faso	Guinea-Bissau	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1537179	1-1	0-0	21:00
+TSV: 1516042717	2026-03-31	international friendlies	Burkina Faso	Guinea-Bissau	O15_FT	Over 1.5 (FT)	4.0	FORT	1	WIN	FT	1537179	1-1	0-0	21:00
+TSV: 1516042717	2026-03-31	international friendlies	Burkina Faso	Guinea-Bissau	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1537179	1-1	0-0	21:00
+TSV: 1516042717	2026-03-31	international friendlies	Burkina Faso	Guinea-Bissau	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1537179	1-1	0-0	21:00
+TSV: 1516042717	2026-03-31	international friendlies	Burkina Faso	Guinea-Bissau	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1537179	1-1	0-0	21:00
+TSV: 3947410683	2026-03-31	international friendlies	Senegal	Gambia	HT05	HT+0.5	6.0	TRÈS FORT	0	BAD_NO_BET	FT	1528279	3-1	1-0	21:00
+TSV: 3947410683	2026-03-31	international friendlies	Senegal	Gambia	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	WIN	FT	1528279	3-1	1-0	21:00
+TSV: 3947410683	2026-03-31	international friendlies	Senegal	Gambia	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1528279	3-1	1-0	21:00
+TSV: 3947410683	2026-03-31	international friendlies	Senegal	Gambia	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1528279	3-1	1-0	21:00
+TSV: 3947410683	2026-03-31	international friendlies	Senegal	Gambia	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1528279	3-1	1-0	21:00
+TSV: 3947410683	2026-03-31	international friendlies	Senegal	Gambia	O25_FT	Over 2.5 (FT)	4.0	FORT	1	WIN	FT	1528279	3-1	1-0	21:00
+TSV: 3947410683	2026-03-31	international friendlies	Senegal	Gambia	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1528279	3-1	1-0	21:00
+TSV: 3947410683	2026-03-31	international friendlies	Senegal	Gambia	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1528279	3-1	1-0	21:00
+TSV: 435501788	2026-03-31	international friendlies	Spain	Egypt	HT05	HT+0.5	5.0	FORT PLUS	0	GOOD_NO_BET	FT	1511778	0-0	0-0	21:00
+TSV: 435501788	2026-03-31	international friendlies	Spain	Egypt	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1511778	0-0	0-0	21:00
+TSV: 435501788	2026-03-31	international friendlies	Spain	Egypt	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	LOSS	FT	1511778	0-0	0-0	21:00
+TSV: 435501788	2026-03-31	international friendlies	Spain	Egypt	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1511778	0-0	0-0	21:00
+TSV: 435501788	2026-03-31	international friendlies	Spain	Egypt	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	LOSS	FT	1511778	0-0	0-0	21:00
+TSV: 435501788	2026-03-31	international friendlies	Spain	Egypt	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	LOSS	FT	1511778	0-0	0-0	21:00
+TSV: 435501788	2026-03-31	international friendlies	Spain	Egypt	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1511778	0-0	0-0	21:00
+TSV: 435501788	2026-03-31	international friendlies	Spain	Egypt	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1511778	0-0	0-0	21:00
+TSV: 3206853610	2026-03-31	laliga2	Valladolid	Cadiz	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1392122	3-0	2-0	21:30
+TSV: 3206853610	2026-03-31	laliga2	Valladolid	Cadiz	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1392122	3-0	2-0	21:30
+TSV: 3206853610	2026-03-31	laliga2	Valladolid	Cadiz	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1392122	3-0	2-0	21:30
+TSV: 3206853610	2026-03-31	laliga2	Valladolid	Cadiz	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1392122	3-0	2-0	21:30
+TSV: 3206853610	2026-03-31	laliga2	Valladolid	Cadiz	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	WIN	FT	1392122	3-0	2-0	21:30
+TSV: 3206853610	2026-03-31	laliga2	Valladolid	Cadiz	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1392122	3-0	2-0	21:30
+TSV: 3206853610	2026-03-31	laliga2	Valladolid	Cadiz	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1392122	3-0	2-0	21:30
+TSV: 3206853610	2026-03-31	laliga2	Valladolid	Cadiz	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1392122	3-0	2-0	21:30
+TSV: 3971025394	2026-03-31	primera división paraguay	2 de Mayo	Nacional Asuncion	HT05	HT+0.5	2.0	MOYEN	0	BAD_NO_BET	FT	1505037	1-1	1-0	23:30
+TSV: 3971025394	2026-03-31	primera división paraguay	2 de Mayo	Nacional Asuncion	HT1X_HOME	HT 1X Home	4.0	FORT	1	WIN	FT	1505037	1-1	1-0	23:30
+TSV: 3971025394	2026-03-31	primera división paraguay	2 de Mayo	Nacional Asuncion	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1505037	1-1	1-0	23:30
+TSV: 3971025394	2026-03-31	primera división paraguay	2 de Mayo	Nacional Asuncion	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1505037	1-1	1-0	23:30
+TSV: 3971025394	2026-03-31	primera división paraguay	2 de Mayo	Nacional Asuncion	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	WIN	FT	1505037	1-1	1-0	23:30
+TSV: 3971025394	2026-03-31	primera división paraguay	2 de Mayo	Nacional Asuncion	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1505037	1-1	1-0	23:30
+TSV: 3971025394	2026-03-31	primera división paraguay	2 de Mayo	Nacional Asuncion	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505037	1-1	1-0	23:30
+TSV: 3971025394	2026-03-31	primera división paraguay	2 de Mayo	Nacional Asuncion	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1505037	1-1	1-0	23:30

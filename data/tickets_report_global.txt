@@ -1668,3 +1668,24 @@ Aucun ticket.
   1) 03:30 | primera a colombia | Llaneros vs Once Caldas | HT 1X Home | FORT | odd=1.38
   2) 14:00 | international friendlies | Russia U21 vs Jordan U23 | HT+0.5 | MEGA EXPLOSION | odd=1.43
   3) 18:00 | international friendlies | Cyprus vs Moldova | HT+0.5 | MEGA EXPLOSION | odd=1.35
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-04-02 07:21:36 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-31_0320_e551181522_SYS — cote = 2.44 — fenêtre 03:20 → 15:25  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 03:20 | primera a colombia | Millonarios vs Fortaleza FC | Over 1.5 (FT) | TRÈS FORT | odd=1.3
+  2) 09:00 | international friendlies | Korea DPR U23 vs Thailand U23 | Over 1.5 (FT) | FORT PLUS | odd=1.34
+  3) 13:35 | international friendlies | China PR U23 vs Vietnam U23 | Over 1.5 (FT) | FORT | odd=1.4
+
+📅 Mardi 2026-03-31 — Tranche 2 (fenêtre ~30min)
+-----------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-03-31_1900_d2ffed7c59_SYS — cote = 2.56 — fenêtre 19:00 → 21:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 19:00 | liga profesional argentina | Aldosivi vs Argentinos JRS | HT 1X Home | FORT | odd=1.45
+  2) 19:30 | international friendlies | Haiti vs Iceland | HT+0.5 | MEGA EXPLOSION | odd=1.36
+  3) 19:30 | international friendlies | Jordan vs Nigeria | Over 1.5 (FT) | TRÈS FORT | odd=1.3
