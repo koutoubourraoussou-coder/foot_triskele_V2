@@ -1,10 +1,10 @@
 """
 compare_variants.py
 --------------------
-Compare deux variantes d'un profil en tête-à-tête avec Monte Carlo.
+Compare N variantes d'un profil en parallèle avec Monte Carlo.
 
 Usage :
-    python -u compare_variants.py --runs 50 --jobs 6
+    python -u compare_variants.py --runs 100 --jobs 6
 """
 from __future__ import annotations
 
@@ -16,7 +16,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 from dataclasses import replace
 from datetime import date
 from pathlib import Path
-from typing import List, Tuple
+from typing import List
 
 from services.ticket_optimizer import (
     DEFAULT_ARCHIVE_DIR,
@@ -37,13 +37,12 @@ BANKROLL0  = 100.0
 MAX_LOSSES = 4
 
 # =========================================================
-# DÉFINITION DES VARIANTES
-# Modifier ici pour changer ce qu'on compare.
+# CHARGEMENT BASE — Amélioré #1
 # =========================================================
-def _load_profile1() -> BuilderTuning:
+def _load_ameliore1() -> BuilderTuning:
     raw = json.loads(ALL_PROFILES_PATH.read_text(encoding="utf-8"))
     t   = sorted(raw, key=lambda p: p.get("rank_score", -1e9), reverse=True)[0]["tuning"]
-    return BuilderTuning(
+    base = BuilderTuning(
         global_bet_min_decided    = t.get("global_bet_min_decided",     10),
         global_bet_min_winrate    = t.get("global_bet_min_winrate",     0.62),
         league_bet_min_winrate    = t.get("league_bet_min_winrate",     0.65),
@@ -77,20 +76,27 @@ def _load_profile1() -> BuilderTuning:
         random_build_source       = t.get("random_build_source",        "TEAM"),
         random_select_source      = t.get("random_select_source",       "TEAM"),
     )
+    # Améliorations confirmées
+    return replace(base,
+        two_team_high          = 0.90,
+        global_bet_min_winrate = 0.65,
+        league_bet_require_data= False,
+        league_bet_min_winrate = 0.60,
+    )
 
 
-# Améliorations déjà appliquées → base = Amélioré #1
-AMELIORE_OVERRIDES = {
-    "two_team_high":          0.90,
-    "global_bet_min_winrate": 0.65,
-    "league_bet_require_data": False,
-    "league_bet_min_winrate": 0.60,
-}
-
-# Super Fusion = Amélioré #1 + exclusion des paris victoire équipe
-SUPER_FUSION_EXTRA = {
-    "excluded_bet_groups": frozenset(["TEAM1_WIN_FT", "TEAM2_WIN_FT"]),
-}
+# =========================================================
+# DÉFINITION DES VARIANTES
+# =========================================================
+def _build_variants(base: BuilderTuning):
+    return [
+        ("TEAM/TEAM   (champion actuel)",
+         base),
+        ("LEAGUE/TEAM",
+         replace(base, random_build_source="LEAGUE", random_select_source="TEAM")),
+        ("LEAGUE/HYBRID α=0.6",
+         replace(base, random_build_source="LEAGUE", random_select_source="HYBRID", hybrid_alpha=0.6)),
+    ]
 
 
 # =========================================================
@@ -188,6 +194,10 @@ def _aggregate(seqs):
     }
 
 
+def _score(mc):
+    return mc["safe"]["multiple"]["mean"] * 0.5 + mc["win_rate"]["mean"] * 0.3 - mc["safe"]["ruine_pct"] * 0.01
+
+
 def _render(mc: dict, label: str) -> List[str]:
     n  = mc["n_runs"]
     wr = mc["win_rate"]
@@ -221,38 +231,32 @@ def _render(mc: dict, label: str) -> List[str]:
     ]
 
 
-def _winner_line(mc_a, mc_b, label_a, label_b) -> str:
-    score_a = mc_a["safe"]["multiple"]["mean"] * 0.5 + mc_a["win_rate"]["mean"] * 0.3 - mc_a["safe"]["ruine_pct"] * 0.01
-    score_b = mc_b["safe"]["multiple"]["mean"] * 0.5 + mc_b["win_rate"]["mean"] * 0.3 - mc_b["safe"]["ruine_pct"] * 0.01
-    if score_a > score_b:
-        return f"  ★ GAGNANT : {label_a}  (score={score_a:.3f} vs {score_b:.3f}, +{score_a-score_b:.3f})"
-    elif score_b > score_a:
-        return f"  ★ GAGNANT : {label_b}  (score={score_b:.3f} vs {score_a:.3f}, +{score_b-score_a:.3f})"
-    else:
-        return f"  = EGALITE"
+def _verdict_ranking(mcs_indexed, mode_label) -> List[str]:
+    ranked = sorted(mcs_indexed, key=lambda x: _score(x[1]), reverse=True)
+    lines = [f"  VERDICT {mode_label}"]
+    for rank, (name, mc) in enumerate(ranked, 1):
+        s = _score(mc)
+        marker = "★" if rank == 1 else f"#{rank}"
+        lines.append(f"  {marker} {name}  (score={s:.3f})")
+    return lines
 
 
 # =========================================================
 # MAIN
 # =========================================================
 def main():
-    parser = argparse.ArgumentParser(description="Comparaison tête-à-tête de deux variantes du profil #1")
+    parser = argparse.ArgumentParser(description="Comparaison random_build/select_source : 3 variantes")
     parser.add_argument("--archive-dir", type=Path, default=DEFAULT_ARCHIVE_DIR)
-    parser.add_argument("--runs",  type=int, default=50)
+    parser.add_argument("--runs",  type=int, default=100)
     parser.add_argument("--jobs",  type=int, default=DEFAULT_JOBS)
     args = parser.parse_args()
 
-    base     = _load_profile1()
-    ameliore = replace(base, **AMELIORE_OVERRIDES)
-    fusion   = replace(ameliore, **SUPER_FUSION_EXTRA)
+    base     = _load_ameliore1()
+    variants = _build_variants(base)
 
-    variants = [
-        ("AMÉLIORÉ #1  (champion actuel)", ameliore),
-        ("SUPER FUSION (+ excl. WIN_FT)",  fusion),
-    ]
-
-    print(f"[compare] Amélioré #1 vs Super Fusion")
-    print(f"[compare] Différence : {SUPER_FUSION_EXTRA}")
+    print(f"[compare] RANDOM build/select source — 3 variantes")
+    for name, _ in variants:
+        print(f"  · {name}")
 
     datasets = discover_datasets(args.archive_dir, max_days=None)
     print(f"[compare] {len(datasets)} jours  |  {args.runs} runs/variante  |  {args.jobs} jobs")
@@ -291,19 +295,21 @@ def main():
     print(f"\n[compare] Terminé en {(time.time()-start)/60:.1f}min\n")
 
     lines = [
-        f"COMPARAISON AMÉLIORÉ #1 vs SUPER FUSION",
+        f"COMPARAISON RANDOM BUILD/SELECT SOURCE",
         f"Date : {date.today()}  |  {args.runs} runs/variante  |  {len(datasets)} jours",
-        f"Différence Super Fusion vs Amélioré #1 :",
-        f"  excluded_bet_groups : ∅  →  {{TEAM1_WIN_FT, TEAM2_WIN_FT}}",
+        f"Base : Amélioré #1  |  3 variantes RANDOM testées",
         "=" * 70, "",
     ]
 
-    mcs = []
+    mcs_sys = []
+    mcs_rnd = []
+
     for vi, (vname, _) in enumerate(variants):
         sys_seqs, rnd_seqs = raw[vi]
         mc_sys = _aggregate(sys_seqs)
         mc_rnd = _aggregate(rnd_seqs)
-        mcs.append((mc_sys, mc_rnd))
+        mcs_sys.append((vname, mc_sys))
+        mcs_rnd.append((vname, mc_rnd))
 
         lines.append(f"{'─'*70}")
         lines.append(f"  {vname}")
@@ -314,17 +320,15 @@ def main():
         lines.append("")
 
     lines.append("=" * 70)
-    lines.append("  VERDICT SYSTEM")
-    lines.append(_winner_line(mcs[0][0], mcs[1][0], "AMÉLIORÉ #1", "SUPER FUSION"))
+    lines.extend(_verdict_ranking(mcs_sys, "SYSTEM"))
     lines.append("")
-    lines.append("  VERDICT RANDOM")
-    lines.append(_winner_line(mcs[0][1], mcs[1][1], "AMÉLIORÉ #1", "SUPER FUSION"))
+    lines.extend(_verdict_ranking(mcs_rnd, "RANDOM"))
     lines.append("")
 
     output = "\n".join(lines)
     print(output)
 
-    out_path = OUTPUT_DIR / f"compare_ameliore_vs_fusion_{date.today()}_{args.runs}runs.txt"
+    out_path = OUTPUT_DIR / f"compare_random_source_{date.today()}_{args.runs}runs.txt"
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     out_path.write_text(output, encoding="utf-8")
     print(f"\n[compare] Résultats écrits dans {out_path}")
