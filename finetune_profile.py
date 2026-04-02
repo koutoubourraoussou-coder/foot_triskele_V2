@@ -52,9 +52,9 @@ PARAM_GRID: List[Tuple[str, List[Any]]] = [
     # Sources & modes
     ("league_ranking_mode",       ["CLASSIC", "COMPOSITE"]),
     ("team_ranking_mode",         ["CLASSIC", "COMPOSITE"]),
-    ("system_build_source",       ["LEAGUE", "TEAM"]),
+    ("system_build_source",       ["LEAGUE", "TEAM", "HYBRID"]),
     ("system_select_source",      ["LEAGUE", "TEAM", "HYBRID"]),
-    ("random_build_source",       ["LEAGUE", "TEAM"]),
+    ("random_build_source",       ["LEAGUE", "TEAM", "HYBRID"]),
     ("random_select_source",      ["LEAGUE", "TEAM", "HYBRID"]),
     # Scoring hybride
     ("hybrid_alpha",              [0.2, 0.4, 0.6, 0.8]),
@@ -67,7 +67,7 @@ PARAM_GRID: List[Tuple[str, List[Any]]] = [
     ("two_team_high",             [0.75, 0.80, 0.85, 0.90]),
     ("two_team_low",              [0.60, 0.66, 0.70, 0.75]),
     # Filtres ligues
-    ("global_bet_min_winrate",    [0.58, 0.62, 0.65, 0.68]),
+    ("global_bet_min_winrate",    [0.50, 0.55, 0.60, 0.65, 0.70]),
     ("global_bet_min_decided",    [5, 8, 10, 15]),
     ("league_bet_min_winrate",    [0.60, 0.65, 0.70]),
     ("league_bet_require_data",   [True, False]),

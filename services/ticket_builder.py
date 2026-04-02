@@ -127,7 +127,7 @@ LEAGUE_RANKING_MODE = "CLASSIC"
 TEAM_RANKING_MODE   = "COMPOSITE"
 
 # ✅ Quel rideau on utilise pour chaque phase
-# options: "LEAGUE" | "TEAM"
+# options: "LEAGUE" | "TEAM" | "HYBRID"
 SYSTEM_BUILD_SOURCE  = "LEAGUE"   # génération des tickets SYSTEM
 SYSTEM_SELECT_SOURCE = "HYBRID"   # sélection finale des meilleurs tickets SYSTEM  ("LEAGUE" | "TEAM" | "HYBRID")
 
@@ -204,9 +204,9 @@ class BuilderTuning:
     # Source des rankings (pilotable par l'optimizer)
     league_ranking_mode: str = LEAGUE_RANKING_MODE    # "CLASSIC" | "COMPOSITE"
     team_ranking_mode: str = TEAM_RANKING_MODE        # "CLASSIC" | "COMPOSITE"
-    system_build_source: str = SYSTEM_BUILD_SOURCE    # "LEAGUE" | "TEAM"
+    system_build_source: str = SYSTEM_BUILD_SOURCE    # "LEAGUE" | "TEAM" | "HYBRID"
     system_select_source: str = SYSTEM_SELECT_SOURCE  # "LEAGUE" | "TEAM" | "HYBRID"
-    random_build_source: str = RANDOM_BUILD_SOURCE    # "LEAGUE" | "TEAM"
+    random_build_source: str = RANDOM_BUILD_SOURCE    # "LEAGUE" | "TEAM" | "HYBRID"
     random_select_source: str = RANDOM_SELECT_SOURCE  # "LEAGUE" | "TEAM"
 
     # HYBRID SELECT : poids relatif league vs team (0=pur team, 1=pur league)
@@ -1300,10 +1300,17 @@ def _system_generation_weight(
     league_bet: Optional[dict],
     team_bet: Optional[dict],
 ) -> float:
-    src = (T().system_build_source or "").strip().upper()
+    cfg = T()
+    src = (cfg.system_build_source or "").strip().upper()
 
     if src == "TEAM":
         return _system_priority_weight_team(p, team_bet)
+
+    if src == "HYBRID":
+        w_league = _system_priority_weight_league(p, league_bet)
+        w_team   = _system_priority_weight_team(p, team_bet)
+        alpha    = cfg.hybrid_alpha
+        return alpha * w_league + (1.0 - alpha) * w_team
 
     return _system_priority_weight_league(p, league_bet)
 
@@ -1655,6 +1662,7 @@ def filter_effective_random_pool(
     Pilotable via RANDOM_BUILD_SOURCE :
     - LEAGUE -> gate build sur league x bet
     - TEAM   -> gate build sur team x bet
+    - HYBRID -> blending alpha*league + (1-alpha)*team >= seuil
     """
     cfg = T()
     out: List[Pick] = []
@@ -1671,16 +1679,59 @@ def filter_effective_random_pool(
             for team in teams:
                 vals.append(_team_rate(team_bet, team, lg, fam))
 
-            usable = [(wr, dec) for wr, dec in vals if dec > 0 and wr is not None]
+            # Seulement les équipes avec assez de données (team_min_decided)
+            reliable = [(wr, dec) for wr, dec in vals
+                        if wr is not None and dec >= cfg.team_min_decided]
 
-            if not usable:
+            if not reliable:
+                # Aucune équipe n'a assez d'historique → no data → accepter
                 if cfg.league_bet_require_data:
                     continue
                 out.append(p)
                 continue
 
-            min_wr = min(float(wr) for wr, _dec in usable)
+            # Minimum des équipes fiables uniquement
+            min_wr = min(float(wr) for wr, _ in reliable)
             if min_wr >= float(cfg.league_bet_min_winrate):
+                out.append(p)
+            continue
+
+        if build_src == "HYBRID":
+            alpha = cfg.hybrid_alpha
+            # Score ligue
+            lg_wr, lg_dec = _league_bet_rate(league_bet, lg, fam)
+            if lg_wr is not None and lg_dec > 0:
+                c_lg = _confidence_coef(int(lg_dec), n_full=5, base=0.70)
+                score_league = float(lg_wr) * c_lg
+            else:
+                score_league = None
+
+            # Score équipe (min des équipes concernées)
+            teams = _pick_primary_teams(p)
+            team_vals = [(wr, dec) for wr, dec in [_team_rate(team_bet, t, lg, fam) for t in teams]
+                         if dec > 0 and wr is not None]
+            if team_vals:
+                min_wr_t = min(float(wr) for wr, _ in team_vals)
+                c_t = _confidence_coef(int(min(dec for _, dec in team_vals)), n_full=5, base=0.70)
+                score_team = min_wr_t * c_t
+            else:
+                score_team = None
+
+            # Blending avec fallback
+            if score_league is not None and score_team is not None:
+                hybrid_score = alpha * score_league + (1.0 - alpha) * score_team
+            elif score_league is not None:
+                hybrid_score = score_league
+            elif score_team is not None:
+                hybrid_score = score_team
+            else:
+                # Aucune donnée
+                if cfg.league_bet_require_data:
+                    continue
+                out.append(p)
+                continue
+
+            if hybrid_score >= float(cfg.league_bet_min_winrate):
                 out.append(p)
             continue
 
@@ -2036,18 +2087,54 @@ def _random_reject_reason(
             wr, dec = _team_rate(team_bet, team, lg, fam)
             vals.append((team, wr, dec))
 
-        usable = [(team, wr, dec) for team, wr, dec in vals if dec > 0 and wr is not None]
+        reliable = [(team, wr, dec) for team, wr, dec in vals
+                    if wr is not None and dec >= cfg.team_min_decided]
 
-        if not usable:
+        if not reliable:
             if cfg.league_bet_require_data:
                 return f"RANDOM_TEAM_NO_DATA | league={lg} bet={fam} teams={[t for t in teams]} (require_data={cfg.league_bet_require_data})"
             return None
 
-        min_team, min_wr, min_dec = min(usable, key=lambda x: float(x[1]))
+        min_team, min_wr, min_dec = min(reliable, key=lambda x: float(x[1]))
         if float(min_wr) < float(cfg.league_bet_min_winrate):
+            detail = " | ".join(f"{t}={float(w):.2f}({d}j)" for t, w, d in reliable)
             return (
                 f"RANDOM_TEAM_LOW_SR | league={lg} bet={fam} "
-                f"team={min_team} wr={float(min_wr):.2f} decided={int(min_dec)} "
+                f"min={min_team} wr={float(min_wr):.2f} [{detail}] "
+                f"(min_wr={cfg.league_bet_min_winrate:.2f})"
+            )
+        return None
+
+    if build_src == "HYBRID":
+        alpha = cfg.hybrid_alpha
+        lg_wr, lg_dec = _league_bet_rate(league_bet, lg, fam)
+        score_league = float(lg_wr) * _confidence_coef(int(lg_dec), n_full=5, base=0.70) if (lg_wr is not None and lg_dec > 0) else None
+
+        teams = _pick_primary_teams(p)
+        team_vals = [(wr, dec) for wr, dec in [_team_rate(team_bet, t, lg, fam) for t in teams]
+                     if dec > 0 and wr is not None]
+        if team_vals:
+            min_wr_t = min(float(wr) for wr, _ in team_vals)
+            c_t = _confidence_coef(int(min(dec for _, dec in team_vals)), n_full=5, base=0.70)
+            score_team = min_wr_t * c_t
+        else:
+            score_team = None
+
+        if score_league is not None and score_team is not None:
+            hybrid_score = alpha * score_league + (1.0 - alpha) * score_team
+        elif score_league is not None:
+            hybrid_score = score_league
+        elif score_team is not None:
+            hybrid_score = score_team
+        else:
+            if cfg.league_bet_require_data:
+                return f"RANDOM_HYBRID_NO_DATA | league={lg} bet={fam}"
+            return None
+
+        if hybrid_score < float(cfg.league_bet_min_winrate):
+            return (
+                f"RANDOM_HYBRID_LOW_SR | league={lg} bet={fam} "
+                f"hybrid_score={hybrid_score:.2f} (alpha={alpha:.1f} lg={score_league} team={score_team}) "
                 f"(min_wr={cfg.league_bet_min_winrate:.2f})"
             )
         return None

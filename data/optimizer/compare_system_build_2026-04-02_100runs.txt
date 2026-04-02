@@ -1,0 +1,95 @@
+COMPARAISON RANDOM BUILD/SELECT SOURCE
+Date : 2026-04-02  |  100 runs/variante  |  61 jours
+Base : Amélioré #1  |  3 variantes RANDOM testées
+======================================================================
+
+──────────────────────────────────────────────────────────────────────
+  Amélioré #1  (LEAGUE build SYSTEM)
+──────────────────────────────────────────────────────────────────────
+  [SYSTEM]  100 runs
+    Tickets/run      : moy=86.1  min=83  max=90
+    Win rate         : moy=0.683  min=0.598  max=0.759  σ=0.034
+    Pire série L     : moy=2.9  max_absolu=6  (pire run jamais vu)
+    Meill. série V   : moy=8.3  max_absolu=16  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=828.30  min=0.00  max=1577.91  σ=413.44
+      Profit (€)     : moy=82730.24  min=-100.00  max=157691.50  σ=41344.21
+      Pire série L   : moy=2.9  min=2.0  max=5.0  σ=0.7
+      Ruine          : 13%  (13/100 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=31.43  min=20.45  max=37.64  σ=3.72
+      Profit (€)     : moy=3042.98  min=1944.75  max=3663.67  σ=371.65
+      Pire série L   : moy=2.9  min=2.0  max=5.0  σ=0.7
+      Doublings/run  : moy=8.6  min=7  max=9
+      Ruine          : 0%  (0/100 runs)
+
+  [RANDOM]  100 runs
+    Tickets/run      : moy=70.5  min=68  max=74
+    Win rate         : moy=0.688  min=0.620  max=0.764  σ=0.033
+    Pire série L     : moy=3.3  max_absolu=6  (pire run jamais vu)
+    Meill. série V   : moy=9.8  max_absolu=23  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=970.91  min=0.00  max=3947.47  σ=954.11
+      Profit (€)     : moy=96990.69  min=-100.00  max=394647.35  σ=95411.12
+      Pire série L   : moy=3.2  min=2.0  max=5.0  σ=0.8
+      Ruine          : 25%  (25/100 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=43.48  min=2.35  max=179.16  σ=25.44
+      Profit (€)     : moy=4248.50  min=134.60  max=17816.05  σ=2544.09
+      Pire série L   : moy=3.2  min=2.0  max=5.0  σ=0.8
+      Doublings/run  : moy=6.8  min=2  max=8
+      Ruine          : 0%  (0/100 runs)
+
+──────────────────────────────────────────────────────────────────────
+  TEAM build SYSTEM
+──────────────────────────────────────────────────────────────────────
+  [SYSTEM]  100 runs
+    Tickets/run      : moy=86.1  min=82  max=90
+    Win rate         : moy=0.679  min=0.605  max=0.784  σ=0.040
+    Pire série L     : moy=3.0  max_absolu=6  (pire run jamais vu)
+    Meill. série V   : moy=8.1  max_absolu=15  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=832.47  min=0.00  max=1799.88  σ=451.22
+      Profit (€)     : moy=83146.55  min=-100.00  max=179888.31  σ=45121.56
+      Pire série L   : moy=2.9  min=2.0  max=5.0  σ=0.7
+      Ruine          : 15%  (15/100 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=31.10  min=12.29  max=39.34  σ=5.14
+      Profit (€)     : moy=3010.40  min=1128.88  max=3833.83  σ=514.30
+      Pire série L   : moy=2.9  min=2.0  max=5.0  σ=0.7
+      Doublings/run  : moy=8.6  min=6  max=10
+      Ruine          : 0%  (0/100 runs)
+
+  [RANDOM]  100 runs
+    Tickets/run      : moy=70.7  min=69  max=73
+    Win rate         : moy=0.692  min=0.592  max=0.771  σ=0.036
+    Pire série L     : moy=3.2  max_absolu=6  (pire run jamais vu)
+    Meill. série V   : moy=9.9  max_absolu=19  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=965.87  min=0.00  max=2711.91  σ=786.58
+      Profit (€)     : moy=96487.09  min=-100.00  max=271091.39  σ=78658.33
+      Pire série L   : moy=3.1  min=2.0  max=5.0  σ=0.9
+      Ruine          : 23%  (23/100 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=41.85  min=2.40  max=110.52  σ=16.22
+      Profit (€)     : moy=4084.54  min=139.56  max=10951.55  σ=1622.12
+      Pire série L   : moy=3.1  min=2.0  max=5.0  σ=0.8
+      Doublings/run  : moy=7.3  min=2  max=8
+      Ruine          : 0%  (0/100 runs)
+
+======================================================================
+  VERDICT SYSTEM
+  ★ Amélioré #1  (LEAGUE build SYSTEM)  (score=15.920)
+  #2 TEAM build SYSTEM  (score=15.756)
+
+  VERDICT RANDOM
+  ★ Amélioré #1  (LEAGUE build SYSTEM)  (score=21.949)
+  #2 TEAM build SYSTEM  (score=21.130)

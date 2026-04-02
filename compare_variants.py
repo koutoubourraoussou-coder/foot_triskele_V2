@@ -90,12 +90,10 @@ def _load_ameliore1() -> BuilderTuning:
 # =========================================================
 def _build_variants(base: BuilderTuning):
     return [
-        ("TEAM/TEAM   (champion actuel)",
+        ("Amélioré #1  (LEAGUE build SYSTEM)",
          base),
-        ("LEAGUE/TEAM",
-         replace(base, random_build_source="LEAGUE", random_select_source="TEAM")),
-        ("LEAGUE/HYBRID α=0.6",
-         replace(base, random_build_source="LEAGUE", random_select_source="HYBRID", hybrid_alpha=0.6)),
+        ("TEAM build SYSTEM",
+         replace(base, system_build_source="TEAM")),
     ]
 
 
@@ -254,7 +252,7 @@ def main():
     base     = _load_ameliore1()
     variants = _build_variants(base)
 
-    print(f"[compare] RANDOM build/select source — 3 variantes")
+    print(f"[compare] system_build_source : LEAGUE vs TEAM")
     for name, _ in variants:
         print(f"  · {name}")
 
@@ -328,7 +326,7 @@ def main():
     output = "\n".join(lines)
     print(output)
 
-    out_path = OUTPUT_DIR / f"compare_random_source_{date.today()}_{args.runs}runs.txt"
+    out_path = OUTPUT_DIR / f"compare_system_build_{date.today()}_{args.runs}runs.txt"
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     out_path.write_text(output, encoding="utf-8")
     print(f"\n[compare] Résultats écrits dans {out_path}")
