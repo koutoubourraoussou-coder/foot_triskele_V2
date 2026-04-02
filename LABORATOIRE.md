@@ -194,7 +194,24 @@ Point fort : **WR 78.3% en SYSTEM**, 0% ruine partout. Très stable, bonne régu
 - Script : `compare_variants.py`, 200 runs chacun
 - SYSTEM : tie (0.033 d'écart)
 - RANDOM : Super Fusion +7.5% SAFE mult (×49.07 vs ×45.63)
-- **Super Fusion désigné nouveau champion, appliqué dans ticket_builder.py**
+- **Décision : revert vers Amélioré #1** — le gain était du bruit (excluded_bet_groups n'affecte pas le pool RANDOM qui est O15-only via filter_o15_random_all)
+
+### Phase 7 — Correctif filtre RANDOM pool (2026-04-02)
+- **Problème identifié** : `filter_effective_random_pool` en mode TEAM prenait le minimum de TOUTES les équipes, y compris celles avec < 1 match. Une équipe avec 1 défaite (ex. Coritiba 0/1 = 0% WR) bloquait tous les picks d'un match, même avec d'autres équipes fiables.
+- **Correction appliquée** (`services/ticket_builder.py`) :
+  - Mode TEAM : ne considère que les équipes avec ≥ `team_min_decided` matchs (6 par défaut)
+  - Prend le **minimum** des équipes fiables uniquement
+  - Si aucune équipe n'a assez de données → accepter (pas de données = pas de blocage)
+- **Paramètre** : `team_min_decided=6` (déjà dans Amélioré #1, maintenant effectif dans le filtre)
+- **Résultats validés** (100 runs, 61 jours, compare_pool_filter_2026-04-02_100runs.txt) :
+
+| Mode | Ancien filtre (min=1) | Nouveau filtre (min=6) | Gain |
+|------|-----------------------|------------------------|------|
+| SYSTEM SAFE | ×31.89, 0% ruine | ×31.20, 0% ruine | −2.2% (stable) |
+| RANDOM SAFE | ×44.29, 0% ruine | **×67.48**, 0% ruine | **+52%** |
+
+- **Champion actuel : Amélioré #1 avec team_min_decided=6 (filtre corrigé)**
+- Stratégie recommandée : **RANDOM SAFE** en principal (×67.48 moy, 0% ruine), SYSTEM SAFE en parallèle, NORMALE pour fun mensuel
 
 ---
 
@@ -217,12 +234,12 @@ inévitable sur 60+ jours. La martingale SAFE résout ce problème en bankant le
 
 ---
 
-## PROCHAINES PISTES — Super Fusion +
+## PROCHAINES PISTES — Amélioré #1 + filtre corrigé
 
 Le champion actuel est stabilisé. Pistes si on veut aller plus loin :
-- Tester `system_select_source=TEAM` (comme #2/#3) en base Super Fusion
-- Tester `random_build_source=LEAGUE` (comme #2) — attention, le run avec mauvaise base le montrait gagnant, mais avec bonne base il perdait
-- Tester `topk_size=5` combiné à l'exclusion WIN_FT
+- Tester `global_bet_min_winrate=0.5` (finetune montre +1.459 mais signal à confirmer à 100 runs)
+- Tester `system_build_source=TEAM` vs LEAGUE (finetune +1.249 à 20 runs, effacé à 100 runs → bruit probable)
+- Tester d'autres championnats dans le pool RANDOM pour augmenter le volume
 
 ---
 
@@ -243,4 +260,4 @@ Le champion actuel est stabilisé. Pistes si on veut aller plus loin :
 ---
 
 *Dernière mise à jour : 2026-04-02*
-*Profil actif dans ticket_builder.py : Amélioré #1 (champion définitif)*
+*Profil actif dans ticket_builder.py : Amélioré #1 + filtre corrigé (team_min_decided=6, min équipes fiables)*
