@@ -1328,3 +1328,100 @@ TSV: 2026-04-02	2767257062	HT1X_HOME	21:30	laliga2	Leganes	Zaragoza	1.2	1392119	
 TSV: 2026-04-02	452570480	HT1X_HOME	22:30	liga profesional argentina	Tigre	Independ. Rivadavia	1.2	1492011	SYSTEM_POOL_BASE	predictions.tsv
 TSV: 2026-04-02	3336733230	O15_FT	23:10	primera a colombia	America de Cali	Bucaramanga	1.4	1506072	SYSTEM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-04-03 00:17:40 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-03	2255142792	O25_FT	02:30	serie a brazil	RB Bragantino	Flamengo	2.2	1492192	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2255142792	HT1X_HOME	02:30	serie a brazil	RB Bragantino	Flamengo	1.4	1492192	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2255142792	O15_FT	02:30	serie a brazil	RB Bragantino	Flamengo	1.4	1492192	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2255142792	TEAM2_SCORE_FT	02:30	serie a brazil	RB Bragantino	Flamengo	1.25	1492192	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	575657947	O15_FT	02:30	serie a brazil	Palmeiras	Gremio	1.2	1492198	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2879302260	HT1X_HOME	03:30	primera a colombia	Once Caldas	Independiente Medellin	1.25	1506074	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3193721624	HT1X_HOME	13:30	championship	Middlesbrough	Millwall	1.17	1387026	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1071895009	O25_FT	15:30	cymru premier league	The New Saints	GAP Connah S Quay FC	1.67	1508984	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3982838973	O25_FT	15:30	cymru premier league	Colwyn Bay	Caernarfon Town	1.6	1508982	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3826107889	HT1X_HOME	15:30	cymru premier league	Briton Ferry	Cardiff MET	1.4	1509012	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	976669658	HT1X_HOME	15:30	cymru premier league	Flint Town United	Haverfordwest County AFC	1.36	1509013	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	553010528	HT1X_HOME	15:30	cymru premier league	Penybont	Barry Town	1.36	1508983	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3879785091	HT05	15:30	cymru premier league	llanelli AFC	Bala Town	1.33	1509014	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3982838973	HT1X_HOME	15:30	cymru premier league	Colwyn Bay	Caernarfon Town	1.28	1508982	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	553010528	O15_FT	15:30	cymru premier league	Penybont	Barry Town	1.28	1508983	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	976669658	TEAM2_SCORE_FT	15:30	cymru premier league	Flint Town United	Haverfordwest County AFC	1.25	1509013	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3879785091	O15_FT	15:30	cymru premier league	llanelli AFC	Bala Town	1.25	1509014	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	553010528	TEAM2_SCORE_FT	15:30	cymru premier league	Penybont	Barry Town	1.25	1508983	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3826107889	TEAM1_SCORE_FT	15:30	cymru premier league	Briton Ferry	Cardiff MET	1.23	1509012	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3826107889	O15_FT	15:30	cymru premier league	Briton Ferry	Cardiff MET	1.22	1509012	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	976669658	O15_FT	15:30	cymru premier league	Flint Town United	Haverfordwest County AFC	1.22	1509013	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1071895009	O15_FT	15:30	cymru premier league	The New Saints	GAP Connah S Quay FC	1.2	1508984	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3982838973	O15_FT	15:30	cymru premier league	Colwyn Bay	Caernarfon Town	1.17	1508982	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	420646050	O25_FT	16:00	championship	QPR	Watford	1.85	1387025	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	4162357690	TEAM2_SCORE_FT	16:00	championship	West Brom	Wrexham	1.44	1387027	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	4162357690	HT05	16:00	championship	West Brom	Wrexham	1.4	1387027	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	420646050	HT05	16:00	championship	QPR	Watford	1.36	1387025	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	4162357690	O15_FT	16:00	championship	West Brom	Wrexham	1.36	1387027	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3640746110	HT05	16:00	championship	Leicester	Preston	1.35	1387022	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	74326348	TEAM1_SCORE_FT	16:00	championship	Charlton	Bristol City	1.33	1387030	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	200496227	O15_FT	16:00	championship	Norwich	Portsmouth	1.33	1387019	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3075400620	O15_FT	16:00	championship	Oxford United	Hull City	1.33	1387023	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3075400620	TEAM1_SCORE_FT	16:00	championship	Oxford United	Hull City	1.3	1387023	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	420646050	HT1X_HOME	16:00	championship	QPR	Watford	1.3	1387025	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	420646050	TEAM2_SCORE_FT	16:00	championship	QPR	Watford	1.3	1387025	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	74326348	HT1X_HOME	16:00	championship	Charlton	Bristol City	1.28	1387030	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3640746110	O15_FT	16:00	championship	Leicester	Preston	1.28	1387022	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3075400620	HT1X_HOME	16:00	championship	Oxford United	Hull City	1.28	1387023	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	420646050	O15_FT	16:00	championship	QPR	Watford	1.28	1387025	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	4094307036	O15_FT	16:00	championship	Sheffield Utd	Swansea	1.28	1387021	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	716854392	O15_FT	16:00	championship	Stoke City	Sheffield Wednesday	1.25	1387029	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	4162357690	TEAM1_SCORE_FT	16:00	championship	West Brom	Wrexham	1.25	1387027	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1578650510	TEAM1_SCORE_FT	16:00	championship	Birmingham	Blackburn	1.22	1387020	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	200496227	TEAM1_SCORE_FT	16:00	championship	Norwich	Portsmouth	1.22	1387019	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	4162357690	HT1X_HOME	16:00	championship	West Brom	Wrexham	1.22	1387027	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	200496227	HT1X_HOME	16:00	championship	Norwich	Portsmouth	1.2	1387019	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	4094307036	HT1X_HOME	16:00	championship	Sheffield Utd	Swansea	1.2	1387021	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	4094307036	TEAM1_SCORE_FT	16:00	championship	Sheffield Utd	Swansea	1.2	1387021	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3640746110	HT1X_HOME	16:00	championship	Leicester	Preston	1.18	1387022	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3640746110	TEAM1_SCORE_FT	16:00	championship	Leicester	Preston	1.18	1387022	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1578650510	HT1X_HOME	16:00	championship	Birmingham	Blackburn	1.17	1387020	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	489774773	HT1X_HOME	16:30	liga portugal 2	Oliveirense	Portimonense	1.33	1398215	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	489774773	O15_FT	16:30	liga portugal 2	Oliveirense	Portimonense	1.28	1398215	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2069184361	O25_FT	18:00	saudi arabia	Al Kholood	Al Khaleej Saihat	1.67	1436151	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2069184361	HT1X_HOME	18:00	saudi arabia	Al Kholood	Al Khaleej Saihat	1.4	1436151	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2069184361	TEAM1_SCORE_FT	18:00	saudi arabia	Al Kholood	Al Khaleej Saihat	1.22	1436151	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2069184361	O15_FT	18:00	saudi arabia	Al Kholood	Al Khaleej Saihat	1.2	1436151	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	839456655	TEAM2_SCORE_FT	18:15	saudi arabia	Al-Ittihad FC	Al-Hazm	1.62	1436147	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	839456655	O25_FT	18:15	saudi arabia	Al-Ittihad FC	Al-Hazm	1.44	1436147	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3084999266	O15_FT	19:00	liga portugal	Guimaraes	Tondela	1.33	1396488	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3084999266	TEAM1_SCORE_FT	19:00	liga portugal	Guimaraes	Tondela	1.2	1396488	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3084999266	HT1X_HOME	19:00	liga portugal	Guimaraes	Tondela	1.15	1396488	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1958225333	TEAM1_SCORE_FT	20:00	liga profesional argentina	Gimnasia M.	Velez Sarsfield	1.67	1492003	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1958225333	O15_FT	20:00	liga profesional argentina	Gimnasia M.	Velez Sarsfield	1.65	1492003	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1004690816	HT05	20:00	ligue 2	Annecy	Guingamp	1.44	1389361	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	990964551	O15_FT	20:00	ligue 2	Bastia	Amiens	1.36	1389363	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2118708714	O15_FT	20:00	ligue 2	RED Star FC 93	Laval	1.36	1389364	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1004690816	TEAM1_SCORE_FT	20:00	ligue 2	Annecy	Guingamp	1.35	1389361	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1431004676	TEAM2_SCORE_FT	20:00	ligue 2	Dunkerque	Rodez	1.35	1389366	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1004690816	HT1X_HOME	20:00	ligue 2	Annecy	Guingamp	1.33	1389361	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1004690816	O15_FT	20:00	ligue 2	Annecy	Guingamp	1.33	1389361	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	111753160	O15_FT	20:00	ligue 2	Grenoble	Clermont Foot	1.33	1389369	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1958225333	HT1X_HOME	20:00	liga profesional argentina	Gimnasia M.	Velez Sarsfield	1.3	1492003	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	111753160	HT1X_HOME	20:00	ligue 2	Grenoble	Clermont Foot	1.28	1389369	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1431004676	O15_FT	20:00	ligue 2	Dunkerque	Rodez	1.25	1389366	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1431004676	HT1X_HOME	20:00	ligue 2	Dunkerque	Rodez	1.22	1389366	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2118708714	TEAM1_SCORE_FT	20:00	ligue 2	RED Star FC 93	Laval	1.22	1389364	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3346927440	O25_FT	20:00	saudi arabia	Al-Nassr	Al Najma	1.22	1436154	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1431004676	TEAM1_SCORE_FT	20:00	ligue 2	Dunkerque	Rodez	1.2	1389366	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	990964551	HT1X_HOME	20:00	ligue 2	Bastia	Amiens	1.17	1389363	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2187041947	O25_FT	20:45	ligue 1	Paris Saint Germain	Toulouse	1.53	1387948	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3514044844	HT1X_HOME	20:45	pro league	Antwerp	Genk	1.4	1536936	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2187041947	HT05	20:45	ligue 1	Paris Saint Germain	Toulouse	1.25	1387948	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3514044844	O15_FT	20:45	pro league	Antwerp	Genk	1.22	1536936	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2187041947	O15_FT	20:45	ligue 1	Paris Saint Germain	Toulouse	1.17	1387948	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2271463413	O25_FT	21:00	laliga	Rayo Vallecano	Elche	1.95	1391115	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2271463413	TEAM2_SCORE_FT	21:00	laliga	Rayo Vallecano	Elche	1.57	1391115	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2271463413	O15_FT	21:00	laliga	Rayo Vallecano	Elche	1.33	1391115	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	937116033	HT05	21:00	championship	Coventry	Derby	1.3	1387024	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	937116033	O15_FT	21:00	championship	Coventry	Derby	1.22	1387024	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	937116033	HT1X_HOME	21:00	championship	Coventry	Derby	1.15	1387024	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2271463413	HT1X_HOME	21:00	laliga	Rayo Vallecano	Elche	1.15	1391115	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1093747147	O15_FT	21:30	liga portugal	Sporting CP	Santa Clara	1.25	1396487	SYSTEM_POOL_BASE	predictions.tsv
+

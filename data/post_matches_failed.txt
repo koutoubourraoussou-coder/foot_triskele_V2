@@ -3,3 +3,5 @@
 2026-03-27 | international friendlies | Russia vs Mali | GOALS_MISSING:1525450
 2026-03-28 | international friendlies | England U18 vs Spain U18 | GOALS_MISSING:1536914
 2026-03-31 | international friendlies | Croatia U18 vs England U18 | GOALS_MISSING:1536921
+2026-04-02 | liga profesional argentina | Talleres Cordoba vs Boca Juniors | GOALS_MISSING:1492010
+2026-04-02 | primera a colombia | Jaguares vs Millonarios | GOALS_MISSING:1506073

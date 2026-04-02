@@ -1,18 +1,41 @@
-2026-04-02 19:00 | laliga2 | Las Palmas vs Granada CF
-2026-04-02 20:00 | laliga2 | Castellón vs Almeria
-2026-04-02 20:00 | laliga2 | Real Sociedad II vs Eibar
-2026-04-02 21:30 | laliga2 | Leganes vs Zaragoza
-2026-04-02 01:00 | liga profesional argentina | Lanus vs Platense
-2026-04-02 20:00 | liga profesional argentina | Barracas Central vs Sarmiento Junin
-2026-04-02 22:30 | liga profesional argentina | Tigre vs Independ. Rivadavia
-2026-04-02 01:30 | primera a colombia | Santa Fe vs Llaneros
-2026-04-02 03:30 | primera a colombia | Atletico Nacional vs Cucuta
-2026-04-02 21:00 | primera a colombia | Chico vs Deportivo Pereira
-2026-04-02 23:10 | primera a colombia | America de Cali vs Bucaramanga
-2026-04-02 01:30 | primera división paraguay | Sportivo Trinidense vs Olimpia
-2026-04-02 00:30 | serie a brazil | Botafogo vs Mirassol
-2026-04-02 00:30 | serie a brazil | Internacional vs Sao Paulo
-2026-04-02 01:00 | serie a brazil | Bahia vs Atletico Paranaense
-2026-04-02 01:00 | serie a brazil | Cruzeiro vs Vitoria
-2026-04-02 01:30 | serie a brazil | Coritiba vs Vasco DA Gama
-2026-04-02 02:30 | serie a brazil | Fluminense vs Corinthians
+2026-04-03 13:30 | championship | Middlesbrough vs Millwall
+2026-04-03 16:00 | championship | Birmingham vs Blackburn
+2026-04-03 16:00 | championship | Charlton vs Bristol City
+2026-04-03 16:00 | championship | Leicester vs Preston
+2026-04-03 16:00 | championship | Norwich vs Portsmouth
+2026-04-03 16:00 | championship | Oxford United vs Hull City
+2026-04-03 16:00 | championship | QPR vs Watford
+2026-04-03 16:00 | championship | Sheffield Utd vs Swansea
+2026-04-03 16:00 | championship | Stoke City vs Sheffield Wednesday
+2026-04-03 16:00 | championship | West Brom vs Wrexham
+2026-04-03 21:00 | championship | Coventry vs Derby
+2026-04-03 15:30 | cymru premier league | Briton Ferry vs Cardiff MET
+2026-04-03 15:30 | cymru premier league | Colwyn Bay vs Caernarfon Town
+2026-04-03 15:30 | cymru premier league | Flint Town United vs Haverfordwest County AFC
+2026-04-03 15:30 | cymru premier league | llanelli AFC vs Bala Town
+2026-04-03 15:30 | cymru premier league | Penybont vs Barry Town
+2026-04-03 15:30 | cymru premier league | The New Saints vs GAP Connah S Quay FC
+2026-04-03 21:00 | laliga | Rayo Vallecano vs Elche
+2026-04-03 16:30 | liga portugal | GIL Vicente vs AVS
+2026-04-03 19:00 | liga portugal | Guimaraes vs Tondela
+2026-04-03 21:30 | liga portugal | Sporting CP vs Santa Clara
+2026-04-03 16:30 | liga portugal 2 | Oliveirense vs Portimonense
+2026-04-03 01:30 | liga profesional argentina | Talleres Cordoba vs Boca Juniors
+2026-04-03 20:00 | liga profesional argentina | Gimnasia M. vs Velez Sarsfield
+2026-04-03 22:15 | liga profesional argentina | Union Santa Fe vs Deportivo Riestra
+2026-04-03 20:45 | ligue 1 | Paris Saint Germain vs Toulouse
+2026-04-03 20:00 | ligue 2 | Annecy vs Guingamp
+2026-04-03 20:00 | ligue 2 | Bastia vs Amiens
+2026-04-03 20:00 | ligue 2 | Dunkerque vs Rodez
+2026-04-03 20:00 | ligue 2 | Grenoble vs Clermont Foot
+2026-04-03 20:00 | ligue 2 | RED Star FC 93 vs Laval
+2026-04-03 01:20 | primera a colombia | Jaguares vs Millonarios
+2026-04-03 03:30 | primera a colombia | Once Caldas vs Independiente Medellin
+2026-04-03 20:45 | pro league | Antwerp vs Genk
+2026-04-03 18:00 | saudi arabia | Al Kholood vs Al Khaleej Saihat
+2026-04-03 18:15 | saudi arabia | Al-Ittihad FC vs Al-Hazm
+2026-04-03 20:00 | saudi arabia | Al-Nassr vs Al Najma
+2026-04-03 00:00 | serie a brazil | Chapecoense-sc vs Atletico-MG
+2026-04-03 00:00 | serie a brazil | Santos vs Remo
+2026-04-03 02:30 | serie a brazil | Palmeiras vs Gremio
+2026-04-03 02:30 | serie a brazil | RB Bragantino vs Flamengo
