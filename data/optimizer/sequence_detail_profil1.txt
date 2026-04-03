@@ -1,0 +1,1106 @@
+[show] Chargement profil #1...
+[show] Évaluation sur 60 jours...
+[show] SYSTEM : 85 tickets  |  RANDOM : 68 tickets
+
+
+======================================================================
+  SÉQUENCE SYSTEM — 85 tickets
+======================================================================
+
+  Ticket #  1 | 2026-01-03 | ❌ LOSS | cote totale = 2.45 | 3 legs
+    Leg 1: ✅ Almeria vs Granada CF  |  HT05  |  cote=1.36  |  laliga2
+    Leg 2: ❌ Elche vs Villarreal  |  HT1X_HOME  |  cote=1.44  |  laliga
+    Leg 3: ✅ Benfica vs Estoril  |  HT05  |  cote=1.25  |  liga portugal
+
+  Ticket #  2 | 2026-01-04 | ❌ LOSS | cote totale = 2.60 | 3 legs
+    Leg 1: ✅ Bristol City vs Preston  |  HT05  |  cote=1.36  |  championship
+    Leg 2: ✅ Derby vs Wrexham  |  HT05  |  cote=1.44  |  championship
+    Leg 3: ❌ Real Sociedad vs Atletico Madrid  |  HT05  |  cote=1.33  |  laliga
+
+  Ticket #  3 | 2026-01-07 | ❌ LOSS | cote totale = 2.43 | 3 legs
+    Leg 1: ✅ Manchester City vs Brighton  |  HT1X_HOME  |  cote=1.17  |  premier league
+    Leg 2: ❌ Torino vs Udinese  |  HT05  |  cote=1.44  |  serie a italia
+    Leg 3: ✅ Benfica vs SC Braga  |  HT05  |  cote=1.44  |  taça da liga
+
+  Ticket #  4 | 2026-01-10 | ✅ WIN  | cote totale = 3.12 | 3 legs
+    Leg 1: ✅ Guadalajara Chivas vs Pachuca  |  HT1X_HOME  |  cote=1.18  |  liga mx
+    Leg 2: ✅ Macclesfield vs Crystal Palace  |  HT1X_HOME  |  cote=2.20  |  fa cup
+    Leg 3: ✅ Como vs Bologna  |  HT1X_HOME  |  cote=1.20  |  serie a italia
+
+  Ticket #  5 | 2026-01-10 | ✅ WIN  | cote totale = 2.53 | 3 legs
+    Leg 1: ✅ Juve Stabia vs Pescara  |  HT05  |  cote=1.40  |  serie b
+    Leg 2: ✅ Bristol City vs Watford  |  HT05  |  cote=1.33  |  fa cup
+    Leg 3: ✅ Cambridge United vs Birmingham  |  HT05  |  cote=1.36  |  fa cup
+
+  Ticket #  6 | 2026-01-11 | ✅ WIN  | cote totale = 2.42 | 3 legs
+    Leg 1: ✅ Santos Laguna vs Necaxa  |  HT05  |  cote=1.30  |  liga mx
+    Leg 2: ✅ Leon vs Cruz Azul  |  HT05  |  cote=1.33  |  liga mx
+    Leg 3: ✅ Portimonense vs Felgueiras 1932  |  HT1X_HOME  |  cote=1.40  |  liga portugal 2
+
+  Ticket #  7 | 2026-01-11 | ✅ WIN  | cote totale = 2.42 | 3 legs
+    Leg 1: ✅ Mantova vs Palermo  |  HT05  |  cote=1.35  |  serie b
+    Leg 2: ✅ Swansea vs West Brom  |  TEAM1_SCORE_FT  |  cote=1.35  |  fa cup
+    Leg 3: ✅ West Ham vs QPR  |  HT05  |  cote=1.33  |  fa cup
+
+  Ticket #  8 | 2026-01-11 | ✅ WIN  | cote totale = 2.74 | 3 legs
+    Leg 1: ✅ Oliveirense vs Feirense  |  HT1X_HOME  |  cote=1.36  |  liga portugal 2
+    Leg 2: ✅ Inter vs Napoli  |  HT05  |  cote=1.44  |  serie a italia
+    Leg 3: ✅ Torreense vs União de Leiria  |  HT05  |  cote=1.40  |  taça de portugal
+
+  Ticket #  9 | 2026-01-12 | ✅ WIN  | cote totale = 2.42 | 3 legs
+    Leg 1: ✅ Atletico San Luis vs Tigres UANL  |  HT1X_HOME  |  cote=1.40  |  liga mx
+    Leg 2: ✅ Al-Hilal Saudi FC vs Al-Nassr  |  HT05  |  cote=1.20  |  saudi arabia
+    Leg 3: ✅ Huesca vs Cordoba  |  HT05  |  cote=1.44  |  laliga2
+
+  Ticket # 10 | 2026-01-13 | ✅ WIN  | cote totale = 2.64 | 3 legs
+    Leg 1: ✅ VfB Stuttgart vs Eintracht Frankfurt  |  HT05  |  cote=1.25  |  bundesliga
+    Leg 2: ✅ FSV Mainz 05 vs 1. FC Heidenheim  |  HT05  |  cote=1.36  |  bundesliga
+    Leg 3: ✅ Cultural Leonesa vs Athletic Club  |  HT1X_HOME  |  cote=1.55  |  copa del rey
+
+  Ticket # 11 | 2026-01-14 | ❌ LOSS | cote totale = 2.45 | 3 legs
+    Leg 1: ❌ FC Juarez vs Guadalajara Chivas  |  HT05  |  cote=1.44  |  liga mx
+    Leg 2: ❌ Al-Qadisiyah FC vs Al-Fayha  |  HT05  |  cote=1.36  |  saudi arabia
+    Leg 3: ✅ 1899 Hoffenheim vs Borussia Mönchengladbach  |  HT05  |  cote=1.25  |  bundesliga
+
+  Ticket # 12 | 2026-01-15 | ✅ WIN  | cote totale = 2.50 | 3 legs
+    Leg 1: ✅ Anderlecht vs Gent  |  HT05  |  cote=1.30  |  belgian cup
+    Leg 2: ✅ FC Augsburg vs Union Berlin  |  HT1X_HOME  |  cote=1.30  |  bundesliga
+    Leg 3: ✅ Burgos vs Valencia  |  O15_FT  |  cote=1.48  |  copa del rey
+
+  Ticket # 13 | 2026-01-16 | ❌ LOSS | cote totale = 2.44 | 4 legs
+    Leg 1: ✅ Al Najma vs Al-Fateh  |  HT05  |  cote=1.30  |  saudi arabia
+    Leg 2: ✅ Monaco vs Lorient  |  O15_FT  |  cote=1.18  |  ligue 1
+    Leg 3: ✅ Werder Bremen vs Eintracht Frankfurt  |  O15_FT  |  cote=1.18  |  bundesliga
+    Leg 4: ❌ Pisa vs Atalanta  |  HT05  |  cote=1.35  |  serie a italia
+
+  Ticket # 14 | 2026-01-17 | ✅ WIN  | cote totale = 2.59 | 3 legs
+    Leg 1: ✅ Al-Fayha vs Damac  |  HT05  |  cote=1.50  |  saudi arabia
+    Leg 2: ✅ Hamburger SV vs Borussia Mönchengladbach  |  HT1X_HOME  |  cote=1.30  |  bundesliga
+    Leg 3: ✅ Borussia Dortmund vs FC St. Pauli  |  HT05  |  cote=1.33  |  bundesliga
+
+  Ticket # 15 | 2026-01-20 | ✅ WIN  | cote totale = 2.55 | 3 legs
+    Leg 1: ✅ Ipswich vs Bristol City  |  O15_FT  |  cote=1.30  |  championship
+    Leg 2: ✅ FC Copenhagen vs Napoli  |  O15_FT  |  cote=1.40  |  uefa champions league
+    Leg 3: ✅ Inter vs Arsenal  |  O15_FT  |  cote=1.40  |  uefa champions league
+
+  Ticket # 16 | 2026-01-21 | ✅ WIN  | cote totale = 2.48 | 3 legs
+    Leg 1: ✅ Al-Ettifaq vs NEOM  |  HT1X_HOME  |  cote=1.40  |  saudi arabia
+    Leg 2: ✅ Juventus vs Benfica  |  O15_FT  |  cote=1.33  |  uefa champions league
+    Leg 3: ✅ Atalanta vs Athletic Club  |  O15_FT  |  cote=1.33  |  uefa champions league
+
+  Ticket # 17 | 2026-01-22 | ✅ WIN  | cote totale = 2.73 | 4 legs
+    Leg 1: ✅ Al Taawon vs Al-Hazm  |  O15_FT  |  cote=1.28  |  saudi arabia
+    Leg 2: ✅ Al-Qadisiyah FC vs Al-Ittihad FC  |  O15_FT  |  cote=1.28  |  saudi arabia
+    Leg 3: ✅ AS Roma vs VfB Stuttgart  |  O15_FT  |  cote=1.28  |  uefa europa league
+    Leg 4: ✅ Utrecht vs Genk  |  O15_FT  |  cote=1.30  |  uefa europa league
+
+  Ticket # 18 | 2026-01-23 | ✅ WIN  | cote totale = 2.43 | 4 legs
+    Leg 1: ✅ Arminia Bielefeld vs Holstein Kiel  |  O15_FT  |  cote=1.25  |  2. bundesliga
+    Leg 2: ✅ SV Darmstadt 98 vs 1. FC Nürnberg  |  HT1X_HOME  |  cote=1.22  |  2. bundesliga
+    Leg 3: ✅ Malaga vs Burgos  |  HT1X_HOME  |  cote=1.20  |  laliga2
+    Leg 4: ✅ Levante vs Elche  |  O15_FT  |  cote=1.33  |  laliga
+
+  Ticket # 19 | 2026-01-24 | ✅ WIN  | cote totale = 2.42 | 3 legs
+    Leg 1: ✅ Karlsruher SC vs Hertha BSC  |  O15_FT  |  cote=1.22  |  2. bundesliga
+    Leg 2: ✅ West Ham vs Sunderland  |  O15_FT  |  cote=1.38  |  premier league
+    Leg 3: ✅ Rayo Vallecano vs Osasuna  |  HT05  |  cote=1.44  |  laliga
+
+  Ticket # 20 | 2026-01-24 | ✅ WIN  | cote totale = 2.47 | 3 legs
+    Leg 1: ✅ Motherwell vs Kilmarnock  |  O15_FT  |  cote=1.28  |  premiership
+    Leg 2: ✅ QPR vs Wrexham  |  O15_FT  |  cote=1.38  |  championship
+    Leg 3: ✅ Bristol City vs Sheffield Wednesday  |  O15_FT  |  cote=1.40  |  championship
+
+  Ticket # 21 | 2026-01-24 | ✅ WIN  | cote totale = 2.45 | 3 legs
+    Leg 1: ✅ Sevilla vs Athletic Club  |  O15_FT  |  cote=1.42  |  laliga
+    Leg 2: ✅ Union Berlin vs Borussia Dortmund  |  O15_FT  |  cote=1.38  |  bundesliga
+    Leg 3: ✅ Reims vs Saint Etienne  |  HT1X_HOME  |  cote=1.25  |  ligue 2
+
+  Ticket # 22 | 2026-01-25 | ✅ WIN  | cote totale = 2.40 | 3 legs
+    Leg 1: ✅ FC Andorra vs Huesca  |  O15_FT  |  cote=1.30  |  laliga2
+    Leg 2: ✅ Torreense vs Farense  |  HT1X_HOME  |  cote=1.25  |  liga portugal 2
+    Leg 3: ✅ Genoa vs Bologna  |  O15_FT  |  cote=1.48  |  serie a italia
+
+  Ticket # 23 | 2026-01-25 | ❌ LOSS | cote totale = 2.65 | 3 legs
+    Leg 1: ❌ Catanzaro vs Sampdoria  |  O15_FT  |  cote=1.45  |  serie b
+    Leg 2: ✅ Arsenal vs Manchester United  |  O15_FT  |  cote=1.22  |  premier league
+    Leg 3: ✅ Juventus vs Napoli  |  O15_FT  |  cote=1.50  |  serie a italia
+
+  Ticket # 24 | 2026-01-25 | ❌ LOSS | cote totale = 2.90 | 4 legs
+    Leg 1: ✅ AS Roma vs AC Milan  |  HT1X_HOME  |  cote=1.30  |  serie a italia
+    Leg 2: ✅ Alaves vs Real Betis  |  HT1X_HOME  |  cote=1.35  |  laliga
+    Leg 3: ❌ Deportivo La Coruna vs Racing Santander  |  HT05  |  cote=1.29  |  laliga2
+    Leg 4: ✅ SC Braga vs Alverca  |  O15_FT  |  cote=1.28  |  liga portugal
+
+  Ticket # 25 | 2026-01-26 | ✅ WIN  | cote totale = 2.55 | 3 legs
+    Leg 1: ✅ Al-Hazm vs Damac  |  O15_FT  |  cote=1.36  |  saudi arabia
+    Leg 2: ✅ AD Ceuta FC vs Cultural Leonesa  |  O15_FT  |  cote=1.38  |  laliga2
+    Leg 3: ✅ Girona vs Getafe  |  TEAM1_SCORE_FT  |  cote=1.36  |  laliga
+
+  Ticket # 26 | 2026-01-28 | ❌ LOSS | cote totale = 2.51 | 3 legs
+    Leg 1: ✅ Napoli vs Chelsea  |  O15_FT  |  cote=1.28  |  uefa champions league
+    Leg 2: ❌ Vitoria vs remo  |  HT05  |  cote=1.40  |  serie a brazil
+    Leg 3: ❌ Fluminense vs Gremio  |  HT05  |  cote=1.40  |  serie a brazil
+
+  Ticket # 27 | 2026-01-29 | ✅ WIN  | cote totale = 2.50 | 3 legs
+    Leg 1: ✅ Nottingham Forest vs Ferencvarosi TC  |  O15_FT  |  cote=1.30  |  uefa europa league
+    Leg 2: ✅ Panathinaikos vs AS Roma  |  O15_FT  |  cote=1.48  |  uefa europa league
+    Leg 3: ✅ FCSB vs Fenerbahçe  |  HT05  |  cote=1.30  |  uefa europa league
+
+  Ticket # 28 | 2026-01-30 | ❌ LOSS | cote totale = 2.52 | 3 legs
+    Leg 1: ❌ Botafogo vs Cruzeiro  |  HT05  |  cote=1.40  |  serie a brazil
+    Leg 2: ❌ 1. FC Köln vs VfL Wolfsburg  |  O15_FT  |  cote=1.20  |  bundesliga
+    Leg 3: ✅ Espanyol vs Alaves  |  O15_FT  |  cote=1.50  |  laliga
+
+  Ticket # 29 | 2026-01-31 | ❌ LOSS | cote totale = 2.47 | 3 legs
+    Leg 1: ❌ Sheffield Wednesday vs Wrexham  |  O15_FT  |  cote=1.28  |  championship
+    Leg 2: ❌ Stoke City vs Southampton  |  HT1X_HOME  |  cote=1.36  |  championship
+    Leg 3: ❌ Oviedo vs Girona  |  O15_FT  |  cote=1.42  |  laliga
+
+  Ticket # 30 | 2026-01-31 | ❌ LOSS | cote totale = 2.48 | 3 legs
+    Leg 1: ✅ Oxford United vs Birmingham  |  HT05  |  cote=1.36  |  championship
+    Leg 2: ✅ Livingston vs Motherwell  |  HT05  |  cote=1.35  |  premiership
+    Leg 3: ❌ Ipswich vs Preston  |  HT05  |  cote=1.35  |  championship
+
+  Ticket # 31 | 2026-01-31 | ✅ WIN  | cote totale = 2.40 | 3 legs
+    Leg 1: ✅ Servette FC vs FC Sion  |  O15_FT  |  cote=1.28  |  super league switzerland
+    Leg 2: ✅ Napoli vs Fiorentina  |  O15_FT  |  cote=1.38  |  serie a italia
+    Leg 3: ✅ Lorient vs Nantes  |  O15_FT  |  cote=1.36  |  ligue 1
+
+  Ticket # 32 | 2026-01-31 | ✅ WIN  | cote totale = 2.60 | 3 legs
+    Leg 1: ✅ Liverpool vs Newcastle  |  O15_FT  |  cote=1.20  |  premier league
+    Leg 2: ✅ Cordoba vs Valladolid  |  O15_FT  |  cote=1.38  |  laliga2
+    Leg 3: ✅ Cucuta vs Fortaleza FC  |  HT05  |  cote=1.57  |  primera a colombia
+
+  Ticket # 33 | 2026-02-01 | ✅ WIN  | cote totale = 2.41 | 4 legs
+    Leg 1: ✅ Excelsior vs Ajax  |  O15_FT  |  cote=1.18  |  eredivisie
+    Leg 2: ✅ Diosgyori VTK vs Kisvarda FC  |  HT05  |  cote=1.36  |  superligaen
+    Leg 3: ✅ Hertha BSC vs SV Darmstadt 98  |  O15_FT  |  cote=1.25  |  2. bundesliga
+    Leg 4: ✅ FC Luzern vs FC ST. Gallen  |  O15_FT  |  cote=1.20  |  super league switzerland
+
+  Ticket # 34 | 2026-02-01 | ❌ LOSS | cote totale = 2.43 | 4 legs
+    Leg 1: ✅ Real Betis vs Valencia  |  O15_FT  |  cote=1.30  |  laliga
+    Leg 2: ❌ Al Shabab vs Al-Fayha  |  O15_FT  |  cote=1.33  |  saudi arabia
+    Leg 3: ✅ BSC Young Boys vs FC Zurich  |  O15_FT  |  cote=1.17  |  super league switzerland
+    Leg 4: ✅ Tottenham vs Manchester City  |  O15_FT  |  cote=1.20  |  premier league
+
+  Ticket # 35 | 2026-02-01 | ❌ LOSS | cote totale = 2.49 | 4 legs
+    Leg 1: ✅ FC Volendam vs GO Ahead Eagles  |  O15_FT  |  cote=1.20  |  eredivisie
+    Leg 2: ✅ Strasbourg vs Paris Saint Germain  |  O15_FT  |  cote=1.18  |  ligue 1
+    Leg 3: ✅ Athletic Club vs Real Sociedad  |  HT05  |  cote=1.44  |  laliga
+    Leg 4: ❌ Barracas Central vs Deportivo Riestra  |  HT1X_HOME  |  cote=1.22  |  liga profesional argentina
+
+  Ticket # 36 | 2026-02-02 | ✅ WIN  | cote totale = 2.55 | 3 legs
+    Leg 1: ✅ Mirandes vs Malaga  |  TEAM2_SCORE_FT  |  cote=1.30  |  laliga2
+    Leg 2: ✅ Mallorca vs Sevilla  |  O15_FT  |  cote=1.40  |  laliga
+    Leg 3: ✅ Sunderland vs Burnley  |  O15_FT  |  cote=1.40  |  premier league
+
+  Ticket # 37 | 2026-02-03 | ✅ WIN  | cote totale = 2.66 | 3 legs
+    Leg 1: ✅ Deportivo Pereira vs Junior  |  HT05  |  cote=1.53  |  primera a colombia
+    Leg 2: ✅ Neuchatel Xamax FC vs Yverdon Sport  |  HT05  |  cote=1.29  |  schweizer cup
+    Leg 3: ✅ Grasshoppers vs FC Sion  |  HT05  |  cote=1.35  |  schweizer cup
+
+  Ticket # 38 | 2026-02-04 | ✅ WIN  | cote totale = 2.48 | 3 legs
+    Leg 1: ✅ Stade Lausanne-Ouchy vs FC Luzern  |  HT05  |  cote=1.30  |  schweizer cup
+    Leg 2: ✅ FC ST. Gallen vs FC Basel 1893  |  HT05  |  cote=1.29  |  schweizer cup
+    Leg 3: ✅ Valencia vs Athletic Club  |  O15_FT  |  cote=1.48  |  copa del rey
+
+  Ticket # 39 | 2026-02-05 | ✅ WIN  | cote totale = 2.45 | 3 legs
+    Leg 1: ✅ Atletico Nacional vs America de Cali  |  HT05  |  cote=1.44  |  primera a colombia
+    Leg 2: ✅ Al-Fayha vs Al Najma  |  HT05  |  cote=1.36  |  saudi arabia
+    Leg 3: ✅ Real Betis vs Atletico Madrid  |  O15_FT  |  cote=1.25  |  copa del rey
+
+  Ticket # 40 | 2026-02-06 | ✅ WIN  | cote totale = 2.54 | 3 legs
+    Leg 1: ✅ Preußen Münster vs VfL Bochum  |  O15_FT  |  cote=1.28  |  2. bundesliga
+    Leg 2: ✅ Union Berlin vs Eintracht Frankfurt  |  TEAM2_SCORE_FT  |  cote=1.40  |  bundesliga
+    Leg 3: ✅ Celta Vigo vs Osasuna  |  O15_FT  |  cote=1.42  |  laliga
+
+  Ticket # 41 | 2026-02-07 | ✅ WIN  | cote totale = 2.41 | 3 legs
+    Leg 1: ✅ FC Schalke 04 vs Dynamo Dresden  |  O15_FT  |  cote=1.33  |  2. bundesliga
+    Leg 2: ✅ Derby vs Ipswich  |  O15_FT  |  cote=1.33  |  championship
+    Leg 3: ✅ Rayo Vallecano vs Oviedo  |  O15_FT  |  cote=1.36  |  laliga
+
+  Ticket # 42 | 2026-02-07 | ✅ WIN  | cote totale = 2.59 | 4 legs
+    Leg 1: ✅ Fulham vs Everton  |  O15_FT  |  cote=1.30  |  premier league
+    Leg 2: ✅ Burnley vs West Ham  |  O15_FT  |  cote=1.25  |  premier league
+    Leg 3: ✅ Wolves vs Chelsea  |  O15_FT  |  cote=1.20  |  premier league
+    Leg 4: ✅ Wrexham vs Millwall  |  O15_FT  |  cote=1.33  |  championship
+
+  Ticket # 43 | 2026-02-07 | ✅ WIN  | cote totale = 2.55 | 3 legs
+    Leg 1: ✅ Genoa vs Napoli  |  O15_FT  |  cote=1.57  |  serie a italia
+    Leg 2: ✅ Borussia Mönchengladbach vs Bayer Leverkusen  |  O15_FT  |  cote=1.25  |  bundesliga
+    Leg 3: ✅ Fortuna Sittard vs Sparta Rotterdam  |  O15_FT  |  cote=1.30  |  eredivisie
+
+  Ticket # 44 | 2026-02-08 | ✅ WIN  | cote totale = 2.42 | 3 legs
+    Leg 1: ✅ Junior vs Chico  |  HT05  |  cote=1.40  |  primera a colombia
+    Leg 2: ✅ Hannover 96 vs Holstein Kiel  |  O15_FT  |  cote=1.30  |  2. bundesliga
+    Leg 3: ✅ Valladolid vs Castellón  |  O15_FT  |  cote=1.33  |  laliga2
+
+  Ticket # 45 | 2026-02-08 | ✅ WIN  | cote totale = 2.56 | 3 legs
+    Leg 1: ✅ Club Brugge KV vs Standard Liege  |  O15_FT  |  cote=1.17  |  pro league
+    Leg 2: ✅ Stenhousemuir vs Falkirk  |  HT1X_HOME  |  cote=1.75  |  scottish cup
+    Leg 3: ✅ Alianza Valledupar vs Once Caldas  |  HT1X_HOME  |  cote=1.25  |  primera a colombia
+
+  Ticket # 46 | 2026-02-09 | ❌ LOSS | cote totale = 2.42 | 3 legs
+    Leg 1: ✅ Jaguares vs Deportivo Pereira  |  HT05  |  cote=1.55  |  primera a colombia
+    Leg 2: ✅ Gazişehir Gaziantep vs Kasımpaşa  |  O15_FT  |  cote=1.30  |  super lig
+    Leg 3: ❌ Racing Santander vs Mirandes  |  O15_FT  |  cote=1.20  |  laliga2
+
+  Ticket # 47 | 2026-02-10 | ✅ WIN  | cote totale = 2.49 | 3 legs
+    Leg 1: ✅ Venezia vs Modena  |  O15_FT  |  cote=1.30  |  serie b
+    Leg 2: ✅ FC Luzern vs Grasshoppers  |  O15_FT  |  cote=1.22  |  super league switzerland
+    Leg 3: ✅ West Ham vs Manchester United  |  HT1X_HOME  |  cote=1.57  |  premier league
+
+  Ticket # 48 | 2026-02-11 | ✅ WIN  | cote totale = 2.45 | 3 legs
+    Leg 1: ✅ Vitoria vs Flamengo  |  HT05  |  cote=1.38  |  serie a brazil
+    Leg 2: ✅ FC Lugano vs Servette FC  |  O15_FT  |  cote=1.25  |  super league switzerland
+    Leg 3: ✅ Mirassol vs Cruzeiro  |  HT05  |  cote=1.42  |  serie a brazil
+
+  Ticket # 49 | 2026-02-12 | ✅ WIN  | cote totale = 2.47 | 3 legs
+    Leg 1: ✅ Al-Hazm vs Al Okhdood  |  O15_FT  |  cote=1.33  |  saudi arabia
+    Leg 2: ✅ FC Sion vs FC Basel 1893  |  HT05  |  cote=1.29  |  super league switzerland
+    Leg 3: ✅ Antwerp vs Anderlecht  |  HT05  |  cote=1.44  |  belgian cup
+
+  Ticket # 50 | 2026-02-13 | ✅ WIN  | cote totale = 2.46 | 3 legs
+    Leg 1: ✅ Internacional vs Palmeiras  |  HT1X_HOME  |  cote=1.35  |  serie a brazil
+    Leg 2: ✅ Atletico Nacional vs Fortaleza FC  |  HT05  |  cote=1.40  |  primera a colombia
+    Leg 3: ✅ Al-Ittihad FC vs Al-Fayha  |  HT05  |  cote=1.30  |  saudi arabia
+
+  Ticket # 51 | 2026-02-13 | ❌ LOSS | cote totale = 2.59 | 3 legs
+    Leg 1: ✅ Borussia Dortmund vs FSV Mainz 05  |  O15_FT  |  cote=1.18  |  bundesliga
+    Leg 2: ❌ Pisa vs AC Milan  |  HT1X_HOME  |  cote=1.65  |  serie a italia
+    Leg 3: ❌ Elche vs Osasuna  |  TEAM1_SCORE_FT  |  cote=1.33  |  laliga
+
+  Ticket # 52 | 2026-02-14 | ❌ LOSS | cote totale = 2.45 | 4 legs
+    Leg 1: ✅ America de Cali vs Santa Fe  |  HT1X_HOME  |  cote=1.17  |  primera a colombia
+    Leg 2: ✅ Feirense vs Chaves  |  HT1X_HOME  |  cote=1.28  |  liga portugal 2
+    Leg 3: ❌ 1. FC Kaiserslautern vs SpVgg Greuther Fürth  |  O15_FT  |  cote=1.17  |  2. bundesliga
+    Leg 4: ✅ Eintracht Braunschweig vs SV Darmstadt 98  |  HT1X_HOME  |  cote=1.40  |  2. bundesliga
+
+  Ticket # 53 | 2026-02-14 | ✅ WIN  | cote totale = 2.41 | 3 legs
+    Leg 1: ✅ Al Riyadh vs Al Khaleej Saihat  |  HT05  |  cote=1.36  |  saudi arabia
+    Leg 2: ✅ Palermo vs Virtus Entella  |  O15_FT  |  cote=1.33  |  serie b
+    Leg 3: ✅ Alanyaspor vs Konyaspor  |  O15_FT  |  cote=1.33  |  super lig
+
+  Ticket # 54 | 2026-02-14 | ✅ WIN  | cote totale = 2.40 | 3 legs
+    Leg 1: ✅ FC Zurich vs FC Luzern  |  O15_FT  |  cote=1.20  |  super league switzerland
+    Leg 2: ✅ Sevilla vs Alaves  |  O15_FT  |  cote=1.45  |  laliga
+    Leg 3: ✅ Guimaraes vs Estrela  |  O15_FT  |  cote=1.38  |  liga portugal
+
+  Ticket # 55 | 2026-02-15 | ❌ LOSS | cote totale = 2.48 | 4 legs
+    Leg 1: ❌ Independ. Rivadavia vs Belgrano Cordoba  |  HT1X_HOME  |  cote=1.22  |  liga profesional argentina
+    Leg 2: ✅ FC Juarez vs Necaxa  |  HT05  |  cote=1.38  |  liga mx
+    Leg 3: ✅ Deportivo Pasto vs Internacional de Bogota  |  HT1X_HOME  |  cote=1.18  |  primera a colombia
+    Leg 4: ✅ Guadalajara Chivas vs Club America  |  HT1X_HOME  |  cote=1.25  |  liga mx
+
+  Ticket # 56 | 2026-02-15 | ❌ LOSS | cote totale = 2.57 | 3 legs
+    Leg 1: ❌ VfL Bochum vs SC Paderborn 07  |  O15_FT  |  cote=1.22  |  2. bundesliga
+    Leg 2: ✅ Grimsby vs Wolves  |  HT1X_HOME  |  cote=1.80  |  fa cup
+    Leg 3: ✅ Heerenveen vs PEC Zwolle  |  O15_FT  |  cote=1.17  |  eredivisie
+
+  Ticket # 57 | 2026-02-15 | ✅ WIN  | cote totale = 2.48 | 3 legs
+    Leg 1: ✅ Lyon vs Nice  |  HT05  |  cote=1.35  |  ligue 1
+    Leg 2: ✅ Mallorca vs Real Betis  |  O15_FT  |  cote=1.38  |  laliga
+    Leg 3: ✅ Castellón vs Deportivo La Coruna  |  HT05  |  cote=1.33  |  laliga2
+
+  Ticket # 58 | 2026-02-16 | ❌ LOSS | cote totale = 2.41 | 4 legs
+    Leg 1: ✅ Fortaleza FC vs Chico  |  O15_FT  |  cote=1.42  |  primera a colombia
+    Leg 2: ✅ Kasımpaşa vs Fatih Karagümrük  |  HT1X_HOME  |  cote=1.18  |  super lig
+    Leg 3: ❌ Macclesfield vs Brentford  |  HT05  |  cote=1.22  |  fa cup
+    Leg 4: ✅ Deportivo Riestra vs Newells Old Boys  |  HT1X_HOME  |  cote=1.18  |  liga profesional argentina
+
+  Ticket # 59 | 2026-02-17 | ✅ WIN  | cote totale = 2.59 | 3 legs
+    Leg 1: ✅ Galatasaray vs Juventus  |  O15_FT  |  cote=1.25  |  uefa champions league
+    Leg 2: ✅ Sparta Rotterdam vs NEC Nijmegen  |  O15_FT  |  cote=1.17  |  eredivisie
+    Leg 3: ✅ Monaco vs Paris Saint Germain  |  HT1X_HOME  |  cote=1.77  |  uefa champions league
+
+  Ticket # 60 | 2026-02-18 | ❌ LOSS | cote totale = 2.49 | 4 legs
+    Leg 1: ❌ Levante vs Villarreal  |  O15_FT  |  cote=1.22  |  laliga
+    Leg 2: ✅ Aberdeen vs Motherwell  |  O15_FT  |  cote=1.33  |  scottish cup
+    Leg 3: ✅ Bodo/Glimt vs Inter  |  O15_FT  |  cote=1.18  |  uefa champions league
+    Leg 4: ✅ Olympiakos Piraeus vs Bayer Leverkusen  |  O15_FT  |  cote=1.30  |  uefa champions league
+
+  Ticket # 61 | 2026-02-19 | ✅ WIN  | cote totale = 2.45 | 3 legs
+    Leg 1: ✅ Dinamo Zagreb vs Genk  |  HT05  |  cote=1.40  |  uefa europa league
+    Leg 2: ✅ Al-Ettifaq vs Al-Fateh  |  O15_FT  |  cote=1.25  |  saudi arabia
+    Leg 3: ✅ Ludogorets vs Ferencvarosi TC  |  HT05  |  cote=1.40  |  uefa europa league
+
+  Ticket # 62 | 2026-02-20 | ✅ WIN  | cote totale = 2.45 | 3 legs
+    Leg 1: ✅ Leixoes vs Vizela  |  HT1X_HOME  |  cote=1.35  |  liga portugal 2
+    Leg 2: ✅ Frosinone vs Empoli  |  O15_FT  |  cote=1.26  |  serie b
+    Leg 3: ✅ AD Ceuta FC vs Granada CF  |  HT05  |  cote=1.44  |  laliga2
+
+  Ticket # 63 | 2026-02-21 | ✅ WIN  | cote totale = 2.45 | 3 legs
+    Leg 1: ✅ Deportivo Pereira vs Deportivo Pasto  |  HT05  |  cote=1.55  |  primera a colombia
+    Leg 2: ✅ Karlsruher SC vs Holstein Kiel  |  O15_FT  |  cote=1.18  |  2. bundesliga
+    Leg 3: ✅ Real Sociedad vs Oviedo  |  O15_FT  |  cote=1.34  |  laliga
+
+  Ticket # 64 | 2026-02-21 | ✅ WIN  | cote totale = 2.69 | 4 legs
+    Leg 1: ✅ Watford vs Derby  |  O15_FT  |  cote=1.36  |  championship
+    Leg 2: ✅ Dundee Utd vs Kilmarnock  |  O15_FT  |  cote=1.22  |  premiership
+    Leg 3: ✅ Chelsea vs Burnley  |  HT05  |  cote=1.22  |  premier league
+    Leg 4: ✅ Wrexham vs Ipswich  |  O15_FT  |  cote=1.33  |  championship
+
+  Ticket # 65 | 2026-02-21 | ✅ WIN  | cote totale = 2.47 | 4 legs
+    Leg 1: ✅ Servette FC vs FC ST. Gallen  |  TEAM2_SCORE_FT  |  cote=1.30  |  super league switzerland
+    Leg 2: ✅ Ujpest vs Diosgyori VTK  |  TEAM2_SCORE_FT  |  cote=1.33  |  superligaen
+    Leg 3: ✅ Osasuna vs Real Madrid  |  O15_FT  |  cote=1.22  |  laliga
+    Leg 4: ✅ PSV Eindhoven vs Heerenveen  |  HT05  |  cote=1.17  |  eredivisie
+
+  Ticket # 66 | 2026-02-21 | ✅ WIN  | cote totale = 2.47 | 3 legs
+    Leg 1: ✅ Las Palmas vs Castellón  |  O15_FT  |  cote=1.38  |  laliga2
+    Leg 2: ✅ Atletico Madrid vs Espanyol  |  HT05  |  cote=1.40  |  laliga
+    Leg 3: ✅ SC Braga vs Guimaraes  |  O15_FT  |  cote=1.28  |  liga portugal
+
+  Ticket # 67 | 2026-02-22 | ✅ WIN  | cote totale = 2.48 | 3 legs
+    Leg 1: ✅ Central Cordoba de Santiago vs Tigre  |  HT1X_HOME  |  cote=1.30  |  liga profesional argentina
+    Leg 2: ✅ Austin vs Minnesota United FC  |  HT05  |  cote=1.40  |  mls
+    Leg 3: ✅ Cruz Azul vs Guadalajara Chivas  |  HT05  |  cote=1.36  |  liga mx
+
+  Ticket # 68 | 2026-02-22 | ✅ WIN  | cote totale = 2.43 | 3 legs
+    Leg 1: ✅ Genoa vs Torino  |  O15_FT  |  cote=1.42  |  serie a italia
+    Leg 2: ✅ FC Sion vs BSC Young Boys  |  O15_FT  |  cote=1.22  |  super league switzerland
+    Leg 3: ✅ Atalanta vs Napoli  |  HT05  |  cote=1.40  |  serie a italia
+
+  Ticket # 69 | 2026-02-22 | ✅ WIN  | cote totale = 2.54 | 3 legs
+    Leg 1: ✅ Reggiana vs Avellino  |  HT05  |  cote=1.40  |  serie b
+    Leg 2: ✅ Nantes vs Le Havre  |  HT05  |  cote=1.42  |  ligue 1
+    Leg 3: ✅ Tottenham vs Arsenal  |  O15_FT  |  cote=1.28  |  premier league
+
+  Ticket # 70 | 2026-02-22 | ✅ WIN  | cote totale = 2.59 | 4 legs
+    Leg 1: ✅ Feyenoord vs Telstar  |  HT05  |  cote=1.20  |  eredivisie
+    Leg 2: ✅ Strasbourg vs Lyon  |  HT05  |  cote=1.33  |  ligue 1
+    Leg 3: ✅ Villarreal vs Valencia  |  O15_FT  |  cote=1.25  |  laliga
+    Leg 4: ✅ Velez Sarsfield vs River Plate  |  HT1X_HOME  |  cote=1.30  |  liga profesional argentina
+
+  Ticket # 71 | 2026-02-24 | ❌ LOSS | cote totale = 2.60 | 4 legs
+    Leg 1: ✅ Al-Hazm vs Al-Ittihad FC  |  O15_FT  |  cote=1.18  |  saudi arabia
+    Leg 2: ✅ Wrexham vs Portsmouth  |  O15_FT  |  cote=1.38  |  championship
+    Leg 3: ✅ Watford vs Ipswich  |  O15_FT  |  cote=1.33  |  championship
+    Leg 4: ❌ Bayer Leverkusen vs Olympiakos Piraeus  |  O15_FT  |  cote=1.20  |  uefa champions league
+
+  Ticket # 72 | 2026-02-26 | ✅ WIN  | cote totale = 2.53 | 3 legs
+    Leg 1: ✅ Plzen vs Panathinaikos  |  O15_FT  |  cote=1.40  |  uefa europa league
+    Leg 2: ✅ Ferencvarosi TC vs Ludogorets  |  HT05  |  cote=1.33  |  uefa europa league
+    Leg 3: ✅ Genk vs Dinamo Zagreb  |  HT05  |  cote=1.36  |  uefa europa league
+
+  Ticket # 73 | 2026-02-27 | ✅ WIN  | cote totale = 2.47 | 3 legs
+    Leg 1: ✅ Montpellier vs Reims  |  HT1X_HOME  |  cote=1.36  |  ligue 2
+    Leg 2: ✅ FC Augsburg vs 1. FC Köln  |  O15_FT  |  cote=1.25  |  bundesliga
+    Leg 3: ✅ Levante vs Alaves  |  O15_FT  |  cote=1.45  |  laliga
+
+  Ticket # 74 | 2026-03-01 | ✅ WIN  | cote totale = 2.48 | 3 legs
+    Leg 1: ✅ Real Salt Lake vs Seattle Sounders  |  HT05  |  cote=1.36  |  mls
+    Leg 2: ✅ Monterrey vs Cruz Azul  |  HT05  |  cote=1.35  |  liga mx
+    Leg 3: ✅ Leon vs Necaxa  |  HT05  |  cote=1.35  |  liga mx
+
+  Ticket # 75 | 2026-03-01 | ✅ WIN  | cote totale = 2.55 | 3 legs
+    Leg 1: ✅ Cremonese vs AC Milan  |  HT1X_HOME  |  cote=1.85  |  serie a italia
+    Leg 2: ✅ Lausanne vs FC Basel 1893  |  TEAM1_SCORE_FT  |  cote=1.17  |  super league switzerland
+    Leg 3: ✅ Twente vs Feyenoord  |  O15_FT  |  cote=1.18  |  eredivisie
+
+  Ticket # 76 | 2026-03-01 | ✅ WIN  | cote totale = 2.56 | 3 legs
+    Leg 1: ✅ Grasshoppers vs FC Lugano  |  TEAM1_SCORE_FT  |  cote=1.36  |  super league switzerland
+    Leg 2: ✅ Utrecht vs AZ Alkmaar  |  O15_FT  |  cote=1.30  |  eredivisie
+    Leg 3: ✅ Torino vs Lazio  |  O15_FT  |  cote=1.45  |  serie a italia
+
+  Ticket # 77 | 2026-03-01 | ✅ WIN  | cote totale = 2.41 | 3 legs
+    Leg 1: ✅ Mushuc Runa SC vs Universidad Catolica  |  HT1X_HOME  |  cote=1.36  |  liga pro ecuador
+    Leg 2: ✅ AS Roma vs Juventus  |  O15_FT  |  cote=1.42  |  serie a italia
+    Leg 3: ✅ Girona vs Celta Vigo  |  HT1X_HOME  |  cote=1.25  |  laliga
+
+  Ticket # 78 | 2026-03-08 | ❌ LOSS | cote totale = 2.60 | 4 legs
+    Leg 1: ❌ Philadelphia Union vs San Jose Earthquakes  |  HT05  |  cote=1.30  |  mls
+    Leg 2: ✅ Atlanta United FC vs Real Salt Lake  |  O15_FT  |  cote=1.28  |  mls
+    Leg 3: ✅ Sporting Kansas City vs San Diego  |  HT05  |  cote=1.25  |  mls
+    Leg 4: ✅ Colorado Rapids vs Los Angeles Galaxy  |  HT05  |  cote=1.25  |  mls
+
+  Ticket # 79 | 2026-03-08 | ✅ WIN  | cote totale = 2.49 | 3 legs
+    Leg 1: ✅ Fulham vs Southampton  |  TEAM2_SCORE_FT  |  cote=1.44  |  fa cup
+    Leg 2: ✅ Karlsruher SC vs Dynamo Dresden  |  HT05  |  cote=1.30  |  2. bundesliga
+    Leg 3: ✅ Las Palmas vs AD Ceuta FC  |  O15_FT  |  cote=1.33  |  laliga2
+
+  Ticket # 80 | 2026-03-08 | ❌ LOSS | cote totale = 2.42 | 3 legs
+    Leg 1: ❌ FC Andorra vs Sporting Gijon  |  O15_FT  |  cote=1.33  |  laliga2
+    Leg 2: ✅ Estrela vs GIL Vicente  |  O15_FT  |  cote=1.40  |  liga portugal
+    Leg 3: ✅ Nice vs Rennes  |  HT05  |  cote=1.30  |  ligue 1
+
+  Ticket # 81 | 2026-03-08 | ❌ LOSS | cote totale = 2.55 | 3 legs
+    Leg 1: ✅ ST Mirren vs Partick  |  HT05  |  cote=1.35  |  scottish cup
+    Leg 2: ❌ AC Milan vs Inter  |  O15_FT  |  cote=1.35  |  serie a italia
+    Leg 3: ✅ Deportivo La Coruna vs Granada CF  |  HT05  |  cote=1.40  |  laliga2
+
+  Ticket # 82 | 2026-03-09 | ✅ WIN  | cote totale = 2.51 | 4 legs
+    Leg 1: ✅ Club Tijuana vs Santos Laguna  |  O15_FT  |  cote=1.20  |  liga mx
+    Leg 2: ✅ Benfica B vs Feirense  |  HT1X_HOME  |  cote=1.20  |  liga portugal 2
+    Leg 3: ✅ West Ham vs Brentford  |  O15_FT  |  cote=1.28  |  fa cup
+    Leg 4: ✅ Espanyol vs Oviedo  |  O15_FT  |  cote=1.36  |  laliga
+
+  Ticket # 83 | 2026-03-10 | ❌ LOSS | cote totale = 2.92 | 3 legs
+    Leg 1: ❌ Millwall vs Derby  |  O15_FT  |  cote=1.35  |  championship
+    Leg 2: ✅ Sheffield Wednesday vs Watford  |  HT1X_HOME  |  cote=1.80  |  championship
+    Leg 3: ✅ Atletico Madrid vs Tottenham  |  O15_FT  |  cote=1.20  |  uefa champions league
+
+  Ticket # 84 | 2026-03-12 | ✅ WIN  | cote totale = 2.44 | 3 legs
+    Leg 1: ✅ VfB Stuttgart vs FC Porto  |  HT05  |  cote=1.36  |  uefa europa league
+    Leg 2: ✅ Al Najma vs Damac  |  O15_FT  |  cote=1.33  |  saudi arabia
+    Leg 3: ✅ Estudiantes de Rio Cuarto vs Belgrano Cordoba  |  HT1X_HOME  |  cote=1.35  |  liga profesional argentina
+
+  Ticket # 85 | 2026-03-26 | ✅ WIN  | cote totale = 2.57 | 3 legs
+    Leg 1: ✅ Wales vs Bosnia & Herzegovina  |  O15_FT  |  cote=1.33  |  uefa wc qualifiers
+    Leg 2: ✅ Czech Republic vs Rep. Of Ireland  |  O15_FT  |  cote=1.40  |  uefa wc qualifiers
+    Leg 3: ✅ Ukraine vs Sweden  |  O15_FT  |  cote=1.38  |  uefa wc qualifiers
+
+
+======================================================================
+  SÉQUENCE RANDOM — 68 tickets
+======================================================================
+
+  Ticket #  1 | 2026-01-15 | ✅ WIN  | cote totale = 2.44 | 3 legs
+    Leg 1: ✅ Club Queretaro vs Club Tijuana  |  O15_FT  |  cote=1.20  |  liga mx
+    Leg 2: ✅ Verona vs Bologna  |  O15_FT  |  cote=1.45  |  serie a italia
+    Leg 3: ✅ FC Augsburg vs Union Berlin  |  O15_FT  |  cote=1.40  |  bundesliga
+
+  Ticket #  2 | 2026-01-16 | ✅ WIN  | cote totale = 2.59 | 3 legs
+    Leg 1: ✅ Academico Viseu vs União de Leiria  |  O15_FT  |  cote=1.36  |  liga portugal 2
+    Leg 2: ✅ Annecy vs Amiens  |  O15_FT  |  cote=1.38  |  ligue 2
+    Leg 3: ✅ Espanyol vs Girona  |  O15_FT  |  cote=1.38  |  laliga
+
+  Ticket #  3 | 2026-01-20 | ✅ WIN  | cote totale = 2.46 | 3 legs
+    Leg 1: ✅ Swansea vs Blackburn  |  O15_FT  |  cote=1.42  |  championship
+    Leg 2: ✅ Livingston vs ST Mirren  |  O15_FT  |  cote=1.33  |  premiership
+    Leg 3: ✅ Coventry vs Millwall  |  O15_FT  |  cote=1.30  |  championship
+
+  Ticket #  4 | 2026-01-21 | ✅ WIN  | cote totale = 2.48 | 3 legs
+    Leg 1: ✅ Al Okhdood vs Al Riyadh  |  O15_FT  |  cote=1.40  |  saudi arabia
+    Leg 2: ✅ Watford vs Portsmouth  |  O15_FT  |  cote=1.33  |  championship
+    Leg 3: ✅ Atalanta vs Athletic Club  |  O15_FT  |  cote=1.33  |  uefa champions league
+
+  Ticket #  5 | 2026-01-22 | ✅ WIN  | cote totale = 2.79 | 4 legs
+    Leg 1: ✅ Al Taawon vs Al-Hazm  |  O15_FT  |  cote=1.28  |  saudi arabia
+    Leg 2: ✅ Al-Qadisiyah FC vs Al-Ittihad FC  |  O15_FT  |  cote=1.28  |  saudi arabia
+    Leg 3: ✅ Bologna vs Celtic  |  O15_FT  |  cote=1.28  |  uefa europa league
+    Leg 4: ✅ Ferencvarosi TC vs Panathinaikos  |  O15_FT  |  cote=1.33  |  uefa europa league
+
+  Ticket #  6 | 2026-01-23 | ❌ LOSS | cote totale = 2.48 | 3 legs
+    Leg 1: ✅ SV Darmstadt 98 vs 1. FC Nürnberg  |  O15_FT  |  cote=1.22  |  2. bundesliga
+    Leg 2: ✅ Annecy vs Clermont Foot  |  O15_FT  |  cote=1.40  |  ligue 2
+    Leg 3: ❌ Amiens vs Laval  |  O15_FT  |  cote=1.45  |  ligue 2
+
+  Ticket #  7 | 2026-01-24 | ❌ LOSS | cote totale = 2.66 | 3 legs
+    Leg 1: ✅ West Ham vs Sunderland  |  O15_FT  |  cote=1.38  |  premier league
+    Leg 2: ✅ Rayo Vallecano vs Osasuna  |  O15_FT  |  cote=1.45  |  laliga
+    Leg 3: ❌ Valladolid vs Albacete  |  O15_FT  |  cote=1.33  |  laliga2
+
+  Ticket #  8 | 2026-01-24 | ✅ WIN  | cote totale = 2.42 | 3 legs
+    Leg 1: ✅ Hull City vs Swansea  |  O15_FT  |  cote=1.35  |  championship
+    Leg 2: ✅ Motherwell vs Kilmarnock  |  O15_FT  |  cote=1.28  |  premiership
+    Leg 3: ✅ Bristol City vs Sheffield Wednesday  |  O15_FT  |  cote=1.40  |  championship
+
+  Ticket #  9 | 2026-01-24 | ✅ WIN  | cote totale = 2.67 | 3 legs
+    Leg 1: ✅ Sporting Gijon vs Mirandes  |  O15_FT  |  cote=1.36  |  laliga2
+    Leg 2: ✅ Sevilla vs Athletic Club  |  O15_FT  |  cote=1.42  |  laliga
+    Leg 3: ✅ Las Palmas vs Cordoba  |  O15_FT  |  cote=1.38  |  laliga2
+
+  Ticket # 10 | 2026-01-25 | ❌ LOSS | cote totale = 2.48 | 4 legs
+    Leg 1: ❌ Telstar vs AZ Alkmaar  |  O15_FT  |  cote=1.18  |  eredivisie
+    Leg 2: ❌ Sassuolo vs Cremonese  |  O15_FT  |  cote=1.40  |  serie a italia
+    Leg 3: ✅ SV Elversberg vs VfL Bochum  |  O15_FT  |  cote=1.20  |  2. bundesliga
+    Leg 4: ✅ SC Paderborn 07 vs Preußen Münster  |  O15_FT  |  cote=1.25  |  2. bundesliga
+
+  Ticket # 11 | 2026-01-25 | ❌ LOSS | cote totale = 2.53 | 4 legs
+    Leg 1: ✅ FC ST. Gallen vs Servette FC  |  O15_FT  |  cote=1.22  |  super league switzerland
+    Leg 2: ✅ FC Zurich vs FC Basel 1893  |  O15_FT  |  cote=1.17  |  super league switzerland
+    Leg 3: ❌ Catanzaro vs Sampdoria  |  O15_FT  |  cote=1.45  |  serie b
+    Leg 4: ✅ Arsenal vs Manchester United  |  O15_FT  |  cote=1.22  |  premier league
+
+  Ticket # 12 | 2026-01-25 | ✅ WIN  | cote totale = 2.54 | 3 legs
+    Leg 1: ✅ AS Roma vs AC Milan  |  O15_FT  |  cote=1.40  |  serie a italia
+    Leg 2: ✅ Alaves vs Real Betis  |  O15_FT  |  cote=1.42  |  laliga
+    Leg 3: ✅ SC Braga vs Alverca  |  O15_FT  |  cote=1.28  |  liga portugal
+
+  Ticket # 13 | 2026-01-26 | ✅ WIN  | cote totale = 2.44 | 3 legs
+    Leg 1: ✅ Al-Hazm vs Damac  |  O15_FT  |  cote=1.36  |  saudi arabia
+    Leg 2: ✅ AD Ceuta FC vs Cultural Leonesa  |  O15_FT  |  cote=1.38  |  laliga2
+    Leg 3: ✅ FC Porto vs GIL Vicente  |  O15_FT  |  cote=1.30  |  liga portugal
+
+  Ticket # 14 | 2026-01-28 | ✅ WIN  | cote totale = 2.43 | 3 legs
+    Leg 1: ✅ Al Najma vs Al Riyadh  |  O15_FT  |  cote=1.22  |  saudi arabia
+    Leg 2: ✅ Alianza Valledupar vs Chico  |  O15_FT  |  cote=1.50  |  primera a colombia
+    Leg 3: ✅ Fluminense vs Gremio  |  O15_FT  |  cote=1.33  |  serie a brazil
+
+  Ticket # 15 | 2026-01-29 | ✅ WIN  | cote totale = 2.43 | 3 legs
+    Leg 1: ✅ Deportivo Pasto vs Millonarios  |  O15_FT  |  cote=1.53  |  primera a colombia
+    Leg 2: ✅ Al-Hazm vs Al Shabab  |  O15_FT  |  cote=1.22  |  saudi arabia
+    Leg 3: ✅ Nottingham Forest vs Ferencvarosi TC  |  O15_FT  |  cote=1.30  |  uefa europa league
+
+  Ticket # 16 | 2026-01-30 | ❌ LOSS | cote totale = 2.52 | 3 legs
+    Leg 1: ✅ America de Cali vs Once Caldas  |  O15_FT  |  cote=1.40  |  primera a colombia
+    Leg 2: ❌ 1. FC Köln vs VfL Wolfsburg  |  O15_FT  |  cote=1.20  |  bundesliga
+    Leg 3: ✅ Espanyol vs Alaves  |  O15_FT  |  cote=1.50  |  laliga
+
+  Ticket # 17 | 2026-01-31 | ❌ LOSS | cote totale = 2.51 | 3 legs
+    Leg 1: ✅ VfL Bochum vs FC Schalke 04  |  O15_FT  |  cote=1.33  |  2. bundesliga
+    Leg 2: ❌ Oviedo vs Girona  |  O15_FT  |  cote=1.42  |  laliga
+    Leg 3: ✅ Virtus Entella vs Frosinone  |  O15_FT  |  cote=1.33  |  serie b
+
+  Ticket # 18 | 2026-01-31 | ❌ LOSS | cote totale = 2.50 | 3 legs
+    Leg 1: ✅ Pescara vs Mantova  |  O15_FT  |  cote=1.25  |  serie b
+    Leg 2: ❌ Cultural Leonesa vs Deportivo La Coruna  |  O15_FT  |  cote=1.38  |  laliga2
+    Leg 3: ❌ Sampdoria vs Spezia  |  O15_FT  |  cote=1.45  |  serie b
+
+  Ticket # 19 | 2026-02-01 | ❌ LOSS | cote totale = 2.54 | 3 legs
+    Leg 1: ❌ Torino vs Lecce  |  O15_FT  |  cote=1.53  |  serie a italia
+    Leg 2: ✅ Almeria vs AD Ceuta FC  |  O15_FT  |  cote=1.25  |  laliga2
+    Leg 3: ❌ Como vs Atalanta  |  O15_FT  |  cote=1.33  |  serie a italia
+
+  Ticket # 20 | 2026-02-01 | ✅ WIN  | cote totale = 2.58 | 4 legs
+    Leg 1: ✅ Padova vs Monza  |  O15_FT  |  cote=1.40  |  serie b
+    Leg 2: ✅ Nice vs Stade Brestois 29  |  O15_FT  |  cote=1.28  |  ligue 1
+    Leg 3: ✅ Tottenham vs Manchester City  |  O15_FT  |  cote=1.20  |  premier league
+    Leg 4: ✅ Cremonese vs Inter  |  O15_FT  |  cote=1.20  |  serie a italia
+
+  Ticket # 21 | 2026-02-01 | ❌ LOSS | cote totale = 2.77 | 4 legs
+    Leg 1: ✅ FC Volendam vs GO Ahead Eagles  |  O15_FT  |  cote=1.20  |  eredivisie
+    Leg 2: ✅ Parma vs Juventus  |  O15_FT  |  cote=1.30  |  serie a italia
+    Leg 3: ❌ Granada CF vs Racing Santander  |  O15_FT  |  cote=1.25  |  laliga2
+    Leg 4: ✅ Athletic Club vs Real Sociedad  |  O15_FT  |  cote=1.42  |  laliga
+
+  Ticket # 22 | 2026-02-02 | ✅ WIN  | cote totale = 2.67 | 3 legs
+    Leg 1: ✅ Kocaelispor vs Fenerbahçe  |  O15_FT  |  cote=1.36  |  super lig
+    Leg 2: ✅ Mallorca vs Sevilla  |  O15_FT  |  cote=1.40  |  laliga
+    Leg 3: ✅ Sunderland vs Burnley  |  O15_FT  |  cote=1.40  |  premier league
+
+  Ticket # 23 | 2026-02-04 | ✅ WIN  | cote totale = 1.88 | 3 legs
+    Leg 1: ✅ Rangers vs Kilmarnock  |  O15_FT  |  cote=1.18  |  premiership
+    Leg 2: ✅ Livingston vs Falkirk  |  O15_FT  |  cote=1.33  |  premiership
+    Leg 3: ✅ Aberdeen vs Celtic  |  O15_FT  |  cote=1.20  |  premiership
+
+  Ticket # 24 | 2026-02-05 | ✅ WIN  | cote totale = 2.29 | 3 legs
+    Leg 1: ✅ Gremio vs Botafogo  |  O15_FT  |  cote=1.38  |  serie a brazil
+    Leg 2: ✅ Atletico Nacional vs America de Cali  |  O15_FT  |  cote=1.33  |  primera a colombia
+    Leg 3: ✅ Al-Fayha vs Al Najma  |  O15_FT  |  cote=1.25  |  saudi arabia
+
+  Ticket # 25 | 2026-02-06 | ❌ LOSS | cote totale = 2.41 | 3 legs
+    Leg 1: ✅ Cesena vs Pescara  |  O15_FT  |  cote=1.25  |  serie b
+    Leg 2: ❌ Leganes vs Granada CF  |  O15_FT  |  cote=1.48  |  laliga2
+    Leg 3: ✅ Union Berlin vs Eintracht Frankfurt  |  O15_FT  |  cote=1.30  |  bundesliga
+
+  Ticket # 26 | 2026-02-07 | ✅ WIN  | cote totale = 2.40 | 3 legs
+    Leg 1: ✅ Manchester United vs Tottenham  |  O15_FT  |  cote=1.15  |  premier league
+    Leg 2: ✅ Derby vs Ipswich  |  O15_FT  |  cote=1.33  |  championship
+    Leg 3: ✅ Le Mans vs Laval  |  O15_FT  |  cote=1.57  |  ligue 2
+
+  Ticket # 27 | 2026-02-07 | ✅ WIN  | cote totale = 2.44 | 4 legs
+    Leg 1: ✅ Arsenal vs Sunderland  |  O15_FT  |  cote=1.25  |  premier league
+    Leg 2: ✅ Wolves vs Chelsea  |  O15_FT  |  cote=1.20  |  premier league
+    Leg 3: ✅ Burnley vs West Ham  |  O15_FT  |  cote=1.25  |  premier league
+    Leg 4: ✅ Fulham vs Everton  |  O15_FT  |  cote=1.30  |  premier league
+
+  Ticket # 28 | 2026-02-07 | ❌ LOSS | cote totale = 2.51 | 3 legs
+    Leg 1: ❌ FC Sion vs FC Luzern  |  O15_FT  |  cote=1.25  |  super league switzerland
+    Leg 2: ✅ Genoa vs Napoli  |  O15_FT  |  cote=1.57  |  serie a italia
+    Leg 3: ✅ Charleroi vs Cercle Brugge  |  O15_FT  |  cote=1.28  |  pro league
+
+  Ticket # 29 | 2026-02-07 | ✅ WIN  | cote totale = 2.69 | 4 legs
+    Leg 1: ✅ SV Darmstadt 98 vs 1. FC Kaiserslautern  |  O15_FT  |  cote=1.20  |  2. bundesliga
+    Leg 2: ✅ Fortuna Sittard vs Sparta Rotterdam  |  O15_FT  |  cote=1.30  |  eredivisie
+    Leg 3: ✅ Real Sociedad vs Elche  |  O15_FT  |  cote=1.25  |  laliga
+    Leg 4: ✅ Arouca vs Guimaraes  |  O15_FT  |  cote=1.38  |  liga portugal
+
+  Ticket # 30 | 2026-02-08 | ❌ LOSS | cote totale = 2.51 | 3 legs
+    Leg 1: ✅ Atlas vs U.N.A.M. - Pumas  |  O15_FT  |  cote=1.42  |  liga mx
+    Leg 2: ✅ Pachuca vs FC Juarez  |  O15_FT  |  cote=1.33  |  liga mx
+    Leg 3: ❌ Bologna vs Parma  |  O15_FT  |  cote=1.33  |  serie a italia
+
+  Ticket # 31 | 2026-02-08 | ✅ WIN  | cote totale = 1.81 | 3 legs
+    Leg 1: ✅ GO Ahead Eagles vs Telstar  |  O15_FT  |  cote=1.18  |  eredivisie
+    Leg 2: ✅ Rizespor vs Galatasaray  |  O15_FT  |  cote=1.18  |  super lig
+    Leg 3: ✅ Zlin vs Sparta Praha  |  O15_FT  |  cote=1.30  |  czech first league
+
+  Ticket # 32 | 2026-02-08 | ✅ WIN  | cote totale = 2.42 | 3 legs
+    Leg 1: ✅ Beşiktaş vs Alanyaspor  |  O15_FT  |  cote=1.20  |  super lig
+    Leg 2: ✅ Malaga vs Cultural Leonesa  |  O15_FT  |  cote=1.36  |  laliga2
+    Leg 3: ✅ Alianza Valledupar vs Once Caldas  |  O15_FT  |  cote=1.48  |  primera a colombia
+
+  Ticket # 33 | 2026-02-09 | ✅ WIN  | cote totale = 2.59 | 3 legs
+    Leg 1: ✅ Atalanta vs Cremonese  |  O15_FT  |  cote=1.22  |  serie a italia
+    Leg 2: ✅ Barracas Central vs Gimnasia L.P.  |  O15_FT  |  cote=1.70  |  liga profesional argentina
+    Leg 3: ✅ Villarreal vs Espanyol  |  O15_FT  |  cote=1.25  |  laliga
+
+  Ticket # 34 | 2026-02-10 | ❌ LOSS | cote totale = 2.48 | 3 legs
+    Leg 1: ✅ Venezia vs Modena  |  O15_FT  |  cote=1.30  |  serie b
+    Leg 2: ❌ Reggiana vs Mantova  |  O15_FT  |  cote=1.38  |  serie b
+    Leg 3: ✅ Cucuta vs Independiente Medellin  |  O15_FT  |  cote=1.38  |  primera a colombia
+
+  Ticket # 35 | 2026-02-11 | ✅ WIN  | cote totale = 2.44 | 3 legs
+    Leg 1: ✅ Empoli vs Juve Stabia  |  O15_FT  |  cote=1.50  |  serie b
+    Leg 2: ✅ FC Zurich vs FC Winterthur  |  O15_FT  |  cote=1.18  |  super league switzerland
+    Leg 3: ✅ Kilmarnock vs ST Mirren  |  O15_FT  |  cote=1.38  |  premiership
+
+  Ticket # 36 | 2026-02-12 | ❌ LOSS | cote totale = 2.48 | 3 legs
+    Leg 1: ✅ Al-Hazm vs Al Okhdood  |  O15_FT  |  cote=1.33  |  saudi arabia
+    Leg 2: ✅ Atletico Paranaense vs Santos  |  O15_FT  |  cote=1.38  |  serie a brazil
+    Leg 3: ❌ Fluminense vs Botafogo  |  O15_FT  |  cote=1.35  |  serie a brazil
+
+  Ticket # 37 | 2026-02-13 | ❌ LOSS | cote totale = 2.54 | 3 legs
+    Leg 1: ✅ Laval vs Annecy  |  O15_FT  |  cote=1.53  |  ligue 2
+    Leg 2: ✅ KV Mechelen vs Genk  |  O15_FT  |  cote=1.25  |  pro league
+    Leg 3: ❌ Elche vs Osasuna  |  O15_FT  |  cote=1.33  |  laliga
+
+  Ticket # 38 | 2026-02-14 | ❌ LOSS | cote totale = 2.64 | 3 legs
+    Leg 1: ❌ America de Cali vs Santa Fe  |  O15_FT  |  cote=1.45  |  primera a colombia
+    Leg 2: ✅ Genclerbirligi vs Rizespor  |  O15_FT  |  cote=1.30  |  super lig
+    Leg 3: ✅ Espanyol vs Celta Vigo  |  O15_FT  |  cote=1.40  |  laliga
+
+  Ticket # 39 | 2026-02-14 | ✅ WIN  | cote totale = 2.45 | 3 legs
+    Leg 1: ✅ Derby vs Swansea  |  O15_FT  |  cote=1.40  |  championship
+    Leg 2: ✅ Preston vs Watford  |  O15_FT  |  cote=1.40  |  championship
+    Leg 3: ✅ Falkirk vs Dundee Utd  |  O15_FT  |  cote=1.25  |  premiership
+
+  Ticket # 40 | 2026-02-14 | ✅ WIN  | cote totale = 2.63 | 3 legs
+    Leg 1: ✅ Sevilla vs Alaves  |  O15_FT  |  cote=1.45  |  laliga
+    Leg 2: ✅ Dynamo Dresden vs SV Elversberg  |  O15_FT  |  cote=1.25  |  2. bundesliga
+    Leg 3: ✅ GIL Vicente vs SC Braga  |  O15_FT  |  cote=1.45  |  liga portugal
+
+  Ticket # 41 | 2026-02-15 | ✅ WIN  | cote totale = 2.60 | 3 legs
+    Leg 1: ✅ Kocaelispor vs Gazişehir Gaziantep  |  O15_FT  |  cote=1.36  |  super lig
+    Leg 2: ✅ Holstein Kiel vs FC Schalke 04  |  O15_FT  |  cote=1.33  |  2. bundesliga
+    Leg 3: ✅ Oviedo vs Athletic Club  |  O15_FT  |  cote=1.44  |  laliga
+
+  Ticket # 42 | 2026-02-15 | ✅ WIN  | cote totale = 2.41 | 3 legs
+    Leg 1: ✅ Huesca vs AD Ceuta FC  |  O15_FT  |  cote=1.45  |  laliga2
+    Leg 2: ✅ Başakşehir vs Beşiktaş  |  O15_FT  |  cote=1.22  |  super lig
+    Leg 3: ✅ Torino vs Bologna  |  O15_FT  |  cote=1.36  |  serie a italia
+
+  Ticket # 43 | 2026-02-15 | ❌ LOSS | cote totale = 2.50 | 3 legs
+    Leg 1: ✅ Lyon vs Nice  |  O15_FT  |  cote=1.22  |  ligue 1
+    Leg 2: ✅ Napoli vs AS Roma  |  O15_FT  |  cote=1.60  |  serie a italia
+    Leg 3: ❌ Cruz Azul vs Tigres UANL  |  O15_FT  |  cote=1.28  |  liga mx
+
+  Ticket # 44 | 2026-02-16 | ✅ WIN  | cote totale = 2.89 | 3 legs
+    Leg 1: ✅ Rosario Central vs Barracas Central  |  O15_FT  |  cote=1.53  |  liga profesional argentina
+    Leg 2: ✅ Fortaleza FC vs Chico  |  O15_FT  |  cote=1.42  |  primera a colombia
+    Leg 3: ✅ Real Sociedad II vs Malaga  |  O15_FT  |  cote=1.33  |  laliga2
+
+  Ticket # 45 | 2026-02-17 | ✅ WIN  | cote totale = 2.44 | 3 legs
+    Leg 1: ✅ Galatasaray vs Juventus  |  O15_FT  |  cote=1.25  |  uefa champions league
+    Leg 2: ✅ Bristol City vs Wrexham  |  O15_FT  |  cote=1.30  |  championship
+    Leg 3: ✅ Alianza Valledupar vs Cucuta  |  O15_FT  |  cote=1.50  |  primera a colombia
+
+  Ticket # 46 | 2026-02-18 | ✅ WIN  | cote totale = 2.46 | 4 legs
+    Leg 1: ✅ Qarabag vs Newcastle  |  O15_FT  |  cote=1.20  |  uefa champions league
+    Leg 2: ✅ AC Milan vs Como  |  O15_FT  |  cote=1.38  |  serie a italia
+    Leg 3: ✅ Wolves vs Arsenal  |  O15_FT  |  cote=1.22  |  premier league
+    Leg 4: ✅ Club Brugge KV vs Atletico Madrid  |  O15_FT  |  cote=1.22  |  uefa champions league
+
+  Ticket # 47 | 2026-02-19 | ✅ WIN  | cote totale = 2.41 | 3 legs
+    Leg 1: ✅ Junior vs America de Cali  |  O15_FT  |  cote=1.38  |  primera a colombia
+    Leg 2: ✅ Al-Ettifaq vs Al-Fateh  |  O15_FT  |  cote=1.25  |  saudi arabia
+    Leg 3: ✅ Panathinaikos vs Plzen  |  O15_FT  |  cote=1.40  |  uefa europa league
+
+  Ticket # 48 | 2026-02-20 | ❌ LOSS | cote totale = 2.51 | 3 legs
+    Leg 1: ✅ AD Ceuta FC vs Granada CF  |  O15_FT  |  cote=1.38  |  laliga2
+    Leg 2: ❌ Blackburn vs Preston  |  O15_FT  |  cote=1.41  |  championship
+    Leg 3: ✅ Athletic Club vs Elche  |  O15_FT  |  cote=1.29  |  laliga
+
+  Ticket # 49 | 2026-02-21 | ✅ WIN  | cote totale = 2.41 | 3 legs
+    Leg 1: ✅ Orense SC vs LDU de Quito  |  O15_FT  |  cote=1.35  |  liga pro ecuador
+    Leg 2: ✅ Nyiregyhaza vs Kisvarda FC  |  O15_FT  |  cote=1.33  |  superligaen
+    Leg 3: ✅ Real Sociedad vs Oviedo  |  O15_FT  |  cote=1.34  |  laliga
+
+  Ticket # 50 | 2026-02-21 | ✅ WIN  | cote totale = 2.58 | 3 legs
+    Leg 1: ✅ Millwall vs Portsmouth  |  O15_FT  |  cote=1.40  |  championship
+    Leg 2: ✅ Huesca vs Mirandes  |  O15_FT  |  cote=1.45  |  laliga2
+    Leg 3: ✅ Real Betis vs Rayo Vallecano  |  O15_FT  |  cote=1.27  |  laliga
+
+  Ticket # 51 | 2026-02-21 | ✅ WIN  | cote totale = 2.56 | 4 legs
+    Leg 1: ✅ Once Caldas vs Fortaleza FC  |  O15_FT  |  cote=1.39  |  primera a colombia
+    Leg 2: ✅ Grasshoppers vs FC Zurich  |  O15_FT  |  cote=1.25  |  super league switzerland
+    Leg 3: ✅ Ajax vs NEC Nijmegen  |  O15_FT  |  cote=1.15  |  eredivisie
+    Leg 4: ✅ SC Braga vs Guimaraes  |  O15_FT  |  cote=1.28  |  liga portugal
+
+  Ticket # 52 | 2026-02-22 | ✅ WIN  | cote totale = 2.42 | 3 legs
+    Leg 1: ✅ Genoa vs Torino  |  O15_FT  |  cote=1.42  |  serie a italia
+    Leg 2: ✅ SC Paderborn 07 vs Hertha BSC  |  O15_FT  |  cote=1.20  |  2. bundesliga
+    Leg 3: ✅ Sporting Gijon vs Valladolid  |  O15_FT  |  cote=1.42  |  laliga2
+
+  Ticket # 53 | 2026-02-22 | ✅ WIN  | cote totale = 2.54 | 4 legs
+    Leg 1: ✅ RAAL La Louvière vs KV Mechelen  |  O15_FT  |  cote=1.25  |  pro league
+    Leg 2: ✅ FC Lugano vs Lausanne  |  O15_FT  |  cote=1.22  |  super league switzerland
+    Leg 3: ✅ Nice vs Lorient  |  O15_FT  |  cote=1.30  |  ligue 1
+    Leg 4: ✅ Tottenham vs Arsenal  |  O15_FT  |  cote=1.28  |  premier league
+
+  Ticket # 54 | 2026-02-22 | ❌ LOSS | cote totale = 2.64 | 4 legs
+    Leg 1: ✅ 1. FC Heidenheim vs VfB Stuttgart  |  O15_FT  |  cote=1.15  |  bundesliga
+    Leg 2: ✅ AS Roma vs Cremonese  |  O15_FT  |  cote=1.28  |  serie a italia
+    Leg 3: ❌ Malaga vs Albacete  |  O15_FT  |  cote=1.30  |  laliga2
+    Leg 4: ✅ Santa Fe vs Junior  |  O15_FT  |  cote=1.38  |  primera a colombia
+
+  Ticket # 55 | 2026-02-23 | ✅ WIN  | cote totale = 2.50 | 3 legs
+    Leg 1: ✅ Al Shabab vs Al Riyadh  |  O15_FT  |  cote=1.25  |  saudi arabia
+    Leg 2: ✅ Cadiz vs Real Sociedad II  |  O15_FT  |  cote=1.38  |  laliga2
+    Leg 3: ✅ Alaves vs Girona  |  O15_FT  |  cote=1.45  |  laliga
+
+  Ticket # 56 | 2026-02-24 | ❌ LOSS | cote totale = 2.42 | 3 legs
+    Leg 1: ✅ Watford vs Ipswich  |  O15_FT  |  cote=1.33  |  championship
+    Leg 2: ❌ Dundee Utd vs Aberdeen  |  O15_FT  |  cote=1.30  |  premiership
+    Leg 3: ✅ Blackburn vs Bristol City  |  O15_FT  |  cote=1.40  |  championship
+
+  Ticket # 57 | 2026-02-25 | ✅ WIN  | cote totale = 2.65 | 3 legs
+    Leg 1: ✅ Atalanta vs Borussia Dortmund  |  O15_FT  |  cote=1.20  |  uefa champions league
+    Leg 2: ✅ AD Ceuta FC vs Cordoba  |  O15_FT  |  cote=1.30  |  laliga2
+    Leg 3: ✅ Barracas Central vs Tigre  |  O15_FT  |  cote=1.70  |  liga profesional argentina
+
+  Ticket # 58 | 2026-02-26 | ✅ WIN  | cote totale = 2.42 | 3 legs
+    Leg 1: ✅ Santa Fe vs Atletico Nacional  |  O15_FT  |  cote=1.35  |  primera a colombia
+    Leg 2: ✅ Genk vs Dinamo Zagreb  |  O15_FT  |  cote=1.28  |  uefa europa league
+    Leg 3: ✅ River Plate vs Banfield  |  O15_FT  |  cote=1.40  |  liga profesional argentina
+
+  Ticket # 59 | 2026-02-27 | ✅ WIN  | cote totale = 2.47 | 3 legs
+    Leg 1: ✅ Monza vs Virtus Entella  |  O15_FT  |  cote=1.35  |  serie b
+    Leg 2: ✅ Al-Hazm vs Al-Ettifaq  |  O15_FT  |  cote=1.22  |  saudi arabia
+    Leg 3: ✅ Laval vs Nancy  |  O15_FT  |  cote=1.50  |  ligue 2
+
+  Ticket # 60 | 2026-03-01 | ❌ LOSS | cote totale = 2.48 | 4 legs
+    Leg 1: ❌ PEC Zwolle vs Ajax  |  O15_FT  |  cote=1.17  |  eredivisie
+    Leg 2: ✅ Lausanne vs FC Basel 1893  |  O15_FT  |  cote=1.18  |  super league switzerland
+    Leg 3: ✅ Real Sociedad II vs Deportivo La Coruna  |  O15_FT  |  cote=1.38  |  laliga2
+    Leg 4: ✅ Elche vs Espanyol  |  O15_FT  |  cote=1.30  |  laliga
+
+  Ticket # 61 | 2026-03-01 | ❌ LOSS | cote totale = 2.73 | 3 legs
+    Leg 1: ❌ Mirandes vs AD Ceuta FC  |  O15_FT  |  cote=1.42  |  laliga2
+    Leg 2: ✅ Real Betis vs Sevilla  |  O15_FT  |  cote=1.30  |  laliga
+    Leg 3: ✅ Cultural Leonesa vs Las Palmas  |  O15_FT  |  cote=1.48  |  laliga2
+
+  Ticket # 62 | 2026-03-01 | ✅ WIN  | cote totale = 2.48 | 3 legs
+    Leg 1: ✅ Marseille vs Lyon  |  O15_FT  |  cote=1.25  |  ligue 1
+    Leg 2: ✅ AS Roma vs Juventus  |  O15_FT  |  cote=1.42  |  serie a italia
+    Leg 3: ✅ Nacional Asuncion vs Club Guarani  |  O15_FT  |  cote=1.40  |  primera división paraguay
+
+  Ticket # 63 | 2026-03-08 | ✅ WIN  | cote totale = 2.41 | 4 legs
+    Leg 1: ✅ Gaziantep FK vs Fatih Karagümrük  |  O15_FT  |  cote=1.28  |  super lig
+    Leg 2: ✅ MTK Budapest vs Diosgyori VTK  |  O15_FT  |  cote=1.20  |  superligaen
+    Leg 3: ✅ FC ST. Gallen vs FC Basel 1893  |  O15_FT  |  cote=1.18  |  super league switzerland
+    Leg 4: ✅ Las Palmas vs AD Ceuta FC  |  O15_FT  |  cote=1.33  |  laliga2
+
+  Ticket # 64 | 2026-03-08 | ✅ WIN  | cote totale = 2.52 | 3 legs
+    Leg 1: ✅ Gent vs KV Mechelen  |  O15_FT  |  cote=1.20  |  pro league
+    Leg 2: ✅ Estrela vs GIL Vicente  |  O15_FT  |  cote=1.40  |  liga portugal
+    Leg 3: ✅ Genoa vs AS Roma  |  O15_FT  |  cote=1.50  |  serie a italia
+
+  Ticket # 65 | 2026-03-08 | ❌ LOSS | cote totale = 2.84 | 3 legs
+    Leg 1: ❌ AC Milan vs Inter  |  O15_FT  |  cote=1.35  |  serie a italia
+    Leg 2: ✅ Valencia vs Alaves  |  O15_FT  |  cote=1.48  |  laliga
+    Leg 3: ✅ Deportivo La Coruna vs Granada CF  |  O15_FT  |  cote=1.42  |  laliga2
+
+  Ticket # 66 | 2026-03-09 | ✅ WIN  | cote totale = 2.70 | 4 legs
+    Leg 1: ✅ Club Tijuana vs Santos Laguna  |  O15_FT  |  cote=1.20  |  liga mx
+    Leg 2: ✅ Almeria vs Cultural Leonesa  |  O15_FT  |  cote=1.20  |  laliga2
+    Leg 3: ✅ Lazio vs Sassuolo  |  O15_FT  |  cote=1.38  |  serie a italia
+    Leg 4: ✅ Espanyol vs Oviedo  |  O15_FT  |  cote=1.36  |  laliga
+
+  Ticket # 67 | 2026-03-10 | ❌ LOSS | cote totale = 2.48 | 3 legs
+    Leg 1: ✅ Deportivo Pasto vs America de Cali  |  O15_FT  |  cote=1.53  |  primera a colombia
+    Leg 2: ❌ Millwall vs Derby  |  O15_FT  |  cote=1.35  |  championship
+    Leg 3: ✅ Atletico Madrid vs Tottenham  |  O15_FT  |  cote=1.20  |  uefa champions league
+
+  Ticket # 68 | 2026-03-12 | ✅ WIN  | cote totale = 2.56 | 3 legs
+    Leg 1: ✅ Flamengo vs Cruzeiro  |  O15_FT  |  cote=1.33  |  serie a brazil
+    Leg 2: ✅ Bologna vs AS Roma  |  O15_FT  |  cote=1.45  |  uefa europa league
+    Leg 3: ✅ Al Najma vs Damac  |  O15_FT  |  cote=1.33  |  saudi arabia
+
+
+======================================================================
+  MARTINGALE NORMALE — SYSTEM
+  Bankroll départ : 100.00€  |  max_losses=4
+======================================================================
+    #  Résultat    Cote      Mise   Gain/Perte    Bankroll  Série
+  -----------------------------------------------------------------
+    1  ❌ LOSS      2.45     6.67€   -    6.67€      93.33€  L×1
+    2  ❌ LOSS      2.60    13.33€   -   13.33€      80.00€  L×2
+    3  ❌ LOSS      2.43    26.67€   -   26.67€      53.33€  L×3
+    4  ✅ WIN       3.12    53.33€   +  112.81€     166.14€  W×1
+    5  ✅ WIN       2.53    11.08€   +   16.97€     183.12€  W×2
+    6  ✅ WIN       2.42    12.21€   +   17.34€     200.46€  W×3
+    7  ✅ WIN       2.42    13.36€   +   19.03€     219.49€  W×4
+    8  ✅ WIN       2.74    14.63€   +   25.49€     244.97€  W×5
+    9  ✅ WIN       2.42    16.33€   +   23.18€     268.15€  W×6
+   10  ✅ WIN       2.64    17.88€   +   29.23€     297.38€  W×7
+   11  ❌ LOSS      2.45    19.83€   -   19.83€     277.56€  L×1
+   12  ✅ WIN       2.50    39.65€   +   59.52€     337.08€  W×1
+   13  ❌ LOSS      2.44    22.47€   -   22.47€     314.61€  L×1
+   14  ✅ WIN       2.59    44.94€   +   71.62€     386.23€  W×1
+   15  ✅ WIN       2.55    25.75€   +   39.86€     426.08€  W×2
+   16  ✅ WIN       2.48    28.41€   +   41.94€     468.02€  W×3
+   17  ✅ WIN       2.73    31.20€   +   53.86€     521.89€  W×4
+   18  ✅ WIN       2.43    34.79€   +   49.89€     571.78€  W×5
+   19  ✅ WIN       2.42    38.12€   +   54.30€     626.07€  W×6
+   20  ✅ WIN       2.47    41.74€   +   61.48€     687.55€  W×7
+   21  ✅ WIN       2.45    45.84€   +   66.44€     753.99€  W×8
+   22  ✅ WIN       2.40    50.27€   +   70.62€     824.61€  W×9
+   23  ❌ LOSS      2.65    54.97€   -   54.97€     769.64€  L×1
+   24  ❌ LOSS      2.90   109.95€   -  109.95€     659.69€  L×2
+   25  ✅ WIN       2.55   219.90€   +  341.38€    1001.07€  W×1
+   26  ❌ LOSS      2.51    66.74€   -   66.74€     934.33€  L×1
+   27  ✅ WIN       2.50   133.48€   +  200.37€    1134.70€  W×1
+   28  ❌ LOSS      2.52    75.65€   -   75.65€    1059.06€  L×1
+   29  ❌ LOSS      2.47   151.29€   -  151.29€     907.76€  L×2
+   30  ❌ LOSS      2.48   302.59€   -  302.59€     605.18€  L×3
+   31  ✅ WIN       2.40   605.18€   +  848.64€    1453.82€  W×1
+   32  ✅ WIN       2.60    96.92€   +  155.07€    1608.88€  W×2
+   33  ✅ WIN       2.41   107.26€   +  150.93€    1759.82€  W×3
+   34  ❌ LOSS      2.43   117.32€   -  117.32€    1642.50€  L×1
+   35  ❌ LOSS      2.49   234.64€   -  234.64€    1407.85€  L×2
+   36  ✅ WIN       2.55   469.28€   +  726.45€    2134.31€  W×1
+   37  ✅ WIN       2.66   142.29€   +  236.84€    2371.14€  W×2
+   38  ✅ WIN       2.48   158.08€   +  234.26€    2605.40€  W×3
+   39  ✅ WIN       2.45   173.69€   +  251.51€    2856.91€  W×4
+   40  ✅ WIN       2.54   190.46€   +  294.19€    3151.11€  W×5
+   41  ✅ WIN       2.41   210.07€   +  295.30€    3446.41€  W×6
+   42  ✅ WIN       2.59   229.76€   +  366.12€    3812.53€  W×7
+   43  ✅ WIN       2.55   254.17€   +  394.28€    4206.81€  W×8
+   44  ✅ WIN       2.42   280.45€   +  398.41€    4605.22€  W×9
+   45  ✅ WIN       2.56   307.01€   +  478.75€    5083.97€  W×10
+   46  ❌ LOSS      2.42   338.93€   -  338.93€    4745.04€  L×1
+   47  ✅ WIN       2.49   677.86€   + 1010.03€    5755.07€  W×1
+   48  ✅ WIN       2.45   383.67€   +  556.13€    6311.20€  W×2
+   49  ✅ WIN       2.47   420.75€   +  618.75€    6929.96€  W×3
+   50  ✅ WIN       2.46   462.00€   +  673.13€    7603.09€  W×4
+   51  ❌ LOSS      2.59   506.87€   -  506.87€    7096.22€  L×1
+   52  ❌ LOSS      2.45  1013.75€   - 1013.75€    6082.47€  L×2
+   53  ✅ WIN       2.41  2027.49€   + 2850.05€    8932.52€  W×1
+   54  ✅ WIN       2.40   595.50€   +  834.42€    9766.94€  W×2
+   55  ❌ LOSS      2.48   651.13€   -  651.13€    9115.81€  L×1
+   56  ❌ LOSS      2.57  1302.26€   - 1302.26€    7813.55€  L×2
+   57  ✅ WIN       2.48  2604.52€   + 3848.93€   11662.48€  W×1
+   58  ❌ LOSS      2.41   777.50€   -  777.50€   10884.98€  L×1
+   59  ✅ WIN       2.59  1555.00€   + 2470.31€   13355.29€  W×1
+   60  ❌ LOSS      2.49   890.35€   -  890.35€   12464.93€  L×1
+   61  ✅ WIN       2.45  1780.70€   + 2582.02€   15046.96€  W×1
+   62  ✅ WIN       2.45  1003.13€   + 1453.98€   16500.93€  W×2
+   63  ✅ WIN       2.45  1100.06€   + 1596.04€   18096.97€  W×3
+   64  ✅ WIN       2.69  1206.46€   + 2041.60€   20138.57€  W×4
+   65  ✅ WIN       2.47  1342.57€   + 1970.86€   22109.43€  W×5
+   66  ✅ WIN       2.47  1473.96€   + 2171.09€   24280.52€  W×6
+   67  ✅ WIN       2.48  1618.70€   + 2387.91€   26668.43€  W×7
+   68  ✅ WIN       2.43  1777.90€   + 2534.14€   29202.57€  W×8
+   69  ✅ WIN       2.54  1946.84€   + 3007.16€   32209.73€  W×9
+   70  ✅ WIN       2.59  2147.32€   + 3421.75€   35631.48€  W×10
+   71  ❌ LOSS      2.60  2375.43€   - 2375.43€   33256.05€  L×1
+   72  ✅ WIN       2.53  4750.86€   + 7279.84€   40535.89€  W×1
+   73  ✅ WIN       2.47  2702.39€   + 3959.01€   44494.90€  W×2
+   74  ✅ WIN       2.48  2966.33€   + 4386.01€   48880.91€  W×3
+   75  ✅ WIN       2.55  3258.73€   + 5064.42€   53945.33€  W×4
+   76  ✅ WIN       2.56  3596.36€   + 5623.26€   59568.59€  W×5
+   77  ✅ WIN       2.41  3971.24€   + 5615.33€   65183.92€  W×6
+   78  ❌ LOSS      2.60  4345.59€   - 4345.59€   60838.33€  L×1
+   79  ✅ WIN       2.49  8691.19€   +12947.79€   73786.11€  W×1
+   80  ❌ LOSS      2.42  4919.07€   - 4919.07€   68867.04€  L×1
+   81  ❌ LOSS      2.55  9838.15€   - 9838.15€   59028.89€  L×2
+   82  ✅ WIN       2.51  19676.30€   +29647.30€   88676.19€  W×1
+   83  ❌ LOSS      2.92  5911.75€   - 5911.75€   82764.45€  L×1
+   84  ✅ WIN       2.44  11823.49€   +17048.06€   99812.50€  W×1
+   85  ✅ WIN       2.57  6654.17€   +10444.11€  110256.62€  W×2
+  -----------------------------------------------------------------
+  RÉSULTAT : 60W / 25L  |  Bankroll : 110256.62€  |  Profit : +110156.62€  (x1102.57)
+
+===========================================================================
+  MARTINGALE SAFE — SYSTEM
+  Bankroll départ : 100.00€  |  max_losses=4  |  Réserves : 0€
+===========================================================================
+    #  Résultat    Cote      Mise   Gain/Perte     Active   Réserves  Note
+  ------------------------------------------------------------------------
+    1  ❌ LOSS      2.45     6.67€   -    6.67€     93.33€      0.00€  L×1
+    2  ❌ LOSS      2.60    13.33€   -   13.33€     80.00€      0.00€  L×2
+    3  ❌ LOSS      2.43    26.67€   -   26.67€     53.33€      0.00€  L×3
+    4  ✅ WIN       3.12    53.33€   +  112.81€    166.14€      0.00€  W×1
+    5  ✅ WIN       2.53    11.08€   +   16.97€    183.12€      0.00€  W×2
+    6  ✅ WIN       2.42    12.21€   +   17.34€    120.09€    100.46€  💰 DOUBLING #1  → réserves=100.46€  base=120.09€
+    7  ✅ WIN       2.42     8.01€   +   11.40€    131.49€    100.46€  W×4
+    8  ✅ WIN       2.74     8.77€   +   15.27€    146.76€    100.46€  W×5
+    9  ✅ WIN       2.42     9.78€   +   13.89€    160.65€    100.46€  W×6
+   10  ✅ WIN       2.64    10.71€   +   17.51€    178.16€    100.46€  W×7
+   11  ❌ LOSS      2.45    11.88€   -   11.88€    166.28€    100.46€  L×1
+   12  ✅ WIN       2.50    23.75€   +   35.66€    201.94€    100.46€  W×1
+   13  ❌ LOSS      2.44    13.46€   -   13.46€    188.48€    100.46€  L×1
+   14  ✅ WIN       2.59    26.93€   +   42.91€    231.38€    100.46€  W×1
+   15  ✅ WIN       2.55    15.43€   +   23.88€    147.13€    235.63€  💰 DOUBLING #2  → réserves=235.63€  base=147.13€
+   16  ✅ WIN       2.48     9.81€   +   14.48€    161.61€    235.63€  W×3
+   17  ✅ WIN       2.73    10.77€   +   18.60€    180.21€    235.63€  W×4
+   18  ✅ WIN       2.43    12.01€   +   17.23€    197.43€    235.63€  W×5
+   19  ✅ WIN       2.42    13.16€   +   18.75€    216.18€    235.63€  W×6
+   20  ✅ WIN       2.47    14.41€   +   21.23€    237.41€    235.63€  W×7
+   21  ✅ WIN       2.45    15.83€   +   22.94€    260.35€    235.63€  W×8
+   22  ✅ WIN       2.40    17.36€   +   24.39€    284.74€    235.63€  W×9
+   23  ❌ LOSS      2.65    18.98€   -   18.98€    265.75€    235.63€  L×1
+   24  ❌ LOSS      2.90    37.96€   -   37.96€    227.79€    235.63€  L×2
+   25  ✅ WIN       2.55    75.93€   +  117.88€    186.83€    434.17€  💰 DOUBLING #3  → réserves=434.17€  base=186.83€
+   26  ❌ LOSS      2.51    12.46€   -   12.46€    174.38€    434.17€  L×1
+   27  ✅ WIN       2.50    24.91€   +   37.40€    211.77€    434.17€  W×1
+   28  ❌ LOSS      2.52    14.12€   -   14.12€    197.66€    434.17€  L×1
+   29  ❌ LOSS      2.47    28.24€   -   28.24€    169.42€    434.17€  L×2
+   30  ❌ LOSS      2.48    56.47€   -   56.47€    112.95€    434.17€  L×3
+   31  ✅ WIN       2.40   112.95€   +  158.39€    271.33€    434.17€  W×1
+   32  ✅ WIN       2.60    18.09€   +   28.94€    300.27€    434.17€  W×2
+   33  ✅ WIN       2.41    20.02€   +   28.17€    328.44€    434.17€  W×3
+   34  ❌ LOSS      2.43    21.90€   -   21.90€    306.55€    434.17€  L×1
+   35  ❌ LOSS      2.49    43.79€   -   43.79€    262.75€    434.17€  L×2
+   36  ✅ WIN       2.55    87.58€   +  135.58€    229.13€    645.67€  💰 DOUBLING #4  → réserves=645.67€  base=229.13€
+   37  ✅ WIN       2.66    15.28€   +   25.43€    254.56€    645.67€  W×2
+   38  ✅ WIN       2.48    16.97€   +   25.15€    279.71€    645.67€  W×3
+   39  ✅ WIN       2.45    18.65€   +   27.00€    306.71€    645.67€  W×4
+   40  ✅ WIN       2.54    20.45€   +   31.58€    338.29€    645.67€  W×5
+   41  ✅ WIN       2.41    22.55€   +   31.70€    370.00€    645.67€  W×6
+   42  ✅ WIN       2.59    24.67€   +   39.31€    409.30€    645.67€  W×7
+   43  ✅ WIN       2.55    27.29€   +   42.33€    451.63€    645.67€  W×8
+   44  ✅ WIN       2.42    30.11€   +   42.77€    282.19€    910.94€  💰 DOUBLING #5  → réserves=910.94€  base=282.19€
+   45  ✅ WIN       2.56    18.81€   +   29.34€    311.52€    910.94€  W×10
+   46  ❌ LOSS      2.42    20.77€   -   20.77€    290.76€    910.94€  L×1
+   47  ✅ WIN       2.49    41.54€   +   61.89€    352.65€    910.94€  W×1
+   48  ✅ WIN       2.45    23.51€   +   34.08€    386.72€    910.94€  W×2
+   49  ✅ WIN       2.47    25.78€   +   37.91€    424.64€    910.94€  W×3
+   50  ✅ WIN       2.46    28.31€   +   41.25€    465.88€    910.94€  W×4
+   51  ❌ LOSS      2.59    31.06€   -   31.06€    434.83€    910.94€  L×1
+   52  ❌ LOSS      2.45    62.12€   -   62.12€    372.71€    910.94€  L×2
+   53  ✅ WIN       2.41   124.24€   +  174.64€    547.35€    910.94€  W×1
+   54  ✅ WIN       2.40    36.49€   +   51.13€    345.45€   1227.23€  💰 DOUBLING #6  → réserves=1227.23€  base=345.45€
+   55  ❌ LOSS      2.48    23.03€   -   23.03€    322.42€   1227.23€  L×1
+   56  ❌ LOSS      2.57    46.06€   -   46.06€    276.36€   1227.23€  L×2
+   57  ✅ WIN       2.48    92.12€   +  136.13€    412.49€   1227.23€  W×1
+   58  ❌ LOSS      2.41    27.50€   -   27.50€    384.99€   1227.23€  L×1
+   59  ✅ WIN       2.59    55.00€   +   87.37€    472.36€   1227.23€  W×1
+   60  ❌ LOSS      2.49    31.49€   -   31.49€    440.87€   1227.23€  L×1
+   61  ✅ WIN       2.45    62.98€   +   91.32€    532.19€   1227.23€  W×1
+   62  ✅ WIN       2.45    35.48€   +   51.43€    583.62€   1227.23€  W×2
+   63  ✅ WIN       2.45    38.91€   +   56.45€    640.07€   1227.23€  W×3
+   64  ✅ WIN       2.69    42.67€   +   72.21€    418.81€   1594.06€  💰 DOUBLING #7  → réserves=1594.06€  base=418.81€
+   65  ✅ WIN       2.47    27.92€   +   40.99€    459.80€   1594.06€  W×5
+   66  ✅ WIN       2.47    30.65€   +   45.15€    504.95€   1594.06€  W×6
+   67  ✅ WIN       2.48    33.66€   +   49.66€    554.61€   1594.06€  W×7
+   68  ✅ WIN       2.43    36.97€   +   52.70€    607.31€   1594.06€  W×8
+   69  ✅ WIN       2.54    40.49€   +   62.54€    669.85€   1594.06€  W×9
+   70  ✅ WIN       2.59    44.66€   +   71.16€    741.01€   1594.06€  W×10
+   71  ❌ LOSS      2.60    49.40€   -   49.40€    691.61€   1594.06€  L×1
+   72  ✅ WIN       2.53    98.80€   +  151.40€    503.65€   2018.25€  💰 DOUBLING #8  → réserves=2018.25€  base=503.65€
+   73  ✅ WIN       2.47    33.58€   +   49.19€    552.84€   2018.25€  W×2
+   74  ✅ WIN       2.48    36.86€   +   54.50€    607.34€   2018.25€  W×3
+   75  ✅ WIN       2.55    40.49€   +   62.92€    670.26€   2018.25€  W×4
+   76  ✅ WIN       2.56    44.68€   +   69.87€    740.13€   2018.25€  W×5
+   77  ✅ WIN       2.41    49.34€   +   69.77€    809.90€   2018.25€  W×6
+   78  ❌ LOSS      2.60    53.99€   -   53.99€    755.90€   2018.25€  L×1
+   79  ✅ WIN       2.49   107.99€   +  160.87€    916.78€   2018.25€  W×1
+   80  ❌ LOSS      2.42    61.12€   -   61.12€    855.66€   2018.25€  L×1
+   81  ❌ LOSS      2.55   122.24€   -  122.24€    733.42€   2018.25€  L×2
+   82  ✅ WIN       2.51   244.47€   +  368.36€    623.28€   2616.39€  💰 DOUBLING #9  → réserves=2616.39€  base=623.28€
+   83  ❌ LOSS      2.92    41.55€   -   41.55€    581.73€   2616.39€  L×1
+   84  ✅ WIN       2.44    83.10€   +  119.83€    701.55€   2616.39€  W×1
+   85  ✅ WIN       2.57    46.77€   +   73.41€    774.96€   2616.39€  W×2
+  ------------------------------------------------------------------------
+  RÉSULTAT : 60W / 25L  |  Active=774.96€  Réserves=2616.39€  Total=3391.35€
+             Profit : +3291.35€  (x33.91)  |  Doublings=9  Restarts=0
+
+======================================================================
+  MARTINGALE NORMALE — RANDOM
+  Bankroll départ : 100.00€  |  max_losses=4
+======================================================================
+    #  Résultat    Cote      Mise   Gain/Perte    Bankroll  Série
+  -----------------------------------------------------------------
+    1  ✅ WIN       2.44     6.67€   +    9.57€     109.57€  W×1
+    2  ✅ WIN       2.59     7.30€   +   11.61€     121.19€  W×2
+    3  ✅ WIN       2.46     8.08€   +   11.76€     132.94€  W×3
+    4  ✅ WIN       2.48     8.86€   +   13.09€     146.03€  W×4
+    5  ✅ WIN       2.79     9.74€   +   17.42€     163.45€  W×5
+    6  ❌ LOSS      2.48    10.90€   -   10.90€     152.55€  L×1
+    7  ❌ LOSS      2.66    21.79€   -   21.79€     130.76€  L×2
+    8  ✅ WIN       2.42    43.59€   +   61.86€     192.62€  W×1
+    9  ✅ WIN       2.67    12.84€   +   21.38€     214.00€  W×2
+   10  ❌ LOSS      2.48    14.27€   -   14.27€     199.73€  L×1
+   11  ❌ LOSS      2.53    28.53€   -   28.53€     171.20€  L×2
+   12  ✅ WIN       2.54    57.07€   +   88.15€     259.35€  W×1
+   13  ✅ WIN       2.44    17.29€   +   24.89€     284.24€  W×2
+   14  ✅ WIN       2.43    18.95€   +   27.17€     311.41€  W×3
+   15  ✅ WIN       2.43    20.76€   +   29.62€     341.03€  W×4
+   16  ❌ LOSS      2.52    22.74€   -   22.74€     318.29€  L×1
+   17  ❌ LOSS      2.51    45.47€   -   45.47€     272.82€  L×2
+   18  ❌ LOSS      2.50    90.94€   -   90.94€     181.88€  L×3
+   19  ❌ LOSS      2.54   181.88€   -  181.88€       0.00€  L×4  💀 RUINE
+  -----------------------------------------------------------------
+  RÉSULTAT : 11W / 8L  |  Bankroll : 0.00€  |  Profit : -100.00€  (x0.00)
+
+===========================================================================
+  MARTINGALE SAFE — RANDOM
+  Bankroll départ : 100.00€  |  max_losses=4  |  Réserves : 0€
+===========================================================================
+    #  Résultat    Cote      Mise   Gain/Perte     Active   Réserves  Note
+  ------------------------------------------------------------------------
+    1  ✅ WIN       2.44     6.67€   +    9.57€    109.57€      0.00€  W×1
+    2  ✅ WIN       2.59     7.30€   +   11.61€    121.19€      0.00€  W×2
+    3  ✅ WIN       2.46     8.08€   +   11.76€    132.94€      0.00€  W×3
+    4  ✅ WIN       2.48     8.86€   +   13.09€    146.03€      0.00€  W×4
+    5  ✅ WIN       2.79     9.74€   +   17.42€    163.45€      0.00€  W×5
+    6  ❌ LOSS      2.48    10.90€   -   10.90€    152.55€      0.00€  L×1
+    7  ❌ LOSS      2.66    21.79€   -   21.79€    130.76€      0.00€  L×2
+    8  ✅ WIN       2.42    43.59€   +   61.86€    192.62€      0.00€  W×1
+    9  ✅ WIN       2.67    12.84€   +   21.38€    122.80€    114.00€  💰 DOUBLING #1  → réserves=114.00€  base=122.80€
+   10  ❌ LOSS      2.48     8.19€   -    8.19€    114.61€    114.00€  L×1
+   11  ❌ LOSS      2.53    16.37€   -   16.37€     98.24€    114.00€  L×2
+   12  ✅ WIN       2.54    32.75€   +   50.58€    148.82€    114.00€  W×1
+   13  ✅ WIN       2.44     9.92€   +   14.29€    163.11€    114.00€  W×2
+   14  ✅ WIN       2.43    10.87€   +   15.59€    178.70€    114.00€  W×3
+   15  ✅ WIN       2.43    11.91€   +   17.00€    195.69€    114.00€  W×4
+   16  ❌ LOSS      2.52    13.05€   -   13.05€    182.65€    114.00€  L×1
+   17  ❌ LOSS      2.51    26.09€   -   26.09€    156.56€    114.00€  L×2
+   18  ❌ LOSS      2.50    52.19€   -   52.19€    104.37€    114.00€  L×3
+   19  ❌ LOSS      2.54   104.37€   -  104.37€      0.00€    114.00€  L×4
+   20  ✅ WIN       2.58     8.19€   +   12.94€    135.74€    114.00€  ↩ RESTART #1
+   21  ❌ LOSS      2.77     9.05€   -    9.05€    126.69€    114.00€  L×1
+   22  ✅ WIN       2.67    18.10€   +   30.14€    156.83€    114.00€  W×1
+   23  ✅ WIN       1.88    10.46€   +    9.24€    166.07€    114.00€  W×2
+   24  ✅ WIN       2.29    11.07€   +   14.33€    180.40€    114.00€  W×3
+   25  ❌ LOSS      2.41    12.03€   -   12.03€    168.37€    114.00€  L×1
+   26  ✅ WIN       2.40    24.05€   +   33.71€    202.08€    114.00€  W×1
+   27  ✅ WIN       2.44    13.47€   +   19.37€    221.44€    114.00€  W×2
+   28  ❌ LOSS      2.51    14.76€   -   14.76€    206.68€    114.00€  L×1
+   29  ✅ WIN       2.69    29.53€   +   49.93€    149.56€    247.81€  💰 DOUBLING #2  → réserves=247.81€  base=149.56€
+   30  ❌ LOSS      2.51     9.97€   -    9.97€    139.59€    247.81€  L×1
+   31  ✅ WIN       1.81    19.94€   +   16.16€    155.75€    247.81€  W×1
+   32  ✅ WIN       2.42    10.38€   +   14.70€    170.44€    247.81€  W×2
+   33  ✅ WIN       2.59    11.36€   +   18.10€    188.54€    247.81€  W×3
+   34  ❌ LOSS      2.48    12.57€   -   12.57€    175.97€    247.81€  L×1
+   35  ✅ WIN       2.44    25.14€   +   36.26€    212.23€    247.81€  W×1
+   36  ❌ LOSS      2.48    14.15€   -   14.15€    198.08€    247.81€  L×1
+   37  ❌ LOSS      2.54    28.30€   -   28.30€    169.79€    247.81€  L×2
+   38  ❌ LOSS      2.64    56.60€   -   56.60€    113.19€    247.81€  L×3
+   39  ✅ WIN       2.45   113.19€   +  164.13€    277.32€    247.81€  W×1
+   40  ✅ WIN       2.63    18.49€   +   30.10€    181.13€    405.66€  💰 DOUBLING #3  → réserves=405.66€  base=181.13€
+   41  ✅ WIN       2.60    12.08€   +   19.38€    200.51€    405.66€  W×3
+   42  ✅ WIN       2.41    13.37€   +   18.79€    219.30€    405.66€  W×4
+   43  ❌ LOSS      2.50    14.62€   -   14.62€    204.68€    405.66€  L×1
+   44  ✅ WIN       2.89    29.24€   +   55.25€    259.93€    405.66€  W×1
+   45  ✅ WIN       2.44    17.33€   +   24.91€    284.84€    405.66€  W×2
+   46  ✅ WIN       2.46    18.99€   +   27.82€    312.66€    405.66€  W×3
+   47  ✅ WIN       2.41    20.84€   +   29.49€    342.15€    405.66€  W×4
+   48  ❌ LOSS      2.51    22.81€   -   22.81€    319.34€    405.66€  L×1
+   49  ✅ WIN       2.41    45.62€   +   64.14€    221.60€    608.01€  💰 DOUBLING #4  → réserves=608.01€  base=221.60€
+   50  ✅ WIN       2.58    14.77€   +   23.31€    244.92€    608.01€  W×2
+   51  ✅ WIN       2.56    16.33€   +   25.43€    270.35€    608.01€  W×3
+   52  ✅ WIN       2.42    18.02€   +   25.59€    295.94€    608.01€  W×4
+   53  ✅ WIN       2.54    19.73€   +   30.34€    326.27€    608.01€  W×5
+   54  ❌ LOSS      2.64    21.75€   -   21.75€    304.52€    608.01€  L×1
+   55  ✅ WIN       2.50    43.50€   +   65.31€    369.83€    608.01€  W×1
+   56  ❌ LOSS      2.42    24.66€   -   24.66€    345.17€    608.01€  L×1
+   57  ✅ WIN       2.65    49.31€   +   81.46€    426.64€    608.01€  W×1
+   58  ✅ WIN       2.42    28.44€   +   40.37€    270.68€    853.41€  💰 DOUBLING #5  → réserves=853.41€  base=270.68€
+   59  ✅ WIN       2.47    18.05€   +   26.54€    297.22€    853.41€  W×3
+   60  ❌ LOSS      2.48    19.81€   -   19.81€    277.40€    853.41€  L×1
+   61  ❌ LOSS      2.73    39.63€   -   39.63€    237.77€    853.41€  L×2
+   62  ✅ WIN       2.48    79.26€   +  117.70€    355.47€    853.41€  W×1
+   63  ✅ WIN       2.41    23.70€   +   33.43€    388.90€    853.41€  W×2
+   64  ✅ WIN       2.52    25.93€   +   39.41€    428.31€    853.41€  W×3
+   65  ❌ LOSS      2.84    28.55€   -   28.55€    399.76€    853.41€  L×1
+   66  ✅ WIN       2.70    57.11€   +   97.23€    496.99€    853.41€  W×1
+   67  ❌ LOSS      2.48    33.13€   -   33.13€    463.86€    853.41€  L×1
+   68  ✅ WIN       2.56    66.27€   +  103.70€    330.06€   1150.28€  💰 DOUBLING #6  → réserves=1150.28€  base=330.06€
+  ------------------------------------------------------------------------
+  RÉSULTAT : 44W / 24L  |  Active=330.06€  Réserves=1150.28€  Total=1480.34€
+             Profit : +1380.34€  (x14.80)  |  Doublings=6  Restarts=1

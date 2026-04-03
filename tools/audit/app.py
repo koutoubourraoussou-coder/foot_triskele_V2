@@ -177,6 +177,87 @@ def style_status_cell(val):
 
 
 # -----------------------------
+# Martingale computation
+# -----------------------------
+def _base_stake_mart(bankroll: float, max_losses: int) -> float:
+    if bankroll <= 0:
+        return 0.0
+    denom = (2 ** max(0, max_losses)) - 1
+    return bankroll / float(denom) if denom > 0 else bankroll
+
+
+def compute_martingale_stakes(df: pd.DataFrame, bankroll0: float, max_losses: int) -> pd.DataFrame:
+    """
+    Ajoute Mise_NORM et Mise_SAFE à df (trié chronologiquement).
+    Statut ✅ = WIN, ❌ = LOSS, ⏳ = PENDING (on affiche la mise prévue, sans avancer l'état).
+    """
+    if df.empty:
+        return df
+
+    out = df.copy()
+    out["Mise_NORM"] = None
+    out["Mise_SAFE"] = None
+
+    # ── NORMALE ──────────────────────────────────────────────
+    bk = float(bankroll0)
+    prev_stake_n = 0.0
+    loss_streak_n = 0
+    for idx in out.index:
+        if bk <= 0:
+            break
+        odd = float(out.at[idx, "Cote"]) if out.at[idx, "Cote"] else 2.0
+        base = _base_stake_mart(bk, max_losses)
+        stake = base if loss_streak_n == 0 else prev_stake_n * 2.0
+        stake = round(min(stake, bk), 2)
+        out.at[idx, "Mise_NORM"] = stake
+        statut = str(out.at[idx, "Statut"] or "")
+        if "✅" in statut:
+            bk += stake * (odd - 1.0)
+            loss_streak_n = 0
+        elif "❌" in statut:
+            bk -= stake
+            loss_streak_n += 1
+        # ⏳ : ne pas avancer l'état
+        prev_stake_n = stake
+
+    # ── SAFE ─────────────────────────────────────────────────
+    B0 = float(bankroll0)
+    reserves = 0.0
+
+    def _cycle_base_s() -> float:
+        return B0 + 0.20 * reserves
+
+    bk_active = _cycle_base_s()
+    cycle_base = bk_active
+    prev_stake_s = 0.0
+    loss_streak_s = 0
+    denom_s = float((2 ** max(0, max_losses)) - 1) or 1.0
+
+    for idx in out.index:
+        if bk_active <= 0:
+            break
+        odd = float(out.at[idx, "Cote"]) if out.at[idx, "Cote"] else 2.0
+        base = bk_active / denom_s
+        stake = base if loss_streak_s == 0 else prev_stake_s * 2.0
+        stake = round(min(stake, bk_active), 2)
+        out.at[idx, "Mise_SAFE"] = stake
+        statut = str(out.at[idx, "Statut"] or "")
+        if "✅" in statut:
+            bk_active += stake * (odd - 1.0)
+            loss_streak_s = 0
+            if bk_active >= cycle_base * 2.0:
+                reserves += bk_active - cycle_base
+                bk_active = _cycle_base_s()
+                cycle_base = bk_active
+        elif "❌" in statut:
+            bk_active -= stake
+            loss_streak_s += 1
+        prev_stake_s = stake
+
+    return out
+
+
+# -----------------------------
 # Parsing tickets (reports)
 # -----------------------------
 def parse_tickets_to_play(filepath: Path | str, fallback_day: date | None = None):
@@ -777,6 +858,14 @@ with tab1:
 
     st.divider()
 
+    _mc1, _mc2 = st.columns(2)
+    with _mc1:
+        mart_bankroll = st.number_input("Bankroll martingale (€)", min_value=10.0, max_value=100000.0, value=100.0, step=10.0, key="mart_b0")
+    with _mc2:
+        mart_max_losses = st.number_input("Max pertes consécutives", min_value=1, max_value=8, value=4, step=1, key="mart_ml")
+
+    st.divider()
+
     # Tickets multi-jours selon la période (GLOBAL)
     df_sys = load_tickets_dataset("tickets_report_global.txt", period_start, period_end)
     df_rand = load_tickets_dataset("tickets_o15_random_report_global.txt", period_start, period_end)
@@ -792,6 +881,10 @@ with tab1:
     df_sys = sort_tickets_for_display(df_sys)
     df_rand = sort_tickets_for_display(df_rand)
 
+    # Calcul des mises martingale
+    df_sys  = compute_martingale_stakes(df_sys,  mart_bankroll, int(mart_max_losses))
+    df_rand = compute_martingale_stakes(df_rand, mart_bankroll, int(mart_max_losses))
+
     col1, col2 = st.columns(2)
 
     with col1:
@@ -800,7 +893,8 @@ with tab1:
         if not df_sys.empty:
             df_sys["Heure"] = df_sys["DateTimeTri"].dt.strftime("%H:%M")
             df_sys["Heure"] = df_sys["Heure"].fillna("—")
-            show_cols = ["Statut", "Jour", "Heure", "Ticket", "Cote", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
+            show_cols = ["Statut", "Jour", "Heure", "Ticket", "Cote", "Mise_NORM", "Mise_SAFE", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
+            show_cols = [c for c in show_cols if c in df_sys.columns]
             st.dataframe(df_sys[show_cols], use_container_width=True, hide_index=True)
 
             with st.expander("Voir le détail des matchs (Système)"):
@@ -820,7 +914,8 @@ with tab1:
         if not df_rand.empty:
             df_rand["Heure"] = df_rand["DateTimeTri"].dt.strftime("%H:%M")
             df_rand["Heure"] = df_rand["Heure"].fillna("—")
-            show_cols = ["Statut", "Jour", "Heure", "Ticket", "Cote", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
+            show_cols = ["Statut", "Jour", "Heure", "Ticket", "Cote", "Mise_NORM", "Mise_SAFE", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
+            show_cols = [c for c in show_cols if c in df_rand.columns]
             st.dataframe(df_rand[show_cols], use_container_width=True, hide_index=True)
 
             with st.expander("Voir le détail des matchs (Random)"):

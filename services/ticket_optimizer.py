@@ -125,14 +125,16 @@ class DayEval:
 def _iter_day_dirs(archive_dir: Path) -> Iterable[Path]:
     if not archive_dir.exists():
         return
-    for p in sorted(archive_dir.iterdir()):
+    all_dirs: List[Path] = []
+    for p in archive_dir.iterdir():
         if p.is_dir() and p.name.startswith("analyse_"):
-            yield p
-    jan = archive_dir / "1_JANVIER"
-    if jan.exists() and jan.is_dir():
-        for p in sorted(jan.iterdir()):
-            if p.is_dir() and p.name.startswith("analyse_"):
-                yield p
+            all_dirs.append(p)
+    for subdir in archive_dir.iterdir():
+        if subdir.is_dir() and not subdir.name.startswith("analyse_"):
+            for p in subdir.iterdir():
+                if p.is_dir() and p.name.startswith("analyse_"):
+                    all_dirs.append(p)
+    yield from sorted(all_dirs, key=lambda p: p.name)
 
 
 def _pick_run_dir(day_dir: Path) -> Optional[Path]:

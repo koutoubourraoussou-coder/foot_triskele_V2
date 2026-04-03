@@ -548,6 +548,84 @@ def simulate_martingale(tickets_df: pd.DataFrame, params: MartingaleParams) -> p
     return pd.DataFrame(out_rows)
 
 
+def simulate_martingale_safe(tickets_df: pd.DataFrame, params: MartingaleParams) -> pd.DataFrame:
+    """
+    Martingale SAFE : banque les profits quand bankroll_active >= 2 × cycle_base.
+    cycle_base croît légèrement à chaque doubling : B0 + 0.20 * réserves.
+    """
+    if tickets_df.empty:
+        return pd.DataFrame()
+
+    df = tickets_df.copy()
+    df = df[df["eval"].isin(["WIN", "LOSS"])].copy()
+    if df.empty:
+        return pd.DataFrame()
+
+    df = df.sort_values(
+        by=["_date", "_start_sort", "_end_sort", "ticket_no"],
+        ascending=[True, True, True, True],
+    )
+
+    B0         = float(params.bankroll0)
+    max_losses = int(params.max_losses)
+    denom      = float((2 ** max_losses) - 1) if max_losses > 0 else 1.0
+    reserves   = 0.0
+
+    def _cycle_base() -> float:
+        return B0 + 0.20 * reserves
+
+    bankroll_active = _cycle_base()
+    cycle_base      = bankroll_active
+    prev_stake      = 0.0
+    loss_streak     = 0
+    out_rows        = []
+
+    for _, r in df.iterrows():
+        if bankroll_active <= 0:
+            break
+
+        odd  = _to_float(r.get("total_odd"), default=2.0)
+        odd  = odd if (odd is not None and odd > 1.0) else 2.0
+        base = bankroll_active / denom
+
+        if loss_streak == 0:
+            stake = base
+        else:
+            stake = prev_stake * 2.0
+
+        stake = min(stake, bankroll_active)
+        stake = float(round(stake, 2))
+
+        if stake <= 0:
+            break
+
+        ev = str(r.get("eval") or "").strip().upper()
+
+        if ev == "WIN":
+            bankroll_active += stake * (odd - 1.0)
+            loss_streak = 0
+            if bankroll_active >= cycle_base * 2.0:
+                profit          = bankroll_active - cycle_base
+                reserves       += profit
+                bankroll_active = _cycle_base()
+                cycle_base      = bankroll_active
+        else:
+            bankroll_active -= stake
+            loss_streak     += 1
+
+        prev_stake = stake
+
+        out_rows.append(dict(
+            date=r.get("date"),
+            ticket_no=int(r.get("ticket_no") or 0),
+            ticket_id=str(r.get("ticket_id") or ""),
+            eval=ev,
+            stake=stake,
+        ))
+
+    return pd.DataFrame(out_rows)
+
+
 # ============================================================
 # BASELINE RANKINGS (data/rankings/…) — affichage dashboard
 # ============================================================
@@ -1272,8 +1350,35 @@ def _martingale_block(df_tickets: pd.DataFrame, title: str, key_prefix: str):
     )
 
 
+def _tickets_with_stakes(df: pd.DataFrame, bankroll0: float, max_losses: int) -> pd.DataFrame:
+    """Ajoute les colonnes mise_norm et mise_safe au DataFrame tickets."""
+    if df.empty:
+        return df
+    params = MartingaleParams(bankroll0=bankroll0, max_losses=max_losses)
+    sim_norm = simulate_martingale(df, params)
+    sim_safe = simulate_martingale_safe(df, params)
+    out = df.copy()
+    if not sim_norm.empty:
+        norm_map = sim_norm.set_index("ticket_id")["stake"].to_dict()
+        out["mise_norm"] = out["ticket_id"].map(norm_map)
+    else:
+        out["mise_norm"] = None
+    if not sim_safe.empty:
+        safe_map = sim_safe.set_index("ticket_id")["stake"].to_dict()
+        out["mise_safe"] = out["ticket_id"].map(safe_map)
+    else:
+        out["mise_safe"] = None
+    return out
+
+
 def _tab_tickets(df_sys: pd.DataFrame, df_rand: pd.DataFrame):
     st.subheader("Tickets")
+
+    col_b0, col_ml = st.columns(2)
+    with col_b0:
+        bankroll0 = st.number_input("Bankroll de départ (€)", min_value=10.0, max_value=100000.0, value=100.0, step=10.0, key="tickets_b0")
+    with col_ml:
+        max_losses = st.number_input("Max pertes consécutives", min_value=1, max_value=8, value=4, step=1, key="tickets_ml")
 
     c1, c2 = st.columns(2)
 
@@ -1282,9 +1387,10 @@ def _tab_tickets(df_sys: pd.DataFrame, df_rand: pd.DataFrame):
         if df_sys.empty:
             st.info("Aucun ticket SYSTEM (ou filtre report_global vide).")
         else:
-            v = df_sys.sort_values(by=["_date", "_start_sort", "_end_sort", "ticket_no"])
+            v = _tickets_with_stakes(df_sys, bankroll0, max_losses)
+            v = v.sort_values(by=["_date", "_start_sort", "_end_sort", "ticket_no"])
             view = v[
-                ["date", "ticket_no", "start_time", "end_time", "code", "total_odd", "legs", "wins", "losses", "eval", "ticket_id"]
+                ["date", "ticket_no", "start_time", "end_time", "code", "total_odd", "legs", "wins", "losses", "eval", "mise_norm", "mise_safe", "ticket_id"]
             ].rename(
                 columns={
                     "ticket_no": "ticket",
@@ -1292,16 +1398,17 @@ def _tab_tickets(df_sys: pd.DataFrame, df_rand: pd.DataFrame):
                     "eval": "result",
                 }
             )
-            _render_table(view, height=360, color_win_loss=True, eval_col="result", float_decimals=["odd"])
+            _render_table(view, height=360, color_win_loss=True, eval_col="result", float_decimals=["odd", "mise_norm", "mise_safe"])
 
     with c2:
         st.markdown("### RANDOM — Tickets (verdict filtré report_global)")
         if df_rand.empty:
             st.info("Aucun ticket RANDOM (ou filtre report_global vide).")
         else:
-            v = df_rand.sort_values(by=["_date", "_start_sort", "_end_sort", "ticket_no"])
+            v = _tickets_with_stakes(df_rand, bankroll0, max_losses)
+            v = v.sort_values(by=["_date", "_start_sort", "_end_sort", "ticket_no"])
             view = v[
-                ["date", "ticket_no", "start_time", "end_time", "code", "total_odd", "legs", "wins", "losses", "eval", "ticket_id"]
+                ["date", "ticket_no", "start_time", "end_time", "code", "total_odd", "legs", "wins", "losses", "eval", "mise_norm", "mise_safe", "ticket_id"]
             ].rename(
                 columns={
                     "ticket_no": "ticket",
@@ -1309,7 +1416,7 @@ def _tab_tickets(df_sys: pd.DataFrame, df_rand: pd.DataFrame):
                     "eval": "result",
                 }
             )
-            _render_table(view, height=360, color_win_loss=True, eval_col="result", float_decimals=["odd"])
+            _render_table(view, height=360, color_win_loss=True, eval_col="result", float_decimals=["odd", "mise_norm", "mise_safe"])
             
     st.divider()
     st.subheader("🧪 Simulation Martingale (plein écran)")
