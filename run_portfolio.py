@@ -32,8 +32,8 @@ from show_sequence import _load_profile_1, _ticket_to_detail
 
 BANKROLL0      = 100.0
 RESERVES_INIT  = 600.0   # 200€ → 600€ pour couvrir crises simultanées
-MAX_DRAW_RATIO = 0.50    # cap : max 50% des réserves par tirage
-N_RUNS         = 10
+MAX_DRAW_RATIO = 1.00    # pas de cap (v1 pur)
+N_RUNS         = 100
 
 # max_losses par stratégie
 ML = {

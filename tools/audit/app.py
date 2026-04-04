@@ -5,6 +5,8 @@ import os
 import re
 import sys
 import inspect
+import json
+import copy
 from pathlib import Path
 from datetime import date, timedelta, datetime
 from zoneinfo import ZoneInfo
@@ -848,7 +850,7 @@ with st.sidebar.expander("🧩 DIAG fichiers (existence)"):
 # -----------------------------
 # Contenu principal
 # -----------------------------
-tab1, tab2, tab3 = st.tabs(["🎯 Tickets", "📄 Fichiers Bruts", "📊 Insights"])
+tab1, tab2, tab3, tab4 = st.tabs(["🎯 Tickets", "📄 Fichiers Bruts", "📊 Insights", "💰 Martingale"])
 
 with tab1:
     st.header(f"Tickets — {period_label}")
@@ -1099,4 +1101,180 @@ with tab3:
                         "losses": "❌ Losses", "win_rate": "Taux"
                     })
                     _render_table(view_t, percent_cols=["Taux"], height=600)
-                    st.caption(f"{len(df_tm)} équipes affichées")
+
+# ─────────────────────────────────────────────────────────────────────────────
+# TAB 4 — MARTINGALE
+# ─────────────────────────────────────────────────────────────────────────────
+STATE_FILE = ROOT / "data" / "optimizer" / "martingale_state.json"
+
+_STRAT_CONFIG = {
+    "RANDOM SAFE":    {"mode": "SAFE",    "ml": 3},
+    "RANDOM NORMALE": {"mode": "NORMALE", "ml": 4},
+    "SYSTEM SAFE":    {"mode": "SAFE",    "ml": 4},
+    "SYSTEM NORMALE": {"mode": "NORMALE", "ml": 4},
+}
+_BANKROLL0 = 100.0
+
+def _default_state():
+    strats = {}
+    for name, cfg in _STRAT_CONFIG.items():
+        strats[name] = {"ba": _BANKROLL0, "cb": _BANKROLL0, "ls": 0, "ps": 0.0,
+                        "mode": cfg["mode"], "ml": cfg["ml"]}
+    return {"strategies": strats, "reserves": 600.0,
+            "active": ["RANDOM SAFE"], "last_updated": str(date.today())}
+
+def _load_state():
+    if STATE_FILE.exists():
+        return json.loads(STATE_FILE.read_text())
+    return _default_state()
+
+def _save_state(s):
+    STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    STATE_FILE.write_text(json.dumps(s, indent=2, ensure_ascii=False))
+
+def _next_stake(ba, ls, ps, ml):
+    denom = float((2 ** ml) - 1)
+    s = ba / denom if ls == 0 else ps * 2.0
+    return min(s, ba)
+
+def _apply_result(sim, is_win, odd, reserves):
+    sim = copy.deepcopy(sim)
+    note = ""
+    ba, cb, ls, ps, mode, ml = sim["ba"], sim["cb"], sim["ls"], sim["ps"], sim["mode"], sim["ml"]
+
+    if ba <= 0:
+        # tirage réserves
+        next_bet = ps * 2.0 if ps > 0 else _BANKROLL0 / float((2**ml)-1)
+        if reserves >= next_bet:
+            ba = next_bet
+            reserves -= next_bet
+            note = f"🏦 Tirage réserves ({next_bet:.0f}€)"
+        else:
+            note = "⚠️ Réserves insuffisantes"
+            sim.update({"ba": 0, "cb": cb, "ls": ls, "ps": ps, "note": note})
+            return sim, reserves
+
+    stake = _next_stake(ba, ls, ps, ml)
+
+    if is_win:
+        ba += stake * (odd - 1.0)
+        ls = 0
+        if mode == "SAFE" and ba >= cb * 2.0:
+            profit = ba - cb
+            reserves += profit
+            new_base = _BANKROLL0 + 0.20 * reserves
+            ba = new_base
+            cb = new_base
+            ps = 0.0
+            note = f"💰 DOUBLING ! +{profit:.0f}€ → réserves"
+        else:
+            ps = stake
+    else:
+        ba -= stake
+        ls += 1
+        ps = stake
+        note = f"❌ Défaite (L×{ls})"
+
+    sim.update({"ba": ba, "cb": cb, "ls": ls, "ps": ps, "note": note})
+    return sim, reserves
+
+
+with tab4:
+    st.header("💰 Martingale — Suivi en direct")
+
+    state = _load_state()
+
+    # ── Configuration des stratégies actives ─────────────────────────────────
+    with st.expander("⚙️ Stratégies actives", expanded=False):
+        new_active = []
+        cols_cfg = st.columns(4)
+        for i, name in enumerate(_STRAT_CONFIG.keys()):
+            with cols_cfg[i]:
+                if st.checkbox(name, value=(name in state["active"]), key=f"chk_{name}"):
+                    new_active.append(name)
+        if set(new_active) != set(state["active"]):
+            state["active"] = new_active
+            _save_state(state)
+            st.rerun()
+
+    st.divider()
+
+    # ── Dashboard : état actuel ───────────────────────────────────────────────
+    st.subheader("État actuel")
+
+    if not state["active"]:
+        st.info("Aucune stratégie active. Cochez-en une dans ⚙️.")
+    else:
+        dash_cols = st.columns(len(state["active"]) + 1)
+        for i, name in enumerate(state["active"]):
+            s = state["strategies"][name]
+            stake = _next_stake(s["ba"], s["ls"], s["ps"], s["ml"])
+            seq = f"L×{s['ls']}" if s["ls"] > 0 else "Départ"
+            with dash_cols[i]:
+                st.metric(name, f"{s['ba']:.0f}€", delta=None)
+                st.caption(f"Séquence : {seq}")
+                st.markdown(f"**Prochaine mise : {stake:.0f}€**")
+        with dash_cols[-1]:
+            st.metric("🏦 Réserves", f"{state['reserves']:.0f}€")
+            st.caption(f"Màj : {state.get('last_updated','—')}")
+
+    st.divider()
+
+    # ── Simulateur du jour ────────────────────────────────────────────────────
+    st.subheader("Simulateur du jour")
+
+    if not state["active"]:
+        st.info("Activez au moins une stratégie.")
+    else:
+        sel = st.selectbox("Stratégie à simuler", state["active"], key="sim_sel")
+        n_tickets = st.number_input("Nombre de tickets aujourd'hui", min_value=1, max_value=6, value=2, step=1, key="sim_n")
+
+        st.write("---")
+        sim = copy.deepcopy(state["strategies"][sel])
+        sim_reserves = state["reserves"]
+        sim_log = []
+
+        for i in range(int(n_tickets)):
+            stake = _next_stake(sim["ba"], sim["ls"], sim["ps"], sim["ml"])
+            st.markdown(f"#### Ticket {i+1} — mise : **{stake:.0f}€**")
+
+            rcol1, rcol2 = st.columns(2)
+            with rcol1:
+                res = st.radio("Résultat", ["✅ Victoire", "❌ Défaite"],
+                               key=f"sim_res_{sel}_{i}", horizontal=True)
+            is_win = res == "✅ Victoire"
+
+            odd = 1.0
+            if is_win:
+                with rcol2:
+                    odd = st.number_input("Cote", min_value=1.01, max_value=100.0,
+                                          value=2.50, step=0.05, key=f"sim_odd_{sel}_{i}")
+
+            sim, sim_reserves = _apply_result(sim, is_win, odd, sim_reserves)
+            note = sim.pop("note", "")
+            if note:
+                st.caption(note)
+            st.caption(f"→ Bankroll : {sim['ba']:.0f}€  |  Réserves : {sim_reserves:.0f}€")
+            sim_log.append({"ticket": i+1, "mise": stake, "résultat": res, "note": note})
+            st.write("")
+
+        st.divider()
+        st.markdown(f"**État final simulé** : {sel} = **{sim['ba']:.0f}€** | Séquence = L×{sim['ls']} | Réserves = **{sim_reserves:.0f}€**")
+
+        if st.button("✅ Confirmer — enregistrer ces résultats", type="primary"):
+            state["strategies"][sel] = sim
+            state["reserves"] = sim_reserves
+            state["last_updated"] = str(date.today())
+            _save_state(state)
+            st.success("État mis à jour !")
+            st.rerun()
+
+    st.divider()
+
+    # ── Reset complet ─────────────────────────────────────────────────────────
+    with st.expander("🔄 Réinitialiser l'état (nouveau départ)"):
+        st.warning("Remet toutes les bankrolls à 100€ et les réserves à 600€.")
+        if st.button("Réinitialiser", type="secondary"):
+            _save_state(_default_state())
+            st.success("État réinitialisé.")
+            st.rerun()
