@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-04-04
+Date run       : 2026-04-05
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (128 ids)
+Whitelist      : ON (132 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 11
+Ignorés (date>=today)    : 12
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -1055,10 +1055,36 @@ Ignorés (date>=today)    : 11
    ❌ Leg 2) 20:00 | ligue 2 | RED Star FC 93 vs Laval | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.36
    ❌ Leg 3) 21:00 | laliga | Rayo Vallecano vs Elche | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Samedi 2026-04-04 13:45→16:50 | code=A2 | odd=2.48
+   id=2026-04-04_1345_851b5aaf5a_O15R
+   legs=4 | WIN=4 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 13:45 | fa cup | Manchester City vs Liverpool | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
+   ✅ Leg 2) 14:00 | laliga | Real Sociedad vs Levante | Over 1.5 (FT) | [TRÈS FORT] | odd=1.22
+   ✅ Leg 3) 14:00 | laliga2 | Cadiz vs Cordoba | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+   ✅ Leg 4) 15:00 | serie a italia | Sassuolo vs Cagliari | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.38
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Samedi 2026-04-04 18:30→20:50 | code=A2 | odd=2.51
+   id=2026-04-04_1830_a27e3834f1_O15R
+   legs=4 | WIN=2 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 18:30 | laliga | Real Betis vs Espanyol | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
+   ✅ Leg 2) 18:45 | eredivisie | Telstar vs Groningen | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
+   ❌ Leg 3) 19:00 | liga portugal | Moreirense vs SC Braga | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.3
+   ✅ Leg 4) 19:00 | ligue 1 | Stade Brestois 29 vs Rennes | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 3 | Samedi 2026-04-04 21:00→00:20 | code=RESTE | odd=1.84
+   id=2026-04-04_2100_53a52b9480_O15R
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 21:00 | liga pro ecuador | Independiente del Valle vs Orense SC | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.18
+   ✅ Leg 2) 21:05 | ligue 1 | Lille vs Lens | Over 1.5 (FT) | [FORT PLUS] | odd=1.28
+   ✅ Leg 3) 22:30 | mls | New England Revolution vs CF Montreal | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+
 ====================================================================
-TOTAL tickets : 125
-✅ WIN     : 54
-❌ LOSS    : 68
+TOTAL tickets : 128
+✅ WIN     : 56
+❌ LOSS    : 69
 ⏳ PENDING : 3
 ====================================================================
 

@@ -6857,3 +6857,651 @@ TSV:	4255037700	2026-04-04	superligaen	Ujpest	MTK Budapest	O15_FT	Over 1.5 (FT)	
 TSV:	4255037700	2026-04-04	superligaen	Ujpest	MTK Budapest	O25_FT	Over 2.5 (FT)	4.0	FORT	1	odd=1.7 fixture=1380340	19:30
 TSV:	4255037700	2026-04-04	superligaen	Ujpest	MTK Budapest	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2 fixture=1380340	19:30
 TSV:	4255037700	2026-04-04	superligaen	Ujpest	MTK Budapest	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.1 fixture=1380340	19:30
+TSV:	3318266873	2026-04-05	2. bundesliga	Eintracht Braunschweig	1. FC Nürnberg	HT05	HT+0.5	5.0	FORT PLUS	0	odd=1.33 fixture=1388858	13:30
+TSV:	3318266873	2026-04-05	2. bundesliga	Eintracht Braunschweig	1. FC Nürnberg	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.36 fixture=1388858	13:30
+TSV:	3318266873	2026-04-05	2. bundesliga	Eintracht Braunschweig	1. FC Nürnberg	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.22 fixture=1388858	13:30
+TSV:	3318266873	2026-04-05	2. bundesliga	Eintracht Braunschweig	1. FC Nürnberg	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.25 fixture=1388858	13:30
+TSV:	3318266873	2026-04-05	2. bundesliga	Eintracht Braunschweig	1. FC Nürnberg	O15_FT	Over 1.5 (FT)	4.0	FORT	1	odd=1.22 fixture=1388858	13:30
+TSV:	3318266873	2026-04-05	2. bundesliga	Eintracht Braunschweig	1. FC Nürnberg	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	odd=1.75 fixture=1388858	13:30
+TSV:	3318266873	2026-04-05	2. bundesliga	Eintracht Braunschweig	1. FC Nürnberg	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.55 fixture=1388858	13:30
+TSV:	3318266873	2026-04-05	2. bundesliga	Eintracht Braunschweig	1. FC Nürnberg	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	odd=2.6 fixture=1388858	13:30
+TSV:	952311037	2026-04-05	2. bundesliga	FC Schalke 04	Karlsruher SC	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.28 fixture=1388864	13:30
+TSV:	952311037	2026-04-05	2. bundesliga	FC Schalke 04	Karlsruher SC	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.11 fixture=1388864	13:30
+TSV:	952311037	2026-04-05	2. bundesliga	FC Schalke 04	Karlsruher SC	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.08 fixture=1388864	13:30
+TSV:	952311037	2026-04-05	2. bundesliga	FC Schalke 04	Karlsruher SC	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.5 fixture=1388864	13:30
+TSV:	952311037	2026-04-05	2. bundesliga	FC Schalke 04	Karlsruher SC	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.18 fixture=1388864	13:30
+TSV:	952311037	2026-04-05	2. bundesliga	FC Schalke 04	Karlsruher SC	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.6 fixture=1388864	13:30
+TSV:	952311037	2026-04-05	2. bundesliga	FC Schalke 04	Karlsruher SC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.5 fixture=1388864	13:30
+TSV:	952311037	2026-04-05	2. bundesliga	FC Schalke 04	Karlsruher SC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=5.75 fixture=1388864	13:30
+TSV:	1243511990	2026-04-05	2. bundesliga	Hannover 96	SV Elversberg	HT05	HT+0.5	6.0	TRÈS FORT	0	odd=1.3 fixture=1388860	13:30
+TSV:	1243511990	2026-04-05	2. bundesliga	Hannover 96	SV Elversberg	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.28 fixture=1388860	13:30
+TSV:	1243511990	2026-04-05	2. bundesliga	Hannover 96	SV Elversberg	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	odd=1.2 fixture=1388860	13:30
+TSV:	1243511990	2026-04-05	2. bundesliga	Hannover 96	SV Elversberg	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.25 fixture=1388860	13:30
+TSV:	1243511990	2026-04-05	2. bundesliga	Hannover 96	SV Elversberg	O15_FT	Over 1.5 (FT)	4.0	FORT	1	odd=1.18 fixture=1388860	13:30
+TSV:	1243511990	2026-04-05	2. bundesliga	Hannover 96	SV Elversberg	O25_FT	Over 2.5 (FT)	4.0	FORT	1	odd=1.62 fixture=1388860	13:30
+TSV:	1243511990	2026-04-05	2. bundesliga	Hannover 96	SV Elversberg	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.2 fixture=1388860	13:30
+TSV:	1243511990	2026-04-05	2. bundesliga	Hannover 96	SV Elversberg	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.1 fixture=1388860	13:30
+TSV:	2116154487	2026-04-05	2. bundesliga	Holstein Kiel	Preußen Münster	HT05	HT+0.5	6.0	TRÈS FORT	0	odd=1.3 fixture=1388861	13:30
+TSV:	2116154487	2026-04-05	2. bundesliga	Holstein Kiel	Preußen Münster	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.22 fixture=1388861	13:30
+TSV:	2116154487	2026-04-05	2. bundesliga	Holstein Kiel	Preußen Münster	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.15 fixture=1388861	13:30
+TSV:	2116154487	2026-04-05	2. bundesliga	Holstein Kiel	Preußen Münster	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.35 fixture=1388861	13:30
+TSV:	2116154487	2026-04-05	2. bundesliga	Holstein Kiel	Preußen Münster	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.2 fixture=1388861	13:30
+TSV:	2116154487	2026-04-05	2. bundesliga	Holstein Kiel	Preußen Münster	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.7 fixture=1388861	13:30
+TSV:	2116154487	2026-04-05	2. bundesliga	Holstein Kiel	Preußen Münster	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.85 fixture=1388861	13:30
+TSV:	2116154487	2026-04-05	2. bundesliga	Holstein Kiel	Preußen Münster	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.8 fixture=1388861	13:30
+TSV:	850680787	2026-04-05	2. bundesliga	SpVgg Greuther Fürth	SC Paderborn 07	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.28 fixture=1388859	13:30
+TSV:	850680787	2026-04-05	2. bundesliga	SpVgg Greuther Fürth	SC Paderborn 07	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.53 fixture=1388859	13:30
+TSV:	850680787	2026-04-05	2. bundesliga	SpVgg Greuther Fürth	SC Paderborn 07	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	odd=1.3 fixture=1388859	13:30
+TSV:	850680787	2026-04-05	2. bundesliga	SpVgg Greuther Fürth	SC Paderborn 07	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	odd=1.12 fixture=1388859	13:30
+TSV:	850680787	2026-04-05	2. bundesliga	SpVgg Greuther Fürth	SC Paderborn 07	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.17 fixture=1388859	13:30
+TSV:	850680787	2026-04-05	2. bundesliga	SpVgg Greuther Fürth	SC Paderborn 07	O25_FT	Over 2.5 (FT)	7.0	EXPLOSION	1	odd=1.57 fixture=1388859	13:30
+TSV:	850680787	2026-04-05	2. bundesliga	SpVgg Greuther Fürth	SC Paderborn 07	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=4 fixture=1388859	13:30
+TSV:	850680787	2026-04-05	2. bundesliga	SpVgg Greuther Fürth	SC Paderborn 07	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=1.85 fixture=1388859	13:30
+TSV:	3222599452	2026-04-05	bundesliga	Union Berlin	FC St. Pauli	HT05	HT+0.5	7.0	EXPLOSION	0	odd=1.5 fixture=1388558	15:30
+TSV:	3222599452	2026-04-05	bundesliga	Union Berlin	FC St. Pauli	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.18 fixture=1388558	15:30
+TSV:	3222599452	2026-04-05	bundesliga	Union Berlin	FC St. Pauli	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.29 fixture=1388558	15:30
+TSV:	3222599452	2026-04-05	bundesliga	Union Berlin	FC St. Pauli	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.57 fixture=1388558	15:30
+TSV:	3222599452	2026-04-05	bundesliga	Union Berlin	FC St. Pauli	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.45 fixture=1388558	15:30
+TSV:	3222599452	2026-04-05	bundesliga	Union Berlin	FC St. Pauli	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=2.35 fixture=1388558	15:30
+TSV:	3222599452	2026-04-05	bundesliga	Union Berlin	FC St. Pauli	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.1 fixture=1388558	15:30
+TSV:	3222599452	2026-04-05	bundesliga	Union Berlin	FC St. Pauli	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.6 fixture=1388558	15:30
+TSV:	3212495536	2026-04-05	bundesliga	Eintracht Frankfurt	1. FC Köln	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.3 fixture=1388553	17:30
+TSV:	3212495536	2026-04-05	bundesliga	Eintracht Frankfurt	1. FC Köln	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.22 fixture=1388553	17:30
+TSV:	3212495536	2026-04-05	bundesliga	Eintracht Frankfurt	1. FC Köln	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.17 fixture=1388553	17:30
+TSV:	3212495536	2026-04-05	bundesliga	Eintracht Frankfurt	1. FC Köln	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.33 fixture=1388553	17:30
+TSV:	3212495536	2026-04-05	bundesliga	Eintracht Frankfurt	1. FC Köln	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.22 fixture=1388553	17:30
+TSV:	3212495536	2026-04-05	bundesliga	Eintracht Frankfurt	1. FC Köln	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.65 fixture=1388553	17:30
+TSV:	3212495536	2026-04-05	bundesliga	Eintracht Frankfurt	1. FC Köln	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2 fixture=1388553	17:30
+TSV:	3212495536	2026-04-05	bundesliga	Eintracht Frankfurt	1. FC Köln	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.7 fixture=1388553	17:30
+TSV:	2121751465	2026-04-05	czech first league	Hradec Králové	Bohemians 1905	HT05	HT+0.5	1.0	FAIBLE	0	odd=1.44 fixture=1384868	13:00
+TSV:	2121751465	2026-04-05	czech first league	Hradec Králové	Bohemians 1905	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.2 fixture=1384868	13:00
+TSV:	2121751465	2026-04-05	czech first league	Hradec Králové	Bohemians 1905	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.22 fixture=1384868	13:00
+TSV:	2121751465	2026-04-05	czech first league	Hradec Králové	Bohemians 1905	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.55 fixture=1384868	13:00
+TSV:	2121751465	2026-04-05	czech first league	Hradec Králové	Bohemians 1905	O15_FT	Over 1.5 (FT)	1.0	FAIBLE	0	odd=1.36 fixture=1384868	13:00
+TSV:	2121751465	2026-04-05	czech first league	Hradec Králové	Bohemians 1905	O25_FT	Over 2.5 (FT)	0.0	KO	0	odd=2.1 fixture=1384868	13:00
+TSV:	2121751465	2026-04-05	czech first league	Hradec Králové	Bohemians 1905	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.91 fixture=1384868	13:00
+TSV:	2121751465	2026-04-05	czech first league	Hradec Králové	Bohemians 1905	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.7 fixture=1384868	13:00
+TSV:	759973005	2026-04-05	czech first league	Baník Ostrava	Slavia Praha	HT05	HT+0.5	6.0	TRÈS FORT	0	odd=1.33 fixture=1384870	15:30
+TSV:	759973005	2026-04-05	czech first league	Baník Ostrava	Slavia Praha	HT1X_HOME	HT 1X Home	0.0	KO	0	odd=1.67 fixture=1384870	15:30
+TSV:	759973005	2026-04-05	czech first league	Baník Ostrava	Slavia Praha	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.53 fixture=1384870	15:30
+TSV:	759973005	2026-04-05	czech first league	Baník Ostrava	Slavia Praha	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.1 fixture=1384870	15:30
+TSV:	759973005	2026-04-05	czech first league	Baník Ostrava	Slavia Praha	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.22 fixture=1384870	15:30
+TSV:	759973005	2026-04-05	czech first league	Baník Ostrava	Slavia Praha	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.73 fixture=1384870	15:30
+TSV:	759973005	2026-04-05	czech first league	Baník Ostrava	Slavia Praha	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=5.25 fixture=1384870	15:30
+TSV:	759973005	2026-04-05	czech first league	Baník Ostrava	Slavia Praha	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	odd=1.55 fixture=1384870	15:30
+TSV:	4212743085	2026-04-05	czech first league	Sparta Praha	Karviná	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.22 fixture=1384873	18:30
+TSV:	4212743085	2026-04-05	czech first league	Sparta Praha	Karviná	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.08 fixture=1384873	18:30
+TSV:	4212743085	2026-04-05	czech first league	Sparta Praha	Karviná	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.01 fixture=1384873	18:30
+TSV:	4212743085	2026-04-05	czech first league	Sparta Praha	Karviná	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.63 fixture=1384873	18:30
+TSV:	4212743085	2026-04-05	czech first league	Sparta Praha	Karviná	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.12 fixture=1384873	18:30
+TSV:	4212743085	2026-04-05	czech first league	Sparta Praha	Karviná	O25_FT	Over 2.5 (FT)	7.0	EXPLOSION	1	odd=1.44 fixture=1384873	18:30
+TSV:	4212743085	2026-04-05	czech first league	Sparta Praha	Karviná	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=1.3 fixture=1384873	18:30
+TSV:	4212743085	2026-04-05	czech first league	Sparta Praha	Karviná	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=8 fixture=1384873	18:30
+TSV:	3223120570	2026-04-05	eredivisie	GO Ahead Eagles	PEC Zwolle	HT05	HT+0.5	2.0	MOYEN	0	odd=1.28 fixture=1381123	12:15
+TSV:	3223120570	2026-04-05	eredivisie	GO Ahead Eagles	PEC Zwolle	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.22 fixture=1381123	12:15
+TSV:	3223120570	2026-04-05	eredivisie	GO Ahead Eagles	PEC Zwolle	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.14 fixture=1381123	12:15
+TSV:	3223120570	2026-04-05	eredivisie	GO Ahead Eagles	PEC Zwolle	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.29 fixture=1381123	12:15
+TSV:	3223120570	2026-04-05	eredivisie	GO Ahead Eagles	PEC Zwolle	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.18 fixture=1381123	12:15
+TSV:	3223120570	2026-04-05	eredivisie	GO Ahead Eagles	PEC Zwolle	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=1.57 fixture=1381123	12:15
+TSV:	3223120570	2026-04-05	eredivisie	GO Ahead Eagles	PEC Zwolle	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.96 fixture=1381123	12:15
+TSV:	3223120570	2026-04-05	eredivisie	GO Ahead Eagles	PEC Zwolle	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.5 fixture=1381123	12:15
+TSV:	3128854481	2026-04-05	eredivisie	FC Volendam	Feyenoord	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.22 fixture=1381122	14:30
+TSV:	3128854481	2026-04-05	eredivisie	FC Volendam	Feyenoord	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.85 fixture=1381122	14:30
+TSV:	3128854481	2026-04-05	eredivisie	FC Volendam	Feyenoord	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.4 fixture=1381122	14:30
+TSV:	3128854481	2026-04-05	eredivisie	FC Volendam	Feyenoord	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.07 fixture=1381122	14:30
+TSV:	3128854481	2026-04-05	eredivisie	FC Volendam	Feyenoord	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.14 fixture=1381122	14:30
+TSV:	3128854481	2026-04-05	eredivisie	FC Volendam	Feyenoord	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.45 fixture=1381122	14:30
+TSV:	3128854481	2026-04-05	eredivisie	FC Volendam	Feyenoord	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=6.6 fixture=1381122	14:30
+TSV:	3128854481	2026-04-05	eredivisie	FC Volendam	Feyenoord	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=1.42 fixture=1381122	14:30
+TSV:	2758589979	2026-04-05	eredivisie	Heerenveen	Heracles	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.22 fixture=1381124	14:30
+TSV:	2758589979	2026-04-05	eredivisie	Heerenveen	Heracles	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.13 fixture=1381124	14:30
+TSV:	2758589979	2026-04-05	eredivisie	Heerenveen	Heracles	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	odd=1.07 fixture=1381124	14:30
+TSV:	2758589979	2026-04-05	eredivisie	Heerenveen	Heracles	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.4 fixture=1381124	14:30
+TSV:	2758589979	2026-04-05	eredivisie	Heerenveen	Heracles	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.12 fixture=1381124	14:30
+TSV:	2758589979	2026-04-05	eredivisie	Heerenveen	Heracles	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.42 fixture=1381124	14:30
+TSV:	2758589979	2026-04-05	eredivisie	Heerenveen	Heracles	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	odd=1.47 fixture=1381124	14:30
+TSV:	2758589979	2026-04-05	eredivisie	Heerenveen	Heracles	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=5.6 fixture=1381124	14:30
+TSV:	3873374109	2026-04-05	eredivisie	NAC Breda	Sparta Rotterdam	HT05	HT+0.5	5.0	FORT PLUS	0	odd=1.36 fixture=1381125	16:45
+TSV:	3873374109	2026-04-05	eredivisie	NAC Breda	Sparta Rotterdam	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.3 fixture=1381125	16:45
+TSV:	3873374109	2026-04-05	eredivisie	NAC Breda	Sparta Rotterdam	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.22 fixture=1381125	16:45
+TSV:	3873374109	2026-04-05	eredivisie	NAC Breda	Sparta Rotterdam	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.29 fixture=1381125	16:45
+TSV:	3873374109	2026-04-05	eredivisie	NAC Breda	Sparta Rotterdam	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.25 fixture=1381125	16:45
+TSV:	3873374109	2026-04-05	eredivisie	NAC Breda	Sparta Rotterdam	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.8 fixture=1381125	16:45
+TSV:	3873374109	2026-04-05	eredivisie	NAC Breda	Sparta Rotterdam	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.45 fixture=1381125	16:45
+TSV:	3873374109	2026-04-05	eredivisie	NAC Breda	Sparta Rotterdam	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.7 fixture=1381125	16:45
+TSV:	3233282126	2026-04-05	fa cup	West Ham	Leeds	HT05	HT+0.5	2.0	MOYEN	0	odd=1.33 fixture=1531573	17:30
+TSV:	3233282126	2026-04-05	fa cup	West Ham	Leeds	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.33 fixture=1531573	17:30
+TSV:	3233282126	2026-04-05	fa cup	West Ham	Leeds	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.22 fixture=1531573	17:30
+TSV:	3233282126	2026-04-05	fa cup	West Ham	Leeds	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.29 fixture=1531573	17:30
+TSV:	3233282126	2026-04-05	fa cup	West Ham	Leeds	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	odd=1.25 fixture=1531573	17:30
+TSV:	3233282126	2026-04-05	fa cup	West Ham	Leeds	O25_FT	Over 2.5 (FT)	0.0	KO	0	odd=1.8 fixture=1531573	17:30
+TSV:	3233282126	2026-04-05	fa cup	West Ham	Leeds	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.48 fixture=1531573	17:30
+TSV:	3233282126	2026-04-05	fa cup	West Ham	Leeds	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.64 fixture=1531573	17:30
+TSV:	3508398087	2026-04-05	laliga	Getafe	Athletic Club	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.62 fixture=1391112	14:00
+TSV:	3508398087	2026-04-05	laliga	Getafe	Athletic Club	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.25 fixture=1391112	14:00
+TSV:	3508398087	2026-04-05	laliga	Getafe	Athletic Club	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.55 fixture=1391112	14:00
+TSV:	3508398087	2026-04-05	laliga	Getafe	Athletic Club	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.5 fixture=1391112	14:00
+TSV:	3508398087	2026-04-05	laliga	Getafe	Athletic Club	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	odd=1.65 fixture=1391112	14:00
+TSV:	3508398087	2026-04-05	laliga	Getafe	Athletic Club	O25_FT	Over 2.5 (FT)	0.0	KO	0	odd=3 fixture=1391112	14:00
+TSV:	3508398087	2026-04-05	laliga	Getafe	Athletic Club	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=2.95 fixture=1391112	14:00
+TSV:	3508398087	2026-04-05	laliga	Getafe	Athletic Club	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.65 fixture=1391112	14:00
+TSV:	3980734961	2026-04-05	laliga	Valencia	Celta Vigo	HT05	HT+0.5	5.0	FORT PLUS	0	odd=1.42 fixture=1391118	16:15
+TSV:	3980734961	2026-04-05	laliga	Valencia	Celta Vigo	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	odd=1.25 fixture=1391118	16:15
+TSV:	3980734961	2026-04-05	laliga	Valencia	Celta Vigo	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.25 fixture=1391118	16:15
+TSV:	3980734961	2026-04-05	laliga	Valencia	Celta Vigo	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.4 fixture=1391118	16:15
+TSV:	3980734961	2026-04-05	laliga	Valencia	Celta Vigo	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.38 fixture=1391118	16:15
+TSV:	3980734961	2026-04-05	laliga	Valencia	Celta Vigo	O25_FT	Over 2.5 (FT)	4.0	FORT	1	odd=2.1 fixture=1391118	16:15
+TSV:	3980734961	2026-04-05	laliga	Valencia	Celta Vigo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.3 fixture=1391118	16:15
+TSV:	3980734961	2026-04-05	laliga	Valencia	Celta Vigo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.1 fixture=1391118	16:15
+TSV:	1067100078	2026-04-05	laliga	Oviedo	Sevilla	HT05	HT+0.5	6.0	TRÈS FORT	0	odd=1.48 fixture=1391117	18:30
+TSV:	1067100078	2026-04-05	laliga	Oviedo	Sevilla	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.28 fixture=1391117	18:30
+TSV:	1067100078	2026-04-05	laliga	Oviedo	Sevilla	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.4 fixture=1391117	18:30
+TSV:	1067100078	2026-04-05	laliga	Oviedo	Sevilla	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.4 fixture=1391117	18:30
+TSV:	1067100078	2026-04-05	laliga	Oviedo	Sevilla	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.45 fixture=1391117	18:30
+TSV:	1067100078	2026-04-05	laliga	Oviedo	Sevilla	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	odd=2.35 fixture=1391117	18:30
+TSV:	1067100078	2026-04-05	laliga	Oviedo	Sevilla	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.76 fixture=1391117	18:30
+TSV:	1067100078	2026-04-05	laliga	Oviedo	Sevilla	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.76 fixture=1391117	18:30
+TSV:	1461923221	2026-04-05	laliga	Alaves	Osasuna	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.48 fixture=1391109	21:00
+TSV:	1461923221	2026-04-05	laliga	Alaves	Osasuna	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.25 fixture=1391109	21:00
+TSV:	1461923221	2026-04-05	laliga	Alaves	Osasuna	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.33 fixture=1391109	21:00
+TSV:	1461923221	2026-04-05	laliga	Alaves	Osasuna	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	odd=1.4 fixture=1391109	21:00
+TSV:	1461923221	2026-04-05	laliga	Alaves	Osasuna	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.42 fixture=1391109	21:00
+TSV:	1461923221	2026-04-05	laliga	Alaves	Osasuna	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	odd=2.2 fixture=1391109	21:00
+TSV:	1461923221	2026-04-05	laliga	Alaves	Osasuna	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.54 fixture=1391109	21:00
+TSV:	1461923221	2026-04-05	laliga	Alaves	Osasuna	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.82 fixture=1391109	21:00
+TSV:	2137215645	2026-04-05	laliga2	Eibar	AD Ceuta FC	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.4 fixture=1392131	14:00
+TSV:	2137215645	2026-04-05	laliga2	Eibar	AD Ceuta FC	HT1X_HOME	HT 1X Home	1.0	FAIBLE	0	odd=1.15 fixture=1392131	14:00
+TSV:	2137215645	2026-04-05	laliga2	Eibar	AD Ceuta FC	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.18 fixture=1392131	14:00
+TSV:	2137215645	2026-04-05	laliga2	Eibar	AD Ceuta FC	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.67 fixture=1392131	14:00
+TSV:	2137215645	2026-04-05	laliga2	Eibar	AD Ceuta FC	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.38 fixture=1392131	14:00
+TSV:	2137215645	2026-04-05	laliga2	Eibar	AD Ceuta FC	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=2.1 fixture=1392131	14:00
+TSV:	2137215645	2026-04-05	laliga2	Eibar	AD Ceuta FC	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=1.7 fixture=1392131	14:00
+TSV:	2137215645	2026-04-05	laliga2	Eibar	AD Ceuta FC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.75 fixture=1392131	14:00
+TSV:	3793149258	2026-04-05	laliga2	FC Andorra	Racing Santander	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.4 fixture=1396982	16:15
+TSV:	3793149258	2026-04-05	laliga2	FC Andorra	Racing Santander	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.15 fixture=1396982	16:15
+TSV:	3793149258	2026-04-05	laliga2	FC Andorra	Racing Santander	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.18 fixture=1396982	16:15
+TSV:	3793149258	2026-04-05	laliga2	FC Andorra	Racing Santander	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.67 fixture=1396982	16:15
+TSV:	3793149258	2026-04-05	laliga2	FC Andorra	Racing Santander	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.38 fixture=1396982	16:15
+TSV:	3793149258	2026-04-05	laliga2	FC Andorra	Racing Santander	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=2.1 fixture=1396982	16:15
+TSV:	3793149258	2026-04-05	laliga2	FC Andorra	Racing Santander	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.7 fixture=1396982	16:15
+TSV:	3793149258	2026-04-05	laliga2	FC Andorra	Racing Santander	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.75 fixture=1396982	16:15
+TSV:	211391320	2026-04-05	laliga2	Almeria	Leganes	HT05	HT+0.5	7.0	EXPLOSION	0	odd=1.33 fixture=1392136	18:30
+TSV:	211391320	2026-04-05	laliga2	Almeria	Leganes	HT1X_HOME	HT 1X Home	8.0	MEGA EXPLOSION	1	odd=1.17 fixture=1392136	18:30
+TSV:	211391320	2026-04-05	laliga2	Almeria	Leganes	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.15 fixture=1392136	18:30
+TSV:	211391320	2026-04-05	laliga2	Almeria	Leganes	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.53 fixture=1392136	18:30
+TSV:	211391320	2026-04-05	laliga2	Almeria	Leganes	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.25 fixture=1392136	18:30
+TSV:	211391320	2026-04-05	laliga2	Almeria	Leganes	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	odd=1.8 fixture=1392136	18:30
+TSV:	211391320	2026-04-05	laliga2	Almeria	Leganes	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=1.67 fixture=1392136	18:30
+TSV:	211391320	2026-04-05	laliga2	Almeria	Leganes	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.5 fixture=1392136	18:30
+TSV:	349295891	2026-04-05	laliga2	Las Palmas	Huesca	HT05	HT+0.5	6.0	TRÈS FORT	0	odd=1.4 fixture=1392134	18:30
+TSV:	349295891	2026-04-05	laliga2	Las Palmas	Huesca	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.08 fixture=1392134	18:30
+TSV:	349295891	2026-04-05	laliga2	Las Palmas	Huesca	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.15 fixture=1392134	18:30
+TSV:	349295891	2026-04-05	laliga2	Las Palmas	Huesca	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.95 fixture=1392134	18:30
+TSV:	349295891	2026-04-05	laliga2	Las Palmas	Huesca	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.38 fixture=1392134	18:30
+TSV:	349295891	2026-04-05	laliga2	Las Palmas	Huesca	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=2.1 fixture=1392134	18:30
+TSV:	349295891	2026-04-05	laliga2	Las Palmas	Huesca	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=1.44 fixture=1392134	18:30
+TSV:	349295891	2026-04-05	laliga2	Las Palmas	Huesca	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=6.5 fixture=1392134	18:30
+TSV:	2912503509	2026-04-05	laliga2	Zaragoza	Mirandes	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.4 fixture=1392133	21:00
+TSV:	2912503509	2026-04-05	laliga2	Zaragoza	Mirandes	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.17 fixture=1392133	21:00
+TSV:	2912503509	2026-04-05	laliga2	Zaragoza	Mirandes	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.2 fixture=1392133	21:00
+TSV:	2912503509	2026-04-05	laliga2	Zaragoza	Mirandes	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.53 fixture=1392133	21:00
+TSV:	2912503509	2026-04-05	laliga2	Zaragoza	Mirandes	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.38 fixture=1392133	21:00
+TSV:	2912503509	2026-04-05	laliga2	Zaragoza	Mirandes	O25_FT	Over 2.5 (FT)	0.0	KO	0	odd=2.1 fixture=1392133	21:00
+TSV:	2912503509	2026-04-05	laliga2	Zaragoza	Mirandes	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.83 fixture=1392133	21:00
+TSV:	2912503509	2026-04-05	laliga2	Zaragoza	Mirandes	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4 fixture=1392133	21:00
+TSV:	922330754	2026-04-04	liga mx	Club Queretaro	Toluca	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.3 fixture=1492578	01:00
+TSV:	922330754	2026-04-04	liga mx	Club Queretaro	Toluca	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	odd=1.7 fixture=1492578	01:00
+TSV:	922330754	2026-04-04	liga mx	Club Queretaro	Toluca	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.44 fixture=1492578	01:00
+TSV:	922330754	2026-04-04	liga mx	Club Queretaro	Toluca	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.11 fixture=1492578	01:00
+TSV:	922330754	2026-04-04	liga mx	Club Queretaro	Toluca	O15_FT	Over 1.5 (FT)	4.0	FORT	1	odd=1.22 fixture=1492578	01:00
+TSV:	922330754	2026-04-04	liga mx	Club Queretaro	Toluca	O25_FT	Over 2.5 (FT)	4.0	FORT	1	odd=1.67 fixture=1492578	01:00
+TSV:	922330754	2026-04-04	liga mx	Club Queretaro	Toluca	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=5.7 fixture=1492578	01:00
+TSV:	922330754	2026-04-04	liga mx	Club Queretaro	Toluca	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=1.54 fixture=1492578	01:00
+TSV:	1436310579	2026-04-04	liga mx	Monterrey	Atletico San Luis	HT05	HT+0.5	6.0	TRÈS FORT	0	odd=1.25 fixture=1492574	01:00
+TSV:	1436310579	2026-04-04	liga mx	Monterrey	Atletico San Luis	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.13 fixture=1492574	01:00
+TSV:	1436310579	2026-04-04	liga mx	Monterrey	Atletico San Luis	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.08 fixture=1492574	01:00
+TSV:	1436310579	2026-04-04	liga mx	Monterrey	Atletico San Luis	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.44 fixture=1492574	01:00
+TSV:	1436310579	2026-04-04	liga mx	Monterrey	Atletico San Luis	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.18 fixture=1492574	01:00
+TSV:	1436310579	2026-04-04	liga mx	Monterrey	Atletico San Luis	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	odd=1.57 fixture=1492574	01:00
+TSV:	1436310579	2026-04-04	liga mx	Monterrey	Atletico San Luis	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=1.53 fixture=1492574	01:00
+TSV:	1436310579	2026-04-04	liga mx	Monterrey	Atletico San Luis	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=5.4 fixture=1492574	01:00
+TSV:	1613534381	2026-04-05	liga mx	Cruz Azul	Pachuca	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.3 fixture=1492576	03:05
+TSV:	1613534381	2026-04-05	liga mx	Cruz Azul	Pachuca	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.22 fixture=1492576	03:05
+TSV:	1613534381	2026-04-05	liga mx	Cruz Azul	Pachuca	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	odd=1.14 fixture=1492576	03:05
+TSV:	1613534381	2026-04-05	liga mx	Cruz Azul	Pachuca	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.36 fixture=1492576	03:05
+TSV:	1613534381	2026-04-05	liga mx	Cruz Azul	Pachuca	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.22 fixture=1492576	03:05
+TSV:	1613534381	2026-04-05	liga mx	Cruz Azul	Pachuca	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	odd=1.67 fixture=1492576	03:05
+TSV:	1613534381	2026-04-05	liga mx	Cruz Azul	Pachuca	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=1.87 fixture=1492576	03:05
+TSV:	1613534381	2026-04-05	liga mx	Cruz Azul	Pachuca	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.7 fixture=1492576	03:05
+TSV:	4144247788	2026-04-05	liga mx	Leon	Atlas	HT05	HT+0.5	2.0	MOYEN	0	odd=1.36 fixture=1492575	03:06
+TSV:	4144247788	2026-04-05	liga mx	Leon	Atlas	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.25 fixture=1492575	03:06
+TSV:	4144247788	2026-04-05	liga mx	Leon	Atlas	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.22 fixture=1492575	03:06
+TSV:	4144247788	2026-04-05	liga mx	Leon	Atlas	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.33 fixture=1492575	03:06
+TSV:	4144247788	2026-04-05	liga mx	Leon	Atlas	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.3 fixture=1492575	03:06
+TSV:	4144247788	2026-04-05	liga mx	Leon	Atlas	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.9 fixture=1492575	03:06
+TSV:	4144247788	2026-04-05	liga mx	Leon	Atlas	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.25 fixture=1492575	03:06
+TSV:	4144247788	2026-04-05	liga mx	Leon	Atlas	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.05 fixture=1492575	03:06
+TSV:	90519847	2026-04-05	liga mx	Santos Laguna	Club America	HT05	HT+0.5	5.0	FORT PLUS	0	odd=1.3 fixture=1492577	05:10
+TSV:	90519847	2026-04-05	liga mx	Santos Laguna	Club America	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.62 fixture=1492577	05:10
+TSV:	90519847	2026-04-05	liga mx	Santos Laguna	Club America	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.4 fixture=1492577	05:10
+TSV:	90519847	2026-04-05	liga mx	Santos Laguna	Club America	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	odd=1.11 fixture=1492577	05:10
+TSV:	90519847	2026-04-05	liga mx	Santos Laguna	Club America	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.22 fixture=1492577	05:10
+TSV:	90519847	2026-04-05	liga mx	Santos Laguna	Club America	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	odd=1.67 fixture=1492577	05:10
+TSV:	90519847	2026-04-05	liga mx	Santos Laguna	Club America	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=4.8 fixture=1492577	05:10
+TSV:	90519847	2026-04-05	liga mx	Santos Laguna	Club America	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=1.64 fixture=1492577	05:10
+TSV:	86221421	2026-04-05	liga portugal 2	União de Leiria	Lusitânia Lourosa	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.4 fixture=1398214	19:00
+TSV:	86221421	2026-04-05	liga portugal 2	União de Leiria	Lusitânia Lourosa	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.18 fixture=1398214	19:00
+TSV:	86221421	2026-04-05	liga portugal 2	União de Leiria	Lusitânia Lourosa	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.17 fixture=1398214	19:00
+TSV:	86221421	2026-04-05	liga portugal 2	União de Leiria	Lusitânia Lourosa	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.52 fixture=1398214	19:00
+TSV:	86221421	2026-04-05	liga portugal 2	União de Leiria	Lusitânia Lourosa	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.3 fixture=1398214	19:00
+TSV:	86221421	2026-04-05	liga portugal 2	União de Leiria	Lusitânia Lourosa	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=2 fixture=1398214	19:00
+TSV:	86221421	2026-04-05	liga portugal 2	União de Leiria	Lusitânia Lourosa	TEAM1_WIN_FT	Team1 wins (FT)	4.0	FORT	0	odd=1.75 fixture=1398214	19:00
+TSV:	86221421	2026-04-05	liga portugal 2	União de Leiria	Lusitânia Lourosa	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.2 fixture=1398214	19:00
+TSV:	1517235894	2026-04-05	liga pro ecuador	Emelec	Deportivo Cuenca	HT05	HT+0.5	6.0	TRÈS FORT	0	fixture=1519304	02:00
+TSV:	1517235894	2026-04-05	liga pro ecuador	Emelec	Deportivo Cuenca	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	fixture=1519304	02:00
+TSV:	1517235894	2026-04-05	liga pro ecuador	Emelec	Deportivo Cuenca	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	fixture=1519304	02:00
+TSV:	1517235894	2026-04-05	liga pro ecuador	Emelec	Deportivo Cuenca	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	fixture=1519304	02:00
+TSV:	1517235894	2026-04-05	liga pro ecuador	Emelec	Deportivo Cuenca	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	fixture=1519304	02:00
+TSV:	1517235894	2026-04-05	liga pro ecuador	Emelec	Deportivo Cuenca	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	fixture=1519304	02:00
+TSV:	1517235894	2026-04-05	liga pro ecuador	Emelec	Deportivo Cuenca	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	fixture=1519304	02:00
+TSV:	1517235894	2026-04-05	liga pro ecuador	Emelec	Deportivo Cuenca	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	fixture=1519304	02:00
+TSV:	3000261345	2026-04-05	liga pro ecuador	Leones del Norte	Delfin SC	HT05	HT+0.5	1.0	FAIBLE	0	odd=1.62 fixture=1519307	20:00
+TSV:	3000261345	2026-04-05	liga pro ecuador	Leones del Norte	Delfin SC	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.14 fixture=1519307	20:00
+TSV:	3000261345	2026-04-05	liga pro ecuador	Leones del Norte	Delfin SC	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.35 fixture=1519307	20:00
+TSV:	3000261345	2026-04-05	liga pro ecuador	Leones del Norte	Delfin SC	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.73 fixture=1519307	20:00
+TSV:	3000261345	2026-04-05	liga pro ecuador	Leones del Norte	Delfin SC	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	odd=1.62 fixture=1519307	20:00
+TSV:	3000261345	2026-04-05	liga pro ecuador	Leones del Norte	Delfin SC	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	odd=3.1 fixture=1519307	20:00
+TSV:	3000261345	2026-04-05	liga pro ecuador	Leones del Norte	Delfin SC	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=2.05 fixture=1519307	20:00
+TSV:	3000261345	2026-04-05	liga pro ecuador	Leones del Norte	Delfin SC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.8 fixture=1519307	20:00
+TSV:	1913225503	2026-04-05	liga pro ecuador	Manta FC	Tecnico Universitario	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.53 fixture=1519310	22:30
+TSV:	1913225503	2026-04-05	liga pro ecuador	Manta FC	Tecnico Universitario	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.22 fixture=1519310	22:30
+TSV:	1913225503	2026-04-05	liga pro ecuador	Manta FC	Tecnico Universitario	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.3 fixture=1519310	22:30
+TSV:	1913225503	2026-04-05	liga pro ecuador	Manta FC	Tecnico Universitario	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.44 fixture=1519310	22:30
+TSV:	1913225503	2026-04-05	liga pro ecuador	Manta FC	Tecnico Universitario	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.44 fixture=1519310	22:30
+TSV:	1913225503	2026-04-05	liga pro ecuador	Manta FC	Tecnico Universitario	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	odd=2.4 fixture=1519310	22:30
+TSV:	1913225503	2026-04-05	liga pro ecuador	Manta FC	Tecnico Universitario	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	odd=2.2 fixture=1519310	22:30
+TSV:	1913225503	2026-04-05	liga pro ecuador	Manta FC	Tecnico Universitario	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.3 fixture=1519310	22:30
+TSV:	2769158298	2026-04-05	liga profesional argentina	Rosario Central	Atletico Tucuman	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.5 fixture=1492008	02:00
+TSV:	2769158298	2026-04-05	liga profesional argentina	Rosario Central	Atletico Tucuman	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.11 fixture=1492008	02:00
+TSV:	2769158298	2026-04-05	liga profesional argentina	Rosario Central	Atletico Tucuman	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.22 fixture=1492008	02:00
+TSV:	2769158298	2026-04-05	liga profesional argentina	Rosario Central	Atletico Tucuman	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.75 fixture=1492008	02:00
+TSV:	2769158298	2026-04-05	liga profesional argentina	Rosario Central	Atletico Tucuman	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	odd=1.48 fixture=1492008	02:00
+TSV:	2769158298	2026-04-05	liga profesional argentina	Rosario Central	Atletico Tucuman	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=2.45 fixture=1492008	02:00
+TSV:	2769158298	2026-04-05	liga profesional argentina	Rosario Central	Atletico Tucuman	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=1.66 fixture=1492008	02:00
+TSV:	2769158298	2026-04-05	liga profesional argentina	Rosario Central	Atletico Tucuman	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=5.8 fixture=1492008	02:00
+TSV:	3839397796	2026-04-05	liga profesional argentina	Gimnasia L.P.	Huracan	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.62 fixture=1492002	20:30
+TSV:	3839397796	2026-04-05	liga profesional argentina	Gimnasia L.P.	Huracan	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.28 fixture=1492002	20:30
+TSV:	3839397796	2026-04-05	liga profesional argentina	Gimnasia L.P.	Huracan	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.57 fixture=1492002	20:30
+TSV:	3839397796	2026-04-05	liga profesional argentina	Gimnasia L.P.	Huracan	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.44 fixture=1492002	20:30
+TSV:	3839397796	2026-04-05	liga profesional argentina	Gimnasia L.P.	Huracan	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.65 fixture=1492002	20:30
+TSV:	3839397796	2026-04-05	liga profesional argentina	Gimnasia L.P.	Huracan	O25_FT	Over 2.5 (FT)	0.0	KO	0	odd=3 fixture=1492002	20:30
+TSV:	3839397796	2026-04-05	liga profesional argentina	Gimnasia L.P.	Huracan	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	odd=3.1 fixture=1492002	20:30
+TSV:	3839397796	2026-04-05	liga profesional argentina	Gimnasia L.P.	Huracan	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.54 fixture=1492002	20:30
+TSV:	4090206997	2026-04-05	liga profesional argentina	River Plate	Belgrano Cordoba	HT05	HT+0.5	2.0	MOYEN	0	odd=1.42 fixture=1492007	23:00
+TSV:	4090206997	2026-04-05	liga profesional argentina	River Plate	Belgrano Cordoba	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.11 fixture=1492007	23:00
+TSV:	4090206997	2026-04-05	liga profesional argentina	River Plate	Belgrano Cordoba	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.17 fixture=1492007	23:00
+TSV:	4090206997	2026-04-05	liga profesional argentina	River Plate	Belgrano Cordoba	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.75 fixture=1492007	23:00
+TSV:	4090206997	2026-04-05	liga profesional argentina	River Plate	Belgrano Cordoba	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	odd=1.38 fixture=1492007	23:00
+TSV:	4090206997	2026-04-05	liga profesional argentina	River Plate	Belgrano Cordoba	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	odd=2.1 fixture=1492007	23:00
+TSV:	4090206997	2026-04-05	liga profesional argentina	River Plate	Belgrano Cordoba	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.57 fixture=1492007	23:00
+TSV:	4090206997	2026-04-05	liga profesional argentina	River Plate	Belgrano Cordoba	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=6.2 fixture=1492007	23:00
+TSV:	2117680283	2026-04-05	ligue 1	Angers	Lyon	HT05	HT+0.5	2.0	MOYEN	0	odd=1.42 fixture=1387941	15:00
+TSV:	2117680283	2026-04-05	ligue 1	Angers	Lyon	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.53 fixture=1387941	15:00
+TSV:	2117680283	2026-04-05	ligue 1	Angers	Lyon	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.6 fixture=1387941	15:00
+TSV:	2117680283	2026-04-05	ligue 1	Angers	Lyon	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.2 fixture=1387941	15:00
+TSV:	2117680283	2026-04-05	ligue 1	Angers	Lyon	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.38 fixture=1387941	15:00
+TSV:	2117680283	2026-04-05	ligue 1	Angers	Lyon	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=2.1 fixture=1387941	15:00
+TSV:	2117680283	2026-04-05	ligue 1	Angers	Lyon	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=4.4 fixture=1387941	15:00
+TSV:	2117680283	2026-04-05	ligue 1	Angers	Lyon	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=1.8 fixture=1387941	15:00
+TSV:	1901070629	2026-04-05	ligue 1	Le Havre	Auxerre	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.42 fixture=1387943	17:15
+TSV:	1901070629	2026-04-05	ligue 1	Le Havre	Auxerre	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.28 fixture=1387943	17:15
+TSV:	1901070629	2026-04-05	ligue 1	Le Havre	Auxerre	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.3 fixture=1387943	17:15
+TSV:	1901070629	2026-04-05	ligue 1	Le Havre	Auxerre	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.4 fixture=1387943	17:15
+TSV:	1901070629	2026-04-05	ligue 1	Le Havre	Auxerre	O15_FT	Over 1.5 (FT)	4.0	FORT	1	odd=1.42 fixture=1387943	17:15
+TSV:	1901070629	2026-04-05	ligue 1	Le Havre	Auxerre	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=2.2 fixture=1387943	17:15
+TSV:	1901070629	2026-04-05	ligue 1	Le Havre	Auxerre	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.48 fixture=1387943	17:15
+TSV:	1901070629	2026-04-05	ligue 1	Le Havre	Auxerre	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=2.94 fixture=1387943	17:15
+TSV:	4128257911	2026-04-05	ligue 1	Lorient	Paris FC	HT05	HT+0.5	0.0	KO	0	odd=1.42 fixture=1387945	17:15
+TSV:	4128257911	2026-04-05	ligue 1	Lorient	Paris FC	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.22 fixture=1387945	17:15
+TSV:	4128257911	2026-04-05	ligue 1	Lorient	Paris FC	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.25 fixture=1387945	17:15
+TSV:	4128257911	2026-04-05	ligue 1	Lorient	Paris FC	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.4 fixture=1387945	17:15
+TSV:	4128257911	2026-04-05	ligue 1	Lorient	Paris FC	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.36 fixture=1387945	17:15
+TSV:	4128257911	2026-04-05	ligue 1	Lorient	Paris FC	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	odd=2.1 fixture=1387945	17:15
+TSV:	4128257911	2026-04-05	ligue 1	Lorient	Paris FC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.2 fixture=1387945	17:15
+TSV:	4128257911	2026-04-05	ligue 1	Lorient	Paris FC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.25 fixture=1387945	17:15
+TSV:	1471431728	2026-04-05	ligue 1	Metz	Nantes	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.42 fixture=1387946	17:15
+TSV:	1471431728	2026-04-05	ligue 1	Metz	Nantes	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.33 fixture=1387946	17:15
+TSV:	1471431728	2026-04-05	ligue 1	Metz	Nantes	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.36 fixture=1387946	17:15
+TSV:	1471431728	2026-04-05	ligue 1	Metz	Nantes	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.33 fixture=1387946	17:15
+TSV:	1471431728	2026-04-05	ligue 1	Metz	Nantes	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.38 fixture=1387946	17:15
+TSV:	1471431728	2026-04-05	ligue 1	Metz	Nantes	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=2.1 fixture=1387946	17:15
+TSV:	1471431728	2026-04-05	ligue 1	Metz	Nantes	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=2.7 fixture=1387946	17:15
+TSV:	1471431728	2026-04-05	ligue 1	Metz	Nantes	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.54 fixture=1387946	17:15
+TSV:	2695714577	2026-04-05	ligue 1	Monaco	Marseille	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.28 fixture=1387947	20:45
+TSV:	2695714577	2026-04-05	ligue 1	Monaco	Marseille	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.28 fixture=1387947	20:45
+TSV:	2695714577	2026-04-05	ligue 1	Monaco	Marseille	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.17 fixture=1387947	20:45
+TSV:	2695714577	2026-04-05	ligue 1	Monaco	Marseille	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.25 fixture=1387947	20:45
+TSV:	2695714577	2026-04-05	ligue 1	Monaco	Marseille	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.18 fixture=1387947	20:45
+TSV:	2695714577	2026-04-05	ligue 1	Monaco	Marseille	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	odd=1.57 fixture=1387947	20:45
+TSV:	2695714577	2026-04-05	ligue 1	Monaco	Marseille	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=2.16 fixture=1387947	20:45
+TSV:	2695714577	2026-04-05	ligue 1	Monaco	Marseille	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.2 fixture=1387947	20:45
+TSV:	994525886	2026-04-04	mls	Atlanta United FC	Columbus Crew	HT05	HT+0.5	5.0	FORT PLUS	0	odd=1.3 fixture=1490184	01:30
+TSV:	994525886	2026-04-04	mls	Atlanta United FC	Columbus Crew	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.38 fixture=1490184	01:30
+TSV:	994525886	2026-04-04	mls	Atlanta United FC	Columbus Crew	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.25 fixture=1490184	01:30
+TSV:	994525886	2026-04-04	mls	Atlanta United FC	Columbus Crew	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.2 fixture=1490184	01:30
+TSV:	994525886	2026-04-04	mls	Atlanta United FC	Columbus Crew	O15_FT	Over 1.5 (FT)	4.0	FORT	1	odd=1.22 fixture=1490184	01:30
+TSV:	994525886	2026-04-04	mls	Atlanta United FC	Columbus Crew	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.7 fixture=1490184	01:30
+TSV:	994525886	2026-04-04	mls	Atlanta United FC	Columbus Crew	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.82 fixture=1490184	01:30
+TSV:	994525886	2026-04-04	mls	Atlanta United FC	Columbus Crew	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	odd=2.28 fixture=1490184	01:30
+TSV:	2422903007	2026-04-04	mls	Charlotte	Philadelphia Union	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.3 fixture=1490186	01:30
+TSV:	2422903007	2026-04-04	mls	Charlotte	Philadelphia Union	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.28 fixture=1490186	01:30
+TSV:	2422903007	2026-04-04	mls	Charlotte	Philadelphia Union	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.22 fixture=1490186	01:30
+TSV:	2422903007	2026-04-04	mls	Charlotte	Philadelphia Union	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.3 fixture=1490186	01:30
+TSV:	2422903007	2026-04-04	mls	Charlotte	Philadelphia Union	O15_FT	Over 1.5 (FT)	4.0	FORT	1	odd=1.25 fixture=1490186	01:30
+TSV:	2422903007	2026-04-04	mls	Charlotte	Philadelphia Union	O25_FT	Over 2.5 (FT)	0.0	KO	0	odd=1.8 fixture=1490186	01:30
+TSV:	2422903007	2026-04-04	mls	Charlotte	Philadelphia Union	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.22 fixture=1490186	01:30
+TSV:	2422903007	2026-04-04	mls	Charlotte	Philadelphia Union	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=2.92 fixture=1490186	01:30
+TSV:	345938043	2026-04-04	mls	DC United	FC Dallas	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.36 fixture=1490188	01:30
+TSV:	345938043	2026-04-04	mls	DC United	FC Dallas	HT1X_HOME	HT 1X Home	0.0	KO	0	odd=1.25 fixture=1490188	01:30
+TSV:	345938043	2026-04-04	mls	DC United	FC Dallas	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.22 fixture=1490188	01:30
+TSV:	345938043	2026-04-04	mls	DC United	FC Dallas	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.33 fixture=1490188	01:30
+TSV:	345938043	2026-04-04	mls	DC United	FC Dallas	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.25 fixture=1490188	01:30
+TSV:	345938043	2026-04-04	mls	DC United	FC Dallas	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.83 fixture=1490188	01:30
+TSV:	345938043	2026-04-04	mls	DC United	FC Dallas	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.22 fixture=1490188	01:30
+TSV:	345938043	2026-04-04	mls	DC United	FC Dallas	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.98 fixture=1490188	01:30
+TSV:	66676446	2026-04-04	mls	Inter Miami	Austin	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.22 fixture=1490183	01:30
+TSV:	66676446	2026-04-04	mls	Inter Miami	Austin	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.08 fixture=1490183	01:30
+TSV:	66676446	2026-04-04	mls	Inter Miami	Austin	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.06 fixture=1490183	01:30
+TSV:	66676446	2026-04-04	mls	Inter Miami	Austin	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.53 fixture=1490183	01:30
+TSV:	66676446	2026-04-04	mls	Inter Miami	Austin	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.14 fixture=1490183	01:30
+TSV:	66676446	2026-04-04	mls	Inter Miami	Austin	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.48 fixture=1490183	01:30
+TSV:	66676446	2026-04-04	mls	Inter Miami	Austin	TEAM1_WIN_FT	Team1 wins (FT)	6.0	TRÈS FORT	1	odd=1.42 fixture=1490183	01:30
+TSV:	66676446	2026-04-04	mls	Inter Miami	Austin	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=6.25 fixture=1490183	01:30
+TSV:	4169536677	2026-04-04	mls	New York City FC	St. Louis City	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.3 fixture=1490187	01:30
+TSV:	4169536677	2026-04-04	mls	New York City FC	St. Louis City	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.18 fixture=1490187	01:30
+TSV:	4169536677	2026-04-04	mls	New York City FC	St. Louis City	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.15 fixture=1490187	01:30
+TSV:	4169536677	2026-04-04	mls	New York City FC	St. Louis City	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.4 fixture=1490187	01:30
+TSV:	4169536677	2026-04-04	mls	New York City FC	St. Louis City	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.25 fixture=1490187	01:30
+TSV:	4169536677	2026-04-04	mls	New York City FC	St. Louis City	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	odd=1.8 fixture=1490187	01:30
+TSV:	4169536677	2026-04-04	mls	New York City FC	St. Louis City	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.81 fixture=1490187	01:30
+TSV:	4169536677	2026-04-04	mls	New York City FC	St. Louis City	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4 fixture=1490187	01:30
+TSV:	1786942345	2026-04-04	mls	New York Red Bulls	FC Cincinnati	HT05	HT+0.5	6.0	TRÈS FORT	0	odd=1.25 fixture=1490185	01:30
+TSV:	1786942345	2026-04-04	mls	New York Red Bulls	FC Cincinnati	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.25 fixture=1490185	01:30
+TSV:	1786942345	2026-04-04	mls	New York Red Bulls	FC Cincinnati	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.15 fixture=1490185	01:30
+TSV:	1786942345	2026-04-04	mls	New York Red Bulls	FC Cincinnati	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.29 fixture=1490185	01:30
+TSV:	1786942345	2026-04-04	mls	New York Red Bulls	FC Cincinnati	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.18 fixture=1490185	01:30
+TSV:	1786942345	2026-04-04	mls	New York Red Bulls	FC Cincinnati	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.55 fixture=1490185	01:30
+TSV:	1786942345	2026-04-04	mls	New York Red Bulls	FC Cincinnati	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.97 fixture=1490185	01:30
+TSV:	1786942345	2026-04-04	mls	New York Red Bulls	FC Cincinnati	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	odd=3.35 fixture=1490185	01:30
+TSV:	2267365294	2026-04-05	mls	Chicago Fire	Nashville SC	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.33 fixture=1490190	02:30
+TSV:	2267365294	2026-04-05	mls	Chicago Fire	Nashville SC	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.28 fixture=1490190	02:30
+TSV:	2267365294	2026-04-05	mls	Chicago Fire	Nashville SC	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.22 fixture=1490190	02:30
+TSV:	2267365294	2026-04-05	mls	Chicago Fire	Nashville SC	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.29 fixture=1490190	02:30
+TSV:	2267365294	2026-04-05	mls	Chicago Fire	Nashville SC	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.25 fixture=1490190	02:30
+TSV:	2267365294	2026-04-05	mls	Chicago Fire	Nashville SC	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.8 fixture=1490190	02:30
+TSV:	2267365294	2026-04-05	mls	Chicago Fire	Nashville SC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.44 fixture=1490190	02:30
+TSV:	2267365294	2026-04-05	mls	Chicago Fire	Nashville SC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.88 fixture=1490190	02:30
+TSV:	2581369721	2026-04-05	mls	Houston Dynamo	Seattle Sounders	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.33 fixture=1490189	02:30
+TSV:	2581369721	2026-04-05	mls	Houston Dynamo	Seattle Sounders	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.35 fixture=1490189	02:30
+TSV:	2581369721	2026-04-05	mls	Houston Dynamo	Seattle Sounders	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.25 fixture=1490189	02:30
+TSV:	2581369721	2026-04-05	mls	Houston Dynamo	Seattle Sounders	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.25 fixture=1490189	02:30
+TSV:	2581369721	2026-04-05	mls	Houston Dynamo	Seattle Sounders	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.25 fixture=1490189	02:30
+TSV:	2581369721	2026-04-05	mls	Houston Dynamo	Seattle Sounders	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.8 fixture=1490189	02:30
+TSV:	2581369721	2026-04-05	mls	Houston Dynamo	Seattle Sounders	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.56 fixture=1490189	02:30
+TSV:	2581369721	2026-04-05	mls	Houston Dynamo	Seattle Sounders	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.6 fixture=1490189	02:30
+TSV:	2388600466	2026-04-05	mls	Los Angeles FC	Orlando City SC	HT05	HT+0.5	7.0	EXPLOSION	0	odd=1.18 fixture=1490191	03:30
+TSV:	2388600466	2026-04-05	mls	Los Angeles FC	Orlando City SC	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.05 fixture=1490191	03:30
+TSV:	2388600466	2026-04-05	mls	Los Angeles FC	Orlando City SC	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	odd=1.04 fixture=1490191	03:30
+TSV:	2388600466	2026-04-05	mls	Los Angeles FC	Orlando City SC	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.5 fixture=1490191	03:30
+TSV:	2388600466	2026-04-05	mls	Los Angeles FC	Orlando City SC	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.1 fixture=1490191	03:30
+TSV:	2388600466	2026-04-05	mls	Los Angeles FC	Orlando City SC	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.35 fixture=1490191	03:30
+TSV:	2388600466	2026-04-05	mls	Los Angeles FC	Orlando City SC	TEAM1_WIN_FT	Team1 wins (FT)	4.0	FORT	0	odd=1.26 fixture=1490191	03:30
+TSV:	2388600466	2026-04-05	mls	Los Angeles FC	Orlando City SC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=9.8 fixture=1490191	03:30
+TSV:	558137075	2026-04-05	mls	Los Angeles Galaxy	Minnesota United FC	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.25 fixture=1490192	04:30
+TSV:	558137075	2026-04-05	mls	Los Angeles Galaxy	Minnesota United FC	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.22 fixture=1490192	04:30
+TSV:	558137075	2026-04-05	mls	Los Angeles Galaxy	Minnesota United FC	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	odd=1.15 fixture=1490192	04:30
+TSV:	558137075	2026-04-05	mls	Los Angeles Galaxy	Minnesota United FC	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.33 fixture=1490192	04:30
+TSV:	558137075	2026-04-05	mls	Los Angeles Galaxy	Minnesota United FC	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.18 fixture=1490192	04:30
+TSV:	558137075	2026-04-05	mls	Los Angeles Galaxy	Minnesota United FC	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.57 fixture=1490192	04:30
+TSV:	558137075	2026-04-05	mls	Los Angeles Galaxy	Minnesota United FC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.84 fixture=1490192	04:30
+TSV:	558137075	2026-04-05	mls	Los Angeles Galaxy	Minnesota United FC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.7 fixture=1490192	04:30
+TSV:	772870256	2026-04-05	mls	San Jose Earthquakes	San Diego	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.25 fixture=1490194	04:30
+TSV:	772870256	2026-04-05	mls	San Jose Earthquakes	San Diego	HT1X_HOME	HT 1X Home	0.0	KO	0	odd=1.3 fixture=1490194	04:30
+TSV:	772870256	2026-04-05	mls	San Jose Earthquakes	San Diego	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.17 fixture=1490194	04:30
+TSV:	772870256	2026-04-05	mls	San Jose Earthquakes	San Diego	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.22 fixture=1490194	04:30
+TSV:	772870256	2026-04-05	mls	San Jose Earthquakes	San Diego	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.17 fixture=1490194	04:30
+TSV:	772870256	2026-04-05	mls	San Jose Earthquakes	San Diego	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.55 fixture=1490194	04:30
+TSV:	772870256	2026-04-05	mls	San Jose Earthquakes	San Diego	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.22 fixture=1490194	04:30
+TSV:	772870256	2026-04-05	mls	San Jose Earthquakes	San Diego	TEAM2_WIN_FT	Team2 wins (FT)	4.0	FORT	0	odd=2.82 fixture=1490194	04:30
+TSV:	1271445905	2026-04-05	mls	Vancouver Whitecaps	Portland Timbers	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.18 fixture=1490193	04:30
+TSV:	1271445905	2026-04-05	mls	Vancouver Whitecaps	Portland Timbers	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.07 fixture=1490193	04:30
+TSV:	1271445905	2026-04-05	mls	Vancouver Whitecaps	Portland Timbers	TEAM1_SCORE_FT	Team1 scores (FT)	7.0	EXPLOSION	1	odd=1.04 fixture=1490193	04:30
+TSV:	1271445905	2026-04-05	mls	Vancouver Whitecaps	Portland Timbers	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.53 fixture=1490193	04:30
+TSV:	1271445905	2026-04-05	mls	Vancouver Whitecaps	Portland Timbers	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.1 fixture=1490193	04:30
+TSV:	1271445905	2026-04-05	mls	Vancouver Whitecaps	Portland Timbers	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.38 fixture=1490193	04:30
+TSV:	1271445905	2026-04-05	mls	Vancouver Whitecaps	Portland Timbers	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.32 fixture=1490193	04:30
+TSV:	1271445905	2026-04-05	mls	Vancouver Whitecaps	Portland Timbers	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=7.6 fixture=1490193	04:30
+TSV:	1802554674	2026-04-05	premiership	Livingston	Heart Of Midlothian	HT05	HT+0.5	4.0	FORT	0	odd=1.3 fixture=1382854	15:00
+TSV:	1802554674	2026-04-05	premiership	Livingston	Heart Of Midlothian	HT1X_HOME	HT 1X Home	0.0	KO	0	odd=1.75 fixture=1382854	15:00
+TSV:	1802554674	2026-04-05	premiership	Livingston	Heart Of Midlothian	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.57 fixture=1382854	15:00
+TSV:	1802554674	2026-04-05	premiership	Livingston	Heart Of Midlothian	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.1 fixture=1382854	15:00
+TSV:	1802554674	2026-04-05	premiership	Livingston	Heart Of Midlothian	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	odd=1.22 fixture=1382854	15:00
+TSV:	1802554674	2026-04-05	premiership	Livingston	Heart Of Midlothian	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	odd=1.7 fixture=1382854	15:00
+TSV:	1802554674	2026-04-05	premiership	Livingston	Heart Of Midlothian	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=6.5 fixture=1382854	15:00
+TSV:	1802554674	2026-04-05	premiership	Livingston	Heart Of Midlothian	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=1.47 fixture=1382854	15:00
+TSV:	828408896	2026-04-05	premiership	Dundee	Celtic	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.22 fixture=1382852	17:30
+TSV:	828408896	2026-04-05	premiership	Dundee	Celtic	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.8 fixture=1382852	17:30
+TSV:	828408896	2026-04-05	premiership	Dundee	Celtic	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.4 fixture=1382852	17:30
+TSV:	828408896	2026-04-05	premiership	Dundee	Celtic	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.08 fixture=1382852	17:30
+TSV:	828408896	2026-04-05	premiership	Dundee	Celtic	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	odd=1.15 fixture=1382852	17:30
+TSV:	828408896	2026-04-05	premiership	Dundee	Celtic	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.48 fixture=1382852	17:30
+TSV:	828408896	2026-04-05	premiership	Dundee	Celtic	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=6 fixture=1382852	17:30
+TSV:	828408896	2026-04-05	premiership	Dundee	Celtic	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=1.47 fixture=1382852	17:30
+TSV:	2771287885	2026-04-05	primera a colombia	Deportes Tolima	Santa Fe	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.42 fixture=1506020	02:30
+TSV:	2771287885	2026-04-05	primera a colombia	Deportes Tolima	Santa Fe	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.15 fixture=1506020	02:30
+TSV:	2771287885	2026-04-05	primera a colombia	Deportes Tolima	Santa Fe	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.18 fixture=1506020	02:30
+TSV:	2771287885	2026-04-05	primera a colombia	Deportes Tolima	Santa Fe	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.68 fixture=1506020	02:30
+TSV:	2771287885	2026-04-05	primera a colombia	Deportes Tolima	Santa Fe	O15_FT	Over 1.5 (FT)	0.0	KO	0	odd=1.4 fixture=1506020	02:30
+TSV:	2771287885	2026-04-05	primera a colombia	Deportes Tolima	Santa Fe	O25_FT	Over 2.5 (FT)	0.0	KO	0	odd=2.15 fixture=1506020	02:30
+TSV:	2771287885	2026-04-05	primera a colombia	Deportes Tolima	Santa Fe	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.7 fixture=1506020	02:30
+TSV:	2771287885	2026-04-05	primera a colombia	Deportes Tolima	Santa Fe	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=5.1 fixture=1506020	02:30
+TSV:	1818886540	2026-04-05	primera a colombia	Cucuta	America de Cali	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.42 fixture=1506077	23:00
+TSV:	1818886540	2026-04-05	primera a colombia	Cucuta	America de Cali	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.4 fixture=1506077	23:00
+TSV:	1818886540	2026-04-05	primera a colombia	Cucuta	America de Cali	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.48 fixture=1506077	23:00
+TSV:	1818886540	2026-04-05	primera a colombia	Cucuta	America de Cali	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.26 fixture=1506077	23:00
+TSV:	1818886540	2026-04-05	primera a colombia	Cucuta	America de Cali	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.42 fixture=1506077	23:00
+TSV:	1818886540	2026-04-05	primera a colombia	Cucuta	America de Cali	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	odd=2.25 fixture=1506077	23:00
+TSV:	1818886540	2026-04-05	primera a colombia	Cucuta	America de Cali	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=3.45 fixture=1506077	23:00
+TSV:	1818886540	2026-04-05	primera a colombia	Cucuta	America de Cali	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.16 fixture=1506077	23:00
+TSV:	1243956398	2026-04-04	primera división paraguay	Cerro Porteno	2 de Mayo	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.36 fixture=1505044	01:30
+TSV:	1243956398	2026-04-04	primera división paraguay	Cerro Porteno	2 de Mayo	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.11 fixture=1505044	01:30
+TSV:	1243956398	2026-04-04	primera división paraguay	Cerro Porteno	2 de Mayo	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.1 fixture=1505044	01:30
+TSV:	1243956398	2026-04-04	primera división paraguay	Cerro Porteno	2 de Mayo	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.67 fixture=1505044	01:30
+TSV:	1243956398	2026-04-04	primera división paraguay	Cerro Porteno	2 de Mayo	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.28 fixture=1505044	01:30
+TSV:	1243956398	2026-04-04	primera división paraguay	Cerro Porteno	2 de Mayo	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=1.95 fixture=1505044	01:30
+TSV:	1243956398	2026-04-04	primera división paraguay	Cerro Porteno	2 de Mayo	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=1.57 fixture=1505044	01:30
+TSV:	1243956398	2026-04-04	primera división paraguay	Cerro Porteno	2 de Mayo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=5.75 fixture=1505044	01:30
+TSV:	410113277	2026-04-04	primera división paraguay	Deportivo Recoleta	Club Sp. San Lorenzo	HT05	HT+0.5	2.0	MOYEN	0	odd=1.44 fixture=1505047	01:30
+TSV:	410113277	2026-04-04	primera división paraguay	Deportivo Recoleta	Club Sp. San Lorenzo	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	odd=1.22 fixture=1505047	01:30
+TSV:	410113277	2026-04-04	primera división paraguay	Deportivo Recoleta	Club Sp. San Lorenzo	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.23 fixture=1505047	01:30
+TSV:	410113277	2026-04-04	primera división paraguay	Deportivo Recoleta	Club Sp. San Lorenzo	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.45 fixture=1505047	01:30
+TSV:	410113277	2026-04-04	primera división paraguay	Deportivo Recoleta	Club Sp. San Lorenzo	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.36 fixture=1505047	01:30
+TSV:	410113277	2026-04-04	primera división paraguay	Deportivo Recoleta	Club Sp. San Lorenzo	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=2.15 fixture=1505047	01:30
+TSV:	410113277	2026-04-04	primera división paraguay	Deportivo Recoleta	Club Sp. San Lorenzo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.05 fixture=1505047	01:30
+TSV:	410113277	2026-04-04	primera división paraguay	Deportivo Recoleta	Club Sp. San Lorenzo	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=3.5 fixture=1505047	01:30
+TSV:	1064023855	2026-04-05	primera división paraguay	Sportivo Ameliano	Sportivo Luqueno	HT05	HT+0.5	2.0	MOYEN	0	odd=1.53 fixture=1505043	23:30
+TSV:	1064023855	2026-04-05	primera división paraguay	Sportivo Ameliano	Sportivo Luqueno	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.22 fixture=1505043	23:30
+TSV:	1064023855	2026-04-05	primera división paraguay	Sportivo Ameliano	Sportivo Luqueno	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.3 fixture=1505043	23:30
+TSV:	1064023855	2026-04-05	primera división paraguay	Sportivo Ameliano	Sportivo Luqueno	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.47 fixture=1505043	23:30
+TSV:	1064023855	2026-04-05	primera división paraguay	Sportivo Ameliano	Sportivo Luqueno	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.44 fixture=1505043	23:30
+TSV:	1064023855	2026-04-05	primera división paraguay	Sportivo Ameliano	Sportivo Luqueno	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=2.4 fixture=1505043	23:30
+TSV:	1064023855	2026-04-05	primera división paraguay	Sportivo Ameliano	Sportivo Luqueno	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.2 fixture=1505043	23:30
+TSV:	1064023855	2026-04-05	primera división paraguay	Sportivo Ameliano	Sportivo Luqueno	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.1 fixture=1505043	23:30
+TSV:	3486486385	2026-04-05	pro league	KVC Westerlo	Charleroi	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.3 fixture=1536938	18:30
+TSV:	3486486385	2026-04-05	pro league	KVC Westerlo	Charleroi	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.36 fixture=1536938	18:30
+TSV:	3486486385	2026-04-05	pro league	KVC Westerlo	Charleroi	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.22 fixture=1536938	18:30
+TSV:	3486486385	2026-04-05	pro league	KVC Westerlo	Charleroi	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.25 fixture=1536938	18:30
+TSV:	3486486385	2026-04-05	pro league	KVC Westerlo	Charleroi	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.2 fixture=1536938	18:30
+TSV:	3486486385	2026-04-05	pro league	KVC Westerlo	Charleroi	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	odd=1.67 fixture=1536938	18:30
+TSV:	3486486385	2026-04-05	pro league	KVC Westerlo	Charleroi	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=2.4 fixture=1536938	18:30
+TSV:	3486486385	2026-04-05	pro league	KVC Westerlo	Charleroi	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.6 fixture=1536938	18:30
+TSV:	418412402	2026-04-05	saudi arabia	Al Okhdood	Al-Fateh	HT05	HT+0.5	7.0	EXPLOSION	0	odd=1.28 fixture=1436149	17:55
+TSV:	418412402	2026-04-05	saudi arabia	Al Okhdood	Al-Fateh	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.5 fixture=1436149	17:55
+TSV:	418412402	2026-04-05	saudi arabia	Al Okhdood	Al-Fateh	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.3 fixture=1436149	17:55
+TSV:	418412402	2026-04-05	saudi arabia	Al Okhdood	Al-Fateh	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	odd=1.15 fixture=1436149	17:55
+TSV:	418412402	2026-04-05	saudi arabia	Al Okhdood	Al-Fateh	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.18 fixture=1436149	17:55
+TSV:	418412402	2026-04-05	saudi arabia	Al Okhdood	Al-Fateh	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	odd=1.6 fixture=1436149	17:55
+TSV:	418412402	2026-04-05	saudi arabia	Al Okhdood	Al-Fateh	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.4 fixture=1436149	17:55
+TSV:	418412402	2026-04-05	saudi arabia	Al Okhdood	Al-Fateh	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=1.9 fixture=1436149	17:55
+TSV:	942990783	2026-04-05	saudi arabia	Al Riyadh	Al Shabab	HT05	HT+0.5	7.0	EXPLOSION	0	odd=1.33 fixture=1436155	20:00
+TSV:	942990783	2026-04-05	saudi arabia	Al Riyadh	Al Shabab	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	odd=1.5 fixture=1436155	20:00
+TSV:	942990783	2026-04-05	saudi arabia	Al Riyadh	Al Shabab	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.36 fixture=1436155	20:00
+TSV:	942990783	2026-04-05	saudi arabia	Al Riyadh	Al Shabab	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	odd=1.15 fixture=1436155	20:00
+TSV:	942990783	2026-04-05	saudi arabia	Al Riyadh	Al Shabab	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.22 fixture=1436155	20:00
+TSV:	942990783	2026-04-05	saudi arabia	Al Riyadh	Al Shabab	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	odd=1.73 fixture=1436155	20:00
+TSV:	942990783	2026-04-05	saudi arabia	Al Riyadh	Al Shabab	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.8 fixture=1436155	20:00
+TSV:	942990783	2026-04-05	saudi arabia	Al Riyadh	Al Shabab	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	odd=1.83 fixture=1436155	20:00
+TSV:	3772111772	2026-04-05	saudi arabia	Al-Ettifaq	Al-Qadisiyah FC	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.22 fixture=1436150	20:00
+TSV:	3772111772	2026-04-05	saudi arabia	Al-Ettifaq	Al-Qadisiyah FC	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.83 fixture=1436150	20:00
+TSV:	3772111772	2026-04-05	saudi arabia	Al-Ettifaq	Al-Qadisiyah FC	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.44 fixture=1436150	20:00
+TSV:	3772111772	2026-04-05	saudi arabia	Al-Ettifaq	Al-Qadisiyah FC	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	odd=1.06 fixture=1436150	20:00
+TSV:	3772111772	2026-04-05	saudi arabia	Al-Ettifaq	Al-Qadisiyah FC	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	odd=1.12 fixture=1436150	20:00
+TSV:	3772111772	2026-04-05	saudi arabia	Al-Ettifaq	Al-Qadisiyah FC	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.48 fixture=1436150	20:00
+TSV:	3772111772	2026-04-05	saudi arabia	Al-Ettifaq	Al-Qadisiyah FC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=6.25 fixture=1436150	20:00
+TSV:	3772111772	2026-04-05	saudi arabia	Al-Ettifaq	Al-Qadisiyah FC	TEAM2_WIN_FT	Team2 wins (FT)	5.0	FORT PLUS	1	odd=1.4 fixture=1436150	20:00
+TSV:	2164053495	2026-04-04	serie a brazil	Coritiba	Fluminense	HT05	HT+0.5	4.0	FORT	0	odd=1.5 fixture=1492204	01:30
+TSV:	2164053495	2026-04-04	serie a brazil	Coritiba	Fluminense	HT1X_HOME	HT 1X Home	0.0	KO	0	odd=1.33 fixture=1492204	01:30
+TSV:	2164053495	2026-04-04	serie a brazil	Coritiba	Fluminense	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.5 fixture=1492204	01:30
+TSV:	2164053495	2026-04-04	serie a brazil	Coritiba	Fluminense	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.36 fixture=1492204	01:30
+TSV:	2164053495	2026-04-04	serie a brazil	Coritiba	Fluminense	O15_FT	Over 1.5 (FT)	4.0	FORT	1	odd=1.53 fixture=1492204	01:30
+TSV:	2164053495	2026-04-04	serie a brazil	Coritiba	Fluminense	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=2.6 fixture=1492204	01:30
+TSV:	2164053495	2026-04-04	serie a brazil	Coritiba	Fluminense	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.1 fixture=1492204	01:30
+TSV:	2164053495	2026-04-04	serie a brazil	Coritiba	Fluminense	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.4 fixture=1492204	01:30
+TSV:	4059653295	2026-04-05	serie a brazil	Vasco DA Gama	Botafogo	HT05	HT+0.5	7.0	EXPLOSION	0	odd=1.4 fixture=1492209	02:00
+TSV:	4059653295	2026-04-05	serie a brazil	Vasco DA Gama	Botafogo	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.2 fixture=1492209	02:00
+TSV:	4059653295	2026-04-05	serie a brazil	Vasco DA Gama	Botafogo	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.22 fixture=1492209	02:00
+TSV:	4059653295	2026-04-05	serie a brazil	Vasco DA Gama	Botafogo	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.44 fixture=1492209	02:00
+TSV:	4059653295	2026-04-05	serie a brazil	Vasco DA Gama	Botafogo	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	odd=1.35 fixture=1492209	02:00
+TSV:	4059653295	2026-04-05	serie a brazil	Vasco DA Gama	Botafogo	O25_FT	Over 2.5 (FT)	4.0	FORT	1	odd=2 fixture=1492209	02:00
+TSV:	4059653295	2026-04-05	serie a brazil	Vasco DA Gama	Botafogo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2 fixture=1492209	02:00
+TSV:	4059653295	2026-04-05	serie a brazil	Vasco DA Gama	Botafogo	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=3.65 fixture=1492209	02:00
+TSV:	33607546	2026-04-05	serie a brazil	Chapecoense-sc	Vitoria	HT05	HT+0.5	4.0	FORT	0	odd=1.42 fixture=1492202	21:00
+TSV:	33607546	2026-04-05	serie a brazil	Chapecoense-sc	Vitoria	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.25 fixture=1492202	21:00
+TSV:	33607546	2026-04-05	serie a brazil	Chapecoense-sc	Vitoria	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.3 fixture=1492202	21:00
+TSV:	33607546	2026-04-05	serie a brazil	Chapecoense-sc	Vitoria	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.36 fixture=1492202	21:00
+TSV:	33607546	2026-04-05	serie a brazil	Chapecoense-sc	Vitoria	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	odd=1.38 fixture=1492202	21:00
+TSV:	33607546	2026-04-05	serie a brazil	Chapecoense-sc	Vitoria	O25_FT	Over 2.5 (FT)	0.0	KO	0	odd=2.15 fixture=1492202	21:00
+TSV:	33607546	2026-04-05	serie a brazil	Chapecoense-sc	Vitoria	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.4 fixture=1492202	21:00
+TSV:	33607546	2026-04-05	serie a brazil	Chapecoense-sc	Vitoria	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.92 fixture=1492202	21:00
+TSV:	3661068932	2026-04-05	serie a brazil	Atletico-MG	Atletico Paranaense	HT05	HT+0.5	6.0	TRÈS FORT	0	odd=1.42 fixture=1492200	22:30
+TSV:	3661068932	2026-04-05	serie a brazil	Atletico-MG	Atletico Paranaense	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.17 fixture=1492200	22:30
+TSV:	3661068932	2026-04-05	serie a brazil	Atletico-MG	Atletico Paranaense	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.22 fixture=1492200	22:30
+TSV:	3661068932	2026-04-05	serie a brazil	Atletico-MG	Atletico Paranaense	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.5 fixture=1492200	22:30
+TSV:	3661068932	2026-04-05	serie a brazil	Atletico-MG	Atletico Paranaense	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.38 fixture=1492200	22:30
+TSV:	3661068932	2026-04-05	serie a brazil	Atletico-MG	Atletico Paranaense	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=2.1 fixture=1492200	22:30
+TSV:	3661068932	2026-04-05	serie a brazil	Atletico-MG	Atletico Paranaense	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.9 fixture=1492200	22:30
+TSV:	3661068932	2026-04-05	serie a brazil	Atletico-MG	Atletico Paranaense	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=4.1 fixture=1492200	22:30
+TSV:	182974235	2026-04-05	serie a brazil	Flamengo	Santos	HT05	HT+0.5	7.0	EXPLOSION	0	odd=1.33 fixture=1492205	22:30
+TSV:	182974235	2026-04-05	serie a brazil	Flamengo	Santos	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.05 fixture=1492205	22:30
+TSV:	182974235	2026-04-05	serie a brazil	Flamengo	Santos	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.08 fixture=1492205	22:30
+TSV:	182974235	2026-04-05	serie a brazil	Flamengo	Santos	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.85 fixture=1492205	22:30
+TSV:	182974235	2026-04-05	serie a brazil	Flamengo	Santos	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.25 fixture=1492205	22:30
+TSV:	182974235	2026-04-05	serie a brazil	Flamengo	Santos	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	odd=1.8 fixture=1492205	22:30
+TSV:	182974235	2026-04-05	serie a brazil	Flamengo	Santos	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.36 fixture=1492205	22:30
+TSV:	182974235	2026-04-05	serie a brazil	Flamengo	Santos	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=8.3 fixture=1492205	22:30
+TSV:	1585684451	2026-04-05	serie a italia	Cremonese	Bologna	HT05	HT+0.5	2.0	MOYEN	0	odd=1.4 fixture=1378164	15:00
+TSV:	1585684451	2026-04-05	serie a italia	Cremonese	Bologna	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.4 fixture=1378164	15:00
+TSV:	1585684451	2026-04-05	serie a italia	Cremonese	Bologna	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.4 fixture=1378164	15:00
+TSV:	1585684451	2026-04-05	serie a italia	Cremonese	Bologna	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.22 fixture=1378164	15:00
+TSV:	1585684451	2026-04-05	serie a italia	Cremonese	Bologna	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.33 fixture=1378164	15:00
+TSV:	1585684451	2026-04-05	serie a italia	Cremonese	Bologna	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	odd=2 fixture=1378164	15:00
+TSV:	1585684451	2026-04-05	serie a italia	Cremonese	Bologna	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.3 fixture=1378164	15:00
+TSV:	1585684451	2026-04-05	serie a italia	Cremonese	Bologna	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=2.18 fixture=1378164	15:00
+TSV:	2308846470	2026-04-05	serie a italia	Pisa	Torino	HT05	HT+0.5	4.0	FORT	0	odd=1.42 fixture=1378170	18:00
+TSV:	2308846470	2026-04-05	serie a italia	Pisa	Torino	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.35 fixture=1378170	18:00
+TSV:	2308846470	2026-04-05	serie a italia	Pisa	Torino	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.4 fixture=1378170	18:00
+TSV:	2308846470	2026-04-05	serie a italia	Pisa	Torino	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.33 fixture=1378170	18:00
+TSV:	2308846470	2026-04-05	serie a italia	Pisa	Torino	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.4 fixture=1378170	18:00
+TSV:	2308846470	2026-04-05	serie a italia	Pisa	Torino	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=2.2 fixture=1378170	18:00
+TSV:	2308846470	2026-04-05	serie a italia	Pisa	Torino	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.15 fixture=1378170	18:00
+TSV:	2308846470	2026-04-05	serie a italia	Pisa	Torino	TEAM2_WIN_FT	Team2 wins (FT)	4.0	FORT	0	odd=2.36 fixture=1378170	18:00
+TSV:	1087453912	2026-04-05	serie a italia	Inter	AS Roma	HT05	HT+0.5	5.0	FORT PLUS	0	odd=1.36 fixture=1378165	20:45
+TSV:	1087453912	2026-04-05	serie a italia	Inter	AS Roma	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.15 fixture=1378165	20:45
+TSV:	1087453912	2026-04-05	serie a italia	Inter	AS Roma	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.15 fixture=1378165	20:45
+TSV:	1087453912	2026-04-05	serie a italia	Inter	AS Roma	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.6 fixture=1378165	20:45
+TSV:	1087453912	2026-04-05	serie a italia	Inter	AS Roma	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.3 fixture=1378165	20:45
+TSV:	1087453912	2026-04-05	serie a italia	Inter	AS Roma	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=1.95 fixture=1378165	20:45
+TSV:	1087453912	2026-04-05	serie a italia	Inter	AS Roma	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.65 fixture=1378165	20:45
+TSV:	1087453912	2026-04-05	serie a italia	Inter	AS Roma	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=5.1 fixture=1378165	20:45
+TSV:	3423725926	2026-04-05	serie b	Frosinone	Padova	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.25 fixture=1419918	17:15
+TSV:	3423725926	2026-04-05	serie b	Frosinone	Padova	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.14 fixture=1419918	17:15
+TSV:	3423725926	2026-04-05	serie b	Frosinone	Padova	TEAM1_SCORE_FT	Team1 scores (FT)	6.0	TRÈS FORT	1	odd=1.08 fixture=1419918	17:15
+TSV:	3423725926	2026-04-05	serie b	Frosinone	Padova	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.44 fixture=1419918	17:15
+TSV:	3423725926	2026-04-05	serie b	Frosinone	Padova	O15_FT	Over 1.5 (FT)	4.0	FORT	1	odd=1.17 fixture=1419918	17:15
+TSV:	3423725926	2026-04-05	serie b	Frosinone	Padova	O25_FT	Over 2.5 (FT)	4.0	FORT	1	odd=1.53 fixture=1419918	17:15
+TSV:	3423725926	2026-04-05	serie b	Frosinone	Padova	TEAM1_WIN_FT	Team1 wins (FT)	5.0	FORT PLUS	1	odd=1.5 fixture=1419918	17:15
+TSV:	3423725926	2026-04-05	serie b	Frosinone	Padova	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=5.5 fixture=1419918	17:15
+TSV:	4086616764	2026-04-05	serie b	Palermo	Avellino	HT05	HT+0.5	4.0	FORT	0	odd=1.33 fixture=1419916	19:30
+TSV:	4086616764	2026-04-05	serie b	Palermo	Avellino	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.11 fixture=1419916	19:30
+TSV:	4086616764	2026-04-05	serie b	Palermo	Avellino	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.12 fixture=1419916	19:30
+TSV:	4086616764	2026-04-05	serie b	Palermo	Avellino	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.67 fixture=1419916	19:30
+TSV:	4086616764	2026-04-05	serie b	Palermo	Avellino	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	odd=1.25 fixture=1419916	19:30
+TSV:	4086616764	2026-04-05	serie b	Palermo	Avellino	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	odd=1.83 fixture=1419916	19:30
+TSV:	4086616764	2026-04-05	serie b	Palermo	Avellino	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.5 fixture=1419916	19:30
+TSV:	4086616764	2026-04-05	serie b	Palermo	Avellino	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=6 fixture=1419916	19:30
+TSV:	1482025351	2026-04-05	super lig	Fatih Karagümrük	Rizespor	HT05	HT+0.5	4.0	FORT	0	odd=1.33 fixture=1394680	13:30
+TSV:	1482025351	2026-04-05	super lig	Fatih Karagümrük	Rizespor	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.36 fixture=1394680	13:30
+TSV:	1482025351	2026-04-05	super lig	Fatih Karagümrük	Rizespor	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.3 fixture=1394680	13:30
+TSV:	1482025351	2026-04-05	super lig	Fatih Karagümrük	Rizespor	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.25 fixture=1394680	13:30
+TSV:	1482025351	2026-04-05	super lig	Fatih Karagümrük	Rizespor	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.25 fixture=1394680	13:30
+TSV:	1482025351	2026-04-05	super lig	Fatih Karagümrük	Rizespor	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=1.8 fixture=1394680	13:30
+TSV:	1482025351	2026-04-05	super lig	Fatih Karagümrük	Rizespor	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.82 fixture=1394680	13:30
+TSV:	1482025351	2026-04-05	super lig	Fatih Karagümrük	Rizespor	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=2.38 fixture=1394680	13:30
+TSV:	1520900579	2026-04-05	super lig	Samsunspor	Konyaspor	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.42 fixture=1394683	13:30
+TSV:	1520900579	2026-04-05	super lig	Samsunspor	Konyaspor	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.22 fixture=1394683	13:30
+TSV:	1520900579	2026-04-05	super lig	Samsunspor	Konyaspor	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.29 fixture=1394683	13:30
+TSV:	1520900579	2026-04-05	super lig	Samsunspor	Konyaspor	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.44 fixture=1394683	13:30
+TSV:	1520900579	2026-04-05	super lig	Samsunspor	Konyaspor	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.38 fixture=1394683	13:30
+TSV:	1520900579	2026-04-05	super lig	Samsunspor	Konyaspor	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=2.1 fixture=1394683	13:30
+TSV:	1520900579	2026-04-05	super lig	Samsunspor	Konyaspor	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.25 fixture=1394683	13:30
+TSV:	1520900579	2026-04-05	super lig	Samsunspor	Konyaspor	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.3 fixture=1394683	13:30
+TSV:	2998638129	2026-04-05	super lig	Antalyaspor	Eyüpspor	HT05	HT+0.5	2.0	MOYEN	0	odd=1.42 fixture=1394676	16:00
+TSV:	2998638129	2026-04-05	super lig	Antalyaspor	Eyüpspor	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.2 fixture=1394676	16:00
+TSV:	2998638129	2026-04-05	super lig	Antalyaspor	Eyüpspor	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.25 fixture=1394676	16:00
+TSV:	2998638129	2026-04-05	super lig	Antalyaspor	Eyüpspor	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.44 fixture=1394676	16:00
+TSV:	2998638129	2026-04-05	super lig	Antalyaspor	Eyüpspor	O15_FT	Over 1.5 (FT)	1.0	FAIBLE	0	odd=1.38 fixture=1394676	16:00
+TSV:	2998638129	2026-04-05	super lig	Antalyaspor	Eyüpspor	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	odd=2.15 fixture=1394676	16:00
+TSV:	2998638129	2026-04-05	super lig	Antalyaspor	Eyüpspor	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.12 fixture=1394676	16:00
+TSV:	2998638129	2026-04-05	super lig	Antalyaspor	Eyüpspor	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.7 fixture=1394676	16:00
+TSV:	672199448	2026-04-05	super lig	Fenerbahçe	Beşiktaş	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.3 fixture=1394677	19:00
+TSV:	672199448	2026-04-05	super lig	Fenerbahçe	Beşiktaş	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.22 fixture=1394677	19:00
+TSV:	672199448	2026-04-05	super lig	Fenerbahçe	Beşiktaş	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.15 fixture=1394677	19:00
+TSV:	672199448	2026-04-05	super lig	Fenerbahçe	Beşiktaş	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	odd=1.3 fixture=1394677	19:00
+TSV:	672199448	2026-04-05	super lig	Fenerbahçe	Beşiktaş	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.2 fixture=1394677	19:00
+TSV:	672199448	2026-04-05	super lig	Fenerbahçe	Beşiktaş	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.6 fixture=1394677	19:00
+TSV:	672199448	2026-04-05	super lig	Fenerbahçe	Beşiktaş	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.98 fixture=1394677	19:00
+TSV:	672199448	2026-04-05	super lig	Fenerbahçe	Beşiktaş	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=3.45 fixture=1394677	19:00
+TSV:	3010241649	2026-04-05	superligaen	Diosgyori VTK	Puskas Academy	HT05	HT+0.5	5.0	FORT PLUS	0	odd=1.33 fixture=1380337	14:30
+TSV:	3010241649	2026-04-05	superligaen	Diosgyori VTK	Puskas Academy	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.36 fixture=1380337	14:30
+TSV:	3010241649	2026-04-05	superligaen	Diosgyori VTK	Puskas Academy	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.27 fixture=1380337	14:30
+TSV:	3010241649	2026-04-05	superligaen	Diosgyori VTK	Puskas Academy	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	odd=1.21 fixture=1380337	14:30
+TSV:	3010241649	2026-04-05	superligaen	Diosgyori VTK	Puskas Academy	O15_FT	Over 1.5 (FT)	4.0	FORT	1	odd=1.25 fixture=1380337	14:30
+TSV:	3010241649	2026-04-05	superligaen	Diosgyori VTK	Puskas Academy	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	odd=1.8 fixture=1380337	14:30
+TSV:	3010241649	2026-04-05	superligaen	Diosgyori VTK	Puskas Academy	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.75 fixture=1380337	14:30
+TSV:	3010241649	2026-04-05	superligaen	Diosgyori VTK	Puskas Academy	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.25 fixture=1380337	14:30
+TSV:	978016539	2026-04-05	superligaen	Debreceni VSC	Ferencvarosi TC	HT05	HT+0.5	4.0	FORT	0	odd=1.3 fixture=1380336	17:00
+TSV:	978016539	2026-04-05	superligaen	Debreceni VSC	Ferencvarosi TC	HT1X_HOME	HT 1X Home	0.0	KO	0	odd=1.57 fixture=1380336	17:00
+TSV:	978016539	2026-04-05	superligaen	Debreceni VSC	Ferencvarosi TC	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.4 fixture=1380336	17:00
+TSV:	978016539	2026-04-05	superligaen	Debreceni VSC	Ferencvarosi TC	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.09 fixture=1380336	17:00
+TSV:	978016539	2026-04-05	superligaen	Debreceni VSC	Ferencvarosi TC	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.2 fixture=1380336	17:00
+TSV:	978016539	2026-04-05	superligaen	Debreceni VSC	Ferencvarosi TC	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.67 fixture=1380336	17:00
+TSV:	978016539	2026-04-05	superligaen	Debreceni VSC	Ferencvarosi TC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=4.2 fixture=1380336	17:00
+TSV:	978016539	2026-04-05	superligaen	Debreceni VSC	Ferencvarosi TC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=1.67 fixture=1380336	17:00
+TSV:	3971724217	2026-04-05	superligaen	Gyori ETO FC	Nyiregyhaza	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.3 fixture=1380338	19:30
+TSV:	3971724217	2026-04-05	superligaen	Gyori ETO FC	Nyiregyhaza	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.12 fixture=1380338	19:30
+TSV:	3971724217	2026-04-05	superligaen	Gyori ETO FC	Nyiregyhaza	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.08 fixture=1380338	19:30
+TSV:	3971724217	2026-04-05	superligaen	Gyori ETO FC	Nyiregyhaza	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.49 fixture=1380338	19:30
+TSV:	3971724217	2026-04-05	superligaen	Gyori ETO FC	Nyiregyhaza	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.2 fixture=1380338	19:30
+TSV:	3971724217	2026-04-05	superligaen	Gyori ETO FC	Nyiregyhaza	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.67 fixture=1380338	19:30
+TSV:	3971724217	2026-04-05	superligaen	Gyori ETO FC	Nyiregyhaza	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.5 fixture=1380338	19:30
+TSV:	3971724217	2026-04-05	superligaen	Gyori ETO FC	Nyiregyhaza	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=5.5 fixture=1380338	19:30

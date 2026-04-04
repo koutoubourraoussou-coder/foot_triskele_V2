@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-04-04
+Date run       : 2026-04-05
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (126 ids)
+Whitelist      : ON (130 ids)
 Ignorés (hors whitelist) : 16
-Ignorés (date>=today)    : 12
+Ignorés (date>=today)    : 13
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -988,10 +988,42 @@ Ignorés (date>=today)    : 12
    ❌ Leg 2) 20:00 | ligue 2 | Dunkerque vs Rodez | HT 1X Home | [FORT PLUS] | odd=1.22
    ❌ Leg 3) 21:00 | laliga | Rayo Vallecano vs Elche | Team2 scores (FT) | [FORT PLUS] | odd=1.57
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Samedi 2026-04-04 05:06→16:20 | code=A2 | odd=2.55
+   id=2026-04-04_0506_6d2c22b4b0_SYS
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 05:06 | liga mx | Club Tijuana vs Tigres UANL | HT 1X Home | [FORT] | odd=1.5
+   ✅ Leg 2) 13:00 | 2. bundesliga | Arminia Bielefeld vs SV Darmstadt 98 | Team1 scores (FT) | [FORT] | odd=1.18
+   ❌ Leg 3) 14:30 | superligaen | Zalaegerszegi TE vs Kisvarda FC | Team2 scores (FT) | [FORT] | odd=1.44
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Samedi 2026-04-04 16:30→18:50 | code=RESTE | odd=2.19
+   id=2026-04-04_1630_82015a9fbf_SYS
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 16:30 | eredivisie | PSV Eindhoven vs Utrecht | Team2 scores (FT) | [FORT PLUS] | odd=1.4
+   ❌ Leg 2) 16:30 | liga portugal | Nacional vs Estrela | Team2 scores (FT) | [FORT] | odd=1.36
+   ✅ Leg 3) 17:00 | ligue 1 | Strasbourg vs Nice | Team1 scores (FT) | [MOYEN PLUS] | odd=1.15
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 3 | Samedi 2026-04-04 19:00→20:50 | code=A2 | odd=2.51
+   id=2026-04-04_1900_e137af8e17_SYS
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 19:00 | liga portugal | Moreirense vs SC Braga | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.3
+   ❌ Leg 2) 19:00 | ligue 1 | Stade Brestois 29 vs Rennes | HT 1X Home | [MOYEN PLUS] | odd=1.36
+   ✅ Leg 3) 19:00 | super lig | Trabzonspor vs Galatasaray | HT 1X Home | [MOYEN PLUS] | odd=1.42
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 4 | Samedi 2026-04-04 21:00→22:50 | code=A2 | odd=2.85
+   id=2026-04-04_2100_c9febdfbbb_SYS
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 21:00 | eredivisie | Ajax vs Twente | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
+   ✅ Leg 2) 21:00 | fa cup | Southampton vs Arsenal | Team1 scores (FT) | [MOYEN PLUS] | odd=1.7
+   ✅ Leg 3) 21:00 | laliga | Atletico Madrid vs Barcelona | HT 1X Home | [MOYEN PLUS] | odd=1.42
+
 ====================================================================
-TOTAL tickets : 117
-✅ WIN     : 41
-❌ LOSS    : 74
+TOTAL tickets : 121
+✅ WIN     : 42
+❌ LOSS    : 77
 ⏳ PENDING : 2
 ====================================================================
 
