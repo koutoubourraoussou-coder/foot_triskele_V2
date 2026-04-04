@@ -781,7 +781,7 @@ def sort_tickets_for_display(df: pd.DataFrame) -> pd.DataFrame:
 # -----------------------------
 # Sidebar (contrôles)
 # -----------------------------
-st.sidebar.header("⚙️ Lancer la Machine")
+st.sidebar.header("⚙️ Paramètres")
 
 st.sidebar.markdown("### Période d'affichage")
 period_label = st.sidebar.selectbox(
@@ -790,30 +790,6 @@ period_label = st.sidebar.selectbox(
     index=1
 )
 period_start, period_end = compute_period_range(period_label)
-
-st.sidebar.divider()
-st.sidebar.markdown("### Génération des Tickets")
-st.sidebar.info("Exécute run_machine.py pour récupérer les données API, faire les prédictions et construire les tickets.")
-
-if st.sidebar.button("🚀 Lancer Run Machine", type="primary", use_container_width=True):
-    with st.spinner("Exécution de run_machine.py en cours (ça peut prendre un moment)..."):
-        try:
-            result = subprocess.run(
-                [sys.executable, str(ROOT / "run_machine.py")],
-                capture_output=True,
-                text=True,
-                cwd=str(ROOT)
-            )
-            if result.returncode == 0:
-                st.sidebar.success("Tickets générés avec succès ! ✅")
-                st.rerun()
-            else:
-                st.sidebar.error("Erreur lors de l'exécution (stderr) :")
-                st.sidebar.code(result.stderr or "(stderr vide)")
-                st.sidebar.info("stdout :")
-                st.sidebar.code(result.stdout or "(stdout vide)")
-        except Exception as e:
-            st.sidebar.error(f"Erreur système: {e}")
 
 st.sidebar.divider()
 st.sidebar.caption("Dossier actuel (Streamlit) : " + os.getcwd())
@@ -860,14 +836,6 @@ with tab1:
 
     st.divider()
 
-    _mc1, _mc2 = st.columns(2)
-    with _mc1:
-        mart_bankroll = st.number_input("Bankroll martingale (€)", min_value=10.0, max_value=100000.0, value=100.0, step=10.0, key="mart_b0")
-    with _mc2:
-        mart_max_losses = st.number_input("Max pertes consécutives", min_value=1, max_value=8, value=4, step=1, key="mart_ml")
-
-    st.divider()
-
     # Tickets multi-jours selon la période (GLOBAL)
     df_sys = load_tickets_dataset("tickets_report_global.txt", period_start, period_end)
     df_rand = load_tickets_dataset("tickets_o15_random_report_global.txt", period_start, period_end)
@@ -883,10 +851,6 @@ with tab1:
     df_sys = sort_tickets_for_display(df_sys)
     df_rand = sort_tickets_for_display(df_rand)
 
-    # Calcul des mises martingale
-    df_sys  = compute_martingale_stakes(df_sys,  mart_bankroll, int(mart_max_losses))
-    df_rand = compute_martingale_stakes(df_rand, mart_bankroll, int(mart_max_losses))
-
     col1, col2 = st.columns(2)
 
     with col1:
@@ -895,7 +859,7 @@ with tab1:
         if not df_sys.empty:
             df_sys["Heure"] = df_sys["DateTimeTri"].dt.strftime("%H:%M")
             df_sys["Heure"] = df_sys["Heure"].fillna("—")
-            show_cols = ["Statut", "Jour", "Heure", "Ticket", "Cote", "Mise_NORM", "Mise_SAFE", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
+            show_cols = ["Statut", "Jour", "Heure", "Ticket", "Cote", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
             show_cols = [c for c in show_cols if c in df_sys.columns]
             st.dataframe(df_sys[show_cols], use_container_width=True, hide_index=True)
 
@@ -916,7 +880,7 @@ with tab1:
         if not df_rand.empty:
             df_rand["Heure"] = df_rand["DateTimeTri"].dt.strftime("%H:%M")
             df_rand["Heure"] = df_rand["Heure"].fillna("—")
-            show_cols = ["Statut", "Jour", "Heure", "Ticket", "Cote", "Mise_NORM", "Mise_SAFE", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
+            show_cols = ["Statut", "Jour", "Heure", "Ticket", "Cote", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
             show_cols = [c for c in show_cols if c in df_rand.columns]
             st.dataframe(df_rand[show_cols], use_container_width=True, hide_index=True)
 
@@ -1217,6 +1181,29 @@ with tab4:
         with dash_cols[-1]:
             st.metric("🏦 Réserves", f"{state['reserves']:.0f}€")
             st.caption(f"Màj : {state.get('last_updated','—')}")
+
+    # ── Modifier l'état manuellement ─────────────────────────────────────────
+    with st.expander("✏️ Modifier l'état actuel", expanded=not STATE_FILE.exists()):
+        st.caption("Mets à jour ta bankroll réelle, ta séquence et les réserves.")
+        edit_strat = st.selectbox("Stratégie à modifier", list(_STRAT_CONFIG.keys()), key="edit_sel")
+        s_edit = state["strategies"][edit_strat]
+        ec1, ec2, ec3, ec4 = st.columns(4)
+        with ec1:
+            new_ba = st.number_input("Bankroll (€)", min_value=0.0, value=float(s_edit["ba"]), step=1.0, key="edit_ba")
+        with ec2:
+            new_ls = st.number_input("Défaites en cours (L×)", min_value=0, max_value=10, value=int(s_edit["ls"]), step=1, key="edit_ls")
+        with ec3:
+            new_ps = st.number_input("Mise précédente (€)", min_value=0.0, value=float(s_edit["ps"]), step=1.0, key="edit_ps")
+        with ec4:
+            new_cb = st.number_input("Cycle base (€)", min_value=0.0, value=float(s_edit["cb"]), step=1.0, key="edit_cb")
+        new_reserves = st.number_input("Réserves communes (€)", min_value=0.0, value=float(state["reserves"]), step=10.0, key="edit_res")
+        if st.button("💾 Enregistrer l'état", type="primary"):
+            state["strategies"][edit_strat].update({"ba": new_ba, "ls": new_ls, "ps": new_ps, "cb": new_cb})
+            state["reserves"] = new_reserves
+            state["last_updated"] = str(date.today())
+            _save_state(state)
+            st.success("État enregistré !")
+            st.rerun()
 
     st.divider()
 
