@@ -1736,3 +1736,42 @@ Aucun ticket.
   1) 20:00 | ligue 2 | Dunkerque vs Rodez | HT 1X Home | FORT PLUS | odd=1.22
   2) 20:00 | liga profesional argentina | Gimnasia M. vs Velez Sarsfield | HT 1X Home | TRÈS FORT | odd=1.3
   3) 21:00 | laliga | Rayo Vallecano vs Elche | Team2 scores (FT) | FORT PLUS | odd=1.57
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-04-04 02:10:50 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-04_0506_6d2c22b4b0_SYS — cote = 2.55 — fenêtre 05:06 → 16:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 05:06 | liga mx | Club Tijuana vs Tigres UANL | HT 1X Home | FORT | odd=1.5
+  2) 13:00 | 2. bundesliga | Arminia Bielefeld vs SV Darmstadt 98 | Team1 scores (FT) | FORT | odd=1.18
+  3) 14:30 | superligaen | Zalaegerszegi TE vs Kisvarda FC | Team2 scores (FT) | FORT | odd=1.44
+
+📅 Samedi 2026-04-04 — Tranche 2 (fenêtre ~30min)
+------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (RESTE) — id=2026-04-04_1630_82015a9fbf_SYS — cote = 2.19 — fenêtre 16:30 → 18:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:30 | eredivisie | PSV Eindhoven vs Utrecht | Team2 scores (FT) | FORT PLUS | odd=1.4
+  2) 16:30 | liga portugal | Nacional vs Estrela | Team2 scores (FT) | FORT | odd=1.36
+  3) 17:00 | ligue 1 | Strasbourg vs Nice | Team1 scores (FT) | MOYEN PLUS | odd=1.15
+
+📅 Samedi 2026-04-04 — Tranche 3
+-------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-04_1900_e137af8e17_SYS — cote = 2.51 — fenêtre 19:00 → 20:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 19:00 | ligue 1 | Stade Brestois 29 vs Rennes | HT 1X Home | MOYEN PLUS | odd=1.36
+  2) 19:00 | super lig | Trabzonspor vs Galatasaray | HT 1X Home | MOYEN PLUS | odd=1.42
+  3) 19:00 | liga portugal | Moreirense vs SC Braga | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3
+
+📅 Samedi 2026-04-04 — Tranche 4
+-------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-04-04_2100_c9febdfbbb_SYS — cote = 2.85 — fenêtre 21:00 → 22:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 21:00 | fa cup | Southampton vs Arsenal | Team1 scores (FT) | MOYEN PLUS | odd=1.7
+  2) 21:00 | eredivisie | Ajax vs Twente | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  3) 21:00 | laliga | Atletico Madrid vs Barcelona | HT 1X Home | MOYEN PLUS | odd=1.42

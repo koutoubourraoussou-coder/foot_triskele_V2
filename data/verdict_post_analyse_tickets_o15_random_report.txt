@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-04-03
+Date run       : 2026-04-04
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (125 ids)
+Whitelist      : ON (128 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 7
+Ignorés (date>=today)    : 11
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -1038,10 +1038,27 @@ Ignorés (date>=today)    : 7
    ✅ Leg 2) 20:00 | laliga2 | Castellón vs Almeria | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.17
    ✅ Leg 3) 22:30 | liga profesional argentina | Tigre vs Independ. Rivadavia | Over 1.5 (FT) | [MOYEN] | odd=1.5
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Vendredi 2026-04-03 02:30→17:20 | code=A2 | odd=2.56
+   id=2026-04-03_0230_13328e4b54_O15R
+   legs=4 | WIN=4 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 02:30 | serie a brazil | RB Bragantino vs Flamengo | Over 1.5 (FT) | [EXPLOSION] | odd=1.4
+   ✅ Leg 2) 03:30 | primera a colombia | Once Caldas vs Independiente Medellin | Over 1.5 (FT) | [FAIBLE] | odd=1.25
+   ✅ Leg 3) 13:30 | championship | Middlesbrough vs Millwall | Over 1.5 (FT) | [MOYEN] | odd=1.22
+   ✅ Leg 4) 15:30 | cymru premier league | The New Saints vs GAP Connah S Quay FC | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Vendredi 2026-04-03 20:00→22:50 | code=A2 | odd=2.41
+   id=2026-04-03_2000_4540d6f93a_O15R
+   legs=3 | WIN=0 | LOSS=3 | PENDING=0
+   ❌ Leg 1) 20:00 | ligue 2 | Annecy vs Guingamp | Over 1.5 (FT) | [FORT PLUS] | odd=1.33
+   ❌ Leg 2) 20:00 | ligue 2 | RED Star FC 93 vs Laval | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.36
+   ❌ Leg 3) 21:00 | laliga | Rayo Vallecano vs Elche | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
+
 ====================================================================
-TOTAL tickets : 123
-✅ WIN     : 53
-❌ LOSS    : 67
+TOTAL tickets : 125
+✅ WIN     : 54
+❌ LOSS    : 68
 ⏳ PENDING : 3
 ====================================================================
 
