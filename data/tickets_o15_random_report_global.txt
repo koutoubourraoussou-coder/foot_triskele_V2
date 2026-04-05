@@ -1071,3 +1071,25 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
   1) 19:00 | liga portugal 2 | União de Leiria vs Lusitânia Lourosa | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3
   2) 21:00 | laliga2 | Zaragoza vs Mirandes | Over 1.5 (FT) | MOYEN PLUS | odd=1.38
   3) 21:00 | laliga | Alaves vs Osasuna | Over 1.5 (FT) | FORT PLUS | odd=1.42
+
+
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_ALL | 2026-04-06 01:07:16 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-06_1400_c1907b7c73_O15R — cote = 2.6 — fenêtre 14:00 → 16:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 14:00 | super league switzerland | Grasshoppers vs FC Sion | Over 1.5 (FT) | MOYEN PLUS | odd=1.25
+  2) 14:00 | championship | Millwall vs Norwich | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  3) 15:00 | serie b | Mantova vs Virtus Entella | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
+  4) 15:00 | serie b | Venezia vs Juve Stabia | Over 1.5 (FT) | MOYEN PLUS | odd=1.25
+
+📅 Lundi 2026-04-06 — Tranche 2 (fenêtre ~105min)
+------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-06_1715_7dbb3870b8_O15R — cote = 2.42 — fenêtre 17:15 → 20:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 17:15 | serie b | Sampdoria vs Empoli | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.4
+  2) 18:30 | championship | Swansea vs Middlesbrough | Over 1.5 (FT) | MOYEN PLUS | odd=1.28
+  3) 19:00 | super lig | Kocaelispor vs Başakşehir | Over 1.5 (FT) | TRÈS FORT | odd=1.35

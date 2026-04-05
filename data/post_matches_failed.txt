@@ -3,14 +3,7 @@
 2026-03-27 | international friendlies | Russia vs Mali | GOALS_MISSING:1525450
 2026-03-28 | international friendlies | England U18 vs Spain U18 | GOALS_MISSING:1536914
 2026-03-31 | international friendlies | Croatia U18 vs England U18 | GOALS_MISSING:1536921
-2026-04-04 | liga mx | Club Queretaro vs Toluca | GOALS_MISSING:1492578
-2026-04-04 | liga mx | Monterrey vs Atletico San Luis | GOALS_MISSING:1492574
-2026-04-04 | mls | Atlanta United FC vs Columbus Crew | GOALS_MISSING:1490184
-2026-04-04 | mls | Charlotte vs Philadelphia Union | GOALS_MISSING:1490186
-2026-04-04 | mls | DC United vs FC Dallas | GOALS_MISSING:1490188
-2026-04-04 | mls | Inter Miami vs Austin | GOALS_MISSING:1490183
-2026-04-04 | mls | New York City FC vs St. Louis City | GOALS_MISSING:1490187
-2026-04-04 | mls | New York Red Bulls vs FC Cincinnati | GOALS_MISSING:1490185
-2026-04-04 | primera división paraguay | Cerro Porteno vs 2 de Mayo | GOALS_MISSING:1505044
-2026-04-04 | primera división paraguay | Deportivo Recoleta vs Club Sp. San Lorenzo | GOALS_MISSING:1505047
-2026-04-04 | serie a brazil | Coritiba vs Fluminense | GOALS_MISSING:1492204
+2026-04-05 | liga pro ecuador | Macara vs Aucas | GOALS_MISSING:1519309
+2026-04-05 | liga profesional argentina | Central Cordoba de Santiago vs Newells Old Boys | GOALS_MISSING:1492001
+2026-04-05 | primera división paraguay | Club Guarani vs Libertad Asuncion | GOALS_MISSING:1505045
+2026-04-05 | serie a brazil | Gremio vs Remo | GOALS_MISSING:1492206
