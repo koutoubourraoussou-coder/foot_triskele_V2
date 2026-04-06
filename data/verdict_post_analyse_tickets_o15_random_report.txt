@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-04-06
+Date run       : 2026-04-07
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
 Whitelist      : ON (134 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 7
+Ignorés (date>=today)    : 0
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -1113,10 +1113,27 @@ Ignorés (date>=today)    : 7
    ✅ Leg 2) 21:00 | laliga | Alaves vs Osasuna | Over 1.5 (FT) | [FORT PLUS] | odd=1.42
    ✅ Leg 3) 21:00 | laliga2 | Zaragoza vs Mirandes | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.38
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Lundi 2026-04-06 14:00→16:50 | code=A2 | odd=2.6
+   id=2026-04-06_1400_c1907b7c73_O15R
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 14:00 | championship | Millwall vs Norwich | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+   ✅ Leg 2) 14:00 | super league switzerland | Grasshoppers vs FC Sion | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.25
+   ❌ Leg 3) 15:00 | serie b | Mantova vs Virtus Entella | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
+   ✅ Leg 4) 15:00 | serie b | Venezia vs Juve Stabia | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.25
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Lundi 2026-04-06 17:15→20:50 | code=A2 | odd=2.42
+   id=2026-04-06_1715_7dbb3870b8_O15R
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 17:15 | serie b | Sampdoria vs Empoli | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.4
+   ✅ Leg 2) 18:30 | championship | Swansea vs Middlesbrough | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.28
+   ❌ Leg 3) 19:00 | super lig | Kocaelispor vs Başakşehir | Over 1.5 (FT) | [TRÈS FORT] | odd=1.35
+
 ====================================================================
-TOTAL tickets : 132
+TOTAL tickets : 134
 ✅ WIN     : 58
-❌ LOSS    : 71
+❌ LOSS    : 73
 ⏳ PENDING : 3
 ====================================================================
 

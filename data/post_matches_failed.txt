@@ -3,7 +3,4 @@
 2026-03-27 | international friendlies | Russia vs Mali | GOALS_MISSING:1525450
 2026-03-28 | international friendlies | England U18 vs Spain U18 | GOALS_MISSING:1536914
 2026-03-31 | international friendlies | Croatia U18 vs England U18 | GOALS_MISSING:1536921
-2026-04-05 | liga pro ecuador | Macara vs Aucas | GOALS_MISSING:1519309
-2026-04-05 | liga profesional argentina | Central Cordoba de Santiago vs Newells Old Boys | GOALS_MISSING:1492001
-2026-04-05 | primera división paraguay | Club Guarani vs Libertad Asuncion | GOALS_MISSING:1505045
-2026-04-05 | serie a brazil | Gremio vs Remo | GOALS_MISSING:1492206
+2026-04-06 | primera división paraguay | Sportivo Trinidense vs Rubio NU | GOALS_MISSING:1505048

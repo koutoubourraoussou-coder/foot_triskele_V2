@@ -1845,3 +1845,15 @@ Aucun ticket.
   1) 21:00 | championship | Hull City vs Coventry | Team2 scores (FT) | FORT | odd=1.18
   2) 21:00 | laliga | Girona vs Villarreal | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
   3) 21:45 | liga portugal | Casa Pia vs Benfica | HT 1X Home | MOYEN PLUS | odd=2.1
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-04-07 00:55:50 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-07_2100_1d21bf0cc0_SYS — cote = 2.75 — fenêtre 21:00 → 22:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 21:00 | uefa champions league | Real Madrid vs Bayern München | HT 1X Home | MOYEN PLUS | odd=1.42
+  2) 21:00 | championship | Wrexham vs Southampton | Team2 scores (FT) | FORT | odd=1.29
+  3) 21:00 | uefa champions league | Sporting CP vs Arsenal | Team1 scores (FT) | MOYEN PLUS | odd=1.5

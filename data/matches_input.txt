@@ -1,47 +1,10 @@
-2026-04-06 13:30 | championship | Portsmouth vs Oxford United
-2026-04-06 14:00 | championship | Millwall vs Norwich
-2026-04-06 16:00 | championship | Blackburn vs West Brom
-2026-04-06 16:00 | championship | Bristol City vs Sheffield Utd
-2026-04-06 16:00 | championship | Derby vs Stoke City
-2026-04-06 16:00 | championship | Ipswich vs Birmingham
-2026-04-06 16:00 | championship | Preston vs QPR
-2026-04-06 16:00 | championship | Sheffield Wednesday vs Leicester
-2026-04-06 16:00 | championship | Watford vs Charlton
-2026-04-06 18:30 | championship | Swansea vs Middlesbrough
-2026-04-06 21:00 | championship | Hull City vs Coventry
-2026-04-06 21:00 | laliga | Girona vs Villarreal
-2026-04-06 19:00 | laliga2 | Castellón vs Granada CF
-2026-04-06 20:30 | laliga2 | Sporting Gijon vs Real Sociedad II
-2026-04-06 04:07 | liga mx | Guadalajara Chivas vs U.N.A.M. - Pumas
-2026-04-06 19:45 | liga portugal | Arouca vs Estoril
-2026-04-06 21:45 | liga portugal | Casa Pia vs Benfica
-2026-04-06 19:00 | liga portugal 2 | FC Porto B vs Chaves
-2026-04-06 19:00 | liga portugal 2 | Torreense vs Leixoes
-2026-04-06 01:10 | liga pro ecuador | Macara vs Aucas
-2026-04-06 01:30 | liga profesional argentina | Central Cordoba de Santiago vs Newells Old Boys
-2026-04-06 20:45 | ligue 2 | Le Mans vs PAU
-2026-04-06 22:30 | primera a colombia | Deportivo Pereira vs Alianza Valledupar
-2026-04-06 01:30 | primera división paraguay | Club Guarani vs Libertad Asuncion
-2026-04-06 13:30 | pro league | Club Brugge KV vs Anderlecht
-2026-04-06 16:00 | pro league | RAAL La Louvière vs Dender
-2026-04-06 18:30 | pro league | Gent vs KV Mechelen
-2026-04-06 00:30 | serie a brazil | Bahia vs Palmeiras
-2026-04-06 00:30 | serie a brazil | Corinthians vs Internacional
-2026-04-06 01:00 | serie a brazil | Mirassol vs RB Bragantino
-2026-04-06 01:30 | serie a brazil | Gremio vs Remo
-2026-04-06 12:30 | serie a italia | Udinese vs Como
-2026-04-06 15:00 | serie a italia | Lecce vs Atalanta
-2026-04-06 18:00 | serie a italia | Juventus vs Genoa
-2026-04-06 20:45 | serie a italia | Napoli vs AC Milan
-2026-04-06 12:30 | serie b | Cesena vs Sudtirol
-2026-04-06 15:00 | serie b | Bari vs Modena
-2026-04-06 15:00 | serie b | Catanzaro vs Monza
-2026-04-06 15:00 | serie b | Mantova vs Virtus Entella
-2026-04-06 15:00 | serie b | Reggiana vs Pescara
-2026-04-06 15:00 | serie b | Venezia vs Juve Stabia
-2026-04-06 17:15 | serie b | Sampdoria vs Empoli
-2026-04-06 19:30 | serie b | Carrarese vs Spezia
-2026-04-06 14:00 | super league switzerland | Grasshoppers vs FC Sion
-2026-04-06 16:30 | super league switzerland | FC ST. Gallen vs FC Zurich
-2026-04-06 16:30 | super league switzerland | Servette FC vs FC Luzern
-2026-04-06 19:00 | super lig | Kocaelispor vs Başakşehir
+2026-04-07 21:00 | championship | Wrexham vs Southampton
+2026-04-07 19:00 | liga portugal 2 | Vizela vs Benfica B
+2026-04-07 02:00 | liga pro ecuador | Libertad vs Mushuc Runa SC
+2026-04-07 00:00 | liga profesional argentina | Argentinos JRS vs Banfield
+2026-04-07 02:15 | liga profesional argentina | Instituto Cordoba vs Defensa Y Justicia
+2026-04-07 03:10 | primera a colombia | Atletico Nacional vs Jaguares
+2026-04-07 23:00 | primera a colombia | Águilas Doradas vs Bucaramanga
+2026-04-07 01:00 | primera división paraguay | Sportivo Trinidense vs Rubio NU
+2026-04-07 21:00 | uefa champions league | Real Madrid vs Bayern München
+2026-04-07 21:00 | uefa champions league | Sporting CP vs Arsenal

@@ -1,4 +1,4 @@
-RUN MAESTROLOGUE — 2026-04-06 01:07:13
+RUN MAESTROLOGUE — 2026-04-07 00:55:49
 - source_tsv: predictions.tsv
 - run_date: ALL
 - maestro_level: 3
@@ -8,451 +8,123 @@ MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
 ----------------------------------------------------------
 - generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
 - règle: préférer 3L si écart <= 8.00%
-- iterations: 8130 | valid_3L_found: 2077 | valid_4L_found: 7065
+- iterations: 9022 | valid_3L_found: 1425 | valid_4L_found: 7014
 - top3_size: 10 | top4_size: 10
 
 TOP3 (desc):
-  TOP3[1/10]: score=0.826 (82.6%) | legs=3 | odd=2.46
-  TOP3[2/10]: score=0.825 (82.5%) | legs=3 | odd=2.46
-  TOP3[3/10]: score=0.813 (81.3%) | legs=3 | odd=2.42
-  TOP3[4/10]: score=0.811 (81.1%) | legs=3 | odd=2.42
-  TOP3[5/10]: score=0.810 (81.0%) | legs=3 | odd=2.42
-  TOP3[6/10]: score=0.808 (80.8%) | legs=3 | odd=2.42
-  TOP3[7/10]: score=0.807 (80.7%) | legs=3 | odd=2.52
-  TOP3[8/10]: score=0.805 (80.5%) | legs=3 | odd=2.68
-  TOP3[9/10]: score=0.805 (80.5%) | legs=3 | odd=2.52
-  TOP3[10/10]: score=0.804 (80.4%) | legs=3 | odd=2.68
+  TOP3[1/10]: score=0.844 (84.4%) | legs=3 | odd=2.6
+  TOP3[2/10]: score=0.833 (83.3%) | legs=3 | odd=2.69
+  TOP3[3/10]: score=0.826 (82.6%) | legs=3 | odd=2.49
+  TOP3[4/10]: score=0.823 (82.3%) | legs=3 | odd=2.44
+  TOP3[5/10]: score=0.818 (81.8%) | legs=3 | odd=2.66
+  TOP3[6/10]: score=0.818 (81.8%) | legs=3 | odd=2.75
+  TOP3[7/10]: score=0.815 (81.5%) | legs=3 | odd=2.58
+  TOP3[8/10]: score=0.813 (81.3%) | legs=3 | odd=2.66
+  TOP3[9/10]: score=0.807 (80.7%) | legs=3 | odd=2.75
+  TOP3[10/10]: score=0.807 (80.7%) | legs=3 | odd=2.84
 
 TOP4 (desc):
-  TOP4[1/10]: score=0.832 (83.2%) | legs=4 | odd=2.48
-  TOP4[2/10]: score=0.825 (82.5%) | legs=4 | odd=2.95
-  TOP4[3/10]: score=0.825 (82.5%) | legs=4 | odd=2.48
-  TOP4[4/10]: score=0.824 (82.4%) | legs=4 | odd=2.95
-  TOP4[5/10]: score=0.823 (82.3%) | legs=4 | odd=3.07
-  TOP4[6/10]: score=0.822 (82.2%) | legs=4 | odd=3.07
-  TOP4[7/10]: score=0.822 (82.2%) | legs=4 | odd=2.44
-  TOP4[8/10]: score=0.821 (82.1%) | legs=4 | odd=2.59
-  TOP4[9/10]: score=0.820 (82.0%) | legs=4 | odd=3.07
-  TOP4[10/10]: score=0.819 (81.9%) | legs=4 | odd=3.07
+  TOP4[1/10]: score=0.858 (85.8%) | legs=4 | odd=2.41
+  TOP4[2/10]: score=0.856 (85.6%) | legs=4 | odd=2.63
+  TOP4[3/10]: score=0.850 (85.0%) | legs=4 | odd=2.82
+  TOP4[4/10]: score=0.850 (85.0%) | legs=4 | odd=2.91
+  TOP4[5/10]: score=0.846 (84.6%) | legs=4 | odd=2.82
+  TOP4[6/10]: score=0.845 (84.5%) | legs=4 | odd=2.53
+  TOP4[7/10]: score=0.839 (83.9%) | legs=4 | odd=2.7
+  TOP4[8/10]: score=0.839 (83.9%) | legs=4 | odd=2.79
+  TOP4[9/10]: score=0.839 (83.9%) | legs=4 | odd=2.48
+  TOP4[10/10]: score=0.838 (83.8%) | legs=4 | odd=2.56
 
-DRAW_3L: picked rank=6/10 | score=0.808 (80.8%) | odd=2.42
-DRAW_4L: picked rank=1/10 | score=0.832 (83.2%) | odd=2.48
-- écart relatif: 2.84%
-=> choisi: 3 legs | score=0.808 (80.8%) | final_source=HYBRID
+DRAW_3L: picked rank=6/10 | score=0.818 (81.8%) | odd=2.75
+DRAW_4L: picked rank=5/10 | score=0.846 (84.6%) | odd=2.82
+- écart relatif: 3.31%
+=> choisi: 3 legs | score=0.818 (81.8%) | final_source=HYBRID
 
 Ticket choisi (aperçu)
 ----------------------
-  1) 14:00 | championship | Millwall vs Norwich | TEAM1_SCORE_FT | odd=1.2
-  2) 15:00 | serie a italia | Lecce vs Atalanta | TEAM1_SCORE_FT | odd=1.55
-  3) 15:00 | serie b | Catanzaro vs Monza | TEAM1_SCORE_FT | odd=1.3
+  1) 21:00 | uefa champions league | Real Madrid vs Bayern München | HT1X_HOME | odd=1.42
+  2) 21:00 | championship | Wrexham vs Southampton | TEAM2_SCORE_FT | odd=1.29
+  3) 21:00 | uefa champions league | Sporting CP vs Arsenal | TEAM1_SCORE_FT | odd=1.5
 
 MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, HYBRID x BET)
 ------------------------------------------------------------------------------
-- score ticket: 0.808 (80.8%)
+- score ticket: 0.818 (81.8%)
 - formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
 
-1) 14:00 | championship | Millwall vs Norwich | bet=TEAM1_SCORE_FT | odd=1.2
-   HOME Millwall: wr=0.99 dec=7 coef=1.000 => adj=0.988 (98.8%)
-   AWAY Norwich: wr=0.87 dec=8 coef=1.000 => adj=0.871 (87.1%)
-   MEAN match: 0.930 (93.0%)
+1) 21:00 | uefa champions league | Real Madrid vs Bayern München | bet=HT1X_HOME | odd=1.42
+   HOME Real Madrid: wr=1.00 dec=3 coef=0.850 => adj=0.850 (85.0%)
+   AWAY Bayern München: wr=0.96 dec=2 coef=0.775 => adj=0.743 (74.3%)
+   MEAN match: 0.797 (79.7%)
 
-2) 15:00 | serie a italia | Lecce vs Atalanta | bet=TEAM1_SCORE_FT | odd=1.55
-   HOME Lecce: wr=0.60 dec=5 coef=1.000 => adj=0.602 (60.2%)
-   AWAY Atalanta: wr=0.99 dec=7 coef=1.000 => adj=0.987 (98.7%)
-   MEAN match: 0.794 (79.4%)
+2) 21:00 | championship | Wrexham vs Southampton | bet=TEAM2_SCORE_FT | odd=1.29
+   HOME Wrexham: wr=0.98 dec=9 coef=1.000 => adj=0.982 (98.2%)
+   AWAY Southampton: wr=0.87 dec=7 coef=1.000 => adj=0.869 (86.9%)
+   MEAN match: 0.925 (92.5%)
 
-3) 15:00 | serie b | Catanzaro vs Monza | bet=TEAM1_SCORE_FT | odd=1.3
-   HOME Catanzaro: wr=0.81 dec=5 coef=1.000 => adj=0.807 (80.8%)
-   AWAY Monza: wr=1.00 dec=7 coef=1.000 => adj=1.000 (100.0%)
-   MEAN match: 0.904 (90.4%)
-
-
-MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
-----------------------------------------------------------
-- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
-- règle: préférer 3L si écart <= 8.00%
-- iterations: 9116 | valid_3L_found: 650 | valid_4L_found: 7343
-- top3_size: 10 | top4_size: 10
-
-TOP3 (desc):
-  TOP3[1/10]: score=0.777 (77.7%) | legs=3 | odd=2.51
-  TOP3[2/10]: score=0.772 (77.2%) | legs=3 | odd=2.4
-  TOP3[3/10]: score=0.767 (76.7%) | legs=3 | odd=2.42
-  TOP3[4/10]: score=0.765 (76.5%) | legs=3 | odd=2.42
-  TOP3[5/10]: score=0.763 (76.3%) | legs=3 | odd=2.44
-  TOP3[6/10]: score=0.762 (76.2%) | legs=3 | odd=2.48
-  TOP3[7/10]: score=0.761 (76.1%) | legs=3 | odd=2.5
-  TOP3[8/10]: score=0.758 (75.8%) | legs=3 | odd=2.46
-  TOP3[9/10]: score=0.756 (75.6%) | legs=3 | odd=2.48
-  TOP3[10/10]: score=0.755 (75.5%) | legs=3 | odd=2.5
-
-TOP4 (desc):
-  TOP4[1/10]: score=0.817 (81.7%) | legs=4 | odd=2.64
-  TOP4[2/10]: score=0.815 (81.5%) | legs=4 | odd=2.48
-  TOP4[3/10]: score=0.810 (81.0%) | legs=4 | odd=2.68
-  TOP4[4/10]: score=0.808 (80.8%) | legs=4 | odd=2.76
-  TOP4[5/10]: score=0.808 (80.8%) | legs=4 | odd=2.55
-  TOP4[6/10]: score=0.807 (80.7%) | legs=4 | odd=2.42
-  TOP4[7/10]: score=0.805 (80.5%) | legs=4 | odd=2.64
-  TOP4[8/10]: score=0.804 (80.4%) | legs=4 | odd=2.75
-  TOP4[9/10]: score=0.804 (80.4%) | legs=4 | odd=2.99
-  TOP4[10/10]: score=0.803 (80.3%) | legs=4 | odd=2.58
-
-DRAW_3L: picked rank=1/10 | score=0.777 (77.7%) | odd=2.51
-DRAW_4L: picked rank=7/10 | score=0.805 (80.5%) | odd=2.64
-- écart relatif: 3.44%
-=> choisi: 3 legs | score=0.777 (77.7%) | final_source=HYBRID
-
-Ticket choisi (aperçu)
-----------------------
-  1) 17:15 | serie b | Sampdoria vs Empoli | TEAM2_SCORE_FT | odd=1.4
-  2) 19:00 | super lig | Kocaelispor vs Başakşehir | HT1X_HOME | odd=1.35
-  3) 19:00 | liga portugal 2 | FC Porto B vs Chaves | HT1X_HOME | odd=1.33
-
-MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, HYBRID x BET)
-------------------------------------------------------------------------------
-- score ticket: 0.777 (77.7%)
-- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
-
-1) 17:15 | serie b | Sampdoria vs Empoli | bet=TEAM2_SCORE_FT | odd=1.4
-   HOME Sampdoria: wr=0.57 dec=7 coef=1.000 => adj=0.568 (56.8%)
-   AWAY Empoli: wr=0.84 dec=7 coef=1.000 => adj=0.841 (84.1%)
-   MEAN match: 0.705 (70.5%)
-
-2) 19:00 | super lig | Kocaelispor vs Başakşehir | bet=HT1X_HOME | odd=1.35
-   HOME Kocaelispor: wr=0.72 dec=4 coef=0.925 => adj=0.666 (66.6%)
-   AWAY Başakşehir: wr=0.95 dec=6 coef=1.000 => adj=0.954 (95.4%)
-   MEAN match: 0.810 (81.0%)
-
-3) 19:00 | liga portugal 2 | FC Porto B vs Chaves | bet=HT1X_HOME | odd=1.33
-   HOME FC Porto B: wr=0.77 dec=5 coef=1.000 => adj=0.768 (76.8%)
-   AWAY Chaves: wr=0.95 dec=6 coef=1.000 => adj=0.953 (95.2%)
-   MEAN match: 0.861 (86.1%)
+3) 21:00 | uefa champions league | Sporting CP vs Arsenal | bet=TEAM1_SCORE_FT | odd=1.5
+   HOME Sporting CP: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   AWAY Arsenal: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   MEAN match: 0.775 (77.5%)
 
 
-MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
-----------------------------------------------------------
-- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
-- règle: préférer 3L si écart <= 8.00%
-- iterations: 9333 | valid_3L_found: 2960 | valid_4L_found: 5536
-- top3_size: 8 | top4_size: 7
-
-TOP3 (desc):
-  TOP3[1/8]: score=0.817 (81.7%) | legs=3 | odd=3.46
-  TOP3[2/8]: score=0.815 (81.5%) | legs=3 | odd=3.13
-  TOP3[3/8]: score=0.807 (80.7%) | legs=3 | odd=3.46
-  TOP3[4/8]: score=0.803 (80.3%) | legs=3 | odd=3.02
-  TOP3[5/8]: score=0.800 (80.0%) | legs=3 | odd=3.4
-  TOP3[6/8]: score=0.798 (79.8%) | legs=3 | odd=3.07
-  TOP3[7/8]: score=0.795 (79.5%) | legs=3 | odd=3.35
-  TOP3[8/8]: score=0.785 (78.5%) | legs=3 | odd=2.97
-
-TOP4 (desc):
-  TOP4[1/7]: score=0.814 (81.4%) | legs=4 | odd=4.22
-  TOP4[2/7]: score=0.805 (80.5%) | legs=4 | odd=4.08
-  TOP4[3/7]: score=0.801 (80.1%) | legs=4 | odd=4.15
-  TOP4[4/7]: score=0.795 (79.5%) | legs=4 | odd=2.51
-  TOP4[5/7]: score=0.792 (79.2%) | legs=4 | odd=4.01
-  TOP4[6/7]: score=0.786 (78.6%) | legs=4 | odd=2.43
-  TOP4[7/7]: score=0.783 (78.3%) | legs=4 | odd=2.47
-
-DRAW_3L: picked rank=4/8 | score=0.803 (80.3%) | odd=3.02
-DRAW_4L: picked rank=7/7 | score=0.783 (78.3%) | odd=2.47
-- écart relatif: 2.57%
-=> choisi: 3 legs | score=0.803 (80.3%) | final_source=HYBRID
-
-Ticket choisi (aperçu)
-----------------------
-  1) 21:00 | championship | Hull City vs Coventry | TEAM2_SCORE_FT | odd=1.18
-  2) 21:00 | laliga | Girona vs Villarreal | O15_FT | odd=1.22
-  3) 21:45 | liga portugal | Casa Pia vs Benfica | HT1X_HOME | odd=2.1
-
-MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, HYBRID x BET)
-------------------------------------------------------------------------------
-- score ticket: 0.803 (80.3%)
-- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
-
-1) 21:00 | championship | Hull City vs Coventry | bet=TEAM2_SCORE_FT | odd=1.18
-   HOME Hull City: wr=0.73 dec=8 coef=1.000 => adj=0.735 (73.5%)
-   AWAY Coventry: wr=0.99 dec=8 coef=1.000 => adj=0.991 (99.1%)
-   MEAN match: 0.863 (86.3%)
-
-2) 21:00 | laliga | Girona vs Villarreal | bet=O15_FT | odd=1.22
-   HOME Girona: wr=0.75 dec=12 coef=1.000 => adj=0.750 (75.0%)
-   AWAY Villarreal: wr=0.93 dec=13 coef=1.000 => adj=0.925 (92.5%)
-   MEAN match: 0.838 (83.8%)
-
-3) 21:45 | liga portugal | Casa Pia vs Benfica | bet=HT1X_HOME | odd=2.1
-   HOME Casa Pia: wr=1.00 dec=4 coef=0.925 => adj=0.925 (92.5%)
-   AWAY Benfica: wr=0.84 dec=6 coef=1.000 => adj=0.841 (84.1%)
-   MEAN match: 0.883 (88.3%)
-
-
-MAESTROLOGUE — SYSTEM — 2026-04-06
+MAESTROLOGUE — SYSTEM — 2026-04-07
 ========================================
-- picks_total: 60
-- unique_matches_day: 32
-- rich_day: True
-- max_windows_today: 4
-- windows_count: 4
+- picks_total: 11
+- unique_matches_day: 6
+- rich_day: False
+- max_windows_today: 1
+- windows_count: 1
 - target_odd: 2.4
 - min_accept_odd: 1.8
 - replay_after_last_kickoff: 110 min
 
-WINDOW 1 | 12:30 -> 15:00
-  - raw_window_picks: 18
-  - filtered_window_picks: 18
-  - ok_window: 18
+WINDOW 1 | 02:00 -> 21:00
+  - raw_window_picks: 11
+  - filtered_window_picks: 11
+  - ok_window: 11
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 4.25
+  - max_possible_odd(ok_window): 3.55
   - threshold_used_here: 2.4
-Ticket: tranche=1 | cote=2.42 | seuil_local=2.4 | 14:00 → 16:50 | fenêtre=60min
-  1) 14:00 | championship | Millwall vs Norwich | TEAM1_SCORE_FT | odd=1.2
-  2) 15:00 | serie a italia | Lecce vs Atalanta | TEAM1_SCORE_FT | odd=1.55
-  3) 15:00 | serie b | Catanzaro vs Monza | TEAM1_SCORE_FT | odd=1.3
-
-WINDOW 2 | 16:00 -> 16:00
-  - raw_window_picks: 9
-  - filtered_window_picks: 0
-  - ok_window: 0
-  - perf_reject: 0
-  - out_window: 0
-  - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 1
-  - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
-  -> MERGE avec WINDOW 3 car cote max insuffisante (1 < min_accept=1.8)
-
-WINDOWS 2->3 (MERGED) | 16:00 -> 19:00
-  - raw_window_picks: 29
-  - filtered_window_picks: 14
-  - ok_window: 14
-  - perf_reject: 0
-  - out_window: 0
-  - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 3.49
-  - threshold_used_here: 2.4
-Ticket: tranche=2 | cote=2.51 | seuil_local=2.4 | 17:15 → 20:50 | fenêtre=105min
-  1) 17:15 | serie b | Sampdoria vs Empoli | TEAM2_SCORE_FT | odd=1.4
-  2) 19:00 | super lig | Kocaelispor vs Başakşehir | HT1X_HOME | odd=1.35
-  3) 19:00 | liga portugal 2 | FC Porto B vs Chaves | HT1X_HOME | odd=1.33
-
-WINDOW 4 | 19:45 -> 22:30
-  - raw_window_picks: 13
-  - filtered_window_picks: 8
-  - ok_window: 8
-  - perf_reject: 0
-  - out_window: 0
-  - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 4.22
-  - threshold_used_here: 2.4
-Ticket: tranche=3 | cote=3.02 | seuil_local=2.4 | 21:00 → 23:35 | fenêtre=45min
-  1) 21:00 | championship | Hull City vs Coventry | TEAM2_SCORE_FT | odd=1.18
-  2) 21:00 | laliga | Girona vs Villarreal | O15_FT | odd=1.22
-  3) 21:45 | liga portugal | Casa Pia vs Benfica | HT1X_HOME | odd=2.1
+Ticket: tranche=1 | cote=2.75 | seuil_local=2.4 | 21:00 → 22:50 | fenêtre=0min
+  1) 21:00 | uefa champions league | Real Madrid vs Bayern München | HT1X_HOME | odd=1.42
+  2) 21:00 | championship | Wrexham vs Southampton | TEAM2_SCORE_FT | odd=1.29
+  3) 21:00 | uefa champions league | Sporting CP vs Arsenal | TEAM1_SCORE_FT | odd=1.5
 
 FIN JOURNÉE
 ------------------
-- tickets_built: 3 / 4
-- next_window_start: 23:35
+- tickets_built: 1 / 1
+- next_window_start: 22:50
 
-MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
-----------------------------------------------------------------
-- build_source: TEAM x BET >= 0.60 (require_data=False)
-- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
-- règle: préférer 3L si écart <= 8.00%
-- iterations: 13677 | valid_3L_found: 932 | valid_4L_found: 13324
-- top3_size: 10 | top4_size: 10
-- rejected_by_build_gate (approx): 0
-
-TOP3 (desc):
-  TOP3[1/10]: score=0.788 (78.8%) | legs=3 | odd=2.44
-  TOP3[2/10]: score=0.781 (78.1%) | legs=3 | odd=2.44
-  TOP3[3/10]: score=0.774 (77.4%) | legs=3 | odd=2.44
-  TOP3[4/10]: score=0.764 (76.4%) | legs=3 | odd=2.41
-  TOP3[5/10]: score=0.762 (76.2%) | legs=3 | odd=2.48
-  TOP3[6/10]: score=0.761 (76.1%) | legs=3 | odd=2.57
-  TOP3[7/10]: score=0.756 (75.6%) | legs=3 | odd=2.42
-  TOP3[8/10]: score=0.755 (75.5%) | legs=3 | odd=2.48
-  TOP3[9/10]: score=0.751 (75.1%) | legs=3 | odd=2.47
-  TOP3[10/10]: score=0.749 (74.9%) | legs=3 | odd=2.44
-
-TOP4 (desc):
-  TOP4[1/10]: score=0.845 (84.5%) | legs=4 | odd=2.66
-  TOP4[2/10]: score=0.833 (83.3%) | legs=4 | odd=2.66
-  TOP4[3/10]: score=0.829 (82.9%) | legs=4 | odd=2.72
-  TOP4[4/10]: score=0.828 (82.8%) | legs=4 | odd=2.76
-  TOP4[5/10]: score=0.827 (82.7%) | legs=4 | odd=2.87
-  TOP4[6/10]: score=0.826 (82.6%) | legs=4 | odd=2.56
-  TOP4[7/10]: score=0.825 (82.5%) | legs=4 | odd=2.43
-  TOP4[8/10]: score=0.825 (82.5%) | legs=4 | odd=2.6
-  TOP4[9/10]: score=0.824 (82.4%) | legs=4 | odd=2.72
-  TOP4[10/10]: score=0.824 (82.4%) | legs=4 | odd=2.83
-
-DRAW_3L: picked rank=7/10 | score=0.756 (75.6%) | odd=2.42
-DRAW_4L: picked rank=8/10 | score=0.825 (82.5%) | odd=2.6
-- écart relatif: 8.33%
-=> choisi: 4 legs | score=0.825 (82.5%) | final_source=TEAM
-
-Ticket choisi (aperçu)
-----------------------
-  1) 14:00 | super league switzerland | Grasshoppers vs FC Sion | O15_FT | odd=1.25
-  2) 14:00 | championship | Millwall vs Norwich | O15_FT | odd=1.25
-  3) 15:00 | serie b | Mantova vs Virtus Entella | O15_FT | odd=1.33
-  4) 15:00 | serie b | Venezia vs Juve Stabia | O15_FT | odd=1.25
-
-MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
-------------------------------------------------------------------------------
-- score ticket: 0.825 (82.5%)
-- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
-
-1) 14:00 | super league switzerland | Grasshoppers vs FC Sion | bet=O15_FT | odd=1.25
-   HOME Grasshoppers: wr=0.75 dec=11 coef=1.000 => adj=0.745 (74.5%)
-   AWAY FC Sion: wr=0.75 dec=12 coef=1.000 => adj=0.746 (74.6%)
-   MEAN match: 0.746 (74.6%)
-
-2) 14:00 | championship | Millwall vs Norwich | bet=O15_FT | odd=1.25
-   HOME Millwall: wr=0.87 dec=16 coef=1.000 => adj=0.872 (87.2%)
-   AWAY Norwich: wr=0.81 dec=16 coef=1.000 => adj=0.807 (80.7%)
-   MEAN match: 0.840 (84.0%)
-
-3) 15:00 | serie b | Mantova vs Virtus Entella | bet=O15_FT | odd=1.33
-   HOME Mantova: wr=0.93 dec=14 coef=1.000 => adj=0.926 (92.6%)
-   AWAY Virtus Entella: wr=0.78 dec=14 coef=1.000 => adj=0.780 (78.0%)
-   MEAN match: 0.853 (85.3%)
-
-4) 15:00 | serie b | Venezia vs Juve Stabia | bet=O15_FT | odd=1.25
-   HOME Venezia: wr=0.93 dec=14 coef=1.000 => adj=0.931 (93.1%)
-   AWAY Juve Stabia: wr=0.79 dec=14 coef=1.000 => adj=0.792 (79.2%)
-   MEAN match: 0.861 (86.1%)
-
-
-MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
-----------------------------------------------------------------
-- build_source: TEAM x BET >= 0.60 (require_data=False)
-- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
-- règle: préférer 3L si écart <= 8.00%
-- iterations: 15431 | valid_3L_found: 1026 | valid_4L_found: 15431
-- top3_size: 2 | top4_size: 10
-- rejected_by_build_gate (approx): 0
-
-TOP3 (desc):
-  TOP3[1/2]: score=0.802 (80.2%) | legs=3 | odd=2.42
-  TOP3[2/2]: score=0.771 (77.1%) | legs=3 | odd=2.42
-
-TOP4 (desc):
-  TOP4[1/10]: score=0.823 (82.3%) | legs=4 | odd=2.46
-  TOP4[2/10]: score=0.822 (82.2%) | legs=4 | odd=2.65
-  TOP4[3/10]: score=0.821 (82.1%) | legs=4 | odd=2.59
-  TOP4[4/10]: score=0.816 (81.6%) | legs=4 | odd=2.75
-  TOP4[5/10]: score=0.815 (81.5%) | legs=4 | odd=2.69
-  TOP4[6/10]: score=0.815 (81.5%) | legs=4 | odd=2.9
-  TOP4[7/10]: score=0.804 (80.4%) | legs=4 | odd=2.76
-  TOP4[8/10]: score=0.798 (79.8%) | legs=4 | odd=2.59
-  TOP4[9/10]: score=0.798 (79.8%) | legs=4 | odd=2.87
-  TOP4[10/10]: score=0.797 (79.7%) | legs=4 | odd=3.1
-
-DRAW_3L: picked rank=2/2 | score=0.771 (77.1%) | odd=2.42
-DRAW_4L: picked rank=5/10 | score=0.815 (81.5%) | odd=2.69
-- écart relatif: 5.42%
-=> choisi: 3 legs | score=0.771 (77.1%) | final_source=TEAM
-
-Ticket choisi (aperçu)
-----------------------
-  1) 17:15 | serie b | Sampdoria vs Empoli | O15_FT | odd=1.4
-  2) 18:30 | championship | Swansea vs Middlesbrough | O15_FT | odd=1.28
-  3) 19:00 | super lig | Kocaelispor vs Başakşehir | O15_FT | odd=1.35
-
-MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
-------------------------------------------------------------------------------
-- score ticket: 0.771 (77.1%)
-- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
-
-1) 17:15 | serie b | Sampdoria vs Empoli | bet=O15_FT | odd=1.4
-   HOME Sampdoria: wr=0.71 dec=14 coef=1.000 => adj=0.709 (70.9%)
-   AWAY Empoli: wr=0.80 dec=14 coef=1.000 => adj=0.795 (79.5%)
-   MEAN match: 0.752 (75.2%)
-
-2) 18:30 | championship | Swansea vs Middlesbrough | bet=O15_FT | odd=1.28
-   HOME Swansea: wr=0.87 dec=16 coef=1.000 => adj=0.867 (86.7%)
-   AWAY Middlesbrough: wr=0.70 dec=16 coef=1.000 => adj=0.699 (69.9%)
-   MEAN match: 0.783 (78.3%)
-
-3) 19:00 | super lig | Kocaelispor vs Başakşehir | bet=O15_FT | odd=1.35
-   HOME Kocaelispor: wr=0.66 dec=9 coef=1.000 => adj=0.659 (65.9%)
-   AWAY Başakşehir: wr=0.90 dec=10 coef=1.000 => adj=0.896 (89.6%)
-   MEAN match: 0.777 (77.7%)
-
-
-MAESTROLOGUE — RANDOM — 2026-04-06
+MAESTROLOGUE — RANDOM — 2026-04-07
 ========================================
-- picks_total: 34
-- unique_matches_day: 34
-- rich_day: True
-- max_windows_today: 4
-- windows_count: 4
+- picks_total: 2
+- unique_matches_day: 2
+- rich_day: False
+- max_windows_today: 1
+- windows_count: 1
 - target_odd: 2.4
 - min_accept_odd: 1.8
 - replay_after_last_kickoff: 110 min
 
-WINDOW 1 | 04:07 -> 15:00
-  - raw_window_picks: 12
-  - filtered_window_picks: 12
-  - ok_window: 12
+WINDOW 1 | 21:00 -> 21:00
+  - raw_window_picks: 2
+  - filtered_window_picks: 2
+  - ok_window: 2
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 3.42
-  - threshold_used_here: 2.4
-Ticket: tranche=1 | cote=2.6 | seuil_local=2.4 | 14:00 → 16:50 | fenêtre=60min
-  1) 14:00 | super league switzerland | Grasshoppers vs FC Sion | O15_FT | odd=1.25
-  2) 14:00 | championship | Millwall vs Norwich | O15_FT | odd=1.25
-  3) 15:00 | serie b | Mantova vs Virtus Entella | O15_FT | odd=1.33
-  4) 15:00 | serie b | Venezia vs Juve Stabia | O15_FT | odd=1.25
-
-WINDOW 2 | 16:00 -> 16:00
-  - raw_window_picks: 7
-  - filtered_window_picks: 0
-  - ok_window: 0
-  - perf_reject: 0
-  - out_window: 0
-  - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 1
+  - max_possible_odd(ok_window): 1.66
   - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
-  -> MERGE avec WINDOW 3 car cote max insuffisante (1 < min_accept=1.8)
-
-WINDOWS 2->3 (MERGED) | 16:00 -> 19:00
-  - raw_window_picks: 14
-  - filtered_window_picks: 6
-  - ok_window: 6
-  - perf_reject: 0
-  - out_window: 0
-  - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 3.1
-  - threshold_used_here: 2.4
-Ticket: tranche=2 | cote=2.42 | seuil_local=2.4 | 17:15 → 20:50 | fenêtre=105min
-  1) 17:15 | serie b | Sampdoria vs Empoli | O15_FT | odd=1.4
-  2) 18:30 | championship | Swansea vs Middlesbrough | O15_FT | odd=1.28
-  3) 19:00 | super lig | Kocaelispor vs Başakşehir | O15_FT | odd=1.35
-
-WINDOW 4 | 19:30 -> 21:45
-  - raw_window_picks: 8
-  - filtered_window_picks: 3
-  - ok_window: 3
-  - perf_reject: 0
-  - out_window: 0
-  - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 1.76
-  - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
-  -> ABANDON: cote max insuffisante même après fusion (1.76 < min_accept=1.8)
+  -> ABANDON: cote max insuffisante même après fusion (1.66 < min_accept=1.8)
 
 FIN JOURNÉE
 ------------------
-- tickets_built: 2 / 4
-- next_window_start: 20:50
+- tickets_built: 0 / 1
+- next_window_start: 00:00
 
 RUN SUMMARY
-- system_tickets: 3 | o15_tickets: 2
+- system_tickets: 1 | o15_tickets: 0
 ----------------------------------------
 
