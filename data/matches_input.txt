@@ -1,10 +1,8 @@
-2026-04-07 21:00 | championship | Wrexham vs Southampton
-2026-04-07 19:00 | liga portugal 2 | Vizela vs Benfica B
-2026-04-07 02:00 | liga pro ecuador | Libertad vs Mushuc Runa SC
-2026-04-07 00:00 | liga profesional argentina | Argentinos JRS vs Banfield
-2026-04-07 02:15 | liga profesional argentina | Instituto Cordoba vs Defensa Y Justicia
-2026-04-07 03:10 | primera a colombia | Atletico Nacional vs Jaguares
-2026-04-07 23:00 | primera a colombia | Águilas Doradas vs Bucaramanga
-2026-04-07 01:00 | primera división paraguay | Sportivo Trinidense vs Rubio NU
-2026-04-07 21:00 | uefa champions league | Real Madrid vs Bayern München
-2026-04-07 21:00 | uefa champions league | Sporting CP vs Arsenal
+2026-04-08 02:00 | liga mx | Club Queretaro vs FC Juarez
+2026-04-08 17:55 | saudi arabia | Al-Fayha vs Al-Ahli Jeddah
+2026-04-08 20:00 | saudi arabia | Al-Hilal Saudi FC vs Al Kholood
+2026-04-08 20:00 | saudi arabia | Al-Ittihad FC vs NEOM
+2026-04-08 19:00 | super lig | Göztepe vs Galatasaray
+2026-04-08 21:00 | uefa champions league | Barcelona vs Atletico Madrid
+2026-04-08 21:00 | uefa champions league | Paris Saint Germain vs Liverpool
+2026-04-08 18:45 | uefa europa league | SC Braga vs Real Betis

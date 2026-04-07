@@ -1123,3 +1123,23 @@ TSV: 2026-04-07	1072433616	TEAM1_SCORE_FT	21:00	championship	Wrexham	Southampton
 TSV: 2026-04-07	1804071120	HT05	21:00	uefa champions league	Real Madrid	Bayern München	1.2	1534909	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-07	1804071120	TEAM1_SCORE_FT	21:00	uefa champions league	Real Madrid	Bayern München	1.18	1534909	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-04-08 00:28:59 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-08	104981107	HT1X_HOME	02:00	liga mx	Club Queretaro	FC Juarez	1.35	1492524	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-08	104981107	TEAM1_SCORE_FT	02:00	liga mx	Club Queretaro	FC Juarez	1.3	1492524	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-08	104981107	O15_FT	02:00	liga mx	Club Queretaro	FC Juarez	1.3	1492524	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-08	3271347177	HT05	18:45	uefa europa league	SC Braga	Real Betis	1.4	1535334	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-08	3271347177	TEAM1_SCORE_FT	18:45	uefa europa league	SC Braga	Real Betis	1.3	1535334	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-08	3271347177	O15_FT	18:45	uefa europa league	SC Braga	Real Betis	1.3	1535334	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-08	3271347177	HT1X_HOME	18:45	uefa europa league	SC Braga	Real Betis	1.28	1535334	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-08	2569533299	HT1X_HOME	19:00	super lig	Göztepe	Galatasaray	1.62	1394672	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-08	831780048	TEAM2_SCORE_FT	20:00	saudi arabia	Al-Hilal Saudi FC	Al Kholood	1.6	1436167	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-08	2460027455	HT1X_HOME	20:00	saudi arabia	Al-Ittihad FC	NEOM	1.17	1436169	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-08	3052282326	TEAM2_SCORE_FT	21:00	uefa champions league	Barcelona	Atletico Madrid	1.35	1534907	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-08	2889314161	HT05	21:00	uefa champions league	Paris Saint Germain	Liverpool	1.22	1534908	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-08	2889314161	HT1X_HOME	21:00	uefa champions league	Paris Saint Germain	Liverpool	1.2	1534908	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-08	3052282326	HT05	21:00	uefa champions league	Barcelona	Atletico Madrid	1.18	1534907	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-08	3052282326	HT1X_HOME	21:00	uefa champions league	Barcelona	Atletico Madrid	1.15	1534907	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-08	2889314161	O15_FT	21:00	uefa champions league	Paris Saint Germain	Liverpool	1.15	1534908	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+

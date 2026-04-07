@@ -1,12 +1,12 @@
 TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
 ==================================================
 
-📅 Mardi 2026-04-07 — Tranche 1
-------------------------------
+📅 Mercredi 2026-04-08 — Tranche 1 (fenêtre ~135min)
+---------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-07_2100_1d21bf0cc0_SYS — cote = 2.75 — fenêtre 21:00 → 22:50  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-08_1845_6b23ba1278_SYS — cote = 2.42 — fenêtre 18:45 → 22:50  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 21:00 | uefa champions league | Real Madrid vs Bayern München | HT 1X Home | MOYEN PLUS | odd=1.42
-  2) 21:00 | championship | Wrexham vs Southampton | Team2 scores (FT) | FORT | odd=1.29
-  3) 21:00 | uefa champions league | Sporting CP vs Arsenal | Team1 scores (FT) | MOYEN PLUS | odd=1.5
+  1) 18:45 | uefa europa league | SC Braga vs Real Betis | Team1 scores (FT) | MOYEN PLUS | odd=1.3
+  2) 19:00 | super lig | Göztepe vs Galatasaray | HT 1X Home | MOYEN PLUS | odd=1.62
+  3) 21:00 | uefa champions league | Paris Saint Germain vs Liverpool | Over 1.5 (FT) | MOYEN PLUS | odd=1.15

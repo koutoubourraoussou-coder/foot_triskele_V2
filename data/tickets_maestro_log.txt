@@ -1,4 +1,4 @@
-RUN MAESTROLOGUE — 2026-04-07 00:55:49
+RUN MAESTROLOGUE — 2026-04-08 00:28:59
 - source_tsv: predictions.tsv
 - run_date: ALL
 - maestro_level: 3
@@ -8,69 +8,69 @@ MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
 ----------------------------------------------------------
 - generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
 - règle: préférer 3L si écart <= 8.00%
-- iterations: 9022 | valid_3L_found: 1425 | valid_4L_found: 7014
+- iterations: 8131 | valid_3L_found: 2754 | valid_4L_found: 6453
 - top3_size: 10 | top4_size: 10
 
 TOP3 (desc):
-  TOP3[1/10]: score=0.844 (84.4%) | legs=3 | odd=2.6
-  TOP3[2/10]: score=0.833 (83.3%) | legs=3 | odd=2.69
-  TOP3[3/10]: score=0.826 (82.6%) | legs=3 | odd=2.49
-  TOP3[4/10]: score=0.823 (82.3%) | legs=3 | odd=2.44
-  TOP3[5/10]: score=0.818 (81.8%) | legs=3 | odd=2.66
-  TOP3[6/10]: score=0.818 (81.8%) | legs=3 | odd=2.75
-  TOP3[7/10]: score=0.815 (81.5%) | legs=3 | odd=2.58
-  TOP3[8/10]: score=0.813 (81.3%) | legs=3 | odd=2.66
-  TOP3[9/10]: score=0.807 (80.7%) | legs=3 | odd=2.75
-  TOP3[10/10]: score=0.807 (80.7%) | legs=3 | odd=2.84
+  TOP3[1/10]: score=0.865 (86.5%) | legs=3 | odd=2.42
+  TOP3[2/10]: score=0.849 (84.9%) | legs=3 | odd=2.52
+  TOP3[3/10]: score=0.846 (84.6%) | legs=3 | odd=2.42
+  TOP3[4/10]: score=0.843 (84.3%) | legs=3 | odd=2.42
+  TOP3[5/10]: score=0.842 (84.2%) | legs=3 | odd=2.98
+  TOP3[6/10]: score=0.835 (83.5%) | legs=3 | odd=2.57
+  TOP3[7/10]: score=0.834 (83.4%) | legs=3 | odd=2.52
+  TOP3[8/10]: score=0.832 (83.2%) | legs=3 | odd=2.49
+  TOP3[9/10]: score=0.826 (82.6%) | legs=3 | odd=2.74
+  TOP3[10/10]: score=0.826 (82.6%) | legs=3 | odd=3.37
 
 TOP4 (desc):
-  TOP4[1/10]: score=0.858 (85.8%) | legs=4 | odd=2.41
-  TOP4[2/10]: score=0.856 (85.6%) | legs=4 | odd=2.63
-  TOP4[3/10]: score=0.850 (85.0%) | legs=4 | odd=2.82
-  TOP4[4/10]: score=0.850 (85.0%) | legs=4 | odd=2.91
-  TOP4[5/10]: score=0.846 (84.6%) | legs=4 | odd=2.82
-  TOP4[6/10]: score=0.845 (84.5%) | legs=4 | odd=2.53
-  TOP4[7/10]: score=0.839 (83.9%) | legs=4 | odd=2.7
-  TOP4[8/10]: score=0.839 (83.9%) | legs=4 | odd=2.79
-  TOP4[9/10]: score=0.839 (83.9%) | legs=4 | odd=2.48
-  TOP4[10/10]: score=0.838 (83.8%) | legs=4 | odd=2.56
+  TOP4[1/10]: score=0.846 (84.6%) | legs=4 | odd=2.86
+  TOP4[2/10]: score=0.842 (84.2%) | legs=4 | odd=3.15
+  TOP4[3/10]: score=0.842 (84.2%) | legs=4 | odd=3.88
+  TOP4[4/10]: score=0.841 (84.1%) | legs=4 | odd=2.83
+  TOP4[5/10]: score=0.837 (83.7%) | legs=4 | odd=2.79
+  TOP4[6/10]: score=0.836 (83.6%) | legs=4 | odd=3.27
+  TOP4[7/10]: score=0.834 (83.4%) | legs=4 | odd=2.97
+  TOP4[8/10]: score=0.832 (83.2%) | legs=4 | odd=2.86
+  TOP4[9/10]: score=0.830 (83.0%) | legs=4 | odd=3.27
+  TOP4[10/10]: score=0.830 (83.0%) | legs=4 | odd=2.86
 
-DRAW_3L: picked rank=6/10 | score=0.818 (81.8%) | odd=2.75
-DRAW_4L: picked rank=5/10 | score=0.846 (84.6%) | odd=2.82
-- écart relatif: 3.31%
-=> choisi: 3 legs | score=0.818 (81.8%) | final_source=HYBRID
+DRAW_3L: picked rank=4/10 | score=0.843 (84.3%) | odd=2.42
+DRAW_4L: picked rank=7/10 | score=0.834 (83.4%) | odd=2.97
+- écart relatif: 1.05%
+=> choisi: 3 legs | score=0.843 (84.3%) | final_source=HYBRID
 
 Ticket choisi (aperçu)
 ----------------------
-  1) 21:00 | uefa champions league | Real Madrid vs Bayern München | HT1X_HOME | odd=1.42
-  2) 21:00 | championship | Wrexham vs Southampton | TEAM2_SCORE_FT | odd=1.29
-  3) 21:00 | uefa champions league | Sporting CP vs Arsenal | TEAM1_SCORE_FT | odd=1.5
+  1) 18:45 | uefa europa league | SC Braga vs Real Betis | TEAM1_SCORE_FT | odd=1.3
+  2) 19:00 | super lig | Göztepe vs Galatasaray | HT1X_HOME | odd=1.62
+  3) 21:00 | uefa champions league | Paris Saint Germain vs Liverpool | O15_FT | odd=1.15
 
 MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, HYBRID x BET)
 ------------------------------------------------------------------------------
-- score ticket: 0.818 (81.8%)
+- score ticket: 0.843 (84.3%)
 - formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
 
-1) 21:00 | uefa champions league | Real Madrid vs Bayern München | bet=HT1X_HOME | odd=1.42
-   HOME Real Madrid: wr=1.00 dec=3 coef=0.850 => adj=0.850 (85.0%)
-   AWAY Bayern München: wr=0.96 dec=2 coef=0.775 => adj=0.743 (74.3%)
-   MEAN match: 0.797 (79.7%)
+1) 18:45 | uefa europa league | SC Braga vs Real Betis | bet=TEAM1_SCORE_FT | odd=1.3
+   HOME SC Braga: wr=0.98 dec=2 coef=0.775 => adj=0.758 (75.8%)
+   AWAY Real Betis: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   MEAN match: 0.766 (76.6%)
 
-2) 21:00 | championship | Wrexham vs Southampton | bet=TEAM2_SCORE_FT | odd=1.29
-   HOME Wrexham: wr=0.98 dec=9 coef=1.000 => adj=0.982 (98.2%)
-   AWAY Southampton: wr=0.87 dec=7 coef=1.000 => adj=0.869 (86.9%)
-   MEAN match: 0.925 (92.5%)
+2) 19:00 | super lig | Göztepe vs Galatasaray | bet=HT1X_HOME | odd=1.62
+   HOME Göztepe: wr=0.95 dec=4 coef=0.925 => adj=0.878 (87.8%)
+   AWAY Galatasaray: wr=0.98 dec=5 coef=1.000 => adj=0.982 (98.2%)
+   MEAN match: 0.930 (93.0%)
 
-3) 21:00 | uefa champions league | Sporting CP vs Arsenal | bet=TEAM1_SCORE_FT | odd=1.5
-   HOME Sporting CP: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
-   AWAY Arsenal: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
-   MEAN match: 0.775 (77.5%)
+3) 21:00 | uefa champions league | Paris Saint Germain vs Liverpool | bet=O15_FT | odd=1.15
+   HOME Paris Saint Germain: wr=1.00 dec=6 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Liverpool: wr=0.77 dec=4 coef=0.925 => adj=0.711 (71.1%)
+   MEAN match: 0.856 (85.6%)
 
 
-MAESTROLOGUE — SYSTEM — 2026-04-07
+MAESTROLOGUE — SYSTEM — 2026-04-08
 ========================================
-- picks_total: 11
-- unique_matches_day: 6
+- picks_total: 16
+- unique_matches_day: 7
 - rich_day: False
 - max_windows_today: 1
 - windows_count: 1
@@ -79,28 +79,48 @@ MAESTROLOGUE — SYSTEM — 2026-04-07
 - replay_after_last_kickoff: 110 min
 
 WINDOW 1 | 02:00 -> 21:00
-  - raw_window_picks: 11
-  - filtered_window_picks: 11
-  - ok_window: 11
+  - raw_window_picks: 16
+  - filtered_window_picks: 16
+  - ok_window: 16
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 3.55
+  - max_possible_odd(ok_window): 4.9
   - threshold_used_here: 2.4
-Ticket: tranche=1 | cote=2.75 | seuil_local=2.4 | 21:00 → 22:50 | fenêtre=0min
-  1) 21:00 | uefa champions league | Real Madrid vs Bayern München | HT1X_HOME | odd=1.42
-  2) 21:00 | championship | Wrexham vs Southampton | TEAM2_SCORE_FT | odd=1.29
-  3) 21:00 | uefa champions league | Sporting CP vs Arsenal | TEAM1_SCORE_FT | odd=1.5
+Ticket: tranche=1 | cote=2.42 | seuil_local=2.4 | 18:45 → 22:50 | fenêtre=135min
+  1) 18:45 | uefa europa league | SC Braga vs Real Betis | TEAM1_SCORE_FT | odd=1.3
+  2) 19:00 | super lig | Göztepe vs Galatasaray | HT1X_HOME | odd=1.62
+  3) 21:00 | uefa champions league | Paris Saint Germain vs Liverpool | O15_FT | odd=1.15
 
 FIN JOURNÉE
 ------------------
 - tickets_built: 1 / 1
 - next_window_start: 22:50
 
-MAESTROLOGUE — RANDOM — 2026-04-07
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 21554 | valid_3L_found: 0 | valid_4L_found: 0
+- top3_size: 0 | top4_size: 0
+- rejected_by_build_gate (approx): 22654
+
+TOP3 (desc):
+  (vide)
+
+TOP4 (desc):
+  (vide)
+
+DRAW_3L: (aucun)
+DRAW_4L: (aucun)
+- écart relatif: —
+=> choisi: aucun (aucune combinaison valide)
+
+MAESTROLOGUE — RANDOM — 2026-04-08
 ========================================
-- picks_total: 2
-- unique_matches_day: 2
+- picks_total: 5
+- unique_matches_day: 5
 - rich_day: False
 - max_windows_today: 1
 - windows_count: 1
@@ -108,16 +128,16 @@ MAESTROLOGUE — RANDOM — 2026-04-07
 - min_accept_odd: 1.8
 - replay_after_last_kickoff: 110 min
 
-WINDOW 1 | 21:00 -> 21:00
-  - raw_window_picks: 2
-  - filtered_window_picks: 2
-  - ok_window: 2
+WINDOW 1 | 02:00 -> 21:00
+  - raw_window_picks: 5
+  - filtered_window_picks: 5
+  - ok_window: 5
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 1.66
-  - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
-  -> ABANDON: cote max insuffisante même après fusion (1.66 < min_accept=1.8)
+  - max_possible_odd(ok_window): 2.52
+  - threshold_used_here: 2.4
+  -> ABANDON: aucune combinaison valide
 
 FIN JOURNÉE
 ------------------

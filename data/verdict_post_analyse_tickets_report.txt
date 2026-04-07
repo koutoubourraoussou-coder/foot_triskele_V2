@@ -2,9 +2,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-04-07
+Date run       : 2026-04-08
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (134 ids)
+Whitelist      : ON (135 ids)
 Ignorés (hors whitelist) : 16
 Ignorés (date>=today)    : 3
 
@@ -1077,10 +1077,18 @@ Ignorés (date>=today)    : 3
    ❌ Leg 2) 21:00 | laliga | Girona vs Villarreal | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
    ✅ Leg 3) 21:45 | liga portugal | Casa Pia vs Benfica | HT 1X Home | [MOYEN PLUS] | odd=2.1
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Mardi 2026-04-07 21:00→22:50 | code=A2 | odd=2.75
+   id=2026-04-07_2100_1d21bf0cc0_SYS
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ✅ Leg 1) 21:00 | championship | Wrexham vs Southampton | Team2 scores (FT) | [FORT] | odd=1.29
+   ❌ Leg 2) 21:00 | uefa champions league | Real Madrid vs Bayern München | HT 1X Home | [MOYEN PLUS] | odd=1.42
+   ❌ Leg 3) 21:00 | uefa champions league | Sporting CP vs Arsenal | Team1 scores (FT) | [MOYEN PLUS] | odd=1.5
+
 ====================================================================
-TOTAL tickets : 128
+TOTAL tickets : 129
 ✅ WIN     : 42
-❌ LOSS    : 84
+❌ LOSS    : 85
 ⏳ PENDING : 2
 ====================================================================
 
