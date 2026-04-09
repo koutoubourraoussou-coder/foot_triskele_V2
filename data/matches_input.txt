@@ -1,7 +1,26 @@
-2026-04-09 02:00 | liga pro ecuador | Universidad Catolica vs Emelec
-2026-04-09 18:00 | saudi arabia | Damac vs Al-Qadisiyah FC
-2026-04-09 20:00 | saudi arabia | Al-Ettifaq vs Al Riyadh
-2026-04-09 19:00 | super lig | Rizespor vs Samsunspor
-2026-04-09 21:00 | uefa europa league | Bologna vs Aston Villa
-2026-04-09 21:00 | uefa europa league | FC Porto vs Nottingham Forest
-2026-04-09 21:00 | uefa europa league | SC Freiburg vs Celta Vigo
+2026-04-10 18:30 | 2. bundesliga | Fortuna Düsseldorf vs Holstein Kiel
+2026-04-10 18:30 | 2. bundesliga | Karlsruher SC vs Arminia Bielefeld
+2026-04-10 20:30 | bundesliga | FC Augsburg vs 1899 Hoffenheim
+2026-04-10 21:00 | championship | West Brom vs Millwall
+2026-04-10 20:00 | eredivisie | Twente vs FC Volendam
+2026-04-10 21:00 | laliga | Real Madrid vs Girona
+2026-04-10 20:30 | laliga2 | AD Ceuta FC vs Real Sociedad II
+2026-04-10 21:45 | liga portugal | Famalicao vs Moreirense
+2026-04-10 19:45 | liga portugal 2 | Felgueiras 1932 vs Pacos Ferreira
+2026-04-10 19:00 | ligue 1 | Paris FC vs Monaco
+2026-04-10 21:05 | ligue 1 | Marseille vs Metz
+2026-04-10 20:00 | ligue 2 | Amiens vs PAU
+2026-04-10 20:00 | ligue 2 | Annecy vs Montpellier
+2026-04-10 20:00 | ligue 2 | Clermont Foot vs Nancy
+2026-04-10 20:00 | ligue 2 | Guingamp vs Grenoble
+2026-04-10 20:00 | ligue 2 | Laval vs Reims
+2026-04-10 21:00 | premier league | West Ham vs Wolves
+2026-04-10 22:30 | primera a colombia | Deportivo Pereira vs Once Caldas
+2026-04-10 23:15 | primera división paraguay | 2 de Mayo vs Sportivo Ameliano
+2026-04-10 20:45 | pro league | Charleroi vs Antwerp
+2026-04-10 20:00 | saudi arabia | Al Shabab vs Al-Ittihad FC
+2026-04-10 20:45 | serie a italia | AS Roma vs Pisa
+2026-04-10 20:30 | serie b | Frosinone vs Palermo
+2026-04-10 19:00 | super lig | Beşiktaş vs Antalyaspor
+2026-04-10 17:45 | superligaen | Puskas Academy vs Gyori ETO FC
+2026-04-10 20:00 | superligaen | Ferencvarosi TC vs Diosgyori VTK

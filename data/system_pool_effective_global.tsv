@@ -1301,3 +1301,30 @@ TSV: 2026-04-09	1713788325	TEAM1_SCORE_FT	21:00	uefa europa league	FC Porto	Nott
 TSV: 2026-04-09	2603556798	HT1X_HOME	21:00	uefa europa league	SC Freiburg	Celta Vigo	1.25	1535337	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-09	1713788325	HT1X_HOME	21:00	uefa europa league	FC Porto	Nottingham Forest	1.2	1535336	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-04-10 00:27:38 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-10	777578305	HT1X_HOME	17:45	superligaen	Puskas Academy	Gyori ETO FC	1.5	1380347	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	777578305	TEAM2_SCORE_FT	17:45	superligaen	Puskas Academy	Gyori ETO FC	1.15	1380347	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	3638729569	TEAM2_SCORE_FT	18:30	2. bundesliga	Fortuna Düsseldorf	Holstein Kiel	1.3	1388868	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	1259018428	HT05	18:30	2. bundesliga	Karlsruher SC	Arminia Bielefeld	1.28	1388871	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	3638729569	HT1X_HOME	18:30	2. bundesliga	Fortuna Düsseldorf	Holstein Kiel	1.25	1388868	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	1259018428	TEAM1_SCORE_FT	18:30	2. bundesliga	Karlsruher SC	Arminia Bielefeld	1.25	1388871	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	3638729569	TEAM1_SCORE_FT	18:30	2. bundesliga	Fortuna Düsseldorf	Holstein Kiel	1.17	1388868	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	3033980284	HT1X_HOME	19:00	ligue 1	Paris FC	Monaco	1.5	1387956	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	2588273652	HT1X_HOME	20:00	ligue 2	Annecy	Montpellier	1.28	1389377	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	3629646974	O15_FT	20:00	ligue 2	Amiens	PAU	1.2	1389370	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	322576554	HT1X_HOME	20:30	bundesliga	FC Augsburg	1899 Hoffenheim	1.45	1388560	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	1360758700	HT1X_HOME	20:30	serie b	Frosinone	Palermo	1.33	1419926	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	2158888095	O15_FT	20:30	laliga2	AD Ceuta FC	Real Sociedad II	1.25	1392139	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	2158888095	HT1X_HOME	20:30	laliga2	AD Ceuta FC	Real Sociedad II	1.22	1392139	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	2158888095	TEAM1_SCORE_FT	20:30	laliga2	AD Ceuta FC	Real Sociedad II	1.2	1392139	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	1360758700	O15_FT	20:30	serie b	Frosinone	Palermo	1.2	1419926	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	322576554	O15_FT	20:30	bundesliga	FC Augsburg	1899 Hoffenheim	1.18	1388560	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	3163775246	HT1X_HOME	20:45	pro league	Charleroi	Antwerp	1.17	1536939	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	1681887605	O15_FT	21:00	premier league	West Ham	Wolves	1.25	1379288	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	1681887605	HT1X_HOME	21:00	premier league	West Ham	Wolves	1.18	1379288	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	2006231192	TEAM1_SCORE_FT	21:45	liga portugal	Famalicao	Moreirense	1.15	1396495	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	1968427444	HT1X_HOME	22:30	primera a colombia	Deportivo Pereira	Once Caldas	1.5	1506079	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-10	785516192	HT1X_HOME	23:15	primera división paraguay	2 de Mayo	Sportivo Ameliano	1.36	1505049	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+

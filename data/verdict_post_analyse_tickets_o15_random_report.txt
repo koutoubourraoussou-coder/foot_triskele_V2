@@ -2,9 +2,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-04-09
+Date run       : 2026-04-10
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (143 ids)
+Whitelist      : ON (144 ids)
 Ignorés (hors whitelist) : 5
 Ignorés (date>=today)    : 4
 
@@ -1197,9 +1197,18 @@ Ignorés (date>=today)    : 4
    ✅ Leg 2) 18:30 | championship | Swansea vs Middlesbrough | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.28
    ❌ Leg 3) 19:00 | super lig | Kocaelispor vs Başakşehir | Over 1.5 (FT) | [TRÈS FORT] | odd=1.35
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Jeudi 2026-04-09 02:00→22:50 | code=A2 | odd=2.46
+   id=2026-04-09_0200_69499c2b29_O15R
+   legs=4 | WIN=4 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 02:00 | liga pro ecuador | Universidad Catolica vs Emelec | Over 1.5 (FT) | [EXPLOSION] | odd=1.25
+   ✅ Leg 2) 18:00 | saudi arabia | Damac vs Al-Qadisiyah FC | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.17
+   ✅ Leg 3) 20:00 | saudi arabia | Al-Ettifaq vs Al Riyadh | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.22
+   ✅ Leg 4) 21:00 | uefa europa league | FC Porto vs Nottingham Forest | Over 1.5 (FT) | [FORT] | odd=1.38
+
 ====================================================================
-TOTAL tickets : 142
-✅ WIN     : 62
+TOTAL tickets : 143
+✅ WIN     : 63
 ❌ LOSS    : 77
 ⏳ PENDING : 3
 ====================================================================

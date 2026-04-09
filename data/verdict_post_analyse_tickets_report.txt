@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-04-09
+Date run       : 2026-04-10
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (151 ids)
+Whitelist      : ON (152 ids)
 Ignorés (hors whitelist) : 16
-Ignorés (date>=today)    : 4
+Ignorés (date>=today)    : 3
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -1216,9 +1216,18 @@ Ignorés (date>=today)    : 4
    ❌ Leg 2) 19:00 | super lig | Göztepe vs Galatasaray | HT 1X Home | [MOYEN PLUS] | odd=1.62
    ✅ Leg 3) 21:00 | uefa champions league | Paris Saint Germain vs Liverpool | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.15
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Jeudi 2026-04-09 18:00→22:50 | code=A2 | odd=2.54
+   id=2026-04-09_1800_fd4ad387ab_SYS
+   legs=4 | WIN=4 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 18:00 | saudi arabia | Damac vs Al-Qadisiyah FC | HT+0.5 | [MEGA EXPLOSION] | odd=1.28
+   ✅ Leg 2) 19:00 | super lig | Rizespor vs Samsunspor | Team2 scores (FT) | [FORT] | odd=1.3
+   ✅ Leg 3) 20:00 | saudi arabia | Al-Ettifaq vs Al Riyadh | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.22
+   ✅ Leg 4) 21:00 | uefa europa league | SC Freiburg vs Celta Vigo | HT 1X Home | [FORT] | odd=1.25
+
 ====================================================================
-TOTAL tickets : 145
-✅ WIN     : 52
+TOTAL tickets : 146
+✅ WIN     : 53
 ❌ LOSS    : 91
 ⏳ PENDING : 2
 ====================================================================
