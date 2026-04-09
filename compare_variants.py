@@ -60,7 +60,8 @@ def _load_ameliore1() -> BuilderTuning:
         prefer_3legs_delta        = t.get("prefer_3legs_delta",         0.08),
         search_budget_ms_system   = t.get("search_budget_ms_system",    500),
         search_budget_ms_random   = t.get("search_budget_ms_random",    500),
-        excluded_bet_groups       = frozenset(t.get("excluded_bet_groups", [])),
+        excluded_bet_groups             = frozenset(t.get("excluded_bet_groups", [])),
+        random_league_bet_min_winrate   = t.get("random_league_bet_min_winrate", None),
         target_odd                = t.get("target_odd",                 2.4),
         min_accept_odd            = t.get("min_accept_odd",             1.8),
         rich_day_match_count      = t.get("rich_day_match_count",       18),
@@ -89,11 +90,14 @@ def _load_ameliore1() -> BuilderTuning:
 # DÉFINITION DES VARIANTES
 # =========================================================
 def _build_variants(base: BuilderTuning):
+    # BCEA Session 11 — 2026-04-06
+    # Test topk_size : 10 (actuel) vs 6 vs 3
+    # topk_size affecte SYSTEM et RANDOM simultanément (paramètre partagé)
+    # Bonferroni k=2 → delta SAFE ×mult > +3.5% requis sur N=50 runs
     return [
-        ("Ancien filtre  (min_decided=1, toutes équipes)",
-         replace(base, team_min_decided=1)),
-        ("Nouveau filtre (min_decided=6, équipes fiables)",
-         base),  # team_min_decided=6 par défaut
+        ("Baseline (topk_size=10)",  base),
+        ("Test E — topk_size=6",     replace(base, topk_size=6)),
+        ("Test F — topk_size=3",     replace(base, topk_size=3)),
     ]
 
 
@@ -252,7 +256,7 @@ def main():
     base     = _load_ameliore1()
     variants = _build_variants(base)
 
-    print(f"[compare] Filtre RANDOM pool : ancien (min_decided=1) vs nouveau (min_decided=6)")
+    print(f"[compare] BCEA Session 11 — topk_size : 10 vs 6 vs 3 (SYSTEM + RANDOM)")
     for name, _ in variants:
         print(f"  · {name}")
 
@@ -295,7 +299,7 @@ def main():
     lines = [
         f"COMPARAISON RANDOM BUILD/SELECT SOURCE",
         f"Date : {date.today()}  |  {args.runs} runs/variante  |  {len(datasets)} jours",
-        f"Base : Amélioré #1  |  3 variantes RANDOM testées",
+        f"Base : Amélioré #1  |  {len(variants)-1} variante(s) testée(s)",
         "=" * 70, "",
     ]
 

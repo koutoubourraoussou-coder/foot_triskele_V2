@@ -1,0 +1,95 @@
+COMPARAISON RANDOM BUILD/SELECT SOURCE
+Date : 2026-04-04  |  100 runs/variante  |  61 jours
+Base : Amélioré #1  |  3 variantes RANDOM testées
+======================================================================
+
+──────────────────────────────────────────────────────────────────────
+  Baseline — global_bet_min_winrate=0.65 (profil champion actuel)
+──────────────────────────────────────────────────────────────────────
+  [SYSTEM]  100 runs
+    Tickets/run      : moy=83.4  min=80  max=87
+    Win rate         : moy=0.682  min=0.573  max=0.765  σ=0.035
+    Pire série L     : moy=3.0  max_absolu=6  (pire run jamais vu)
+    Meill. série V   : moy=8.6  max_absolu=18  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=652.05  min=0.00  max=1153.44  σ=332.07
+      Profit (€)     : moy=65104.95  min=-100.00  max=115243.94  σ=33207.36
+      Pire série L   : moy=3.0  min=2.0  max=5.0  σ=0.7
+      Ruine          : 10%  (10/100 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=29.25  min=8.15  max=36.07  σ=4.22
+      Profit (€)     : moy=2824.88  min=714.74  max=3507.16  σ=422.12
+      Pire série L   : moy=3.0  min=2.0  max=5.0  σ=0.7
+      Doublings/run  : moy=8.2  min=5  max=9
+      Ruine          : 0%  (0/100 runs)
+
+  [RANDOM]  100 runs
+    Tickets/run      : moy=72.6  min=70  max=75
+    Win rate         : moy=0.718  min=0.606  max=0.817  σ=0.036
+    Pire série L     : moy=3.2  max_absolu=7  (pire run jamais vu)
+    Meill. série V   : moy=10.8  max_absolu=27  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=2218.19  min=0.00  max=10846.03  σ=2646.07
+      Profit (€)     : moy=221718.90  min=-100.00  max=1084502.69  σ=264606.66
+      Pire série L   : moy=3.2  min=2.0  max=5.0  σ=0.7
+      Ruine          : 23%  (23/100 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=65.07  min=2.27  max=197.30  σ=47.44
+      Profit (€)     : moy=6407.28  min=127.39  max=19630.10  σ=4744.34
+      Pire série L   : moy=3.2  min=2.0  max=5.0  σ=0.7
+      Doublings/run  : moy=7.4  min=2  max=9
+      Ruine          : 0%  (0/100 runs)
+
+──────────────────────────────────────────────────────────────────────
+  Variante — global_bet_min_winrate=0.50 (signal +1.459 à 20 runs)
+──────────────────────────────────────────────────────────────────────
+  [SYSTEM]  100 runs
+    Tickets/run      : moy=82.8  min=79  max=88
+    Win rate         : moy=0.673  min=0.590  max=0.747  σ=0.036
+    Pire série L     : moy=3.2  max_absolu=10  (pire run jamais vu)
+    Meill. série V   : moy=7.9  max_absolu=16  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=567.09  min=0.00  max=1152.86  σ=354.10
+      Profit (€)     : moy=56609.21  min=-100.00  max=115185.78  σ=35410.27
+      Pire série L   : moy=3.1  min=2.0  max=5.0  σ=0.8
+      Ruine          : 15%  (15/100 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=28.02  min=10.07  max=34.63  σ=4.54
+      Profit (€)     : moy=2702.01  min=907.30  max=3362.88  σ=454.22
+      Pire série L   : moy=3.1  min=2.0  max=5.0  σ=0.8
+      Doublings/run  : moy=8.0  min=5  max=9
+      Ruine          : 0%  (0/100 runs)
+
+  [RANDOM]  100 runs
+    Tickets/run      : moy=72.4  min=71  max=75
+    Win rate         : moy=0.725  min=0.630  max=0.806  σ=0.037
+    Pire série L     : moy=3.1  max_absolu=6  (pire run jamais vu)
+    Meill. série V   : moy=10.3  max_absolu=23  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=2093.98  min=0.00  max=10856.49  σ=2388.74
+      Profit (€)     : moy=209298.31  min=-100.00  max=1085548.70  σ=238874.23
+      Pire série L   : moy=3.1  min=2.0  max=5.0  σ=0.8
+      Ruine          : 17%  (17/100 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=58.83  min=1.16  max=209.28  σ=44.10
+      Profit (€)     : moy=5783.26  min=16.31  max=20828.29  σ=4410.02
+      Pire série L   : moy=3.1  min=2.0  max=5.0  σ=0.8
+      Doublings/run  : moy=7.3  min=1  max=9
+      Ruine          : 0%  (0/100 runs)
+
+======================================================================
+  VERDICT SYSTEM
+  ★ Baseline — global_bet_min_winrate=0.65 (profil champion actuel)  (score=14.829)
+  #2 Variante — global_bet_min_winrate=0.50 (signal +1.459 à 20 runs)  (score=14.212)
+
+  VERDICT RANDOM
+  ★ Baseline — global_bet_min_winrate=0.65 (profil champion actuel)  (score=32.752)
+  #2 Variante — global_bet_min_winrate=0.50 (signal +1.459 à 20 runs)  (score=29.634)

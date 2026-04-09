@@ -1,0 +1,81 @@
+========================================================================
+Backtest TEAM/TEAM vs RÉEL — 4 au 9 avril 2026
+========================================================================
+
+========================================================================
+  RÉEL (tickets effectivement joués)
+========================================================================
+
+📅 2026-04-04 — 4 ticket(s) réel(s)
+   [✗] Cote 2.55 → LOSS
+   [✗] Cote 2.19 → LOSS
+   [✗] Cote 2.51 → LOSS
+   [✓] Cote 2.85 → WIN
+
+📅 2026-04-05 — 4 ticket(s) réel(s)
+   [✗] Cote 2.47 → LOSS
+   [✗] Cote 2.57 → LOSS
+   [✗] Cote 2.99 → LOSS
+   [✗] Cote 2.69 → LOSS
+
+📅 2026-04-06 — 3 ticket(s) réel(s)
+   [✗] Cote 2.42 → LOSS
+   [✗] Cote 2.51 → LOSS
+   [✗] Cote 3.02 → LOSS
+
+📅 2026-04-07 — 1 ticket(s) réel(s)
+   [✗] Cote 2.75 → LOSS
+
+📅 2026-04-08 — 0 ticket(s) réel(s)
+
+  Bilan RÉEL : 1W / 11L sur 12 tickets = 8% win
+
+========================================================================
+  SIMULÉ — TEAM/TEAM
+========================================================================
+
+📅 2026-04-04 — 4 ticket(s) simulé(s)
+   [✓] Cote 2.44 — O15_FT@1.18 | HT1X_HOME@1.38 | HT1X_HOME@1.50 → WIN
+   [✓] Cote 2.44 — TEAM1_SCORE_FT@1.18 | HT05@1.35 | HT1X_HOME@1.53 → WIN
+   [✗] Cote 2.47 — TEAM1_SCORE_FT@1.22 | TEAM2_SCORE_FT@1.50 | HT1X_HOME@1.35 → LOSS
+   [✓] Cote 2.90 — TEAM1_SCORE_FT@1.20 | O15_FT@1.18 | HT1X_HOME@2.05 → WIN
+
+📅 2026-04-05 — 4 ticket(s) simulé(s)
+   [✓] Cote 2.42 — HT1X_HOME@1.30 | TEAM1_SCORE_FT@1.22 | HT1X_HOME@1.22 | HT05@1.25 → WIN
+   [✓] Cote 2.48 — HT1X_HOME@1.22 | O15_FT@1.45 | HT05@1.40 → WIN
+   [✓] Cote 2.41 — O15_FT@1.25 | O15_FT@1.38 | TEAM1_SCORE_FT@1.40 → WIN
+   [✗] Cote 2.56 — TEAM1_SCORE_FT@1.57 | TEAM1_SCORE_FT@1.15 | O15_FT@1.42 → LOSS
+
+📅 2026-04-06 — 3 ticket(s) simulé(s)
+   [✓] Cote 1.91 — HT1X_HOME@1.22 | TEAM1_SCORE_FT@1.25 | O15_FT@1.25 → WIN
+   [✓] Cote 2.80 — HT1X_HOME@1.73 | O15_FT@1.35 | HT05@1.20 → WIN
+   [✓] Cote 3.41 — HT05@1.30 | TEAM1_SCORE_FT@1.25 | HT1X_HOME@2.10 → WIN
+
+📅 2026-04-07 — 1 ticket(s) simulé(s)
+   [✗] Cote 2.44 — HT1X_HOME@1.22 | HT1X_HOME@1.55 | TEAM2_SCORE_FT@1.29 → LOSS
+
+📅 2026-04-08 — 1 ticket(s) simulé(s)
+   [?] Cote 2.84 — TEAM1_SCORE_FT@1.30 | HT1X_HOME@1.62 | TEAM2_SCORE_FT@1.35 → UNKNOWN
+
+  Bilan TEAM/TEAM simulé : 9W / 3L sur 12 tickets = 75% win
+
+========================================================================
+  COMPARAISON PAR JOUR
+========================================================================
+
+        Date |               RÉEL | TEAM/TEAM simulé
+----------------------------------------------------------------------
+  2026-04-04 | ✗ 2.55 | ✗ 2.19 | ✗ 2.51 | ✓ 2.85 | ✓ 2.44 | ✓ 2.44 | ✗ 2.47 | ✓ 2.90
+  2026-04-05 | ✗ 2.47 | ✗ 2.57 | ✗ 2.99 | ✗ 2.69 | ✓ 2.42 | ✓ 2.48 | ✓ 2.41 | ✗ 2.56
+  2026-04-06 | ✗ 2.42 | ✗ 2.51 | ✗ 3.02 | ✓ 1.91 | ✓ 2.80 | ✓ 3.41
+  2026-04-07 |             ✗ 2.75 | ✗ 2.44
+  2026-04-08 |          — (aucun) | ? 2.84
+
+========================================================================
+  SYNTHÈSE
+========================================================================
+
+  RÉEL      (LEAGUE/HYBRID) : 1W / 11L = 8% win
+  SIMULÉ    (TEAM/TEAM)     : 9W / 3L = 75% win
+
+  → TEAM/TEAM aurait donné +8 victoire(s) de plus

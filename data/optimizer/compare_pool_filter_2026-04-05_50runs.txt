@@ -1,0 +1,95 @@
+COMPARAISON RANDOM BUILD/SELECT SOURCE
+Date : 2026-04-05  |  50 runs/variante  |  61 jours
+Base : Amélioré #1  |  1 variante(s) testée(s)
+======================================================================
+
+──────────────────────────────────────────────────────────────────────
+  Baseline (league_ranking_mode=CLASSIC)
+──────────────────────────────────────────────────────────────────────
+  [SYSTEM]  50 runs
+    Tickets/run      : moy=83.6  min=80  max=89
+    Win rate         : moy=0.668  min=0.600  max=0.759  σ=0.033
+    Pire série L     : moy=3.1  max_absolu=6  (pire run jamais vu)
+    Meill. série V   : moy=7.9  max_absolu=15  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=631.18  min=0.00  max=1618.10  σ=376.70
+      Profit (€)     : moy=63018.13  min=-100.00  max=161709.72  σ=37670.02
+      Pire série L   : moy=3.1  min=2.0  max=5.0  σ=0.7
+      Ruine          : 14%  (7/50 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=28.98  min=16.08  max=38.16  σ=4.02
+      Profit (€)     : moy=2797.95  min=1507.99  max=3715.71  σ=401.62
+      Pire série L   : moy=3.1  min=2.0  max=5.0  σ=0.7
+      Doublings/run  : moy=8.1  min=7  max=9
+      Ruine          : 0%  (0/50 runs)
+
+  [RANDOM]  50 runs
+    Tickets/run      : moy=72.4  min=71  max=74
+    Win rate         : moy=0.722  min=0.662  max=0.808  σ=0.039
+    Pire série L     : moy=3.1  max_absolu=6  (pire run jamais vu)
+    Meill. série V   : moy=12.4  max_absolu=21  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=1527.63  min=0.00  max=7300.48  σ=1799.56
+      Profit (€)     : moy=152663.19  min=-100.00  max=729948.40  σ=179955.87
+      Pire série L   : moy=3.0  min=2.0  max=5.0  σ=0.8
+      Ruine          : 16%  (8/50 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=53.51  min=2.22  max=173.77  σ=36.87
+      Profit (€)     : moy=5250.85  min=122.34  max=17276.63  σ=3686.86
+      Pire série L   : moy=3.1  min=2.0  max=5.0  σ=0.8
+      Doublings/run  : moy=7.4  min=2  max=8
+      Ruine          : 0%  (0/50 runs)
+
+──────────────────────────────────────────────────────────────────────
+  Test D — league_ranking_mode=COMPOSITE
+──────────────────────────────────────────────────────────────────────
+  [SYSTEM]  50 runs
+    Tickets/run      : moy=83.4  min=80  max=89
+    Win rate         : moy=0.673  min=0.607  max=0.747  σ=0.036
+    Pire série L     : moy=3.0  max_absolu=5  (pire run jamais vu)
+    Meill. série V   : moy=7.8  max_absolu=15  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=640.92  min=0.00  max=1389.70  σ=349.88
+      Profit (€)     : moy=63991.53  min=-100.00  max=138870.25  σ=34988.22
+      Pire série L   : moy=3.0  min=2.0  max=4.0  σ=0.6
+      Ruine          : 12%  (6/50 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=28.47  min=13.01  max=36.26  σ=4.83
+      Profit (€)     : moy=2747.10  min=1201.23  max=3526.10  σ=483.40
+      Pire série L   : moy=3.0  min=2.0  max=4.0  σ=0.6
+      Doublings/run  : moy=8.0  min=6  max=9
+      Ruine          : 0%  (0/50 runs)
+
+  [RANDOM]  50 runs
+    Tickets/run      : moy=72.3  min=71  max=75
+    Win rate         : moy=0.721  min=0.644  max=0.833  σ=0.039
+    Pire série L     : moy=3.2  max_absolu=6  (pire run jamais vu)
+    Meill. série V   : moy=11.6  max_absolu=25  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=1704.44  min=0.00  max=7183.28  σ=1808.14
+      Profit (€)     : moy=170344.01  min=-100.00  max=718228.04  σ=180814.29
+      Pire série L   : moy=3.1  min=2.0  max=5.0  σ=0.7
+      Ruine          : 14%  (7/50 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=54.53  min=2.51  max=152.80  σ=33.55
+      Profit (€)     : moy=5353.31  min=150.93  max=15179.78  σ=3355.16
+      Pire série L   : moy=3.1  min=2.0  max=5.0  σ=0.7
+      Doublings/run  : moy=7.5  min=2  max=9
+      Ruine          : 0%  (0/50 runs)
+
+======================================================================
+  VERDICT SYSTEM
+  ★ Baseline (league_ranking_mode=CLASSIC)  (score=14.690)
+  #2 Test D — league_ranking_mode=COMPOSITE  (score=14.437)
+
+  VERDICT RANDOM
+  ★ Test D — league_ranking_mode=COMPOSITE  (score=27.483)
+  #2 Baseline (league_ranking_mode=CLASSIC)  (score=26.971)

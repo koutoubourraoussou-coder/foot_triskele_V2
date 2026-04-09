@@ -2038,3 +2038,127 @@ TSV: 2026-04-08	3052282326	HT05	21:00	uefa champions league	Barcelona	Atletico M
 TSV: 2026-04-08	3052282326	HT1X_HOME	21:00	uefa champions league	Barcelona	Atletico Madrid	1.15	1534907	SYSTEM_POOL_BASE	predictions.tsv
 TSV: 2026-04-08	2889314161	O15_FT	21:00	uefa champions league	Paris Saint Germain	Liverpool	1.15	1534908	SYSTEM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-04-08 20:50:02 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-27	3312245273	O15_FT	00:15	international friendlies	Argentina	Mauritania	81	1536911	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3568193759	HT1X_HOME	00:30	primera división paraguay	Sportivo Ameliano	Libertad Asuncion	1.4	1505031	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3568193759	O15_FT	00:30	primera división paraguay	Sportivo Ameliano	Libertad Asuncion	1.4	1505031	SYSTEM_POOL_BASE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-04-08 20:51:56 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-28	3939333873	HT05	00:10	primera a colombia	Deportes Tolima	Jaguares	1.36	1506060	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	3939333873	O15_FT	00:10	primera a colombia	Deportes Tolima	Jaguares	1.28	1506060	SYSTEM_POOL_BASE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-04-08 20:52:40 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-29	2829812064	O15_FT	00:00	primera división paraguay	Club Guarani	Sportivo Trinidense	1.36	1505033	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	2829812064	HT1X_HOME	00:00	primera división paraguay	Club Guarani	Sportivo Trinidense	1.22	1505033	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	2761094636	HT05	00:30	serie a brazil	Atletico Paranaense	Botafogo	1.42	1492150	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	2761094636	O15_FT	00:30	serie a brazil	Atletico Paranaense	Botafogo	1.38	1492150	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	2761094636	TEAM1_SCORE_FT	00:30	serie a brazil	Atletico Paranaense	Botafogo	1.25	1492150	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	2761094636	HT1X_HOME	00:30	serie a brazil	Atletico Paranaense	Botafogo	1.18	1492150	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	1852109721	O25_FT	01:20	primera a colombia	Deportivo Pasto	Atletico Nacional	2	1506063	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	1852109721	HT05	01:20	primera a colombia	Deportivo Pasto	Atletico Nacional	1.4	1506063	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	1852109721	HT1X_HOME	01:20	primera a colombia	Deportivo Pasto	Atletico Nacional	1.36	1506063	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	1852109721	O15_FT	01:20	primera a colombia	Deportivo Pasto	Atletico Nacional	1.33	1506063	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	1852109721	TEAM2_SCORE_FT	01:20	primera a colombia	Deportivo Pasto	Atletico Nacional	1.24	1506063	SYSTEM_POOL_BASE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-04-08 20:53:27 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-30	3750642184	O25_FT	01:10	primera a colombia	Independiente Medellin	America de Cali	2	1506064	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	3750642184	O15_FT	01:10	primera a colombia	Independiente Medellin	America de Cali	1.38	1506064	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	3750642184	HT1X_HOME	01:10	primera a colombia	Independiente Medellin	America de Cali	1.22	1506064	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	3750642184	TEAM1_SCORE_FT	01:10	primera a colombia	Independiente Medellin	America de Cali	1.22	1506064	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	568304699	O25_FT	01:30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	1.95	1505038	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	568304699	TEAM2_SCORE_FT	01:30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	1.57	1505038	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	568304699	O15_FT	01:30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	1.28	1505038	SYSTEM_POOL_BASE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-04-08 20:56:21 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-31	3698790625	HT1X_HOME	01:00	international friendlies	USA	Portugal	1.7	1503004	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3698790625	O25_FT	01:00	international friendlies	USA	Portugal	1.5	1503004	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3698790625	TEAM1_SCORE_FT	01:00	international friendlies	USA	Portugal	1.4	1503004	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3698790625	HT05	01:00	international friendlies	USA	Portugal	1.25	1503004	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3698790625	O15_FT	01:00	international friendlies	USA	Portugal	1.17	1503004	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1263196524	TEAM1_SCORE_FT	01:30	primera división paraguay	Club Sp. San Lorenzo	Sportivo Ameliano	1.53	1505040	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3133921833	HT1X_HOME	01:30	primera división paraguay	Sportivo Luqueno	Cerro Porteno	1.5	1505041	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1263196524	HT1X_HOME	01:30	primera división paraguay	Club Sp. San Lorenzo	Sportivo Ameliano	1.4	1505040	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1263196524	O15_FT	01:30	primera división paraguay	Club Sp. San Lorenzo	Sportivo Ameliano	1.4	1505040	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3133921833	O15_FT	01:30	primera división paraguay	Sportivo Luqueno	Cerro Porteno	1.36	1505041	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3474981687	O15_FT	01:30	international friendlies	Canada	Tunisia	1.3	1512765	SYSTEM_POOL_BASE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-04-08 20:56:52 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-01	1290146881	O25_FT	00:30	serie a brazil	Internacional	Sao Paulo	2.2	1492197	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1122301632	O25_FT	00:30	serie a brazil	Botafogo	Mirassol	2.1	1492191	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1290146881	TEAM2_SCORE_FT	00:30	serie a brazil	Internacional	Sao Paulo	1.4	1492197	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1290146881	O15_FT	00:30	serie a brazil	Internacional	Sao Paulo	1.4	1492197	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1122301632	HT05	00:30	serie a brazil	Botafogo	Mirassol	1.38	1492191	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1122301632	O15_FT	00:30	serie a brazil	Botafogo	Mirassol	1.36	1492191	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1122301632	HT1X_HOME	00:30	serie a brazil	Botafogo	Mirassol	1.25	1492191	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1290146881	HT1X_HOME	00:30	serie a brazil	Internacional	Sao Paulo	1.22	1492197	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	2807532571	O15_FT	01:00	liga profesional argentina	Lanus	Platense	1.62	1492006	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	64054079	TEAM2_SCORE_FT	01:00	serie a brazil	Bahia	Atletico Paranaense	1.53	1492190	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	64054079	O15_FT	01:00	serie a brazil	Bahia	Atletico Paranaense	1.35	1492190	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	2206006765	O15_FT	01:00	serie a brazil	Cruzeiro	Vitoria	1.35	1492195	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	2807532571	TEAM1_SCORE_FT	01:00	liga profesional argentina	Lanus	Platense	1.33	1492006	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	64054079	HT1X_HOME	01:00	serie a brazil	Bahia	Atletico Paranaense	1.17	1492190	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	762783920	HT1X_HOME	01:30	primera división paraguay	Sportivo Trinidense	Olimpia	1.5	1505042	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	762783920	O15_FT	01:30	primera división paraguay	Sportivo Trinidense	Olimpia	1.36	1505042	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1925207585	TEAM1_SCORE_FT	01:30	serie a brazil	Coritiba	Vasco DA Gama	1.34	1492194	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	2291659680	O15_FT	01:30	primera a colombia	Santa Fe	Llaneros	1.3	1506069	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1925207585	HT1X_HOME	01:30	serie a brazil	Coritiba	Vasco DA Gama	1.25	1492194	SYSTEM_POOL_BASE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-04-08 20:57:03 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-02	1809547107	TEAM1_SCORE_FT	00:00	serie a brazil	Chapecoense-sc	Atletico-MG	1.4	1492193	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1809547107	O15_FT	00:00	serie a brazil	Chapecoense-sc	Atletico-MG	1.4	1492193	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1809547107	HT1X_HOME	00:00	serie a brazil	Chapecoense-sc	Atletico-MG	1.36	1492193	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	4244359418	O15_FT	00:00	serie a brazil	Santos	Remo	1.28	1492199	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1609004124	HT1X_HOME	01:20	primera a colombia	Jaguares	Millonarios	1.5	1506073	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1609004124	TEAM1_SCORE_FT	01:20	primera a colombia	Jaguares	Millonarios	1.5	1506073	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1609004124	O15_FT	01:20	primera a colombia	Jaguares	Millonarios	1.3	1506073	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	4009557744	HT1X_HOME	01:30	liga profesional argentina	Talleres Cordoba	Boca Juniors	1.25	1492010	SYSTEM_POOL_BASE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-04-08 20:57:27 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-03	4276721283	O15_FT	00:30	liga profesional argentina	San Lorenzo	Estudiantes L.P.	1.7	1492009	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	4276721283	HT1X_HOME	00:30	liga profesional argentina	San Lorenzo	Estudiantes L.P.	1.3	1492009	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2907191242	O15_FT	01:20	primera a colombia	Fortaleza FC	Internacional de Bogota	1.4	1506075	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2907191242	TEAM1_SCORE_FT	01:20	primera a colombia	Fortaleza FC	Internacional de Bogota	1.3	1506075	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2907191242	HT1X_HOME	01:20	primera a colombia	Fortaleza FC	Internacional de Bogota	1.25	1506075	SYSTEM_POOL_BASE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-04-09 17:32:38 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-09	759009987	O15_FT	02:00	liga pro ecuador	Universidad Catolica	Emelec	1.25	1519263	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	3763175000	HT1X_HOME	18:00	saudi arabia	Damac	Al-Qadisiyah FC	1.73	1436159	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	3763175000	TEAM1_SCORE_FT	18:00	saudi arabia	Damac	Al-Qadisiyah FC	1.44	1436159	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	3763175000	HT05	18:00	saudi arabia	Damac	Al-Qadisiyah FC	1.28	1436159	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	3763175000	O15_FT	18:00	saudi arabia	Damac	Al-Qadisiyah FC	1.17	1436159	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	1445447031	TEAM2_SCORE_FT	19:00	super lig	Rizespor	Samsunspor	1.3	1394675	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	1445447031	O15_FT	19:00	super lig	Rizespor	Samsunspor	1.28	1394675	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	1445447031	HT1X_HOME	19:00	super lig	Rizespor	Samsunspor	1.25	1394675	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	1404305215	HT1X_HOME	20:00	saudi arabia	Al-Ettifaq	Al Riyadh	1.22	1436163	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	1404305215	O15_FT	20:00	saudi arabia	Al-Ettifaq	Al Riyadh	1.22	1436163	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	1404305215	TEAM1_SCORE_FT	20:00	saudi arabia	Al-Ettifaq	Al Riyadh	1.15	1436163	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	1713788325	O25_FT	21:00	uefa europa league	FC Porto	Nottingham Forest	2.1	1535336	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	2603556798	O25_FT	21:00	uefa europa league	SC Freiburg	Celta Vigo	2.1	1535337	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	2603556798	TEAM2_SCORE_FT	21:00	uefa europa league	SC Freiburg	Celta Vigo	1.44	1535337	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	2603556798	HT05	21:00	uefa europa league	SC Freiburg	Celta Vigo	1.42	1535337	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	1713788325	O15_FT	21:00	uefa europa league	FC Porto	Nottingham Forest	1.38	1535336	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	338522969	HT1X_HOME	21:00	uefa europa league	Bologna	Aston Villa	1.35	1535335	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	2603556798	O15_FT	21:00	uefa europa league	SC Freiburg	Celta Vigo	1.35	1535337	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	338522969	O15_FT	21:00	uefa europa league	Bologna	Aston Villa	1.33	1535335	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	1713788325	TEAM1_SCORE_FT	21:00	uefa europa league	FC Porto	Nottingham Forest	1.3	1535336	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	2603556798	HT1X_HOME	21:00	uefa europa league	SC Freiburg	Celta Vigo	1.25	1535337	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	1713788325	HT1X_HOME	21:00	uefa europa league	FC Porto	Nottingham Forest	1.2	1535336	SYSTEM_POOL_BASE	predictions.tsv
+

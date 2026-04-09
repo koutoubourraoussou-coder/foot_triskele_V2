@@ -1,0 +1,173 @@
+==============================================================================
+BCEA — Session 14 — Backtest de sensibilité décote bookmaker
+Source : archive 88 jours | Picks sélectionnés : 5623 | Mise : 7.0€
+==============================================================================
+
+==============================================================================
+  PARTIE 1 — Sensibilité P&L global
+==============================================================================
+
+    Décote |  Picks |   Win% |        P&L |      ROI |     EV/€
+------------------------------------------------------------
+        5% |   5623 |  75.0% |     -3488€ |    -8.9% |  -0.0618
+       10% |   5623 |  75.0% |     -5376€ |   -13.7% |  -0.1112
+       15% |   5623 |  75.0% |     -7264€ |   -18.5% |  -0.1606
+       20% |   5623 |  75.0% |     -9153€ |   -23.3% |  -0.2099
+
+→ Seuil de rentabilité global : Jamais profitable (win rate × cote < 1)
+
+==============================================================================
+  PARTIE 2 — Sensibilité par type de pari
+==============================================================================
+
+### HT05  (1471 picks | win 72% | cote moy sys 1.334)
+    Décote |        P&L |      ROI |     EV/€ | Profitable?
+------------------------------------------------------------
+        5% |     -1007€ |    -9.8% |  -0.0938 | non
+       10% |     -1496€ |   -14.5% |  -0.1415 | non
+       15% |     -1985€ |   -19.3% |  -0.1892 | non
+       20% |     -2474€ |   -24.0% |  -0.2369 | non
+  → Jamais profitable (win rate × cote < 1)
+
+### O15_FT  (1896 picks | win 77% | cote moy sys 1.323)
+    Décote |        P&L |      ROI |     EV/€ | Profitable?
+------------------------------------------------------------
+        5% |      -962€ |    -7.2% |  -0.0374 | non
+       10% |     -1610€ |   -12.1% |  -0.0881 | non
+       15% |     -2258€ |   -17.0% |  -0.1388 | non
+       20% |     -2906€ |   -21.9% |  -0.1894 | non
+  → Seuil ≤1.3% — exchange/no-vig seulement
+
+### HT1X_HOME  (1225 picks | win 80% | cote moy sys 1.227)
+    Décote |        P&L |      ROI |     EV/€ | Profitable?
+------------------------------------------------------------
+        5% |      -693€ |    -8.1% |  -0.0715 | non
+       10% |     -1108€ |   -12.9% |  -0.1203 | non
+       15% |     -1523€ |   -17.8% |  -0.1692 | non
+       20% |     -1937€ |   -22.6% |  -0.2181 | non
+  → Jamais profitable (win rate × cote < 1)
+
+### TEAM1_SCORE_FT  (422 picks | win 83% | cote moy sys 1.182)
+    Décote |        P&L |      ROI |     EV/€ | Profitable?
+------------------------------------------------------------
+        5% |      -223€ |    -7.6% |  -0.0634 | non
+       10% |      -367€ |   -12.4% |  -0.1127 | non
+       15% |      -511€ |   -17.3% |  -0.1620 | non
+       20% |      -655€ |   -22.2% |  -0.2113 | non
+  → Jamais profitable (win rate × cote < 1)
+
+### O25_FT  (209 picks | win 50% | cote moy sys 1.837)
+    Décote |        P&L |      ROI |     EV/€ | Profitable?
+------------------------------------------------------------
+        5% |      -220€ |   -15.1% |  -0.1233 | non
+       10% |      -286€ |   -19.5% |  -0.1694 | non
+       15% |      -351€ |   -24.0% |  -0.2156 | non
+       20% |      -416€ |   -28.5% |  -0.2617 | non
+  → Jamais profitable (win rate × cote < 1)
+
+### TEAM2_WIN_FT  (53 picks | win 55% | cote moy sys 1.903)
+    Décote |        P&L |      ROI |     EV/€ | Profitable?
+------------------------------------------------------------
+        5% |       -47€ |   -12.5% |  -0.0109 | non
+       10% |       -64€ |   -17.1% |  -0.0629 | non
+       15% |       -81€ |   -21.8% |  -0.1150 | non
+       20% |       -98€ |   -26.4% |  -0.1671 | non
+  → Seuil ≤4.0% — bookmaker asiatique (Pinnacle)
+
+### AUTRE  (347 picks | win 72% | cote moy sys 1.290)
+    Décote |        P&L |      ROI |     EV/€ | Profitable?
+------------------------------------------------------------
+        5% |      -337€ |   -13.9% |  -0.1132 | non
+       10% |      -447€ |   -18.4% |  -0.1599 | non
+       15% |      -557€ |   -22.9% |  -0.2066 | non
+       20% |      -667€ |   -27.5% |  -0.2532 | non
+  → Jamais profitable (win rate × cote < 1)
+
+==============================================================================
+  PARTIE 3 — Sensibilité par tranche de cote système
+==============================================================================
+
+### Cote sys 1.00–1.10  (364 picks | win 92% | cote moy 1.053)
+    Décote |        P&L |      ROI |     EV/€ | Profitable?
+------------------------------------------------------------
+        5% |      -203€ |    -8.0% |  -0.0791 | non
+       10% |      -326€ |   -12.8% |  -0.1276 | non
+       15% |      -450€ |   -17.7% |  -0.1760 | non
+       20% |      -573€ |   -22.5% |  -0.2245 | non
+  → Jamais profitable (win rate × cote < 1)
+
+### Cote sys 1.10–1.20  (1063 picks | win 84% | cote moy 1.147)
+    Décote |        P&L |      ROI |     EV/€ | Profitable?
+------------------------------------------------------------
+        5% |      -610€ |    -8.2% |  -0.0815 | non
+       10% |      -970€ |   -13.0% |  -0.1298 | non
+       15% |     -1329€ |   -17.9% |  -0.1782 | non
+       20% |     -1689€ |   -22.7% |  -0.2265 | non
+  → Jamais profitable (win rate × cote < 1)
+
+### Cote sys 1.20–1.30  (1627 picks | win 77% | cote moy 1.238)
+    Décote |        P&L |      ROI |     EV/€ | Profitable?
+------------------------------------------------------------
+        5% |     -1083€ |    -9.5% |  -0.0945 | non
+       10% |     -1626€ |   -14.3% |  -0.1422 | non
+       15% |     -2168€ |   -19.0% |  -0.1899 | non
+       20% |     -2710€ |   -23.8% |  -0.2375 | non
+  → Jamais profitable (win rate × cote < 1)
+
+### Cote sys 1.30–1.40  (1386 picks | win 71% | cote moy 1.335)
+    Décote |        P&L |      ROI |     EV/€ | Profitable?
+------------------------------------------------------------
+        5% |      -973€ |   -10.0% |  -0.1002 | non
+       10% |     -1433€ |   -14.8% |  -0.1476 | non
+       15% |     -1892€ |   -19.5% |  -0.1949 | non
+       20% |     -2351€ |   -24.2% |  -0.2423 | non
+  → Jamais profitable (win rate × cote < 1)
+
+### Cote sys 1.40–1.55  (835 picks | win 69% | cote moy 1.435)
+    Décote |        P&L |      ROI |     EV/€ | Profitable?
+------------------------------------------------------------
+        5% |      -356€ |    -6.1% |  -0.0611 | non
+       10% |      -645€ |   -11.0% |  -0.1106 | non
+       15% |      -934€ |   -16.0% |  -0.1600 | non
+       20% |     -1222€ |   -20.9% |  -0.2094 | non
+  → Jamais profitable (win rate × cote < 1)
+
+### Cote sys 1.55–1.80  (185 picks | win 58% | cote moy 1.627)
+    Décote |        P&L |      ROI |     EV/€ | Profitable?
+------------------------------------------------------------
+        5% |      -136€ |   -10.5% |  -0.1062 | non
+       10% |      -197€ |   -15.2% |  -0.1532 | non
+       15% |      -258€ |   -20.0% |  -0.2003 | non
+       20% |      -319€ |   -24.7% |  -0.2473 | non
+  → Jamais profitable (win rate × cote < 1)
+
+### Cote sys ≥1.80  (163 picks | win 42% | cote moy 2.688)
+    Décote |        P&L |      ROI |     EV/€ | Profitable?
+------------------------------------------------------------
+        5% |      -127€ |   -11.1% |  +0.0654 | OUI ✓
+       10% |      -180€ |   -15.8% |  +0.0093 | OUI ✓
+       15% |      -234€ |   -20.5% |  -0.0468 | non
+       20% |      -287€ |   -25.1% |  -0.1028 | non
+  → Seuil ≤10.8% — possible avec line shopping
+
+==============================================================================
+  PARTIE 4 — Tableau récapitulatif des seuils de rentabilité
+==============================================================================
+
+               Segment |     N |  Win% | Cote moy | Seuil décote | Verdict
+-----------------------------------------------------------------------------------------------
+                  TOUS |  5623 |   75% |    1.317 |        -1.3% | Jamais profitable (win rate × cote < 1)
+                  HT05 |  1471 |   72% |    1.334 |        -4.8% | Jamais profitable (win rate × cote < 1)
+                O15_FT |  1896 |   77% |    1.323 |         1.3% | Seuil ≤1.3% — exchange/no-vig seulement
+             HT1X_HOME |  1225 |   80% |    1.227 |        -2.3% | Jamais profitable (win rate × cote < 1)
+        TEAM1_SCORE_FT |   422 |   83% |    1.182 |        -1.4% | Jamais profitable (win rate × cote < 1)
+                O25_FT |   209 |   50% |    1.837 |        -8.4% | Jamais profitable (win rate × cote < 1)
+          TEAM2_WIN_FT |    53 |   55% |    1.903 |         4.0% | Seuil ≤4.0% — bookmaker asiatique (Pinnacle)
+                 AUTRE |   347 |   72% |    1.290 |        -7.1% | Jamais profitable (win rate × cote < 1)
+        cote 1.00–1.10 |   364 |   92% |    1.053 |        -3.2% | Jamais profitable (win rate × cote < 1)
+        cote 1.10–1.20 |  1063 |   84% |    1.147 |        -3.4% | Jamais profitable (win rate × cote < 1)
+        cote 1.20–1.30 |  1627 |   77% |    1.238 |        -4.9% | Jamais profitable (win rate × cote < 1)
+        cote 1.30–1.40 |  1386 |   71% |    1.335 |        -5.6% | Jamais profitable (win rate × cote < 1)
+        cote 1.40–1.55 |   835 |   69% |    1.435 |        -1.2% | Jamais profitable (win rate × cote < 1)
+        cote 1.55–1.80 |   185 |   58% |    1.627 |        -6.3% | Jamais profitable (win rate × cote < 1)
+            cote ≥1.80 |   163 |   42% |    2.688 |        10.8% | Seuil ≤10.8% — possible avec line shopping

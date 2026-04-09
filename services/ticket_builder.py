@@ -128,8 +128,8 @@ TEAM_RANKING_MODE   = "COMPOSITE"
 
 # ✅ Quel rideau on utilise pour chaque phase
 # options: "LEAGUE" | "TEAM" | "HYBRID"
-SYSTEM_BUILD_SOURCE  = "LEAGUE"   # génération des tickets SYSTEM
-SYSTEM_SELECT_SOURCE = "HYBRID"   # sélection finale des meilleurs tickets SYSTEM  ("LEAGUE" | "TEAM" | "HYBRID")
+SYSTEM_BUILD_SOURCE  = "TEAM"     # génération des tickets SYSTEM
+SYSTEM_SELECT_SOURCE = "TEAM"     # sélection finale des meilleurs tickets SYSTEM  ("LEAGUE" | "TEAM" | "HYBRID")
 
 RANDOM_BUILD_SOURCE  = "TEAM"     # génération des tickets RANDOM
 RANDOM_SELECT_SOURCE = "TEAM"     # sélection finale des meilleurs tickets RANDOM
@@ -168,6 +168,8 @@ class BuilderTuning:
     global_bet_min_decided: int = GLOBAL_BET_MIN_DECIDED
     global_bet_min_winrate: float = GLOBAL_BET_MIN_WINRATE
     league_bet_min_winrate: float = LEAGUE_BET_MIN_WINRATE
+    # Seuil ligue RANDOM indépendant (None = utiliser league_bet_min_winrate)
+    random_league_bet_min_winrate: Optional[float] = None
     league_bet_require_data: bool = LEAGUE_BET_REQUIRE_DATA
     team_min_decided: int = TEAM_MIN_DECIDED
     team_min_winrate: float = TEAM_MIN_WINRATE
@@ -707,6 +709,8 @@ def _bet_group(bet_key: str) -> str:
         return "HT1X"
     if "O15" in bk or "OVER15" in bk or "OVER_1_5" in bk:
         return "O15"
+    if bk in ("TEAM1_WIN_FT", "TEAM2_WIN_FT", "TEAM_WIN_FT"):
+        return "TEAM_WIN"
     return "OTHER"
 
 def _is_excluded_pick_system(p: Pick) -> bool:
@@ -2131,11 +2135,12 @@ def _random_reject_reason(
                 return f"RANDOM_HYBRID_NO_DATA | league={lg} bet={fam}"
             return None
 
-        if hybrid_score < float(cfg.league_bet_min_winrate):
+        rnd_min_wr = cfg.random_league_bet_min_winrate if cfg.random_league_bet_min_winrate is not None else cfg.league_bet_min_winrate
+        if hybrid_score < float(rnd_min_wr):
             return (
                 f"RANDOM_HYBRID_LOW_SR | league={lg} bet={fam} "
                 f"hybrid_score={hybrid_score:.2f} (alpha={alpha:.1f} lg={score_league} team={score_team}) "
-                f"(min_wr={cfg.league_bet_min_winrate:.2f})"
+                f"(min_wr={rnd_min_wr:.2f})"
             )
         return None
 
@@ -2147,8 +2152,9 @@ def _random_reject_reason(
             return f"RANDOM_LEAGUE_NO_DATA | league={lg} bet={fam} decided=0 (require_data={cfg.league_bet_require_data})"
         return None
 
-    if wr is not None and float(wr) < float(cfg.league_bet_min_winrate):
-        return f"RANDOM_LEAGUE_LOW_SR | league={lg} bet={fam} wr={float(wr):.2f} decided={int(dec)} (min_wr={cfg.league_bet_min_winrate:.2f})"
+    rnd_min_wr = cfg.random_league_bet_min_winrate if cfg.random_league_bet_min_winrate is not None else cfg.league_bet_min_winrate
+    if wr is not None and float(wr) < float(rnd_min_wr):
+        return f"RANDOM_LEAGUE_LOW_SR | league={lg} bet={fam} wr={float(wr):.2f} decided={int(dec)} (min_wr={rnd_min_wr:.2f})"
 
     return None
 
@@ -2494,13 +2500,15 @@ def _try_build_ticket_random(
             if not usable:
                 return (not cfg.league_bet_require_data)
 
+            rnd_min_wr = cfg.random_league_bet_min_winrate if cfg.random_league_bet_min_winrate is not None else cfg.league_bet_min_winrate
             min_wr = min(float(wr) for wr, _dec in usable)
-            return min_wr >= float(cfg.league_bet_min_winrate)
+            return min_wr >= float(rnd_min_wr)
 
         wr, dec = _league_bet_rate(league_bet, lg, fam)
         if dec <= 0:
             return (not cfg.league_bet_require_data)
-        return (wr is not None) and (float(wr) >= float(cfg.league_bet_min_winrate))
+        rnd_min_wr = cfg.random_league_bet_min_winrate if cfg.random_league_bet_min_winrate is not None else cfg.league_bet_min_winrate
+        return (wr is not None) and (float(wr) >= float(rnd_min_wr))
 
     score_by_pick: List[Optional[float]] = []
 
@@ -2816,8 +2824,6 @@ def _build_tickets_for_one_day(sorted_picks: List[Pick], *, mode: str) -> List[T
         merged_picks = list(windows[idx].picks)
 
         combo: Optional[List[Pick]] = None
-        final_ok_pool: List[Pick] = []
-        final_diag: Optional[Dict[str, Any]] = None
         chosen_threshold: Optional[float] = None
 
         while True:
@@ -2876,6 +2882,47 @@ def _build_tickets_for_one_day(sorted_picks: List[Pick], *, mode: str) -> List[T
                 else:
                     maestro_lines.append("  - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)")
 
+                # ── ENRICHI : détail des rejets par raison ────────────────────────
+                reasons = diag.get("REASONS", {})
+                if reasons and diag["PERF_REJECT"]:
+                    # Agréger par type de raison (préfixe avant " |")
+                    reason_counts: Dict[str, int] = {}
+                    for r in reasons.values():
+                        rtype = r.split("|")[0].strip() if "|" in r else r.split(" ")[0]
+                        reason_counts[rtype] = reason_counts.get(rtype, 0) + 1
+                    summary = " | ".join(f"{rtype}×{cnt}" for rtype, cnt in sorted(reason_counts.items()))
+                    maestro_lines.append(f"  - REJETS [{mode.upper()}] {summary}")
+                    # Détail pick par pick (limité à MAESTRO_MAX_DETAIL_LINES picks)
+                    reject_lines = []
+                    for p in diag["PERF_REJECT"]:
+                        reason_key = f"{_match_key(p)}|{_norm_bet_family(p.bet_key)}"
+                        reason_txt = reasons.get(reason_key, "?")
+                        reject_lines.append(
+                            f"    REJET {p.time_str} {p.home} vs {p.away} | {_norm_bet_family(p.bet_key)}"
+                            f" => {reason_txt}"
+                        )
+                    if len(reject_lines) > MAESTRO_MAX_DETAIL_LINES:
+                        reject_lines = reject_lines[:MAESTRO_MAX_DETAIL_LINES]
+                        reject_lines.append(f"    … (détails coupés à {MAESTRO_MAX_DETAIL_LINES})")
+                    maestro_lines.extend(reject_lines)
+
+                # ── ENRICHI : picks acceptés dans OK_WINDOW avec poids ────────────
+                if diag["OK_WINDOW"] and mlevel >= 2:
+                    maestro_lines.append(f"  - OK_WINDOW [{mode.upper()}] picks acceptés :")
+                    ok_lines = []
+                    for p in diag["OK_WINDOW"]:
+                        w = _system_generation_weight(p, league_bet, team_bet) \
+                            if mode.upper() == "SYSTEM" else 1.0
+                        ok_lines.append(
+                            f"    OK {p.time_str} {p.home} vs {p.away} | {_norm_bet_family(p.bet_key)}"
+                            f" | odd={_fmt_odd(p.odd)} | poids={w:.3f}"
+                        )
+                    if len(ok_lines) > MAESTRO_MAX_DETAIL_LINES:
+                        ok_lines = ok_lines[:MAESTRO_MAX_DETAIL_LINES]
+                        ok_lines.append(f"    … (liste coupée à {MAESTRO_MAX_DETAIL_LINES})")
+                    maestro_lines.extend(ok_lines)
+                # ── fin enrichissement ────────────────────────────────────────────
+
             if local_threshold is None:
                 if merge_end_idx + 1 < len(windows):
                     merge_end_idx += 1
@@ -2895,8 +2942,6 @@ def _build_tickets_for_one_day(sorted_picks: List[Pick], *, mode: str) -> List[T
                             f"({_fmt_odd(max_ok_odd)} < min_accept={_fmt_odd(cfg.min_accept_odd)})"
                         )
                         maestro_lines.append("")
-                    final_ok_pool = ok_pool
-                    final_diag = diag
                     break
 
             if mode.upper() == "SYSTEM":
@@ -2916,8 +2961,6 @@ def _build_tickets_for_one_day(sorted_picks: List[Pick], *, mode: str) -> List[T
                     team_bet=team_bet,
                 )
 
-            final_ok_pool = ok_pool
-            final_diag = diag
             chosen_threshold = local_threshold
 
             if not combo:

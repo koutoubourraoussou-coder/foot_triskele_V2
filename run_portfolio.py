@@ -16,47 +16,68 @@ Règles de protection :
      (ls=0, ps=0, nouvelle bankroll = 50% des réserves)
   3. Priorité SS > SN > RN > RS pour l'accès aux réserves
 
+Lancement décalé (start_delay) :
+  Permet de simuler un démarrage progressif des stratégies.
+  Chaque stratégie démarre seulement quand une stratégie pivot a atteint
+  un certain nombre de doublings. Exemple :
+    RS démarre immédiatement (start_delay=None)
+    SS démarre après le 1er doubling de RS (pivot=RS, target_doublings=1)
+    RN/SN démarrent après le 1er doubling de SS (pivot=SS, target_doublings=1)
+  Usage : passer start_delay=True à run_portfolio() ou lancer avec --start-delay
+
 Lance N_RUNS seeds et affiche un récap.
 """
 from __future__ import annotations
 import random, statistics, sys, tempfile
+from concurrent.futures import ProcessPoolExecutor, as_completed
+from dataclasses import dataclass
 from pathlib import Path
+from typing import Optional
 
 import services.ticket_builder as tb
 from services.ticket_optimizer import (
-    DEFAULT_ARCHIVE_DIR, _PatchedBuilderIO,
+    DEFAULT_ARCHIVE_DIR, DEFAULT_JOBS, _PatchedBuilderIO,
+    _evaluate_profile_with_seqs_job,
     _enrich_verdict_map_with_results, _parse_verdict_file,
     discover_datasets,
 )
 from show_sequence import _load_profile_1, _ticket_to_detail
 
+
+@dataclass
+class _SimpleTicket:
+    """Proxy léger pour TicketDetail — contient uniquement ce que Strategy.step() utilise."""
+    is_win:    Optional[bool]
+    total_odd: float
+
 BANKROLL0      = 100.0
-RESERVES_INIT  = 600.0   # 200€ → 600€ pour couvrir crises simultanées
+RESERVES_INIT  = 6514.0  # TEST : 4 pertes extra par stratégie (ML=4: 1600€×3, ML=3: 1714€)
 MAX_DRAW_RATIO = 1.00    # pas de cap (v1 pur)
-N_RUNS         = 100
+N_RUNS         = 200
 
 # max_losses par stratégie
 ML = {
     "RANDOM SAFE":    3,   # denom=7
-    "RANDOM NORMALE": 4,   # denom=15
-    "SYSTEM SAFE":    4,   # denom=15
-    "SYSTEM NORMALE": 4,   # denom=15
+    "RANDOM NORMALE": 3,   # denom=7
+    "SYSTEM SAFE":    3,   # denom=7
+    "SYSTEM NORMALE": 3,   # denom=7
 }
 
 # Priorité d'accès aux réserves (1 = le plus prioritaire)
-# RS (ML=3, dénominateur=7) mise moins fort → en dernier
-# SS, SN, RN (ML=4, dénominateur=15) ont besoin de plus de réserves → prioritaires
+# Toutes à ML=3 → mises équivalentes → priorité par type (SYSTEM > RANDOM, NORMALE > SAFE)
 PRIORITY = {
-    "SYSTEM SAFE":     1,   # organe vital #1 — alimente les réserves + ML=4
-    "SYSTEM NORMALE":  2,   # organe vital #2 — plus gros multiplicateur
-    "RANDOM NORMALE":  3,   # ML=4
-    "RANDOM SAFE":     4,   # ML=3 → mise plus petite → dernier
+    "SYSTEM NORMALE":  1,   # organe vital #1 — plus gros multiplicateur
+    "SYSTEM SAFE":     2,   # organe vital #2 — alimente les réserves
+    "RANDOM NORMALE":  3,   # ML=3
+    "RANDOM SAFE":     4,   # ML=3 → dernier
 }
 
 
 # ─── Martingale state ─────────────────────────────────────────────────────────
 class Strategy:
-    def __init__(self, name: str, mode: str, shared: "SharedReserves"):
+    def __init__(self, name: str, mode: str, shared: "SharedReserves",
+                 start_pivot: "Strategy | None" = None,
+                 start_after_doublings: int = 0):
         self.name         = name
         self.mode         = mode   # "SAFE" ou "NORMALE"
         self.shared       = shared
@@ -77,6 +98,21 @@ class Strategy:
         self.ruined       = False          # ruine définitive (réserves épuisées — normalement impossible)
         self.paused       = False          # en attente de réserves suffisantes
         self.pending_bet  = 0.0           # mise nécessaire pour reprendre
+        # ── Lancement décalé ──────────────────────────────────────────────────
+        # La stratégie n'est "active" que si le pivot a atteint N doublings.
+        # start_pivot=None → démarre immédiatement.
+        self._start_pivot          = start_pivot
+        self._start_after_doublings = start_after_doublings
+        self._started              = (start_pivot is None)  # True si pas de pivot
+
+    def is_ready(self) -> bool:
+        """True si la stratégie peut commencer à jouer (condition start_delay remplie)."""
+        if self._started:
+            return True
+        if self._start_pivot is not None and self._start_pivot.n_doublings >= self._start_after_doublings:
+            self._started = True
+            return True
+        return False
 
     def _stake(self) -> float:
         s = self.ba / self.denom if self.ls == 0 else self.ps * 2.0
@@ -84,6 +120,11 @@ class Strategy:
 
     def step(self, td) -> None:
         if self.ruined:
+            return
+
+        # ── Lancement décalé : ne pas jouer avant que le pivot ait doublé ──
+        if not self.is_ready():
+            self.n_pauses += 1
             return
 
         # ── Reprise après pause : vérifier si les réserves couvrent maintenant ──
@@ -206,13 +247,35 @@ def _emergency_reset_if_needed(strategies, rnd_td, sys_td, shared):
 
 
 # ─── Simulation ───────────────────────────────────────────────────────────────
-def run_portfolio(sys_details, rnd_details):
+def run_portfolio(sys_details, rnd_details, start_delay: bool = False):
+    """
+    Simule le portfolio sur une séquence de tickets.
+
+    start_delay=False : toutes les stratégies démarrent simultanément (comportement historique).
+    start_delay=True  : lancement progressif —
+        RS démarre immédiatement
+        SS démarre après le 1er doubling de RS
+        RN et SN démarrent après le 1er doubling de SS
+    """
     shared = SharedReserves(RESERVES_INIT)
 
-    rs = Strategy("RANDOM SAFE",    "SAFE",    shared)
-    rn = Strategy("RANDOM NORMALE", "NORMALE", shared)
-    ss = Strategy("SYSTEM SAFE",    "SAFE",    shared)
-    sn = Strategy("SYSTEM NORMALE", "NORMALE", shared)
+    if start_delay:
+        # RS sans pivot → démarre immédiatement
+        rs = Strategy("RANDOM SAFE",    "SAFE",    shared,
+                      start_pivot=None, start_after_doublings=0)
+        # SS démarre après le 1er doubling de RS
+        ss = Strategy("SYSTEM SAFE",    "SAFE",    shared,
+                      start_pivot=rs, start_after_doublings=1)
+        # RN et SN démarrent après le 1er doubling de SS
+        rn = Strategy("RANDOM NORMALE", "NORMALE", shared,
+                      start_pivot=ss, start_after_doublings=1)
+        sn = Strategy("SYSTEM NORMALE", "NORMALE", shared,
+                      start_pivot=ss, start_after_doublings=1)
+    else:
+        rs = Strategy("RANDOM SAFE",    "SAFE",    shared)
+        rn = Strategy("RANDOM NORMALE", "NORMALE", shared)
+        ss = Strategy("SYSTEM SAFE",    "SAFE",    shared)
+        sn = Strategy("SYSTEM NORMALE", "NORMALE", shared)
 
     strategies = [rs, rn, ss, sn]
 
@@ -250,6 +313,17 @@ def run_portfolio(sys_details, rnd_details):
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Portfolio 4 stratégies — Triskèle V2")
+    parser.add_argument(
+        "--start-delay", action="store_true", default=False,
+        help="Lancement décalé : RS d'abord, SS après 1er doubling RS, RN/SN après 1er doubling SS"
+    )
+    parser.add_argument("--jobs", type=int, default=1, help="Nombre de workers parallèles")
+    args = parser.parse_args()
+    use_start_delay = args.start_delay
+    n_jobs = args.jobs
+
     print("[portfolio] Chargement profil #1...")
     tuning = _load_profile_1()
 
@@ -265,46 +339,48 @@ def main():
         vmap_list.append((ds, vm))
 
     ml_str = " | ".join(f"{k.split()[0][0]}{k.split()[1][0]}={v}" for k, v in ML.items())
-    print(f"\n[portfolio] {N_RUNS} runs | B0=4×{BANKROLL0:.0f}€ + réserves={RESERVES_INIT:.0f}€ | max_losses: {ml_str}\n")
+    delay_str = " | start_delay=ON (RS→SS→RN/SN)" if use_start_delay else ""
+    print(f"\n[portfolio] {N_RUNS} runs | B0=4×{BANKROLL0:.0f}€ + réserves={RESERVES_INIT:.0f}€ | max_losses: {ml_str}{delay_str}\n")
 
-    all_results = []
+    all_results = [None] * N_RUNS
 
-    for run_idx in range(N_RUNS):
-        seed = run_idx * 137 + 42
-        random.seed(seed)
-        sys_details, rnd_details = [], []
+    import time
+    start_t = time.time()
 
-        with tempfile.TemporaryDirectory() as tmp:
-            tmp_root = Path(tmp)
-            for ds, verdict_map in vmap_list:
-                run_dir = tmp_root / ds.day
-                with _PatchedBuilderIO(run_dir):
-                    out = tb.generate_tickets_from_tsv(
-                        str(ds.predictions_tsv), run_date=None, tuning=tuning,
-                    )
-                for t in out.tickets_system:
-                    d = _ticket_to_detail(t, "SYSTEM", ds.day, verdict_map)
-                    if d.is_win is not None:
-                        sys_details.append(d)
-                for t in out.tickets_o15:
-                    d = _ticket_to_detail(t, "RANDOM", ds.day, verdict_map)
-                    if d.is_win is not None:
-                        rnd_details.append(d)
-
-        res = run_portfolio(sys_details, rnd_details)
-        all_results.append(res)
-
-        strats = res["strategies"]
-        sys.stdout.write(
-            f"  Run {run_idx+1:>2} | "
-            f"RS={strats[0].total():>8.2f}€ (×{strats[0].total()/BANKROLL0:.1f}) | "
-            f"RN={strats[1].total():>8.2f}€ (×{strats[1].total()/BANKROLL0:.1f}) | "
-            f"SS={strats[2].total():>8.2f}€ (×{strats[2].total()/BANKROLL0:.1f}) | "
-            f"SN={strats[3].total():>8.2f}€ (×{strats[3].total()/BANKROLL0:.1f}) | "
-            f"Réserves={res['shared']:>8.2f}€ | "
-            f"TOTAL={res['total']:>9.2f}€  ×{res['mult']:.2f}\n"
-        )
-        sys.stdout.flush()
+    if n_jobs == 1:
+        for run_idx in range(N_RUNS):
+            _, res = _process_one(run_idx)
+            all_results[run_idx] = res
+            strats = res["strategies"]
+            sys.stdout.write(
+                f"  Run {run_idx+1:>3}/{N_RUNS} | "
+                f"RS=×{strats[0].total()/BANKROLL0:.1f} | "
+                f"RN=×{strats[1].total()/BANKROLL0:.1f} | "
+                f"SS=×{strats[2].total()/BANKROLL0:.1f} | "
+                f"SN=×{strats[3].total()/BANKROLL0:.1f} | "
+                f"TOTAL=×{res['mult']:.2f}\n"
+            )
+            sys.stdout.flush()
+    else:
+        done = 0
+        step = max(1, N_RUNS // 20)
+        with ProcessPoolExecutor(max_workers=n_jobs) as ex:
+            futures = {
+                ex.submit(_evaluate_profile_with_seqs_job, (datasets, tuning, False, 1)): i
+                for i in range(N_RUNS)
+            }
+            for fut in as_completed(futures):
+                run_idx = futures[fut]
+                _, sys_seq, rnd_seq = fut.result()
+                sys_d = [_SimpleTicket(is_win=w, total_odd=o) for w, o in sys_seq]
+                rnd_d = [_SimpleTicket(is_win=w, total_odd=o) for w, o in rnd_seq]
+                res = run_portfolio(sys_d, rnd_d, start_delay=use_start_delay)
+                all_results[run_idx] = res
+                done += 1
+                if done % step == 0 or done == N_RUNS:
+                    elapsed = time.time() - start_t
+                    eta = (N_RUNS - done) / (done / elapsed) if elapsed > 0 else 0
+                    print(f"[portfolio] {done}/{N_RUNS} | {elapsed/60:.1f}min | ETA ~{eta/60:.1f}min", flush=True)
 
     # ─── Tableau récap ────────────────────────────────────────────────────────
     totals = [r["total"] for r in all_results]

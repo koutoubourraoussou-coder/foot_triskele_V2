@@ -29,8 +29,8 @@
       "split_gap_weight": 0.6,
       "league_ranking_mode": "CLASSIC",
       "team_ranking_mode": "COMPOSITE",
-      "system_build_source": "LEAGUE",
-      "system_select_source": "HYBRID",
+      "system_build_source": "TEAM",
+      "system_select_source": "TEAM",
       "random_build_source": "TEAM",
       "random_select_source": "TEAM",
       "hybrid_alpha": 0.6

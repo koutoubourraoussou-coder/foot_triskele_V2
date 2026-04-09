@@ -1,0 +1,138 @@
+COMPARAISON RANDOM BUILD/SELECT SOURCE
+Date : 2026-04-06  |  50 runs/variante  |  61 jours
+Base : Amélioré #1  |  2 variante(s) testée(s)
+======================================================================
+
+──────────────────────────────────────────────────────────────────────
+  Baseline (topk_size=10)
+──────────────────────────────────────────────────────────────────────
+  [SYSTEM]  50 runs
+    Tickets/run      : moy=82.9  min=79  max=86
+    Win rate         : moy=0.668  min=0.602  max=0.744  σ=0.034
+    Pire série L     : moy=3.0  max_absolu=5  (pire run jamais vu)
+    Meill. série V   : moy=7.8  max_absolu=14  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=605.73  min=0.00  max=1150.75  σ=300.99
+      Profit (€)     : moy=60472.93  min=-100.00  max=114975.21  σ=30098.74
+      Pire série L   : moy=3.0  min=2.0  max=4.0  σ=0.6
+      Ruine          : 12%  (6/50 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=28.23  min=8.46  max=35.28  σ=4.65
+      Profit (€)     : moy=2723.05  min=746.51  max=3427.97  σ=464.66
+      Pire série L   : moy=3.0  min=2.0  max=4.0  σ=0.6
+      Doublings/run  : moy=8.0  min=5  max=9
+      Ruine          : 0%  (0/50 runs)
+
+  [RANDOM]  50 runs
+    Tickets/run      : moy=72.6  min=71  max=75
+    Win rate         : moy=0.723  min=0.635  max=0.806  σ=0.042
+    Pire série L     : moy=3.1  max_absolu=5  (pire run jamais vu)
+    Meill. série V   : moy=11.4  max_absolu=21  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=2305.12  min=0.00  max=9589.77  σ=2585.45
+      Profit (€)     : moy=230412.50  min=-100.00  max=958876.61  σ=258545.22
+      Pire série L   : moy=3.1  min=2.0  max=5.0  σ=0.8
+      Ruine          : 16%  (8/50 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=65.15  min=2.48  max=227.12  σ=53.66
+      Profit (€)     : moy=6415.19  min=147.89  max=22612.41  σ=5365.69
+      Pire série L   : moy=3.1  min=2.0  max=5.0  σ=0.8
+      Doublings/run  : moy=7.2  min=2  max=9
+      Ruine          : 0%  (0/50 runs)
+
+──────────────────────────────────────────────────────────────────────
+  Test E — topk_size=6
+──────────────────────────────────────────────────────────────────────
+  [SYSTEM]  50 runs
+    Tickets/run      : moy=82.8  min=80  max=85
+    Win rate         : moy=0.718  min=0.651  max=0.778  σ=0.031
+    Pire série L     : moy=3.0  max_absolu=5  (pire run jamais vu)
+    Meill. série V   : moy=9.0  max_absolu=13  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=667.36  min=0.00  max=1278.35  σ=383.89
+      Profit (€)     : moy=66635.65  min=-100.00  max=127734.72  σ=38388.82
+      Pire série L   : moy=2.9  min=2.0  max=5.0  σ=0.8
+      Ruine          : 14%  (7/50 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=28.97  min=2.33  max=35.55  σ=5.67
+      Profit (€)     : moy=2797.01  min=132.92  max=3454.47  σ=566.88
+      Pire série L   : moy=2.9  min=2.0  max=5.0  σ=0.8
+      Doublings/run  : moy=8.2  min=2  max=9
+      Ruine          : 0%  (0/50 runs)
+
+  [RANDOM]  50 runs
+    Tickets/run      : moy=72.7  min=71  max=75
+    Win rate         : moy=0.731  min=0.658  max=0.806  σ=0.035
+    Pire série L     : moy=2.8  max_absolu=5  (pire run jamais vu)
+    Meill. série V   : moy=11.7  max_absolu=24  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=2232.83  min=0.00  max=8491.59  σ=2254.51
+      Profit (€)     : moy=223182.56  min=-100.00  max=849059.05  σ=225451.48
+      Pire série L   : moy=2.8  min=2.0  max=4.0  σ=0.7
+      Ruine          : 6%  (3/50 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=61.35  min=2.37  max=197.62  σ=46.81
+      Profit (€)     : moy=6034.65  min=137.03  max=19662.25  σ=4680.67
+      Pire série L   : moy=2.8  min=2.0  max=4.0  σ=0.7
+      Doublings/run  : moy=7.3  min=2  max=8
+      Ruine          : 0%  (0/50 runs)
+
+──────────────────────────────────────────────────────────────────────
+  Test F — topk_size=3
+──────────────────────────────────────────────────────────────────────
+  [SYSTEM]  50 runs
+    Tickets/run      : moy=82.9  min=80  max=87
+    Win rate         : moy=0.728  min=0.675  max=0.798  σ=0.028
+    Pire série L     : moy=2.7  max_absolu=5  (pire run jamais vu)
+    Meill. série V   : moy=9.0  max_absolu=12  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=678.60  min=0.00  max=1190.78  σ=329.68
+      Profit (€)     : moy=67759.62  min=-100.00  max=118977.47  σ=32968.17
+      Pire série L   : moy=2.7  min=2.0  max=5.0  σ=0.8
+      Ruine          : 10%  (5/50 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=29.08  min=2.31  max=34.22  σ=5.04
+      Profit (€)     : moy=2808.22  min=131.20  max=3322.03  σ=503.98
+      Pire série L   : moy=2.7  min=2.0  max=4.0  σ=0.7
+      Doublings/run  : moy=8.2  min=2  max=9
+      Ruine          : 0%  (0/50 runs)
+
+  [RANDOM]  50 runs
+    Tickets/run      : moy=72.6  min=72  max=74
+    Win rate         : moy=0.784  min=0.722  max=0.833  σ=0.030
+    Pire série L     : moy=2.4  max_absolu=6  (pire run jamais vu)
+    Meill. série V   : moy=13.1  max_absolu=17  (meilleur run jamais vu)
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=1548.90  min=0.00  max=9241.92  σ=1550.28
+      Profit (€)     : moy=154790.32  min=-100.00  max=924091.76  σ=155027.59
+      Pire série L   : moy=2.4  min=2.0  max=5.0  σ=0.7
+      Ruine          : 6%  (3/50 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=45.61  min=4.25  max=170.63  σ=26.37
+      Profit (€)     : moy=4460.87  min=325.27  max=16962.57  σ=2636.95
+      Pire série L   : moy=2.4  min=2.0  max=4.0  σ=0.6
+      Doublings/run  : moy=7.8  min=3  max=9
+      Ruine          : 0%  (0/50 runs)
+
+======================================================================
+  VERDICT SYSTEM
+  ★ Test F — topk_size=3  (score=14.760)
+  #2 Test E — topk_size=6  (score=14.700)
+  #3 Baseline (topk_size=10)  (score=14.316)
+
+  VERDICT RANDOM
+  ★ Baseline (topk_size=10)  (score=32.793)
+  #2 Test E — topk_size=6  (score=30.893)
+  #3 Test F — topk_size=3  (score=23.040)

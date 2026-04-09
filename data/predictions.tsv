@@ -8025,3 +8025,283 @@ TSV:	3271347177	2026-04-08	uefa europa league	SC Braga	Real Betis	O15_FT	Over 1.
 TSV:	3271347177	2026-04-08	uefa europa league	SC Braga	Real Betis	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=1.95 fixture=1535334	18:45
 TSV:	3271347177	2026-04-08	uefa europa league	SC Braga	Real Betis	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=2.5 fixture=1535334	18:45
 TSV:	3271347177	2026-04-08	uefa europa league	SC Braga	Real Betis	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=2.75 fixture=1535334	18:45
+TSV:	395547298	2026-03-26	international friendlies	Colombia	Croatia	HT05	HT+0.5	4.0	FORT	0	fixture=1512757	00:00
+TSV:	395547298	2026-03-26	international friendlies	Colombia	Croatia	HT1X_HOME	HT 1X Home	0.0	KO	0	fixture=1512757	00:00
+TSV:	395547298	2026-03-26	international friendlies	Colombia	Croatia	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	fixture=1512757	00:00
+TSV:	395547298	2026-03-26	international friendlies	Colombia	Croatia	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	fixture=1512757	00:00
+TSV:	395547298	2026-03-26	international friendlies	Colombia	Croatia	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	fixture=1512757	00:00
+TSV:	395547298	2026-03-26	international friendlies	Colombia	Croatia	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	fixture=1512757	00:00
+TSV:	395547298	2026-03-26	international friendlies	Colombia	Croatia	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	fixture=1512757	00:00
+TSV:	395547298	2026-03-26	international friendlies	Colombia	Croatia	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	fixture=1512757	00:00
+TSV:	2802510933	2026-03-26	primera división paraguay	Deportivo Recoleta	Rubio NU	HT05	HT+0.5	5.0	FORT PLUS	0	fixture=1505036	00:00
+TSV:	2802510933	2026-03-26	primera división paraguay	Deportivo Recoleta	Rubio NU	HT1X_HOME	HT 1X Home	4.0	FORT	1	fixture=1505036	00:00
+TSV:	2802510933	2026-03-26	primera división paraguay	Deportivo Recoleta	Rubio NU	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	fixture=1505036	00:00
+TSV:	2802510933	2026-03-26	primera división paraguay	Deportivo Recoleta	Rubio NU	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	fixture=1505036	00:00
+TSV:	2802510933	2026-03-26	primera división paraguay	Deportivo Recoleta	Rubio NU	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	fixture=1505036	00:00
+TSV:	2802510933	2026-03-26	primera división paraguay	Deportivo Recoleta	Rubio NU	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	fixture=1505036	00:00
+TSV:	2802510933	2026-03-26	primera división paraguay	Deportivo Recoleta	Rubio NU	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	fixture=1505036	00:00
+TSV:	2802510933	2026-03-26	primera división paraguay	Deportivo Recoleta	Rubio NU	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	fixture=1505036	00:00
+TSV:	3312245273	2026-03-27	international friendlies	Argentina	Mauritania	HT05	HT+0.5	7.0	EXPLOSION	0	fixture=1536911	00:00
+TSV:	3312245273	2026-03-27	international friendlies	Argentina	Mauritania	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	fixture=1536911	00:00
+TSV:	3312245273	2026-03-27	international friendlies	Argentina	Mauritania	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	fixture=1536911	00:00
+TSV:	3312245273	2026-03-27	international friendlies	Argentina	Mauritania	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	fixture=1536911	00:00
+TSV:	3312245273	2026-03-27	international friendlies	Argentina	Mauritania	O15_FT	Over 1.5 (FT)	4.0	FORT	1	fixture=1536911	00:00
+TSV:	3312245273	2026-03-27	international friendlies	Argentina	Mauritania	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	fixture=1536911	00:00
+TSV:	3312245273	2026-03-27	international friendlies	Argentina	Mauritania	TEAM1_WIN_FT	Team1 wins (FT)	4.0	FORT	0	fixture=1536911	00:00
+TSV:	3312245273	2026-03-27	international friendlies	Argentina	Mauritania	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	fixture=1536911	00:00
+TSV:	3568193759	2026-03-27	primera división paraguay	Sportivo Ameliano	Libertad Asuncion	HT05	HT+0.5	2.0	MOYEN	0	fixture=1505031	00:00
+TSV:	3568193759	2026-03-27	primera división paraguay	Sportivo Ameliano	Libertad Asuncion	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	fixture=1505031	00:00
+TSV:	3568193759	2026-03-27	primera división paraguay	Sportivo Ameliano	Libertad Asuncion	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	fixture=1505031	00:00
+TSV:	3568193759	2026-03-27	primera división paraguay	Sportivo Ameliano	Libertad Asuncion	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	fixture=1505031	00:00
+TSV:	3568193759	2026-03-27	primera división paraguay	Sportivo Ameliano	Libertad Asuncion	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	fixture=1505031	00:00
+TSV:	3568193759	2026-03-27	primera división paraguay	Sportivo Ameliano	Libertad Asuncion	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	fixture=1505031	00:00
+TSV:	3568193759	2026-03-27	primera división paraguay	Sportivo Ameliano	Libertad Asuncion	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	fixture=1505031	00:00
+TSV:	3568193759	2026-03-27	primera división paraguay	Sportivo Ameliano	Libertad Asuncion	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	fixture=1505031	00:00
+TSV:	3939333873	2026-03-28	primera a colombia	Deportes Tolima	Jaguares	HT05	HT+0.5	7.0	EXPLOSION	0	fixture=1506060	00:00
+TSV:	3939333873	2026-03-28	primera a colombia	Deportes Tolima	Jaguares	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	fixture=1506060	00:00
+TSV:	3939333873	2026-03-28	primera a colombia	Deportes Tolima	Jaguares	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	fixture=1506060	00:00
+TSV:	3939333873	2026-03-28	primera a colombia	Deportes Tolima	Jaguares	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	fixture=1506060	00:00
+TSV:	3939333873	2026-03-28	primera a colombia	Deportes Tolima	Jaguares	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	fixture=1506060	00:00
+TSV:	3939333873	2026-03-28	primera a colombia	Deportes Tolima	Jaguares	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	fixture=1506060	00:00
+TSV:	3939333873	2026-03-28	primera a colombia	Deportes Tolima	Jaguares	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	fixture=1506060	00:00
+TSV:	3939333873	2026-03-28	primera a colombia	Deportes Tolima	Jaguares	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	fixture=1506060	00:00
+TSV:	853069655	2026-03-28	primera división paraguay	Cerro Porteno	Club Sp. San Lorenzo	HT05	HT+0.5	3.0	MOYEN PLUS	0	fixture=1505032	00:00
+TSV:	853069655	2026-03-28	primera división paraguay	Cerro Porteno	Club Sp. San Lorenzo	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	fixture=1505032	00:00
+TSV:	853069655	2026-03-28	primera división paraguay	Cerro Porteno	Club Sp. San Lorenzo	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	fixture=1505032	00:00
+TSV:	853069655	2026-03-28	primera división paraguay	Cerro Porteno	Club Sp. San Lorenzo	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	fixture=1505032	00:00
+TSV:	853069655	2026-03-28	primera división paraguay	Cerro Porteno	Club Sp. San Lorenzo	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	fixture=1505032	00:00
+TSV:	853069655	2026-03-28	primera división paraguay	Cerro Porteno	Club Sp. San Lorenzo	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	fixture=1505032	00:00
+TSV:	853069655	2026-03-28	primera división paraguay	Cerro Porteno	Club Sp. San Lorenzo	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	fixture=1505032	00:00
+TSV:	853069655	2026-03-28	primera división paraguay	Cerro Porteno	Club Sp. San Lorenzo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	fixture=1505032	00:00
+TSV:	1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	HT05	HT+0.5	6.0	TRÈS FORT	0	fixture=1506063	00:00
+TSV:	1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	fixture=1506063	00:00
+TSV:	1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	fixture=1506063	00:00
+TSV:	1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	fixture=1506063	00:00
+TSV:	1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	fixture=1506063	00:00
+TSV:	1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	fixture=1506063	00:00
+TSV:	1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	fixture=1506063	00:00
+TSV:	1852109721	2026-03-29	primera a colombia	Deportivo Pasto	Atletico Nacional	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	fixture=1506063	00:00
+TSV:	2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	HT05	HT+0.5	2.0	MOYEN	0	fixture=1505033	00:00
+TSV:	2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	fixture=1505033	00:00
+TSV:	2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	fixture=1505033	00:00
+TSV:	2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	fixture=1505033	00:00
+TSV:	2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	fixture=1505033	00:00
+TSV:	2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	fixture=1505033	00:00
+TSV:	2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	fixture=1505033	00:00
+TSV:	2829812064	2026-03-29	primera división paraguay	Club Guarani	Sportivo Trinidense	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	fixture=1505033	00:00
+TSV:	2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	HT05	HT+0.5	6.0	TRÈS FORT	0	fixture=1492150	00:00
+TSV:	2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	fixture=1492150	00:00
+TSV:	2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	fixture=1492150	00:00
+TSV:	2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	fixture=1492150	00:00
+TSV:	2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	fixture=1492150	00:00
+TSV:	2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	fixture=1492150	00:00
+TSV:	2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	fixture=1492150	00:00
+TSV:	2761094636	2026-03-29	serie a brazil	Atletico Paranaense	Botafogo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	fixture=1492150	00:00
+TSV:	3750642184	2026-03-30	primera a colombia	Independiente Medellin	America de Cali	HT05	HT+0.5	7.0	EXPLOSION	0	fixture=1506064	00:00
+TSV:	3750642184	2026-03-30	primera a colombia	Independiente Medellin	America de Cali	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	fixture=1506064	00:00
+TSV:	3750642184	2026-03-30	primera a colombia	Independiente Medellin	America de Cali	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	fixture=1506064	00:00
+TSV:	3750642184	2026-03-30	primera a colombia	Independiente Medellin	America de Cali	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	fixture=1506064	00:00
+TSV:	3750642184	2026-03-30	primera a colombia	Independiente Medellin	America de Cali	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	fixture=1506064	00:00
+TSV:	3750642184	2026-03-30	primera a colombia	Independiente Medellin	America de Cali	O25_FT	Over 2.5 (FT)	4.0	FORT	1	fixture=1506064	00:00
+TSV:	3750642184	2026-03-30	primera a colombia	Independiente Medellin	America de Cali	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	fixture=1506064	00:00
+TSV:	3750642184	2026-03-30	primera a colombia	Independiente Medellin	America de Cali	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	fixture=1506064	00:00
+TSV:	568304699	2026-03-30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	HT05	HT+0.5	7.0	EXPLOSION	0	fixture=1505038	00:00
+TSV:	568304699	2026-03-30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	fixture=1505038	00:00
+TSV:	568304699	2026-03-30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	fixture=1505038	00:00
+TSV:	568304699	2026-03-30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	fixture=1505038	00:00
+TSV:	568304699	2026-03-30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	fixture=1505038	00:00
+TSV:	568304699	2026-03-30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	fixture=1505038	00:00
+TSV:	568304699	2026-03-30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	fixture=1505038	00:00
+TSV:	568304699	2026-03-30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	fixture=1505038	00:00
+TSV:	3698790625	2026-03-31	international friendlies	USA	Portugal	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	fixture=1503004	00:00
+TSV:	3698790625	2026-03-31	international friendlies	USA	Portugal	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	fixture=1503004	00:00
+TSV:	3698790625	2026-03-31	international friendlies	USA	Portugal	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	fixture=1503004	00:00
+TSV:	3698790625	2026-03-31	international friendlies	USA	Portugal	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	fixture=1503004	00:00
+TSV:	3698790625	2026-03-31	international friendlies	USA	Portugal	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	fixture=1503004	00:00
+TSV:	3698790625	2026-03-31	international friendlies	USA	Portugal	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	fixture=1503004	00:00
+TSV:	3698790625	2026-03-31	international friendlies	USA	Portugal	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	fixture=1503004	00:00
+TSV:	3698790625	2026-03-31	international friendlies	USA	Portugal	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	fixture=1503004	00:00
+TSV:	676938275	2026-03-31	international friendlies	Argentina	Zambia	HT05	HT+0.5	6.0	TRÈS FORT	0	fixture=1536923	00:00
+TSV:	676938275	2026-03-31	international friendlies	Argentina	Zambia	HT1X_HOME	HT 1X Home	8.0	MEGA EXPLOSION	1	fixture=1536923	00:00
+TSV:	676938275	2026-03-31	international friendlies	Argentina	Zambia	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	fixture=1536923	00:00
+TSV:	676938275	2026-03-31	international friendlies	Argentina	Zambia	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	fixture=1536923	00:00
+TSV:	676938275	2026-03-31	international friendlies	Argentina	Zambia	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	fixture=1536923	00:00
+TSV:	676938275	2026-03-31	international friendlies	Argentina	Zambia	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	fixture=1536923	00:00
+TSV:	676938275	2026-03-31	international friendlies	Argentina	Zambia	TEAM1_WIN_FT	Team1 wins (FT)	5.0	FORT PLUS	1	fixture=1536923	00:00
+TSV:	676938275	2026-03-31	international friendlies	Argentina	Zambia	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	fixture=1536923	00:00
+TSV:	3474981687	2026-03-31	international friendlies	Canada	Tunisia	HT05	HT+0.5	2.0	MOYEN	0	fixture=1512765	00:00
+TSV:	3474981687	2026-03-31	international friendlies	Canada	Tunisia	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	fixture=1512765	00:00
+TSV:	3474981687	2026-03-31	international friendlies	Canada	Tunisia	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	fixture=1512765	00:00
+TSV:	3474981687	2026-03-31	international friendlies	Canada	Tunisia	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	fixture=1512765	00:00
+TSV:	3474981687	2026-03-31	international friendlies	Canada	Tunisia	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	fixture=1512765	00:00
+TSV:	3474981687	2026-03-31	international friendlies	Canada	Tunisia	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	fixture=1512765	00:00
+TSV:	3474981687	2026-03-31	international friendlies	Canada	Tunisia	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	fixture=1512765	00:00
+TSV:	3474981687	2026-03-31	international friendlies	Canada	Tunisia	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	fixture=1512765	00:00
+TSV:	1263196524	2026-03-31	primera división paraguay	Club Sp. San Lorenzo	Sportivo Ameliano	HT05	HT+0.5	0.0	KO	0	fixture=1505040	00:00
+TSV:	1263196524	2026-03-31	primera división paraguay	Club Sp. San Lorenzo	Sportivo Ameliano	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	fixture=1505040	00:00
+TSV:	1263196524	2026-03-31	primera división paraguay	Club Sp. San Lorenzo	Sportivo Ameliano	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	fixture=1505040	00:00
+TSV:	1263196524	2026-03-31	primera división paraguay	Club Sp. San Lorenzo	Sportivo Ameliano	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	fixture=1505040	00:00
+TSV:	1263196524	2026-03-31	primera división paraguay	Club Sp. San Lorenzo	Sportivo Ameliano	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	fixture=1505040	00:00
+TSV:	1263196524	2026-03-31	primera división paraguay	Club Sp. San Lorenzo	Sportivo Ameliano	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	fixture=1505040	00:00
+TSV:	1263196524	2026-03-31	primera división paraguay	Club Sp. San Lorenzo	Sportivo Ameliano	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	fixture=1505040	00:00
+TSV:	1263196524	2026-03-31	primera división paraguay	Club Sp. San Lorenzo	Sportivo Ameliano	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	fixture=1505040	00:00
+TSV:	3133921833	2026-03-31	primera división paraguay	Sportivo Luqueno	Cerro Porteno	HT05	HT+0.5	3.0	MOYEN PLUS	0	fixture=1505041	00:00
+TSV:	3133921833	2026-03-31	primera división paraguay	Sportivo Luqueno	Cerro Porteno	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	fixture=1505041	00:00
+TSV:	3133921833	2026-03-31	primera división paraguay	Sportivo Luqueno	Cerro Porteno	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	fixture=1505041	00:00
+TSV:	3133921833	2026-03-31	primera división paraguay	Sportivo Luqueno	Cerro Porteno	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	fixture=1505041	00:00
+TSV:	3133921833	2026-03-31	primera división paraguay	Sportivo Luqueno	Cerro Porteno	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	fixture=1505041	00:00
+TSV:	3133921833	2026-03-31	primera división paraguay	Sportivo Luqueno	Cerro Porteno	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	fixture=1505041	00:00
+TSV:	3133921833	2026-03-31	primera división paraguay	Sportivo Luqueno	Cerro Porteno	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	fixture=1505041	00:00
+TSV:	3133921833	2026-03-31	primera división paraguay	Sportivo Luqueno	Cerro Porteno	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	fixture=1505041	00:00
+TSV:	2807532571	2026-04-01	liga profesional argentina	Lanus	Platense	HT05	HT+0.5	2.0	MOYEN	0	odd=1.6 fixture=1492006	00:00
+TSV:	2807532571	2026-04-01	liga profesional argentina	Lanus	Platense	HT1X_HOME	HT 1X Home	8.0	MEGA EXPLOSION	1	odd=1.14 fixture=1492006	00:00
+TSV:	2807532571	2026-04-01	liga profesional argentina	Lanus	Platense	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.33 fixture=1492006	00:00
+TSV:	2807532571	2026-04-01	liga profesional argentina	Lanus	Platense	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.7 fixture=1492006	00:00
+TSV:	2807532571	2026-04-01	liga profesional argentina	Lanus	Platense	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.62 fixture=1492006	00:00
+TSV:	2807532571	2026-04-01	liga profesional argentina	Lanus	Platense	O25_FT	Over 2.5 (FT)	0.0	KO	0	odd=2.9 fixture=1492006	00:00
+TSV:	2807532571	2026-04-01	liga profesional argentina	Lanus	Platense	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.12 fixture=1492006	00:00
+TSV:	2807532571	2026-04-01	liga profesional argentina	Lanus	Platense	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.85 fixture=1492006	00:00
+TSV:	2291659680	2026-04-01	primera a colombia	Santa Fe	Llaneros	HT05	HT+0.5	6.0	TRÈS FORT	0	odd=1.4 fixture=1506069	00:00
+TSV:	2291659680	2026-04-01	primera a colombia	Santa Fe	Llaneros	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.05 fixture=1506069	00:00
+TSV:	2291659680	2026-04-01	primera a colombia	Santa Fe	Llaneros	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.08 fixture=1506069	00:00
+TSV:	2291659680	2026-04-01	primera a colombia	Santa Fe	Llaneros	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.98 fixture=1506069	00:00
+TSV:	2291659680	2026-04-01	primera a colombia	Santa Fe	Llaneros	O15_FT	Over 1.5 (FT)	4.0	FORT	1	odd=1.3 fixture=1506069	00:00
+TSV:	2291659680	2026-04-01	primera a colombia	Santa Fe	Llaneros	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.93 fixture=1506069	00:00
+TSV:	2291659680	2026-04-01	primera a colombia	Santa Fe	Llaneros	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=1.37 fixture=1506069	00:00
+TSV:	2291659680	2026-04-01	primera a colombia	Santa Fe	Llaneros	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=8.9 fixture=1506069	00:00
+TSV:	762783920	2026-04-01	primera división paraguay	Sportivo Trinidense	Olimpia	HT05	HT+0.5	4.0	FORT	0	odd=1.44 fixture=1505042	00:00
+TSV:	762783920	2026-04-01	primera división paraguay	Sportivo Trinidense	Olimpia	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.5 fixture=1505042	00:00
+TSV:	762783920	2026-04-01	primera división paraguay	Sportivo Trinidense	Olimpia	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.5 fixture=1505042	00:00
+TSV:	762783920	2026-04-01	primera división paraguay	Sportivo Trinidense	Olimpia	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.22 fixture=1505042	00:00
+TSV:	762783920	2026-04-01	primera división paraguay	Sportivo Trinidense	Olimpia	O15_FT	Over 1.5 (FT)	4.0	FORT	1	odd=1.36 fixture=1505042	00:00
+TSV:	762783920	2026-04-01	primera división paraguay	Sportivo Trinidense	Olimpia	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=2.15 fixture=1505042	00:00
+TSV:	762783920	2026-04-01	primera división paraguay	Sportivo Trinidense	Olimpia	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.75 fixture=1505042	00:00
+TSV:	762783920	2026-04-01	primera división paraguay	Sportivo Trinidense	Olimpia	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=1.91 fixture=1505042	00:00
+TSV:	1122301632	2026-04-01	serie a brazil	Botafogo	Mirassol	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.38 fixture=1492191	00:00
+TSV:	1122301632	2026-04-01	serie a brazil	Botafogo	Mirassol	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.25 fixture=1492191	00:00
+TSV:	1122301632	2026-04-01	serie a brazil	Botafogo	Mirassol	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.25 fixture=1492191	00:00
+TSV:	1122301632	2026-04-01	serie a brazil	Botafogo	Mirassol	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.4 fixture=1492191	00:00
+TSV:	1122301632	2026-04-01	serie a brazil	Botafogo	Mirassol	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.36 fixture=1492191	00:00
+TSV:	1122301632	2026-04-01	serie a brazil	Botafogo	Mirassol	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	odd=2.1 fixture=1492191	00:00
+TSV:	1122301632	2026-04-01	serie a brazil	Botafogo	Mirassol	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.28 fixture=1492191	00:00
+TSV:	1122301632	2026-04-01	serie a brazil	Botafogo	Mirassol	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=3 fixture=1492191	00:00
+TSV:	1290146881	2026-04-01	serie a brazil	Internacional	Sao Paulo	HT05	HT+0.5	6.0	TRÈS FORT	0	odd=1.42 fixture=1492197	00:00
+TSV:	1290146881	2026-04-01	serie a brazil	Internacional	Sao Paulo	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.22 fixture=1492197	00:00
+TSV:	1290146881	2026-04-01	serie a brazil	Internacional	Sao Paulo	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.29 fixture=1492197	00:00
+TSV:	1290146881	2026-04-01	serie a brazil	Internacional	Sao Paulo	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.4 fixture=1492197	00:00
+TSV:	1290146881	2026-04-01	serie a brazil	Internacional	Sao Paulo	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.4 fixture=1492197	00:00
+TSV:	1290146881	2026-04-01	serie a brazil	Internacional	Sao Paulo	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=2.2 fixture=1492197	00:00
+TSV:	1290146881	2026-04-01	serie a brazil	Internacional	Sao Paulo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.24 fixture=1492197	00:00
+TSV:	1290146881	2026-04-01	serie a brazil	Internacional	Sao Paulo	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=3.35 fixture=1492197	00:00
+TSV:	64054079	2026-04-01	serie a brazil	Bahia	Atletico Paranaense	HT05	HT+0.5	1.0	FAIBLE	0	odd=1.42 fixture=1492190	00:00
+TSV:	64054079	2026-04-01	serie a brazil	Bahia	Atletico Paranaense	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.17 fixture=1492190	00:00
+TSV:	64054079	2026-04-01	serie a brazil	Bahia	Atletico Paranaense	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.2 fixture=1492190	00:00
+TSV:	64054079	2026-04-01	serie a brazil	Bahia	Atletico Paranaense	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.53 fixture=1492190	00:00
+TSV:	64054079	2026-04-01	serie a brazil	Bahia	Atletico Paranaense	O15_FT	Over 1.5 (FT)	4.0	FORT	1	odd=1.35 fixture=1492190	00:00
+TSV:	64054079	2026-04-01	serie a brazil	Bahia	Atletico Paranaense	O25_FT	Over 2.5 (FT)	0.0	KO	0	odd=2 fixture=1492190	00:00
+TSV:	64054079	2026-04-01	serie a brazil	Bahia	Atletico Paranaense	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.84 fixture=1492190	00:00
+TSV:	64054079	2026-04-01	serie a brazil	Bahia	Atletico Paranaense	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=4.3 fixture=1492190	00:00
+TSV:	2206006765	2026-04-01	serie a brazil	Cruzeiro	Vitoria	HT05	HT+0.5	6.0	TRÈS FORT	0	odd=1.4 fixture=1492195	00:00
+TSV:	2206006765	2026-04-01	serie a brazil	Cruzeiro	Vitoria	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.1 fixture=1492195	00:00
+TSV:	2206006765	2026-04-01	serie a brazil	Cruzeiro	Vitoria	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.15 fixture=1492195	00:00
+TSV:	2206006765	2026-04-01	serie a brazil	Cruzeiro	Vitoria	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.73 fixture=1492195	00:00
+TSV:	2206006765	2026-04-01	serie a brazil	Cruzeiro	Vitoria	O15_FT	Over 1.5 (FT)	4.0	FORT	1	odd=1.35 fixture=1492195	00:00
+TSV:	2206006765	2026-04-01	serie a brazil	Cruzeiro	Vitoria	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=2.05 fixture=1492195	00:00
+TSV:	2206006765	2026-04-01	serie a brazil	Cruzeiro	Vitoria	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.54 fixture=1492195	00:00
+TSV:	2206006765	2026-04-01	serie a brazil	Cruzeiro	Vitoria	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=6.2 fixture=1492195	00:00
+TSV:	1925207585	2026-04-01	serie a brazil	Coritiba	Vasco DA Gama	HT05	HT+0.5	4.0	FORT	0	odd=1.48 fixture=1492194	00:00
+TSV:	1925207585	2026-04-01	serie a brazil	Coritiba	Vasco DA Gama	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.25 fixture=1492194	00:00
+TSV:	1925207585	2026-04-01	serie a brazil	Coritiba	Vasco DA Gama	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.34 fixture=1492194	00:00
+TSV:	1925207585	2026-04-01	serie a brazil	Coritiba	Vasco DA Gama	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.4 fixture=1492194	00:00
+TSV:	1925207585	2026-04-01	serie a brazil	Coritiba	Vasco DA Gama	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	odd=1.45 fixture=1492194	00:00
+TSV:	1925207585	2026-04-01	serie a brazil	Coritiba	Vasco DA Gama	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	odd=2.35 fixture=1492194	00:00
+TSV:	1925207585	2026-04-01	serie a brazil	Coritiba	Vasco DA Gama	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.56 fixture=1492194	00:00
+TSV:	1925207585	2026-04-01	serie a brazil	Coritiba	Vasco DA Gama	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.84 fixture=1492194	00:00
+TSV:	4009557744	2026-04-02	liga profesional argentina	Talleres Cordoba	Boca Juniors	HT05	HT+0.5	1.0	FAIBLE	0	odd=1.55 fixture=1492010	00:00
+TSV:	4009557744	2026-04-02	liga profesional argentina	Talleres Cordoba	Boca Juniors	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.22 fixture=1492010	00:00
+TSV:	4009557744	2026-04-02	liga profesional argentina	Talleres Cordoba	Boca Juniors	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.4 fixture=1492010	00:00
+TSV:	4009557744	2026-04-02	liga profesional argentina	Talleres Cordoba	Boca Juniors	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.53 fixture=1492010	00:00
+TSV:	4009557744	2026-04-02	liga profesional argentina	Talleres Cordoba	Boca Juniors	O15_FT	Over 1.5 (FT)	1.0	FAIBLE	0	odd=1.57 fixture=1492010	00:00
+TSV:	4009557744	2026-04-02	liga profesional argentina	Talleres Cordoba	Boca Juniors	O25_FT	Over 2.5 (FT)	0.0	KO	0	odd=2.88 fixture=1492010	00:00
+TSV:	4009557744	2026-04-02	liga profesional argentina	Talleres Cordoba	Boca Juniors	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.5 fixture=1492010	00:00
+TSV:	4009557744	2026-04-02	liga profesional argentina	Talleres Cordoba	Boca Juniors	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.1 fixture=1492010	00:00
+TSV:	1609004124	2026-04-02	primera a colombia	Jaguares	Millonarios	HT05	HT+0.5	2.0	MOYEN	0	odd=1.4 fixture=1506073	00:00
+TSV:	1609004124	2026-04-02	primera a colombia	Jaguares	Millonarios	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.5 fixture=1506073	00:00
+TSV:	1609004124	2026-04-02	primera a colombia	Jaguares	Millonarios	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.49 fixture=1506073	00:00
+TSV:	1609004124	2026-04-02	primera a colombia	Jaguares	Millonarios	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.16 fixture=1506073	00:00
+TSV:	1609004124	2026-04-02	primera a colombia	Jaguares	Millonarios	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.3 fixture=1506073	00:00
+TSV:	1609004124	2026-04-02	primera a colombia	Jaguares	Millonarios	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=2 fixture=1506073	00:00
+TSV:	1609004124	2026-04-02	primera a colombia	Jaguares	Millonarios	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=4.5 fixture=1506073	00:00
+TSV:	1609004124	2026-04-02	primera a colombia	Jaguares	Millonarios	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=1.8 fixture=1506073	00:00
+TSV:	1809547107	2026-04-02	serie a brazil	Chapecoense-sc	Atletico-MG	HT05	HT+0.5	7.0	EXPLOSION	0	odd=1.4 fixture=1492193	00:00
+TSV:	1809547107	2026-04-02	serie a brazil	Chapecoense-sc	Atletico-MG	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.36 fixture=1492193	00:00
+TSV:	1809547107	2026-04-02	serie a brazil	Chapecoense-sc	Atletico-MG	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.4 fixture=1492193	00:00
+TSV:	1809547107	2026-04-02	serie a brazil	Chapecoense-sc	Atletico-MG	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.3 fixture=1492193	00:00
+TSV:	1809547107	2026-04-02	serie a brazil	Chapecoense-sc	Atletico-MG	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	odd=1.4 fixture=1492193	00:00
+TSV:	1809547107	2026-04-02	serie a brazil	Chapecoense-sc	Atletico-MG	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=2.2 fixture=1492193	00:00
+TSV:	1809547107	2026-04-02	serie a brazil	Chapecoense-sc	Atletico-MG	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.1 fixture=1492193	00:00
+TSV:	1809547107	2026-04-02	serie a brazil	Chapecoense-sc	Atletico-MG	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.25 fixture=1492193	00:00
+TSV:	4244359418	2026-04-02	serie a brazil	Santos	Remo	HT05	HT+0.5	5.0	FORT PLUS	0	odd=1.36 fixture=1492199	00:00
+TSV:	4244359418	2026-04-02	serie a brazil	Santos	Remo	HT1X_HOME	HT 1X Home	0.0	KO	0	odd=1.14 fixture=1492199	00:00
+TSV:	4244359418	2026-04-02	serie a brazil	Santos	Remo	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.14 fixture=1492199	00:00
+TSV:	4244359418	2026-04-02	serie a brazil	Santos	Remo	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.62 fixture=1492199	00:00
+TSV:	4244359418	2026-04-02	serie a brazil	Santos	Remo	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.28 fixture=1492199	00:00
+TSV:	4244359418	2026-04-02	serie a brazil	Santos	Remo	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.95 fixture=1492199	00:00
+TSV:	4244359418	2026-04-02	serie a brazil	Santos	Remo	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=1.57 fixture=1492199	00:00
+TSV:	4244359418	2026-04-02	serie a brazil	Santos	Remo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=5.5 fixture=1492199	00:00
+TSV:	759009987	2026-04-09	liga pro ecuador	Universidad Catolica	Emelec	HT05	HT+0.5	5.0	FORT PLUS	0	odd=1.33 fixture=1519263	02:00
+TSV:	759009987	2026-04-09	liga pro ecuador	Universidad Catolica	Emelec	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.12 fixture=1519263	02:00
+TSV:	759009987	2026-04-09	liga pro ecuador	Universidad Catolica	Emelec	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.12 fixture=1519263	02:00
+TSV:	759009987	2026-04-09	liga pro ecuador	Universidad Catolica	Emelec	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.55 fixture=1519263	02:00
+TSV:	759009987	2026-04-09	liga pro ecuador	Universidad Catolica	Emelec	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	odd=1.25 fixture=1519263	02:00
+TSV:	759009987	2026-04-09	liga pro ecuador	Universidad Catolica	Emelec	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=1.8 fixture=1519263	02:00
+TSV:	759009987	2026-04-09	liga pro ecuador	Universidad Catolica	Emelec	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.6 fixture=1519263	02:00
+TSV:	759009987	2026-04-09	liga pro ecuador	Universidad Catolica	Emelec	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=5.25 fixture=1519263	02:00
+TSV:	3763175000	2026-04-09	saudi arabia	Damac	Al-Qadisiyah FC	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.28 fixture=1436159	18:00
+TSV:	3763175000	2026-04-09	saudi arabia	Damac	Al-Qadisiyah FC	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.73 fixture=1436159	18:00
+TSV:	3763175000	2026-04-09	saudi arabia	Damac	Al-Qadisiyah FC	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.44 fixture=1436159	18:00
+TSV:	3763175000	2026-04-09	saudi arabia	Damac	Al-Qadisiyah FC	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.1 fixture=1436159	18:00
+TSV:	3763175000	2026-04-09	saudi arabia	Damac	Al-Qadisiyah FC	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.17 fixture=1436159	18:00
+TSV:	3763175000	2026-04-09	saudi arabia	Damac	Al-Qadisiyah FC	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.57 fixture=1436159	18:00
+TSV:	3763175000	2026-04-09	saudi arabia	Damac	Al-Qadisiyah FC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=5.75 fixture=1436159	18:00
+TSV:	3763175000	2026-04-09	saudi arabia	Damac	Al-Qadisiyah FC	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=1.5 fixture=1436159	18:00
+TSV:	1404305215	2026-04-09	saudi arabia	Al-Ettifaq	Al Riyadh	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.33 fixture=1436163	20:00
+TSV:	1404305215	2026-04-09	saudi arabia	Al-Ettifaq	Al Riyadh	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.22 fixture=1436163	20:00
+TSV:	1404305215	2026-04-09	saudi arabia	Al-Ettifaq	Al Riyadh	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.15 fixture=1436163	20:00
+TSV:	1404305215	2026-04-09	saudi arabia	Al-Ettifaq	Al Riyadh	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.3 fixture=1436163	20:00
+TSV:	1404305215	2026-04-09	saudi arabia	Al-Ettifaq	Al Riyadh	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.22 fixture=1436163	20:00
+TSV:	1404305215	2026-04-09	saudi arabia	Al-Ettifaq	Al Riyadh	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.73 fixture=1436163	20:00
+TSV:	1404305215	2026-04-09	saudi arabia	Al-Ettifaq	Al Riyadh	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.85 fixture=1436163	20:00
+TSV:	1404305215	2026-04-09	saudi arabia	Al-Ettifaq	Al Riyadh	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.3 fixture=1436163	20:00
+TSV:	1445447031	2026-04-09	super lig	Rizespor	Samsunspor	HT05	HT+0.5	6.0	TRÈS FORT	0	odd=1.36 fixture=1394675	19:00
+TSV:	1445447031	2026-04-09	super lig	Rizespor	Samsunspor	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.25 fixture=1394675	19:00
+TSV:	1445447031	2026-04-09	super lig	Rizespor	Samsunspor	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.25 fixture=1394675	19:00
+TSV:	1445447031	2026-04-09	super lig	Rizespor	Samsunspor	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.3 fixture=1394675	19:00
+TSV:	1445447031	2026-04-09	super lig	Rizespor	Samsunspor	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	odd=1.28 fixture=1394675	19:00
+TSV:	1445447031	2026-04-09	super lig	Rizespor	Samsunspor	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.9 fixture=1394675	19:00
+TSV:	1445447031	2026-04-09	super lig	Rizespor	Samsunspor	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.22 fixture=1394675	19:00
+TSV:	1445447031	2026-04-09	super lig	Rizespor	Samsunspor	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=3.05 fixture=1394675	19:00
+TSV:	338522969	2026-04-09	uefa europa league	Bologna	Aston Villa	HT05	HT+0.5	1.0	FAIBLE	0	odd=1.42 fixture=1535335	21:00
+TSV:	338522969	2026-04-09	uefa europa league	Bologna	Aston Villa	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.35 fixture=1535335	21:00
+TSV:	338522969	2026-04-09	uefa europa league	Bologna	Aston Villa	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.44 fixture=1535335	21:00
+TSV:	338522969	2026-04-09	uefa europa league	Bologna	Aston Villa	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.25 fixture=1535335	21:00
+TSV:	338522969	2026-04-09	uefa europa league	Bologna	Aston Villa	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.33 fixture=1535335	21:00
+TSV:	338522969	2026-04-09	uefa europa league	Bologna	Aston Villa	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=2 fixture=1535335	21:00
+TSV:	338522969	2026-04-09	uefa europa league	Bologna	Aston Villa	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=3.1 fixture=1535335	21:00
+TSV:	338522969	2026-04-09	uefa europa league	Bologna	Aston Villa	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.28 fixture=1535335	21:00
+TSV:	1713788325	2026-04-09	uefa europa league	FC Porto	Nottingham Forest	HT05	HT+0.5	5.0	FORT PLUS	0	odd=1.42 fixture=1535336	21:00
+TSV:	1713788325	2026-04-09	uefa europa league	FC Porto	Nottingham Forest	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.2 fixture=1535336	21:00
+TSV:	1713788325	2026-04-09	uefa europa league	FC Porto	Nottingham Forest	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.3 fixture=1535336	21:00
+TSV:	1713788325	2026-04-09	uefa europa league	FC Porto	Nottingham Forest	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.55 fixture=1535336	21:00
+TSV:	1713788325	2026-04-09	uefa europa league	FC Porto	Nottingham Forest	O15_FT	Over 1.5 (FT)	4.0	FORT	1	odd=1.38 fixture=1535336	21:00
+TSV:	1713788325	2026-04-09	uefa europa league	FC Porto	Nottingham Forest	O25_FT	Over 2.5 (FT)	7.0	EXPLOSION	1	odd=2.1 fixture=1535336	21:00
+TSV:	1713788325	2026-04-09	uefa europa league	FC Porto	Nottingham Forest	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=2.08 fixture=1535336	21:00
+TSV:	1713788325	2026-04-09	uefa europa league	FC Porto	Nottingham Forest	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=3.5 fixture=1535336	21:00
+TSV:	2603556798	2026-04-09	uefa europa league	SC Freiburg	Celta Vigo	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.42 fixture=1535337	21:00
+TSV:	2603556798	2026-04-09	uefa europa league	SC Freiburg	Celta Vigo	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.25 fixture=1535337	21:00
+TSV:	2603556798	2026-04-09	uefa europa league	SC Freiburg	Celta Vigo	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.3 fixture=1535337	21:00
+TSV:	2603556798	2026-04-09	uefa europa league	SC Freiburg	Celta Vigo	TEAM2_SCORE_FT	Team2 scores (FT)	6.0	TRÈS FORT	1	odd=1.44 fixture=1535337	21:00
+TSV:	2603556798	2026-04-09	uefa europa league	SC Freiburg	Celta Vigo	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.35 fixture=1535337	21:00
+TSV:	2603556798	2026-04-09	uefa europa league	SC Freiburg	Celta Vigo	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=2.1 fixture=1535337	21:00
+TSV:	2603556798	2026-04-09	uefa europa league	SC Freiburg	Celta Vigo	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=2.24 fixture=1535337	21:00
+TSV:	2603556798	2026-04-09	uefa europa league	SC Freiburg	Celta Vigo	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=3.15 fixture=1535337	21:00

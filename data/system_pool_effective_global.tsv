@@ -1143,3 +1143,161 @@ TSV: 2026-04-08	3052282326	HT05	21:00	uefa champions league	Barcelona	Atletico M
 TSV: 2026-04-08	3052282326	HT1X_HOME	21:00	uefa champions league	Barcelona	Atletico Madrid	1.15	1534907	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-08	2889314161	O15_FT	21:00	uefa champions league	Paris Saint Germain	Liverpool	1.15	1534908	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-04-08 20:50:02 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-27	3312245273	O15_FT	00:15	international friendlies	Argentina	Mauritania	81	1536911	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3568193759	HT1X_HOME	00:30	primera división paraguay	Sportivo Ameliano	Libertad Asuncion	1.4	1505031	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	4190224086	O15_FT	13:30	international friendlies	Iran	Nigeria	1.44	1527854	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	1232143080	TEAM2_SCORE_FT	14:00	international friendlies	Tunisia U20	Mauritania U20	1.5	1537171	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	1232143080	HT05	14:00	international friendlies	Tunisia U20	Mauritania U20	1.36	1537171	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	1232143080	O15_FT	14:00	international friendlies	Tunisia U20	Mauritania U20	1.28	1537171	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	1232143080	HT1X_HOME	14:00	international friendlies	Tunisia U20	Mauritania U20	1.2	1537171	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	297889635	HT05	15:30	international friendlies	Italy U20	England U20	1.39	1536908	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	297889635	O15_FT	15:30	international friendlies	Italy U20	England U20	1.3	1536908	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	297889635	TEAM2_SCORE_FT	15:30	international friendlies	Italy U20	England U20	1.28	1536908	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	297889635	HT1X_HOME	15:30	international friendlies	Italy U20	England U20	1.26	1536908	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	747004000	O15_FT	16:00	international friendlies	Benin	Liberia	1.57	1537640	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	747004000	HT05	16:00	international friendlies	Benin	Liberia	1.53	1537640	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	173218561	HT05	16:00	international friendlies	Russia	Mali	1.46	1525450	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3776625672	O15_FT	16:00	international friendlies	Guinea	Togo	1.42	1528271	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	173218561	O15_FT	16:00	international friendlies	Russia	Mali	1.35	1525450	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3776625672	TEAM1_SCORE_FT	16:00	international friendlies	Guinea	Togo	1.27	1528271	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	747004000	HT1X_HOME	16:00	international friendlies	Benin	Liberia	1.15	1537640	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	1564283800	HT05	18:00	international friendlies	Montenegro	Andorra	1.36	1527856	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	64148703	HT05	18:00	international friendlies	Austria	Ghana	1.35	1511731	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	1564283800	O15_FT	18:00	international friendlies	Montenegro	Andorra	1.28	1527856	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	64148703	O15_FT	18:00	international friendlies	Austria	Ghana	1.25	1511731	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3989846649	HT05	18:30	international friendlies	Jordan	Costa Rica	1.44	1527855	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3989846649	TEAM1_SCORE_FT	18:30	international friendlies	Jordan	Costa Rica	1.4	1527855	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3989846649	O15_FT	18:30	international friendlies	Jordan	Costa Rica	1.38	1527855	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3989846649	HT1X_HOME	18:30	international friendlies	Jordan	Costa Rica	1.33	1527855	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	2558825703	HT1X_HOME	18:30	international friendlies	Saudi Arabia	Egypt	1.33	1514461	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3322306026	O15_FT	19:00	international friendlies	Libya	Niger	1.44	1536907	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3322306026	TEAM1_SCORE_FT	19:00	international friendlies	Libya	Niger	1.3	1536907	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3322306026	HT1X_HOME	19:00	international friendlies	Libya	Niger	1.2	1536907	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3112545071	O15_FT	20:00	international friendlies	Greece	Paraguay	1.38	1527858	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3112545071	TEAM1_SCORE_FT	20:00	international friendlies	Greece	Paraguay	1.22	1527858	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3112545071	HT1X_HOME	20:00	international friendlies	Greece	Paraguay	1.2	1527858	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	853299717	HT05	20:30	international friendlies	Algeria	Guatemala	1.4	1527859	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	853299717	O15_FT	20:30	international friendlies	Algeria	Guatemala	1.36	1527859	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	4162542754	HT1X_HOME	20:45	cymru premier league	Caernarfon Town	The New Saints	1.8	1508979	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	900994503	HT1X_HOME	20:45	international friendlies	Switzerland	Germany	1.48	1502471	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	4162542754	TEAM1_SCORE_FT	20:45	cymru premier league	Caernarfon Town	The New Saints	1.42	1508979	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	1890606432	HT05	20:45	international friendlies	England	Uruguay	1.4	1502470	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	1890606432	O15_FT	20:45	international friendlies	England	Uruguay	1.35	1502470	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	900994503	HT05	20:45	international friendlies	Switzerland	Germany	1.3	1502471	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3290547590	HT05	20:45	international friendlies	Netherlands	Norway	1.28	1503005	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	900994503	O15_FT	20:45	international friendlies	Switzerland	Germany	1.22	1502471	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3290547590	O15_FT	20:45	international friendlies	Netherlands	Norway	1.2	1503005	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	742938259	HT05	21:00	international friendlies	Spain	Serbia	1.18	1536910	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	1305293929	O15_FT	21:15	international friendlies	Morocco	Ecuador	1.62	1522229	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	1305293929	TEAM1_SCORE_FT	21:15	international friendlies	Morocco	Ecuador	1.44	1522229	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	1305293929	HT1X_HOME	21:15	international friendlies	Morocco	Ecuador	1.25	1522229	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3805282673	TEAM1_SCORE_FT	22:30	primera división paraguay	Nacional Asuncion	Sportivo Luqueno	1.27	1505034	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-27	3805282673	HT1X_HOME	22:30	primera división paraguay	Nacional Asuncion	Sportivo Luqueno	1.17	1505034	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-04-08 20:51:56 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-28	1716100050	HT1X_HOME	08:00	international friendlies	Thailand U23	Vietnam U23	1.17	1536912	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-28	3039553678	HT1X_HOME	13:30	cymru premier league	Haverfordwest County AFC	Briton Ferry	1.22	1509009	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-28	1620029964	HT1X_HOME	15:00	international friendlies	South Korea	Ivory Coast	1.36	1527860	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-28	1521500014	TEAM2_SCORE_FT	15:30	cymru premier league	Cardiff MET	Bala Town	1.51	1509010	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-28	1521500014	HT1X_HOME	15:30	cymru premier league	Cardiff MET	Bala Town	1.2	1509010	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-28	1521500014	TEAM1_SCORE_FT	15:30	cymru premier league	Cardiff MET	Bala Town	1.18	1509010	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-28	1296564362	TEAM1_SCORE_FT	18:00	international friendlies	Hungary	Slovenia	1.2	1514071	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-28	1296564362	HT1X_HOME	18:00	international friendlies	Hungary	Slovenia	1.18	1514071	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-28	1997175157	TEAM2_SCORE_FT	21:00	laliga2	Sporting Gijon	Deportivo La Coruna	1.4	1392115	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-04-08 20:52:40 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-29	2761094636	HT05	00:30	serie a brazil	Atletico Paranaense	Botafogo	1.42	1492150	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-29	2761094636	TEAM1_SCORE_FT	00:30	serie a brazil	Atletico Paranaense	Botafogo	1.25	1492150	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-29	2761094636	HT1X_HOME	00:30	serie a brazil	Atletico Paranaense	Botafogo	1.18	1492150	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-29	186550019	TEAM1_SCORE_FT	01:00	international friendlies	Haiti	Tunisia	1.57	1512761	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-29	186550019	O15_FT	01:00	international friendlies	Haiti	Tunisia	1.45	1512761	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-29	1852109721	HT1X_HOME	01:20	primera a colombia	Deportivo Pasto	Atletico Nacional	1.36	1506063	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-29	1852109721	O15_FT	01:20	primera a colombia	Deportivo Pasto	Atletico Nacional	1.33	1506063	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-29	894047846	HT1X_HOME	03:00	international friendlies	Mexico	Portugal	1.5	1514464	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-29	894047846	O15_FT	03:00	international friendlies	Mexico	Portugal	1.28	1514464	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-29	1450039736	HT1X_HOME	15:00	international friendlies	Lithuania	Georgia	1.5	1502472	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-29	1814516694	TEAM2_SCORE_FT	15:00	international friendlies	Armenia	Belarus	1.44	1514832	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-29	1814516694	O15_FT	15:00	international friendlies	Armenia	Belarus	1.36	1514832	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-29	1450039736	O15_FT	15:00	international friendlies	Lithuania	Georgia	1.33	1502472	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-29	1814516694	HT1X_HOME	15:00	international friendlies	Armenia	Belarus	1.2	1514832	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-29	3516784386	HT1X_HOME	15:30	cymru premier league	GAP Connah S Quay FC	Barry Town	1.2	1508981	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-29	1156079206	O15_FT	21:00	international friendlies	Colombia	France	1.25	1514465	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-29	795554991	TEAM2_SCORE_FT	23:10	primera a colombia	Internacional de Bogota	Junior	1.31	1506062	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-04-08 20:53:27 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-30	3750642184	TEAM1_SCORE_FT	01:10	primera a colombia	Independiente Medellin	America de Cali	1.22	1506064	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-30	3548028422	O15_FT	14:00	international friendlies	Russia U21	Jordan U23	1.25	1537190	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-30	3954097368	TEAM2_SCORE_FT	15:00	international friendlies	Tunisia U20	Mauritania U20	1.34	1537188	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-30	1368645119	O15_FT	18:00	international friendlies	Cyprus	Moldova	1.28	1507580	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-30	1368645119	TEAM1_SCORE_FT	18:00	international friendlies	Cyprus	Moldova	1.15	1507580	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-30	1836836	HT1X_HOME	18:30	international friendlies	Netherlands U21	Belgium U21	1.28	1514833	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-30	1836836	O15_FT	18:30	international friendlies	Netherlands U21	Belgium U21	1.18	1514833	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-04-08 20:56:21 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-03-31	3698790625	HT1X_HOME	01:00	international friendlies	USA	Portugal	1.7	1503004	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-31	3698790625	TEAM1_SCORE_FT	01:00	international friendlies	USA	Portugal	1.4	1503004	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-31	3698790625	HT05	01:00	international friendlies	USA	Portugal	1.25	1503004	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-31	3698790625	O15_FT	01:00	international friendlies	USA	Portugal	1.17	1503004	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-31	3133921833	HT1X_HOME	01:30	primera división paraguay	Sportivo Luqueno	Cerro Porteno	1.5	1505041	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-03-31	3474981687	O15_FT	01:30	international friendlies	Canada	Tunisia	1.3	1512765	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-04-08 20:56:52 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-01	1122301632	HT1X_HOME	00:30	serie a brazil	Botafogo	Mirassol	1.25	1492191	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-01	1290146881	HT1X_HOME	00:30	serie a brazil	Internacional	Sao Paulo	1.22	1492197	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-01	2206006765	O15_FT	01:00	serie a brazil	Cruzeiro	Vitoria	1.35	1492195	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-01	2807532571	TEAM1_SCORE_FT	01:00	liga profesional argentina	Lanus	Platense	1.33	1492006	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-01	64054079	HT1X_HOME	01:00	serie a brazil	Bahia	Atletico Paranaense	1.17	1492190	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-01	762783920	HT1X_HOME	01:30	primera división paraguay	Sportivo Trinidense	Olimpia	1.5	1505042	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-01	1925207585	TEAM1_SCORE_FT	01:30	serie a brazil	Coritiba	Vasco DA Gama	1.34	1492194	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-01	1925207585	HT1X_HOME	01:30	serie a brazil	Coritiba	Vasco DA Gama	1.25	1492194	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-04-08 20:57:03 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-02	1809547107	TEAM1_SCORE_FT	00:00	serie a brazil	Chapecoense-sc	Atletico-MG	1.4	1492193	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-02	1809547107	HT1X_HOME	00:00	serie a brazil	Chapecoense-sc	Atletico-MG	1.36	1492193	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-02	1609004124	HT1X_HOME	01:20	primera a colombia	Jaguares	Millonarios	1.5	1506073	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-02	4009557744	HT1X_HOME	01:30	liga profesional argentina	Talleres Cordoba	Boca Juniors	1.25	1492010	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-04-08 20:57:27 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-03	4276721283	HT1X_HOME	00:30	liga profesional argentina	San Lorenzo	Estudiantes L.P.	1.3	1492009	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-03	2907191242	TEAM1_SCORE_FT	01:20	primera a colombia	Fortaleza FC	Internacional de Bogota	1.3	1506075	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-03	2907191242	HT1X_HOME	01:20	primera a colombia	Fortaleza FC	Internacional de Bogota	1.25	1506075	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-03	420646050	O15_FT	16:00	championship	QPR	Watford	1.28	1387025	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-03	716854392	O15_FT	16:00	championship	Stoke City	Sheffield Wednesday	1.25	1387029	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-03	2187041947	HT05	20:45	ligue 1	Paris Saint Germain	Toulouse	1.25	1387948	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-03	3514044844	O15_FT	20:45	pro league	Antwerp	Genk	1.22	1536936	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-03	2271463413	HT1X_HOME	21:00	laliga	Rayo Vallecano	Elche	1.15	1391115	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-04-09 17:32:38 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-09	3763175000	HT05	18:00	saudi arabia	Damac	Al-Qadisiyah FC	1.28	1436159	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-09	3763175000	O15_FT	18:00	saudi arabia	Damac	Al-Qadisiyah FC	1.17	1436159	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-09	1445447031	TEAM2_SCORE_FT	19:00	super lig	Rizespor	Samsunspor	1.3	1394675	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-09	1445447031	HT1X_HOME	19:00	super lig	Rizespor	Samsunspor	1.25	1394675	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-09	1404305215	HT1X_HOME	20:00	saudi arabia	Al-Ettifaq	Al Riyadh	1.22	1436163	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-09	1404305215	O15_FT	20:00	saudi arabia	Al-Ettifaq	Al Riyadh	1.22	1436163	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-09	1404305215	TEAM1_SCORE_FT	20:00	saudi arabia	Al-Ettifaq	Al Riyadh	1.15	1436163	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-09	2603556798	TEAM2_SCORE_FT	21:00	uefa europa league	SC Freiburg	Celta Vigo	1.44	1535337	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-09	338522969	HT1X_HOME	21:00	uefa europa league	Bologna	Aston Villa	1.35	1535335	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-09	2603556798	O15_FT	21:00	uefa europa league	SC Freiburg	Celta Vigo	1.35	1535337	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-09	1713788325	TEAM1_SCORE_FT	21:00	uefa europa league	FC Porto	Nottingham Forest	1.3	1535336	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-09	2603556798	HT1X_HOME	21:00	uefa europa league	SC Freiburg	Celta Vigo	1.25	1535337	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-09	1713788325	HT1X_HOME	21:00	uefa europa league	FC Porto	Nottingham Forest	1.2	1535336	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+

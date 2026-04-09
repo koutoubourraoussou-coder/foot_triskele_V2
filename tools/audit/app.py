@@ -826,7 +826,7 @@ with st.sidebar.expander("🧩 DIAG fichiers (existence)"):
 # -----------------------------
 # Contenu principal
 # -----------------------------
-tab1, tab2, tab3, tab4 = st.tabs(["🎯 Tickets", "📄 Fichiers Bruts", "📊 Insights", "💰 Martingale"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["🎯 Tickets", "📄 Fichiers Bruts", "📊 Insights", "💰 Martingale", "🔍 Contrefactuel"])
 
 with tab1:
     st.header(f"Tickets — {period_label}")
@@ -1096,6 +1096,62 @@ def _save_state(s):
     STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
     STATE_FILE.write_text(json.dumps(s, indent=2, ensure_ascii=False))
 
+
+# ── Dual portfolio (A + B) ─────────────────────────────────────────────────
+STATE_FILE_DUAL = ROOT / "data" / "optimizer" / "martingale_dual_state.json"
+
+_PORTFOLIO_CONFIGS = {
+    "portfolio_a": {
+        "label": "A — ML mix (70€)",
+        "reserves0": 65.0,
+        "strategies": {
+            "RANDOM SAFE":    {"mode": "SAFE",    "ml": 3, "ba": 1.0},
+            "RANDOM NORMALE": {"mode": "NORMALE", "ml": 4, "ba": 1.0},
+            "SYSTEM SAFE":    {"mode": "SAFE",    "ml": 4, "ba": 1.0},
+            "SYSTEM NORMALE": {"mode": "NORMALE", "ml": 4, "ba": 1.0},
+        },
+    },
+    "portfolio_b": {
+        "label": "B — ML=3 universel (7€)",
+        "reserves0": 4.20,
+        "strategies": {
+            "RANDOM SAFE":    {"mode": "SAFE",    "ml": 3, "ba": 0.70},
+            "RANDOM NORMALE": {"mode": "NORMALE", "ml": 3, "ba": 0.70},
+            "SYSTEM SAFE":    {"mode": "SAFE",    "ml": 3, "ba": 0.70},
+            "SYSTEM NORMALE": {"mode": "NORMALE", "ml": 3, "ba": 0.70},
+        },
+    },
+}
+
+def _default_dual_state():
+    state = {}
+    for pkey, pcfg in _PORTFOLIO_CONFIGS.items():
+        strats = {}
+        for sname, scfg in pcfg["strategies"].items():
+            b = scfg["ba"]
+            strats[sname] = {"ba": b, "cb": b, "ls": 0, "ps": 0.0,
+                             "mode": scfg["mode"], "ml": scfg["ml"]}
+        state[pkey] = {"strategies": strats, "reserves": pcfg["reserves0"],
+                       "last_updated": str(date.today())}
+    return state
+
+def _load_dual_state():
+    if STATE_FILE_DUAL.exists():
+        return json.loads(STATE_FILE_DUAL.read_text())
+    return _default_dual_state()
+
+def _save_dual_state(s):
+    STATE_FILE_DUAL.parent.mkdir(parents=True, exist_ok=True)
+    STATE_FILE_DUAL.write_text(json.dumps(s, indent=2, ensure_ascii=False))
+
+def _read_tickets_today(filepath: Path) -> list[float]:
+    """Retourne la liste des cotes des tickets du jour (ordre de jeu)."""
+    if not filepath.exists():
+        return []
+    content = filepath.read_text(encoding="utf-8", errors="replace")
+    return [float(m) for m in re.findall(r"cote = ([0-9.]+)", content)]
+
+
 def _next_stake(ba, ls, ps, ml):
     denom = float((2 ** ml) - 1)
     s = ba / denom if ls == 0 else ps * 2.0
@@ -1144,124 +1200,297 @@ def _apply_result(sim, is_win, odd, reserves):
 
 
 with tab4:
-    st.header("💰 Martingale — Suivi en direct")
+    st.header("💰 Martingale")
 
-    state = _load_state()
+    # ── Sélecteur de portfolio ─────────────────────────────────────────────
+    pkey = st.radio(
+        "Portfolio",
+        list(_PORTFOLIO_CONFIGS.keys()),
+        format_func=lambda k: _PORTFOLIO_CONFIGS[k]["label"],
+        horizontal=True,
+        key="pf_choice",
+    )
 
-    # ── Configuration des stratégies actives ─────────────────────────────────
-    with st.expander("⚙️ Stratégies actives", expanded=False):
-        new_active = []
-        cols_cfg = st.columns(4)
-        for i, name in enumerate(_STRAT_CONFIG.keys()):
-            with cols_cfg[i]:
-                if st.checkbox(name, value=(name in state["active"]), key=f"chk_{name}"):
-                    new_active.append(name)
-        if set(new_active) != set(state["active"]):
-            state["active"] = new_active
-            _save_state(state)
-            st.rerun()
+    dual_state = _load_dual_state()
+    pstate = dual_state[pkey]
 
     st.divider()
+    st.subheader(f"📅 {date.today()}")
 
-    # ── Dashboard : état actuel ───────────────────────────────────────────────
-    st.subheader("État actuel")
+    TICKET_FILES_MART = {
+        "RANDOM": ROOT / "data" / "tickets_o15_random_report.txt",
+        "SYSTEM": ROOT / "data" / "tickets_report.txt",
+    }
+    TICKET_STRATS = {
+        "RANDOM": ["RANDOM SAFE", "RANDOM NORMALE"],
+        "SYSTEM": ["SYSTEM SAFE", "SYSTEM NORMALE"],
+    }
 
-    if not state["active"]:
-        st.info("Aucune stratégie active. Cochez-en une dans ⚙️.")
-    else:
-        dash_cols = st.columns(len(state["active"]) + 1)
-        for i, name in enumerate(state["active"]):
-            s = state["strategies"][name]
-            stake = _next_stake(s["ba"], s["ls"], s["ps"], s["ml"])
-            seq = f"L×{s['ls']}" if s["ls"] > 0 else "Départ"
-            with dash_cols[i]:
-                st.metric(name, f"{s['ba']:.0f}€", delta=None)
-                st.caption(f"Séquence : {seq}")
-                st.markdown(f"**Prochaine mise : {stake:.0f}€**")
-        with dash_cols[-1]:
-            st.metric("🏦 Réserves", f"{state['reserves']:.0f}€")
-            st.caption(f"Màj : {state.get('last_updated','—')}")
+    for ttype, strat_names in TICKET_STRATS.items():
+        cotes = _read_tickets_today(TICKET_FILES_MART[ttype])
+        st.markdown(f"### 🎟️ {ttype}")
 
-    # ── Modifier l'état manuellement ─────────────────────────────────────────
-    with st.expander("✏️ Modifier l'état actuel", expanded=not STATE_FILE.exists()):
-        st.caption("Mets à jour ta bankroll réelle, ta séquence et les réserves.")
-        edit_strat = st.selectbox("Stratégie à modifier", list(_STRAT_CONFIG.keys()), key="edit_sel")
-        s_edit = state["strategies"][edit_strat]
-        ec1, ec2, ec3, ec4 = st.columns(4)
-        with ec1:
-            new_ba = st.number_input("Bankroll (€)", min_value=0.0, value=float(s_edit["ba"]), step=1.0, key="edit_ba")
-        with ec2:
-            new_ls = st.number_input("Défaites en cours (L×)", min_value=0, max_value=10, value=int(s_edit["ls"]), step=1, key="edit_ls")
-        with ec3:
-            new_ps = st.number_input("Mise précédente (€)", min_value=0.0, value=float(s_edit["ps"]), step=1.0, key="edit_ps")
-        with ec4:
-            new_cb = st.number_input("Cycle base (€)", min_value=0.0, value=float(s_edit["cb"]), step=1.0, key="edit_cb")
-        new_reserves = st.number_input("Réserves communes (€)", min_value=0.0, value=float(state["reserves"]), step=10.0, key="edit_res")
-        if st.button("💾 Enregistrer l'état", type="primary"):
-            state["strategies"][edit_strat].update({"ba": new_ba, "ls": new_ls, "ps": new_ps, "cb": new_cb})
-            state["reserves"] = new_reserves
-            state["last_updated"] = str(date.today())
-            _save_state(state)
-            st.success("État enregistré !")
-            st.rerun()
+        if not cotes:
+            st.info(f"Pas de ticket {ttype} aujourd'hui.")
+            st.divider()
+            continue
 
-    st.divider()
+        n = len(cotes)
+        labels = ["Départ"] + [f"Après gain {i}" for i in range(1, n)]
 
-    # ── Simulateur du jour ────────────────────────────────────────────────────
-    st.subheader("Simulateur du jour")
+        # Construire la table de projection pour chaque stratégie
+        rows = []
+        for sname in strat_names:
+            s = copy.deepcopy(pstate["strategies"][sname])
+            res_tmp = pstate["reserves"]
+            row = {"Stratégie": sname}
+            for i, (label, cote) in enumerate(zip(labels, cotes)):
+                mise = _next_stake(s["ba"], s["ls"], s["ps"], s["ml"])
+                row[label] = f"{mise:.2f}€"
+                # Simuler un gain pour le ticket suivant
+                if i < n - 1:
+                    s, res_tmp = _apply_result(s, True, cote, res_tmp)
+            rows.append(row)
 
-    if not state["active"]:
-        st.info("Activez au moins une stratégie.")
-    else:
-        sel = st.selectbox("Stratégie à simuler", state["active"], key="sim_sel")
-        n_tickets = st.number_input("Nombre de tickets aujourd'hui", min_value=1, max_value=6, value=2, step=1, key="sim_n")
+        df_mise = pd.DataFrame(rows).set_index("Stratégie")
+        st.dataframe(df_mise, use_container_width=True)
 
-        st.write("---")
-        sim = copy.deepcopy(state["strategies"][sel])
-        sim_reserves = state["reserves"]
-        sim_log = []
-
-        for i in range(int(n_tickets)):
-            stake = _next_stake(sim["ba"], sim["ls"], sim["ps"], sim["ml"])
-            st.markdown(f"#### Ticket {i+1} — mise : **{stake:.0f}€**")
-
-            rcol1, rcol2 = st.columns(2)
-            with rcol1:
-                res = st.radio("Résultat", ["✅ Victoire", "❌ Défaite"],
-                               key=f"sim_res_{sel}_{i}", horizontal=True)
-            is_win = res == "✅ Victoire"
-
-            odd = 1.0
-            if is_win:
-                with rcol2:
-                    odd = st.number_input("Cote", min_value=1.01, max_value=100.0,
-                                          value=2.50, step=0.05, key=f"sim_odd_{sel}_{i}")
-
-            sim, sim_reserves = _apply_result(sim, is_win, odd, sim_reserves)
-            note = sim.pop("note", "")
-            if note:
-                st.caption(note)
-            st.caption(f"→ Bankroll : {sim['ba']:.0f}€  |  Réserves : {sim_reserves:.0f}€")
-            sim_log.append({"ticket": i+1, "mise": stake, "résultat": res, "note": note})
-            st.write("")
-
+        # Légende des cotes
+        st.caption("  |  ".join(
+            f"Ticket {i+1} : cote {c:.2f}" for i, c in enumerate(cotes)
+        ))
         st.divider()
-        st.markdown(f"**État final simulé** : {sel} = **{sim['ba']:.0f}€** | Séquence = L×{sim['ls']} | Réserves = **{sim_reserves:.0f}€**")
 
-        if st.button("✅ Confirmer — enregistrer ces résultats", type="primary"):
-            state["strategies"][sel] = sim
-            state["reserves"] = sim_reserves
-            state["last_updated"] = str(date.today())
-            _save_state(state)
-            st.success("État mis à jour !")
-            st.rerun()
+    # ── État bankrolls ─────────────────────────────────────────────────────
+    with st.expander("📊 État actuel des bankrolls"):
+        cols_st = st.columns(5)
+        for i, (sname, s) in enumerate(pstate["strategies"].items()):
+            with cols_st[i]:
+                mise = _next_stake(s["ba"], s["ls"], s["ps"], s["ml"])
+                short = sname.replace("RANDOM ", "R·").replace("SYSTEM ", "S·")
+                seq_str = f"L×{s['ls']}" if s["ls"] > 0 else "✓"
+                st.metric(short, f"{s['ba']:.2f}€")
+                st.caption(f"{seq_str} | {mise:.2f}€")
+        with cols_st[4]:
+            st.metric("🏦 Réserves", f"{pstate['reserves']:.2f}€")
+            st.caption(pstate.get("last_updated", "—"))
 
-    st.divider()
 
-    # ── Reset complet ─────────────────────────────────────────────────────────
-    with st.expander("🔄 Réinitialiser l'état (nouveau départ)"):
-        st.warning("Remet toutes les bankrolls à 100€ et les réserves à 600€.")
-        if st.button("Réinitialiser", type="secondary"):
-            _save_state(_default_state())
-            st.success("État réinitialisé.")
-            st.rerun()
+# ──────────────────────────────────────────────────────────────────────────────
+# TAB 5 — ANALYSE CONTREFACTUELLE v2
+# ──────────────────────────────────────────────────────────────────────────────
+with tab5:
+    st.header("🔍 Analyse Contrefactuelle v2")
+    st.markdown(
+        "Pour chaque journée, le ticket joué est positionné parmi **tous les tickets 3-4 legs possibles** "
+        "dans le pool effectif de ce jour. "
+        "**v2 :** comparaison sur les **résultats réels** (colonne 9 de predictions.tsv) — "
+        "chaque combo est marquée WIN ou LOSS selon que tous ses picks ont result=1."
+    )
+    st.success(
+        "**v2 — résultats réels disponibles.** "
+        "Les picks non joués ont leur résultat réel dans predictions.tsv (1=gagné, 0=perdu). "
+        "Le flag CATASTROPHIQUE signifie : ticket perdu alors que des alternatives gagnantes existaient."
+    )
+
+    # Importer le script contrefactuel (chemin relatif au fichier app.py)
+    import importlib.util
+    _cf_path = Path(__file__).parent / "counterfactual.py"
+
+    if not _cf_path.exists():
+        st.error(f"Script counterfactual.py introuvable : {_cf_path}")
+    else:
+        spec = importlib.util.spec_from_file_location("counterfactual", _cf_path)
+        _cf_mod = importlib.util.module_from_spec(spec)
+        try:
+            spec.loader.exec_module(_cf_mod)
+            _cf_available = True
+        except Exception as e:
+            st.error(f"Erreur au chargement du script : {e}")
+            _cf_available = False
+
+        if _cf_available:
+            cf_ctrl1, cf_ctrl2, cf_ctrl3 = st.columns([1, 1, 2])
+            with cf_ctrl1:
+                cf_days = st.number_input(
+                    "Derniers N jours",
+                    min_value=1, max_value=200, value=30, step=1,
+                    key="cf_days"
+                )
+            with cf_ctrl2:
+                cf_min_odd = st.number_input(
+                    "Cote min pick",
+                    min_value=1.0, max_value=3.0, value=1.15, step=0.05,
+                    key="cf_min_odd"
+                )
+
+            # Filtre par flag
+            _FLAG_OPTIONS = ["Tous", "CATASTROPHIQUE", "MALCHANCEUX", "OPTIMAL", "BON_CHOIX_MALCHANCEUX"]
+            with cf_ctrl3:
+                cf_flag_filter = st.selectbox("Filtrer par flag", _FLAG_OPTIONS, key="cf_flag_filter")
+
+            cf_run = st.button("▶ Lancer l'analyse", type="primary", key="cf_run")
+
+            if cf_run:
+                with st.spinner("Calcul en cours…"):
+                    try:
+                        cf_results = _cf_mod.run_counterfactual(
+                            days=int(cf_days),
+                            output_path=None,
+                            verbose=False,
+                            min_odd=float(cf_min_odd),
+                        )
+                    except Exception as e:
+                        st.error(f"Erreur lors de l'analyse : {e}")
+                        cf_results = []
+
+                if not cf_results:
+                    st.warning("Aucun résultat. Vérifiez que les archives existent.")
+                else:
+                    # ── Construire le DataFrame ──────────────────────────────────
+                    rows = []
+                    for day_res in cf_results:
+                        if day_res.get("status") != "OK":
+                            continue
+                        n_won = day_res.get("n_won", 0)
+                        n_combos = day_res.get("n_combos", 0)
+                        win_ratio = day_res.get("win_ratio_pool", 0)
+                        for t in day_res.get("tickets_joues", []):
+                            pct  = t.get("percentile_odd")
+                            rank = t.get("rank", "?")
+                            flag = t.get("flag", "")
+                            verdict = t.get("verdict", "?")
+                            picks_str = "+".join(
+                                p.get("bet_key", "?") for p in t.get("picks", [])[:4]
+                            )
+                            rows.append({
+                                "Date":         day_res["date"],
+                                "Ticket":       picks_str or t["ticket_id"][:30],
+                                "Cote jouée":   round(t["total_odd"], 2),
+                                "Résultat":     verdict,
+                                "Rang":         f"{rank}/{n_combos}",
+                                "Percentile":   f"{pct:.0f}%" if pct is not None else "N/A",
+                                "Combos gagnantes": f"{n_won}/{n_combos} ({win_ratio:.1f}%)",
+                                "Flag":         flag,
+                                # valeurs numériques pour filtre/stats
+                                "_pct_num":     pct,
+                                "_flag_raw":    flag,
+                                "_verdict":     verdict,
+                            })
+
+                    if not rows:
+                        st.info("Aucun ticket joué avec statut décidé sur la période.")
+                    else:
+                        df_cf_full = pd.DataFrame(rows)
+
+                        # Appliquer le filtre par flag
+                        if cf_flag_filter != "Tous":
+                            df_cf = df_cf_full[df_cf_full["_flag_raw"] == cf_flag_filter].copy()
+                        else:
+                            df_cf = df_cf_full.copy()
+
+                        # ── Métriques globales (sur toutes les données, pas filtrées) ──
+                        n_total    = len(df_cf_full)
+                        n_catastro = (df_cf_full["_flag_raw"] == "CATASTROPHIQUE").sum()
+                        n_malch    = (df_cf_full["_flag_raw"] == "MALCHANCEUX").sum()
+                        n_optimal  = (df_cf_full["_flag_raw"] == "OPTIMAL").sum()
+                        n_bon      = (df_cf_full["_flag_raw"] == "BON_CHOIX_MALCHANCEUX").sum()
+                        # % du temps dans le top 25%
+                        pcts_all = df_cf_full["_pct_num"].dropna()
+                        pct_top25 = round(100.0 * (pcts_all >= 75).sum() / len(pcts_all), 1) if len(pcts_all) > 0 else 0
+
+                        m1, m2, m3, m4, m5 = st.columns(5)
+                        m1.metric("Tickets analysés", n_total)
+                        m2.metric("CATASTROPHIQUE", n_catastro,
+                                  help="LOSS + alternatives gagnantes disponibles + ticket bas percentile")
+                        m3.metric("MALCHANCEUX", n_malch,
+                                  help="LOSS + peu d'alternatives gagnantes (vraie malchance)")
+                        m4.metric("OPTIMAL", n_optimal,
+                                  help="WIN + ticket dans le top 50% des cotes disponibles")
+                        m5.metric("Top 25% des cotes", f"{pct_top25}% du temps",
+                                  help="Fréquence à laquelle le ticket joué était dans le top 25% du pool")
+
+                        st.divider()
+
+                        # ── Tableau interactif ───────────────────────────────────
+                        st.subheader(f"Détail par ticket {'— filtre: ' + cf_flag_filter if cf_flag_filter != 'Tous' else ''}")
+
+                        def _style_flag_v2(val):
+                            v = str(val)
+                            if v == "CATASTROPHIQUE":
+                                return "background-color: #6b1a1a; color: white; font-weight: bold;"
+                            if v == "MALCHANCEUX":
+                                return "background-color: #4d3500; color: #ffcc44;"
+                            if v == "OPTIMAL":
+                                return "background-color: #1a4d1a; color: #aaffaa; font-weight: bold;"
+                            if v == "BON_CHOIX_MALCHANCEUX":
+                                return "background-color: #2a3a5a; color: #aaccff;"
+                            return ""
+
+                        def _style_verdict(val):
+                            if val == "WIN":
+                                return "color: #4dff88; font-weight: bold;"
+                            if val == "LOSS":
+                                return "color: #ff6666;"
+                            return ""
+
+                        display_cols = ["Date", "Ticket", "Cote jouée", "Résultat",
+                                        "Rang", "Percentile", "Combos gagnantes", "Flag"]
+                        df_display = df_cf[display_cols].copy()
+
+                        styled = (
+                            df_display.style
+                            .applymap(_style_flag_v2, subset=["Flag"])
+                            .applymap(_style_verdict, subset=["Résultat"])
+                        )
+                        st.dataframe(styled, use_container_width=True, height=450)
+
+                        st.divider()
+
+                        # ── Distribution des percentiles ─────────────────────────
+                        st.subheader("Distribution des percentiles de cote sur l'historique")
+                        st.markdown(
+                            "**Lecture :** 100% = meilleure cote disponible ce jour. "
+                            "La zone verte (75-100%) représente le top 25% — "
+                            f"vous y êtes **{pct_top25}% du temps**."
+                        )
+
+                        pcts_num = df_cf_full["_pct_num"].dropna().tolist()
+                        if pcts_num:
+                            df_pct = pd.DataFrame({"Percentile": pcts_num})
+                            hist_data = df_pct["Percentile"].value_counts(bins=10).sort_index()
+                            st.bar_chart(hist_data, height=260)
+
+                        st.divider()
+
+                        # ── Statistique globale clé ──────────────────────────────
+                        with st.expander("Statistiques avancées"):
+                            # Win ratio moyen du pool
+                            win_ratios = [
+                                day_res.get("win_ratio_pool", 0)
+                                for day_res in cf_results
+                                if day_res.get("status") == "OK"
+                            ]
+                            if win_ratios:
+                                avg_wr = sum(win_ratios) / len(win_ratios)
+                                st.metric(
+                                    "Win ratio moyen du pool (toutes combos)",
+                                    f"{avg_wr:.1f}%",
+                                    help="En moyenne, X% des combinaisons possibles auraient gagné."
+                                )
+                            st.caption(
+                                f"Méthode : picks filtrés odd >= {cf_min_odd} | "
+                                "max 50 picks uniques / jour | max 2000 combinaisons | "
+                                "1 pick/match | legs 3 ou 4"
+                            )
+
+                        # Export JSON
+                        st.divider()
+                        with st.expander("Export JSON"):
+                            json_str = json.dumps(cf_results, ensure_ascii=False, indent=2)
+                            st.download_button(
+                                "Télécharger les résultats JSON",
+                                data=json_str,
+                                file_name=f"counterfactual_v2_{date.today()}.json",
+                                mime="application/json",
+                            )
