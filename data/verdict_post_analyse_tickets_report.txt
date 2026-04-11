@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-04-10
+Date run       : 2026-04-11
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (152 ids)
+Whitelist      : ON (155 ids)
 Ignorés (hors whitelist) : 16
-Ignorés (date>=today)    : 3
+Ignorés (date>=today)    : 9
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -1225,10 +1225,18 @@ Ignorés (date>=today)    : 3
    ✅ Leg 3) 20:00 | saudi arabia | Al-Ettifaq vs Al Riyadh | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.22
    ✅ Leg 4) 21:00 | uefa europa league | SC Freiburg vs Celta Vigo | HT 1X Home | [FORT] | odd=1.25
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Vendredi 2026-04-10 19:00→22:20 | code=A2 | odd=2.4
+   id=2026-04-10_1900_b82e105cae_SYS
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 19:00 | ligue 1 | Paris FC vs Monaco | HT 1X Home | [MOYEN PLUS] | odd=1.5
+   ✅ Leg 2) 20:00 | ligue 2 | Annecy vs Montpellier | HT 1X Home | [TRÈS FORT] | odd=1.28
+   ❌ Leg 3) 20:30 | laliga2 | AD Ceuta FC vs Real Sociedad II | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+
 ====================================================================
-TOTAL tickets : 146
+TOTAL tickets : 147
 ✅ WIN     : 53
-❌ LOSS    : 91
+❌ LOSS    : 92
 ⏳ PENDING : 2
 ====================================================================
 

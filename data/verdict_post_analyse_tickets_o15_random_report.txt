@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-04-10
+Date run       : 2026-04-11
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (144 ids)
+Whitelist      : ON (146 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 4
+Ignorés (date>=today)    : 7
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -1206,10 +1206,19 @@ Ignorés (date>=today)    : 4
    ✅ Leg 3) 20:00 | saudi arabia | Al-Ettifaq vs Al Riyadh | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.22
    ✅ Leg 4) 21:00 | uefa europa league | FC Porto vs Nottingham Forest | Over 1.5 (FT) | [FORT] | odd=1.38
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Vendredi 2026-04-10 20:30→22:50 | code=A2 | odd=2.45
+   id=2026-04-10_2030_412d89ad99_O15R
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 20:30 | bundesliga | FC Augsburg vs 1899 Hoffenheim | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
+   ✅ Leg 2) 20:30 | serie b | Frosinone vs Palermo | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ✅ Leg 3) 20:45 | pro league | Charleroi vs Antwerp | Over 1.5 (FT) | [FORT] | odd=1.28
+   ❌ Leg 4) 21:00 | championship | West Brom vs Millwall | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.35
+
 ====================================================================
-TOTAL tickets : 143
+TOTAL tickets : 144
 ✅ WIN     : 63
-❌ LOSS    : 77
+❌ LOSS    : 78
 ⏳ PENDING : 3
 ====================================================================
 
