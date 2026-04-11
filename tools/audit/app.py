@@ -1202,21 +1202,6 @@ def _apply_result(sim, is_win, odd, reserves):
 with tab4:
     st.header("💰 Martingale")
 
-    # ── Sélecteur de portfolio ─────────────────────────────────────────────
-    pkey = st.radio(
-        "Portfolio",
-        list(_PORTFOLIO_CONFIGS.keys()),
-        format_func=lambda k: _PORTFOLIO_CONFIGS[k]["label"],
-        horizontal=True,
-        key="pf_choice",
-    )
-
-    dual_state = _load_dual_state()
-    pstate = dual_state[pkey]
-
-    st.divider()
-    st.subheader(f"📅 {date.today()}")
-
     TICKET_FILES_MART = {
         "RANDOM": ROOT / "data" / "tickets_o15_random_report.txt",
         "SYSTEM": ROOT / "data" / "tickets_report.txt",
@@ -1226,54 +1211,179 @@ with tab4:
         "SYSTEM": ["SYSTEM SAFE", "SYSTEM NORMALE"],
     }
 
-    for ttype, strat_names in TICKET_STRATS.items():
-        cotes = _read_tickets_today(TICKET_FILES_MART[ttype])
-        st.markdown(f"### 🎟️ {ttype}")
+    dual_state = _load_dual_state()
 
-        if not cotes:
-            st.info(f"Pas de ticket {ttype} aujourd'hui.")
+    # ── Sélecteur de vue ───────────────────────────────────────────────────
+    mart_view = st.radio(
+        "Vue",
+        ["📊 Dashboard", "🅰️ Portfolio A", "🅱️ Portfolio B"],
+        horizontal=True,
+        key="mart_view",
+    )
+
+    st.divider()
+    st.subheader(f"📅 {date.today()}")
+
+    # ══════════════════════════════════════════════════════════════════════
+    # DASHBOARD — vue combinée A + B
+    # ══════════════════════════════════════════════════════════════════════
+    if mart_view == "📊 Dashboard":
+
+        # ── Mises combinées par type de ticket ────────────────────────────
+        for ttype, strat_names in TICKET_STRATS.items():
+            cotes = _read_tickets_today(TICKET_FILES_MART[ttype])
+            st.markdown(f"### 🎟️ {ttype}")
+
+            if not cotes:
+                st.info(f"Pas de ticket {ttype} aujourd'hui.")
+                st.divider()
+                continue
+
+            cote_totale = 1.0
+            for c in cotes:
+                cote_totale *= c
+            st.caption("  |  ".join(f"T{i+1}: ×{c:.2f}" for i, c in enumerate(cotes))
+                        + f"   →  cote combinée : **×{cote_totale:.2f}**")
+
+            rows_dash = []
+            for pkey, pcfg in _PORTFOLIO_CONFIGS.items():
+                pstate = dual_state[pkey]
+                safe_name  = [s for s in strat_names if "SAFE"    in s][0]
+                norm_name  = [s for s in strat_names if "NORMALE" in s][0]
+                s_safe = pstate["strategies"][safe_name]
+                s_norm = pstate["strategies"][norm_name]
+                m_safe = _next_stake(s_safe["ba"], s_safe["ls"], s_safe["ps"], s_safe["ml"])
+                m_norm = _next_stake(s_norm["ba"], s_norm["ls"], s_norm["ps"], s_norm["ml"])
+                rows_dash.append({
+                    "Portfolio":   pcfg["label"],
+                    "SAFE mise":   f"{m_safe:.2f}€",
+                    "NORMALE mise":f"{m_norm:.2f}€",
+                    "Total":       f"{m_safe + m_norm:.2f}€",
+                })
+            # Ligne totale
+            vals = [
+                (_next_stake(dual_state[pk]["strategies"][sn]["ba"],
+                             dual_state[pk]["strategies"][sn]["ls"],
+                             dual_state[pk]["strategies"][sn]["ps"],
+                             dual_state[pk]["strategies"][sn]["ml"])
+                 for pk in _PORTFOLIO_CONFIGS)
+                for sn in strat_names
+            ]
+            safe_vals = [
+                _next_stake(dual_state[pk]["strategies"][strat_names[0]]["ba"],
+                            dual_state[pk]["strategies"][strat_names[0]]["ls"],
+                            dual_state[pk]["strategies"][strat_names[0]]["ps"],
+                            dual_state[pk]["strategies"][strat_names[0]]["ml"])
+                for pk in _PORTFOLIO_CONFIGS
+            ]
+            norm_vals = [
+                _next_stake(dual_state[pk]["strategies"][strat_names[1]]["ba"],
+                            dual_state[pk]["strategies"][strat_names[1]]["ls"],
+                            dual_state[pk]["strategies"][strat_names[1]]["ps"],
+                            dual_state[pk]["strategies"][strat_names[1]]["ml"])
+                for pk in _PORTFOLIO_CONFIGS
+            ]
+            total_safe = sum(safe_vals)
+            total_norm = sum(norm_vals)
+            rows_dash.append({
+                "Portfolio":    "**TOTAL A+B**",
+                "SAFE mise":    f"**{total_safe:.2f}€**",
+                "NORMALE mise": f"**{total_norm:.2f}€**",
+                "Total":        f"**{total_safe + total_norm:.2f}€**",
+            })
+
+            df_dash = pd.DataFrame(rows_dash).set_index("Portfolio")
+            st.dataframe(df_dash, use_container_width=True)
             st.divider()
-            continue
 
-        n = len(cotes)
-        labels = ["Départ"] + [f"Après gain {i}" for i in range(1, n)]
+        # ── État par portfolio ─────────────────────────────────────────────
+        st.subheader("🏦 État des portfolios")
+        col_a, col_b = st.columns(2)
 
-        # Construire la table de projection pour chaque stratégie
-        rows = []
-        for sname in strat_names:
-            s = copy.deepcopy(pstate["strategies"][sname])
-            res_tmp = pstate["reserves"]
-            row = {"Stratégie": sname}
-            for i, (label, cote) in enumerate(zip(labels, cotes)):
-                mise = _next_stake(s["ba"], s["ls"], s["ps"], s["ml"])
-                row[label] = f"{mise:.2f}€"
-                # Simuler un gain pour le ticket suivant
-                if i < n - 1:
-                    s, res_tmp = _apply_result(s, True, cote, res_tmp)
-            rows.append(row)
+        for col, pkey in zip([col_a, col_b], ["portfolio_a", "portfolio_b"]):
+            pstate = dual_state[pkey]
+            pcfg   = _PORTFOLIO_CONFIGS[pkey]
+            with col:
+                st.markdown(f"**{pcfg['label']}**  |  Réserves : {pstate['reserves']:.2f}€")
+                for sname, s in pstate["strategies"].items():
+                    mise        = _next_stake(s["ba"], s["ls"], s["ps"], s["ml"])
+                    coups_avt   = s["ml"] - s["ls"]           # exact, jamais trompeur
+                    serie_str   = f"L×{s['ls']}" if s["ls"] > 0 else "✓"
+                    next_loss   = f"{mise * 2:.2f}€"
+                    short       = sname.replace("RANDOM ", "R·").replace("SYSTEM ", "S·")
+                    # Manque pour doubling (SAFE uniquement)
+                    if s["mode"] == "SAFE":
+                        manque = max(0.0, s["cb"] * 2.0 - s["ba"])
+                        extra  = f"  |  manque doubling : {manque:.2f}€" if manque > 0 else "  |  doubling atteint ✅"
+                    else:
+                        extra = ""
+                    st.caption(
+                        f"**{short}** — {serie_str} — mise : {mise:.2f}€"
+                        f"  |  si perdu → {next_loss}"
+                        f"  |  encore {coups_avt} coup(s) avant réserves"
+                        + extra
+                    )
+                st.caption(f"_Màj : {pstate.get('last_updated', '—')}_")
 
-        df_mise = pd.DataFrame(rows).set_index("Stratégie")
-        st.dataframe(df_mise, use_container_width=True)
+    # ══════════════════════════════════════════════════════════════════════
+    # VUE PORTFOLIO A ou B — table de projection
+    # ══════════════════════════════════════════════════════════════════════
+    else:
+        pkey   = "portfolio_a" if mart_view == "🅰️ Portfolio A" else "portfolio_b"
+        pstate = dual_state[pkey]
+        pcfg   = _PORTFOLIO_CONFIGS[pkey]
 
-        # Légende des cotes
-        st.caption("  |  ".join(
-            f"Ticket {i+1} : cote {c:.2f}" for i, c in enumerate(cotes)
-        ))
-        st.divider()
+        st.markdown(f"**{pcfg['label']}** — Réserves : **{pstate['reserves']:.2f}€**")
 
-    # ── État bankrolls ─────────────────────────────────────────────────────
-    with st.expander("📊 État actuel des bankrolls"):
-        cols_st = st.columns(5)
-        for i, (sname, s) in enumerate(pstate["strategies"].items()):
-            with cols_st[i]:
-                mise = _next_stake(s["ba"], s["ls"], s["ps"], s["ml"])
-                short = sname.replace("RANDOM ", "R·").replace("SYSTEM ", "S·")
-                seq_str = f"L×{s['ls']}" if s["ls"] > 0 else "✓"
-                st.metric(short, f"{s['ba']:.2f}€")
-                st.caption(f"{seq_str} | {mise:.2f}€")
-        with cols_st[4]:
-            st.metric("🏦 Réserves", f"{pstate['reserves']:.2f}€")
-            st.caption(pstate.get("last_updated", "—"))
+        for ttype, strat_names in TICKET_STRATS.items():
+            cotes = _read_tickets_today(TICKET_FILES_MART[ttype])
+            st.markdown(f"### 🎟️ {ttype}")
+
+            if not cotes:
+                st.info(f"Pas de ticket {ttype} aujourd'hui.")
+                st.divider()
+                continue
+
+            n      = len(cotes)
+            labels = ["Départ"] + [f"Après gain {i}" for i in range(1, n)]
+
+            rows = []
+            for sname in strat_names:
+                s       = copy.deepcopy(pstate["strategies"][sname])
+                res_tmp = pstate["reserves"]
+                row     = {"Stratégie": sname}
+                for i, (label, cote) in enumerate(zip(labels, cotes)):
+                    mise       = _next_stake(s["ba"], s["ls"], s["ps"], s["ml"])
+                    row[label] = f"{mise:.2f}€"
+                    if i < n - 1:
+                        s, res_tmp = _apply_result(s, True, cote, res_tmp)
+                rows.append(row)
+
+            df_mise = pd.DataFrame(rows).set_index("Stratégie")
+            st.dataframe(df_mise, use_container_width=True)
+            st.caption("  |  ".join(
+                f"T{i+1}: ×{c:.2f}" for i, c in enumerate(cotes)
+            ))
+            st.divider()
+
+        # ── État bankrolls détaillé ────────────────────────────────────────
+        with st.expander("📊 État détaillé des stratégies"):
+            for sname, s in pstate["strategies"].items():
+                mise      = _next_stake(s["ba"], s["ls"], s["ps"], s["ml"])
+                coups_avt = s["ml"] - s["ls"]
+                serie_str = f"L×{s['ls']}" if s["ls"] > 0 else "✓"
+                next_loss = f"{mise * 2:.2f}€"
+                if s["mode"] == "SAFE":
+                    manque = max(0.0, s["cb"] * 2.0 - s["ba"])
+                    extra  = f"  |  manque doubling : {manque:.2f}€" if manque > 0 else "  |  doubling atteint ✅"
+                else:
+                    extra = ""
+                st.caption(
+                    f"**{sname}** — bankroll {s['ba']:.2f}€ — {serie_str}"
+                    f"  |  mise : {mise:.2f}€  |  si perdu → {next_loss}"
+                    f"  |  encore {coups_avt} coup(s) avant réserves"
+                    + extra
+                )
 
 
 # ──────────────────────────────────────────────────────────────────────────────
