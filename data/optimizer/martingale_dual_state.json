@@ -1,0 +1,78 @@
+{
+  "portfolio_a": {
+    "strategies": {
+      "RANDOM SAFE": {
+        "ba": 0.857142857,
+        "cb": 1.0,
+        "ls": 1,
+        "ps": 0.142857143,
+        "mode": "SAFE",
+        "ml": 3
+      },
+      "RANDOM NORMALE": {
+        "ba": 0.933333333,
+        "cb": 1.0,
+        "ls": 1,
+        "ps": 0.066666667,
+        "mode": "NORMALE",
+        "ml": 4
+      },
+      "SYSTEM SAFE": {
+        "ba": 0.933333333,
+        "cb": 1.0,
+        "ls": 1,
+        "ps": 0.066666667,
+        "mode": "SAFE",
+        "ml": 4
+      },
+      "SYSTEM NORMALE": {
+        "ba": 0.933333333,
+        "cb": 1.0,
+        "ls": 1,
+        "ps": 0.066666667,
+        "mode": "NORMALE",
+        "ml": 4
+      }
+    },
+    "reserves": 65.0,
+    "last_updated": "2026-04-10"
+  },
+  "portfolio_b": {
+    "strategies": {
+      "RANDOM SAFE": {
+        "ba": 0.6,
+        "cb": 0.7,
+        "ls": 1,
+        "ps": 0.1,
+        "mode": "SAFE",
+        "ml": 3
+      },
+      "RANDOM NORMALE": {
+        "ba": 0.6,
+        "cb": 0.7,
+        "ls": 1,
+        "ps": 0.1,
+        "mode": "NORMALE",
+        "ml": 3
+      },
+      "SYSTEM SAFE": {
+        "ba": 0.6,
+        "cb": 0.7,
+        "ls": 1,
+        "ps": 0.1,
+        "mode": "SAFE",
+        "ml": 3
+      },
+      "SYSTEM NORMALE": {
+        "ba": 0.6,
+        "cb": 0.7,
+        "ls": 1,
+        "ps": 0.1,
+        "mode": "NORMALE",
+        "ml": 3
+      }
+    },
+    "reserves": 4.2,
+    "last_updated": "2026-04-10"
+  }
+}

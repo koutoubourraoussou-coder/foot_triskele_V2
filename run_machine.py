@@ -524,6 +524,12 @@ def main():
             env=env_post,
         )
 
+        run(
+            [sys.executable, str(ROOT / "update_martingale_state.py")],
+            "Mise à jour état Martingale (update_martingale_state.py)",
+            env=env_post,
+        )
+
     print("Mission effectuée.")
 
 
