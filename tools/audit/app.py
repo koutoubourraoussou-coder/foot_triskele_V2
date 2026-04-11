@@ -1264,10 +1264,10 @@ with tab4:
                                     strats_sim[sn]["ps"], strats_sim[sn]["ml"])
                         for sn in strat_names
                     )
-                    short_lbl = "A" if pkey == "portfolio_a" else "B"
-                    row[f"Pf {short_lbl}"] = f"{mise_t:.2f}€"
+                    lbl = "Portfolio A (70€)" if pkey == "portfolio_a" else "Portfolio B (7€)"
+                    row[lbl] = f"{mise_t:.2f}€"
                     total_ab += mise_t
-                row["Total A+B"] = f"**{total_ab:.2f}€**"
+                row["Total A+B"] = f"{total_ab:.2f}€"
                 rows_dash.append(row)
 
             df_dash = pd.DataFrame(rows_dash).set_index("Tranche")
