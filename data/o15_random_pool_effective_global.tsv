@@ -1041,3 +1041,14 @@ TSV: 2026-04-12	1758075922	O15_FT	23:00	serie a brazil	Fluminense	Flamengo	1.53	
 TSV: 2026-04-12	1110868221	O15_FT	23:10	primera a colombia	Deportivo Cali	Llaneros	1.38	1506015	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-12	512818220	O15_FT	23:30	serie a brazil	Cruzeiro	RB Bragantino	1.33	1492213	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_EFFECTIVE | 2026-04-13 01:49:06 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-13	283118251	O15_FT	19:00	liga portugal 2	Lusitânia Lourosa	FC Porto B	1.36	1398226	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-13	1899115061	O15_FT	19:00	super lig	Rizespor	Gaziantep FK	1.22	1394693	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-13	3343579763	O15_FT	20:00	superligaen	Kisvarda FC	Debreceni VSC	1.25	1380344	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-13	2565496743	O15_FT	20:45	serie a italia	Fiorentina	Lazio	1.4	1378178	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-13	901948894	O15_FT	20:45	ligue 2	Rodez	Estac Troyes	1.22	1389372	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-13	2973173966	O15_FT	21:00	laliga	Levante	Getafe	1.55	1391123	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-13	2527207444	O15_FT	21:15	liga portugal	Tondela	GIL Vicente	1.42	1396497	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

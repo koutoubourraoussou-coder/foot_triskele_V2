@@ -1,43 +1,12 @@
 TICKETS TRISKÈLE — O15_RANDOM_ALL — depuis predictions.tsv
 ==========================================================
 
-📅 Dimanche 2026-04-12 — Tranche 1 (fenêtre ~155min)
----------------------------------------------------
+📅 Lundi 2026-04-13 — Tranche 1 (fenêtre ~120min)
+------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-12_0230_760d176292_O15R — cote = 2.43 — fenêtre 02:30 → 06:55  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-13_1900_69a9da2635_O15R — cote = 2.57 — fenêtre 19:00 → 22:50  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 02:30 | mls | Chicago Fire vs Atlanta United FC | Over 1.5 (FT) | FORT PLUS | odd=1.2
-  2) 03:20 | primera a colombia | Independiente Medellin vs Atletico Nacional | Over 1.5 (FT) | MOYEN PLUS | odd=1.22
-  3) 03:30 | mls | Colorado Rapids vs Houston Dynamo | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
-  4) 05:05 | liga mx | Club America vs Cruz Azul | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
-
-📅 Dimanche 2026-04-12 — Tranche 2 (fenêtre ~225min)
----------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-12_1230_2fb90ebe58_O15R — cote = 2.8 — fenêtre 12:30 → 18:05  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 12:30 | serie a italia | Genoa vs Sassuolo | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.38
-  2) 16:15 | laliga2 | Huesca vs Deportivo La Coruna | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.45
-  3) 16:15 | laliga | Mallorca vs Rayo Vallecano | Over 1.5 (FT) | MOYEN | odd=1.4
-
-📅 Dimanche 2026-04-12 — Tranche 3
----------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-12_1830_3ad9dcc6ba_O15R — cote = 2.41 — fenêtre 18:30 → 20:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 18:30 | laliga2 | Cadiz vs FC Andorra | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.45
-  2) 18:30 | laliga2 | Mirandes vs Castellón | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
-  3) 18:30 | laliga | Celta Vigo vs Oviedo | Over 1.5 (FT) | TRÈS FORT | odd=1.33
-
-📅 Dimanche 2026-04-12 — Tranche 4 (fenêtre ~135min)
----------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 4.1 (A2) — id=2026-04-12_2045_3cfda395cb_O15R — cote = 2.55 — fenêtre 20:45 → 00:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 20:45 | ligue 1 | Lyon vs Lorient | Over 1.5 (FT) | FORT PLUS | odd=1.28
-  2) 21:00 | laliga | Athletic Club vs Villarreal | Over 1.5 (FT) | MOYEN PLUS | odd=1.3
-  3) 23:00 | serie a brazil | Fluminense vs Flamengo | Over 1.5 (FT) | EXPLOSION | odd=1.53
+  1) 19:00 | super lig | Rizespor vs Gaziantep FK | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  2) 19:00 | liga portugal 2 | Lusitânia Lourosa vs FC Porto B | Over 1.5 (FT) | EXPLOSION | odd=1.36
+  3) 21:00 | laliga | Levante vs Getafe | Over 1.5 (FT) | FORT PLUS | odd=1.55

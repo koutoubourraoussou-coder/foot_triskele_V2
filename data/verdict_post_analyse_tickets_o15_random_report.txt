@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-04-12
+Date run       : 2026-04-13
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (150 ids)
+Whitelist      : ON (151 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 13
+Ignorés (date>=today)    : 3
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -1232,10 +1232,43 @@ Ignorés (date>=today)    : 13
    ✅ Leg 3) 18:30 | laliga2 | Malaga vs Las Palmas | Over 1.5 (FT) | [FORT PLUS] | odd=1.33
    ✅ Leg 4) 19:00 | mls | Toronto FC vs FC Cincinnati | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.25
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Dimanche 2026-04-12 02:30→06:55 | code=A2 | odd=2.43
+   id=2026-04-12_0230_760d176292_O15R
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 02:30 | mls | Chicago Fire vs Atlanta United FC | Over 1.5 (FT) | [FORT PLUS] | odd=1.2
+   ✅ Leg 2) 03:20 | primera a colombia | Independiente Medellin vs Atletico Nacional | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.22
+   ✅ Leg 3) 03:30 | mls | Colorado Rapids vs Houston Dynamo | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+   ✅ Leg 4) 05:05 | liga mx | Club America vs Cruz Azul | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 2 | Dimanche 2026-04-12 12:30→18:05 | code=A2 | odd=2.8
+   id=2026-04-12_1230_2fb90ebe58_O15R
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 12:30 | serie a italia | Genoa vs Sassuolo | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.38
+   ✅ Leg 2) 16:15 | laliga | Mallorca vs Rayo Vallecano | Over 1.5 (FT) | [MOYEN] | odd=1.4
+   ✅ Leg 3) 16:15 | laliga2 | Huesca vs Deportivo La Coruna | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.45
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 3 | Dimanche 2026-04-12 18:30→20:20 | code=A2 | odd=2.41
+   id=2026-04-12_1830_3ad9dcc6ba_O15R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 18:30 | laliga | Celta Vigo vs Oviedo | Over 1.5 (FT) | [TRÈS FORT] | odd=1.33
+   ❌ Leg 2) 18:30 | laliga2 | Cadiz vs FC Andorra | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.45
+   ✅ Leg 3) 18:30 | laliga2 | Mirandes vs Castellón | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 4 | Dimanche 2026-04-12 20:45→00:50 | code=A2 | odd=2.55
+   id=2026-04-12_2045_3cfda395cb_O15R
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 20:45 | ligue 1 | Lyon vs Lorient | Over 1.5 (FT) | [FORT PLUS] | odd=1.28
+   ✅ Leg 2) 21:00 | laliga | Athletic Club vs Villarreal | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.3
+   ✅ Leg 3) 23:00 | serie a brazil | Fluminense vs Flamengo | Over 1.5 (FT) | [EXPLOSION] | odd=1.53
+
 ====================================================================
-TOTAL tickets : 146
-✅ WIN     : 63
-❌ LOSS    : 80
+TOTAL tickets : 150
+✅ WIN     : 65
+❌ LOSS    : 82
 ⏳ PENDING : 3
 ====================================================================
 

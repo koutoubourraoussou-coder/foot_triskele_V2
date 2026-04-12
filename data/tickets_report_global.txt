@@ -2126,3 +2126,15 @@ Aucun ticket.
   1) 18:30 | laliga2 | Cadiz vs FC Andorra | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.45
   2) 23:15 | primera división paraguay | Rubio NU vs Olimpia | HT 1X Home | MOYEN PLUS | odd=1.62
   3) 23:30 | serie a brazil | Cruzeiro vs RB Bragantino | HT 1X Home | MOYEN PLUS | odd=1.18
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-04-13 01:49:06 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-13_2045_af2c771daf_SYS — cote = 2.7 — fenêtre 20:45 → 23:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:45 | ligue 2 | Rodez vs Estac Troyes | HT 1X Home | TRÈS FORT | odd=1.5
+  2) 21:15 | liga portugal | Tondela vs GIL Vicente | HT 1X Home | MOYEN PLUS | odd=1.44
+  3) 21:30 | liga profesional argentina | Defensa Y Justicia vs Talleres Cordoba | HT 1X Home | FORT | odd=1.25

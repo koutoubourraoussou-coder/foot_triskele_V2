@@ -1379,3 +1379,21 @@ TSV: 2026-04-12	4242171004	O15_FT	23:15	primera división paraguay	Rubio NU	Olim
 TSV: 2026-04-12	405735400	O15_FT	23:30	serie a brazil	Corinthians	Palmeiras	1.42	1492212	O15_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-04-12	512818220	O15_FT	23:30	serie a brazil	Cruzeiro	RB Bragantino	1.33	1492213	O15_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_BASE | 2026-04-13 01:49:06 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-13	3749558355	O15_FT	03:00	liga mx	Toluca	Atletico San Luis	1.17	1492588	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	972542306	O15_FT	03:30	primera a colombia	Internacional de Bogota	Alianza Valledupar	1.4	1506086	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	283118251	O15_FT	19:00	liga portugal 2	Lusitânia Lourosa	FC Porto B	1.36	1398226	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	1702953837	O15_FT	19:00	super lig	Eyüpspor	Samsunspor	1.33	1394688	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	1899115061	O15_FT	19:00	super lig	Rizespor	Gaziantep FK	1.22	1394693	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	3343579763	O15_FT	20:00	superligaen	Kisvarda FC	Debreceni VSC	1.25	1380344	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	225141885	O15_FT	20:30	laliga2	Valladolid	Eibar	1.42	1392149	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	2565496743	O15_FT	20:45	serie a italia	Fiorentina	Lazio	1.4	1378178	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	901948894	O15_FT	20:45	ligue 2	Rodez	Estac Troyes	1.22	1389372	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	2973173966	O15_FT	21:00	laliga	Levante	Getafe	1.55	1391123	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	3046834749	O15_FT	21:00	premier league	Manchester United	Leeds	1.22	1379285	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	2527207444	O15_FT	21:15	liga portugal	Tondela	GIL Vicente	1.42	1396497	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	3413703777	O15_FT	21:30	liga profesional argentina	Defensa Y Justicia	Talleres Cordoba	1.57	1492016	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	1824509513	O15_FT	21:30	liga profesional argentina	Sarmiento Junin	Gimnasia L.P.	1.57	1492026	O15_RANDOM_POOL_BASE	predictions.tsv
+
