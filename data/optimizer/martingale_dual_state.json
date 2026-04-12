@@ -18,24 +18,24 @@
         "ml": 4
       },
       "SYSTEM SAFE": {
-        "ba": 0.933333333,
+        "ba": 0.0,
         "cb": 1.0,
-        "ls": 1,
-        "ps": 0.066666667,
+        "ls": 4,
+        "ps": 0.5333333309999999,
         "mode": "SAFE",
         "ml": 4
       },
       "SYSTEM NORMALE": {
-        "ba": 0.933333333,
+        "ba": 0.0,
         "cb": 1.0,
-        "ls": 1,
-        "ps": 0.066666667,
+        "ls": 4,
+        "ps": 0.5333333309999999,
         "mode": "NORMALE",
         "ml": 4
       }
     },
     "reserves": 65.0,
-    "last_updated": "2026-04-10"
+    "last_updated": "2026-04-11"
   },
   "portfolio_b": {
     "strategies": {
@@ -56,23 +56,23 @@
         "ml": 3
       },
       "SYSTEM SAFE": {
-        "ba": 0.6,
+        "ba": 0.0,
         "cb": 0.7,
-        "ls": 1,
-        "ps": 0.1,
+        "ls": 4,
+        "ps": 0.7999999999999999,
         "mode": "SAFE",
         "ml": 3
       },
       "SYSTEM NORMALE": {
-        "ba": 0.6,
+        "ba": 0.0,
         "cb": 0.7,
-        "ls": 1,
-        "ps": 0.1,
+        "ls": 4,
+        "ps": 0.7999999999999999,
         "mode": "NORMALE",
         "ml": 3
       }
     },
-    "reserves": 4.2,
-    "last_updated": "2026-04-10"
+    "reserves": 2.6000000000000005,
+    "last_updated": "2026-04-11"
   }
 }

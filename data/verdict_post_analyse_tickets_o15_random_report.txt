@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-04-11
+Date run       : 2026-04-12
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (146 ids)
+Whitelist      : ON (150 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 7
+Ignorés (date>=today)    : 13
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -1215,10 +1215,27 @@ Ignorés (date>=today)    : 7
    ✅ Leg 3) 20:45 | pro league | Charleroi vs Antwerp | Over 1.5 (FT) | [FORT] | odd=1.28
    ❌ Leg 4) 21:00 | championship | West Brom vs Millwall | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.35
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Samedi 2026-04-11 15:00→17:50 | code=A2 | odd=2.42
+   id=2026-04-11_1500_4d5c319cb4_O15R
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 15:00 | serie a italia | Cagliari vs Cremonese | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.42
+   ✅ Leg 2) 15:00 | serie b | Juve Stabia vs Cesena | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
+   ❌ Leg 3) 16:00 | championship | Leicester vs Swansea | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Samedi 2026-04-11 18:00→20:50 | code=A2 | odd=2.43
+   id=2026-04-11_1800_41051f0552_O15R
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 18:00 | super league switzerland | FC Winterthur vs Grasshoppers | Over 1.5 (FT) | [TRÈS FORT] | odd=1.22
+   ❌ Leg 2) 18:00 | super league switzerland | FC Zurich vs FC Lugano | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.2
+   ✅ Leg 3) 18:30 | laliga2 | Malaga vs Las Palmas | Over 1.5 (FT) | [FORT PLUS] | odd=1.33
+   ✅ Leg 4) 19:00 | mls | Toronto FC vs FC Cincinnati | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.25
+
 ====================================================================
-TOTAL tickets : 144
+TOTAL tickets : 146
 ✅ WIN     : 63
-❌ LOSS    : 78
+❌ LOSS    : 80
 ⏳ PENDING : 3
 ====================================================================
 

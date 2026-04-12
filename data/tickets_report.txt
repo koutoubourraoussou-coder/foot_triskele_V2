@@ -1,32 +1,43 @@
 TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
 ==================================================
 
-📅 Samedi 2026-04-11 — Tranche 1 (fenêtre ~60min)
-------------------------------------------------
+📅 Dimanche 2026-04-12 — Tranche 1 (fenêtre ~125min)
+---------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-11_1400_83d96640ee_SYS — cote = 2.44 — fenêtre 14:00 → 16:50  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-12_0300_7ff4b68e68_SYS — cote = 2.58 — fenêtre 03:00 → 06:55  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 14:00 | ligue 2 | Boulogne vs Le Mans | HT 1X Home | MOYEN PLUS | odd=1.36
-  2) 15:00 | serie b | Juve Stabia vs Cesena | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
-  3) 15:00 | serie b | Sudtirol vs Modena | HT 1X Home | MOYEN PLUS | odd=1.35
+  1) 03:00 | liga mx | Atlas vs Monterrey | Team1 scores (FT) | MOYEN PLUS | odd=1.3
+  2) 03:20 | primera a colombia | Independiente Medellin vs Atletico Nacional | Over 1.5 (FT) | MOYEN PLUS | odd=1.22
+  3) 03:30 | mls | Colorado Rapids vs Houston Dynamo | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  4) 05:05 | liga mx | Club America vs Cruz Azul | Team1 scores (FT) | MOYEN PLUS | odd=1.3
 
-📅 Samedi 2026-04-11 — Tranche 2 (fenêtre ~30min)
-------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-11_1800_509d781546_SYS — cote = 2.87 — fenêtre 18:00 → 20:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 18:00 | super league switzerland | FC Zurich vs FC Lugano | Team1 scores (FT) | MOYEN PLUS | odd=1.29
-  2) 18:30 | bundesliga | FC St. Pauli vs Bayern München | HT 1X Home | MOYEN PLUS | odd=1.9
-  3) 18:30 | premier league | Liverpool vs Fulham | HT 1X Home | MOYEN PLUS | odd=1.17
-
-📅 Samedi 2026-04-11 — Tranche 3 (fenêtre ~135min)
--------------------------------------------------
+📅 Dimanche 2026-04-12 — Tranche 2 (fenêtre ~90min)
+--------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-11_2030_6741ba2860_SYS — cote = 2.48 — fenêtre 20:30 → 00:35  
+  🎟️ TICKET 2.1 (A2) — id=2026-04-12_1200_20b29d3114_SYS — cote = 2.53 — fenêtre 12:00 → 15:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 20:30 | 2. bundesliga | SV Darmstadt 98 vs Hannover 96 | HT 1X Home | MOYEN PLUS | odd=1.4
-  2) 20:45 | serie a italia | Atalanta vs Juventus | Team1 scores (FT) | MOYEN PLUS | odd=1.3
-  3) 22:45 | mls | Portland Timbers vs Los Angeles FC | Team1 scores (FT) | MOYEN PLUS | odd=1.36
+  1) 12:00 | liga portugal 2 | Feirense vs Vizela | HT 1X Home | TRÈS FORT | odd=1.36
+  2) 12:15 | eredivisie | Fortuna Sittard vs NAC Breda | Over 1.5 (FT) | MOYEN PLUS | odd=1.2
+  3) 13:30 | pro league | KV Mechelen vs Union St. Gilloise | Team1 scores (FT) | MOYEN PLUS | odd=1.55
+
+📅 Dimanche 2026-04-12 — Tranche 3
+---------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-12_1530_a56472156a_SYS — cote = 2.55 — fenêtre 15:30 → 17:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 15:30 | bundesliga | 1. FC Köln vs Werder Bremen | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  2) 15:30 | czech first league | Teplice vs Sparta Praha | HT 1X Home | MOYEN PLUS | odd=1.57
+  3) 15:30 | czech first league | Pardubice vs Sigma Olomouc | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3
+
+📅 Dimanche 2026-04-12 — Tranche 4 (fenêtre ~300min)
+---------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-04-12_1830_2e8a3d8291_SYS — cote = 2.77 — fenêtre 18:30 → 01:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 18:30 | laliga2 | Cadiz vs FC Andorra | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.45
+  2) 23:15 | primera división paraguay | Rubio NU vs Olimpia | HT 1X Home | MOYEN PLUS | odd=1.62
+  3) 23:30 | serie a brazil | Cruzeiro vs RB Bragantino | HT 1X Home | MOYEN PLUS | odd=1.18
