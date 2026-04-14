@@ -1,0 +1,122 @@
+========================================================================
+BCEA Session 15 — Seuil min équipe pool RANDOM
+Date : 2026-04-11  |  50 runs/variante  |  91 jours
+Paramètre : league_bet_min_winrate  (min des deux équipes dans RANDOM TEAM mode)
+Base : Amélioré #1 champion (0.60)
+========================================================================
+
+────────────────────────────────────────────────────────────────────────
+  Baseline — seuil=0.60 (champion)
+────────────────────────────────────────────────────────────────────────
+  [SYSTEM]  50 runs
+    Tickets/run      : moy=129.4  min=126  max=133
+    Win rate         : moy=0.699  min=0.634  max=0.767  σ=0.030
+    Pire série L     : moy=3.2  max_absolu=4
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=28299.60  min=0.00  max=60387.42  σ=17159.88
+      Pire série L   : moy=3.2  min=2.0  max=4.0  σ=0.4
+      Ruine          : 6%  (3/50 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=87.75  min=12.38  max=114.36  σ=18.23
+      Pire série L   : moy=3.2  min=2.0  max=4.0  σ=0.4
+      Doublings/run  : moy=13.1  min=6  max=14
+      Ruine          : 0%  (0/50 runs)
+
+  [RANDOM]  50 runs
+    Tickets/run      : moy=114.5  min=111  max=118
+    Win rate         : moy=0.668  min=0.596  max=0.728  σ=0.029
+    Pire série L     : moy=3.7  max_absolu=9
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=41520.95  min=0.00  max=196679.61  σ=52688.74
+      Pire série L   : moy=3.5  min=2.0  max=5.0  σ=0.9
+      Ruine          : 34%  (17/50 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=156.72  min=2.40  max=441.40  σ=112.31
+      Pire série L   : moy=3.5  min=2.0  max=5.0  σ=0.9
+      Doublings/run  : moy=10.9  min=2  max=13
+      Ruine          : 0%  (0/50 runs)
+
+────────────────────────────────────────────────────────────────────────
+  Test A   — seuil=0.50
+────────────────────────────────────────────────────────────────────────
+  [SYSTEM]  50 runs
+    Tickets/run      : moy=131.1  min=126  max=135
+    Win rate         : moy=0.693  min=0.629  max=0.763  σ=0.028
+    Pire série L     : moy=3.1  max_absolu=4
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=30601.57  min=0.00  max=69847.76  σ=16047.19
+      Pire série L   : moy=3.1  min=3.0  max=4.0  σ=0.4
+      Ruine          : 8%  (4/50 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=86.22  min=1.68  max=121.67  σ=24.83
+      Pire série L   : moy=3.1  min=3.0  max=4.0  σ=0.4
+      Doublings/run  : moy=12.8  min=1  max=14
+      Ruine          : 0%  (0/50 runs)
+
+  [RANDOM]  50 runs
+    Tickets/run      : moy=135.0  min=132  max=138
+    Win rate         : moy=0.620  min=0.581  max=0.679  σ=0.025
+    Pire série L     : moy=4.9  max_absolu=8
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=12303.67  min=0.00  max=251339.63  σ=42924.99
+      Pire série L   : moy=4.1  min=3.0  max=5.0  σ=0.6
+      Ruine          : 84%  (42/50 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=81.77  min=0.00  max=273.23  σ=67.07
+      Pire série L   : moy=4.2  min=3.0  max=5.0  σ=0.6
+      Doublings/run  : moy=10.0  min=0  max=15
+      Ruine          : 14%  (7/50 runs)
+
+────────────────────────────────────────────────────────────────────────
+  Test B   — seuil=0.40
+────────────────────────────────────────────────────────────────────────
+  [SYSTEM]  50 runs
+    Tickets/run      : moy=130.8  min=127  max=134
+    Win rate         : moy=0.693  min=0.646  max=0.752  σ=0.026
+    Pire série L     : moy=3.3  max_absolu=5
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=27744.01  min=0.00  max=75966.30  σ=18462.97
+      Pire série L   : moy=3.2  min=3.0  max=4.0  σ=0.4
+      Ruine          : 20%  (10/50 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=83.64  min=15.32  max=114.99  σ=25.33
+      Pire série L   : moy=3.2  min=3.0  max=4.0  σ=0.4
+      Doublings/run  : moy=12.8  min=7  max=14
+      Ruine          : 0%  (0/50 runs)
+
+  [RANDOM]  50 runs
+    Tickets/run      : moy=139.1  min=136  max=142
+    Win rate         : moy=0.573  min=0.504  max=0.632  σ=0.030
+    Pire série L     : moy=6.0  max_absolu=10
+
+    MARTINGALE NORMALE
+      Multiplicateur : moy=0.00  min=0.00  max=0.00  σ=0.00
+      Pire série L   : moy=4.3  min=4.0  max=5.0  σ=0.4
+      Ruine          : 96%  (48/50 runs)
+
+    MARTINGALE SAFE
+      Multiplicateur : moy=64.46  min=0.00  max=299.38  σ=69.43
+      Pire série L   : moy=4.4  min=4.0  max=5.0  σ=0.5
+      Doublings/run  : moy=8.2  min=0  max=14
+      Ruine          : 18%  (9/50 runs)
+
+========================================================================
+  VERDICT SYSTEM
+  ★ Baseline — seuil=0.60 (champion)  (score=44.085)
+  #2 Test A   — seuil=0.50  (score=43.318)
+  #3 Test B   — seuil=0.40  (score=42.030)
+
+  VERDICT RANDOM
+  ★ Baseline — seuil=0.60 (champion)  (score=78.561)
+  #2 Test A   — seuil=0.50  (score=40.931)
+  #3 Test B   — seuil=0.40  (score=32.220)

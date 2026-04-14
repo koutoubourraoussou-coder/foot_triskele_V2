@@ -15,6 +15,7 @@ DEFAULT_VERDICT_PATH = Path("data/verdict_post_analyse.txt")
 
 DEFAULT_TICKETS_SYSTEM_VERDICT_PATH = Path("data/verdict_post_analyse_tickets.txt")
 DEFAULT_TICKETS_O15_VERDICT_PATH = Path("data/verdict_post_analyse_tickets_o15_random.txt")
+DEFAULT_TICKETS_U35_VERDICT_PATH = Path("data/verdict_post_analyse_tickets_u35_random.txt")
 
 # Fichiers “classements” (legacy, recalculés à chaque lecture)
 TRISKELE_RANK_LEAGUES_PATH = Path("data/triskele_rank_leagues_x_bet.tsv")
@@ -174,6 +175,7 @@ def load_ticket_verdicts() -> pd.DataFrame:
 
     _load_one(DEFAULT_TICKETS_SYSTEM_VERDICT_PATH, "SYSTEM")
     _load_one(DEFAULT_TICKETS_O15_VERDICT_PATH, "O15_RANDOM")
+    _load_one(DEFAULT_TICKETS_U35_VERDICT_PATH, "U35_RANDOM")
 
     if not rows:
         return pd.DataFrame()

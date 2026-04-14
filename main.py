@@ -132,6 +132,7 @@ MATCHS_FAILED_FILE = DATA_DIR / "matchs_failed.txt"
 
 TICKETS_GLOBAL_REPORT = DATA_DIR / "tickets_report_global.txt"
 TICKETS_O15_GLOBAL_REPORT = DATA_DIR / "tickets_o15_random_report_global.txt"
+TICKETS_U35_GLOBAL_REPORT = DATA_DIR / "tickets_u35_random_report_global.txt"
 PICKS_GLOBAL_REPORT = DATA_DIR / "picks_report_global.txt"
 
 
@@ -429,6 +430,7 @@ def _generate_global_tickets_report_from_predictions() -> None:
 
     any_sys = False
     any_o15 = False
+    any_u35 = False
 
     for d in run_dates:
         with _temp_predictions_file_for_date(OUTPUT_TSV_FILE, d) as tmp_path:
@@ -450,6 +452,10 @@ def _generate_global_tickets_report_from_predictions() -> None:
                 _append_text(TICKETS_O15_GLOBAL_REPORT, out.report_o15)
                 any_o15 = True
 
+            if (out.report_u35 or "").strip():
+                _append_text(TICKETS_U35_GLOBAL_REPORT, out.report_u35)
+                any_u35 = True
+
     if any_sys:
         print(f"✅ Tickets (GLOBAL SYSTEM filtré sur dates du run) -> {TICKETS_GLOBAL_REPORT}")
     else:
@@ -459,6 +465,11 @@ def _generate_global_tickets_report_from_predictions() -> None:
         print(f"✅ Tickets (GLOBAL O15 filtré sur dates du run) -> {TICKETS_O15_GLOBAL_REPORT}")
     else:
         print("ℹ️ Aucun rapport tickets GLOBAL O15 écrit (aucune date exploitable).")
+
+    if any_u35:
+        print(f"✅ Tickets (GLOBAL U35 filtré sur dates du run) -> {TICKETS_U35_GLOBAL_REPORT}")
+    else:
+        print("ℹ️ Aucun rapport tickets GLOBAL U35 écrit (aucune date exploitable).")
 
 
 def _generate_global_picks_report_from_predictions() -> None:
@@ -724,6 +735,14 @@ def archive_main_outputs() -> None:
                     print(f"   ➜ {o15_day_path} (rapport tickets O15 RANDOM)")
                 else:
                     print("   ⚠️ Report O15 RANDOM vide -> tickets_o15_random_report.txt non écrit.")
+
+                u35_report = (out.report_u35 or "").strip()
+                if u35_report:
+                    u35_day_path = archive_dir / "tickets_u35_random_report.txt"
+                    _write_text(u35_day_path, out.report_u35)
+                    print(f"   ➜ {u35_day_path} (rapport tickets U35 RANDOM)")
+                else:
+                    print("   ⚠️ Report U35 RANDOM vide -> tickets_u35_random_report.txt non écrit.")
 
             except Exception as e:
                 print(f"   ⚠️ Erreur génération tickets (JOUR {target_date}) : {e}")

@@ -809,8 +809,10 @@ with st.sidebar.expander("🧩 DIAG fichiers (existence)"):
     candidates_to_check = [
         "tickets_report.txt",
         "tickets_o15_random_report.txt",
+        "tickets_u35_random_report.txt",
         "verdict_post_analyse_tickets_report.txt",
         "verdict_post_analyse_tickets_o15_random_report.txt",
+        "verdict_post_analyse_tickets_u35_random_report.txt",
     ]
     for fn in candidates_to_check:
         paths = []
@@ -839,19 +841,23 @@ with tab1:
     # Tickets multi-jours selon la période (GLOBAL)
     df_sys = load_tickets_dataset("tickets_report_global.txt", period_start, period_end)
     df_rand = load_tickets_dataset("tickets_o15_random_report_global.txt", period_start, period_end)
+    df_u35 = load_tickets_dataset("tickets_u35_random_report_global.txt", period_start, period_end)
 
     # Verdicts correspondants
     df_verdict_sys = collect_verdict_mapping("verdict_post_analyse_tickets_report.txt", period_start, period_end)
     df_verdict_rand = collect_verdict_mapping("verdict_post_analyse_tickets_o15_random_report.txt", period_start, period_end)
+    df_verdict_u35 = collect_verdict_mapping("verdict_post_analyse_tickets_u35_random_report.txt", period_start, period_end)
 
     df_sys = attach_verdict(df_sys, df_verdict_sys)
     df_rand = attach_verdict(df_rand, df_verdict_rand)
+    df_u35 = attach_verdict(df_u35, df_verdict_u35)
 
     # Tri final forcé juste avant affichage
     df_sys = sort_tickets_for_display(df_sys)
     df_rand = sort_tickets_for_display(df_rand)
+    df_u35 = sort_tickets_for_display(df_u35)
 
-    col1, col2 = st.columns(2)
+    col1, col2, col3 = st.columns(3)
 
     with col1:
         st.subheader("🛡️ Tickets Système (avec statut)")
@@ -894,6 +900,27 @@ with tab1:
                     st.divider()
         else:
             st.warning("Aucun ticket O1.5 Random trouvé sur cette période.")
+
+    with col3:
+        st.subheader("🔒 Tickets -3.5 Random (avec statut)")
+
+        if not df_u35.empty:
+            df_u35["Heure"] = df_u35["DateTimeTri"].dt.strftime("%H:%M")
+            df_u35["Heure"] = df_u35["Heure"].fillna("—")
+            show_cols = ["Statut", "Jour", "Heure", "Ticket", "Cote", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
+            show_cols = [c for c in show_cols if c in df_u35.columns]
+            st.dataframe(df_u35[show_cols], use_container_width=True, hide_index=True)
+
+            with st.expander("Voir le détail des matchs (-3.5 Random)"):
+                for _, row in df_u35.iterrows():
+                    jour_str = row["Jour"].isoformat() if pd.notna(row["Jour"]) else "—"
+                    status = row["Statut"] if pd.notna(row["Statut"]) else "—"
+                    st.markdown(f"**{status} {row['Ticket']} — {jour_str} (Cote: {row['Cote']})**")
+                    st.caption(f"id={row['Id']} | fenêtre={row['Fenêtre de jeu']} | legs: W={row.get('Legs WIN')} L={row.get('Legs LOSS')} P={row.get('Legs PENDING')}")
+                    render_ticket_legs(row)
+                    st.divider()
+        else:
+            st.warning("Aucun ticket -3.5 Random trouvé sur cette période.")
 
 
 with tab2:

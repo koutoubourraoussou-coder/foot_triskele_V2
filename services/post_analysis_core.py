@@ -94,6 +94,8 @@ def resolve_tickets_report_path(
         base = "tickets_report.txt"
     elif report_kind in ("O15_RANDOM", "O15_RANDOM_ALL", "RANDOM_O15"):
         base = "tickets_o15_random_report.txt"
+    elif report_kind in ("U35_RANDOM", "U35_RANDOM_ALL", "RANDOM_U35"):
+        base = "tickets_u35_random_report.txt"
     else:
         base = report_kind.lower()
 
@@ -127,6 +129,7 @@ def resolve_tickets_report_path(
         f"verdict_post_analyse_{base}",
         "verdict_post_analyse_tickets_report.txt" if base == "tickets_report.txt" else None,
         "verdict_post_analyse_tickets_o15_random_report.txt" if base == "tickets_o15_random_report.txt" else None,
+        "verdict_post_analyse_tickets_u35_random_report.txt" if base == "tickets_u35_random_report.txt" else None,
     ]
     name_candidates = [x for x in name_candidates if x]
 
@@ -164,9 +167,20 @@ TICKETS_O15_REPORT_FILE = _run_scoped_or_data("tickets_o15_random_report.txt")
 POST_TICKETS_O15_VERDICT_FILE = Path("data") / "verdict_post_analyse_tickets_o15_random.txt"
 POST_TICKETS_O15_FAILED_FILE = Path("data") / "post_tickets_o15_random_failed.txt"
 
+# ✅ Tickets (U35 RANDOM)
+TICKETS_U35_FILE = Path("data") / "tickets_u35_random.tsv"
+
+# ✅ Report humain (U35)
+TICKETS_U35_REPORT_FILE = _run_scoped_or_data("tickets_u35_random_report.txt")
+
+# ✅ Verdict tickets U35 (historique cumulatif)
+POST_TICKETS_U35_VERDICT_FILE = Path("data") / "verdict_post_analyse_tickets_u35_random.txt"
+POST_TICKETS_U35_FAILED_FILE = Path("data") / "post_tickets_u35_random_failed.txt"
+
 # ✅ Report GLOBAL (historique) — c’est LA source whitelist tickets_id
 TICKETS_REPORT_GLOBAL_FILE = Path("data") / "tickets_report_global.txt"
 TICKETS_O15_REPORT_GLOBAL_FILE = Path("data") / "tickets_o15_random_report_global.txt"
+TICKETS_U35_REPORT_GLOBAL_FILE = Path("data") / "tickets_u35_random_report_global.txt"
 
 # ==============================
 # ✅ TRISKÈLE Rankings (historique cumulatif)
@@ -1082,6 +1096,18 @@ def build_post_verdict(pred: Dict[str, Any], res: Dict[str, Any]) -> Dict[str, A
         if isinstance(gh_ft, int) and isinstance(ga_ft, int):
             real_ok = (gh_ft + ga_ft) >= 3
 
+    elif bet_key in (
+        "U35_FT",
+        "FT_UNDER_3_5",
+        "UNDER35",
+        "UNDER_3_5",
+        "U35",
+        "FT_U35",
+        "FT_UNDER35",
+    ):
+        if isinstance(gh_ft, int) and isinstance(ga_ft, int):
+            real_ok = (gh_ft + ga_ft) <= 3
+
     elif bet_key in ("TEAM1_WIN_FT", "TEAM1_WIN", "HOME_WIN", "T1_WIN"):
         if isinstance(gh_ft, int) and isinstance(ga_ft, int):
             real_ok = gh_ft > ga_ft
@@ -1257,6 +1283,13 @@ def _team_targets_for_bet(home: str, away: str, bet_key: str) -> list[str]:
         "FT_O25",
         "FT25",
         "FT_OVER25",
+        "U35_FT",
+        "FT_UNDER_3_5",
+        "UNDER35",
+        "UNDER_3_5",
+        "U35",
+        "FT_U35",
+        "FT_UNDER35",
     ):
         return [home, away]
 
@@ -1693,6 +1726,7 @@ def update_triskele_rankings_from_history() -> None:
 
         bet_results["O15_FT"] = ft_total >= 2
         bet_results["O25_FT"] = ft_total >= 3
+        bet_results["U35_FT"] = ft_total <= 3
         bet_results["TEAM1_SCORE_FT"] = gh >= 1
         bet_results["TEAM2_SCORE_FT"] = ga >= 1
         bet_results["TEAM1_WIN_FT"] = gh > ga
@@ -2554,7 +2588,12 @@ def _resolve_allowed_ticket_ids_from_global(variant_name: str) -> Tuple[Optional
     - O15_RANDOM -> data/tickets_o15_random_report_global.txt
     """
     vn = (variant_name or "").strip().upper()
-    global_path = TICKETS_REPORT_GLOBAL_FILE if vn == "SYSTEM" else TICKETS_O15_REPORT_GLOBAL_FILE
+    if vn == "SYSTEM":
+        global_path = TICKETS_REPORT_GLOBAL_FILE
+    elif vn == "U35_RANDOM":
+        global_path = TICKETS_U35_REPORT_GLOBAL_FILE
+    else:
+        global_path = TICKETS_O15_REPORT_GLOBAL_FILE
     if not _is_nonempty_file(global_path):
         return None, set()
 
@@ -2916,11 +2955,13 @@ def _run_tickets_post_analysis_variant(
     # ------------------------------------------------------------------
     if write_human_report:
         try:
-            human_out = _run_scoped_or_data(
-                "verdict_post_analyse_tickets_report.txt"
-                if variant_name == "SYSTEM"
-                else "verdict_post_analyse_tickets_o15_random_report.txt"
-            )
+            if variant_name == "SYSTEM":
+                _human_fname = "verdict_post_analyse_tickets_report.txt"
+            elif variant_name == "U35_RANDOM":
+                _human_fname = "verdict_post_analyse_tickets_u35_random_report.txt"
+            else:
+                _human_fname = "verdict_post_analyse_tickets_o15_random_report.txt"
+            human_out = _run_scoped_or_data(_human_fname)
             rd = _get_run_dir()
             mode = f"RUN_DIR={rd}" if rd is not None else "RUN_DIR=OFF (fallback data/)"
             print(f"\n🧭 [{variant_name}] Mode report : {mode}")
@@ -2970,6 +3011,16 @@ def _run_tickets_post_analysis(
         verdict_file=POST_TICKETS_O15_VERDICT_FILE,
         failed_file=POST_TICKETS_O15_FAILED_FILE,
         variant_name="O15_RANDOM",
+        write_human_report=True,
+    )
+
+    _run_tickets_post_analysis_variant(
+        today=today,
+        eval_index=eval_index,
+        tickets_file=TICKETS_U35_FILE,
+        verdict_file=POST_TICKETS_U35_VERDICT_FILE,
+        failed_file=POST_TICKETS_U35_FAILED_FILE,
+        variant_name="U35_RANDOM",
         write_human_report=True,
     )
 

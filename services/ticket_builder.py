@@ -86,8 +86,16 @@ SYSTEM_POOL_EFFECTIVE_GLOBAL_FILE = Path("data/system_pool_effective_global.tsv"
 O15_RANDOM_POOL_BASE_GLOBAL_FILE = Path("data/o15_random_pool_base_global.tsv")
 O15_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE = Path("data/o15_random_pool_effective_global.tsv")
 
+U35_RANDOM_POOL_BASE_GLOBAL_FILE = Path("data/u35_random_pool_base_global.tsv")
+U35_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE = Path("data/u35_random_pool_effective_global.tsv")
+TICKETS_U35_RANDOM_TSV_FILE = Path("data/tickets_u35_random.tsv")
+TICKETS_U35_REPORT_GLOBAL_FILE = Path("data/tickets_u35_random_report_global.txt")
+
 # Bet key canon pour O15
 O15_CANON = "O15_FT"
+
+# Bet key canon pour U35
+U35_CANON = "U35_FT"
 
 # ----------------------------
 # ✅ RÈGLES "SYSTÈME" : PERFORMANCE / WINRATES
@@ -355,10 +363,14 @@ class TicketBuildOutput:
     report_system: str
     tickets_o15: List[Ticket]
     report_o15: str
+    tickets_u35: List[Ticket]
+    report_u35: str
     added_sys: int = 0
     added_o15: int = 0
     added_sys_global: int = 0
     added_o15_global: int = 0
+    added_u35: int = 0
+    added_u35_global: int = 0
 
     def __iter__(self):
         yield self.tickets_system
@@ -773,6 +785,17 @@ def _norm_bet_family(bet_key: str) -> str:
     ):
         return "O25_FT"
 
+    if bk in (
+        "U35_FT",
+        "FT_UNDER_3_5",
+        "UNDER35",
+        "UNDER_3_5",
+        "U35",
+        "FT_U35",
+        "FT_UNDER35",
+    ):
+        return "U35_FT"
+
     if bk in ("TEAM1_SCORE_FT", "TEAM1_SCORE", "T1_SCORE", "TEAM1_TO_SCORE"):
         return "TEAM1_SCORE_FT"
 
@@ -801,7 +824,7 @@ def _pick_primary_teams(p: Pick) -> List[str]:
 
 def _is_two_team_bet(p: Pick) -> bool:
     fam = _norm_bet_family(p.bet_key)
-    return fam in ("O15_FT", "O25_FT", "HT05")
+    return fam in ("O15_FT", "O25_FT", "U35_FT", "HT05")
 
 # ----------------------------
 # Rankings loaders (TSV robust)
@@ -1626,6 +1649,22 @@ def filter_o15_random_all(picks: List[Pick]) -> List[Pick]:
         bk = (p.bet_key or "").strip().upper()
         is_o15 = (bk == O15_CANON) or ("O15" in bk) or ("OVER15" in bk) or ("OVER_1_5" in bk)
         if not is_o15:
+            continue
+        if p.odd is None:
+            continue
+        if p.odd < MIN_ODD:
+            continue
+        out.append(p)
+
+    out.sort(key=lambda x: (_time_to_minutes(x.time_str), -(x.odd or 0.0)))
+    return out
+
+def filter_u35_random_all(picks: List[Pick]) -> List[Pick]:
+    out: List[Pick] = []
+    for p in picks:
+        bk = (p.bet_key or "").strip().upper()
+        is_u35 = (bk == U35_CANON) or ("U35" in bk) or ("UNDER35" in bk) or ("UNDER_3_5" in bk)
+        if not is_u35:
             continue
         if p.odd is None:
             continue
@@ -3395,6 +3434,7 @@ def generate_tickets_from_tsv(
 
         tickets_report_path = _run_scoped_or_data("tickets_report.txt")
         tickets_o15_report_path = _run_scoped_or_data("tickets_o15_random_report.txt")
+        tickets_u35_report_path = _run_scoped_or_data("tickets_u35_random_report.txt")
 
         suffix = f" — {run_date}" if run_date else ""
         league_bet, team_bet = _load_rankings()
@@ -3530,10 +3570,75 @@ def generate_tickets_from_tsv(
             added_o15_global = 0
             report_o15 = ""
 
+        u35_random_pool_base = filter_u35_random_all(picks)
+        u35_random_pool_effective = filter_effective_random_pool(u35_random_pool_base, league_bet, team_bet)
+
+        if not fast_mode:
+            added_u35_random_pool_base = append_playable_picks_to_global(
+                picks=u35_random_pool_base,
+                global_path=U35_RANDOM_POOL_BASE_GLOBAL_FILE,
+                pipeline_name="U35_RANDOM_POOL_BASE",
+                run_date=run_date,
+                source_tsv=tsv_path,
+            )
+            if added_u35_random_pool_base:
+                print(f"📦 [U35_RANDOM_ALL] Pool base exporté : {U35_RANDOM_POOL_BASE_GLOBAL_FILE} (+{added_u35_random_pool_base} lignes)")
+            else:
+                print(f"ℹ️ [U35_RANDOM_ALL] Pool base inchangé : {U35_RANDOM_POOL_BASE_GLOBAL_FILE}")
+
+            added_u35_random_pool_effective = append_playable_picks_to_global(
+                picks=u35_random_pool_effective,
+                global_path=U35_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE,
+                pipeline_name="U35_RANDOM_POOL_EFFECTIVE",
+                run_date=run_date,
+                source_tsv=tsv_path,
+            )
+            if added_u35_random_pool_effective:
+                print(f"📦 [U35_RANDOM_ALL] Pool effectif exporté : {U35_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE} (+{added_u35_random_pool_effective} lignes)")
+            else:
+                print(f"ℹ️ [U35_RANDOM_ALL] Pool effectif inchangé : {U35_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE}")
+
+        tickets_u35 = build_tickets(u35_random_pool_effective, mode="RANDOM")
+
+        if not fast_mode:
+            added_u35 = write_tickets_tsv(tickets_u35, TICKETS_U35_RANDOM_TSV_FILE, id_suffix="U35R")
+            if added_u35:
+                print(f"✅ [U35_RANDOM_ALL] Tickets TSV ajoutés : {TICKETS_U35_RANDOM_TSV_FILE} (+{added_u35} lignes)")
+            else:
+                print("⚠️ [U35_RANDOM_ALL] Aucun ticket TSV écrit (tickets=0 ou dédup).")
+
+            report_u35 = render_tickets_report(
+                tickets_u35,
+                title=f"TICKETS TRISKÈLE{suffix} — U35_RANDOM_ALL — depuis {Path(tsv_path).name}",
+                id_suffix="U35R",
+            )
+            _write_report_robust(
+                run_path=tickets_u35_report_path,
+                data_path=Path("data/tickets_u35_random_report.txt"),
+                text=report_u35,
+            )
+            print(f"📝 [U35_RANDOM_ALL] TicketsReport écrit : {tickets_u35_report_path} + data/tickets_u35_random_report.txt")
+
+            added_u35_global = append_report_to_global(
+                report_text=report_u35,
+                global_path=TICKETS_U35_REPORT_GLOBAL_FILE,
+                pipeline_name="U35_RANDOM_ALL",
+                run_date=run_date,
+                source_tsv=tsv_path,
+            )
+            if added_u35_global:
+                print(f"🧾 [U35_RANDOM_ALL] Global report alimenté : {TICKETS_U35_REPORT_GLOBAL_FILE} (+{added_u35_global} tickets)")
+            else:
+                print(f"ℹ️ [U35_RANDOM_ALL] Global report inchangé (0 nouveau ticket) : {TICKETS_U35_REPORT_GLOBAL_FILE}")
+        else:
+            added_u35 = 0
+            added_u35_global = 0
+            report_u35 = ""
+
         if _maestro_level() >= 1:
             foot = (
                 f"RUN SUMMARY\n"
-                f"- system_tickets: {len(tickets_system)} | o15_tickets: {len(tickets_o15)}\n"
+                f"- system_tickets: {len(tickets_system)} | o15_tickets: {len(tickets_o15)} | u35_tickets: {len(tickets_u35)}\n"
                 f"{'-'*40}\n\n"
             )
             _write_maestro_log(foot, append=True)
@@ -3543,10 +3648,14 @@ def generate_tickets_from_tsv(
             report_system=report_system,
             tickets_o15=tickets_o15,
             report_o15=report_o15,
+            tickets_u35=tickets_u35,
+            report_u35=report_u35,
             added_sys=added_sys,
             added_o15=added_o15,
             added_sys_global=added_sys_global,
             added_o15_global=added_o15_global,
+            added_u35=added_u35,
+            added_u35_global=added_u35_global,
         )
 
     finally:
@@ -3563,3 +3672,5 @@ if __name__ == "__main__":
     print(out.report_system)
     print("\n" + ("-" * 80) + "\n")
     print(out.report_o15)
+    print("\n" + ("-" * 80) + "\n")
+    print(out.report_u35)

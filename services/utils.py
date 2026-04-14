@@ -15,6 +15,7 @@
 #   - TEAM2_SCORE_FT     (TEAM2 marque)
 #   - O15_FT             (Over 1.5 FT)
 #   - O25_FT             (Over 2.5 FT)
+#   - U35_FT             (Under 3.5 FT)
 #   - TEAM1_WIN_FT       (TEAM1 gagne)
 #   - TEAM2_WIN_FT       (TEAM2 gagne)
 #
@@ -64,6 +65,7 @@ BetKey = Literal[
     "TEAM2_SCORE_FT",
     "O15_FT",
     "O25_FT",
+    "U35_FT",
     "TEAM1_WIN_FT",
     "TEAM2_WIN_FT",
 ]

@@ -68,6 +68,7 @@ def _phi(n11: int, n10: int, n01: int, n00: int) -> float:
 BASELINE_BETS = [
     "O15_FT",
     "O25_FT",
+    "U35_FT",
     "HT05",
     "HT1X_HOME",
     "TEAM1_SCORE_FT",
@@ -90,6 +91,7 @@ def _compute_bets_for_match(
     # FT (toujours calculable si FT présent)
     out["O15_FT"] = (gh + ga) >= 2
     out["O25_FT"] = (gh + ga) >= 3
+    out["U35_FT"] = (gh + ga) <= 3
     out["TEAM1_SCORE_FT"] = gh >= 1
     out["TEAM2_SCORE_FT"] = ga >= 1
 

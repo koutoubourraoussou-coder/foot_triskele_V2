@@ -26,10 +26,12 @@ BETS_VERDICT_FILE = DATA_DIR / "verdict_post_analyse.txt"
 
 TICKETS_SYSTEM_VERDICT_FILE = DATA_DIR / "verdict_post_analyse_tickets.txt"
 TICKETS_RANDOM_VERDICT_FILE = DATA_DIR / "verdict_post_analyse_tickets_o15_random.txt"
+TICKETS_U35_VERDICT_FILE = DATA_DIR / "verdict_post_analyse_tickets_u35_random.txt"
 
-# ✅ report_globaux (source de vérité : tickets réellement “sélectionnés”)
+# ✅ report_globaux (source de vérité : tickets réellement "sélectionnés")
 TICKETS_SYSTEM_REPORT_GLOBAL = DATA_DIR / "tickets_report_global.txt"
 TICKETS_RANDOM_REPORT_GLOBAL = DATA_DIR / "tickets_o15_random_report_global.txt"
+TICKETS_U35_REPORT_GLOBAL = DATA_DIR / "tickets_u35_random_report_global.txt"
 
 # ✅ BASELINE rankings (nouvelle vérité : data/rankings/)
 BASELINE_RANK_LEAGUES_X_BET_FILE = DATA_DIR / "rankings" / "triskele_ranking_league_x_bet.tsv"

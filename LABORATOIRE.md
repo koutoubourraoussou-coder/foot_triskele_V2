@@ -287,6 +287,28 @@ SN = moteur dominant (moy 129k€). RS = moins fiable (ruines possibles). SS = l
 
 ---
 
+### Phase 9 — Test seuil min équipe pool RANDOM (2026-04-11)
+
+**Contexte :** Observation terrain — le filtre RANDOM TEAM rejette 27/91 picks (30%) aujourd'hui car au moins une équipe a un win rate O15 < 60% sur ≥6 matchs décidés. Règle actuelle : `min(wr_eq1, wr_eq2) >= 0.60`. Question : baisser ce seuil augmenterait-il le profit via plus de volume ?
+
+**Script :** `bcea_session15_random_threshold.py` — 50 runs, 91 jours, 3 variantes RANDOM
+
+**Résultats :**
+
+| Seuil | Tickets/run | Win rate | SAFE ×mult | Ruine SAFE | Ruine NORMALE |
+|-------|-------------|----------|------------|------------|---------------|
+| **0.60 (champion)** | 114.5 | **66.8%** | **×156.72** | **0%** | 34% |
+| 0.50 | 135.0 | 62.0% | ×81.77 | 14% | 84% |
+| 0.40 | 139.1 | 57.3% | ×64.46 | 18% | 96% |
+
+**Conclusion [Convergence] :** Baisser le seuil augmente le volume (+20 tickets/run) mais effondre le win rate. À 0.50 : ruine SAFE 14% (vs 0%). À 0.40 : ruine 18%, profit divisé par 2.5. Le filtre actuel 0.60 ne filtre pas par excès de prudence — il filtre des matchs qui auraient effectivement dégradé la séquence martingale.
+
+**Le seuil 0.60 est confirmé optimal. Ne pas y toucher.**
+
+> Note : La discussion avait aussi porté sur l'utilisation de la **moyenne** plutôt que du **min** des deux équipes. Non testé car les résultats sur le seuil min seul sont déjà défavorables. La piste "agrégation asymétrique" (0.6×max + 0.4×min) reste ouverte mais non prioritaire.
+
+---
+
 ## OBSERVATIONS IMPORTANTES
 
 ### Pourquoi le win rate ne suffit pas

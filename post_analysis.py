@@ -9,6 +9,8 @@ from services.post_analysis_core import (
     POST_TICKETS_FAILED_FILE,
     POST_TICKETS_O15_VERDICT_FILE,
     POST_TICKETS_O15_FAILED_FILE,
+    POST_TICKETS_U35_VERDICT_FILE,
+    POST_TICKETS_U35_FAILED_FILE,
 )
 
 # ------------------------------
@@ -48,10 +50,12 @@ MATCHES_INPUT_FILE = _run_scoped_or_data("matches_input.txt")
 # ✅ Reports (sélection tickets) — doivent être dans la bulle si RUN_DIR est présent
 TICKETS_REPORT_FILE = _run_scoped_or_data("tickets_report.txt")
 TICKETS_O15_REPORT_FILE = _run_scoped_or_data("tickets_o15_random_report.txt")
+TICKETS_U35_REPORT_FILE = _run_scoped_or_data("tickets_u35_random_report.txt")
 
 # ✅ Reports lisibles (optionnels) — doivent être dans la bulle si RUN_DIR est présent
 HUMAN_TICKETS_REPORT_FILE = _run_scoped_or_data("verdict_post_analyse_tickets_report.txt")
 HUMAN_TICKETS_O15_REPORT_FILE = _run_scoped_or_data("verdict_post_analyse_tickets_o15_random_report.txt")
+HUMAN_TICKETS_U35_REPORT_FILE = _run_scoped_or_data("verdict_post_analyse_tickets_u35_random_report.txt")
 
 
 def parse_match_line(line: str):
@@ -296,14 +300,24 @@ def archive_post_outputs() -> None:
             date_col_index=2,
         )
 
+        _archive_tsv_for_date(
+            POST_TICKETS_U35_VERDICT_FILE,
+            archive_dir / "verdict_post_analyse_tickets_u35_random.txt",
+            target_date,
+            date_col_index=2,
+        )
+
         _copy_file_if_exists(POST_TICKETS_FAILED_FILE, archive_dir / POST_TICKETS_FAILED_FILE.name)
         _copy_file_if_exists(POST_TICKETS_O15_FAILED_FILE, archive_dir / POST_TICKETS_O15_FAILED_FILE.name)
+        _copy_file_if_exists(POST_TICKETS_U35_FAILED_FILE, archive_dir / POST_TICKETS_U35_FAILED_FILE.name)
 
         _copy_file_if_exists(TICKETS_REPORT_FILE, archive_dir / TICKETS_REPORT_FILE.name)
         _copy_file_if_exists(TICKETS_O15_REPORT_FILE, archive_dir / TICKETS_O15_REPORT_FILE.name)
+        _copy_file_if_exists(TICKETS_U35_REPORT_FILE, archive_dir / TICKETS_U35_REPORT_FILE.name)
 
         _copy_file_if_exists(HUMAN_TICKETS_REPORT_FILE, archive_dir / HUMAN_TICKETS_REPORT_FILE.name)
         _copy_file_if_exists(HUMAN_TICKETS_O15_REPORT_FILE, archive_dir / HUMAN_TICKETS_O15_REPORT_FILE.name)
+        _copy_file_if_exists(HUMAN_TICKETS_U35_REPORT_FILE, archive_dir / HUMAN_TICKETS_U35_REPORT_FILE.name)
 
     print("📁 Archivage post-analyse terminé.\n")
 
@@ -323,6 +337,7 @@ def main() -> None:
     _sort_tsv_by_date_and_time(POST_VERDICT_FILE)
     _sort_tsv_by_date_and_time(POST_TICKETS_VERDICT_FILE)
     _sort_tsv_by_date_and_time(POST_TICKETS_O15_VERDICT_FILE)
+    _sort_tsv_by_date_and_time(POST_TICKETS_U35_VERDICT_FILE)
 
     archive_post_outputs()
 
