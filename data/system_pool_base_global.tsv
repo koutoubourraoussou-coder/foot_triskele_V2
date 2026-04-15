@@ -2771,3 +2771,14 @@ TSV: 2026-04-13	1824509513	O15_FT	21:30	liga profesional argentina	Sarmiento Jun
 TSV: 2026-04-13	3413703777	HT1X_HOME	21:30	liga profesional argentina	Defensa Y Justicia	Talleres Cordoba	1.25	1492016	SYSTEM_POOL_BASE	predictions.tsv
 TSV: 2026-04-13	1824509513	HT1X_HOME	21:30	liga profesional argentina	Sarmiento Junin	Gimnasia L.P.	1.22	1492026	SYSTEM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-04-15 02:11:17 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-15	3142452550	O25_FT	20:00	saudi arabia	Al-Nassr	Al-Ettifaq	1.25	1436172	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-15	3265576565	O25_FT	21:00	uefa champions league	Arsenal	Sporting CP	1.85	1534571	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-15	2976966200	O25_FT	21:00	uefa champions league	Bayern München	Real Madrid	1.28	1534911	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-15	3265576565	O15_FT	21:00	uefa champions league	Arsenal	Sporting CP	1.25	1534571	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-15	2976966200	TEAM2_SCORE_FT	21:00	uefa champions league	Bayern München	Real Madrid	1.25	1534911	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-15	2976966200	HT1X_HOME	21:00	uefa champions league	Bayern München	Real Madrid	1.17	1534911	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-15	2976966200	HT05	21:00	uefa champions league	Bayern München	Real Madrid	1.15	1534911	SYSTEM_POOL_BASE	predictions.tsv
+

@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-04-13
+Date run       : 2026-04-15
 Output         : data/verdict_post_analyse_tickets_report.txt
 Whitelist      : ON (160 ids)
 Ignorés (hors whitelist) : 16
-Ignorés (date>=today)    : 3
+Ignorés (date>=today)    : 0
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -1290,10 +1290,18 @@ Ignorés (date>=today)    : 3
    ❌ Leg 2) 23:15 | primera división paraguay | Rubio NU vs Olimpia | HT 1X Home | [MOYEN PLUS] | odd=1.62
    ✅ Leg 3) 23:30 | serie a brazil | Cruzeiro vs RB Bragantino | HT 1X Home | [MOYEN PLUS] | odd=1.18
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Lundi 2026-04-13 20:45→23:20 | code=A2 | odd=2.7
+   id=2026-04-13_2045_af2c771daf_SYS
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 20:45 | ligue 2 | Rodez vs Estac Troyes | HT 1X Home | [TRÈS FORT] | odd=1.5
+   ✅ Leg 2) 21:15 | liga portugal | Tondela vs GIL Vicente | HT 1X Home | [MOYEN PLUS] | odd=1.44
+   ❌ Leg 3) 21:30 | liga profesional argentina | Defensa Y Justicia vs Talleres Cordoba | HT 1X Home | [FORT] | odd=1.25
+
 ====================================================================
-TOTAL tickets : 154
+TOTAL tickets : 155
 ✅ WIN     : 53
-❌ LOSS    : 99
+❌ LOSS    : 100
 ⏳ PENDING : 2
 ====================================================================
 

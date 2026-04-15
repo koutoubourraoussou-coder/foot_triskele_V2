@@ -1,0 +1,10 @@
+O15_SUPER_RANDOM_POOL_EFFECTIVE — PLAYABLE PICKS GLOBAL
+==========================================
+Format TSV:
+date	match_id	bet_family	time	league	home	away	odd	fixture_id	pipeline	source
+
+# ------------------------------------------------------------------
+# APPEND O15_SUPER_RANDOM_POOL_EFFECTIVE | 2026-04-15 02:11:17 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-15	3265576565	O15_FT	21:00	uefa champions league	Arsenal	Sporting CP	1.25	1534571	O15_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

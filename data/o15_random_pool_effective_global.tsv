@@ -1052,3 +1052,8 @@ TSV: 2026-04-13	901948894	O15_FT	20:45	ligue 2	Rodez	Estac Troyes	1.22	1389372	O
 TSV: 2026-04-13	2973173966	O15_FT	21:00	laliga	Levante	Getafe	1.55	1391123	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-13	2527207444	O15_FT	21:15	liga portugal	Tondela	GIL Vicente	1.42	1396497	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_EFFECTIVE | 2026-04-15 02:11:17 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-15	3265576565	O15_FT	21:00	uefa champions league	Arsenal	Sporting CP	1.25	1534571	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

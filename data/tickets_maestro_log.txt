@@ -1,76 +1,13 @@
-RUN MAESTROLOGUE — 2026-04-13 01:49:05
+RUN MAESTROLOGUE — 2026-04-15 02:11:17
 - source_tsv: predictions.tsv
 - run_date: ALL
 - maestro_level: 3
 ========================================
 
-MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
-----------------------------------------------------------
-- generation_weights: TEAM x BET (wr_adj = wr * coef(decided)) + small odd bonus
-- règle: préférer 3L si écart <= 8.00%
-- iterations: 11711 | valid_3L_found: 2884 | valid_4L_found: 10883
-- top3_size: 10 | top4_size: 10
-
-TOP3 (desc):
-  TOP3[1/10]: score=0.867 (86.7%) | legs=3 | odd=2.46
-  TOP3[2/10]: score=0.857 (85.7%) | legs=3 | odd=2.46
-  TOP3[3/10]: score=0.840 (84.0%) | legs=3 | odd=2.53
-  TOP3[4/10]: score=0.830 (83.0%) | legs=3 | odd=2.42
-  TOP3[5/10]: score=0.821 (82.1%) | legs=3 | odd=2.45
-  TOP3[6/10]: score=0.820 (82.0%) | legs=3 | odd=2.42
-  TOP3[7/10]: score=0.815 (81.5%) | legs=3 | odd=2.83
-  TOP3[8/10]: score=0.806 (80.6%) | legs=3 | odd=2.7
-  TOP3[9/10]: score=0.798 (79.8%) | legs=3 | odd=2.62
-  TOP3[10/10]: score=0.797 (79.7%) | legs=3 | odd=2.64
-
-TOP4 (desc):
-  TOP4[1/10]: score=0.860 (86.0%) | legs=4 | odd=2.6
-  TOP4[2/10]: score=0.859 (85.9%) | legs=4 | odd=2.66
-  TOP4[3/10]: score=0.856 (85.6%) | legs=4 | odd=3
-  TOP4[4/10]: score=0.855 (85.5%) | legs=4 | odd=2.6
-  TOP4[5/10]: score=0.854 (85.4%) | legs=4 | odd=3.07
-  TOP4[6/10]: score=0.852 (85.2%) | legs=4 | odd=2.6
-  TOP4[7/10]: score=0.851 (85.1%) | legs=4 | odd=3
-  TOP4[8/10]: score=0.849 (84.9%) | legs=4 | odd=2.53
-  TOP4[9/10]: score=0.848 (84.8%) | legs=4 | odd=3
-  TOP4[10/10]: score=0.848 (84.8%) | legs=4 | odd=2.6
-
-DRAW_3L: picked rank=8/10 | score=0.806 (80.6%) | odd=2.7
-DRAW_4L: picked rank=3/10 | score=0.856 (85.6%) | odd=3
-- écart relatif: 5.84%
-=> choisi: 3 legs | score=0.806 (80.6%) | final_source=TEAM
-
-Ticket choisi (aperçu)
-----------------------
-  1) 20:45 | ligue 2 | Rodez vs Estac Troyes | HT1X_HOME | odd=1.5
-  2) 21:15 | liga portugal | Tondela vs GIL Vicente | HT1X_HOME | odd=1.44
-  3) 21:30 | liga profesional argentina | Defensa Y Justicia vs Talleres Cordoba | HT1X_HOME | odd=1.25
-
-MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, TEAM x BET)
-------------------------------------------------------------------------------
-- score ticket: 0.806 (80.6%)
-- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
-
-1) 20:45 | ligue 2 | Rodez vs Estac Troyes | bet=HT1X_HOME | odd=1.5
-   HOME Rodez: wr=0.94 dec=5 coef=1.000 => adj=0.935 (93.5%)
-   AWAY Estac Troyes: wr=0.82 dec=6 coef=1.000 => adj=0.821 (82.1%)
-   MEAN match: 0.878 (87.8%)
-
-2) 21:15 | liga portugal | Tondela vs GIL Vicente | bet=HT1X_HOME | odd=1.44
-   HOME Tondela: wr=0.79 dec=6 coef=1.000 => adj=0.793 (79.3%)
-   AWAY GIL Vicente: wr=0.59 dec=7 coef=1.000 => adj=0.591 (59.1%)
-   MEAN match: 0.692 (69.2%)
-
-3) 21:30 | liga profesional argentina | Defensa Y Justicia vs Talleres Cordoba | bet=HT1X_HOME | odd=1.25
-   HOME Defensa Y Justicia: wr=0.93 dec=6 coef=1.000 => adj=0.925 (92.5%)
-   AWAY Talleres Cordoba: wr=0.77 dec=5 coef=1.000 => adj=0.768 (76.8%)
-   MEAN match: 0.847 (84.7%)
-
-
-MAESTROLOGUE — SYSTEM — 2026-04-13
+MAESTROLOGUE — SYSTEM — 2026-04-15
 ========================================
-- picks_total: 13
-- unique_matches_day: 9
+- picks_total: 4
+- unique_matches_day: 2
 - rich_day: False
 - max_windows_today: 1
 - windows_count: 1
@@ -78,108 +15,31 @@ MAESTROLOGUE — SYSTEM — 2026-04-13
 - min_accept_odd: 1.8
 - replay_after_last_kickoff: 110 min
 
-WINDOW 1 | 19:00 -> 21:30
-  - raw_window_picks: 13
-  - filtered_window_picks: 13
-  - ok_window: 13
+WINDOW 1 | 21:00 -> 21:00
+  - raw_window_picks: 4
+  - filtered_window_picks: 4
+  - ok_window: 4
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 4.54
-  - threshold_used_here: 2.4
+  - max_possible_odd(ok_window): 1.56
+  - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
   - OK_WINDOW [SYSTEM] picks acceptés :
-    OK 19:00 Eyüpspor vs Samsunspor | HT1X_HOME | odd=1.5 | poids=1.050
-    OK 19:00 Rizespor vs Gaziantep FK | O15_FT | odd=1.22 | poids=1.658
-    OK 19:00 Rizespor vs Gaziantep FK | HT1X_HOME | odd=1.17 | poids=1.594
-    OK 20:00 Kisvarda FC vs Debreceni VSC | HT1X_HOME | odd=1.4 | poids=1.040
-    OK 20:00 Kisvarda FC vs Debreceni VSC | TEAM1_SCORE_FT | odd=1.31 | poids=2.062
-    OK 20:45 Rodez vs Estac Troyes | HT1X_HOME | odd=1.5 | poids=2.063
-    OK 20:45 Rodez vs Estac Troyes | TEAM1_SCORE_FT | odd=1.3 | poids=2.046
-    OK 20:45 Fiorentina vs Lazio | TEAM1_SCORE_FT | odd=1.29 | poids=1.654
-    OK 20:45 Rodez vs Estac Troyes | O15_FT | odd=1.22 | poids=1.337
-    OK 21:00 Levante vs Getafe | HT1X_HOME | odd=1.25 | poids=1.634
-    OK 21:15 Tondela vs GIL Vicente | HT1X_HOME | odd=1.44 | poids=1.570
-    OK 21:30 Defensa Y Justicia vs Talleres Cordoba | HT1X_HOME | odd=1.25 | poids=1.987
-    OK 21:30 Sarmiento Junin vs Gimnasia L.P. | HT1X_HOME | odd=1.22 | poids=1.680
-Ticket: tranche=1 | cote=2.7 | seuil_local=2.4 | 20:45 → 23:20 | fenêtre=45min
-  1) 20:45 | ligue 2 | Rodez vs Estac Troyes | HT1X_HOME | odd=1.5
-  2) 21:15 | liga portugal | Tondela vs GIL Vicente | HT1X_HOME | odd=1.44
-  3) 21:30 | liga profesional argentina | Defensa Y Justicia vs Talleres Cordoba | HT1X_HOME | odd=1.25
+    OK 21:00 Arsenal vs Sporting CP | O15_FT | odd=1.25 | poids=1.618
+    OK 21:00 Bayern München vs Real Madrid | TEAM2_SCORE_FT | odd=1.25 | poids=1.683
+    OK 21:00 Bayern München vs Real Madrid | HT1X_HOME | odd=1.17 | poids=1.139
+    OK 21:00 Bayern München vs Real Madrid | HT05 | odd=1.15 | poids=1.155
+  -> ABANDON: cote max insuffisante même après fusion (1.56 < min_accept=1.8)
 
 FIN JOURNÉE
 ------------------
-- tickets_built: 1 / 1
-- next_window_start: 23:20
+- tickets_built: 0 / 1
+- next_window_start: 00:00
 
-MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
-----------------------------------------------------------------
-- build_source: TEAM x BET >= 0.60 (require_data=False)
-- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
-- règle: préférer 3L si écart <= 8.00%
-- iterations: 14269 | valid_3L_found: 6104 | valid_4L_found: 14269
-- top3_size: 10 | top4_size: 10
-- rejected_by_build_gate (approx): 0
-
-TOP3 (desc):
-  TOP3[1/10]: score=0.784 (78.4%) | legs=3 | odd=2.69
-  TOP3[2/10]: score=0.778 (77.8%) | legs=3 | odd=2.75
-  TOP3[3/10]: score=0.777 (77.7%) | legs=3 | odd=2.41
-  TOP3[4/10]: score=0.775 (77.5%) | legs=3 | odd=2.57
-  TOP3[5/10]: score=0.769 (76.9%) | legs=3 | odd=2.64
-  TOP3[6/10]: score=0.765 (76.5%) | legs=3 | odd=2.43
-  TOP3[7/10]: score=0.764 (76.4%) | legs=3 | odd=2.69
-  TOP3[8/10]: score=0.761 (76.1%) | legs=3 | odd=2.99
-  TOP3[9/10]: score=0.759 (75.9%) | legs=3 | odd=2.48
-  TOP3[10/10]: score=0.757 (75.7%) | legs=3 | odd=2.65
-
-TOP4 (desc):
-  TOP4[1/10]: score=0.790 (79.0%) | legs=4 | odd=2.64
-  TOP4[2/10]: score=0.789 (78.9%) | legs=4 | odd=3.36
-  TOP4[3/10]: score=0.788 (78.8%) | legs=4 | odd=2.95
-  TOP4[4/10]: score=0.785 (78.5%) | legs=4 | odd=2.88
-  TOP4[5/10]: score=0.784 (78.4%) | legs=4 | odd=2.53
-  TOP4[6/10]: score=0.782 (78.2%) | legs=4 | odd=3.21
-  TOP4[7/10]: score=0.778 (77.8%) | legs=4 | odd=3.28
-  TOP4[8/10]: score=0.777 (77.7%) | legs=4 | odd=2.87
-  TOP4[9/10]: score=0.776 (77.6%) | legs=4 | odd=3.65
-  TOP4[10/10]: score=0.774 (77.4%) | legs=4 | odd=3.03
-
-DRAW_3L: picked rank=4/10 | score=0.775 (77.5%) | odd=2.57
-DRAW_4L: picked rank=3/10 | score=0.788 (78.8%) | odd=2.95
-- écart relatif: 1.63%
-=> choisi: 3 legs | score=0.775 (77.5%) | final_source=TEAM
-
-Ticket choisi (aperçu)
-----------------------
-  1) 19:00 | super lig | Rizespor vs Gaziantep FK | O15_FT | odd=1.22
-  2) 19:00 | liga portugal 2 | Lusitânia Lourosa vs FC Porto B | O15_FT | odd=1.36
-  3) 21:00 | laliga | Levante vs Getafe | O15_FT | odd=1.55
-
-MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
-------------------------------------------------------------------------------
-- score ticket: 0.775 (77.5%)
-- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
-
-1) 19:00 | super lig | Rizespor vs Gaziantep FK | bet=O15_FT | odd=1.22
-   HOME Rizespor: wr=0.81 dec=10 coef=1.000 => adj=0.806 (80.6%)
-   AWAY Gaziantep FK: wr=0.84 dec=6 coef=1.000 => adj=0.837 (83.7%)
-   MEAN match: 0.821 (82.1%)
-
-2) 19:00 | liga portugal 2 | Lusitânia Lourosa vs FC Porto B | bet=O15_FT | odd=1.36
-   HOME Lusitânia Lourosa: wr=0.74 dec=11 coef=1.000 => adj=0.739 (73.9%)
-   AWAY FC Porto B: wr=0.76 dec=12 coef=1.000 => adj=0.764 (76.4%)
-   MEAN match: 0.751 (75.1%)
-
-3) 21:00 | laliga | Levante vs Getafe | bet=O15_FT | odd=1.55
-   HOME Levante: wr=0.84 dec=14 coef=1.000 => adj=0.844 (84.4%)
-   AWAY Getafe: wr=0.66 dec=12 coef=1.000 => adj=0.663 (66.3%)
-   MEAN match: 0.754 (75.4%)
-
-
-MAESTROLOGUE — RANDOM — 2026-04-13
+MAESTROLOGUE — RANDOM — 2026-04-15
 ========================================
-- picks_total: 7
-- unique_matches_day: 7
+- picks_total: 1
+- unique_matches_day: 1
 - rich_day: False
 - max_windows_today: 1
 - windows_count: 1
@@ -187,34 +47,25 @@ MAESTROLOGUE — RANDOM — 2026-04-13
 - min_accept_odd: 1.8
 - replay_after_last_kickoff: 110 min
 
-WINDOW 1 | 19:00 -> 21:15
-  - raw_window_picks: 7
-  - filtered_window_picks: 7
-  - ok_window: 7
+WINDOW 1 | 21:00 -> 21:00
+  - raw_window_picks: 1
+  - filtered_window_picks: 1
+  - ok_window: 1
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 4.19
-  - threshold_used_here: 2.4
+  - max_possible_odd(ok_window): 1.25
+  - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
   - OK_WINDOW [RANDOM] picks acceptés :
-    OK 19:00 Lusitânia Lourosa vs FC Porto B | O15_FT | odd=1.36 | poids=1.000
-    OK 19:00 Rizespor vs Gaziantep FK | O15_FT | odd=1.22 | poids=1.000
-    OK 20:00 Kisvarda FC vs Debreceni VSC | O15_FT | odd=1.25 | poids=1.000
-    OK 20:45 Fiorentina vs Lazio | O15_FT | odd=1.4 | poids=1.000
-    OK 20:45 Rodez vs Estac Troyes | O15_FT | odd=1.22 | poids=1.000
-    OK 21:00 Levante vs Getafe | O15_FT | odd=1.55 | poids=1.000
-    OK 21:15 Tondela vs GIL Vicente | O15_FT | odd=1.42 | poids=1.000
-Ticket: tranche=1 | cote=2.57 | seuil_local=2.4 | 19:00 → 22:50 | fenêtre=120min
-  1) 19:00 | super lig | Rizespor vs Gaziantep FK | O15_FT | odd=1.22
-  2) 19:00 | liga portugal 2 | Lusitânia Lourosa vs FC Porto B | O15_FT | odd=1.36
-  3) 21:00 | laliga | Levante vs Getafe | O15_FT | odd=1.55
+    OK 21:00 Arsenal vs Sporting CP | O15_FT | odd=1.25 | poids=1.000
+  -> ABANDON: cote max insuffisante même après fusion (1.25 < min_accept=1.8)
 
 FIN JOURNÉE
 ------------------
-- tickets_built: 1 / 1
-- next_window_start: 22:50
+- tickets_built: 0 / 1
+- next_window_start: 00:00
 
 RUN SUMMARY
-- system_tickets: 1 | o15_tickets: 1
+- system: 0 | o15: 0 | o15_super: 0 | u35: 0 | u35_super: 0
 ----------------------------------------
 

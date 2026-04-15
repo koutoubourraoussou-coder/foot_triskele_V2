@@ -1397,3 +1397,8 @@ TSV: 2026-04-13	2527207444	O15_FT	21:15	liga portugal	Tondela	GIL Vicente	1.42	1
 TSV: 2026-04-13	3413703777	O15_FT	21:30	liga profesional argentina	Defensa Y Justicia	Talleres Cordoba	1.57	1492016	O15_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-04-13	1824509513	O15_FT	21:30	liga profesional argentina	Sarmiento Junin	Gimnasia L.P.	1.57	1492026	O15_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_BASE | 2026-04-15 02:11:17 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-15	3265576565	O15_FT	21:00	uefa champions league	Arsenal	Sporting CP	1.25	1534571	O15_RANDOM_POOL_BASE	predictions.tsv
+
