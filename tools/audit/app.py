@@ -1140,7 +1140,19 @@ def _default_dual_state():
 
 def _load_dual_state():
     if STATE_FILE_DUAL.exists():
-        return json.loads(STATE_FILE_DUAL.read_text())
+        try:
+            state = json.loads(STATE_FILE_DUAL.read_text())
+            # Validate that all expected strategy keys are present
+            default = _default_dual_state()
+            for pkey, pcfg in default.items():
+                if pkey not in state:
+                    return default
+                for sname in pcfg["strategies"]:
+                    if sname not in state[pkey].get("strategies", {}):
+                        return default
+            return state
+        except Exception:
+            pass
     return _default_dual_state()
 
 def _save_dual_state(s):
