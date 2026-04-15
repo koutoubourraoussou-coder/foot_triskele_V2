@@ -42,7 +42,7 @@ _STRAT_FOR = {
 }
 
 # Mise initiale par stratégie (pour restart réserves)
-_BA0 = 0.10
+_BA0 = 1.50
 
 
 # ── Martingale logic ──────────────────────────────────────────────────────────

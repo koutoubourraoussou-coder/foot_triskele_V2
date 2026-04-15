@@ -1070,7 +1070,7 @@ _STRAT_CONFIG = {
     "SYSTEM SAFE":    {"mode": "SAFE",    "ml": 4},
     "SYSTEM NORMALE": {"mode": "NORMALE", "ml": 4},
 }
-_BANKROLL0 = 0.10
+_BANKROLL0 = 1.50
 
 def _default_state():
     strats = {}
@@ -1098,10 +1098,10 @@ _PORTFOLIO_CONFIGS = {
         "label": "Portfolio 100€",
         "reserves0": 94.0,
         "strategies": {
-            "O15 RANDOM SAFE": {"mode": "SAFE", "ml": 4, "ba": 0.10},
-            "O15 SUPER SAFE":  {"mode": "SAFE", "ml": 4, "ba": 0.10},
-            "U35 RANDOM SAFE": {"mode": "SAFE", "ml": 4, "ba": 0.10},
-            "U35 SUPER SAFE":  {"mode": "SAFE", "ml": 4, "ba": 0.10},
+            "O15 RANDOM SAFE": {"mode": "SAFE", "ml": 4, "ba": 1.50},
+            "O15 SUPER SAFE":  {"mode": "SAFE", "ml": 4, "ba": 1.50},
+            "U35 RANDOM SAFE": {"mode": "SAFE", "ml": 4, "ba": 1.50},
+            "U35 SUPER SAFE":  {"mode": "SAFE", "ml": 4, "ba": 1.50},
         },
     },
 }
