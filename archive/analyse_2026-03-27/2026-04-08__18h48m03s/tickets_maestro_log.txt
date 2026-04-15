@@ -1,0 +1,470 @@
+RUN MAESTROLOGUE — 2026-04-08 20:50:02
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 4364 | valid_3L_found: 3389 | valid_4L_found: 4364
+- top3_size: 10 | top4_size: 10
+
+TOP3 (desc):
+  TOP3[1/10]: score=0.743 (74.3%) | legs=3 | odd=2.74
+  TOP3[2/10]: score=0.741 (74.1%) | legs=3 | odd=2.65
+  TOP3[3/10]: score=0.739 (73.9%) | legs=3 | odd=2.42
+  TOP3[4/10]: score=0.733 (73.3%) | legs=3 | odd=2.58
+  TOP3[5/10]: score=0.733 (73.3%) | legs=3 | odd=2.8
+  TOP3[6/10]: score=0.733 (73.3%) | legs=3 | odd=2.44
+  TOP3[7/10]: score=0.733 (73.3%) | legs=3 | odd=2.48
+  TOP3[8/10]: score=0.732 (73.2%) | legs=3 | odd=2.49
+  TOP3[9/10]: score=0.724 (72.4%) | legs=3 | odd=2.62
+  TOP3[10/10]: score=0.724 (72.4%) | legs=3 | odd=2.58
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.730 (73.0%) | legs=4 | odd=3.81
+  TOP4[2/10]: score=0.728 (72.8%) | legs=4 | odd=3.36
+  TOP4[3/10]: score=0.723 (72.3%) | legs=4 | odd=3.56
+  TOP4[4/10]: score=0.723 (72.3%) | legs=4 | odd=3.51
+  TOP4[5/10]: score=0.723 (72.3%) | legs=4 | odd=3.59
+  TOP4[6/10]: score=0.721 (72.1%) | legs=4 | odd=3.1
+  TOP4[7/10]: score=0.721 (72.1%) | legs=4 | odd=3.14
+  TOP4[8/10]: score=0.716 (71.6%) | legs=4 | odd=3.3
+  TOP4[9/10]: score=0.716 (71.6%) | legs=4 | odd=3.35
+  TOP4[10/10]: score=0.686 (68.6%) | legs=4 | odd=4.2
+
+DRAW_3L: picked rank=10/10 | score=0.724 (72.4%) | odd=2.58
+DRAW_4L: picked rank=1/10 | score=0.730 (73.0%) | odd=3.81
+- écart relatif: 0.77%
+=> choisi: 3 legs | score=0.724 (72.4%) | final_source=HYBRID
+
+Ticket choisi (aperçu)
+----------------------
+  1) 00:30 | primera división paraguay | Sportivo Ameliano vs Libertad Asuncion | HT1X_HOME | odd=1.4
+  2) 13:30 | international friendlies | Iran vs Nigeria | O15_FT | odd=1.44
+  3) 15:30 | international friendlies | Italy U20 vs England U20 | TEAM2_SCORE_FT | odd=1.28
+
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, HYBRID x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.724 (72.4%)
+- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 00:30 | primera división paraguay | Sportivo Ameliano vs Libertad Asuncion | bet=HT1X_HOME | odd=1.4
+   HOME Sportivo Ameliano: wr=0.94 dec=6 coef=1.000 => adj=0.939 (93.9%)
+   AWAY Libertad Asuncion: wr=0.82 dec=7 coef=1.000 => adj=0.818 (81.8%)
+   MEAN match: 0.878 (87.8%)
+
+2) 13:30 | international friendlies | Iran vs Nigeria | bet=O15_FT | odd=1.44
+   HOME Iran: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   AWAY Nigeria: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   MEAN match: 0.775 (77.5%)
+
+3) 15:30 | international friendlies | Italy U20 vs England U20 | bet=TEAM2_SCORE_FT | odd=1.28
+   HOME Italy U20: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+   AWAY England U20: wr=1.00 dec=1 coef=0.700 => adj=0.700 (70.0%)
+   MEAN match: 0.700 (70.0%)
+
+
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 5630 | valid_3L_found: 2570 | valid_4L_found: 5630
+- top3_size: 10 | top4_size: 10
+
+TOP3 (desc):
+  TOP3[1/10]: score=0.661 (66.1%) | legs=3 | odd=2.53
+  TOP3[2/10]: score=0.625 (62.5%) | legs=3 | odd=2.64
+  TOP3[3/10]: score=0.620 (62.0%) | legs=3 | odd=2.45
+  TOP3[4/10]: score=0.620 (62.0%) | legs=3 | odd=2.57
+  TOP3[5/10]: score=0.613 (61.3%) | legs=3 | odd=2.49
+  TOP3[6/10]: score=0.608 (60.8%) | legs=3 | odd=2.42
+  TOP3[7/10]: score=0.591 (59.1%) | legs=3 | odd=2.44
+  TOP3[8/10]: score=0.585 (58.5%) | legs=3 | odd=2.5
+  TOP3[9/10]: score=0.583 (58.3%) | legs=3 | odd=2.48
+  TOP3[10/10]: score=0.568 (56.8%) | legs=3 | odd=2.44
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.599 (59.9%) | legs=4 | odd=3.37
+  TOP4[2/10]: score=0.596 (59.6%) | legs=4 | odd=3.12
+  TOP4[3/10]: score=0.590 (59.0%) | legs=4 | odd=3.17
+  TOP4[4/10]: score=0.587 (58.7%) | legs=4 | odd=2.94
+  TOP4[5/10]: score=0.572 (57.2%) | legs=4 | odd=3.52
+  TOP4[6/10]: score=0.569 (56.9%) | legs=4 | odd=3.26
+  TOP4[7/10]: score=0.568 (56.8%) | legs=4 | odd=3.42
+  TOP4[8/10]: score=0.565 (56.5%) | legs=4 | odd=3.17
+  TOP4[9/10]: score=0.563 (56.3%) | legs=4 | odd=3.31
+  TOP4[10/10]: score=0.560 (56.0%) | legs=4 | odd=3.06
+
+DRAW_3L: picked rank=1/10 | score=0.661 (66.1%) | odd=2.53
+DRAW_4L: picked rank=8/10 | score=0.565 (56.5%) | odd=3.17
+- écart relatif: 17.03%
+=> choisi: 3 legs | score=0.661 (66.1%) | final_source=HYBRID
+
+Ticket choisi (aperçu)
+----------------------
+  1) 18:00 | international friendlies | Austria vs Ghana | HT05 | odd=1.35
+  2) 18:00 | international friendlies | Montenegro vs Andorra | HT05 | odd=1.36
+  3) 18:30 | international friendlies | Jordan vs Costa Rica | O15_FT | odd=1.38
+
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, HYBRID x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.661 (66.1%)
+- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 18:00 | international friendlies | Austria vs Ghana | bet=HT05 | odd=1.35
+   HOME Austria: wr=0.51 dec=2 coef=0.775 => adj=0.397 (39.7%)
+   AWAY Ghana: wr=0.93 dec=2 coef=0.775 => adj=0.724 (72.4%)
+   MEAN match: 0.560 (56.0%)
+
+2) 18:00 | international friendlies | Montenegro vs Andorra | bet=HT05 | odd=1.36
+   HOME Montenegro: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   AWAY Andorra: wr=0.49 dec=2 coef=0.775 => adj=0.379 (37.9%)
+   MEAN match: 0.577 (57.7%)
+
+3) 18:30 | international friendlies | Jordan vs Costa Rica | bet=O15_FT | odd=1.38
+   HOME Jordan: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   AWAY Costa Rica: wr=0.98 dec=2 coef=0.775 => adj=0.758 (75.8%)
+   MEAN match: 0.766 (76.6%)
+
+
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 5624 | valid_3L_found: 2489 | valid_4L_found: 5244
+- top3_size: 10 | top4_size: 10
+
+TOP3 (desc):
+  TOP3[1/10]: score=0.750 (75.0%) | legs=3 | odd=2.45
+  TOP3[2/10]: score=0.748 (74.8%) | legs=3 | odd=2.56
+  TOP3[3/10]: score=0.742 (74.2%) | legs=3 | odd=2.76
+  TOP3[4/10]: score=0.742 (74.2%) | legs=3 | odd=2.53
+  TOP3[5/10]: score=0.741 (74.1%) | legs=3 | odd=2.88
+  TOP3[6/10]: score=0.738 (73.8%) | legs=3 | odd=2.52
+  TOP3[7/10]: score=0.736 (73.6%) | legs=3 | odd=2.42
+  TOP3[8/10]: score=0.735 (73.5%) | legs=3 | odd=2.53
+  TOP3[9/10]: score=0.734 (73.4%) | legs=3 | odd=2.49
+  TOP3[10/10]: score=0.734 (73.4%) | legs=3 | odd=3.11
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.746 (74.6%) | legs=4 | odd=2.87
+  TOP4[2/10]: score=0.745 (74.5%) | legs=4 | odd=2.99
+  TOP4[3/10]: score=0.741 (74.1%) | legs=4 | odd=2.63
+  TOP4[4/10]: score=0.740 (74.0%) | legs=4 | odd=3.23
+  TOP4[5/10]: score=0.740 (74.0%) | legs=4 | odd=2.59
+  TOP4[6/10]: score=0.739 (73.9%) | legs=4 | odd=2.49
+  TOP4[7/10]: score=0.739 (73.9%) | legs=4 | odd=3.37
+  TOP4[8/10]: score=0.739 (73.9%) | legs=4 | odd=2.6
+  TOP4[9/10]: score=0.737 (73.7%) | legs=4 | odd=2.95
+  TOP4[10/10]: score=0.735 (73.5%) | legs=4 | odd=2.83
+
+DRAW_3L: picked rank=9/10 | score=0.734 (73.4%) | odd=2.49
+DRAW_4L: picked rank=10/10 | score=0.735 (73.5%) | odd=2.83
+- écart relatif: 0.14%
+=> choisi: 3 legs | score=0.734 (73.4%) | final_source=HYBRID
+
+Ticket choisi (aperçu)
+----------------------
+  1) 20:45 | international friendlies | Netherlands vs Norway | HT05 | odd=1.28
+  2) 21:15 | international friendlies | Morocco vs Ecuador | O15_FT | odd=1.62
+  3) 22:00 | primera a colombia | Águilas Doradas vs Alianza Valledupar | HT1X_HOME | odd=1.2
+
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, HYBRID x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.734 (73.4%)
+- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 20:45 | international friendlies | Netherlands vs Norway | bet=HT05 | odd=1.28
+   HOME Netherlands: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   AWAY Norway: wr=0.54 dec=2 coef=0.775 => adj=0.417 (41.7%)
+   MEAN match: 0.596 (59.6%)
+
+2) 21:15 | international friendlies | Morocco vs Ecuador | bet=O15_FT | odd=1.62
+   HOME Morocco: wr=0.98 dec=2 coef=0.775 => adj=0.762 (76.2%)
+   AWAY Ecuador: wr=0.97 dec=2 coef=0.775 => adj=0.753 (75.3%)
+   MEAN match: 0.758 (75.8%)
+
+3) 22:00 | primera a colombia | Águilas Doradas vs Alianza Valledupar | bet=HT1X_HOME | odd=1.2
+   HOME Águilas Doradas: wr=0.95 dec=5 coef=1.000 => adj=0.951 (95.0%)
+   AWAY Alianza Valledupar: wr=0.82 dec=7 coef=1.000 => adj=0.818 (81.8%)
+   MEAN match: 0.884 (88.4%)
+
+
+MAESTROLOGUE — SYSTEM — 2026-03-27
+========================================
+- picks_total: 53
+- unique_matches_day: 24
+- rich_day: True
+- max_windows_today: 4
+- windows_count: 3
+- target_odd: 2.4
+- min_accept_odd: 1.8
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 00:15 -> 15:30
+  - raw_window_picks: 11
+  - filtered_window_picks: 11
+  - ok_window: 11
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 244.94
+  - threshold_used_here: 2.4
+  - OK_WINDOW [SYSTEM] picks acceptés :
+    OK 00:15 Argentina vs Mauritania | O15_FT | odd=81 | poids=1.100
+    OK 00:30 Sportivo Ameliano vs Libertad Asuncion | HT1X_HOME | odd=1.4 | poids=1.408
+    OK 13:30 Iran vs Nigeria | O15_FT | odd=1.44 | poids=1.044
+    OK 14:00 Tunisia U20 vs Mauritania U20 | TEAM2_SCORE_FT | odd=1.5 | poids=1.050
+    OK 14:00 Tunisia U20 vs Mauritania U20 | HT05 | odd=1.36 | poids=1.036
+    OK 14:00 Tunisia U20 vs Mauritania U20 | O15_FT | odd=1.28 | poids=1.028
+    OK 14:00 Tunisia U20 vs Mauritania U20 | HT1X_HOME | odd=1.2 | poids=1.020
+    OK 15:30 Italy U20 vs England U20 | HT05 | odd=1.39 | poids=1.039
+    OK 15:30 Italy U20 vs England U20 | O15_FT | odd=1.3 | poids=1.030
+    OK 15:30 Italy U20 vs England U20 | TEAM2_SCORE_FT | odd=1.28 | poids=1.028
+    OK 15:30 Italy U20 vs England U20 | HT1X_HOME | odd=1.26 | poids=1.026
+Ticket: tranche=1 | cote=2.58 | seuil_local=2.4 | 00:30 → 17:20 | fenêtre=900min
+  1) 00:30 | primera división paraguay | Sportivo Ameliano vs Libertad Asuncion | HT1X_HOME | odd=1.4
+  2) 13:30 | international friendlies | Iran vs Nigeria | O15_FT | odd=1.44
+  3) 15:30 | international friendlies | Italy U20 vs England U20 | TEAM2_SCORE_FT | odd=1.28
+
+WINDOW 2 | 16:00 -> 18:30
+  - raw_window_picks: 16
+  - filtered_window_picks: 9
+  - ok_window: 9
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 3.52
+  - threshold_used_here: 2.4
+  - OK_WINDOW [SYSTEM] picks acceptés :
+    OK 18:00 Montenegro vs Andorra | HT05 | odd=1.36 | poids=1.036
+    OK 18:00 Austria vs Ghana | HT05 | odd=1.35 | poids=1.035
+    OK 18:00 Montenegro vs Andorra | O15_FT | odd=1.28 | poids=1.028
+    OK 18:00 Austria vs Ghana | O15_FT | odd=1.25 | poids=1.025
+    OK 18:30 Jordan vs Costa Rica | HT05 | odd=1.44 | poids=1.044
+    OK 18:30 Jordan vs Costa Rica | TEAM1_SCORE_FT | odd=1.4 | poids=1.040
+    OK 18:30 Jordan vs Costa Rica | O15_FT | odd=1.38 | poids=1.038
+    OK 18:30 Jordan vs Costa Rica | HT1X_HOME | odd=1.33 | poids=1.033
+    OK 18:30 Saudi Arabia vs Egypt | HT1X_HOME | odd=1.33 | poids=1.033
+Ticket: tranche=2 | cote=2.53 | seuil_local=2.4 | 18:00 → 20:20 | fenêtre=30min
+  1) 18:00 | international friendlies | Austria vs Ghana | HT05 | odd=1.35
+  2) 18:00 | international friendlies | Montenegro vs Andorra | HT05 | odd=1.36
+  3) 18:30 | international friendlies | Jordan vs Costa Rica | O15_FT | odd=1.38
+
+WINDOW 3 | 19:00 -> 22:30
+  - raw_window_picks: 26
+  - filtered_window_picks: 18
+  - ok_window: 18
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 6.04
+  - threshold_used_here: 2.4
+  - OK_WINDOW [SYSTEM] picks acceptés :
+    OK 20:30 Algeria vs Guatemala | HT05 | odd=1.4 | poids=1.040
+    OK 20:30 Algeria vs Guatemala | O15_FT | odd=1.36 | poids=1.036
+    OK 20:45 Caernarfon Town vs The New Saints | HT1X_HOME | odd=1.8 | poids=1.080
+    OK 20:45 Switzerland vs Germany | HT1X_HOME | odd=1.48 | poids=1.048
+    OK 20:45 Caernarfon Town vs The New Saints | TEAM1_SCORE_FT | odd=1.42 | poids=1.042
+    OK 20:45 England vs Uruguay | HT05 | odd=1.4 | poids=1.040
+    OK 20:45 England vs Uruguay | O15_FT | odd=1.35 | poids=1.035
+    OK 20:45 Switzerland vs Germany | HT05 | odd=1.3 | poids=1.030
+    OK 20:45 Netherlands vs Norway | HT05 | odd=1.28 | poids=1.028
+    OK 20:45 Switzerland vs Germany | O15_FT | odd=1.22 | poids=1.022
+    OK 20:45 Netherlands vs Norway | O15_FT | odd=1.2 | poids=1.020
+    OK 21:00 Spain vs Serbia | HT05 | odd=1.18 | poids=1.018
+    OK 21:15 Morocco vs Ecuador | O15_FT | odd=1.62 | poids=1.062
+    OK 21:15 Morocco vs Ecuador | TEAM1_SCORE_FT | odd=1.44 | poids=1.044
+    OK 21:15 Morocco vs Ecuador | HT1X_HOME | odd=1.25 | poids=1.025
+    OK 22:00 Águilas Doradas vs Alianza Valledupar | HT1X_HOME | odd=1.2 | poids=1.724
+    OK 22:30 Nacional Asuncion vs Sportivo Luqueno | TEAM1_SCORE_FT | odd=1.27 | poids=1.027
+    OK 22:30 Nacional Asuncion vs Sportivo Luqueno | HT1X_HOME | odd=1.17 | poids=1.376
+Ticket: tranche=3 | cote=2.49 | seuil_local=2.4 | 20:45 → 23:50 | fenêtre=75min
+  1) 20:45 | international friendlies | Netherlands vs Norway | HT05 | odd=1.28
+  2) 21:15 | international friendlies | Morocco vs Ecuador | O15_FT | odd=1.62
+  3) 22:00 | primera a colombia | Águilas Doradas vs Alianza Valledupar | HT1X_HOME | odd=1.2
+
+FIN JOURNÉE
+------------------
+- tickets_built: 3 / 4
+- next_window_start: 23:50
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 10864 | valid_3L_found: 0 | valid_4L_found: 0
+- top3_size: 0 | top4_size: 0
+- rejected_by_build_gate (approx): 69904
+
+TOP3 (desc):
+  (vide)
+
+TOP4 (desc):
+  (vide)
+
+DRAW_3L: (aucun)
+DRAW_4L: (aucun)
+- écart relatif: —
+=> choisi: aucun (aucune combinaison valide)
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 6410 | valid_3L_found: 1259 | valid_4L_found: 6410
+- top3_size: 2 | top4_size: 5
+- rejected_by_build_gate (approx): 49300
+
+TOP3 (desc):
+  TOP3[1/2]: score=0.769 (76.9%) | legs=3 | odd=2.54
+  TOP3[2/2]: score=0.747 (74.7%) | legs=3 | odd=2.58
+
+TOP4 (desc):
+  TOP4[1/5]: score=0.806 (80.6%) | legs=4 | odd=3.05
+  TOP4[2/5]: score=0.790 (79.0%) | legs=4 | odd=3.1
+  TOP4[3/5]: score=0.790 (79.0%) | legs=4 | odd=2.88
+  TOP4[4/5]: score=0.787 (78.7%) | legs=4 | odd=2.76
+  TOP4[5/5]: score=0.752 (75.2%) | legs=4 | odd=3.31
+
+DRAW_3L: picked rank=2/2 | score=0.747 (74.7%) | odd=2.58
+DRAW_4L: picked rank=2/5 | score=0.790 (79.0%) | odd=3.1
+- écart relatif: 5.38%
+=> choisi: 3 legs | score=0.747 (74.7%) | final_source=TEAM
+
+Ticket choisi (aperçu)
+----------------------
+  1) 13:30 | international friendlies | Iran vs Nigeria | O15_FT | odd=1.44
+  2) 15:30 | international friendlies | Italy U20 vs England U20 | O15_FT | odd=1.3
+  3) 18:30 | international friendlies | Jordan vs Costa Rica | O15_FT | odd=1.38
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.747 (74.7%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 13:30 | international friendlies | Iran vs Nigeria | bet=O15_FT | odd=1.44
+   HOME Iran: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   AWAY Nigeria: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   MEAN match: 0.775 (77.5%)
+
+2) 15:30 | international friendlies | Italy U20 vs England U20 | bet=O15_FT | odd=1.3
+   HOME Italy U20: wr=1.00 dec=1 coef=0.700 => adj=0.700 (70.0%)
+   AWAY England U20: wr=1.00 dec=1 coef=0.700 => adj=0.700 (70.0%)
+   MEAN match: 0.700 (70.0%)
+
+3) 18:30 | international friendlies | Jordan vs Costa Rica | bet=O15_FT | odd=1.38
+   HOME Jordan: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   AWAY Costa Rica: wr=0.98 dec=2 coef=0.775 => adj=0.758 (75.8%)
+   MEAN match: 0.766 (76.6%)
+
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 14210 | valid_3L_found: 0 | valid_4L_found: 0
+- top3_size: 0 | top4_size: 0
+- rejected_by_build_gate (approx): 113680
+
+TOP3 (desc):
+  (vide)
+
+TOP4 (desc):
+  (vide)
+
+DRAW_3L: (aucun)
+DRAW_4L: (aucun)
+- écart relatif: —
+=> choisi: aucun (aucune combinaison valide)
+
+MAESTROLOGUE — RANDOM — 2026-03-27
+========================================
+- picks_total: 19
+- unique_matches_day: 19
+- rich_day: True
+- max_windows_today: 4
+- windows_count: 3
+- target_odd: 2.4
+- min_accept_odd: 1.8
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 00:15 -> 16:00
+  - raw_window_picks: 7
+  - filtered_window_picks: 7
+  - ok_window: 7
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 260.04
+  - threshold_used_here: 2.4
+  - OK_WINDOW [RANDOM] picks acceptés :
+    OK 00:15 Argentina vs Mauritania | O15_FT | odd=81 | poids=1.000
+    OK 13:30 Iran vs Nigeria | O15_FT | odd=1.44 | poids=1.000
+    OK 14:00 Tunisia U20 vs Mauritania U20 | O15_FT | odd=1.28 | poids=1.000
+    OK 15:30 Italy U20 vs England U20 | O15_FT | odd=1.3 | poids=1.000
+    OK 16:00 Benin vs Liberia | O15_FT | odd=1.57 | poids=1.000
+    OK 16:00 Guinea vs Togo | O15_FT | odd=1.42 | poids=1.000
+    OK 16:00 Russia vs Mali | O15_FT | odd=1.35 | poids=1.000
+  -> MERGE avec WINDOW 2 car aucune combinaison valide sur seuil local 2.4
+
+WINDOWS 1->2 (MERGED) | 00:15 -> 19:00
+  - raw_window_picks: 13
+  - filtered_window_picks: 13
+  - ok_window: 13
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 263.7
+  - threshold_used_here: 2.4
+  - OK_WINDOW [RANDOM] picks acceptés :
+    OK 00:15 Argentina vs Mauritania | O15_FT | odd=81 | poids=1.000
+    OK 13:30 Iran vs Nigeria | O15_FT | odd=1.44 | poids=1.000
+    OK 14:00 Tunisia U20 vs Mauritania U20 | O15_FT | odd=1.28 | poids=1.000
+    OK 15:30 Italy U20 vs England U20 | O15_FT | odd=1.3 | poids=1.000
+    OK 16:00 Benin vs Liberia | O15_FT | odd=1.57 | poids=1.000
+    OK 16:00 Guinea vs Togo | O15_FT | odd=1.42 | poids=1.000
+    OK 16:00 Russia vs Mali | O15_FT | odd=1.35 | poids=1.000
+    OK 18:00 Montenegro vs Andorra | O15_FT | odd=1.28 | poids=1.000
+    OK 18:00 Austria vs Ghana | O15_FT | odd=1.25 | poids=1.000
+    OK 18:30 Saudi Arabia vs Egypt | O15_FT | odd=1.44 | poids=1.000
+    OK 18:30 Jordan vs Costa Rica | O15_FT | odd=1.38 | poids=1.000
+    OK 19:00 Libya vs Niger | O15_FT | odd=1.44 | poids=1.000
+    OK 19:00 Cordoba vs Mirandes | O15_FT | odd=1.2 | poids=1.000
+Ticket: tranche=1 | cote=2.58 | seuil_local=2.4 | 13:30 → 20:20 | fenêtre=300min
+  1) 13:30 | international friendlies | Iran vs Nigeria | O15_FT | odd=1.44
+  2) 15:30 | international friendlies | Italy U20 vs England U20 | O15_FT | odd=1.3
+  3) 18:30 | international friendlies | Jordan vs Costa Rica | O15_FT | odd=1.38
+
+WINDOW 3 | 20:00 -> 21:15
+  - raw_window_picks: 6
+  - filtered_window_picks: 5
+  - ok_window: 5
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 3.63
+  - threshold_used_here: 2.4
+  - OK_WINDOW [RANDOM] picks acceptés :
+    OK 20:30 Algeria vs Guatemala | O15_FT | odd=1.36 | poids=1.000
+    OK 20:45 England vs Uruguay | O15_FT | odd=1.35 | poids=1.000
+    OK 20:45 Switzerland vs Germany | O15_FT | odd=1.22 | poids=1.000
+    OK 20:45 Netherlands vs Norway | O15_FT | odd=1.2 | poids=1.000
+    OK 21:15 Morocco vs Ecuador | O15_FT | odd=1.62 | poids=1.000
+  -> ABANDON: aucune combinaison valide
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1 / 4
+- next_window_start: 20:20
+
+RUN SUMMARY
+- system_tickets: 3 | o15_tickets: 1
+----------------------------------------
+

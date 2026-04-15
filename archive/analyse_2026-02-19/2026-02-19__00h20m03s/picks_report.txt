@@ -1,0 +1,47 @@
+PARIS JOUABLES — Jeudi 2026-02-19
+=================================
+
+01:30 | primera a colombia | Junior (5) vs America de Cali (8)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.18 fixture=1505995
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.38 fixture=1505995
+  - TEAM1_SCORE_FT | Team1 scores (FT) | EXPLOSION | odd=1.23 fixture=1505995
+
+18:45 | uefa europa league | Brann (24) vs Bologna (10)
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36 fixture=1515530
+
+18:45 | uefa europa league | Dinamo Zagreb (23) vs Genk (9)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.4 fixture=1515531
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.25 fixture=1515531
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3 fixture=1515531
+
+18:45 | uefa europa league | Fenerbahçe (19) vs Nottingham Forest (13)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.38 fixture=1515532
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.3 fixture=1515532
+
+20:00 | saudi arabia | Al-Ahli Jeddah (3) vs Al Najma (18)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.18 fixture=1436114
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.01 fixture=1436114
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.1 fixture=1436114
+
+20:00 | saudi arabia | Al-Ettifaq (7) vs Al-Fateh (10)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.33 fixture=1436118
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.25 fixture=1436118
+
+21:00 | uefa europa league | Celtic (21) vs VfB Stuttgart (11)
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22 fixture=1515534
+
+21:00 | uefa europa league | Lille (18) vs FK Crvena Zvezda (15)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.33 fixture=1515535
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.25 fixture=1515535
+
+21:00 | uefa europa league | Ludogorets (22) vs Ferencvarosi TC (12)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.4 fixture=1515536
+
+21:00 | uefa europa league | Panathinaikos (20) vs Plzen (14)
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.4 fixture=1515537
+
+22:30 | primera división paraguay | Club Sp. San Lorenzo (—) vs Sportivo Trinidense (4)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.36 fixture=1504993
+
+23:30 | liga profesional argentina | Instituto Cordoba (13) vs Atletico Tucuman (12)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.18 fixture=1491902

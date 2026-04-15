@@ -1,0 +1,156 @@
+RUN MAESTROLOGUE — 2026-02-20 00:38:00
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTROLOGUE — Décision finale 3L vs 4L (SYSTEM)
+----------------------------------------------
+- règle: préférer 3L si écart <= 3.00%
+- best3_score: 0.853 (85.3%)
+- best4_score: 0.938 (93.8%)
+- écart relatif: 9.09%
+=> choisi: 4 legs | score=0.938 (93.8%) | meilleur score retenu
+
+Aperçu ticket non retenu
+------------------------
+- legs: 3 | score=0.853 (85.3%)
+  1) 18:00 | super lig | Rizespor vs Kocaelispor | O15_FT | odd=1.36
+  2) 20:30 | laliga2 | AD Ceuta FC vs Granada CF | O15_FT | odd=1.38
+  3) 20:45 | ligue 1 | Stade Brestois 29 vs Marseille | O15_FT | odd=1.23
+
+MAESTROLOGUE — Détail du score (ticket choisi)
+------------------------------------------
+- score ticket: 0.938 (93.8%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 20:00 | eredivisie | Fortuna Sittard vs Excelsior | bet=O15_FT | odd=1.25
+   HOME Fortuna Sittard: wr=1.00 dec=6 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Excelsior: wr=0.86 dec=7 coef=1.000 => adj=0.857 (85.7%)
+   MEAN match: 0.929 (92.9%)
+
+2) 20:45 | cymru premier league | llanelli AFC vs Haverfordwest County AFC | bet=O15_FT | odd=1.21
+   HOME llanelli AFC: wr=0.80 dec=5 coef=1.000 => adj=0.800 (80.0%)
+   AWAY Haverfordwest County AFC: wr=1.00 dec=4 coef=0.925 => adj=0.925 (92.5%)
+   MEAN match: 0.863 (86.2%)
+
+3) 20:45 | pro league | Gent vs Cercle Brugge | bet=O15_FT | odd=1.22
+   HOME Gent: wr=1.00 dec=4 coef=0.925 => adj=0.925 (92.5%)
+   AWAY Cercle Brugge: wr=1.00 dec=5 coef=1.000 => adj=1.000 (100.0%)
+   MEAN match: 0.963 (96.2%)
+
+4) 20:45 | ligue 1 | Stade Brestois 29 vs Marseille | bet=O15_FT | odd=1.23
+   HOME Stade Brestois 29: wr=1.00 dec=5 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Marseille: wr=1.00 dec=6 coef=1.000 => adj=1.000 (100.0%)
+   MEAN match: 1.000 (100.0%)
+
+
+MAESTROLOGUE — SYSTEM — 2026-02-20
+========================================
+- picks_total: 20
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 3.68
+- threshold_used: 2.2 (target=2.2, fallback=1.7)
+
+Tranche scan: idx=0 | next_window_start=18:00
+  tranche_seed: 18:00 → 19:30
+
+  merge_until: j=0 | merged_in_window=4
+    - ok_window(after_perf_if_SYSTEM): 4
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 2.06
+
+  merge_until: j=1 | merged_in_window=18
+    - ok_window(after_perf_if_SYSTEM): 14
+    - perf_reject: 4
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 3.22
+
+      PERF_REJECT: 20:00 | ligue 2 | Boulogne vs Clermont Foot | O15_FT | odd=1.38 || LEAGUE_BET_LOW_SR | league=ligue 2 bet=O15_FT wr=0.63 decided=52 (min_wr=0.65)
+      PERF_REJECT: 20:00 | saudi arabia | Damac vs Al Shabab | O15_FT | odd=1.34 || TWO_TEAM_REJECT | Damac wr=0.90 dec=10 | Al Shabab wr=0.60 dec=10
+      PERF_REJECT: 20:00 | ligue 2 | Rodez vs Montpellier | O15_FT | odd=1.28 || LEAGUE_BET_LOW_SR | league=ligue 2 bet=O15_FT wr=0.63 decided=52 (min_wr=0.65)
+      PERF_REJECT: 20:45 | cymru premier league | llanelli AFC vs Haverfordwest County AFC | TEAM2_WIN_FT | odd=1.3 || GLOBAL_BET_LOW_SR | fam=TEAM2_WIN_FT wr=0.66 decided=29 (min_wr=0.70)
+
+Ticket: tranche=1 | cote=2.27 | 20:00 → 22:35 | fenêtre=45min
+  1) 20:00 | eredivisie | Fortuna Sittard vs Excelsior | O15_FT | odd=1.25
+  2) 20:45 | cymru premier league | llanelli AFC vs Haverfordwest County AFC | O15_FT | odd=1.21
+  3) 20:45 | pro league | Gent vs Cercle Brugge | O15_FT | odd=1.22
+  4) 20:45 | ligue 1 | Stade Brestois 29 vs Marseille | O15_FT | odd=1.23
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1
+- next_window_start: 22:35
+
+MAESTROLOGUE — Décision finale 3L vs 4L (RANDOM)
+----------------------------------------------
+- règle: préférer 3L si écart <= 3.00%
+- best3_score: 0.869 (86.9%)
+- best4_score: 0.863 (86.3%)
+- écart relatif: 0.76%
+=> choisi: 3 legs | score=0.869 (86.9%) | 4L pas assez supérieur => 3L préféré
+
+Aperçu ticket non retenu
+------------------------
+- legs: 4 | score=0.863 (86.3%)
+  1) 18:00 | super lig | Rizespor vs Kocaelispor | O15_FT | odd=1.36
+  2) 20:00 | eredivisie | Fortuna Sittard vs Excelsior | O15_FT | odd=1.25
+  3) 20:30 | bundesliga | FSV Mainz 05 vs Hamburger SV | O15_FT | odd=1.26
+  4) 21:00 | laliga | Athletic Club vs Elche | O15_FT | odd=1.29
+
+MAESTROLOGUE — Détail du score (ticket choisi, RANDOM)
+------------------------------------------------------
+- score ticket: 0.869 (86.9%)
+- formule: wr_adj = wr(league x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 18:00 | super lig | Rizespor vs Kocaelispor | bet=O15_FT | odd=1.36
+   LEAGUE super lig: wr=0.87 dec=38 coef=1.000 => adj=0.868 (86.8%)
+
+2) 20:30 | bundesliga | FSV Mainz 05 vs Hamburger SV | bet=O15_FT | odd=1.26
+   LEAGUE bundesliga: wr=0.87 dec=60 coef=1.000 => adj=0.867 (86.7%)
+
+3) 21:00 | laliga | Athletic Club vs Elche | bet=O15_FT | odd=1.29
+   LEAGUE laliga: wr=0.87 dec=63 coef=1.000 => adj=0.873 (87.3%)
+
+
+MAESTROLOGUE — RANDOM — 2026-02-20
+========================================
+- picks_total: 26
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 4.54
+- threshold_used: 2.2 (target=2.2, fallback=1.7)
+
+Tranche scan: idx=0 | next_window_start=18:00
+  tranche_seed: 18:00 → 19:30
+
+  merge_until: j=0 | merged_in_window=3
+    - ok_window(after_perf_if_SYSTEM): 3
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 2.06
+
+  merge_until: j=1 | merged_in_window=23
+    - ok_window(after_perf_if_SYSTEM): 23
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 4.12
+
+Ticket: tranche=1 | cote=2.21 | 18:00 → 22:50 | fenêtre=180min
+  1) 18:00 | super lig | Rizespor vs Kocaelispor | O15_FT | odd=1.36
+  2) 20:30 | bundesliga | FSV Mainz 05 vs Hamburger SV | O15_FT | odd=1.26
+  3) 21:00 | laliga | Athletic Club vs Elche | O15_FT | odd=1.29
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1
+- next_window_start: 22:50
+
+RUN SUMMARY
+- system_tickets: 1 | o15_tickets: 1
+----------------------------------------
+

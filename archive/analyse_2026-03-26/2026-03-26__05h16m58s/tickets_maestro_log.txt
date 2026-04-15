@@ -1,0 +1,37 @@
+RUN MAESTROLOGUE — 2026-03-26 05:17:19
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTROLOGUE — RANDOM — 2026-03-26
+========================================
+- picks_total: 1
+- unique_matches_day: 1
+- rich_day: False
+- max_windows_today: 1
+- windows_count: 1
+- target_odd: 2.4
+- min_accept_odd: 1.8
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 02:00 -> 02:00
+  - raw_window_picks: 1
+  - filtered_window_picks: 1
+  - ok_window: 1
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 1.35
+  - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
+  -> ABANDON: cote max insuffisante même après fusion (1.35 < min_accept=1.8)
+
+FIN JOURNÉE
+------------------
+- tickets_built: 0 / 1
+- next_window_start: 00:00
+
+RUN SUMMARY
+- system_tickets: 0 | o15_tickets: 0
+----------------------------------------
+

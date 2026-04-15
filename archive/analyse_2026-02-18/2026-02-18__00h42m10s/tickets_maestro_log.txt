@@ -1,0 +1,142 @@
+RUN MAESTROLOGUE — 2026-02-18 00:42:15
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTROLOGUE — Décision finale 3L vs 4L (SYSTEM)
+----------------------------------------------
+- règle: préférer 3L si écart <= 3.00%
+- best3_score: 0.563 (56.3%)
+- best4_score: 0.845 (84.5%)
+- écart relatif: 33.29%
+=> choisi: 4 legs | score=0.845 (84.5%) | meilleur score retenu
+
+Aperçu ticket non retenu
+------------------------
+- legs: 3 | score=0.563 (56.3%)
+  1) 20:00 | laliga | Levante vs Villarreal | O15_FT | odd=1.22
+  2) 20:45 | serie a italia | AC Milan vs Como | O15_FT | odd=1.38
+  3) 20:45 | scottish cup | Aberdeen vs Motherwell | O15_FT | odd=1.33
+
+MAESTROLOGUE — Détail du score (ticket choisi)
+------------------------------------------
+- score ticket: 0.845 (84.5%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 18:45 | uefa champions league | Qarabag vs Newcastle | bet=O15_FT | odd=1.2
+   HOME FC Winterthur: wr=1.00 dec=6 coef=1.000 => adj=1.000 (100.0%)
+   AWAY FC ST. Gallen: wr=0.80 dec=5 coef=1.000 => adj=0.800 (80.0%)
+   MEAN match: 0.900 (90.0%)
+
+2) 19:00 | super league switzerland | FC Winterthur vs FC ST. Gallen | bet=O15_FT | odd=1.17
+   HOME Levante: wr=0.86 dec=7 coef=1.000 => adj=0.857 (85.7%)
+   AWAY Villarreal: wr=1.00 dec=7 coef=1.000 => adj=1.000 (100.0%)
+   MEAN match: 0.929 (92.9%)
+
+3) 20:00 | laliga | Levante vs Villarreal | bet=O15_FT | odd=1.22
+   HOME Olympiakos Piraeus: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   AWAY Bayer Leverkusen: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   MEAN match: 0.775 (77.5%)
+
+4) 21:00 | uefa champions league | Olympiakos Piraeus vs Bayer Leverkusen | bet=O15_FT | odd=1.3
+   HOME Qarabag: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   AWAY Newcastle: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   MEAN match: 0.775 (77.5%)
+
+
+MAESTROLOGUE — SYSTEM — 2026-02-18
+========================================
+- picks_total: 8
+- base_spread: 180 min (rich=False)
+- day_max_possible_odd: 4.6
+- threshold_used: 2.2 (target=2.2, fallback=1.7)
+
+Tranche scan: idx=0 | next_window_start=18:45
+  tranche_seed: 18:45 → 21:45
+
+  merge_until: j=0 | merged_in_window=8
+    - ok_window(after_perf_if_SYSTEM): 7
+    - perf_reject: 1
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 2.91
+
+      PERF_REJECT: 20:45 | scottish cup | Aberdeen vs Motherwell | TEAM2_WIN_FT | odd=2.1 || GLOBAL_BET_LOW_SR | fam=TEAM2_WIN_FT wr=0.68 decided=28 (min_wr=0.70)
+
+Ticket: tranche=1 | cote=2.23 | 18:45 → 22:50 | fenêtre=135min
+  1) 18:45 | uefa champions league | Qarabag vs Newcastle | O15_FT | odd=1.2
+  2) 19:00 | super league switzerland | FC Winterthur vs FC ST. Gallen | O15_FT | odd=1.17
+  3) 20:00 | laliga | Levante vs Villarreal | O15_FT | odd=1.22
+  4) 21:00 | uefa champions league | Olympiakos Piraeus vs Bayer Leverkusen | O15_FT | odd=1.3
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1
+- next_window_start: 22:50
+
+MAESTROLOGUE — Décision finale 3L vs 4L (RANDOM)
+----------------------------------------------
+- règle: préférer 3L si écart <= 3.00%
+- best3_score: 0.841 (84.1%)
+- best4_score: 0.917 (91.7%)
+- écart relatif: 8.24%
+=> choisi: 4 legs | score=0.917 (91.7%) | meilleur score retenu
+
+Aperçu ticket non retenu
+------------------------
+- legs: 3 | score=0.841 (84.1%)
+  1) 20:45 | serie a italia | AC Milan vs Como | O15_FT | odd=1.38
+  2) 20:45 | scottish cup | Aberdeen vs Motherwell | O15_FT | odd=1.33
+  3) 21:00 | uefa champions league | Club Brugge KV vs Atletico Madrid | O15_FT | odd=1.22
+
+MAESTROLOGUE — Détail du score (ticket choisi, RANDOM)
+------------------------------------------------------
+- score ticket: 0.917 (91.7%)
+- formule: wr_adj = wr(league x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 18:45 | uefa champions league | Qarabag vs Newcastle | bet=O15_FT | odd=1.2
+   LEAGUE uefa champions league: wr=0.92 dec=36 coef=1.000 => adj=0.917 (91.7%)
+
+2) 21:00 | uefa champions league | Bodo/Glimt vs Inter | bet=O15_FT | odd=1.18
+   LEAGUE uefa champions league: wr=0.92 dec=36 coef=1.000 => adj=0.917 (91.7%)
+
+3) 21:00 | uefa champions league | Olympiakos Piraeus vs Bayer Leverkusen | bet=O15_FT | odd=1.3
+   LEAGUE uefa champions league: wr=0.92 dec=36 coef=1.000 => adj=0.917 (91.7%)
+
+4) 21:00 | uefa champions league | Club Brugge KV vs Atletico Madrid | bet=O15_FT | odd=1.22
+   LEAGUE uefa champions league: wr=0.92 dec=36 coef=1.000 => adj=0.917 (91.7%)
+
+
+MAESTROLOGUE — RANDOM — 2026-02-18
+========================================
+- picks_total: 9
+- base_spread: 180 min (rich=False)
+- day_max_possible_odd: 2.91
+- threshold_used: 2.2 (target=2.2, fallback=1.7)
+
+Tranche scan: idx=0 | next_window_start=18:45
+  tranche_seed: 18:45 → 21:45
+
+  merge_until: j=0 | merged_in_window=9
+    - ok_window(after_perf_if_SYSTEM): 9
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 2.91
+
+Ticket: tranche=1 | cote=2.25 | 18:45 → 22:50 | fenêtre=135min
+  1) 18:45 | uefa champions league | Qarabag vs Newcastle | O15_FT | odd=1.2
+  2) 21:00 | uefa champions league | Bodo/Glimt vs Inter | O15_FT | odd=1.18
+  3) 21:00 | uefa champions league | Olympiakos Piraeus vs Bayer Leverkusen | O15_FT | odd=1.3
+  4) 21:00 | uefa champions league | Club Brugge KV vs Atletico Madrid | O15_FT | odd=1.22
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1
+- next_window_start: 22:50
+
+RUN SUMMARY
+- system_tickets: 1 | o15_tickets: 1
+----------------------------------------
+

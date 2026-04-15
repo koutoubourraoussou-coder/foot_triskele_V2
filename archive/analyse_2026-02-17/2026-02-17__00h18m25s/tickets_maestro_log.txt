@@ -1,0 +1,137 @@
+RUN MAESTROLOGUE — 2026-02-17 00:18:38
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTROLOGUE — Décision finale 3L vs 4L (SYSTEM)
+----------------------------------------------
+- règle: préférer 3L si écart <= 3.00%
+- best3_score: —
+- best4_score: 0.765 (76.5%)
+- écart relatif: —
+=> choisi: 4 legs | score=0.765 (76.5%) | meilleur score retenu
+
+Aperçu ticket non retenu
+------------------------
+- (aucun ticket alternatif)
+
+MAESTROLOGUE — Détail du score (ticket choisi)
+------------------------------------------
+- score ticket: 0.765 (76.5%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 20:00 | eredivisie | Sparta Rotterdam vs NEC Nijmegen | bet=O15_FT | odd=1.17
+   HOME Sparta Rotterdam: wr=0.75 dec=4 coef=0.925 => adj=0.694 (69.4%)
+   AWAY NEC Nijmegen: wr=1.00 dec=5 coef=1.000 => adj=1.000 (100.0%)
+   MEAN match: 0.847 (84.7%)
+
+2) 20:45 | championship | Bristol City vs Wrexham | bet=O15_FT | odd=1.3
+   HOME Borussia Dortmund: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   AWAY Atalanta: wr=0.50 dec=2 coef=0.775 => adj=0.387 (38.7%)
+   MEAN match: 0.581 (58.1%)
+
+3) 21:00 | uefa champions league | Borussia Dortmund vs Atalanta | bet=O15_FT | odd=1.25
+   HOME Bristol City: wr=0.86 dec=7 coef=1.000 => adj=0.857 (85.7%)
+   AWAY Wrexham: wr=0.86 dec=7 coef=1.000 => adj=0.857 (85.7%)
+   MEAN match: 0.857 (85.7%)
+
+4) 21:00 | uefa champions league | Benfica vs Real Madrid | bet=O15_FT | odd=1.2
+   HOME Benfica: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   AWAY Real Madrid: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   MEAN match: 0.775 (77.5%)
+
+
+MAESTROLOGUE — SYSTEM — 2026-02-17
+========================================
+- picks_total: 6
+- base_spread: 180 min (rich=False)
+- day_max_possible_odd: 2.44
+- threshold_used: 2.25 (target=2.25, fallback=1.7)
+
+Tranche scan: idx=0 | next_window_start=18:45
+  tranche_seed: 18:45 → 21:45
+
+  merge_until: j=0 | merged_in_window=6
+    - ok_window(after_perf_if_SYSTEM): 6
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 2.44
+
+Ticket: tranche=1 | cote=2.28 | 20:00 → 22:50 | fenêtre=60min
+  1) 20:00 | eredivisie | Sparta Rotterdam vs NEC Nijmegen | O15_FT | odd=1.17
+  2) 20:45 | championship | Bristol City vs Wrexham | O15_FT | odd=1.3
+  3) 21:00 | uefa champions league | Borussia Dortmund vs Atalanta | O15_FT | odd=1.25
+  4) 21:00 | uefa champions league | Benfica vs Real Madrid | O15_FT | odd=1.2
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1
+- next_window_start: 22:50
+
+MAESTROLOGUE — Décision finale 3L vs 4L (RANDOM)
+----------------------------------------------
+- règle: préférer 3L si écart <= 3.00%
+- best3_score: 0.802 (80.2%)
+- best4_score: 0.874 (87.4%)
+- écart relatif: 8.21%
+=> choisi: 4 legs | score=0.874 (87.4%) | meilleur score retenu
+
+Aperçu ticket non retenu
+------------------------
+- legs: 3 | score=0.802 (80.2%)
+  1) 18:45 | uefa champions league | Galatasaray vs Juventus | O15_FT | odd=1.25
+  2) 20:45 | championship | Charlton vs Portsmouth | O15_FT | odd=1.42
+  3) 20:45 | championship | Bristol City vs Wrexham | O15_FT | odd=1.3
+
+MAESTROLOGUE — Détail du score (ticket choisi, RANDOM)
+------------------------------------------------------
+- score ticket: 0.874 (87.4%)
+- formule: wr_adj = wr(league x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 18:45 | uefa champions league | Galatasaray vs Juventus | bet=O15_FT | odd=1.25
+   LEAGUE uefa champions league: wr=0.92 dec=36 coef=1.000 => adj=0.917 (91.7%)
+
+2) 20:45 | championship | Charlton vs Portsmouth | bet=O15_FT | odd=1.42
+   LEAGUE uefa champions league: wr=0.92 dec=36 coef=1.000 => adj=0.917 (91.7%)
+
+3) 21:00 | uefa champions league | Monaco vs Paris Saint Germain | bet=O15_FT | odd=1.15
+   LEAGUE uefa champions league: wr=0.92 dec=36 coef=1.000 => adj=0.917 (91.7%)
+
+4) 21:00 | uefa champions league | Borussia Dortmund vs Atalanta | bet=O15_FT | odd=1.25
+   LEAGUE championship: wr=0.74 dec=90 coef=1.000 => adj=0.744 (74.4%)
+
+
+MAESTROLOGUE — RANDOM — 2026-02-17
+========================================
+- picks_total: 8
+- base_spread: 180 min (rich=False)
+- day_max_possible_odd: 3.46
+- threshold_used: 2.25 (target=2.25, fallback=1.7)
+
+Tranche scan: idx=0 | next_window_start=18:45
+  tranche_seed: 18:45 → 21:45
+
+  merge_until: j=0 | merged_in_window=7
+    - ok_window(after_perf_if_SYSTEM): 7
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 2.88
+
+Ticket: tranche=1 | cote=2.55 | 18:45 → 22:50 | fenêtre=135min
+  1) 18:45 | uefa champions league | Galatasaray vs Juventus | O15_FT | odd=1.25
+  2) 20:45 | championship | Charlton vs Portsmouth | O15_FT | odd=1.42
+  3) 21:00 | uefa champions league | Monaco vs Paris Saint Germain | O15_FT | odd=1.15
+  4) 21:00 | uefa champions league | Borussia Dortmund vs Atalanta | O15_FT | odd=1.25
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1
+- next_window_start: 22:50
+
+RUN SUMMARY
+- system_tickets: 1 | o15_tickets: 1
+----------------------------------------
+

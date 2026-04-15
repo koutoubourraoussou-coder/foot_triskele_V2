@@ -1,0 +1,178 @@
+RUN MAESTROLOGUE — 2026-03-10 01:57:18
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 17216 | valid_3L_found: 9952 | valid_4L_found: 17216
+- top3_size: 5 | top4_size: 5
+
+TOP3 (desc):
+  TOP3[1/5]: score=0.817 (81.7%) | legs=3 | odd=2.2
+  TOP3[2/5]: score=0.808 (80.8%) | legs=3 | odd=2.25
+  TOP3[3/5]: score=0.787 (78.7%) | legs=3 | odd=2.53
+  TOP3[4/5]: score=0.762 (76.2%) | legs=3 | odd=2.24
+  TOP3[5/5]: score=0.713 (71.3%) | legs=3 | odd=2.44
+
+TOP4 (desc):
+  TOP4[1/5]: score=0.793 (79.3%) | legs=4 | odd=3.04
+  TOP4[2/5]: score=0.738 (73.8%) | legs=4 | odd=2.93
+  TOP4[3/5]: score=0.731 (73.1%) | legs=4 | odd=3
+  TOP4[4/5]: score=0.719 (71.9%) | legs=4 | odd=2.69
+  TOP4[5/5]: score=0.715 (71.5%) | legs=4 | odd=3.37
+
+DRAW_3L: picked rank=1/5 | score=0.817 (81.7%) | odd=2.2
+DRAW_4L: picked rank=1/5 | score=0.793 (79.3%) | odd=3.04
+- écart relatif: 2.99%
+=> choisi: 3 legs | score=0.817 (81.7%)
+
+Ticket choisi (aperçu)
+----------------------
+  1) 04:06 | liga mx | Club Tijuana vs Santos Laguna | O15_FT | odd=1.2
+  2) 21:00 | laliga | Espanyol vs Oviedo | O15_FT | odd=1.36
+  3) 21:15 | liga portugal | Tondela vs Rio Ave | O15_FT | odd=1.35
+
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM)
+--------------------------------------------------------
+- score ticket: 0.817 (81.7%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 04:06 | liga mx | Club Tijuana vs Santos Laguna | bet=O15_FT | odd=1.2
+   HOME Club Tijuana: wr=0.62 dec=8 coef=1.000 => adj=0.625 (62.5%)
+   AWAY Santos Laguna: wr=1.00 dec=8 coef=1.000 => adj=1.000 (100.0%)
+   MEAN match: 0.812 (81.2%)
+
+2) 21:00 | laliga | Espanyol vs Oviedo | bet=O15_FT | odd=1.36
+   HOME Espanyol: wr=1.00 dec=9 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Oviedo: wr=0.78 dec=9 coef=1.000 => adj=0.778 (77.8%)
+   MEAN match: 0.889 (88.9%)
+
+3) 21:15 | liga portugal | Tondela vs Rio Ave | bet=O15_FT | odd=1.35
+   HOME Tondela: wr=0.75 dec=8 coef=1.000 => adj=0.750 (75.0%)
+   AWAY Rio Ave: wr=0.75 dec=8 coef=1.000 => adj=0.750 (75.0%)
+   MEAN match: 0.750 (75.0%)
+
+
+MAESTROLOGUE — SYSTEM — 2026-03-09
+========================================
+- picks_total: 7
+- unique_matches_day: 6
+- rich_day: False
+- max_tickets_today: 1
+- windows_count: 1
+- day_max_possible_odd: 3.37
+- threshold_used: 2.2 (target=2.2, fallback=1.6)
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 04:06 -> 21:15
+  - raw_window_picks: 7
+  - filtered_window_picks: 7
+  - ok_window: 7
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 3.37
+
+Ticket: tranche=1 | cote=2.2 | 04:06 → 23:05 | fenêtre=1029min
+  1) 04:06 | liga mx | Club Tijuana vs Santos Laguna | O15_FT | odd=1.2
+  2) 21:00 | laliga | Espanyol vs Oviedo | O15_FT | odd=1.36
+  3) 21:15 | liga portugal | Tondela vs Rio Ave | O15_FT | odd=1.35
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1 / 1
+- next_window_start: 23:05
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- gate_build: LEAGUE x BET >= 0.68 (require_data=False)
+- score_select: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 25969 | valid_3L_found: 16167 | valid_4L_found: 25969
+- top3_size: 5 | top4_size: 5
+- rejected_by_league_gate (approx): 0
+
+TOP3 (desc):
+  TOP3[1/5]: score=0.824 (82.4%) | legs=3 | odd=2.2
+  TOP3[2/5]: score=0.817 (81.7%) | legs=3 | odd=2.2
+  TOP3[3/5]: score=0.815 (81.5%) | legs=3 | odd=2.25
+  TOP3[4/5]: score=0.808 (80.8%) | legs=3 | odd=2.25
+  TOP3[5/5]: score=0.796 (79.6%) | legs=3 | odd=2.37
+
+TOP4 (desc):
+  TOP4[1/5]: score=0.821 (82.1%) | legs=4 | odd=2.39
+  TOP4[2/5]: score=0.821 (82.1%) | legs=4 | odd=2.64
+  TOP4[3/5]: score=0.814 (81.4%) | legs=4 | odd=2.7
+  TOP4[4/5]: score=0.806 (80.6%) | legs=4 | odd=2.69
+  TOP4[5/5]: score=0.800 (80.0%) | legs=4 | odd=2.84
+
+DRAW_3L: picked rank=1/5 | score=0.824 (82.4%) | odd=2.2
+DRAW_4L: picked rank=2/5 | score=0.821 (82.1%) | odd=2.64
+- écart relatif: 0.35%
+=> choisi: 3 legs | score=0.824 (82.4%)
+
+Ticket choisi (aperçu)
+----------------------
+  1) 20:30 | laliga2 | Almeria vs Cultural Leonesa | O15_FT | odd=1.2
+  2) 21:00 | laliga | Espanyol vs Oviedo | O15_FT | odd=1.36
+  3) 21:15 | liga portugal | Tondela vs Rio Ave | O15_FT | odd=1.35
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.824 (82.4%)
+- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 20:30 | laliga2 | Almeria vs Cultural Leonesa | bet=O15_FT | odd=1.2
+   HOME Almeria: wr=0.89 dec=9 coef=1.000 => adj=0.889 (88.9%)
+   AWAY Cultural Leonesa: wr=0.78 dec=9 coef=1.000 => adj=0.778 (77.8%)
+   MEAN match: 0.834 (83.4%)
+
+2) 21:00 | laliga | Espanyol vs Oviedo | bet=O15_FT | odd=1.36
+   HOME Espanyol: wr=1.00 dec=9 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Oviedo: wr=0.78 dec=9 coef=1.000 => adj=0.778 (77.8%)
+   MEAN match: 0.889 (88.9%)
+
+3) 21:15 | liga portugal | Tondela vs Rio Ave | bet=O15_FT | odd=1.35
+   HOME Tondela: wr=0.75 dec=8 coef=1.000 => adj=0.750 (75.0%)
+   AWAY Rio Ave: wr=0.75 dec=8 coef=1.000 => adj=0.750 (75.0%)
+   MEAN match: 0.750 (75.0%)
+
+
+MAESTROLOGUE — RANDOM — 2026-03-09
+========================================
+- picks_total: 12
+- unique_matches_day: 12
+- rich_day: False
+- max_tickets_today: 1
+- windows_count: 1
+- day_max_possible_odd: 3.92
+- threshold_used: 2.2 (target=2.2, fallback=1.6)
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 04:06 -> 22:30
+  - raw_window_picks: 12
+  - filtered_window_picks: 12
+  - ok_window: 9
+  - perf_reject: 3
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 3.67
+
+Ticket: tranche=1 | cote=2.2 | 20:30 → 23:05 | fenêtre=45min
+  1) 20:30 | laliga2 | Almeria vs Cultural Leonesa | O15_FT | odd=1.2
+  2) 21:00 | laliga | Espanyol vs Oviedo | O15_FT | odd=1.36
+  3) 21:15 | liga portugal | Tondela vs Rio Ave | O15_FT | odd=1.35
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1 / 1
+- next_window_start: 23:05
+
+RUN SUMMARY
+- system_tickets: 1 | o15_tickets: 1
+----------------------------------------
+

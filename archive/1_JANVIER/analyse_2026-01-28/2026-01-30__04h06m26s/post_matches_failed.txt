@@ -1,0 +1,5 @@
+# date | league | home vs away | reason
+2026-01-28 | uefa champions league | Benfica vs Real Madrid | NO_FIXTURE
+2026-01-28 | uefa champions league | Borussia Dortmund vs Inter | NO_FIXTURE
+2026-01-28 | uefa champions league | Club Brugge KV vs Marseille | NO_FIXTURE
+2026-01-28 | uefa champions league | Eintracht Frankfurt vs Tottenham | NO_FIXTURE

@@ -1,0 +1,5 @@
+# date | league | home vs away | reason
+2026-02-19 | liga profesional argentina | San Lorenzo vs Estudiantes de Rio Cuarto | FIXTURE_NOT_FOUND_ROBUST
+2026-02-19 | liga profesional argentina | Independ. Rivadavia vs Independiente | FIXTURE_NOT_FOUND_ROBUST
+2026-02-21 | super league switzerland | FC Winterthur vs FC Thun | FIXTURE_NOT_FOUND_ROBUST
+2026-02-21 | liga mx | Atlas vs Atletico San Luis | FIXTURE_NOT_FOUND_ROBUST

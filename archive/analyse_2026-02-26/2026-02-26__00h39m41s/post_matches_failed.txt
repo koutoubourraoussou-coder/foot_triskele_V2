@@ -1,0 +1,3 @@
+# date | league | home vs away | reason
+2026-02-19 | liga profesional argentina | San Lorenzo vs Estudiantes de Rio Cuarto | FIXTURE_NOT_FOUND_ROBUST
+2026-02-19 | liga profesional argentina | Independ. Rivadavia vs Independiente | FIXTURE_NOT_FOUND_ROBUST

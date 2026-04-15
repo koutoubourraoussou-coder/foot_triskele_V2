@@ -1,0 +1,74 @@
+PARIS JOUABLES — Vendredi 2026-01-23
+====================================
+
+18:30 | 2. bundesliga | Arminia Bielefeld (16) vs Holstein Kiel (10)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.29 fixture=1388776
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.25 fixture=1388776
+
+18:30 | 2. bundesliga | SV Darmstadt 98 (3) vs 1. FC Nürnberg (8)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.22 fixture=1388777
+
+20:00 | ligue 1 | Auxerre (17) vs Paris Saint Germain (2)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.25 fixture=1387860
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17 fixture=1387860
+
+20:00 | ligue 2 | Amiens (16) vs Laval (17)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.4 fixture=1389295
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.45 fixture=1389295
+
+20:00 | ligue 2 | Annecy (9) vs Clermont Foot (12)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.4 fixture=1389294
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.17 fixture=1389294
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.4 fixture=1389294
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.22 fixture=1389294
+
+20:00 | ligue 2 | Nancy (14) vs Rodez (11)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.22 fixture=1389292
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.35 fixture=1389292
+
+20:00 | ligue 2 | PAU (8) vs Grenoble (13)
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.33 fixture=1389291
+
+20:30 | bundesliga | FC St. Pauli (18) vs Hamburger SV (14)
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.42 fixture=1388477
+
+20:30 | laliga2 | Malaga (6) vs Burgos (7)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.2 fixture=1392011
+
+20:30 | serie b | Carrarese (10) vs Empoli (9)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.25 fixture=1419800
+
+20:45 | cymru premier league | Bala Town (10) vs Flint Town United (11)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.33 fixture=1508988
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.25 fixture=1508988
+
+20:45 | cymru premier league | Briton Ferry (8) vs llanelli AFC (12)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.22 fixture=1508989
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.11 fixture=1508989
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.12 fixture=1508989
+
+20:45 | cymru premier league | Cardiff MET (7) vs Haverfordwest County AFC (9)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.4 fixture=1508990
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.28 fixture=1508990
+
+20:45 | pro league | Standard Liege (7) vs Gent (6)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.4 fixture=1382601
+
+20:45 | serie a italia | Inter (1) vs Pisa (19)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.25 fixture=1378078
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.04 fixture=1378078
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.17 fixture=1378078
+  - TEAM1_SCORE_FT | Team1 scores (FT) | TRÈS FORT | odd=1.04 fixture=1378078
+
+21:00 | championship | Derby (10) vs West Brom (19)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.44 fixture=1386889
+  - HT1X_HOME | HT 1X Home | MEGA EXPLOSION | odd=1.25 fixture=1386889
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.45 fixture=1386889
+  - TEAM1_SCORE_FT | Team1 scores (FT) | EXPLOSION | odd=1.36 fixture=1386889
+
+21:00 | laliga | Levante (19) vs Elche (8)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.36 fixture=1391023
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33 fixture=1391023
+
+21:15 | liga portugal | Casa Pia (16) vs AVS (18)
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.42 fixture=1396402

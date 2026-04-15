@@ -1,0 +1,45 @@
+
+==========================================================================================
+VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
+====================================================================
+
+Source tickets : data/tickets_o15_random.tsv
+Date run       : 2026-01-30
+Output         : /Users/koutoubourraoussou/Desktop/foot_triskele_V2/archive/analyse_2026-01-28/2026-01-30__04h06m26s/verdict_post_analyse_tickets_o15_random_report.txt
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.13
+   id=2026-01-28_0215_2b30161f28_O15R
+   legs=2 | WIN=0 | LOSS=1 | PENDING=1
+   ❌ Leg 1) 02:15 | liga profesional argentina | Atletico Tucuman vs Central Cordoba de Santiago | Over 1.5 (FT) | [FORT PLUS] | odd=1.42
+   ⏳ Leg 2) 02:30 | primera a colombia | Independiente Medellin vs Deportes Tolima | Over 1.5 (FT) | [KO] | odd=1.5
+
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 2 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
+   id=2026-01-28_0215_b3f7b6fd2a_O15R
+   legs=2 | WIN=0 | LOSS=0 | PENDING=2
+   ⏳ Leg 1) 02:15 | liga profesional argentina | Newells Old Boys vs Independiente | Over 1.5 (FT) | [MOYEN] | odd=1.62
+   ⏳ Leg 2) 02:30 | primera a colombia | Independiente Medellin vs Deportes Tolima | Over 1.5 (FT) | [KO] | odd=1.5
+
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 3 | Mercredi 2026-01-28 18:30→23:50 | code=A2 | odd=2.02
+   id=2026-01-28_1830_398f9bb60e_O15R
+   legs=2 | WIN=0 | LOSS=0 | PENDING=2
+   ⏳ Leg 1) 18:30 | saudi arabia | Al-Fayha vs Al Khaleej Saihat | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.4
+   ⏳ Leg 2) 22:00 | primera división paraguay | Libertad Asuncion vs Sportivo Ameliano | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.44
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 4 | Mercredi 2026-01-28 21:00→00:00 | code=A2 | odd=2.29
+   id=2026-01-28_2100_16594321bd_O15R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 21:00 | uefa champions league | Ajax vs Olympiakos Piraeus | Over 1.5 (FT) | [FORT PLUS] | odd=1.25
+   ❌ Leg 2) 21:00 | uefa champions league | Union St. Gilloise vs Atalanta | Over 1.5 (FT) | [TRÈS FORT] | odd=1.22
+   ✅ Leg 3) 22:10 | primera a colombia | Alianza Valledupar vs Chico | Over 1.5 (FT) | [FORT PLUS] | odd=1.5
+
+====================================================================
+TOTAL tickets : 4
+✅ WIN     : 0
+❌ LOSS    : 2
+⏳ PENDING : 2
+====================================================================
+

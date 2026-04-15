@@ -1,0 +1,127 @@
+RUN MAESTRO — 2026-02-13 02:50:19
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTRO — SYSTEM — 2026-02-13
+========================================
+- picks_total: 25
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 5.11
+- threshold_used: 2.15 (target=2.15, fallback=1.7)
+
+🧩 Tranche scan: idx=0 | next_window_start=01:30
+   tranche_seed: 01:30 → 03:00
+
+   merge_until: j=0 | merged_in_window=2
+     - ok_window(after_perf_if_SYSTEM): 1
+     - perf_reject: 1
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 1.3
+
+       PERF_REJECT: 01:30 | serie a brazil | Internacional vs Palmeiras | O15_FT | odd=1.3
+
+   merge_until: j=1 | merged_in_window=8
+     - ok_window(after_perf_if_SYSTEM): 5
+     - perf_reject: 3
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 3.15
+
+       PERF_REJECT: 01:30 | serie a brazil | Internacional vs Palmeiras | O15_FT | odd=1.3
+       PERF_REJECT: 19:00 | ligue 1 | Rennes vs Paris Saint Germain | TEAM2_WIN_FT | odd=1.34
+       PERF_REJECT: 19:30 | liga portugal | Santa Clara vs Benfica | TEAM2_WIN_FT | odd=1.5
+
+✅ Ticket: tranche=1 | cote=2.39 | 18:00 → 21:20 | fenêtre=90min
+   1) 18:00 | super lig | Antalyaspor vs Samsunspor | O15_FT | odd=1.42
+   2) 18:30 | saudi arabia | Al-Ittihad FC vs Al-Fayha | O15_FT | odd=1.2
+   3) 19:30 | liga portugal | Santa Clara vs Benfica | O15_FT | odd=1.4
+
+🧩 Tranche scan: idx=3 | next_window_start=21:20
+   tranche_seed: 21:45 → 23:15
+
+   merge_until: j=3 | merged_in_window=2
+     - ok_window(after_perf_if_SYSTEM): 1
+     - perf_reject: 1
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 1.48
+
+       PERF_REJECT: 22:00 | liga profesional argentina | Defensa Y Justicia vs Velez Sarsfield | O15_FT | odd=1.62
+
+   ❌ Aucune combinaison trouvée (random attempts épuisés).
+
+📌 FIN JOURNÉE
+------------------
+- tickets_built: 1
+- next_window_start: 21:20
+
+MAESTRO — RANDOM — 2026-02-13
+========================================
+- picks_total: 27
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 5.5
+- threshold_used: 2.15 (target=2.15, fallback=1.7)
+
+🧩 Tranche scan: idx=0 | next_window_start=01:15
+   tranche_seed: 01:15 → 02:45
+
+   merge_until: j=0 | merged_in_window=3
+     - ok_window(after_perf_if_SYSTEM): 3
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 2.54
+
+✅ Ticket: tranche=1 | cote=2.54 | 01:15 → 04:20 | fenêtre=75min
+   1) 01:15 | liga profesional argentina | Argentinos JRS vs River Plate | O15_FT | odd=1.5
+   2) 01:30 | serie a brazil | Internacional vs Palmeiras | O15_FT | odd=1.3
+   3) 02:30 | primera a colombia | Atletico Nacional vs Fortaleza FC | O15_FT | odd=1.3
+
+🧩 Tranche scan: idx=1 | next_window_start=04:20
+   tranche_seed: 14:55 → 16:25
+
+   merge_until: j=1 | merged_in_window=1
+     - ok_window(after_perf_if_SYSTEM): 1
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 1.2
+
+   merge_until: j=2 | merged_in_window=6
+     - ok_window(after_perf_if_SYSTEM): 6
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 3.03
+
+✅ Ticket: tranche=2 | cote=2.17 | 18:00 → 20:20 | fenêtre=30min
+   1) 18:00 | super lig | Antalyaspor vs Samsunspor | O15_FT | odd=1.42
+   2) 18:30 | 2. bundesliga | 1. FC Nürnberg vs Karlsruher SC | O15_FT | odd=1.22
+   3) 18:30 | 2. bundesliga | Fortuna Düsseldorf vs Preußen Münster | O15_FT | odd=1.25
+
+🧩 Tranche scan: idx=4 | next_window_start=20:20
+   tranche_seed: 21:45 → 23:15
+
+   merge_until: j=4 | merged_in_window=3
+     - ok_window(after_perf_if_SYSTEM): 3
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 3.19
+
+✅ Ticket: tranche=3 | cote=2.4 | 21:45 → 23:50 | fenêtre=15min
+   1) 21:45 | liga portugal | Tondela vs Alverca | O15_FT | odd=1.48
+   2) 22:00 | liga profesional argentina | Defensa Y Justicia vs Velez Sarsfield | O15_FT | odd=1.62
+
+📌 FIN JOURNÉE
+------------------
+- tickets_built: 3
+- next_window_start: 23:50
+
+RUN SUMMARY
+- system_tickets: 1 | o15_tickets: 3
+----------------------------------------
+

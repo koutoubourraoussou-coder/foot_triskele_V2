@@ -1,0 +1,44 @@
+TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
+==================================================
+
+📅 Samedi 2026-01-31 — Tranche 1 (fenêtre ~720min)
+-------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-01-31_1330_efdca5ee89_SYS — cote = 2.39 — fenêtre 13:30 → 15:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 14:00 | laliga | Oviedo vs Girona | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.42
+  2) 13:30 | championship | Leicester vs Charlton | HT 1X Home | FORT PLUS | odd=1.22
+  3) 14:00 | ligue 2 | Dunkerque vs Annecy | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.38
+
+📅 Samedi 2026-01-31 — Tranche 2 (fenêtre ~90min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-01-31_1600_73cd7a5e99_SYS — cote = 2.3 — fenêtre 16:00 → 17:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:00 | pro league | Cercle Brugge vs Antwerp | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.28
+  2) 16:00 | championship | Middlesbrough vs Norwich | HT 1X Home | FORT PLUS | odd=1.2
+  3) 16:00 | championship | QPR vs Coventry | Over 1.5 (FT) | EXPLOSION | odd=1.28
+  4) 16:00 | premiership | Livingston vs Motherwell | Team2 scores (FT) | FORT PLUS | odd=1.17
+
+📅 Samedi 2026-01-31 — Tranche 3 (fenêtre ~90min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-01-31_1800_91a57b8e84_SYS — cote = 2.15 — fenêtre 18:00 → 20:35  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 18:30 | laliga | Levante vs Atletico Madrid | Over 1.5 (FT) | EXPLOSION | odd=1.2
+  2) 18:00 | serie a italia | Napoli vs Fiorentina | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.38
+  3) 18:45 | eredivisie | PEC Zwolle vs Telstar | HT 1X Home | TRÈS FORT | odd=1.3
+
+📅 Samedi 2026-01-31 — Tranche 4 (fenêtre ~90min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-01-31_2100_f2f2546cc9_SYS — cote = 2.52 — fenêtre 21:00 → 22:55  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 21:00 | laliga2 | Cordoba vs Valladolid | Over 1.5 (FT) | TRÈS FORT | odd=1.38
+  2) 21:00 | premiership | Dundee Utd vs Heart Of Midlothian | Over 1.5 (FT) | TRÈS FORT | odd=1.3
+  3) 21:05 | ligue 1 | Monaco vs Rennes | Over 1.5 (FT) | TRÈS FORT | odd=1.17
+  4) 21:00 | premier league | Liverpool vs Newcastle | HT 1X Home | TRÈS FORT | odd=1.2

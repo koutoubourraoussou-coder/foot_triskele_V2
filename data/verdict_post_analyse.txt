@@ -26722,6 +26722,15 @@ TSV: 512818220	2026-04-12	serie a brazil	Cruzeiro	RB Bragantino	O15_FT	Over 1.5 
 TSV: 512818220	2026-04-12	serie a brazil	Cruzeiro	RB Bragantino	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492213	2-1	1-1	23:30
 TSV: 512818220	2026-04-12	serie a brazil	Cruzeiro	RB Bragantino	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1492213	2-1	1-1	23:30
 TSV: 512818220	2026-04-12	serie a brazil	Cruzeiro	RB Bragantino	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492213	2-1	1-1	23:30
+TSV: 1270421119	2026-04-13	liga profesional argentina	Lanus	Banfield	HT05	HT+0.5	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1492022	1-0	0-0	00:00
+TSV: 1270421119	2026-04-13	liga profesional argentina	Lanus	Banfield	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1492022	1-0	0-0	00:00
+TSV: 1270421119	2026-04-13	liga profesional argentina	Lanus	Banfield	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	WIN	FT	1492022	1-0	0-0	00:00
+TSV: 1270421119	2026-04-13	liga profesional argentina	Lanus	Banfield	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1492022	1-0	0-0	00:00
+TSV: 1270421119	2026-04-13	liga profesional argentina	Lanus	Banfield	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	LOSS	FT	1492022	1-0	0-0	00:00
+TSV: 1270421119	2026-04-13	liga profesional argentina	Lanus	Banfield	O25_FT	Over 2.5 (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492022	1-0	0-0	00:00
+TSV: 1270421119	2026-04-13	liga profesional argentina	Lanus	Banfield	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1492022	1-0	0-0	00:00
+TSV: 1270421119	2026-04-13	liga profesional argentina	Lanus	Banfield	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1492022	1-0	0-0	00:00
+TSV: 1270421119	2026-04-13	liga profesional argentina	Lanus	Banfield	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492022	1-0	0-0	00:00
 TSV: 3749558355	2026-04-13	liga mx	Toluca	Atletico San Luis	HT05	HT+0.5	4.0	FORT	0	GOOD_NO_BET	FT	1492588	1-1	0-0	03:00
 TSV: 3749558355	2026-04-13	liga mx	Toluca	Atletico San Luis	HT1X_HOME	HT 1X Home	4.0	FORT	1	WIN	FT	1492588	1-1	0-0	03:00
 TSV: 3749558355	2026-04-13	liga mx	Toluca	Atletico San Luis	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	WIN	FT	1492588	1-1	0-0	03:00
@@ -26834,3 +26843,75 @@ TSV: 1824509513	2026-04-13	liga profesional argentina	Sarmiento Junin	Gimnasia L
 TSV: 1824509513	2026-04-13	liga profesional argentina	Sarmiento Junin	Gimnasia L.P.	O25_FT	Over 2.5 (FT)	0.0	KO	0	BAD_NO_BET	FT	1492026	1-2	0-1	21:30
 TSV: 1824509513	2026-04-13	liga profesional argentina	Sarmiento Junin	Gimnasia L.P.	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492026	1-2	0-1	21:30
 TSV: 1824509513	2026-04-13	liga profesional argentina	Sarmiento Junin	Gimnasia L.P.	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1492026	1-2	0-1	21:30
+TSV: 2667719737	2026-04-14	liga profesional argentina	Velez Sarsfield	Central Cordoba de Santiago	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492027	1-0	1-0	02:30
+TSV: 2667719737	2026-04-14	liga profesional argentina	Velez Sarsfield	Central Cordoba de Santiago	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	WIN	FT	1492027	1-0	1-0	02:30
+TSV: 2667719737	2026-04-14	liga profesional argentina	Velez Sarsfield	Central Cordoba de Santiago	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1492027	1-0	1-0	02:30
+TSV: 2667719737	2026-04-14	liga profesional argentina	Velez Sarsfield	Central Cordoba de Santiago	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1492027	1-0	1-0	02:30
+TSV: 2667719737	2026-04-14	liga profesional argentina	Velez Sarsfield	Central Cordoba de Santiago	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	LOSS	FT	1492027	1-0	1-0	02:30
+TSV: 2667719737	2026-04-14	liga profesional argentina	Velez Sarsfield	Central Cordoba de Santiago	O25_FT	Over 2.5 (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492027	1-0	1-0	02:30
+TSV: 2667719737	2026-04-14	liga profesional argentina	Velez Sarsfield	Central Cordoba de Santiago	U35_FT	Under 3.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492027	1-0	1-0	02:30
+TSV: 2667719737	2026-04-14	liga profesional argentina	Velez Sarsfield	Central Cordoba de Santiago	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1492027	1-0	1-0	02:30
+TSV: 2667719737	2026-04-14	liga profesional argentina	Velez Sarsfield	Central Cordoba de Santiago	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492027	1-0	1-0	02:30
+TSV: 4075174619	2026-04-14	superligaen	Ferencvarosi TC	Puskas Academy	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1380326	2-1	2-1	18:45
+TSV: 4075174619	2026-04-14	superligaen	Ferencvarosi TC	Puskas Academy	HT1X_HOME	HT 1X Home	4.0	FORT	1	WIN	FT	1380326	2-1	2-1	18:45
+TSV: 4075174619	2026-04-14	superligaen	Ferencvarosi TC	Puskas Academy	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	WIN	FT	1380326	2-1	2-1	18:45
+TSV: 4075174619	2026-04-14	superligaen	Ferencvarosi TC	Puskas Academy	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1380326	2-1	2-1	18:45
+TSV: 4075174619	2026-04-14	superligaen	Ferencvarosi TC	Puskas Academy	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1380326	2-1	2-1	18:45
+TSV: 4075174619	2026-04-14	superligaen	Ferencvarosi TC	Puskas Academy	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1380326	2-1	2-1	18:45
+TSV: 4075174619	2026-04-14	superligaen	Ferencvarosi TC	Puskas Academy	U35_FT	Under 3.5 (FT)	4.0	FORT	1	WIN	FT	1380326	2-1	2-1	18:45
+TSV: 4075174619	2026-04-14	superligaen	Ferencvarosi TC	Puskas Academy	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1380326	2-1	2-1	18:45
+TSV: 4075174619	2026-04-14	superligaen	Ferencvarosi TC	Puskas Academy	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1380326	2-1	2-1	18:45
+TSV: 3081312755	2026-04-14	serie b	Catanzaro	Modena	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1419899	2-2	2-1	19:00
+TSV: 3081312755	2026-04-14	serie b	Catanzaro	Modena	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1419899	2-2	2-1	19:00
+TSV: 3081312755	2026-04-14	serie b	Catanzaro	Modena	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	WIN	FT	1419899	2-2	2-1	19:00
+TSV: 3081312755	2026-04-14	serie b	Catanzaro	Modena	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	WIN	FT	1419899	2-2	2-1	19:00
+TSV: 3081312755	2026-04-14	serie b	Catanzaro	Modena	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1419899	2-2	2-1	19:00
+TSV: 3081312755	2026-04-14	serie b	Catanzaro	Modena	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1419899	2-2	2-1	19:00
+TSV: 3081312755	2026-04-14	serie b	Catanzaro	Modena	U35_FT	Under 3.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1419899	2-2	2-1	19:00
+TSV: 3081312755	2026-04-14	serie b	Catanzaro	Modena	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1419899	2-2	2-1	19:00
+TSV: 3081312755	2026-04-14	serie b	Catanzaro	Modena	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1419899	2-2	2-1	19:00
+TSV: 4148803789	2026-04-14	saudi arabia	Al-Qadisiyah FC	Al Shabab	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1436168	2-2	1-1	20:00
+TSV: 4148803789	2026-04-14	saudi arabia	Al-Qadisiyah FC	Al Shabab	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	WIN	FT	1436168	2-2	1-1	20:00
+TSV: 4148803789	2026-04-14	saudi arabia	Al-Qadisiyah FC	Al Shabab	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	WIN	FT	1436168	2-2	1-1	20:00
+TSV: 4148803789	2026-04-14	saudi arabia	Al-Qadisiyah FC	Al Shabab	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	WIN	FT	1436168	2-2	1-1	20:00
+TSV: 4148803789	2026-04-14	saudi arabia	Al-Qadisiyah FC	Al Shabab	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1436168	2-2	1-1	20:00
+TSV: 4148803789	2026-04-14	saudi arabia	Al-Qadisiyah FC	Al Shabab	O25_FT	Over 2.5 (FT)	7.0	EXPLOSION	1	WIN	FT	1436168	2-2	1-1	20:00
+TSV: 4148803789	2026-04-14	saudi arabia	Al-Qadisiyah FC	Al Shabab	U35_FT	Under 3.5 (FT)	0.0	KO	0	GOOD_NO_BET	FT	1436168	2-2	1-1	20:00
+TSV: 4148803789	2026-04-14	saudi arabia	Al-Qadisiyah FC	Al Shabab	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1436168	2-2	1-1	20:00
+TSV: 4148803789	2026-04-14	saudi arabia	Al-Qadisiyah FC	Al Shabab	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1436168	2-2	1-1	20:00
+TSV: 3931507797	2026-04-14	championship	Portsmouth	Ipswich	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1386857	2-0	2-0	21:00
+TSV: 3931507797	2026-04-14	championship	Portsmouth	Ipswich	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1386857	2-0	2-0	21:00
+TSV: 3931507797	2026-04-14	championship	Portsmouth	Ipswich	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1386857	2-0	2-0	21:00
+TSV: 3931507797	2026-04-14	championship	Portsmouth	Ipswich	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	LOSS	FT	1386857	2-0	2-0	21:00
+TSV: 3931507797	2026-04-14	championship	Portsmouth	Ipswich	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	WIN	FT	1386857	2-0	2-0	21:00
+TSV: 3931507797	2026-04-14	championship	Portsmouth	Ipswich	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1386857	2-0	2-0	21:00
+TSV: 3931507797	2026-04-14	championship	Portsmouth	Ipswich	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1386857	2-0	2-0	21:00
+TSV: 3931507797	2026-04-14	championship	Portsmouth	Ipswich	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1386857	2-0	2-0	21:00
+TSV: 3931507797	2026-04-14	championship	Portsmouth	Ipswich	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1386857	2-0	2-0	21:00
+TSV: 361942040	2026-04-14	championship	Southampton	Blackburn	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1387087	3-0	2-0	21:00
+TSV: 361942040	2026-04-14	championship	Southampton	Blackburn	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1387087	3-0	2-0	21:00
+TSV: 361942040	2026-04-14	championship	Southampton	Blackburn	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1387087	3-0	2-0	21:00
+TSV: 361942040	2026-04-14	championship	Southampton	Blackburn	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1387087	3-0	2-0	21:00
+TSV: 361942040	2026-04-14	championship	Southampton	Blackburn	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	WIN	FT	1387087	3-0	2-0	21:00
+TSV: 361942040	2026-04-14	championship	Southampton	Blackburn	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1387087	3-0	2-0	21:00
+TSV: 361942040	2026-04-14	championship	Southampton	Blackburn	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1387087	3-0	2-0	21:00
+TSV: 361942040	2026-04-14	championship	Southampton	Blackburn	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1387087	3-0	2-0	21:00
+TSV: 361942040	2026-04-14	championship	Southampton	Blackburn	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1387087	3-0	2-0	21:00
+TSV: 1371606574	2026-04-14	uefa champions league	Atletico Madrid	Barcelona	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1534910	1-2	1-2	21:00
+TSV: 1371606574	2026-04-14	uefa champions league	Atletico Madrid	Barcelona	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	LOSS	FT	1534910	1-2	1-2	21:00
+TSV: 1371606574	2026-04-14	uefa champions league	Atletico Madrid	Barcelona	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	WIN	FT	1534910	1-2	1-2	21:00
+TSV: 1371606574	2026-04-14	uefa champions league	Atletico Madrid	Barcelona	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1534910	1-2	1-2	21:00
+TSV: 1371606574	2026-04-14	uefa champions league	Atletico Madrid	Barcelona	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1534910	1-2	1-2	21:00
+TSV: 1371606574	2026-04-14	uefa champions league	Atletico Madrid	Barcelona	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1534910	1-2	1-2	21:00
+TSV: 1371606574	2026-04-14	uefa champions league	Atletico Madrid	Barcelona	U35_FT	Under 3.5 (FT)	4.0	FORT	1	WIN	FT	1534910	1-2	1-2	21:00
+TSV: 1371606574	2026-04-14	uefa champions league	Atletico Madrid	Barcelona	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1534910	1-2	1-2	21:00
+TSV: 1371606574	2026-04-14	uefa champions league	Atletico Madrid	Barcelona	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1534910	1-2	1-2	21:00
+TSV: 1534240872	2026-04-14	uefa champions league	Liverpool	Paris Saint Germain	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1534912	0-2	0-0	21:00
+TSV: 1534240872	2026-04-14	uefa champions league	Liverpool	Paris Saint Germain	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1534912	0-2	0-0	21:00
+TSV: 1534240872	2026-04-14	uefa champions league	Liverpool	Paris Saint Germain	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1534912	0-2	0-0	21:00
+TSV: 1534240872	2026-04-14	uefa champions league	Liverpool	Paris Saint Germain	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	WIN	FT	1534912	0-2	0-0	21:00
+TSV: 1534240872	2026-04-14	uefa champions league	Liverpool	Paris Saint Germain	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	WIN	FT	1534912	0-2	0-0	21:00
+TSV: 1534240872	2026-04-14	uefa champions league	Liverpool	Paris Saint Germain	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1534912	0-2	0-0	21:00
+TSV: 1534240872	2026-04-14	uefa champions league	Liverpool	Paris Saint Germain	U35_FT	Under 3.5 (FT)	4.0	FORT	1	WIN	FT	1534912	0-2	0-0	21:00
+TSV: 1534240872	2026-04-14	uefa champions league	Liverpool	Paris Saint Germain	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1534912	0-2	0-0	21:00
+TSV: 1534240872	2026-04-14	uefa champions league	Liverpool	Paris Saint Germain	TEAM2_WIN_FT	Team2 wins (FT)	5.0	FORT PLUS	1	WIN	FT	1534912	0-2	0-0	21:00

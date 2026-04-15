@@ -1,0 +1,22 @@
+TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
+==================================================
+
+📅 Lundi 2026-02-23 — Tranche 1 (fenêtre ~135min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-02-23_0100_3042b41812_SYS — cote = 2.33 — fenêtre 01:00 → 05:05  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 01:00 | mls | Los Angeles Galaxy vs New York City FC | HT+0.5 | MEGA EXPLOSION | odd=1.33
+  2) 02:00 | liga mx | Club Queretaro vs FC Juarez | HT+0.5 | FORT PLUS | odd=1.4
+  3) 03:15 | mls | Seattle Sounders vs Colorado Rapids | HT+0.5 | TRÈS FORT | odd=1.25
+
+📅 Lundi 2026-02-23 — Tranche 2 (fenêtre ~45min)
+-----------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-02-23_2030_f7aa7a7ecb_SYS — cote = 2.24 — fenêtre 20:30 → 23:05  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:30 | laliga2 | Cadiz vs Real Sociedad II | Over 1.5 (FT) | TRÈS FORT | odd=1.38
+  2) 21:00 | premier league | Everton vs Manchester United | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  3) 21:15 | liga portugal | Famalicao vs Casa Pia | Over 1.5 (FT) | TRÈS FORT | odd=1.33

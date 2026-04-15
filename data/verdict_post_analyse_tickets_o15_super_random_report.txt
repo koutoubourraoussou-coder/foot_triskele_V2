@@ -1,0 +1,26 @@
+VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_SUPER_RANDOM]
+====================================================================
+
+Source tickets : data/tickets_o15_super_random.tsv
+Date run       : 2026-04-15
+Output         : data/verdict_post_analyse_tickets_o15_super_random_report.txt
+Whitelist      : ON (1 ids)
+Ignorés (hors whitelist) : 0
+Ignorés (date>=today)    : 0
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Mardi 2026-04-14 18:45→22:50 | code=A2 | odd=2.76
+   id=2026-04-14_1845_82ee9c21d1_O15SR
+   legs=4 | WIN=4 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 18:45 | superligaen | Ferencvarosi TC vs Puskas Academy | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ✅ Leg 2) 19:00 | serie b | Catanzaro vs Modena | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.3
+   ✅ Leg 3) 21:00 | championship | Portsmouth vs Ipswich | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.38
+   ✅ Leg 4) 21:00 | championship | Southampton vs Blackburn | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.28
+
+====================================================================
+TOTAL tickets : 1
+✅ WIN     : 1
+❌ LOSS    : 0
+⏳ PENDING : 0
+====================================================================
+

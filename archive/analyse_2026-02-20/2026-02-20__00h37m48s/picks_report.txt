@@ -1,0 +1,89 @@
+PARIS JOUABLES — Vendredi 2026-02-20
+====================================
+
+18:00 | super lig | Rizespor (13) vs Kocaelispor (7)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.41 fixture=1394639
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36 fixture=1394639
+
+18:30 | 2. bundesliga | SpVgg Greuther Fürth (18) vs Arminia Bielefeld (10)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.32 fixture=1388815
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.23 fixture=1388815
+
+18:30 | 2. bundesliga | VfL Bochum (9) vs 1. FC Nürnberg (8)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.32 fixture=1388812
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.26 fixture=1388812
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.23 fixture=1388812
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.2 fixture=1388812
+
+19:45 | liga portugal 2 | Leixoes (11) vs Vizela (9)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.35 fixture=1398170
+
+20:00 | eredivisie | Fortuna Sittard (11) vs Excelsior (12)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.33 fixture=1381080
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25 fixture=1381080
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=1.29 fixture=1381080
+
+20:00 | ligue 2 | Annecy (9) vs RED Star FC 93 (4)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.52 fixture=1389327
+
+20:00 | ligue 2 | Boulogne (13) vs Clermont Foot (15)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.28 fixture=1396834
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.38 fixture=1396834
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.33 fixture=1396834
+
+20:00 | ligue 2 | Nancy (14) vs Grenoble (12)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.22 fixture=1389323
+
+20:00 | ligue 2 | Rodez (11) vs Montpellier (7)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.35 fixture=1389329
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.28 fixture=1389329
+
+20:00 | saudi arabia | Damac (16) vs Al Shabab (13)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.52 fixture=1436117
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.34 fixture=1436117
+
+20:30 | bundesliga | FSV Mainz 05 (14) vs Hamburger SV (9)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.35 fixture=1388510
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.22 fixture=1388510
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.26 fixture=1388510
+
+20:30 | laliga2 | AD Ceuta FC (12) vs Granada CF (14)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.44 fixture=1392060
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.38 fixture=1392060
+
+20:30 | serie b | Frosinone (2) vs Empoli (11)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.34 fixture=1419842
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.26 fixture=1419842
+
+20:45 | cymru premier league | The New Saints (1) vs Caernarfon Town (4)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.25 fixture=1508967
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.11 fixture=1508967
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17 fixture=1508967
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.06 fixture=1508967
+
+20:45 | cymru premier league | llanelli AFC (6) vs Haverfordwest County AFC (1)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.29 fixture=1508997
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.21 fixture=1508997
+  - TEAM2_WIN_FT | Team2 wins (FT) | TRÈS FORT | odd=1.3 fixture=1508997
+
+20:45 | ligue 1 | Stade Brestois 29 (12) vs Marseille (4)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.32 fixture=1387898
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.23 fixture=1387898
+
+20:45 | pro league | Gent (5) vs Cercle Brugge (15)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.31 fixture=1382627
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22 fixture=1382627
+
+21:00 | championship | Blackburn (20) vs Preston (8)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.47 fixture=1386938
+
+21:00 | laliga | Athletic Club (9) vs Elche (16)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.16 fixture=1391060
+
+21:45 | liga portugal | Estrela (11) vs Tondela (17)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.28 fixture=1396440
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.42 fixture=1396440
+
+22:30 | primera división paraguay | Libertad Asuncion (1) vs Rubio NU (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.41 fixture=1504991
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.33 fixture=1504991

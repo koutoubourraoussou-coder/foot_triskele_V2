@@ -1,0 +1,54 @@
+PARIS JOUABLES — Jeudi 2026-02-12
+=================================
+
+01:30 | serie a brazil | Sao Paulo (8) vs Gremio (9)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.42 fixture=1492137
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.35 fixture=1492137
+
+01:30 | serie a brazil | Vasco DA Gama (14) vs Bahia (7)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.25 fixture=1492138
+
+02:30 | primera a colombia | Internacional de Bogota (20) vs Deportivo Cali (14)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.6 fixture=1505980
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.5 fixture=1505980
+
+16:45 | saudi arabia | Damac (15) vs Al Taawon (5)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.44 fixture=1436109
+
+18:30 | saudi arabia | Al-Hazm (12) vs Al Okhdood (17)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.2 fixture=1436105
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.33 fixture=1436105
+
+18:30 | saudi arabia | Al-Qadisiyah FC (4) vs NEOM (8)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.12 fixture=1436104
+
+20:30 | belgian cup | Antwerp (—) vs Anderlecht (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.44 fixture=1508603
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.28 fixture=1508603
+
+20:30 | super league switzerland | FC Sion (5) vs FC Basel 1893 (4)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.29 fixture=1494540
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22 fixture=1494540
+
+20:30 | super league switzerland | FC Thun (1) vs Lausanne (7)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.29 fixture=1494541
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.22 fixture=1494541
+
+21:00 | copa del rey | Atletico Madrid (—) vs Barcelona (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.22 fixture=1520391
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.14 fixture=1520391
+
+21:00 | premier league | Brentford (7) vs Arsenal (1)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.38 fixture=1379220
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.28 fixture=1379220
+
+22:10 | primera a colombia | Chico (19) vs Jaguares (—)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.14 fixture=1505983
+
+23:00 | serie a brazil | Atletico Paranaense (—) vs Santos (12)
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.38 fixture=1492130
+
+23:30 | serie a brazil | Fluminense (5) vs Botafogo (6)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.42 fixture=1492134
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.2 fixture=1492134
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.35 fixture=1492134

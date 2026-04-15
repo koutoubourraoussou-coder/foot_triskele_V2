@@ -1,0 +1,92 @@
+PARIS JOUABLES — Dimanche 2026-03-29
+====================================
+
+00:00 | primera división paraguay | Club Guarani (—) vs Sportivo Trinidense (—)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.22 fixture=1505033
+  - O15_FT | Over 1.5 (FT) | MOYEN PLUS | odd=1.36 fixture=1505033
+
+00:30 | serie a brazil | Atletico Paranaense (—) vs Botafogo (—)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.42 fixture=1492150
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.18 fixture=1492150
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.38 fixture=1492150
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.25 fixture=1492150
+
+01:00 | international friendlies | Haiti (—) vs Tunisia (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.44 fixture=1512761
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.45 fixture=1512761
+  - O25_FT | Over 2.5 (FT) | FORT | odd=2.35 fixture=1512761
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT | odd=1.57 fixture=1512761
+
+01:20 | primera a colombia | Deportivo Pasto (—) vs Atletico Nacional (—)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.4 fixture=1506063
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=1.36 fixture=1506063
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.33 fixture=1506063
+  - O25_FT | Over 2.5 (FT) | FORT PLUS | odd=2 fixture=1506063
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT | odd=1.24 fixture=1506063
+
+03:00 | international friendlies | Mexico (—) vs Portugal (—)
+  - HT05 | HT+0.5 | FORT | odd=1.36 fixture=1514464
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=1.5 fixture=1514464
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.28 fixture=1514464
+  - O25_FT | Over 2.5 (FT) | FORT | odd=1.85 fixture=1514464
+
+03:20 | primera a colombia | Deportivo Cali (14) vs Deportivo Pereira (18)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.4 fixture=1506061
+  - HT1X_HOME | HT 1X Home | FORT | odd=1.02 fixture=1506061
+  - O15_FT | Over 1.5 (FT) | FORT | odd=1.3 fixture=1506061
+
+14:00 | laliga2 | Eibar (8) vs Las Palmas (4)
+  - HT05 | HT+0.5 | FORT | odd=1.53 fixture=1392107
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=1.22 fixture=1392107
+
+15:00 | international friendlies | Armenia (—) vs Belarus (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.4 fixture=1514832
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=1.2 fixture=1514832
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36 fixture=1514832
+  - O25_FT | Over 2.5 (FT) | MEGA EXPLOSION | odd=2.15 fixture=1514832
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT | odd=1.44 fixture=1514832
+
+15:00 | international friendlies | Lithuania (—) vs Georgia (—)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.4 fixture=1502472
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=1.5 fixture=1502472
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33 fixture=1502472
+  - O25_FT | Over 2.5 (FT) | TRÈS FORT | odd=2 fixture=1502472
+
+15:30 | cymru premier league | GAP Connah S Quay FC (2) vs Barry Town (3)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.2 fixture=1508981
+  - O15_FT | Over 1.5 (FT) | MOYEN PLUS | odd=1.22 fixture=1508981
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT | odd=1.41 fixture=1508981
+
+16:15 | laliga2 | Cultural Leonesa (22) vs FC Andorra (11)
+  - HT05 | HT+0.5 | FORT | odd=1.53 fixture=1396980
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.22 fixture=1396980
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.53 fixture=1396980
+  - O25_FT | Over 2.5 (FT) | FORT | odd=2.6 fixture=1396980
+
+16:30 | liga portugal 2 | União de Leiria (4) vs Pacos Ferreira (15)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.36 fixture=1398144
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.17 fixture=1398144
+  - O15_FT | Over 1.5 (FT) | MOYEN PLUS | odd=1.25 fixture=1398144
+
+18:30 | laliga2 | Zaragoza (19) vs Racing Santander (1)
+  - HT05 | HT+0.5 | FORT | odd=1.36 fixture=1392110
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=1.36 fixture=1392110
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.33 fixture=1392110
+
+21:00 | international friendlies | Colombia (—) vs France (—)
+  - HT05 | HT+0.5 | FORT | odd=1.33 fixture=1514465
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.25 fixture=1514465
+  - O25_FT | Over 2.5 (FT) | FORT PLUS | odd=1.73 fixture=1514465
+
+21:00 | laliga2 | Almeria (2) vs Real Sociedad II (15)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.29 fixture=1392114
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.14 fixture=1392114
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2 fixture=1392114
+  - O25_FT | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.62 fixture=1392114
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT | odd=1.11 fixture=1392114
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT | odd=1.5 fixture=1392114
+
+23:10 | primera a colombia | Internacional de Bogota (20) vs Junior (5)
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=1.3 fixture=1506062
+  - O15_FT | Over 1.5 (FT) | MOYEN PLUS | odd=1.33 fixture=1506062
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT | odd=1.31 fixture=1506062

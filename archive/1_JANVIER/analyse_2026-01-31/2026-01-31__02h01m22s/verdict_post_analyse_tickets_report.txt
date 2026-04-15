@@ -1,0 +1,144 @@
+
+==========================================================================================
+VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
+====================================================================
+
+Source tickets : data/tickets.tsv
+Date run       : 2026-01-31
+Output         : /Users/koutoubourraoussou/Desktop/foot_triskele_V2/archive/analyse_2026-01-31/2026-01-31__02h01m22s/verdict_post_analyse_tickets_report.txt
+
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
+   id=2026-01-26_1620_2f5cf77889
+   legs=3 | WIN=0 | LOSS=0 | PENDING=3
+   ⏳ Leg 1) 16:20 | saudi arabia | Al-Hazm vs Damac | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.36
+   ⏳ Leg 2) 18:00 | super lig | Eyüpspor vs Beşiktaş | HT+0.5 | [TRÈS FORT] | odd=1.22
+   ⏳ Leg 3) 19:00 | liga portugal 2 | União de Leiria vs Sporting CP B | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.36
+
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 2 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.11
+   id=2026-01-26_1620_7e09298fdd
+   legs=3 | WIN=0 | LOSS=0 | PENDING=3
+   ⏳ Leg 1) 16:20 | saudi arabia | Al-Hazm vs Damac | HT 1X Home | [FORT PLUS] | odd=1.2
+   ⏳ Leg 2) 18:00 | super lig | Eyüpspor vs Beşiktaş | HT+0.5 | [TRÈS FORT] | odd=1.22
+   ⏳ Leg 3) 19:00 | liga portugal 2 | União de Leiria vs Sporting CP B | HT+0.5 | [FORT PLUS] | odd=1.44
+
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 3 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.02
+   id=2026-01-26_1620_996c4f105b
+   legs=3 | WIN=0 | LOSS=0 | PENDING=3
+   ⏳ Leg 1) 16:20 | saudi arabia | Al-Hazm vs Damac | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.36
+   ⏳ Leg 2) 18:00 | super lig | Eyüpspor vs Beşiktaş | HT+0.5 | [TRÈS FORT] | odd=1.22
+   ⏳ Leg 3) 19:00 | liga portugal 2 | União de Leiria vs Sporting CP B | HT 1X Home | [TRÈS FORT] | odd=1.22
+
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 4 | Lundi 2026-01-26 16:20→22:50 | code=A2 | odd=2.68
+   id=2026-01-26_1620_4216030e95
+   legs=3 | WIN=0 | LOSS=0 | PENDING=3
+   ⏳ Leg 1) 16:20 | saudi arabia | Al-Hazm vs Damac | HT 1X Home | [FORT PLUS] | odd=1.2
+   ⏳ Leg 2) 20:30 | laliga2 | AD Ceuta FC vs Cultural Leonesa | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.38
+   ⏳ Leg 3) 21:00 | laliga | Girona vs Getafe | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.62
+
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 5 | Lundi 2026-01-26 19:00→22:20 | code=A2 | odd=2.02
+   id=2026-01-26_1900_95f4cf9eac
+   legs=2 | WIN=0 | LOSS=0 | PENDING=2
+   ⏳ Leg 1) 19:00 | liga portugal 2 | União de Leiria vs Sporting CP B | HT+0.5 | [FORT PLUS] | odd=1.44
+   ⏳ Leg 2) 20:30 | laliga2 | AD Ceuta FC vs Cultural Leonesa | HT+0.5 | [MEGA EXPLOSION] | odd=1.4
+
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 6 | Lundi 2026-01-26 19:00→22:50 | code=A2 | odd=2.26
+   id=2026-01-26_1900_f577913ca9
+   legs=3 | WIN=0 | LOSS=0 | PENDING=3
+   ⏳ Leg 1) 19:00 | liga portugal 2 | União de Leiria vs Sporting CP B | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.36
+   ⏳ Leg 2) 20:30 | laliga2 | AD Ceuta FC vs Cultural Leonesa | HT 1X Home | [FORT PLUS] | odd=1.22
+   ⏳ Leg 3) 21:00 | laliga | Girona vs Getafe | Team1 scores (FT) | [FORT PLUS] | odd=1.36
+
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 7 | Lundi 2026-01-26 21:00→22:50 | code=A2 | odd=2.09
+   id=2026-01-26_2100_5ee15053f3
+   legs=2 | WIN=0 | LOSS=0 | PENDING=2
+   ⏳ Leg 1) 21:00 | championship | Norwich vs Coventry | HT+0.5 | [FORT PLUS] | odd=1.29
+   ⏳ Leg 2) 21:00 | laliga | Girona vs Getafe | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.62
+
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 8 | Lundi 2026-01-26 21:00→23:05 | code=A2 | odd=2.28
+   id=2026-01-26_2100_11ab4ee648
+   legs=3 | WIN=0 | LOSS=0 | PENDING=3
+   ⏳ Leg 1) 21:00 | championship | Norwich vs Coventry | HT+0.5 | [FORT PLUS] | odd=1.29
+   ⏳ Leg 2) 21:00 | laliga | Girona vs Getafe | Team1 scores (FT) | [FORT PLUS] | odd=1.36
+   ⏳ Leg 3) 21:15 | liga portugal | FC Porto vs GIL Vicente | Over 1.5 (FT) | [TRÈS FORT] | odd=1.3
+
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 9 | Lundi 2026-01-26 21:00→23:05 | code=A2 | odd=2.81
+   id=2026-01-26_2100_c8dfa82354
+   legs=3 | WIN=0 | LOSS=0 | PENDING=3
+   ⏳ Leg 1) 21:00 | championship | Norwich vs Coventry | HT+0.5 | [FORT PLUS] | odd=1.29
+   ⏳ Leg 2) 21:00 | laliga | Girona vs Getafe | HT+0.5 | [MEGA EXPLOSION] | odd=1.6
+   ⏳ Leg 3) 21:15 | liga portugal | FC Porto vs GIL Vicente | HT+0.5 | [FORT PLUS] | odd=1.36
+
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 1 | Mercredi 2026-01-28 16:20→22:50 | code=A2 | odd=2.99
+   id=2026-01-28_1620_52b3300c9c_SYS
+   legs=4 | WIN=0 | LOSS=0 | PENDING=4
+   ⏳ Leg 1) 16:20 | saudi arabia | Al Najma vs Al Riyadh | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+   ⏳ Leg 2) 21:00 | liga profesional argentina | Aldosivi vs Barracas Central | Over 1.5 (FT) | [EXPLOSION] | odd=1.7
+   ⏳ Leg 3) 21:00 | uefa champions league | Bayer Leverkusen vs Villarreal | HT 1X Home | [FORT PLUS] | odd=1.2
+   ⏳ Leg 4) 21:00 | uefa champions league | Paris Saint Germain vs Newcastle | HT 1X Home | [TRÈS FORT] | odd=1.2
+
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 2 | Mercredi 2026-01-28 23:00→00:50 | code=A2 | odd=2.77
+   id=2026-01-28_2300_03bf4f2e86_SYS
+   legs=3 | WIN=0 | LOSS=0 | PENDING=3
+   ⏳ Leg 1) 23:00 | liga profesional argentina | Racing Club vs Rosario Central | HT 1X Home | [TRÈS FORT] | odd=1.22
+   ⏳ Leg 2) 23:00 | serie a brazil | Atletico-MG vs Palmeiras | Over 1.5 (FT) | [TRÈS FORT] | odd=1.42
+   ⏳ Leg 3) 23:00 | serie a brazil | Internacional vs Atletico Paranaense | Team2 scores (FT) | [FORT PLUS] | odd=1.6
+
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 1 | Jeudi 2026-01-29 01:30→20:50 | code=A2 | odd=2.39
+   id=2026-01-29_0130_07b4934264_SYS
+   legs=3 | WIN=0 | LOSS=0 | PENDING=3
+   ⏳ Leg 1) 01:30 | serie a brazil | Sao Paulo vs Flamengo | HT 1X Home | [TRÈS FORT] | odd=1.44
+   ⏳ Leg 2) 18:30 | saudi arabia | Al-Hazm vs Al Shabab | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+   ⏳ Leg 3) 19:00 | liga portugal 2 | Benfica B vs Lusitânia Lourosa | Over 1.5 (FT) | [EXPLOSION] | odd=1.36
+
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 2 | Jeudi 2026-01-29 21:00→23:50 | code=A2 | odd=2.53
+   id=2026-01-29_2100_0010ac83c2_SYS
+   legs=4 | WIN=0 | LOSS=0 | PENDING=4
+   ⏳ Leg 1) 21:00 | uefa europa league | FC Midtjylland vs Dinamo Zagreb | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+   ⏳ Leg 2) 21:00 | uefa europa league | FCSB vs Fenerbahçe | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ⏳ Leg 3) 21:00 | uefa europa league | Ludogorets vs Nice | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ⏳ Leg 4) 22:00 | primera a colombia | Rionegro Aguilas vs Deportivo Cali | Over 1.5 (FT) | [TRÈS FORT] | odd=1.44
+
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 1 | Vendredi 2026-01-30 01:30→16:40 | code=A2 | odd=2.46
+   id=2026-01-30_0130_bf4f1b0289_SYS
+   legs=3 | WIN=0 | LOSS=0 | PENDING=3
+   ⏳ Leg 1) 01:30 | liga profesional argentina | Sarmiento Junin vs Banfield | HT 1X Home | [FORT PLUS] | odd=1.33
+   ⏳ Leg 2) 01:30 | serie a brazil | Botafogo vs Cruzeiro | Over 1.5 (FT) | [EXPLOSION] | odd=1.42
+   ⏳ Leg 3) 14:50 | saudi arabia | Al Taawon vs Al Okhdood | Over 1.5 (FT) | [FORT PLUS] | odd=1.3
+
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 2 | Vendredi 2026-01-30 18:00→20:20 | code=A2 | odd=2.3
+   id=2026-01-30_1800_26d7af78d7_SYS
+   legs=3 | WIN=0 | LOSS=0 | PENDING=3
+   ⏳ Leg 1) 18:00 | super lig | Kasımpaşa vs Samsunspor | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.38
+   ⏳ Leg 2) 18:30 | 2. bundesliga | 1. FC Nürnberg vs Preußen Münster | Over 1.5 (FT) | [FORT PLUS] | odd=1.3
+   ⏳ Leg 3) 18:30 | saudi arabia | NEOM vs Damac | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
+
+────────────────────────────────────────────────────────────────────
+⏳ Ticket 3 | Vendredi 2026-01-30 20:30→22:50 | code=A2 | odd=2.23
+   id=2026-01-30_2030_56027e9220_SYS
+   legs=3 | WIN=0 | LOSS=0 | PENDING=3
+   ⏳ Leg 1) 20:30 | bundesliga | 1. FC Köln vs VfL Wolfsburg | Team2 scores (FT) | [EXPLOSION] | odd=1.29
+   ⏳ Leg 2) 20:45 | pro league | RAAL La Louvière vs Gent | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+   ⏳ Leg 3) 21:00 | championship | Bristol City vs Derby | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.38
+
+====================================================================
+TOTAL tickets : 16
+✅ WIN     : 0
+❌ LOSS    : 0
+⏳ PENDING : 16
+====================================================================
+

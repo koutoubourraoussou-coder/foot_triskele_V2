@@ -1,0 +1,54 @@
+PARIS JOUABLES — Jeudi 2026-01-01
+=================================
+
+13:30 | cymru premier league | Colwyn Bay (5) vs Flint Town United (10)
+  - HT05 | HT+0.5 | FORT PLUS | odd=— fixture=1401138
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=— fixture=1401138
+
+15:00 | cymru premier league | llanelli AFC (12) vs Penybont (3)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=— fixture=1401137
+  - O25_FT | Over 2.5 (FT) | EXPLOSION | odd=— fixture=1401137
+
+16:00 | championship | Bristol City (10) vs Portsmouth (21)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=— fixture=1386839
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=— fixture=1386839
+
+16:00 | championship | Derby (13) vs Middlesbrough (2)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=— fixture=1386847
+
+16:00 | championship | Ipswich (3) vs Oxford United (23)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=— fixture=1386849
+
+16:00 | championship | Preston (4) vs Sheffield Wednesday (24)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=— fixture=1386842
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=— fixture=1386842
+
+16:00 | championship | QPR (11) vs Norwich (22)
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=— fixture=1386846
+
+16:00 | championship | Southampton (15) vs Millwall (5)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=— fixture=1386848
+
+16:00 | championship | Swansea (17) vs West Brom (18)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=— fixture=1386840
+
+16:00 | championship | Watford (6) vs Birmingham (14)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=— fixture=1386843
+  - TEAM1_SCORE_FT | Team1 scores (FT) | EXPLOSION | odd=— fixture=1386843
+
+18:30 | championship | Sheffield Utd (16) vs Leicester (12)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=— fixture=1386841
+  - O25_FT | Over 2.5 (FT) | MEGA EXPLOSION | odd=— fixture=1386841
+
+18:30 | premier league | Crystal Palace (13) vs Fulham (9)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=— fixture=1379153
+
+18:30 | premier league | Liverpool (4) vs Leeds (16)
+  - TEAM1_SCORE_FT | Team1 scores (FT) | EXPLOSION | odd=— fixture=1379154
+
+21:00 | premier league | Brentford (5) vs Tottenham (14)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=— fixture=1379150
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=— fixture=1379150
+
+21:00 | premier league | Sunderland (10) vs Manchester City (2)
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=— fixture=1379157

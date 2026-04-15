@@ -1,0 +1,45 @@
+# date | league | home vs away | reason
+2026-01-04 | championship | Birmingham vs Coventry | NO_FIXTURE
+2026-01-04 | championship | QPR vs Sheffield Wednesday | NO_FIXTURE
+2026-01-04 | championship | Sheffield Utd vs Oxford United | NO_FIXTURE
+2026-01-04 | championship | Blackburn vs Charlton | NO_FIXTURE
+2026-01-04 | championship | Bristol City vs Preston | NO_FIXTURE
+2026-01-04 | championship | Derby vs Wrexham | NO_FIXTURE
+2026-01-04 | championship | Hull City vs Watford | NO_FIXTURE
+2026-01-04 | championship | Middlesbrough vs Southampton | NO_FIXTURE
+2026-01-04 | championship | Millwall vs Swansea | NO_FIXTURE
+2026-01-04 | championship | Norwich vs Stoke City | NO_FIXTURE
+2026-01-04 | championship | Portsmouth vs Ipswich | NO_FIXTURE
+2026-01-04 | laliga | Sevilla vs Levante | NO_FIXTURE
+2026-01-04 | laliga | Real Madrid vs Real Betis | NO_FIXTURE
+2026-01-04 | laliga | Alaves vs Oviedo | NO_FIXTURE
+2026-01-04 | laliga | Mallorca vs Girona | NO_FIXTURE
+2026-01-04 | laliga | Real Sociedad vs Atletico Madrid | NO_FIXTURE
+2026-01-04 | laliga2 | Sporting Gijon vs Malaga | NO_FIXTURE
+2026-01-04 | laliga2 | AD Ceuta FC vs FC Andorra | NO_FIXTURE
+2026-01-04 | laliga2 | Albacete vs Leganes | NO_FIXTURE
+2026-01-04 | laliga2 | Zaragoza vs Las Palmas | NO_FIXTURE
+2026-01-04 | laliga2 | Deportivo La Coruna vs Cadiz | NO_FIXTURE
+2026-01-04 | liga portugal | Rio Ave vs Casa Pia | NO_FIXTURE
+2026-01-04 | liga portugal | Santa Clara vs FC Porto | NO_FIXTURE
+2026-01-04 | liga portugal | Alverca vs Famalicao | NO_FIXTURE
+2026-01-04 | liga portugal 2 | Penafiel vs Pacos Ferreira | NO_FIXTURE
+2026-01-04 | liga portugal 2 | Sporting CP B vs Academico Viseu | NO_FIXTURE
+2026-01-04 | ligue 1 | Marseille vs Nantes | NO_FIXTURE
+2026-01-04 | ligue 1 | Le Havre vs Angers | NO_FIXTURE
+2026-01-04 | ligue 1 | Lorient vs Metz | NO_FIXTURE
+2026-01-04 | ligue 1 | Stade Brestois 29 vs Auxerre | NO_FIXTURE
+2026-01-04 | ligue 1 | Paris Saint Germain vs Paris FC | NO_FIXTURE
+2026-01-04 | premier league | Leeds vs Manchester United | NO_FIXTURE
+2026-01-04 | premier league | Everton vs Brentford | NO_FIXTURE
+2026-01-04 | premier league | Newcastle vs Crystal Palace | NO_FIXTURE
+2026-01-04 | premier league | Tottenham vs Sunderland | NO_FIXTURE
+2026-01-04 | premier league | Fulham vs Liverpool | NO_FIXTURE
+2026-01-04 | premier league | Manchester City vs Chelsea | NO_FIXTURE
+2026-01-04 | saudi arabia | Al-Hazm vs NEOM | NO_FIXTURE
+2026-01-04 | saudi arabia | Al-Qadisiyah FC vs Al Riyadh | NO_FIXTURE
+2026-01-04 | saudi arabia | Damac vs Al-Hilal Saudi FC | NO_FIXTURE
+2026-01-04 | serie a italia | Lazio vs Napoli | NO_FIXTURE
+2026-01-04 | serie a italia | Fiorentina vs Cremonese | NO_FIXTURE
+2026-01-04 | serie a italia | Verona vs Torino | NO_FIXTURE
+2026-01-04 | serie a italia | Inter vs Bologna | NO_FIXTURE

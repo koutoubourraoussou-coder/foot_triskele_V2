@@ -1,0 +1,43 @@
+TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
+==================================================
+
+📅 Dimanche 2026-02-15 — Tranche 1 (fenêtre ~30min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-02-15_0200_405334a51e_SYS — cote = 2.45 — fenêtre 02:00 → 04:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 02:00 | liga mx | Monterrey vs Leon | Over 1.5 (FT) | TRÈS FORT | odd=1.2
+  2) 02:06 | liga mx | FC Juarez vs Necaxa | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3
+  3) 02:30 | primera a colombia | Deportivo Pasto vs Internacional de Bogota | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.57
+
+📅 Dimanche 2026-02-15 — Tranche 2 (fenêtre ~90min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-02-15_1200_c45907b8d1_SYS — cote = 2.21 — fenêtre 12:00 → 15:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 12:00 | liga portugal 2 | Sporting CP B vs Portimonense | Over 1.5 (FT) | FORT PLUS | odd=1.28
+  2) 13:30 | pro league | Cercle Brugge vs Club Brugge KV | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  3) 13:30 | 2. bundesliga | 1. FC Magdeburg vs Arminia Bielefeld | Over 1.5 (FT) | TRÈS FORT | odd=1.2
+  4) 13:30 | 2. bundesliga | VfL Bochum vs SC Paderborn 07 | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+
+📅 Dimanche 2026-02-15 — Tranche 3 (fenêtre ~15min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-02-15_1615_6b074192d7_SYS — cote = 2.17 — fenêtre 16:15 → 18:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:15 | laliga2 | Huesca vs AD Ceuta FC | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.45
+  2) 16:30 | super league switzerland | FC Basel 1893 vs FC Lugano | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  3) 16:30 | super league switzerland | Lausanne vs Servette FC | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+
+📅 Dimanche 2026-02-15 — Tranche 4 (fenêtre ~90min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-02-15_1930_3492840cd6_SYS — cote = 2.19 — fenêtre 19:30 → 22:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 19:30 | serie b | Avellino vs Pescara | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3
+  2) 20:45 | ligue 1 | Lyon vs Nice | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  3) 21:00 | laliga | Mallorca vs Real Betis | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.38

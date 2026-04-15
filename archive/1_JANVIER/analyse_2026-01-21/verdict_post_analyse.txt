@@ -1,0 +1,119 @@
+TSV: 276582241	2026-01-21	saudi arabia	Al Okhdood	Al Riyadh	HT05	HT+0.5	2.0	MOYEN	0	BAD_NO_BET	FT	1436063	2-2	0-1	16:30
+TSV: 276582241	2026-01-21	saudi arabia	Al Okhdood	Al Riyadh	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	LOSS	FT	1436063	2-2	0-1	16:30
+TSV: 276582241	2026-01-21	saudi arabia	Al Okhdood	Al Riyadh	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1436063	2-2	0-1	16:30
+TSV: 276582241	2026-01-21	saudi arabia	Al Okhdood	Al Riyadh	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1436063	2-2	0-1	16:30
+TSV: 276582241	2026-01-21	saudi arabia	Al Okhdood	Al Riyadh	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1436063	2-2	0-1	16:30
+TSV: 276582241	2026-01-21	saudi arabia	Al Okhdood	Al Riyadh	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1436063	2-2	0-1	16:30
+TSV: 276582241	2026-01-21	saudi arabia	Al Okhdood	Al Riyadh	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1436063	2-2	0-1	16:30
+TSV: 1616736532	2026-01-21	saudi arabia	Al-Ettifaq	NEOM	HT05	HT+0.5	5.0	FORT PLUS	1	LOSS	FT	1436062	0-0	0-0	18:30
+TSV: 1616736532	2026-01-21	saudi arabia	Al-Ettifaq	NEOM	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1436062	0-0	0-0	18:30
+TSV: 1616736532	2026-01-21	saudi arabia	Al-Ettifaq	NEOM	TEAM1_SCORE_FT	Team1 scores (FT)	6.0	TRÈS FORT	1	LOSS	FT	1436062	0-0	0-0	18:30
+TSV: 1616736532	2026-01-21	saudi arabia	Al-Ettifaq	NEOM	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1436062	0-0	0-0	18:30
+TSV: 1616736532	2026-01-21	saudi arabia	Al-Ettifaq	NEOM	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1436062	0-0	0-0	18:30
+TSV: 1616736532	2026-01-21	saudi arabia	Al-Ettifaq	NEOM	TEAM1_WIN_FT	Team1 wins (FT)	4.0	FORT	0	GOOD_NO_BET	FT	1436062	0-0	0-0	18:30
+TSV: 1616736532	2026-01-21	saudi arabia	Al-Ettifaq	NEOM	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1436062	0-0	0-0	18:30
+TSV: 3542756291	2026-01-21	saudi arabia	Damac	Al-Nassr	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1436065	1-2	0-1	18:30
+TSV: 3542756291	2026-01-21	saudi arabia	Damac	Al-Nassr	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1436065	1-2	0-1	18:30
+TSV: 3542756291	2026-01-21	saudi arabia	Damac	Al-Nassr	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1436065	1-2	0-1	18:30
+TSV: 3542756291	2026-01-21	saudi arabia	Damac	Al-Nassr	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	WIN	FT	1436065	1-2	0-1	18:30
+TSV: 3542756291	2026-01-21	saudi arabia	Damac	Al-Nassr	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1436065	1-2	0-1	18:30
+TSV: 3542756291	2026-01-21	saudi arabia	Damac	Al-Nassr	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1436065	1-2	0-1	18:30
+TSV: 3542756291	2026-01-21	saudi arabia	Damac	Al-Nassr	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1436065	1-2	0-1	18:30
+TSV: 3933680156	2026-01-21	eredivisie	AZ Alkmaar	Excelsior	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1381003	1-1	0-0	18:45
+TSV: 3933680156	2026-01-21	eredivisie	AZ Alkmaar	Excelsior	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1381003	1-1	0-0	18:45
+TSV: 3933680156	2026-01-21	eredivisie	AZ Alkmaar	Excelsior	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	WIN	FT	1381003	1-1	0-0	18:45
+TSV: 3933680156	2026-01-21	eredivisie	AZ Alkmaar	Excelsior	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1381003	1-1	0-0	18:45
+TSV: 3933680156	2026-01-21	eredivisie	AZ Alkmaar	Excelsior	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1381003	1-1	0-0	18:45
+TSV: 3933680156	2026-01-21	eredivisie	AZ Alkmaar	Excelsior	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1381003	1-1	0-0	18:45
+TSV: 3933680156	2026-01-21	eredivisie	AZ Alkmaar	Excelsior	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1381003	1-1	0-0	18:45
+TSV: 3823183	2026-01-21	uefa champions league	Galatasaray	Atletico Madrid	HT05	HT+0.5	1.0	FAIBLE	0	BAD_NO_BET	FT	1451137	1-1	1-1	18:45
+TSV: 3823183	2026-01-21	uefa champions league	Galatasaray	Atletico Madrid	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451137	1-1	1-1	18:45
+TSV: 3823183	2026-01-21	uefa champions league	Galatasaray	Atletico Madrid	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1451137	1-1	1-1	18:45
+TSV: 3823183	2026-01-21	uefa champions league	Galatasaray	Atletico Madrid	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1451137	1-1	1-1	18:45
+TSV: 3823183	2026-01-21	uefa champions league	Galatasaray	Atletico Madrid	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1451137	1-1	1-1	18:45
+TSV: 3823183	2026-01-21	uefa champions league	Galatasaray	Atletico Madrid	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1451137	1-1	1-1	18:45
+TSV: 3823183	2026-01-21	uefa champions league	Galatasaray	Atletico Madrid	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1451137	1-1	1-1	18:45
+TSV: 3419124577	2026-01-21	uefa champions league	Qarabag	Eintracht Frankfurt	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1451138	3-2	1-1	18:45
+TSV: 3419124577	2026-01-21	uefa champions league	Qarabag	Eintracht Frankfurt	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1451138	3-2	1-1	18:45
+TSV: 3419124577	2026-01-21	uefa champions league	Qarabag	Eintracht Frankfurt	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1451138	3-2	1-1	18:45
+TSV: 3419124577	2026-01-21	uefa champions league	Qarabag	Eintracht Frankfurt	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451138	3-2	1-1	18:45
+TSV: 3419124577	2026-01-21	uefa champions league	Qarabag	Eintracht Frankfurt	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1451138	3-2	1-1	18:45
+TSV: 3419124577	2026-01-21	uefa champions league	Qarabag	Eintracht Frankfurt	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1451138	3-2	1-1	18:45
+TSV: 3419124577	2026-01-21	uefa champions league	Qarabag	Eintracht Frankfurt	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1451138	3-2	1-1	18:45
+TSV: 3839146567	2026-01-21	liga portugal 2	União de Leiria	Vizela	HT05	HT+0.5	1.0	FAIBLE	0	BAD_NO_BET	FT	1398106	2-2	1-0	19:00
+TSV: 3839146567	2026-01-21	liga portugal 2	União de Leiria	Vizela	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1398106	2-2	1-0	19:00
+TSV: 3839146567	2026-01-21	liga portugal 2	União de Leiria	Vizela	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1398106	2-2	1-0	19:00
+TSV: 3839146567	2026-01-21	liga portugal 2	União de Leiria	Vizela	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1398106	2-2	1-0	19:00
+TSV: 3839146567	2026-01-21	liga portugal 2	União de Leiria	Vizela	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1398106	2-2	1-0	19:00
+TSV: 3839146567	2026-01-21	liga portugal 2	União de Leiria	Vizela	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1398106	2-2	1-0	19:00
+TSV: 3839146567	2026-01-21	liga portugal 2	União de Leiria	Vizela	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1398106	2-2	1-0	19:00
+TSV: 1366176994	2026-01-21	championship	Southampton	Sheffield Utd	HT05	HT+0.5	5.0	FORT PLUS	1	WIN	FT	1386884	1-0	1-0	20:45
+TSV: 1366176994	2026-01-21	championship	Southampton	Sheffield Utd	HT1X_HOME	HT 1X Home	1.0	FAIBLE	0	BAD_NO_BET	FT	1386884	1-0	1-0	20:45
+TSV: 1366176994	2026-01-21	championship	Southampton	Sheffield Utd	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386884	1-0	1-0	20:45
+TSV: 1366176994	2026-01-21	championship	Southampton	Sheffield Utd	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1386884	1-0	1-0	20:45
+TSV: 1366176994	2026-01-21	championship	Southampton	Sheffield Utd	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1386884	1-0	1-0	20:45
+TSV: 1366176994	2026-01-21	championship	Southampton	Sheffield Utd	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1386884	1-0	1-0	20:45
+TSV: 1366176994	2026-01-21	championship	Southampton	Sheffield Utd	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1386884	1-0	1-0	20:45
+TSV: 803713955	2026-01-21	championship	Watford	Portsmouth	HT05	HT+0.5	5.0	FORT PLUS	1	LOSS	FT	1386885	1-1	0-0	20:45
+TSV: 803713955	2026-01-21	championship	Watford	Portsmouth	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386885	1-1	0-0	20:45
+TSV: 803713955	2026-01-21	championship	Watford	Portsmouth	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1386885	1-1	0-0	20:45
+TSV: 803713955	2026-01-21	championship	Watford	Portsmouth	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386885	1-1	0-0	20:45
+TSV: 803713955	2026-01-21	championship	Watford	Portsmouth	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1386885	1-1	0-0	20:45
+TSV: 803713955	2026-01-21	championship	Watford	Portsmouth	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1386885	1-1	0-0	20:45
+TSV: 803713955	2026-01-21	championship	Watford	Portsmouth	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1386885	1-1	0-0	20:45
+TSV: 2447517035	2026-01-21	championship	Stoke City	Middlesbrough	HT05	HT+0.5	1.0	FAIBLE	0	BAD_NO_BET	FT	1386886	1-2	1-0	21:00
+TSV: 2447517035	2026-01-21	championship	Stoke City	Middlesbrough	HT1X_HOME	HT 1X Home	4.0	FORT	0	BAD_NO_BET	FT	1386886	1-2	1-0	21:00
+TSV: 2447517035	2026-01-21	championship	Stoke City	Middlesbrough	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1386886	1-2	1-0	21:00
+TSV: 2447517035	2026-01-21	championship	Stoke City	Middlesbrough	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1386886	1-2	1-0	21:00
+TSV: 2447517035	2026-01-21	championship	Stoke City	Middlesbrough	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1386886	1-2	1-0	21:00
+TSV: 2447517035	2026-01-21	championship	Stoke City	Middlesbrough	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1386886	1-2	1-0	21:00
+TSV: 2447517035	2026-01-21	championship	Stoke City	Middlesbrough	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1386886	1-2	1-0	21:00
+TSV: 3811352109	2026-01-21	uefa champions league	Atalanta	Athletic Club	HT05	HT+0.5	5.0	FORT PLUS	1	WIN	FT	1451140	2-3	1-0	21:00
+TSV: 3811352109	2026-01-21	uefa champions league	Atalanta	Athletic Club	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1451140	2-3	1-0	21:00
+TSV: 3811352109	2026-01-21	uefa champions league	Atalanta	Athletic Club	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451140	2-3	1-0	21:00
+TSV: 3811352109	2026-01-21	uefa champions league	Atalanta	Athletic Club	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1451140	2-3	1-0	21:00
+TSV: 3811352109	2026-01-21	uefa champions league	Atalanta	Athletic Club	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	WIN	FT	1451140	2-3	1-0	21:00
+TSV: 3811352109	2026-01-21	uefa champions league	Atalanta	Athletic Club	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1451140	2-3	1-0	21:00
+TSV: 3811352109	2026-01-21	uefa champions league	Atalanta	Athletic Club	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1451140	2-3	1-0	21:00
+TSV: 2779877725	2026-01-21	uefa champions league	Bayern München	Union St. Gilloise	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1451144	2-0	0-0	21:00
+TSV: 2779877725	2026-01-21	uefa champions league	Bayern München	Union St. Gilloise	HT1X_HOME	HT 1X Home	1.0	FAIBLE	0	BAD_NO_BET	FT	1451144	2-0	0-0	21:00
+TSV: 2779877725	2026-01-21	uefa champions league	Bayern München	Union St. Gilloise	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1451144	2-0	0-0	21:00
+TSV: 2779877725	2026-01-21	uefa champions league	Bayern München	Union St. Gilloise	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	GOOD_NO_BET	FT	1451144	2-0	0-0	21:00
+TSV: 2779877725	2026-01-21	uefa champions league	Bayern München	Union St. Gilloise	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1451144	2-0	0-0	21:00
+TSV: 2779877725	2026-01-21	uefa champions league	Bayern München	Union St. Gilloise	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1451144	2-0	0-0	21:00
+TSV: 2779877725	2026-01-21	uefa champions league	Bayern München	Union St. Gilloise	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1451144	2-0	0-0	21:00
+TSV: 2703857167	2026-01-21	uefa champions league	Chelsea	Pafos	HT05	HT+0.5	4.0	FORT	0	GOOD_NO_BET	FT	1451142	1-0	0-0	21:00
+TSV: 2703857167	2026-01-21	uefa champions league	Chelsea	Pafos	HT1X_HOME	HT 1X Home	1.0	FAIBLE	0	BAD_NO_BET	FT	1451142	1-0	0-0	21:00
+TSV: 2703857167	2026-01-21	uefa champions league	Chelsea	Pafos	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451142	1-0	0-0	21:00
+TSV: 2703857167	2026-01-21	uefa champions league	Chelsea	Pafos	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1451142	1-0	0-0	21:00
+TSV: 2703857167	2026-01-21	uefa champions league	Chelsea	Pafos	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1451142	1-0	0-0	21:00
+TSV: 2703857167	2026-01-21	uefa champions league	Chelsea	Pafos	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1451142	1-0	0-0	21:00
+TSV: 2703857167	2026-01-21	uefa champions league	Chelsea	Pafos	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1451142	1-0	0-0	21:00
+TSV: 3658150728	2026-01-21	uefa champions league	Juventus	Benfica	HT05	HT+0.5	6.0	TRÈS FORT	1	LOSS	FT	1451141	2-0	0-0	21:00
+TSV: 3658150728	2026-01-21	uefa champions league	Juventus	Benfica	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1451141	2-0	0-0	21:00
+TSV: 3658150728	2026-01-21	uefa champions league	Juventus	Benfica	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1451141	2-0	0-0	21:00
+TSV: 3658150728	2026-01-21	uefa champions league	Juventus	Benfica	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1451141	2-0	0-0	21:00
+TSV: 3658150728	2026-01-21	uefa champions league	Juventus	Benfica	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	WIN	FT	1451141	2-0	0-0	21:00
+TSV: 3658150728	2026-01-21	uefa champions league	Juventus	Benfica	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1451141	2-0	0-0	21:00
+TSV: 3658150728	2026-01-21	uefa champions league	Juventus	Benfica	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1451141	2-0	0-0	21:00
+TSV: 1918921497	2026-01-21	uefa champions league	Marseille	Liverpool	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1451145	0-3	0-1	21:00
+TSV: 1918921497	2026-01-21	uefa champions league	Marseille	Liverpool	HT1X_HOME	HT 1X Home	0.0	KO	0	GOOD_NO_BET	FT	1451145	0-3	0-1	21:00
+TSV: 1918921497	2026-01-21	uefa champions league	Marseille	Liverpool	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1451145	0-3	0-1	21:00
+TSV: 1918921497	2026-01-21	uefa champions league	Marseille	Liverpool	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1451145	0-3	0-1	21:00
+TSV: 1918921497	2026-01-21	uefa champions league	Marseille	Liverpool	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1451145	0-3	0-1	21:00
+TSV: 1918921497	2026-01-21	uefa champions league	Marseille	Liverpool	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1451145	0-3	0-1	21:00
+TSV: 1918921497	2026-01-21	uefa champions league	Marseille	Liverpool	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1451145	0-3	0-1	21:00
+TSV: 1326326789	2026-01-21	uefa champions league	Newcastle	PSV Eindhoven	HT05	HT+0.5	5.0	FORT PLUS	1	WIN	FT	1451143	3-0	2-0	21:00
+TSV: 1326326789	2026-01-21	uefa champions league	Newcastle	PSV Eindhoven	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1451143	3-0	2-0	21:00
+TSV: 1326326789	2026-01-21	uefa champions league	Newcastle	PSV Eindhoven	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1451143	3-0	2-0	21:00
+TSV: 1326326789	2026-01-21	uefa champions league	Newcastle	PSV Eindhoven	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	GOOD_NO_BET	FT	1451143	3-0	2-0	21:00
+TSV: 1326326789	2026-01-21	uefa champions league	Newcastle	PSV Eindhoven	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1451143	3-0	2-0	21:00
+TSV: 1326326789	2026-01-21	uefa champions league	Newcastle	PSV Eindhoven	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1451143	3-0	2-0	21:00
+TSV: 1326326789	2026-01-21	uefa champions league	Newcastle	PSV Eindhoven	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1451143	3-0	2-0	21:00
+TSV: 470814807	2026-01-21	uefa champions league	Slavia Praha	Barcelona	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1451139	2-4	2-2	21:00
+TSV: 470814807	2026-01-21	uefa champions league	Slavia Praha	Barcelona	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1451139	2-4	2-2	21:00
+TSV: 470814807	2026-01-21	uefa champions league	Slavia Praha	Barcelona	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1451139	2-4	2-2	21:00
+TSV: 470814807	2026-01-21	uefa champions league	Slavia Praha	Barcelona	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1451139	2-4	2-2	21:00
+TSV: 470814807	2026-01-21	uefa champions league	Slavia Praha	Barcelona	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1451139	2-4	2-2	21:00
+TSV: 470814807	2026-01-21	uefa champions league	Slavia Praha	Barcelona	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1451139	2-4	2-2	21:00
+TSV: 470814807	2026-01-21	uefa champions league	Slavia Praha	Barcelona	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1451139	2-4	2-2	21:00

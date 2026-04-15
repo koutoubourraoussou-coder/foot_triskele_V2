@@ -1,0 +1,61 @@
+PARIS JOUABLES — Lundi 2026-02-02
+=================================
+
+01:30 | liga profesional argentina | Rosario Central (1) vs River Plate (6)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.29 fixture=1491858
+
+02:30 | primera a colombia | Llaneros (13) vs Rionegro Aguilas (10)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.53 fixture=1505963
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.5 fixture=1505963
+  - TEAM2_WIN_FT | Team2 wins (FT) | FORT PLUS | odd=3.25 fixture=1505963
+
+16:15 | saudi arabia | Al Riyadh (15) vs Al-Nassr (2)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.2 fixture=1436087
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.1 fixture=1436087
+  - TEAM2_SCORE_FT | Team2 scores (FT) | EXPLOSION | odd=— fixture=1436087
+
+18:00 | super lig | Kocaelispor (9) vs Fenerbahçe (2)
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.36 fixture=1394612
+
+18:30 | saudi arabia | Al Okhdood (17) vs NEOM (9)
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.28 fixture=1436092
+
+18:30 | saudi arabia | Al-Hilal Saudi FC (1) vs Al-Ahli Jeddah (3)
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.14 fixture=1436091
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=— fixture=1436091
+
+19:45 | liga portugal | AVS (18) vs SC Braga (5)
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.25 fixture=1396408
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=1.1 fixture=1396408
+
+20:30 | laliga2 | Mirandes (22) vs Malaga (6)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.4 fixture=1392025
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.4 fixture=1392025
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=1.3 fixture=1392025
+
+20:45 | serie a italia | Udinese (10) vs AS Roma (5)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.4 fixture=1378093
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.4 fixture=1378093
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=1.22 fixture=1378093
+
+21:00 | laliga | Mallorca (18) vs Sevilla (14)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.44 fixture=1391035
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.4 fixture=1391035
+
+21:00 | premier league | Sunderland (11) vs Burnley (19)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.17 fixture=1379206
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.4 fixture=1379206
+
+21:30 | liga profesional argentina | Gimnasia L.P. (7) vs Aldosivi (13)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.17 fixture=1491854
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.62 fixture=1491854
+
+21:45 | liga portugal | Casa Pia (16) vs FC Porto (1)
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.25 fixture=1396410
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=1.07 fixture=1396410
+  - TEAM2_WIN_FT | Team2 wins (FT) | FORT PLUS | odd=1.25 fixture=1396410
+
+22:00 | primera división paraguay | Deportivo Recoleta (7) vs Libertad Asuncion (1)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.4 fixture=1504976
+  - HT1X_HOME | HT 1X Home | MEGA EXPLOSION | odd=1.53 fixture=1504976
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.33 fixture=1504976

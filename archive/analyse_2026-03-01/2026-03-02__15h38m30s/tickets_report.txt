@@ -1,0 +1,43 @@
+TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
+==================================================
+
+📅 Dimanche 2026-03-01 — Tranche 1 (fenêtre ~36min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-01_0130_923588e3c1_SYS — cote = 2.22 — fenêtre 01:30 → 03:56  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 01:30 | mls | San Jose Earthquakes vs Atlanta United FC | Over 1.5 (FT) | FORT PLUS | odd=1.22
+  2) 02:05 | liga mx | Monterrey vs Cruz Azul | HT+0.5 | EXPLOSION | odd=1.35
+  3) 02:06 | liga mx | Leon vs Necaxa | HT+0.5 | EXPLOSION | odd=1.35
+
+📅 Dimanche 2026-03-01 — Tranche 2 (fenêtre ~75min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-03-01_1215_a7ba496395_SYS — cote = 2.28 — fenêtre 12:15 → 15:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 12:15 | eredivisie | PEC Zwolle vs Ajax | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
+  2) 13:00 | premiership | Rangers vs Celtic | HT+0.5 | MEGA EXPLOSION | odd=1.33
+  3) 13:30 | 2. bundesliga | Hertha BSC vs 1. FC Nürnberg | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  4) 13:30 | 2. bundesliga | 1. FC Magdeburg vs Karlsruher SC | HT+0.5 | MEGA EXPLOSION | odd=1.22
+
+📅 Dimanche 2026-03-01 — Tranche 3 (fenêtre ~75min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-03-01_1615_26b0839bfa_SYS — cote = 2.41 — fenêtre 16:15 → 19:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:15 | laliga2 | Mirandes vs AD Ceuta FC | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.42
+  2) 16:30 | super league switzerland | Grasshoppers vs FC Lugano | Team1 scores (FT) | FORT PLUS | odd=1.36
+  3) 17:30 | bundesliga | Eintracht Frankfurt vs SC Freiburg | Over 1.5 (FT) | FORT PLUS | odd=1.25
+
+📅 Dimanche 2026-03-01 — Tranche 4 (fenêtre ~60min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-03-01_2000_3da1f19683_SYS — cote = 2.31 — fenêtre 20:00 → 22:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:00 | primera a colombia | Deportivo Pasto vs Cucuta | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.48
+  2) 20:45 | ligue 1 | Marseille vs Lyon | Over 1.5 (FT) | FORT PLUS | odd=1.25
+  3) 21:00 | laliga | Girona vs Celta Vigo | HT 1X Home | TRÈS FORT | odd=1.25

@@ -1,0 +1,110 @@
+RUN MAESTRO — 2026-02-10 21:57:56
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTRO — SYSTEM — 2026-02-11
+========================================
+- picks_total: 22
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 4.11
+- threshold_used: 2.15 (target=2.15, fallback=1.7)
+
+🧩 Tranche scan: idx=0 | next_window_start=01:30
+   tranche_seed: 01:30 → 03:00
+
+   merge_until: j=0 | merged_in_window=1
+     - ok_window(after_perf_if_SYSTEM): 0
+     - perf_reject: 1
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 1
+
+       PERF_REJECT: 01:30 | serie a brazil | Vitoria vs Flamengo | O15_FT | odd=1.33
+
+   merge_until: j=1 | merged_in_window=21
+     - ok_window(after_perf_if_SYSTEM): 19
+     - perf_reject: 2
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 4.02
+
+       PERF_REJECT: 01:30 | serie a brazil | Vitoria vs Flamengo | O15_FT | odd=1.33
+       PERF_REJECT: 20:00 | serie b | Avellino vs Frosinone | TEAM2_SCORE_FT | odd=1.22
+
+✅ Ticket: tranche=1 | cote=2.65 | 20:30 → 22:35 | fenêtre=15min
+   1) 20:30 | premier league | Nottingham Forest vs Wolves | O15_FT | odd=1.3
+   2) 20:30 | premier league | Manchester City vs Fulham | O15_FT | odd=1.18
+   3) 20:45 | premiership | Kilmarnock vs ST Mirren | O15_FT | odd=1.38
+   4) 20:45 | premiership | Dundee Utd vs Aberdeen | O15_FT | odd=1.25
+
+🧩 Tranche scan: idx=2 | next_window_start=22:35
+   tranche_seed: 23:00 → 00:30
+
+   merge_until: j=2 | merged_in_window=1
+     - ok_window(after_perf_if_SYSTEM): 0
+     - perf_reject: 1
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 1
+
+       PERF_REJECT: 23:00 | serie a brazil | Mirassol vs Cruzeiro | O15_FT | odd=1.38
+
+   ❌ Impossible d'atteindre threshold=2.15 dans cette fenêtre (même après merge).
+
+📌 FIN JOURNÉE
+------------------
+- tickets_built: 1
+- next_window_start: 22:35
+
+MAESTRO — RANDOM — 2026-02-11
+========================================
+- picks_total: 25
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 5.12
+- threshold_used: 2.15 (target=2.15, fallback=1.7)
+
+🧩 Tranche scan: idx=0 | next_window_start=01:30
+   tranche_seed: 01:30 → 03:00
+
+   merge_until: j=0 | merged_in_window=2
+     - ok_window(after_perf_if_SYSTEM): 2
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 2.09
+
+   merge_until: j=1 | merged_in_window=7
+     - ok_window(after_perf_if_SYSTEM): 7
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 4.95
+
+✅ Ticket: tranche=1 | cote=2.73 | 02:30 → 20:50 | fenêtre=990min
+   1) 02:30 | primera a colombia | Bucaramanga vs Deportes Tolima | O15_FT | odd=1.57
+   2) 18:45 | eredivisie | GO Ahead Eagles vs Heerenveen | O15_FT | odd=1.2
+   3) 19:00 | serie b | Sudtirol vs Monza | O15_FT | odd=1.45
+
+🧩 Tranche scan: idx=3 | next_window_start=20:50
+   tranche_seed: 23:00 → 00:30
+
+   merge_until: j=3 | merged_in_window=2
+     - ok_window(after_perf_if_SYSTEM): 2
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 2.07
+
+   ❌ Impossible d'atteindre threshold=2.15 dans cette fenêtre (même après merge).
+
+📌 FIN JOURNÉE
+------------------
+- tickets_built: 1
+- next_window_start: 20:50
+
+RUN SUMMARY
+- system_tickets: 1 | o15_tickets: 1
+----------------------------------------
+

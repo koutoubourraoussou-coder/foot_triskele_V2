@@ -8,3 +8,11 @@ date	match_id	bet_family	time	league	home	away	odd	fixture_id	pipeline	source
 # ------------------------------------------------------------------
 TSV: 2026-04-15	3265576565	O15_FT	21:00	uefa champions league	Arsenal	Sporting CP	1.25	1534571	O15_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_SUPER_RANDOM_POOL_EFFECTIVE | 2026-04-15 02:24:24 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-14	4075174619	O15_FT	18:45	superligaen	Ferencvarosi TC	Puskas Academy	1.2	1380326	O15_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-14	3081312755	O15_FT	19:00	serie b	Catanzaro	Modena	1.3	1419899	O15_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-14	3931507797	O15_FT	21:00	championship	Portsmouth	Ipswich	1.38	1386857	O15_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-14	361942040	O15_FT	21:00	championship	Southampton	Blackburn	1.28	1387087	O15_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

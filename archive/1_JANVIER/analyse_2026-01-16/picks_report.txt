@@ -1,0 +1,81 @@
+PARIS JOUABLES — Vendredi 2026-01-16
+====================================
+
+14:40 | saudi arabia | Al Najma (18) vs Al-Fateh (10)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.3 fixture=1436048
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.2 fixture=1436048
+
+15:45 | saudi arabia | Al Khaleej Saihat (8) vs Al Okhdood (17)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.14 fixture=1436052
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=— fixture=1436052
+
+18:30 | 2. bundesliga | Eintracht Braunschweig (13) vs 1. FC Magdeburg (15)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.25 fixture=1388768
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2 fixture=1388768
+
+18:30 | 2. bundesliga | Fortuna Düsseldorf (16) vs Arminia Bielefeld (14)
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.22 fixture=1388769
+
+18:30 | saudi arabia | Al-Ittihad FC (6) vs Al-Ettifaq (7)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.3 fixture=1436050
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2 fixture=1436050
+  - O25_FT | Over 2.5 (FT) | FORT PLUS | odd=1.62 fixture=1436050
+
+19:00 | ligue 1 | Monaco (9) vs Lorient (12)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.25 fixture=1387854
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.18 fixture=1387854
+
+20:00 | ligue 2 | Annecy (10) vs Amiens (15)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.4 fixture=1389285
+
+20:00 | ligue 2 | Boulogne (16) vs Montpellier (9)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.4 fixture=1389281
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.4 fixture=1389281
+
+20:00 | ligue 2 | Dunkerque (6) vs PAU (7)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.33 fixture=1389289
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25 fixture=1389289
+  - O25_FT | Over 2.5 (FT) | FORT PLUS | odd=1.8 fixture=1389289
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.17 fixture=1389289
+
+20:00 | ligue 2 | Laval (17) vs Bastia (18)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.53 fixture=1389288
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.22 fixture=1389288
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.53 fixture=1389288
+
+20:30 | bundesliga | Werder Bremen (13) vs Eintracht Frankfurt (7)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.25 fixture=1388468
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18 fixture=1388468
+
+20:30 | laliga2 | Castellón (4) vs Leganes (12)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.17 fixture=1392004
+
+20:30 | serie b | Sampdoria (16) vs Virtus Entella (15)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.2 fixture=1419784
+
+20:45 | pro league | Club Brugge KV (—) vs RAAL La Louvière (—)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.28 fixture=1382593
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.06 fixture=1382593
+  - O25_FT | Over 2.5 (FT) | EXPLOSION | odd=1.62 fixture=1382593
+
+20:45 | scottish cup | Rangers (—) vs Annan Athletic (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.08 fixture=1488593
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.02 fixture=1488593
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.02 fixture=1488593
+
+20:45 | serie a italia | Pisa (19) vs Atalanta (7)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.35 fixture=1378071
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.3 fixture=1378071
+
+21:00 | championship | West Brom (18) vs Middlesbrough (2)
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.33 fixture=1386871
+
+21:00 | ligue 1 | Paris Saint Germain (2) vs Lille (4)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.25 fixture=1387856
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.14 fixture=1387856
+  - O25_FT | Over 2.5 (FT) | FORT PLUS | odd=1.5 fixture=1387856
+
+21:15 | liga portugal | Sporting CP (2) vs Casa Pia (15)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.04 fixture=1396396
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.15 fixture=1396396
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.03 fixture=1396396

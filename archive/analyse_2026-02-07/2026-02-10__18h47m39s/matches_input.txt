@@ -1,0 +1,99 @@
+2026-02-07 13:00 | 2. bundesliga | FC Schalke 04 vs Dynamo Dresden
+2026-02-07 13:00 | 2. bundesliga | SC Paderborn 07 vs 1. FC Nürnberg
+2026-02-07 13:00 | 2. bundesliga | SV Elversberg vs Hertha BSC
+2026-02-07 20:30 | 2. bundesliga | SV Darmstadt 98 vs 1. FC Kaiserslautern
+2026-02-07 15:30 | bundesliga | 1. FC Heidenheim vs Hamburger SV
+2026-02-07 15:30 | bundesliga | FC St. Pauli vs VfB Stuttgart
+2026-02-07 15:30 | bundesliga | FSV Mainz 05 vs FC Augsburg
+2026-02-07 15:30 | bundesliga | SC Freiburg vs Werder Bremen
+2026-02-07 15:30 | bundesliga | VfL Wolfsburg vs Borussia Dortmund
+2026-02-07 18:30 | bundesliga | Borussia Mönchengladbach vs Bayer Leverkusen
+2026-02-07 13:31 | championship | Derby vs Ipswich
+2026-02-07 13:31 | championship | Norwich vs Blackburn
+2026-02-07 13:31 | championship | Southampton vs Watford
+2026-02-07 16:01 | championship | Birmingham vs Leicester
+2026-02-07 16:01 | championship | Coventry vs Oxford United
+2026-02-07 16:01 | championship | Hull City vs Bristol City
+2026-02-07 16:01 | championship | Preston vs Portsmouth
+2026-02-07 16:01 | championship | West Brom vs Stoke City
+2026-02-07 16:01 | championship | Wrexham vs Millwall
+2026-02-07 13:30 | cymru premier league | The New Saints vs Penybont
+2026-02-07 15:30 | cymru premier league | Bala Town vs Cardiff MET
+2026-02-07 15:30 | cymru premier league | Barry Town vs Colwyn Bay
+2026-02-07 15:30 | cymru premier league | llanelli AFC vs Flint Town United
+2026-02-07 15:00 | czech first league | Baník Ostrava vs Sigma Olomouc
+2026-02-07 15:00 | czech first league | FK Jablonec vs Slovácko
+2026-02-07 15:00 | czech first league | Teplice vs Karviná
+2026-02-07 18:00 | czech first league | Slavia Praha vs Mlada Boleslav
+2026-02-07 16:30 | eredivisie | NEC Nijmegen vs Heracles
+2026-02-07 18:45 | eredivisie | PEC Zwolle vs FC Volendam
+2026-02-07 20:00 | eredivisie | Twente vs Heerenveen
+2026-02-07 21:00 | eredivisie | Fortuna Sittard vs Sparta Rotterdam
+2026-02-07 14:00 | laliga | Rayo Vallecano vs Oviedo
+2026-02-07 16:15 | laliga | Barcelona vs Mallorca
+2026-02-07 21:00 | laliga | Real Sociedad vs Elche
+2026-02-07 14:00 | laliga2 | FC Andorra vs Real Sociedad II
+2026-02-07 16:15 | laliga2 | Las Palmas vs Burgos
+2026-02-07 18:30 | laliga2 | Zaragoza vs Eibar
+2026-02-07 02:00 | liga mx | Necaxa vs Atletico San Luis
+2026-02-07 02:00 | liga mx | Tigres UANL vs Santos Laguna
+2026-02-07 04:06 | liga mx | Club Tijuana vs Puebla
+2026-02-07 04:06 | liga mx | Mazatlán vs Guadalajara Chivas
+2026-02-07 16:30 | liga portugal | Estrela vs Santa Clara
+2026-02-07 16:30 | liga portugal | Moreirense vs GIL Vicente
+2026-02-07 19:00 | liga portugal | Estoril vs Tondela
+2026-02-07 21:30 | liga portugal | Arouca vs Guimaraes
+2026-02-07 12:00 | liga portugal 2 | Lusitânia Lourosa vs Felgueiras 1932
+2026-02-07 15:00 | liga portugal 2 | Maritimo vs Farense
+2026-02-07 16:30 | liga portugal 2 | Oliveirense vs Vizela
+2026-02-07 19:00 | liga portugal 2 | Leixoes vs Feirense
+2026-02-07 01:00 | liga profesional argentina | Central Cordoba de Santiago vs Union Santa Fe
+2026-02-07 21:00 | liga profesional argentina | Aldosivi vs Rosario Central
+2026-02-07 22:00 | liga profesional argentina | Racing Club vs Argentinos JRS
+2026-02-07 17:00 | ligue 1 | Lens vs Rennes
+2026-02-07 19:00 | ligue 1 | Stade Brestois 29 vs Lorient
+2026-02-07 21:05 | ligue 1 | Nantes vs Lyon
+2026-02-07 14:00 | ligue 2 | Le Mans vs Laval
+2026-02-07 14:00 | ligue 2 | Nancy vs Estac Troyes
+2026-02-07 20:00 | ligue 2 | Saint Etienne vs Montpellier
+2026-02-07 13:30 | premier league | Manchester United vs Tottenham
+2026-02-07 16:00 | premier league | Arsenal vs Sunderland
+2026-02-07 16:00 | premier league | Bournemouth vs Aston Villa
+2026-02-07 16:00 | premier league | Burnley vs West Ham
+2026-02-07 16:00 | premier league | Fulham vs Everton
+2026-02-07 16:00 | premier league | Wolves vs Chelsea
+2026-02-07 18:30 | premier league | Newcastle vs Brentford
+2026-02-07 00:20 | primera a colombia | Deportivo Pasto vs Bucaramanga
+2026-02-07 02:30 | primera a colombia | Independiente Medellin vs Internacional de Bogota
+2026-02-07 20:00 | primera a colombia | Rionegro Aguilas vs Cucuta
+2026-02-07 22:10 | primera a colombia | Deportes Tolima vs Llaneros
+2026-02-07 00:30 | primera división paraguay | Sportivo Luqueno vs Sportivo Ameliano
+2026-02-07 22:30 | primera división paraguay | Rubio NU vs Sportivo Trinidense
+2026-02-07 16:00 | pro league | Zulte Waregem vs Dender
+2026-02-07 18:15 | pro league | Charleroi vs Cercle Brugge
+2026-02-07 20:45 | pro league | Gent vs OH Leuven
+2026-02-07 15:00 | saudi arabia | Al Kholood vs Al Shabab
+2026-02-07 16:30 | saudi arabia | Al Taawon vs Al Khaleej Saihat
+2026-02-07 18:30 | saudi arabia | Al-Qadisiyah FC vs Al-Fateh
+2026-02-07 16:00 | scottish cup | Dunfermline vs Kelty Hearts
+2026-02-07 16:00 | scottish cup | Elgin City vs Partick
+2026-02-07 16:00 | scottish cup | Rangers vs Stranraer
+2026-02-07 18:30 | scottish cup | Celtic vs Dundee
+2026-02-07 18:00 | serie a italia | Genoa vs Napoli
+2026-02-07 20:45 | serie a italia | Fiorentina vs Torino
+2026-02-07 15:00 | serie b | Carrarese vs Sudtirol
+2026-02-07 15:00 | serie b | Catanzaro vs Reggiana
+2026-02-07 15:00 | serie b | Frosinone vs Venezia
+2026-02-07 15:00 | serie b | Juve Stabia vs Padova
+2026-02-07 15:00 | serie b | Mantova vs Bari
+2026-02-07 15:00 | serie b | Modena vs Sampdoria
+2026-02-07 17:15 | serie b | Palermo vs Empoli
+2026-02-07 19:30 | serie b | Spezia vs Virtus Entella
+2026-02-07 18:00 | super league switzerland | FC Sion vs FC Luzern
+2026-02-07 18:00 | super league switzerland | FC Winterthur vs FC Lugano
+2026-02-07 20:30 | super league switzerland | Grasshoppers vs BSC Young Boys
+2026-02-07 12:30 | super lig | Fatih Karagümrük vs Antalyaspor
+2026-02-07 18:00 | super lig | Samsunspor vs Trabzonspor
+2026-02-07 12:45 | superligaen | Diosgyori VTK vs Gyori ETO FC
+2026-02-07 14:45 | superligaen | Debreceni VSC vs Paks
+2026-02-07 17:00 | superligaen | Ferencvarosi TC vs Ujpest

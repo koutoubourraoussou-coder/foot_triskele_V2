@@ -1,0 +1,181 @@
+RUN MAESTROLOGUE — 2026-02-16 00:04:13
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTROLOGUE — Décision finale 3L vs 4L (SYSTEM)
+----------------------------------------------
+- règle: préférer 3L si écart <= 3.00%
+- best3_score: 0.863 (86.3%)
+- best4_score: 0.835 (83.5%)
+- écart relatif: 3.39%
+=> choisi: 3 legs | score=0.863 (86.3%) | meilleur score retenu
+
+Aperçu ticket non retenu
+------------------------
+- legs: 4 | score=0.835 (83.5%)
+  1) 02:30 | primera a colombia | Fortaleza FC vs Chico | O15_FT | odd=1.42
+  2) 20:30 | laliga2 | Real Sociedad II vs Malaga | O15_FT | odd=1.33
+  3) 21:00 | championship | Coventry vs Middlesbrough | O15_FT | odd=1.22
+  4) 21:15 | liga portugal | Rio Ave vs Moreirense | O15_FT | odd=1.42
+
+MAESTROLOGUE — Détail du score (ticket choisi)
+------------------------------------------
+- score ticket: 0.863 (86.3%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 02:30 | primera a colombia | Fortaleza FC vs Chico | bet=O15_FT | odd=1.42
+   HOME Real Sociedad II: wr=0.83 dec=6 coef=1.000 => adj=0.833 (83.3%)
+   AWAY Malaga: wr=1.00 dec=5 coef=1.000 => adj=1.000 (100.0%)
+   MEAN match: 0.917 (91.7%)
+
+2) 20:30 | laliga2 | Real Sociedad II vs Malaga | bet=O15_FT | odd=1.33
+   HOME Fortaleza FC: wr=1.00 dec=4 coef=0.925 => adj=0.925 (92.5%)
+   AWAY Chico: wr=1.00 dec=3 coef=0.850 => adj=0.850 (85.0%)
+   MEAN match: 0.887 (88.8%)
+
+3) 21:00 | championship | Coventry vs Middlesbrough | bet=O15_FT | odd=1.22
+   HOME Coventry: wr=0.86 dec=7 coef=1.000 => adj=0.857 (85.7%)
+   AWAY Middlesbrough: wr=0.71 dec=7 coef=1.000 => adj=0.714 (71.4%)
+   MEAN match: 0.786 (78.6%)
+
+
+MAESTROLOGUE — SYSTEM — 2026-02-16
+========================================
+- picks_total: 4
+- base_spread: 180 min (rich=False)
+- day_max_possible_odd: 3.27
+- threshold_used: 2.25 (target=2.25, fallback=1.7)
+
+Tranche scan: idx=0 | next_window_start=02:30
+  tranche_seed: 02:30 → 05:30
+
+  merge_until: j=0 | merged_in_window=1
+    - ok_window(after_perf_if_SYSTEM): 1
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 1.42
+
+  merge_until: j=1 | merged_in_window=4
+    - ok_window(after_perf_if_SYSTEM): 4
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 3.27
+
+Ticket: tranche=1 | cote=2.3 | 02:30 → 22:50 | fenêtre=1110min
+  1) 02:30 | primera a colombia | Fortaleza FC vs Chico | O15_FT | odd=1.42
+  2) 20:30 | laliga2 | Real Sociedad II vs Malaga | O15_FT | odd=1.33
+  3) 21:00 | championship | Coventry vs Middlesbrough | O15_FT | odd=1.22
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1
+- next_window_start: 22:50
+
+MAESTROLOGUE — Décision finale 3L vs 4L (RANDOM)
+----------------------------------------------
+- règle: préférer 3L si écart <= 3.00%
+- best3_score: 0.562 (56.2%)
+- best4_score: —
+- écart relatif: —
+=> choisi: 3 legs | score=0.562 (56.2%) | meilleur score retenu
+
+Aperçu ticket non retenu
+------------------------
+- (aucun ticket alternatif)
+
+MAESTROLOGUE — Détail du score (ticket choisi, RANDOM)
+------------------------------------------------------
+- score ticket: 0.562 (56.2%)
+- formule: wr_adj = wr(league x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 02:00 | liga profesional argentina | Instituto Cordoba vs Central Cordoba de Santiago | bet=O15_FT | odd=1.6
+   LEAGUE primera a colombia: wr=0.69 dec=35 coef=1.000 => adj=0.686 (68.6%)
+
+2) 02:00 | liga profesional argentina | Rosario Central vs Barracas Central | bet=O15_FT | odd=1.53
+   LEAGUE liga profesional argentina: wr=0.50 dec=50 coef=1.000 => adj=0.500 (50.0%)
+
+3) 02:30 | primera a colombia | Fortaleza FC vs Chico | bet=O15_FT | odd=1.42
+   LEAGUE liga profesional argentina: wr=0.50 dec=50 coef=1.000 => adj=0.500 (50.0%)
+
+
+MAESTROLOGUE — Décision finale 3L vs 4L (RANDOM)
+----------------------------------------------
+- règle: préférer 3L si écart <= 3.00%
+- best3_score: 0.799 (79.9%)
+- best4_score: 0.786 (78.6%)
+- écart relatif: 1.75%
+=> choisi: 3 legs | score=0.799 (79.9%) | 4L pas assez supérieur => 3L préféré
+
+Aperçu ticket non retenu
+------------------------
+- legs: 4 | score=0.786 (78.6%)
+  1) 18:00 | super lig | Kasımpaşa vs Fatih Karagümrük | O15_FT | odd=1.36
+  2) 20:30 | laliga2 | Real Sociedad II vs Malaga | O15_FT | odd=1.33
+  3) 20:45 | serie a italia | Cagliari vs Lecce | O15_FT | odd=1.53
+  4) 21:00 | championship | Coventry vs Middlesbrough | O15_FT | odd=1.22
+
+MAESTROLOGUE — Détail du score (ticket choisi, RANDOM)
+------------------------------------------------------
+- score ticket: 0.799 (79.9%)
+- formule: wr_adj = wr(league x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 18:00 | super lig | Kasımpaşa vs Fatih Karagümrük | bet=O15_FT | odd=1.36
+   LEAGUE laliga2: wr=0.77 dec=64 coef=1.000 => adj=0.766 (76.6%)
+
+2) 20:30 | laliga2 | Real Sociedad II vs Malaga | bet=O15_FT | odd=1.33
+   LEAGUE serie a italia: wr=0.75 dec=68 coef=1.000 => adj=0.750 (75.0%)
+
+3) 20:45 | serie a italia | Cagliari vs Lecce | bet=O15_FT | odd=1.53
+   LEAGUE super lig: wr=0.88 dec=34 coef=1.000 => adj=0.882 (88.2%)
+
+
+MAESTROLOGUE — RANDOM — 2026-02-16
+========================================
+- picks_total: 11
+- base_spread: 180 min (rich=False)
+- day_max_possible_odd: 6.25
+- threshold_used: 2.25 (target=2.25, fallback=1.7)
+
+Tranche scan: idx=0 | next_window_start=02:00
+  tranche_seed: 02:00 → 05:00
+
+  merge_until: j=0 | merged_in_window=3
+    - ok_window(after_perf_if_SYSTEM): 3
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 3.48
+
+Ticket: tranche=1 | cote=3.48 | 02:00 → 04:20 | fenêtre=30min
+  1) 02:00 | liga profesional argentina | Instituto Cordoba vs Central Cordoba de Santiago | O15_FT | odd=1.6
+  2) 02:00 | liga profesional argentina | Rosario Central vs Barracas Central | O15_FT | odd=1.53
+  3) 02:30 | primera a colombia | Fortaleza FC vs Chico | O15_FT | odd=1.42
+
+Tranche scan: idx=1 | next_window_start=04:20
+  tranche_seed: 18:00 → 21:00
+
+  merge_until: j=1 | merged_in_window=6
+    - ok_window(after_perf_if_SYSTEM): 6
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 4.19
+
+Ticket: tranche=2 | cote=2.77 | 18:00 → 22:35 | fenêtre=165min
+  1) 18:00 | super lig | Kasımpaşa vs Fatih Karagümrük | O15_FT | odd=1.36
+  2) 20:30 | laliga2 | Real Sociedad II vs Malaga | O15_FT | odd=1.33
+  3) 20:45 | serie a italia | Cagliari vs Lecce | O15_FT | odd=1.53
+
+FIN JOURNÉE
+------------------
+- tickets_built: 2
+- next_window_start: 22:35
+
+RUN SUMMARY
+- system_tickets: 1 | o15_tickets: 2
+----------------------------------------
+

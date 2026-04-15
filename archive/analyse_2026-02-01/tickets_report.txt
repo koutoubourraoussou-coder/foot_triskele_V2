@@ -1,0 +1,22 @@
+TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
+==================================================
+
+📅 Mercredi 2026-01-28 — Tranche 1 (fenêtre ~1215min)
+----------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-01-28_2100_5e4adf2aea_SYS — cote = 2.45 — fenêtre 21:00 → 22:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 21:00 | uefa champions league | Borussia Dortmund vs Inter | Over 1.5 (FT) | TRÈS FORT | odd=1.2
+  2) 21:00 | uefa champions league | Eintracht Frankfurt vs Tottenham | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  3) 21:00 | liga profesional argentina | Aldosivi vs Barracas Central | Over 1.5 (FT) | EXPLOSION | odd=1.7
+
+📅 Mercredi 2026-01-28 — Tranche 2 (fenêtre ~90min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-01-28_2300_050035d84d_SYS — cote = 3.18 — fenêtre 23:00 → 00:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 23:00 | serie a brazil | Atletico-MG vs Palmeiras | Over 1.5 (FT) | TRÈS FORT | odd=1.42
+  2) 23:00 | serie a brazil | Vitoria vs remo | Over 1.5 (FT) | FORT PLUS | odd=1.4
+  3) 23:00 | serie a brazil | Internacional vs Atletico Paranaense | Team2 scores (FT) | FORT PLUS | odd=1.6

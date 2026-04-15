@@ -1,0 +1,51 @@
+PARIS JOUABLES — Mardi 2026-03-10
+=================================
+
+02:30 | primera a colombia | Deportivo Pasto (17) vs America de Cali (8)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.5 fixture=1506021
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.25 fixture=1506021
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.53 fixture=1506021
+
+18:45 | uefa champions league | Galatasaray (20) vs Liverpool (3)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.22 fixture=1528321
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.15 fixture=1528321
+
+20:45 | championship | Millwall (3) vs Derby (7)
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.35 fixture=1386988
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.22 fixture=1386988
+
+20:45 | championship | Portsmouth (19) vs Swansea (13)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.22 fixture=1386983
+
+20:45 | championship | Sheffield Wednesday (24) vs Watford (9)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.35 fixture=1386990
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.8 fixture=1386990
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25 fixture=1386990
+
+20:45 | championship | Wrexham (6) vs Hull City (5)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.36 fixture=1386986
+  - HT1X_HOME | HT 1X Home | MEGA EXPLOSION | odd=1.18 fixture=1386986
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.28 fixture=1386986
+
+21:00 | championship | Stoke City (15) vs Ipswich (4)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.38 fixture=1386989
+
+21:00 | uefa champions league | Atalanta (15) vs Bayern München (2)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.22 fixture=1528324
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.14 fixture=1528324
+
+21:00 | uefa champions league | Atletico Madrid (14) vs Tottenham (4)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.28 fixture=1528323
+  - HT1X_HOME | HT 1X Home | MEGA EXPLOSION | odd=1.12 fixture=1528323
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2 fixture=1528323
+  - TEAM1_WIN_FT | Team1 wins (FT) | TRÈS FORT | odd=1.54 fixture=1528323
+
+21:00 | uefa champions league | Newcastle (12) vs Barcelona (5)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.22 fixture=1528319
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.13 fixture=1528319
+
+23:45 | liga profesional argentina | Independiente (11) vs Union Santa Fe (2)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.17 fixture=1491962
+
+23:45 | liga profesional argentina | Tigre (7) vs Velez Sarsfield (4)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.22 fixture=1491967

@@ -1,0 +1,3430 @@
+[optimizer] datasets retenus: 60
+[optimizer] période: 2026-01-01 -> 2026-03-12
+[optimizer] split chrono: train=48 jours | valid=12 jours
+[optimizer] trials demandés: 3000
+[optimizer] jobs parallèles: 4
+[optimizer] trial 1 / 3000 terminé
+[optimizer] trial 2 / 3000 terminé
+[optimizer] trial 3 / 3000 terminé (baseline)
+[optimizer] trial 4 / 3000 terminé
+[optimizer] trial 5 / 3000 terminé
+[optimizer] trial 6 / 3000 terminé
+[optimizer] trial 7 / 3000 terminé
+[optimizer] trial 8 / 3000 terminé
+[optimizer] trial 9 / 3000 terminé
+[optimizer] trial 10 / 3000 terminé
+[optimizer] trial 11 / 3000 terminé
+[optimizer] trial 12 / 3000 terminé
+[optimizer] trial 13 / 3000 terminé
+[optimizer] trial 14 / 3000 terminé
+[optimizer] trial 15 / 3000 terminé
+[optimizer] trial 16 / 3000 terminé
+[optimizer] trial 17 / 3000 terminé
+[optimizer] trial 18 / 3000 terminé
+[optimizer] trial 19 / 3000 terminé
+[optimizer] trial 20 / 3000 terminé
+[optimizer] trial 21 / 3000 terminé
+[optimizer] trial 22 / 3000 terminé
+[optimizer] trial 23 / 3000 terminé
+[optimizer] trial 24 / 3000 terminé
+[optimizer] trial 25 / 3000 terminé
+[optimizer] trial 26 / 3000 terminé
+[optimizer] trial 27 / 3000 terminé
+[optimizer] trial 28 / 3000 terminé
+[optimizer] trial 29 / 3000 terminé
+[optimizer] trial 30 / 3000 terminé
+[optimizer] trial 31 / 3000 terminé
+[optimizer] trial 32 / 3000 terminé
+[optimizer] trial 33 / 3000 terminé
+[optimizer] trial 34 / 3000 terminé
+[optimizer] trial 35 / 3000 terminé
+[optimizer] trial 36 / 3000 terminé
+[optimizer] trial 37 / 3000 terminé
+[optimizer] trial 38 / 3000 terminé
+[optimizer] trial 39 / 3000 terminé
+[optimizer] trial 40 / 3000 terminé
+[optimizer] trial 41 / 3000 terminé
+[optimizer] trial 42 / 3000 terminé
+[optimizer] trial 43 / 3000 terminé
+[optimizer] trial 44 / 3000 terminé
+[optimizer] trial 45 / 3000 terminé
+[optimizer] trial 46 / 3000 terminé
+[optimizer] trial 47 / 3000 terminé
+[optimizer] trial 48 / 3000 terminé
+[optimizer] trial 49 / 3000 terminé
+[optimizer] trial 50 / 3000 terminé
+[optimizer] trial 51 / 3000 terminé
+[optimizer] trial 52 / 3000 terminé
+[optimizer] trial 53 / 3000 terminé
+[optimizer] trial 54 / 3000 terminé
+[optimizer] trial 55 / 3000 terminé
+[optimizer] trial 56 / 3000 terminé
+[optimizer] trial 57 / 3000 terminé
+[optimizer] trial 58 / 3000 terminé
+[optimizer] trial 59 / 3000 terminé
+[optimizer] trial 60 / 3000 terminé
+[optimizer] trial 61 / 3000 terminé
+[optimizer] trial 62 / 3000 terminé
+[optimizer] trial 63 / 3000 terminé
+[optimizer] trial 64 / 3000 terminé
+[optimizer] trial 65 / 3000 terminé
+[optimizer] trial 66 / 3000 terminé
+[optimizer] trial 67 / 3000 terminé
+[optimizer] trial 68 / 3000 terminé
+[optimizer] trial 69 / 3000 terminé
+[optimizer] trial 70 / 3000 terminé
+[optimizer] trial 71 / 3000 terminé
+[optimizer] trial 72 / 3000 terminé
+[optimizer] trial 73 / 3000 terminé
+[optimizer] trial 74 / 3000 terminé
+[optimizer] trial 75 / 3000 terminé
+[optimizer] trial 76 / 3000 terminé
+[optimizer] trial 77 / 3000 terminé
+[optimizer] trial 78 / 3000 terminé
+[optimizer] trial 79 / 3000 terminé
+[optimizer] trial 80 / 3000 terminé
+[optimizer] trial 81 / 3000 terminé
+[optimizer] trial 82 / 3000 terminé
+[optimizer] trial 83 / 3000 terminé
+[optimizer] trial 84 / 3000 terminé
+[optimizer] trial 85 / 3000 terminé
+[optimizer] trial 86 / 3000 terminé
+[optimizer] trial 87 / 3000 terminé
+[optimizer] trial 88 / 3000 terminé
+[optimizer] trial 89 / 3000 terminé
+[optimizer] trial 90 / 3000 terminé
+[optimizer] trial 91 / 3000 terminé
+[optimizer] trial 92 / 3000 terminé
+[optimizer] trial 93 / 3000 terminé
+[optimizer] trial 94 / 3000 terminé
+[optimizer] trial 95 / 3000 terminé
+[optimizer] trial 96 / 3000 terminé
+[optimizer] trial 97 / 3000 terminé
+[optimizer] trial 98 / 3000 terminé
+[optimizer] trial 99 / 3000 terminé
+[optimizer] trial 100 / 3000 terminé
+[optimizer] trial 101 / 3000 terminé
+[optimizer] trial 102 / 3000 terminé
+[optimizer] trial 103 / 3000 terminé
+[optimizer] trial 104 / 3000 terminé
+[optimizer] trial 105 / 3000 terminé
+[optimizer] trial 106 / 3000 terminé
+[optimizer] trial 107 / 3000 terminé
+[optimizer] trial 108 / 3000 terminé
+[optimizer] trial 109 / 3000 terminé
+[optimizer] trial 110 / 3000 terminé
+[optimizer] trial 111 / 3000 terminé
+[optimizer] trial 112 / 3000 terminé
+[optimizer] trial 113 / 3000 terminé
+[optimizer] trial 114 / 3000 terminé
+[optimizer] trial 115 / 3000 terminé
+[optimizer] trial 116 / 3000 terminé
+[optimizer] trial 117 / 3000 terminé
+[optimizer] trial 118 / 3000 terminé
+[optimizer] trial 119 / 3000 terminé
+[optimizer] trial 120 / 3000 terminé
+[optimizer] trial 121 / 3000 terminé
+[optimizer] trial 122 / 3000 terminé
+[optimizer] trial 123 / 3000 terminé
+[optimizer] trial 124 / 3000 terminé
+[optimizer] trial 125 / 3000 terminé
+[optimizer] trial 126 / 3000 terminé
+[optimizer] trial 127 / 3000 terminé
+[optimizer] trial 128 / 3000 terminé
+[optimizer] trial 129 / 3000 terminé
+[optimizer] trial 130 / 3000 terminé
+[optimizer] trial 131 / 3000 terminé
+[optimizer] trial 132 / 3000 terminé
+[optimizer] trial 133 / 3000 terminé
+[optimizer] trial 134 / 3000 terminé
+[optimizer] trial 135 / 3000 terminé
+[optimizer] trial 136 / 3000 terminé
+[optimizer] trial 137 / 3000 terminé
+[optimizer] trial 138 / 3000 terminé
+[optimizer] trial 139 / 3000 terminé
+[optimizer] trial 140 / 3000 terminé
+[optimizer] trial 141 / 3000 terminé
+[optimizer] trial 142 / 3000 terminé
+[optimizer] trial 143 / 3000 terminé
+[optimizer] trial 144 / 3000 terminé
+[optimizer] trial 145 / 3000 terminé
+[optimizer] trial 146 / 3000 terminé
+[optimizer] trial 147 / 3000 terminé
+[optimizer] trial 148 / 3000 terminé
+[optimizer] trial 149 / 3000 terminé
+[optimizer] trial 150 / 3000 terminé
+[optimizer] trial 151 / 3000 terminé
+[optimizer] trial 152 / 3000 terminé
+[optimizer] trial 153 / 3000 terminé
+[optimizer] trial 154 / 3000 terminé
+[optimizer] trial 155 / 3000 terminé
+[optimizer] trial 156 / 3000 terminé
+[optimizer] trial 157 / 3000 terminé
+[optimizer] trial 158 / 3000 terminé
+[optimizer] trial 159 / 3000 terminé
+[optimizer] trial 160 / 3000 terminé
+[optimizer] trial 161 / 3000 terminé
+[optimizer] trial 162 / 3000 terminé
+[optimizer] trial 163 / 3000 terminé
+[optimizer] trial 164 / 3000 terminé
+[optimizer] trial 165 / 3000 terminé
+[optimizer] trial 166 / 3000 terminé
+[optimizer] trial 167 / 3000 terminé
+[optimizer] trial 168 / 3000 terminé
+[optimizer] trial 169 / 3000 terminé
+[optimizer] trial 170 / 3000 terminé
+[optimizer] trial 171 / 3000 terminé
+[optimizer] trial 172 / 3000 terminé
+[optimizer] trial 173 / 3000 terminé
+[optimizer] trial 174 / 3000 terminé
+[optimizer] trial 175 / 3000 terminé
+[optimizer] trial 176 / 3000 terminé
+[optimizer] trial 177 / 3000 terminé
+[optimizer] trial 178 / 3000 terminé
+[optimizer] trial 179 / 3000 terminé
+[optimizer] trial 180 / 3000 terminé
+[optimizer] trial 181 / 3000 terminé
+[optimizer] trial 182 / 3000 terminé
+[optimizer] trial 183 / 3000 terminé
+[optimizer] trial 184 / 3000 terminé
+[optimizer] trial 185 / 3000 terminé
+[optimizer] trial 186 / 3000 terminé
+[optimizer] trial 187 / 3000 terminé
+[optimizer] trial 188 / 3000 terminé
+[optimizer] trial 189 / 3000 terminé
+[optimizer] trial 190 / 3000 terminé
+[optimizer] trial 191 / 3000 terminé
+[optimizer] trial 192 / 3000 terminé
+[optimizer] trial 193 / 3000 terminé
+[optimizer] trial 194 / 3000 terminé
+[optimizer] trial 195 / 3000 terminé
+[optimizer] trial 196 / 3000 terminé
+[optimizer] trial 197 / 3000 terminé
+[optimizer] trial 198 / 3000 terminé
+[optimizer] trial 199 / 3000 terminé
+[optimizer] trial 200 / 3000 terminé
+[optimizer] trial 201 / 3000 terminé
+[optimizer] trial 202 / 3000 terminé
+[optimizer] trial 203 / 3000 terminé
+[optimizer] trial 204 / 3000 terminé
+[optimizer] trial 205 / 3000 terminé
+[optimizer] trial 206 / 3000 terminé
+[optimizer] trial 207 / 3000 terminé
+[optimizer] trial 208 / 3000 terminé
+[optimizer] trial 209 / 3000 terminé
+[optimizer] trial 210 / 3000 terminé
+[optimizer] trial 211 / 3000 terminé
+[optimizer] trial 212 / 3000 terminé
+[optimizer] trial 213 / 3000 terminé
+[optimizer] trial 214 / 3000 terminé
+[optimizer] trial 215 / 3000 terminé
+[optimizer] trial 216 / 3000 terminé
+[optimizer] trial 217 / 3000 terminé
+[optimizer] trial 218 / 3000 terminé
+[optimizer] trial 219 / 3000 terminé
+[optimizer] trial 220 / 3000 terminé
+[optimizer] trial 221 / 3000 terminé
+[optimizer] trial 222 / 3000 terminé
+[optimizer] trial 223 / 3000 terminé
+[optimizer] trial 224 / 3000 terminé
+[optimizer] trial 225 / 3000 terminé
+[optimizer] trial 226 / 3000 terminé
+[optimizer] trial 227 / 3000 terminé
+[optimizer] trial 228 / 3000 terminé
+[optimizer] trial 229 / 3000 terminé
+[optimizer] trial 230 / 3000 terminé
+[optimizer] trial 231 / 3000 terminé
+[optimizer] trial 232 / 3000 terminé
+[optimizer] trial 233 / 3000 terminé
+[optimizer] trial 234 / 3000 terminé
+[optimizer] trial 235 / 3000 terminé
+[optimizer] trial 236 / 3000 terminé
+[optimizer] trial 237 / 3000 terminé
+[optimizer] trial 238 / 3000 terminé
+[optimizer] trial 239 / 3000 terminé
+[optimizer] trial 240 / 3000 terminé
+[optimizer] trial 241 / 3000 terminé
+[optimizer] trial 242 / 3000 terminé
+[optimizer] trial 243 / 3000 terminé
+[optimizer] trial 244 / 3000 terminé
+[optimizer] trial 245 / 3000 terminé
+[optimizer] trial 246 / 3000 terminé
+[optimizer] trial 247 / 3000 terminé
+[optimizer] trial 248 / 3000 terminé
+[optimizer] trial 249 / 3000 terminé
+[optimizer] trial 250 / 3000 terminé
+[optimizer] trial 251 / 3000 terminé
+[optimizer] trial 252 / 3000 terminé
+[optimizer] trial 253 / 3000 terminé
+[optimizer] trial 254 / 3000 terminé
+[optimizer] trial 255 / 3000 terminé
+[optimizer] trial 256 / 3000 terminé
+[optimizer] trial 257 / 3000 terminé
+[optimizer] trial 258 / 3000 terminé
+[optimizer] trial 259 / 3000 terminé
+[optimizer] trial 260 / 3000 terminé
+[optimizer] trial 261 / 3000 terminé
+[optimizer] trial 262 / 3000 terminé
+[optimizer] trial 263 / 3000 terminé
+[optimizer] trial 264 / 3000 terminé
+[optimizer] trial 265 / 3000 terminé
+[optimizer] trial 266 / 3000 terminé
+[optimizer] trial 267 / 3000 terminé
+[optimizer] trial 268 / 3000 terminé
+[optimizer] trial 269 / 3000 terminé
+[optimizer] trial 270 / 3000 terminé
+[optimizer] trial 271 / 3000 terminé
+[optimizer] trial 272 / 3000 terminé
+[optimizer] trial 273 / 3000 terminé
+[optimizer] trial 274 / 3000 terminé
+[optimizer] trial 275 / 3000 terminé
+[optimizer] trial 276 / 3000 terminé
+[optimizer] trial 277 / 3000 terminé
+[optimizer] trial 278 / 3000 terminé
+[optimizer] trial 279 / 3000 terminé
+[optimizer] trial 280 / 3000 terminé
+[optimizer] trial 281 / 3000 terminé
+[optimizer] trial 282 / 3000 terminé
+[optimizer] trial 283 / 3000 terminé
+[optimizer] trial 284 / 3000 terminé
+[optimizer] trial 285 / 3000 terminé
+[optimizer] trial 286 / 3000 terminé
+[optimizer] trial 287 / 3000 terminé
+[optimizer] trial 288 / 3000 terminé
+[optimizer] trial 289 / 3000 terminé
+[optimizer] trial 290 / 3000 terminé
+[optimizer] trial 291 / 3000 terminé
+[optimizer] trial 292 / 3000 terminé
+[optimizer] trial 293 / 3000 terminé
+[optimizer] trial 294 / 3000 terminé
+[optimizer] trial 295 / 3000 terminé
+[optimizer] trial 296 / 3000 terminé
+[optimizer] trial 297 / 3000 terminé
+[optimizer] trial 298 / 3000 terminé
+[optimizer] trial 299 / 3000 terminé
+[optimizer] trial 300 / 3000 terminé
+[optimizer] trial 301 / 3000 terminé
+[optimizer] trial 302 / 3000 terminé
+[optimizer] trial 303 / 3000 terminé
+[optimizer] trial 304 / 3000 terminé
+[optimizer] trial 305 / 3000 terminé
+[optimizer] trial 306 / 3000 terminé
+[optimizer] trial 307 / 3000 terminé
+[optimizer] trial 308 / 3000 terminé
+[optimizer] trial 309 / 3000 terminé
+[optimizer] trial 310 / 3000 terminé
+[optimizer] trial 311 / 3000 terminé
+[optimizer] trial 312 / 3000 terminé
+[optimizer] trial 313 / 3000 terminé
+[optimizer] trial 314 / 3000 terminé
+[optimizer] trial 315 / 3000 terminé
+[optimizer] trial 316 / 3000 terminé
+[optimizer] trial 317 / 3000 terminé
+[optimizer] trial 318 / 3000 terminé
+[optimizer] trial 319 / 3000 terminé
+[optimizer] trial 320 / 3000 terminé
+[optimizer] trial 321 / 3000 terminé
+[optimizer] trial 322 / 3000 terminé
+[optimizer] trial 323 / 3000 terminé
+[optimizer] trial 324 / 3000 terminé
+[optimizer] trial 325 / 3000 terminé
+[optimizer] trial 326 / 3000 terminé
+[optimizer] trial 327 / 3000 terminé
+[optimizer] trial 328 / 3000 terminé
+[optimizer] trial 329 / 3000 terminé
+[optimizer] trial 330 / 3000 terminé
+[optimizer] trial 331 / 3000 terminé
+[optimizer] trial 332 / 3000 terminé
+[optimizer] trial 333 / 3000 terminé
+[optimizer] trial 334 / 3000 terminé
+[optimizer] trial 335 / 3000 terminé
+[optimizer] trial 336 / 3000 terminé
+[optimizer] trial 337 / 3000 terminé
+[optimizer] trial 338 / 3000 terminé
+[optimizer] trial 339 / 3000 terminé
+[optimizer] trial 340 / 3000 terminé
+[optimizer] trial 341 / 3000 terminé
+[optimizer] trial 342 / 3000 terminé
+[optimizer] trial 343 / 3000 terminé
+[optimizer] trial 344 / 3000 terminé
+[optimizer] trial 345 / 3000 terminé
+[optimizer] trial 346 / 3000 terminé
+[optimizer] trial 347 / 3000 terminé
+[optimizer] trial 348 / 3000 terminé
+[optimizer] trial 349 / 3000 terminé
+[optimizer] trial 350 / 3000 terminé
+[optimizer] trial 351 / 3000 terminé
+[optimizer] trial 352 / 3000 terminé
+[optimizer] trial 353 / 3000 terminé
+[optimizer] trial 354 / 3000 terminé
+[optimizer] trial 355 / 3000 terminé
+[optimizer] trial 356 / 3000 terminé
+[optimizer] trial 357 / 3000 terminé
+[optimizer] trial 358 / 3000 terminé
+[optimizer] trial 359 / 3000 terminé
+[optimizer] trial 360 / 3000 terminé
+[optimizer] trial 361 / 3000 terminé
+[optimizer] trial 362 / 3000 terminé
+[optimizer] trial 363 / 3000 terminé
+[optimizer] trial 364 / 3000 terminé
+[optimizer] trial 365 / 3000 terminé
+[optimizer] trial 366 / 3000 terminé
+[optimizer] trial 367 / 3000 terminé
+[optimizer] trial 368 / 3000 terminé
+[optimizer] trial 369 / 3000 terminé
+[optimizer] trial 370 / 3000 terminé
+[optimizer] trial 371 / 3000 terminé
+[optimizer] trial 372 / 3000 terminé
+[optimizer] trial 373 / 3000 terminé
+[optimizer] trial 374 / 3000 terminé
+[optimizer] trial 375 / 3000 terminé
+[optimizer] trial 376 / 3000 terminé
+[optimizer] trial 377 / 3000 terminé
+[optimizer] trial 378 / 3000 terminé
+[optimizer] trial 379 / 3000 terminé
+[optimizer] trial 380 / 3000 terminé
+[optimizer] trial 381 / 3000 terminé
+[optimizer] trial 382 / 3000 terminé
+[optimizer] trial 383 / 3000 terminé
+[optimizer] trial 384 / 3000 terminé
+[optimizer] trial 385 / 3000 terminé
+[optimizer] trial 386 / 3000 terminé
+[optimizer] trial 387 / 3000 terminé
+[optimizer] trial 388 / 3000 terminé
+[optimizer] trial 389 / 3000 terminé
+[optimizer] trial 390 / 3000 terminé
+[optimizer] trial 391 / 3000 terminé
+[optimizer] trial 392 / 3000 terminé
+[optimizer] trial 393 / 3000 terminé
+[optimizer] trial 394 / 3000 terminé
+[optimizer] trial 395 / 3000 terminé
+[optimizer] trial 396 / 3000 terminé
+[optimizer] trial 397 / 3000 terminé
+[optimizer] trial 398 / 3000 terminé
+[optimizer] trial 399 / 3000 terminé
+[optimizer] trial 400 / 3000 terminé
+[optimizer] trial 401 / 3000 terminé
+[optimizer] trial 402 / 3000 terminé
+[optimizer] trial 403 / 3000 terminé
+[optimizer] trial 404 / 3000 terminé
+[optimizer] trial 405 / 3000 terminé
+[optimizer] trial 406 / 3000 terminé
+[optimizer] trial 407 / 3000 terminé
+[optimizer] trial 408 / 3000 terminé
+[optimizer] trial 409 / 3000 terminé
+[optimizer] trial 410 / 3000 terminé
+[optimizer] trial 411 / 3000 terminé
+[optimizer] trial 412 / 3000 terminé
+[optimizer] trial 413 / 3000 terminé
+[optimizer] trial 414 / 3000 terminé
+[optimizer] trial 415 / 3000 terminé
+[optimizer] trial 416 / 3000 terminé
+[optimizer] trial 417 / 3000 terminé
+[optimizer] trial 418 / 3000 terminé
+[optimizer] trial 419 / 3000 terminé
+[optimizer] trial 420 / 3000 terminé
+[optimizer] trial 421 / 3000 terminé
+[optimizer] trial 422 / 3000 terminé
+[optimizer] trial 423 / 3000 terminé
+[optimizer] trial 424 / 3000 terminé
+[optimizer] trial 425 / 3000 terminé
+[optimizer] trial 426 / 3000 terminé
+[optimizer] trial 427 / 3000 terminé
+[optimizer] trial 428 / 3000 terminé
+[optimizer] trial 429 / 3000 terminé
+[optimizer] trial 430 / 3000 terminé
+[optimizer] trial 431 / 3000 terminé
+[optimizer] trial 432 / 3000 terminé
+[optimizer] trial 433 / 3000 terminé
+[optimizer] trial 434 / 3000 terminé
+[optimizer] trial 435 / 3000 terminé
+[optimizer] trial 436 / 3000 terminé
+[optimizer] trial 437 / 3000 terminé
+[optimizer] trial 438 / 3000 terminé
+[optimizer] trial 439 / 3000 terminé
+[optimizer] trial 440 / 3000 terminé
+[optimizer] trial 441 / 3000 terminé
+[optimizer] trial 442 / 3000 terminé
+[optimizer] trial 443 / 3000 terminé
+[optimizer] trial 444 / 3000 terminé
+[optimizer] trial 445 / 3000 terminé
+[optimizer] trial 446 / 3000 terminé
+[optimizer] trial 447 / 3000 terminé
+[optimizer] trial 448 / 3000 terminé
+[optimizer] trial 449 / 3000 terminé
+[optimizer] trial 450 / 3000 terminé
+[optimizer] trial 451 / 3000 terminé
+[optimizer] trial 452 / 3000 terminé
+[optimizer] trial 453 / 3000 terminé
+[optimizer] trial 454 / 3000 terminé
+[optimizer] trial 455 / 3000 terminé
+[optimizer] trial 456 / 3000 terminé
+[optimizer] trial 457 / 3000 terminé
+[optimizer] trial 458 / 3000 terminé
+[optimizer] trial 459 / 3000 terminé
+[optimizer] trial 460 / 3000 terminé
+[optimizer] trial 461 / 3000 terminé
+[optimizer] trial 462 / 3000 terminé
+[optimizer] trial 463 / 3000 terminé
+[optimizer] trial 464 / 3000 terminé
+[optimizer] trial 465 / 3000 terminé
+[optimizer] trial 466 / 3000 terminé
+[optimizer] trial 467 / 3000 terminé
+[optimizer] trial 468 / 3000 terminé
+[optimizer] trial 469 / 3000 terminé
+[optimizer] trial 470 / 3000 terminé
+[optimizer] trial 471 / 3000 terminé
+[optimizer] trial 472 / 3000 terminé
+[optimizer] trial 473 / 3000 terminé
+[optimizer] trial 474 / 3000 terminé
+[optimizer] trial 475 / 3000 terminé
+[optimizer] trial 476 / 3000 terminé
+[optimizer] trial 477 / 3000 terminé
+[optimizer] trial 478 / 3000 terminé
+[optimizer] trial 479 / 3000 terminé
+[optimizer] trial 480 / 3000 terminé
+[optimizer] trial 481 / 3000 terminé
+[optimizer] trial 482 / 3000 terminé
+[optimizer] trial 483 / 3000 terminé
+[optimizer] trial 484 / 3000 terminé
+[optimizer] trial 485 / 3000 terminé
+[optimizer] trial 486 / 3000 terminé
+[optimizer] trial 487 / 3000 terminé
+[optimizer] trial 488 / 3000 terminé
+[optimizer] trial 489 / 3000 terminé
+[optimizer] trial 490 / 3000 terminé
+[optimizer] trial 491 / 3000 terminé
+[optimizer] trial 492 / 3000 terminé
+[optimizer] trial 493 / 3000 terminé
+[optimizer] trial 494 / 3000 terminé
+[optimizer] trial 495 / 3000 terminé
+[optimizer] trial 496 / 3000 terminé
+[optimizer] trial 497 / 3000 terminé
+[optimizer] trial 498 / 3000 terminé
+[optimizer] trial 499 / 3000 terminé
+[optimizer] trial 500 / 3000 terminé
+[optimizer] trial 501 / 3000 terminé
+[optimizer] trial 502 / 3000 terminé
+[optimizer] trial 503 / 3000 terminé
+[optimizer] trial 504 / 3000 terminé
+[optimizer] trial 505 / 3000 terminé
+[optimizer] trial 506 / 3000 terminé
+[optimizer] trial 507 / 3000 terminé
+[optimizer] trial 508 / 3000 terminé
+[optimizer] trial 509 / 3000 terminé
+[optimizer] trial 510 / 3000 terminé
+[optimizer] trial 511 / 3000 terminé
+[optimizer] trial 512 / 3000 terminé
+[optimizer] trial 513 / 3000 terminé
+[optimizer] trial 514 / 3000 terminé
+[optimizer] trial 515 / 3000 terminé
+[optimizer] trial 516 / 3000 terminé
+[optimizer] trial 517 / 3000 terminé
+[optimizer] trial 518 / 3000 terminé
+[optimizer] trial 519 / 3000 terminé
+[optimizer] trial 520 / 3000 terminé
+[optimizer] trial 521 / 3000 terminé
+[optimizer] trial 522 / 3000 terminé
+[optimizer] trial 523 / 3000 terminé
+[optimizer] trial 524 / 3000 terminé
+[optimizer] trial 525 / 3000 terminé
+[optimizer] trial 526 / 3000 terminé
+[optimizer] trial 527 / 3000 terminé
+[optimizer] trial 528 / 3000 terminé
+[optimizer] trial 529 / 3000 terminé
+[optimizer] trial 530 / 3000 terminé
+[optimizer] trial 531 / 3000 terminé
+[optimizer] trial 532 / 3000 terminé
+[optimizer] trial 533 / 3000 terminé
+[optimizer] trial 534 / 3000 terminé
+[optimizer] trial 535 / 3000 terminé
+[optimizer] trial 536 / 3000 terminé
+[optimizer] trial 537 / 3000 terminé
+[optimizer] trial 538 / 3000 terminé
+[optimizer] trial 539 / 3000 terminé
+[optimizer] trial 540 / 3000 terminé
+[optimizer] trial 541 / 3000 terminé
+[optimizer] trial 542 / 3000 terminé
+[optimizer] trial 543 / 3000 terminé
+[optimizer] trial 544 / 3000 terminé
+[optimizer] trial 545 / 3000 terminé
+[optimizer] trial 546 / 3000 terminé
+[optimizer] trial 547 / 3000 terminé
+[optimizer] trial 548 / 3000 terminé
+[optimizer] trial 549 / 3000 terminé
+[optimizer] trial 550 / 3000 terminé
+[optimizer] trial 551 / 3000 terminé
+[optimizer] trial 552 / 3000 terminé
+[optimizer] trial 553 / 3000 terminé
+[optimizer] trial 554 / 3000 terminé
+[optimizer] trial 555 / 3000 terminé
+[optimizer] trial 556 / 3000 terminé
+[optimizer] trial 557 / 3000 terminé
+[optimizer] trial 558 / 3000 terminé
+[optimizer] trial 559 / 3000 terminé
+[optimizer] trial 560 / 3000 terminé
+[optimizer] trial 561 / 3000 terminé
+[optimizer] trial 562 / 3000 terminé
+[optimizer] trial 563 / 3000 terminé
+[optimizer] trial 564 / 3000 terminé
+[optimizer] trial 565 / 3000 terminé
+[optimizer] trial 566 / 3000 terminé
+[optimizer] trial 567 / 3000 terminé
+[optimizer] trial 568 / 3000 terminé
+[optimizer] trial 569 / 3000 terminé
+[optimizer] trial 570 / 3000 terminé
+[optimizer] trial 571 / 3000 terminé
+[optimizer] trial 572 / 3000 terminé
+[optimizer] trial 573 / 3000 terminé
+[optimizer] trial 574 / 3000 terminé
+[optimizer] trial 575 / 3000 terminé
+[optimizer] trial 576 / 3000 terminé
+[optimizer] trial 577 / 3000 terminé
+[optimizer] trial 578 / 3000 terminé
+[optimizer] trial 579 / 3000 terminé
+[optimizer] trial 580 / 3000 terminé
+[optimizer] trial 581 / 3000 terminé
+[optimizer] trial 582 / 3000 terminé
+[optimizer] trial 583 / 3000 terminé
+[optimizer] trial 584 / 3000 terminé
+[optimizer] trial 585 / 3000 terminé
+[optimizer] trial 586 / 3000 terminé
+[optimizer] trial 587 / 3000 terminé
+[optimizer] trial 588 / 3000 terminé
+[optimizer] trial 589 / 3000 terminé
+[optimizer] trial 590 / 3000 terminé
+[optimizer] trial 591 / 3000 terminé
+[optimizer] trial 592 / 3000 terminé
+[optimizer] trial 593 / 3000 terminé
+[optimizer] trial 594 / 3000 terminé
+[optimizer] trial 595 / 3000 terminé
+[optimizer] trial 596 / 3000 terminé
+[optimizer] trial 597 / 3000 terminé
+[optimizer] trial 598 / 3000 terminé
+[optimizer] trial 599 / 3000 terminé
+[optimizer] trial 600 / 3000 terminé
+[optimizer] trial 601 / 3000 terminé
+[optimizer] trial 602 / 3000 terminé
+[optimizer] trial 603 / 3000 terminé
+[optimizer] trial 604 / 3000 terminé
+[optimizer] trial 605 / 3000 terminé
+[optimizer] trial 606 / 3000 terminé
+[optimizer] trial 607 / 3000 terminé
+[optimizer] trial 608 / 3000 terminé
+[optimizer] trial 609 / 3000 terminé
+[optimizer] trial 610 / 3000 terminé
+[optimizer] trial 611 / 3000 terminé
+[optimizer] trial 612 / 3000 terminé
+[optimizer] trial 613 / 3000 terminé
+[optimizer] trial 614 / 3000 terminé
+[optimizer] trial 615 / 3000 terminé
+[optimizer] trial 616 / 3000 terminé
+[optimizer] trial 617 / 3000 terminé
+[optimizer] trial 618 / 3000 terminé
+[optimizer] trial 619 / 3000 terminé
+[optimizer] trial 620 / 3000 terminé
+[optimizer] trial 621 / 3000 terminé
+[optimizer] trial 622 / 3000 terminé
+[optimizer] trial 623 / 3000 terminé
+[optimizer] trial 624 / 3000 terminé
+[optimizer] trial 625 / 3000 terminé
+[optimizer] trial 626 / 3000 terminé
+[optimizer] trial 627 / 3000 terminé
+[optimizer] trial 628 / 3000 terminé
+[optimizer] trial 629 / 3000 terminé
+[optimizer] trial 630 / 3000 terminé
+[optimizer] trial 631 / 3000 terminé
+[optimizer] trial 632 / 3000 terminé
+[optimizer] trial 633 / 3000 terminé
+[optimizer] trial 634 / 3000 terminé
+[optimizer] trial 635 / 3000 terminé
+[optimizer] trial 636 / 3000 terminé
+[optimizer] trial 637 / 3000 terminé
+[optimizer] trial 638 / 3000 terminé
+[optimizer] trial 639 / 3000 terminé
+[optimizer] trial 640 / 3000 terminé
+[optimizer] trial 641 / 3000 terminé
+[optimizer] trial 642 / 3000 terminé
+[optimizer] trial 643 / 3000 terminé
+[optimizer] trial 644 / 3000 terminé
+[optimizer] trial 645 / 3000 terminé
+[optimizer] trial 646 / 3000 terminé
+[optimizer] trial 647 / 3000 terminé
+[optimizer] trial 648 / 3000 terminé
+[optimizer] trial 649 / 3000 terminé
+[optimizer] trial 650 / 3000 terminé
+[optimizer] trial 651 / 3000 terminé
+[optimizer] trial 652 / 3000 terminé
+[optimizer] trial 653 / 3000 terminé
+[optimizer] trial 654 / 3000 terminé
+[optimizer] trial 655 / 3000 terminé
+[optimizer] trial 656 / 3000 terminé
+[optimizer] trial 657 / 3000 terminé
+[optimizer] trial 658 / 3000 terminé
+[optimizer] trial 659 / 3000 terminé
+[optimizer] trial 660 / 3000 terminé
+[optimizer] trial 661 / 3000 terminé
+[optimizer] trial 662 / 3000 terminé
+[optimizer] trial 663 / 3000 terminé
+[optimizer] trial 664 / 3000 terminé
+[optimizer] trial 665 / 3000 terminé
+[optimizer] trial 666 / 3000 terminé
+[optimizer] trial 667 / 3000 terminé
+[optimizer] trial 668 / 3000 terminé
+[optimizer] trial 669 / 3000 terminé
+[optimizer] trial 670 / 3000 terminé
+[optimizer] trial 671 / 3000 terminé
+[optimizer] trial 672 / 3000 terminé
+[optimizer] trial 673 / 3000 terminé
+[optimizer] trial 674 / 3000 terminé
+[optimizer] trial 675 / 3000 terminé
+[optimizer] trial 676 / 3000 terminé
+[optimizer] trial 677 / 3000 terminé
+[optimizer] trial 678 / 3000 terminé
+[optimizer] trial 679 / 3000 terminé
+[optimizer] trial 680 / 3000 terminé
+[optimizer] trial 681 / 3000 terminé
+[optimizer] trial 682 / 3000 terminé
+[optimizer] trial 683 / 3000 terminé
+[optimizer] trial 684 / 3000 terminé
+[optimizer] trial 685 / 3000 terminé
+[optimizer] trial 686 / 3000 terminé
+[optimizer] trial 687 / 3000 terminé
+[optimizer] trial 688 / 3000 terminé
+[optimizer] trial 689 / 3000 terminé
+[optimizer] trial 690 / 3000 terminé
+[optimizer] trial 691 / 3000 terminé
+[optimizer] trial 692 / 3000 terminé
+[optimizer] trial 693 / 3000 terminé
+[optimizer] trial 694 / 3000 terminé
+[optimizer] trial 695 / 3000 terminé
+[optimizer] trial 696 / 3000 terminé
+[optimizer] trial 697 / 3000 terminé
+[optimizer] trial 698 / 3000 terminé
+[optimizer] trial 699 / 3000 terminé
+[optimizer] trial 700 / 3000 terminé
+[optimizer] trial 701 / 3000 terminé
+[optimizer] trial 702 / 3000 terminé
+[optimizer] trial 703 / 3000 terminé
+[optimizer] trial 704 / 3000 terminé
+[optimizer] trial 705 / 3000 terminé
+[optimizer] trial 706 / 3000 terminé
+[optimizer] trial 707 / 3000 terminé
+[optimizer] trial 708 / 3000 terminé
+[optimizer] trial 709 / 3000 terminé
+[optimizer] trial 710 / 3000 terminé
+[optimizer] trial 711 / 3000 terminé
+[optimizer] trial 712 / 3000 terminé
+[optimizer] trial 713 / 3000 terminé
+[optimizer] trial 714 / 3000 terminé
+[optimizer] trial 715 / 3000 terminé
+[optimizer] trial 716 / 3000 terminé
+[optimizer] trial 717 / 3000 terminé
+[optimizer] trial 718 / 3000 terminé
+[optimizer] trial 719 / 3000 terminé
+[optimizer] trial 720 / 3000 terminé
+[optimizer] trial 721 / 3000 terminé
+[optimizer] trial 722 / 3000 terminé
+[optimizer] trial 723 / 3000 terminé
+[optimizer] trial 724 / 3000 terminé
+[optimizer] trial 725 / 3000 terminé
+[optimizer] trial 726 / 3000 terminé
+[optimizer] trial 727 / 3000 terminé
+[optimizer] trial 728 / 3000 terminé
+[optimizer] trial 729 / 3000 terminé
+[optimizer] trial 730 / 3000 terminé
+[optimizer] trial 731 / 3000 terminé
+[optimizer] trial 732 / 3000 terminé
+[optimizer] trial 733 / 3000 terminé
+[optimizer] trial 734 / 3000 terminé
+[optimizer] trial 735 / 3000 terminé
+[optimizer] trial 736 / 3000 terminé
+[optimizer] trial 737 / 3000 terminé
+[optimizer] trial 738 / 3000 terminé
+[optimizer] trial 739 / 3000 terminé
+[optimizer] trial 740 / 3000 terminé
+[optimizer] trial 741 / 3000 terminé
+[optimizer] trial 742 / 3000 terminé
+[optimizer] trial 743 / 3000 terminé
+[optimizer] trial 744 / 3000 terminé
+[optimizer] trial 745 / 3000 terminé
+[optimizer] trial 746 / 3000 terminé
+[optimizer] trial 747 / 3000 terminé
+[optimizer] trial 748 / 3000 terminé
+[optimizer] trial 749 / 3000 terminé
+[optimizer] trial 750 / 3000 terminé
+[optimizer] trial 751 / 3000 terminé
+[optimizer] trial 752 / 3000 terminé
+[optimizer] trial 753 / 3000 terminé
+[optimizer] trial 754 / 3000 terminé
+[optimizer] trial 755 / 3000 terminé
+[optimizer] trial 756 / 3000 terminé
+[optimizer] trial 757 / 3000 terminé
+[optimizer] trial 758 / 3000 terminé
+[optimizer] trial 759 / 3000 terminé
+[optimizer] trial 760 / 3000 terminé
+[optimizer] trial 761 / 3000 terminé
+[optimizer] trial 762 / 3000 terminé
+[optimizer] trial 763 / 3000 terminé
+[optimizer] trial 764 / 3000 terminé
+[optimizer] trial 765 / 3000 terminé
+[optimizer] trial 766 / 3000 terminé
+[optimizer] trial 767 / 3000 terminé
+[optimizer] trial 768 / 3000 terminé
+[optimizer] trial 769 / 3000 terminé
+[optimizer] trial 770 / 3000 terminé
+[optimizer] trial 771 / 3000 terminé
+[optimizer] trial 772 / 3000 terminé
+[optimizer] trial 773 / 3000 terminé
+[optimizer] trial 774 / 3000 terminé
+[optimizer] trial 775 / 3000 terminé
+[optimizer] trial 776 / 3000 terminé
+[optimizer] trial 777 / 3000 terminé
+[optimizer] trial 778 / 3000 terminé
+[optimizer] trial 779 / 3000 terminé
+[optimizer] trial 780 / 3000 terminé
+[optimizer] trial 781 / 3000 terminé
+[optimizer] trial 782 / 3000 terminé
+[optimizer] trial 783 / 3000 terminé
+[optimizer] trial 784 / 3000 terminé
+[optimizer] trial 785 / 3000 terminé
+[optimizer] trial 786 / 3000 terminé
+[optimizer] trial 787 / 3000 terminé
+[optimizer] trial 788 / 3000 terminé
+[optimizer] trial 789 / 3000 terminé
+[optimizer] trial 790 / 3000 terminé
+[optimizer] trial 791 / 3000 terminé
+[optimizer] trial 792 / 3000 terminé
+[optimizer] trial 793 / 3000 terminé
+[optimizer] trial 794 / 3000 terminé
+[optimizer] trial 795 / 3000 terminé
+[optimizer] trial 796 / 3000 terminé
+[optimizer] trial 797 / 3000 terminé
+[optimizer] trial 798 / 3000 terminé
+[optimizer] trial 799 / 3000 terminé
+[optimizer] trial 800 / 3000 terminé
+[optimizer] trial 801 / 3000 terminé
+[optimizer] trial 802 / 3000 terminé
+[optimizer] trial 803 / 3000 terminé
+[optimizer] trial 804 / 3000 terminé
+[optimizer] trial 805 / 3000 terminé
+[optimizer] trial 806 / 3000 terminé
+[optimizer] trial 807 / 3000 terminé
+[optimizer] trial 808 / 3000 terminé
+[optimizer] trial 809 / 3000 terminé
+[optimizer] trial 810 / 3000 terminé
+[optimizer] trial 811 / 3000 terminé
+[optimizer] trial 812 / 3000 terminé
+[optimizer] trial 813 / 3000 terminé
+[optimizer] trial 814 / 3000 terminé
+[optimizer] trial 815 / 3000 terminé
+[optimizer] trial 816 / 3000 terminé
+[optimizer] trial 817 / 3000 terminé
+[optimizer] trial 818 / 3000 terminé
+[optimizer] trial 819 / 3000 terminé
+[optimizer] trial 820 / 3000 terminé
+[optimizer] trial 821 / 3000 terminé
+[optimizer] trial 822 / 3000 terminé
+[optimizer] trial 823 / 3000 terminé
+[optimizer] trial 824 / 3000 terminé
+[optimizer] trial 825 / 3000 terminé
+[optimizer] trial 826 / 3000 terminé
+[optimizer] trial 827 / 3000 terminé
+[optimizer] trial 828 / 3000 terminé
+[optimizer] trial 829 / 3000 terminé
+[optimizer] trial 830 / 3000 terminé
+[optimizer] trial 831 / 3000 terminé
+[optimizer] trial 832 / 3000 terminé
+[optimizer] trial 833 / 3000 terminé
+[optimizer] trial 834 / 3000 terminé
+[optimizer] trial 835 / 3000 terminé
+[optimizer] trial 836 / 3000 terminé
+[optimizer] trial 837 / 3000 terminé
+[optimizer] trial 838 / 3000 terminé
+[optimizer] trial 839 / 3000 terminé
+[optimizer] trial 840 / 3000 terminé
+[optimizer] trial 841 / 3000 terminé
+[optimizer] trial 842 / 3000 terminé
+[optimizer] trial 843 / 3000 terminé
+[optimizer] trial 844 / 3000 terminé
+[optimizer] trial 845 / 3000 terminé
+[optimizer] trial 846 / 3000 terminé
+[optimizer] trial 847 / 3000 terminé
+[optimizer] trial 848 / 3000 terminé
+[optimizer] trial 849 / 3000 terminé
+[optimizer] trial 850 / 3000 terminé
+[optimizer] trial 851 / 3000 terminé
+[optimizer] trial 852 / 3000 terminé
+[optimizer] trial 853 / 3000 terminé
+[optimizer] trial 854 / 3000 terminé
+[optimizer] trial 855 / 3000 terminé
+[optimizer] trial 856 / 3000 terminé
+[optimizer] trial 857 / 3000 terminé
+[optimizer] trial 858 / 3000 terminé
+[optimizer] trial 859 / 3000 terminé
+[optimizer] trial 860 / 3000 terminé
+[optimizer] trial 861 / 3000 terminé
+[optimizer] trial 862 / 3000 terminé
+[optimizer] trial 863 / 3000 terminé
+[optimizer] trial 864 / 3000 terminé
+[optimizer] trial 865 / 3000 terminé
+[optimizer] trial 866 / 3000 terminé
+[optimizer] trial 867 / 3000 terminé
+[optimizer] trial 868 / 3000 terminé
+[optimizer] trial 869 / 3000 terminé
+[optimizer] trial 870 / 3000 terminé
+[optimizer] trial 871 / 3000 terminé
+[optimizer] trial 872 / 3000 terminé
+[optimizer] trial 873 / 3000 terminé
+[optimizer] trial 874 / 3000 terminé
+[optimizer] trial 875 / 3000 terminé
+[optimizer] trial 876 / 3000 terminé
+[optimizer] trial 877 / 3000 terminé
+[optimizer] trial 878 / 3000 terminé
+[optimizer] trial 879 / 3000 terminé
+[optimizer] trial 880 / 3000 terminé
+[optimizer] trial 881 / 3000 terminé
+[optimizer] trial 882 / 3000 terminé
+[optimizer] trial 883 / 3000 terminé
+[optimizer] trial 884 / 3000 terminé
+[optimizer] trial 885 / 3000 terminé
+[optimizer] trial 886 / 3000 terminé
+[optimizer] trial 887 / 3000 terminé
+[optimizer] trial 888 / 3000 terminé
+[optimizer] trial 889 / 3000 terminé
+[optimizer] trial 890 / 3000 terminé
+[optimizer] trial 891 / 3000 terminé
+[optimizer] trial 892 / 3000 terminé
+[optimizer] trial 893 / 3000 terminé
+[optimizer] trial 894 / 3000 terminé
+[optimizer] trial 895 / 3000 terminé
+[optimizer] trial 896 / 3000 terminé
+[optimizer] trial 897 / 3000 terminé
+[optimizer] trial 898 / 3000 terminé
+[optimizer] trial 899 / 3000 terminé
+[optimizer] trial 900 / 3000 terminé
+[optimizer] trial 901 / 3000 terminé
+[optimizer] trial 902 / 3000 terminé
+[optimizer] trial 903 / 3000 terminé
+[optimizer] trial 904 / 3000 terminé
+[optimizer] trial 905 / 3000 terminé
+[optimizer] trial 906 / 3000 terminé
+[optimizer] trial 907 / 3000 terminé
+[optimizer] trial 908 / 3000 terminé
+[optimizer] trial 909 / 3000 terminé
+[optimizer] trial 910 / 3000 terminé
+[optimizer] trial 911 / 3000 terminé
+[optimizer] trial 912 / 3000 terminé
+[optimizer] trial 913 / 3000 terminé
+[optimizer] trial 914 / 3000 terminé
+[optimizer] trial 915 / 3000 terminé
+[optimizer] trial 916 / 3000 terminé
+[optimizer] trial 917 / 3000 terminé
+[optimizer] trial 918 / 3000 terminé
+[optimizer] trial 919 / 3000 terminé
+[optimizer] trial 920 / 3000 terminé
+[optimizer] trial 921 / 3000 terminé
+[optimizer] trial 922 / 3000 terminé
+[optimizer] trial 923 / 3000 terminé
+[optimizer] trial 924 / 3000 terminé
+[optimizer] trial 925 / 3000 terminé
+[optimizer] trial 926 / 3000 terminé
+[optimizer] trial 927 / 3000 terminé
+[optimizer] trial 928 / 3000 terminé
+[optimizer] trial 929 / 3000 terminé
+[optimizer] trial 930 / 3000 terminé
+[optimizer] trial 931 / 3000 terminé
+[optimizer] trial 932 / 3000 terminé
+[optimizer] trial 933 / 3000 terminé
+[optimizer] trial 934 / 3000 terminé
+[optimizer] trial 935 / 3000 terminé
+[optimizer] trial 936 / 3000 terminé
+[optimizer] trial 937 / 3000 terminé
+[optimizer] trial 938 / 3000 terminé
+[optimizer] trial 939 / 3000 terminé
+[optimizer] trial 940 / 3000 terminé
+[optimizer] trial 941 / 3000 terminé
+[optimizer] trial 942 / 3000 terminé
+[optimizer] trial 943 / 3000 terminé
+[optimizer] trial 944 / 3000 terminé
+[optimizer] trial 945 / 3000 terminé
+[optimizer] trial 946 / 3000 terminé
+[optimizer] trial 947 / 3000 terminé
+[optimizer] trial 948 / 3000 terminé
+[optimizer] trial 949 / 3000 terminé
+[optimizer] trial 950 / 3000 terminé
+[optimizer] trial 951 / 3000 terminé
+[optimizer] trial 952 / 3000 terminé
+[optimizer] trial 953 / 3000 terminé
+[optimizer] trial 954 / 3000 terminé
+[optimizer] trial 955 / 3000 terminé
+[optimizer] trial 956 / 3000 terminé
+[optimizer] trial 957 / 3000 terminé
+[optimizer] trial 958 / 3000 terminé
+[optimizer] trial 959 / 3000 terminé
+[optimizer] trial 960 / 3000 terminé
+[optimizer] trial 961 / 3000 terminé
+[optimizer] trial 962 / 3000 terminé
+[optimizer] trial 963 / 3000 terminé
+[optimizer] trial 964 / 3000 terminé
+[optimizer] trial 965 / 3000 terminé
+[optimizer] trial 966 / 3000 terminé
+[optimizer] trial 967 / 3000 terminé
+[optimizer] trial 968 / 3000 terminé
+[optimizer] trial 969 / 3000 terminé
+[optimizer] trial 970 / 3000 terminé
+[optimizer] trial 971 / 3000 terminé
+[optimizer] trial 972 / 3000 terminé
+[optimizer] trial 973 / 3000 terminé
+[optimizer] trial 974 / 3000 terminé
+[optimizer] trial 975 / 3000 terminé
+[optimizer] trial 976 / 3000 terminé
+[optimizer] trial 977 / 3000 terminé
+[optimizer] trial 978 / 3000 terminé
+[optimizer] trial 979 / 3000 terminé
+[optimizer] trial 980 / 3000 terminé
+[optimizer] trial 981 / 3000 terminé
+[optimizer] trial 982 / 3000 terminé
+[optimizer] trial 983 / 3000 terminé
+[optimizer] trial 984 / 3000 terminé
+[optimizer] trial 985 / 3000 terminé
+[optimizer] trial 986 / 3000 terminé
+[optimizer] trial 987 / 3000 terminé
+[optimizer] trial 988 / 3000 terminé
+[optimizer] trial 989 / 3000 terminé
+[optimizer] trial 990 / 3000 terminé
+[optimizer] trial 991 / 3000 terminé
+[optimizer] trial 992 / 3000 terminé
+[optimizer] trial 993 / 3000 terminé
+[optimizer] trial 994 / 3000 terminé
+[optimizer] trial 995 / 3000 terminé
+[optimizer] trial 996 / 3000 terminé
+[optimizer] trial 997 / 3000 terminé
+[optimizer] trial 998 / 3000 terminé
+[optimizer] trial 999 / 3000 terminé
+[optimizer] trial 1000 / 3000 terminé
+[optimizer] trial 1001 / 3000 terminé
+[optimizer] trial 1002 / 3000 terminé
+[optimizer] trial 1003 / 3000 terminé
+[optimizer] trial 1004 / 3000 terminé
+[optimizer] trial 1005 / 3000 terminé
+[optimizer] trial 1006 / 3000 terminé
+[optimizer] trial 1007 / 3000 terminé
+[optimizer] trial 1008 / 3000 terminé
+[optimizer] trial 1009 / 3000 terminé
+[optimizer] trial 1010 / 3000 terminé
+[optimizer] trial 1011 / 3000 terminé
+[optimizer] trial 1012 / 3000 terminé
+[optimizer] trial 1013 / 3000 terminé
+[optimizer] trial 1014 / 3000 terminé
+[optimizer] trial 1015 / 3000 terminé
+[optimizer] trial 1016 / 3000 terminé
+[optimizer] trial 1017 / 3000 terminé
+[optimizer] trial 1018 / 3000 terminé
+[optimizer] trial 1019 / 3000 terminé
+[optimizer] trial 1020 / 3000 terminé
+[optimizer] trial 1021 / 3000 terminé
+[optimizer] trial 1022 / 3000 terminé
+[optimizer] trial 1023 / 3000 terminé
+[optimizer] trial 1024 / 3000 terminé
+[optimizer] trial 1025 / 3000 terminé
+[optimizer] trial 1026 / 3000 terminé
+[optimizer] trial 1027 / 3000 terminé
+[optimizer] trial 1028 / 3000 terminé
+[optimizer] trial 1029 / 3000 terminé
+[optimizer] trial 1030 / 3000 terminé
+[optimizer] trial 1031 / 3000 terminé
+[optimizer] trial 1032 / 3000 terminé
+[optimizer] trial 1033 / 3000 terminé
+[optimizer] trial 1034 / 3000 terminé
+[optimizer] trial 1035 / 3000 terminé
+[optimizer] trial 1036 / 3000 terminé
+[optimizer] trial 1037 / 3000 terminé
+[optimizer] trial 1038 / 3000 terminé
+[optimizer] trial 1039 / 3000 terminé
+[optimizer] trial 1040 / 3000 terminé
+[optimizer] trial 1041 / 3000 terminé
+[optimizer] trial 1042 / 3000 terminé
+[optimizer] trial 1043 / 3000 terminé
+[optimizer] trial 1044 / 3000 terminé
+[optimizer] trial 1045 / 3000 terminé
+[optimizer] trial 1046 / 3000 terminé
+[optimizer] trial 1047 / 3000 terminé
+[optimizer] trial 1048 / 3000 terminé
+[optimizer] trial 1049 / 3000 terminé
+[optimizer] trial 1050 / 3000 terminé
+[optimizer] trial 1051 / 3000 terminé
+[optimizer] trial 1052 / 3000 terminé
+[optimizer] trial 1053 / 3000 terminé
+[optimizer] trial 1054 / 3000 terminé
+[optimizer] trial 1055 / 3000 terminé
+[optimizer] trial 1056 / 3000 terminé
+[optimizer] trial 1057 / 3000 terminé
+[optimizer] trial 1058 / 3000 terminé
+[optimizer] trial 1059 / 3000 terminé
+[optimizer] trial 1060 / 3000 terminé
+[optimizer] trial 1061 / 3000 terminé
+[optimizer] trial 1062 / 3000 terminé
+[optimizer] trial 1063 / 3000 terminé
+[optimizer] trial 1064 / 3000 terminé
+[optimizer] trial 1065 / 3000 terminé
+[optimizer] trial 1066 / 3000 terminé
+[optimizer] trial 1067 / 3000 terminé
+[optimizer] trial 1068 / 3000 terminé
+[optimizer] trial 1069 / 3000 terminé
+[optimizer] trial 1070 / 3000 terminé
+[optimizer] trial 1071 / 3000 terminé
+[optimizer] trial 1072 / 3000 terminé
+[optimizer] trial 1073 / 3000 terminé
+[optimizer] trial 1074 / 3000 terminé
+[optimizer] trial 1075 / 3000 terminé
+[optimizer] trial 1076 / 3000 terminé
+[optimizer] trial 1077 / 3000 terminé
+[optimizer] trial 1078 / 3000 terminé
+[optimizer] trial 1079 / 3000 terminé
+[optimizer] trial 1080 / 3000 terminé
+[optimizer] trial 1081 / 3000 terminé
+[optimizer] trial 1082 / 3000 terminé
+[optimizer] trial 1083 / 3000 terminé
+[optimizer] trial 1084 / 3000 terminé
+[optimizer] trial 1085 / 3000 terminé
+[optimizer] trial 1086 / 3000 terminé
+[optimizer] trial 1087 / 3000 terminé
+[optimizer] trial 1088 / 3000 terminé
+[optimizer] trial 1089 / 3000 terminé
+[optimizer] trial 1090 / 3000 terminé
+[optimizer] trial 1091 / 3000 terminé
+[optimizer] trial 1092 / 3000 terminé
+[optimizer] trial 1093 / 3000 terminé
+[optimizer] trial 1094 / 3000 terminé
+[optimizer] trial 1095 / 3000 terminé
+[optimizer] trial 1096 / 3000 terminé
+[optimizer] trial 1097 / 3000 terminé
+[optimizer] trial 1098 / 3000 terminé
+[optimizer] trial 1099 / 3000 terminé
+[optimizer] trial 1100 / 3000 terminé
+[optimizer] trial 1101 / 3000 terminé
+[optimizer] trial 1102 / 3000 terminé
+[optimizer] trial 1103 / 3000 terminé
+[optimizer] trial 1104 / 3000 terminé
+[optimizer] trial 1105 / 3000 terminé
+[optimizer] trial 1106 / 3000 terminé
+[optimizer] trial 1107 / 3000 terminé
+[optimizer] trial 1108 / 3000 terminé
+[optimizer] trial 1109 / 3000 terminé
+[optimizer] trial 1110 / 3000 terminé
+[optimizer] trial 1111 / 3000 terminé
+[optimizer] trial 1112 / 3000 terminé
+[optimizer] trial 1113 / 3000 terminé
+[optimizer] trial 1114 / 3000 terminé
+[optimizer] trial 1115 / 3000 terminé
+[optimizer] trial 1116 / 3000 terminé
+[optimizer] trial 1117 / 3000 terminé
+[optimizer] trial 1118 / 3000 terminé
+[optimizer] trial 1119 / 3000 terminé
+[optimizer] trial 1120 / 3000 terminé
+[optimizer] trial 1121 / 3000 terminé
+[optimizer] trial 1122 / 3000 terminé
+[optimizer] trial 1123 / 3000 terminé
+[optimizer] trial 1124 / 3000 terminé
+[optimizer] trial 1125 / 3000 terminé
+[optimizer] trial 1126 / 3000 terminé
+[optimizer] trial 1127 / 3000 terminé
+[optimizer] trial 1128 / 3000 terminé
+[optimizer] trial 1129 / 3000 terminé
+[optimizer] trial 1130 / 3000 terminé
+[optimizer] trial 1131 / 3000 terminé
+[optimizer] trial 1132 / 3000 terminé
+[optimizer] trial 1133 / 3000 terminé
+[optimizer] trial 1134 / 3000 terminé
+[optimizer] trial 1135 / 3000 terminé
+[optimizer] trial 1136 / 3000 terminé
+[optimizer] trial 1137 / 3000 terminé
+[optimizer] trial 1138 / 3000 terminé
+[optimizer] trial 1139 / 3000 terminé
+[optimizer] trial 1140 / 3000 terminé
+[optimizer] trial 1141 / 3000 terminé
+[optimizer] trial 1142 / 3000 terminé
+[optimizer] trial 1143 / 3000 terminé
+[optimizer] trial 1144 / 3000 terminé
+[optimizer] trial 1145 / 3000 terminé
+[optimizer] trial 1146 / 3000 terminé
+[optimizer] trial 1147 / 3000 terminé
+[optimizer] trial 1148 / 3000 terminé
+[optimizer] trial 1149 / 3000 terminé
+[optimizer] trial 1150 / 3000 terminé
+[optimizer] trial 1151 / 3000 terminé
+[optimizer] trial 1152 / 3000 terminé
+[optimizer] trial 1153 / 3000 terminé
+[optimizer] trial 1154 / 3000 terminé
+[optimizer] trial 1155 / 3000 terminé
+[optimizer] trial 1156 / 3000 terminé
+[optimizer] trial 1157 / 3000 terminé
+[optimizer] trial 1158 / 3000 terminé
+[optimizer] trial 1159 / 3000 terminé
+[optimizer] trial 1160 / 3000 terminé
+[optimizer] trial 1161 / 3000 terminé
+[optimizer] trial 1162 / 3000 terminé
+[optimizer] trial 1163 / 3000 terminé
+[optimizer] trial 1164 / 3000 terminé
+[optimizer] trial 1165 / 3000 terminé
+[optimizer] trial 1166 / 3000 terminé
+[optimizer] trial 1167 / 3000 terminé
+[optimizer] trial 1168 / 3000 terminé
+[optimizer] trial 1169 / 3000 terminé
+[optimizer] trial 1170 / 3000 terminé
+[optimizer] trial 1171 / 3000 terminé
+[optimizer] trial 1172 / 3000 terminé
+[optimizer] trial 1173 / 3000 terminé
+[optimizer] trial 1174 / 3000 terminé
+[optimizer] trial 1175 / 3000 terminé
+[optimizer] trial 1176 / 3000 terminé
+[optimizer] trial 1177 / 3000 terminé
+[optimizer] trial 1178 / 3000 terminé
+[optimizer] trial 1179 / 3000 terminé
+[optimizer] trial 1180 / 3000 terminé
+[optimizer] trial 1181 / 3000 terminé
+[optimizer] trial 1182 / 3000 terminé
+[optimizer] trial 1183 / 3000 terminé
+[optimizer] trial 1184 / 3000 terminé
+[optimizer] trial 1185 / 3000 terminé
+[optimizer] trial 1186 / 3000 terminé
+[optimizer] trial 1187 / 3000 terminé
+[optimizer] trial 1188 / 3000 terminé
+[optimizer] trial 1189 / 3000 terminé
+[optimizer] trial 1190 / 3000 terminé
+[optimizer] trial 1191 / 3000 terminé
+[optimizer] trial 1192 / 3000 terminé
+[optimizer] trial 1193 / 3000 terminé
+[optimizer] trial 1194 / 3000 terminé
+[optimizer] trial 1195 / 3000 terminé
+[optimizer] trial 1196 / 3000 terminé
+[optimizer] trial 1197 / 3000 terminé
+[optimizer] trial 1198 / 3000 terminé
+[optimizer] trial 1199 / 3000 terminé
+[optimizer] trial 1200 / 3000 terminé
+[optimizer] trial 1201 / 3000 terminé
+[optimizer] trial 1202 / 3000 terminé
+[optimizer] trial 1203 / 3000 terminé
+[optimizer] trial 1204 / 3000 terminé
+[optimizer] trial 1205 / 3000 terminé
+[optimizer] trial 1206 / 3000 terminé
+[optimizer] trial 1207 / 3000 terminé
+[optimizer] trial 1208 / 3000 terminé
+[optimizer] trial 1209 / 3000 terminé
+[optimizer] trial 1210 / 3000 terminé
+[optimizer] trial 1211 / 3000 terminé
+[optimizer] trial 1212 / 3000 terminé
+[optimizer] trial 1213 / 3000 terminé
+[optimizer] trial 1214 / 3000 terminé
+[optimizer] trial 1215 / 3000 terminé
+[optimizer] trial 1216 / 3000 terminé
+[optimizer] trial 1217 / 3000 terminé
+[optimizer] trial 1218 / 3000 terminé
+[optimizer] trial 1219 / 3000 terminé
+[optimizer] trial 1220 / 3000 terminé
+[optimizer] trial 1221 / 3000 terminé
+[optimizer] trial 1222 / 3000 terminé
+[optimizer] trial 1223 / 3000 terminé
+[optimizer] trial 1224 / 3000 terminé
+[optimizer] trial 1225 / 3000 terminé
+[optimizer] trial 1226 / 3000 terminé
+[optimizer] trial 1227 / 3000 terminé
+[optimizer] trial 1228 / 3000 terminé
+[optimizer] trial 1229 / 3000 terminé
+[optimizer] trial 1230 / 3000 terminé
+[optimizer] trial 1231 / 3000 terminé
+[optimizer] trial 1232 / 3000 terminé
+[optimizer] trial 1233 / 3000 terminé
+[optimizer] trial 1234 / 3000 terminé
+[optimizer] trial 1235 / 3000 terminé
+[optimizer] trial 1236 / 3000 terminé
+[optimizer] trial 1237 / 3000 terminé
+[optimizer] trial 1238 / 3000 terminé
+[optimizer] trial 1239 / 3000 terminé
+[optimizer] trial 1240 / 3000 terminé
+[optimizer] trial 1241 / 3000 terminé
+[optimizer] trial 1242 / 3000 terminé
+[optimizer] trial 1243 / 3000 terminé
+[optimizer] trial 1244 / 3000 terminé
+[optimizer] trial 1245 / 3000 terminé
+[optimizer] trial 1246 / 3000 terminé
+[optimizer] trial 1247 / 3000 terminé
+[optimizer] trial 1248 / 3000 terminé
+[optimizer] trial 1249 / 3000 terminé
+[optimizer] trial 1250 / 3000 terminé
+[optimizer] trial 1251 / 3000 terminé
+[optimizer] trial 1252 / 3000 terminé
+[optimizer] trial 1253 / 3000 terminé
+[optimizer] trial 1254 / 3000 terminé
+[optimizer] trial 1255 / 3000 terminé
+[optimizer] trial 1256 / 3000 terminé
+[optimizer] trial 1257 / 3000 terminé
+[optimizer] trial 1258 / 3000 terminé
+[optimizer] trial 1259 / 3000 terminé
+[optimizer] trial 1260 / 3000 terminé
+[optimizer] trial 1261 / 3000 terminé
+[optimizer] trial 1262 / 3000 terminé
+[optimizer] trial 1263 / 3000 terminé
+[optimizer] trial 1264 / 3000 terminé
+[optimizer] trial 1265 / 3000 terminé
+[optimizer] trial 1266 / 3000 terminé
+[optimizer] trial 1267 / 3000 terminé
+[optimizer] trial 1268 / 3000 terminé
+[optimizer] trial 1269 / 3000 terminé
+[optimizer] trial 1270 / 3000 terminé
+[optimizer] trial 1271 / 3000 terminé
+[optimizer] trial 1272 / 3000 terminé
+[optimizer] trial 1273 / 3000 terminé
+[optimizer] trial 1274 / 3000 terminé
+[optimizer] trial 1275 / 3000 terminé
+[optimizer] trial 1276 / 3000 terminé
+[optimizer] trial 1277 / 3000 terminé
+[optimizer] trial 1278 / 3000 terminé
+[optimizer] trial 1279 / 3000 terminé
+[optimizer] trial 1280 / 3000 terminé
+[optimizer] trial 1281 / 3000 terminé
+[optimizer] trial 1282 / 3000 terminé
+[optimizer] trial 1283 / 3000 terminé
+[optimizer] trial 1284 / 3000 terminé
+[optimizer] trial 1285 / 3000 terminé
+[optimizer] trial 1286 / 3000 terminé
+[optimizer] trial 1287 / 3000 terminé
+[optimizer] trial 1288 / 3000 terminé
+[optimizer] trial 1289 / 3000 terminé
+[optimizer] trial 1290 / 3000 terminé
+[optimizer] trial 1291 / 3000 terminé
+[optimizer] trial 1292 / 3000 terminé
+[optimizer] trial 1293 / 3000 terminé
+[optimizer] trial 1294 / 3000 terminé
+[optimizer] trial 1295 / 3000 terminé
+[optimizer] trial 1296 / 3000 terminé
+[optimizer] trial 1297 / 3000 terminé
+[optimizer] trial 1298 / 3000 terminé
+[optimizer] trial 1299 / 3000 terminé
+[optimizer] trial 1300 / 3000 terminé
+[optimizer] trial 1301 / 3000 terminé
+[optimizer] trial 1302 / 3000 terminé
+[optimizer] trial 1303 / 3000 terminé
+[optimizer] trial 1304 / 3000 terminé
+[optimizer] trial 1305 / 3000 terminé
+[optimizer] trial 1306 / 3000 terminé
+[optimizer] trial 1307 / 3000 terminé
+[optimizer] trial 1308 / 3000 terminé
+[optimizer] trial 1309 / 3000 terminé
+[optimizer] trial 1310 / 3000 terminé
+[optimizer] trial 1311 / 3000 terminé
+[optimizer] trial 1312 / 3000 terminé
+[optimizer] trial 1313 / 3000 terminé
+[optimizer] trial 1314 / 3000 terminé
+[optimizer] trial 1315 / 3000 terminé
+[optimizer] trial 1316 / 3000 terminé
+[optimizer] trial 1317 / 3000 terminé
+[optimizer] trial 1318 / 3000 terminé
+[optimizer] trial 1319 / 3000 terminé
+[optimizer] trial 1320 / 3000 terminé
+[optimizer] trial 1321 / 3000 terminé
+[optimizer] trial 1322 / 3000 terminé
+[optimizer] trial 1323 / 3000 terminé
+[optimizer] trial 1324 / 3000 terminé
+[optimizer] trial 1325 / 3000 terminé
+[optimizer] trial 1326 / 3000 terminé
+[optimizer] trial 1327 / 3000 terminé
+[optimizer] trial 1328 / 3000 terminé
+[optimizer] trial 1329 / 3000 terminé
+[optimizer] trial 1330 / 3000 terminé
+[optimizer] trial 1331 / 3000 terminé
+[optimizer] trial 1332 / 3000 terminé
+[optimizer] trial 1333 / 3000 terminé
+[optimizer] trial 1334 / 3000 terminé
+[optimizer] trial 1335 / 3000 terminé
+[optimizer] trial 1336 / 3000 terminé
+[optimizer] trial 1337 / 3000 terminé
+[optimizer] trial 1338 / 3000 terminé
+[optimizer] trial 1339 / 3000 terminé
+[optimizer] trial 1340 / 3000 terminé
+[optimizer] trial 1341 / 3000 terminé
+[optimizer] trial 1342 / 3000 terminé
+[optimizer] trial 1343 / 3000 terminé
+[optimizer] trial 1344 / 3000 terminé
+[optimizer] trial 1345 / 3000 terminé
+[optimizer] trial 1346 / 3000 terminé
+[optimizer] trial 1347 / 3000 terminé
+[optimizer] trial 1348 / 3000 terminé
+[optimizer] trial 1349 / 3000 terminé
+[optimizer] trial 1350 / 3000 terminé
+[optimizer] trial 1351 / 3000 terminé
+[optimizer] trial 1352 / 3000 terminé
+[optimizer] trial 1353 / 3000 terminé
+[optimizer] trial 1354 / 3000 terminé
+[optimizer] trial 1355 / 3000 terminé
+[optimizer] trial 1356 / 3000 terminé
+[optimizer] trial 1357 / 3000 terminé
+[optimizer] trial 1358 / 3000 terminé
+[optimizer] trial 1359 / 3000 terminé
+[optimizer] trial 1360 / 3000 terminé
+[optimizer] trial 1361 / 3000 terminé
+[optimizer] trial 1362 / 3000 terminé
+[optimizer] trial 1363 / 3000 terminé
+[optimizer] trial 1364 / 3000 terminé
+[optimizer] trial 1365 / 3000 terminé
+[optimizer] trial 1366 / 3000 terminé
+[optimizer] trial 1367 / 3000 terminé
+[optimizer] trial 1368 / 3000 terminé
+[optimizer] trial 1369 / 3000 terminé
+[optimizer] trial 1370 / 3000 terminé
+[optimizer] trial 1371 / 3000 terminé
+[optimizer] trial 1372 / 3000 terminé
+[optimizer] trial 1373 / 3000 terminé
+[optimizer] trial 1374 / 3000 terminé
+[optimizer] trial 1375 / 3000 terminé
+[optimizer] trial 1376 / 3000 terminé
+[optimizer] trial 1377 / 3000 terminé
+[optimizer] trial 1378 / 3000 terminé
+[optimizer] trial 1379 / 3000 terminé
+[optimizer] trial 1380 / 3000 terminé
+[optimizer] trial 1381 / 3000 terminé
+[optimizer] trial 1382 / 3000 terminé
+[optimizer] trial 1383 / 3000 terminé
+[optimizer] trial 1384 / 3000 terminé
+[optimizer] trial 1385 / 3000 terminé
+[optimizer] trial 1386 / 3000 terminé
+[optimizer] trial 1387 / 3000 terminé
+[optimizer] trial 1388 / 3000 terminé
+[optimizer] trial 1389 / 3000 terminé
+[optimizer] trial 1390 / 3000 terminé
+[optimizer] trial 1391 / 3000 terminé
+[optimizer] trial 1392 / 3000 terminé
+[optimizer] trial 1393 / 3000 terminé
+[optimizer] trial 1394 / 3000 terminé
+[optimizer] trial 1395 / 3000 terminé
+[optimizer] trial 1396 / 3000 terminé
+[optimizer] trial 1397 / 3000 terminé
+[optimizer] trial 1398 / 3000 terminé
+[optimizer] trial 1399 / 3000 terminé
+[optimizer] trial 1400 / 3000 terminé
+[optimizer] trial 1401 / 3000 terminé
+[optimizer] trial 1402 / 3000 terminé
+[optimizer] trial 1403 / 3000 terminé
+[optimizer] trial 1404 / 3000 terminé
+[optimizer] trial 1405 / 3000 terminé
+[optimizer] trial 1406 / 3000 terminé
+[optimizer] trial 1407 / 3000 terminé
+[optimizer] trial 1408 / 3000 terminé
+[optimizer] trial 1409 / 3000 terminé
+[optimizer] trial 1410 / 3000 terminé
+[optimizer] trial 1411 / 3000 terminé
+[optimizer] trial 1412 / 3000 terminé
+[optimizer] trial 1413 / 3000 terminé
+[optimizer] trial 1414 / 3000 terminé
+[optimizer] trial 1415 / 3000 terminé
+[optimizer] trial 1416 / 3000 terminé
+[optimizer] trial 1417 / 3000 terminé
+[optimizer] trial 1418 / 3000 terminé
+[optimizer] trial 1419 / 3000 terminé
+[optimizer] trial 1420 / 3000 terminé
+[optimizer] trial 1421 / 3000 terminé
+[optimizer] trial 1422 / 3000 terminé
+[optimizer] trial 1423 / 3000 terminé
+[optimizer] trial 1424 / 3000 terminé
+[optimizer] trial 1425 / 3000 terminé
+[optimizer] trial 1426 / 3000 terminé
+[optimizer] trial 1427 / 3000 terminé
+[optimizer] trial 1428 / 3000 terminé
+[optimizer] trial 1429 / 3000 terminé
+[optimizer] trial 1430 / 3000 terminé
+[optimizer] trial 1431 / 3000 terminé
+[optimizer] trial 1432 / 3000 terminé
+[optimizer] trial 1433 / 3000 terminé
+[optimizer] trial 1434 / 3000 terminé
+[optimizer] trial 1435 / 3000 terminé
+[optimizer] trial 1436 / 3000 terminé
+[optimizer] trial 1437 / 3000 terminé
+[optimizer] trial 1438 / 3000 terminé
+[optimizer] trial 1439 / 3000 terminé
+[optimizer] trial 1440 / 3000 terminé
+[optimizer] trial 1441 / 3000 terminé
+[optimizer] trial 1442 / 3000 terminé
+[optimizer] trial 1443 / 3000 terminé
+[optimizer] trial 1444 / 3000 terminé
+[optimizer] trial 1445 / 3000 terminé
+[optimizer] trial 1446 / 3000 terminé
+[optimizer] trial 1447 / 3000 terminé
+[optimizer] trial 1448 / 3000 terminé
+[optimizer] trial 1449 / 3000 terminé
+[optimizer] trial 1450 / 3000 terminé
+[optimizer] trial 1451 / 3000 terminé
+[optimizer] trial 1452 / 3000 terminé
+[optimizer] trial 1453 / 3000 terminé
+[optimizer] trial 1454 / 3000 terminé
+[optimizer] trial 1455 / 3000 terminé
+[optimizer] trial 1456 / 3000 terminé
+[optimizer] trial 1457 / 3000 terminé
+[optimizer] trial 1458 / 3000 terminé
+[optimizer] trial 1459 / 3000 terminé
+[optimizer] trial 1460 / 3000 terminé
+[optimizer] trial 1461 / 3000 terminé
+[optimizer] trial 1462 / 3000 terminé
+[optimizer] trial 1463 / 3000 terminé
+[optimizer] trial 1464 / 3000 terminé
+[optimizer] trial 1465 / 3000 terminé
+[optimizer] trial 1466 / 3000 terminé
+[optimizer] trial 1467 / 3000 terminé
+[optimizer] trial 1468 / 3000 terminé
+[optimizer] trial 1469 / 3000 terminé
+[optimizer] trial 1470 / 3000 terminé
+[optimizer] trial 1471 / 3000 terminé
+[optimizer] trial 1472 / 3000 terminé
+[optimizer] trial 1473 / 3000 terminé
+[optimizer] trial 1474 / 3000 terminé
+[optimizer] trial 1475 / 3000 terminé
+[optimizer] trial 1476 / 3000 terminé
+[optimizer] trial 1477 / 3000 terminé
+[optimizer] trial 1478 / 3000 terminé
+[optimizer] trial 1479 / 3000 terminé
+[optimizer] trial 1480 / 3000 terminé
+[optimizer] trial 1481 / 3000 terminé
+[optimizer] trial 1482 / 3000 terminé
+[optimizer] trial 1483 / 3000 terminé
+[optimizer] trial 1484 / 3000 terminé
+[optimizer] trial 1485 / 3000 terminé
+[optimizer] trial 1486 / 3000 terminé
+[optimizer] trial 1487 / 3000 terminé
+[optimizer] trial 1488 / 3000 terminé
+[optimizer] trial 1489 / 3000 terminé
+[optimizer] trial 1490 / 3000 terminé
+[optimizer] trial 1491 / 3000 terminé
+[optimizer] trial 1492 / 3000 terminé
+[optimizer] trial 1493 / 3000 terminé
+[optimizer] trial 1494 / 3000 terminé
+[optimizer] trial 1495 / 3000 terminé
+[optimizer] trial 1496 / 3000 terminé
+[optimizer] trial 1497 / 3000 terminé
+[optimizer] trial 1498 / 3000 terminé
+[optimizer] trial 1499 / 3000 terminé
+[optimizer] trial 1500 / 3000 terminé
+[optimizer] trial 1501 / 3000 terminé
+[optimizer] trial 1502 / 3000 terminé
+[optimizer] trial 1503 / 3000 terminé
+[optimizer] trial 1504 / 3000 terminé
+[optimizer] trial 1505 / 3000 terminé
+[optimizer] trial 1506 / 3000 terminé
+[optimizer] trial 1507 / 3000 terminé
+[optimizer] trial 1508 / 3000 terminé
+[optimizer] trial 1509 / 3000 terminé
+[optimizer] trial 1510 / 3000 terminé
+[optimizer] trial 1511 / 3000 terminé
+[optimizer] trial 1512 / 3000 terminé
+[optimizer] trial 1513 / 3000 terminé
+[optimizer] trial 1514 / 3000 terminé
+[optimizer] trial 1515 / 3000 terminé
+[optimizer] trial 1516 / 3000 terminé
+[optimizer] trial 1517 / 3000 terminé
+[optimizer] trial 1518 / 3000 terminé
+[optimizer] trial 1519 / 3000 terminé
+[optimizer] trial 1520 / 3000 terminé
+[optimizer] trial 1521 / 3000 terminé
+[optimizer] trial 1522 / 3000 terminé
+[optimizer] trial 1523 / 3000 terminé
+[optimizer] trial 1524 / 3000 terminé
+[optimizer] trial 1525 / 3000 terminé
+[optimizer] trial 1526 / 3000 terminé
+[optimizer] trial 1527 / 3000 terminé
+[optimizer] trial 1528 / 3000 terminé
+[optimizer] trial 1529 / 3000 terminé
+[optimizer] trial 1530 / 3000 terminé
+[optimizer] trial 1531 / 3000 terminé
+[optimizer] trial 1532 / 3000 terminé
+[optimizer] trial 1533 / 3000 terminé
+[optimizer] trial 1534 / 3000 terminé
+[optimizer] trial 1535 / 3000 terminé
+[optimizer] trial 1536 / 3000 terminé
+[optimizer] trial 1537 / 3000 terminé
+[optimizer] trial 1538 / 3000 terminé
+[optimizer] trial 1539 / 3000 terminé
+[optimizer] trial 1540 / 3000 terminé
+[optimizer] trial 1541 / 3000 terminé
+[optimizer] trial 1542 / 3000 terminé
+[optimizer] trial 1543 / 3000 terminé
+[optimizer] trial 1544 / 3000 terminé
+[optimizer] trial 1545 / 3000 terminé
+[optimizer] trial 1546 / 3000 terminé
+[optimizer] trial 1547 / 3000 terminé
+[optimizer] trial 1548 / 3000 terminé
+[optimizer] trial 1549 / 3000 terminé
+[optimizer] trial 1550 / 3000 terminé
+[optimizer] trial 1551 / 3000 terminé
+[optimizer] trial 1552 / 3000 terminé
+[optimizer] trial 1553 / 3000 terminé
+[optimizer] trial 1554 / 3000 terminé
+[optimizer] trial 1555 / 3000 terminé
+[optimizer] trial 1556 / 3000 terminé
+[optimizer] trial 1557 / 3000 terminé
+[optimizer] trial 1558 / 3000 terminé
+[optimizer] trial 1559 / 3000 terminé
+[optimizer] trial 1560 / 3000 terminé
+[optimizer] trial 1561 / 3000 terminé
+[optimizer] trial 1562 / 3000 terminé
+[optimizer] trial 1563 / 3000 terminé
+[optimizer] trial 1564 / 3000 terminé
+[optimizer] trial 1565 / 3000 terminé
+[optimizer] trial 1566 / 3000 terminé
+[optimizer] trial 1567 / 3000 terminé
+[optimizer] trial 1568 / 3000 terminé
+[optimizer] trial 1569 / 3000 terminé
+[optimizer] trial 1570 / 3000 terminé
+[optimizer] trial 1571 / 3000 terminé
+[optimizer] trial 1572 / 3000 terminé
+[optimizer] trial 1573 / 3000 terminé
+[optimizer] trial 1574 / 3000 terminé
+[optimizer] trial 1575 / 3000 terminé
+[optimizer] trial 1576 / 3000 terminé
+[optimizer] trial 1577 / 3000 terminé
+[optimizer] trial 1578 / 3000 terminé
+[optimizer] trial 1579 / 3000 terminé
+[optimizer] trial 1580 / 3000 terminé
+[optimizer] trial 1581 / 3000 terminé
+[optimizer] trial 1582 / 3000 terminé
+[optimizer] trial 1583 / 3000 terminé
+[optimizer] trial 1584 / 3000 terminé
+[optimizer] trial 1585 / 3000 terminé
+[optimizer] trial 1586 / 3000 terminé
+[optimizer] trial 1587 / 3000 terminé
+[optimizer] trial 1588 / 3000 terminé
+[optimizer] trial 1589 / 3000 terminé
+[optimizer] trial 1590 / 3000 terminé
+[optimizer] trial 1591 / 3000 terminé
+[optimizer] trial 1592 / 3000 terminé
+[optimizer] trial 1593 / 3000 terminé
+[optimizer] trial 1594 / 3000 terminé
+[optimizer] trial 1595 / 3000 terminé
+[optimizer] trial 1596 / 3000 terminé
+[optimizer] trial 1597 / 3000 terminé
+[optimizer] trial 1598 / 3000 terminé
+[optimizer] trial 1599 / 3000 terminé
+[optimizer] trial 1600 / 3000 terminé
+[optimizer] trial 1601 / 3000 terminé
+[optimizer] trial 1602 / 3000 terminé
+[optimizer] trial 1603 / 3000 terminé
+[optimizer] trial 1604 / 3000 terminé
+[optimizer] trial 1605 / 3000 terminé
+[optimizer] trial 1606 / 3000 terminé
+[optimizer] trial 1607 / 3000 terminé
+[optimizer] trial 1608 / 3000 terminé
+[optimizer] trial 1609 / 3000 terminé
+[optimizer] trial 1610 / 3000 terminé
+[optimizer] trial 1611 / 3000 terminé
+[optimizer] trial 1612 / 3000 terminé
+[optimizer] trial 1613 / 3000 terminé
+[optimizer] trial 1614 / 3000 terminé
+[optimizer] trial 1615 / 3000 terminé
+[optimizer] trial 1616 / 3000 terminé
+[optimizer] trial 1617 / 3000 terminé
+[optimizer] trial 1618 / 3000 terminé
+[optimizer] trial 1619 / 3000 terminé
+[optimizer] trial 1620 / 3000 terminé
+[optimizer] trial 1621 / 3000 terminé
+[optimizer] trial 1622 / 3000 terminé
+[optimizer] trial 1623 / 3000 terminé
+[optimizer] trial 1624 / 3000 terminé
+[optimizer] trial 1625 / 3000 terminé
+[optimizer] trial 1626 / 3000 terminé
+[optimizer] trial 1627 / 3000 terminé
+[optimizer] trial 1628 / 3000 terminé
+[optimizer] trial 1629 / 3000 terminé
+[optimizer] trial 1630 / 3000 terminé
+[optimizer] trial 1631 / 3000 terminé
+[optimizer] trial 1632 / 3000 terminé
+[optimizer] trial 1633 / 3000 terminé
+[optimizer] trial 1634 / 3000 terminé
+[optimizer] trial 1635 / 3000 terminé
+[optimizer] trial 1636 / 3000 terminé
+[optimizer] trial 1637 / 3000 terminé
+[optimizer] trial 1638 / 3000 terminé
+[optimizer] trial 1639 / 3000 terminé
+[optimizer] trial 1640 / 3000 terminé
+[optimizer] trial 1641 / 3000 terminé
+[optimizer] trial 1642 / 3000 terminé
+[optimizer] trial 1643 / 3000 terminé
+[optimizer] trial 1644 / 3000 terminé
+[optimizer] trial 1645 / 3000 terminé
+[optimizer] trial 1646 / 3000 terminé
+[optimizer] trial 1647 / 3000 terminé
+[optimizer] trial 1648 / 3000 terminé
+[optimizer] trial 1649 / 3000 terminé
+[optimizer] trial 1650 / 3000 terminé
+[optimizer] trial 1651 / 3000 terminé
+[optimizer] trial 1652 / 3000 terminé
+[optimizer] trial 1653 / 3000 terminé
+[optimizer] trial 1654 / 3000 terminé
+[optimizer] trial 1655 / 3000 terminé
+[optimizer] trial 1656 / 3000 terminé
+[optimizer] trial 1657 / 3000 terminé
+[optimizer] trial 1658 / 3000 terminé
+[optimizer] trial 1659 / 3000 terminé
+[optimizer] trial 1660 / 3000 terminé
+[optimizer] trial 1661 / 3000 terminé
+[optimizer] trial 1662 / 3000 terminé
+[optimizer] trial 1663 / 3000 terminé
+[optimizer] trial 1664 / 3000 terminé
+[optimizer] trial 1665 / 3000 terminé
+[optimizer] trial 1666 / 3000 terminé
+[optimizer] trial 1667 / 3000 terminé
+[optimizer] trial 1668 / 3000 terminé
+[optimizer] trial 1669 / 3000 terminé
+[optimizer] trial 1670 / 3000 terminé
+[optimizer] trial 1671 / 3000 terminé
+[optimizer] trial 1672 / 3000 terminé
+[optimizer] trial 1673 / 3000 terminé
+[optimizer] trial 1674 / 3000 terminé
+[optimizer] trial 1675 / 3000 terminé
+[optimizer] trial 1676 / 3000 terminé
+[optimizer] trial 1677 / 3000 terminé
+[optimizer] trial 1678 / 3000 terminé
+[optimizer] trial 1679 / 3000 terminé
+[optimizer] trial 1680 / 3000 terminé
+[optimizer] trial 1681 / 3000 terminé
+[optimizer] trial 1682 / 3000 terminé
+[optimizer] trial 1683 / 3000 terminé
+[optimizer] trial 1684 / 3000 terminé
+[optimizer] trial 1685 / 3000 terminé
+[optimizer] trial 1686 / 3000 terminé
+[optimizer] trial 1687 / 3000 terminé
+[optimizer] trial 1688 / 3000 terminé
+[optimizer] trial 1689 / 3000 terminé
+[optimizer] trial 1690 / 3000 terminé
+[optimizer] trial 1691 / 3000 terminé
+[optimizer] trial 1692 / 3000 terminé
+[optimizer] trial 1693 / 3000 terminé
+[optimizer] trial 1694 / 3000 terminé
+[optimizer] trial 1695 / 3000 terminé
+[optimizer] trial 1696 / 3000 terminé
+[optimizer] trial 1697 / 3000 terminé
+[optimizer] trial 1698 / 3000 terminé
+[optimizer] trial 1699 / 3000 terminé
+[optimizer] trial 1700 / 3000 terminé
+[optimizer] trial 1701 / 3000 terminé
+[optimizer] trial 1702 / 3000 terminé
+[optimizer] trial 1703 / 3000 terminé
+[optimizer] trial 1704 / 3000 terminé
+[optimizer] trial 1705 / 3000 terminé
+[optimizer] trial 1706 / 3000 terminé
+[optimizer] trial 1707 / 3000 terminé
+[optimizer] trial 1708 / 3000 terminé
+[optimizer] trial 1709 / 3000 terminé
+[optimizer] trial 1710 / 3000 terminé
+[optimizer] trial 1711 / 3000 terminé
+[optimizer] trial 1712 / 3000 terminé
+[optimizer] trial 1713 / 3000 terminé
+[optimizer] trial 1714 / 3000 terminé
+[optimizer] trial 1715 / 3000 terminé
+[optimizer] trial 1716 / 3000 terminé
+[optimizer] trial 1717 / 3000 terminé
+[optimizer] trial 1718 / 3000 terminé
+[optimizer] trial 1719 / 3000 terminé
+[optimizer] trial 1720 / 3000 terminé
+[optimizer] trial 1721 / 3000 terminé
+[optimizer] trial 1722 / 3000 terminé
+[optimizer] trial 1723 / 3000 terminé
+[optimizer] trial 1724 / 3000 terminé
+[optimizer] trial 1725 / 3000 terminé
+[optimizer] trial 1726 / 3000 terminé
+[optimizer] trial 1727 / 3000 terminé
+[optimizer] trial 1728 / 3000 terminé
+[optimizer] trial 1729 / 3000 terminé
+[optimizer] trial 1730 / 3000 terminé
+[optimizer] trial 1731 / 3000 terminé
+[optimizer] trial 1732 / 3000 terminé
+[optimizer] trial 1733 / 3000 terminé
+[optimizer] trial 1734 / 3000 terminé
+[optimizer] trial 1735 / 3000 terminé
+[optimizer] trial 1736 / 3000 terminé
+[optimizer] trial 1737 / 3000 terminé
+[optimizer] trial 1738 / 3000 terminé
+[optimizer] trial 1739 / 3000 terminé
+[optimizer] trial 1740 / 3000 terminé
+[optimizer] trial 1741 / 3000 terminé
+[optimizer] trial 1742 / 3000 terminé
+[optimizer] trial 1743 / 3000 terminé
+[optimizer] trial 1744 / 3000 terminé
+[optimizer] trial 1745 / 3000 terminé
+[optimizer] trial 1746 / 3000 terminé
+[optimizer] trial 1747 / 3000 terminé
+[optimizer] trial 1748 / 3000 terminé
+[optimizer] trial 1749 / 3000 terminé
+[optimizer] trial 1750 / 3000 terminé
+[optimizer] trial 1751 / 3000 terminé
+[optimizer] trial 1752 / 3000 terminé
+[optimizer] trial 1753 / 3000 terminé
+[optimizer] trial 1754 / 3000 terminé
+[optimizer] trial 1755 / 3000 terminé
+[optimizer] trial 1756 / 3000 terminé
+[optimizer] trial 1757 / 3000 terminé
+[optimizer] trial 1758 / 3000 terminé
+[optimizer] trial 1759 / 3000 terminé
+[optimizer] trial 1760 / 3000 terminé
+[optimizer] trial 1761 / 3000 terminé
+[optimizer] trial 1762 / 3000 terminé
+[optimizer] trial 1763 / 3000 terminé
+[optimizer] trial 1764 / 3000 terminé
+[optimizer] trial 1765 / 3000 terminé
+[optimizer] trial 1766 / 3000 terminé
+[optimizer] trial 1767 / 3000 terminé
+[optimizer] trial 1768 / 3000 terminé
+[optimizer] trial 1769 / 3000 terminé
+[optimizer] trial 1770 / 3000 terminé
+[optimizer] trial 1771 / 3000 terminé
+[optimizer] trial 1772 / 3000 terminé
+[optimizer] trial 1773 / 3000 terminé
+[optimizer] trial 1774 / 3000 terminé
+[optimizer] trial 1775 / 3000 terminé
+[optimizer] trial 1776 / 3000 terminé
+[optimizer] trial 1777 / 3000 terminé
+[optimizer] trial 1778 / 3000 terminé
+[optimizer] trial 1779 / 3000 terminé
+[optimizer] trial 1780 / 3000 terminé
+[optimizer] trial 1781 / 3000 terminé
+[optimizer] trial 1782 / 3000 terminé
+[optimizer] trial 1783 / 3000 terminé
+[optimizer] trial 1784 / 3000 terminé
+[optimizer] trial 1785 / 3000 terminé
+[optimizer] trial 1786 / 3000 terminé
+[optimizer] trial 1787 / 3000 terminé
+[optimizer] trial 1788 / 3000 terminé
+[optimizer] trial 1789 / 3000 terminé
+[optimizer] trial 1790 / 3000 terminé
+[optimizer] trial 1791 / 3000 terminé
+[optimizer] trial 1792 / 3000 terminé
+[optimizer] trial 1793 / 3000 terminé
+[optimizer] trial 1794 / 3000 terminé
+[optimizer] trial 1795 / 3000 terminé
+[optimizer] trial 1796 / 3000 terminé
+[optimizer] trial 1797 / 3000 terminé
+[optimizer] trial 1798 / 3000 terminé
+[optimizer] trial 1799 / 3000 terminé
+[optimizer] trial 1800 / 3000 terminé
+[optimizer] trial 1801 / 3000 terminé
+[optimizer] trial 1802 / 3000 terminé
+[optimizer] trial 1803 / 3000 terminé
+[optimizer] trial 1804 / 3000 terminé
+[optimizer] trial 1805 / 3000 terminé
+[optimizer] trial 1806 / 3000 terminé
+[optimizer] trial 1807 / 3000 terminé
+[optimizer] trial 1808 / 3000 terminé
+[optimizer] trial 1809 / 3000 terminé
+[optimizer] trial 1810 / 3000 terminé
+[optimizer] trial 1811 / 3000 terminé
+[optimizer] trial 1812 / 3000 terminé
+[optimizer] trial 1813 / 3000 terminé
+[optimizer] trial 1814 / 3000 terminé
+[optimizer] trial 1815 / 3000 terminé
+[optimizer] trial 1816 / 3000 terminé
+[optimizer] trial 1817 / 3000 terminé
+[optimizer] trial 1818 / 3000 terminé
+[optimizer] trial 1819 / 3000 terminé
+[optimizer] trial 1820 / 3000 terminé
+[optimizer] trial 1821 / 3000 terminé
+[optimizer] trial 1822 / 3000 terminé
+[optimizer] trial 1823 / 3000 terminé
+[optimizer] trial 1824 / 3000 terminé
+[optimizer] trial 1825 / 3000 terminé
+[optimizer] trial 1826 / 3000 terminé
+[optimizer] trial 1827 / 3000 terminé
+[optimizer] trial 1828 / 3000 terminé
+[optimizer] trial 1829 / 3000 terminé
+[optimizer] trial 1830 / 3000 terminé
+[optimizer] trial 1831 / 3000 terminé
+[optimizer] trial 1832 / 3000 terminé
+[optimizer] trial 1833 / 3000 terminé
+[optimizer] trial 1834 / 3000 terminé
+[optimizer] trial 1835 / 3000 terminé
+[optimizer] trial 1836 / 3000 terminé
+[optimizer] trial 1837 / 3000 terminé
+[optimizer] trial 1838 / 3000 terminé
+[optimizer] trial 1839 / 3000 terminé
+[optimizer] trial 1840 / 3000 terminé
+[optimizer] trial 1841 / 3000 terminé
+[optimizer] trial 1842 / 3000 terminé
+[optimizer] trial 1843 / 3000 terminé
+[optimizer] trial 1844 / 3000 terminé
+[optimizer] trial 1845 / 3000 terminé
+[optimizer] trial 1846 / 3000 terminé
+[optimizer] trial 1847 / 3000 terminé
+[optimizer] trial 1848 / 3000 terminé
+[optimizer] trial 1849 / 3000 terminé
+[optimizer] trial 1850 / 3000 terminé
+[optimizer] trial 1851 / 3000 terminé
+[optimizer] trial 1852 / 3000 terminé
+[optimizer] trial 1853 / 3000 terminé
+[optimizer] trial 1854 / 3000 terminé
+[optimizer] trial 1855 / 3000 terminé
+[optimizer] trial 1856 / 3000 terminé
+[optimizer] trial 1857 / 3000 terminé
+[optimizer] trial 1858 / 3000 terminé
+[optimizer] trial 1859 / 3000 terminé
+[optimizer] trial 1860 / 3000 terminé
+[optimizer] trial 1861 / 3000 terminé
+[optimizer] trial 1862 / 3000 terminé
+[optimizer] trial 1863 / 3000 terminé
+[optimizer] trial 1864 / 3000 terminé
+[optimizer] trial 1865 / 3000 terminé
+[optimizer] trial 1866 / 3000 terminé
+[optimizer] trial 1867 / 3000 terminé
+[optimizer] trial 1868 / 3000 terminé
+[optimizer] trial 1869 / 3000 terminé
+[optimizer] trial 1870 / 3000 terminé
+[optimizer] trial 1871 / 3000 terminé
+[optimizer] trial 1872 / 3000 terminé
+[optimizer] trial 1873 / 3000 terminé
+[optimizer] trial 1874 / 3000 terminé
+[optimizer] trial 1875 / 3000 terminé
+[optimizer] trial 1876 / 3000 terminé
+[optimizer] trial 1877 / 3000 terminé
+[optimizer] trial 1878 / 3000 terminé
+[optimizer] trial 1879 / 3000 terminé
+[optimizer] trial 1880 / 3000 terminé
+[optimizer] trial 1881 / 3000 terminé
+[optimizer] trial 1882 / 3000 terminé
+[optimizer] trial 1883 / 3000 terminé
+[optimizer] trial 1884 / 3000 terminé
+[optimizer] trial 1885 / 3000 terminé
+[optimizer] trial 1886 / 3000 terminé
+[optimizer] trial 1887 / 3000 terminé
+[optimizer] trial 1888 / 3000 terminé
+[optimizer] trial 1889 / 3000 terminé
+[optimizer] trial 1890 / 3000 terminé
+[optimizer] trial 1891 / 3000 terminé
+[optimizer] trial 1892 / 3000 terminé
+[optimizer] trial 1893 / 3000 terminé
+[optimizer] trial 1894 / 3000 terminé
+[optimizer] trial 1895 / 3000 terminé
+[optimizer] trial 1896 / 3000 terminé
+[optimizer] trial 1897 / 3000 terminé
+[optimizer] trial 1898 / 3000 terminé
+[optimizer] trial 1899 / 3000 terminé
+[optimizer] trial 1900 / 3000 terminé
+[optimizer] trial 1901 / 3000 terminé
+[optimizer] trial 1902 / 3000 terminé
+[optimizer] trial 1903 / 3000 terminé
+[optimizer] trial 1904 / 3000 terminé
+[optimizer] trial 1905 / 3000 terminé
+[optimizer] trial 1906 / 3000 terminé
+[optimizer] trial 1907 / 3000 terminé
+[optimizer] trial 1908 / 3000 terminé
+[optimizer] trial 1909 / 3000 terminé
+[optimizer] trial 1910 / 3000 terminé
+[optimizer] trial 1911 / 3000 terminé
+[optimizer] trial 1912 / 3000 terminé
+[optimizer] trial 1913 / 3000 terminé
+[optimizer] trial 1914 / 3000 terminé
+[optimizer] trial 1915 / 3000 terminé
+[optimizer] trial 1916 / 3000 terminé
+[optimizer] trial 1917 / 3000 terminé
+[optimizer] trial 1918 / 3000 terminé
+[optimizer] trial 1919 / 3000 terminé
+[optimizer] trial 1920 / 3000 terminé
+[optimizer] trial 1921 / 3000 terminé
+[optimizer] trial 1922 / 3000 terminé
+[optimizer] trial 1923 / 3000 terminé
+[optimizer] trial 1924 / 3000 terminé
+[optimizer] trial 1925 / 3000 terminé
+[optimizer] trial 1926 / 3000 terminé
+[optimizer] trial 1927 / 3000 terminé
+[optimizer] trial 1928 / 3000 terminé
+[optimizer] trial 1929 / 3000 terminé
+[optimizer] trial 1930 / 3000 terminé
+[optimizer] trial 1931 / 3000 terminé
+[optimizer] trial 1932 / 3000 terminé
+[optimizer] trial 1933 / 3000 terminé
+[optimizer] trial 1934 / 3000 terminé
+[optimizer] trial 1935 / 3000 terminé
+[optimizer] trial 1936 / 3000 terminé
+[optimizer] trial 1937 / 3000 terminé
+[optimizer] trial 1938 / 3000 terminé
+[optimizer] trial 1939 / 3000 terminé
+[optimizer] trial 1940 / 3000 terminé
+[optimizer] trial 1941 / 3000 terminé
+[optimizer] trial 1942 / 3000 terminé
+[optimizer] trial 1943 / 3000 terminé
+[optimizer] trial 1944 / 3000 terminé
+[optimizer] trial 1945 / 3000 terminé
+[optimizer] trial 1946 / 3000 terminé
+[optimizer] trial 1947 / 3000 terminé
+[optimizer] trial 1948 / 3000 terminé
+[optimizer] trial 1949 / 3000 terminé
+[optimizer] trial 1950 / 3000 terminé
+[optimizer] trial 1951 / 3000 terminé
+[optimizer] trial 1952 / 3000 terminé
+[optimizer] trial 1953 / 3000 terminé
+[optimizer] trial 1954 / 3000 terminé
+[optimizer] trial 1955 / 3000 terminé
+[optimizer] trial 1956 / 3000 terminé
+[optimizer] trial 1957 / 3000 terminé
+[optimizer] trial 1958 / 3000 terminé
+[optimizer] trial 1959 / 3000 terminé
+[optimizer] trial 1960 / 3000 terminé
+[optimizer] trial 1961 / 3000 terminé
+[optimizer] trial 1962 / 3000 terminé
+[optimizer] trial 1963 / 3000 terminé
+[optimizer] trial 1964 / 3000 terminé
+[optimizer] trial 1965 / 3000 terminé
+[optimizer] trial 1966 / 3000 terminé
+[optimizer] trial 1967 / 3000 terminé
+[optimizer] trial 1968 / 3000 terminé
+[optimizer] trial 1969 / 3000 terminé
+[optimizer] trial 1970 / 3000 terminé
+[optimizer] trial 1971 / 3000 terminé
+[optimizer] trial 1972 / 3000 terminé
+[optimizer] trial 1973 / 3000 terminé
+[optimizer] trial 1974 / 3000 terminé
+[optimizer] trial 1975 / 3000 terminé
+[optimizer] trial 1976 / 3000 terminé
+[optimizer] trial 1977 / 3000 terminé
+[optimizer] trial 1978 / 3000 terminé
+[optimizer] trial 1979 / 3000 terminé
+[optimizer] trial 1980 / 3000 terminé
+[optimizer] trial 1981 / 3000 terminé
+[optimizer] trial 1982 / 3000 terminé
+[optimizer] trial 1983 / 3000 terminé
+[optimizer] trial 1984 / 3000 terminé
+[optimizer] trial 1985 / 3000 terminé
+[optimizer] trial 1986 / 3000 terminé
+[optimizer] trial 1987 / 3000 terminé
+[optimizer] trial 1988 / 3000 terminé
+[optimizer] trial 1989 / 3000 terminé
+[optimizer] trial 1990 / 3000 terminé
+[optimizer] trial 1991 / 3000 terminé
+[optimizer] trial 1992 / 3000 terminé
+[optimizer] trial 1993 / 3000 terminé
+[optimizer] trial 1994 / 3000 terminé
+[optimizer] trial 1995 / 3000 terminé
+[optimizer] trial 1996 / 3000 terminé
+[optimizer] trial 1997 / 3000 terminé
+[optimizer] trial 1998 / 3000 terminé
+[optimizer] trial 1999 / 3000 terminé
+[optimizer] trial 2000 / 3000 terminé
+[optimizer] trial 2001 / 3000 terminé
+[optimizer] trial 2002 / 3000 terminé
+[optimizer] trial 2003 / 3000 terminé
+[optimizer] trial 2004 / 3000 terminé
+[optimizer] trial 2005 / 3000 terminé
+[optimizer] trial 2006 / 3000 terminé
+[optimizer] trial 2007 / 3000 terminé
+[optimizer] trial 2008 / 3000 terminé
+[optimizer] trial 2009 / 3000 terminé
+[optimizer] trial 2010 / 3000 terminé
+[optimizer] trial 2011 / 3000 terminé
+[optimizer] trial 2012 / 3000 terminé
+[optimizer] trial 2013 / 3000 terminé
+[optimizer] trial 2014 / 3000 terminé
+[optimizer] trial 2015 / 3000 terminé
+[optimizer] trial 2016 / 3000 terminé
+[optimizer] trial 2017 / 3000 terminé
+[optimizer] trial 2018 / 3000 terminé
+[optimizer] trial 2019 / 3000 terminé
+[optimizer] trial 2020 / 3000 terminé
+[optimizer] trial 2021 / 3000 terminé
+[optimizer] trial 2022 / 3000 terminé
+[optimizer] trial 2023 / 3000 terminé
+[optimizer] trial 2024 / 3000 terminé
+[optimizer] trial 2025 / 3000 terminé
+[optimizer] trial 2026 / 3000 terminé
+[optimizer] trial 2027 / 3000 terminé
+[optimizer] trial 2028 / 3000 terminé
+[optimizer] trial 2029 / 3000 terminé
+[optimizer] trial 2030 / 3000 terminé
+[optimizer] trial 2031 / 3000 terminé
+[optimizer] trial 2032 / 3000 terminé
+[optimizer] trial 2033 / 3000 terminé
+[optimizer] trial 2034 / 3000 terminé
+[optimizer] trial 2035 / 3000 terminé
+[optimizer] trial 2036 / 3000 terminé
+[optimizer] trial 2037 / 3000 terminé
+[optimizer] trial 2038 / 3000 terminé
+[optimizer] trial 2039 / 3000 terminé
+[optimizer] trial 2040 / 3000 terminé
+[optimizer] trial 2041 / 3000 terminé
+[optimizer] trial 2042 / 3000 terminé
+[optimizer] trial 2043 / 3000 terminé
+[optimizer] trial 2044 / 3000 terminé
+[optimizer] trial 2045 / 3000 terminé
+[optimizer] trial 2046 / 3000 terminé
+[optimizer] trial 2047 / 3000 terminé
+[optimizer] trial 2048 / 3000 terminé
+[optimizer] trial 2049 / 3000 terminé
+[optimizer] trial 2050 / 3000 terminé
+[optimizer] trial 2051 / 3000 terminé
+[optimizer] trial 2052 / 3000 terminé
+[optimizer] trial 2053 / 3000 terminé
+[optimizer] trial 2054 / 3000 terminé
+[optimizer] trial 2055 / 3000 terminé
+[optimizer] trial 2056 / 3000 terminé
+[optimizer] trial 2057 / 3000 terminé
+[optimizer] trial 2058 / 3000 terminé
+[optimizer] trial 2059 / 3000 terminé
+[optimizer] trial 2060 / 3000 terminé
+[optimizer] trial 2061 / 3000 terminé
+[optimizer] trial 2062 / 3000 terminé
+[optimizer] trial 2063 / 3000 terminé
+[optimizer] trial 2064 / 3000 terminé
+[optimizer] trial 2065 / 3000 terminé
+[optimizer] trial 2066 / 3000 terminé
+[optimizer] trial 2067 / 3000 terminé
+[optimizer] trial 2068 / 3000 terminé
+[optimizer] trial 2069 / 3000 terminé
+[optimizer] trial 2070 / 3000 terminé
+[optimizer] trial 2071 / 3000 terminé
+[optimizer] trial 2072 / 3000 terminé
+[optimizer] trial 2073 / 3000 terminé
+[optimizer] trial 2074 / 3000 terminé
+[optimizer] trial 2075 / 3000 terminé
+[optimizer] trial 2076 / 3000 terminé
+[optimizer] trial 2077 / 3000 terminé
+[optimizer] trial 2078 / 3000 terminé
+[optimizer] trial 2079 / 3000 terminé
+[optimizer] trial 2080 / 3000 terminé
+[optimizer] trial 2081 / 3000 terminé
+[optimizer] trial 2082 / 3000 terminé
+[optimizer] trial 2083 / 3000 terminé
+[optimizer] trial 2084 / 3000 terminé
+[optimizer] trial 2085 / 3000 terminé
+[optimizer] trial 2086 / 3000 terminé
+[optimizer] trial 2087 / 3000 terminé
+[optimizer] trial 2088 / 3000 terminé
+[optimizer] trial 2089 / 3000 terminé
+[optimizer] trial 2090 / 3000 terminé
+[optimizer] trial 2091 / 3000 terminé
+[optimizer] trial 2092 / 3000 terminé
+[optimizer] trial 2093 / 3000 terminé
+[optimizer] trial 2094 / 3000 terminé
+[optimizer] trial 2095 / 3000 terminé
+[optimizer] trial 2096 / 3000 terminé
+[optimizer] trial 2097 / 3000 terminé
+[optimizer] trial 2098 / 3000 terminé
+[optimizer] trial 2099 / 3000 terminé
+[optimizer] trial 2100 / 3000 terminé
+[optimizer] trial 2101 / 3000 terminé
+[optimizer] trial 2102 / 3000 terminé
+[optimizer] trial 2103 / 3000 terminé
+[optimizer] trial 2104 / 3000 terminé
+[optimizer] trial 2105 / 3000 terminé
+[optimizer] trial 2106 / 3000 terminé
+[optimizer] trial 2107 / 3000 terminé
+[optimizer] trial 2108 / 3000 terminé
+[optimizer] trial 2109 / 3000 terminé
+[optimizer] trial 2110 / 3000 terminé
+[optimizer] trial 2111 / 3000 terminé
+[optimizer] trial 2112 / 3000 terminé
+[optimizer] trial 2113 / 3000 terminé
+[optimizer] trial 2114 / 3000 terminé
+[optimizer] trial 2115 / 3000 terminé
+[optimizer] trial 2116 / 3000 terminé
+[optimizer] trial 2117 / 3000 terminé
+[optimizer] trial 2118 / 3000 terminé
+[optimizer] trial 2119 / 3000 terminé
+[optimizer] trial 2120 / 3000 terminé
+[optimizer] trial 2121 / 3000 terminé
+[optimizer] trial 2122 / 3000 terminé
+[optimizer] trial 2123 / 3000 terminé
+[optimizer] trial 2124 / 3000 terminé
+[optimizer] trial 2125 / 3000 terminé
+[optimizer] trial 2126 / 3000 terminé
+[optimizer] trial 2127 / 3000 terminé
+[optimizer] trial 2128 / 3000 terminé
+[optimizer] trial 2129 / 3000 terminé
+[optimizer] trial 2130 / 3000 terminé
+[optimizer] trial 2131 / 3000 terminé
+[optimizer] trial 2132 / 3000 terminé
+[optimizer] trial 2133 / 3000 terminé
+[optimizer] trial 2134 / 3000 terminé
+[optimizer] trial 2135 / 3000 terminé
+[optimizer] trial 2136 / 3000 terminé
+[optimizer] trial 2137 / 3000 terminé
+[optimizer] trial 2138 / 3000 terminé
+[optimizer] trial 2139 / 3000 terminé
+[optimizer] trial 2140 / 3000 terminé
+[optimizer] trial 2141 / 3000 terminé
+[optimizer] trial 2142 / 3000 terminé
+[optimizer] trial 2143 / 3000 terminé
+[optimizer] trial 2144 / 3000 terminé
+[optimizer] trial 2145 / 3000 terminé
+[optimizer] trial 2146 / 3000 terminé
+[optimizer] trial 2147 / 3000 terminé
+[optimizer] trial 2148 / 3000 terminé
+[optimizer] trial 2149 / 3000 terminé
+[optimizer] trial 2150 / 3000 terminé
+[optimizer] trial 2151 / 3000 terminé
+[optimizer] trial 2152 / 3000 terminé
+[optimizer] trial 2153 / 3000 terminé
+[optimizer] trial 2154 / 3000 terminé
+[optimizer] trial 2155 / 3000 terminé
+[optimizer] trial 2156 / 3000 terminé
+[optimizer] trial 2157 / 3000 terminé
+[optimizer] trial 2158 / 3000 terminé
+[optimizer] trial 2159 / 3000 terminé
+[optimizer] trial 2160 / 3000 terminé
+[optimizer] trial 2161 / 3000 terminé
+[optimizer] trial 2162 / 3000 terminé
+[optimizer] trial 2163 / 3000 terminé
+[optimizer] trial 2164 / 3000 terminé
+[optimizer] trial 2165 / 3000 terminé
+[optimizer] trial 2166 / 3000 terminé
+[optimizer] trial 2167 / 3000 terminé
+[optimizer] trial 2168 / 3000 terminé
+[optimizer] trial 2169 / 3000 terminé
+[optimizer] trial 2170 / 3000 terminé
+[optimizer] trial 2171 / 3000 terminé
+[optimizer] trial 2172 / 3000 terminé
+[optimizer] trial 2173 / 3000 terminé
+[optimizer] trial 2174 / 3000 terminé
+[optimizer] trial 2175 / 3000 terminé
+[optimizer] trial 2176 / 3000 terminé
+[optimizer] trial 2177 / 3000 terminé
+[optimizer] trial 2178 / 3000 terminé
+[optimizer] trial 2179 / 3000 terminé
+[optimizer] trial 2180 / 3000 terminé
+[optimizer] trial 2181 / 3000 terminé
+[optimizer] trial 2182 / 3000 terminé
+[optimizer] trial 2183 / 3000 terminé
+[optimizer] trial 2184 / 3000 terminé
+[optimizer] trial 2185 / 3000 terminé
+[optimizer] trial 2186 / 3000 terminé
+[optimizer] trial 2187 / 3000 terminé
+[optimizer] trial 2188 / 3000 terminé
+[optimizer] trial 2189 / 3000 terminé
+[optimizer] trial 2190 / 3000 terminé
+[optimizer] trial 2191 / 3000 terminé
+[optimizer] trial 2192 / 3000 terminé
+[optimizer] trial 2193 / 3000 terminé
+[optimizer] trial 2194 / 3000 terminé
+[optimizer] trial 2195 / 3000 terminé
+[optimizer] trial 2196 / 3000 terminé
+[optimizer] trial 2197 / 3000 terminé
+[optimizer] trial 2198 / 3000 terminé
+[optimizer] trial 2199 / 3000 terminé
+[optimizer] trial 2200 / 3000 terminé
+[optimizer] trial 2201 / 3000 terminé
+[optimizer] trial 2202 / 3000 terminé
+[optimizer] trial 2203 / 3000 terminé
+[optimizer] trial 2204 / 3000 terminé
+[optimizer] trial 2205 / 3000 terminé
+[optimizer] trial 2206 / 3000 terminé
+[optimizer] trial 2207 / 3000 terminé
+[optimizer] trial 2208 / 3000 terminé
+[optimizer] trial 2209 / 3000 terminé
+[optimizer] trial 2210 / 3000 terminé
+[optimizer] trial 2211 / 3000 terminé
+[optimizer] trial 2212 / 3000 terminé
+[optimizer] trial 2213 / 3000 terminé
+[optimizer] trial 2214 / 3000 terminé
+[optimizer] trial 2215 / 3000 terminé
+[optimizer] trial 2216 / 3000 terminé
+[optimizer] trial 2217 / 3000 terminé
+[optimizer] trial 2218 / 3000 terminé
+[optimizer] trial 2219 / 3000 terminé
+[optimizer] trial 2220 / 3000 terminé
+[optimizer] trial 2221 / 3000 terminé
+[optimizer] trial 2222 / 3000 terminé
+[optimizer] trial 2223 / 3000 terminé
+[optimizer] trial 2224 / 3000 terminé
+[optimizer] trial 2225 / 3000 terminé
+[optimizer] trial 2226 / 3000 terminé
+[optimizer] trial 2227 / 3000 terminé
+[optimizer] trial 2228 / 3000 terminé
+[optimizer] trial 2229 / 3000 terminé
+[optimizer] trial 2230 / 3000 terminé
+[optimizer] trial 2231 / 3000 terminé
+[optimizer] trial 2232 / 3000 terminé
+[optimizer] trial 2233 / 3000 terminé
+[optimizer] trial 2234 / 3000 terminé
+[optimizer] trial 2235 / 3000 terminé
+[optimizer] trial 2236 / 3000 terminé
+[optimizer] trial 2237 / 3000 terminé
+[optimizer] trial 2238 / 3000 terminé
+[optimizer] trial 2239 / 3000 terminé
+[optimizer] trial 2240 / 3000 terminé
+[optimizer] trial 2241 / 3000 terminé
+[optimizer] trial 2242 / 3000 terminé
+[optimizer] trial 2243 / 3000 terminé
+[optimizer] trial 2244 / 3000 terminé
+[optimizer] trial 2245 / 3000 terminé
+[optimizer] trial 2246 / 3000 terminé
+[optimizer] trial 2247 / 3000 terminé
+[optimizer] trial 2248 / 3000 terminé
+[optimizer] trial 2249 / 3000 terminé
+[optimizer] trial 2250 / 3000 terminé
+[optimizer] trial 2251 / 3000 terminé
+[optimizer] trial 2252 / 3000 terminé
+[optimizer] trial 2253 / 3000 terminé
+[optimizer] trial 2254 / 3000 terminé
+[optimizer] trial 2255 / 3000 terminé
+[optimizer] trial 2256 / 3000 terminé
+[optimizer] trial 2257 / 3000 terminé
+[optimizer] trial 2258 / 3000 terminé
+[optimizer] trial 2259 / 3000 terminé
+[optimizer] trial 2260 / 3000 terminé
+[optimizer] trial 2261 / 3000 terminé
+[optimizer] trial 2262 / 3000 terminé
+[optimizer] trial 2263 / 3000 terminé
+[optimizer] trial 2264 / 3000 terminé
+[optimizer] trial 2265 / 3000 terminé
+[optimizer] trial 2266 / 3000 terminé
+[optimizer] trial 2267 / 3000 terminé
+[optimizer] trial 2268 / 3000 terminé
+[optimizer] trial 2269 / 3000 terminé
+[optimizer] trial 2270 / 3000 terminé
+[optimizer] trial 2271 / 3000 terminé
+[optimizer] trial 2272 / 3000 terminé
+[optimizer] trial 2273 / 3000 terminé
+[optimizer] trial 2274 / 3000 terminé
+[optimizer] trial 2275 / 3000 terminé
+[optimizer] trial 2276 / 3000 terminé
+[optimizer] trial 2277 / 3000 terminé
+[optimizer] trial 2278 / 3000 terminé
+[optimizer] trial 2279 / 3000 terminé
+[optimizer] trial 2280 / 3000 terminé
+[optimizer] trial 2281 / 3000 terminé
+[optimizer] trial 2282 / 3000 terminé
+[optimizer] trial 2283 / 3000 terminé
+[optimizer] trial 2284 / 3000 terminé
+[optimizer] trial 2285 / 3000 terminé
+[optimizer] trial 2286 / 3000 terminé
+[optimizer] trial 2287 / 3000 terminé
+[optimizer] trial 2288 / 3000 terminé
+[optimizer] trial 2289 / 3000 terminé
+[optimizer] trial 2290 / 3000 terminé
+[optimizer] trial 2291 / 3000 terminé
+[optimizer] trial 2292 / 3000 terminé
+[optimizer] trial 2293 / 3000 terminé
+[optimizer] trial 2294 / 3000 terminé
+[optimizer] trial 2295 / 3000 terminé
+[optimizer] trial 2296 / 3000 terminé
+[optimizer] trial 2297 / 3000 terminé
+[optimizer] trial 2298 / 3000 terminé
+[optimizer] trial 2299 / 3000 terminé
+[optimizer] trial 2300 / 3000 terminé
+[optimizer] trial 2301 / 3000 terminé
+[optimizer] trial 2302 / 3000 terminé
+[optimizer] trial 2303 / 3000 terminé
+[optimizer] trial 2304 / 3000 terminé
+[optimizer] trial 2305 / 3000 terminé
+[optimizer] trial 2306 / 3000 terminé
+[optimizer] trial 2307 / 3000 terminé
+[optimizer] trial 2308 / 3000 terminé
+[optimizer] trial 2309 / 3000 terminé
+[optimizer] trial 2310 / 3000 terminé
+[optimizer] trial 2311 / 3000 terminé
+[optimizer] trial 2312 / 3000 terminé
+[optimizer] trial 2313 / 3000 terminé
+[optimizer] trial 2314 / 3000 terminé
+[optimizer] trial 2315 / 3000 terminé
+[optimizer] trial 2316 / 3000 terminé
+[optimizer] trial 2317 / 3000 terminé
+[optimizer] trial 2318 / 3000 terminé
+[optimizer] trial 2319 / 3000 terminé
+[optimizer] trial 2320 / 3000 terminé
+[optimizer] trial 2321 / 3000 terminé
+[optimizer] trial 2322 / 3000 terminé
+[optimizer] trial 2323 / 3000 terminé
+[optimizer] trial 2324 / 3000 terminé
+[optimizer] trial 2325 / 3000 terminé
+[optimizer] trial 2326 / 3000 terminé
+[optimizer] trial 2327 / 3000 terminé
+[optimizer] trial 2328 / 3000 terminé
+[optimizer] trial 2329 / 3000 terminé
+[optimizer] trial 2330 / 3000 terminé
+[optimizer] trial 2331 / 3000 terminé
+[optimizer] trial 2332 / 3000 terminé
+[optimizer] trial 2333 / 3000 terminé
+[optimizer] trial 2334 / 3000 terminé
+[optimizer] trial 2335 / 3000 terminé
+[optimizer] trial 2336 / 3000 terminé
+[optimizer] trial 2337 / 3000 terminé
+[optimizer] trial 2338 / 3000 terminé
+[optimizer] trial 2339 / 3000 terminé
+[optimizer] trial 2340 / 3000 terminé
+[optimizer] trial 2341 / 3000 terminé
+[optimizer] trial 2342 / 3000 terminé
+[optimizer] trial 2343 / 3000 terminé
+[optimizer] trial 2344 / 3000 terminé
+[optimizer] trial 2345 / 3000 terminé
+[optimizer] trial 2346 / 3000 terminé
+[optimizer] trial 2347 / 3000 terminé
+[optimizer] trial 2348 / 3000 terminé
+[optimizer] trial 2349 / 3000 terminé
+[optimizer] trial 2350 / 3000 terminé
+[optimizer] trial 2351 / 3000 terminé
+[optimizer] trial 2352 / 3000 terminé
+[optimizer] trial 2353 / 3000 terminé
+[optimizer] trial 2354 / 3000 terminé
+[optimizer] trial 2355 / 3000 terminé
+[optimizer] trial 2356 / 3000 terminé
+[optimizer] trial 2357 / 3000 terminé
+[optimizer] trial 2358 / 3000 terminé
+[optimizer] trial 2359 / 3000 terminé
+[optimizer] trial 2360 / 3000 terminé
+[optimizer] trial 2361 / 3000 terminé
+[optimizer] trial 2362 / 3000 terminé
+[optimizer] trial 2363 / 3000 terminé
+[optimizer] trial 2364 / 3000 terminé
+[optimizer] trial 2365 / 3000 terminé
+[optimizer] trial 2366 / 3000 terminé
+[optimizer] trial 2367 / 3000 terminé
+[optimizer] trial 2368 / 3000 terminé
+[optimizer] trial 2369 / 3000 terminé
+[optimizer] trial 2370 / 3000 terminé
+[optimizer] trial 2371 / 3000 terminé
+[optimizer] trial 2372 / 3000 terminé
+[optimizer] trial 2373 / 3000 terminé
+[optimizer] trial 2374 / 3000 terminé
+[optimizer] trial 2375 / 3000 terminé
+[optimizer] trial 2376 / 3000 terminé
+[optimizer] trial 2377 / 3000 terminé
+[optimizer] trial 2378 / 3000 terminé
+[optimizer] trial 2379 / 3000 terminé
+[optimizer] trial 2380 / 3000 terminé
+[optimizer] trial 2381 / 3000 terminé
+[optimizer] trial 2382 / 3000 terminé
+[optimizer] trial 2383 / 3000 terminé
+[optimizer] trial 2384 / 3000 terminé
+[optimizer] trial 2385 / 3000 terminé
+[optimizer] trial 2386 / 3000 terminé
+[optimizer] trial 2387 / 3000 terminé
+[optimizer] trial 2388 / 3000 terminé
+[optimizer] trial 2389 / 3000 terminé
+[optimizer] trial 2390 / 3000 terminé
+[optimizer] trial 2391 / 3000 terminé
+[optimizer] trial 2392 / 3000 terminé
+[optimizer] trial 2393 / 3000 terminé
+[optimizer] trial 2394 / 3000 terminé
+[optimizer] trial 2395 / 3000 terminé
+[optimizer] trial 2396 / 3000 terminé
+[optimizer] trial 2397 / 3000 terminé
+[optimizer] trial 2398 / 3000 terminé
+[optimizer] trial 2399 / 3000 terminé
+[optimizer] trial 2400 / 3000 terminé
+[optimizer] trial 2401 / 3000 terminé
+[optimizer] trial 2402 / 3000 terminé
+[optimizer] trial 2403 / 3000 terminé
+[optimizer] trial 2404 / 3000 terminé
+[optimizer] trial 2405 / 3000 terminé
+[optimizer] trial 2406 / 3000 terminé
+[optimizer] trial 2407 / 3000 terminé
+[optimizer] trial 2408 / 3000 terminé
+[optimizer] trial 2409 / 3000 terminé
+[optimizer] trial 2410 / 3000 terminé
+[optimizer] trial 2411 / 3000 terminé
+[optimizer] trial 2412 / 3000 terminé
+[optimizer] trial 2413 / 3000 terminé
+[optimizer] trial 2414 / 3000 terminé
+[optimizer] trial 2415 / 3000 terminé
+[optimizer] trial 2416 / 3000 terminé
+[optimizer] trial 2417 / 3000 terminé
+[optimizer] trial 2418 / 3000 terminé
+[optimizer] trial 2419 / 3000 terminé
+[optimizer] trial 2420 / 3000 terminé
+[optimizer] trial 2421 / 3000 terminé
+[optimizer] trial 2422 / 3000 terminé
+[optimizer] trial 2423 / 3000 terminé
+[optimizer] trial 2424 / 3000 terminé
+[optimizer] trial 2425 / 3000 terminé
+[optimizer] trial 2426 / 3000 terminé
+[optimizer] trial 2427 / 3000 terminé
+[optimizer] trial 2428 / 3000 terminé
+[optimizer] trial 2429 / 3000 terminé
+[optimizer] trial 2430 / 3000 terminé
+[optimizer] trial 2431 / 3000 terminé
+[optimizer] trial 2432 / 3000 terminé
+[optimizer] trial 2433 / 3000 terminé
+[optimizer] trial 2434 / 3000 terminé
+[optimizer] trial 2435 / 3000 terminé
+[optimizer] trial 2436 / 3000 terminé
+[optimizer] trial 2437 / 3000 terminé
+[optimizer] trial 2438 / 3000 terminé
+[optimizer] trial 2439 / 3000 terminé
+[optimizer] trial 2440 / 3000 terminé
+[optimizer] trial 2441 / 3000 terminé
+[optimizer] trial 2442 / 3000 terminé
+[optimizer] trial 2443 / 3000 terminé
+[optimizer] trial 2444 / 3000 terminé
+[optimizer] trial 2445 / 3000 terminé
+[optimizer] trial 2446 / 3000 terminé
+[optimizer] trial 2447 / 3000 terminé
+[optimizer] trial 2448 / 3000 terminé
+[optimizer] trial 2449 / 3000 terminé
+[optimizer] trial 2450 / 3000 terminé
+[optimizer] trial 2451 / 3000 terminé
+[optimizer] trial 2452 / 3000 terminé
+[optimizer] trial 2453 / 3000 terminé
+[optimizer] trial 2454 / 3000 terminé
+[optimizer] trial 2455 / 3000 terminé
+[optimizer] trial 2456 / 3000 terminé
+[optimizer] trial 2457 / 3000 terminé
+[optimizer] trial 2458 / 3000 terminé
+[optimizer] trial 2459 / 3000 terminé
+[optimizer] trial 2460 / 3000 terminé
+[optimizer] trial 2461 / 3000 terminé
+[optimizer] trial 2462 / 3000 terminé
+[optimizer] trial 2463 / 3000 terminé
+[optimizer] trial 2464 / 3000 terminé
+[optimizer] trial 2465 / 3000 terminé
+[optimizer] trial 2466 / 3000 terminé
+[optimizer] trial 2467 / 3000 terminé
+[optimizer] trial 2468 / 3000 terminé
+[optimizer] trial 2469 / 3000 terminé
+[optimizer] trial 2470 / 3000 terminé
+[optimizer] trial 2471 / 3000 terminé
+[optimizer] trial 2472 / 3000 terminé
+[optimizer] trial 2473 / 3000 terminé
+[optimizer] trial 2474 / 3000 terminé
+[optimizer] trial 2475 / 3000 terminé
+[optimizer] trial 2476 / 3000 terminé
+[optimizer] trial 2477 / 3000 terminé
+[optimizer] trial 2478 / 3000 terminé
+[optimizer] trial 2479 / 3000 terminé
+[optimizer] trial 2480 / 3000 terminé
+[optimizer] trial 2481 / 3000 terminé
+[optimizer] trial 2482 / 3000 terminé
+[optimizer] trial 2483 / 3000 terminé
+[optimizer] trial 2484 / 3000 terminé
+[optimizer] trial 2485 / 3000 terminé
+[optimizer] trial 2486 / 3000 terminé
+[optimizer] trial 2487 / 3000 terminé
+[optimizer] trial 2488 / 3000 terminé
+[optimizer] trial 2489 / 3000 terminé
+[optimizer] trial 2490 / 3000 terminé
+[optimizer] trial 2491 / 3000 terminé
+[optimizer] trial 2492 / 3000 terminé
+[optimizer] trial 2493 / 3000 terminé
+[optimizer] trial 2494 / 3000 terminé
+[optimizer] trial 2495 / 3000 terminé
+[optimizer] trial 2496 / 3000 terminé
+[optimizer] trial 2497 / 3000 terminé
+[optimizer] trial 2498 / 3000 terminé
+[optimizer] trial 2499 / 3000 terminé
+[optimizer] trial 2500 / 3000 terminé
+[optimizer] trial 2501 / 3000 terminé
+[optimizer] trial 2502 / 3000 terminé
+[optimizer] trial 2503 / 3000 terminé
+[optimizer] trial 2504 / 3000 terminé
+[optimizer] trial 2505 / 3000 terminé
+[optimizer] trial 2506 / 3000 terminé
+[optimizer] trial 2507 / 3000 terminé
+[optimizer] trial 2508 / 3000 terminé
+[optimizer] trial 2509 / 3000 terminé
+[optimizer] trial 2510 / 3000 terminé
+[optimizer] trial 2511 / 3000 terminé
+[optimizer] trial 2512 / 3000 terminé
+[optimizer] trial 2513 / 3000 terminé
+[optimizer] trial 2514 / 3000 terminé
+[optimizer] trial 2515 / 3000 terminé
+[optimizer] trial 2516 / 3000 terminé
+[optimizer] trial 2517 / 3000 terminé
+[optimizer] trial 2518 / 3000 terminé
+[optimizer] trial 2519 / 3000 terminé
+[optimizer] trial 2520 / 3000 terminé
+[optimizer] trial 2521 / 3000 terminé
+[optimizer] trial 2522 / 3000 terminé
+[optimizer] trial 2523 / 3000 terminé
+[optimizer] trial 2524 / 3000 terminé
+[optimizer] trial 2525 / 3000 terminé
+[optimizer] trial 2526 / 3000 terminé
+[optimizer] trial 2527 / 3000 terminé
+[optimizer] trial 2528 / 3000 terminé
+[optimizer] trial 2529 / 3000 terminé
+[optimizer] trial 2530 / 3000 terminé
+[optimizer] trial 2531 / 3000 terminé
+[optimizer] trial 2532 / 3000 terminé
+[optimizer] trial 2533 / 3000 terminé
+[optimizer] trial 2534 / 3000 terminé
+[optimizer] trial 2535 / 3000 terminé
+[optimizer] trial 2536 / 3000 terminé
+[optimizer] trial 2537 / 3000 terminé
+[optimizer] trial 2538 / 3000 terminé
+[optimizer] trial 2539 / 3000 terminé
+[optimizer] trial 2540 / 3000 terminé
+[optimizer] trial 2541 / 3000 terminé
+[optimizer] trial 2542 / 3000 terminé
+[optimizer] trial 2543 / 3000 terminé
+[optimizer] trial 2544 / 3000 terminé
+[optimizer] trial 2545 / 3000 terminé
+[optimizer] trial 2546 / 3000 terminé
+[optimizer] trial 2547 / 3000 terminé
+[optimizer] trial 2548 / 3000 terminé
+[optimizer] trial 2549 / 3000 terminé
+[optimizer] trial 2550 / 3000 terminé
+[optimizer] trial 2551 / 3000 terminé
+[optimizer] trial 2552 / 3000 terminé
+[optimizer] trial 2553 / 3000 terminé
+[optimizer] trial 2554 / 3000 terminé
+[optimizer] trial 2555 / 3000 terminé
+[optimizer] trial 2556 / 3000 terminé
+[optimizer] trial 2557 / 3000 terminé
+[optimizer] trial 2558 / 3000 terminé
+[optimizer] trial 2559 / 3000 terminé
+[optimizer] trial 2560 / 3000 terminé
+[optimizer] trial 2561 / 3000 terminé
+[optimizer] trial 2562 / 3000 terminé
+[optimizer] trial 2563 / 3000 terminé
+[optimizer] trial 2564 / 3000 terminé
+[optimizer] trial 2565 / 3000 terminé
+[optimizer] trial 2566 / 3000 terminé
+[optimizer] trial 2567 / 3000 terminé
+[optimizer] trial 2568 / 3000 terminé
+[optimizer] trial 2569 / 3000 terminé
+[optimizer] trial 2570 / 3000 terminé
+[optimizer] trial 2571 / 3000 terminé
+[optimizer] trial 2572 / 3000 terminé
+[optimizer] trial 2573 / 3000 terminé
+[optimizer] trial 2574 / 3000 terminé
+[optimizer] trial 2575 / 3000 terminé
+[optimizer] trial 2576 / 3000 terminé
+[optimizer] trial 2577 / 3000 terminé
+[optimizer] trial 2578 / 3000 terminé
+[optimizer] trial 2579 / 3000 terminé
+[optimizer] trial 2580 / 3000 terminé
+[optimizer] trial 2581 / 3000 terminé
+[optimizer] trial 2582 / 3000 terminé
+[optimizer] trial 2583 / 3000 terminé
+[optimizer] trial 2584 / 3000 terminé
+[optimizer] trial 2585 / 3000 terminé
+[optimizer] trial 2586 / 3000 terminé
+[optimizer] trial 2587 / 3000 terminé
+[optimizer] trial 2588 / 3000 terminé
+[optimizer] trial 2589 / 3000 terminé
+[optimizer] trial 2590 / 3000 terminé
+[optimizer] trial 2591 / 3000 terminé
+[optimizer] trial 2592 / 3000 terminé
+[optimizer] trial 2593 / 3000 terminé
+[optimizer] trial 2594 / 3000 terminé
+[optimizer] trial 2595 / 3000 terminé
+[optimizer] trial 2596 / 3000 terminé
+[optimizer] trial 2597 / 3000 terminé
+[optimizer] trial 2598 / 3000 terminé
+[optimizer] trial 2599 / 3000 terminé
+[optimizer] trial 2600 / 3000 terminé
+[optimizer] trial 2601 / 3000 terminé
+[optimizer] trial 2602 / 3000 terminé
+[optimizer] trial 2603 / 3000 terminé
+[optimizer] trial 2604 / 3000 terminé
+[optimizer] trial 2605 / 3000 terminé
+[optimizer] trial 2606 / 3000 terminé
+[optimizer] trial 2607 / 3000 terminé
+[optimizer] trial 2608 / 3000 terminé
+[optimizer] trial 2609 / 3000 terminé
+[optimizer] trial 2610 / 3000 terminé
+[optimizer] trial 2611 / 3000 terminé
+[optimizer] trial 2612 / 3000 terminé
+[optimizer] trial 2613 / 3000 terminé
+[optimizer] trial 2614 / 3000 terminé
+[optimizer] trial 2615 / 3000 terminé
+[optimizer] trial 2616 / 3000 terminé
+[optimizer] trial 2617 / 3000 terminé
+[optimizer] trial 2618 / 3000 terminé
+[optimizer] trial 2619 / 3000 terminé
+[optimizer] trial 2620 / 3000 terminé
+[optimizer] trial 2621 / 3000 terminé
+[optimizer] trial 2622 / 3000 terminé
+[optimizer] trial 2623 / 3000 terminé
+[optimizer] trial 2624 / 3000 terminé
+[optimizer] trial 2625 / 3000 terminé
+[optimizer] trial 2626 / 3000 terminé
+[optimizer] trial 2627 / 3000 terminé
+[optimizer] trial 2628 / 3000 terminé
+[optimizer] trial 2629 / 3000 terminé
+[optimizer] trial 2630 / 3000 terminé
+[optimizer] trial 2631 / 3000 terminé
+[optimizer] trial 2632 / 3000 terminé
+[optimizer] trial 2633 / 3000 terminé
+[optimizer] trial 2634 / 3000 terminé
+[optimizer] trial 2635 / 3000 terminé
+[optimizer] trial 2636 / 3000 terminé
+[optimizer] trial 2637 / 3000 terminé
+[optimizer] trial 2638 / 3000 terminé
+[optimizer] trial 2639 / 3000 terminé
+[optimizer] trial 2640 / 3000 terminé
+[optimizer] trial 2641 / 3000 terminé
+[optimizer] trial 2642 / 3000 terminé
+[optimizer] trial 2643 / 3000 terminé
+[optimizer] trial 2644 / 3000 terminé
+[optimizer] trial 2645 / 3000 terminé
+[optimizer] trial 2646 / 3000 terminé
+[optimizer] trial 2647 / 3000 terminé
+[optimizer] trial 2648 / 3000 terminé
+[optimizer] trial 2649 / 3000 terminé
+[optimizer] trial 2650 / 3000 terminé
+[optimizer] trial 2651 / 3000 terminé
+[optimizer] trial 2652 / 3000 terminé
+[optimizer] trial 2653 / 3000 terminé
+[optimizer] trial 2654 / 3000 terminé
+[optimizer] trial 2655 / 3000 terminé
+[optimizer] trial 2656 / 3000 terminé
+[optimizer] trial 2657 / 3000 terminé
+[optimizer] trial 2658 / 3000 terminé
+[optimizer] trial 2659 / 3000 terminé
+[optimizer] trial 2660 / 3000 terminé
+[optimizer] trial 2661 / 3000 terminé
+[optimizer] trial 2662 / 3000 terminé
+[optimizer] trial 2663 / 3000 terminé
+[optimizer] trial 2664 / 3000 terminé
+[optimizer] trial 2665 / 3000 terminé
+[optimizer] trial 2666 / 3000 terminé
+[optimizer] trial 2667 / 3000 terminé
+[optimizer] trial 2668 / 3000 terminé
+[optimizer] trial 2669 / 3000 terminé
+[optimizer] trial 2670 / 3000 terminé
+[optimizer] trial 2671 / 3000 terminé
+[optimizer] trial 2672 / 3000 terminé
+[optimizer] trial 2673 / 3000 terminé
+[optimizer] trial 2674 / 3000 terminé
+[optimizer] trial 2675 / 3000 terminé
+[optimizer] trial 2676 / 3000 terminé
+[optimizer] trial 2677 / 3000 terminé
+[optimizer] trial 2678 / 3000 terminé
+[optimizer] trial 2679 / 3000 terminé
+[optimizer] trial 2680 / 3000 terminé
+[optimizer] trial 2681 / 3000 terminé
+[optimizer] trial 2682 / 3000 terminé
+[optimizer] trial 2683 / 3000 terminé
+[optimizer] trial 2684 / 3000 terminé
+[optimizer] trial 2685 / 3000 terminé
+[optimizer] trial 2686 / 3000 terminé
+[optimizer] trial 2687 / 3000 terminé
+[optimizer] trial 2688 / 3000 terminé
+[optimizer] trial 2689 / 3000 terminé
+[optimizer] trial 2690 / 3000 terminé
+[optimizer] trial 2691 / 3000 terminé
+[optimizer] trial 2692 / 3000 terminé
+[optimizer] trial 2693 / 3000 terminé
+[optimizer] trial 2694 / 3000 terminé
+[optimizer] trial 2695 / 3000 terminé
+[optimizer] trial 2696 / 3000 terminé
+[optimizer] trial 2697 / 3000 terminé
+[optimizer] trial 2698 / 3000 terminé
+[optimizer] trial 2699 / 3000 terminé
+[optimizer] trial 2700 / 3000 terminé
+[optimizer] trial 2701 / 3000 terminé
+[optimizer] trial 2702 / 3000 terminé
+[optimizer] trial 2703 / 3000 terminé
+[optimizer] trial 2704 / 3000 terminé
+[optimizer] trial 2705 / 3000 terminé
+[optimizer] trial 2706 / 3000 terminé
+[optimizer] trial 2707 / 3000 terminé
+[optimizer] trial 2708 / 3000 terminé
+[optimizer] trial 2709 / 3000 terminé
+[optimizer] trial 2710 / 3000 terminé
+[optimizer] trial 2711 / 3000 terminé
+[optimizer] trial 2712 / 3000 terminé
+[optimizer] trial 2713 / 3000 terminé
+[optimizer] trial 2714 / 3000 terminé
+[optimizer] trial 2715 / 3000 terminé
+[optimizer] trial 2716 / 3000 terminé
+[optimizer] trial 2717 / 3000 terminé
+[optimizer] trial 2718 / 3000 terminé
+[optimizer] trial 2719 / 3000 terminé
+[optimizer] trial 2720 / 3000 terminé
+[optimizer] trial 2721 / 3000 terminé
+[optimizer] trial 2722 / 3000 terminé
+[optimizer] trial 2723 / 3000 terminé
+[optimizer] trial 2724 / 3000 terminé
+[optimizer] trial 2725 / 3000 terminé
+[optimizer] trial 2726 / 3000 terminé
+[optimizer] trial 2727 / 3000 terminé
+[optimizer] trial 2728 / 3000 terminé
+[optimizer] trial 2729 / 3000 terminé
+[optimizer] trial 2730 / 3000 terminé
+[optimizer] trial 2731 / 3000 terminé
+[optimizer] trial 2732 / 3000 terminé
+[optimizer] trial 2733 / 3000 terminé
+[optimizer] trial 2734 / 3000 terminé
+[optimizer] trial 2735 / 3000 terminé
+[optimizer] trial 2736 / 3000 terminé
+[optimizer] trial 2737 / 3000 terminé
+[optimizer] trial 2738 / 3000 terminé
+[optimizer] trial 2739 / 3000 terminé
+[optimizer] trial 2740 / 3000 terminé
+[optimizer] trial 2741 / 3000 terminé
+[optimizer] trial 2742 / 3000 terminé
+[optimizer] trial 2743 / 3000 terminé
+[optimizer] trial 2744 / 3000 terminé
+[optimizer] trial 2745 / 3000 terminé
+[optimizer] trial 2746 / 3000 terminé
+[optimizer] trial 2747 / 3000 terminé
+[optimizer] trial 2748 / 3000 terminé
+[optimizer] trial 2749 / 3000 terminé
+[optimizer] trial 2750 / 3000 terminé
+[optimizer] trial 2751 / 3000 terminé
+[optimizer] trial 2752 / 3000 terminé
+[optimizer] trial 2753 / 3000 terminé
+[optimizer] trial 2754 / 3000 terminé
+[optimizer] trial 2755 / 3000 terminé
+[optimizer] trial 2756 / 3000 terminé
+[optimizer] trial 2757 / 3000 terminé
+[optimizer] trial 2758 / 3000 terminé
+[optimizer] trial 2759 / 3000 terminé
+[optimizer] trial 2760 / 3000 terminé
+[optimizer] trial 2761 / 3000 terminé
+[optimizer] trial 2762 / 3000 terminé
+[optimizer] trial 2763 / 3000 terminé
+[optimizer] trial 2764 / 3000 terminé
+[optimizer] trial 2765 / 3000 terminé
+[optimizer] trial 2766 / 3000 terminé
+[optimizer] trial 2767 / 3000 terminé
+[optimizer] trial 2768 / 3000 terminé
+[optimizer] trial 2769 / 3000 terminé
+[optimizer] trial 2770 / 3000 terminé
+[optimizer] trial 2771 / 3000 terminé
+[optimizer] trial 2772 / 3000 terminé
+[optimizer] trial 2773 / 3000 terminé
+[optimizer] trial 2774 / 3000 terminé
+[optimizer] trial 2775 / 3000 terminé
+[optimizer] trial 2776 / 3000 terminé
+[optimizer] trial 2777 / 3000 terminé
+[optimizer] trial 2778 / 3000 terminé
+[optimizer] trial 2779 / 3000 terminé
+[optimizer] trial 2780 / 3000 terminé
+[optimizer] trial 2781 / 3000 terminé
+[optimizer] trial 2782 / 3000 terminé
+[optimizer] trial 2783 / 3000 terminé
+[optimizer] trial 2784 / 3000 terminé
+[optimizer] trial 2785 / 3000 terminé
+[optimizer] trial 2786 / 3000 terminé
+[optimizer] trial 2787 / 3000 terminé
+[optimizer] trial 2788 / 3000 terminé
+[optimizer] trial 2789 / 3000 terminé
+[optimizer] trial 2790 / 3000 terminé
+[optimizer] trial 2791 / 3000 terminé
+[optimizer] trial 2792 / 3000 terminé
+[optimizer] trial 2793 / 3000 terminé
+[optimizer] trial 2794 / 3000 terminé
+[optimizer] trial 2795 / 3000 terminé
+[optimizer] trial 2796 / 3000 terminé
+[optimizer] trial 2797 / 3000 terminé
+[optimizer] trial 2798 / 3000 terminé
+[optimizer] trial 2799 / 3000 terminé
+[optimizer] trial 2800 / 3000 terminé
+[optimizer] trial 2801 / 3000 terminé
+[optimizer] trial 2802 / 3000 terminé
+[optimizer] trial 2803 / 3000 terminé
+[optimizer] trial 2804 / 3000 terminé
+[optimizer] trial 2805 / 3000 terminé
+[optimizer] trial 2806 / 3000 terminé
+[optimizer] trial 2807 / 3000 terminé
+[optimizer] trial 2808 / 3000 terminé
+[optimizer] trial 2809 / 3000 terminé
+[optimizer] trial 2810 / 3000 terminé
+[optimizer] trial 2811 / 3000 terminé
+[optimizer] trial 2812 / 3000 terminé
+[optimizer] trial 2813 / 3000 terminé
+[optimizer] trial 2814 / 3000 terminé
+[optimizer] trial 2815 / 3000 terminé
+[optimizer] trial 2816 / 3000 terminé
+[optimizer] trial 2817 / 3000 terminé
+[optimizer] trial 2818 / 3000 terminé
+[optimizer] trial 2819 / 3000 terminé
+[optimizer] trial 2820 / 3000 terminé
+[optimizer] trial 2821 / 3000 terminé
+[optimizer] trial 2822 / 3000 terminé
+[optimizer] trial 2823 / 3000 terminé
+[optimizer] trial 2824 / 3000 terminé
+[optimizer] trial 2825 / 3000 terminé
+[optimizer] trial 2826 / 3000 terminé
+[optimizer] trial 2827 / 3000 terminé
+[optimizer] trial 2828 / 3000 terminé
+[optimizer] trial 2829 / 3000 terminé
+[optimizer] trial 2830 / 3000 terminé
+[optimizer] trial 2831 / 3000 terminé
+[optimizer] trial 2832 / 3000 terminé
+[optimizer] trial 2833 / 3000 terminé
+[optimizer] trial 2834 / 3000 terminé
+[optimizer] trial 2835 / 3000 terminé
+[optimizer] trial 2836 / 3000 terminé
+[optimizer] trial 2837 / 3000 terminé
+[optimizer] trial 2838 / 3000 terminé
+[optimizer] trial 2839 / 3000 terminé
+[optimizer] trial 2840 / 3000 terminé
+[optimizer] trial 2841 / 3000 terminé
+[optimizer] trial 2842 / 3000 terminé
+[optimizer] trial 2843 / 3000 terminé
+[optimizer] trial 2844 / 3000 terminé
+[optimizer] trial 2845 / 3000 terminé
+[optimizer] trial 2846 / 3000 terminé
+[optimizer] trial 2847 / 3000 terminé
+[optimizer] trial 2848 / 3000 terminé
+[optimizer] trial 2849 / 3000 terminé
+[optimizer] trial 2850 / 3000 terminé
+[optimizer] trial 2851 / 3000 terminé
+[optimizer] trial 2852 / 3000 terminé
+[optimizer] trial 2853 / 3000 terminé
+[optimizer] trial 2854 / 3000 terminé
+[optimizer] trial 2855 / 3000 terminé
+[optimizer] trial 2856 / 3000 terminé
+[optimizer] trial 2857 / 3000 terminé
+[optimizer] trial 2858 / 3000 terminé
+[optimizer] trial 2859 / 3000 terminé
+[optimizer] trial 2860 / 3000 terminé
+[optimizer] trial 2861 / 3000 terminé
+[optimizer] trial 2862 / 3000 terminé
+[optimizer] trial 2863 / 3000 terminé
+[optimizer] trial 2864 / 3000 terminé
+[optimizer] trial 2865 / 3000 terminé
+[optimizer] trial 2866 / 3000 terminé
+[optimizer] trial 2867 / 3000 terminé
+[optimizer] trial 2868 / 3000 terminé
+[optimizer] trial 2869 / 3000 terminé
+[optimizer] trial 2870 / 3000 terminé
+[optimizer] trial 2871 / 3000 terminé
+[optimizer] trial 2872 / 3000 terminé
+[optimizer] trial 2873 / 3000 terminé
+[optimizer] trial 2874 / 3000 terminé
+[optimizer] trial 2875 / 3000 terminé
+[optimizer] trial 2876 / 3000 terminé
+[optimizer] trial 2877 / 3000 terminé
+[optimizer] trial 2878 / 3000 terminé
+[optimizer] trial 2879 / 3000 terminé
+[optimizer] trial 2880 / 3000 terminé
+[optimizer] trial 2881 / 3000 terminé
+[optimizer] trial 2882 / 3000 terminé
+[optimizer] trial 2883 / 3000 terminé
+[optimizer] trial 2884 / 3000 terminé
+[optimizer] trial 2885 / 3000 terminé
+[optimizer] trial 2886 / 3000 terminé
+[optimizer] trial 2887 / 3000 terminé
+[optimizer] trial 2888 / 3000 terminé
+[optimizer] trial 2889 / 3000 terminé
+[optimizer] trial 2890 / 3000 terminé
+[optimizer] trial 2891 / 3000 terminé
+[optimizer] trial 2892 / 3000 terminé
+[optimizer] trial 2893 / 3000 terminé
+[optimizer] trial 2894 / 3000 terminé
+[optimizer] trial 2895 / 3000 terminé
+[optimizer] trial 2896 / 3000 terminé
+[optimizer] trial 2897 / 3000 terminé
+[optimizer] trial 2898 / 3000 terminé
+[optimizer] trial 2899 / 3000 terminé
+[optimizer] trial 2900 / 3000 terminé
+[optimizer] trial 2901 / 3000 terminé
+[optimizer] trial 2902 / 3000 terminé
+[optimizer] trial 2903 / 3000 terminé
+[optimizer] trial 2904 / 3000 terminé
+[optimizer] trial 2905 / 3000 terminé
+[optimizer] trial 2906 / 3000 terminé
+[optimizer] trial 2907 / 3000 terminé
+[optimizer] trial 2908 / 3000 terminé
+[optimizer] trial 2909 / 3000 terminé
+[optimizer] trial 2910 / 3000 terminé
+[optimizer] trial 2911 / 3000 terminé
+[optimizer] trial 2912 / 3000 terminé
+[optimizer] trial 2913 / 3000 terminé
+[optimizer] trial 2914 / 3000 terminé
+[optimizer] trial 2915 / 3000 terminé
+[optimizer] trial 2916 / 3000 terminé
+[optimizer] trial 2917 / 3000 terminé
+[optimizer] trial 2918 / 3000 terminé
+[optimizer] trial 2919 / 3000 terminé
+[optimizer] trial 2920 / 3000 terminé
+[optimizer] trial 2921 / 3000 terminé
+[optimizer] trial 2922 / 3000 terminé
+[optimizer] trial 2923 / 3000 terminé
+[optimizer] trial 2924 / 3000 terminé
+[optimizer] trial 2925 / 3000 terminé
+[optimizer] trial 2926 / 3000 terminé
+[optimizer] trial 2927 / 3000 terminé
+[optimizer] trial 2928 / 3000 terminé
+[optimizer] trial 2929 / 3000 terminé
+[optimizer] trial 2930 / 3000 terminé
+[optimizer] trial 2931 / 3000 terminé
+[optimizer] trial 2932 / 3000 terminé
+[optimizer] trial 2933 / 3000 terminé
+[optimizer] trial 2934 / 3000 terminé
+[optimizer] trial 2935 / 3000 terminé
+[optimizer] trial 2936 / 3000 terminé
+[optimizer] trial 2937 / 3000 terminé
+[optimizer] trial 2938 / 3000 terminé
+[optimizer] trial 2939 / 3000 terminé
+[optimizer] trial 2940 / 3000 terminé
+[optimizer] trial 2941 / 3000 terminé
+[optimizer] trial 2942 / 3000 terminé
+[optimizer] trial 2943 / 3000 terminé
+[optimizer] trial 2944 / 3000 terminé
+[optimizer] trial 2945 / 3000 terminé
+[optimizer] trial 2946 / 3000 terminé
+[optimizer] trial 2947 / 3000 terminé
+[optimizer] trial 2948 / 3000 terminé
+[optimizer] trial 2949 / 3000 terminé
+[optimizer] trial 2950 / 3000 terminé
+[optimizer] trial 2951 / 3000 terminé
+[optimizer] trial 2952 / 3000 terminé
+[optimizer] trial 2953 / 3000 terminé
+[optimizer] trial 2954 / 3000 terminé
+[optimizer] trial 2955 / 3000 terminé
+[optimizer] trial 2956 / 3000 terminé
+[optimizer] trial 2957 / 3000 terminé
+[optimizer] trial 2958 / 3000 terminé
+[optimizer] trial 2959 / 3000 terminé
+[optimizer] trial 2960 / 3000 terminé
+[optimizer] trial 2961 / 3000 terminé
+[optimizer] trial 2962 / 3000 terminé
+[optimizer] trial 2963 / 3000 terminé
+[optimizer] trial 2964 / 3000 terminé
+[optimizer] trial 2965 / 3000 terminé
+[optimizer] trial 2966 / 3000 terminé
+[optimizer] trial 2967 / 3000 terminé
+[optimizer] trial 2968 / 3000 terminé
+[optimizer] trial 2969 / 3000 terminé
+[optimizer] trial 2970 / 3000 terminé
+[optimizer] trial 2971 / 3000 terminé
+[optimizer] trial 2972 / 3000 terminé
+[optimizer] trial 2973 / 3000 terminé
+[optimizer] trial 2974 / 3000 terminé
+[optimizer] trial 2975 / 3000 terminé
+[optimizer] trial 2976 / 3000 terminé
+[optimizer] trial 2977 / 3000 terminé
+[optimizer] trial 2978 / 3000 terminé
+[optimizer] trial 2979 / 3000 terminé
+[optimizer] trial 2980 / 3000 terminé
+[optimizer] trial 2981 / 3000 terminé
+[optimizer] trial 2982 / 3000 terminé
+[optimizer] trial 2983 / 3000 terminé
+[optimizer] trial 2984 / 3000 terminé
+[optimizer] trial 2985 / 3000 terminé
+[optimizer] trial 2986 / 3000 terminé
+[optimizer] trial 2987 / 3000 terminé
+[optimizer] trial 2988 / 3000 terminé
+[optimizer] trial 2989 / 3000 terminé
+[optimizer] trial 2990 / 3000 terminé
+[optimizer] trial 2991 / 3000 terminé
+[optimizer] trial 2992 / 3000 terminé
+[optimizer] trial 2993 / 3000 terminé
+[optimizer] trial 2994 / 3000 terminé
+[optimizer] trial 2995 / 3000 terminé
+[optimizer] trial 2996 / 3000 terminé
+[optimizer] trial 2997 / 3000 terminé
+[optimizer] trial 2998 / 3000 terminé
+[optimizer] trial 2999 / 3000 terminé
+[optimizer] trial 3000 / 3000 terminé
+
+TOP PROFILS OPTIMISEUR
+======================
+
+#1 | score=193.7930
+------------------------------------------------------------
+SYSTEM  | win_rate=0.624 | tickets/jour=1.69 | decided=85 | max_loss_streak=3 | max_win_streak=10 | profit=50.14 | yield=0.590 | max_dd=3.09 | bankroll=150.14 | x1.50
+RANDOM  | win_rate=0.565 | tickets/jour=1.68 | decided=23 | max_loss_streak=2 | max_win_streak=2 | profit=9.27 | yield=0.403 | max_dd=4.46 | bankroll=109.27 | x1.09
+COMBINÉ | mean_win_rate=0.594 | mean_tickets/jour=1.68 | mean_profit=29.71 | mean_yield=0.496 | worst_streak=3 | best_win_streak=10 | worst_dd=4.46 | bankroll=129.71 | x1.30
+
+TRAIN   | jours=48 | mean_win_rate=0.547 | mean_tickets/jour=1.59 | mean_profit=16.25 | mean_yield=0.376 | best_win_streak=5 | bankroll=116.25 | x1.16
+VALID   | jours=12 | mean_win_rate=0.725 | mean_tickets/jour=1.96 | mean_profit=13.46 | mean_yield=0.826 | best_win_streak=10 | min_decided=6 | bankroll=113.46 | x1.13
+GAP     | wr_train-valid=-0.178 | tickets_train-valid=-0.36 | profit_train-valid=+2.79 | yield_train-valid=-0.450
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=2.79 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 12,
+  "global_bet_min_winrate": 0.65,
+  "league_bet_min_winrate": 0.72,
+  "league_bet_require_data": true,
+  "team_min_decided": 8,
+  "team_min_winrate": 0.7,
+  "two_team_high": 0.85,
+  "two_team_low": 0.58,
+  "weight_min": 1.0,
+  "weight_max": 2.2,
+  "weight_baseline": 0.74,
+  "weight_ceil": 1.0,
+  "topk_size": 8,
+  "topk_uniform_draw": false,
+  "prefer_3legs_delta": 0.0,
+  "search_budget_ms_system": 500,
+  "search_budget_ms_random": 500,
+  "excluded_bet_groups": [],
+  "target_odd": 2.4,
+  "min_accept_odd": 1.8,
+  "rich_day_match_count": 16,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 4,
+  "min_side_matches_for_split": 5,
+  "split_gap_weight": 0.6
+}
+
+#2 | score=183.5080
+------------------------------------------------------------
+SYSTEM  | win_rate=0.564 | tickets/jour=1.39 | decided=55 | max_loss_streak=3 | max_win_streak=5 | profit=21.06 | yield=0.383 | max_dd=3.60 | bankroll=121.06 | x1.21
+RANDOM  | win_rate=0.533 | tickets/jour=1.63 | decided=30 | max_loss_streak=1 | max_win_streak=3 | profit=8.88 | yield=0.296 | max_dd=3.21 | bankroll=108.88 | x1.09
+COMBINÉ | mean_win_rate=0.548 | mean_tickets/jour=1.51 | mean_profit=14.97 | mean_yield=0.340 | worst_streak=3 | best_win_streak=5 | worst_dd=3.60 | bankroll=114.97 | x1.15
+
+TRAIN   | jours=48 | mean_win_rate=0.491 | mean_tickets/jour=1.49 | mean_profit=7.72 | mean_yield=0.200 | best_win_streak=5 | bankroll=107.72 | x1.08
+VALID   | jours=12 | mean_win_rate=0.736 | mean_tickets/jour=1.56 | mean_profit=7.24 | mean_yield=0.797 | best_win_streak=3 | min_decided=7 | bankroll=107.24 | x1.07
+GAP     | wr_train-valid=-0.245 | tickets_train-valid=-0.07 | profit_train-valid=+0.48 | yield_train-valid=-0.597
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=0.48 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 10,
+  "global_bet_min_winrate": 0.72,
+  "league_bet_min_winrate": 0.75,
+  "league_bet_require_data": true,
+  "team_min_decided": 12,
+  "team_min_winrate": 0.72,
+  "two_team_high": 0.8,
+  "two_team_low": 0.6,
+  "weight_min": 1.0,
+  "weight_max": 2.2,
+  "weight_baseline": 0.62,
+  "weight_ceil": 0.95,
+  "topk_size": 8,
+  "topk_uniform_draw": true,
+  "prefer_3legs_delta": 0.02,
+  "search_budget_ms_system": 300,
+  "search_budget_ms_random": 300,
+  "excluded_bet_groups": [
+    "HT05",
+    "HT1X"
+  ],
+  "target_odd": 2.4,
+  "min_accept_odd": 1.6,
+  "rich_day_match_count": 22,
+  "day_max_windows_poor": 2,
+  "day_max_windows_rich": 3,
+  "min_side_matches_for_split": 4,
+  "split_gap_weight": 0.45
+}
+
+#3 | score=178.2873
+------------------------------------------------------------
+SYSTEM  | win_rate=0.557 | tickets/jour=1.43 | decided=70 | max_loss_streak=6 | max_win_streak=4 | profit=26.56 | yield=0.379 | max_dd=6.00 | bankroll=126.56 | x1.27
+RANDOM  | win_rate=0.632 | tickets/jour=1.52 | decided=19 | max_loss_streak=1 | max_win_streak=1 | profit=10.88 | yield=0.573 | max_dd=2.00 | bankroll=110.88 | x1.11
+COMBINÉ | mean_win_rate=0.594 | mean_tickets/jour=1.48 | mean_profit=18.72 | mean_yield=0.476 | worst_streak=6 | best_win_streak=4 | worst_dd=6.00 | bankroll=118.72 | x1.19
+
+TRAIN   | jours=48 | mean_win_rate=0.533 | mean_tickets/jour=1.41 | mean_profit=10.50 | mean_yield=0.332 | best_win_streak=4 | bankroll=110.50 | x1.10
+VALID   | jours=12 | mean_win_rate=0.740 | mean_tickets/jour=1.67 | mean_profit=8.22 | mean_yield=0.821 | best_win_streak=3 | min_decided=6 | bankroll=108.22 | x1.08
+GAP     | wr_train-valid=-0.207 | tickets_train-valid=-0.25 | profit_train-valid=+2.27 | yield_train-valid=-0.489
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=2.27 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 12,
+  "global_bet_min_winrate": 0.7,
+  "league_bet_min_winrate": 0.72,
+  "league_bet_require_data": false,
+  "team_min_decided": 15,
+  "team_min_winrate": 0.7,
+  "two_team_high": 0.82,
+  "two_team_low": 0.55,
+  "weight_min": 0.8,
+  "weight_max": 2.0,
+  "weight_baseline": 0.78,
+  "weight_ceil": 0.92,
+  "topk_size": 3,
+  "topk_uniform_draw": true,
+  "prefer_3legs_delta": 0.08,
+  "search_budget_ms_system": 800,
+  "search_budget_ms_random": 500,
+  "excluded_bet_groups": [
+    "HT1X"
+  ],
+  "target_odd": 2.4,
+  "min_accept_odd": 1.8,
+  "rich_day_match_count": 22,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 3,
+  "min_side_matches_for_split": 4,
+  "split_gap_weight": 0.45
+}
+
+#4 | score=169.1432
+------------------------------------------------------------
+SYSTEM  | win_rate=0.589 | tickets/jour=1.45 | decided=73 | max_loss_streak=3 | max_win_streak=8 | profit=34.49 | yield=0.472 | max_dd=7.00 | bankroll=134.49 | x1.34
+RANDOM  | win_rate=0.444 | tickets/jour=1.53 | decided=27 | max_loss_streak=3 | max_win_streak=3 | profit=3.76 | yield=0.139 | max_dd=6.00 | bankroll=103.76 | x1.04
+COMBINÉ | mean_win_rate=0.517 | mean_tickets/jour=1.49 | mean_profit=19.12 | mean_yield=0.306 | worst_streak=3 | best_win_streak=8 | worst_dd=7.00 | bankroll=119.12 | x1.19
+
+TRAIN   | jours=48 | mean_win_rate=0.464 | mean_tickets/jour=1.42 | mean_profit=8.46 | mean_yield=0.170 | best_win_streak=4 | bankroll=108.46 | x1.08
+VALID   | jours=12 | mean_win_rate=0.695 | mean_tickets/jour=1.71 | mean_profit=10.66 | mean_yield=0.765 | best_win_streak=6 | min_decided=5 | bankroll=110.66 | x1.11
+GAP     | wr_train-valid=-0.231 | tickets_train-valid=-0.29 | profit_train-valid=-2.21 | yield_train-valid=-0.595
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=0.00 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 12,
+  "global_bet_min_winrate": 0.62,
+  "league_bet_min_winrate": 0.65,
+  "league_bet_require_data": false,
+  "team_min_decided": 6,
+  "team_min_winrate": 0.68,
+  "two_team_high": 0.85,
+  "two_team_low": 0.63,
+  "weight_min": 0.8,
+  "weight_max": 3.0,
+  "weight_baseline": 0.62,
+  "weight_ceil": 0.98,
+  "topk_size": 5,
+  "topk_uniform_draw": true,
+  "prefer_3legs_delta": 0.0,
+  "search_budget_ms_system": 800,
+  "search_budget_ms_random": 500,
+  "excluded_bet_groups": [
+    "HT1X"
+  ],
+  "target_odd": 2.3,
+  "min_accept_odd": 1.8,
+  "rich_day_match_count": 20,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 3,
+  "min_side_matches_for_split": 4,
+  "split_gap_weight": 0.6
+}
+
+#5 | score=168.6112
+------------------------------------------------------------
+SYSTEM  | win_rate=0.495 | tickets/jour=1.70 | decided=93 | max_loss_streak=8 | max_win_streak=7 | profit=20.79 | yield=0.224 | max_dd=8.00 | bankroll=120.79 | x1.21
+RANDOM  | win_rate=0.440 | tickets/jour=1.76 | decided=25 | max_loss_streak=3 | max_win_streak=2 | profit=1.99 | yield=0.080 | max_dd=7.46 | bankroll=101.99 | x1.02
+COMBINÉ | mean_win_rate=0.467 | mean_tickets/jour=1.73 | mean_profit=11.39 | mean_yield=0.152 | worst_streak=8 | best_win_streak=7 | worst_dd=8.00 | bankroll=111.39 | x1.11
+
+TRAIN   | jours=48 | mean_win_rate=0.396 | mean_tickets/jour=1.64 | mean_profit=2.15 | mean_yield=-0.021 | best_win_streak=4 | bankroll=102.15 | x1.02
+VALID   | jours=12 | mean_win_rate=0.726 | mean_tickets/jour=2.00 | mean_profit=9.24 | mean_yield=0.787 | best_win_streak=4 | min_decided=5 | bankroll=109.24 | x1.09
+GAP     | wr_train-valid=-0.330 | tickets_train-valid=-0.36 | profit_train-valid=-7.09 | yield_train-valid=-0.808
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=0.00 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 7,
+  "global_bet_min_winrate": 0.7,
+  "league_bet_min_winrate": 0.65,
+  "league_bet_require_data": true,
+  "team_min_decided": 10,
+  "team_min_winrate": 0.75,
+  "two_team_high": 0.82,
+  "two_team_low": 0.55,
+  "weight_min": 0.8,
+  "weight_max": 2.0,
+  "weight_baseline": 0.7,
+  "weight_ceil": 1.0,
+  "topk_size": 10,
+  "topk_uniform_draw": false,
+  "prefer_3legs_delta": 0.02,
+  "search_budget_ms_system": 300,
+  "search_budget_ms_random": 500,
+  "excluded_bet_groups": [],
+  "target_odd": 2.4,
+  "min_accept_odd": 1.6,
+  "rich_day_match_count": 16,
+  "day_max_windows_poor": 2,
+  "day_max_windows_rich": 4,
+  "min_side_matches_for_split": 5,
+  "split_gap_weight": 0.6
+}
+
+#6 | score=167.4275
+------------------------------------------------------------
+SYSTEM  | win_rate=0.699 | tickets/jour=1.51 | decided=73 | max_loss_streak=3 | max_win_streak=9 | profit=57.10 | yield=0.782 | max_dd=4.00 | bankroll=157.10 | x1.57
+RANDOM  | win_rate=0.630 | tickets/jour=1.59 | decided=27 | max_loss_streak=3 | max_win_streak=3 | profit=15.34 | yield=0.568 | max_dd=4.00 | bankroll=115.34 | x1.15
+COMBINÉ | mean_win_rate=0.664 | mean_tickets/jour=1.55 | mean_profit=36.22 | mean_yield=0.675 | worst_streak=3 | best_win_streak=9 | worst_dd=4.00 | bankroll=136.22 | x1.36
+
+TRAIN   | jours=48 | mean_win_rate=0.643 | mean_tickets/jour=1.48 | mean_profit=24.80 | mean_yield=0.625 | best_win_streak=6 | bankroll=124.80 | x1.25
+VALID   | jours=12 | mean_win_rate=0.728 | mean_tickets/jour=1.75 | mean_profit=11.42 | mean_yield=0.825 | best_win_streak=7 | min_decided=6 | bankroll=111.42 | x1.11
+GAP     | wr_train-valid=-0.085 | tickets_train-valid=-0.27 | profit_train-valid=+13.37 | yield_train-valid=-0.199
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=13.37 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 5,
+  "global_bet_min_winrate": 0.62,
+  "league_bet_min_winrate": 0.68,
+  "league_bet_require_data": true,
+  "team_min_decided": 6,
+  "team_min_winrate": 0.75,
+  "two_team_high": 0.85,
+  "two_team_low": 0.66,
+  "weight_min": 0.8,
+  "weight_max": 2.0,
+  "weight_baseline": 0.78,
+  "weight_ceil": 0.95,
+  "topk_size": 5,
+  "topk_uniform_draw": false,
+  "prefer_3legs_delta": 0.0,
+  "search_budget_ms_system": 300,
+  "search_budget_ms_random": 500,
+  "excluded_bet_groups": [
+    "HT1X"
+  ],
+  "target_odd": 2.4,
+  "min_accept_odd": 1.7,
+  "rich_day_match_count": 18,
+  "day_max_windows_poor": 2,
+  "day_max_windows_rich": 3,
+  "min_side_matches_for_split": 5,
+  "split_gap_weight": 0.35
+}
+
+#7 | score=166.0036
+------------------------------------------------------------
+SYSTEM  | win_rate=0.650 | tickets/jour=1.49 | decided=60 | max_loss_streak=3 | max_win_streak=6 | profit=34.89 | yield=0.582 | max_dd=3.00 | bankroll=134.89 | x1.35
+RANDOM  | win_rate=0.692 | tickets/jour=1.55 | decided=26 | max_loss_streak=2 | max_win_streak=2 | profit=18.85 | yield=0.725 | max_dd=2.00 | bankroll=118.85 | x1.19
+COMBINÉ | mean_win_rate=0.671 | mean_tickets/jour=1.52 | mean_profit=26.87 | mean_yield=0.653 | worst_streak=3 | best_win_streak=6 | worst_dd=3.00 | bankroll=126.87 | x1.27
+
+TRAIN   | jours=48 | mean_win_rate=0.652 | mean_tickets/jour=1.43 | mean_profit=17.21 | mean_yield=0.599 | best_win_streak=5 | bankroll=117.21 | x1.17
+VALID   | jours=12 | mean_win_rate=0.716 | mean_tickets/jour=1.77 | mean_profit=9.66 | mean_yield=0.782 | best_win_streak=6 | min_decided=6 | bankroll=109.66 | x1.10
+GAP     | wr_train-valid=-0.063 | tickets_train-valid=-0.34 | profit_train-valid=+7.55 | yield_train-valid=-0.183
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=7.55 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 12,
+  "global_bet_min_winrate": 0.72,
+  "league_bet_min_winrate": 0.7,
+  "league_bet_require_data": false,
+  "team_min_decided": 8,
+  "team_min_winrate": 0.68,
+  "two_team_high": 0.85,
+  "two_team_low": 0.66,
+  "weight_min": 1.0,
+  "weight_max": 1.8,
+  "weight_baseline": 0.66,
+  "weight_ceil": 0.92,
+  "topk_size": 3,
+  "topk_uniform_draw": true,
+  "prefer_3legs_delta": 0.05,
+  "search_budget_ms_system": 300,
+  "search_budget_ms_random": 300,
+  "excluded_bet_groups": [
+    "HT05",
+    "HT1X"
+  ],
+  "target_odd": 2.4,
+  "min_accept_odd": 1.7,
+  "rich_day_match_count": 18,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 3,
+  "min_side_matches_for_split": 4,
+  "split_gap_weight": 0.35
+}
+
+#8 | score=165.4797
+------------------------------------------------------------
+SYSTEM  | win_rate=0.500 | tickets/jour=1.53 | decided=82 | max_loss_streak=5 | max_win_streak=4 | profit=23.22 | yield=0.283 | max_dd=5.48 | bankroll=123.22 | x1.23
+RANDOM  | win_rate=0.478 | tickets/jour=1.76 | decided=23 | max_loss_streak=3 | max_win_streak=2 | profit=4.62 | yield=0.201 | max_dd=7.00 | bankroll=104.62 | x1.05
+COMBINÉ | mean_win_rate=0.489 | mean_tickets/jour=1.64 | mean_profit=13.92 | mean_yield=0.242 | worst_streak=5 | best_win_streak=4 | worst_dd=7.00 | bankroll=113.92 | x1.14
+
+TRAIN   | jours=48 | mean_win_rate=0.452 | mean_tickets/jour=1.55 | mean_profit=7.90 | mean_yield=0.152 | best_win_streak=4 | bankroll=107.90 | x1.08
+VALID   | jours=12 | mean_win_rate=0.786 | mean_tickets/jour=1.92 | mean_profit=6.02 | mean_yield=1.002 | best_win_streak=2 | min_decided=2 | bankroll=106.02 | x1.06
+GAP     | wr_train-valid=-0.334 | tickets_train-valid=-0.36 | profit_train-valid=+1.88 | yield_train-valid=-0.850
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=1.88 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 12,
+  "global_bet_min_winrate": 0.7,
+  "league_bet_min_winrate": 0.62,
+  "league_bet_require_data": false,
+  "team_min_decided": 10,
+  "team_min_winrate": 0.8,
+  "two_team_high": 0.85,
+  "two_team_low": 0.6,
+  "weight_min": 0.8,
+  "weight_max": 3.0,
+  "weight_baseline": 0.62,
+  "weight_ceil": 1.0,
+  "topk_size": 10,
+  "topk_uniform_draw": true,
+  "prefer_3legs_delta": 0.02,
+  "search_budget_ms_system": 800,
+  "search_budget_ms_random": 300,
+  "excluded_bet_groups": [
+    "HT05"
+  ],
+  "target_odd": 2.3,
+  "min_accept_odd": 1.8,
+  "rich_day_match_count": 22,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 4,
+  "min_side_matches_for_split": 3,
+  "split_gap_weight": 0.45
+}
+
+#9 | score=164.7912
+------------------------------------------------------------
+SYSTEM  | win_rate=0.584 | tickets/jour=1.55 | decided=77 | max_loss_streak=4 | max_win_streak=9 | profit=31.46 | yield=0.409 | max_dd=5.00 | bankroll=131.46 | x1.31
+RANDOM  | win_rate=0.611 | tickets/jour=1.71 | decided=18 | max_loss_streak=2 | max_win_streak=2 | profit=9.01 | yield=0.501 | max_dd=3.00 | bankroll=109.01 | x1.09
+COMBINÉ | mean_win_rate=0.598 | mean_tickets/jour=1.63 | mean_profit=20.24 | mean_yield=0.455 | worst_streak=4 | best_win_streak=9 | worst_dd=5.00 | bankroll=120.24 | x1.20
+
+TRAIN   | jours=48 | mean_win_rate=0.549 | mean_tickets/jour=1.54 | mean_profit=10.78 | mean_yield=0.348 | best_win_streak=8 | bankroll=110.78 | x1.11
+VALID   | jours=12 | mean_win_rate=0.750 | mean_tickets/jour=1.92 | mean_profit=9.46 | mean_yield=0.784 | best_win_streak=6 | min_decided=4 | bankroll=109.46 | x1.09
+GAP     | wr_train-valid=-0.201 | tickets_train-valid=-0.38 | profit_train-valid=+1.32 | yield_train-valid=-0.436
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=1.32 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 10,
+  "global_bet_min_winrate": 0.65,
+  "league_bet_min_winrate": 0.62,
+  "league_bet_require_data": false,
+  "team_min_decided": 10,
+  "team_min_winrate": 0.75,
+  "two_team_high": 0.82,
+  "two_team_low": 0.6,
+  "weight_min": 1.0,
+  "weight_max": 2.2,
+  "weight_baseline": 0.74,
+  "weight_ceil": 0.92,
+  "topk_size": 5,
+  "topk_uniform_draw": true,
+  "prefer_3legs_delta": 0.08,
+  "search_budget_ms_system": 800,
+  "search_budget_ms_random": 300,
+  "excluded_bet_groups": [
+    "HT1X"
+  ],
+  "target_odd": 2.3,
+  "min_accept_odd": 1.7,
+  "rich_day_match_count": 22,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 4,
+  "min_side_matches_for_split": 5,
+  "split_gap_weight": 0.45
+}
+
+#10 | score=164.5992
+------------------------------------------------------------
+SYSTEM  | win_rate=0.592 | tickets/jour=1.52 | decided=71 | max_loss_streak=5 | max_win_streak=6 | profit=29.64 | yield=0.417 | max_dd=6.93 | bankroll=129.64 | x1.30
+RANDOM  | win_rate=0.789 | tickets/jour=1.66 | decided=19 | max_loss_streak=1 | max_win_streak=2 | profit=18.37 | yield=0.967 | max_dd=2.00 | bankroll=118.37 | x1.18
+COMBINÉ | mean_win_rate=0.691 | mean_tickets/jour=1.59 | mean_profit=24.00 | mean_yield=0.692 | worst_streak=5 | best_win_streak=6 | worst_dd=6.93 | bankroll=124.00 | x1.24
+
+TRAIN   | jours=48 | mean_win_rate=0.665 | mean_tickets/jour=1.49 | mean_profit=16.49 | mean_yield=0.626 | best_win_streak=6 | bankroll=116.49 | x1.16
+VALID   | jours=12 | mean_win_rate=0.809 | mean_tickets/jour=1.88 | mean_profit=7.51 | mean_yield=0.993 | best_win_streak=4 | min_decided=3 | bankroll=107.51 | x1.08
+GAP     | wr_train-valid=-0.144 | tickets_train-valid=-0.38 | profit_train-valid=+8.98 | yield_train-valid=-0.367
+DROP    | wr_penalisé=0.000 | tickets_penalisé=0.00 | profit_penalisé=8.98 | yield_penalisé=0.000
+
+TUNING
+{
+  "global_bet_min_decided": 12,
+  "global_bet_min_winrate": 0.62,
+  "league_bet_min_winrate": 0.72,
+  "league_bet_require_data": true,
+  "team_min_decided": 6,
+  "team_min_winrate": 0.75,
+  "two_team_high": 0.88,
+  "two_team_low": 0.66,
+  "weight_min": 0.8,
+  "weight_max": 1.8,
+  "weight_baseline": 0.78,
+  "weight_ceil": 1.0,
+  "topk_size": 3,
+  "topk_uniform_draw": true,
+  "prefer_3legs_delta": 0.03,
+  "search_budget_ms_system": 500,
+  "search_budget_ms_random": 800,
+  "excluded_bet_groups": [
+    "HT05"
+  ],
+  "target_odd": 2.3,
+  "min_accept_odd": 1.8,
+  "rich_day_match_count": 18,
+  "day_max_windows_poor": 1,
+  "day_max_windows_rich": 4,
+  "min_side_matches_for_split": 4,
+  "split_gap_weight": 0.3
+}
+
+[optimizer] écrit: data/optimizer/optimizer_top_profiles.json
+[optimizer] écrit: data/optimizer/optimizer_top_profiles.txt
+[optimizer] écrit: data/optimizer/optimizer_all_profiles.json

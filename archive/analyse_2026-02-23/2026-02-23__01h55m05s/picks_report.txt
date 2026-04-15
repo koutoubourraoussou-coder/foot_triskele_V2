@@ -1,0 +1,76 @@
+PARIS JOUABLES — Lundi 2026-02-23
+=================================
+
+01:00 | mls | Los Angeles Galaxy (14) vs New York City FC (5)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.33 fixture=1490788
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.22 fixture=1490788
+
+01:30 | liga profesional argentina | Union Santa Fe (2) vs Aldosivi (13)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.11 fixture=1491906
+
+02:00 | liga mx | Club Queretaro (14) vs FC Juarez (16)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.4 fixture=1492524
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.3 fixture=1492524
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.38 fixture=1492524
+
+02:30 | primera a colombia | America de Cali (8) vs Jaguares (—)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.04 fixture=1505998
+
+03:15 | mls | Seattle Sounders (5) vs Colorado Rapids (11)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.25 fixture=1490789
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.17 fixture=1490789
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.06 fixture=1490789
+
+18:00 | super lig | Fenerbahçe (2) vs Kasımpaşa (16)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.25 fixture=1394634
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.15 fixture=1394634
+
+18:30 | serie a italia | Fiorentina (18) vs Pisa (19)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.38 fixture=1378117
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.14 fixture=1378117
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25 fixture=1378117
+
+20:00 | saudi arabia | Al Shabab (13) vs Al Riyadh (15)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.36 fixture=1435995
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.25 fixture=1435995
+
+20:00 | saudi arabia | Al-Fateh (11) vs Al Okhdood (17)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.3 fixture=1436001
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2 fixture=1436001
+
+20:00 | saudi arabia | Al-Qadisiyah FC (4) vs Al-Ettifaq (7)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.22 fixture=1435999
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.07 fixture=1435999
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.12 fixture=1435999
+
+20:00 | saudi arabia | Damac (16) vs Al-Ahli Jeddah (3)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.28 fixture=1435997
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18 fixture=1435997
+  - TEAM2_WIN_FT | Team2 wins (FT) | FORT PLUS | odd=1.25 fixture=1435997
+
+20:00 | superligaen | MTK Budapest (9) vs Ferencvarosi TC (2)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.25 fixture=1380307
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.12 fixture=1380307
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=1.05 fixture=1380307
+
+20:30 | laliga2 | Cadiz (12) vs Real Sociedad II (17)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.2 fixture=1392051
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.38 fixture=1392051
+
+20:45 | ligue 2 | Le Mans (5) vs Guingamp (11)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.28 fixture=1389324
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.36 fixture=1389324
+
+20:45 | serie a italia | Bologna (10) vs Udinese (11)
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.38 fixture=1378115
+
+21:00 | premier league | Everton (9) vs Manchester United (5)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.33 fixture=1379233
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22 fixture=1379233
+
+21:15 | liga portugal | Famalicao (8) vs Casa Pia (13)
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.33 fixture=1396441
+
+21:15 | liga portugal 2 | FC Porto B (9) vs Pacos Ferreira (18)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.44 fixture=1398168
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.33 fixture=1398168

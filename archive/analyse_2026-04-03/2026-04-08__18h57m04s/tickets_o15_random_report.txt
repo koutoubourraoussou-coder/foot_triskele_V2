@@ -1,0 +1,24 @@
+TICKETS TRISKÈLE — O15_RANDOM_ALL — depuis predictions.tsv
+==========================================================
+
+📅 Vendredi 2026-04-03 — Tranche 1 (fenêtre ~780min)
+---------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-03_0230_02cbac94b1_O15R — cote = 2.67 — fenêtre 02:30 → 17:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 02:30 | serie a brazil | RB Bragantino vs Flamengo | Over 1.5 (FT) | EXPLOSION | odd=1.4
+  2) 03:30 | primera a colombia | Once Caldas vs Independiente Medellin | Over 1.5 (FT) | FAIBLE | odd=1.25
+  3) 13:30 | championship | Middlesbrough vs Millwall | Over 1.5 (FT) | MOYEN | odd=1.22
+  4) 15:30 | cymru premier league | llanelli AFC vs Bala Town | Over 1.5 (FT) | MOYEN PLUS | odd=1.25
+
+📅 Vendredi 2026-04-03 — Tranche 2 (fenêtre ~180min)
+---------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-03_1800_64bd7cc299_O15R — cote = 2.59 — fenêtre 18:00 → 22:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 18:00 | saudi arabia | Al Kholood vs Al Khaleej Saihat | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  2) 19:00 | liga portugal | Guimaraes vs Tondela | Over 1.5 (FT) | FORT | odd=1.33
+  3) 21:00 | championship | Coventry vs Derby | Over 1.5 (FT) | FORT | odd=1.22
+  4) 21:00 | laliga | Rayo Vallecano vs Elche | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33

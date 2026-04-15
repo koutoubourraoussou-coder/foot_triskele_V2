@@ -1,0 +1,6 @@
+# date | league | home vs away | reason
+2026-01-27 | primera división paraguay | Club Sp. San Lorenzo vs Cerro Porteno | FIXTURE_ID_MISSING
+2026-01-31 | liga mx | Atlas vs Mazatlán | FIXTURE_ID_MISSING
+2026-01-31 | liga mx | Atletico San Luis vs Guadalajara Chivas | FIXTURE_ID_MISSING
+2026-01-31 | primera a colombia | Chico vs Santa Fe | FIXTURE_ID_MISSING
+2026-01-31 | primera división paraguay | Sportivo Ameliano vs Club Sp. San Lorenzo | FIXTURE_ID_MISSING

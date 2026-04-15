@@ -2138,3 +2138,16 @@ Aucun ticket.
   1) 20:45 | ligue 2 | Rodez vs Estac Troyes | HT 1X Home | TRÈS FORT | odd=1.5
   2) 21:15 | liga portugal | Tondela vs GIL Vicente | HT 1X Home | MOYEN PLUS | odd=1.44
   3) 21:30 | liga profesional argentina | Defensa Y Justicia vs Talleres Cordoba | HT 1X Home | FORT | odd=1.25
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-04-15 02:24:23 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-14_1900_8de7d9043e_SYS — cote = 2.5 — fenêtre 19:00 → 22:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 19:00 | serie b | Catanzaro vs Modena | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3
+  2) 21:00 | uefa champions league | Atletico Madrid vs Barcelona | HT+0.5 | MEGA EXPLOSION | odd=1.18
+  3) 21:00 | championship | Portsmouth vs Ipswich | Over 1.5 (FT) | MOYEN PLUS | odd=1.38
+  4) 21:00 | uefa champions league | Liverpool vs Paris Saint Germain | HT+0.5 | MEGA EXPLOSION | odd=1.18

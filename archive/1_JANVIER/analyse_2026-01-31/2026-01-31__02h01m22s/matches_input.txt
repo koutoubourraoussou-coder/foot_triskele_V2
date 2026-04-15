@@ -1,0 +1,90 @@
+2026-01-31 13:00 | 2. bundesliga | Eintracht Braunschweig vs Karlsruher SC
+2026-01-31 13:00 | 2. bundesliga | Holstein Kiel vs SpVgg Greuther Fürth
+2026-01-31 13:00 | 2. bundesliga | VfL Bochum vs FC Schalke 04
+2026-01-31 20:30 | 2. bundesliga | 1. FC Kaiserslautern vs SV Elversberg
+2026-01-31 15:30 | bundesliga | 1899 Hoffenheim vs Union Berlin
+2026-01-31 15:30 | bundesliga | Eintracht Frankfurt vs Bayer Leverkusen
+2026-01-31 15:30 | bundesliga | FC Augsburg vs FC St. Pauli
+2026-01-31 15:30 | bundesliga | RB Leipzig vs FSV Mainz 05
+2026-01-31 15:30 | bundesliga | Werder Bremen vs Borussia Mönchengladbach
+2026-01-31 18:30 | bundesliga | Hamburger SV vs Bayern München
+2026-01-31 13:30 | championship | Leicester vs Charlton
+2026-01-31 13:30 | championship | Sheffield Wednesday vs Wrexham
+2026-01-31 13:30 | championship | Stoke City vs Southampton
+2026-01-31 16:00 | championship | Blackburn vs Hull City
+2026-01-31 16:00 | championship | Ipswich vs Preston
+2026-01-31 16:00 | championship | Middlesbrough vs Norwich
+2026-01-31 16:00 | championship | Millwall vs Sheffield Utd
+2026-01-31 16:00 | championship | Oxford United vs Birmingham
+2026-01-31 16:00 | championship | Portsmouth vs West Brom
+2026-01-31 16:00 | championship | QPR vs Coventry
+2026-01-31 16:00 | championship | Watford vs Swansea
+2026-01-31 15:00 | czech first league | FK Jablonec vs Teplice
+2026-01-31 15:00 | czech first league | Mlada Boleslav vs Bohemians 1905
+2026-01-31 15:00 | czech first league | Sigma Olomouc vs Hradec Králové
+2026-01-31 18:00 | czech first league | Dukla Praha vs Sparta Praha
+2026-01-31 16:30 | eredivisie | AZ Alkmaar vs NEC Nijmegen
+2026-01-31 18:45 | eredivisie | PEC Zwolle vs Telstar
+2026-01-31 21:00 | eredivisie | Sparta Rotterdam vs Groningen
+2026-01-31 14:00 | laliga | Oviedo vs Girona
+2026-01-31 16:15 | laliga | Osasuna vs Villarreal
+2026-01-31 18:30 | laliga | Levante vs Atletico Madrid
+2026-01-31 21:00 | laliga | Elche vs Barcelona
+2026-01-31 16:15 | laliga2 | Albacete vs Zaragoza
+2026-01-31 16:15 | laliga2 | Burgos vs Leganes
+2026-01-31 18:30 | laliga2 | Cultural Leonesa vs Deportivo La Coruna
+2026-01-31 21:00 | laliga2 | Cordoba vs Valladolid
+2026-01-31 02:00 | liga mx | Puebla vs Toluca
+2026-01-31 04:00 | liga mx | U.N.A.M. - Pumas vs Santos Laguna
+2026-01-31 04:06 | liga mx | FC Juarez vs Cruz Azul
+2026-01-31 23:00 | liga mx | Club America vs Necaxa
+2026-01-31 16:30 | liga portugal | Santa Clara vs Estoril
+2026-01-31 19:00 | liga portugal | Rio Ave vs Arouca
+2026-01-31 21:30 | liga portugal | Alverca vs Estrela
+2026-01-31 12:00 | liga portugal 2 | Felgueiras 1932 vs Chaves
+2026-01-31 15:00 | liga portugal 2 | Academico Viseu vs Torreense
+2026-01-31 19:00 | liga portugal 2 | Farense vs FC Porto B
+2026-01-31 21:30 | liga portugal 2 | Vizela vs Portimonense
+2026-01-31 21:30 | liga profesional argentina | San Lorenzo vs Central Cordoba de Santiago
+2026-01-31 23:45 | liga profesional argentina | Independiente vs Velez Sarsfield
+2026-01-31 17:00 | ligue 1 | Paris FC vs Marseille
+2026-01-31 19:00 | ligue 1 | Lorient vs Nantes
+2026-01-31 21:05 | ligue 1 | Monaco vs Rennes
+2026-01-31 14:00 | ligue 2 | Dunkerque vs Annecy
+2026-01-31 14:00 | ligue 2 | Estac Troyes vs Le Mans
+2026-01-31 20:00 | ligue 2 | Saint Etienne vs Boulogne
+2026-01-31 16:00 | premier league | Brighton vs Everton
+2026-01-31 16:00 | premier league | Leeds vs Arsenal
+2026-01-31 16:00 | premier league | Wolves vs Bournemouth
+2026-01-31 18:30 | premier league | Chelsea vs West Ham
+2026-01-31 21:00 | premier league | Liverpool vs Newcastle
+2026-01-31 16:00 | premiership | Kilmarnock vs Aberdeen
+2026-01-31 16:00 | premiership | Livingston vs Motherwell
+2026-01-31 16:00 | premiership | ST Mirren vs Dundee
+2026-01-31 21:00 | premiership | Dundee Utd vs Heart Of Midlothian
+2026-01-31 02:00 | primera a colombia | Junior vs Atletico Nacional
+2026-01-31 22:00 | primera a colombia | Cucuta vs Fortaleza FC
+2026-01-31 22:00 | primera división paraguay | Nacional Asuncion vs 2 de Mayo
+2026-01-31 16:00 | pro league | Cercle Brugge vs Antwerp
+2026-01-31 18:15 | pro league | Zulte Waregem vs KVC Westerlo
+2026-01-31 20:45 | pro league | St. Truiden vs Charleroi
+2026-01-31 15:00 | serie a italia | Pisa vs Sassuolo
+2026-01-31 18:00 | serie a italia | Napoli vs Fiorentina
+2026-01-31 20:45 | serie a italia | Cagliari vs Verona
+2026-01-31 15:00 | serie b | Avellino vs Cesena
+2026-01-31 15:00 | serie b | Empoli vs Modena
+2026-01-31 15:00 | serie b | Sudtirol vs Catanzaro
+2026-01-31 15:00 | serie b | Venezia vs Carrarese
+2026-01-31 15:00 | serie b | Virtus Entella vs Frosinone
+2026-01-31 17:15 | serie b | Pescara vs Mantova
+2026-01-31 19:30 | serie b | Sampdoria vs Spezia
+2026-01-31 18:00 | super league switzerland | FC Winterthur vs Lausanne
+2026-01-31 18:00 | super league switzerland | Servette FC vs FC Sion
+2026-01-31 20:30 | super league switzerland | Grasshoppers vs FC Lugano
+2026-01-31 12:30 | super lig | Alanyaspor vs Eyüpspor
+2026-01-31 15:00 | super lig | Başakşehir vs Rizespor
+2026-01-31 18:00 | super lig | Beşiktaş vs Konyaspor
+2026-01-31 18:00 | super lig | Göztepe vs Fatih Karagümrük
+2026-01-31 13:30 | superligaen | MTK Budapest vs Kazincbarcikai
+2026-01-31 16:00 | superligaen | Gyori ETO FC vs Debreceni VSC
+2026-01-31 18:30 | superligaen | Ujpest vs Puskas Academy

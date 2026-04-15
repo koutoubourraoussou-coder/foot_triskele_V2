@@ -1,0 +1,180 @@
+RUN MAESTRO — 2026-02-10 19:03:13
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTRO — SYSTEM — 2026-02-08
+========================================
+- picks_total: 53
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 6.29
+- threshold_used: 2.15 (target=2.15, fallback=1.7)
+
+🧩 Tranche scan: idx=0 | next_window_start=02:06
+   tranche_seed: 02:06 → 03:36
+
+   merge_until: j=0 | merged_in_window=3
+     - ok_window(after_perf_if_SYSTEM): 2
+     - perf_reject: 1
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 1.77
+
+       PERF_REJECT: 02:30 | primera a colombia | Junior vs Chico | TEAM1_WIN_FT | odd=1.29
+
+   merge_until: j=1 | merged_in_window=4
+     - ok_window(after_perf_if_SYSTEM): 3
+     - perf_reject: 1
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 2.3
+
+       PERF_REJECT: 02:30 | primera a colombia | Junior vs Chico | TEAM1_WIN_FT | odd=1.29
+
+✅ Ticket: tranche=1 | cote=2.3 | 02:06 → 06:00 | fenêtre=124min
+   1) 02:06 | liga mx | Pachuca vs FC Juarez | O15_FT | odd=1.33
+   2) 02:30 | primera a colombia | Junior vs Chico | O15_FT | odd=1.33
+   3) 04:10 | liga mx | Club America vs Monterrey | O15_FT | odd=1.3
+
+🧩 Tranche scan: idx=2 | next_window_start=06:00
+   tranche_seed: 12:15 → 13:45
+
+   merge_until: j=2 | merged_in_window=9
+     - ok_window(after_perf_if_SYSTEM): 7
+     - perf_reject: 2
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 2.87
+
+       PERF_REJECT: 13:00 | czech first league | Hradec Králové vs Dukla Praha | TEAM1_SCORE_FT | odd=1.15
+       PERF_REJECT: 13:30 | pro league | Genk vs Anderlecht | TEAM1_SCORE_FT | odd=1.18
+
+✅ Ticket: tranche=2 | cote=2.34 | 12:15 → 15:20 | fenêtre=75min
+   1) 12:15 | eredivisie | Utrecht vs Feyenoord | TEAM2_SCORE_FT | odd=1.18
+   2) 12:30 | serie a italia | Bologna vs Parma | O15_FT | odd=1.33
+   3) 12:30 | super lig | Eyüpspor vs Başakşehir | O15_FT | odd=1.22
+   4) 13:30 | pro league | Genk vs Anderlecht | O15_FT | odd=1.22
+
+🧩 Tranche scan: idx=4 | next_window_start=15:20
+   tranche_seed: 16:15 → 17:45
+
+   merge_until: j=4 | merged_in_window=14
+     - ok_window(after_perf_if_SYSTEM): 11
+     - perf_reject: 3
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 3.41
+
+       PERF_REJECT: 16:15 | laliga2 | Cadiz vs Almeria | TEAM2_SCORE_FT | odd=1.25
+       PERF_REJECT: 16:30 | liga portugal 2 | Torreense vs União de Leiria | TEAM2_SCORE_FT | odd=1.41
+       PERF_REJECT: 16:30 | liga portugal 2 | Torreense vs União de Leiria | O15_FT | odd=1.36
+
+✅ Ticket: tranche=3 | cote=2.39 | 16:15 → 19:20 | fenêtre=75min
+   1) 16:15 | laliga2 | Cadiz vs Almeria | O15_FT | odd=1.3
+   2) 16:15 | laliga | Sevilla vs Girona | O15_FT | odd=1.33
+   3) 16:30 | super league switzerland | Lausanne vs FC ST. Gallen | O15_FT | odd=1.2
+   4) 17:30 | premier league | Liverpool vs Manchester City | O15_FT | odd=1.15
+
+🧩 Tranche scan: idx=6 | next_window_start=19:20
+   tranche_seed: 20:30 → 22:00
+
+   merge_until: j=6 | merged_in_window=6
+     - ok_window(after_perf_if_SYSTEM): 4
+     - perf_reject: 2
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 2.33
+
+       PERF_REJECT: 21:00 | laliga2 | Malaga vs Cultural Leonesa | TEAM1_WIN_FT | odd=1.75
+       PERF_REJECT: 21:00 | liga profesional argentina | Sarmiento Junin vs Atletico Tucuman | O15_FT | odd=1.55
+
+✅ Ticket: tranche=4 | cote=2.33 | 20:30 → 23:20 | fenêtre=60min
+   1) 20:30 | scottish cup | Stenhousemuir vs Falkirk | O15_FT | odd=1.25
+   2) 21:00 | laliga2 | Malaga vs Cultural Leonesa | O15_FT | odd=1.36
+   3) 21:00 | laliga | Valencia vs Real Madrid | O15_FT | odd=1.17
+   4) 21:30 | liga portugal | Benfica vs Alverca | O15_FT | odd=1.17
+
+📌 FIN JOURNÉE
+------------------
+- tickets_built: 4
+- next_window_start: 23:20
+
+MAESTRO — RANDOM — 2026-02-08
+========================================
+- picks_total: 61
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 10.79
+- threshold_used: 2.15 (target=2.15, fallback=1.7)
+
+🧩 Tranche scan: idx=0 | next_window_start=02:05
+   tranche_seed: 02:05 → 03:35
+
+   merge_until: j=0 | merged_in_window=5
+     - ok_window(after_perf_if_SYSTEM): 5
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 4.34
+
+✅ Ticket: tranche=1 | cote=2.51 | 02:05 → 04:20 | fenêtre=25min
+   1) 02:05 | liga mx | Atlas vs U.N.A.M. - Pumas | O15_FT | odd=1.42
+   2) 02:06 | liga mx | Pachuca vs FC Juarez | O15_FT | odd=1.33
+   3) 02:30 | primera a colombia | Junior vs Chico | O15_FT | odd=1.33
+
+🧩 Tranche scan: idx=2 | next_window_start=04:20
+   tranche_seed: 12:15 → 13:45
+
+   merge_until: j=2 | merged_in_window=9
+     - ok_window(after_perf_if_SYSTEM): 9
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 2.99
+
+✅ Ticket: tranche=2 | cote=2.54 | 12:15 → 15:20 | fenêtre=75min
+   1) 12:15 | eredivisie | Utrecht vs Feyenoord | O15_FT | odd=1.25
+   2) 13:30 | 2. bundesliga | Arminia Bielefeld vs Eintracht Braunschweig | O15_FT | odd=1.3
+   3) 13:30 | 2. bundesliga | Hannover 96 vs Holstein Kiel | O15_FT | odd=1.3
+   4) 13:30 | 2. bundesliga | Karlsruher SC vs Fortuna Düsseldorf | O15_FT | odd=1.2
+
+🧩 Tranche scan: idx=4 | next_window_start=15:20
+   tranche_seed: 16:00 → 17:30
+
+   merge_until: j=4 | merged_in_window=15
+     - ok_window(after_perf_if_SYSTEM): 15
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 3.57
+
+✅ Ticket: tranche=3 | cote=2.35 | 16:15 → 19:20 | fenêtre=75min
+   1) 16:15 | laliga | Athletic Club vs Levante | O15_FT | odd=1.28
+   2) 16:15 | laliga | Sevilla vs Girona | O15_FT | odd=1.33
+   3) 16:30 | super league switzerland | Lausanne vs FC ST. Gallen | O15_FT | odd=1.2
+   4) 17:30 | premier league | Liverpool vs Manchester City | O15_FT | odd=1.15
+
+🧩 Tranche scan: idx=6 | next_window_start=19:20
+   tranche_seed: 20:00 → 21:30
+
+   merge_until: j=6 | merged_in_window=8
+     - ok_window(after_perf_if_SYSTEM): 8
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 5.6
+
+✅ Ticket: tranche=4 | cote=2.19 | 20:00 → 23:20 | fenêtre=90min
+   1) 20:00 | primera a colombia | Fortaleza FC vs America de Cali | O15_FT | odd=1.5
+   2) 20:30 | scottish cup | Stenhousemuir vs Falkirk | O15_FT | odd=1.25
+   3) 21:30 | liga portugal | Benfica vs Alverca | O15_FT | odd=1.17
+
+📌 FIN JOURNÉE
+------------------
+- tickets_built: 4
+- next_window_start: 23:20
+
+RUN SUMMARY
+- system_tickets: 4 | o15_tickets: 4
+----------------------------------------
+

@@ -1,0 +1,459 @@
+RUN MAESTROLOGUE — 2026-02-22 02:23:15
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTROLOGUE — Décision finale 3L vs 4L (SYSTEM)
+----------------------------------------------
+- règle: préférer 3L si écart <= 3.00%
+- best3_score: —
+- best4_score: —
+- écart relatif: —
+=> choisi: aucun (aucune combinaison valide)
+
+Aperçu ticket non retenu
+------------------------
+- (aucun ticket alternatif)
+
+MAESTROLOGUE — Décision finale 3L vs 4L (SYSTEM)
+----------------------------------------------
+- règle: préférer 3L si écart <= 3.00%
+- best3_score: 0.788 (78.8%)
+- best4_score: 0.765 (76.5%)
+- écart relatif: 3.10%
+=> choisi: 3 legs | score=0.788 (78.8%) | meilleur score retenu
+
+Aperçu ticket non retenu
+------------------------
+- legs: 4 | score=0.765 (76.5%)
+  1) 11:30 | super lig | Kayserispor vs Antalyaspor | O15_FT | odd=1.36
+  2) 12:15 | eredivisie | Twente vs Groningen | O15_FT | odd=1.18
+  3) 12:30 | serie a italia | Genoa vs Torino | O15_FT | odd=1.42
+  4) 13:00 | czech first league | Bohemians 1905 vs Dukla Praha | O15_FT | odd=1.36
+
+MAESTROLOGUE — Détail du score (ticket choisi)
+------------------------------------------
+- score ticket: 0.788 (78.8%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 12:15 | eredivisie | Twente vs Groningen | bet=O15_FT | odd=1.18
+   HOME Twente: wr=0.80 dec=5 coef=1.000 => adj=0.800 (80.0%)
+   AWAY Groningen: wr=0.80 dec=5 coef=1.000 => adj=0.800 (80.0%)
+   MEAN match: 0.800 (80.0%)
+
+2) 12:30 | serie a italia | Genoa vs Torino | bet=O15_FT | odd=1.42
+   HOME Genoa: wr=0.86 dec=7 coef=1.000 => adj=0.857 (85.7%)
+   AWAY Torino: wr=0.86 dec=7 coef=1.000 => adj=0.857 (85.7%)
+   MEAN match: 0.857 (85.7%)
+
+3) 13:00 | czech first league | Bohemians 1905 vs Dukla Praha | bet=O15_FT | odd=1.36
+   HOME Bohemians 1905: wr=1.00 dec=3 coef=0.850 => adj=0.850 (85.0%)
+   AWAY Dukla Praha: wr=0.67 dec=3 coef=0.850 => adj=0.567 (56.7%)
+   MEAN match: 0.708 (70.8%)
+
+
+MAESTROLOGUE — Décision finale 3L vs 4L (SYSTEM)
+----------------------------------------------
+- règle: préférer 3L si écart <= 3.00%
+- best3_score: 0.787 (78.7%)
+- best4_score: 0.876 (87.6%)
+- écart relatif: 10.17%
+=> choisi: 4 legs | score=0.876 (87.6%) | meilleur score retenu
+
+Aperçu ticket non retenu
+------------------------
+- legs: 3 | score=0.787 (78.7%)
+  1) 16:00 | pro league | RAAL La Louvière vs KV Mechelen | O15_FT | odd=1.3
+  2) 16:15 | laliga2 | FC Andorra vs Zaragoza | O15_FT | odd=1.4
+  3) 16:30 | liga portugal 2 | Portimonense vs Academico Viseu | O15_FT | odd=1.3
+
+MAESTROLOGUE — Détail du score (ticket choisi)
+------------------------------------------
+- score ticket: 0.876 (87.6%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 16:00 | pro league | RAAL La Louvière vs KV Mechelen | bet=O15_FT | odd=1.3
+   HOME RAAL La Louvière: wr=0.80 dec=5 coef=1.000 => adj=0.800 (80.0%)
+   AWAY KV Mechelen: wr=0.80 dec=5 coef=1.000 => adj=0.800 (80.0%)
+   MEAN match: 0.800 (80.0%)
+
+2) 16:15 | laliga2 | FC Andorra vs Zaragoza | bet=O15_FT | odd=1.4
+   HOME FC Andorra: wr=1.00 dec=6 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Zaragoza: wr=0.71 dec=7 coef=1.000 => adj=0.714 (71.4%)
+   MEAN match: 0.857 (85.7%)
+
+3) 16:30 | super league switzerland | FC Luzern vs FC Basel 1893 | bet=O15_FT | odd=1.17
+   HOME FC Luzern: wr=0.83 dec=6 coef=1.000 => adj=0.833 (83.3%)
+   AWAY FC Basel 1893: wr=1.00 dec=5 coef=1.000 => adj=1.000 (100.0%)
+   MEAN match: 0.917 (91.7%)
+
+4) 16:30 | super league switzerland | FC Lugano vs Lausanne | bet=O15_FT | odd=1.2
+   HOME FC Lugano: wr=1.00 dec=6 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Lausanne: wr=0.86 dec=7 coef=1.000 => adj=0.857 (85.7%)
+   MEAN match: 0.929 (92.9%)
+
+
+MAESTROLOGUE — Décision finale 3L vs 4L (SYSTEM)
+----------------------------------------------
+- règle: préférer 3L si écart <= 3.00%
+- best3_score: 0.899 (89.9%)
+- best4_score: —
+- écart relatif: —
+=> choisi: 3 legs | score=0.899 (89.9%) | meilleur score retenu
+
+Aperçu ticket non retenu
+------------------------
+- (aucun ticket alternatif)
+
+MAESTROLOGUE — Détail du score (ticket choisi)
+------------------------------------------
+- score ticket: 0.899 (89.9%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 19:00 | liga portugal | Estoril vs GIL Vicente | bet=O15_FT | odd=1.3
+   HOME Estoril: wr=1.00 dec=5 coef=1.000 => adj=1.000 (100.0%)
+   AWAY GIL Vicente: wr=1.00 dec=6 coef=1.000 => adj=1.000 (100.0%)
+   MEAN match: 1.000 (100.0%)
+
+2) 19:00 | liga portugal 2 | Lusitânia Lourosa vs Feirense | bet=O15_FT | odd=1.4
+   HOME Lusitânia Lourosa: wr=1.00 dec=5 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Feirense: wr=0.67 dec=6 coef=1.000 => adj=0.667 (66.7%)
+   MEAN match: 0.833 (83.3%)
+
+3) 19:15 | pro league | KVC Westerlo vs Charleroi | bet=O15_FT | odd=1.22
+   HOME KVC Westerlo: wr=0.80 dec=5 coef=1.000 => adj=0.800 (80.0%)
+   AWAY Charleroi: wr=1.00 dec=4 coef=0.925 => adj=0.925 (92.5%)
+   MEAN match: 0.863 (86.2%)
+
+
+MAESTROLOGUE — SYSTEM — 2026-02-22
+========================================
+- picks_total: 65
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 5.69
+- threshold_used: 2.2 (target=2.2, fallback=1.7)
+
+Tranche scan: idx=0 | next_window_start=01:00
+  tranche_seed: 01:00 → 02:30
+
+  merge_until: j=0 | merged_in_window=12
+    - ok_window(after_perf_if_SYSTEM): 3
+    - perf_reject: 9
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 2.1
+
+      PERF_REJECT: 01:00 | liga pro ecuador | Universidad Catolica vs Emelec | O15_FT | odd=1.24 || LEAGUE_BET_NO_DATA | league=liga pro ecuador bet=O15_FT decided=0 (require_data=True)
+      PERF_REJECT: 01:30 | mls | Vancouver Whitecaps vs Real Salt Lake | TEAM2_SCORE_FT | odd=1.53 || LEAGUE_BET_NO_DATA | league=mls bet=TEAM2_SCORE_FT decided=0 (require_data=True)
+      PERF_REJECT: 01:30 | mls | DC United vs Philadelphia Union | O15_FT | odd=1.28 || LEAGUE_BET_NO_DATA | league=mls bet=O15_FT decided=0 (require_data=True)
+      PERF_REJECT: 01:30 | mls | DC United vs Philadelphia Union | TEAM2_SCORE_FT | odd=1.22 || LEAGUE_BET_NO_DATA | league=mls bet=TEAM2_SCORE_FT decided=0 (require_data=True)
+      PERF_REJECT: 01:30 | mls | Vancouver Whitecaps vs Real Salt Lake | O15_FT | odd=1.18 || LEAGUE_BET_NO_DATA | league=mls bet=O15_FT decided=0 (require_data=True)
+      PERF_REJECT: 02:30 | mls | Austin vs Minnesota United FC | O15_FT | odd=1.3 || LEAGUE_BET_NO_DATA | league=mls bet=O15_FT decided=0 (require_data=True)
+      PERF_REJECT: 02:30 | mls | FC Dallas vs Toronto FC | O15_FT | odd=1.25 || LEAGUE_BET_NO_DATA | league=mls bet=O15_FT decided=0 (require_data=True)
+      PERF_REJECT: 02:30 | mls | Houston Dynamo vs Chicago Fire | O15_FT | odd=1.22 || LEAGUE_BET_NO_DATA | league=mls bet=O15_FT decided=0 (require_data=True)
+      PERF_REJECT: 02:30 | mls | FC Dallas vs Toronto FC | TEAM1_SCORE_FT | odd=1.18 || LEAGUE_BET_NO_DATA | league=mls bet=TEAM1_SCORE_FT decided=0 (require_data=True)
+
+  Aucune combinaison trouvée (recherche épuisée).
+
+Tranche scan: idx=1 | next_window_start=01:00
+  tranche_seed: 03:30 → 05:00
+
+  merge_until: j=1 | merged_in_window=5
+    - ok_window(after_perf_if_SYSTEM): 1
+    - perf_reject: 4
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 1.28
+
+      PERF_REJECT: 03:30 | mls | Los Angeles FC vs Inter Miami | O15_FT | odd=1.15 || LEAGUE_BET_NO_DATA | league=mls bet=O15_FT decided=0 (require_data=True)
+      PERF_REJECT: 04:30 | mls | Portland Timbers vs Columbus Crew | TEAM2_SCORE_FT | odd=1.2 || LEAGUE_BET_NO_DATA | league=mls bet=TEAM2_SCORE_FT decided=0 (require_data=True)
+      PERF_REJECT: 04:30 | mls | Portland Timbers vs Columbus Crew | O15_FT | odd=1.18 || LEAGUE_BET_NO_DATA | league=mls bet=O15_FT decided=0 (require_data=True)
+      PERF_REJECT: 04:30 | mls | San Diego vs CF Montreal | O15_FT | odd=1.18 || LEAGUE_BET_NO_DATA | league=mls bet=O15_FT decided=0 (require_data=True)
+
+  merge_until: j=2 | merged_in_window=10
+    - ok_window(after_perf_if_SYSTEM): 5
+    - perf_reject: 5
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 3.36
+
+      PERF_REJECT: 03:30 | mls | Los Angeles FC vs Inter Miami | O15_FT | odd=1.15 || LEAGUE_BET_NO_DATA | league=mls bet=O15_FT decided=0 (require_data=True)
+      PERF_REJECT: 04:30 | mls | Portland Timbers vs Columbus Crew | TEAM2_SCORE_FT | odd=1.2 || LEAGUE_BET_NO_DATA | league=mls bet=TEAM2_SCORE_FT decided=0 (require_data=True)
+      PERF_REJECT: 04:30 | mls | Portland Timbers vs Columbus Crew | O15_FT | odd=1.18 || LEAGUE_BET_NO_DATA | league=mls bet=O15_FT decided=0 (require_data=True)
+      PERF_REJECT: 04:30 | mls | San Diego vs CF Montreal | O15_FT | odd=1.18 || LEAGUE_BET_NO_DATA | league=mls bet=O15_FT decided=0 (require_data=True)
+      PERF_REJECT: 13:00 | championship | Sheffield Utd vs Sheffield Wednesday | TEAM1_WIN_FT | odd=1.16 || GLOBAL_BET_LOW_SR | fam=TEAM1_WIN_FT wr=0.65 decided=20 (min_wr=0.70)
+
+Ticket: tranche=1 | cote=2.28 | 12:15 → 14:50 | fenêtre=45min
+  1) 12:15 | eredivisie | Twente vs Groningen | O15_FT | odd=1.18
+  2) 12:30 | serie a italia | Genoa vs Torino | O15_FT | odd=1.42
+  3) 13:00 | czech first league | Bohemians 1905 vs Dukla Praha | O15_FT | odd=1.36
+
+Tranche scan: idx=4 | next_window_start=14:50
+  tranche_seed: 15:30 → 17:00
+
+  merge_until: j=4 | merged_in_window=8
+    - ok_window(after_perf_if_SYSTEM): 8
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 2.89
+
+Ticket: tranche=2 | cote=2.56 | 16:00 → 18:20 | fenêtre=30min
+  1) 16:00 | pro league | RAAL La Louvière vs KV Mechelen | O15_FT | odd=1.3
+  2) 16:15 | laliga2 | FC Andorra vs Zaragoza | O15_FT | odd=1.4
+  3) 16:30 | super league switzerland | FC Luzern vs FC Basel 1893 | O15_FT | odd=1.17
+  4) 16:30 | super league switzerland | FC Lugano vs Lausanne | O15_FT | odd=1.2
+
+Tranche scan: idx=6 | next_window_start=18:20
+  tranche_seed: 19:00 → 20:30
+
+  merge_until: j=6 | merged_in_window=5
+    - ok_window(after_perf_if_SYSTEM): 3
+    - perf_reject: 2
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 2.22
+
+      PERF_REJECT: 19:00 | liga pro ecuador | Macara vs Leones del Norte | O15_FT | odd=1.38 || LEAGUE_BET_NO_DATA | league=liga pro ecuador bet=O15_FT decided=0 (require_data=True)
+      PERF_REJECT: 19:30 | bundesliga | 1. FC Heidenheim vs VfB Stuttgart | TEAM2_WIN_FT | odd=1.71 || GLOBAL_BET_LOW_SR | fam=TEAM2_WIN_FT wr=0.67 decided=30 (min_wr=0.70)
+
+Ticket: tranche=3 | cote=2.22 | 19:00 → 21:05 | fenêtre=15min
+  1) 19:00 | liga portugal | Estoril vs GIL Vicente | O15_FT | odd=1.3
+  2) 19:00 | liga portugal 2 | Lusitânia Lourosa vs Feirense | O15_FT | odd=1.4
+  3) 19:15 | pro league | KVC Westerlo vs Charleroi | O15_FT | odd=1.22
+
+FIN JOURNÉE
+------------------
+- tickets_built: 3
+- next_window_start: 21:05
+
+MAESTROLOGUE — Décision finale 3L vs 4L (RANDOM)
+----------------------------------------------
+- règle: préférer 3L si écart <= 3.00%
+- best3_score: 0.396 (39.6%)
+- best4_score: 0.297 (29.7%)
+- écart relatif: 33.33%
+=> choisi: 3 legs | score=0.396 (39.6%) | meilleur score retenu
+
+Aperçu ticket non retenu
+------------------------
+- legs: 4 | score=0.297 (29.7%)
+  1) 00:20 | primera a colombia | Atletico Nacional vs Alianza Valledupar | O15_FT | odd=1.25
+  2) 01:30 | mls | Orlando City SC vs New York Red Bulls | O15_FT | odd=1.25
+  3) 01:30 | liga profesional argentina | Central Cordoba de Santiago vs Tigre | O15_FT | odd=1.67
+  4) 01:30 | mls | DC United vs Philadelphia Union | O15_FT | odd=1.28
+
+MAESTROLOGUE — Détail du score (ticket choisi, RANDOM)
+------------------------------------------------------
+- score ticket: 0.396 (39.6%)
+- formule: wr_adj = wr(league x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 00:20 | primera a colombia | Atletico Nacional vs Alianza Valledupar | bet=O15_FT | odd=1.25
+   LEAGUE primera a colombia: wr=0.70 dec=43 coef=1.000 => adj=0.698 (69.8%)
+
+2) 01:30 | mls | Orlando City SC vs New York Red Bulls | bet=O15_FT | odd=1.25
+   LEAGUE mls: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+
+3) 01:30 | liga profesional argentina | Central Cordoba de Santiago vs Tigre | bet=O15_FT | odd=1.67
+   LEAGUE liga profesional argentina: wr=0.49 dec=61 coef=1.000 => adj=0.492 (49.2%)
+
+
+MAESTROLOGUE — Décision finale 3L vs 4L (RANDOM)
+----------------------------------------------
+- règle: préférer 3L si écart <= 3.00%
+- best3_score: 0.827 (82.7%)
+- best4_score: 0.808 (80.8%)
+- écart relatif: 2.38%
+=> choisi: 3 legs | score=0.827 (82.7%) | 4L pas assez supérieur => 3L préféré
+
+Aperçu ticket non retenu
+------------------------
+- legs: 4 | score=0.808 (80.8%)
+  1) 11:30 | super lig | Kayserispor vs Antalyaspor | O15_FT | odd=1.36
+  2) 12:15 | eredivisie | Twente vs Groningen | O15_FT | odd=1.18
+  3) 12:30 | serie a italia | Genoa vs Torino | O15_FT | odd=1.42
+  4) 13:00 | czech first league | Bohemians 1905 vs Dukla Praha | O15_FT | odd=1.36
+
+MAESTROLOGUE — Détail du score (ticket choisi, RANDOM)
+------------------------------------------------------
+- score ticket: 0.827 (82.7%)
+- formule: wr_adj = wr(league x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 11:30 | super lig | Kayserispor vs Antalyaspor | bet=O15_FT | odd=1.36
+   LEAGUE super lig: wr=0.87 dec=39 coef=1.000 => adj=0.872 (87.2%)
+
+2) 12:15 | eredivisie | Twente vs Groningen | bet=O15_FT | odd=1.18
+   LEAGUE eredivisie: wr=0.85 dec=52 coef=1.000 => adj=0.846 (84.6%)
+
+3) 12:30 | serie a italia | Genoa vs Torino | bet=O15_FT | odd=1.42
+   LEAGUE serie a italia: wr=0.76 dec=76 coef=1.000 => adj=0.763 (76.3%)
+
+
+MAESTROLOGUE — Décision finale 3L vs 4L (RANDOM)
+----------------------------------------------
+- règle: préférer 3L si écart <= 3.00%
+- best3_score: 0.835 (83.5%)
+- best4_score: 0.857 (85.7%)
+- écart relatif: 2.61%
+=> choisi: 3 legs | score=0.835 (83.5%) | 4L pas assez supérieur => 3L préféré
+
+Aperçu ticket non retenu
+------------------------
+- legs: 4 | score=0.857 (85.7%)
+  1) 15:30 | bundesliga | SC Freiburg vs Borussia Mönchengladbach | O15_FT | odd=1.28
+  2) 16:15 | laliga2 | FC Andorra vs Zaragoza | O15_FT | odd=1.4
+  3) 16:30 | super league switzerland | FC Luzern vs FC Basel 1893 | O15_FT | odd=1.17
+  4) 16:30 | super league switzerland | FC Lugano vs Lausanne | O15_FT | odd=1.2
+
+MAESTROLOGUE — Détail du score (ticket choisi, RANDOM)
+------------------------------------------------------
+- score ticket: 0.835 (83.5%)
+- formule: wr_adj = wr(league x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 15:30 | czech first league | Teplice vs Sigma Olomouc | bet=O15_FT | odd=1.5
+   LEAGUE czech first league: wr=0.75 dec=24 coef=1.000 => adj=0.750 (75.0%)
+
+2) 15:30 | bundesliga | SC Freiburg vs Borussia Mönchengladbach | bet=O15_FT | odd=1.28
+   LEAGUE bundesliga: wr=0.87 dec=61 coef=1.000 => adj=0.869 (86.9%)
+
+3) 16:30 | super league switzerland | FC Luzern vs FC Basel 1893 | bet=O15_FT | odd=1.17
+   LEAGUE super league switzerland: wr=0.89 dec=35 coef=1.000 => adj=0.886 (88.6%)
+
+
+MAESTROLOGUE — Décision finale 3L vs 4L (RANDOM)
+----------------------------------------------
+- règle: préférer 3L si écart <= 3.00%
+- best3_score: 0.758 (75.8%)
+- best4_score: 0.785 (78.5%)
+- écart relatif: 3.54%
+=> choisi: 4 legs | score=0.785 (78.5%) | meilleur score retenu
+
+Aperçu ticket non retenu
+------------------------
+- legs: 3 | score=0.758 (75.8%)
+  1) 19:00 | liga portugal 2 | Lusitânia Lourosa vs Feirense | O15_FT | odd=1.4
+  2) 19:00 | liga portugal | Estoril vs GIL Vicente | O15_FT | odd=1.3
+  3) 19:15 | pro league | KVC Westerlo vs Charleroi | O15_FT | odd=1.22
+
+MAESTROLOGUE — Détail du score (ticket choisi, RANDOM)
+------------------------------------------------------
+- score ticket: 0.785 (78.5%)
+- formule: wr_adj = wr(league x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 19:00 | liga portugal | Estoril vs GIL Vicente | bet=O15_FT | odd=1.3
+   LEAGUE liga portugal: wr=0.79 dec=53 coef=1.000 => adj=0.792 (79.2%)
+
+2) 19:00 | liga portugal 2 | Lusitânia Lourosa vs Feirense | bet=O15_FT | odd=1.4
+   LEAGUE liga portugal 2: wr=0.70 dec=56 coef=1.000 => adj=0.696 (69.6%)
+
+3) 19:15 | pro league | KVC Westerlo vs Charleroi | bet=O15_FT | odd=1.22
+   LEAGUE pro league: wr=0.78 dec=37 coef=1.000 => adj=0.784 (78.4%)
+
+4) 19:30 | bundesliga | 1. FC Heidenheim vs VfB Stuttgart | bet=O15_FT | odd=1.17
+   LEAGUE bundesliga: wr=0.87 dec=61 coef=1.000 => adj=0.869 (86.9%)
+
+
+MAESTROLOGUE — RANDOM — 2026-02-22
+========================================
+- picks_total: 79
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 7.03
+- threshold_used: 2.2 (target=2.2, fallback=1.7)
+
+Tranche scan: idx=0 | next_window_start=00:20
+  tranche_seed: 00:20 → 01:50
+
+  merge_until: j=0 | merged_in_window=6
+    - ok_window(after_perf_if_SYSTEM): 6
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 3.34
+
+Ticket: tranche=1 | cote=2.61 | 00:20 → 03:20 | fenêtre=70min
+  1) 00:20 | primera a colombia | Atletico Nacional vs Alianza Valledupar | O15_FT | odd=1.25
+  2) 01:30 | mls | Orlando City SC vs New York Red Bulls | O15_FT | odd=1.25
+  3) 01:30 | liga profesional argentina | Central Cordoba de Santiago vs Tigre | O15_FT | odd=1.67
+
+Tranche scan: idx=2 | next_window_start=03:20
+  tranche_seed: 04:05 → 05:35
+
+  merge_until: j=2 | merged_in_window=3
+    - ok_window(after_perf_if_SYSTEM): 3
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 1.78
+
+  merge_until: j=3 | merged_in_window=4
+    - ok_window(after_perf_if_SYSTEM): 4
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 2.17
+
+  merge_until: j=4 | merged_in_window=9
+    - ok_window(after_perf_if_SYSTEM): 9
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 3.57
+
+Ticket: tranche=2 | cote=2.28 | 11:30 → 14:20 | fenêtre=60min
+  1) 11:30 | super lig | Kayserispor vs Antalyaspor | O15_FT | odd=1.36
+  2) 12:15 | eredivisie | Twente vs Groningen | O15_FT | odd=1.18
+  3) 12:30 | serie a italia | Genoa vs Torino | O15_FT | odd=1.42
+
+Tranche scan: idx=6 | next_window_start=14:20
+  tranche_seed: 15:30 → 17:00
+
+  merge_until: j=6 | merged_in_window=10
+    - ok_window(after_perf_if_SYSTEM): 10
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 3.55
+
+Ticket: tranche=3 | cote=2.25 | 15:30 → 18:20 | fenêtre=60min
+  1) 15:30 | czech first league | Teplice vs Sigma Olomouc | O15_FT | odd=1.5
+  2) 15:30 | bundesliga | SC Freiburg vs Borussia Mönchengladbach | O15_FT | odd=1.28
+  3) 16:30 | super league switzerland | FC Luzern vs FC Basel 1893 | O15_FT | odd=1.17
+
+Tranche scan: idx=8 | next_window_start=18:20
+  tranche_seed: 19:00 → 20:30
+
+  merge_until: j=8 | merged_in_window=5
+    - ok_window(after_perf_if_SYSTEM): 5
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 3.06
+
+Ticket: tranche=4 | cote=2.6 | 19:00 → 21:20 | fenêtre=30min
+  1) 19:00 | liga portugal | Estoril vs GIL Vicente | O15_FT | odd=1.3
+  2) 19:00 | liga portugal 2 | Lusitânia Lourosa vs Feirense | O15_FT | odd=1.4
+  3) 19:15 | pro league | KVC Westerlo vs Charleroi | O15_FT | odd=1.22
+  4) 19:30 | bundesliga | 1. FC Heidenheim vs VfB Stuttgart | O15_FT | odd=1.17
+
+Tranche scan: idx=10 | next_window_start=21:20
+  tranche_seed: 23:15 → 00:45
+
+  merge_until: j=10 | merged_in_window=1
+    - ok_window(after_perf_if_SYSTEM): 1
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 1.5
+
+  Impossible d'atteindre threshold=2.2 dans cette fenêtre (même après merge).
+
+FIN JOURNÉE
+------------------
+- tickets_built: 4
+- next_window_start: 21:20
+
+RUN SUMMARY
+- system_tickets: 3 | o15_tickets: 4
+----------------------------------------
+

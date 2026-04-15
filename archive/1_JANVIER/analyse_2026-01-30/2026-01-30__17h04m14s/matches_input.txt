@@ -1,0 +1,31 @@
+2026-01-30 18:30 | 2. bundesliga | 1. FC Magdeburg vs Hannover 96
+2026-01-30 18:30 | 2. bundesliga | 1. FC Nürnberg vs Preußen Münster
+2026-01-30 20:30 | bundesliga | 1. FC Köln vs VfL Wolfsburg
+2026-01-30 21:00 | championship | Bristol City vs Derby
+2026-01-30 20:00 | eredivisie | NAC Breda vs Twente
+2026-01-30 21:00 | laliga | Espanyol vs Alaves
+2026-01-30 20:30 | laliga2 | Real Sociedad II vs Las Palmas
+2026-01-30 21:45 | liga portugal | Guimaraes vs Moreirense
+2026-01-30 19:45 | liga portugal 2 | Penafiel vs Leixoes
+2026-01-30 01:30 | liga profesional argentina | Estudiantes de Rio Cuarto vs Argentinos JRS
+2026-01-30 01:30 | liga profesional argentina | Sarmiento Junin vs Banfield
+2026-01-30 20:45 | ligue 1 | Lens vs Le Havre
+2026-01-30 20:00 | ligue 2 | Bastia vs Nancy
+2026-01-30 20:00 | ligue 2 | Clermont Foot vs Reims
+2026-01-30 20:00 | ligue 2 | Grenoble vs Amiens
+2026-01-30 20:00 | ligue 2 | Laval vs PAU
+2026-01-30 20:00 | ligue 2 | Montpellier vs Guingamp
+2026-01-30 20:00 | ligue 2 | Rodez vs RED Star FC 93
+2026-01-30 00:10 | primera a colombia | Jaguares vs Internacional de Bogota
+2026-01-30 02:20 | primera a colombia | America de Cali vs Once Caldas
+2026-01-30 00:15 | primera división paraguay | Rubio NU vs Deportivo Recoleta
+2026-01-30 20:45 | pro league | RAAL La Louvière vs Gent
+2026-01-30 14:50 | saudi arabia | Al Taawon vs Al Okhdood
+2026-01-30 18:30 | saudi arabia | Al Kholood vs Al-Nassr
+2026-01-30 18:30 | saudi arabia | NEOM vs Damac
+2026-01-30 00:00 | serie a brazil | Mirassol vs Vasco DA Gama
+2026-01-30 01:30 | serie a brazil | Botafogo vs Cruzeiro
+2026-01-30 20:45 | serie a italia | Lazio vs Genoa
+2026-01-30 20:30 | serie b | Bari vs Palermo
+2026-01-30 18:00 | super lig | Antalyaspor vs Trabzonspor
+2026-01-30 18:00 | super lig | Kasımpaşa vs Samsunspor

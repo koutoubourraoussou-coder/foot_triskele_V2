@@ -1,0 +1,169 @@
+RUN MAESTROLOGUE — 2026-04-08 20:53:27
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 6603 | valid_3L_found: 578 | valid_4L_found: 5429
+- top3_size: 10 | top4_size: 10
+
+TOP3 (desc):
+  TOP3[1/10]: score=0.797 (79.7%) | legs=3 | odd=2.41
+  TOP3[2/10]: score=0.769 (76.9%) | legs=3 | odd=2.47
+  TOP3[3/10]: score=0.768 (76.8%) | legs=3 | odd=2.66
+  TOP3[4/10]: score=0.756 (75.6%) | legs=3 | odd=2.53
+  TOP3[5/10]: score=0.735 (73.5%) | legs=3 | odd=2.53
+  TOP3[6/10]: score=0.721 (72.1%) | legs=3 | odd=2.41
+  TOP3[7/10]: score=0.711 (71.1%) | legs=3 | odd=2.64
+  TOP3[8/10]: score=0.709 (70.9%) | legs=3 | odd=2.5
+  TOP3[9/10]: score=0.708 (70.8%) | legs=3 | odd=2.47
+  TOP3[10/10]: score=0.663 (66.3%) | legs=3 | odd=2.59
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.778 (77.8%) | legs=4 | odd=3.01
+  TOP4[2/10]: score=0.777 (77.7%) | legs=4 | odd=2.89
+  TOP4[3/10]: score=0.777 (77.7%) | legs=4 | odd=3.25
+  TOP4[4/10]: score=0.776 (77.6%) | legs=4 | odd=2.53
+  TOP4[5/10]: score=0.776 (77.6%) | legs=4 | odd=2.84
+  TOP4[6/10]: score=0.775 (77.5%) | legs=4 | odd=2.73
+  TOP4[7/10]: score=0.768 (76.8%) | legs=4 | odd=3.08
+  TOP4[8/10]: score=0.767 (76.7%) | legs=4 | odd=2.69
+  TOP4[9/10]: score=0.766 (76.6%) | legs=4 | odd=2.59
+  TOP4[10/10]: score=0.766 (76.6%) | legs=4 | odd=2.91
+
+DRAW_3L: picked rank=7/10 | score=0.711 (71.1%) | odd=2.64
+DRAW_4L: picked rank=7/10 | score=0.768 (76.8%) | odd=3.08
+- écart relatif: 7.39%
+=> choisi: 3 legs | score=0.711 (71.1%) | final_source=HYBRID
+
+Ticket choisi (aperçu)
+----------------------
+  1) 03:30 | primera a colombia | Llaneros vs Once Caldas | HT1X_HOME | odd=1.38
+  2) 14:00 | international friendlies | Russia U21 vs Jordan U23 | HT05 | odd=1.43
+  3) 15:00 | international friendlies | Tunisia U20 vs Mauritania U20 | TEAM2_SCORE_FT | odd=1.34
+
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, HYBRID x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.711 (71.1%)
+- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 03:30 | primera a colombia | Llaneros vs Once Caldas | bet=HT1X_HOME | odd=1.38
+   HOME Llaneros: wr=0.95 dec=7 coef=1.000 => adj=0.954 (95.4%)
+   AWAY Once Caldas: wr=0.83 dec=6 coef=1.000 => adj=0.833 (83.3%)
+   MEAN match: 0.894 (89.4%)
+
+2) 14:00 | international friendlies | Russia U21 vs Jordan U23 | bet=HT05 | odd=1.43
+   HOME Russia U21: wr=0.98 dec=2 coef=0.775 => adj=0.758 (75.8%)
+   AWAY Jordan U23: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   MEAN match: 0.766 (76.6%)
+
+3) 15:00 | international friendlies | Tunisia U20 vs Mauritania U20 | bet=TEAM2_SCORE_FT | odd=1.34
+   HOME Tunisia U20: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+   AWAY Mauritania U20: wr=0.52 dec=2 coef=0.775 => adj=0.405 (40.5%)
+   MEAN match: 0.405 (40.5%)
+
+
+MAESTROLOGUE — SYSTEM — 2026-03-30
+========================================
+- picks_total: 12
+- unique_matches_day: 7
+- rich_day: False
+- max_windows_today: 1
+- windows_count: 1
+- target_odd: 2.4
+- min_accept_odd: 1.8
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 01:10 -> 20:45
+  - raw_window_picks: 12
+  - filtered_window_picks: 12
+  - ok_window: 12
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 3.57
+  - threshold_used_here: 2.4
+  - OK_WINDOW [SYSTEM] picks acceptés :
+    OK 01:10 Independiente Medellin vs America de Cali | TEAM1_SCORE_FT | odd=1.22 | poids=1.568
+    OK 03:30 Llaneros vs Once Caldas | HT1X_HOME | odd=1.38 | poids=1.754
+    OK 14:00 Russia U21 vs Jordan U23 | HT05 | odd=1.43 | poids=1.043
+    OK 14:00 Russia U21 vs Jordan U23 | O15_FT | odd=1.25 | poids=1.025
+    OK 15:00 Tunisia U20 vs Mauritania U20 | TEAM2_SCORE_FT | odd=1.34 | poids=1.034
+    OK 15:00 Tunisia U20 vs Mauritania U20 | HT05 | odd=1.25 | poids=1.025
+    OK 18:00 Cyprus vs Moldova | HT05 | odd=1.35 | poids=1.035
+    OK 18:00 Cyprus vs Moldova | O15_FT | odd=1.28 | poids=1.028
+    OK 18:00 Cyprus vs Moldova | TEAM1_SCORE_FT | odd=1.15 | poids=1.015
+    OK 18:30 Netherlands U21 vs Belgium U21 | HT1X_HOME | odd=1.28 | poids=1.028
+    OK 18:30 Netherlands U21 vs Belgium U21 | O15_FT | odd=1.18 | poids=1.018
+    OK 20:45 Germany vs Ghana | HT05 | odd=1.2 | poids=1.020
+Ticket: tranche=1 | cote=2.64 | seuil_local=2.4 | 03:30 → 16:50 | fenêtre=690min
+  1) 03:30 | primera a colombia | Llaneros vs Once Caldas | HT1X_HOME | odd=1.38
+  2) 14:00 | international friendlies | Russia U21 vs Jordan U23 | HT05 | odd=1.43
+  3) 15:00 | international friendlies | Tunisia U20 vs Mauritania U20 | TEAM2_SCORE_FT | odd=1.34
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1 / 1
+- next_window_start: 16:50
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 14552 | valid_3L_found: 0 | valid_4L_found: 0
+- top3_size: 0 | top4_size: 0
+- rejected_by_build_gate (approx): 46282
+
+TOP3 (desc):
+  (vide)
+
+TOP4 (desc):
+  (vide)
+
+DRAW_3L: (aucun)
+DRAW_4L: (aucun)
+- écart relatif: —
+=> choisi: aucun (aucune combinaison valide)
+
+MAESTROLOGUE — RANDOM — 2026-03-30
+========================================
+- picks_total: 5
+- unique_matches_day: 5
+- rich_day: False
+- max_windows_today: 1
+- windows_count: 1
+- target_odd: 2.4
+- min_accept_odd: 1.8
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 01:10 -> 18:30
+  - raw_window_picks: 5
+  - filtered_window_picks: 5
+  - ok_window: 5
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 2.76
+  - threshold_used_here: 2.4
+  - OK_WINDOW [RANDOM] picks acceptés :
+    OK 01:10 Independiente Medellin vs America de Cali | O15_FT | odd=1.38 | poids=1.000
+    OK 03:30 Llaneros vs Once Caldas | O15_FT | odd=1.25 | poids=1.000
+    OK 14:00 Russia U21 vs Jordan U23 | O15_FT | odd=1.25 | poids=1.000
+    OK 18:00 Cyprus vs Moldova | O15_FT | odd=1.28 | poids=1.000
+    OK 18:30 Netherlands U21 vs Belgium U21 | O15_FT | odd=1.18 | poids=1.000
+  -> ABANDON: aucune combinaison valide
+
+FIN JOURNÉE
+------------------
+- tickets_built: 0 / 1
+- next_window_start: 00:00
+
+RUN SUMMARY
+- system_tickets: 1 | o15_tickets: 0
+----------------------------------------
+

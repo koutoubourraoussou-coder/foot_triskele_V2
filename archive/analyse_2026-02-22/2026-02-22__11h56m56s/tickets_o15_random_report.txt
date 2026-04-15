@@ -1,0 +1,44 @@
+TICKETS TRISKÈLE — O15_RANDOM_ALL — depuis predictions.tsv
+==========================================================
+
+📅 Dimanche 2026-02-22 — Tranche 1 (fenêtre ~60min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-02-22_0130_6fabaca3a5_O15R — cote = 2.24 — fenêtre 01:30 → 04:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 01:30 | mls | DC United vs Philadelphia Union | Over 1.5 (FT) | FORT PLUS | odd=1.38
+  2) 02:30 | mls | Austin vs Minnesota United FC | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3
+  3) 02:30 | mls | FC Dallas vs Toronto FC | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+
+📅 Dimanche 2026-02-22 — Tranche 2 (fenêtre ~60min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-02-22_1130_63542f7d7b_O15R — cote = 2.31 — fenêtre 11:30 → 14:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 11:30 | super lig | Kayserispor vs Antalyaspor | Over 1.5 (FT) | FORT PLUS | odd=1.38
+  2) 12:15 | eredivisie | Twente vs Groningen | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  3) 12:30 | serie a italia | Genoa vs Torino | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.42
+
+📅 Dimanche 2026-02-22 — Tranche 3 (fenêtre ~60min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-02-22_1530_76b54a9b13_O15R — cote = 2.25 — fenêtre 15:30 → 18:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 15:30 | bundesliga | SC Freiburg vs Borussia Mönchengladbach | Over 1.5 (FT) | MOYEN PLUS | odd=1.28
+  2) 16:00 | pro league | RAAL La Louvière vs KV Mechelen | Over 1.5 (FT) | EXPLOSION | odd=1.25
+  3) 16:30 | super league switzerland | FC Luzern vs FC Basel 1893 | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
+  4) 16:30 | super league switzerland | FC Lugano vs Lausanne | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+
+📅 Dimanche 2026-02-22 — Tranche 4 (fenêtre ~30min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-02-22_1900_458d770219_O15R — cote = 2.63 — fenêtre 19:00 → 21:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 19:00 | liga portugal | Estoril vs GIL Vicente | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.28
+  2) 19:00 | liga portugal 2 | Lusitânia Lourosa vs Feirense | Over 1.5 (FT) | KO | odd=1.44
+  3) 19:15 | pro league | KVC Westerlo vs Charleroi | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  4) 19:30 | bundesliga | 1. FC Heidenheim vs VfB Stuttgart | Over 1.5 (FT) | MOYEN PLUS | odd=1.17

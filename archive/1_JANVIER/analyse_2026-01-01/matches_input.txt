@@ -1,0 +1,18 @@
+2026-01-01 13:30 | championship | Blackburn vs Wrexham
+2026-01-01 16:00 | championship | Bristol City vs Portsmouth
+2026-01-01 16:00 | championship | Charlton vs Coventry
+2026-01-01 16:00 | championship | Derby vs Middlesbrough
+2026-01-01 16:00 | championship | Hull City vs Stoke City
+2026-01-01 16:00 | championship | Ipswich vs Oxford United
+2026-01-01 16:00 | championship | Preston vs Sheffield Wednesday
+2026-01-01 16:00 | championship | QPR vs Norwich
+2026-01-01 16:00 | championship | Southampton vs Millwall
+2026-01-01 16:00 | championship | Swansea vs West Brom
+2026-01-01 16:00 | championship | Watford vs Birmingham
+2026-01-01 18:30 | championship | Sheffield Utd vs Leicester
+2026-01-01 13:30 | cymru premier league | Colwyn Bay vs Flint Town United
+2026-01-01 15:00 | cymru premier league | llanelli AFC vs Penybont
+2026-01-01 18:30 | premier league | Crystal Palace vs Fulham
+2026-01-01 18:30 | premier league | Liverpool vs Leeds
+2026-01-01 21:00 | premier league | Brentford vs Tottenham
+2026-01-01 21:00 | premier league | Sunderland vs Manchester City

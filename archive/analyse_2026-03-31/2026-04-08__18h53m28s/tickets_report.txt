@@ -1,0 +1,43 @@
+TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
+==================================================
+
+📅 Mardi 2026-03-31 — Tranche 1 (fenêtre ~600min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-31_0100_34edcb666b_SYS — cote = 2.42 — fenêtre 01:00 → 12:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 01:00 | international friendlies | USA vs Portugal | Team1 scores (FT) | MOYEN PLUS | odd=1.4
+  2) 03:20 | primera a colombia | Millonarios vs Fortaleza FC | Over 1.5 (FT) | TRÈS FORT | odd=1.3
+  3) 11:00 | international friendlies | Equatorial Guinea vs Madagascar | Over 1.5 (FT) | EXPLOSION | odd=1.33
+
+📅 Mardi 2026-03-31 — Tranche 2 (fenêtre ~115min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-03-31_1335_ec798bd5f0_SYS — cote = 2.44 — fenêtre 13:35 → 17:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 13:35 | international friendlies | China PR U20 vs Australia U20 | Team1 scores (FT) | FORT | odd=1.36
+  2) 15:00 | international friendlies | Costa Rica vs Iran | Over 1.5 (FT) | FORT | odd=1.4
+  3) 15:30 | international friendlies | India U23 vs Tajikistan U23 | Over 1.5 (FT) | FORT PLUS | odd=1.28
+
+📅 Mardi 2026-03-31 — Tranche 3 (fenêtre ~60min)
+-----------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-03-31_1800_aa5f5184a7_SYS — cote = 2.54 — fenêtre 18:00 → 20:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 18:00 | international friendlies | Montenegro vs Slovenia | HT 1X Home | FORT | odd=1.3
+  2) 18:00 | international friendlies | San Marino vs Andorra | Over 1.5 (FT) | TRÈS FORT | odd=1.5
+  3) 19:00 | international friendlies | Hungary vs Greece | HT 1X Home | FORT | odd=1.3
+
+📅 Mardi 2026-03-31 — Tranche 4 (fenêtre ~150min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-03-31_2100_a8cb963b47_SYS — cote = 2.43 — fenêtre 21:00 → 01:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 21:00 | international friendlies | Senegal vs Gambia | Over 1.5 (FT) | FORT PLUS | odd=1.2
+  2) 21:00 | international friendlies | Brazil U20 vs Paraguay U20 | Over 1.5 (FT) | EXPLOSION | odd=1.22
+  3) 21:00 | international friendlies | Burkina Faso vs Guinea-Bissau | Over 1.5 (FT) | FORT | odd=1.22
+  4) 23:30 | primera división paraguay | 2 de Mayo vs Nacional Asuncion | HT 1X Home | FORT | odd=1.36

@@ -1,0 +1,54 @@
+PARIS JOUABLES — Mardi 2026-04-14
+=================================
+
+02:30 | liga profesional argentina | Velez Sarsfield (4) vs Central Cordoba de Santiago (4)
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=1.05 fixture=1492027
+  - O15_FT | Over 1.5 (FT) | MOYEN PLUS | odd=1.4 fixture=1492027
+
+18:45 | superligaen | Ferencvarosi TC (1) vs Puskas Academy (7)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.3 fixture=1380326
+  - HT1X_HOME | HT 1X Home | FORT | odd=1.1 fixture=1380326
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2 fixture=1380326
+  - O25_FT | Over 2.5 (FT) | TRÈS FORT | odd=1.67 fixture=1380326
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.05 fixture=1380326
+  - U35_FT | Under 3.5 (FT) | FORT | odd=— fixture=1380326
+
+19:00 | serie b | Catanzaro (5) vs Modena (6)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.33 fixture=1419899
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3 fixture=1419899
+  - O25_FT | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.9 fixture=1419899
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.25 fixture=1419899
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=1.29 fixture=1419899
+
+20:00 | saudi arabia | Al-Qadisiyah FC (4) vs Al Shabab (12)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.2 fixture=1436168
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=1.17 fixture=1436168
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.1 fixture=1436168
+  - O25_FT | Over 2.5 (FT) | EXPLOSION | odd=1.33 fixture=1436168
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT | odd=1.06 fixture=1436168
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=1.29 fixture=1436168
+
+21:00 | championship | Portsmouth (19) vs Ipswich (2)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.42 fixture=1386857
+  - O15_FT | Over 1.5 (FT) | MOYEN PLUS | odd=1.38 fixture=1386857
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=1.25 fixture=1386857
+  - U35_FT | Under 3.5 (FT) | MEGA EXPLOSION | odd=— fixture=1386857
+
+21:00 | championship | Southampton (4) vs Blackburn (20)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.11 fixture=1387087
+  - O15_FT | Over 1.5 (FT) | MOYEN PLUS | odd=1.28 fixture=1387087
+  - U35_FT | Under 3.5 (FT) | MEGA EXPLOSION | odd=— fixture=1387087
+
+21:00 | uefa champions league | Atletico Madrid (14) vs Barcelona (5)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.18 fixture=1534910
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=1.6 fixture=1534910
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.1 fixture=1534910
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.22 fixture=1534910
+  - U35_FT | Under 3.5 (FT) | FORT | odd=— fixture=1534910
+
+21:00 | uefa champions league | Liverpool (3) vs Paris Saint Germain (11)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.18 fixture=1534912
+  - O15_FT | Over 1.5 (FT) | MOYEN PLUS | odd=1.11 fixture=1534912
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT | odd=1.17 fixture=1534912
+  - TEAM2_WIN_FT | Team2 wins (FT) | FORT PLUS | odd=2.62 fixture=1534912
+  - U35_FT | Under 3.5 (FT) | FORT | odd=— fixture=1534912

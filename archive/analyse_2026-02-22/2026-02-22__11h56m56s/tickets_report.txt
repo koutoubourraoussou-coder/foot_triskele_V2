@@ -1,0 +1,33 @@
+TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
+==================================================
+
+📅 Dimanche 2026-02-22 — Tranche 1 (fenêtre ~60min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-02-22_0130_a1ac21ac59_SYS — cote = 2.48 — fenêtre 01:30 → 04:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 01:30 | mls | DC United vs Philadelphia Union | Over 1.5 (FT) | FORT PLUS | odd=1.38
+  2) 02:00 | liga mx | Leon vs Santos Laguna | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  3) 02:30 | primera a colombia | Internacional de Bogota vs Millonarios | Over 1.5 (FT) | FORT PLUS | odd=1.5
+
+📅 Dimanche 2026-02-22 — Tranche 2 (fenêtre ~45min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-02-22_1215_04c4eb063f_SYS — cote = 2.28 — fenêtre 12:15 → 14:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 12:15 | eredivisie | Twente vs Groningen | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  2) 12:30 | serie a italia | Genoa vs Torino | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.42
+  3) 13:00 | czech first league | Bohemians 1905 vs Dukla Praha | Over 1.5 (FT) | EXPLOSION | odd=1.36
+
+📅 Dimanche 2026-02-22 — Tranche 3 (fenêtre ~30min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-02-22_1600_4916939b44_SYS — cote = 2.32 — fenêtre 16:00 → 18:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:00 | premiership | Livingston vs Rangers | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  2) 16:15 | laliga2 | FC Andorra vs Zaragoza | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.4
+  3) 16:30 | super league switzerland | FC Lugano vs Lausanne | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  4) 16:30 | super league switzerland | FC Luzern vs FC Basel 1893 | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17

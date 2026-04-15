@@ -1,0 +1,121 @@
+RUN MAESTRO — 2026-02-12 02:47:23
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTRO — SYSTEM — 2026-02-12
+========================================
+- picks_total: 8
+- base_spread: 180 min (rich=False)
+- day_max_possible_odd: 3.77
+- threshold_used: 2.15 (target=2.15, fallback=1.7)
+
+🧩 Tranche scan: idx=0 | next_window_start=01:30
+   tranche_seed: 01:30 → 04:30
+
+   merge_until: j=0 | merged_in_window=2
+     - ok_window(after_perf_if_SYSTEM): 1
+     - perf_reject: 1
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 1.5
+
+       PERF_REJECT: 01:30 | serie a brazil | Sao Paulo vs Gremio | O15_FT | odd=1.35
+
+   merge_until: j=1 | merged_in_window=6
+     - ok_window(after_perf_if_SYSTEM): 5
+     - perf_reject: 1
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 3.12
+
+       PERF_REJECT: 01:30 | serie a brazil | Sao Paulo vs Gremio | O15_FT | odd=1.35
+
+✅ Ticket: tranche=1 | cote=2.53 | 18:30 → 22:50 | fenêtre=150min
+   1) 18:30 | saudi arabia | Al-Hazm vs Al Okhdood | O15_FT | odd=1.33
+   2) 20:30 | super league switzerland | FC Sion vs FC Basel 1893 | O15_FT | odd=1.22
+   3) 20:30 | super league switzerland | FC Thun vs Lausanne | O15_FT | odd=1.22
+   4) 21:00 | premier league | Brentford vs Arsenal | O15_FT | odd=1.28
+
+🧩 Tranche scan: idx=2 | next_window_start=22:50
+   tranche_seed: 23:00 → 02:00
+
+   merge_until: j=2 | merged_in_window=2
+     - ok_window(after_perf_if_SYSTEM): 0
+     - perf_reject: 2
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 1
+
+       PERF_REJECT: 23:00 | serie a brazil | Atletico Paranaense vs Santos | O15_FT | odd=1.38
+       PERF_REJECT: 23:30 | serie a brazil | Fluminense vs Botafogo | O15_FT | odd=1.35
+
+   ❌ Impossible d'atteindre threshold=2.15 dans cette fenêtre (même après merge).
+
+📌 FIN JOURNÉE
+------------------
+- tickets_built: 1
+- next_window_start: 22:50
+
+MAESTRO — RANDOM — 2026-02-12
+========================================
+- picks_total: 14
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 5.3
+- threshold_used: 2.15 (target=2.15, fallback=1.7)
+
+🧩 Tranche scan: idx=0 | next_window_start=01:30
+   tranche_seed: 01:30 → 03:00
+
+   merge_until: j=0 | merged_in_window=3
+     - ok_window(after_perf_if_SYSTEM): 3
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 2.59
+
+✅ Ticket: tranche=1 | cote=2.59 | 01:30 → 04:20 | fenêtre=60min
+   1) 01:30 | serie a brazil | Vasco DA Gama vs Bahia | O15_FT | odd=1.28
+   2) 01:30 | serie a brazil | Sao Paulo vs Gremio | O15_FT | odd=1.35
+   3) 02:30 | primera a colombia | Internacional de Bogota vs Deportivo Cali | O15_FT | odd=1.5
+
+🧩 Tranche scan: idx=1 | next_window_start=04:20
+   tranche_seed: 16:45 → 18:15
+
+   merge_until: j=1 | merged_in_window=1
+     - ok_window(after_perf_if_SYSTEM): 1
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 1.33
+
+   merge_until: j=2 | merged_in_window=3
+     - ok_window(after_perf_if_SYSTEM): 3
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 2.07
+
+   merge_until: j=3 | merged_in_window=7
+     - ok_window(after_perf_if_SYSTEM): 7
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 3.17
+
+✅ Ticket: tranche=2 | cote=2.53 | 18:30 → 22:50 | fenêtre=150min
+   1) 18:30 | saudi arabia | Al-Hazm vs Al Okhdood | O15_FT | odd=1.33
+   2) 20:30 | super league switzerland | FC Sion vs FC Basel 1893 | O15_FT | odd=1.22
+   3) 20:30 | super league switzerland | FC Thun vs Lausanne | O15_FT | odd=1.22
+   4) 21:00 | premier league | Brentford vs Arsenal | O15_FT | odd=1.28
+
+📌 FIN JOURNÉE
+------------------
+- tickets_built: 2
+- next_window_start: 22:50
+
+RUN SUMMARY
+- system_tickets: 1 | o15_tickets: 2
+----------------------------------------
+

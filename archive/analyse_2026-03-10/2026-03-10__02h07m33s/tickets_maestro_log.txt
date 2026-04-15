@@ -1,0 +1,178 @@
+RUN MAESTROLOGUE — 2026-03-10 02:07:43
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 18886 | valid_3L_found: 5523 | valid_4L_found: 16010
+- top3_size: 5 | top4_size: 5
+
+TOP3 (desc):
+  TOP3[1/5]: score=0.875 (87.5%) | legs=3 | odd=2.24
+  TOP3[2/5]: score=0.869 (86.9%) | legs=3 | odd=2.33
+  TOP3[3/5]: score=0.833 (83.3%) | legs=3 | odd=2.48
+  TOP3[4/5]: score=0.833 (83.3%) | legs=3 | odd=2.38
+  TOP3[5/5]: score=0.828 (82.8%) | legs=3 | odd=2.58
+
+TOP4 (desc):
+  TOP4[1/5]: score=0.868 (86.8%) | legs=4 | odd=2.58
+  TOP4[2/5]: score=0.865 (86.5%) | legs=4 | odd=2.8
+  TOP4[3/5]: score=0.865 (86.5%) | legs=4 | odd=2.68
+  TOP4[4/5]: score=0.852 (85.2%) | legs=4 | odd=2.33
+  TOP4[5/5]: score=0.837 (83.7%) | legs=4 | odd=2.85
+
+DRAW_3L: picked rank=1/5 | score=0.875 (87.5%) | odd=2.24
+DRAW_4L: picked rank=5/5 | score=0.837 (83.7%) | odd=2.85
+- écart relatif: 4.47%
+=> choisi: 3 legs | score=0.875 (87.5%)
+
+Ticket choisi (aperçu)
+----------------------
+  1) 02:30 | primera a colombia | Deportivo Pasto vs America de Cali | O15_FT | odd=1.53
+  2) 20:45 | championship | Millwall vs Derby | TEAM1_SCORE_FT | odd=1.22
+  3) 21:00 | uefa champions league | Atletico Madrid vs Tottenham | O15_FT | odd=1.2
+
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM)
+--------------------------------------------------------
+- score ticket: 0.875 (87.5%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 02:30 | primera a colombia | Deportivo Pasto vs America de Cali | bet=O15_FT | odd=1.53
+   HOME Deportivo Pasto: wr=0.71 dec=7 coef=1.000 => adj=0.714 (71.4%)
+   AWAY America de Cali: wr=0.83 dec=6 coef=1.000 => adj=0.833 (83.3%)
+   MEAN match: 0.774 (77.4%)
+
+2) 20:45 | championship | Millwall vs Derby | bet=TEAM1_SCORE_FT | odd=1.22
+   HOME Millwall: wr=1.00 dec=5 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Derby: wr=1.00 dec=7 coef=1.000 => adj=1.000 (100.0%)
+   MEAN match: 1.000 (100.0%)
+
+3) 21:00 | uefa champions league | Atletico Madrid vs Tottenham | bet=O15_FT | odd=1.2
+   HOME Atletico Madrid: wr=1.00 dec=4 coef=0.925 => adj=0.925 (92.5%)
+   AWAY Tottenham: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   MEAN match: 0.850 (85.0%)
+
+
+MAESTROLOGUE — SYSTEM — 2026-03-10
+========================================
+- picks_total: 8
+- unique_matches_day: 6
+- rich_day: False
+- max_tickets_today: 1
+- windows_count: 1
+- day_max_possible_odd: 4.07
+- threshold_used: 2.2 (target=2.2, fallback=1.6)
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 02:30 -> 21:00
+  - raw_window_picks: 8
+  - filtered_window_picks: 8
+  - ok_window: 6
+  - perf_reject: 2
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 3.1
+
+Ticket: tranche=1 | cote=2.24 | 02:30 → 22:50 | fenêtre=1110min
+  1) 02:30 | primera a colombia | Deportivo Pasto vs America de Cali | O15_FT | odd=1.53
+  2) 20:45 | championship | Millwall vs Derby | TEAM1_SCORE_FT | odd=1.22
+  3) 21:00 | uefa champions league | Atletico Madrid vs Tottenham | O15_FT | odd=1.2
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1 / 1
+- next_window_start: 22:50
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- gate_build: LEAGUE x BET >= 0.68 (require_data=False)
+- score_select: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 28910 | valid_3L_found: 11396 | valid_4L_found: 28910
+- top3_size: 5 | top4_size: 5
+- rejected_by_league_gate (approx): 0
+
+TOP3 (desc):
+  TOP3[1/5]: score=0.860 (86.0%) | legs=3 | odd=2.33
+  TOP3[2/5]: score=0.855 (85.5%) | legs=3 | odd=2.69
+  TOP3[3/5]: score=0.847 (84.7%) | legs=3 | odd=2.42
+  TOP3[4/5]: score=0.847 (84.7%) | legs=3 | odd=2.29
+  TOP3[5/5]: score=0.847 (84.7%) | legs=3 | odd=2.39
+
+TOP4 (desc):
+  TOP4[1/5]: score=0.873 (87.3%) | legs=4 | odd=2.42
+  TOP4[2/5]: score=0.869 (86.9%) | legs=4 | odd=2.52
+  TOP4[3/5]: score=0.869 (86.9%) | legs=4 | odd=2.63
+  TOP4[4/5]: score=0.863 (86.3%) | legs=4 | odd=2.24
+  TOP4[5/5]: score=0.857 (85.7%) | legs=4 | odd=2.68
+
+DRAW_3L: picked rank=2/5 | score=0.855 (85.5%) | odd=2.69
+DRAW_4L: picked rank=2/5 | score=0.869 (86.9%) | odd=2.52
+- écart relatif: 1.60%
+=> choisi: 3 legs | score=0.855 (85.5%)
+
+Ticket choisi (aperçu)
+----------------------
+  1) 02:30 | primera a colombia | Deportivo Pasto vs America de Cali | O15_FT | odd=1.53
+  2) 20:45 | championship | Leicester vs Bristol City | O15_FT | odd=1.3
+  3) 20:45 | championship | Millwall vs Derby | O15_FT | odd=1.35
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.855 (85.5%)
+- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 02:30 | primera a colombia | Deportivo Pasto vs America de Cali | bet=O15_FT | odd=1.53
+   HOME Deportivo Pasto: wr=0.71 dec=7 coef=1.000 => adj=0.714 (71.4%)
+   AWAY America de Cali: wr=0.83 dec=6 coef=1.000 => adj=0.833 (83.3%)
+   MEAN match: 0.773 (77.3%)
+
+2) 20:45 | championship | Leicester vs Bristol City | bet=O15_FT | odd=1.3
+   HOME Leicester: wr=1.00 dec=11 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Bristol City: wr=0.83 dec=12 coef=1.000 => adj=0.833 (83.3%)
+   MEAN match: 0.916 (91.6%)
+
+3) 20:45 | championship | Millwall vs Derby | bet=O15_FT | odd=1.35
+   HOME Millwall: wr=0.92 dec=12 coef=1.000 => adj=0.917 (91.7%)
+   AWAY Derby: wr=0.83 dec=12 coef=1.000 => adj=0.833 (83.3%)
+   MEAN match: 0.875 (87.5%)
+
+
+MAESTROLOGUE — RANDOM — 2026-03-10
+========================================
+- picks_total: 12
+- unique_matches_day: 12
+- rich_day: False
+- max_tickets_today: 1
+- windows_count: 1
+- day_max_possible_odd: 5.47
+- threshold_used: 2.2 (target=2.2, fallback=1.6)
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 01:30 -> 23:45
+  - raw_window_picks: 12
+  - filtered_window_picks: 12
+  - ok_window: 9
+  - perf_reject: 3
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 3.79
+
+Ticket: tranche=1 | cote=2.69 | 02:30 → 22:35 | fenêtre=1095min
+  1) 02:30 | primera a colombia | Deportivo Pasto vs America de Cali | O15_FT | odd=1.53
+  2) 20:45 | championship | Leicester vs Bristol City | O15_FT | odd=1.3
+  3) 20:45 | championship | Millwall vs Derby | O15_FT | odd=1.35
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1 / 1
+- next_window_start: 22:35
+
+RUN SUMMARY
+- system_tickets: 1 | o15_tickets: 1
+----------------------------------------
+

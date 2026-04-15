@@ -1,0 +1,76 @@
+PARIS JOUABLES — Mardi 2026-02-24
+=================================
+
+01:30 | liga pro ecuador | Libertad (6) vs Manta FC (16)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.36 fixture=1519260
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25 fixture=1519260
+
+18:45 | uefa champions league | Atletico Madrid (14) vs Club Brugge KV (19)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.2 fixture=1515522
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.12 fixture=1515522
+
+20:00 | saudi arabia | Al Khaleej Saihat (9) vs Al Kholood (14)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.22 fixture=1435998
+
+20:00 | saudi arabia | Al Taawon (5) vs Al-Hilal Saudi FC (2)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.25 fixture=1436002
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.14 fixture=1436002
+
+20:00 | saudi arabia | Al-Hazm (12) vs Al-Ittihad FC (6)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.28 fixture=1435996
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18 fixture=1435996
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=1.05 fixture=1435996
+
+20:45 | championship | Blackburn (20) vs Bristol City (12)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.48 fixture=1386955
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.25 fixture=1386955
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.4 fixture=1386955
+
+20:45 | championship | Hull City (5) vs Derby (8)
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36 fixture=1386951
+
+20:45 | championship | Middlesbrough (2) vs Leicester (22)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.33 fixture=1386949
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.12 fixture=1386949
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22 fixture=1386949
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.11 fixture=1386949
+
+20:45 | championship | Swansea (15) vs Preston (10)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.14 fixture=1386947
+
+20:45 | championship | Watford (9) vs Ipswich (4)
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33 fixture=1386950
+
+20:45 | championship | Wrexham (6) vs Portsmouth (19)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.18 fixture=1386948
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.38 fixture=1386948
+
+20:45 | premiership | Dundee Utd (7) vs Aberdeen (8)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.36 fixture=1382817
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3 fixture=1382817
+
+21:00 | championship | Southampton (11) vs QPR (13)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.36 fixture=1386953
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.17 fixture=1386953
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.25 fixture=1386953
+
+21:00 | liga profesional argentina | Platense (15) vs Defensa Y Justicia (12)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.6 fixture=1491917
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.62 fixture=1491917
+
+21:00 | uefa champions league | Bayer Leverkusen (16) vs Olympiakos Piraeus (18)
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.2 fixture=1515523
+
+21:00 | uefa champions league | Inter (10) vs Bodo/Glimt (23)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.17 fixture=1515524
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.08 fixture=1515524
+
+21:00 | uefa champions league | Newcastle (12) vs Qarabag (22)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.15 fixture=1515525
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.06 fixture=1515525
+
+23:15 | liga profesional argentina | San Lorenzo (5) vs Instituto Cordoba (13)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.18 fixture=1491920
+
+23:45 | liga profesional argentina | Central Cordoba de Santiago (4) vs Talleres Cordoba (8)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.3 fixture=1491911

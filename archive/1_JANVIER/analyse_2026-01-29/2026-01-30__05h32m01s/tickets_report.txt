@@ -1,0 +1,23 @@
+TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
+==================================================
+
+📅 Jeudi 2026-01-29 — Tranche 1 (fenêtre ~1110min)
+-------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-01-29_0130_07b4934264_SYS — cote = 2.39 — fenêtre 01:30 → 20:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 19:00 | liga portugal 2 | Benfica B vs Lusitânia Lourosa | Over 1.5 (FT) | EXPLOSION | odd=1.36
+  2) 18:30 | saudi arabia | Al-Hazm vs Al Shabab | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  3) 01:30 | serie a brazil | Sao Paulo vs Flamengo | HT 1X Home | TRÈS FORT | odd=1.44
+
+📅 Jeudi 2026-01-29 — Tranche 2 (fenêtre ~90min)
+-----------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-01-29_2100_0010ac83c2_SYS — cote = 2.53 — fenêtre 21:00 → 23:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 21:00 | uefa europa league | FC Midtjylland vs Dinamo Zagreb | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  2) 21:00 | uefa europa league | Ludogorets vs Nice | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  3) 21:00 | uefa europa league | FCSB vs Fenerbahçe | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  4) 22:00 | primera a colombia | Rionegro Aguilas vs Deportivo Cali | Over 1.5 (FT) | TRÈS FORT | odd=1.44

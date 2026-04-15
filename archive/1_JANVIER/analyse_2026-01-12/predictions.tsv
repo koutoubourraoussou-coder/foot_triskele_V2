@@ -1,0 +1,65 @@
+TSV:	3848677506	2026-01-12	coupe de france	Paris Saint Germain	Paris FC	HT05	HT+0.5	7.0	EXPLOSION	1	odd=1.18 fixture=1495631	21:10
+TSV:	3848677506	2026-01-12	coupe de france	Paris Saint Germain	Paris FC	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.04 fixture=1495631	21:10
+TSV:	3848677506	2026-01-12	coupe de france	Paris Saint Germain	Paris FC	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.03 fixture=1495631	21:10
+TSV:	3848677506	2026-01-12	coupe de france	Paris Saint Germain	Paris FC	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.73 fixture=1495631	21:10
+TSV:	3848677506	2026-01-12	coupe de france	Paris Saint Germain	Paris FC	O25_FT	Over 2.5 (FT)	4.0	FORT	0	odd=1.33 fixture=1495631	21:10
+TSV:	3848677506	2026-01-12	coupe de france	Paris Saint Germain	Paris FC	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=1.2 fixture=1495631	21:10
+TSV:	3848677506	2026-01-12	coupe de france	Paris Saint Germain	Paris FC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=10 fixture=1495631	21:10
+TSV:	1851633314	2026-01-12	fa cup	Liverpool	Barnsley	HT05	HT+0.5	4.0	FORT	0	odd=1.15 fixture=1490803	20:45
+TSV:	1851633314	2026-01-12	fa cup	Liverpool	Barnsley	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.04 fixture=1490803	20:45
+TSV:	1851633314	2026-01-12	fa cup	Liverpool	Barnsley	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.02 fixture=1490803	20:45
+TSV:	1851633314	2026-01-12	fa cup	Liverpool	Barnsley	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.8 fixture=1490803	20:45
+TSV:	1851633314	2026-01-12	fa cup	Liverpool	Barnsley	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.12 fixture=1490803	20:45
+TSV:	1851633314	2026-01-12	fa cup	Liverpool	Barnsley	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=15 fixture=1490803	20:45
+TSV:	1835401520	2026-01-12	laliga	Sevilla	Celta Vigo	HT05	HT+0.5	1.0	FAIBLE	0	odd=1.36 fixture=1391006	21:00
+TSV:	1835401520	2026-01-12	laliga	Sevilla	Celta Vigo	HT1X_HOME	HT 1X Home	4.0	FORT	0	odd=1.3 fixture=1391006	21:00
+TSV:	1835401520	2026-01-12	laliga	Sevilla	Celta Vigo	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.33 fixture=1391006	21:00
+TSV:	1835401520	2026-01-12	laliga	Sevilla	Celta Vigo	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.33 fixture=1391006	21:00
+TSV:	1835401520	2026-01-12	laliga	Sevilla	Celta Vigo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.7 fixture=1391006	21:00
+TSV:	1835401520	2026-01-12	laliga	Sevilla	Celta Vigo	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=2.62 fixture=1391006	21:00
+TSV:	1276993683	2026-01-12	laliga2	Huesca	Cordoba	HT05	HT+0.5	5.0	FORT PLUS	1	odd=1.44 fixture=1391990	20:30
+TSV:	1276993683	2026-01-12	laliga2	Huesca	Cordoba	HT1X_HOME	HT 1X Home	4.0	FORT	0	odd=1.3 fixture=1391990	20:30
+TSV:	1276993683	2026-01-12	laliga2	Huesca	Cordoba	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.4 fixture=1391990	20:30
+TSV:	1276993683	2026-01-12	laliga2	Huesca	Cordoba	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.36 fixture=1391990	20:30
+TSV:	1276993683	2026-01-12	laliga2	Huesca	Cordoba	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=2.35 fixture=1391990	20:30
+TSV:	1276993683	2026-01-12	laliga2	Huesca	Cordoba	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.8 fixture=1391990	20:30
+TSV:	1276993683	2026-01-12	laliga2	Huesca	Cordoba	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.62 fixture=1391990	20:30
+TSV:	3487267835	2026-01-12	liga mx	Atletico San Luis	Tigres UANL	HT05	HT+0.5	1.0	FAIBLE	0	odd=1.4 fixture=1491799	02:00
+TSV:	3487267835	2026-01-12	liga mx	Atletico San Luis	Tigres UANL	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.4 fixture=1491799	02:00
+TSV:	3487267835	2026-01-12	liga mx	Atletico San Luis	Tigres UANL	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.36 fixture=1491799	02:00
+TSV:	3487267835	2026-01-12	liga mx	Atletico San Luis	Tigres UANL	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.22 fixture=1491799	02:00
+TSV:	3487267835	2026-01-12	liga mx	Atletico San Luis	Tigres UANL	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.2 fixture=1491799	02:00
+TSV:	3487267835	2026-01-12	liga mx	Atletico San Luis	Tigres UANL	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.25 fixture=1491799	02:00
+TSV:	2579460246	2026-01-12	saudi arabia	Al-Hazm	Al Najma	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.36 fixture=1436040	16:10
+TSV:	2579460246	2026-01-12	saudi arabia	Al-Hazm	Al Najma	HT1X_HOME	HT 1X Home	4.0	FORT	0	odd=1.2 fixture=1436040	16:10
+TSV:	2579460246	2026-01-12	saudi arabia	Al-Hazm	Al Najma	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	odd=1.18 fixture=1436040	16:10
+TSV:	2579460246	2026-01-12	saudi arabia	Al-Hazm	Al Najma	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.4 fixture=1436040	16:10
+TSV:	2579460246	2026-01-12	saudi arabia	Al-Hazm	Al Najma	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.8 fixture=1436040	16:10
+TSV:	2579460246	2026-01-12	saudi arabia	Al-Hazm	Al Najma	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.9 fixture=1436040	16:10
+TSV:	3831448062	2026-01-12	saudi arabia	Al-Ettifaq	Al Khaleej Saihat	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.36 fixture=1436045	18:30
+TSV:	3831448062	2026-01-12	saudi arabia	Al-Ettifaq	Al Khaleej Saihat	HT1X_HOME	HT 1X Home	4.0	FORT	0	odd=1.2 fixture=1436045	18:30
+TSV:	3831448062	2026-01-12	saudi arabia	Al-Ettifaq	Al Khaleej Saihat	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	odd=1.18 fixture=1436045	18:30
+TSV:	3831448062	2026-01-12	saudi arabia	Al-Ettifaq	Al Khaleej Saihat	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.4 fixture=1436045	18:30
+TSV:	3831448062	2026-01-12	saudi arabia	Al-Ettifaq	Al Khaleej Saihat	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.85 fixture=1436045	18:30
+TSV:	3831448062	2026-01-12	saudi arabia	Al-Ettifaq	Al Khaleej Saihat	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=1.8 fixture=1436045	18:30
+TSV:	3831448062	2026-01-12	saudi arabia	Al-Ettifaq	Al Khaleej Saihat	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.9 fixture=1436045	18:30
+TSV:	3399802726	2026-01-12	saudi arabia	Al-Hilal Saudi FC	Al-Nassr	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.2 fixture=1436047	18:30
+TSV:	3399802726	2026-01-12	saudi arabia	Al-Hilal Saudi FC	Al-Nassr	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	odd=1.36 fixture=1436047	18:30
+TSV:	3399802726	2026-01-12	saudi arabia	Al-Hilal Saudi FC	Al-Nassr	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	odd=1.11 fixture=1436047	18:30
+TSV:	3399802726	2026-01-12	saudi arabia	Al-Hilal Saudi FC	Al-Nassr	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	odd=1.17 fixture=1436047	18:30
+TSV:	3399802726	2026-01-12	saudi arabia	Al-Hilal Saudi FC	Al-Nassr	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.36 fixture=1436047	18:30
+TSV:	3399802726	2026-01-12	saudi arabia	Al-Hilal Saudi FC	Al-Nassr	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=2.05 fixture=1436047	18:30
+TSV:	3399802726	2026-01-12	saudi arabia	Al-Hilal Saudi FC	Al-Nassr	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.7 fixture=1436047	18:30
+TSV:	3649229328	2026-01-12	serie a italia	Genoa	Cagliari	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.44 fixture=1378057	18:30
+TSV:	3649229328	2026-01-12	serie a italia	Genoa	Cagliari	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.18 fixture=1378057	18:30
+TSV:	3649229328	2026-01-12	serie a italia	Genoa	Cagliari	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	odd=1.3 fixture=1378057	18:30
+TSV:	3649229328	2026-01-12	serie a italia	Genoa	Cagliari	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	odd=1.6 fixture=1378057	18:30
+TSV:	3649229328	2026-01-12	serie a italia	Genoa	Cagliari	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=2.5 fixture=1378057	18:30
+TSV:	3649229328	2026-01-12	serie a italia	Genoa	Cagliari	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.05 fixture=1378057	18:30
+TSV:	3649229328	2026-01-12	serie a italia	Genoa	Cagliari	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.9 fixture=1378057	18:30
+TSV:	2554705844	2026-01-12	serie a italia	Juventus	Cremonese	HT05	HT+0.5	2.0	MOYEN	0	odd=1.3 fixture=1378059	20:45
+TSV:	2554705844	2026-01-12	serie a italia	Juventus	Cremonese	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.06 fixture=1378059	20:45
+TSV:	2554705844	2026-01-12	serie a italia	Juventus	Cremonese	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	odd=1.06 fixture=1378059	20:45
+TSV:	2554705844	2026-01-12	serie a italia	Juventus	Cremonese	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=2 fixture=1378059	20:45
+TSV:	2554705844	2026-01-12	serie a italia	Juventus	Cremonese	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	odd=1.22 fixture=1378059	20:45
+TSV:	2554705844	2026-01-12	serie a italia	Juventus	Cremonese	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=12 fixture=1378059	20:45

@@ -1,0 +1,40 @@
+RUN MAESTRO — 2026-02-06 00:04:13
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 1
+========================================
+
+MAESTRO — SYSTEM — 2026-02-06
+========================================
+- picks_total: 39
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 5.52
+- threshold_used: 2.15 (target=2.15, fallback=1.7)
+
+✅ Ticket: tranche=1 | cote=2.36 | 18:30 → 20:50 | fenêtre=30min
+
+📌 FIN JOURNÉE
+------------------
+- tickets_built: 1
+- next_window_start: 20:50
+
+MAESTRO — RANDOM — 2026-02-06
+========================================
+- picks_total: 27
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 4.61
+- threshold_used: 2.15 (target=2.15, fallback=1.7)
+
+✅ Ticket: tranche=1 | cote=2.89 | 01:30 → 17:50 | fenêtre=870min
+
+✅ Ticket: tranche=2 | cote=2.74 | 20:30 → 22:50 | fenêtre=30min
+
+📌 FIN JOURNÉE
+------------------
+- tickets_built: 2
+- next_window_start: 22:50
+
+RUN SUMMARY
+- system_tickets: 1 | o15_tickets: 2
+----------------------------------------
+

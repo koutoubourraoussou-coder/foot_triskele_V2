@@ -1,0 +1,489 @@
+RUN MAESTROLOGUE — 2026-04-08 20:57:27
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 8732 | valid_3L_found: 0 | valid_4L_found: 7844
+- top3_size: 0 | top4_size: 8
+
+TOP3 (desc):
+  (vide)
+
+TOP4 (desc):
+  TOP4[1/8]: score=0.813 (81.3%) | legs=4 | odd=2.66
+  TOP4[2/8]: score=0.804 (80.4%) | legs=4 | odd=2.56
+  TOP4[3/8]: score=0.803 (80.3%) | legs=4 | odd=2.77
+  TOP4[4/8]: score=0.794 (79.4%) | legs=4 | odd=2.66
+  TOP4[5/8]: score=0.786 (78.6%) | legs=4 | odd=2.66
+  TOP4[6/8]: score=0.779 (77.9%) | legs=4 | odd=2.84
+  TOP4[7/8]: score=0.770 (77.0%) | legs=4 | odd=2.47
+  TOP4[8/8]: score=0.769 (76.9%) | legs=4 | odd=2.96
+
+DRAW_3L: (aucun)
+DRAW_4L: picked rank=7/8 | score=0.770 (77.0%) | odd=2.47
+- écart relatif: —
+=> choisi: 4 legs | score=0.770 (77.0%) | final_source=HYBRID
+
+Ticket choisi (aperçu)
+----------------------
+  1) 00:30 | liga profesional argentina | San Lorenzo vs Estudiantes L.P. | HT1X_HOME | odd=1.3
+  2) 01:20 | primera a colombia | Fortaleza FC vs Internacional de Bogota | TEAM1_SCORE_FT | odd=1.3
+  3) 03:30 | primera a colombia | Once Caldas vs Independiente Medellin | HT1X_HOME | odd=1.25
+  4) 13:30 | championship | Middlesbrough vs Millwall | HT1X_HOME | odd=1.17
+
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, HYBRID x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.770 (77.0%)
+- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 00:30 | liga profesional argentina | San Lorenzo vs Estudiantes L.P. | bet=HT1X_HOME | odd=1.3
+   HOME San Lorenzo: wr=0.49 dec=4 coef=0.925 => adj=0.456 (45.6%)
+   AWAY Estudiantes L.P.: wr=0.94 dec=6 coef=1.000 => adj=0.938 (93.8%)
+   MEAN match: 0.697 (69.7%)
+
+2) 01:20 | primera a colombia | Fortaleza FC vs Internacional de Bogota | bet=TEAM1_SCORE_FT | odd=1.3
+   HOME Fortaleza FC: wr=0.97 dec=6 coef=1.000 => adj=0.975 (97.5%)
+   AWAY Internacional de Bogota: wr=0.51 dec=6 coef=1.000 => adj=0.512 (51.2%)
+   MEAN match: 0.744 (74.4%)
+
+3) 03:30 | primera a colombia | Once Caldas vs Independiente Medellin | bet=HT1X_HOME | odd=1.25
+   HOME Once Caldas: wr=0.83 dec=6 coef=1.000 => adj=0.833 (83.3%)
+   AWAY Independiente Medellin: wr=0.20 dec=6 coef=1.000 => adj=0.198 (19.8%)
+   MEAN match: 0.516 (51.6%)
+
+4) 13:30 | championship | Middlesbrough vs Millwall | bet=HT1X_HOME | odd=1.17
+   HOME Middlesbrough: wr=0.96 dec=8 coef=1.000 => adj=0.963 (96.3%)
+   AWAY Millwall: wr=0.97 dec=8 coef=1.000 => adj=0.969 (96.9%)
+   MEAN match: 0.966 (96.6%)
+
+
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 7538 | valid_3L_found: 0 | valid_4L_found: 6574
+- top3_size: 0 | top4_size: 10
+
+TOP3 (desc):
+  (vide)
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.739 (73.9%) | legs=4 | odd=2.49
+  TOP4[2/10]: score=0.721 (72.1%) | legs=4 | odd=2.62
+  TOP4[3/10]: score=0.719 (71.9%) | legs=4 | odd=2.4
+  TOP4[4/10]: score=0.718 (71.8%) | legs=4 | odd=2.79
+  TOP4[5/10]: score=0.715 (71.5%) | legs=4 | odd=2.55
+  TOP4[6/10]: score=0.715 (71.5%) | legs=4 | odd=2.45
+  TOP4[7/10]: score=0.708 (70.8%) | legs=4 | odd=2.79
+  TOP4[8/10]: score=0.708 (70.8%) | legs=4 | odd=2.91
+  TOP4[9/10]: score=0.706 (70.6%) | legs=4 | odd=2.55
+  TOP4[10/10]: score=0.706 (70.6%) | legs=4 | odd=2.66
+
+DRAW_3L: (aucun)
+DRAW_4L: picked rank=1/10 | score=0.739 (73.9%) | odd=2.49
+- écart relatif: —
+=> choisi: 4 legs | score=0.739 (73.9%) | final_source=HYBRID
+
+Ticket choisi (aperçu)
+----------------------
+  1) 15:30 | cymru premier league | Flint Town United vs Haverfordwest County AFC | TEAM2_SCORE_FT | odd=1.25
+  2) 15:30 | cymru premier league | llanelli AFC vs Bala Town | HT05 | odd=1.33
+  3) 15:30 | cymru premier league | The New Saints vs GAP Connah S Quay FC | O15_FT | odd=1.2
+  4) 15:30 | cymru premier league | Penybont vs Barry Town | TEAM2_SCORE_FT | odd=1.25
+
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, HYBRID x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.739 (73.9%)
+- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 15:30 | cymru premier league | Flint Town United vs Haverfordwest County AFC | bet=TEAM2_SCORE_FT | odd=1.25
+   HOME Flint Town United: wr=0.81 dec=5 coef=1.000 => adj=0.815 (81.5%)
+   AWAY Haverfordwest County AFC: wr=0.77 dec=5 coef=1.000 => adj=0.767 (76.7%)
+   MEAN match: 0.791 (79.1%)
+
+2) 15:30 | cymru premier league | llanelli AFC vs Bala Town | bet=HT05 | odd=1.33
+   HOME llanelli AFC: wr=0.80 dec=11 coef=1.000 => adj=0.800 (80.0%)
+   AWAY Bala Town: wr=0.81 dec=10 coef=1.000 => adj=0.810 (81.0%)
+   MEAN match: 0.805 (80.5%)
+
+3) 15:30 | cymru premier league | The New Saints vs GAP Connah S Quay FC | bet=O15_FT | odd=1.2
+   HOME The New Saints: wr=0.81 dec=10 coef=1.000 => adj=0.810 (81.0%)
+   AWAY GAP Connah S Quay FC: wr=0.82 dec=11 coef=1.000 => adj=0.825 (82.5%)
+   MEAN match: 0.818 (81.8%)
+
+4) 15:30 | cymru premier league | Penybont vs Barry Town | bet=TEAM2_SCORE_FT | odd=1.25
+   HOME Penybont: wr=0.58 dec=5 coef=1.000 => adj=0.578 (57.8%)
+   AWAY Barry Town: wr=0.81 dec=6 coef=1.000 => adj=0.815 (81.5%)
+   MEAN match: 0.696 (69.6%)
+
+
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 7461 | valid_3L_found: 1340 | valid_4L_found: 5274
+- top3_size: 10 | top4_size: 10
+
+TOP3 (desc):
+  TOP3[1/10]: score=0.783 (78.3%) | legs=3 | odd=2.4
+  TOP3[2/10]: score=0.782 (78.2%) | legs=3 | odd=2.51
+  TOP3[3/10]: score=0.781 (78.1%) | legs=3 | odd=2.4
+  TOP3[4/10]: score=0.779 (77.9%) | legs=3 | odd=2.67
+  TOP3[5/10]: score=0.779 (77.9%) | legs=3 | odd=2.55
+  TOP3[6/10]: score=0.771 (77.1%) | legs=3 | odd=2.41
+  TOP3[7/10]: score=0.769 (76.9%) | legs=3 | odd=2.61
+  TOP3[8/10]: score=0.768 (76.8%) | legs=3 | odd=2.45
+  TOP3[9/10]: score=0.761 (76.1%) | legs=3 | odd=2.48
+  TOP3[10/10]: score=0.758 (75.8%) | legs=3 | odd=2.51
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.798 (79.8%) | legs=4 | odd=2.44
+  TOP4[2/10]: score=0.796 (79.6%) | legs=4 | odd=2.6
+  TOP4[3/10]: score=0.796 (79.6%) | legs=4 | odd=2.48
+  TOP4[4/10]: score=0.795 (79.5%) | legs=4 | odd=2.72
+  TOP4[5/10]: score=0.795 (79.5%) | legs=4 | odd=2.59
+  TOP4[6/10]: score=0.794 (79.4%) | legs=4 | odd=2.6
+  TOP4[7/10]: score=0.794 (79.4%) | legs=4 | odd=2.48
+  TOP4[8/10]: score=0.793 (79.3%) | legs=4 | odd=2.76
+  TOP4[9/10]: score=0.788 (78.8%) | legs=4 | odd=2.54
+  TOP4[10/10]: score=0.787 (78.7%) | legs=4 | odd=2.65
+
+DRAW_3L: picked rank=1/10 | score=0.783 (78.3%) | odd=2.4
+DRAW_4L: picked rank=8/10 | score=0.793 (79.3%) | odd=2.76
+- écart relatif: 1.30%
+=> choisi: 3 legs | score=0.783 (78.3%) | final_source=HYBRID
+
+Ticket choisi (aperçu)
+----------------------
+  1) 20:00 | ligue 2 | Annecy vs Guingamp | HT1X_HOME | odd=1.33
+  2) 21:00 | championship | Coventry vs Derby | HT1X_HOME | odd=1.15
+  3) 21:00 | laliga | Rayo Vallecano vs Elche | TEAM2_SCORE_FT | odd=1.57
+
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, HYBRID x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.783 (78.3%)
+- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 20:00 | ligue 2 | Annecy vs Guingamp | bet=HT1X_HOME | odd=1.33
+   HOME Annecy: wr=0.96 dec=6 coef=1.000 => adj=0.959 (95.9%)
+   AWAY Guingamp: wr=0.65 dec=6 coef=1.000 => adj=0.654 (65.4%)
+   MEAN match: 0.806 (80.6%)
+
+2) 21:00 | championship | Coventry vs Derby | bet=HT1X_HOME | odd=1.15
+   HOME Coventry: wr=0.85 dec=8 coef=1.000 => adj=0.851 (85.1%)
+   AWAY Derby: wr=0.76 dec=9 coef=1.000 => adj=0.756 (75.6%)
+   MEAN match: 0.803 (80.3%)
+
+3) 21:00 | laliga | Rayo Vallecano vs Elche | bet=TEAM2_SCORE_FT | odd=1.57
+   HOME Rayo Vallecano: wr=0.72 dec=4 coef=0.925 => adj=0.668 (66.8%)
+   AWAY Elche: wr=0.83 dec=7 coef=1.000 => adj=0.830 (83.0%)
+   MEAN match: 0.749 (74.9%)
+
+
+MAESTROLOGUE — SYSTEM — 2026-04-03
+========================================
+- picks_total: 37
+- unique_matches_day: 26
+- rich_day: True
+- max_windows_today: 4
+- windows_count: 4
+- target_odd: 2.4
+- min_accept_odd: 1.8
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 00:30 -> 13:30
+  - raw_window_picks: 6
+  - filtered_window_picks: 6
+  - ok_window: 6
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 2.96
+  - threshold_used_here: 2.4
+  - OK_WINDOW [SYSTEM] picks acceptés :
+    OK 00:30 San Lorenzo vs Estudiantes L.P. | HT1X_HOME | odd=1.3 | poids=1.479
+    OK 01:20 Fortaleza FC vs Internacional de Bogota | TEAM1_SCORE_FT | odd=1.3 | poids=1.581
+    OK 01:20 Fortaleza FC vs Internacional de Bogota | HT1X_HOME | odd=1.25 | poids=1.732
+    OK 02:30 RB Bragantino vs Flamengo | HT1X_HOME | odd=1.4 | poids=1.759
+    OK 03:30 Once Caldas vs Independiente Medellin | HT1X_HOME | odd=1.25 | poids=1.732
+    OK 13:30 Middlesbrough vs Millwall | HT1X_HOME | odd=1.17 | poids=1.376
+Ticket: tranche=1 | cote=2.47 | seuil_local=2.4 | 00:30 → 15:20 | fenêtre=780min
+  1) 00:30 | liga profesional argentina | San Lorenzo vs Estudiantes L.P. | HT1X_HOME | odd=1.3
+  2) 01:20 | primera a colombia | Fortaleza FC vs Internacional de Bogota | TEAM1_SCORE_FT | odd=1.3
+  3) 03:30 | primera a colombia | Once Caldas vs Independiente Medellin | HT1X_HOME | odd=1.25
+  4) 13:30 | championship | Middlesbrough vs Millwall | HT1X_HOME | odd=1.17
+
+WINDOW 2 | 15:30 -> 15:30
+  - raw_window_picks: 7
+  - filtered_window_picks: 7
+  - ok_window: 7
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 2.98
+  - threshold_used_here: 2.4
+  - OK_WINDOW [SYSTEM] picks acceptés :
+    OK 15:30 Briton Ferry vs Cardiff MET | HT1X_HOME | odd=1.4 | poids=1.040
+    OK 15:30 llanelli AFC vs Bala Town | HT05 | odd=1.33 | poids=1.033
+    OK 15:30 Colwyn Bay vs Caernarfon Town | HT1X_HOME | odd=1.28 | poids=1.028
+    OK 15:30 Flint Town United vs Haverfordwest County AFC | TEAM2_SCORE_FT | odd=1.25 | poids=1.123
+    OK 15:30 Penybont vs Barry Town | TEAM2_SCORE_FT | odd=1.25 | poids=1.123
+    OK 15:30 Briton Ferry vs Cardiff MET | TEAM1_SCORE_FT | odd=1.23 | poids=1.023
+    OK 15:30 The New Saints vs GAP Connah S Quay FC | O15_FT | odd=1.2 | poids=1.020
+Ticket: tranche=2 | cote=2.49 | seuil_local=2.4 | 15:30 → 17:20 | fenêtre=0min
+  1) 15:30 | cymru premier league | Flint Town United vs Haverfordwest County AFC | TEAM2_SCORE_FT | odd=1.25
+  2) 15:30 | cymru premier league | llanelli AFC vs Bala Town | HT05 | odd=1.33
+  3) 15:30 | cymru premier league | The New Saints vs GAP Connah S Quay FC | O15_FT | odd=1.2
+  4) 15:30 | cymru premier league | Penybont vs Barry Town | TEAM2_SCORE_FT | odd=1.25
+
+WINDOW 3 | 16:00 -> 16:00
+  - raw_window_picks: 11
+  - filtered_window_picks: 0
+  - ok_window: 0
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 1
+  - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
+  -> MERGE avec WINDOW 4 car cote max insuffisante (1 < min_accept=1.8)
+
+WINDOWS 3->4 (MERGED) | 16:00 -> 21:00
+  - raw_window_picks: 24
+  - filtered_window_picks: 13
+  - ok_window: 13
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 4.01
+  - threshold_used_here: 2.4
+  - OK_WINDOW [SYSTEM] picks acceptés :
+    OK 19:00 Guimaraes vs Tondela | TEAM1_SCORE_FT | odd=1.2 | poids=1.556
+    OK 19:00 Guimaraes vs Tondela | HT1X_HOME | odd=1.15 | poids=1.325
+    OK 20:00 Annecy vs Guingamp | TEAM1_SCORE_FT | odd=1.35 | poids=1.035
+    OK 20:00 Dunkerque vs Rodez | TEAM2_SCORE_FT | odd=1.35 | poids=1.035
+    OK 20:00 Annecy vs Guingamp | HT1X_HOME | odd=1.33 | poids=1.594
+    OK 20:00 Grenoble vs Clermont Foot | HT1X_HOME | odd=1.28 | poids=1.586
+    OK 20:45 Antwerp vs Genk | HT1X_HOME | odd=1.4 | poids=1.040
+    OK 20:45 Paris Saint Germain vs Toulouse | HT05 | odd=1.25 | poids=1.025
+    OK 20:45 Antwerp vs Genk | O15_FT | odd=1.22 | poids=1.245
+    OK 21:00 Rayo Vallecano vs Elche | TEAM2_SCORE_FT | odd=1.57 | poids=1.484
+    OK 21:00 Rayo Vallecano vs Elche | O15_FT | odd=1.33 | poids=1.681
+    OK 21:00 Coventry vs Derby | HT1X_HOME | odd=1.15 | poids=1.373
+    OK 21:00 Rayo Vallecano vs Elche | HT1X_HOME | odd=1.15 | poids=1.586
+Ticket: tranche=3 | cote=2.4 | seuil_local=2.4 | 20:00 → 22:50 | fenêtre=60min
+  1) 20:00 | ligue 2 | Annecy vs Guingamp | HT1X_HOME | odd=1.33
+  2) 21:00 | championship | Coventry vs Derby | HT1X_HOME | odd=1.15
+  3) 21:00 | laliga | Rayo Vallecano vs Elche | TEAM2_SCORE_FT | odd=1.57
+
+FIN JOURNÉE
+------------------
+- tickets_built: 3 / 4
+- next_window_start: 22:50
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 14005 | valid_3L_found: 0 | valid_4L_found: 6052
+- top3_size: 0 | top4_size: 10
+- rejected_by_build_gate (approx): 0
+
+TOP3 (desc):
+  (vide)
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.820 (82.0%) | legs=4 | odd=2.46
+  TOP4[2/10]: score=0.818 (81.8%) | legs=4 | odd=2.56
+  TOP4[3/10]: score=0.815 (81.5%) | legs=4 | odd=2.5
+  TOP4[4/10]: score=0.811 (81.1%) | legs=4 | odd=2.56
+  TOP4[5/10]: score=0.810 (81.0%) | legs=4 | odd=2.62
+  TOP4[6/10]: score=0.808 (80.8%) | legs=4 | odd=2.5
+  TOP4[7/10]: score=0.807 (80.7%) | legs=4 | odd=2.56
+  TOP4[8/10]: score=0.806 (80.6%) | legs=4 | odd=2.6
+  TOP4[9/10]: score=0.805 (80.5%) | legs=4 | odd=2.67
+  TOP4[10/10]: score=0.798 (79.8%) | legs=4 | odd=2.67
+
+DRAW_3L: (aucun)
+DRAW_4L: picked rank=9/10 | score=0.805 (80.5%) | odd=2.67
+- écart relatif: —
+=> choisi: 4 legs | score=0.805 (80.5%) | final_source=TEAM
+
+Ticket choisi (aperçu)
+----------------------
+  1) 02:30 | serie a brazil | RB Bragantino vs Flamengo | O15_FT | odd=1.4
+  2) 03:30 | primera a colombia | Once Caldas vs Independiente Medellin | O15_FT | odd=1.25
+  3) 13:30 | championship | Middlesbrough vs Millwall | O15_FT | odd=1.22
+  4) 15:30 | cymru premier league | llanelli AFC vs Bala Town | O15_FT | odd=1.25
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.805 (80.5%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 02:30 | serie a brazil | RB Bragantino vs Flamengo | bet=O15_FT | odd=1.4
+   HOME RB Bragantino: wr=0.60 dec=10 coef=1.000 => adj=0.602 (60.2%)
+   AWAY Flamengo: wr=0.88 dec=9 coef=1.000 => adj=0.880 (88.0%)
+   MEAN match: 0.741 (74.1%)
+
+2) 03:30 | primera a colombia | Once Caldas vs Independiente Medellin | bet=O15_FT | odd=1.25
+   HOME Once Caldas: wr=1.00 dec=11 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Independiente Medellin: wr=0.83 dec=12 coef=1.000 => adj=0.833 (83.3%)
+   MEAN match: 0.916 (91.6%)
+
+3) 13:30 | championship | Middlesbrough vs Millwall | bet=O15_FT | odd=1.22
+   HOME Middlesbrough: wr=0.72 dec=17 coef=1.000 => adj=0.718 (71.8%)
+   AWAY Millwall: wr=0.88 dec=17 coef=1.000 => adj=0.879 (87.9%)
+   MEAN match: 0.799 (79.9%)
+
+4) 15:30 | cymru premier league | llanelli AFC vs Bala Town | bet=O15_FT | odd=1.25
+   HOME llanelli AFC: wr=0.72 dec=11 coef=1.000 => adj=0.722 (72.2%)
+   AWAY Bala Town: wr=0.81 dec=10 coef=1.000 => adj=0.810 (81.0%)
+   MEAN match: 0.766 (76.6%)
+
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 13208 | valid_3L_found: 0 | valid_4L_found: 7511
+- top3_size: 0 | top4_size: 10
+- rejected_by_build_gate (approx): 0
+
+TOP3 (desc):
+  (vide)
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.803 (80.3%) | legs=4 | odd=2.63
+  TOP4[2/10]: score=0.802 (80.2%) | legs=4 | odd=2.47
+  TOP4[3/10]: score=0.795 (79.5%) | legs=4 | odd=2.7
+  TOP4[4/10]: score=0.795 (79.5%) | legs=4 | odd=2.7
+  TOP4[5/10]: score=0.791 (79.1%) | legs=4 | odd=2.59
+  TOP4[6/10]: score=0.791 (79.1%) | legs=4 | odd=2.59
+  TOP4[7/10]: score=0.790 (79.0%) | legs=4 | odd=2.43
+  TOP4[8/10]: score=0.789 (78.9%) | legs=4 | odd=2.43
+  TOP4[9/10]: score=0.786 (78.6%) | legs=4 | odd=2.47
+  TOP4[10/10]: score=0.785 (78.5%) | legs=4 | odd=2.47
+
+DRAW_3L: (aucun)
+DRAW_4L: picked rank=5/10 | score=0.791 (79.1%) | odd=2.59
+- écart relatif: —
+=> choisi: 4 legs | score=0.791 (79.1%) | final_source=TEAM
+
+Ticket choisi (aperçu)
+----------------------
+  1) 18:00 | saudi arabia | Al Kholood vs Al Khaleej Saihat | O15_FT | odd=1.2
+  2) 19:00 | liga portugal | Guimaraes vs Tondela | O15_FT | odd=1.33
+  3) 21:00 | championship | Coventry vs Derby | O15_FT | odd=1.22
+  4) 21:00 | laliga | Rayo Vallecano vs Elche | O15_FT | odd=1.33
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.791 (79.1%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 18:00 | saudi arabia | Al Kholood vs Al Khaleej Saihat | bet=O15_FT | odd=1.2
+   HOME Al Kholood: wr=0.74 dec=15 coef=1.000 => adj=0.743 (74.3%)
+   AWAY Al Khaleej Saihat: wr=0.76 dec=16 coef=1.000 => adj=0.763 (76.3%)
+   MEAN match: 0.753 (75.3%)
+
+2) 19:00 | liga portugal | Guimaraes vs Tondela | bet=O15_FT | odd=1.33
+   HOME Guimaraes: wr=0.91 dec=11 coef=1.000 => adj=0.912 (91.2%)
+   AWAY Tondela: wr=0.64 dec=11 coef=1.000 => adj=0.636 (63.6%)
+   MEAN match: 0.774 (77.4%)
+
+3) 21:00 | championship | Coventry vs Derby | bet=O15_FT | odd=1.22
+   HOME Coventry: wr=0.88 dec=17 coef=1.000 => adj=0.881 (88.1%)
+   AWAY Derby: wr=0.72 dec=17 coef=1.000 => adj=0.723 (72.3%)
+   MEAN match: 0.802 (80.2%)
+
+4) 21:00 | laliga | Rayo Vallecano vs Elche | bet=O15_FT | odd=1.33
+   HOME Rayo Vallecano: wr=0.83 dec=12 coef=1.000 => adj=0.829 (82.9%)
+   AWAY Elche: wr=0.85 dec=12 coef=1.000 => adj=0.845 (84.5%)
+   MEAN match: 0.837 (83.7%)
+
+
+MAESTROLOGUE — RANDOM — 2026-04-03
+========================================
+- picks_total: 24
+- unique_matches_day: 24
+- rich_day: True
+- max_windows_today: 4
+- windows_count: 3
+- target_odd: 2.4
+- min_accept_odd: 1.8
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 02:30 -> 15:30
+  - raw_window_picks: 7
+  - filtered_window_picks: 7
+  - ok_window: 7
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 2.67
+  - threshold_used_here: 2.4
+  - OK_WINDOW [RANDOM] picks acceptés :
+    OK 02:30 RB Bragantino vs Flamengo | O15_FT | odd=1.4 | poids=1.000
+    OK 03:30 Once Caldas vs Independiente Medellin | O15_FT | odd=1.25 | poids=1.000
+    OK 13:30 Middlesbrough vs Millwall | O15_FT | odd=1.22 | poids=1.000
+    OK 15:30 llanelli AFC vs Bala Town | O15_FT | odd=1.25 | poids=1.000
+    OK 15:30 Briton Ferry vs Cardiff MET | O15_FT | odd=1.22 | poids=1.000
+    OK 15:30 The New Saints vs GAP Connah S Quay FC | O15_FT | odd=1.2 | poids=1.000
+    OK 15:30 Colwyn Bay vs Caernarfon Town | O15_FT | odd=1.17 | poids=1.000
+Ticket: tranche=1 | cote=2.67 | seuil_local=2.4 | 02:30 → 17:20 | fenêtre=780min
+  1) 02:30 | serie a brazil | RB Bragantino vs Flamengo | O15_FT | odd=1.4
+  2) 03:30 | primera a colombia | Once Caldas vs Independiente Medellin | O15_FT | odd=1.25
+  3) 13:30 | championship | Middlesbrough vs Millwall | O15_FT | odd=1.22
+  4) 15:30 | cymru premier league | llanelli AFC vs Bala Town | O15_FT | odd=1.25
+
+WINDOW 2 | 16:00 -> 16:00
+  - raw_window_picks: 9
+  - filtered_window_picks: 0
+  - ok_window: 0
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 1
+  - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
+  -> MERGE avec WINDOW 3 car cote max insuffisante (1 < min_accept=1.8)
+
+WINDOWS 2->3 (MERGED) | 16:00 -> 21:30
+  - raw_window_picks: 17
+  - filtered_window_picks: 8
+  - ok_window: 8
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 2.76
+  - threshold_used_here: 2.4
+  - OK_WINDOW [RANDOM] picks acceptés :
+    OK 18:00 Al Kholood vs Al Khaleej Saihat | O15_FT | odd=1.2 | poids=1.000
+    OK 19:00 Guimaraes vs Tondela | O15_FT | odd=1.33 | poids=1.000
+    OK 20:00 Dunkerque vs Rodez | O15_FT | odd=1.25 | poids=1.000
+    OK 20:45 Antwerp vs Genk | O15_FT | odd=1.22 | poids=1.000
+    OK 20:45 Paris Saint Germain vs Toulouse | O15_FT | odd=1.17 | poids=1.000
+    OK 21:00 Rayo Vallecano vs Elche | O15_FT | odd=1.33 | poids=1.000
+    OK 21:00 Coventry vs Derby | O15_FT | odd=1.22 | poids=1.000
+    OK 21:30 Sporting CP vs Santa Clara | O15_FT | odd=1.25 | poids=1.000
+Ticket: tranche=2 | cote=2.59 | seuil_local=2.4 | 18:00 → 22:50 | fenêtre=180min
+  1) 18:00 | saudi arabia | Al Kholood vs Al Khaleej Saihat | O15_FT | odd=1.2
+  2) 19:00 | liga portugal | Guimaraes vs Tondela | O15_FT | odd=1.33
+  3) 21:00 | championship | Coventry vs Derby | O15_FT | odd=1.22
+  4) 21:00 | laliga | Rayo Vallecano vs Elche | O15_FT | odd=1.33
+
+FIN JOURNÉE
+------------------
+- tickets_built: 2 / 4
+- next_window_start: 22:50
+
+RUN SUMMARY
+- system_tickets: 3 | o15_tickets: 2
+----------------------------------------
+

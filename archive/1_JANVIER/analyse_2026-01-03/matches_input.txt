@@ -1,0 +1,46 @@
+2026-01-03 15:30 | cymru premier league | GAP Connah S Quay FC vs Barry Town
+2026-01-03 14:00 | laliga | Celta Vigo vs Valencia
+2026-01-03 16:15 | laliga | Osasuna vs Athletic Club
+2026-01-03 18:30 | laliga | Elche vs Villarreal
+2026-01-03 21:00 | laliga | Espanyol vs Barcelona
+2026-01-03 14:00 | laliga2 | Cultural Leonesa vs Real Sociedad II
+2026-01-03 16:15 | laliga2 | Almeria vs Granada CF
+2026-01-03 16:15 | laliga2 | Castellón vs Huesca
+2026-01-03 18:30 | laliga2 | Valladolid vs Racing Santander
+2026-01-03 21:00 | laliga2 | Cordoba vs Burgos
+2026-01-03 16:30 | liga portugal | Tondela vs Arouca
+2026-01-03 19:00 | liga portugal | Benfica vs Estoril
+2026-01-03 19:00 | liga portugal | Estrela vs SC Braga
+2026-01-03 21:30 | liga portugal | AVS vs Moreirense
+2026-01-03 12:00 | liga portugal 2 | Feirense vs União de Leiria
+2026-01-03 15:00 | liga portugal 2 | Felgueiras 1932 vs Oliveirense
+2026-01-03 21:30 | liga portugal 2 | Farense vs Portimonense
+2026-01-03 17:00 | ligue 1 | Monaco vs Lyon
+2026-01-03 19:00 | ligue 1 | Nice vs Strasbourg
+2026-01-03 21:05 | ligue 1 | Lille vs Rennes
+2026-01-03 14:00 | ligue 2 | Estac Troyes vs RED Star FC 93
+2026-01-03 20:00 | ligue 2 | Amiens vs Nancy
+2026-01-03 20:00 | ligue 2 | Bastia vs Grenoble
+2026-01-03 20:00 | ligue 2 | Clermont Foot vs Laval
+2026-01-03 20:00 | ligue 2 | Guingamp vs Boulogne
+2026-01-03 20:00 | ligue 2 | Le Mans vs Saint Etienne
+2026-01-03 20:00 | ligue 2 | PAU vs Rodez
+2026-01-03 20:00 | ligue 2 | Reims vs Annecy
+2026-01-03 13:30 | premier league | Aston Villa vs Nottingham Forest
+2026-01-03 16:00 | premier league | Brighton vs Burnley
+2026-01-03 16:00 | premier league | Wolves vs West Ham
+2026-01-03 18:30 | premier league | Bournemouth vs Arsenal
+2026-01-03 13:30 | premiership | Celtic vs Rangers
+2026-01-03 16:00 | premiership | Dundee Utd vs Dundee
+2026-01-03 16:00 | premiership | Falkirk vs Aberdeen
+2026-01-03 16:00 | premiership | Heart Of Midlothian vs Livingston
+2026-01-03 16:00 | premiership | Kilmarnock vs Hibernian
+2026-01-03 16:00 | premiership | Motherwell vs ST Mirren
+2026-01-03 14:10 | saudi arabia | Al-Fateh vs Al Shabab
+2026-01-03 15:55 | saudi arabia | Al-Fayha vs Al Kholood
+2026-01-03 18:30 | saudi arabia | Al-Ittihad FC vs Al Taawon
+2026-01-03 12:30 | serie a italia | Como vs Udinese
+2026-01-03 15:00 | serie a italia | Genoa vs Pisa
+2026-01-03 15:00 | serie a italia | Sassuolo vs Parma
+2026-01-03 18:00 | serie a italia | Juventus vs Lecce
+2026-01-03 20:45 | serie a italia | Atalanta vs AS Roma

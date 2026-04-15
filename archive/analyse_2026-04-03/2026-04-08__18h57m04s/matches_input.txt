@@ -1,0 +1,41 @@
+2026-04-03 00:00 | championship | Middlesbrough vs Millwall
+2026-04-03 00:00 | championship | Birmingham vs Blackburn
+2026-04-03 00:00 | championship | Charlton vs Bristol City
+2026-04-03 00:00 | championship | Leicester vs Preston
+2026-04-03 00:00 | championship | Norwich vs Portsmouth
+2026-04-03 00:00 | championship | Oxford United vs Hull City
+2026-04-03 00:00 | championship | QPR vs Watford
+2026-04-03 00:00 | championship | Sheffield Utd vs Swansea
+2026-04-03 00:00 | championship | Stoke City vs Sheffield Wednesday
+2026-04-03 00:00 | championship | West Brom vs Wrexham
+2026-04-03 00:00 | championship | Coventry vs Derby
+2026-04-03 00:00 | cymru premier league | Briton Ferry vs Cardiff MET
+2026-04-03 00:00 | cymru premier league | Colwyn Bay vs Caernarfon Town
+2026-04-03 00:00 | cymru premier league | Flint Town United vs Haverfordwest County AFC
+2026-04-03 00:00 | cymru premier league | llanelli AFC vs Bala Town
+2026-04-03 00:00 | cymru premier league | Penybont vs Barry Town
+2026-04-03 00:00 | cymru premier league | The New Saints vs GAP Connah S Quay FC
+2026-04-03 00:00 | laliga | Rayo Vallecano vs Elche
+2026-04-03 00:00 | liga portugal | GIL Vicente vs AVS
+2026-04-03 00:00 | liga portugal | Guimaraes vs Tondela
+2026-04-03 00:00 | liga portugal | Sporting CP vs Santa Clara
+2026-04-03 00:00 | liga portugal 2 | Oliveirense vs Portimonense
+2026-04-03 00:00 | liga profesional argentina | Talleres Cordoba vs Boca Juniors
+2026-04-03 00:00 | liga profesional argentina | Gimnasia M. vs Velez Sarsfield
+2026-04-03 00:00 | liga profesional argentina | Union Santa Fe vs Deportivo Riestra
+2026-04-03 00:00 | ligue 1 | Paris Saint Germain vs Toulouse
+2026-04-03 00:00 | ligue 2 | Annecy vs Guingamp
+2026-04-03 00:00 | ligue 2 | Bastia vs Amiens
+2026-04-03 00:00 | ligue 2 | Dunkerque vs Rodez
+2026-04-03 00:00 | ligue 2 | Grenoble vs Clermont Foot
+2026-04-03 00:00 | ligue 2 | RED Star FC 93 vs Laval
+2026-04-03 00:00 | primera a colombia | Jaguares vs Millonarios
+2026-04-03 00:00 | primera a colombia | Once Caldas vs Independiente Medellin
+2026-04-03 00:00 | pro league | Antwerp vs Genk
+2026-04-03 00:00 | saudi arabia | Al Kholood vs Al Khaleej Saihat
+2026-04-03 00:00 | saudi arabia | Al-Ittihad FC vs Al-Hazm
+2026-04-03 00:00 | saudi arabia | Al-Nassr vs Al Najma
+2026-04-03 00:00 | serie a brazil | Chapecoense-sc vs Atletico-MG
+2026-04-03 00:00 | serie a brazil | Santos vs Remo
+2026-04-03 00:00 | serie a brazil | Palmeiras vs Gremio
+2026-04-03 00:00 | serie a brazil | RB Bragantino vs Flamengo

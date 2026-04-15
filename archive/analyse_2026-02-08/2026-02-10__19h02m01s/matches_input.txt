@@ -1,0 +1,74 @@
+2026-02-08 13:30 | 2. bundesliga | Arminia Bielefeld vs Eintracht Braunschweig
+2026-02-08 13:30 | 2. bundesliga | Hannover 96 vs Holstein Kiel
+2026-02-08 13:30 | 2. bundesliga | Karlsruher SC vs Fortuna Düsseldorf
+2026-02-08 15:30 | bundesliga | 1. FC Köln vs RB Leipzig
+2026-02-08 17:30 | bundesliga | Bayern München vs 1899 Hoffenheim
+2026-02-08 13:01 | championship | Swansea vs Sheffield Wednesday
+2026-02-08 13:00 | czech first league | Hradec Králové vs Dukla Praha
+2026-02-08 15:30 | czech first league | Bohemians 1905 vs Pardubice
+2026-02-08 15:30 | czech first league | Zlin vs Sparta Praha
+2026-02-08 18:30 | czech first league | Plzen vs Slovan Liberec
+2026-02-08 12:15 | eredivisie | Utrecht vs Feyenoord
+2026-02-08 14:30 | eredivisie | AZ Alkmaar vs Ajax
+2026-02-08 14:30 | eredivisie | GO Ahead Eagles vs Telstar
+2026-02-08 16:45 | eredivisie | Groningen vs PSV Eindhoven
+2026-02-08 14:00 | laliga | Alaves vs Getafe
+2026-02-08 16:15 | laliga | Athletic Club vs Levante
+2026-02-08 16:15 | laliga | Sevilla vs Girona
+2026-02-08 18:30 | laliga | Atletico Madrid vs Real Betis
+2026-02-08 21:00 | laliga | Valencia vs Real Madrid
+2026-02-08 14:00 | laliga2 | Valladolid vs Castellón
+2026-02-08 16:15 | laliga2 | AD Ceuta FC vs Cordoba
+2026-02-08 16:15 | laliga2 | Cadiz vs Almeria
+2026-02-08 16:15 | laliga2 | Deportivo La Coruna vs Albacete
+2026-02-08 18:30 | laliga2 | Sporting Gijon vs Huesca
+2026-02-08 21:00 | laliga2 | Malaga vs Cultural Leonesa
+2026-02-08 00:00 | liga mx | Club Queretaro vs Leon
+2026-02-08 00:00 | liga mx | Toluca vs Cruz Azul
+2026-02-08 02:05 | liga mx | Atlas vs U.N.A.M. - Pumas
+2026-02-08 02:06 | liga mx | Pachuca vs FC Juarez
+2026-02-08 04:10 | liga mx | Club America vs Monterrey
+2026-02-08 16:30 | liga portugal | Nacional vs Casa Pia
+2026-02-08 19:00 | liga portugal | SC Braga vs Rio Ave
+2026-02-08 21:30 | liga portugal | Benfica vs Alverca
+2026-02-08 16:30 | liga portugal 2 | Torreense vs União de Leiria
+2026-02-08 00:00 | liga profesional argentina | River Plate vs Tigre
+2026-02-08 02:15 | liga profesional argentina | Belgrano Cordoba vs Banfield
+2026-02-08 02:15 | liga profesional argentina | Newells Old Boys vs Defensa Y Justicia
+2026-02-08 21:00 | liga profesional argentina | Platense vs Independiente
+2026-02-08 21:00 | liga profesional argentina | Sarmiento Junin vs Atletico Tucuman
+2026-02-08 23:15 | liga profesional argentina | Huracan vs San Lorenzo
+2026-02-08 15:00 | ligue 1 | Nice vs Monaco
+2026-02-08 17:15 | ligue 1 | Angers vs Toulouse
+2026-02-08 17:15 | ligue 1 | Auxerre vs Paris FC
+2026-02-08 17:15 | ligue 1 | Le Havre vs Strasbourg
+2026-02-08 20:45 | ligue 1 | Paris Saint Germain vs Marseille
+2026-02-08 15:00 | premier league | Brighton vs Crystal Palace
+2026-02-08 17:30 | premier league | Liverpool vs Manchester City
+2026-02-08 00:20 | primera a colombia | Fortaleza FC vs Santa Fe
+2026-02-08 00:20 | primera a colombia | Santa Fe vs Atletico Nacional
+2026-02-08 02:30 | primera a colombia | Junior vs Chico
+2026-02-08 20:00 | primera a colombia | Fortaleza FC vs America de Cali
+2026-02-08 22:10 | primera a colombia | Alianza Valledupar vs Once Caldas
+2026-02-08 00:30 | primera división paraguay | 2 de Mayo vs Cerro Porteno
+2026-02-08 22:30 | primera división paraguay | Libertad Asuncion vs Club Guarani
+2026-02-08 13:30 | pro league | Genk vs Anderlecht
+2026-02-08 16:00 | pro league | Union St. Gilloise vs RAAL La Louvière
+2026-02-08 18:30 | pro league | Club Brugge KV vs Standard Liege
+2026-02-08 19:15 | pro league | KV Mechelen vs Antwerp
+2026-02-08 15:00 | scottish cup | Rangers vs Queen's Park
+2026-02-08 20:30 | scottish cup | Stenhousemuir vs Falkirk
+2026-02-08 12:30 | serie a italia | Bologna vs Parma
+2026-02-08 15:00 | serie a italia | Lecce vs Udinese
+2026-02-08 18:00 | serie a italia | Sassuolo vs Inter
+2026-02-08 20:45 | serie a italia | Juventus vs Lazio
+2026-02-08 15:00 | serie b | Monza vs Avellino
+2026-02-08 14:00 | super league switzerland | Servette FC vs FC Thun
+2026-02-08 16:30 | super league switzerland | FC Basel 1893 vs FC Zurich
+2026-02-08 16:30 | super league switzerland | Lausanne vs FC ST. Gallen
+2026-02-08 12:30 | super lig | Eyüpspor vs Başakşehir
+2026-02-08 15:00 | super lig | Konyaspor vs Göztepe
+2026-02-08 15:00 | super lig | Rizespor vs Galatasaray
+2026-02-08 18:00 | super lig | Beşiktaş vs Alanyaspor
+2026-02-08 15:00 | superligaen | Puskas Academy vs Zalaegerszegi TE
+2026-02-08 17:15 | superligaen | Nyiregyhaza vs MTK Budapest

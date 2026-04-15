@@ -1,0 +1,298 @@
+PARIS JOUABLES — Mardi 2026-03-31
+=================================
+
+01:00 | international friendlies | USA (—) vs Portugal (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.25 fixture=1503004
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=1.7 fixture=1503004
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17 fixture=1503004
+  - O25_FT | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.5 fixture=1503004
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.4 fixture=1503004
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT | odd=1.1 fixture=1503004
+
+01:30 | international friendlies | Argentina (—) vs Zambia (—)
+  - HT1X_HOME | HT 1X Home | MEGA EXPLOSION | odd=1.01 fixture=1536923
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.06 fixture=1536923
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT | odd=1.02 fixture=1536923
+  - TEAM1_WIN_FT | Team1 wins (FT) | FORT PLUS | odd=1.01 fixture=1536923
+
+01:30 | international friendlies | Canada (—) vs Tunisia (—)
+  - O15_FT | Over 1.5 (FT) | MOYEN PLUS | odd=1.3 fixture=1512765
+
+01:30 | primera división paraguay | Club Sp. San Lorenzo (—) vs Sportivo Ameliano (—)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.4 fixture=1505040
+  - O15_FT | Over 1.5 (FT) | MOYEN PLUS | odd=1.4 fixture=1505040
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.53 fixture=1505040
+
+01:30 | primera división paraguay | Sportivo Luqueno (—) vs Cerro Porteno (—)
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=1.5 fixture=1505041
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.36 fixture=1505041
+
+03:20 | primera a colombia | Millonarios (12) vs Fortaleza FC (6)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.1 fixture=1506066
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.3 fixture=1506066
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.11 fixture=1506066
+
+09:00 | international friendlies | Korea DPR U23 (—) vs Thailand U23 (—)
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=1.13 fixture=1536917
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.34 fixture=1536917
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.24 fixture=1536917
+
+11:00 | international friendlies | Equatorial Guinea (—) vs Madagascar (—)
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.33 fixture=1537181
+
+12:00 | international friendlies | India U17 (—) vs Korea Republic U17 (—)
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=— fixture=1539015
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=— fixture=1539015
+  - O25_FT | Over 2.5 (FT) | TRÈS FORT | odd=— fixture=1539015
+
+12:00 | international friendlies | Korea Republic U23 (—) vs USA U21 (—)
+  - HT1X_HOME | HT 1X Home | MEGA EXPLOSION | odd=— fixture=1539014
+  - O15_FT | Over 1.5 (FT) | MOYEN PLUS | odd=— fixture=1539014
+
+13:35 | international friendlies | China PR U20 (—) vs Australia U20 (—)
+  - HT1X_HOME | HT 1X Home | FORT | odd=1.4 fixture=1537185
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18 fixture=1537185
+  - O25_FT | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.71 fixture=1537185
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT | odd=1.36 fixture=1537185
+
+13:35 | international friendlies | China PR U23 (—) vs Vietnam U23 (—)
+  - HT1X_HOME | HT 1X Home | FORT | odd=1.14 fixture=1536918
+  - O15_FT | Over 1.5 (FT) | FORT | odd=1.4 fixture=1536918
+  - O25_FT | Over 2.5 (FT) | FORT | odd=2.2 fixture=1536918
+
+14:00 | international friendlies | Morocco U18 (—) vs Iceland U19 (—)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=— fixture=1537184
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=— fixture=1537184
+  - O25_FT | Over 2.5 (FT) | MEGA EXPLOSION | odd=— fixture=1537184
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=— fixture=1537184
+
+14:00 | international friendlies | Palestine (—) vs Mauritania (—)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=— fixture=1536920
+
+14:00 | international friendlies | Qatar (—) vs Argentina (—)
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=— fixture=1514470
+  - TEAM2_SCORE_FT | Team2 scores (FT) | TRÈS FORT | odd=— fixture=1514470
+  - TEAM2_WIN_FT | Team2 wins (FT) | TRÈS FORT | odd=— fixture=1514470
+
+15:00 | international friendlies | Botswana (—) vs Malawi (—)
+  - HT1X_HOME | HT 1X Home | FORT | odd=1.21 fixture=1538303
+
+15:00 | international friendlies | Costa Rica (—) vs Iran (—)
+  - HT1X_HOME | HT 1X Home | FORT | odd=1.4 fixture=1527862
+  - O15_FT | Over 1.5 (FT) | FORT | odd=1.4 fixture=1527862
+
+15:00 | international friendlies | Egypt U20 (—) vs Algeria U20 (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.32 fixture=1538305
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22 fixture=1538305
+  - O25_FT | Over 2.5 (FT) | EXPLOSION | odd=1.8 fixture=1538305
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT | odd=1.26 fixture=1538305
+
+15:00 | international friendlies | Portugal U18 (—) vs USA U18 (—)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=— fixture=1537182
+  - O15_FT | Over 1.5 (FT) | FORT | odd=— fixture=1537182
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT | odd=— fixture=1537182
+  - TEAM1_WIN_FT | Team1 wins (FT) | FORT PLUS | odd=— fixture=1537182
+
+15:30 | international friendlies | India U23 (—) vs Tajikistan U23 (—)
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=1.33 fixture=1537183
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.28 fixture=1537183
+  - O25_FT | Over 2.5 (FT) | FORT | odd=1.9 fixture=1537183
+
+15:45 | international friendlies | UAE U23 (—) vs Oman U23 (—)
+  - HT1X_HOME | HT 1X Home | FORT | odd=1.21 fixture=1537642
+  - O15_FT | Over 1.5 (FT) | FORT | odd=1.17 fixture=1537642
+
+16:30 | international friendlies | Chile U20 (—) vs Peru U20 (—)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.05 fixture=1538304
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.14 fixture=1538304
+  - O25_FT | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.6 fixture=1538304
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT | odd=1.04 fixture=1538304
+
+16:45 | international friendlies | Croatia U18 (—) vs England U18 (—)
+  - HT1X_HOME | HT 1X Home | FORT | odd=— fixture=1536921
+  - O15_FT | Over 1.5 (FT) | FORT | odd=— fixture=1536921
+  - O25_FT | Over 2.5 (FT) | FORT PLUS | odd=— fixture=1536921
+
+17:00 | international friendlies | Liberia (—) vs Libya (—)
+  - O15_FT | Over 1.5 (FT) | MOYEN PLUS | odd=1.55 fixture=1528275
+
+17:00 | international friendlies | Niger (—) vs Togo (—)
+  - HT1X_HOME | HT 1X Home | FORT | odd=1.17 fixture=1536919
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.6 fixture=1536919
+  - O25_FT | Over 2.5 (FT) | FORT PLUS | odd=2.74 fixture=1536919
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.4 fixture=1536919
+
+18:00 | international friendlies | Montenegro (—) vs Slovenia (—)
+  - HT1X_HOME | HT 1X Home | FORT | odd=1.3 fixture=1514469
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.38 fixture=1514469
+
+18:00 | international friendlies | Norway (—) vs Switzerland (—)
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2 fixture=1503006
+  - O25_FT | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.6 fixture=1503006
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.15 fixture=1503006
+
+18:00 | international friendlies | San Marino (—) vs Andorra (—)
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.5 fixture=1527864
+  - O25_FT | Over 2.5 (FT) | FORT | odd=2.65 fixture=1527864
+
+18:00 | international friendlies | Zimbabwe (—) vs Zambia U23 (—)
+  - HT1X_HOME | HT 1X Home | MEGA EXPLOSION | odd=— fixture=1538306
+  - O15_FT | Over 1.5 (FT) | FORT | odd=— fixture=1538306
+
+19:00 | international friendlies | Hungary (—) vs Greece (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.4 fixture=1514072
+  - HT1X_HOME | HT 1X Home | FORT | odd=1.3 fixture=1514072
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.35 fixture=1514072
+  - O25_FT | Over 2.5 (FT) | MEGA EXPLOSION | odd=2.05 fixture=1514072
+
+19:00 | international friendlies | Russia (—) vs Mali (—)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.06 fixture=1536922
+  - O15_FT | Over 1.5 (FT) | FORT | odd=1.27 fixture=1536922
+
+19:00 | laliga2 | Mirandes (21) vs Albacete (13)
+  - HT1X_HOME | HT 1X Home | FORT | odd=1.29 fixture=1392124
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.33 fixture=1392124
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.25 fixture=1392124
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT | odd=1.36 fixture=1392124
+
+19:00 | liga profesional argentina | Aldosivi (13) vs Argentinos JRS (5)
+  - HT1X_HOME | HT 1X Home | FORT | odd=1.45 fixture=1491908
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.62 fixture=1491908
+
+19:30 | international friendlies | Haiti (—) vs Iceland (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.36 fixture=1512764
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3 fixture=1512764
+  - O25_FT | Over 2.5 (FT) | FORT PLUS | odd=1.95 fixture=1512764
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.4 fixture=1512764
+
+19:30 | international friendlies | Jordan (—) vs Nigeria (—)
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.3 fixture=1527863
+  - O25_FT | Over 2.5 (FT) | FORT PLUS | odd=1.93 fixture=1527863
+
+19:30 | international friendlies | South Africa (—) vs Panama (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.4 fixture=1528276
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.38 fixture=1528276
+  - O25_FT | Over 2.5 (FT) | MEGA EXPLOSION | odd=2.15 fixture=1528276
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.25 fixture=1528276
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT | odd=1.44 fixture=1528276
+
+20:00 | international friendlies | Guinea (—) vs Benin (—)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.2 fixture=1528274
+  - O15_FT | Over 1.5 (FT) | MOYEN PLUS | odd=1.44 fixture=1528274
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.25 fixture=1528274
+
+20:00 | international friendlies | Morocco (—) vs Paraguay (—)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.18 fixture=1522230
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.42 fixture=1522230
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT | odd=1.22 fixture=1522230
+
+20:00 | international friendlies | Peru (—) vs Honduras (—)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.18 fixture=1528277
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.45 fixture=1528277
+
+20:00 | laliga2 | Deportivo La Coruna (3) vs Cordoba (12)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.2 fixture=1392121
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.28 fixture=1392121
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT | odd=1.17 fixture=1392121
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT | odd=1.4 fixture=1392121
+
+20:30 | international friendlies | Algeria (—) vs Uruguay (—)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.4 fixture=1528280
+  - O15_FT | Over 1.5 (FT) | FORT | odd=1.4 fixture=1528280
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.55 fixture=1528280
+
+20:30 | international friendlies | Scotland (—) vs Ivory Coast (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.4 fixture=1528278
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.4 fixture=1528278
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.36 fixture=1528278
+  - O25_FT | Over 2.5 (FT) | TRÈS FORT | odd=2.1 fixture=1528278
+
+20:45 | international friendlies | Austria (—) vs South Korea (—)
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=1.13 fixture=1511732
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2 fixture=1511732
+  - O25_FT | Over 2.5 (FT) | FORT PLUS | odd=1.67 fixture=1511732
+
+20:45 | international friendlies | England (—) vs Japan (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.3 fixture=1502473
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22 fixture=1502473
+  - O25_FT | Over 2.5 (FT) | FORT | odd=1.7 fixture=1502473
+
+20:45 | international friendlies | Netherlands (—) vs Ecuador (—)
+  - HT1X_HOME | HT 1X Home | FORT | odd=1.12 fixture=1503007
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3 fixture=1503007
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.12 fixture=1503007
+
+20:45 | international friendlies | Rep. Of Ireland (—) vs FYR Macedonia (—)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.13 fixture=1538307
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.28 fixture=1538307
+  - O25_FT | Over 2.5 (FT) | TRÈS FORT | odd=1.85 fixture=1538307
+
+20:45 | international friendlies | Slovakia (—) vs Romania (—)
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.42 fixture=1538308
+  - O25_FT | Over 2.5 (FT) | FORT PLUS | odd=2.25 fixture=1538308
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.3 fixture=1538308
+
+20:45 | international friendlies | Ukraine (—) vs Albania (—)
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=1.25 fixture=1537646
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.3 fixture=1537646
+  - O25_FT | Over 2.5 (FT) | TRÈS FORT | odd=1.95 fixture=1537646
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT | odd=1.4 fixture=1537646
+
+20:45 | international friendlies | Wales (—) vs Northern Ireland (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.36 fixture=1538309
+  - HT1X_HOME | HT 1X Home | FORT | odd=1.18 fixture=1538309
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.3 fixture=1538309
+  - O25_FT | Over 2.5 (FT) | TRÈS FORT | odd=1.93 fixture=1538309
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.17 fixture=1538309
+
+20:45 | uefa wc qualifiers | Bosnia & Herzegovina (—) vs Italy (—)
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3 fixture=1537578
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=1.11 fixture=1537578
+
+20:45 | uefa wc qualifiers | Czech Republic (—) vs Denmark (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.38 fixture=1537579
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3 fixture=1537579
+  - O25_FT | Over 2.5 (FT) | TRÈS FORT | odd=1.93 fixture=1537579
+
+20:45 | uefa wc qualifiers | Kosovo (—) vs Türkiye (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.38 fixture=1537580
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=1.45 fixture=1537580
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.3 fixture=1537580
+  - O25_FT | Over 2.5 (FT) | FORT | odd=1.95 fixture=1537580
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.4 fixture=1537580
+
+20:45 | uefa wc qualifiers | Sweden (—) vs Poland (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.38 fixture=1537581
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3 fixture=1537581
+  - O25_FT | Over 2.5 (FT) | TRÈS FORT | odd=1.95 fixture=1537581
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT | odd=1.4 fixture=1537581
+
+21:00 | international friendlies | Brazil U20 (—) vs Paraguay U20 (—)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.11 fixture=1537180
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.22 fixture=1537180
+  - O25_FT | Over 2.5 (FT) | FORT PLUS | odd=1.75 fixture=1537180
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT | odd=1.07 fixture=1537180
+
+21:00 | international friendlies | Burkina Faso (—) vs Guinea-Bissau (—)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.05 fixture=1537179
+  - O15_FT | Over 1.5 (FT) | FORT | odd=1.22 fixture=1537179
+
+21:00 | international friendlies | Senegal (—) vs Gambia (—)
+  - HT1X_HOME | HT 1X Home | MOYEN PLUS | odd=1.02 fixture=1528279
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.2 fixture=1528279
+  - O25_FT | Over 2.5 (FT) | FORT | odd=1.65 fixture=1528279
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.05 fixture=1528279
+
+21:00 | international friendlies | Spain (—) vs Egypt (—)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.02 fixture=1511778
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.14 fixture=1511778
+  - O25_FT | Over 2.5 (FT) | FORT PLUS | odd=1.45 fixture=1511778
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.04 fixture=1511778
+
+21:30 | laliga2 | Valladolid (17) vs Cadiz (18)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.12 fixture=1392122
+  - O15_FT | Over 1.5 (FT) | MOYEN PLUS | odd=1.28 fixture=1392122
+
+23:30 | primera división paraguay | 2 de Mayo (11) vs Nacional Asuncion (8)
+  - HT1X_HOME | HT 1X Home | FORT | odd=1.36 fixture=1505037
+  - O15_FT | Over 1.5 (FT) | MOYEN PLUS | odd=1.44 fixture=1505037

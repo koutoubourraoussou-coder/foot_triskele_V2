@@ -1,0 +1,11 @@
+# date | league | home vs away | reason
+2026-01-04 | championship | Sheffield Utd vs Oxford United | GOALS_MISSING:1386856
+2026-01-27 | primera división paraguay | Club Sp. San Lorenzo vs Cerro Porteno | FIXTURE_ID_MISSING
+2026-01-28 | liga profesional argentina | River Plate vs Gimnasia L.P. | FIXTURE_ID_MISSING
+2026-01-28 | primera a colombia | Santa Fe vs Deportivo Pereira | FIXTURE_ID_MISSING
+2026-01-28 | primera división paraguay | 2 de Mayo vs Olimpia | FIXTURE_ID_MISSING
+2026-01-28 | serie a brazil | Chapecoense-sc vs Santos | FIXTURE_ID_MISSING
+2026-01-28 | serie a brazil | Corinthians vs Bahia | FIXTURE_ID_MISSING
+2026-01-29 | primera a colombia | Jaguares vs Internacional de Bogota | FIXTURE_ID_MISSING
+2026-01-29 | primera división paraguay | Rubio NU vs Deportivo Recoleta | FIXTURE_ID_MISSING
+2026-01-29 | serie a brazil | Mirassol vs Vasco DA Gama | FIXTURE_ID_MISSING

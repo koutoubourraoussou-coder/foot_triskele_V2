@@ -1,0 +1,79 @@
+2026-02-15 13:30 | 2. bundesliga | 1. FC Magdeburg vs Arminia Bielefeld
+2026-02-15 13:30 | 2. bundesliga | Holstein Kiel vs FC Schalke 04
+2026-02-15 13:30 | 2. bundesliga | VfL Bochum vs SC Paderborn 07
+2026-02-15 15:30 | bundesliga | FC Augsburg vs 1. FC Heidenheim
+2026-02-15 17:30 | bundesliga | RB Leipzig vs VfL Wolfsburg
+2026-02-15 13:00 | czech first league | Pardubice vs FK Jablonec
+2026-02-15 15:30 | czech first league | Mlada Boleslav vs Teplice
+2026-02-15 15:30 | czech first league | Slovan Liberec vs Baník Ostrava
+2026-02-15 18:30 | czech first league | Sparta Praha vs Hradec Králové
+2026-02-15 12:15 | eredivisie | Feyenoord vs GO Ahead Eagles
+2026-02-15 14:30 | eredivisie | Heerenveen vs PEC Zwolle
+2026-02-15 14:30 | eredivisie | Telstar vs Twente
+2026-02-15 16:45 | eredivisie | Sparta Rotterdam vs NEC Nijmegen
+2026-02-15 13:00 | fa cup | Birmingham vs Leeds
+2026-02-15 14:30 | fa cup | Grimsby vs Wolves
+2026-02-15 15:00 | fa cup | Oxford United vs Sunderland
+2026-02-15 15:00 | fa cup | Stoke City vs Fulham
+2026-02-15 17:30 | fa cup | Arsenal vs Wigan
+2026-02-15 14:00 | laliga | Oviedo vs Athletic Club
+2026-02-15 16:15 | laliga | Rayo Vallecano vs Atletico Madrid
+2026-02-15 18:30 | laliga | Levante vs Valencia
+2026-02-15 21:00 | laliga | Mallorca vs Real Betis
+2026-02-15 14:00 | laliga2 | Mirandes vs Las Palmas
+2026-02-15 16:15 | laliga2 | Eibar vs Racing Santander
+2026-02-15 16:15 | laliga2 | Huesca vs AD Ceuta FC
+2026-02-15 18:30 | laliga2 | Albacete vs Sporting Gijon
+2026-02-15 21:00 | laliga2 | Castellón vs Deportivo La Coruna
+2026-02-15 00:00 | liga mx | Atletico San Luis vs Club Queretaro
+2026-02-15 00:00 | liga mx | Pachuca vs Atlas
+2026-02-15 02:00 | liga mx | Monterrey vs Leon
+2026-02-15 02:06 | liga mx | FC Juarez vs Necaxa
+2026-02-15 04:07 | liga mx | Guadalajara Chivas vs Club America
+2026-02-15 23:30 | liga mx | Cruz Azul vs Tigres UANL
+2026-02-15 16:30 | liga portugal | Nacional vs FC Porto
+2026-02-15 19:00 | liga portugal | AVS vs Estoril
+2026-02-15 21:30 | liga portugal | Sporting CP vs Famalicao
+2026-02-15 12:00 | liga portugal 2 | Pacos Ferreira vs Torreense
+2026-02-15 12:00 | liga portugal 2 | Sporting CP B vs Portimonense
+2026-02-15 12:00 | liga portugal 2 | Vizela vs Maritimo
+2026-02-15 19:00 | liga portugal 2 | União de Leiria vs FC Porto B
+2026-02-15 02:00 | liga profesional argentina | Atletico Tucuman vs Estudiantes de Rio Cuarto
+2026-02-15 02:00 | liga profesional argentina | Independ. Rivadavia vs Belgrano Cordoba
+2026-02-15 21:00 | liga profesional argentina | Gimnasia L.P. vs Estudiantes L.P.
+2026-02-15 23:30 | liga profesional argentina | Boca Juniors vs Platense
+2026-02-15 15:00 | ligue 1 | Le Havre vs Toulouse
+2026-02-15 17:15 | ligue 1 | Lorient vs Angers
+2026-02-15 17:15 | ligue 1 | Metz vs Auxerre
+2026-02-15 20:45 | ligue 1 | Lyon vs Nice
+2026-02-15 15:00 | premiership | Kilmarnock vs Celtic
+2026-02-15 15:30 | premiership | Motherwell vs Aberdeen
+2026-02-15 17:30 | premiership | Rangers vs Heart Of Midlothian
+2026-02-15 00:30 | primera a colombia | Independiente Medellin vs Deportivo Pereira
+2026-02-15 02:30 | primera a colombia | Deportivo Pasto vs Internacional de Bogota
+2026-02-15 20:10 | primera a colombia | Águilas Doradas vs Bucaramanga
+2026-02-15 22:20 | primera a colombia | Deportes Tolima vs Once Caldas
+2026-02-15 00:30 | primera división paraguay | Sportivo Ameliano vs 2 de Mayo
+2026-02-15 22:30 | primera división paraguay | Sportivo Trinidense vs Libertad Asuncion
+2026-02-15 13:30 | pro league | Cercle Brugge vs Club Brugge KV
+2026-02-15 16:00 | pro league | Antwerp vs KVC Westerlo
+2026-02-15 18:30 | pro league | Anderlecht vs RAAL La Louvière
+2026-02-15 19:15 | pro league | St. Truiden vs Zulte Waregem
+2026-02-15 12:30 | serie a italia | Udinese vs Sassuolo
+2026-02-15 15:00 | serie a italia | Cremonese vs Genoa
+2026-02-15 15:00 | serie a italia | Parma vs Verona
+2026-02-15 18:00 | serie a italia | Torino vs Bologna
+2026-02-15 20:45 | serie a italia | Napoli vs AS Roma
+2026-02-15 15:00 | serie b | Bari vs Sudtirol
+2026-02-15 15:00 | serie b | Monza vs Juve Stabia
+2026-02-15 15:00 | serie b | Spezia vs Frosinone
+2026-02-15 17:15 | serie b | Empoli vs Reggiana
+2026-02-15 19:30 | serie b | Avellino vs Pescara
+2026-02-15 14:00 | super league switzerland | FC Thun vs FC Sion
+2026-02-15 16:30 | super league switzerland | FC Basel 1893 vs FC Lugano
+2026-02-15 16:30 | super league switzerland | Lausanne vs Servette FC
+2026-02-15 12:30 | super lig | Kocaelispor vs Gazişehir Gaziantep
+2026-02-15 15:00 | super lig | Göztepe vs Kayserispor
+2026-02-15 18:00 | super lig | Başakşehir vs Beşiktaş
+2026-02-15 15:30 | superligaen | Kazincbarcikai vs Nyiregyhaza
+2026-02-15 17:45 | superligaen | Gyori ETO FC vs Kisvarda FC

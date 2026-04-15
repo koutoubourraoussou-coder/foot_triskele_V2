@@ -1,0 +1,3 @@
+# date | league | home vs away | reason
+2026-02-07 | scottish cup | Rangers vs Stranraer | GOALS_MISSING:1510240
+2026-02-14 | fa cup | Port Vale vs Bristol City | GOALS_MISSING:1506262

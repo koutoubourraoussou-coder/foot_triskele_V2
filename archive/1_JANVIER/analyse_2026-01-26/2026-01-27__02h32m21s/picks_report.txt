@@ -1,0 +1,46 @@
+PARIS JOUABLES — Lundi 2026-01-26
+=================================
+
+16:20 | saudi arabia | Al-Hazm (11) vs Damac (15)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.2 fixture=1436074
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36 fixture=1436074
+
+18:00 | super lig | Eyüpspor (16) vs Beşiktaş (5)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.22 fixture=1394596
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.13 fixture=1394596
+  - TEAM2_SCORE_FT | Team2 scores (FT) | EXPLOSION | odd=1.05 fixture=1394596
+
+18:30 | saudi arabia | Al-Ittihad FC (6) vs Al Okhdood (17)
+  - HT1X_HOME | HT 1X Home | MEGA EXPLOSION | odd=1.03 fixture=1436067
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.1 fixture=1436067
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=— fixture=1436067
+
+18:30 | saudi arabia | Al-Nassr (2) vs Al Taawon (5)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.17 fixture=1436070
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.1 fixture=1436070
+
+19:00 | liga portugal 2 | União de Leiria (6) vs Sporting CP B (3)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.44 fixture=1398133
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.22 fixture=1398133
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36 fixture=1398133
+
+20:30 | laliga2 | AD Ceuta FC (10) vs Cultural Leonesa (18)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.4 fixture=1392012
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.22 fixture=1392012
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.38 fixture=1392012
+
+21:00 | championship | Norwich (18) vs Coventry (1)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.29 fixture=1386897
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2 fixture=1386897
+
+21:00 | laliga | Girona (10) vs Getafe (17)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.6 fixture=1391022
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.18 fixture=1391022
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.62 fixture=1391022
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.36 fixture=1391022
+
+21:15 | liga portugal | FC Porto (1) vs GIL Vicente (5)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.36 fixture=1396405
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.07 fixture=1396405
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.3 fixture=1396405
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.12 fixture=1396405

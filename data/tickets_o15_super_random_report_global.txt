@@ -1,0 +1,18 @@
+O15_SUPER_RANDOM — TICKETS REPORT GLOBAL (HISTORIQUE)
+====================================================
+Ce fichier s'additionne à chaque run. Ne pas effacer.
+Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
+
+
+
+# ------------------------------------------------------------------
+# APPEND O15_SUPER_RANDOM | 2026-04-15 02:24:24 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-14_1845_82ee9c21d1_O15SR — cote = 2.76 — fenêtre 18:45 → 22:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 21:00 | championship | Portsmouth vs Ipswich | Over 1.5 (FT) | MOYEN PLUS | odd=1.38
+  2) 21:00 | championship | Southampton vs Blackburn | Over 1.5 (FT) | MOYEN PLUS | odd=1.28
+  3) 18:45 | superligaen | Ferencvarosi TC vs Puskas Academy | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  4) 19:00 | serie b | Catanzaro vs Modena | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3

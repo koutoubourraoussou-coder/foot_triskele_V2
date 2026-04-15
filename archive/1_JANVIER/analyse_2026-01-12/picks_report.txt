@@ -1,0 +1,33 @@
+PARIS JOUABLES — Lundi 2026-01-12
+=================================
+
+02:00 | liga mx | Atletico San Luis (15) vs Tigres UANL (2)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.4 fixture=1491799
+
+18:30 | saudi arabia | Al-Ettifaq (7) vs Al Khaleej Saihat (9)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.36 fixture=1436045
+  - O25_FT | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.85 fixture=1436045
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.18 fixture=1436045
+
+18:30 | saudi arabia | Al-Hilal Saudi FC (1) vs Al-Nassr (2)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.2 fixture=1436047
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.11 fixture=1436047
+
+18:30 | serie a italia | Genoa (17) vs Cagliari (15)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.44 fixture=1378057
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.18 fixture=1378057
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=1.6 fixture=1378057
+
+20:30 | laliga2 | Huesca (19) vs Cordoba (11)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.44 fixture=1391990
+
+20:45 | fa cup | Liverpool (—) vs Barnsley (—)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.04 fixture=1490803
+
+20:45 | serie a italia | Juventus (5) vs Cremonese (13)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.06 fixture=1378059
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.06 fixture=1378059
+
+21:10 | coupe de france | Paris Saint Germain (—) vs Paris FC (—)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.18 fixture=1495631
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.04 fixture=1495631

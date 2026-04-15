@@ -1,0 +1,20 @@
+2026-02-09 21:01 | championship | Sheffield Utd vs Middlesbrough
+2026-02-09 21:00 | laliga | Villarreal vs Espanyol
+2026-02-09 20:30 | laliga2 | Racing Santander vs Mirandes
+2026-02-09 19:45 | liga portugal | Famalicao vs AVS
+2026-02-09 21:45 | liga portugal | FC Porto vs Sporting CP
+2026-02-09 19:00 | liga portugal 2 | Portimonense vs Benfica B
+2026-02-09 02:15 | liga profesional argentina | Gimnasia M. vs Instituto Cordoba
+2026-02-09 02:15 | liga profesional argentina | Velez Sarsfield vs Boca Juniors
+2026-02-09 21:00 | liga profesional argentina | Barracas Central vs Gimnasia L.P.
+2026-02-09 23:15 | liga profesional argentina | Estudiantes L.P. vs Deportivo Riestra
+2026-02-09 23:15 | liga profesional argentina | Lanus vs Talleres Cordoba
+2026-02-09 20:45 | ligue 2 | Amiens vs Clermont Foot
+2026-02-09 00:20 | primera a colombia | Deportivo Cali vs Millonarios
+2026-02-09 02:30 | primera a colombia | Jaguares vs Deportivo Pereira
+2026-02-09 00:30 | primera división paraguay | Nacional Asuncion vs Olimpia
+2026-02-09 18:30 | serie a italia | Atalanta vs Cremonese
+2026-02-09 20:45 | serie a italia | AS Roma vs Cagliari
+2026-02-09 15:00 | super lig | Kayserispor vs Kocaelispor
+2026-02-09 18:00 | super lig | Fenerbahçe vs Genclerbirligi
+2026-02-09 18:00 | super lig | Gazişehir Gaziantep vs Kasımpaşa

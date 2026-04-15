@@ -1,0 +1,21 @@
+TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
+==================================================
+
+📅 Lundi 2026-02-02 — Tranche 1 (fenêtre ~90min)
+-----------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-02-02_0130_9419b272c7_SYS — cote = 4.19 — fenêtre 01:30 → 04:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 01:30 | liga profesional argentina | Rosario Central vs River Plate | HT 1X Home | FORT PLUS | odd=1.29
+  2) 02:30 | primera a colombia | Llaneros vs Rionegro Aguilas | Team2 wins (FT) | FORT PLUS | odd=3.25
+
+📅 Lundi 2026-02-02 — Tranche 2 (fenêtre ~90min)
+-----------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-02-02_1945_9d1cd046dc_SYS — cote = 2.45 — fenêtre 19:45 → 22:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 19:45 | liga portugal | AVS vs SC Braga | Over 1.5 (FT) | EXPLOSION | odd=1.25
+  2) 20:45 | serie a italia | Udinese vs AS Roma | Over 1.5 (FT) | FORT PLUS | odd=1.4
+  3) 21:00 | premier league | Sunderland vs Burnley | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.4

@@ -1,0 +1,46 @@
+PARIS JOUABLES — Jeudi 2026-02-05
+=================================
+
+01:30 | serie a brazil | Gremio (9) vs Botafogo (6)
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.38 fixture=1492125
+
+01:30 | serie a brazil | Palmeiras (2) vs Vitoria (15)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.07 fixture=1492126
+
+02:00 | primera a colombia | Atletico Nacional (3) vs America de Cali (8)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.44 fixture=1505966
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.12 fixture=1505966
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.33 fixture=1505966
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=— fixture=1505966
+
+16:20 | saudi arabia | Al-Fayha (12) vs Al Najma (18)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.36 fixture=1436097
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.17 fixture=1436097
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25 fixture=1436097
+
+18:30 | saudi arabia | Al Okhdood (17) vs Al-Hilal Saudi FC (1)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.22 fixture=1436098
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.12 fixture=1436098
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=— fixture=1436098
+
+18:30 | saudi arabia | Al-Ahli Jeddah (3) vs Al-Hazm (11)
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.12 fixture=1436100
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=— fixture=1436100
+
+20:30 | belgian cup | Anderlecht (—) vs Antwerp (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.36 fixture=1508602
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.28 fixture=1508602
+
+21:00 | copa del rey | Real Betis (—) vs Atletico Madrid (—)
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.25 fixture=1509773
+
+21:00 | coupe de france | Strasbourg (—) vs Monaco (—)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.33 fixture=1506883
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18 fixture=1506883
+
+21:45 | taça de portugal | Sporting CP (—) vs AVS (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.18 fixture=1494404
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.01 fixture=1494404
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.1 fixture=1494404
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=— fixture=1494404
+  - TEAM1_WIN_FT | Team1 wins (FT) | FORT PLUS | odd=1.1 fixture=1494404

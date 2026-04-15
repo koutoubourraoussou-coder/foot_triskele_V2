@@ -1,0 +1,61 @@
+2026-01-25 13:30 | 2. bundesliga | FC Schalke 04 vs 1. FC Kaiserslautern
+2026-01-25 13:30 | 2. bundesliga | SC Paderborn 07 vs Preußen Münster
+2026-01-25 13:30 | 2. bundesliga | SV Elversberg vs VfL Bochum
+2026-01-25 15:30 | bundesliga | Borussia Mönchengladbach vs VfB Stuttgart
+2026-01-25 17:30 | bundesliga | SC Freiburg vs 1. FC Köln
+2026-01-25 13:00 | championship | Portsmouth vs Southampton
+2026-01-25 12:15 | eredivisie | Telstar vs AZ Alkmaar
+2026-01-25 14:30 | eredivisie | Groningen vs Fortuna Sittard
+2026-01-25 16:45 | eredivisie | Feyenoord vs Heracles
+2026-01-25 16:45 | eredivisie | Utrecht vs Sparta Rotterdam
+2026-01-25 14:00 | laliga | Atletico Madrid vs Mallorca
+2026-01-25 16:15 | laliga | Barcelona vs Oviedo
+2026-01-25 18:30 | laliga | Real Sociedad vs Celta Vigo
+2026-01-25 21:00 | laliga | Alaves vs Real Betis
+2026-01-25 14:00 | laliga2 | FC Andorra vs Huesca
+2026-01-25 16:15 | laliga2 | Eibar vs Almeria
+2026-01-25 18:30 | laliga2 | Zaragoza vs Castellón
+2026-01-25 21:00 | laliga2 | Deportivo La Coruna vs Racing Santander
+2026-01-25 16:30 | liga portugal | Nacional vs Rio Ave
+2026-01-25 19:00 | liga portugal | Benfica vs Estrela
+2026-01-25 19:00 | liga portugal | Famalicao vs Tondela
+2026-01-25 21:30 | liga portugal | SC Braga vs Alverca
+2026-01-25 12:00 | liga portugal 2 | FC Porto B vs Vizela
+2026-01-25 12:00 | liga portugal 2 | Portimonense vs Feirense
+2026-01-25 15:00 | liga portugal 2 | Torreense vs Farense
+2026-01-25 16:30 | liga portugal 2 | Oliveirense vs Penafiel
+2026-01-25 15:00 | ligue 1 | Nantes vs Nice
+2026-01-25 17:15 | ligue 1 | Metz vs Lyon
+2026-01-25 17:15 | ligue 1 | Paris FC vs Angers
+2026-01-25 17:15 | ligue 1 | Stade Brestois 29 vs Toulouse
+2026-01-25 20:45 | ligue 1 | Lille vs Strasbourg
+2026-01-25 15:00 | premier league | Brentford vs Nottingham Forest
+2026-01-25 15:00 | premier league | Crystal Palace vs Chelsea
+2026-01-25 15:00 | premier league | Newcastle vs Aston Villa
+2026-01-25 17:30 | premier league | Arsenal vs Manchester United
+2026-01-25 16:00 | premiership | Heart Of Midlothian vs Celtic
+2026-01-25 16:00 | premiership | Rangers vs Dundee
+2026-01-25 13:30 | pro league | Antwerp vs Charleroi
+2026-01-25 16:00 | pro league | Genk vs Cercle Brugge
+2026-01-25 18:30 | pro league | Anderlecht vs Dender
+2026-01-25 19:15 | pro league | KV Mechelen vs KVC Westerlo
+2026-01-25 16:20 | saudi arabia | Al Najma vs Al-Qadisiyah FC
+2026-01-25 18:30 | saudi arabia | Al Riyadh vs Al-Hilal Saudi FC
+2026-01-25 18:30 | saudi arabia | Al-Fayha vs Al-Fateh
+2026-01-25 12:30 | serie a italia | Sassuolo vs Cremonese
+2026-01-25 15:00 | serie a italia | Atalanta vs Parma
+2026-01-25 15:00 | serie a italia | Genoa vs Bologna
+2026-01-25 18:00 | serie a italia | Juventus vs Napoli
+2026-01-25 20:45 | serie a italia | AS Roma vs AC Milan
+2026-01-25 15:00 | serie b | Sudtirol vs Padova
+2026-01-25 17:15 | serie b | Catanzaro vs Sampdoria
+2026-01-25 14:00 | super league switzerland | FC Thun vs BSC Young Boys
+2026-01-25 16:30 | super league switzerland | FC ST. Gallen vs Servette FC
+2026-01-25 16:30 | super league switzerland | FC Zurich vs FC Basel 1893
+2026-01-25 12:30 | super lig | Gazişehir Gaziantep vs Konyaspor
+2026-01-25 15:00 | super lig | Antalyaspor vs Genclerbirligi
+2026-01-25 15:00 | super lig | Rizespor vs Alanyaspor
+2026-01-25 18:00 | super lig | Fenerbahçe vs Göztepe
+2026-01-25 13:00 | superligaen | Debreceni VSC vs Diosgyori VTK
+2026-01-25 15:00 | superligaen | Kazincbarcikai vs Zalaegerszegi TE
+2026-01-25 18:15 | superligaen | Ferencvarosi TC vs Gyori ETO FC

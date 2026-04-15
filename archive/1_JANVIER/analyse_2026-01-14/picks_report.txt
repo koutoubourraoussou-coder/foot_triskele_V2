@@ -1,0 +1,72 @@
+PARIS JOUABLES — Mercredi 2026-01-14
+====================================
+
+00:00 | liga mx | Cruz Azul (6) vs Atlas (14)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.06 fixture=1491803
+
+02:00 | liga mx | Necaxa (9) vs Monterrey (7)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.33 fixture=1491800
+
+02:06 | liga mx | Pachuca (13) vs Leon (8)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.17 fixture=1491801
+
+04:10 | liga mx | FC Juarez (11) vs Guadalajara Chivas (2)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.44 fixture=1491804
+  - O25_FT | Over 2.5 (FT) | FORT PLUS | odd=2.1 fixture=1491804
+
+15:45 | saudi arabia | Al-Qadisiyah FC (5) vs Al-Fayha (12)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.36 fixture=1436046
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.4 fixture=1436046
+
+18:30 | bundesliga | VfL Wolfsburg (11) vs FC St. Pauli (17)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.36 fixture=1388460
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.2 fixture=1388460
+
+18:30 | serie a italia | Napoli (3) vs Parma (14)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.35 fixture=1378021
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.08 fixture=1378021
+
+19:45 | taça de portugal | Fafe (—) vs SC Braga (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.25 fixture=1502134
+  - O25_FT | Over 2.5 (FT) | TRÈS FORT | odd=1.62 fixture=1502134
+
+20:30 | belgian cup | Dender (—) vs Union St. Gilloise (—)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.57 fixture=1489241
+
+20:30 | bundesliga | 1. FC Köln (12) vs Bayern München (1)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.15 fixture=1388454
+  - TEAM2_SCORE_FT | Team2 scores (FT) | TRÈS FORT | odd=1.03 fixture=1388454
+
+20:30 | bundesliga | 1899 Hoffenheim (5) vs Borussia Mönchengladbach (10)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.25 fixture=1388456
+  - O25_FT | Over 2.5 (FT) | FORT PLUS | odd=1.55 fixture=1388456
+
+20:30 | super league switzerland | FC Sion (5) vs FC Winterthur (12)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.25 fixture=1382406
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.12 fixture=1382406
+  - O25_FT | Over 2.5 (FT) | TRÈS FORT | odd=1.48 fixture=1382406
+  - TEAM1_SCORE_FT | Team1 scores (FT) | TRÈS FORT | odd=1.07 fixture=1382406
+
+20:30 | super league switzerland | Servette FC (10) vs Lausanne (7)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.22 fixture=1382397
+
+20:45 | premiership | Heart Of Midlothian (1) vs ST Mirren (10)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.3 fixture=1382765
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.12 fixture=1382765
+
+20:45 | serie a italia | Inter (1) vs Lecce (17)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.25 fixture=1378018
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.04 fixture=1378018
+
+21:00 | copa del rey | Albacete (—) vs Real Madrid (—)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.2 fixture=1503640
+
+21:00 | copa del rey | Real Betis (—) vs Elche (—)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.3 fixture=1503641
+
+21:00 | league cup | Chelsea (—) vs Arsenal (—)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.35 fixture=1498259
+
+21:45 | taça de portugal | FC Porto (—) vs Benfica (—)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.44 fixture=1494403
+  - O25_FT | Over 2.5 (FT) | FORT PLUS | odd=2.6 fixture=1494403

@@ -1,0 +1,68 @@
+2026-01-10 15:30 | bundesliga | 1. FC Heidenheim vs 1. FC Köln
+2026-01-10 15:30 | bundesliga | SC Freiburg vs Hamburger SV
+2026-01-10 15:30 | bundesliga | Union Berlin vs FSV Mainz 05
+2026-01-10 18:30 | bundesliga | Bayer Leverkusen vs VfB Stuttgart
+2026-01-10 15:30 | coupe de france | Angers vs Toulouse
+2026-01-10 15:30 | coupe de france | Bastia vs Estac Troyes
+2026-01-10 15:30 | coupe de france | Montreuil vs Amiens
+2026-01-10 15:30 | coupe de france | Orleans vs Monaco
+2026-01-10 18:00 | coupe de france | Avranches vs Strasbourg
+2026-01-10 18:00 | coupe de france | Hauts Lyonnais vs Lorient
+2026-01-10 18:00 | coupe de france | Istres vs Laval
+2026-01-10 18:00 | coupe de france | Le Puy Foot vs Reims
+2026-01-10 16:30 | eredivisie | AZ Alkmaar vs FC Volendam
+2026-01-10 18:45 | eredivisie | Twente vs PEC Zwolle
+2026-01-10 20:00 | eredivisie | PSV Eindhoven vs Excelsior
+2026-01-10 21:00 | eredivisie | Groningen vs NAC Breda
+2026-01-10 13:15 | fa cup | Cheltenham vs Leicester
+2026-01-10 13:15 | fa cup | Everton vs Sunderland
+2026-01-10 13:15 | fa cup | Macclesfield vs Crystal Palace
+2026-01-10 13:15 | fa cup | Wolves vs Shrewsbury
+2026-01-10 16:00 | fa cup | Boreham Wood vs Burton Albion
+2026-01-10 16:00 | fa cup | Burnley vs Millwall
+2026-01-10 16:00 | fa cup | Doncaster vs Southampton
+2026-01-10 16:00 | fa cup | Fulham vs Middlesbrough
+2026-01-10 16:00 | fa cup | Ipswich vs Blackpool
+2026-01-10 16:00 | fa cup | Manchester City vs Exeter City
+2026-01-10 16:00 | fa cup | Newcastle vs Bournemouth
+2026-01-10 16:00 | fa cup | Sheffield Wednesday vs Brentford
+2026-01-10 16:00 | fa cup | Stoke City vs Coventry
+2026-01-10 18:45 | fa cup | Bristol City vs Watford
+2026-01-10 18:45 | fa cup | Cambridge United vs Birmingham
+2026-01-10 18:45 | fa cup | Grimsby vs Weston-super-Mare
+2026-01-10 18:45 | fa cup | Tottenham vs Aston Villa
+2026-01-10 21:00 | fa cup | Charlton vs Chelsea
+2026-01-10 14:00 | laliga | Oviedo vs Real Betis
+2026-01-10 16:15 | laliga | Villarreal vs Alaves
+2026-01-10 18:30 | laliga | Girona vs Osasuna
+2026-01-10 21:00 | laliga | Valencia vs Elche
+2026-01-10 14:00 | laliga2 | Mirandes vs Almeria
+2026-01-10 16:15 | laliga2 | Real Sociedad II vs Albacete
+2026-01-10 18:30 | laliga2 | Burgos vs Eibar
+2026-01-10 18:30 | laliga2 | FC Andorra vs Cultural Leonesa
+2026-01-10 18:30 | laliga2 | Las Palmas vs Deportivo La Coruna
+2026-01-10 21:00 | laliga2 | Racing Santander vs Zaragoza
+2026-01-10 00:07 | liga mx | Guadalajara Chivas vs Pachuca
+2026-01-10 02:00 | liga mx | Mazatlán vs FC Juarez
+2026-01-10 04:00 | liga mx | Atlas vs Puebla
+2026-01-10 04:00 | liga mx | Club Tijuana vs Club America
+2026-01-10 16:00 | premiership | Celtic vs Dundee Utd
+2026-01-10 16:00 | premiership | Hibernian vs Motherwell
+2026-01-10 16:00 | premiership | Livingston vs Kilmarnock
+2026-01-10 16:00 | premiership | ST Mirren vs Falkirk
+2026-01-10 15:00 | saudi arabia | NEOM vs Al-Fateh
+2026-01-10 16:00 | saudi arabia | Al Riyadh vs Al-Fayha
+2026-01-10 18:30 | saudi arabia | Al Okhdood vs Al-Ahli Jeddah
+2026-01-10 15:00 | serie a italia | Como vs Bologna
+2026-01-10 15:00 | serie a italia | Udinese vs Pisa
+2026-01-10 18:00 | serie a italia | AS Roma vs Sassuolo
+2026-01-10 20:45 | serie a italia | Atalanta vs Torino
+2026-01-10 15:00 | serie b | Avellino vs Sampdoria
+2026-01-10 15:00 | serie b | Carrarese vs Bari
+2026-01-10 15:00 | serie b | Frosinone vs Catanzaro
+2026-01-10 15:00 | serie b | Reggiana vs Venezia
+2026-01-10 15:00 | serie b | Sudtirol vs Spezia
+2026-01-10 15:00 | serie b | Virtus Entella vs Monza
+2026-01-10 17:15 | serie b | Juve Stabia vs Pescara
+2026-01-10 19:30 | serie b | Cesena vs Empoli
+2026-01-10 21:00 | taça da liga | Guimaraes vs SC Braga

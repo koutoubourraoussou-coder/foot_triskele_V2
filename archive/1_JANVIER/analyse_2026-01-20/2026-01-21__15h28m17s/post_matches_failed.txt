@@ -1,0 +1,9 @@
+# date | league | home vs away | reason
+2026-01-17 | liga mx | Necaxa vs Atlas | TEAM_ID_FAILED
+2026-01-17 | liga mx | Guadalajara Chivas vs Club Queretaro | TEAM_ID_FAILED
+2026-01-17 | liga mx | Mazatlán vs Monterrey | TEAM_ID_FAILED
+2026-01-17 | liga portugal | GIL Vicente vs Nacional | TEAM_ID_FAILED
+2026-01-17 | liga portugal | Alverca vs Moreirense | TEAM_ID_FAILED
+2026-01-17 | liga portugal | AVS vs Arouca | TEAM_ID_FAILED
+2026-01-17 | liga portugal | Rio Ave vs Benfica | TEAM_ID_FAILED
+2026-01-17 | liga portugal 2 | Farense vs Oliveirense | TEAM_ID_FAILED

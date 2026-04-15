@@ -1,0 +1,74 @@
+2026-02-01 13:30 | 2. bundesliga | Dynamo Dresden vs Arminia Bielefeld
+2026-02-01 13:30 | 2. bundesliga | Fortuna Düsseldorf vs SC Paderborn 07
+2026-02-01 13:30 | 2. bundesliga | Hertha BSC vs SV Darmstadt 98
+2026-02-01 15:30 | bundesliga | VfB Stuttgart vs SC Freiburg
+2026-02-01 17:30 | bundesliga | Borussia Dortmund vs 1. FC Heidenheim
+2026-02-01 13:00 | czech first league | Slovácko vs Baník Ostrava
+2026-02-01 15:30 | czech first league | Karviná vs Plzen
+2026-02-01 15:30 | czech first league | Slovan Liberec vs Zlin
+2026-02-01 18:30 | czech first league | Pardubice vs Slavia Praha
+2026-02-01 12:15 | eredivisie | Excelsior vs Ajax
+2026-02-01 14:30 | eredivisie | Heracles vs Fortuna Sittard
+2026-02-01 14:30 | eredivisie | PSV Eindhoven vs Feyenoord
+2026-02-01 16:45 | eredivisie | Heerenveen vs Utrecht
+2026-02-01 20:00 | eredivisie | FC Volendam vs GO Ahead Eagles
+2026-02-01 14:00 | laliga | Real Madrid vs Rayo Vallecano
+2026-02-01 16:15 | laliga | Real Betis vs Valencia
+2026-02-01 18:30 | laliga | Getafe vs Celta Vigo
+2026-02-01 21:00 | laliga | Athletic Club vs Real Sociedad
+2026-02-01 14:00 | laliga2 | Almeria vs AD Ceuta FC
+2026-02-01 16:15 | laliga2 | Eibar vs Sporting Gijon
+2026-02-01 18:30 | laliga2 | Castellón vs FC Andorra
+2026-02-01 18:30 | laliga2 | Huesca vs Cadiz
+2026-02-01 21:00 | laliga2 | Granada CF vs Racing Santander
+2026-02-01 00:00 | liga mx | Atlas vs Mazatlán
+2026-02-01 00:00 | liga mx | Atletico San Luis vs Guadalajara Chivas
+2026-02-01 02:00 | liga mx | Monterrey vs Club Tijuana
+2026-02-01 02:10 | liga mx | Leon vs Tigres UANL
+2026-02-01 16:30 | liga portugal | GIL Vicente vs Famalicao
+2026-02-01 19:00 | liga portugal | Sporting CP vs Nacional
+2026-02-01 21:30 | liga portugal | Tondela vs Benfica
+2026-02-01 12:00 | liga portugal 2 | Sporting CP B vs Oliveirense
+2026-02-01 12:00 | liga portugal 2 | União de Leiria vs Pacos Ferreira
+2026-02-01 15:00 | liga portugal 2 | Feirense vs Maritimo
+2026-02-01 02:00 | liga profesional argentina | Atletico Tucuman vs Huracan
+2026-02-01 02:00 | liga profesional argentina | Talleres Cordoba vs Platense
+2026-02-01 21:00 | liga profesional argentina | Barracas Central vs Deportivo Riestra
+2026-02-01 23:15 | liga profesional argentina | Boca Juniors vs Newells Old Boys
+2026-02-01 15:00 | ligue 1 | Lyon vs Lille
+2026-02-01 17:15 | ligue 1 | Angers vs Metz
+2026-02-01 17:15 | ligue 1 | Nice vs Stade Brestois 29
+2026-02-01 17:15 | ligue 1 | Toulouse vs Auxerre
+2026-02-01 20:45 | ligue 1 | Strasbourg vs Paris Saint Germain
+2026-02-01 15:00 | premier league | Aston Villa vs Brentford
+2026-02-01 15:00 | premier league | Manchester United vs Fulham
+2026-02-01 15:00 | premier league | Nottingham Forest vs Crystal Palace
+2026-02-01 17:30 | premier league | Tottenham vs Manchester City
+2026-02-01 15:00 | premiership | Hibernian vs Rangers
+2026-02-01 16:00 | premiership | Celtic vs Falkirk
+2026-02-01 00:10 | primera a colombia | Chico vs Santa Fe
+2026-02-01 20:00 | primera a colombia | Bucaramanga vs Alianza Valledupar
+2026-02-01 22:10 | primera a colombia | Deportivo Cali vs Deportivo Pasto
+2026-02-01 00:15 | primera división paraguay | Sportivo Ameliano vs Club Sp. San Lorenzo
+2026-02-01 22:00 | primera división paraguay | Olimpia vs Sportivo Trinidense
+2026-02-01 13:30 | pro league | Standard Liege vs Anderlecht
+2026-02-01 16:00 | pro league | Dender vs Genk
+2026-02-01 18:30 | pro league | Union St. Gilloise vs Club Brugge KV
+2026-02-01 19:15 | pro league | OH Leuven vs KV Mechelen
+2026-02-01 16:15 | saudi arabia | Al Shabab vs Al-Fayha
+2026-02-01 18:30 | saudi arabia | Al-Fateh vs Al-Hazm
+2026-02-01 18:30 | saudi arabia | Al-Ittihad FC vs Al Najma
+2026-02-01 12:30 | serie a italia | Torino vs Lecce
+2026-02-01 15:00 | serie a italia | Como vs Atalanta
+2026-02-01 18:00 | serie a italia | Cremonese vs Inter
+2026-02-01 20:45 | serie a italia | Parma vs Juventus
+2026-02-01 15:00 | serie b | Reggiana vs Juve Stabia
+2026-02-01 17:15 | serie b | Padova vs Monza
+2026-02-01 14:00 | super league switzerland | FC Luzern vs FC ST. Gallen
+2026-02-01 16:30 | super league switzerland | BSC Young Boys vs FC Zurich
+2026-02-01 16:30 | super league switzerland | FC Basel 1893 vs FC Thun
+2026-02-01 15:00 | super lig | Genclerbirligi vs Gazişehir Gaziantep
+2026-02-01 18:00 | super lig | Galatasaray vs Kayserispor
+2026-02-01 12:45 | superligaen | Diosgyori VTK vs Kisvarda FC
+2026-02-01 15:15 | superligaen | Paks vs Ferencvarosi TC
+2026-02-01 19:45 | superligaen | Zalaegerszegi TE vs Nyiregyhaza

@@ -1615,3 +1615,18 @@ TSV: 2026-04-15	2976966200	TEAM2_SCORE_FT	21:00	uefa champions league	Bayern Mü
 TSV: 2026-04-15	2976966200	HT1X_HOME	21:00	uefa champions league	Bayern München	Real Madrid	1.17	1534911	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-15	2976966200	HT05	21:00	uefa champions league	Bayern München	Real Madrid	1.15	1534911	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-04-15 02:24:22 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-14	4075174619	O15_FT	18:45	superligaen	Ferencvarosi TC	Puskas Academy	1.2	1380326	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-14	3081312755	O15_FT	19:00	serie b	Catanzaro	Modena	1.3	1419899	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-14	3081312755	TEAM1_SCORE_FT	19:00	serie b	Catanzaro	Modena	1.25	1419899	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-14	4148803789	HT1X_HOME	20:00	saudi arabia	Al-Qadisiyah FC	Al Shabab	1.17	1436168	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-14	1371606574	HT1X_HOME	21:00	uefa champions league	Atletico Madrid	Barcelona	1.6	1534910	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-14	3931507797	O15_FT	21:00	championship	Portsmouth	Ipswich	1.38	1386857	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-14	3931507797	TEAM2_SCORE_FT	21:00	championship	Portsmouth	Ipswich	1.25	1386857	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-14	1371606574	TEAM1_SCORE_FT	21:00	uefa champions league	Atletico Madrid	Barcelona	1.22	1534910	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-14	1371606574	HT05	21:00	uefa champions league	Atletico Madrid	Barcelona	1.18	1534910	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-14	1534240872	HT05	21:00	uefa champions league	Liverpool	Paris Saint Germain	1.18	1534912	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-14	1534240872	TEAM2_SCORE_FT	21:00	uefa champions league	Liverpool	Paris Saint Germain	1.17	1534912	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+

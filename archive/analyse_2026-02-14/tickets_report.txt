@@ -1,0 +1,32 @@
+TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
+==================================================
+
+📅 Samedi 2026-02-14 — Tranche 1 (fenêtre ~90min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-02-14_1230_746063c4ac_SYS — cote = 2.42 — fenêtre 12:30 → 15:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 12:30 | super lig | Genclerbirligi vs Rizespor | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3
+  2) 14:00 | laliga | Espanyol vs Celta Vigo | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.4
+  3) 14:00 | laliga2 | Cordoba vs Leganes | Over 1.5 (FT) | TRÈS FORT | odd=1.33
+
+📅 Samedi 2026-02-14 — Tranche 2 (fenêtre ~90min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-02-14_1630_4ddc56ebd2_SYS — cote = 2.36 — fenêtre 16:30 → 19:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:30 | eredivisie | Heracles vs NAC Breda | Over 1.5 (FT) | TRÈS FORT | odd=1.28
+  2) 16:30 | liga portugal | Casa Pia vs Arouca | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.42
+  3) 18:00 | czech first league | Sigma Olomouc vs Plzen | Over 1.5 (FT) | EXPLOSION | odd=1.3
+
+📅 Samedi 2026-02-14 — Tranche 3 (fenêtre ~20min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-02-14_2045_e58e03de07_SYS — cote = 2.37 — fenêtre 20:45 → 22:55  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:45 | pro league | Standard Liege vs Union St. Gilloise | Over 1.5 (FT) | TRÈS FORT | odd=1.36
+  2) 20:45 | serie a italia | Inter vs Juventus | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36
+  3) 21:05 | ligue 1 | Paris FC vs Lens | Over 1.5 (FT) | TRÈS FORT | odd=1.28

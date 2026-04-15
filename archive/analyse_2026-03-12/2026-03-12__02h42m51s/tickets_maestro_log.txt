@@ -1,0 +1,75 @@
+RUN MAESTROLOGUE — 2026-03-12 02:43:02
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTROLOGUE — SYSTEM — 2026-03-12
+========================================
+- picks_total: 9
+- unique_matches_day: 9
+- rich_day: False
+- max_tickets_today: 1
+- windows_count: 1
+- day_max_possible_odd: 3.67
+- threshold_used: 2.2 (target=2.2, fallback=1.6)
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 02:00 -> 23:00
+  - raw_window_picks: 9
+  - filtered_window_picks: 9
+  - ok_window: 2
+  - perf_reject: 7
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 1.66
+
+  -> SKIP WINDOW 1: cote max insuffisante
+
+FIN JOURNÉE
+------------------
+- tickets_built: 0 / 1
+- next_window_start: 00:00
+
+MAESTROLOGUE — RANDOM — 2026-03-12
+========================================
+- picks_total: 21
+- unique_matches_day: 21
+- rich_day: True
+- max_tickets_today: 2
+- windows_count: 2
+- day_max_possible_odd: 7.19
+- threshold_used: 2.2 (target=2.2, fallback=1.6)
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 01:30 -> 20:00
+  - raw_window_picks: 11
+  - filtered_window_picks: 11
+  - ok_window: 3
+  - perf_reject: 8
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 2.13
+
+  -> SKIP WINDOW 1: cote max insuffisante
+
+WINDOW 2 | 21:00 -> 23:30
+  - raw_window_picks: 10
+  - filtered_window_picks: 10
+  - ok_window: 0
+  - perf_reject: 10
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 1
+
+  -> SKIP WINDOW 2: cote max insuffisante
+
+FIN JOURNÉE
+------------------
+- tickets_built: 0 / 2
+- next_window_start: 00:00
+
+RUN SUMMARY
+- system_tickets: 0 | o15_tickets: 0
+----------------------------------------
+

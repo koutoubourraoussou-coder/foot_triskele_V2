@@ -1,0 +1,231 @@
+TSV: 3293079741	2026-01-28	liga profesional argentina	Atletico Tucuman	Central Cordoba de Santiago	HT05	HT+0.5	5.0	FORT PLUS	1	LOSS	FT	1491834	0-0	0-0	02:15
+TSV: 3293079741	2026-01-28	liga profesional argentina	Atletico Tucuman	Central Cordoba de Santiago	HT1X_HOME	HT 1X Home	4.0	FORT	0	BAD_NO_BET	FT	1491834	0-0	0-0	02:15
+TSV: 3293079741	2026-01-28	liga profesional argentina	Atletico Tucuman	Central Cordoba de Santiago	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1491834	0-0	0-0	02:15
+TSV: 3293079741	2026-01-28	liga profesional argentina	Atletico Tucuman	Central Cordoba de Santiago	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1491834	0-0	0-0	02:15
+TSV: 3293079741	2026-01-28	liga profesional argentina	Atletico Tucuman	Central Cordoba de Santiago	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	LOSS	FT	1491834	0-0	0-0	02:15
+TSV: 3293079741	2026-01-28	liga profesional argentina	Atletico Tucuman	Central Cordoba de Santiago	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491834	0-0	0-0	02:15
+TSV: 3293079741	2026-01-28	liga profesional argentina	Atletico Tucuman	Central Cordoba de Santiago	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491834	0-0	0-0	02:15
+TSV: 1598899999	2026-01-28	liga profesional argentina	Newells Old Boys	Independiente	HT05	HT+0.5	7.0	EXPLOSION	1	WIN	FT	1491842	1-1	0-1	02:15
+TSV: 1598899999	2026-01-28	liga profesional argentina	Newells Old Boys	Independiente	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1491842	1-1	0-1	02:15
+TSV: 1598899999	2026-01-28	liga profesional argentina	Newells Old Boys	Independiente	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1491842	1-1	0-1	02:15
+TSV: 1598899999	2026-01-28	liga profesional argentina	Newells Old Boys	Independiente	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1491842	1-1	0-1	02:15
+TSV: 1598899999	2026-01-28	liga profesional argentina	Newells Old Boys	Independiente	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1491842	1-1	0-1	02:15
+TSV: 1598899999	2026-01-28	liga profesional argentina	Newells Old Boys	Independiente	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491842	1-1	0-1	02:15
+TSV: 1598899999	2026-01-28	liga profesional argentina	Newells Old Boys	Independiente	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1491842	1-1	0-1	02:15
+TSV: 4017819940	2026-01-28	primera a colombia	Independiente Medellin	Deportes Tolima	HT05	HT+0.5	7.0	EXPLOSION	1	WIN	FT	1505949	2-2	1-2	02:30
+TSV: 4017819940	2026-01-28	primera a colombia	Independiente Medellin	Deportes Tolima	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1505949	2-2	1-2	02:30
+TSV: 4017819940	2026-01-28	primera a colombia	Independiente Medellin	Deportes Tolima	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1505949	2-2	1-2	02:30
+TSV: 4017819940	2026-01-28	primera a colombia	Independiente Medellin	Deportes Tolima	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1505949	2-2	1-2	02:30
+TSV: 4017819940	2026-01-28	primera a colombia	Independiente Medellin	Deportes Tolima	O15_FT	Over 1.5 (FT)	0.0	KO	0	BAD_NO_BET	FT	1505949	2-2	1-2	02:30
+TSV: 4017819940	2026-01-28	primera a colombia	Independiente Medellin	Deportes Tolima	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505949	2-2	1-2	02:30
+TSV: 4017819940	2026-01-28	primera a colombia	Independiente Medellin	Deportes Tolima	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505949	2-2	1-2	02:30
+TSV: 3008444812	2026-01-28	saudi arabia	Al Najma	Al Riyadh	HT05	HT+0.5	5.0	FORT PLUS	1	WIN	FT	1436079	1-1	0-1	16:20
+TSV: 3008444812	2026-01-28	saudi arabia	Al Najma	Al Riyadh	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	GOOD_NO_BET	FT	1436079	1-1	0-1	16:20
+TSV: 3008444812	2026-01-28	saudi arabia	Al Najma	Al Riyadh	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1436079	1-1	0-1	16:20
+TSV: 3008444812	2026-01-28	saudi arabia	Al Najma	Al Riyadh	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1436079	1-1	0-1	16:20
+TSV: 3008444812	2026-01-28	saudi arabia	Al Najma	Al Riyadh	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1436079	1-1	0-1	16:20
+TSV: 3008444812	2026-01-28	saudi arabia	Al Najma	Al Riyadh	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1436079	1-1	0-1	16:20
+TSV: 3008444812	2026-01-28	saudi arabia	Al Najma	Al Riyadh	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1436079	1-1	0-1	16:20
+TSV: 3926136361	2026-01-28	saudi arabia	Al-Ahli Jeddah	Al-Ettifaq	HT05	HT+0.5	2.0	MOYEN	0	BAD_NO_BET	FT	1436076	4-0	2-0	18:30
+TSV: 3926136361	2026-01-28	saudi arabia	Al-Ahli Jeddah	Al-Ettifaq	HT1X_HOME	HT 1X Home	4.0	FORT	0	BAD_NO_BET	FT	1436076	4-0	2-0	18:30
+TSV: 3926136361	2026-01-28	saudi arabia	Al-Ahli Jeddah	Al-Ettifaq	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1436076	4-0	2-0	18:30
+TSV: 3926136361	2026-01-28	saudi arabia	Al-Ahli Jeddah	Al-Ettifaq	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1436076	4-0	2-0	18:30
+TSV: 3926136361	2026-01-28	saudi arabia	Al-Ahli Jeddah	Al-Ettifaq	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1436076	4-0	2-0	18:30
+TSV: 3926136361	2026-01-28	saudi arabia	Al-Ahli Jeddah	Al-Ettifaq	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1436076	4-0	2-0	18:30
+TSV: 3926136361	2026-01-28	saudi arabia	Al-Ahli Jeddah	Al-Ettifaq	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1436076	4-0	2-0	18:30
+TSV: 2900028999	2026-01-28	saudi arabia	Al-Fayha	Al Khaleej Saihat	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1436078	3-1	3-0	18:30
+TSV: 2900028999	2026-01-28	saudi arabia	Al-Fayha	Al Khaleej Saihat	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1436078	3-1	3-0	18:30
+TSV: 2900028999	2026-01-28	saudi arabia	Al-Fayha	Al Khaleej Saihat	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1436078	3-1	3-0	18:30
+TSV: 2900028999	2026-01-28	saudi arabia	Al-Fayha	Al Khaleej Saihat	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1436078	3-1	3-0	18:30
+TSV: 2900028999	2026-01-28	saudi arabia	Al-Fayha	Al Khaleej Saihat	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1436078	3-1	3-0	18:30
+TSV: 2900028999	2026-01-28	saudi arabia	Al-Fayha	Al Khaleej Saihat	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1436078	3-1	3-0	18:30
+TSV: 2900028999	2026-01-28	saudi arabia	Al-Fayha	Al Khaleej Saihat	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1436078	3-1	3-0	18:30
+TSV: 1778312836	2026-01-28	liga profesional argentina	Aldosivi	Barracas Central	HT05	HT+0.5	2.0	MOYEN	0	GOOD_NO_BET	FT	1491833	0-0	0-0	21:00
+TSV: 1778312836	2026-01-28	liga profesional argentina	Aldosivi	Barracas Central	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1491833	0-0	0-0	21:00
+TSV: 1778312836	2026-01-28	liga profesional argentina	Aldosivi	Barracas Central	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1491833	0-0	0-0	21:00
+TSV: 1778312836	2026-01-28	liga profesional argentina	Aldosivi	Barracas Central	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1491833	0-0	0-0	21:00
+TSV: 1778312836	2026-01-28	liga profesional argentina	Aldosivi	Barracas Central	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	LOSS	FT	1491833	0-0	0-0	21:00
+TSV: 1778312836	2026-01-28	liga profesional argentina	Aldosivi	Barracas Central	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491833	0-0	0-0	21:00
+TSV: 1778312836	2026-01-28	liga profesional argentina	Aldosivi	Barracas Central	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491833	0-0	0-0	21:00
+TSV: 4215136567	2026-01-28	uefa champions league	Ajax	Olympiakos Piraeus	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1451157	1-2	0-0	21:00
+TSV: 4215136567	2026-01-28	uefa champions league	Ajax	Olympiakos Piraeus	HT1X_HOME	HT 1X Home	1.0	FAIBLE	0	BAD_NO_BET	FT	1451157	1-2	0-0	21:00
+TSV: 4215136567	2026-01-28	uefa champions league	Ajax	Olympiakos Piraeus	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1451157	1-2	0-0	21:00
+TSV: 4215136567	2026-01-28	uefa champions league	Ajax	Olympiakos Piraeus	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451157	1-2	0-0	21:00
+TSV: 4215136567	2026-01-28	uefa champions league	Ajax	Olympiakos Piraeus	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1451157	1-2	0-0	21:00
+TSV: 4215136567	2026-01-28	uefa champions league	Ajax	Olympiakos Piraeus	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1451157	1-2	0-0	21:00
+TSV: 4215136567	2026-01-28	uefa champions league	Ajax	Olympiakos Piraeus	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1451157	1-2	0-0	21:00
+TSV: 3879116870	2026-01-28	uefa champions league	Arsenal	Kairat Almaty	HT05	HT+0.5	7.0	EXPLOSION	1	WIN	FT	1451159	3-2	3-1	21:00
+TSV: 3879116870	2026-01-28	uefa champions league	Arsenal	Kairat Almaty	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1451159	3-2	3-1	21:00
+TSV: 3879116870	2026-01-28	uefa champions league	Arsenal	Kairat Almaty	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1451159	3-2	3-1	21:00
+TSV: 3879116870	2026-01-28	uefa champions league	Arsenal	Kairat Almaty	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451159	3-2	3-1	21:00
+TSV: 3879116870	2026-01-28	uefa champions league	Arsenal	Kairat Almaty	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1451159	3-2	3-1	21:00
+TSV: 3879116870	2026-01-28	uefa champions league	Arsenal	Kairat Almaty	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451159	3-2	3-1	21:00
+TSV: 3879116870	2026-01-28	uefa champions league	Arsenal	Kairat Almaty	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1451159	3-2	3-1	21:00
+TSV: 1523185280	2026-01-28	uefa champions league	Athletic Club	Sporting CP	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1451156	2-3	2-1	21:00
+TSV: 1523185280	2026-01-28	uefa champions league	Athletic Club	Sporting CP	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1451156	2-3	2-1	21:00
+TSV: 1523185280	2026-01-28	uefa champions league	Athletic Club	Sporting CP	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451156	2-3	2-1	21:00
+TSV: 1523185280	2026-01-28	uefa champions league	Athletic Club	Sporting CP	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1451156	2-3	2-1	21:00
+TSV: 1523185280	2026-01-28	uefa champions league	Athletic Club	Sporting CP	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1451156	2-3	2-1	21:00
+TSV: 1523185280	2026-01-28	uefa champions league	Athletic Club	Sporting CP	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1451156	2-3	2-1	21:00
+TSV: 1523185280	2026-01-28	uefa champions league	Athletic Club	Sporting CP	TEAM2_WIN_FT	Team2 wins (FT)	4.0	FORT	0	BAD_NO_BET	FT	1451156	2-3	2-1	21:00
+TSV: 331746466	2026-01-28	uefa champions league	Atletico Madrid	Bodo/Glimt	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1451152	1-2	1-1	21:00
+TSV: 331746466	2026-01-28	uefa champions league	Atletico Madrid	Bodo/Glimt	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1451152	1-2	1-1	21:00
+TSV: 331746466	2026-01-28	uefa champions league	Atletico Madrid	Bodo/Glimt	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1451152	1-2	1-1	21:00
+TSV: 331746466	2026-01-28	uefa champions league	Atletico Madrid	Bodo/Glimt	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1451152	1-2	1-1	21:00
+TSV: 331746466	2026-01-28	uefa champions league	Atletico Madrid	Bodo/Glimt	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1451152	1-2	1-1	21:00
+TSV: 331746466	2026-01-28	uefa champions league	Atletico Madrid	Bodo/Glimt	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1451152	1-2	1-1	21:00
+TSV: 331746466	2026-01-28	uefa champions league	Atletico Madrid	Bodo/Glimt	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1451152	1-2	1-1	21:00
+TSV: 2327375426	2026-01-28	uefa champions league	Barcelona	FC Copenhagen	HT05	HT+0.5	6.0	TRÈS FORT	1	WIN	FT	1451161	4-1	0-1	21:00
+TSV: 2327375426	2026-01-28	uefa champions league	Barcelona	FC Copenhagen	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	GOOD_NO_BET	FT	1451161	4-1	0-1	21:00
+TSV: 2327375426	2026-01-28	uefa champions league	Barcelona	FC Copenhagen	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1451161	4-1	0-1	21:00
+TSV: 2327375426	2026-01-28	uefa champions league	Barcelona	FC Copenhagen	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1451161	4-1	0-1	21:00
+TSV: 2327375426	2026-01-28	uefa champions league	Barcelona	FC Copenhagen	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1451161	4-1	0-1	21:00
+TSV: 2327375426	2026-01-28	uefa champions league	Barcelona	FC Copenhagen	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1451161	4-1	0-1	21:00
+TSV: 2327375426	2026-01-28	uefa champions league	Barcelona	FC Copenhagen	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1451161	4-1	0-1	21:00
+TSV: 2086119021	2026-01-28	uefa champions league	Bayer Leverkusen	Villarreal	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451155	3-0	2-0	21:00
+TSV: 2086119021	2026-01-28	uefa champions league	Bayer Leverkusen	Villarreal	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1451155	3-0	2-0	21:00
+TSV: 2086119021	2026-01-28	uefa champions league	Bayer Leverkusen	Villarreal	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451155	3-0	2-0	21:00
+TSV: 2086119021	2026-01-28	uefa champions league	Bayer Leverkusen	Villarreal	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1451155	3-0	2-0	21:00
+TSV: 2086119021	2026-01-28	uefa champions league	Bayer Leverkusen	Villarreal	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1451155	3-0	2-0	21:00
+TSV: 2086119021	2026-01-28	uefa champions league	Bayer Leverkusen	Villarreal	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1451155	3-0	2-0	21:00
+TSV: 2086119021	2026-01-28	uefa champions league	Bayer Leverkusen	Villarreal	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1451155	3-0	2-0	21:00
+TSV: 344161182	2026-01-28	uefa champions league	Benfica	Real Madrid	HT05	HT+0.5	7.0	EXPLOSION	1	WIN	FT	1451162	4-2	2-1	21:00
+TSV: 344161182	2026-01-28	uefa champions league	Benfica	Real Madrid	HT1X_HOME	HT 1X Home	1.0	FAIBLE	0	BAD_NO_BET	FT	1451162	4-2	2-1	21:00
+TSV: 344161182	2026-01-28	uefa champions league	Benfica	Real Madrid	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1451162	4-2	2-1	21:00
+TSV: 344161182	2026-01-28	uefa champions league	Benfica	Real Madrid	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451162	4-2	2-1	21:00
+TSV: 344161182	2026-01-28	uefa champions league	Benfica	Real Madrid	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1451162	4-2	2-1	21:00
+TSV: 344161182	2026-01-28	uefa champions league	Benfica	Real Madrid	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1451162	4-2	2-1	21:00
+TSV: 344161182	2026-01-28	uefa champions league	Benfica	Real Madrid	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1451162	4-2	2-1	21:00
+TSV: 2239624347	2026-01-28	uefa champions league	Borussia Dortmund	Inter	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1451147	0-2	0-0	21:00
+TSV: 2239624347	2026-01-28	uefa champions league	Borussia Dortmund	Inter	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	BAD_NO_BET	FT	1451147	0-2	0-0	21:00
+TSV: 2239624347	2026-01-28	uefa champions league	Borussia Dortmund	Inter	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1451147	0-2	0-0	21:00
+TSV: 2239624347	2026-01-28	uefa champions league	Borussia Dortmund	Inter	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451147	0-2	0-0	21:00
+TSV: 2239624347	2026-01-28	uefa champions league	Borussia Dortmund	Inter	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1451147	0-2	0-0	21:00
+TSV: 2239624347	2026-01-28	uefa champions league	Borussia Dortmund	Inter	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1451147	0-2	0-0	21:00
+TSV: 2239624347	2026-01-28	uefa champions league	Borussia Dortmund	Inter	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1451147	0-2	0-0	21:00
+TSV: 2135603278	2026-01-28	uefa champions league	Club Brugge KV	Marseille	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1451163	3-0	2-0	21:00
+TSV: 2135603278	2026-01-28	uefa champions league	Club Brugge KV	Marseille	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1451163	3-0	2-0	21:00
+TSV: 2135603278	2026-01-28	uefa champions league	Club Brugge KV	Marseille	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1451163	3-0	2-0	21:00
+TSV: 2135603278	2026-01-28	uefa champions league	Club Brugge KV	Marseille	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	GOOD_NO_BET	FT	1451163	3-0	2-0	21:00
+TSV: 2135603278	2026-01-28	uefa champions league	Club Brugge KV	Marseille	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1451163	3-0	2-0	21:00
+TSV: 2135603278	2026-01-28	uefa champions league	Club Brugge KV	Marseille	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1451163	3-0	2-0	21:00
+TSV: 2135603278	2026-01-28	uefa champions league	Club Brugge KV	Marseille	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1451163	3-0	2-0	21:00
+TSV: 4016250850	2026-01-28	uefa champions league	Eintracht Frankfurt	Tottenham	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1451150	0-2	0-0	21:00
+TSV: 4016250850	2026-01-28	uefa champions league	Eintracht Frankfurt	Tottenham	HT1X_HOME	HT 1X Home	4.0	FORT	0	BAD_NO_BET	FT	1451150	0-2	0-0	21:00
+TSV: 4016250850	2026-01-28	uefa champions league	Eintracht Frankfurt	Tottenham	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1451150	0-2	0-0	21:00
+TSV: 4016250850	2026-01-28	uefa champions league	Eintracht Frankfurt	Tottenham	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1451150	0-2	0-0	21:00
+TSV: 4016250850	2026-01-28	uefa champions league	Eintracht Frankfurt	Tottenham	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1451150	0-2	0-0	21:00
+TSV: 4016250850	2026-01-28	uefa champions league	Eintracht Frankfurt	Tottenham	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1451150	0-2	0-0	21:00
+TSV: 4016250850	2026-01-28	uefa champions league	Eintracht Frankfurt	Tottenham	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1451150	0-2	0-0	21:00
+TSV: 3335263379	2026-01-28	uefa champions league	Liverpool	Qarabag	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1451160	6-0	2-0	21:00
+TSV: 3335263379	2026-01-28	uefa champions league	Liverpool	Qarabag	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1451160	6-0	2-0	21:00
+TSV: 3335263379	2026-01-28	uefa champions league	Liverpool	Qarabag	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451160	6-0	2-0	21:00
+TSV: 3335263379	2026-01-28	uefa champions league	Liverpool	Qarabag	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1451160	6-0	2-0	21:00
+TSV: 3335263379	2026-01-28	uefa champions league	Liverpool	Qarabag	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1451160	6-0	2-0	21:00
+TSV: 3335263379	2026-01-28	uefa champions league	Liverpool	Qarabag	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1451160	6-0	2-0	21:00
+TSV: 3335263379	2026-01-28	uefa champions league	Liverpool	Qarabag	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1451160	6-0	2-0	21:00
+TSV: 312316273	2026-01-28	uefa champions league	Manchester City	Galatasaray	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1451153	2-0	2-0	21:00
+TSV: 312316273	2026-01-28	uefa champions league	Manchester City	Galatasaray	HT1X_HOME	HT 1X Home	4.0	FORT	0	BAD_NO_BET	FT	1451153	2-0	2-0	21:00
+TSV: 312316273	2026-01-28	uefa champions league	Manchester City	Galatasaray	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451153	2-0	2-0	21:00
+TSV: 312316273	2026-01-28	uefa champions league	Manchester City	Galatasaray	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1451153	2-0	2-0	21:00
+TSV: 312316273	2026-01-28	uefa champions league	Manchester City	Galatasaray	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1451153	2-0	2-0	21:00
+TSV: 312316273	2026-01-28	uefa champions league	Manchester City	Galatasaray	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1451153	2-0	2-0	21:00
+TSV: 312316273	2026-01-28	uefa champions league	Manchester City	Galatasaray	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1451153	2-0	2-0	21:00
+TSV: 1008722033	2026-01-28	uefa champions league	Monaco	Juventus	HT05	HT+0.5	4.0	FORT	0	GOOD_NO_BET	FT	1451148	0-0	0-0	21:00
+TSV: 1008722033	2026-01-28	uefa champions league	Monaco	Juventus	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	BAD_NO_BET	FT	1451148	0-0	0-0	21:00
+TSV: 1008722033	2026-01-28	uefa champions league	Monaco	Juventus	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1451148	0-0	0-0	21:00
+TSV: 1008722033	2026-01-28	uefa champions league	Monaco	Juventus	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1451148	0-0	0-0	21:00
+TSV: 1008722033	2026-01-28	uefa champions league	Monaco	Juventus	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	LOSS	FT	1451148	0-0	0-0	21:00
+TSV: 1008722033	2026-01-28	uefa champions league	Monaco	Juventus	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1451148	0-0	0-0	21:00
+TSV: 1008722033	2026-01-28	uefa champions league	Monaco	Juventus	TEAM2_WIN_FT	Team2 wins (FT)	4.0	FORT	0	GOOD_NO_BET	FT	1451148	0-0	0-0	21:00
+TSV: 2378366969	2026-01-28	uefa champions league	Napoli	Chelsea	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1451146	2-3	2-1	21:00
+TSV: 2378366969	2026-01-28	uefa champions league	Napoli	Chelsea	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451146	2-3	2-1	21:00
+TSV: 2378366969	2026-01-28	uefa champions league	Napoli	Chelsea	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1451146	2-3	2-1	21:00
+TSV: 2378366969	2026-01-28	uefa champions league	Napoli	Chelsea	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1451146	2-3	2-1	21:00
+TSV: 2378366969	2026-01-28	uefa champions league	Napoli	Chelsea	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1451146	2-3	2-1	21:00
+TSV: 2378366969	2026-01-28	uefa champions league	Napoli	Chelsea	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1451146	2-3	2-1	21:00
+TSV: 2378366969	2026-01-28	uefa champions league	Napoli	Chelsea	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1451146	2-3	2-1	21:00
+TSV: 1730143960	2026-01-28	uefa champions league	Pafos	Slavia Praha	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1451151	4-1	1-1	21:00
+TSV: 1730143960	2026-01-28	uefa champions league	Pafos	Slavia Praha	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451151	4-1	1-1	21:00
+TSV: 1730143960	2026-01-28	uefa champions league	Pafos	Slavia Praha	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1451151	4-1	1-1	21:00
+TSV: 1730143960	2026-01-28	uefa champions league	Pafos	Slavia Praha	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451151	4-1	1-1	21:00
+TSV: 1730143960	2026-01-28	uefa champions league	Pafos	Slavia Praha	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1451151	4-1	1-1	21:00
+TSV: 1730143960	2026-01-28	uefa champions league	Pafos	Slavia Praha	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1451151	4-1	1-1	21:00
+TSV: 1730143960	2026-01-28	uefa champions league	Pafos	Slavia Praha	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1451151	4-1	1-1	21:00
+TSV: 3132969148	2026-01-28	uefa champions league	Paris Saint Germain	Newcastle	HT05	HT+0.5	1.0	FAIBLE	0	BAD_NO_BET	FT	1451149	1-1	1-1	21:00
+TSV: 3132969148	2026-01-28	uefa champions league	Paris Saint Germain	Newcastle	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1451149	1-1	1-1	21:00
+TSV: 3132969148	2026-01-28	uefa champions league	Paris Saint Germain	Newcastle	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451149	1-1	1-1	21:00
+TSV: 3132969148	2026-01-28	uefa champions league	Paris Saint Germain	Newcastle	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1451149	1-1	1-1	21:00
+TSV: 3132969148	2026-01-28	uefa champions league	Paris Saint Germain	Newcastle	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	WIN	FT	1451149	1-1	1-1	21:00
+TSV: 3132969148	2026-01-28	uefa champions league	Paris Saint Germain	Newcastle	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1451149	1-1	1-1	21:00
+TSV: 3132969148	2026-01-28	uefa champions league	Paris Saint Germain	Newcastle	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1451149	1-1	1-1	21:00
+TSV: 1010295425	2026-01-28	uefa champions league	PSV Eindhoven	Bayern München	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1451154	1-2	0-0	21:00
+TSV: 1010295425	2026-01-28	uefa champions league	PSV Eindhoven	Bayern München	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451154	1-2	0-0	21:00
+TSV: 1010295425	2026-01-28	uefa champions league	PSV Eindhoven	Bayern München	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1451154	1-2	0-0	21:00
+TSV: 1010295425	2026-01-28	uefa champions league	PSV Eindhoven	Bayern München	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1451154	1-2	0-0	21:00
+TSV: 1010295425	2026-01-28	uefa champions league	PSV Eindhoven	Bayern München	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1451154	1-2	0-0	21:00
+TSV: 1010295425	2026-01-28	uefa champions league	PSV Eindhoven	Bayern München	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1451154	1-2	0-0	21:00
+TSV: 1010295425	2026-01-28	uefa champions league	PSV Eindhoven	Bayern München	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1451154	1-2	0-0	21:00
+TSV: 3127860943	2026-01-28	uefa champions league	Union St. Gilloise	Atalanta	HT05	HT+0.5	5.0	FORT PLUS	1	LOSS	FT	1451158	1-0	0-0	21:00
+TSV: 3127860943	2026-01-28	uefa champions league	Union St. Gilloise	Atalanta	HT1X_HOME	HT 1X Home	0.0	KO	0	BAD_NO_BET	FT	1451158	1-0	0-0	21:00
+TSV: 3127860943	2026-01-28	uefa champions league	Union St. Gilloise	Atalanta	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1451158	1-0	0-0	21:00
+TSV: 3127860943	2026-01-28	uefa champions league	Union St. Gilloise	Atalanta	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1451158	1-0	0-0	21:00
+TSV: 3127860943	2026-01-28	uefa champions league	Union St. Gilloise	Atalanta	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	LOSS	FT	1451158	1-0	0-0	21:00
+TSV: 3127860943	2026-01-28	uefa champions league	Union St. Gilloise	Atalanta	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1451158	1-0	0-0	21:00
+TSV: 3127860943	2026-01-28	uefa champions league	Union St. Gilloise	Atalanta	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1451158	1-0	0-0	21:00
+TSV: 3160823488	2026-01-28	primera división paraguay	Libertad Asuncion	Sportivo Ameliano	HT05	HT+0.5	2.0	MOYEN	0	BAD_NO_BET	FT	1504966	1-0	1-0	22:00
+TSV: 3160823488	2026-01-28	primera división paraguay	Libertad Asuncion	Sportivo Ameliano	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1504966	1-0	1-0	22:00
+TSV: 3160823488	2026-01-28	primera división paraguay	Libertad Asuncion	Sportivo Ameliano	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1504966	1-0	1-0	22:00
+TSV: 3160823488	2026-01-28	primera división paraguay	Libertad Asuncion	Sportivo Ameliano	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1504966	1-0	1-0	22:00
+TSV: 3160823488	2026-01-28	primera división paraguay	Libertad Asuncion	Sportivo Ameliano	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1504966	1-0	1-0	22:00
+TSV: 3160823488	2026-01-28	primera división paraguay	Libertad Asuncion	Sportivo Ameliano	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1504966	1-0	1-0	22:00
+TSV: 3160823488	2026-01-28	primera división paraguay	Libertad Asuncion	Sportivo Ameliano	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1504966	1-0	1-0	22:00
+TSV: 2689005472	2026-01-28	primera a colombia	Alianza Valledupar	Chico	HT05	HT+0.5	1.0	FAIBLE	0	GOOD_NO_BET	FT	1505950	1-1	0-0	22:10
+TSV: 2689005472	2026-01-28	primera a colombia	Alianza Valledupar	Chico	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1505950	1-1	0-0	22:10
+TSV: 2689005472	2026-01-28	primera a colombia	Alianza Valledupar	Chico	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1505950	1-1	0-0	22:10
+TSV: 2689005472	2026-01-28	primera a colombia	Alianza Valledupar	Chico	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1505950	1-1	0-0	22:10
+TSV: 2689005472	2026-01-28	primera a colombia	Alianza Valledupar	Chico	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1505950	1-1	0-0	22:10
+TSV: 2689005472	2026-01-28	primera a colombia	Alianza Valledupar	Chico	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1505950	1-1	0-0	22:10
+TSV: 2689005472	2026-01-28	primera a colombia	Alianza Valledupar	Chico	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505950	1-1	0-0	22:10
+TSV: 550066753	2026-01-28	liga profesional argentina	Racing Club	Rosario Central	HT05	HT+0.5	2.0	MOYEN	0	BAD_NO_BET	FT	1491844	1-2	1-2	23:00
+TSV: 550066753	2026-01-28	liga profesional argentina	Racing Club	Rosario Central	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	LOSS	FT	1491844	1-2	1-2	23:00
+TSV: 550066753	2026-01-28	liga profesional argentina	Racing Club	Rosario Central	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1491844	1-2	1-2	23:00
+TSV: 550066753	2026-01-28	liga profesional argentina	Racing Club	Rosario Central	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1491844	1-2	1-2	23:00
+TSV: 550066753	2026-01-28	liga profesional argentina	Racing Club	Rosario Central	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1491844	1-2	1-2	23:00
+TSV: 550066753	2026-01-28	liga profesional argentina	Racing Club	Rosario Central	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1491844	1-2	1-2	23:00
+TSV: 550066753	2026-01-28	liga profesional argentina	Racing Club	Rosario Central	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1491844	1-2	1-2	23:00
+TSV: 3550833020	2026-01-28	serie a brazil	Atletico-MG	Palmeiras	HT05	HT+0.5	5.0	FORT PLUS	1	WIN	FT	1492110	2-2	1-1	23:00
+TSV: 3550833020	2026-01-28	serie a brazil	Atletico-MG	Palmeiras	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492110	2-2	1-1	23:00
+TSV: 3550833020	2026-01-28	serie a brazil	Atletico-MG	Palmeiras	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1492110	2-2	1-1	23:00
+TSV: 3550833020	2026-01-28	serie a brazil	Atletico-MG	Palmeiras	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492110	2-2	1-1	23:00
+TSV: 3550833020	2026-01-28	serie a brazil	Atletico-MG	Palmeiras	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1492110	2-2	1-1	23:00
+TSV: 3550833020	2026-01-28	serie a brazil	Atletico-MG	Palmeiras	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492110	2-2	1-1	23:00
+TSV: 3550833020	2026-01-28	serie a brazil	Atletico-MG	Palmeiras	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1492110	2-2	1-1	23:00
+TSV: 2154420853	2026-01-28	serie a brazil	Coritiba	RB Bragantino	HT05	HT+0.5	0.0	KO	0	GOOD_NO_BET	FT	1492114	0-1	0-0	23:00
+TSV: 2154420853	2026-01-28	serie a brazil	Coritiba	RB Bragantino	HT1X_HOME	HT 1X Home	4.0	FORT	0	BAD_NO_BET	FT	1492114	0-1	0-0	23:00
+TSV: 2154420853	2026-01-28	serie a brazil	Coritiba	RB Bragantino	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492114	0-1	0-0	23:00
+TSV: 2154420853	2026-01-28	serie a brazil	Coritiba	RB Bragantino	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492114	0-1	0-0	23:00
+TSV: 2154420853	2026-01-28	serie a brazil	Coritiba	RB Bragantino	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1492114	0-1	0-0	23:00
+TSV: 2154420853	2026-01-28	serie a brazil	Coritiba	RB Bragantino	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1492114	0-1	0-0	23:00
+TSV: 2154420853	2026-01-28	serie a brazil	Coritiba	RB Bragantino	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1492114	0-1	0-0	23:00
+TSV: 2814619302	2026-01-28	serie a brazil	Internacional	Atletico Paranaense	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1492116	0-1	0-1	23:00
+TSV: 2814619302	2026-01-28	serie a brazil	Internacional	Atletico Paranaense	HT1X_HOME	HT 1X Home	4.0	FORT	0	GOOD_NO_BET	FT	1492116	0-1	0-1	23:00
+TSV: 2814619302	2026-01-28	serie a brazil	Internacional	Atletico Paranaense	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492116	0-1	0-1	23:00
+TSV: 2814619302	2026-01-28	serie a brazil	Internacional	Atletico Paranaense	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	WIN	FT	1492116	0-1	0-1	23:00
+TSV: 2814619302	2026-01-28	serie a brazil	Internacional	Atletico Paranaense	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	LOSS	FT	1492116	0-1	0-1	23:00
+TSV: 2814619302	2026-01-28	serie a brazil	Internacional	Atletico Paranaense	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492116	0-1	0-1	23:00
+TSV: 2814619302	2026-01-28	serie a brazil	Internacional	Atletico Paranaense	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492116	0-1	0-1	23:00
+TSV: 3940728170	2026-01-28	serie a brazil	Vitoria	remo	HT05	HT+0.5	6.0	TRÈS FORT	1	LOSS	FT	1492119	2-0	0-0	23:00
+TSV: 3940728170	2026-01-28	serie a brazil	Vitoria	remo	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492119	2-0	0-0	23:00
+TSV: 3940728170	2026-01-28	serie a brazil	Vitoria	remo	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492119	2-0	0-0	23:00
+TSV: 3940728170	2026-01-28	serie a brazil	Vitoria	remo	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1492119	2-0	0-0	23:00
+TSV: 3940728170	2026-01-28	serie a brazil	Vitoria	remo	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1492119	2-0	0-0	23:00
+TSV: 3940728170	2026-01-28	serie a brazil	Vitoria	remo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1492119	2-0	0-0	23:00
+TSV: 3940728170	2026-01-28	serie a brazil	Vitoria	remo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492119	2-0	0-0	23:00
+TSV: 4009548857	2026-01-28	serie a brazil	Fluminense	Gremio	HT05	HT+0.5	5.0	FORT PLUS	1	LOSS	FT	1492115	2-1	0-0	23:30
+TSV: 4009548857	2026-01-28	serie a brazil	Fluminense	Gremio	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1492115	2-1	0-0	23:30
+TSV: 4009548857	2026-01-28	serie a brazil	Fluminense	Gremio	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	0	BAD_NO_BET	FT	1492115	2-1	0-0	23:30
+TSV: 4009548857	2026-01-28	serie a brazil	Fluminense	Gremio	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1492115	2-1	0-0	23:30
+TSV: 4009548857	2026-01-28	serie a brazil	Fluminense	Gremio	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1492115	2-1	0-0	23:30
+TSV: 4009548857	2026-01-28	serie a brazil	Fluminense	Gremio	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1492115	2-1	0-0	23:30
+TSV: 4009548857	2026-01-28	serie a brazil	Fluminense	Gremio	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492115	2-1	0-0	23:30

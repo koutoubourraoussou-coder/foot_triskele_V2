@@ -1,0 +1,91 @@
+# date	league	home	away	league_id	home_id	away_id	fixture_id
+2026-01-31	2. bundesliga	Eintracht Braunschweig	Karlsruher SC	79	744	785	1388786
+2026-01-31	2. bundesliga	Holstein Kiel	SpVgg Greuther Fürth	79	191	178	1388789
+2026-01-31	2. bundesliga	VfL Bochum	FC Schalke 04	79	176	174	1388785
+2026-01-31	2. bundesliga	1. FC Kaiserslautern	SV Elversberg	79	745	1660	1388790
+2026-01-31	bundesliga	1899 Hoffenheim	Union Berlin	78	167	182	1388484
+2026-01-31	bundesliga	Eintracht Frankfurt	Bayer Leverkusen	78	169	168	1388481
+2026-01-31	bundesliga	FC Augsburg	FC St. Pauli	78	170	186	1388479
+2026-01-31	bundesliga	RB Leipzig	FSV Mainz 05	78	173	164	1388485
+2026-01-31	bundesliga	Werder Bremen	Borussia Mönchengladbach	78	162	163	1388487
+2026-01-31	bundesliga	Hamburger SV	Bayern München	78	175	157	1388483
+2026-01-31	championship	Leicester	Charlton	40	46	1335	1386901
+2026-01-31	championship	Sheffield Wednesday	Wrexham	40	74	1837	1386910
+2026-01-31	championship	Stoke City	Southampton	40	75	41	1386908
+2026-01-31	championship	Blackburn	Hull City	40	67	64	1386907
+2026-01-31	championship	Ipswich	Preston	40	57	59	1386909
+2026-01-31	championship	Middlesbrough	Norwich	40	70	71	1386904
+2026-01-31	championship	Millwall	Sheffield Utd	40	58	62	1386902
+2026-01-31	championship	Oxford United	Birmingham	40	1338	54	1386903
+2026-01-31	championship	Portsmouth	West Brom	40	1355	60	1386900
+2026-01-31	championship	QPR	Coventry	40	72	1346	1386906
+2026-01-31	championship	Watford	Swansea	40	38	76	1386905
+2026-01-31	czech first league	FK Jablonec	Teplice	345	1122	3720	1384805
+2026-01-31	czech first league	Mlada Boleslav	Bohemians 1905	345	640	3714	1384808
+2026-01-31	czech first league	Sigma Olomouc	Hradec Králové	345	2250	3723	1384809
+2026-01-31	czech first league	Dukla Praha	Sparta Praha	345	3715	628	1384803
+2026-01-31	eredivisie	AZ Alkmaar	NEC Nijmegen	88	201	413	1381047
+2026-01-31	eredivisie	PEC Zwolle	Telstar	88	193	427	1381055
+2026-01-31	eredivisie	Sparta Rotterdam	Groningen	88	426	202	1381054
+2026-01-31	laliga	Oviedo	Girona	140	718	547	1391038
+2026-01-31	laliga	Osasuna	Villarreal	140	727	533	1391036
+2026-01-31	laliga	Levante	Atletico Madrid	140	539	530	1391034
+2026-01-31	laliga	Elche	Barcelona	140	797	529	1391031
+2026-01-31	laliga2	Albacete	Zaragoza	141	722	732	1392019
+2026-01-31	laliga2	Burgos	Leganes	141	9580	537	1392022
+2026-01-31	laliga2	Cultural Leonesa	Deportivo La Coruna	141	725	544	1392023
+2026-01-31	laliga2	Cordoba	Valladolid	141	713	720	1392026
+2026-01-31	liga mx	Puebla	Toluca	262	2291	2281	1492490
+2026-01-31	liga mx	U.N.A.M. - Pumas	Santos Laguna	262	2286	2285	1492492
+2026-01-31	liga mx	FC Juarez	Cruz Azul	262	2298	2295	1492491
+2026-01-31	liga mx	Club America	Necaxa	262	2287	2288	1492496
+2026-01-31	liga portugal	Santa Clara	Estoril	94	227	230	1396413
+2026-01-31	liga portugal	Rio Ave	Arouca	94	226	240	1396412
+2026-01-31	liga portugal	Alverca	Estrela	94	4724	15130	1396409
+2026-01-31	liga portugal 2	Felgueiras 1932	Chaves	95	4744	223	1398143
+2026-01-31	liga portugal 2	Academico Viseu	Torreense	95	238	4799	1398140
+2026-01-31	liga portugal 2	Farense	FC Porto B	95	231	243	1398146
+2026-01-31	liga portugal 2	Vizela	Portimonense	95	810	216	1398148
+2026-01-31	liga profesional argentina	San Lorenzo	Central Cordoba de Santiago	128	460	1065	1491859
+2026-01-31	liga profesional argentina	Independiente	Velez Sarsfield	128	453	438	1491855
+2026-01-31	ligue 1	Paris FC	Marseille	61	114	81	1387875
+2026-01-31	ligue 1	Lorient	Nantes	61	97	83	1387871
+2026-01-31	ligue 1	Monaco	Rennes	61	91	94	1387873
+2026-01-31	ligue 2	Dunkerque	Annecy	62	1304	3012	1389306
+2026-01-31	ligue 2	Estac Troyes	Le Mans	62	110	1298	1389298
+2026-01-31	ligue 2	Saint Etienne	Boulogne	62	1063	1299	1389305
+2026-01-31	premier league	Brighton	Everton	39	51	45	1379200
+2026-01-31	premier league	Leeds	Arsenal	39	63	42	1379202
+2026-01-31	premier league	Wolves	Bournemouth	39	39	35	1379208
+2026-01-31	premier league	Chelsea	West Ham	39	49	48	1379201
+2026-01-31	premier league	Liverpool	Newcastle	39	40	34	1379203
+2026-01-31	premiership	Kilmarnock	Aberdeen	179	250	252	1382807
+2026-01-31	premiership	Livingston	Motherwell	179	255	256	1382808
+2026-01-31	premiership	ST Mirren	Dundee	179	251	253	1382809
+2026-01-31	premiership	Dundee Utd	Heart Of Midlothian	179	1386	254	1382805
+2026-01-31	primera a colombia	Junior	Atletico Nacional	239	1135	1137	1505956
+2026-01-31	primera a colombia	Cucuta	Fortaleza FC	239	1470	1147	1505957
+2026-01-31	primera división paraguay	Nacional Asuncion	2 de Mayo	250	1175	2140	1504974
+2026-01-31	pro league	Cercle Brugge	Antwerp	144	741	740	1382602
+2026-01-31	pro league	Zulte Waregem	KVC Westerlo	144	600	261	1382606
+2026-01-31	pro league	St. Truiden	Charleroi	144	735	736	1382605
+2026-01-31	serie a italia	Pisa	Sassuolo	135	801	488	1378091
+2026-01-31	serie a italia	Napoli	Fiorentina	135	492	502	1378089
+2026-01-31	serie a italia	Cagliari	Verona	135	490	504	1378085
+2026-01-31	serie b	Avellino	Cesena	136	528	509	1419806
+2026-01-31	serie b	Empoli	Modena	136	511	899	1419803
+2026-01-31	serie b	Sudtirol	Catanzaro	136	1578	1687	1419810
+2026-01-31	serie b	Venezia	Carrarese	136	517	1581	1419805
+2026-01-31	serie b	Virtus Entella	Frosinone	136	527	512	1419801
+2026-01-31	serie b	Pescara	Mantova	136	525	1693	1419808
+2026-01-31	serie b	Sampdoria	Spezia	136	498	515	1419802
+2026-01-31	super league switzerland	FC Winterthur	Lausanne	207	2180	1014	1382424
+2026-01-31	super league switzerland	Servette FC	FC Sion	207	2184	630	1382423
+2026-01-31	super league switzerland	Grasshoppers	FC Lugano	207	1013	606	1382421
+2026-01-31	super lig	Alanyaspor	Eyüpspor	203	996	3588	1394604
+2026-01-31	super lig	Başakşehir	Rizespor	203	564	1007	1394606
+2026-01-31	super lig	Beşiktaş	Konyaspor	203	549	607	1394607
+2026-01-31	super lig	Göztepe	Fatih Karagümrük	203	994	3589	1394610
+2026-01-31	superligaen	MTK Budapest	Kazincbarcikai	271	2396	2410	1380290
+2026-01-31	superligaen	Gyori ETO FC	Debreceni VSC	271	2402	2392	1380289
+2026-01-31	superligaen	Ujpest	Puskas Academy	271	2255	2391	1380292

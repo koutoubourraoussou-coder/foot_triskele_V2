@@ -1,0 +1,307 @@
+RUN MAESTROLOGUE — 2026-02-25 00:18:09
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- TOPK_SIZE: 5 | uniform_draw=True
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 12946 | valid_3L_found: 1083 | valid_4L_found: 12946
+- top3_size: 2 | top4_size: 5
+
+TOP3 (desc):
+  TOP3[1/2]: score=0.771 (77.1%) | legs=3 | odd=2.25
+  TOP3[2/2]: score=0.747 (74.7%) | legs=3 | odd=2.33
+
+TOP4 (desc):
+  TOP4[1/5]: score=0.819 (81.9%) | legs=4 | odd=2.47
+  TOP4[2/5]: score=0.810 (81.0%) | legs=4 | odd=2.23
+  TOP4[3/5]: score=0.807 (80.7%) | legs=4 | odd=2.43
+  TOP4[4/5]: score=0.803 (80.3%) | legs=4 | odd=2.53
+  TOP4[5/5]: score=0.801 (80.1%) | legs=4 | odd=2.56
+
+DRAW_3L: picked rank=1/2 | score=0.771 (77.1%) | odd=2.25
+DRAW_4L: picked rank=4/5 | score=0.803 (80.3%) | odd=2.53
+- écart relatif: 3.97%
+=> choisi: 4 legs | score=0.803 (80.3%)
+
+Ticket choisi (aperçu)
+----------------------
+  1) 18:45 | uefa champions league | Atalanta vs Borussia Dortmund | O15_FT | odd=1.2
+  2) 19:00 | super league switzerland | FC Winterthur vs FC Thun | HT05 | odd=1.22
+  3) 19:00 | laliga2 | AD Ceuta FC vs Cordoba | O15_FT | odd=1.3
+  4) 20:00 | saudi arabia | Al-Fayha vs NEOM | HT1X_HOME | odd=1.33
+
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM)
+--------------------------------------------------------
+- score ticket: 0.803 (80.3%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 18:45 | uefa champions league | Atalanta vs Borussia Dortmund | bet=O15_FT | odd=1.2
+   HOME Atalanta: wr=0.67 dec=3 coef=0.850 => adj=0.567 (56.7%)
+   AWAY Borussia Dortmund: wr=1.00 dec=3 coef=0.850 => adj=0.850 (85.0%)
+   MEAN match: 0.708 (70.8%)
+
+2) 19:00 | super league switzerland | FC Winterthur vs FC Thun | bet=HT05 | odd=1.22
+   HOME FC Winterthur: wr=0.71 dec=7 coef=1.000 => adj=0.714 (71.4%)
+   AWAY FC Thun: wr=0.80 dec=5 coef=1.000 => adj=0.800 (80.0%)
+   MEAN match: 0.757 (75.7%)
+
+3) 19:00 | laliga2 | AD Ceuta FC vs Cordoba | bet=O15_FT | odd=1.3
+   HOME AD Ceuta FC: wr=1.00 dec=7 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Cordoba: wr=1.00 dec=6 coef=1.000 => adj=1.000 (100.0%)
+   MEAN match: 1.000 (100.0%)
+
+4) 20:00 | saudi arabia | Al-Fayha vs NEOM | bet=HT1X_HOME | odd=1.33
+   HOME Al-Fayha: wr=0.80 dec=5 coef=1.000 => adj=0.800 (80.0%)
+   AWAY NEOM: wr=0.75 dec=4 coef=0.925 => adj=0.694 (69.4%)
+   MEAN match: 0.747 (74.7%)
+
+
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- TOPK_SIZE: 5 | uniform_draw=True
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 16049 | valid_3L_found: 16049 | valid_4L_found: 0
+- top3_size: 2 | top4_size: 0
+
+TOP3 (desc):
+  TOP3[1/2]: score=0.519 (51.9%) | legs=3 | odd=2.62
+  TOP3[2/2]: score=0.465 (46.5%) | legs=3 | odd=2.66
+
+TOP4 (desc):
+  (vide)
+
+DRAW_3L: picked rank=2/2 | score=0.465 (46.5%) | odd=2.66
+DRAW_4L: (aucun)
+- écart relatif: —
+=> choisi: 3 legs | score=0.465 (46.5%)
+
+Ticket choisi (aperçu)
+----------------------
+  1) 23:00 | serie a brazil | remo vs Internacional | HT1X_HOME | odd=1.38
+  2) 23:30 | liga profesional argentina | Newells Old Boys vs Estudiantes L.P. | HT1X_HOME | odd=1.3
+  3) 23:30 | serie a brazil | Coritiba vs Sao Paulo | HT05 | odd=1.48
+
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM)
+--------------------------------------------------------
+- score ticket: 0.465 (46.5%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 23:00 | serie a brazil | remo vs Internacional | bet=HT1X_HOME | odd=1.38
+   HOME remo: wr=1.00 dec=1 coef=0.700 => adj=0.700 (70.0%)
+   AWAY Internacional: wr=0.50 dec=2 coef=0.775 => adj=0.387 (38.7%)
+   MEAN match: 0.544 (54.4%)
+
+2) 23:30 | liga profesional argentina | Newells Old Boys vs Estudiantes L.P. | bet=HT1X_HOME | odd=1.3
+   HOME Newells Old Boys: wr=0.00 dec=2 coef=0.775 => adj=0.000 (0.0%)
+   AWAY Estudiantes L.P.: wr=1.00 dec=3 coef=0.850 => adj=0.850 (85.0%)
+   MEAN match: 0.425 (42.5%)
+
+3) 23:30 | serie a brazil | Coritiba vs Sao Paulo | bet=HT05 | odd=1.48
+   HOME Coritiba: wr=0.67 dec=3 coef=0.850 => adj=0.567 (56.7%)
+   AWAY Sao Paulo: wr=0.33 dec=3 coef=0.850 => adj=0.283 (28.3%)
+   MEAN match: 0.425 (42.5%)
+
+
+MAESTROLOGUE — SYSTEM — 2026-02-25
+========================================
+- picks_total: 33
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 21.03
+- threshold_used: 2.2 (target=2.2, fallback=1.7)
+
+Tranche scan: idx=0 | next_window_start=01:30
+  tranche_seed: 01:30 → 03:00
+
+  merge_until: j=0 | merged_in_window=1
+    - ok_window(after_perf_if_SYSTEM): 0
+    - perf_reject: 1
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 1
+
+      PERF_REJECT: 01:30 | liga profesional argentina | Belgrano Cordoba vs Atletico Tucuman | HT05 | odd=1.48 || LEAGUE_BET_LOW_SR | league=liga profesional argentina bet=HT05 wr=0.54 decided=71 (min_wr=0.65)
+
+  merge_until: j=1 | merged_in_window=9
+    - ok_window(after_perf_if_SYSTEM): 7
+    - perf_reject: 2
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 2.85
+
+      PERF_REJECT: 01:30 | liga profesional argentina | Belgrano Cordoba vs Atletico Tucuman | HT05 | odd=1.48 || LEAGUE_BET_LOW_SR | league=liga profesional argentina bet=HT05 wr=0.54 decided=71 (min_wr=0.65)
+      PERF_REJECT: 19:00 | super league switzerland | FC Winterthur vs FC Thun | TEAM2_WIN_FT | odd=1.4 || GLOBAL_BET_LOW_SR | fam=TEAM2_WIN_FT wr=0.64 decided=33 (min_wr=0.70)
+
+Ticket: tranche=1 | cote=2.53 | 18:45 → 21:50 | fenêtre=75min
+  1) 18:45 | uefa champions league | Atalanta vs Borussia Dortmund | O15_FT | odd=1.2
+  2) 19:00 | super league switzerland | FC Winterthur vs FC Thun | HT05 | odd=1.22
+  3) 19:00 | laliga2 | AD Ceuta FC vs Cordoba | O15_FT | odd=1.3
+  4) 20:00 | saudi arabia | Al-Fayha vs NEOM | HT1X_HOME | odd=1.33
+
+Tranche scan: idx=3 | next_window_start=21:50
+  tranche_seed: 22:30 → 00:00
+
+  merge_until: j=3 | merged_in_window=9
+    - ok_window(after_perf_if_SYSTEM): 4
+    - perf_reject: 5
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 2.66
+
+      PERF_REJECT: 22:30 | primera división paraguay | Sportivo Ameliano vs Cerro Porteno | O15_FT | odd=1.36 || LEAGUE_BET_LOW_SR | league=primera división paraguay bet=O15_FT wr=0.50 decided=24 (min_wr=0.65)
+      PERF_REJECT: 23:00 | serie a brazil | RB Bragantino vs Atletico Paranaense | O15_FT | odd=1.4 || LEAGUE_BET_LOW_SR | league=serie a brazil bet=O15_FT wr=0.59 decided=27 (min_wr=0.65)
+      PERF_REJECT: 23:00 | serie a brazil | remo vs Internacional | O15_FT | odd=1.33 || LEAGUE_BET_LOW_SR | league=serie a brazil bet=O15_FT wr=0.59 decided=27 (min_wr=0.65)
+      PERF_REJECT: 23:30 | liga profesional argentina | Newells Old Boys vs Estudiantes L.P. | TEAM2_SCORE_FT | odd=1.44 || LEAGUE_BET_LOW_SR | league=liga profesional argentina bet=TEAM2_SCORE_FT wr=0.46 decided=71 (min_wr=0.65)
+      PERF_REJECT: 23:30 | serie a brazil | Coritiba vs Sao Paulo | O15_FT | odd=1.42 || LEAGUE_BET_LOW_SR | league=serie a brazil bet=O15_FT wr=0.59 decided=27 (min_wr=0.65)
+
+Ticket: tranche=2 | cote=2.66 | 23:00 → 01:20 | fenêtre=30min
+  1) 23:00 | serie a brazil | remo vs Internacional | HT1X_HOME | odd=1.38
+  2) 23:30 | liga profesional argentina | Newells Old Boys vs Estudiantes L.P. | HT1X_HOME | odd=1.3
+  3) 23:30 | serie a brazil | Coritiba vs Sao Paulo | HT05 | odd=1.48
+
+FIN JOURNÉE
+------------------
+- tickets_built: 2
+- next_window_start: 01:20
+
+MAESTROLOGUE — RANDOM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- TOPK_SIZE: 5 | uniform_draw=True
+- league_gate_min_wr: 0.65 | require_data=True
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 64511 | valid_3L_found: 0 | valid_4L_found: 0
+- top3_size: 0 | top4_size: 0
+- picks_rejected_by_league_gate (approx): 258044
+
+TOP3 (desc):
+  (vide)
+
+TOP4 (desc):
+  (vide)
+
+DRAW_3L: (aucun)
+DRAW_4L: (aucun)
+- écart relatif: —
+=> choisi: aucun (aucune combinaison valide)
+
+MAESTROLOGUE — RANDOM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- TOPK_SIZE: 5 | uniform_draw=True
+- league_gate_min_wr: 0.65 | require_data=True
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 38343 | valid_3L_found: 0 | valid_4L_found: 0
+- top3_size: 0 | top4_size: 0
+- picks_rejected_by_league_gate (approx): 120928
+
+TOP3 (desc):
+  (vide)
+
+TOP4 (desc):
+  (vide)
+
+DRAW_3L: (aucun)
+DRAW_4L: (aucun)
+- écart relatif: —
+=> choisi: aucun (aucune combinaison valide)
+
+MAESTROLOGUE — RANDOM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- TOPK_SIZE: 5 | uniform_draw=True
+- league_gate_min_wr: 0.65 | require_data=True
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 16212 | valid_3L_found: 5782 | valid_4L_found: 16212
+- top3_size: 5 | top4_size: 5
+- picks_rejected_by_league_gate (approx): 82695
+
+TOP3 (desc):
+  TOP3[1/5]: score=0.813 (81.3%) | legs=3 | odd=2.25
+  TOP3[2/5]: score=0.810 (81.0%) | legs=3 | odd=2.3
+  TOP3[3/5]: score=0.805 (80.5%) | legs=3 | odd=2.33
+  TOP3[4/5]: score=0.767 (76.7%) | legs=3 | odd=2.33
+  TOP3[5/5]: score=0.767 (76.7%) | legs=3 | odd=2.49
+
+TOP4 (desc):
+  TOP4[1/5]: score=0.802 (80.2%) | legs=4 | odd=2.45
+  TOP4[2/5]: score=0.802 (80.2%) | legs=4 | odd=2.99
+  TOP4[3/5]: score=0.802 (80.2%) | legs=4 | odd=2.53
+  TOP4[4/5]: score=0.802 (80.2%) | legs=4 | odd=2.8
+  TOP4[5/5]: score=0.798 (79.8%) | legs=4 | odd=2.25
+
+DRAW_3L: picked rank=2/5 | score=0.810 (81.0%) | odd=2.3
+DRAW_4L: picked rank=2/5 | score=0.802 (80.2%) | odd=2.99
+- écart relatif: 1.02%
+=> choisi: 3 legs | score=0.810 (81.0%)
+
+Ticket choisi (aperçu)
+----------------------
+  1) 18:45 | uefa champions league | Atalanta vs Borussia Dortmund | O15_FT | odd=1.2
+  2) 20:00 | saudi arabia | Al-Fayha vs NEOM | O15_FT | odd=1.33
+  3) 21:00 | championship | Stoke City vs Oxford United | O15_FT | odd=1.44
+
+MAESTROLOGUE — Détail du score (ticket choisi, RANDOM)
+------------------------------------------------------
+- score ticket: 0.810 (81.0%)
+- formule: wr_adj = wr(league x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 18:45 | uefa champions league | Atalanta vs Borussia Dortmund | bet=O15_FT | odd=1.2
+   LEAGUE uefa champions league: wr=0.91 dec=44 coef=1.000 => adj=0.909 (90.9%)
+
+2) 20:00 | saudi arabia | Al-Fayha vs NEOM | bet=O15_FT | odd=1.33
+   LEAGUE saudi arabia: wr=0.77 dec=100 coef=1.000 => adj=0.770 (77.0%)
+
+3) 21:00 | championship | Stoke City vs Oxford United | bet=O15_FT | odd=1.44
+   LEAGUE championship: wr=0.75 dec=105 coef=1.000 => adj=0.752 (75.2%)
+
+
+MAESTROLOGUE — RANDOM — 2026-02-25
+========================================
+- picks_total: 21
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 7.36
+- threshold_used: 2.2 (target=2.2, fallback=1.7)
+
+Tranche scan: idx=0 | next_window_start=01:30
+  tranche_seed: 01:30 → 03:00
+
+  merge_until: j=0 | merged_in_window=2
+    - ok_window(after_perf_if_SYSTEM): 2
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 2.3
+
+  Aucune combinaison trouvée (recherche épuisée). -> élargissement fenêtre (merge + 1)
+
+  merge_until: j=1 | merged_in_window=5
+    - ok_window(after_perf_if_SYSTEM): 5
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 3.98
+
+  Aucune combinaison trouvée (recherche épuisée). -> élargissement fenêtre (merge + 1)
+
+  merge_until: j=2 | merged_in_window=15
+    - ok_window(after_perf_if_SYSTEM): 15
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 6.42
+
+Ticket: tranche=1 | cote=2.3 | 18:45 → 22:50 | fenêtre=135min
+  1) 18:45 | uefa champions league | Atalanta vs Borussia Dortmund | O15_FT | odd=1.2
+  2) 20:00 | saudi arabia | Al-Fayha vs NEOM | O15_FT | odd=1.33
+  3) 21:00 | championship | Stoke City vs Oxford United | O15_FT | odd=1.44
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1
+- next_window_start: 22:50
+
+RUN SUMMARY
+- system_tickets: 2 | o15_tickets: 1
+----------------------------------------
+

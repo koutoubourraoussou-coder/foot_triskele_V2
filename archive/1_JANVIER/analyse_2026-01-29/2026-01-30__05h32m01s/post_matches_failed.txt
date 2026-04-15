@@ -1,0 +1,18 @@
+# date | league | home vs away | reason
+2026-01-09 | cymru premier league | Barry Town vs llanelli AFC | FIXTURE_ID_MISSING
+2026-01-09 | cymru premier league | Caernarfon Town vs GAP Connah S Quay FC | FIXTURE_ID_MISSING
+2026-01-09 | cymru premier league | Flint Town United vs Bala Town | FIXTURE_ID_MISSING
+2026-01-09 | cymru premier league | Haverfordwest County AFC vs Briton Ferry | FIXTURE_ID_MISSING
+2026-01-09 | cymru premier league | Penybont vs Cardiff MET | FIXTURE_ID_MISSING
+2026-01-09 | cymru premier league | The New Saints vs Colwyn Bay | FIXTURE_ID_MISSING
+2026-01-09 | eredivisie | NEC Nijmegen vs Utrecht | FIXTURE_ID_MISSING
+2026-01-10 | bundesliga | FC St. Pauli vs RB Leipzig | FIXTURE_ID_MISSING
+2026-01-10 | bundesliga | Werder Bremen vs 1899 Hoffenheim | FIXTURE_ID_MISSING
+2026-01-10 | coupe de france | Sochaux vs Lens | FIXTURE_ID_MISSING
+2026-01-10 | fa cup | Salford City vs Swindon Town | FIXTURE_ID_MISSING
+2026-01-04 | championship | Sheffield Utd vs Oxford United | FIXTURE_ID_MISSING
+2026-01-04 | championship | Hull City vs Watford | FIXTURE_ID_MISSING
+2026-01-04 | championship | Portsmouth vs Ipswich | FIXTURE_ID_MISSING
+2026-01-13 | bundesliga | Hamburger SV vs Bayer Leverkusen | FIXTURE_ID_MISSING
+2026-01-24 | premiership | Dundee Utd vs ST Mirren | FIXTURE_ID_MISSING
+2026-01-27 | primera división paraguay | Club Sp. San Lorenzo vs Cerro Porteno | FIXTURE_ID_MISSING

@@ -1,0 +1,5 @@
+# date | league | home vs away | reason
+2026-02-19 | liga profesional argentina | Defensa Y Justicia vs Belgrano Cordoba | GOALS_MISSING:1491897
+2026-02-19 | liga profesional argentina | San Lorenzo vs Estudiantes de Rio Cuarto | GOALS_MISSING:1491905
+2026-02-19 | liga profesional argentina | Independ. Rivadavia vs Independiente | GOALS_MISSING:1491901
+2026-02-19 | liga profesional argentina | Instituto Cordoba vs Atletico Tucuman | GOALS_MISSING:1491902

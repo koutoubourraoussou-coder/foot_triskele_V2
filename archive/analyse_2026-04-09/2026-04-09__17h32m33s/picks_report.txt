@@ -1,0 +1,40 @@
+PARIS JOUABLES — Jeudi 2026-04-09
+=================================
+
+02:00 | liga pro ecuador | Universidad Catolica (4) vs Emelec (8)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.12 fixture=1519263
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.25 fixture=1519263
+
+18:00 | saudi arabia | Damac (15) vs Al-Qadisiyah FC (4)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.28 fixture=1436159
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.73 fixture=1436159
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17 fixture=1436159
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.44 fixture=1436159
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT | odd=1.1 fixture=1436159
+
+19:00 | super lig | Rizespor (12) vs Samsunspor (7)
+  - HT1X_HOME | HT 1X Home | FORT | odd=1.25 fixture=1394675
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.28 fixture=1394675
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT | odd=1.3 fixture=1394675
+
+20:00 | saudi arabia | Al-Ettifaq (7) vs Al Riyadh (16)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.22 fixture=1436163
+  - O15_FT | Over 1.5 (FT) | MOYEN PLUS | odd=1.22 fixture=1436163
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.15 fixture=1436163
+
+21:00 | uefa europa league | Bologna (10) vs Aston Villa (2)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.35 fixture=1535335
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.33 fixture=1535335
+
+21:00 | uefa europa league | FC Porto (5) vs Nottingham Forest (13)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.2 fixture=1535336
+  - O15_FT | Over 1.5 (FT) | FORT | odd=1.38 fixture=1535336
+  - O25_FT | Over 2.5 (FT) | EXPLOSION | odd=2.1 fixture=1535336
+  - TEAM1_SCORE_FT | Team1 scores (FT) | MOYEN PLUS | odd=1.3 fixture=1535336
+
+21:00 | uefa europa league | SC Freiburg (7) vs Celta Vigo (16)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.42 fixture=1535337
+  - HT1X_HOME | HT 1X Home | FORT | odd=1.25 fixture=1535337
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.35 fixture=1535337
+  - O25_FT | Over 2.5 (FT) | MEGA EXPLOSION | odd=2.1 fixture=1535337
+  - TEAM2_SCORE_FT | Team2 scores (FT) | TRÈS FORT | odd=1.44 fixture=1535337

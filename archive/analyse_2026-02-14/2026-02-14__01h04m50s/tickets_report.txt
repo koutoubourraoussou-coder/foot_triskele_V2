@@ -1,0 +1,34 @@
+TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
+==================================================
+
+📅 Samedi 2026-02-14 — Tranche 1 (fenêtre ~90min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-02-14_1230_02b8fef348_SYS — cote = 2.37 — fenêtre 12:30 → 15:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 12:30 | super lig | Genclerbirligi vs Rizespor | Team1 scores (FT) | TRÈS FORT | odd=1.25
+  2) 13:00 | 2. bundesliga | Hertha BSC vs Hannover 96 | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  3) 13:00 | 2. bundesliga | 1. FC Kaiserslautern vs SpVgg Greuther Fürth | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
+  4) 14:00 | laliga2 | Cordoba vs Leganes | Over 1.5 (FT) | TRÈS FORT | odd=1.33
+
+📅 Samedi 2026-02-14 — Tranche 2 (fenêtre ~90min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-02-14_1630_7c6973db78_SYS — cote = 2.45 — fenêtre 16:30 → 19:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:30 | eredivisie | Heracles vs NAC Breda | Over 1.5 (FT) | TRÈS FORT | odd=1.28
+  2) 18:00 | super lig | Trabzonspor vs Fenerbahçe | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  3) 18:00 | super league switzerland | FC Zurich vs FC Luzern | Team2 scores (FT) | FORT PLUS | odd=1.18
+  4) 18:00 | czech first league | Sigma Olomouc vs Plzen | Over 1.5 (FT) | EXPLOSION | odd=1.33
+
+📅 Samedi 2026-02-14 — Tranche 3 (fenêtre ~20min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-02-14_2045_e58e03de07_SYS — cote = 2.32 — fenêtre 20:45 → 22:55  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:45 | serie a italia | Inter vs Juventus | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
+  2) 20:45 | pro league | Standard Liege vs Union St. Gilloise | Over 1.5 (FT) | TRÈS FORT | odd=1.36
+  3) 21:05 | ligue 1 | Paris FC vs Lens | Over 1.5 (FT) | TRÈS FORT | odd=1.28

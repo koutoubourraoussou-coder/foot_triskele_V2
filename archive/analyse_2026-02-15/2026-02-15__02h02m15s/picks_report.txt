@@ -1,0 +1,274 @@
+PARIS JOUABLES — Dimanche 2026-02-15
+====================================
+
+02:00 | liga mx | Monterrey (9) vs Leon (16)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.3 fixture=1492512
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.2 fixture=1492512
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.1 fixture=1492512
+
+02:00 | liga profesional argentina | Independ. Rivadavia (14) vs Belgrano Cordoba (10)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.22 fixture=1491887
+
+02:06 | liga mx | FC Juarez (15) vs Necaxa (11)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.38 fixture=1492509
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3 fixture=1492509
+
+02:30 | primera a colombia | Deportivo Pasto (17) vs Internacional de Bogota (20)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.18 fixture=1505989
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.57 fixture=1505989
+
+04:07 | liga mx | Guadalajara Chivas (1) vs Club America (8)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.25 fixture=1492514
+
+12:00 | liga portugal 2 | Sporting CP B (3) vs Portimonense (15)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.36 fixture=1398165
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.28 fixture=1398165
+
+12:15 | eredivisie | Feyenoord (2) vs GO Ahead Eagles (15)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.22 fixture=1381068
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.12 fixture=1381068
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.06 fixture=1381068
+
+12:30 | serie a italia | Udinese (9) vs Sassuolo (11)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.45 fixture=1378113
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.25 fixture=1378113
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.4 fixture=1378113
+
+12:30 | super lig | Kocaelispor (9) vs Gazişehir Gaziantep (8)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.42 fixture=1394629
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36 fixture=1394629
+
+13:00 | czech first league | Pardubice (10) vs FK Jablonec (4)
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.28 fixture=1384820
+
+13:00 | fa cup | Birmingham (—) vs Leeds (—)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.33 fixture=1506253
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25 fixture=1506253
+
+13:30 | 2. bundesliga | 1. FC Magdeburg (15) vs Arminia Bielefeld (13)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.25 fixture=1388809
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.2 fixture=1388809
+
+13:30 | 2. bundesliga | Holstein Kiel (14) vs FC Schalke 04 (4)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.35 fixture=1388807
+
+13:30 | 2. bundesliga | VfL Bochum (9) vs SC Paderborn 07 (5)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.36 fixture=1388803
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22 fixture=1388803
+
+13:30 | pro league | Cercle Brugge (14) vs Club Brugge KV (3)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.28 fixture=1382621
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18 fixture=1382621
+
+14:00 | laliga | Oviedo (20) vs Athletic Club (11)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.4 fixture=1391057
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.44 fixture=1391057
+
+14:00 | laliga2 | Mirandes (22) vs Las Palmas (7)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.36 fixture=1392045
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.45 fixture=1392045
+
+14:00 | super league switzerland | FC Thun (1) vs FC Sion (5)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.25 fixture=1494545
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2 fixture=1494545
+
+14:30 | eredivisie | Heerenveen (10) vs PEC Zwolle (11)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.25 fixture=1381070
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17 fixture=1381070
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=1.44 fixture=1381070
+
+14:30 | eredivisie | Telstar (17) vs Twente (7)
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18 fixture=1381073
+
+14:30 | fa cup | Grimsby (—) vs Wolves (—)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.8 fixture=1506256
+
+15:00 | fa cup | Oxford United (—) vs Sunderland (—)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.4 fixture=1506261
+
+15:00 | fa cup | Stoke City (—) vs Fulham (—)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.36 fixture=1506264
+
+15:00 | premiership | Kilmarnock (11) vs Celtic (3)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.25 fixture=1382825
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17 fixture=1382825
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=1.08 fixture=1382825
+  - TEAM2_WIN_FT | Team2 wins (FT) | FORT PLUS | odd=1.38 fixture=1382825
+
+15:00 | serie a italia | Cremonese (16) vs Genoa (15)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.55 fixture=1378106
+
+15:00 | serie b | Monza (4) vs Juve Stabia (7)
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.45 fixture=1419831
+
+15:00 | serie b | Spezia (18) vs Frosinone (2)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.35 fixture=1419840
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=1.25 fixture=1419840
+
+15:00 | super lig | Göztepe (4) vs Kayserispor (17)
+  - HT1X_HOME | HT 1X Home | MEGA EXPLOSION | odd=1.13 fixture=1394627
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.33 fixture=1394627
+
+15:30 | bundesliga | FC Augsburg (13) vs 1. FC Heidenheim (18)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.2 fixture=1388497
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25 fixture=1388497
+
+15:30 | czech first league | Mlada Boleslav (14) vs Teplice (11)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.4 fixture=1384823
+
+15:30 | czech first league | Slovan Liberec (5) vs Baník Ostrava (13)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.36 fixture=1384822
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.2 fixture=1384822
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.25 fixture=1384822
+
+15:30 | premiership | Motherwell (4) vs Aberdeen (7)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.14 fixture=1382826
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.25 fixture=1382826
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.14 fixture=1382826
+
+15:30 | superligaen | Kazincbarcikai (12) vs Nyiregyhaza (11)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.44 fixture=1380301
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.33 fixture=1380301
+
+16:00 | pro league | Antwerp (10) vs KVC Westerlo (12)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.33 fixture=1382618
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22 fixture=1382618
+
+16:15 | laliga | Rayo Vallecano (18) vs Atletico Madrid (3)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.36 fixture=1391055
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.33 fixture=1391055
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=1.2 fixture=1391055
+  - TEAM2_WIN_FT | Team2 wins (FT) | FORT PLUS | odd=1.81 fixture=1391055
+
+16:15 | laliga2 | Huesca (19) vs AD Ceuta FC (11)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.44 fixture=1392043
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.22 fixture=1392043
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.45 fixture=1392043
+
+16:30 | liga portugal | Nacional (14) vs FC Porto (1)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.36 fixture=1396429
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.25 fixture=1396429
+
+16:30 | super league switzerland | FC Basel 1893 (4) vs FC Lugano (3)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.25 fixture=1494546
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22 fixture=1494546
+  - TEAM2_SCORE_FT | Team2 scores (FT) | EXPLOSION | odd=1.25 fixture=1494546
+
+16:30 | super league switzerland | Lausanne (8) vs Servette FC (10)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.33 fixture=1494547
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25 fixture=1494547
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.22 fixture=1494547
+
+16:45 | eredivisie | Sparta Rotterdam (5) vs NEC Nijmegen (4)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.28 fixture=1381072
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18 fixture=1381072
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.2 fixture=1381072
+
+17:15 | ligue 1 | Lorient (11) vs Angers (10)
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.4 fixture=1387889
+
+17:15 | serie b | Empoli (13) vs Reggiana (16)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.18 fixture=1419839
+
+17:30 | bundesliga | RB Leipzig (6) vs VfL Wolfsburg (15)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.2 fixture=1388503
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.13 fixture=1388503
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.11 fixture=1388503
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.06 fixture=1388503
+
+17:30 | fa cup | Arsenal (—) vs Wigan (—)
+  - HT1X_HOME | HT 1X Home | MEGA EXPLOSION | odd=1.01 fixture=1506251
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.06 fixture=1506251
+  - TEAM1_WIN_FT | Team1 wins (FT) | TRÈS FORT | odd=1.05 fixture=1506251
+
+17:30 | premiership | Rangers (2) vs Heart Of Midlothian (1)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.42 fixture=1382827
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.33 fixture=1382827
+
+17:45 | superligaen | Gyori ETO FC (2) vs Kisvarda FC (7)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.12 fixture=1380300
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.17 fixture=1380300
+
+18:00 | serie a italia | Torino (13) vs Bologna (10)
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36 fixture=1378112
+
+18:00 | super lig | Başakşehir (6) vs Beşiktaş (5)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.33 fixture=1394624
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22 fixture=1394624
+
+18:30 | czech first league | Sparta Praha (2) vs Hradec Králové (7)
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25 fixture=1384826
+
+18:30 | laliga | Levante (19) vs Valencia (17)
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.35 fixture=1391053
+
+18:30 | laliga2 | Albacete (12) vs Sporting Gijon (9)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.36 fixture=1392042
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.33 fixture=1392042
+
+18:30 | pro league | Anderlecht (5) vs RAAL La Louvière (15)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.44 fixture=1382624
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.14 fixture=1382624
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.36 fixture=1382624
+
+19:00 | liga portugal | AVS (18) vs Estoril (8)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.33 fixture=1396426
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22 fixture=1396426
+  - TEAM2_WIN_FT | Team2 wins (FT) | FORT PLUS | odd=1.76 fixture=1396426
+
+19:00 | liga portugal 2 | União de Leiria (11) vs FC Porto B (7)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.4 fixture=1398161
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.18 fixture=1398161
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3 fixture=1398161
+
+19:15 | pro league | St. Truiden (2) vs Zulte Waregem (11)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.3 fixture=1382619
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.17 fixture=1382619
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.22 fixture=1382619
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.14 fixture=1382619
+  - TEAM1_WIN_FT | Team1 wins (FT) | FORT PLUS | odd=1.67 fixture=1382619
+
+19:30 | serie b | Avellino (14) vs Pescara (20)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.33 fixture=1419835
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.25 fixture=1419835
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3 fixture=1419835
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.22 fixture=1419835
+
+20:10 | primera a colombia | Águilas Doradas (10) vs Bucaramanga (4)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.5 fixture=1505990
+
+20:45 | ligue 1 | Lyon (3) vs Nice (14)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.35 fixture=1387890
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22 fixture=1387890
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.12 fixture=1387890
+
+21:00 | laliga | Mallorca (16) vs Real Betis (5)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.42 fixture=1391054
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36 fixture=1391054
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=1.3 fixture=1391054
+
+21:00 | laliga2 | Castellón (2) vs Deportivo La Coruna (4)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.33 fixture=1392050
+
+21:00 | liga profesional argentina | Gimnasia L.P. (7) vs Estudiantes L.P. (8)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.3 fixture=1491884
+
+21:30 | liga portugal | Sporting CP (2) vs Famalicao (6)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.03 fixture=1396432
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.22 fixture=1396432
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.07 fixture=1396432
+
+22:20 | primera a colombia | Deportes Tolima (2) vs Once Caldas (11)
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.17 fixture=1505991
+
+22:30 | primera división paraguay | Sportivo Trinidense (4) vs Libertad Asuncion (1)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.4 fixture=1504988
+
+23:30 | liga mx | Cruz Azul (5) vs Tigres UANL (4)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.25 fixture=1492516
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.28 fixture=1492516
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.25 fixture=1492516
+
+23:30 | liga profesional argentina | Boca Juniors (1) vs Platense (15)
+  - HT1X_HOME | HT 1X Home | MEGA EXPLOSION | odd=1.1 fixture=1491881
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.55 fixture=1491881

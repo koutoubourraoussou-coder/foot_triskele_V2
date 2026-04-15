@@ -1,0 +1,49 @@
+PARIS JOUABLES — Jeudi 2026-01-15
+=================================
+
+02:00 | liga mx | Club Queretaro (15) vs Club Tijuana (3)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.3 fixture=1491806
+  - O15_FT | Over 1.5 (FT) | EXPLOSION | odd=1.2 fixture=1491806
+
+02:05 | liga mx | Club America (16) vs Atletico San Luis (5)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.1 fixture=1491805
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2 fixture=1491805
+
+04:06 | liga mx | Tigres UANL (12) vs U.N.A.M. - Pumas (4)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.12 fixture=1491807
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33 fixture=1491807
+  - TEAM1_SCORE_FT | Team1 scores (FT) | FORT PLUS | odd=1.14 fixture=1491807
+
+04:10 | liga mx | Toluca (1) vs Santos Laguna (18)
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.07 fixture=1491808
+
+18:30 | serie a italia | Verona (20) vs Bologna (8)
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.45 fixture=1378023
+
+20:30 | belgian cup | Anderlecht (—) vs Gent (—)
+  - HT05 | HT+0.5 | MEGA EXPLOSION | odd=1.3 fixture=1489238
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.25 fixture=1489238
+
+20:30 | bundesliga | FC Augsburg (15) vs Union Berlin (9)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.4 fixture=1388452
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.3 fixture=1388452
+
+20:45 | serie a italia | Como (6) vs AC Milan (2)
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.36 fixture=1378015
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.36 fixture=1378015
+
+21:00 | copa del rey | Burgos (—) vs Valencia (—)
+  - HT05 | HT+0.5 | TRÈS FORT | odd=1.4 fixture=1503642
+  - HT1X_HOME | HT 1X Home | TRÈS FORT | odd=1.4 fixture=1503642
+  - O15_FT | Over 1.5 (FT) | FORT PLUS | odd=1.48 fixture=1503642
+
+21:00 | copa del rey | Racing Santander (—) vs Barcelona (—)
+  - HT05 | HT+0.5 | FORT PLUS | odd=1.15 fixture=1503645
+  - O15_FT | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.07 fixture=1503645
+  - O25_FT | Over 2.5 (FT) | TRÈS FORT | odd=1.22 fixture=1503645
+  - TEAM2_SCORE_FT | Team2 scores (FT) | FORT PLUS | odd=1.02 fixture=1503645
+
+21:15 | liga portugal 2 | Vizela (4) vs Pacos Ferreira (16)
+  - HT05 | HT+0.5 | EXPLOSION | odd=1.4 fixture=1398130
+  - HT1X_HOME | HT 1X Home | FORT PLUS | odd=1.14 fixture=1398130
+  - O15_FT | Over 1.5 (FT) | TRÈS FORT | odd=1.33 fixture=1398130

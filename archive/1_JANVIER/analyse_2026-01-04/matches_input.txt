@@ -1,0 +1,44 @@
+2026-01-04 13:00 | championship | Birmingham vs Coventry
+2026-01-04 13:00 | championship | QPR vs Sheffield Wednesday
+2026-01-04 13:00 | championship | Sheffield Utd vs Oxford United
+2026-01-04 16:00 | championship | Blackburn vs Charlton
+2026-01-04 16:00 | championship | Bristol City vs Preston
+2026-01-04 16:00 | championship | Derby vs Wrexham
+2026-01-04 16:00 | championship | Hull City vs Watford
+2026-01-04 16:00 | championship | Middlesbrough vs Southampton
+2026-01-04 16:00 | championship | Millwall vs Swansea
+2026-01-04 16:00 | championship | Norwich vs Stoke City
+2026-01-04 16:00 | championship | Portsmouth vs Ipswich
+2026-01-04 14:00 | laliga | Sevilla vs Levante
+2026-01-04 16:15 | laliga | Real Madrid vs Real Betis
+2026-01-04 18:30 | laliga | Alaves vs Oviedo
+2026-01-04 18:30 | laliga | Mallorca vs Girona
+2026-01-04 21:00 | laliga | Real Sociedad vs Atletico Madrid
+2026-01-04 14:00 | laliga2 | Sporting Gijon vs Malaga
+2026-01-04 16:15 | laliga2 | AD Ceuta FC vs FC Andorra
+2026-01-04 18:30 | laliga2 | Albacete vs Leganes
+2026-01-04 18:30 | laliga2 | Zaragoza vs Las Palmas
+2026-01-04 21:00 | laliga2 | Deportivo La Coruna vs Cadiz
+2026-01-04 16:30 | liga portugal | Rio Ave vs Casa Pia
+2026-01-04 19:00 | liga portugal | Santa Clara vs FC Porto
+2026-01-04 21:30 | liga portugal | Alverca vs Famalicao
+2026-01-04 12:00 | liga portugal 2 | Penafiel vs Pacos Ferreira
+2026-01-04 12:00 | liga portugal 2 | Sporting CP B vs Academico Viseu
+2026-01-04 15:00 | ligue 1 | Marseille vs Nantes
+2026-01-04 17:15 | ligue 1 | Le Havre vs Angers
+2026-01-04 17:15 | ligue 1 | Lorient vs Metz
+2026-01-04 17:15 | ligue 1 | Stade Brestois 29 vs Auxerre
+2026-01-04 20:45 | ligue 1 | Paris Saint Germain vs Paris FC
+2026-01-04 13:30 | premier league | Leeds vs Manchester United
+2026-01-04 16:00 | premier league | Everton vs Brentford
+2026-01-04 16:00 | premier league | Newcastle vs Crystal Palace
+2026-01-04 16:00 | premier league | Tottenham vs Sunderland
+2026-01-04 16:15 | premier league | Fulham vs Liverpool
+2026-01-04 18:30 | premier league | Manchester City vs Chelsea
+2026-01-04 16:05 | saudi arabia | Al-Hazm vs NEOM
+2026-01-04 18:30 | saudi arabia | Al-Qadisiyah FC vs Al Riyadh
+2026-01-04 18:30 | saudi arabia | Damac vs Al-Hilal Saudi FC
+2026-01-04 12:30 | serie a italia | Lazio vs Napoli
+2026-01-04 15:00 | serie a italia | Fiorentina vs Cremonese
+2026-01-04 18:00 | serie a italia | Verona vs Torino
+2026-01-04 20:45 | serie a italia | Inter vs Bologna

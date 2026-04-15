@@ -1,0 +1,32 @@
+TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
+==================================================
+
+📅 Vendredi 2026-03-27 — Tranche 1 (fenêtre ~900min)
+---------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-27_0030_9a73619975_SYS — cote = 2.58 — fenêtre 00:30 → 17:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 00:30 | primera división paraguay | Sportivo Ameliano vs Libertad Asuncion | HT 1X Home | TRÈS FORT | odd=1.4
+  2) 13:30 | international friendlies | Iran vs Nigeria | Over 1.5 (FT) | FORT | odd=1.44
+  3) 15:30 | international friendlies | Italy U20 vs England U20 | Team2 scores (FT) | FORT | odd=1.28
+
+📅 Vendredi 2026-03-27 — Tranche 2 (fenêtre ~30min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-03-27_1800_d63f6c00db_SYS — cote = 2.53 — fenêtre 18:00 → 20:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 18:00 | international friendlies | Austria vs Ghana | HT+0.5 | TRÈS FORT | odd=1.35
+  2) 18:00 | international friendlies | Montenegro vs Andorra | HT+0.5 | FORT | odd=1.36
+  3) 18:30 | international friendlies | Jordan vs Costa Rica | Over 1.5 (FT) | TRÈS FORT | odd=1.38
+
+📅 Vendredi 2026-03-27 — Tranche 3 (fenêtre ~75min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-03-27_2045_dbf8e2005d_SYS — cote = 2.49 — fenêtre 20:45 → 23:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:45 | international friendlies | Netherlands vs Norway | HT+0.5 | MEGA EXPLOSION | odd=1.28
+  2) 21:15 | international friendlies | Morocco vs Ecuador | Over 1.5 (FT) | FORT PLUS | odd=1.62
+  3) 22:00 | primera a colombia | Águilas Doradas vs Alianza Valledupar | HT 1X Home | MOYEN PLUS | odd=1.2

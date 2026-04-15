@@ -1,0 +1,5 @@
+# date | league | home vs away | reason
+2026-03-17 | primera a colombia | Bucaramanga vs Once Caldas | FIXTURE_NOT_FOUND_ROBUST
+2026-03-27 | international friendlies | Russia vs Mali | GOALS_MISSING:1525450
+2026-03-28 | international friendlies | England U18 vs Spain U18 | GOALS_MISSING:1536914
+2026-03-31 | international friendlies | Croatia U18 vs England U18 | GOALS_MISSING:1536921

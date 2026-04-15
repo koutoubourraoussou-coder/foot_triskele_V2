@@ -1,0 +1,34 @@
+TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
+==================================================
+
+📅 Dimanche 2026-02-01 — Tranche 1 (fenêtre ~690min)
+---------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-02-01_1245_903542f2ac_SYS — cote = 2.38 — fenêtre 12:45 → 15:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 13:30 | 2. bundesliga | Fortuna Düsseldorf vs SC Paderborn 07 | HT 1X Home | FORT PLUS | odd=1.4
+  2) 12:45 | superligaen | Diosgyori VTK vs Kisvarda FC | HT 1X Home | TRÈS FORT | odd=1.36
+  3) 13:30 | 2. bundesliga | Hertha BSC vs SV Darmstadt 98 | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+
+📅 Dimanche 2026-02-01 — Tranche 2 (fenêtre ~210min)
+---------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-02-01_1530_06f73a4be8_SYS — cote = 2.58 — fenêtre 15:30 → 19:05  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 17:15 | serie b | Padova vs Monza | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.4
+  2) 15:30 | czech first league | Karviná vs Plzen | Over 1.5 (FT) | EXPLOSION | odd=1.18
+  3) 15:30 | bundesliga | VfB Stuttgart vs SC Freiburg | HT 1X Home | TRÈS FORT | odd=1.2
+  4) 16:15 | laliga | Real Betis vs Valencia | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3
+
+📅 Dimanche 2026-02-01 — Tranche 3 (fenêtre ~210min)
+---------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-02-01_2000_d3bd5806cf_SYS — cote = 2.29 — fenêtre 20:00 → 23:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:00 | eredivisie | FC Volendam vs GO Ahead Eagles | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  2) 21:30 | liga portugal | Tondela vs Benfica | Over 1.5 (FT) | FORT PLUS | odd=1.25
+  3) 21:00 | laliga2 | Granada CF vs Racing Santander | Over 1.5 (FT) | FORT PLUS | odd=1.25
+  4) 21:00 | liga profesional argentina | Barracas Central vs Deportivo Riestra | HT 1X Home | FORT PLUS | odd=1.22

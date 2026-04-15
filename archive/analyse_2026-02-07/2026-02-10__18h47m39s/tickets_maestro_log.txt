@@ -1,0 +1,174 @@
+RUN MAESTRO — 2026-02-10 18:49:08
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTRO — SYSTEM — 2026-02-07
+========================================
+- picks_total: 70
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 7.9
+- threshold_used: 2.15 (target=2.15, fallback=1.7)
+
+🧩 Tranche scan: idx=0 | next_window_start=02:00
+   tranche_seed: 02:00 → 03:30
+
+   merge_until: j=0 | merged_in_window=1
+     - ok_window(after_perf_if_SYSTEM): 1
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 1.3
+
+   merge_until: j=1 | merged_in_window=4
+     - ok_window(after_perf_if_SYSTEM): 3
+     - perf_reject: 1
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 1.87
+
+       PERF_REJECT: 04:06 | liga mx | Mazatlán vs Guadalajara Chivas | TEAM2_WIN_FT | odd=1.41
+
+   ❌ Aucune combinaison trouvée (random attempts épuisés).
+
+🧩 Tranche scan: idx=2 | next_window_start=02:00
+   tranche_seed: 12:30 → 14:00
+
+   merge_until: j=2 | merged_in_window=13
+     - ok_window(after_perf_if_SYSTEM): 11
+     - perf_reject: 2
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 3.49
+
+       PERF_REJECT: 13:30 | premier league | Manchester United vs Tottenham | TEAM2_SCORE_FT | odd=1.4
+       PERF_REJECT: 14:00 | ligue 2 | Nancy vs Estac Troyes | O15_FT | odd=1.38
+
+✅ Ticket: tranche=1 | cote=2.36 | 12:30 → 15:21 | fenêtre=61min
+   1) 12:30 | super lig | Fatih Karagümrük vs Antalyaspor | O15_FT | odd=1.42
+   2) 13:00 | 2. bundesliga | FC Schalke 04 vs Dynamo Dresden | O15_FT | odd=1.33
+   3) 13:31 | championship | Southampton vs Watford | O15_FT | odd=1.25
+
+🧩 Tranche scan: idx=4 | next_window_start=15:21
+   tranche_seed: 16:30 → 18:00
+
+   merge_until: j=4 | merged_in_window=8
+     - ok_window(after_perf_if_SYSTEM): 8
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 4.18
+
+✅ Ticket: tranche=2 | cote=2.2 | 18:00 → 19:50 | fenêtre=0min
+   1) 18:00 | super league switzerland | FC Winterthur vs FC Lugano | O15_FT | odd=1.15
+   2) 18:00 | serie a italia | Genoa vs Napoli | O15_FT | odd=1.57
+   3) 18:00 | super league switzerland | FC Sion vs FC Luzern | TEAM1_SCORE_FT | odd=1.22
+
+🧩 Tranche scan: idx=6 | next_window_start=19:50
+   tranche_seed: 20:00 → 21:30
+
+   merge_until: j=6 | merged_in_window=11
+     - ok_window(after_perf_if_SYSTEM): 11
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 4.43
+
+✅ Ticket: tranche=3 | cote=2.4 | 21:05 → 23:20 | fenêtre=25min
+   1) 21:05 | ligue 1 | Nantes vs Lyon | TEAM2_WIN_FT | odd=1.74
+   2) 21:30 | liga portugal | Arouca vs Guimaraes | O15_FT | odd=1.38
+
+📌 FIN JOURNÉE
+------------------
+- tickets_built: 3
+- next_window_start: 23:20
+
+MAESTRO — RANDOM — 2026-02-07
+========================================
+- picks_total: 88
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 7.61
+- threshold_used: 2.15 (target=2.15, fallback=1.7)
+
+🧩 Tranche scan: idx=0 | next_window_start=01:00
+   tranche_seed: 01:00 → 02:30
+
+   merge_until: j=0 | merged_in_window=3
+     - ok_window(after_perf_if_SYSTEM): 3
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 3.06
+
+✅ Ticket: tranche=1 | cote=3.06 | 01:00 → 04:20 | fenêtre=90min
+   1) 01:00 | liga profesional argentina | Central Cordoba de Santiago vs Union Santa Fe | O15_FT | odd=1.73
+   2) 02:00 | liga mx | Necaxa vs Atletico San Luis | O15_FT | odd=1.3
+   3) 02:30 | primera a colombia | Independiente Medellin vs Internacional de Bogota | O15_FT | odd=1.36
+
+🧩 Tranche scan: idx=2 | next_window_start=04:20
+   tranche_seed: 12:00 → 13:30
+
+   merge_until: j=2 | merged_in_window=8
+     - ok_window(after_perf_if_SYSTEM): 8
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 3.23
+
+✅ Ticket: tranche=2 | cote=2.17 | 12:30 → 15:20 | fenêtre=60min
+   1) 12:30 | super lig | Fatih Karagümrük vs Antalyaspor | O15_FT | odd=1.42
+   2) 13:00 | 2. bundesliga | FC Schalke 04 vs Dynamo Dresden | O15_FT | odd=1.33
+   3) 13:30 | premier league | Manchester United vs Tottenham | O15_FT | odd=1.15
+
+🧩 Tranche scan: idx=4 | next_window_start=15:20
+   tranche_seed: 15:30 → 17:00
+
+   merge_until: j=4 | merged_in_window=28
+     - ok_window(after_perf_if_SYSTEM): 28
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 5.21
+
+✅ Ticket: tranche=3 | cote=2.4 | 16:30 → 18:20 | fenêtre=0min
+   1) 16:30 | liga portugal | Estrela vs Santa Clara | O15_FT | odd=1.62
+   2) 16:30 | liga portugal | Moreirense vs GIL Vicente | O15_FT | odd=1.48
+
+🧩 Tranche scan: idx=6 | next_window_start=18:20
+   tranche_seed: 19:00 → 20:30
+
+   merge_until: j=6 | merged_in_window=9
+     - ok_window(after_perf_if_SYSTEM): 9
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 4.01
+
+✅ Ticket: tranche=4 | cote=2.49 | 19:00 → 22:20 | fenêtre=90min
+   1) 19:00 | liga portugal | Estoril vs Tondela | O15_FT | odd=1.22
+   2) 20:00 | primera a colombia | Rionegro Aguilas vs Cucuta | O15_FT | odd=1.42
+   3) 20:30 | 2. bundesliga | SV Darmstadt 98 vs 1. FC Kaiserslautern | O15_FT | odd=1.2
+   4) 20:30 | super league switzerland | Grasshoppers vs BSC Young Boys | O15_FT | odd=1.2
+
+🧩 Tranche scan: idx=8 | next_window_start=22:20
+   tranche_seed: 22:30 → 00:00
+
+   merge_until: j=8 | merged_in_window=1
+     - ok_window(after_perf_if_SYSTEM): 1
+     - perf_reject: 0
+     - out_window: 0
+     - no_odd: 0 | odd_too_low: 0
+     - max_possible_odd(ok_window): 1.4
+
+   ❌ Impossible d'atteindre threshold=2.15 dans cette fenêtre (même après merge).
+
+📌 FIN JOURNÉE
+------------------
+- tickets_built: 4
+- next_window_start: 22:20
+
+RUN SUMMARY
+- system_tickets: 3 | o15_tickets: 4
+----------------------------------------
+

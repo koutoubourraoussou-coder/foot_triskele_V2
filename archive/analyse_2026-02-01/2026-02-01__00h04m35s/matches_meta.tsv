@@ -1,0 +1,75 @@
+# date	league	home	away	league_id	home_id	away_id	fixture_id
+2026-02-01	2. bundesliga	Dynamo Dresden	Arminia Bielefeld	79	183	188	1388793
+2026-02-01	2. bundesliga	Fortuna Düsseldorf	SC Paderborn 07	79	158	185	1388787
+2026-02-01	2. bundesliga	Hertha BSC	SV Darmstadt 98	79	159	181	1388788
+2026-02-01	bundesliga	VfB Stuttgart	SC Freiburg	78	172	160	1388486
+2026-02-01	bundesliga	Borussia Dortmund	1. FC Heidenheim	78	165	180	1388480
+2026-02-01	czech first league	Slovácko	Baník Ostrava	345	3719	3713	1384810
+2026-02-01	czech first league	Karviná	Plzen	345	3716	567	1384806
+2026-02-01	czech first league	Slovan Liberec	Zlin	345	782	603	1384807
+2026-02-01	czech first league	Pardubice	Slavia Praha	345	3724	560	1384804
+2026-02-01	eredivisie	Excelsior	Ajax	88	196	194	1381048
+2026-02-01	eredivisie	Heracles	Fortuna Sittard	88	206	205	1381051
+2026-02-01	eredivisie	PSV Eindhoven	Feyenoord	88	197	209	1381053
+2026-02-01	eredivisie	Heerenveen	Utrecht	88	210	207	1381050
+2026-02-01	eredivisie	FC Volendam	GO Ahead Eagles	88	416	410	1381049
+2026-02-01	laliga	Real Madrid	Rayo Vallecano	140	541	728	1391037
+2026-02-01	laliga	Real Betis	Valencia	140	543	532	1391030
+2026-02-01	laliga	Getafe	Celta Vigo	140	546	538	1391033
+2026-02-01	laliga	Athletic Club	Real Sociedad	140	531	548	1391029
+2026-02-01	laliga2	Almeria	AD Ceuta FC	141	723	10139	1392027
+2026-02-01	laliga2	Eibar	Sporting Gijon	141	545	731	1392020
+2026-02-01	laliga2	Castellón	FC Andorra	141	5254	8157	1396972
+2026-02-01	laliga2	Huesca	Cadiz	141	726	724	1392028
+2026-02-01	laliga2	Granada CF	Racing Santander	141	715	4665	1392021
+2026-02-01	liga mx	Atlas	Mazatlán	262	2283	14002	1492493
+2026-02-01	liga mx	Atletico San Luis	Guadalajara Chivas	262	2314	2278	1492498
+2026-02-01	liga mx	Monterrey	Club Tijuana	262	2282	2280	1492495
+2026-02-01	liga mx	Leon	Tigres UANL	262	2289	2279	1492494
+2026-02-01	liga portugal	GIL Vicente	Famalicao	94	762	242	1396411
+2026-02-01	liga portugal	Sporting CP	Nacional	94	228	225	1396414
+2026-02-01	liga portugal	Tondela	Benfica	94	218	211	1396415
+2026-02-01	liga portugal 2	Sporting CP B	Oliveirense	95	761	233	1398147
+2026-02-01	liga portugal 2	União de Leiria	Pacos Ferreira	95	4662	234	1398144
+2026-02-01	liga portugal 2	Feirense	Maritimo	95	213	214	1398142
+2026-02-01	liga profesional argentina	Atletico Tucuman	Huracan	128	455	445	1491849
+2026-02-01	liga profesional argentina	Talleres Cordoba	Platense	128	456	1064	1491860
+2026-02-01	liga profesional argentina	Barracas Central	Deportivo Riestra	128	2432	476	1491851
+2026-02-01	liga profesional argentina	Boca Juniors	Newells Old Boys	128	451	457	1491852
+2026-02-01	ligue 1	Lyon	Lille	61	80	79	1387872
+2026-02-01	ligue 1	Angers	Metz	61	77	112	1387869
+2026-02-01	ligue 1	Nice	Stade Brestois 29	61	84	106	1387874
+2026-02-01	ligue 1	Toulouse	Auxerre	61	96	108	1387877
+2026-02-01	ligue 1	Strasbourg	Paris Saint Germain	61	95	85	1387876
+2026-02-01	premier league	Aston Villa	Brentford	39	66	55	1379199
+2026-02-01	premier league	Manchester United	Fulham	39	33	36	1379204
+2026-02-01	premier league	Nottingham Forest	Crystal Palace	39	65	52	1379205
+2026-02-01	premier league	Tottenham	Manchester City	39	47	50	1379207
+2026-02-01	premiership	Hibernian	Rangers	179	249	257	1382806
+2026-02-01	premiership	Celtic	Falkirk	179	247	1389	1382804
+2026-02-01	primera a colombia	Chico	Santa Fe	239	1132	1139	1505958
+2026-02-01	primera a colombia	Bucaramanga	Alianza Valledupar	239	1131	1141	1505960
+2026-02-01	primera a colombia	Deportivo Cali	Deportivo Pasto	239	1127	1126	1505961
+2026-02-01	primera división paraguay	Sportivo Ameliano	Club Sp. San Lorenzo	250	10487	2125	1504971
+2026-02-01	primera división paraguay	Olimpia	Sportivo Trinidense	250	1182	1187	1504975
+2026-02-01	pro league	Standard Liege	Anderlecht	144	733	554	1382607
+2026-02-01	pro league	Dender	Genk	144	6215	742	1382609
+2026-02-01	pro league	Union St. Gilloise	Club Brugge KV	144	1393	569	1382604
+2026-02-01	pro league	OH Leuven	KV Mechelen	144	260	266	1382603
+2026-02-01	saudi arabia	Al Shabab	Al-Fayha	307	2940	2944	1436084
+2026-02-01	saudi arabia	Al-Fateh	Al-Hazm	307	2931	2945	1436086
+2026-02-01	saudi arabia	Al-Ittihad FC	Al Najma	307	2938	2992	1436090
+2026-02-01	serie a italia	Torino	Lecce	135	503	867	1378092
+2026-02-01	serie a italia	Como	Atalanta	135	895	499	1378086
+2026-02-01	serie a italia	Cremonese	Inter	135	520	505	1378087
+2026-02-01	serie a italia	Parma	Juventus	135	523	496	1378090
+2026-02-01	serie b	Reggiana	Juve Stabia	136	880	863	1419807
+2026-02-01	serie b	Padova	Monza	136	870	1579	1419804
+2026-02-01	super league switzerland	FC Luzern	FC ST. Gallen	207	644	1011	1382422
+2026-02-01	super league switzerland	BSC Young Boys	FC Zurich	207	565	783	1382425
+2026-02-01	super league switzerland	FC Basel 1893	FC Thun	207	551	1012	1382420
+2026-02-01	super lig	Genclerbirligi	Gazişehir Gaziantep	203	997	3573	1394609
+2026-02-01	super lig	Galatasaray	Kayserispor	203	645	1001	1394608
+2026-02-01	superligaen	Diosgyori VTK	Kisvarda FC	271	2393	2394	1380288
+2026-02-01	superligaen	Paks	Ferencvarosi TC	271	2390	651	1380291
+2026-02-01	superligaen	Zalaegerszegi TE	Nyiregyhaza	271	2414	2403	1380293

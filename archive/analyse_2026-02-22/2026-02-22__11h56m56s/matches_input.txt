@@ -1,0 +1,87 @@
+2026-02-22 13:30 | 2. bundesliga | Hannover 96 vs Dynamo Dresden
+2026-02-22 13:30 | 2. bundesliga | Preußen Münster vs 1. FC Kaiserslautern
+2026-02-22 13:30 | 2. bundesliga | SC Paderborn 07 vs Hertha BSC
+2026-02-22 15:30 | bundesliga | SC Freiburg vs Borussia Mönchengladbach
+2026-02-22 17:30 | bundesliga | FC St. Pauli vs Werder Bremen
+2026-02-22 19:30 | bundesliga | 1. FC Heidenheim vs VfB Stuttgart
+2026-02-22 13:00 | championship | Sheffield Utd vs Sheffield Wednesday
+2026-02-22 13:00 | czech first league | Bohemians 1905 vs Dukla Praha
+2026-02-22 15:30 | czech first league | Baník Ostrava vs Mlada Boleslav
+2026-02-22 15:30 | czech first league | Teplice vs Sigma Olomouc
+2026-02-22 18:30 | czech first league | Plzen vs Sparta Praha
+2026-02-22 12:15 | eredivisie | Twente vs Groningen
+2026-02-22 14:30 | eredivisie | GO Ahead Eagles vs Heracles
+2026-02-22 14:30 | eredivisie | Utrecht vs PEC Zwolle
+2026-02-22 16:45 | eredivisie | AZ Alkmaar vs Sparta Rotterdam
+2026-02-22 20:00 | eredivisie | Feyenoord vs Telstar
+2026-02-22 14:00 | laliga | Getafe vs Sevilla
+2026-02-22 16:15 | laliga | Barcelona vs Levante
+2026-02-22 18:30 | laliga | Celta Vigo vs Mallorca
+2026-02-22 21:00 | laliga | Villarreal vs Valencia
+2026-02-22 14:00 | laliga2 | Sporting Gijon vs Valladolid
+2026-02-22 16:15 | laliga2 | FC Andorra vs Zaragoza
+2026-02-22 18:30 | laliga2 | Racing Santander vs Burgos
+2026-02-22 21:00 | laliga2 | Malaga vs Albacete
+2026-02-22 00:00 | liga mx | Atlas vs Atletico San Luis
+2026-02-22 02:00 | liga mx | Leon vs Santos Laguna
+2026-02-22 02:00 | liga mx | Necaxa vs Toluca
+2026-02-22 04:05 | liga mx | Cruz Azul vs Guadalajara Chivas
+2026-02-22 06:10 | liga mx | Club Tijuana vs Mazatlán
+2026-02-22 19:00 | liga portugal | Estoril vs GIL Vicente
+2026-02-22 21:30 | liga portugal | FC Porto vs Rio Ave
+2026-02-22 12:00 | liga portugal 2 | Felgueiras 1932 vs Penafiel
+2026-02-22 15:00 | liga portugal 2 | Chaves vs Farense
+2026-02-22 16:30 | liga portugal 2 | Portimonense vs Academico Viseu
+2026-02-22 19:00 | liga portugal 2 | Lusitânia Lourosa vs Feirense
+2026-02-22 01:00 | liga pro ecuador | Universidad Catolica vs Emelec
+2026-02-22 19:00 | liga pro ecuador | Macara vs Leones del Norte
+2026-02-22 21:30 | liga pro ecuador | Delfin SC vs Deportivo Cuenca
+2026-02-22 01:30 | liga profesional argentina | Central Cordoba de Santiago vs Tigre
+2026-02-22 21:00 | liga profesional argentina | San Lorenzo vs Estudiantes de Rio Cuarto
+2026-02-22 22:00 | liga profesional argentina | Argentinos JRS vs Lanus
+2026-02-22 23:15 | liga profesional argentina | Velez Sarsfield vs River Plate
+2026-02-22 15:00 | ligue 1 | Auxerre vs Rennes
+2026-02-22 17:15 | ligue 1 | Angers vs Lille
+2026-02-22 17:15 | ligue 1 | Nantes vs Le Havre
+2026-02-22 17:15 | ligue 1 | Nice vs Lorient
+2026-02-22 20:45 | ligue 1 | Strasbourg vs Lyon
+2026-02-22 01:30 | mls | DC United vs Philadelphia Union
+2026-02-22 01:30 | mls | Orlando City SC vs New York Red Bulls
+2026-02-22 01:30 | mls | Vancouver Whitecaps vs Real Salt Lake
+2026-02-22 02:30 | mls | Austin vs Minnesota United FC
+2026-02-22 02:30 | mls | FC Dallas vs Toronto FC
+2026-02-22 02:30 | mls | Houston Dynamo vs Chicago Fire
+2026-02-22 02:30 | mls | Nashville SC vs New England Revolution
+2026-02-22 03:30 | mls | Los Angeles FC vs Inter Miami
+2026-02-22 04:30 | mls | Portland Timbers vs Columbus Crew
+2026-02-22 04:30 | mls | San Diego vs CF Montreal
+2026-02-22 04:30 | mls | San Jose Earthquakes vs Sporting Kansas City
+2026-02-22 15:00 | premier league | Crystal Palace vs Wolves
+2026-02-22 15:00 | premier league | Nottingham Forest vs Liverpool
+2026-02-22 15:00 | premier league | Sunderland vs Fulham
+2026-02-22 17:30 | premier league | Tottenham vs Arsenal
+2026-02-22 16:00 | premiership | Celtic vs Hibernian
+2026-02-22 16:00 | premiership | Livingston vs Rangers
+2026-02-22 00:20 | primera a colombia | Atletico Nacional vs Alianza Valledupar
+2026-02-22 02:30 | primera a colombia | Internacional de Bogota vs Millonarios
+2026-02-22 22:00 | primera a colombia | Santa Fe vs Junior
+2026-02-22 22:00 | primera división paraguay | Club Guarani vs 2 de Mayo
+2026-02-22 13:30 | pro league | Genk vs Standard Liege
+2026-02-22 16:00 | pro league | RAAL La Louvière vs KV Mechelen
+2026-02-22 18:30 | pro league | Zulte Waregem vs Anderlecht
+2026-02-22 19:15 | pro league | KVC Westerlo vs Charleroi
+2026-02-22 12:30 | serie a italia | Genoa vs Torino
+2026-02-22 15:00 | serie a italia | Atalanta vs Napoli
+2026-02-22 18:00 | serie a italia | AC Milan vs Parma
+2026-02-22 20:45 | serie a italia | AS Roma vs Cremonese
+2026-02-22 15:00 | serie b | Juve Stabia vs Modena
+2026-02-22 17:15 | serie b | Reggiana vs Avellino
+2026-02-22 14:00 | super league switzerland | FC Sion vs BSC Young Boys
+2026-02-22 16:30 | super league switzerland | FC Lugano vs Lausanne
+2026-02-22 16:30 | super league switzerland | FC Luzern vs FC Basel 1893
+2026-02-22 11:30 | super lig | Kayserispor vs Antalyaspor
+2026-02-22 14:00 | super lig | Gaziantep FK vs Trabzonspor
+2026-02-22 18:00 | super lig | Beşiktaş vs Göztepe
+2026-02-22 18:00 | super lig | Fatih Karagümrük vs Samsunspor
+2026-02-22 14:45 | superligaen | Zalaegerszegi TE vs Debreceni VSC
+2026-02-22 17:30 | superligaen | Paks vs Gyori ETO FC

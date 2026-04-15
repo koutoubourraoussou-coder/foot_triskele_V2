@@ -1,0 +1,81 @@
+2026-01-24 13:00 | 2. bundesliga | Hannover 96 vs Fortuna Düsseldorf
+2026-01-24 13:00 | 2. bundesliga | Karlsruher SC vs Hertha BSC
+2026-01-24 13:00 | 2. bundesliga | SpVgg Greuther Fürth vs Eintracht Braunschweig
+2026-01-24 20:30 | 2. bundesliga | 1. FC Magdeburg vs Dynamo Dresden
+2026-01-24 15:30 | bundesliga | 1. FC Heidenheim vs RB Leipzig
+2026-01-24 15:30 | bundesliga | Bayer Leverkusen vs Werder Bremen
+2026-01-24 15:30 | bundesliga | Bayern München vs FC Augsburg
+2026-01-24 15:30 | bundesliga | Eintracht Frankfurt vs 1899 Hoffenheim
+2026-01-24 15:30 | bundesliga | FSV Mainz 05 vs VfL Wolfsburg
+2026-01-24 18:30 | bundesliga | Union Berlin vs Borussia Dortmund
+2026-01-24 13:30 | championship | Middlesbrough vs Preston
+2026-01-24 13:30 | championship | Millwall vs Charlton
+2026-01-24 16:00 | championship | Birmingham vs Stoke City
+2026-01-24 16:00 | championship | Blackburn vs Watford
+2026-01-24 16:00 | championship | Bristol City vs Sheffield Wednesday
+2026-01-24 16:00 | championship | Hull City vs Swansea
+2026-01-24 16:00 | championship | Leicester vs Oxford United
+2026-01-24 16:00 | championship | QPR vs Wrexham
+2026-01-24 16:00 | championship | Sheffield Utd vs Ipswich
+2026-01-24 15:30 | cymru premier league | Penybont vs Caernarfon Town
+2026-01-24 15:30 | cymru premier league | The New Saints vs Barry Town
+2026-01-24 18:15 | cymru premier league | Colwyn Bay vs GAP Connah S Quay FC
+2026-01-24 16:30 | eredivisie | Ajax vs FC Volendam
+2026-01-24 18:45 | eredivisie | NEC Nijmegen vs PEC Zwolle
+2026-01-24 20:00 | eredivisie | PSV Eindhoven vs NAC Breda
+2026-01-24 21:00 | eredivisie | Twente vs Excelsior
+2026-01-24 14:00 | laliga | Rayo Vallecano vs Osasuna
+2026-01-24 16:15 | laliga | Valencia vs Espanyol
+2026-01-24 18:30 | laliga | Sevilla vs Athletic Club
+2026-01-24 21:00 | laliga | Villarreal vs Real Madrid
+2026-01-24 14:00 | laliga2 | Valladolid vs Albacete
+2026-01-24 16:15 | laliga2 | Leganes vs Real Sociedad II
+2026-01-24 18:30 | laliga2 | Las Palmas vs Cordoba
+2026-01-24 18:30 | laliga2 | Sporting Gijon vs Mirandes
+2026-01-24 21:00 | laliga2 | Cadiz vs Granada CF
+2026-01-24 16:30 | liga portugal | Moreirense vs Santa Clara
+2026-01-24 19:00 | liga portugal | Arouca vs Sporting CP
+2026-01-24 21:30 | liga portugal | Estoril vs Guimaraes
+2026-01-24 12:00 | liga portugal 2 | Chaves vs Lusitânia Lourosa
+2026-01-24 15:00 | liga portugal 2 | Maritimo vs Felgueiras 1932
+2026-01-24 16:30 | liga portugal 2 | Leixoes vs Benfica B
+2026-01-24 17:00 | ligue 1 | Rennes vs Lorient
+2026-01-24 19:00 | ligue 1 | Le Havre vs Monaco
+2026-01-24 21:05 | ligue 1 | Marseille vs Lens
+2026-01-24 14:00 | ligue 2 | Guingamp vs Estac Troyes
+2026-01-24 14:00 | ligue 2 | RED Star FC 93 vs Boulogne
+2026-01-24 20:00 | ligue 2 | Reims vs Saint Etienne
+2026-01-24 13:30 | premier league | West Ham vs Sunderland
+2026-01-24 16:00 | premier league | Burnley vs Tottenham
+2026-01-24 16:00 | premier league | Fulham vs Brighton
+2026-01-24 16:00 | premier league | Manchester City vs Wolves
+2026-01-24 18:30 | premier league | Bournemouth vs Liverpool
+2026-01-24 16:00 | premiership | Aberdeen vs Livingston
+2026-01-24 16:00 | premiership | Dundee Utd vs ST Mirren
+2026-01-24 16:00 | premiership | Falkirk vs Hibernian
+2026-01-24 16:00 | premiership | Motherwell vs Kilmarnock
+2026-01-24 16:00 | pro league | RAAL La Louvière vs St. Truiden
+2026-01-24 18:15 | pro league | Club Brugge KV vs Zulte Waregem
+2026-01-24 20:45 | pro league | OH Leuven vs Union St. Gilloise
+2026-01-24 14:25 | saudi arabia | Al Khaleej Saihat vs Al Shabab
+2026-01-24 16:20 | saudi arabia | Al Kholood vs Al-Ettifaq
+2026-01-24 18:30 | saudi arabia | NEOM vs Al-Ahli Jeddah
+2026-01-24 15:00 | serie a italia | Como vs Torino
+2026-01-24 18:00 | serie a italia | Fiorentina vs Cagliari
+2026-01-24 20:45 | serie a italia | Lecce vs Lazio
+2026-01-24 15:00 | serie b | Cesena vs Bari
+2026-01-24 15:00 | serie b | Frosinone vs Reggiana
+2026-01-24 15:00 | serie b | Juve Stabia vs Virtus Entella
+2026-01-24 15:00 | serie b | Mantova vs Venezia
+2026-01-24 15:00 | serie b | Monza vs Pescara
+2026-01-24 17:15 | serie b | Modena vs Palermo
+2026-01-24 19:30 | serie b | Spezia vs Avellino
+2026-01-24 18:00 | super league switzerland | FC Lugano vs FC Winterthur
+2026-01-24 18:00 | super league switzerland | Lausanne vs Grasshoppers
+2026-01-24 20:30 | super league switzerland | FC Sion vs FC Luzern
+2026-01-24 12:30 | super lig | Kayserispor vs Başakşehir
+2026-01-24 15:00 | super lig | Samsunspor vs Kocaelispor
+2026-01-24 18:00 | super lig | Fatih Karagümrük vs Galatasaray
+2026-01-24 12:30 | superligaen | Nyiregyhaza vs Ujpest
+2026-01-24 15:00 | superligaen | Kisvarda FC vs MTK Budapest
+2026-01-24 19:45 | superligaen | Puskas Academy vs Paks

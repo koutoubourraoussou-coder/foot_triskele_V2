@@ -1,0 +1,321 @@
+RUN MAESTROLOGUE — 2026-03-10 01:50:24
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 17365 | valid_3L_found: 1646 | valid_4L_found: 11470
+- top3_size: 5 | top4_size: 5
+
+TOP3 (desc):
+  TOP3[1/5]: score=0.917 (91.7%) | legs=3 | odd=2.2
+  TOP3[2/5]: score=0.899 (89.9%) | legs=3 | odd=2.24
+  TOP3[3/5]: score=0.884 (88.4%) | legs=3 | odd=2.2
+  TOP3[4/5]: score=0.877 (87.7%) | legs=3 | odd=2.3
+  TOP3[5/5]: score=0.876 (87.6%) | legs=3 | odd=2.2
+
+TOP4 (desc):
+  TOP4[1/5]: score=0.934 (93.4%) | legs=4 | odd=2.34
+  TOP4[2/5]: score=0.928 (92.8%) | legs=4 | odd=2.34
+  TOP4[3/5]: score=0.928 (92.8%) | legs=4 | odd=2.38
+  TOP4[4/5]: score=0.925 (92.5%) | legs=4 | odd=2.42
+  TOP4[5/5]: score=0.922 (92.2%) | legs=4 | odd=2.24
+
+DRAW_3L: picked rank=5/5 | score=0.876 (87.6%) | odd=2.2
+DRAW_4L: picked rank=2/5 | score=0.928 (92.8%) | odd=2.34
+- écart relatif: 5.70%
+=> choisi: 4 legs | score=0.928 (92.8%)
+
+Ticket choisi (aperçu)
+----------------------
+  1) 13:30 | superligaen | MTK Budapest vs Diosgyori VTK | O15_FT | odd=1.2
+  2) 13:30 | 2. bundesliga | Karlsruher SC vs Dynamo Dresden | O15_FT | odd=1.2
+  3) 14:00 | laliga2 | Las Palmas vs AD Ceuta FC | O15_FT | odd=1.33
+  4) 14:30 | eredivisie | Fortuna Sittard vs Telstar | O15_FT | odd=1.22
+
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM)
+--------------------------------------------------------
+- score ticket: 0.928 (92.8%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 13:30 | superligaen | MTK Budapest vs Diosgyori VTK | bet=O15_FT | odd=1.2
+   HOME MTK Budapest: wr=1.00 dec=7 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Diosgyori VTK: wr=1.00 dec=7 coef=1.000 => adj=1.000 (100.0%)
+   MEAN match: 1.000 (100.0%)
+
+2) 13:30 | 2. bundesliga | Karlsruher SC vs Dynamo Dresden | bet=O15_FT | odd=1.2
+   HOME Karlsruher SC: wr=0.88 dec=8 coef=1.000 => adj=0.875 (87.5%)
+   AWAY Dynamo Dresden: wr=0.88 dec=8 coef=1.000 => adj=0.875 (87.5%)
+   MEAN match: 0.875 (87.5%)
+
+3) 14:00 | laliga2 | Las Palmas vs AD Ceuta FC | bet=O15_FT | odd=1.33
+   HOME Las Palmas: wr=0.89 dec=9 coef=1.000 => adj=0.889 (88.9%)
+   AWAY AD Ceuta FC: wr=0.90 dec=10 coef=1.000 => adj=0.900 (90.0%)
+   MEAN match: 0.894 (89.4%)
+
+4) 14:30 | eredivisie | Fortuna Sittard vs Telstar | bet=O15_FT | odd=1.22
+   HOME Fortuna Sittard: wr=1.00 dec=9 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Telstar: wr=0.89 dec=9 coef=1.000 => adj=0.889 (88.9%)
+   MEAN match: 0.944 (94.4%)
+
+
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 17147 | valid_3L_found: 6221 | valid_4L_found: 16430
+- top3_size: 5 | top4_size: 5
+
+TOP3 (desc):
+  TOP3[1/5]: score=0.898 (89.8%) | legs=3 | odd=2.24
+  TOP3[2/5]: score=0.896 (89.6%) | legs=3 | odd=2.27
+  TOP3[3/5]: score=0.892 (89.2%) | legs=3 | odd=2.62
+  TOP3[4/5]: score=0.886 (88.6%) | legs=3 | odd=2.4
+  TOP3[5/5]: score=0.884 (88.4%) | legs=3 | odd=2.44
+
+TOP4 (desc):
+  TOP4[1/5]: score=0.905 (90.5%) | legs=4 | odd=2.58
+  TOP4[2/5]: score=0.903 (90.3%) | legs=4 | odd=2.41
+  TOP4[3/5]: score=0.903 (90.3%) | legs=4 | odd=2.62
+  TOP4[4/5]: score=0.900 (90.0%) | legs=4 | odd=3.02
+  TOP4[5/5]: score=0.899 (89.9%) | legs=4 | odd=2.21
+
+DRAW_3L: picked rank=1/5 | score=0.898 (89.8%) | odd=2.24
+DRAW_4L: picked rank=4/5 | score=0.900 (90.0%) | odd=3.02
+- écart relatif: 0.24%
+=> choisi: 3 legs | score=0.898 (89.8%)
+
+Ticket choisi (aperçu)
+----------------------
+  1) 16:30 | liga portugal | Estrela vs GIL Vicente | O15_FT | odd=1.4
+  2) 16:30 | super league switzerland | Grasshoppers vs Lausanne | TEAM1_SCORE_FT | odd=1.25
+  3) 18:30 | superligaen | Nyiregyhaza vs Ferencvarosi TC | O15_FT | odd=1.28
+
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM)
+--------------------------------------------------------
+- score ticket: 0.898 (89.8%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 16:30 | liga portugal | Estrela vs GIL Vicente | bet=O15_FT | odd=1.4
+   HOME Estrela: wr=0.75 dec=8 coef=1.000 => adj=0.750 (75.0%)
+   AWAY GIL Vicente: wr=1.00 dec=9 coef=1.000 => adj=1.000 (100.0%)
+   MEAN match: 0.875 (87.5%)
+
+2) 16:30 | super league switzerland | Grasshoppers vs Lausanne | bet=TEAM1_SCORE_FT | odd=1.25
+   HOME Grasshoppers: wr=1.00 dec=5 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Lausanne: wr=1.00 dec=4 coef=0.925 => adj=0.925 (92.5%)
+   MEAN match: 0.963 (96.2%)
+
+3) 18:30 | superligaen | Nyiregyhaza vs Ferencvarosi TC | bet=O15_FT | odd=1.28
+   HOME Nyiregyhaza: wr=0.86 dec=7 coef=1.000 => adj=0.857 (85.7%)
+   AWAY Ferencvarosi TC: wr=0.86 dec=7 coef=1.000 => adj=0.857 (85.7%)
+   MEAN match: 0.857 (85.7%)
+
+
+MAESTROLOGUE — SYSTEM — 2026-03-08
+========================================
+- picks_total: 66
+- unique_matches_day: 56
+- rich_day: True
+- max_tickets_today: 2
+- windows_count: 2
+- day_max_possible_odd: 8.04
+- threshold_used: 2.2 (target=2.2, fallback=1.6)
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 01:00 -> 14:30
+  - raw_window_picks: 33
+  - filtered_window_picks: 33
+  - ok_window: 25
+  - perf_reject: 8
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 3.83
+
+Ticket: tranche=1 | cote=2.34 | 13:30 → 16:20 | fenêtre=60min
+  1) 13:30 | superligaen | MTK Budapest vs Diosgyori VTK | O15_FT | odd=1.2
+  2) 13:30 | 2. bundesliga | Karlsruher SC vs Dynamo Dresden | O15_FT | odd=1.2
+  3) 14:00 | laliga2 | Las Palmas vs AD Ceuta FC | O15_FT | odd=1.33
+  4) 14:30 | eredivisie | Fortuna Sittard vs Telstar | O15_FT | odd=1.22
+
+WINDOW 2 | 15:00 -> 22:30
+  - raw_window_picks: 33
+  - filtered_window_picks: 25
+  - ok_window: 20
+  - perf_reject: 5
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 4.43
+
+Ticket: tranche=2 | cote=2.24 | 16:30 → 20:20 | fenêtre=120min
+  1) 16:30 | liga portugal | Estrela vs GIL Vicente | O15_FT | odd=1.4
+  2) 16:30 | super league switzerland | Grasshoppers vs Lausanne | TEAM1_SCORE_FT | odd=1.25
+  3) 18:30 | superligaen | Nyiregyhaza vs Ferencvarosi TC | O15_FT | odd=1.28
+
+FIN JOURNÉE
+------------------
+- tickets_built: 2 / 2
+- next_window_start: 20:20
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- gate_build: LEAGUE x BET >= 0.68 (require_data=False)
+- score_select: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 23712 | valid_3L_found: 2617 | valid_4L_found: 19032
+- top3_size: 5 | top4_size: 5
+- rejected_by_league_gate (approx): 0
+
+TOP3 (desc):
+  TOP3[1/5]: score=0.917 (91.7%) | legs=3 | odd=2.2
+  TOP3[2/5]: score=0.904 (90.4%) | legs=3 | odd=2.2
+  TOP3[3/5]: score=0.899 (89.9%) | legs=3 | odd=2.24
+  TOP3[4/5]: score=0.892 (89.2%) | legs=3 | odd=2.29
+  TOP3[5/5]: score=0.886 (88.6%) | legs=3 | odd=2.2
+
+TOP4 (desc):
+  TOP4[1/5]: score=0.933 (93.3%) | legs=4 | odd=2.3
+  TOP4[2/5]: score=0.930 (93.0%) | legs=4 | odd=2.24
+  TOP4[3/5]: score=0.925 (92.5%) | legs=4 | odd=2.42
+  TOP4[4/5]: score=0.922 (92.2%) | legs=4 | odd=2.26
+  TOP4[5/5]: score=0.921 (92.1%) | legs=4 | odd=2.32
+
+DRAW_3L: picked rank=3/5 | score=0.899 (89.9%) | odd=2.24
+DRAW_4L: picked rank=5/5 | score=0.921 (92.1%) | odd=2.32
+- écart relatif: 2.41%
+=> choisi: 3 legs | score=0.899 (89.9%)
+
+Ticket choisi (aperçu)
+----------------------
+  1) 14:00 | laliga2 | Las Palmas vs AD Ceuta FC | O15_FT | odd=1.33
+  2) 14:00 | super lig | Konyaspor vs Kasımpaşa | O15_FT | odd=1.38
+  3) 14:30 | eredivisie | Fortuna Sittard vs Telstar | O15_FT | odd=1.22
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.899 (89.9%)
+- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 14:00 | laliga2 | Las Palmas vs AD Ceuta FC | bet=O15_FT | odd=1.33
+   HOME Las Palmas: wr=0.89 dec=9 coef=1.000 => adj=0.889 (88.9%)
+   AWAY AD Ceuta FC: wr=0.90 dec=10 coef=1.000 => adj=0.900 (90.0%)
+   MEAN match: 0.895 (89.5%)
+
+2) 14:00 | super lig | Konyaspor vs Kasımpaşa | bet=O15_FT | odd=1.38
+   HOME Konyaspor: wr=0.86 dec=7 coef=1.000 => adj=0.857 (85.7%)
+   AWAY Kasımpaşa: wr=0.86 dec=7 coef=1.000 => adj=0.857 (85.7%)
+   MEAN match: 0.857 (85.7%)
+
+3) 14:30 | eredivisie | Fortuna Sittard vs Telstar | bet=O15_FT | odd=1.22
+   HOME Fortuna Sittard: wr=1.00 dec=9 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Telstar: wr=0.89 dec=9 coef=1.000 => adj=0.889 (88.9%)
+   MEAN match: 0.945 (94.5%)
+
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- gate_build: LEAGUE x BET >= 0.68 (require_data=False)
+- score_select: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 23513 | valid_3L_found: 15255 | valid_4L_found: 23336
+- top3_size: 5 | top4_size: 5
+- rejected_by_league_gate (approx): 0
+
+TOP3 (desc):
+  TOP3[1/5]: score=0.903 (90.3%) | legs=3 | odd=2.9
+  TOP3[2/5]: score=0.897 (89.7%) | legs=3 | odd=2.65
+  TOP3[3/5]: score=0.894 (89.4%) | legs=3 | odd=2.69
+  TOP3[4/5]: score=0.894 (89.4%) | legs=3 | odd=2.49
+  TOP3[5/5]: score=0.892 (89.2%) | legs=3 | odd=2.65
+
+TOP4 (desc):
+  TOP4[1/5]: score=0.890 (89.0%) | legs=4 | odd=3.48
+  TOP4[2/5]: score=0.887 (88.7%) | legs=4 | odd=4.35
+  TOP4[3/5]: score=0.885 (88.5%) | legs=4 | odd=3.18
+  TOP4[4/5]: score=0.885 (88.5%) | legs=4 | odd=3.45
+  TOP4[5/5]: score=0.884 (88.4%) | legs=4 | odd=3.54
+
+DRAW_3L: picked rank=1/5 | score=0.903 (90.3%) | odd=2.9
+DRAW_4L: picked rank=2/5 | score=0.887 (88.7%) | odd=4.35
+- écart relatif: 1.80%
+=> choisi: 3 legs | score=0.903 (90.3%)
+
+Ticket choisi (aperçu)
+----------------------
+  1) 16:30 | liga portugal | Estrela vs GIL Vicente | O15_FT | odd=1.4
+  2) 18:30 | laliga | Sevilla vs Rayo Vallecano | O15_FT | odd=1.4
+  3) 21:00 | laliga | Valencia vs Alaves | O15_FT | odd=1.48
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.903 (90.3%)
+- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 16:30 | liga portugal | Estrela vs GIL Vicente | bet=O15_FT | odd=1.4
+   HOME Estrela: wr=0.75 dec=8 coef=1.000 => adj=0.750 (75.0%)
+   AWAY GIL Vicente: wr=1.00 dec=9 coef=1.000 => adj=1.000 (100.0%)
+   MEAN match: 0.875 (87.5%)
+
+2) 18:30 | laliga | Sevilla vs Rayo Vallecano | bet=O15_FT | odd=1.4
+   HOME Sevilla: wr=0.78 dec=9 coef=1.000 => adj=0.778 (77.8%)
+   AWAY Rayo Vallecano: wr=1.00 dec=9 coef=1.000 => adj=1.000 (100.0%)
+   MEAN match: 0.889 (88.9%)
+
+3) 21:00 | laliga | Valencia vs Alaves | bet=O15_FT | odd=1.48
+   HOME Valencia: wr=0.89 dec=9 coef=1.000 => adj=0.889 (88.9%)
+   AWAY Alaves: wr=1.00 dec=9 coef=1.000 => adj=1.000 (100.0%)
+   MEAN match: 0.945 (94.5%)
+
+
+MAESTROLOGUE — RANDOM — 2026-03-08
+========================================
+- picks_total: 78
+- unique_matches_day: 78
+- rich_day: True
+- max_tickets_today: 2
+- windows_count: 2
+- day_max_possible_odd: 5.66
+- threshold_used: 2.2 (target=2.2, fallback=1.6)
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 01:00 -> 15:30
+  - raw_window_picks: 40
+  - filtered_window_picks: 40
+  - ok_window: 34
+  - perf_reject: 6
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 3.76
+
+Ticket: tranche=1 | cote=2.24 | 14:00 → 16:20 | fenêtre=30min
+  1) 14:00 | laliga2 | Las Palmas vs AD Ceuta FC | O15_FT | odd=1.33
+  2) 14:00 | super lig | Konyaspor vs Kasımpaşa | O15_FT | odd=1.38
+  3) 14:30 | eredivisie | Fortuna Sittard vs Telstar | O15_FT | odd=1.22
+
+WINDOW 2 | 16:00 -> 22:30
+  - raw_window_picks: 38
+  - filtered_window_picks: 35
+  - ok_window: 28
+  - perf_reject: 7
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 5.33
+
+Ticket: tranche=2 | cote=2.9 | 16:30 → 22:50 | fenêtre=270min
+  1) 16:30 | liga portugal | Estrela vs GIL Vicente | O15_FT | odd=1.4
+  2) 18:30 | laliga | Sevilla vs Rayo Vallecano | O15_FT | odd=1.4
+  3) 21:00 | laliga | Valencia vs Alaves | O15_FT | odd=1.48
+
+FIN JOURNÉE
+------------------
+- tickets_built: 2 / 2
+- next_window_start: 22:50
+
+RUN SUMMARY
+- system_tickets: 2 | o15_tickets: 2
+----------------------------------------
+

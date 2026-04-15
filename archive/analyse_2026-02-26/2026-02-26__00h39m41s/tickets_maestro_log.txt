@@ -1,0 +1,269 @@
+RUN MAESTROLOGUE — 2026-02-26 00:39:56
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- TOPK_SIZE: 5 | uniform_draw=True
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 12463 | valid_3L_found: 3514 | valid_4L_found: 12004
+- top3_size: 5 | top4_size: 5
+
+TOP3 (desc):
+  TOP3[1/5]: score=0.764 (76.4%) | legs=3 | odd=2.39
+  TOP3[2/5]: score=0.764 (76.4%) | legs=3 | odd=2.27
+  TOP3[3/5]: score=0.764 (76.4%) | legs=3 | odd=2.27
+  TOP3[4/5]: score=0.756 (75.6%) | legs=3 | odd=2.27
+  TOP3[5/5]: score=0.756 (75.6%) | legs=3 | odd=2.27
+
+TOP4 (desc):
+  TOP4[1/5]: score=0.794 (79.4%) | legs=4 | odd=2.46
+  TOP4[2/5]: score=0.794 (79.4%) | legs=4 | odd=2.34
+  TOP4[3/5]: score=0.794 (79.4%) | legs=4 | odd=2.46
+  TOP4[4/5]: score=0.785 (78.5%) | legs=4 | odd=2.77
+  TOP4[5/5]: score=0.785 (78.5%) | legs=4 | odd=2.92
+
+DRAW_3L: picked rank=5/5 | score=0.756 (75.6%) | odd=2.27
+DRAW_4L: picked rank=3/5 | score=0.794 (79.4%) | odd=2.46
+- écart relatif: 4.83%
+=> choisi: 4 legs | score=0.794 (79.4%)
+
+Ticket choisi (aperçu)
+----------------------
+  1) 18:45 | uefa europa league | VfB Stuttgart vs Celtic | HT05 | odd=1.22
+  2) 18:45 | uefa europa league | Plzen vs Panathinaikos | O15_FT | odd=1.4
+  3) 20:00 | saudi arabia | Al Riyadh vs Al-Ahli Jeddah | O15_FT | odd=1.18
+  4) 20:00 | saudi arabia | Al-Fateh vs Damac | O15_FT | odd=1.22
+
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM)
+--------------------------------------------------------
+- score ticket: 0.794 (79.4%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 18:45 | uefa europa league | VfB Stuttgart vs Celtic | bet=HT05 | odd=1.22
+   HOME VfB Stuttgart: wr=1.00 dec=3 coef=0.850 => adj=0.850 (85.0%)
+   AWAY Celtic: wr=1.00 dec=3 coef=0.850 => adj=0.850 (85.0%)
+   MEAN match: 0.850 (85.0%)
+
+2) 18:45 | uefa europa league | Plzen vs Panathinaikos | bet=O15_FT | odd=1.4
+   HOME Plzen: wr=0.67 dec=3 coef=0.850 => adj=0.567 (56.7%)
+   AWAY Panathinaikos: wr=1.00 dec=3 coef=0.850 => adj=0.850 (85.0%)
+   MEAN match: 0.708 (70.8%)
+
+3) 20:00 | saudi arabia | Al Riyadh vs Al-Ahli Jeddah | bet=O15_FT | odd=1.18
+   HOME Al Riyadh: wr=0.82 dec=11 coef=1.000 => adj=0.818 (81.8%)
+   AWAY Al-Ahli Jeddah: wr=0.67 dec=12 coef=1.000 => adj=0.667 (66.7%)
+   MEAN match: 0.742 (74.2%)
+
+4) 20:00 | saudi arabia | Al-Fateh vs Damac | bet=O15_FT | odd=1.22
+   HOME Al-Fateh: wr=0.92 dec=12 coef=1.000 => adj=0.917 (91.7%)
+   AWAY Damac: wr=0.83 dec=12 coef=1.000 => adj=0.833 (83.3%)
+   MEAN match: 0.875 (87.5%)
+
+
+MAESTROLOGUE — SYSTEM — 2026-02-26
+========================================
+- picks_total: 20
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 3.98
+- threshold_used: 2.2 (target=2.2, fallback=1.7)
+
+Tranche scan: idx=0 | next_window_start=01:00
+  tranche_seed: 01:00 → 02:30
+
+  merge_until: j=0 | merged_in_window=3
+    - ok_window(after_perf_if_SYSTEM): 1
+    - perf_reject: 2
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 1.4
+
+      PERF_REJECT: 01:00 | primera a colombia | Santa Fe vs Atletico Nacional | HT05 | odd=1.45 || LEAGUE_BET_LOW_SR | league=primera a colombia bet=HT05 wr=0.60 decided=52 (min_wr=0.65)
+      PERF_REJECT: 01:30 | serie a brazil | Gremio vs Atletico-MG | O15_FT | odd=1.36 || LEAGUE_BET_LOW_SR | league=serie a brazil bet=O15_FT wr=0.59 decided=27 (min_wr=0.65)
+
+  merge_until: j=1 | merged_in_window=11
+    - ok_window(after_perf_if_SYSTEM): 8
+    - perf_reject: 3
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 3.47
+
+      PERF_REJECT: 01:00 | primera a colombia | Santa Fe vs Atletico Nacional | HT05 | odd=1.45 || LEAGUE_BET_LOW_SR | league=primera a colombia bet=HT05 wr=0.60 decided=52 (min_wr=0.65)
+      PERF_REJECT: 01:30 | serie a brazil | Gremio vs Atletico-MG | O15_FT | odd=1.36 || LEAGUE_BET_LOW_SR | league=serie a brazil bet=O15_FT wr=0.59 decided=27 (min_wr=0.65)
+      PERF_REJECT: 20:00 | saudi arabia | Al Riyadh vs Al-Ahli Jeddah | HT05 | odd=1.28 || TWO_TEAM_REJECT | Al Riyadh wr=0.91 dec=11 | Al-Ahli Jeddah wr=0.58 dec=12
+
+Ticket: tranche=1 | cote=2.46 | 18:45 → 21:50 | fenêtre=75min
+  1) 18:45 | uefa europa league | VfB Stuttgart vs Celtic | HT05 | odd=1.22
+  2) 18:45 | uefa europa league | Plzen vs Panathinaikos | O15_FT | odd=1.4
+  3) 20:00 | saudi arabia | Al Riyadh vs Al-Ahli Jeddah | O15_FT | odd=1.18
+  4) 20:00 | saudi arabia | Al-Fateh vs Damac | O15_FT | odd=1.22
+
+Tranche scan: idx=3 | next_window_start=21:50
+  tranche_seed: 23:00 → 00:30
+
+  merge_until: j=3 | merged_in_window=3
+    - ok_window(after_perf_if_SYSTEM): 1
+    - perf_reject: 2
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 1.22
+
+      PERF_REJECT: 23:00 | serie a brazil | Santos vs Vasco DA Gama | O15_FT | odd=1.33 || LEAGUE_BET_LOW_SR | league=serie a brazil bet=O15_FT wr=0.59 decided=27 (min_wr=0.65)
+      PERF_REJECT: 23:30 | liga profesional argentina | River Plate vs Banfield | O15_FT | odd=1.4 || LEAGUE_BET_LOW_SR | league=liga profesional argentina bet=O15_FT wr=0.45 decided=74 (min_wr=0.65)
+
+  Impossible de construire un ticket après merge jusqu'à j=3.
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1
+- next_window_start: 21:50
+
+MAESTROLOGUE — RANDOM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- TOPK_SIZE: 5 | uniform_draw=True
+- league_gate_min_wr: 0.65 | require_data=True
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 59673 | valid_3L_found: 0 | valid_4L_found: 0
+- top3_size: 0 | top4_size: 0
+- picks_rejected_by_league_gate (approx): 238692
+
+TOP3 (desc):
+  (vide)
+
+TOP4 (desc):
+  (vide)
+
+DRAW_3L: (aucun)
+DRAW_4L: (aucun)
+- écart relatif: —
+=> choisi: aucun (aucune combinaison valide)
+
+MAESTROLOGUE — RANDOM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- TOPK_SIZE: 5 | uniform_draw=True
+- league_gate_min_wr: 0.65 | require_data=True
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 22289 | valid_3L_found: 3966 | valid_4L_found: 22289
+- top3_size: 4 | top4_size: 5
+- picks_rejected_by_league_gate (approx): 30633
+
+TOP3 (desc):
+  TOP3[1/4]: score=0.731 (73.1%) | legs=3 | odd=2.31
+  TOP3[2/4]: score=0.731 (73.1%) | legs=3 | odd=2.23
+  TOP3[3/4]: score=0.707 (70.7%) | legs=3 | odd=2.36
+  TOP3[4/4]: score=0.707 (70.7%) | legs=3 | odd=2.36
+
+TOP4 (desc):
+  TOP4[1/5]: score=0.742 (74.2%) | legs=4 | odd=2.43
+  TOP4[2/5]: score=0.742 (74.2%) | legs=4 | odd=2.43
+  TOP4[3/5]: score=0.742 (74.2%) | legs=4 | odd=2.72
+  TOP4[4/5]: score=0.741 (74.1%) | legs=4 | odd=2.52
+  TOP4[5/5]: score=0.741 (74.1%) | legs=4 | odd=2.52
+
+DRAW_3L: picked rank=4/4 | score=0.707 (70.7%) | odd=2.36
+DRAW_4L: picked rank=1/5 | score=0.742 (74.2%) | odd=2.43
+- écart relatif: 4.78%
+=> choisi: 4 legs | score=0.742 (74.2%)
+
+Ticket choisi (aperçu)
+----------------------
+  1) 01:00 | primera a colombia | Santa Fe vs Atletico Nacional | O15_FT | odd=1.35
+  2) 18:45 | uefa europa league | Ferencvarosi TC vs Ludogorets | O15_FT | odd=1.25
+  3) 20:00 | saudi arabia | Al Riyadh vs Al-Ahli Jeddah | O15_FT | odd=1.18
+  4) 20:00 | saudi arabia | Al-Fateh vs Damac | O15_FT | odd=1.22
+
+MAESTROLOGUE — Détail du score (ticket choisi, RANDOM)
+------------------------------------------------------
+- score ticket: 0.742 (74.2%)
+- formule: wr_adj = wr(league x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 01:00 | primera a colombia | Santa Fe vs Atletico Nacional | bet=O15_FT | odd=1.35
+   LEAGUE primera a colombia: wr=0.71 dec=52 coef=1.000 => adj=0.712 (71.2%)
+
+2) 18:45 | uefa europa league | Ferencvarosi TC vs Ludogorets | bet=O15_FT | odd=1.25
+   LEAGUE uefa europa league: wr=0.70 dec=44 coef=1.000 => adj=0.705 (70.5%)
+
+3) 20:00 | saudi arabia | Al Riyadh vs Al-Ahli Jeddah | bet=O15_FT | odd=1.18
+   LEAGUE saudi arabia: wr=0.78 dec=103 coef=1.000 => adj=0.777 (77.7%)
+
+4) 20:00 | saudi arabia | Al-Fateh vs Damac | bet=O15_FT | odd=1.22
+   LEAGUE saudi arabia: wr=0.78 dec=103 coef=1.000 => adj=0.777 (77.7%)
+
+
+MAESTROLOGUE — RANDOM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- TOPK_SIZE: 5 | uniform_draw=True
+- league_gate_min_wr: 0.65 | require_data=True
+- règle: préférer 3L si écart <= 3.00%
+- iterations: 61559 | valid_3L_found: 0 | valid_4L_found: 0
+- top3_size: 0 | top4_size: 0
+- picks_rejected_by_league_gate (approx): 369354
+
+TOP3 (desc):
+  (vide)
+
+TOP4 (desc):
+  (vide)
+
+DRAW_3L: (aucun)
+DRAW_4L: (aucun)
+- écart relatif: —
+=> choisi: aucun (aucune combinaison valide)
+
+MAESTROLOGUE — RANDOM — 2026-02-26
+========================================
+- picks_total: 18
+- base_spread: 90 min (rich=True)
+- day_max_possible_odd: 5.59
+- threshold_used: 2.2 (target=2.2, fallback=1.7)
+
+Tranche scan: idx=0 | next_window_start=01:00
+  tranche_seed: 01:00 → 02:30
+
+  merge_until: j=0 | merged_in_window=3
+    - ok_window(after_perf_if_SYSTEM): 3
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 2.39
+
+  Aucune combinaison trouvée (recherche épuisée). -> élargissement fenêtre (merge + 1)
+
+  merge_until: j=1 | merged_in_window=8
+    - ok_window(after_perf_if_SYSTEM): 8
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 3.34
+
+Ticket: tranche=1 | cote=2.43 | 01:00 → 21:50 | fenêtre=1140min
+  1) 01:00 | primera a colombia | Santa Fe vs Atletico Nacional | O15_FT | odd=1.35
+  2) 18:45 | uefa europa league | Ferencvarosi TC vs Ludogorets | O15_FT | odd=1.25
+  3) 20:00 | saudi arabia | Al Riyadh vs Al-Ahli Jeddah | O15_FT | odd=1.18
+  4) 20:00 | saudi arabia | Al-Fateh vs Damac | O15_FT | odd=1.22
+
+Tranche scan: idx=3 | next_window_start=21:50
+  tranche_seed: 23:00 → 00:30
+
+  merge_until: j=3 | merged_in_window=3
+    - ok_window(after_perf_if_SYSTEM): 3
+    - perf_reject: 0
+    - out_window: 0
+    - no_odd: 0 | odd_too_low: 0
+    - max_possible_odd(ok_window): 3.17
+
+  Aucune combinaison trouvée (recherche épuisée). -> élargissement fenêtre (merge + 1)
+
+  Impossible de construire un ticket après merge jusqu'à j=3.
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1
+- next_window_start: 21:50
+
+RUN SUMMARY
+- system_tickets: 1 | o15_tickets: 1
+----------------------------------------
+

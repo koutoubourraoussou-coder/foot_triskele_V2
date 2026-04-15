@@ -1,0 +1,12 @@
+TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
+==================================================
+
+📅 Mercredi 2026-04-01 — Tranche 1 (fenêtre ~1170min)
+----------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-01_0030_5432c22f21_SYS — cote = 2.62 — fenêtre 00:30 → 21:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 00:30 | serie a brazil | Botafogo vs Mirassol | HT 1X Home | FORT PLUS | odd=1.25
+  2) 01:30 | primera división paraguay | Sportivo Trinidense vs Olimpia | HT 1X Home | MOYEN PLUS | odd=1.5
+  3) 20:00 | laliga2 | Huesca vs Cultural Leonesa | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.4

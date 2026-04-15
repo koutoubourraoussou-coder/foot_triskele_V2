@@ -1,0 +1,6 @@
+# date | league | home vs away | reason
+2026-02-07 | scottish cup | Rangers vs Stranraer | GOALS_MISSING:1510240
+2026-02-14 | fa cup | Port Vale vs Bristol City | FIXTURE_NOT_FOUND_ROBUST
+2026-02-15 | liga mx | Santos Laguna vs Mazatlán | GOALS_MISSING:1492515
+2026-02-15 | primera a colombia | Deportivo Cali vs Atletico Nacional | GOALS_MISSING:1505992
+2026-02-15 | primera división paraguay | Cerro Porteno vs Nacional Asuncion | GOALS_MISSING:1504984

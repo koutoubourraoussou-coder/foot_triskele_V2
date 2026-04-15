@@ -1,0 +1,23 @@
+TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
+==================================================
+
+📅 Dimanche 2026-03-08 — Tranche 1 (fenêtre ~60min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-03-08_1330_d65e883742_SYS — cote = 2.34 — fenêtre 13:30 → 16:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 13:30 | superligaen | MTK Budapest vs Diosgyori VTK | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  2) 13:30 | 2. bundesliga | Karlsruher SC vs Dynamo Dresden | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  3) 14:00 | laliga2 | Las Palmas vs AD Ceuta FC | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
+  4) 14:30 | eredivisie | Fortuna Sittard vs Telstar | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+
+📅 Dimanche 2026-03-08 — Tranche 2 (fenêtre ~120min)
+---------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-03-08_1630_a53f08e42e_SYS — cote = 2.24 — fenêtre 16:30 → 20:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:30 | liga portugal | Estrela vs GIL Vicente | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.4
+  2) 16:30 | super league switzerland | Grasshoppers vs Lausanne | Team1 scores (FT) | FORT PLUS | odd=1.25
+  3) 18:30 | superligaen | Nyiregyhaza vs Ferencvarosi TC | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.28

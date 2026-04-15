@@ -1,0 +1,241 @@
+RUN MAESTROLOGUE — 2026-04-08 20:52:40
+- source_tsv: predictions.tsv
+- run_date: ALL
+- maestro_level: 3
+========================================
+
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- generation_weights: LEAGUE x BET (wr_adj = wr * coef(decided)) + small odd bonus
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 5367 | valid_3L_found: 3349 | valid_4L_found: 5332
+- top3_size: 10 | top4_size: 10
+
+TOP3 (desc):
+  TOP3[1/10]: score=0.836 (83.6%) | legs=3 | odd=2.5
+  TOP3[2/10]: score=0.833 (83.3%) | legs=3 | odd=2.71
+  TOP3[3/10]: score=0.827 (82.7%) | legs=3 | odd=2.5
+  TOP3[4/10]: score=0.824 (82.4%) | legs=3 | odd=2.71
+  TOP3[5/10]: score=0.823 (82.3%) | legs=3 | odd=2.46
+  TOP3[6/10]: score=0.820 (82.0%) | legs=3 | odd=2.51
+  TOP3[7/10]: score=0.819 (81.9%) | legs=3 | odd=2.95
+  TOP3[8/10]: score=0.818 (81.8%) | legs=3 | odd=2.4
+  TOP3[9/10]: score=0.817 (81.7%) | legs=3 | odd=2.83
+  TOP3[10/10]: score=0.814 (81.4%) | legs=3 | odd=2.46
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.828 (82.8%) | legs=4 | odd=3.25
+  TOP4[2/10]: score=0.821 (82.1%) | legs=4 | odd=3.25
+  TOP4[3/10]: score=0.821 (82.1%) | legs=4 | odd=2.95
+  TOP4[4/10]: score=0.818 (81.8%) | legs=4 | odd=3.19
+  TOP4[5/10]: score=0.818 (81.8%) | legs=4 | odd=3.01
+  TOP4[6/10]: score=0.817 (81.7%) | legs=4 | odd=2.89
+  TOP4[7/10]: score=0.815 (81.5%) | legs=4 | odd=3.84
+  TOP4[8/10]: score=0.814 (81.4%) | legs=4 | odd=2.95
+  TOP4[9/10]: score=0.813 (81.3%) | legs=4 | odd=3.52
+  TOP4[10/10]: score=0.811 (81.1%) | legs=4 | odd=3.19
+
+DRAW_3L: picked rank=8/10 | score=0.818 (81.8%) | odd=2.4
+DRAW_4L: picked rank=6/10 | score=0.817 (81.7%) | odd=2.89
+- écart relatif: 0.13%
+=> choisi: 3 legs | score=0.818 (81.8%) | final_source=HYBRID
+
+Ticket choisi (aperçu)
+----------------------
+  1) 01:20 | primera a colombia | Deportivo Pasto vs Atletico Nacional | HT1X_HOME | odd=1.36
+  2) 18:30 | laliga2 | Zaragoza vs Racing Santander | HT1X_HOME | odd=1.36
+  3) 23:10 | primera a colombia | Internacional de Bogota vs Junior | HT1X_HOME | odd=1.3
+
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, HYBRID x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.818 (81.8%)
+- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 01:20 | primera a colombia | Deportivo Pasto vs Atletico Nacional | bet=HT1X_HOME | odd=1.36
+   HOME Deportivo Pasto: wr=0.97 dec=7 coef=1.000 => adj=0.971 (97.1%)
+   AWAY Atletico Nacional: wr=0.98 dec=7 coef=1.000 => adj=0.983 (98.3%)
+   MEAN match: 0.977 (97.7%)
+
+2) 18:30 | laliga2 | Zaragoza vs Racing Santander | bet=HT1X_HOME | odd=1.36
+   HOME Zaragoza: wr=0.82 dec=8 coef=1.000 => adj=0.824 (82.4%)
+   AWAY Racing Santander: wr=0.65 dec=6 coef=1.000 => adj=0.649 (64.9%)
+   MEAN match: 0.737 (73.7%)
+
+3) 23:10 | primera a colombia | Internacional de Bogota vs Junior | bet=HT1X_HOME | odd=1.3
+   HOME Internacional de Bogota: wr=0.78 dec=6 coef=1.000 => adj=0.780 (78.0%)
+   AWAY Junior: wr=0.72 dec=7 coef=1.000 => adj=0.716 (71.6%)
+   MEAN match: 0.748 (74.8%)
+
+
+MAESTROLOGUE — SYSTEM — 2026-03-29
+========================================
+- picks_total: 28
+- unique_matches_day: 12
+- rich_day: False
+- max_windows_today: 1
+- windows_count: 1
+- target_odd: 2.4
+- min_accept_odd: 1.8
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 00:30 -> 23:10
+  - raw_window_picks: 28
+  - filtered_window_picks: 28
+  - ok_window: 28
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 5.4
+  - threshold_used_here: 2.4
+  - OK_WINDOW [SYSTEM] picks acceptés :
+    OK 00:30 Atletico Paranaense vs Botafogo | HT05 | odd=1.42 | poids=1.042
+    OK 00:30 Atletico Paranaense vs Botafogo | TEAM1_SCORE_FT | odd=1.25 | poids=1.025
+    OK 00:30 Atletico Paranaense vs Botafogo | HT1X_HOME | odd=1.18 | poids=1.722
+    OK 01:00 Haiti vs Tunisia | TEAM1_SCORE_FT | odd=1.57 | poids=1.057
+    OK 01:00 Haiti vs Tunisia | O15_FT | odd=1.45 | poids=1.045
+    OK 01:00 Haiti vs Tunisia | HT05 | odd=1.44 | poids=1.044
+    OK 01:20 Deportivo Pasto vs Atletico Nacional | HT1X_HOME | odd=1.36 | poids=1.751
+    OK 01:20 Deportivo Pasto vs Atletico Nacional | O15_FT | odd=1.33 | poids=1.033
+    OK 03:00 Mexico vs Portugal | HT1X_HOME | odd=1.5 | poids=1.050
+    OK 03:00 Mexico vs Portugal | HT05 | odd=1.36 | poids=1.036
+    OK 03:00 Mexico vs Portugal | O15_FT | odd=1.28 | poids=1.028
+    OK 15:00 Lithuania vs Georgia | HT1X_HOME | odd=1.5 | poids=1.050
+    OK 15:00 Armenia vs Belarus | TEAM2_SCORE_FT | odd=1.44 | poids=1.044
+    OK 15:00 Armenia vs Belarus | HT05 | odd=1.4 | poids=1.040
+    OK 15:00 Lithuania vs Georgia | HT05 | odd=1.4 | poids=1.040
+    OK 15:00 Armenia vs Belarus | O15_FT | odd=1.36 | poids=1.036
+    OK 15:00 Lithuania vs Georgia | O15_FT | odd=1.33 | poids=1.033
+    OK 15:00 Armenia vs Belarus | HT1X_HOME | odd=1.2 | poids=1.020
+    OK 15:30 GAP Connah S Quay FC vs Barry Town | TEAM2_SCORE_FT | odd=1.41 | poids=1.141
+    OK 15:30 GAP Connah S Quay FC vs Barry Town | HT1X_HOME | odd=1.2 | poids=1.020
+    OK 16:15 Cultural Leonesa vs FC Andorra | HT05 | odd=1.53 | poids=1.332
+    OK 16:15 Cultural Leonesa vs FC Andorra | O15_FT | odd=1.53 | poids=1.512
+    OK 18:30 Zaragoza vs Racing Santander | HT1X_HOME | odd=1.36 | poids=1.410
+    OK 21:00 Colombia vs France | HT05 | odd=1.33 | poids=1.033
+    OK 21:00 Colombia vs France | O15_FT | odd=1.25 | poids=1.025
+    OK 21:00 Almeria vs Real Sociedad II | O15_FT | odd=1.2 | poids=1.464
+    OK 23:10 Internacional de Bogota vs Junior | TEAM2_SCORE_FT | odd=1.31 | poids=1.031
+    OK 23:10 Internacional de Bogota vs Junior | HT1X_HOME | odd=1.3 | poids=1.741
+Ticket: tranche=1 | cote=2.4 | seuil_local=2.4 | 01:20 → 01:00 | fenêtre=1310min
+  1) 01:20 | primera a colombia | Deportivo Pasto vs Atletico Nacional | HT1X_HOME | odd=1.36
+  2) 18:30 | laliga2 | Zaragoza vs Racing Santander | HT1X_HOME | odd=1.36
+  3) 23:10 | primera a colombia | Internacional de Bogota vs Junior | HT1X_HOME | odd=1.3
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1 / 1
+- next_window_start: 01:00
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 8530 | valid_3L_found: 2357 | valid_4L_found: 8421
+- top3_size: 10 | top4_size: 10
+- rejected_by_build_gate (approx): 12041
+
+TOP3 (desc):
+  TOP3[1/10]: score=0.825 (82.5%) | legs=3 | odd=2.44
+  TOP3[2/10]: score=0.816 (81.6%) | legs=3 | odd=2.44
+  TOP3[3/10]: score=0.814 (81.4%) | legs=3 | odd=2.53
+  TOP3[4/10]: score=0.809 (80.9%) | legs=3 | odd=2.44
+  TOP3[5/10]: score=0.795 (79.5%) | legs=3 | odd=2.54
+  TOP3[6/10]: score=0.788 (78.8%) | legs=3 | odd=2.71
+  TOP3[7/10]: score=0.786 (78.6%) | legs=3 | odd=2.81
+  TOP3[8/10]: score=0.786 (78.6%) | legs=3 | odd=2.54
+  TOP3[9/10]: score=0.785 (78.5%) | legs=3 | odd=2.64
+  TOP3[10/10]: score=0.784 (78.4%) | legs=3 | odd=2.54
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.812 (81.2%) | legs=4 | odd=3.05
+  TOP4[2/10]: score=0.807 (80.7%) | legs=4 | odd=3.25
+  TOP4[3/10]: score=0.806 (80.6%) | legs=4 | odd=3.37
+  TOP4[4/10]: score=0.806 (80.6%) | legs=4 | odd=3.05
+  TOP4[5/10]: score=0.805 (80.5%) | legs=4 | odd=3.17
+  TOP4[6/10]: score=0.804 (80.4%) | legs=4 | odd=3.05
+  TOP4[7/10]: score=0.803 (80.3%) | legs=4 | odd=2.98
+  TOP4[8/10]: score=0.802 (80.2%) | legs=4 | odd=2.87
+  TOP4[9/10]: score=0.802 (80.2%) | legs=4 | odd=2.8
+  TOP4[10/10]: score=0.802 (80.2%) | legs=4 | odd=3.25
+
+DRAW_3L: picked rank=5/10 | score=0.795 (79.5%) | odd=2.54
+DRAW_4L: picked rank=9/10 | score=0.802 (80.2%) | odd=2.8
+- écart relatif: 0.88%
+=> choisi: 3 legs | score=0.795 (79.5%) | final_source=TEAM
+
+Ticket choisi (aperçu)
+----------------------
+  1) 01:20 | primera a colombia | Deportivo Pasto vs Atletico Nacional | O15_FT | odd=1.33
+  2) 16:15 | laliga2 | Cultural Leonesa vs FC Andorra | O15_FT | odd=1.53
+  3) 21:00 | international friendlies | Colombia vs France | O15_FT | odd=1.25
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.795 (79.5%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 01:20 | primera a colombia | Deportivo Pasto vs Atletico Nacional | bet=O15_FT | odd=1.33
+   HOME Deportivo Pasto: wr=0.77 dec=13 coef=1.000 => adj=0.768 (76.8%)
+   AWAY Atletico Nacional: wr=0.79 dec=14 coef=1.000 => adj=0.792 (79.2%)
+   MEAN match: 0.780 (78.0%)
+
+2) 16:15 | laliga2 | Cultural Leonesa vs FC Andorra | bet=O15_FT | odd=1.53
+   HOME Cultural Leonesa: wr=0.79 dec=15 coef=1.000 => adj=0.793 (79.3%)
+   AWAY FC Andorra: wr=0.87 dec=14 coef=1.000 => adj=0.868 (86.8%)
+   MEAN match: 0.831 (83.1%)
+
+3) 21:00 | international friendlies | Colombia vs France | bet=O15_FT | odd=1.25
+   HOME Colombia: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   AWAY France: wr=1.00 dec=2 coef=0.775 => adj=0.775 (77.5%)
+   MEAN match: 0.775 (77.5%)
+
+
+MAESTROLOGUE — RANDOM — 2026-03-29
+========================================
+- picks_total: 13
+- unique_matches_day: 13
+- rich_day: False
+- max_windows_today: 1
+- windows_count: 1
+- target_odd: 2.4
+- min_accept_odd: 1.8
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 00:30 -> 21:00
+  - raw_window_picks: 13
+  - filtered_window_picks: 13
+  - ok_window: 13
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 4.16
+  - threshold_used_here: 2.4
+  - OK_WINDOW [RANDOM] picks acceptés :
+    OK 00:30 Atletico Paranaense vs Botafogo | O15_FT | odd=1.38 | poids=1.000
+    OK 01:00 Haiti vs Tunisia | O15_FT | odd=1.45 | poids=1.000
+    OK 01:20 Deportivo Pasto vs Atletico Nacional | O15_FT | odd=1.33 | poids=1.000
+    OK 03:00 Mexico vs Portugal | O15_FT | odd=1.28 | poids=1.000
+    OK 03:20 Deportivo Cali vs Deportivo Pereira | O15_FT | odd=1.3 | poids=1.000
+    OK 15:00 Armenia vs Belarus | O15_FT | odd=1.36 | poids=1.000
+    OK 15:00 Lithuania vs Georgia | O15_FT | odd=1.33 | poids=1.000
+    OK 15:30 GAP Connah S Quay FC vs Barry Town | O15_FT | odd=1.22 | poids=1.000
+    OK 16:15 Cultural Leonesa vs FC Andorra | O15_FT | odd=1.53 | poids=1.000
+    OK 16:30 União de Leiria vs Pacos Ferreira | O15_FT | odd=1.25 | poids=1.000
+    OK 18:30 Zaragoza vs Racing Santander | O15_FT | odd=1.33 | poids=1.000
+    OK 21:00 Colombia vs France | O15_FT | odd=1.25 | poids=1.000
+    OK 21:00 Almeria vs Real Sociedad II | O15_FT | odd=1.2 | poids=1.000
+Ticket: tranche=1 | cote=2.54 | seuil_local=2.4 | 01:20 → 22:50 | fenêtre=1180min
+  1) 01:20 | primera a colombia | Deportivo Pasto vs Atletico Nacional | O15_FT | odd=1.33
+  2) 16:15 | laliga2 | Cultural Leonesa vs FC Andorra | O15_FT | odd=1.53
+  3) 21:00 | international friendlies | Colombia vs France | O15_FT | odd=1.25
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1 / 1
+- next_window_start: 22:50
+
+RUN SUMMARY
+- system_tickets: 1 | o15_tickets: 1
+----------------------------------------
+

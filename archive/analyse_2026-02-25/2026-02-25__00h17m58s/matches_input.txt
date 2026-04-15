@@ -1,0 +1,26 @@
+2026-02-25 20:45 | championship | Millwall vs Birmingham
+2026-02-25 20:45 | championship | Norwich vs Sheffield Wednesday
+2026-02-25 20:45 | championship | Sheffield Utd vs Coventry
+2026-02-25 21:00 | championship | Stoke City vs Oxford United
+2026-02-25 19:00 | laliga2 | AD Ceuta FC vs Cordoba
+2026-02-25 01:30 | liga profesional argentina | Belgrano Cordoba vs Atletico Tucuman
+2026-02-25 02:00 | liga profesional argentina | Gimnasia M. vs Independiente
+2026-02-25 21:00 | liga profesional argentina | Barracas Central vs Tigre
+2026-02-25 21:00 | liga profesional argentina | Gimnasia L.P. vs Rosario Central
+2026-02-25 22:00 | liga profesional argentina | Aldosivi vs Argentinos JRS
+2026-02-25 23:30 | liga profesional argentina | Newells Old Boys vs Estudiantes L.P.
+2026-02-25 23:30 | liga profesional argentina | Velez Sarsfield vs Deportivo Riestra
+2026-02-25 22:30 | primera división paraguay | Sportivo Ameliano vs Cerro Porteno
+2026-02-25 20:00 | saudi arabia | Al Najma vs Al-Nassr
+2026-02-25 20:00 | saudi arabia | Al-Fayha vs NEOM
+2026-02-25 22:00 | serie a brazil | Bahia vs Chapecoense-sc
+2026-02-25 22:00 | serie a brazil | Botafogo vs Vitoria
+2026-02-25 22:00 | serie a brazil | Flamengo vs Mirassol
+2026-02-25 23:00 | serie a brazil | RB Bragantino vs Atletico Paranaense
+2026-02-25 23:00 | serie a brazil | remo vs Internacional
+2026-02-25 23:30 | serie a brazil | Coritiba vs Sao Paulo
+2026-02-25 19:00 | super league switzerland | FC Winterthur vs FC Thun
+2026-02-25 18:45 | uefa champions league | Atalanta vs Borussia Dortmund
+2026-02-25 21:00 | uefa champions league | Juventus vs Galatasaray
+2026-02-25 21:00 | uefa champions league | Paris Saint Germain vs Monaco
+2026-02-25 21:00 | uefa champions league | Real Madrid vs Benfica

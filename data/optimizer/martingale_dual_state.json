@@ -35,7 +35,7 @@
       }
     },
     "reserves": 15.933333548000014,
-    "last_updated": "2026-04-13"
+    "last_updated": "2026-04-14"
   },
   "portfolio_b": {
     "strategies": {
@@ -73,6 +73,6 @@
       }
     },
     "reserves": 1.0000000000000007,
-    "last_updated": "2026-04-13"
+    "last_updated": "2026-04-14"
   }
 }
