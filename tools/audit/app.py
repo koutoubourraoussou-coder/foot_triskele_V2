@@ -855,21 +855,19 @@ with tab1:
     df_u35_rand  = sort_tickets_for_display(attach_verdict(df_u35_rand,  dv_u35_rand))
     df_u35_super = sort_tickets_for_display(attach_verdict(df_u35_super, dv_u35_super))
 
-    _SHOW_COLS = ["Statut", "Jour", "Heure", "Ticket", "Cote", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
-
     def _render_ticket_col(df, label, expander_label):
         st.subheader(label)
         if not df.empty:
             df = df.copy()
             df["Heure"] = df["DateTimeTri"].dt.strftime("%H:%M").fillna("—")
-            show_cols = [c for c in _SHOW_COLS if c in df.columns]
-            st.dataframe(df[show_cols], use_container_width=True, hide_index=True)
+            # Numéro séquentiel par jour (1, 2, 3…)
+            df["N°"] = df.groupby("Jour").cumcount() + 1
+            st.dataframe(df[["Statut", "Jour", "Heure", "N°", "Cote"]], use_container_width=True, hide_index=True)
             with st.expander(expander_label):
                 for _, row in df.iterrows():
                     jour_str = row["Jour"].isoformat() if pd.notna(row["Jour"]) else "—"
                     status = row["Statut"] if pd.notna(row["Statut"]) else "—"
-                    st.markdown(f"**{status} {row['Ticket']} — {jour_str} (Cote: {row['Cote']})**")
-                    st.caption(f"id={row['Id']} | fenêtre={row['Fenêtre de jeu']} | legs: W={row.get('Legs WIN')} L={row.get('Legs LOSS')} P={row.get('Legs PENDING')}")
+                    st.markdown(f"**{status} Ticket {row['N°']} — {jour_str} (Cote: {row['Cote']})**")
                     render_ticket_legs(row)
                     st.divider()
         else:
