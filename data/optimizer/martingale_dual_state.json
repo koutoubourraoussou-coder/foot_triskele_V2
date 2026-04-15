@@ -1,78 +1,40 @@
 {
-  "portfolio_a": {
+  "portfolio": {
     "strategies": {
-      "RANDOM SAFE": {
-        "ba": 0.857142857,
-        "cb": 1.0,
-        "ls": 1,
-        "ps": 0.142857143,
-        "mode": "SAFE",
-        "ml": 3
-      },
-      "RANDOM NORMALE": {
-        "ba": 0.933333333,
-        "cb": 1.0,
-        "ls": 1,
-        "ps": 0.066666667,
-        "mode": "NORMALE",
-        "ml": 4
-      },
-      "SYSTEM SAFE": {
-        "ba": 0.0,
-        "cb": 1.0,
-        "ls": 9,
-        "ps": 17.066666591999997,
+      "O15 RANDOM SAFE": {
+        "ba": 1.5,
+        "cb": 1.5,
+        "ls": 0,
+        "ps": 0.0,
         "mode": "SAFE",
         "ml": 4
       },
-      "SYSTEM NORMALE": {
-        "ba": 0.0,
-        "cb": 1.0,
-        "ls": 8,
-        "ps": 8.533333295999999,
-        "mode": "NORMALE",
+      "O15 SUPER SAFE": {
+        "ba": 1.5,
+        "cb": 1.5,
+        "ls": 0,
+        "ps": 0.0,
+        "mode": "SAFE",
+        "ml": 4
+      },
+      "U35 RANDOM SAFE": {
+        "ba": 1.5,
+        "cb": 1.5,
+        "ls": 0,
+        "ps": 0.0,
+        "mode": "SAFE",
+        "ml": 4
+      },
+      "U35 SUPER SAFE": {
+        "ba": 1.5,
+        "cb": 1.5,
+        "ls": 0,
+        "ps": 0.0,
+        "mode": "SAFE",
         "ml": 4
       }
     },
-    "reserves": 15.933333548000014,
-    "last_updated": "2026-04-14"
-  },
-  "portfolio_b": {
-    "strategies": {
-      "RANDOM SAFE": {
-        "ba": 0.6,
-        "cb": 0.7,
-        "ls": 1,
-        "ps": 0.1,
-        "mode": "SAFE",
-        "ml": 3
-      },
-      "RANDOM NORMALE": {
-        "ba": 0.6,
-        "cb": 0.7,
-        "ls": 1,
-        "ps": 0.1,
-        "mode": "NORMALE",
-        "ml": 3
-      },
-      "SYSTEM SAFE": {
-        "ba": 0.0,
-        "cb": 0.7,
-        "ls": 5,
-        "ps": 1.5999999999999999,
-        "mode": "SAFE",
-        "ml": 3
-      },
-      "SYSTEM NORMALE": {
-        "ba": 0.0,
-        "cb": 0.7,
-        "ls": 4,
-        "ps": 0.7999999999999999,
-        "mode": "NORMALE",
-        "ml": 3
-      }
-    },
-    "reserves": 1.0000000000000007,
-    "last_updated": "2026-04-14"
+    "reserves": 94.0,
+    "last_updated": "2026-04-15"
   }
 }
