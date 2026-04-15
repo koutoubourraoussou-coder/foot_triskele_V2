@@ -1070,7 +1070,7 @@ _STRAT_CONFIG = {
     "SYSTEM SAFE":    {"mode": "SAFE",    "ml": 4},
     "SYSTEM NORMALE": {"mode": "NORMALE", "ml": 4},
 }
-_BANKROLL0 = 100.0
+_BANKROLL0 = 0.10
 
 def _default_state():
     strats = {}
@@ -1094,32 +1094,14 @@ def _save_state(s):
 STATE_FILE_DUAL = ROOT / "data" / "optimizer" / "martingale_dual_state.json"
 
 _PORTFOLIO_CONFIGS = {
-    "portfolio_a": {
-        "label": "A — ML mix (70€)",
-        "reserves0": 65.0,
+    "portfolio": {
+        "label": "Portfolio 100€",
+        "reserves0": 94.0,
         "strategies": {
-            "O15 RANDOM SAFE":    {"mode": "SAFE",    "ml": 3, "ba": 1.0},
-            "O15 RANDOM NORMALE": {"mode": "NORMALE", "ml": 4, "ba": 1.0},
-            "O15 SUPER SAFE":     {"mode": "SAFE",    "ml": 3, "ba": 1.0},
-            "O15 SUPER NORMALE":  {"mode": "NORMALE", "ml": 4, "ba": 1.0},
-            "U35 RANDOM SAFE":    {"mode": "SAFE",    "ml": 3, "ba": 1.0},
-            "U35 RANDOM NORMALE": {"mode": "NORMALE", "ml": 4, "ba": 1.0},
-            "U35 SUPER SAFE":     {"mode": "SAFE",    "ml": 3, "ba": 1.0},
-            "U35 SUPER NORMALE":  {"mode": "NORMALE", "ml": 4, "ba": 1.0},
-        },
-    },
-    "portfolio_b": {
-        "label": "B — ML=3 universel (7€)",
-        "reserves0": 4.20,
-        "strategies": {
-            "O15 RANDOM SAFE":    {"mode": "SAFE",    "ml": 3, "ba": 0.70},
-            "O15 RANDOM NORMALE": {"mode": "NORMALE", "ml": 3, "ba": 0.70},
-            "O15 SUPER SAFE":     {"mode": "SAFE",    "ml": 3, "ba": 0.70},
-            "O15 SUPER NORMALE":  {"mode": "NORMALE", "ml": 3, "ba": 0.70},
-            "U35 RANDOM SAFE":    {"mode": "SAFE",    "ml": 3, "ba": 0.70},
-            "U35 RANDOM NORMALE": {"mode": "NORMALE", "ml": 3, "ba": 0.70},
-            "U35 SUPER SAFE":     {"mode": "SAFE",    "ml": 3, "ba": 0.70},
-            "U35 SUPER NORMALE":  {"mode": "NORMALE", "ml": 3, "ba": 0.70},
+            "O15 RANDOM SAFE": {"mode": "SAFE", "ml": 4, "ba": 0.10},
+            "O15 SUPER SAFE":  {"mode": "SAFE", "ml": 4, "ba": 0.10},
+            "U35 RANDOM SAFE": {"mode": "SAFE", "ml": 4, "ba": 0.10},
+            "U35 SUPER SAFE":  {"mode": "SAFE", "ml": 4, "ba": 0.10},
         },
     },
 }
@@ -1222,10 +1204,10 @@ with tab4:
         "U35 SUPER RANDOM": ROOT / "data" / "tickets_u35_super_random_report.txt",
     }
     TICKET_STRATS = {
-        "O15 RANDOM":       ["O15 RANDOM SAFE",  "O15 RANDOM NORMALE"],
-        "O15 SUPER RANDOM": ["O15 SUPER SAFE",   "O15 SUPER NORMALE"],
-        "U35 RANDOM":       ["U35 RANDOM SAFE",  "U35 RANDOM NORMALE"],
-        "U35 SUPER RANDOM": ["U35 SUPER SAFE",   "U35 SUPER NORMALE"],
+        "O15 RANDOM":       ["O15 RANDOM SAFE"],
+        "O15 SUPER RANDOM": ["O15 SUPER SAFE"],
+        "U35 RANDOM":       ["U35 RANDOM SAFE"],
+        "U35 SUPER RANDOM": ["U35 SUPER SAFE"],
     }
 
     dual_state = _load_dual_state()
@@ -1233,7 +1215,7 @@ with tab4:
     # ── Sélecteur de vue ───────────────────────────────────────────────────
     mart_view = st.radio(
         "Vue",
-        ["📊 Dashboard", "🅰️ Portfolio A", "🅱️ Portfolio B"],
+        ["📊 Dashboard", "💼 Portfolio"],
         horizontal=True,
         key="mart_view",
     )
@@ -1262,29 +1244,23 @@ with tab4:
                 + "  |  ".join(f"T{i+1}: cote ×{c:.2f}" for i, c in enumerate(cotes))
             )
 
-            # Table : une ligne par tranche, colonnes = portfolios + total
+            # Table : une ligne par tranche, mise du portfolio
+            pstate = dual_state["portfolio"]
             rows_dash = []
             for t_idx, cote in enumerate(cotes):
                 label = f"T{t_idx+1} (×{cote:.2f})"
                 row   = {"Tranche": label}
-                total_ab = 0.0
-                for pkey, pcfg in _PORTFOLIO_CONFIGS.items():
-                    pstate = dual_state[pkey]
-                    # Simuler les tranches précédentes (tout WIN) pour avoir l'état courant
-                    strats_sim = {sn: copy.deepcopy(pstate["strategies"][sn]) for sn in strat_names}
-                    res_sim    = pstate["reserves"]
-                    for prev_cote in cotes[:t_idx]:
-                        for sn in strat_names:
-                            strats_sim[sn], res_sim = _apply_result(strats_sim[sn], True, prev_cote, res_sim)
-                    mise_t = sum(
-                        _next_stake(strats_sim[sn]["ba"], strats_sim[sn]["ls"],
-                                    strats_sim[sn]["ps"], strats_sim[sn]["ml"])
-                        for sn in strat_names
-                    )
-                    lbl = "Portfolio A (70€)" if pkey == "portfolio_a" else "Portfolio B (7€)"
-                    row[lbl] = f"{mise_t:.2f}€"
-                    total_ab += mise_t
-                row["Total A+B"] = f"{total_ab:.2f}€"
+                strats_sim = {sn: copy.deepcopy(pstate["strategies"][sn]) for sn in strat_names}
+                res_sim    = pstate["reserves"]
+                for prev_cote in cotes[:t_idx]:
+                    for sn in strat_names:
+                        strats_sim[sn], res_sim = _apply_result(strats_sim[sn], True, prev_cote, res_sim)
+                mise_t = sum(
+                    _next_stake(strats_sim[sn]["ba"], strats_sim[sn]["ls"],
+                                strats_sim[sn]["ps"], strats_sim[sn]["ml"])
+                    for sn in strat_names
+                )
+                row["Mise"] = f"{mise_t:.3f}€"
                 rows_dash.append(row)
 
             df_dash = pd.DataFrame(rows_dash).set_index("Tranche")
@@ -1292,40 +1268,31 @@ with tab4:
             st.caption("ℹ️ Les tranches T2, T3… supposent que les tranches précédentes ont été gagnées.")
             st.divider()
 
-        # ── État par portfolio ─────────────────────────────────────────────
-        st.subheader("🏦 État des portfolios")
-        col_a, col_b = st.columns(2)
-
-        for col, pkey in zip([col_a, col_b], ["portfolio_a", "portfolio_b"]):
-            pstate = dual_state[pkey]
-            pcfg   = _PORTFOLIO_CONFIGS[pkey]
-            with col:
-                st.markdown(f"**{pcfg['label']}**  |  Réserves : {pstate['reserves']:.2f}€")
-                for sname, s in pstate["strategies"].items():
-                    mise      = _next_stake(s["ba"], s["ls"], s["ps"], s["ml"])
-                    coups_avt = s["ml"] - s["ls"]
-                    serie_str = f"L×{s['ls']}" if s["ls"] > 0 else "✓"
-                    short     = sname.replace("O15 RANDOM ", "O15·R·").replace("O15 SUPER ", "O15·S·").replace("U35 RANDOM ", "U35·R·").replace("U35 SUPER ", "U35·S·")
-                    if s["mode"] == "SAFE":
-                        manque = max(0.0, s["cb"] * 2.0 - s["ba"])
-                        extra  = f"  |  manque doubling : {manque:.2f}€" if manque > 0 else "  |  doubling ✅"
-                    else:
-                        extra = ""
-                    st.caption(
-                        f"**{short}** — BK {s['ba']:.3f}€ — {serie_str}"
-                        f"  |  mise : {mise:.2f}€  |  si perdu → {mise*2:.2f}€"
-                        f"  |  encore {coups_avt} coup(s) avant réserves"
-                        + extra
-                    )
-                st.caption(f"_Màj : {pstate.get('last_updated', '—')}_")
+        # ── État du portfolio ──────────────────────────────────────────────
+        st.subheader("🏦 État du portfolio")
+        pstate = dual_state["portfolio"]
+        pcfg   = _PORTFOLIO_CONFIGS["portfolio"]
+        st.markdown(f"**{pcfg['label']}**  |  Réserves : {pstate['reserves']:.2f}€")
+        for sname, s in pstate["strategies"].items():
+            mise      = _next_stake(s["ba"], s["ls"], s["ps"], s["ml"])
+            coups_avt = s["ml"] - s["ls"]
+            serie_str = f"L×{s['ls']}" if s["ls"] > 0 else "✓"
+            manque = max(0.0, s["cb"] * 2.0 - s["ba"])
+            extra  = f"  |  manque doubling : {manque:.3f}€" if manque > 0 else "  |  doubling ✅"
+            st.caption(
+                f"**{sname}** — BK {s['ba']:.3f}€ — {serie_str}"
+                f"  |  mise : {mise:.3f}€  |  si perdu → {mise*2:.3f}€"
+                f"  |  encore {coups_avt} coup(s) avant réserves"
+                + extra
+            )
+        st.caption(f"_Màj : {pstate.get('last_updated', '—')}_")
 
     # ══════════════════════════════════════════════════════════════════════
-    # VUE PORTFOLIO A ou B — tableau par scénario
+    # VUE PORTFOLIO — tableau par scénario
     # ══════════════════════════════════════════════════════════════════════
     else:
-        pkey   = "portfolio_a" if mart_view == "🅰️ Portfolio A" else "portfolio_b"
-        pstate = dual_state[pkey]
-        pcfg   = _PORTFOLIO_CONFIGS[pkey]
+        pstate = dual_state["portfolio"]
+        pcfg   = _PORTFOLIO_CONFIGS["portfolio"]
 
         st.markdown(f"**{pcfg['label']}** — Réserves : **{pstate['reserves']:.2f}€**")
 
