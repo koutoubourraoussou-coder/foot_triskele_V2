@@ -133,6 +133,8 @@ MATCHS_FAILED_FILE = DATA_DIR / "matchs_failed.txt"
 TICKETS_GLOBAL_REPORT = DATA_DIR / "tickets_report_global.txt"
 TICKETS_O15_GLOBAL_REPORT = DATA_DIR / "tickets_o15_random_report_global.txt"
 TICKETS_U35_GLOBAL_REPORT = DATA_DIR / "tickets_u35_random_report_global.txt"
+TICKETS_O15_SUPER_GLOBAL_REPORT = DATA_DIR / "tickets_o15_super_random_report_global.txt"
+TICKETS_U35_SUPER_GLOBAL_REPORT = DATA_DIR / "tickets_u35_super_random_report_global.txt"
 PICKS_GLOBAL_REPORT = DATA_DIR / "picks_report_global.txt"
 
 
@@ -431,6 +433,8 @@ def _generate_global_tickets_report_from_predictions() -> None:
     any_sys = False
     any_o15 = False
     any_u35 = False
+    any_o15_super = False
+    any_u35_super = False
 
     for d in run_dates:
         with _temp_predictions_file_for_date(OUTPUT_TSV_FILE, d) as tmp_path:
@@ -456,6 +460,14 @@ def _generate_global_tickets_report_from_predictions() -> None:
                 _append_text(TICKETS_U35_GLOBAL_REPORT, out.report_u35)
                 any_u35 = True
 
+            if (out.report_o15_super or "").strip():
+                _append_text(TICKETS_O15_SUPER_GLOBAL_REPORT, out.report_o15_super)
+                any_o15_super = True
+
+            if (out.report_u35_super or "").strip():
+                _append_text(TICKETS_U35_SUPER_GLOBAL_REPORT, out.report_u35_super)
+                any_u35_super = True
+
     if any_sys:
         print(f"✅ Tickets (GLOBAL SYSTEM filtré sur dates du run) -> {TICKETS_GLOBAL_REPORT}")
     else:
@@ -470,6 +482,16 @@ def _generate_global_tickets_report_from_predictions() -> None:
         print(f"✅ Tickets (GLOBAL U35 filtré sur dates du run) -> {TICKETS_U35_GLOBAL_REPORT}")
     else:
         print("ℹ️ Aucun rapport tickets GLOBAL U35 écrit (aucune date exploitable).")
+
+    if any_o15_super:
+        print(f"✅ Tickets (GLOBAL O15 SUPER filtré sur dates du run) -> {TICKETS_O15_SUPER_GLOBAL_REPORT}")
+    else:
+        print("ℹ️ Aucun rapport tickets GLOBAL O15 SUPER écrit (aucune date exploitable).")
+
+    if any_u35_super:
+        print(f"✅ Tickets (GLOBAL U35 SUPER filtré sur dates du run) -> {TICKETS_U35_SUPER_GLOBAL_REPORT}")
+    else:
+        print("ℹ️ Aucun rapport tickets GLOBAL U35 SUPER écrit (aucune date exploitable).")
 
 
 def _generate_global_picks_report_from_predictions() -> None:
@@ -743,6 +765,22 @@ def archive_main_outputs() -> None:
                     print(f"   ➜ {u35_day_path} (rapport tickets U35 RANDOM)")
                 else:
                     print("   ⚠️ Report U35 RANDOM vide -> tickets_u35_random_report.txt non écrit.")
+
+                o15_super_report = (out.report_o15_super or "").strip()
+                if o15_super_report:
+                    o15_super_day_path = archive_dir / "tickets_o15_super_random_report.txt"
+                    _write_text(o15_super_day_path, out.report_o15_super)
+                    print(f"   ➜ {o15_super_day_path} (rapport tickets O15 SUPER RANDOM)")
+                else:
+                    print("   ⚠️ Report O15 SUPER RANDOM vide -> tickets_o15_super_random_report.txt non écrit.")
+
+                u35_super_report = (out.report_u35_super or "").strip()
+                if u35_super_report:
+                    u35_super_day_path = archive_dir / "tickets_u35_super_random_report.txt"
+                    _write_text(u35_super_day_path, out.report_u35_super)
+                    print(f"   ➜ {u35_super_day_path} (rapport tickets U35 SUPER RANDOM)")
+                else:
+                    print("   ⚠️ Report U35 SUPER RANDOM vide -> tickets_u35_super_random_report.txt non écrit.")
 
             except Exception as e:
                 print(f"   ⚠️ Erreur génération tickets (JOUR {target_date}) : {e}")

@@ -839,88 +839,52 @@ with tab1:
     st.divider()
 
     # Tickets multi-jours selon la période (GLOBAL)
-    df_sys = load_tickets_dataset("tickets_report_global.txt", period_start, period_end)
-    df_rand = load_tickets_dataset("tickets_o15_random_report_global.txt", period_start, period_end)
-    df_u35 = load_tickets_dataset("tickets_u35_random_report_global.txt", period_start, period_end)
+    df_o15_rand  = load_tickets_dataset("tickets_o15_random_report_global.txt", period_start, period_end)
+    df_o15_super = load_tickets_dataset("tickets_o15_super_random_report_global.txt", period_start, period_end)
+    df_u35_rand  = load_tickets_dataset("tickets_u35_random_report_global.txt", period_start, period_end)
+    df_u35_super = load_tickets_dataset("tickets_u35_super_random_report_global.txt", period_start, period_end)
 
     # Verdicts correspondants
-    df_verdict_sys = collect_verdict_mapping("verdict_post_analyse_tickets_report.txt", period_start, period_end)
-    df_verdict_rand = collect_verdict_mapping("verdict_post_analyse_tickets_o15_random_report.txt", period_start, period_end)
-    df_verdict_u35 = collect_verdict_mapping("verdict_post_analyse_tickets_u35_random_report.txt", period_start, period_end)
+    dv_o15_rand  = collect_verdict_mapping("verdict_post_analyse_tickets_o15_random_report.txt", period_start, period_end)
+    dv_o15_super = collect_verdict_mapping("verdict_post_analyse_tickets_o15_super_random_report.txt", period_start, period_end)
+    dv_u35_rand  = collect_verdict_mapping("verdict_post_analyse_tickets_u35_random_report.txt", period_start, period_end)
+    dv_u35_super = collect_verdict_mapping("verdict_post_analyse_tickets_u35_super_random_report.txt", period_start, period_end)
 
-    df_sys = attach_verdict(df_sys, df_verdict_sys)
-    df_rand = attach_verdict(df_rand, df_verdict_rand)
-    df_u35 = attach_verdict(df_u35, df_verdict_u35)
+    df_o15_rand  = sort_tickets_for_display(attach_verdict(df_o15_rand,  dv_o15_rand))
+    df_o15_super = sort_tickets_for_display(attach_verdict(df_o15_super, dv_o15_super))
+    df_u35_rand  = sort_tickets_for_display(attach_verdict(df_u35_rand,  dv_u35_rand))
+    df_u35_super = sort_tickets_for_display(attach_verdict(df_u35_super, dv_u35_super))
 
-    # Tri final forcé juste avant affichage
-    df_sys = sort_tickets_for_display(df_sys)
-    df_rand = sort_tickets_for_display(df_rand)
-    df_u35 = sort_tickets_for_display(df_u35)
+    _SHOW_COLS = ["Statut", "Jour", "Heure", "Ticket", "Cote", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
 
-    col1, col2, col3 = st.columns(3)
+    def _render_ticket_col(df, label, expander_label):
+        st.subheader(label)
+        if not df.empty:
+            df = df.copy()
+            df["Heure"] = df["DateTimeTri"].dt.strftime("%H:%M").fillna("—")
+            show_cols = [c for c in _SHOW_COLS if c in df.columns]
+            st.dataframe(df[show_cols], use_container_width=True, hide_index=True)
+            with st.expander(expander_label):
+                for _, row in df.iterrows():
+                    jour_str = row["Jour"].isoformat() if pd.notna(row["Jour"]) else "—"
+                    status = row["Statut"] if pd.notna(row["Statut"]) else "—"
+                    st.markdown(f"**{status} {row['Ticket']} — {jour_str} (Cote: {row['Cote']})**")
+                    st.caption(f"id={row['Id']} | fenêtre={row['Fenêtre de jeu']} | legs: W={row.get('Legs WIN')} L={row.get('Legs LOSS')} P={row.get('Legs PENDING')}")
+                    render_ticket_legs(row)
+                    st.divider()
+        else:
+            st.warning(f"Aucun ticket {label} trouvé sur cette période.")
+
+    col1, col2, col3, col4 = st.columns(4)
 
     with col1:
-        st.subheader("🛡️ Tickets Système (avec statut)")
-
-        if not df_sys.empty:
-            df_sys["Heure"] = df_sys["DateTimeTri"].dt.strftime("%H:%M")
-            df_sys["Heure"] = df_sys["Heure"].fillna("—")
-            show_cols = ["Statut", "Jour", "Heure", "Ticket", "Cote", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
-            show_cols = [c for c in show_cols if c in df_sys.columns]
-            st.dataframe(df_sys[show_cols], use_container_width=True, hide_index=True)
-
-            with st.expander("Voir le détail des matchs (Système)"):
-                for _, row in df_sys.iterrows():
-                    jour_str = row["Jour"].isoformat() if pd.notna(row["Jour"]) else "—"
-                    status = row["Statut"] if pd.notna(row["Statut"]) else "—"
-                    st.markdown(f"**{status} {row['Ticket']} — {jour_str} (Cote: {row['Cote']})**")
-                    st.caption(f"id={row['Id']} | fenêtre={row['Fenêtre de jeu']} | legs: W={row.get('Legs WIN')} L={row.get('Legs LOSS')} P={row.get('Legs PENDING')}")
-                    render_ticket_legs(row)
-                    st.divider()
-        else:
-            st.warning("Aucun ticket système trouvé sur cette période.")
-
+        _render_ticket_col(df_o15_rand,  "🎲 O1.5 Random",       "Voir le détail (O1.5 Random)")
     with col2:
-        st.subheader("🎲 Tickets O1.5 Random (avec statut)")
-
-        if not df_rand.empty:
-            df_rand["Heure"] = df_rand["DateTimeTri"].dt.strftime("%H:%M")
-            df_rand["Heure"] = df_rand["Heure"].fillna("—")
-            show_cols = ["Statut", "Jour", "Heure", "Ticket", "Cote", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
-            show_cols = [c for c in show_cols if c in df_rand.columns]
-            st.dataframe(df_rand[show_cols], use_container_width=True, hide_index=True)
-
-            with st.expander("Voir le détail des matchs (Random)"):
-                for _, row in df_rand.iterrows():
-                    jour_str = row["Jour"].isoformat() if pd.notna(row["Jour"]) else "—"
-                    status = row["Statut"] if pd.notna(row["Statut"]) else "—"
-                    st.markdown(f"**{status} {row['Ticket']} — {jour_str} (Cote: {row['Cote']})**")
-                    st.caption(f"id={row['Id']} | fenêtre={row['Fenêtre de jeu']} | legs: W={row.get('Legs WIN')} L={row.get('Legs LOSS')} P={row.get('Legs PENDING')}")
-                    render_ticket_legs(row)
-                    st.divider()
-        else:
-            st.warning("Aucun ticket O1.5 Random trouvé sur cette période.")
-
+        _render_ticket_col(df_o15_super, "🎲 O1.5 Super Random",  "Voir le détail (O1.5 Super Random)")
     with col3:
-        st.subheader("🔒 Tickets -3.5 Random (avec statut)")
-
-        if not df_u35.empty:
-            df_u35["Heure"] = df_u35["DateTimeTri"].dt.strftime("%H:%M")
-            df_u35["Heure"] = df_u35["Heure"].fillna("—")
-            show_cols = ["Statut", "Jour", "Heure", "Ticket", "Cote", "Nb Matchs", "Legs WIN", "Legs LOSS", "Legs PENDING", "Id"]
-            show_cols = [c for c in show_cols if c in df_u35.columns]
-            st.dataframe(df_u35[show_cols], use_container_width=True, hide_index=True)
-
-            with st.expander("Voir le détail des matchs (-3.5 Random)"):
-                for _, row in df_u35.iterrows():
-                    jour_str = row["Jour"].isoformat() if pd.notna(row["Jour"]) else "—"
-                    status = row["Statut"] if pd.notna(row["Statut"]) else "—"
-                    st.markdown(f"**{status} {row['Ticket']} — {jour_str} (Cote: {row['Cote']})**")
-                    st.caption(f"id={row['Id']} | fenêtre={row['Fenêtre de jeu']} | legs: W={row.get('Legs WIN')} L={row.get('Legs LOSS')} P={row.get('Legs PENDING')}")
-                    render_ticket_legs(row)
-                    st.divider()
-        else:
-            st.warning("Aucun ticket -3.5 Random trouvé sur cette période.")
+        _render_ticket_col(df_u35_rand,  "🔒 -3.5 Random",        "Voir le détail (-3.5 Random)")
+    with col4:
+        _render_ticket_col(df_u35_super, "🔒 -3.5 Super Random",   "Voir le détail (-3.5 Super Random)")
 
 
 with tab2:
@@ -929,10 +893,14 @@ with tab2:
     report_type = st.selectbox(
         "Choisir le fichier texte à inspecter :",
         [
-            "tickets_report.txt",
             "tickets_o15_random_report.txt",
-            "verdict_post_analyse_tickets_report.txt",
+            "tickets_o15_super_random_report.txt",
+            "tickets_u35_random_report.txt",
+            "tickets_u35_super_random_report.txt",
             "verdict_post_analyse_tickets_o15_random_report.txt",
+            "verdict_post_analyse_tickets_o15_super_random_report.txt",
+            "verdict_post_analyse_tickets_u35_random_report.txt",
+            "verdict_post_analyse_tickets_u35_super_random_report.txt",
         ]
     )
 
@@ -1132,20 +1100,28 @@ _PORTFOLIO_CONFIGS = {
         "label": "A — ML mix (70€)",
         "reserves0": 65.0,
         "strategies": {
-            "RANDOM SAFE":    {"mode": "SAFE",    "ml": 3, "ba": 1.0},
-            "RANDOM NORMALE": {"mode": "NORMALE", "ml": 4, "ba": 1.0},
-            "SYSTEM SAFE":    {"mode": "SAFE",    "ml": 4, "ba": 1.0},
-            "SYSTEM NORMALE": {"mode": "NORMALE", "ml": 4, "ba": 1.0},
+            "O15 RANDOM SAFE":    {"mode": "SAFE",    "ml": 3, "ba": 1.0},
+            "O15 RANDOM NORMALE": {"mode": "NORMALE", "ml": 4, "ba": 1.0},
+            "O15 SUPER SAFE":     {"mode": "SAFE",    "ml": 3, "ba": 1.0},
+            "O15 SUPER NORMALE":  {"mode": "NORMALE", "ml": 4, "ba": 1.0},
+            "U35 RANDOM SAFE":    {"mode": "SAFE",    "ml": 3, "ba": 1.0},
+            "U35 RANDOM NORMALE": {"mode": "NORMALE", "ml": 4, "ba": 1.0},
+            "U35 SUPER SAFE":     {"mode": "SAFE",    "ml": 3, "ba": 1.0},
+            "U35 SUPER NORMALE":  {"mode": "NORMALE", "ml": 4, "ba": 1.0},
         },
     },
     "portfolio_b": {
         "label": "B — ML=3 universel (7€)",
         "reserves0": 4.20,
         "strategies": {
-            "RANDOM SAFE":    {"mode": "SAFE",    "ml": 3, "ba": 0.70},
-            "RANDOM NORMALE": {"mode": "NORMALE", "ml": 3, "ba": 0.70},
-            "SYSTEM SAFE":    {"mode": "SAFE",    "ml": 3, "ba": 0.70},
-            "SYSTEM NORMALE": {"mode": "NORMALE", "ml": 3, "ba": 0.70},
+            "O15 RANDOM SAFE":    {"mode": "SAFE",    "ml": 3, "ba": 0.70},
+            "O15 RANDOM NORMALE": {"mode": "NORMALE", "ml": 3, "ba": 0.70},
+            "O15 SUPER SAFE":     {"mode": "SAFE",    "ml": 3, "ba": 0.70},
+            "O15 SUPER NORMALE":  {"mode": "NORMALE", "ml": 3, "ba": 0.70},
+            "U35 RANDOM SAFE":    {"mode": "SAFE",    "ml": 3, "ba": 0.70},
+            "U35 RANDOM NORMALE": {"mode": "NORMALE", "ml": 3, "ba": 0.70},
+            "U35 SUPER SAFE":     {"mode": "SAFE",    "ml": 3, "ba": 0.70},
+            "U35 SUPER NORMALE":  {"mode": "NORMALE", "ml": 3, "ba": 0.70},
         },
     },
 }
@@ -1230,12 +1206,16 @@ with tab4:
     st.header("💰 Martingale")
 
     TICKET_FILES_MART = {
-        "RANDOM": ROOT / "data" / "tickets_o15_random_report.txt",
-        "SYSTEM": ROOT / "data" / "tickets_report.txt",
+        "O15 RANDOM":       ROOT / "data" / "tickets_o15_random_report.txt",
+        "O15 SUPER RANDOM": ROOT / "data" / "tickets_o15_super_random_report.txt",
+        "U35 RANDOM":       ROOT / "data" / "tickets_u35_random_report.txt",
+        "U35 SUPER RANDOM": ROOT / "data" / "tickets_u35_super_random_report.txt",
     }
     TICKET_STRATS = {
-        "RANDOM": ["RANDOM SAFE", "RANDOM NORMALE"],
-        "SYSTEM": ["SYSTEM SAFE", "SYSTEM NORMALE"],
+        "O15 RANDOM":       ["O15 RANDOM SAFE",  "O15 RANDOM NORMALE"],
+        "O15 SUPER RANDOM": ["O15 SUPER SAFE",   "O15 SUPER NORMALE"],
+        "U35 RANDOM":       ["U35 RANDOM SAFE",  "U35 RANDOM NORMALE"],
+        "U35 SUPER RANDOM": ["U35 SUPER SAFE",   "U35 SUPER NORMALE"],
     }
 
     dual_state = _load_dual_state()
@@ -1315,7 +1295,7 @@ with tab4:
                     mise      = _next_stake(s["ba"], s["ls"], s["ps"], s["ml"])
                     coups_avt = s["ml"] - s["ls"]
                     serie_str = f"L×{s['ls']}" if s["ls"] > 0 else "✓"
-                    short     = sname.replace("RANDOM ", "R·").replace("SYSTEM ", "S·")
+                    short     = sname.replace("O15 RANDOM ", "O15·R·").replace("O15 SUPER ", "O15·S·").replace("U35 RANDOM ", "U35·R·").replace("U35 SUPER ", "U35·S·")
                     if s["mode"] == "SAFE":
                         manque = max(0.0, s["cb"] * 2.0 - s["ba"])
                         extra  = f"  |  manque doubling : {manque:.2f}€" if manque > 0 else "  |  doubling ✅"

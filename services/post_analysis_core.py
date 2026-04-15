@@ -96,6 +96,10 @@ def resolve_tickets_report_path(
         base = "tickets_o15_random_report.txt"
     elif report_kind in ("U35_RANDOM", "U35_RANDOM_ALL", "RANDOM_U35"):
         base = "tickets_u35_random_report.txt"
+    elif report_kind in ("O15_SUPER_RANDOM",):
+        base = "tickets_o15_super_random_report.txt"
+    elif report_kind in ("U35_SUPER_RANDOM",):
+        base = "tickets_u35_super_random_report.txt"
     else:
         base = report_kind.lower()
 
@@ -130,6 +134,8 @@ def resolve_tickets_report_path(
         "verdict_post_analyse_tickets_report.txt" if base == "tickets_report.txt" else None,
         "verdict_post_analyse_tickets_o15_random_report.txt" if base == "tickets_o15_random_report.txt" else None,
         "verdict_post_analyse_tickets_u35_random_report.txt" if base == "tickets_u35_random_report.txt" else None,
+        "verdict_post_analyse_tickets_o15_super_random_report.txt" if base == "tickets_o15_super_random_report.txt" else None,
+        "verdict_post_analyse_tickets_u35_super_random_report.txt" if base == "tickets_u35_super_random_report.txt" else None,
     ]
     name_candidates = [x for x in name_candidates if x]
 
@@ -176,6 +182,20 @@ TICKETS_U35_REPORT_FILE = _run_scoped_or_data("tickets_u35_random_report.txt")
 # ✅ Verdict tickets U35 (historique cumulatif)
 POST_TICKETS_U35_VERDICT_FILE = Path("data") / "verdict_post_analyse_tickets_u35_random.txt"
 POST_TICKETS_U35_FAILED_FILE = Path("data") / "post_tickets_u35_random_failed.txt"
+
+# ✅ Tickets (O15 SUPER RANDOM)
+TICKETS_O15_SUPER_FILE = Path("data") / "tickets_o15_super_random.tsv"
+TICKETS_O15_SUPER_REPORT_FILE = _run_scoped_or_data("tickets_o15_super_random_report.txt")
+POST_TICKETS_O15_SUPER_VERDICT_FILE = Path("data") / "verdict_post_analyse_tickets_o15_super_random.txt"
+POST_TICKETS_O15_SUPER_FAILED_FILE = Path("data") / "post_tickets_o15_super_random_failed.txt"
+TICKETS_O15_SUPER_REPORT_GLOBAL_FILE = Path("data") / "tickets_o15_super_random_report_global.txt"
+
+# ✅ Tickets (U35 SUPER RANDOM)
+TICKETS_U35_SUPER_FILE = Path("data") / "tickets_u35_super_random.tsv"
+TICKETS_U35_SUPER_REPORT_FILE = _run_scoped_or_data("tickets_u35_super_random_report.txt")
+POST_TICKETS_U35_SUPER_VERDICT_FILE = Path("data") / "verdict_post_analyse_tickets_u35_super_random.txt"
+POST_TICKETS_U35_SUPER_FAILED_FILE = Path("data") / "post_tickets_u35_super_random_failed.txt"
+TICKETS_U35_SUPER_REPORT_GLOBAL_FILE = Path("data") / "tickets_u35_super_random_report_global.txt"
 
 # ✅ Report GLOBAL (historique) — c’est LA source whitelist tickets_id
 TICKETS_REPORT_GLOBAL_FILE = Path("data") / "tickets_report_global.txt"
@@ -2592,6 +2612,10 @@ def _resolve_allowed_ticket_ids_from_global(variant_name: str) -> Tuple[Optional
         global_path = TICKETS_REPORT_GLOBAL_FILE
     elif vn == "U35_RANDOM":
         global_path = TICKETS_U35_REPORT_GLOBAL_FILE
+    elif vn == "O15_SUPER_RANDOM":
+        global_path = TICKETS_O15_SUPER_REPORT_GLOBAL_FILE
+    elif vn == "U35_SUPER_RANDOM":
+        global_path = TICKETS_U35_SUPER_REPORT_GLOBAL_FILE
     else:
         global_path = TICKETS_O15_REPORT_GLOBAL_FILE
     if not _is_nonempty_file(global_path):
@@ -2959,6 +2983,10 @@ def _run_tickets_post_analysis_variant(
                 _human_fname = "verdict_post_analyse_tickets_report.txt"
             elif variant_name == "U35_RANDOM":
                 _human_fname = "verdict_post_analyse_tickets_u35_random_report.txt"
+            elif variant_name == "O15_SUPER_RANDOM":
+                _human_fname = "verdict_post_analyse_tickets_o15_super_random_report.txt"
+            elif variant_name == "U35_SUPER_RANDOM":
+                _human_fname = "verdict_post_analyse_tickets_u35_super_random_report.txt"
             else:
                 _human_fname = "verdict_post_analyse_tickets_o15_random_report.txt"
             human_out = _run_scoped_or_data(_human_fname)
@@ -3021,6 +3049,26 @@ def _run_tickets_post_analysis(
         verdict_file=POST_TICKETS_U35_VERDICT_FILE,
         failed_file=POST_TICKETS_U35_FAILED_FILE,
         variant_name="U35_RANDOM",
+        write_human_report=True,
+    )
+
+    _run_tickets_post_analysis_variant(
+        today=today,
+        eval_index=eval_index,
+        tickets_file=TICKETS_O15_SUPER_FILE,
+        verdict_file=POST_TICKETS_O15_SUPER_VERDICT_FILE,
+        failed_file=POST_TICKETS_O15_SUPER_FAILED_FILE,
+        variant_name="O15_SUPER_RANDOM",
+        write_human_report=True,
+    )
+
+    _run_tickets_post_analysis_variant(
+        today=today,
+        eval_index=eval_index,
+        tickets_file=TICKETS_U35_SUPER_FILE,
+        verdict_file=POST_TICKETS_U35_SUPER_VERDICT_FILE,
+        failed_file=POST_TICKETS_U35_SUPER_FAILED_FILE,
+        variant_name="U35_SUPER_RANDOM",
         write_human_report=True,
     )
 

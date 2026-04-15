@@ -322,9 +322,13 @@ class _PatchedBuilderIO:
         self.old_tickets_tsv = tb.TICKETS_TSV_FILE
         self.old_o15_tsv = tb.TICKETS_O15_RANDOM_TSV_FILE
         self.old_u35_tsv = tb.TICKETS_U35_RANDOM_TSV_FILE
+        self.old_o15_super_tsv = tb.TICKETS_O15_SUPER_RANDOM_TSV_FILE
+        self.old_u35_super_tsv = tb.TICKETS_U35_SUPER_RANDOM_TSV_FILE
         self.old_report_global = tb.TICKETS_REPORT_GLOBAL_FILE
         self.old_o15_report_global = tb.TICKETS_O15_REPORT_GLOBAL_FILE
         self.old_u35_report_global = tb.TICKETS_U35_REPORT_GLOBAL_FILE
+        self.old_o15_super_report_global = tb.TICKETS_O15_SUPER_RANDOM_REPORT_GLOBAL_FILE
+        self.old_u35_super_report_global = tb.TICKETS_U35_SUPER_RANDOM_REPORT_GLOBAL_FILE
         self.old_maestro_log = tb.MAESTRO_LOG_FILE
 
     def __enter__(self):
@@ -337,9 +341,13 @@ class _PatchedBuilderIO:
         tb.TICKETS_TSV_FILE = self.workdir / "tickets.tsv"
         tb.TICKETS_O15_RANDOM_TSV_FILE = self.workdir / "tickets_o15_random.tsv"
         tb.TICKETS_U35_RANDOM_TSV_FILE = self.workdir / "tickets_u35_random.tsv"
+        tb.TICKETS_O15_SUPER_RANDOM_TSV_FILE = self.workdir / "tickets_o15_super_random.tsv"
+        tb.TICKETS_U35_SUPER_RANDOM_TSV_FILE = self.workdir / "tickets_u35_super_random.tsv"
         tb.TICKETS_REPORT_GLOBAL_FILE = self.workdir / "tickets_report_global.txt"
         tb.TICKETS_O15_REPORT_GLOBAL_FILE = self.workdir / "tickets_o15_random_report_global.txt"
         tb.TICKETS_U35_REPORT_GLOBAL_FILE = self.workdir / "tickets_u35_random_report_global.txt"
+        tb.TICKETS_O15_SUPER_RANDOM_REPORT_GLOBAL_FILE = self.workdir / "tickets_o15_super_random_report_global.txt"
+        tb.TICKETS_U35_SUPER_RANDOM_REPORT_GLOBAL_FILE = self.workdir / "tickets_u35_super_random_report_global.txt"
         tb.MAESTRO_LOG_FILE = self.workdir / "tickets_maestro_log.txt"
         return self
 
@@ -347,9 +355,13 @@ class _PatchedBuilderIO:
         tb.TICKETS_TSV_FILE = self.old_tickets_tsv
         tb.TICKETS_O15_RANDOM_TSV_FILE = self.old_o15_tsv
         tb.TICKETS_U35_RANDOM_TSV_FILE = self.old_u35_tsv
+        tb.TICKETS_O15_SUPER_RANDOM_TSV_FILE = self.old_o15_super_tsv
+        tb.TICKETS_U35_SUPER_RANDOM_TSV_FILE = self.old_u35_super_tsv
         tb.TICKETS_REPORT_GLOBAL_FILE = self.old_report_global
         tb.TICKETS_O15_REPORT_GLOBAL_FILE = self.old_o15_report_global
         tb.TICKETS_U35_REPORT_GLOBAL_FILE = self.old_u35_report_global
+        tb.TICKETS_O15_SUPER_RANDOM_REPORT_GLOBAL_FILE = self.old_o15_super_report_global
+        tb.TICKETS_U35_SUPER_RANDOM_REPORT_GLOBAL_FILE = self.old_u35_super_report_global
         tb.MAESTRO_LOG_FILE = self.old_maestro_log
 
         if self.old_env_maestro is None:
