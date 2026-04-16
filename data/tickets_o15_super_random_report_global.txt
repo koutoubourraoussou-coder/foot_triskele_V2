@@ -29,3 +29,16 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
   2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.42
   3) 21:00 | uefa europa league | Aston Villa vs Bologna | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
   4) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | Over 1.5 (FT) | TRÈS FORT | odd=1.28
+
+
+# ------------------------------------------------------------------
+# APPEND O15_SUPER_RANDOM | 2026-04-17 00:08:53 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-17_1830_1a691a28a0_O15SR — cote = 2.44 — fenêtre 18:30 → 21:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 18:30 | serie a italia | Sassuolo vs Como | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  2) 20:00 | ligue 2 | Nancy vs Annecy | Over 1.5 (FT) | TRÈS FORT | odd=1.36
+  3) 19:00 | super lig | Fenerbahçe vs Rizespor | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.15
+  4) 20:00 | ligue 2 | Montpellier vs Grenoble | Over 1.5 (FT) | MOYEN | odd=1.25

@@ -1647,3 +1647,29 @@ TSV: 2026-04-16	1466388111	U35_FT	18:45	uefa europa league	Celta Vigo	SC Freibur
 TSV: 2026-04-16	885031023	U35_FT	21:00	uefa europa league	Real Betis	SC Braga	1.33	1535340	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-16	3835019354	U35_FT	21:00	uefa europa league	Nottingham Forest	FC Porto	1.22	1535341	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-04-17 00:08:51 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-17	1892242436	HT05	18:30	serie a italia	Sassuolo	Como	1.33	1378191	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	2054995430	HT1X_HOME	18:30	2. bundesliga	Holstein Kiel	1. FC Kaiserslautern	1.28	1388880	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	1892242436	O15_FT	18:30	serie a italia	Sassuolo	Como	1.25	1378191	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	4268074389	HT05	18:30	2. bundesliga	SV Elversberg	Karlsruher SC	1.22	1388877	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	2054995430	O15_FT	18:30	2. bundesliga	Holstein Kiel	1. FC Kaiserslautern	1.2	1388880	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3004401220	HT1X_HOME	19:00	super lig	Antalyaspor	Konyaspor	1.35	1394694	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3353856824	HT05	19:00	super lig	Fenerbahçe	Rizespor	1.22	1394695	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3353856824	O15_FT	19:00	super lig	Fenerbahçe	Rizespor	1.15	1394695	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	365448809	HT1X_HOME	20:00	ligue 2	PAU	Guingamp	1.4	1389383	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	385427537	TEAM2_SCORE_FT	20:00	superligaen	Ujpest	Nyiregyhaza	1.3	1380352	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	385427537	HT1X_HOME	20:00	superligaen	Ujpest	Nyiregyhaza	1.28	1380352	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	385427537	O15_FT	20:00	superligaen	Ujpest	Nyiregyhaza	1.25	1380352	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	1481809762	HT1X_HOME	20:00	ligue 2	Montpellier	Grenoble	1.18	1389387	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3635825257	HT1X_HOME	20:00	ligue 2	Rodez	Amiens	1.17	1389385	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3635825257	TEAM1_SCORE_FT	20:00	ligue 2	Rodez	Amiens	1.15	1389385	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3815039063	O15_FT	20:30	bundesliga	FC St. Pauli	1. FC Köln	1.36	1388575	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3815039063	HT1X_HOME	20:30	bundesliga	FC St. Pauli	1. FC Köln	1.33	1388575	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3828727989	O15_FT	21:00	laliga2	Las Palmas	Leganes	1.3	1392158	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3828727989	TEAM1_SCORE_FT	21:00	laliga2	Las Palmas	Leganes	1.15	1392158	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	2444532918	HT1X_HOME	23:00	primera a colombia	Chico	Deportivo Cali	1.38	1506088	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	286048119	HT1X_HOME	23:00	primera a colombia	Jaguares	Deportivo Pasto	1.35	1506087	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	2444532918	U35_FT	23:00	primera a colombia	Chico	Deportivo Cali	1.18	1506088	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+

@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-04-16
+Date run       : 2026-04-17
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (163 ids)
+Whitelist      : ON (164 ids)
 Ignorés (hors whitelist) : 16
-Ignorés (date>=today)    : 6
+Ignorés (date>=today)    : 3
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -1307,10 +1307,26 @@ Ignorés (date>=today)    : 6
    ✅ Leg 3) 21:00 | uefa champions league | Atletico Madrid vs Barcelona | HT+0.5 | [MEGA EXPLOSION] | odd=1.18
    ❌ Leg 4) 21:00 | uefa champions league | Liverpool vs Paris Saint Germain | HT+0.5 | [MEGA EXPLOSION] | odd=1.18
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Jeudi 2026-04-16 18:45→22:50 | code=A2 | odd=2.49
+   id=2026-04-16_1845_a122193531_SYS
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | Under 3.5 (FT) | [FORT PLUS] | odd=1.33
+   ❌ Leg 2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | Team2 scores (FT) | [FORT] | odd=1.44
+   ✅ Leg 3) 21:00 | uefa europa league | Real Betis vs SC Braga | Over 1.5 (FT) | [FORT PLUS] | odd=1.3
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 2 | Jeudi 2026-04-16 18:45→22:50 | code=RESTE | odd=2.16
+   id=2026-04-16_1845_ac9252381c_SYS
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | Over 1.5 (FT) | [TRÈS FORT] | odd=1.28
+   ✅ Leg 2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | Team1 scores (FT) | [MOYEN PLUS] | odd=1.3
+   ✅ Leg 3) 21:00 | uefa europa league | Real Betis vs SC Braga | Over 1.5 (FT) | [FORT PLUS] | odd=1.3
+
 ====================================================================
-TOTAL tickets : 156
-✅ WIN     : 53
-❌ LOSS    : 101
+TOTAL tickets : 158
+✅ WIN     : 54
+❌ LOSS    : 102
 ⏳ PENDING : 2
 ====================================================================
 

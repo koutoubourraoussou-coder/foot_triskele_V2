@@ -1,4 +1,23 @@
-2026-04-16 18:45 | uefa europa league | Celta Vigo vs SC Freiburg
-2026-04-16 21:00 | uefa europa league | Aston Villa vs Bologna
-2026-04-16 21:00 | uefa europa league | Nottingham Forest vs FC Porto
-2026-04-16 21:00 | uefa europa league | Real Betis vs SC Braga
+2026-04-17 18:30 | 2. bundesliga | Holstein Kiel vs 1. FC Kaiserslautern
+2026-04-17 18:30 | 2. bundesliga | SV Elversberg vs Karlsruher SC
+2026-04-17 20:30 | bundesliga | FC St. Pauli vs 1. FC Köln
+2026-04-17 21:00 | championship | Blackburn vs Coventry
+2026-04-17 20:30 | laliga2 | Real Sociedad II vs Racing Santander
+2026-04-17 21:00 | laliga2 | Las Palmas vs Leganes
+2026-04-17 21:45 | liga portugal | Rio Ave vs AVS
+2026-04-17 19:45 | liga portugal 2 | Academico Viseu vs Feirense
+2026-04-17 20:45 | ligue 1 | Lens vs Toulouse
+2026-04-17 20:00 | ligue 2 | Le Mans vs Clermont Foot
+2026-04-17 20:00 | ligue 2 | Montpellier vs Grenoble
+2026-04-17 20:00 | ligue 2 | Nancy vs Annecy
+2026-04-17 20:00 | ligue 2 | PAU vs Guingamp
+2026-04-17 20:00 | ligue 2 | Rodez vs Amiens
+2026-04-17 23:00 | primera a colombia | Chico vs Deportivo Cali
+2026-04-17 23:00 | primera a colombia | Jaguares vs Deportivo Pasto
+2026-04-17 22:00 | primera división paraguay | Sportivo Trinidense vs Club Sp. San Lorenzo
+2026-04-17 18:30 | serie a italia | Sassuolo vs Como
+2026-04-17 20:45 | serie a italia | Inter vs Cagliari
+2026-04-17 20:30 | serie b | Sampdoria vs Monza
+2026-04-17 19:00 | super lig | Antalyaspor vs Konyaspor
+2026-04-17 19:00 | super lig | Fenerbahçe vs Rizespor
+2026-04-17 20:00 | superligaen | Ujpest vs Nyiregyhaza

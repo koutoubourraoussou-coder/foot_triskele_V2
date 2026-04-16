@@ -2,9 +2,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_SUPER_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_super_random.tsv
-Date run       : 2026-04-16
+Date run       : 2026-04-17
 Output         : data/verdict_post_analyse_tickets_o15_super_random_report.txt
-Whitelist      : ON (2 ids)
+Whitelist      : ON (3 ids)
 Ignorés (hors whitelist) : 0
 Ignorés (date>=today)    : 4
 
@@ -17,10 +17,19 @@ Ignorés (date>=today)    : 4
    ✅ Leg 3) 21:00 | championship | Portsmouth vs Ipswich | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.38
    ✅ Leg 4) 21:00 | championship | Southampton vs Blackburn | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.28
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Jeudi 2026-04-16 18:45→22:50 | code=A2 | odd=2.88
+   id=2026-04-16_1845_9c6a7fe810_O15SR
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | Over 1.5 (FT) | [TRÈS FORT] | odd=1.28
+   ✅ Leg 2) 21:00 | uefa europa league | Aston Villa vs Bologna | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+   ❌ Leg 3) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.42
+   ✅ Leg 4) 21:00 | uefa europa league | Real Betis vs SC Braga | Over 1.5 (FT) | [FORT PLUS] | odd=1.3
+
 ====================================================================
-TOTAL tickets : 1
+TOTAL tickets : 2
 ✅ WIN     : 1
-❌ LOSS    : 0
+❌ LOSS    : 1
 ⏳ PENDING : 0
 ====================================================================
 

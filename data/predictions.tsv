@@ -10385,3 +10385,210 @@ TSV:	1466388111	2026-04-16	uefa europa league	Celta Vigo	SC Freiburg	U35_FT	Unde
 TSV:	2275184647	2026-04-16	uefa europa league	Aston Villa	Bologna	U35_FT	Under 3.5 (FT)	6.0	TRÈS FORT	1	odd=1.48 fixture=1535339	21:00
 TSV:	3835019354	2026-04-16	uefa europa league	Nottingham Forest	FC Porto	U35_FT	Under 3.5 (FT)	4.0	FORT	1	odd=1.22 fixture=1535341	21:00
 TSV:	885031023	2026-04-16	uefa europa league	Real Betis	SC Braga	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.33 fixture=1535340	21:00
+TSV:	2054995430	2026-04-17	2. bundesliga	Holstein Kiel	1. FC Kaiserslautern	HT05	HT+0.5	5.0	FORT PLUS	0	odd=1.3 fixture=1388880	18:30
+TSV:	2054995430	2026-04-17	2. bundesliga	Holstein Kiel	1. FC Kaiserslautern	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.28 fixture=1388880	18:30
+TSV:	2054995430	2026-04-17	2. bundesliga	Holstein Kiel	1. FC Kaiserslautern	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.18 fixture=1388880	18:30
+TSV:	2054995430	2026-04-17	2. bundesliga	Holstein Kiel	1. FC Kaiserslautern	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.29 fixture=1388880	18:30
+TSV:	2054995430	2026-04-17	2. bundesliga	Holstein Kiel	1. FC Kaiserslautern	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.2 fixture=1388880	18:30
+TSV:	2054995430	2026-04-17	2. bundesliga	Holstein Kiel	1. FC Kaiserslautern	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.67 fixture=1388880	18:30
+TSV:	2054995430	2026-04-17	2. bundesliga	Holstein Kiel	1. FC Kaiserslautern	U35_FT	Under 3.5 (FT)	3.0	MOYEN PLUS	0	odd=1.44 fixture=1388880	18:30
+TSV:	2054995430	2026-04-17	2. bundesliga	Holstein Kiel	1. FC Kaiserslautern	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.1 fixture=1388880	18:30
+TSV:	2054995430	2026-04-17	2. bundesliga	Holstein Kiel	1. FC Kaiserslautern	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=3.1 fixture=1388880	18:30
+TSV:	4268074389	2026-04-17	2. bundesliga	SV Elversberg	Karlsruher SC	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.22 fixture=1388877	18:30
+TSV:	4268074389	2026-04-17	2. bundesliga	SV Elversberg	Karlsruher SC	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.14 fixture=1388877	18:30
+TSV:	4268074389	2026-04-17	2. bundesliga	SV Elversberg	Karlsruher SC	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	odd=1.07 fixture=1388877	18:30
+TSV:	4268074389	2026-04-17	2. bundesliga	SV Elversberg	Karlsruher SC	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.4 fixture=1388877	18:30
+TSV:	4268074389	2026-04-17	2. bundesliga	SV Elversberg	Karlsruher SC	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.12 fixture=1388877	18:30
+TSV:	4268074389	2026-04-17	2. bundesliga	SV Elversberg	Karlsruher SC	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	odd=1.44 fixture=1388877	18:30
+TSV:	4268074389	2026-04-17	2. bundesliga	SV Elversberg	Karlsruher SC	U35_FT	Under 3.5 (FT)	3.0	MOYEN PLUS	0	odd=1.67 fixture=1388877	18:30
+TSV:	4268074389	2026-04-17	2. bundesliga	SV Elversberg	Karlsruher SC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.45 fixture=1388877	18:30
+TSV:	4268074389	2026-04-17	2. bundesliga	SV Elversberg	Karlsruher SC	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=6 fixture=1388877	18:30
+TSV:	3815039063	2026-04-17	bundesliga	FC St. Pauli	1. FC Köln	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.42 fixture=1388575	20:30
+TSV:	3815039063	2026-04-17	bundesliga	FC St. Pauli	1. FC Köln	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.33 fixture=1388575	20:30
+TSV:	3815039063	2026-04-17	bundesliga	FC St. Pauli	1. FC Köln	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.36 fixture=1388575	20:30
+TSV:	3815039063	2026-04-17	bundesliga	FC St. Pauli	1. FC Köln	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.3 fixture=1388575	20:30
+TSV:	3815039063	2026-04-17	bundesliga	FC St. Pauli	1. FC Köln	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.36 fixture=1388575	20:30
+TSV:	3815039063	2026-04-17	bundesliga	FC St. Pauli	1. FC Köln	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=2.1 fixture=1388575	20:30
+TSV:	3815039063	2026-04-17	bundesliga	FC St. Pauli	1. FC Köln	U35_FT	Under 3.5 (FT)	3.0	MOYEN PLUS	0	odd=1.25 fixture=1388575	20:30
+TSV:	3815039063	2026-04-17	bundesliga	FC St. Pauli	1. FC Köln	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.9 fixture=1388575	20:30
+TSV:	3815039063	2026-04-17	bundesliga	FC St. Pauli	1. FC Köln	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.4 fixture=1388575	20:30
+TSV:	1827719639	2026-04-17	championship	Blackburn	Coventry	HT05	HT+0.5	4.0	FORT	0	odd=1.4 fixture=1387061	21:00
+TSV:	1827719639	2026-04-17	championship	Blackburn	Coventry	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.44 fixture=1387061	21:00
+TSV:	1827719639	2026-04-17	championship	Blackburn	Coventry	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.4 fixture=1387061	21:00
+TSV:	1827719639	2026-04-17	championship	Blackburn	Coventry	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.22 fixture=1387061	21:00
+TSV:	1827719639	2026-04-17	championship	Blackburn	Coventry	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.33 fixture=1387061	21:00
+TSV:	1827719639	2026-04-17	championship	Blackburn	Coventry	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=2 fixture=1387061	21:00
+TSV:	1827719639	2026-04-17	championship	Blackburn	Coventry	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.3 fixture=1387061	21:00
+TSV:	1827719639	2026-04-17	championship	Blackburn	Coventry	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.7 fixture=1387061	21:00
+TSV:	1827719639	2026-04-17	championship	Blackburn	Coventry	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=2 fixture=1387061	21:00
+TSV:	79852859	2026-04-17	laliga2	Real Sociedad II	Racing Santander	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.25 fixture=1392160	20:30
+TSV:	79852859	2026-04-17	laliga2	Real Sociedad II	Racing Santander	HT1X_HOME	HT 1X Home	0.0	KO	0	odd=1.44 fixture=1392160	20:30
+TSV:	79852859	2026-04-17	laliga2	Real Sociedad II	Racing Santander	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.25 fixture=1392160	20:30
+TSV:	79852859	2026-04-17	laliga2	Real Sociedad II	Racing Santander	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.17 fixture=1392160	20:30
+TSV:	79852859	2026-04-17	laliga2	Real Sociedad II	Racing Santander	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.18 fixture=1392160	20:30
+TSV:	79852859	2026-04-17	laliga2	Real Sociedad II	Racing Santander	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	odd=1.57 fixture=1392160	20:30
+TSV:	79852859	2026-04-17	laliga2	Real Sociedad II	Racing Santander	U35_FT	Under 3.5 (FT)	2.0	MOYEN	0	odd=1.55 fixture=1392160	20:30
+TSV:	79852859	2026-04-17	laliga2	Real Sociedad II	Racing Santander	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.9 fixture=1392160	20:30
+TSV:	79852859	2026-04-17	laliga2	Real Sociedad II	Racing Santander	TEAM2_WIN_FT	Team2 wins (FT)	4.0	FORT	0	odd=2.1 fixture=1392160	20:30
+TSV:	3828727989	2026-04-17	laliga2	Las Palmas	Leganes	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.36 fixture=1392158	21:00
+TSV:	3828727989	2026-04-17	laliga2	Las Palmas	Leganes	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.15 fixture=1392158	21:00
+TSV:	3828727989	2026-04-17	laliga2	Las Palmas	Leganes	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.15 fixture=1392158	21:00
+TSV:	3828727989	2026-04-17	laliga2	Las Palmas	Leganes	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.62 fixture=1392158	21:00
+TSV:	3828727989	2026-04-17	laliga2	Las Palmas	Leganes	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.3 fixture=1392158	21:00
+TSV:	3828727989	2026-04-17	laliga2	Las Palmas	Leganes	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.85 fixture=1392158	21:00
+TSV:	3828727989	2026-04-17	laliga2	Las Palmas	Leganes	U35_FT	Under 3.5 (FT)	7.0	EXPLOSION	1	odd=1.33 fixture=1392158	21:00
+TSV:	3828727989	2026-04-17	laliga2	Las Palmas	Leganes	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.65 fixture=1392158	21:00
+TSV:	3828727989	2026-04-17	laliga2	Las Palmas	Leganes	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.8 fixture=1392158	21:00
+TSV:	3658339037	2026-04-17	liga portugal	Rio Ave	AVS	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.36 fixture=1396505	21:45
+TSV:	3658339037	2026-04-17	liga portugal	Rio Ave	AVS	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.14 fixture=1396505	21:45
+TSV:	3658339037	2026-04-17	liga portugal	Rio Ave	AVS	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.15 fixture=1396505	21:45
+TSV:	3658339037	2026-04-17	liga portugal	Rio Ave	AVS	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.55 fixture=1396505	21:45
+TSV:	3658339037	2026-04-17	liga portugal	Rio Ave	AVS	O15_FT	Over 1.5 (FT)	4.0	FORT	1	odd=1.3 fixture=1396505	21:45
+TSV:	3658339037	2026-04-17	liga portugal	Rio Ave	AVS	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	odd=1.85 fixture=1396505	21:45
+TSV:	3658339037	2026-04-17	liga portugal	Rio Ave	AVS	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.33 fixture=1396505	21:45
+TSV:	3658339037	2026-04-17	liga portugal	Rio Ave	AVS	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.69 fixture=1396505	21:45
+TSV:	3658339037	2026-04-17	liga portugal	Rio Ave	AVS	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.85 fixture=1396505	21:45
+TSV:	3620438220	2026-04-17	liga portugal 2	Academico Viseu	Feirense	HT05	HT+0.5	5.0	FORT PLUS	0	odd=1.44 fixture=1398230	19:45
+TSV:	3620438220	2026-04-17	liga portugal 2	Academico Viseu	Feirense	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.12 fixture=1398230	19:45
+TSV:	3620438220	2026-04-17	liga portugal 2	Academico Viseu	Feirense	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.2 fixture=1398230	19:45
+TSV:	3620438220	2026-04-17	liga portugal 2	Academico Viseu	Feirense	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.62 fixture=1398230	19:45
+TSV:	3620438220	2026-04-17	liga portugal 2	Academico Viseu	Feirense	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.36 fixture=1398230	19:45
+TSV:	3620438220	2026-04-17	liga portugal 2	Academico Viseu	Feirense	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=2.2 fixture=1398230	19:45
+TSV:	3620438220	2026-04-17	liga portugal 2	Academico Viseu	Feirense	U35_FT	Under 3.5 (FT)	5.0	FORT PLUS	1	odd=1.22 fixture=1398230	19:45
+TSV:	3620438220	2026-04-17	liga portugal 2	Academico Viseu	Feirense	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=1.7 fixture=1398230	19:45
+TSV:	3620438220	2026-04-17	liga portugal 2	Academico Viseu	Feirense	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.75 fixture=1398230	19:45
+TSV:	947418478	2026-04-17	ligue 1	Lens	Toulouse	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.3 fixture=1387960	20:45
+TSV:	947418478	2026-04-17	ligue 1	Lens	Toulouse	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.13 fixture=1387960	20:45
+TSV:	947418478	2026-04-17	ligue 1	Lens	Toulouse	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.11 fixture=1387960	20:45
+TSV:	947418478	2026-04-17	ligue 1	Lens	Toulouse	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.5 fixture=1387960	20:45
+TSV:	947418478	2026-04-17	ligue 1	Lens	Toulouse	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.22 fixture=1387960	20:45
+TSV:	947418478	2026-04-17	ligue 1	Lens	Toulouse	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.7 fixture=1387960	20:45
+TSV:	947418478	2026-04-17	ligue 1	Lens	Toulouse	U35_FT	Under 3.5 (FT)	2.0	MOYEN	0	odd=1.44 fixture=1387960	20:45
+TSV:	947418478	2026-04-17	ligue 1	Lens	Toulouse	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=1.54 fixture=1387960	20:45
+TSV:	947418478	2026-04-17	ligue 1	Lens	Toulouse	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=5.6 fixture=1387960	20:45
+TSV:	3495639806	2026-04-17	ligue 2	Le Mans	Clermont Foot	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.36 fixture=1389384	20:00
+TSV:	3495639806	2026-04-17	ligue 2	Le Mans	Clermont Foot	HT1X_HOME	HT 1X Home	8.0	MEGA EXPLOSION	1	odd=1.14 fixture=1389384	20:00
+TSV:	3495639806	2026-04-17	ligue 2	Le Mans	Clermont Foot	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.14 fixture=1389384	20:00
+TSV:	3495639806	2026-04-17	ligue 2	Le Mans	Clermont Foot	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.44 fixture=1389384	20:00
+TSV:	3495639806	2026-04-17	ligue 2	Le Mans	Clermont Foot	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.25 fixture=1389384	20:00
+TSV:	3495639806	2026-04-17	ligue 2	Le Mans	Clermont Foot	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.8 fixture=1389384	20:00
+TSV:	3495639806	2026-04-17	ligue 2	Le Mans	Clermont Foot	U35_FT	Under 3.5 (FT)	3.0	MOYEN PLUS	0	odd=1.36 fixture=1389384	20:00
+TSV:	3495639806	2026-04-17	ligue 2	Le Mans	Clermont Foot	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=1.65 fixture=1389384	20:00
+TSV:	3495639806	2026-04-17	ligue 2	Le Mans	Clermont Foot	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.75 fixture=1389384	20:00
+TSV:	1481809762	2026-04-17	ligue 2	Montpellier	Grenoble	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.36 fixture=1389387	20:00
+TSV:	1481809762	2026-04-17	ligue 2	Montpellier	Grenoble	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.18 fixture=1389387	20:00
+TSV:	1481809762	2026-04-17	ligue 2	Montpellier	Grenoble	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.17 fixture=1389387	20:00
+TSV:	1481809762	2026-04-17	ligue 2	Montpellier	Grenoble	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.44 fixture=1389387	20:00
+TSV:	1481809762	2026-04-17	ligue 2	Montpellier	Grenoble	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	odd=1.25 fixture=1389387	20:00
+TSV:	1481809762	2026-04-17	ligue 2	Montpellier	Grenoble	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	odd=1.85 fixture=1389387	20:00
+TSV:	1481809762	2026-04-17	ligue 2	Montpellier	Grenoble	U35_FT	Under 3.5 (FT)	6.0	TRÈS FORT	1	odd=1.36 fixture=1389387	20:00
+TSV:	1481809762	2026-04-17	ligue 2	Montpellier	Grenoble	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.7 fixture=1389387	20:00
+TSV:	1481809762	2026-04-17	ligue 2	Montpellier	Grenoble	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.33 fixture=1389387	20:00
+TSV:	3865705096	2026-04-17	ligue 2	Nancy	Annecy	HT05	HT+0.5	7.0	EXPLOSION	0	odd=1.44 fixture=1389386	20:00
+TSV:	3865705096	2026-04-17	ligue 2	Nancy	Annecy	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.3 fixture=1389386	20:00
+TSV:	3865705096	2026-04-17	ligue 2	Nancy	Annecy	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.33 fixture=1389386	20:00
+TSV:	3865705096	2026-04-17	ligue 2	Nancy	Annecy	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.36 fixture=1389386	20:00
+TSV:	3865705096	2026-04-17	ligue 2	Nancy	Annecy	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.36 fixture=1389386	20:00
+TSV:	3865705096	2026-04-17	ligue 2	Nancy	Annecy	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	odd=2.15 fixture=1389386	20:00
+TSV:	3865705096	2026-04-17	ligue 2	Nancy	Annecy	U35_FT	Under 3.5 (FT)	6.0	TRÈS FORT	1	odd=1.22 fixture=1389386	20:00
+TSV:	3865705096	2026-04-17	ligue 2	Nancy	Annecy	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.5 fixture=1389386	20:00
+TSV:	3865705096	2026-04-17	ligue 2	Nancy	Annecy	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.55 fixture=1389386	20:00
+TSV:	365448809	2026-04-17	ligue 2	PAU	Guingamp	HT05	HT+0.5	6.0	TRÈS FORT	0	odd=1.33 fixture=1389383	20:00
+TSV:	365448809	2026-04-17	ligue 2	PAU	Guingamp	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.4 fixture=1389383	20:00
+TSV:	365448809	2026-04-17	ligue 2	PAU	Guingamp	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.25 fixture=1389383	20:00
+TSV:	365448809	2026-04-17	ligue 2	PAU	Guingamp	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.2 fixture=1389383	20:00
+TSV:	365448809	2026-04-17	ligue 2	PAU	Guingamp	O15_FT	Over 1.5 (FT)	1.0	FAIBLE	0	odd=1.22 fixture=1389383	20:00
+TSV:	365448809	2026-04-17	ligue 2	PAU	Guingamp	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	odd=1.7 fixture=1389383	20:00
+TSV:	365448809	2026-04-17	ligue 2	PAU	Guingamp	U35_FT	Under 3.5 (FT)	3.0	MOYEN PLUS	0	odd=1.44 fixture=1389383	20:00
+TSV:	365448809	2026-04-17	ligue 2	PAU	Guingamp	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.8 fixture=1389383	20:00
+TSV:	365448809	2026-04-17	ligue 2	PAU	Guingamp	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.15 fixture=1389383	20:00
+TSV:	3635825257	2026-04-17	ligue 2	Rodez	Amiens	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.3 fixture=1389385	20:00
+TSV:	3635825257	2026-04-17	ligue 2	Rodez	Amiens	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.17 fixture=1389385	20:00
+TSV:	3635825257	2026-04-17	ligue 2	Rodez	Amiens	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	odd=1.15 fixture=1389385	20:00
+TSV:	3635825257	2026-04-17	ligue 2	Rodez	Amiens	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.4 fixture=1389385	20:00
+TSV:	3635825257	2026-04-17	ligue 2	Rodez	Amiens	O15_FT	Over 1.5 (FT)	6.0	TRÈS FORT	1	odd=1.22 fixture=1389385	20:00
+TSV:	3635825257	2026-04-17	ligue 2	Rodez	Amiens	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=1.7 fixture=1389385	20:00
+TSV:	3635825257	2026-04-17	ligue 2	Rodez	Amiens	U35_FT	Under 3.5 (FT)	5.0	FORT PLUS	1	odd=1.44 fixture=1389385	20:00
+TSV:	3635825257	2026-04-17	ligue 2	Rodez	Amiens	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=1.73 fixture=1389385	20:00
+TSV:	3635825257	2026-04-17	ligue 2	Rodez	Amiens	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=3.9 fixture=1389385	20:00
+TSV:	2444532918	2026-04-17	primera a colombia	Chico	Deportivo Cali	HT05	HT+0.5	1.0	FAIBLE	0	odd=1.5 fixture=1506088	23:00
+TSV:	2444532918	2026-04-17	primera a colombia	Chico	Deportivo Cali	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.38 fixture=1506088	23:00
+TSV:	2444532918	2026-04-17	primera a colombia	Chico	Deportivo Cali	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.56 fixture=1506088	23:00
+TSV:	2444532918	2026-04-17	primera a colombia	Chico	Deportivo Cali	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.3 fixture=1506088	23:00
+TSV:	2444532918	2026-04-17	primera a colombia	Chico	Deportivo Cali	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.48 fixture=1506088	23:00
+TSV:	2444532918	2026-04-17	primera a colombia	Chico	Deportivo Cali	O25_FT	Over 2.5 (FT)	0.0	KO	0	odd=2.45 fixture=1506088	23:00
+TSV:	2444532918	2026-04-17	primera a colombia	Chico	Deportivo Cali	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.18 fixture=1506088	23:00
+TSV:	2444532918	2026-04-17	primera a colombia	Chico	Deportivo Cali	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.55 fixture=1506088	23:00
+TSV:	2444532918	2026-04-17	primera a colombia	Chico	Deportivo Cali	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.14 fixture=1506088	23:00
+TSV:	286048119	2026-04-17	primera a colombia	Jaguares	Deportivo Pasto	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.42 fixture=1506087	23:00
+TSV:	286048119	2026-04-17	primera a colombia	Jaguares	Deportivo Pasto	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.35 fixture=1506087	23:00
+TSV:	286048119	2026-04-17	primera a colombia	Jaguares	Deportivo Pasto	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.39 fixture=1506087	23:00
+TSV:	286048119	2026-04-17	primera a colombia	Jaguares	Deportivo Pasto	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.3 fixture=1506087	23:00
+TSV:	286048119	2026-04-17	primera a colombia	Jaguares	Deportivo Pasto	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.4 fixture=1506087	23:00
+TSV:	286048119	2026-04-17	primera a colombia	Jaguares	Deportivo Pasto	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=2.15 fixture=1506087	23:00
+TSV:	286048119	2026-04-17	primera a colombia	Jaguares	Deportivo Pasto	U35_FT	Under 3.5 (FT)	1.0	FAIBLE	0	odd=1.25 fixture=1506087	23:00
+TSV:	286048119	2026-04-17	primera a colombia	Jaguares	Deportivo Pasto	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3 fixture=1506087	23:00
+TSV:	286048119	2026-04-17	primera a colombia	Jaguares	Deportivo Pasto	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.42 fixture=1506087	23:00
+TSV:	4074264748	2026-04-17	primera división paraguay	Sportivo Trinidense	Club Sp. San Lorenzo	HT05	HT+0.5	0.0	KO	0	odd=1.44 fixture=1505060	22:00
+TSV:	4074264748	2026-04-17	primera división paraguay	Sportivo Trinidense	Club Sp. San Lorenzo	HT1X_HOME	HT 1X Home	1.0	FAIBLE	0	odd=1.12 fixture=1505060	22:00
+TSV:	4074264748	2026-04-17	primera división paraguay	Sportivo Trinidense	Club Sp. San Lorenzo	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.17 fixture=1505060	22:00
+TSV:	4074264748	2026-04-17	primera división paraguay	Sportivo Trinidense	Club Sp. San Lorenzo	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.6 fixture=1505060	22:00
+TSV:	4074264748	2026-04-17	primera división paraguay	Sportivo Trinidense	Club Sp. San Lorenzo	O15_FT	Over 1.5 (FT)	0.0	KO	0	odd=1.36 fixture=1505060	22:00
+TSV:	4074264748	2026-04-17	primera división paraguay	Sportivo Trinidense	Club Sp. San Lorenzo	O25_FT	Over 2.5 (FT)	0.0	KO	0	odd=2.15 fixture=1505060	22:00
+TSV:	4074264748	2026-04-17	primera división paraguay	Sportivo Trinidense	Club Sp. San Lorenzo	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.25 fixture=1505060	22:00
+TSV:	4074264748	2026-04-17	primera división paraguay	Sportivo Trinidense	Club Sp. San Lorenzo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.7 fixture=1505060	22:00
+TSV:	4074264748	2026-04-17	primera división paraguay	Sportivo Trinidense	Club Sp. San Lorenzo	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=4.75 fixture=1505060	22:00
+TSV:	1892242436	2026-04-17	serie a italia	Sassuolo	Como	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.33 fixture=1378191	18:30
+TSV:	1892242436	2026-04-17	serie a italia	Sassuolo	Como	HT1X_HOME	HT 1X Home	0.0	KO	0	odd=1.6 fixture=1378191	18:30
+TSV:	1892242436	2026-04-17	serie a italia	Sassuolo	Como	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.44 fixture=1378191	18:30
+TSV:	1892242436	2026-04-17	serie a italia	Sassuolo	Como	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.14 fixture=1378191	18:30
+TSV:	1892242436	2026-04-17	serie a italia	Sassuolo	Como	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.25 fixture=1378191	18:30
+TSV:	1892242436	2026-04-17	serie a italia	Sassuolo	Como	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.8 fixture=1378191	18:30
+TSV:	1892242436	2026-04-17	serie a italia	Sassuolo	Como	U35_FT	Under 3.5 (FT)	5.0	FORT PLUS	1	odd=1.38 fixture=1378191	18:30
+TSV:	1892242436	2026-04-17	serie a italia	Sassuolo	Como	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=4.85 fixture=1378191	18:30
+TSV:	1892242436	2026-04-17	serie a italia	Sassuolo	Como	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	odd=1.66 fixture=1378191	18:30
+TSV:	3191472570	2026-04-17	serie a italia	Inter	Cagliari	HT05	HT+0.5	5.0	FORT PLUS	0	odd=1.25 fixture=1378185	20:45
+TSV:	3191472570	2026-04-17	serie a italia	Inter	Cagliari	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.03 fixture=1378185	20:45
+TSV:	3191472570	2026-04-17	serie a italia	Inter	Cagliari	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.05 fixture=1378185	20:45
+TSV:	3191472570	2026-04-17	serie a italia	Inter	Cagliari	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=2.05 fixture=1378185	20:45
+TSV:	3191472570	2026-04-17	serie a italia	Inter	Cagliari	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	odd=1.18 fixture=1378185	20:45
+TSV:	3191472570	2026-04-17	serie a italia	Inter	Cagliari	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.57 fixture=1378185	20:45
+TSV:	3191472570	2026-04-17	serie a italia	Inter	Cagliari	U35_FT	Under 3.5 (FT)	7.0	EXPLOSION	1	odd=1.55 fixture=1378185	20:45
+TSV:	3191472570	2026-04-17	serie a italia	Inter	Cagliari	TEAM1_WIN_FT	Team1 wins (FT)	4.0	FORT	0	odd=1.23 fixture=1378185	20:45
+TSV:	3191472570	2026-04-17	serie a italia	Inter	Cagliari	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=11 fixture=1378185	20:45
+TSV:	1500917985	2026-04-17	serie b	Sampdoria	Monza	HT05	HT+0.5	1.0	FAIBLE	0	odd=1.4 fixture=1419940	20:30
+TSV:	1500917985	2026-04-17	serie b	Sampdoria	Monza	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.4 fixture=1419940	20:30
+TSV:	1500917985	2026-04-17	serie b	Sampdoria	Monza	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.44 fixture=1419940	20:30
+TSV:	1500917985	2026-04-17	serie b	Sampdoria	Monza	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.25 fixture=1419940	20:30
+TSV:	1500917985	2026-04-17	serie b	Sampdoria	Monza	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.4 fixture=1419940	20:30
+TSV:	1500917985	2026-04-17	serie b	Sampdoria	Monza	O25_FT	Over 2.5 (FT)	0.0	KO	0	odd=2.2 fixture=1419940	20:30
+TSV:	1500917985	2026-04-17	serie b	Sampdoria	Monza	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.22 fixture=1419940	20:30
+TSV:	1500917985	2026-04-17	serie b	Sampdoria	Monza	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.3 fixture=1419940	20:30
+TSV:	1500917985	2026-04-17	serie b	Sampdoria	Monza	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.15 fixture=1419940	20:30
+TSV:	3004401220	2026-04-17	super lig	Antalyaspor	Konyaspor	HT05	HT+0.5	0.0	KO	0	odd=1.4 fixture=1394694	19:00
+TSV:	3004401220	2026-04-17	super lig	Antalyaspor	Konyaspor	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.35 fixture=1394694	19:00
+TSV:	3004401220	2026-04-17	super lig	Antalyaspor	Konyaspor	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.35 fixture=1394694	19:00
+TSV:	3004401220	2026-04-17	super lig	Antalyaspor	Konyaspor	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.25 fixture=1394694	19:00
+TSV:	3004401220	2026-04-17	super lig	Antalyaspor	Konyaspor	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.3 fixture=1394694	19:00
+TSV:	3004401220	2026-04-17	super lig	Antalyaspor	Konyaspor	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=1.95 fixture=1394694	19:00
+TSV:	3004401220	2026-04-17	super lig	Antalyaspor	Konyaspor	U35_FT	Under 3.5 (FT)	4.0	FORT	1	odd=1.3 fixture=1394694	19:00
+TSV:	3004401220	2026-04-17	super lig	Antalyaspor	Konyaspor	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.05 fixture=1394694	19:00
+TSV:	3004401220	2026-04-17	super lig	Antalyaspor	Konyaspor	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	odd=2.28 fixture=1394694	19:00
+TSV:	3353856824	2026-04-17	super lig	Fenerbahçe	Rizespor	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.22 fixture=1394695	19:00
+TSV:	3353856824	2026-04-17	super lig	Fenerbahçe	Rizespor	HT1X_HOME	HT 1X Home	0.0	KO	0	odd=1.05 fixture=1394695	19:00
+TSV:	3353856824	2026-04-17	super lig	Fenerbahçe	Rizespor	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.05 fixture=1394695	19:00
+TSV:	3353856824	2026-04-17	super lig	Fenerbahçe	Rizespor	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.67 fixture=1394695	19:00
+TSV:	3353856824	2026-04-17	super lig	Fenerbahçe	Rizespor	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.15 fixture=1394695	19:00
+TSV:	3353856824	2026-04-17	super lig	Fenerbahçe	Rizespor	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.5 fixture=1394695	19:00
+TSV:	3353856824	2026-04-17	super lig	Fenerbahçe	Rizespor	U35_FT	Under 3.5 (FT)	3.0	MOYEN PLUS	0	odd=1.62 fixture=1394695	19:00
+TSV:	3353856824	2026-04-17	super lig	Fenerbahçe	Rizespor	TEAM1_WIN_FT	Team1 wins (FT)	4.0	FORT	0	odd=1.32 fixture=1394695	19:00
+TSV:	3353856824	2026-04-17	super lig	Fenerbahçe	Rizespor	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=8.1 fixture=1394695	19:00
+TSV:	385427537	2026-04-17	superligaen	Ujpest	Nyiregyhaza	HT05	HT+0.5	6.0	TRÈS FORT	0	odd=1.36 fixture=1380352	20:00
+TSV:	385427537	2026-04-17	superligaen	Ujpest	Nyiregyhaza	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.28 fixture=1380352	20:00
+TSV:	385427537	2026-04-17	superligaen	Ujpest	Nyiregyhaza	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.21 fixture=1380352	20:00
+TSV:	385427537	2026-04-17	superligaen	Ujpest	Nyiregyhaza	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.3 fixture=1380352	20:00
+TSV:	385427537	2026-04-17	superligaen	Ujpest	Nyiregyhaza	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.25 fixture=1380352	20:00
+TSV:	385427537	2026-04-17	superligaen	Ujpest	Nyiregyhaza	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	odd=1.85 fixture=1380352	20:00
+TSV:	385427537	2026-04-17	superligaen	Ujpest	Nyiregyhaza	U35_FT	Under 3.5 (FT)	3.0	MOYEN PLUS	0	odd=1.33 fixture=1380352	20:00
+TSV:	385427537	2026-04-17	superligaen	Ujpest	Nyiregyhaza	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.2 fixture=1380352	20:00
+TSV:	385427537	2026-04-17	superligaen	Ujpest	Nyiregyhaza	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.88 fixture=1380352	20:00

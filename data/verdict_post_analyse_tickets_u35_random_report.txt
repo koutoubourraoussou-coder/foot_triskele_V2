@@ -1,0 +1,25 @@
+VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [U35_RANDOM]
+====================================================================
+
+Source tickets : data/tickets_u35_random.tsv
+Date run       : 2026-04-17
+Output         : data/verdict_post_analyse_tickets_u35_random_report.txt
+Whitelist      : ON (2 ids)
+Ignorés (hors whitelist) : 0
+Ignorés (date>=today)    : 3
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Jeudi 2026-04-16 18:45→22:50 | code=RESTE | odd=2.16
+   id=2026-04-16_1845_704a6fc6b0_U35R
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | Under 3.5 (FT) | [FORT PLUS] | odd=1.33
+   ✅ Leg 2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | Under 3.5 (FT) | [FORT] | odd=1.22
+   ❌ Leg 3) 21:00 | uefa europa league | Real Betis vs SC Braga | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.33
+
+====================================================================
+TOTAL tickets : 1
+✅ WIN     : 0
+❌ LOSS    : 1
+⏳ PENDING : 0
+====================================================================
+

@@ -1073,3 +1073,24 @@ TSV: 2026-04-16	3835019354	O15_FT	21:00	uefa europa league	Nottingham Forest	FC 
 TSV: 2026-04-16	885031023	O15_FT	21:00	uefa europa league	Real Betis	SC Braga	1.3	1535340	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-16	2275184647	O15_FT	21:00	uefa europa league	Aston Villa	Bologna	1.22	1535339	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_EFFECTIVE | 2026-04-17 00:08:52 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-17	1892242436	O15_FT	18:30	serie a italia	Sassuolo	Como	1.25	1378191	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	2054995430	O15_FT	18:30	2. bundesliga	Holstein Kiel	1. FC Kaiserslautern	1.2	1388880	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3004401220	O15_FT	19:00	super lig	Antalyaspor	Konyaspor	1.3	1394694	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3353856824	O15_FT	19:00	super lig	Fenerbahçe	Rizespor	1.15	1394695	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3865705096	O15_FT	20:00	ligue 2	Nancy	Annecy	1.36	1389386	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3495639806	O15_FT	20:00	ligue 2	Le Mans	Clermont Foot	1.25	1389384	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	385427537	O15_FT	20:00	superligaen	Ujpest	Nyiregyhaza	1.25	1380352	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3635825257	O15_FT	20:00	ligue 2	Rodez	Amiens	1.22	1389385	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	1500917985	O15_FT	20:30	serie b	Sampdoria	Monza	1.4	1419940	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3815039063	O15_FT	20:30	bundesliga	FC St. Pauli	1. FC Köln	1.36	1388575	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	79852859	O15_FT	20:30	laliga2	Real Sociedad II	Racing Santander	1.18	1392160	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	947418478	O15_FT	20:45	ligue 1	Lens	Toulouse	1.22	1387960	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3191472570	O15_FT	20:45	serie a italia	Inter	Cagliari	1.18	1378185	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	1827719639	O15_FT	21:00	championship	Blackburn	Coventry	1.33	1387061	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3828727989	O15_FT	21:00	laliga2	Las Palmas	Leganes	1.3	1392158	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3658339037	O15_FT	21:45	liga portugal	Rio Ave	AVS	1.3	1396505	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	2444532918	O15_FT	23:00	primera a colombia	Chico	Deportivo Cali	1.48	1506088	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

@@ -16,3 +16,14 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
   2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | Under 3.5 (FT) | FORT | odd=1.22
   3) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | Under 3.5 (FT) | FORT PLUS | odd=1.33
   4) 21:00 | uefa europa league | Aston Villa vs Bologna | Under 3.5 (FT) | TRÈS FORT | odd=1.48
+
+
+# ------------------------------------------------------------------
+# APPEND U35_SUPER_RANDOM | 2026-04-17 00:08:53 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-17_1830_99f5460ba2_U35SR — cote = 2.71 — fenêtre 18:30 → 20:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 19:00 | super lig | Fenerbahçe vs Rizespor | Under 3.5 (FT) | MOYEN PLUS | odd=1.62
+  2) 18:30 | 2. bundesliga | SV Elversberg vs Karlsruher SC | Under 3.5 (FT) | MOYEN PLUS | odd=1.67

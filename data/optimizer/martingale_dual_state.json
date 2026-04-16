@@ -10,10 +10,10 @@
         "ml": 4
       },
       "O15 SUPER SAFE": {
-        "ba": 1.5,
+        "ba": 1.4,
         "cb": 1.5,
-        "ls": 0,
-        "ps": 0.0,
+        "ls": 1,
+        "ps": 0.1,
         "mode": "SAFE",
         "ml": 4
       },
@@ -35,6 +35,6 @@
       }
     },
     "reserves": 94.0,
-    "last_updated": "2026-04-15"
+    "last_updated": "2026-04-16"
   }
 }

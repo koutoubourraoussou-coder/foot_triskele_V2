@@ -10,3 +10,19 @@ TSV: 2026-04-16	1466388111	U35_FT	18:45	uefa europa league	Celta Vigo	SC Freibur
 TSV: 2026-04-16	885031023	U35_FT	21:00	uefa europa league	Real Betis	SC Braga	1.33	1535340	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-16	3835019354	U35_FT	21:00	uefa europa league	Nottingham Forest	FC Porto	1.22	1535341	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND U35_RANDOM_POOL_EFFECTIVE | 2026-04-17 00:08:52 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-17	1892242436	U35_FT	18:30	serie a italia	Sassuolo	Como	1.38	1378191	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3635825257	U35_FT	20:00	ligue 2	Rodez	Amiens	1.44	1389385	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3495639806	U35_FT	20:00	ligue 2	Le Mans	Clermont Foot	1.36	1389384	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	1481809762	U35_FT	20:00	ligue 2	Montpellier	Grenoble	1.36	1389387	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3865705096	U35_FT	20:00	ligue 2	Nancy	Annecy	1.22	1389386	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	1500917985	U35_FT	20:30	serie b	Sampdoria	Monza	1.22	1419940	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3828727989	U35_FT	21:00	laliga2	Las Palmas	Leganes	1.33	1392158	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	1827719639	U35_FT	21:00	championship	Blackburn	Coventry	1.3	1387061	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	3658339037	U35_FT	21:45	liga portugal	Rio Ave	AVS	1.33	1396505	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	4074264748	U35_FT	22:00	primera división paraguay	Sportivo Trinidense	Club Sp. San Lorenzo	1.25	1505060	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	286048119	U35_FT	23:00	primera a colombia	Jaguares	Deportivo Pasto	1.25	1506087	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-17	2444532918	U35_FT	23:00	primera a colombia	Chico	Deportivo Cali	1.18	1506088	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

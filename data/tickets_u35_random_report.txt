@@ -1,12 +1,12 @@
 TICKETS TRISKÈLE — U35_RANDOM_ALL — depuis predictions.tsv
 ==========================================================
 
-📅 Jeudi 2026-04-16 — Tranche 1 (fenêtre ~135min)
-------------------------------------------------
+📅 Vendredi 2026-04-17 — Tranche 1 (fenêtre ~105min)
+---------------------------------------------------
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (RESTE) — id=2026-04-16_1845_704a6fc6b0_U35R — cote = 2.16 — fenêtre 18:45 → 22:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | Under 3.5 (FT) | FORT PLUS | odd=1.33
-  2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | Under 3.5 (FT) | FORT | odd=1.22
-  3) 21:00 | uefa europa league | Real Betis vs SC Braga | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.33
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-17_2000_006dd4316d_U35R — cote = 2.55 — fenêtre 20:00 → 23:35  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:00 | ligue 2 | Rodez vs Amiens | Under 3.5 (FT) | FORT PLUS | odd=1.44
+  2) 21:00 | laliga2 | Las Palmas vs Leganes | Under 3.5 (FT) | EXPLOSION | odd=1.33
+  3) 21:45 | liga portugal | Rio Ave vs AVS | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.33
