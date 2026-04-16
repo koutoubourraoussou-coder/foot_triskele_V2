@@ -26915,3 +26915,30 @@ TSV: 1534240872	2026-04-14	uefa champions league	Liverpool	Paris Saint Germain	O
 TSV: 1534240872	2026-04-14	uefa champions league	Liverpool	Paris Saint Germain	U35_FT	Under 3.5 (FT)	4.0	FORT	1	WIN	FT	1534912	0-2	0-0	21:00
 TSV: 1534240872	2026-04-14	uefa champions league	Liverpool	Paris Saint Germain	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1534912	0-2	0-0	21:00
 TSV: 1534240872	2026-04-14	uefa champions league	Liverpool	Paris Saint Germain	TEAM2_WIN_FT	Team2 wins (FT)	5.0	FORT PLUS	1	WIN	FT	1534912	0-2	0-0	21:00
+TSV: 3142452550	2026-04-15	saudi arabia	Al-Nassr	Al-Ettifaq	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1436172	1-0	1-0	20:00
+TSV: 3142452550	2026-04-15	saudi arabia	Al-Nassr	Al-Ettifaq	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1436172	1-0	1-0	20:00
+TSV: 3142452550	2026-04-15	saudi arabia	Al-Nassr	Al-Ettifaq	TEAM1_SCORE_FT	Team1 scores (FT)	7.0	EXPLOSION	1	WIN	FT	1436172	1-0	1-0	20:00
+TSV: 3142452550	2026-04-15	saudi arabia	Al-Nassr	Al-Ettifaq	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1436172	1-0	1-0	20:00
+TSV: 3142452550	2026-04-15	saudi arabia	Al-Nassr	Al-Ettifaq	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1436172	1-0	1-0	20:00
+TSV: 3142452550	2026-04-15	saudi arabia	Al-Nassr	Al-Ettifaq	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1436172	1-0	1-0	20:00
+TSV: 3142452550	2026-04-15	saudi arabia	Al-Nassr	Al-Ettifaq	U35_FT	Under 3.5 (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1436172	1-0	1-0	20:00
+TSV: 3142452550	2026-04-15	saudi arabia	Al-Nassr	Al-Ettifaq	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1436172	1-0	1-0	20:00
+TSV: 3142452550	2026-04-15	saudi arabia	Al-Nassr	Al-Ettifaq	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1436172	1-0	1-0	20:00
+TSV: 3265576565	2026-04-15	uefa champions league	Arsenal	Sporting CP	HT05	HT+0.5	4.0	FORT	0	GOOD_NO_BET	FT	1534571	0-0	0-0	21:00
+TSV: 3265576565	2026-04-15	uefa champions league	Arsenal	Sporting CP	HT1X_HOME	HT 1X Home	2.0	MOYEN	0	BAD_NO_BET	FT	1534571	0-0	0-0	21:00
+TSV: 3265576565	2026-04-15	uefa champions league	Arsenal	Sporting CP	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	LOSS	FT	1534571	0-0	0-0	21:00
+TSV: 3265576565	2026-04-15	uefa champions league	Arsenal	Sporting CP	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1534571	0-0	0-0	21:00
+TSV: 3265576565	2026-04-15	uefa champions league	Arsenal	Sporting CP	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	LOSS	FT	1534571	0-0	0-0	21:00
+TSV: 3265576565	2026-04-15	uefa champions league	Arsenal	Sporting CP	O25_FT	Over 2.5 (FT)	4.0	FORT	1	LOSS	FT	1534571	0-0	0-0	21:00
+TSV: 3265576565	2026-04-15	uefa champions league	Arsenal	Sporting CP	U35_FT	Under 3.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1534571	0-0	0-0	21:00
+TSV: 3265576565	2026-04-15	uefa champions league	Arsenal	Sporting CP	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1534571	0-0	0-0	21:00
+TSV: 3265576565	2026-04-15	uefa champions league	Arsenal	Sporting CP	TEAM2_WIN_FT	Team2 wins (FT)	4.0	FORT	0	GOOD_NO_BET	FT	1534571	0-0	0-0	21:00
+TSV: 2976966200	2026-04-15	uefa champions league	Bayern München	Real Madrid	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1534911	4-3	2-3	21:00
+TSV: 2976966200	2026-04-15	uefa champions league	Bayern München	Real Madrid	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	LOSS	FT	1534911	4-3	2-3	21:00
+TSV: 2976966200	2026-04-15	uefa champions league	Bayern München	Real Madrid	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	WIN	FT	1534911	4-3	2-3	21:00
+TSV: 2976966200	2026-04-15	uefa champions league	Bayern München	Real Madrid	TEAM2_SCORE_FT	Team2 scores (FT)	5.0	FORT PLUS	1	WIN	FT	1534911	4-3	2-3	21:00
+TSV: 2976966200	2026-04-15	uefa champions league	Bayern München	Real Madrid	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1534911	4-3	2-3	21:00
+TSV: 2976966200	2026-04-15	uefa champions league	Bayern München	Real Madrid	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1534911	4-3	2-3	21:00
+TSV: 2976966200	2026-04-15	uefa champions league	Bayern München	Real Madrid	U35_FT	Under 3.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1534911	4-3	2-3	21:00
+TSV: 2976966200	2026-04-15	uefa champions league	Bayern München	Real Madrid	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1534911	4-3	2-3	21:00
+TSV: 2976966200	2026-04-15	uefa champions league	Bayern München	Real Madrid	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1534911	4-3	2-3	21:00

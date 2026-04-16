@@ -1,9 +1,4 @@
-2026-04-14 21:00 | championship | Portsmouth vs Ipswich
-2026-04-14 21:00 | championship | Southampton vs Blackburn
-2026-04-14 00:00 | liga profesional argentina | Lanus vs Banfield
-2026-04-14 02:30 | liga profesional argentina | Velez Sarsfield vs Central Cordoba de Santiago
-2026-04-14 20:00 | saudi arabia | Al-Qadisiyah FC vs Al Shabab
-2026-04-14 19:00 | serie b | Catanzaro vs Modena
-2026-04-14 18:45 | superligaen | Ferencvarosi TC vs Puskas Academy
-2026-04-14 21:00 | uefa champions league | Atletico Madrid vs Barcelona
-2026-04-14 21:00 | uefa champions league | Liverpool vs Paris Saint Germain
+2026-04-16 18:45 | uefa europa league | Celta Vigo vs SC Freiburg
+2026-04-16 21:00 | uefa europa league | Aston Villa vs Bologna
+2026-04-16 21:00 | uefa europa league | Nottingham Forest vs FC Porto
+2026-04-16 21:00 | uefa europa league | Real Betis vs SC Braga

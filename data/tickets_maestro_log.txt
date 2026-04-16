@@ -1,4 +1,4 @@
-RUN MAESTROLOGUE — 2026-04-15 02:24:22
+RUN MAESTROLOGUE — 2026-04-16 04:15:46
 - source_tsv: predictions.tsv
 - run_date: ALL
 - maestro_level: 3
@@ -8,75 +8,56 @@ MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
 ----------------------------------------------------------
 - generation_weights: TEAM x BET (wr_adj = wr * coef(decided)) + small odd bonus
 - règle: préférer 3L si écart <= 8.00%
-- iterations: 4972 | valid_3L_found: 668 | valid_4L_found: 2151
-- top3_size: 10 | top4_size: 10
+- iterations: 12587 | valid_3L_found: 12587 | valid_4L_found: 0
+- top3_size: 6 | top4_size: 0
 
 TOP3 (desc):
-  TOP3[1/10]: score=0.784 (78.4%) | legs=3 | odd=2.45
-  TOP3[2/10]: score=0.777 (77.7%) | legs=3 | odd=2.6
-  TOP3[3/10]: score=0.770 (77.0%) | legs=3 | odd=2.61
-  TOP3[4/10]: score=0.763 (76.3%) | legs=3 | odd=2.4
-  TOP3[5/10]: score=0.750 (75.0%) | legs=3 | odd=2.5
-  TOP3[6/10]: score=0.748 (74.8%) | legs=3 | odd=2.87
-  TOP3[7/10]: score=0.748 (74.8%) | legs=3 | odd=2.5
-  TOP3[8/10]: score=0.740 (74.0%) | legs=3 | odd=2.43
-  TOP3[9/10]: score=0.733 (73.3%) | legs=3 | odd=2.65
-  TOP3[10/10]: score=0.725 (72.5%) | legs=3 | odd=2.58
+  TOP3[1/6]: score=0.750 (75.0%) | legs=3 | odd=2.21
+  TOP3[2/6]: score=0.749 (74.9%) | legs=3 | odd=2.21
+  TOP3[3/6]: score=0.746 (74.6%) | legs=3 | odd=1.99
+  TOP3[4/6]: score=0.744 (74.4%) | legs=3 | odd=1.99
+  TOP3[5/6]: score=0.687 (68.7%) | legs=3 | odd=2.4
+  TOP3[6/6]: score=0.682 (68.2%) | legs=3 | odd=2.16
 
 TOP4 (desc):
-  TOP4[1/10]: score=0.871 (87.1%) | legs=4 | odd=2.5
-  TOP4[2/10]: score=0.850 (85.0%) | legs=4 | odd=2.4
-  TOP4[3/10]: score=0.848 (84.8%) | legs=4 | odd=2.54
-  TOP4[4/10]: score=0.843 (84.3%) | legs=4 | odd=2.54
-  TOP4[5/10]: score=0.842 (84.2%) | legs=4 | odd=2.48
-  TOP4[6/10]: score=0.837 (83.7%) | legs=4 | odd=2.48
-  TOP4[7/10]: score=0.828 (82.8%) | legs=4 | odd=2.44
-  TOP4[8/10]: score=0.827 (82.7%) | legs=4 | odd=2.58
-  TOP4[9/10]: score=0.823 (82.3%) | legs=4 | odd=2.44
-  TOP4[10/10]: score=0.815 (81.5%) | legs=4 | odd=2.52
+  (vide)
 
-DRAW_3L: picked rank=3/10 | score=0.770 (77.0%) | odd=2.61
-DRAW_4L: picked rank=1/10 | score=0.871 (87.1%) | odd=2.5
-- écart relatif: 11.59%
-=> choisi: 4 legs | score=0.871 (87.1%) | final_source=TEAM
+DRAW_3L: picked rank=6/6 | score=0.682 (68.2%) | odd=2.16
+DRAW_4L: (aucun)
+- écart relatif: —
+=> choisi: 3 legs | score=0.682 (68.2%) | final_source=TEAM
 
 Ticket choisi (aperçu)
 ----------------------
-  1) 19:00 | serie b | Catanzaro vs Modena | O15_FT | odd=1.3
-  2) 21:00 | uefa champions league | Atletico Madrid vs Barcelona | HT05 | odd=1.18
-  3) 21:00 | championship | Portsmouth vs Ipswich | O15_FT | odd=1.38
-  4) 21:00 | uefa champions league | Liverpool vs Paris Saint Germain | HT05 | odd=1.18
+  1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | O15_FT | odd=1.28
+  2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | TEAM1_SCORE_FT | odd=1.3
+  3) 21:00 | uefa europa league | Real Betis vs SC Braga | O15_FT | odd=1.3
 
 MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, TEAM x BET)
 ------------------------------------------------------------------------------
-- score ticket: 0.871 (87.1%)
+- score ticket: 0.682 (68.2%)
 - formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
 
-1) 19:00 | serie b | Catanzaro vs Modena | bet=O15_FT | odd=1.3
-   HOME Catanzaro: wr=0.93 dec=15 coef=1.000 => adj=0.932 (93.2%)
-   AWAY Modena: wr=0.77 dec=14 coef=1.000 => adj=0.774 (77.4%)
-   MEAN match: 0.853 (85.3%)
+1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | bet=O15_FT | odd=1.28
+   HOME Celta Vigo: wr=0.85 dec=7 coef=1.000 => adj=0.846 (84.6%)
+   AWAY SC Freiburg: wr=0.44 dec=5 coef=1.000 => adj=0.435 (43.5%)
+   MEAN match: 0.641 (64.1%)
 
-2) 21:00 | uefa champions league | Atletico Madrid vs Barcelona | bet=HT05 | odd=1.18
-   HOME Atletico Madrid: wr=0.99 dec=7 coef=1.000 => adj=0.994 (99.4%)
-   AWAY Barcelona: wr=0.81 dec=5 coef=1.000 => adj=0.806 (80.6%)
-   MEAN match: 0.900 (90.0%)
+2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | bet=TEAM1_SCORE_FT | odd=1.3
+   HOME Nottingham Forest: wr=0.68 dec=3 coef=0.850 => adj=0.577 (57.7%)
+   AWAY FC Porto: wr=1.00 dec=3 coef=0.850 => adj=0.850 (85.0%)
+   MEAN match: 0.714 (71.4%)
 
-3) 21:00 | championship | Portsmouth vs Ipswich | bet=O15_FT | odd=1.38
-   HOME Portsmouth: wr=0.68 dec=18 coef=1.000 => adj=0.680 (68.0%)
-   AWAY Ipswich: wr=0.94 dec=16 coef=1.000 => adj=0.940 (94.0%)
-   MEAN match: 0.810 (81.0%)
-
-4) 21:00 | uefa champions league | Liverpool vs Paris Saint Germain | bet=HT05 | odd=1.18
-   HOME Liverpool: wr=0.97 dec=5 coef=1.000 => adj=0.971 (97.1%)
-   AWAY Paris Saint Germain: wr=0.87 dec=7 coef=1.000 => adj=0.868 (86.8%)
-   MEAN match: 0.920 (92.0%)
+3) 21:00 | uefa europa league | Real Betis vs SC Braga | bet=O15_FT | odd=1.3
+   HOME Real Betis: wr=0.79 dec=5 coef=1.000 => adj=0.787 (78.7%)
+   AWAY SC Braga: wr=0.60 dec=5 coef=1.000 => adj=0.597 (59.7%)
+   MEAN match: 0.692 (69.2%)
 
 
-MAESTROLOGUE — SYSTEM — 2026-04-14
+MAESTROLOGUE — SYSTEM — 2026-04-16
 ========================================
-- picks_total: 11
-- unique_matches_day: 6
+- picks_total: 6
+- unique_matches_day: 3
 - rich_day: False
 - max_windows_today: 1
 - windows_count: 1
@@ -85,31 +66,25 @@ MAESTROLOGUE — SYSTEM — 2026-04-14
 - replay_after_last_kickoff: 110 min
 
 WINDOW 1 | 18:45 -> 21:00
-  - raw_window_picks: 11
-  - filtered_window_picks: 11
-  - ok_window: 11
+  - raw_window_picks: 6
+  - filtered_window_picks: 6
+  - ok_window: 6
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 3.44
-  - threshold_used_here: 2.4
+  - max_possible_odd(ok_window): 2.4
+  - threshold_used_here: 1.8
   - OK_WINDOW [SYSTEM] picks acceptés :
-    OK 18:45 Ferencvarosi TC vs Puskas Academy | O15_FT | odd=1.2 | poids=1.609
-    OK 19:00 Catanzaro vs Modena | O15_FT | odd=1.3 | poids=1.786
-    OK 19:00 Catanzaro vs Modena | TEAM1_SCORE_FT | odd=1.25 | poids=1.708
-    OK 20:00 Al-Qadisiyah FC vs Al Shabab | HT1X_HOME | odd=1.17 | poids=1.796
-    OK 21:00 Atletico Madrid vs Barcelona | HT1X_HOME | odd=1.6 | poids=1.827
-    OK 21:00 Portsmouth vs Ipswich | O15_FT | odd=1.38 | poids=1.639
-    OK 21:00 Portsmouth vs Ipswich | TEAM2_SCORE_FT | odd=1.25 | poids=2.050
-    OK 21:00 Atletico Madrid vs Barcelona | TEAM1_SCORE_FT | odd=1.22 | poids=1.762
-    OK 21:00 Atletico Madrid vs Barcelona | HT05 | odd=1.18 | poids=1.906
-    OK 21:00 Liverpool vs Paris Saint Germain | HT05 | odd=1.18 | poids=1.959
-    OK 21:00 Liverpool vs Paris Saint Germain | TEAM2_SCORE_FT | odd=1.17 | poids=1.753
-Ticket: tranche=1 | cote=2.5 | seuil_local=2.4 | 19:00 → 22:50 | fenêtre=120min
-  1) 19:00 | serie b | Catanzaro vs Modena | O15_FT | odd=1.3
-  2) 21:00 | uefa champions league | Atletico Madrid vs Barcelona | HT05 | odd=1.18
-  3) 21:00 | championship | Portsmouth vs Ipswich | O15_FT | odd=1.38
-  4) 21:00 | uefa champions league | Liverpool vs Paris Saint Germain | HT05 | odd=1.18
+    OK 18:45 Celta Vigo vs SC Freiburg | O15_FT | odd=1.28 | poids=1.028
+    OK 18:45 Celta Vigo vs SC Freiburg | HT1X_HOME | odd=1.18 | poids=1.672
+    OK 18:45 Celta Vigo vs SC Freiburg | TEAM1_SCORE_FT | odd=1.18 | poids=1.630
+    OK 21:00 Nottingham Forest vs FC Porto | TEAM2_SCORE_FT | odd=1.44 | poids=1.370
+    OK 21:00 Nottingham Forest vs FC Porto | TEAM1_SCORE_FT | odd=1.3 | poids=1.030
+    OK 21:00 Real Betis vs SC Braga | O15_FT | odd=1.3 | poids=1.030
+Ticket: tranche=1 | cote=2.16 | seuil_local=1.8 | 18:45 → 22:50 | fenêtre=135min
+  1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | O15_FT | odd=1.28
+  2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | TEAM1_SCORE_FT | odd=1.3
+  3) 21:00 | uefa europa league | Real Betis vs SC Braga | O15_FT | odd=1.3
 
 FIN JOURNÉE
 ------------------
@@ -121,55 +96,22 @@ MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
 - build_source: TEAM x BET >= 0.60 (require_data=False)
 - select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
 - règle: préférer 3L si écart <= 8.00%
-- iterations: 10115 | valid_3L_found: 0 | valid_4L_found: 10115
-- top3_size: 0 | top4_size: 1
-- rejected_by_build_gate (approx): 0
+- iterations: 28551 | valid_3L_found: 0 | valid_4L_found: 0
+- top3_size: 0 | top4_size: 0
+- rejected_by_build_gate (approx): 114204
 
 TOP3 (desc):
   (vide)
 
 TOP4 (desc):
-  TOP4[1/1]: score=0.795 (79.5%) | legs=4 | odd=2.76
+  (vide)
 
 DRAW_3L: (aucun)
-DRAW_4L: picked rank=1/1 | score=0.795 (79.5%) | odd=2.76
+DRAW_4L: (aucun)
 - écart relatif: —
-=> choisi: 4 legs | score=0.795 (79.5%) | final_source=TEAM
+=> choisi: aucun (aucune combinaison valide)
 
-Ticket choisi (aperçu)
-----------------------
-  1) 18:45 | superligaen | Ferencvarosi TC vs Puskas Academy | O15_FT | odd=1.2
-  2) 19:00 | serie b | Catanzaro vs Modena | O15_FT | odd=1.3
-  3) 21:00 | championship | Southampton vs Blackburn | O15_FT | odd=1.28
-  4) 21:00 | championship | Portsmouth vs Ipswich | O15_FT | odd=1.38
-
-MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
-------------------------------------------------------------------------------
-- score ticket: 0.795 (79.5%)
-- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
-
-1) 18:45 | superligaen | Ferencvarosi TC vs Puskas Academy | bet=O15_FT | odd=1.2
-   HOME Ferencvarosi TC: wr=0.91 dec=10 coef=1.000 => adj=0.910 (91.0%)
-   AWAY Puskas Academy: wr=0.71 dec=10 coef=1.000 => adj=0.711 (71.1%)
-   MEAN match: 0.810 (81.0%)
-
-2) 19:00 | serie b | Catanzaro vs Modena | bet=O15_FT | odd=1.3
-   HOME Catanzaro: wr=0.93 dec=15 coef=1.000 => adj=0.932 (93.2%)
-   AWAY Modena: wr=0.77 dec=14 coef=1.000 => adj=0.774 (77.4%)
-   MEAN match: 0.853 (85.3%)
-
-3) 21:00 | championship | Southampton vs Blackburn | bet=O15_FT | odd=1.28
-   HOME Southampton: wr=0.78 dec=17 coef=1.000 => adj=0.779 (77.9%)
-   AWAY Blackburn: wr=0.63 dec=19 coef=1.000 => adj=0.634 (63.4%)
-   MEAN match: 0.706 (70.6%)
-
-4) 21:00 | championship | Portsmouth vs Ipswich | bet=O15_FT | odd=1.38
-   HOME Portsmouth: wr=0.68 dec=18 coef=1.000 => adj=0.680 (68.0%)
-   AWAY Ipswich: wr=0.94 dec=16 coef=1.000 => adj=0.940 (94.0%)
-   MEAN match: 0.810 (81.0%)
-
-
-MAESTROLOGUE — RANDOM — 2026-04-14
+MAESTROLOGUE — RANDOM — 2026-04-16
 ========================================
 - picks_total: 4
 - unique_matches_day: 4
@@ -187,25 +129,21 @@ WINDOW 1 | 18:45 -> 21:00
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 2.76
+  - max_possible_odd(ok_window): 2.88
   - threshold_used_here: 2.4
   - OK_WINDOW [RANDOM] picks acceptés :
-    OK 18:45 Ferencvarosi TC vs Puskas Academy | O15_FT | odd=1.2 | poids=1.000
-    OK 19:00 Catanzaro vs Modena | O15_FT | odd=1.3 | poids=1.000
-    OK 21:00 Portsmouth vs Ipswich | O15_FT | odd=1.38 | poids=1.000
-    OK 21:00 Southampton vs Blackburn | O15_FT | odd=1.28 | poids=1.000
-Ticket: tranche=1 | cote=2.76 | seuil_local=2.4 | 18:45 → 22:50 | fenêtre=135min
-  1) 18:45 | superligaen | Ferencvarosi TC vs Puskas Academy | O15_FT | odd=1.2
-  2) 19:00 | serie b | Catanzaro vs Modena | O15_FT | odd=1.3
-  3) 21:00 | championship | Southampton vs Blackburn | O15_FT | odd=1.28
-  4) 21:00 | championship | Portsmouth vs Ipswich | O15_FT | odd=1.38
+    OK 18:45 Celta Vigo vs SC Freiburg | O15_FT | odd=1.28 | poids=1.000
+    OK 21:00 Nottingham Forest vs FC Porto | O15_FT | odd=1.42 | poids=1.000
+    OK 21:00 Real Betis vs SC Braga | O15_FT | odd=1.3 | poids=1.000
+    OK 21:00 Aston Villa vs Bologna | O15_FT | odd=1.22 | poids=1.000
+  -> ABANDON: aucune combinaison valide
 
 FIN JOURNÉE
 ------------------
-- tickets_built: 1 / 1
-- next_window_start: 22:50
+- tickets_built: 0 / 1
+- next_window_start: 00:00
 
 RUN SUMMARY
-- system: 1 | o15: 1 | o15_super: 1 | u35: 0 | u35_super: 0
+- system: 1 | o15: 0 | o15_super: 1 | u35: 0 | u35_super: 0
 ----------------------------------------
 

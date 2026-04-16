@@ -1411,3 +1411,11 @@ TSV: 2026-04-14	3081312755	O15_FT	19:00	serie b	Catanzaro	Modena	1.3	1419899	O15
 TSV: 2026-04-14	3931507797	O15_FT	21:00	championship	Portsmouth	Ipswich	1.38	1386857	O15_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-04-14	361942040	O15_FT	21:00	championship	Southampton	Blackburn	1.28	1387087	O15_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_BASE | 2026-04-16 04:15:46 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-16	1466388111	O15_FT	18:45	uefa europa league	Celta Vigo	SC Freiburg	1.28	1535338	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-16	3835019354	O15_FT	21:00	uefa europa league	Nottingham Forest	FC Porto	1.42	1535341	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-16	885031023	O15_FT	21:00	uefa europa league	Real Betis	SC Braga	1.3	1535340	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-16	2275184647	O15_FT	21:00	uefa europa league	Aston Villa	Bologna	1.22	1535339	O15_RANDOM_POOL_BASE	predictions.tsv
+
