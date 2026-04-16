@@ -1,8 +1,13 @@
-TICKETS TRISKÈLE — U35_RANDOM_ALL — depuis predictions.tsv
-==========================================================
+U35_RANDOM_ALL — TICKETS REPORT GLOBAL (HISTORIQUE)
+====================================================
+Ce fichier s'additionne à chaque run. Ne pas effacer.
+Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
 
-📅 Jeudi 2026-04-16 — Tranche 1 (fenêtre ~135min)
-------------------------------------------------
+
+
+# ------------------------------------------------------------------
+# APPEND U35_RANDOM_ALL | 2026-04-16 13:00:45 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   🎟️ TICKET 1.1 (RESTE) — id=2026-04-16_1845_704a6fc6b0_U35R — cote = 2.16 — fenêtre 18:45 → 22:50  

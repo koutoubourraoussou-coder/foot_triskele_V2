@@ -1,8 +1,13 @@
-TICKETS TRISKELE — U35_SUPER_RANDOM — depuis predictions.tsv
-============================================================
+U35_SUPER_RANDOM — TICKETS REPORT GLOBAL (HISTORIQUE)
+====================================================
+Ce fichier s'additionne à chaque run. Ne pas effacer.
+Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
 
-📅 Jeudi 2026-04-16 — Tranche 1
-------------------------------
+
+
+# ------------------------------------------------------------------
+# APPEND U35_SUPER_RANDOM | 2026-04-16 13:00:45 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   🎟️ TICKET 1.1 (A2) — id=2026-04-16_1845_6847dcc793_U35SR — cote = 3.19 — fenêtre 18:45 → 22:50  

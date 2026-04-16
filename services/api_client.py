@@ -1077,6 +1077,7 @@ def _get_market_odds_for_fixture(
         "ht_1x_odds": None,
         "ft_over15_odds": None,
         "ft_over25_odds": None,
+        "ft_under35_odds": None,
         "team1_score_odds": None,
         "team2_score_odds": None,
     }
@@ -1141,6 +1142,11 @@ def _get_market_odds_for_fixture(
         v = _norm_free(v_raw)
         raw_s = str(v_raw or "")
         return ("over" in v) and (("2 5" in v) or ("2.5" in raw_s) or ("2,5" in raw_s))
+
+    def _is_under_35(v_raw: Any) -> bool:
+        v = _norm_free(v_raw)
+        raw_s = str(v_raw or "")
+        return ("under" in v) and (("3 5" in v) or ("3.5" in raw_s) or ("3,5" in raw_s))
 
     def _is_first_half_market(name_raw: str) -> bool:
         n = _norm_compact(name_raw)
@@ -1257,7 +1263,7 @@ def _get_market_odds_for_fixture(
                             out["ht_1x_odds"] = odd
                             break
 
-            if out.get("ft_over15_odds") is None or out.get("ft_over25_odds") is None:
+            if out.get("ft_over15_odds") is None or out.get("ft_over25_odds") is None or out.get("ft_under35_odds") is None:
                 if (not _is_first_half_market(bet_name_raw)) and (not _is_second_half_market(bet_name_raw)) and _looks_like_ou_market(bet_name_raw):
                     if _contains_team_specific_marker(bet_name_raw):
                         continue
@@ -1270,6 +1276,8 @@ def _get_market_odds_for_fixture(
                             out["ft_over15_odds"] = odd
                         if out.get("ft_over25_odds") is None and _is_over_25(val_str):
                             out["ft_over25_odds"] = odd
+                        if out.get("ft_under35_odds") is None and _is_under_35(val_str):
+                            out["ft_under35_odds"] = odd
 
             if (out.get("team1_score_odds") is None) or (out.get("team2_score_odds") is None):
                 if _is_first_half_market(bet_name_raw) or _is_second_half_market(bet_name_raw):
@@ -1301,7 +1309,7 @@ def _get_market_odds_for_fixture(
         needed = [
             "home_win_odds", "draw_odds", "away_win_odds",
             "ht_over05_odds", "ht_1x_odds",
-            "ft_over15_odds", "ft_over25_odds",
+            "ft_over15_odds", "ft_over25_odds", "ft_under35_odds",
             "team1_score_odds", "team2_score_odds",
         ]
         return any(out.get(k) is None for k in needed)

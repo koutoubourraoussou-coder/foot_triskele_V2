@@ -1640,3 +1640,10 @@ TSV: 2026-04-16	3835019354	TEAM2_SCORE_FT	21:00	uefa europa league	Nottingham Fo
 TSV: 2026-04-16	3835019354	TEAM1_SCORE_FT	21:00	uefa europa league	Nottingham Forest	FC Porto	1.3	1535341	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-16	885031023	O15_FT	21:00	uefa europa league	Real Betis	SC Braga	1.3	1535340	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-04-16 13:00:44 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-16	1466388111	U35_FT	18:45	uefa europa league	Celta Vigo	SC Freiburg	1.33	1535338	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-16	885031023	U35_FT	21:00	uefa europa league	Real Betis	SC Braga	1.33	1535340	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-16	3835019354	U35_FT	21:00	uefa europa league	Nottingham Forest	FC Porto	1.22	1535341	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+

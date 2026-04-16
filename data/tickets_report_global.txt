@@ -2163,3 +2163,15 @@ Aucun ticket.
   1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | Over 1.5 (FT) | TRÈS FORT | odd=1.28
   2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | Team1 scores (FT) | MOYEN PLUS | odd=1.3
   3) 21:00 | uefa europa league | Real Betis vs SC Braga | Over 1.5 (FT) | FORT PLUS | odd=1.3
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-04-16 13:00:44 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-16_1845_a122193531_SYS — cote = 2.49 — fenêtre 18:45 → 22:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | Under 3.5 (FT) | FORT PLUS | odd=1.33
+  2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | Team2 scores (FT) | FORT | odd=1.44
+  3) 21:00 | uefa europa league | Real Betis vs SC Braga | Over 1.5 (FT) | FORT PLUS | odd=1.3

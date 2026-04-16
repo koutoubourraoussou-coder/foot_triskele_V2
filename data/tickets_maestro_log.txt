@@ -1,4 +1,4 @@
-RUN MAESTROLOGUE — 2026-04-16 04:15:46
+RUN MAESTROLOGUE — 2026-04-16 13:00:44
 - source_tsv: predictions.tsv
 - run_date: ALL
 - maestro_level: 3
@@ -8,45 +8,42 @@ MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
 ----------------------------------------------------------
 - generation_weights: TEAM x BET (wr_adj = wr * coef(decided)) + small odd bonus
 - règle: préférer 3L si écart <= 8.00%
-- iterations: 12587 | valid_3L_found: 12587 | valid_4L_found: 0
-- top3_size: 6 | top4_size: 0
+- iterations: 4477 | valid_3L_found: 606 | valid_4L_found: 0
+- top3_size: 3 | top4_size: 0
 
 TOP3 (desc):
-  TOP3[1/6]: score=0.750 (75.0%) | legs=3 | odd=2.21
-  TOP3[2/6]: score=0.749 (74.9%) | legs=3 | odd=2.21
-  TOP3[3/6]: score=0.746 (74.6%) | legs=3 | odd=1.99
-  TOP3[4/6]: score=0.744 (74.4%) | legs=3 | odd=1.99
-  TOP3[5/6]: score=0.687 (68.7%) | legs=3 | odd=2.4
-  TOP3[6/6]: score=0.682 (68.2%) | legs=3 | odd=2.16
+  TOP3[1/3]: score=0.739 (73.9%) | legs=3 | odd=2.55
+  TOP3[2/3]: score=0.733 (73.3%) | legs=3 | odd=2.49
+  TOP3[3/3]: score=0.693 (69.3%) | legs=3 | odd=2.45
 
 TOP4 (desc):
   (vide)
 
-DRAW_3L: picked rank=6/6 | score=0.682 (68.2%) | odd=2.16
+DRAW_3L: picked rank=2/3 | score=0.733 (73.3%) | odd=2.49
 DRAW_4L: (aucun)
 - écart relatif: —
-=> choisi: 3 legs | score=0.682 (68.2%) | final_source=TEAM
+=> choisi: 3 legs | score=0.733 (73.3%) | final_source=TEAM
 
 Ticket choisi (aperçu)
 ----------------------
-  1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | O15_FT | odd=1.28
-  2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | TEAM1_SCORE_FT | odd=1.3
+  1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | U35_FT | odd=1.33
+  2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | TEAM2_SCORE_FT | odd=1.44
   3) 21:00 | uefa europa league | Real Betis vs SC Braga | O15_FT | odd=1.3
 
 MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, TEAM x BET)
 ------------------------------------------------------------------------------
-- score ticket: 0.682 (68.2%)
+- score ticket: 0.733 (73.3%)
 - formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
 
-1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | bet=O15_FT | odd=1.28
-   HOME Celta Vigo: wr=0.85 dec=7 coef=1.000 => adj=0.846 (84.6%)
-   AWAY SC Freiburg: wr=0.44 dec=5 coef=1.000 => adj=0.435 (43.5%)
-   MEAN match: 0.641 (64.1%)
+1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | bet=U35_FT | odd=1.33
+   HOME Celta Vigo: wr=0.85 dec=7 coef=1.000 => adj=0.850 (85.0%)
+   AWAY SC Freiburg: wr=0.71 dec=5 coef=1.000 => adj=0.710 (71.0%)
+   MEAN match: 0.780 (78.0%)
 
-2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | bet=TEAM1_SCORE_FT | odd=1.3
-   HOME Nottingham Forest: wr=0.68 dec=3 coef=0.850 => adj=0.577 (57.7%)
-   AWAY FC Porto: wr=1.00 dec=3 coef=0.850 => adj=0.850 (85.0%)
-   MEAN match: 0.714 (71.4%)
+2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | bet=TEAM2_SCORE_FT | odd=1.44
+   HOME Nottingham Forest: wr=0.75 dec=4 coef=0.925 => adj=0.694 (69.4%)
+   AWAY FC Porto: wr=0.98 dec=2 coef=0.775 => adj=0.760 (76.0%)
+   MEAN match: 0.727 (72.7%)
 
 3) 21:00 | uefa europa league | Real Betis vs SC Braga | bet=O15_FT | odd=1.3
    HOME Real Betis: wr=0.79 dec=5 coef=1.000 => adj=0.787 (78.7%)
@@ -56,7 +53,7 @@ MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, TEAM x BET)
 
 MAESTROLOGUE — SYSTEM — 2026-04-16
 ========================================
-- picks_total: 6
+- picks_total: 9
 - unique_matches_day: 3
 - rich_day: False
 - max_windows_today: 1
@@ -66,24 +63,27 @@ MAESTROLOGUE — SYSTEM — 2026-04-16
 - replay_after_last_kickoff: 110 min
 
 WINDOW 1 | 18:45 -> 21:00
-  - raw_window_picks: 6
-  - filtered_window_picks: 6
-  - ok_window: 6
+  - raw_window_picks: 9
+  - filtered_window_picks: 9
+  - ok_window: 9
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 2.4
-  - threshold_used_here: 1.8
+  - max_possible_odd(ok_window): 2.55
+  - threshold_used_here: 2.4
   - OK_WINDOW [SYSTEM] picks acceptés :
+    OK 18:45 Celta Vigo vs SC Freiburg | U35_FT | odd=1.33 | poids=1.484
     OK 18:45 Celta Vigo vs SC Freiburg | O15_FT | odd=1.28 | poids=1.028
     OK 18:45 Celta Vigo vs SC Freiburg | HT1X_HOME | odd=1.18 | poids=1.672
     OK 18:45 Celta Vigo vs SC Freiburg | TEAM1_SCORE_FT | odd=1.18 | poids=1.630
     OK 21:00 Nottingham Forest vs FC Porto | TEAM2_SCORE_FT | odd=1.44 | poids=1.370
+    OK 21:00 Real Betis vs SC Braga | U35_FT | odd=1.33 | poids=1.033
     OK 21:00 Nottingham Forest vs FC Porto | TEAM1_SCORE_FT | odd=1.3 | poids=1.030
     OK 21:00 Real Betis vs SC Braga | O15_FT | odd=1.3 | poids=1.030
-Ticket: tranche=1 | cote=2.16 | seuil_local=1.8 | 18:45 → 22:50 | fenêtre=135min
-  1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | O15_FT | odd=1.28
-  2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | TEAM1_SCORE_FT | odd=1.3
+    OK 21:00 Nottingham Forest vs FC Porto | U35_FT | odd=1.22 | poids=1.022
+Ticket: tranche=1 | cote=2.49 | seuil_local=2.4 | 18:45 → 22:50 | fenêtre=135min
+  1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | U35_FT | odd=1.33
+  2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | TEAM2_SCORE_FT | odd=1.44
   3) 21:00 | uefa europa league | Real Betis vs SC Braga | O15_FT | odd=1.3
 
 FIN JOURNÉE
@@ -96,9 +96,9 @@ MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
 - build_source: TEAM x BET >= 0.60 (require_data=False)
 - select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
 - règle: préférer 3L si écart <= 8.00%
-- iterations: 28551 | valid_3L_found: 0 | valid_4L_found: 0
+- iterations: 16053 | valid_3L_found: 0 | valid_4L_found: 0
 - top3_size: 0 | top4_size: 0
-- rejected_by_build_gate (approx): 114204
+- rejected_by_build_gate (approx): 64212
 
 TOP3 (desc):
   (vide)
@@ -143,7 +143,88 @@ FIN JOURNÉE
 - tickets_built: 0 / 1
 - next_window_start: 00:00
 
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 10687 | valid_3L_found: 10687 | valid_4L_found: 0
+- top3_size: 1 | top4_size: 0
+- rejected_by_build_gate (approx): 0
+
+TOP3 (desc):
+  TOP3[1/1]: score=0.740 (74.0%) | legs=3 | odd=2.16
+
+TOP4 (desc):
+  (vide)
+
+DRAW_3L: picked rank=1/1 | score=0.740 (74.0%) | odd=2.16
+DRAW_4L: (aucun)
+- écart relatif: —
+=> choisi: 3 legs | score=0.740 (74.0%) | final_source=TEAM
+
+Ticket choisi (aperçu)
+----------------------
+  1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | U35_FT | odd=1.33
+  2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | U35_FT | odd=1.22
+  3) 21:00 | uefa europa league | Real Betis vs SC Braga | U35_FT | odd=1.33
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.740 (74.0%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | bet=U35_FT | odd=1.33
+   HOME Celta Vigo: wr=0.85 dec=7 coef=1.000 => adj=0.850 (85.0%)
+   AWAY SC Freiburg: wr=0.71 dec=5 coef=1.000 => adj=0.710 (71.0%)
+   MEAN match: 0.780 (78.0%)
+
+2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | bet=U35_FT | odd=1.22
+   HOME Nottingham Forest: wr=0.75 dec=7 coef=1.000 => adj=0.750 (75.0%)
+   AWAY FC Porto: wr=0.71 dec=5 coef=1.000 => adj=0.710 (71.0%)
+   MEAN match: 0.730 (73.0%)
+
+3) 21:00 | uefa europa league | Real Betis vs SC Braga | bet=U35_FT | odd=1.33
+   HOME Real Betis: wr=0.71 dec=5 coef=1.000 => adj=0.710 (71.0%)
+   AWAY SC Braga: wr=0.71 dec=5 coef=1.000 => adj=0.710 (71.0%)
+   MEAN match: 0.710 (71.0%)
+
+
+MAESTROLOGUE — RANDOM — 2026-04-16
+========================================
+- picks_total: 3
+- unique_matches_day: 3
+- rich_day: False
+- max_windows_today: 1
+- windows_count: 1
+- target_odd: 2.4
+- min_accept_odd: 1.8
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 18:45 -> 21:00
+  - raw_window_picks: 3
+  - filtered_window_picks: 3
+  - ok_window: 3
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 2.16
+  - threshold_used_here: 1.8
+  - OK_WINDOW [RANDOM] picks acceptés :
+    OK 18:45 Celta Vigo vs SC Freiburg | U35_FT | odd=1.33 | poids=1.000
+    OK 21:00 Real Betis vs SC Braga | U35_FT | odd=1.33 | poids=1.000
+    OK 21:00 Nottingham Forest vs FC Porto | U35_FT | odd=1.22 | poids=1.000
+Ticket: tranche=1 | cote=2.16 | seuil_local=1.8 | 18:45 → 22:50 | fenêtre=135min
+  1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | U35_FT | odd=1.33
+  2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | U35_FT | odd=1.22
+  3) 21:00 | uefa europa league | Real Betis vs SC Braga | U35_FT | odd=1.33
+
+FIN JOURNÉE
+------------------
+- tickets_built: 1 / 1
+- next_window_start: 22:50
+
 RUN SUMMARY
-- system: 1 | o15: 0 | o15_super: 1 | u35: 0 | u35_super: 0
+- system: 1 | o15: 0 | o15_super: 1 | u35: 1 | u35_super: 1
 ----------------------------------------
 

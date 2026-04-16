@@ -1,0 +1,13 @@
+U35_SUPER_RANDOM_POOL_EFFECTIVE — PLAYABLE PICKS GLOBAL
+==========================================
+Format TSV:
+date	match_id	bet_family	time	league	home	away	odd	fixture_id	pipeline	source
+
+# ------------------------------------------------------------------
+# APPEND U35_SUPER_RANDOM_POOL_EFFECTIVE | 2026-04-16 13:00:45 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-16	1466388111	U35_FT	18:45	uefa europa league	Celta Vigo	SC Freiburg	1.33	1535338	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-16	2275184647	U35_FT	21:00	uefa europa league	Aston Villa	Bologna	1.48	1535339	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-16	885031023	U35_FT	21:00	uefa europa league	Real Betis	SC Braga	1.33	1535340	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-16	3835019354	U35_FT	21:00	uefa europa league	Nottingham Forest	FC Porto	1.22	1535341	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+
