@@ -845,6 +845,7 @@ with tab1:
     df_u35_super = load_tickets_dataset("tickets_u35_super_random_report_global.txt", period_start, period_end)
     df_o25_rand  = load_tickets_dataset("tickets_o25_random_report_global.txt", period_start, period_end)
     df_o25_super = load_tickets_dataset("tickets_o25_super_random_report_global.txt", period_start, period_end)
+    df_system    = load_tickets_dataset("tickets_report_global.txt", period_start, period_end)
 
     # Verdicts correspondants
     dv_o15_rand  = collect_verdict_mapping("verdict_post_analyse_tickets_o15_random_report.txt", period_start, period_end)
@@ -853,6 +854,7 @@ with tab1:
     dv_u35_super = collect_verdict_mapping("verdict_post_analyse_tickets_u35_super_random_report.txt", period_start, period_end)
     dv_o25_rand  = collect_verdict_mapping("verdict_post_analyse_tickets_o25_random_report.txt", period_start, period_end)
     dv_o25_super = collect_verdict_mapping("verdict_post_analyse_tickets_o25_super_random_report.txt", period_start, period_end)
+    dv_system    = collect_verdict_mapping("verdict_post_analyse_tickets_report.txt", period_start, period_end)
 
     df_o15_rand  = sort_tickets_for_display(attach_verdict(df_o15_rand,  dv_o15_rand))
     df_o15_super = sort_tickets_for_display(attach_verdict(df_o15_super, dv_o15_super))
@@ -860,6 +862,7 @@ with tab1:
     df_u35_super = sort_tickets_for_display(attach_verdict(df_u35_super, dv_u35_super))
     df_o25_rand  = sort_tickets_for_display(attach_verdict(df_o25_rand,  dv_o25_rand))
     df_o25_super = sort_tickets_for_display(attach_verdict(df_o25_super, dv_o25_super))
+    df_system    = sort_tickets_for_display(attach_verdict(df_system,    dv_system))
 
     def _render_ticket_col(df, label, expander_label):
         st.subheader(label)
@@ -895,6 +898,10 @@ with tab1:
     with col6:
         _render_ticket_col(df_u35_super, "🔒 -3.5 Super Random",  "Voir le détail (-3.5 Super Random)")
 
+    col7, _, _ = st.columns(3)
+    with col7:
+        _render_ticket_col(df_system, "⚙️ System", "Voir le détail (System)")
+
 
 with tab2:
     st.header("Visionneuse de fichiers bruts")
@@ -902,12 +909,14 @@ with tab2:
     report_type = st.selectbox(
         "Choisir le fichier texte à inspecter :",
         [
+            "tickets_report.txt",
             "tickets_o15_random_report.txt",
             "tickets_o15_super_random_report.txt",
             "tickets_o25_random_report.txt",
             "tickets_o25_super_random_report.txt",
             "tickets_u35_random_report.txt",
             "tickets_u35_super_random_report.txt",
+            "verdict_post_analyse_tickets_report.txt",
             "verdict_post_analyse_tickets_o15_random_report.txt",
             "verdict_post_analyse_tickets_o15_super_random_report.txt",
             "verdict_post_analyse_tickets_o25_random_report.txt",
