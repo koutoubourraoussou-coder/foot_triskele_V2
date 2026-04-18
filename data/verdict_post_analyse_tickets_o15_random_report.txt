@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-04-18
+Date run       : 2026-04-19
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (156 ids)
+Whitelist      : ON (160 ids)
 Ignorés (hors whitelist) : 5
-Ignorés (date>=today)    : 10
+Ignorés (date>=today)    : 14
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -1291,10 +1291,35 @@ Ignorés (date>=today)    : 10
    ✅ Leg 3) 20:30 | bundesliga | FC St. Pauli vs 1. FC Köln | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.36
    ✅ Leg 4) 21:00 | laliga2 | Las Palmas vs Leganes | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.3
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Samedi 2026-04-18 13:00→17:50 | code=A2 | odd=2.5
+   id=2026-04-18_1300_a07c7e4ef3_O15R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 13:00 | 2. bundesliga | Dynamo Dresden vs VfL Bochum | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ❌ Leg 2) 13:30 | championship | Portsmouth vs Leicester | Over 1.5 (FT) | [TRÈS FORT] | odd=1.36
+   ✅ Leg 3) 16:00 | super lig | Kocaelispor vs Göztepe | Over 1.5 (FT) | [TRÈS FORT] | odd=1.53
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 2 | Samedi 2026-04-18 18:00→19:50 | code=RESTE | odd=2.27
+   id=2026-04-18_1800_500294516f_O15R
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 18:00 | czech first league | Sparta Praha vs FK Jablonec | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+   ✅ Leg 2) 18:00 | serie a italia | Napoli vs Lazio | Over 1.5 (FT) | [FORT] | odd=1.4
+   ✅ Leg 3) 18:00 | super league greece | Aris Thessalonikis vs Volos NFC | Over 1.5 (FT) | [FORT PLUS] | odd=1.33
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 3 | Samedi 2026-04-18 20:30→23:20 | code=A2 | odd=2.55
+   id=2026-04-18_2030_19fa479ccb_O15R
+   legs=4 | WIN=1 | LOSS=3 | PENDING=0
+   ✅ Leg 1) 20:30 | 2. bundesliga | Hannover 96 vs SC Paderborn 07 | Over 1.5 (FT) | [FORT PLUS] | odd=1.17
+   ❌ Leg 2) 21:00 | liga pro ecuador | Mushuc Runa SC vs Tecnico Universitario | Over 1.5 (FT) | [MOYEN] | odd=1.36
+   ❌ Leg 3) 21:00 | premier league | Chelsea vs Manchester United | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
+   ❌ Leg 4) 21:30 | liga portugal | GIL Vicente vs Guimaraes | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.36
+
 ====================================================================
-TOTAL tickets : 153
-✅ WIN     : 67
-❌ LOSS    : 83
+TOTAL tickets : 156
+✅ WIN     : 68
+❌ LOSS    : 85
 ⏳ PENDING : 3
 ====================================================================
 

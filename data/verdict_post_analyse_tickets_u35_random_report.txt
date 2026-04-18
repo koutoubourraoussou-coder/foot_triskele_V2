@@ -2,9 +2,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [U35_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_u35_random.tsv
-Date run       : 2026-04-18
+Date run       : 2026-04-19
 Output         : data/verdict_post_analyse_tickets_u35_random_report.txt
-Whitelist      : ON (5 ids)
+Whitelist      : ON (8 ids)
 Ignorés (hors whitelist) : 0
 Ignorés (date>=today)    : 10
 
@@ -24,10 +24,35 @@ Ignorés (date>=today)    : 10
    ✅ Leg 2) 21:00 | laliga2 | Las Palmas vs Leganes | Under 3.5 (FT) | [EXPLOSION] | odd=1.33
    ❌ Leg 3) 21:45 | liga portugal | Rio Ave vs AVS | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.33
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Samedi 2026-04-18 02:30→17:20 | code=A2 | odd=2.46
+   id=2026-04-18_0230_bf4105e2f7_U35R
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 02:30 | liga pro ecuador | Emelec vs Guayaquil City FC | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+   ✅ Leg 2) 13:30 | scottish cup | Dunfermline vs Falkirk | Under 3.5 (FT) | [MOYEN] | odd=1.42
+   ❌ Leg 3) 15:30 | bundesliga | Werder Bremen vs Hamburger SV | Under 3.5 (FT) | [FORT PLUS] | odd=1.42
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Samedi 2026-04-18 18:15→20:05 | code=A2 | odd=2.9
+   id=2026-04-18_1815_c144e1811e_U35R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 18:15 | cymru premier league | Caernarfon Town vs Penybont | Under 3.5 (FT) | [EXPLOSION] | odd=1.44
+   ❌ Leg 2) 18:15 | cymru premier league | Cardiff MET vs Flint Town United | Under 3.5 (FT) | [MOYEN PLUS] | odd=1.4
+   ✅ Leg 3) 18:15 | pro league | KVC Westerlo vs Genk | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.44
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 3 | Samedi 2026-04-18 20:30→01:20 | code=A2 | odd=3.36
+   id=2026-04-18_2030_186824c623_U35R
+   legs=4 | WIN=4 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 20:30 | 2. bundesliga | Hannover 96 vs SC Paderborn 07 | Under 3.5 (FT) | [TRÈS FORT] | odd=1.53
+   ✅ Leg 2) 23:15 | primera división paraguay | Club Guarani vs Sportivo Luqueno | Under 3.5 (FT) | [TRÈS FORT] | odd=1.25
+   ✅ Leg 3) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | Under 3.5 (FT) | [FORT PLUS] | odd=1.44
+   ✅ Leg 4) 23:30 | serie a brazil | Vasco DA Gama vs Sao Paulo | Under 3.5 (FT) | [EXPLOSION] | odd=1.22
+
 ====================================================================
-TOTAL tickets : 2
-✅ WIN     : 0
-❌ LOSS    : 2
+TOTAL tickets : 5
+✅ WIN     : 1
+❌ LOSS    : 4
 ⏳ PENDING : 0
 ====================================================================
 

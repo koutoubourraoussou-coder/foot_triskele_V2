@@ -38,3 +38,38 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   1) 20:30 | super league switzerland | FC Thun vs FC Basel 1893 | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.4
   2) 19:00 | super league greece | Panetolikos vs Panserraikos | Over 2.5 (FT) | KO | odd=2.3
+
+
+# ------------------------------------------------------------------
+# APPEND O25_SUPER_RANDOM | 2026-04-19 00:15:14 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0330_daf5439823_O25SR — cote = 3.3 — fenêtre 03:30 → 13:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 03:30 | mls | Seattle Sounders vs St. Louis City | Over 2.5 (FT) | MOYEN PLUS | odd=1.65
+  2) 12:00 | ukrainian premier league | Kryvbas KR vs Ruh Lviv | Over 2.5 (FT) | MOYEN | odd=2
+
+📅 Dimanche 2026-04-19 — Tranche 2
+---------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1430_f31490388f_O25SR — cote = 3.01 — fenêtre 14:30 → 17:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:00 | russian premier league | Spartak Moscow vs Akhmat | Over 2.5 (FT) | KO | odd=1.8
+  2) 14:30 | austrian bundesliga | Austria Vienna vs Red Bull Salzburg | Over 2.5 (FT) | MOYEN PLUS | odd=1.67
+
+📅 Dimanche 2026-04-19 — Tranche 3
+---------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-19_1700_5c0f340245_O25SR — cote = 2.62 — fenêtre 17:00 → 19:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 17:00 | super league greece | AEK Athens FC vs PAOK | Over 2.5 (FT) | MOYEN | odd=2.1
+  2) 17:30 | bundesliga | Bayern München vs VfB Stuttgart | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.25
+
+📅 Dimanche 2026-04-19 — Tranche 4
+---------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-04-19_2000_7b6e4716f7_O25SR — cote = 4.6 — fenêtre 20:00 → 21:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:00 | liga i romania | Universitatea Craiova vs Rapid | Over 2.5 (FT) | FORT PLUS | odd=2
+  2) 20:00 | super league greece | Panathinaikos vs Olympiakos Piraeus | Over 2.5 (FT) | KO | odd=2.3

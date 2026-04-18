@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_SUPER_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_super_random.tsv
-Date run       : 2026-04-18
+Date run       : 2026-04-19
 Output         : data/verdict_post_analyse_tickets_o15_super_random_report.txt
-Whitelist      : ON (7 ids)
+Whitelist      : ON (11 ids)
 Ignorés (hors whitelist) : 0
-Ignorés (date>=today)    : 15
+Ignorés (date>=today)    : 17
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mardi 2026-04-14 18:45→22:50 | code=A2 | odd=2.76
@@ -35,10 +35,45 @@ Ignorés (date>=today)    : 15
    ✅ Leg 3) 20:00 | ligue 2 | Montpellier vs Grenoble | Over 1.5 (FT) | [MOYEN] | odd=1.25
    ✅ Leg 4) 20:00 | ligue 2 | Nancy vs Annecy | Over 1.5 (FT) | [TRÈS FORT] | odd=1.36
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Samedi 2026-04-18 14:45→17:50 | code=A2 | odd=3.39
+   id=2026-04-18_1445_26ab22a9b8_O15SR
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 14:45 | ekstraklasa | Radomiak Radom vs Widzew Łódź | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.35
+   ❌ Leg 2) 15:00 | serie a italia | Udinese vs Parma | Over 1.5 (FT) | [TRÈS FORT] | odd=1.42
+   ✅ Leg 3) 16:00 | championship | Hull City vs Birmingham | Over 1.5 (FT) | [FORT] | odd=1.28
+   ✅ Leg 4) 16:00 | russian premier league | Rubin vs Akron | Over 1.5 (FT) | [FORT] | odd=1.38
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 2 | Samedi 2026-04-18 17:00→19:50 | code=A2 | odd=2.65
+   id=2026-04-18_1700_bd6a6974a2_O15SR
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 17:00 | austrian bundesliga | WSG Wattens vs SCR Altach | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.4
+   ✅ Leg 2) 17:00 | super league greece | OFI vs Levadiakos | Over 1.5 (FT) | [TRÈS FORT] | odd=1.35
+   ✅ Leg 3) 18:00 | serie a italia | Napoli vs Lazio | Over 1.5 (FT) | [FORT] | odd=1.4
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 3 | Samedi 2026-04-18 19:00→21:50 | code=A2 | odd=3.01
+   id=2026-04-18_1900_af6643bb08_O15SR
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 19:00 | liga portugal 2 | Torreense vs Maritimo | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.33
+   ✅ Leg 2) 19:15 | schweizer cup | Stade Lausanne-Ouchy vs Grasshoppers | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+   ✅ Leg 3) 19:30 | serie b | Juve Stabia vs Catanzaro | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.36
+   ✅ Leg 4) 20:00 | ligue 2 | Bastia vs Saint Etienne | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 4 | Samedi 2026-04-18 20:30→01:20 | code=A2 | odd=2.57
+   id=2026-04-18_2030_444db0f481_O15SR
+   legs=4 | WIN=2 | LOSS=2 | PENDING=0
+   ✅ Leg 1) 20:30 | 2. bundesliga | Hannover 96 vs SC Paderborn 07 | Over 1.5 (FT) | [FORT PLUS] | odd=1.17
+   ✅ Leg 2) 20:45 | serie a italia | AS Roma vs Atalanta | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
+   ❌ Leg 3) 21:00 | premier league | Chelsea vs Manchester United | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
+   ❌ Leg 4) 23:30 | serie a brazil | Vasco DA Gama vs Sao Paulo | Over 1.5 (FT) | [EXPLOSION] | odd=1.4
+
 ====================================================================
-TOTAL tickets : 3
-✅ WIN     : 2
-❌ LOSS    : 1
+TOTAL tickets : 7
+✅ WIN     : 3
+❌ LOSS    : 4
 ⏳ PENDING : 0
 ====================================================================
 

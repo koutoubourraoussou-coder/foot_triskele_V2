@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-04-18
+Date run       : 2026-04-19
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (167 ids)
+Whitelist      : ON (170 ids)
 Ignorés (hors whitelist) : 16
-Ignorés (date>=today)    : 10
+Ignorés (date>=today)    : 12
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -1331,10 +1331,35 @@ Ignorés (date>=today)    : 10
    ✅ Leg 2) 23:00 | primera a colombia | Chico vs Deportivo Cali | HT 1X Home | [FORT PLUS] | odd=1.38
    ❌ Leg 3) 23:00 | primera a colombia | Jaguares vs Deportivo Pasto | HT 1X Home | [MOYEN PLUS] | odd=1.35
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Samedi 2026-04-18 13:00→16:50 | code=A2 | odd=2.59
+   id=2026-04-18_1300_97ce5503d5_SYS
+   legs=4 | WIN=1 | LOSS=3 | PENDING=0
+   ❌ Leg 1) 13:00 | 2. bundesliga | Dynamo Dresden vs VfL Bochum | Team2 scores (FT) | [FORT] | odd=1.22
+   ❌ Leg 2) 13:30 | scottish cup | Dunfermline vs Falkirk | Team1 scores (FT) | [FORT] | odd=1.44
+   ✅ Leg 3) 15:00 | serie b | Bari vs Venezia | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
+   ❌ Leg 4) 15:00 | serie b | Mantova vs Avellino | Team1 scores (FT) | [FORT] | odd=1.25
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Samedi 2026-04-18 18:15→20:20 | code=A2 | odd=2.42
+   id=2026-04-18_1815_2ba0bf79b2_SYS
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 18:15 | cymru premier league | Barry Town vs The New Saints | Team1 scores (FT) | [MOYEN PLUS] | odd=1.48
+   ✅ Leg 2) 18:15 | pro league | Charleroi vs Standard Liege | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
+   ✅ Leg 3) 18:30 | laliga2 | Cultural Leonesa vs Cordoba | Over 1.5 (FT) | [EXPLOSION] | odd=1.28
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 3 | Samedi 2026-04-18 20:45→01:20 | code=A2 | odd=2.66
+   id=2026-04-18_2045_8256a4afb8_SYS
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ✅ Leg 1) 20:45 | serie a italia | AS Roma vs Atalanta | Team1 scores (FT) | [MOYEN PLUS] | odd=1.25
+   ❌ Leg 2) 21:30 | liga portugal | GIL Vicente vs Guimaraes | Team1 scores (FT) | [MOYEN PLUS] | odd=1.25
+   ❌ Leg 3) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | Team2 scores (FT) | [FORT] | odd=1.7
+
 ====================================================================
-TOTAL tickets : 159
+TOTAL tickets : 162
 ✅ WIN     : 54
-❌ LOSS    : 103
+❌ LOSS    : 106
 ⏳ PENDING : 2
 ====================================================================
 

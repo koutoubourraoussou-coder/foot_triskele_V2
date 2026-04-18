@@ -1,45 +1,47 @@
 TICKETS TRISKELE — O15_SUPER_RANDOM — depuis predictions.tsv
 ============================================================
 
-📅 Samedi 2026-04-18 — Tranche 1
--------------------------------
+📅 Dimanche 2026-04-19 — Tranche 1
+---------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-18_1445_26ab22a9b8_O15SR — cote = 3.39 — fenêtre 14:45 → 17:50  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0200_6a7fce3c59_O15SR — cote = 2.57 — fenêtre 02:00 → 07:00  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 16:00 | championship | Hull City vs Birmingham | Over 1.5 (FT) | FORT | odd=1.28
-  2) 14:45 | ekstraklasa | Radomiak Radom vs Widzew Łódź | Over 1.5 (FT) | MOYEN PLUS | odd=1.35
-  3) 16:00 | russian premier league | Rubin vs Akron | Over 1.5 (FT) | FORT | odd=1.38
-  4) 15:00 | serie a italia | Udinese vs Parma | Over 1.5 (FT) | TRÈS FORT | odd=1.42
+  1) 02:00 | liga pro ecuador | Orense SC vs Delfin SC | Over 1.5 (FT) | MOYEN | odd=1.4
+  2) 03:07 | liga mx | Guadalajara Chivas vs Puebla | Over 1.5 (FT) | MOYEN PLUS | odd=1.17
+  3) 02:30 | mls | FC Dallas vs Los Angeles Galaxy | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  4) 05:10 | liga mx | Club America vs Toluca | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
 
-📅 Samedi 2026-04-18 — Tranche 2
--------------------------------
+📅 Dimanche 2026-04-19 — Tranche 2
+---------------------------------
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-18_1700_bd6a6974a2_O15SR — cote = 2.65 — fenêtre 17:00 → 19:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 17:00 | austrian bundesliga | WSG Wattens vs SCR Altach | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.4
-  2) 18:00 | serie a italia | Napoli vs Lazio | Over 1.5 (FT) | FORT | odd=1.4
-  3) 17:00 | super league greece | OFI vs Levadiakos | Over 1.5 (FT) | TRÈS FORT | odd=1.35
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1400_2ac63dd0bf_O15SR — cote = 2.9 — fenêtre 14:00 → 17:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 15:30 | bundesliga | SC Freiburg vs 1. FC Heidenheim | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+  2) 15:00 | premier league | Aston Villa vs Sunderland | Over 1.5 (FT) | FORT | odd=1.3
+  3) 14:00 | laliga2 | FC Andorra vs Valladolid | Over 1.5 (FT) | MOYEN PLUS | odd=1.4
+  4) 15:00 | liga portugal 2 | Vizela vs Farense | Over 1.5 (FT) | MOYEN PLUS | odd=1.33
 
-📅 Samedi 2026-04-18 — Tranche 3
--------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-18_1900_af6643bb08_O15SR — cote = 3.01 — fenêtre 19:00 → 21:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 19:30 | serie b | Juve Stabia vs Catanzaro | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36
-  2) 20:00 | ligue 2 | Bastia vs Saint Etienne | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
-  3) 19:15 | schweizer cup | Stade Lausanne-Ouchy vs Grasshoppers | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
-  4) 19:00 | liga portugal 2 | Torreense vs Maritimo | Over 1.5 (FT) | MOYEN PLUS | odd=1.33
-
-📅 Samedi 2026-04-18 — Tranche 4
--------------------------------
+📅 Dimanche 2026-04-19 — Tranche 3
+---------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 4.1 (A2) — id=2026-04-18_2030_444db0f481_O15SR — cote = 2.57 — fenêtre 20:30 → 01:20  
+  🎟️ TICKET 3.1 (A2) — id=2026-04-19_1715_4c87c80a9f_O15SR — cote = 3.28 — fenêtre 17:15 → 20:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 23:30 | serie a brazil | Vasco DA Gama vs Sao Paulo | Over 1.5 (FT) | EXPLOSION | odd=1.4
-  2) 20:45 | serie a italia | AS Roma vs Atalanta | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
-  3) 20:30 | 2. bundesliga | Hannover 96 vs SC Paderborn 07 | Over 1.5 (FT) | FORT PLUS | odd=1.17
-  4) 21:00 | premier league | Chelsea vs Manchester United | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  1) 18:30 | czech first league | Plzen vs Pardubice | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
+  2) 17:15 | ligue 1 | Nantes vs Stade Brestois 29 | Over 1.5 (FT) | FORT PLUS | odd=1.38
+  3) 18:00 | serie a italia | Pisa vs Genoa | Over 1.5 (FT) | TRÈS FORT | odd=1.45
+  4) 18:30 | laliga2 | Eibar vs Huesca | Over 1.5 (FT) | FORT PLUS | odd=1.4
+
+📅 Dimanche 2026-04-19 — Tranche 4
+---------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-04-19_1900_71fd6d9a67_O15SR — cote = 2.82 — fenêtre 19:00 → 23:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:00 | superliga serbia | IMT Novi Beograd vs Mladost Lucani | Over 1.5 (FT) | TRÈS FORT | odd=1.3
+  2) 19:00 | super lig | Trabzonspor vs Başakşehir | Over 1.5 (FT) | FORT | odd=1.18
+  3) 20:00 | liga i romania | Universitatea Craiova vs Rapid | Over 1.5 (FT) | EXPLOSION | odd=1.3
+  4) 19:30 | superligaen | Gyori ETO FC vs Ferencvarosi TC | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  5) 21:30 | liga portugal | FC Porto vs Tondela | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2

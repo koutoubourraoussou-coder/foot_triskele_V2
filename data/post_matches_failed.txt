@@ -3,3 +3,16 @@
 2026-03-27 | international friendlies | Russia vs Mali | GOALS_MISSING:1525450
 2026-03-28 | international friendlies | England U18 vs Spain U18 | GOALS_MISSING:1536914
 2026-03-31 | international friendlies | Croatia U18 vs England U18 | GOALS_MISSING:1536921
+2026-04-18 | liga mx | Cruz Azul vs Club Tijuana | GOALS_MISSING:1492592
+2026-04-18 | liga mx | Necaxa vs Tigres UANL | GOALS_MISSING:1492591
+2026-04-18 | liga profesional argentina | Independiente vs Defensa Y Justicia | GOALS_MISSING:1492035
+2026-04-18 | mls | Atlanta United FC vs Nashville SC | GOALS_MISSING:1490214
+2026-04-18 | mls | FC Cincinnati vs Chicago Fire | GOALS_MISSING:1490215
+2026-04-18 | mls | New England Revolution vs Columbus Crew | GOALS_MISSING:1490216
+2026-04-18 | mls | New York City FC vs Charlotte | GOALS_MISSING:1490218
+2026-04-18 | mls | Orlando City SC vs Houston Dynamo | GOALS_MISSING:1490219
+2026-04-18 | mls | Philadelphia Union vs DC United | GOALS_MISSING:1490217
+2026-04-18 | primera a colombia | Deportes Tolima vs Deportivo Pereira | GOALS_MISSING:1506089
+2026-04-18 | primera división paraguay | Deportivo Recoleta vs 2 de Mayo | GOALS_MISSING:1505058
+2026-04-18 | serie a brazil | Vitoria vs Corinthians | GOALS_MISSING:1492229
+2026-04-18 | serie a brazil | Cruzeiro vs Gremio | GOALS_MISSING:1492223

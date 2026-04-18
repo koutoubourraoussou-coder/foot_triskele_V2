@@ -1,33 +1,33 @@
 TICKETS TRISKÈLE — U35_RANDOM_ALL — depuis predictions.tsv
 ==========================================================
 
-📅 Samedi 2026-04-18 — Tranche 1 (fenêtre ~780min)
--------------------------------------------------
+📅 Dimanche 2026-04-19 — Tranche 1 (fenêtre ~90min)
+--------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-18_0230_bf4105e2f7_U35R — cote = 2.46 — fenêtre 02:30 → 17:20  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0200_de95f40248_U35R — cote = 2.79 — fenêtre 02:00 → 05:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 02:30 | liga pro ecuador | Emelec vs Guayaquil City FC | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.22
-  2) 13:30 | scottish cup | Dunfermline vs Falkirk | Under 3.5 (FT) | MOYEN | odd=1.42
-  3) 15:30 | bundesliga | Werder Bremen vs Hamburger SV | Under 3.5 (FT) | FORT PLUS | odd=1.42
+  1) 02:00 | liga pro ecuador | Orense SC vs Delfin SC | Under 3.5 (FT) | EXPLOSION | odd=1.2
+  2) 03:07 | liga mx | Guadalajara Chivas vs Puebla | Under 3.5 (FT) | FORT | odd=1.57
+  3) 03:30 | mls | Seattle Sounders vs St. Louis City | Under 3.5 (FT) | MOYEN | odd=1.48
 
-📅 Samedi 2026-04-18 — Tranche 2
--------------------------------
+📅 Dimanche 2026-04-19 — Tranche 2 (fenêtre ~150min)
+---------------------------------------------------
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-18_1815_c144e1811e_U35R — cote = 2.9 — fenêtre 18:15 → 20:05  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 18:15 | pro league | KVC Westerlo vs Genk | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.44
-  2) 18:15 | cymru premier league | Caernarfon Town vs Penybont | Under 3.5 (FT) | EXPLOSION | odd=1.44
-  3) 18:15 | cymru premier league | Cardiff MET vs Flint Town United | Under 3.5 (FT) | MOYEN PLUS | odd=1.4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1200_ffeb165ead_U35R — cote = 3 — fenêtre 12:00 → 16:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 12:00 | liga portugal 2 | Portimonense vs Lusitânia Lourosa | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.25
+  2) 12:30 | serie a italia | Cremonese vs Torino | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.25
+  3) 14:15 | superligaen | Paks vs Puskas Academy | Under 3.5 (FT) | MOYEN PLUS | odd=1.5
+  4) 14:30 | ukrainian premier league | Epitsentr Dunayivtsi vs Karpaty | Under 3.5 (FT) | FORT PLUS | odd=1.28
 
-📅 Samedi 2026-04-18 — Tranche 3 (fenêtre ~180min)
--------------------------------------------------
+📅 Dimanche 2026-04-19 — Tranche 3 (fenêtre ~300min)
+---------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-18_2030_186824c623_U35R — cote = 3.36 — fenêtre 20:30 → 01:20  
+  🎟️ TICKET 3.1 (A2) — id=2026-04-19_1830_835247ebcf_U35R — cote = 2.58 — fenêtre 18:30 → 01:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 20:30 | 2. bundesliga | Hannover 96 vs SC Paderborn 07 | Under 3.5 (FT) | TRÈS FORT | odd=1.53
-  2) 23:15 | primera división paraguay | Club Guarani vs Sportivo Luqueno | Under 3.5 (FT) | TRÈS FORT | odd=1.25
-  3) 23:30 | serie a brazil | Vasco DA Gama vs Sao Paulo | Under 3.5 (FT) | EXPLOSION | odd=1.22
-  4) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | Under 3.5 (FT) | FORT PLUS | odd=1.44
+  1) 18:30 | czech first league | Plzen vs Pardubice | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.53
+  2) 19:30 | serie b | Empoli vs Virtus Entella | Under 3.5 (FT) | FORT PLUS | odd=1.25
+  3) 23:30 | serie a brazil | RB Bragantino vs Remo | Under 3.5 (FT) | MOYEN PLUS | odd=1.35

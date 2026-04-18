@@ -68,3 +68,44 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
   3) 19:00 | ligue 1 | Angers vs Le Havre | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.2
   4) 21:30 | liga portugal | GIL Vicente vs Guimaraes | Under 3.5 (FT) | FORT | odd=1.25
   5) 19:00 | super lig | Gençlerbirliği S.K. vs Galatasaray | Under 3.5 (FT) | MOYEN PLUS | odd=1.55
+
+
+# ------------------------------------------------------------------
+# APPEND U35_SUPER_RANDOM | 2026-04-19 00:15:12 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0200_599e8b0bff_U35SR — cote = 3.4 — fenêtre 02:00 → 06:56  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 02:00 | liga pro ecuador | Orense SC vs Delfin SC | Under 3.5 (FT) | EXPLOSION | odd=1.2
+  2) 05:06 | liga mx | Leon vs FC Juarez | Under 3.5 (FT) | EXPLOSION | odd=1.48
+  3) 03:30 | primera a colombia | Fortaleza FC vs Águilas Doradas | Under 3.5 (FT) | FORT PLUS | odd=1.22
+  4) 03:07 | liga mx | Guadalajara Chivas vs Puebla | Under 3.5 (FT) | FORT | odd=1.57
+
+📅 Dimanche 2026-04-19 — Tranche 2
+---------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1200_7ca9f094a0_U35SR — cote = 3.31 — fenêtre 12:00 → 15:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 13:00 | czech first league | Sigma Olomouc vs Slovácko | Under 3.5 (FT) | MOYEN PLUS | odd=1.28
+  2) 12:00 | liga portugal 2 | Portimonense vs Lusitânia Lourosa | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.25
+  3) 13:00 | championship | Ipswich vs Middlesbrough | Under 3.5 (FT) | FORT PLUS | odd=1.38
+  4) 13:30 | 2. bundesliga | Eintracht Braunschweig vs Hertha BSC | Under 3.5 (FT) | MOYEN PLUS | odd=1.5
+
+📅 Dimanche 2026-04-19 — Tranche 3
+---------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-19_1430_992c2a3fe8_U35SR — cote = 2.46 — fenêtre 14:30 → 17:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:00 | pro league | Dender vs Cercle Brugge | Under 3.5 (FT) | MOYEN PLUS | odd=1.4
+  2) 14:30 | ukrainian premier league | Epitsentr Dunayivtsi vs Karpaty | Under 3.5 (FT) | FORT PLUS | odd=1.28
+  3) 16:00 | russian premier league | Spartak Moscow vs Akhmat | Under 3.5 (FT) | EXPLOSION | odd=1.37
+
+📅 Dimanche 2026-04-19 — Tranche 4
+---------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-04-19_1715_e548036df0_U35SR — cote = 2.48 — fenêtre 17:15 → 01:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 17:15 | ligue 1 | Strasbourg vs Rennes | Under 3.5 (FT) | FAIBLE | odd=1.48
+  2) 18:30 | russian premier league | FC Krasnodar vs Baltika | Under 3.5 (FT) | MOYEN | odd=1.24
+  3) 23:30 | serie a brazil | RB Bragantino vs Remo | Under 3.5 (FT) | MOYEN PLUS | odd=1.35
