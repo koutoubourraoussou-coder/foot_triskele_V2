@@ -1,11 +1,44 @@
 TICKETS TRISKELE — U35_SUPER_RANDOM — depuis predictions.tsv
 ============================================================
 
-📅 Vendredi 2026-04-17 — Tranche 1
----------------------------------
+📅 Samedi 2026-04-18 — Tranche 1
+-------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-17_1830_99f5460ba2_U35SR — cote = 2.71 — fenêtre 18:30 → 20:50  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-18_1330_857636b61a_U35SR — cote = 2.96 — fenêtre 13:30 → 17:50  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 19:00 | super lig | Fenerbahçe vs Rizespor | Under 3.5 (FT) | MOYEN PLUS | odd=1.62
-  2) 18:30 | 2. bundesliga | SV Elversberg vs Karlsruher SC | Under 3.5 (FT) | MOYEN PLUS | odd=1.67
+  1) 16:00 | premier league | Newcastle vs Bournemouth | Under 3.5 (FT) | FORT | odd=1.67
+  2) 13:30 | scottish cup | Dunfermline vs Falkirk | Under 3.5 (FT) | MOYEN | odd=1.42
+  3) 15:00 | serie b | Spezia vs Sudtirol | Under 3.5 (FT) | MOYEN PLUS | odd=1.25
+
+📅 Samedi 2026-04-18 — Tranche 2
+-------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-18_1700_e1e1093c64_U35SR — cote = 2.47 — fenêtre 17:00 → 18:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 17:00 | superligaen | MTK Budapest vs Kisvarda FC | Under 3.5 (FT) | MOYEN PLUS | odd=1.36
+  2) 17:00 | super league greece | OFI vs Levadiakos | Under 3.5 (FT) | MOYEN PLUS | odd=1.25
+  3) 17:00 | ligue 1 | Lorient vs Marseille | Under 3.5 (FT) | MOYEN PLUS | odd=1.45
+
+📅 Samedi 2026-04-18 — Tranche 3
+-------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-18_1815_eeb887f4d1_U35SR — cote = 2.76 — fenêtre 18:15 → 20:35  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 18:45 | hnl croatia | Istra 1961 vs Vukovar | Under 3.5 (FT) | FORT PLUS | odd=1.33
+  2) 18:15 | cymru premier league | GAP Connah S Quay FC vs Colwyn Bay | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.4
+  3) 18:30 | premier league | Tottenham vs Brighton | Under 3.5 (FT) | MOYEN PLUS | odd=1.48
+
+📅 Samedi 2026-04-18 — Tranche 4
+-------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-04-18_1900_04c633f987_U35SR — cote = 3.43 — fenêtre 19:00 → 23:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:00 | ligue 2 | Bastia vs Saint Etienne | Under 3.5 (FT) | MOYEN PLUS | odd=1.25
+  2) 19:00 | liga portugal | Casa Pia vs Santa Clara | Under 3.5 (FT) | TRÈS FORT | odd=1.18
+  3) 19:00 | ligue 1 | Angers vs Le Havre | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.2
+  4) 21:30 | liga portugal | GIL Vicente vs Guimaraes | Under 3.5 (FT) | FORT | odd=1.25
+  5) 19:00 | super lig | Gençlerbirliği S.K. vs Galatasaray | Under 3.5 (FT) | MOYEN PLUS | odd=1.55

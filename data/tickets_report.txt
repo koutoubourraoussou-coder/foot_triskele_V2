@@ -1,12 +1,33 @@
 TICKETS TRISKÈLE — SYSTEM — depuis predictions.tsv
 ==================================================
 
-📅 Vendredi 2026-04-17 — Tranche 1 (fenêtre ~150min)
----------------------------------------------------
+📅 Samedi 2026-04-18 — Tranche 1 (fenêtre ~120min)
+-------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-17_2030_2441952614_SYS — cote = 2.53 — fenêtre 20:30 → 00:50  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-18_1300_97ce5503d5_SYS — cote = 2.59 — fenêtre 13:00 → 16:50  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 20:30 | bundesliga | FC St. Pauli vs 1. FC Köln | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36
-  2) 23:00 | primera a colombia | Chico vs Deportivo Cali | HT 1X Home | FORT PLUS | odd=1.38
-  3) 23:00 | primera a colombia | Jaguares vs Deportivo Pasto | HT 1X Home | MOYEN PLUS | odd=1.35
+  1) 13:00 | 2. bundesliga | Dynamo Dresden vs VfL Bochum | Team2 scores (FT) | FORT | odd=1.22
+  2) 13:30 | scottish cup | Dunfermline vs Falkirk | Team1 scores (FT) | FORT | odd=1.44
+  3) 15:00 | serie b | Bari vs Venezia | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  4) 15:00 | serie b | Mantova vs Avellino | Team1 scores (FT) | FORT | odd=1.25
+
+📅 Samedi 2026-04-18 — Tranche 2 (fenêtre ~15min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-18_1815_2ba0bf79b2_SYS — cote = 2.42 — fenêtre 18:15 → 20:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 18:15 | cymru premier league | Barry Town vs The New Saints | Team1 scores (FT) | MOYEN PLUS | odd=1.48
+  2) 18:15 | pro league | Charleroi vs Standard Liege | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.28
+  3) 18:30 | laliga2 | Cultural Leonesa vs Cordoba | Over 1.5 (FT) | EXPLOSION | odd=1.28
+
+📅 Samedi 2026-04-18 — Tranche 3 (fenêtre ~165min)
+-------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-18_2045_8256a4afb8_SYS — cote = 2.66 — fenêtre 20:45 → 01:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:45 | serie a italia | AS Roma vs Atalanta | Team1 scores (FT) | MOYEN PLUS | odd=1.25
+  2) 21:30 | liga portugal | GIL Vicente vs Guimaraes | Team1 scores (FT) | MOYEN PLUS | odd=1.25
+  3) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | Team2 scores (FT) | FORT | odd=1.7

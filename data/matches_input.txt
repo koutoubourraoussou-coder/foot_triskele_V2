@@ -1,23 +1,113 @@
-2026-04-17 18:30 | 2. bundesliga | Holstein Kiel vs 1. FC Kaiserslautern
-2026-04-17 18:30 | 2. bundesliga | SV Elversberg vs Karlsruher SC
-2026-04-17 20:30 | bundesliga | FC St. Pauli vs 1. FC Köln
-2026-04-17 21:00 | championship | Blackburn vs Coventry
-2026-04-17 20:30 | laliga2 | Real Sociedad II vs Racing Santander
-2026-04-17 21:00 | laliga2 | Las Palmas vs Leganes
-2026-04-17 21:45 | liga portugal | Rio Ave vs AVS
-2026-04-17 19:45 | liga portugal 2 | Academico Viseu vs Feirense
-2026-04-17 20:45 | ligue 1 | Lens vs Toulouse
-2026-04-17 20:00 | ligue 2 | Le Mans vs Clermont Foot
-2026-04-17 20:00 | ligue 2 | Montpellier vs Grenoble
-2026-04-17 20:00 | ligue 2 | Nancy vs Annecy
-2026-04-17 20:00 | ligue 2 | PAU vs Guingamp
-2026-04-17 20:00 | ligue 2 | Rodez vs Amiens
-2026-04-17 23:00 | primera a colombia | Chico vs Deportivo Cali
-2026-04-17 23:00 | primera a colombia | Jaguares vs Deportivo Pasto
-2026-04-17 22:00 | primera división paraguay | Sportivo Trinidense vs Club Sp. San Lorenzo
-2026-04-17 18:30 | serie a italia | Sassuolo vs Como
-2026-04-17 20:45 | serie a italia | Inter vs Cagliari
-2026-04-17 20:30 | serie b | Sampdoria vs Monza
-2026-04-17 19:00 | super lig | Antalyaspor vs Konyaspor
-2026-04-17 19:00 | super lig | Fenerbahçe vs Rizespor
-2026-04-17 20:00 | superligaen | Ujpest vs Nyiregyhaza
+2026-04-18 13:00 | 2. bundesliga | 1. FC Magdeburg vs Fortuna Düsseldorf
+2026-04-18 13:00 | 2. bundesliga | Arminia Bielefeld vs 1. FC Nürnberg
+2026-04-18 13:00 | 2. bundesliga | Dynamo Dresden vs VfL Bochum
+2026-04-18 20:30 | 2. bundesliga | Hannover 96 vs SC Paderborn 07
+2026-04-18 17:00 | austrian bundesliga | Wolfsberger AC vs FC BW Linz
+2026-04-18 17:00 | austrian bundesliga | WSG Wattens vs SCR Altach
+2026-04-18 15:30 | bundesliga | 1899 Hoffenheim vs Borussia Dortmund
+2026-04-18 15:30 | bundesliga | Bayer Leverkusen vs FC Augsburg
+2026-04-18 15:30 | bundesliga | Union Berlin vs VfL Wolfsburg
+2026-04-18 15:30 | bundesliga | Werder Bremen vs Hamburger SV
+2026-04-18 18:30 | bundesliga | Eintracht Frankfurt vs RB Leipzig
+2026-04-18 13:30 | championship | Derby vs Oxford United
+2026-04-18 13:30 | championship | Millwall vs QPR
+2026-04-18 13:30 | championship | Portsmouth vs Leicester
+2026-04-18 16:00 | championship | Bristol City vs Norwich
+2026-04-18 16:00 | championship | Hull City vs Birmingham
+2026-04-18 16:00 | championship | Preston vs West Brom
+2026-04-18 16:00 | championship | Sheffield Wednesday vs Charlton
+2026-04-18 16:00 | championship | Swansea vs Southampton
+2026-04-18 16:00 | championship | Watford vs Sheffield Utd
+2026-04-18 16:00 | championship | Wrexham vs Stoke City
+2026-04-18 21:00 | copa del rey | Atletico Madrid vs Real Sociedad
+2026-04-18 18:15 | cymru premier league | Bala Town vs Briton Ferry
+2026-04-18 18:15 | cymru premier league | Barry Town vs The New Saints
+2026-04-18 18:15 | cymru premier league | Caernarfon Town vs Penybont
+2026-04-18 18:15 | cymru premier league | Cardiff MET vs Flint Town United
+2026-04-18 18:15 | cymru premier league | GAP Connah S Quay FC vs Colwyn Bay
+2026-04-18 18:15 | cymru premier league | Haverfordwest County AFC vs llanelli AFC
+2026-04-18 15:00 | czech first league | Baník Ostrava vs Bohemians 1905
+2026-04-18 15:00 | czech first league | Dukla Praha vs Karviná
+2026-04-18 15:00 | czech first league | Slovan Liberec vs Mlada Boleslav
+2026-04-18 15:00 | czech first league | Zlin vs Teplice
+2026-04-18 18:00 | czech first league | Sparta Praha vs FK Jablonec
+2026-04-18 14:45 | ekstraklasa | Radomiak Radom vs Widzew Łódź
+2026-04-18 17:30 | ekstraklasa | Gornik Zabrze vs Korona Kielce
+2026-04-18 20:15 | ekstraklasa | Pogon Szczecin vs Lech Poznan
+2026-04-18 16:00 | hnl croatia | Dinamo Zagreb vs HNK Rijeka
+2026-04-18 18:45 | hnl croatia | Istra 1961 vs Vukovar
+2026-04-18 16:15 | laliga2 | Zaragoza vs AD Ceuta FC
+2026-04-18 18:30 | laliga2 | Castellón vs Burgos
+2026-04-18 18:30 | laliga2 | Cultural Leonesa vs Cordoba
+2026-04-18 13:30 | liga i romania | Csikszereda vs Unirea Slobozia
+2026-04-18 20:00 | liga i romania | Dinamo Bucuresti vs Universitatea Cluj
+2026-04-18 03:00 | liga mx | Atletico San Luis vs U.N.A.M. - Pumas
+2026-04-18 03:00 | liga mx | Mazatlán vs Club Queretaro
+2026-04-18 16:30 | liga portugal | Nacional vs Alverca
+2026-04-18 19:00 | liga portugal | Casa Pia vs Santa Clara
+2026-04-18 21:30 | liga portugal | GIL Vicente vs Guimaraes
+2026-04-18 12:00 | liga portugal 2 | Pacos Ferreira vs Chaves
+2026-04-18 15:00 | liga portugal 2 | União de Leiria vs Penafiel
+2026-04-18 19:00 | liga portugal 2 | Torreense vs Maritimo
+2026-04-18 00:00 | liga pro ecuador | Leones del Norte vs Aucas
+2026-04-18 02:30 | liga pro ecuador | Emelec vs Guayaquil City FC
+2026-04-18 21:00 | liga pro ecuador | Mushuc Runa SC vs Tecnico Universitario
+2026-04-18 23:30 | liga pro ecuador | Universidad Catolica vs Libertad
+2026-04-18 01:30 | liga profesional argentina | Union Santa Fe vs Newells Old Boys
+2026-04-18 20:00 | liga profesional argentina | Gimnasia L.P. vs Estudiantes de Rio Cuarto
+2026-04-18 22:15 | liga profesional argentina | Instituto Cordoba vs Estudiantes L.P.
+2026-04-18 17:00 | ligue 1 | Lorient vs Marseille
+2026-04-18 19:00 | ligue 1 | Angers vs Le Havre
+2026-04-18 21:05 | ligue 1 | Lille vs Nice
+2026-04-18 14:00 | ligue 2 | Estac Troyes vs Boulogne
+2026-04-18 14:00 | ligue 2 | Reims vs RED Star FC 93
+2026-04-18 20:00 | ligue 2 | Bastia vs Saint Etienne
+2026-04-18 04:30 | mls | Vancouver Whitecaps vs Sporting Kansas City
+2026-04-18 19:00 | mls | Toronto FC vs Austin
+2026-04-18 20:30 | mls | CF Montreal vs New York Red Bulls
+2026-04-18 22:30 | mls | Colorado Rapids vs Inter Miami
+2026-04-18 13:30 | premier league | Brentford vs Fulham
+2026-04-18 16:00 | premier league | Leeds vs Wolves
+2026-04-18 16:00 | premier league | Newcastle vs Bournemouth
+2026-04-18 18:30 | premier league | Tottenham vs Brighton
+2026-04-18 21:00 | premier league | Chelsea vs Manchester United
+2026-04-18 23:15 | primera división paraguay | Club Guarani vs Sportivo Luqueno
+2026-04-18 16:00 | pro league | Antwerp vs OH Leuven
+2026-04-18 18:15 | pro league | Charleroi vs Standard Liege
+2026-04-18 18:15 | pro league | KVC Westerlo vs Genk
+2026-04-18 20:45 | pro league | KV Mechelen vs Anderlecht
+2026-04-18 11:00 | russian premier league | FC Orenburg vs Lokomotiv
+2026-04-18 13:30 | russian premier league | Krylia Sovetov vs CSKA Moscow
+2026-04-18 16:00 | russian premier league | Rubin vs Akron
+2026-04-18 18:30 | russian premier league | Nizhny Novgorod vs Dynamo
+2026-04-18 19:15 | schweizer cup | Stade Lausanne-Ouchy vs Grasshoppers
+2026-04-18 13:30 | scottish cup | Dunfermline vs Falkirk
+2026-04-18 23:30 | serie a brazil | Chapecoense-sc vs Botafogo
+2026-04-18 23:30 | serie a brazil | Vasco DA Gama vs Sao Paulo
+2026-04-18 15:00 | serie a italia | Udinese vs Parma
+2026-04-18 18:00 | serie a italia | Napoli vs Lazio
+2026-04-18 20:45 | serie a italia | AS Roma vs Atalanta
+2026-04-18 15:00 | serie b | Bari vs Venezia
+2026-04-18 15:00 | serie b | Mantova vs Avellino
+2026-04-18 15:00 | serie b | Modena vs Frosinone
+2026-04-18 15:00 | serie b | Spezia vs Sudtirol
+2026-04-18 17:15 | serie b | Palermo vs Cesena
+2026-04-18 19:30 | serie b | Juve Stabia vs Catanzaro
+2026-04-18 15:00 | super league greece | Kifisia vs Asteras Tripolis
+2026-04-18 16:00 | super league greece | Atromitos vs Larisa
+2026-04-18 17:00 | super league greece | OFI vs Levadiakos
+2026-04-18 18:00 | super league greece | Aris Thessalonikis vs Volos NFC
+2026-04-18 19:00 | super league greece | Panetolikos vs Panserraikos
+2026-04-18 20:30 | super league switzerland | FC Thun vs FC Basel 1893
+2026-04-18 13:30 | super lig | Fatih Karagümrük vs Eyüpspor
+2026-04-18 16:00 | super lig | Kocaelispor vs Göztepe
+2026-04-18 19:00 | super lig | Gençlerbirliği S.K. vs Galatasaray
+2026-04-18 15:00 | superliga serbia | Cukaricki vs Radnik Surdulica
+2026-04-18 17:00 | superliga serbia | FK Crvena Zvezda vs Vojvodina
+2026-04-18 17:00 | superliga serbia | Novi Pazar vs OFK Beograd
+2026-04-18 18:30 | superliga serbia | FK Partizan vs Železničar Pančevo
+2026-04-18 14:15 | superligaen | Zalaegerszegi TE vs Kazincbarcikai
+2026-04-18 17:00 | superligaen | MTK Budapest vs Kisvarda FC
+2026-04-18 19:30 | superligaen | Diosgyori VTK vs Debreceni VSC
+2026-04-18 12:00 | ukrainian premier league | Kolos Kovalivka vs LNZ Cherkasy
+2026-04-18 14:30 | ukrainian premier league | Metalist 1925 Kharkiv vs Kudrivka

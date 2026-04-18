@@ -1,4 +1,4 @@
-RUN MAESTROLOGUE — 2026-04-17 00:08:51
+RUN MAESTROLOGUE — 2026-04-18 14:59:55
 - source_tsv: predictions.tsv
 - run_date: ALL
 - maestro_level: 3
@@ -8,347 +8,1274 @@ MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
 ----------------------------------------------------------
 - generation_weights: TEAM x BET (wr_adj = wr * coef(decided)) + small odd bonus
 - règle: préférer 3L si écart <= 8.00%
-- iterations: 11778 | valid_3L_found: 537 | valid_4L_found: 7799
+- iterations: 9120 | valid_3L_found: 407 | valid_4L_found: 4791
 - top3_size: 10 | top4_size: 10
 
 TOP3 (desc):
-  TOP3[1/10]: score=0.902 (90.2%) | legs=3 | odd=2.52
-  TOP3[2/10]: score=0.902 (90.2%) | legs=3 | odd=2.48
-  TOP3[3/10]: score=0.901 (90.1%) | legs=3 | odd=2.42
-  TOP3[4/10]: score=0.892 (89.2%) | legs=3 | odd=2.53
-  TOP3[5/10]: score=0.892 (89.2%) | legs=3 | odd=2.48
-  TOP3[6/10]: score=0.891 (89.1%) | legs=3 | odd=2.44
-  TOP3[7/10]: score=0.875 (87.5%) | legs=3 | odd=2.42
-  TOP3[8/10]: score=0.868 (86.8%) | legs=3 | odd=2.53
-  TOP3[9/10]: score=0.867 (86.7%) | legs=3 | odd=2.48
-  TOP3[10/10]: score=0.867 (86.7%) | legs=3 | odd=2.44
+  TOP3[1/10]: score=0.801 (80.1%) | legs=3 | odd=2.45
+  TOP3[2/10]: score=0.779 (77.9%) | legs=3 | odd=2.45
+  TOP3[3/10]: score=0.771 (77.1%) | legs=3 | odd=2.45
+  TOP3[4/10]: score=0.764 (76.4%) | legs=3 | odd=2.45
+  TOP3[5/10]: score=0.757 (75.7%) | legs=3 | odd=2.45
+  TOP3[6/10]: score=0.756 (75.6%) | legs=3 | odd=2.45
+  TOP3[7/10]: score=0.751 (75.1%) | legs=3 | odd=2.45
+  TOP3[8/10]: score=0.744 (74.4%) | legs=3 | odd=2.6
+  TOP3[9/10]: score=0.734 (73.4%) | legs=3 | odd=2.45
+  TOP3[10/10]: score=0.719 (71.9%) | legs=3 | odd=2.46
 
 TOP4 (desc):
-  TOP4[1/10]: score=0.899 (89.9%) | legs=4 | odd=2.47
-  TOP4[2/10]: score=0.899 (89.9%) | legs=4 | odd=2.47
-  TOP4[3/10]: score=0.897 (89.7%) | legs=4 | odd=2.52
-  TOP4[4/10]: score=0.897 (89.7%) | legs=4 | odd=2.97
-  TOP4[5/10]: score=0.896 (89.6%) | legs=4 | odd=2.92
-  TOP4[6/10]: score=0.896 (89.6%) | legs=4 | odd=2.41
-  TOP4[7/10]: score=0.896 (89.6%) | legs=4 | odd=2.86
-  TOP4[8/10]: score=0.895 (89.5%) | legs=4 | odd=3.02
-  TOP4[9/10]: score=0.894 (89.4%) | legs=4 | odd=2.97
-  TOP4[10/10]: score=0.894 (89.4%) | legs=4 | odd=2.89
+  TOP4[1/10]: score=0.864 (86.4%) | legs=4 | odd=2.59
+  TOP4[2/10]: score=0.863 (86.3%) | legs=4 | odd=2.59
+  TOP4[3/10]: score=0.859 (85.9%) | legs=4 | odd=2.59
+  TOP4[4/10]: score=0.859 (85.9%) | legs=4 | odd=2.55
+  TOP4[5/10]: score=0.857 (85.7%) | legs=4 | odd=2.45
+  TOP4[6/10]: score=0.857 (85.7%) | legs=4 | odd=2.51
+  TOP4[7/10]: score=0.854 (85.4%) | legs=4 | odd=2.47
+  TOP4[8/10]: score=0.854 (85.4%) | legs=4 | odd=2.45
+  TOP4[9/10]: score=0.853 (85.3%) | legs=4 | odd=2.59
+  TOP4[10/10]: score=0.851 (85.1%) | legs=4 | odd=2.51
 
-DRAW_3L: picked rank=8/10 | score=0.868 (86.8%) | odd=2.53
-DRAW_4L: picked rank=7/10 | score=0.896 (89.6%) | odd=2.86
-- écart relatif: 3.16%
-=> choisi: 3 legs | score=0.868 (86.8%) | final_source=TEAM
+DRAW_3L: picked rank=9/10 | score=0.734 (73.4%) | odd=2.45
+DRAW_4L: picked rank=9/10 | score=0.853 (85.3%) | odd=2.59
+- écart relatif: 13.99%
+=> choisi: 4 legs | score=0.853 (85.3%) | final_source=TEAM
 
 Ticket choisi (aperçu)
 ----------------------
-  1) 20:30 | bundesliga | FC St. Pauli vs 1. FC Köln | O15_FT | odd=1.36
-  2) 23:00 | primera a colombia | Chico vs Deportivo Cali | HT1X_HOME | odd=1.38
-  3) 23:00 | primera a colombia | Jaguares vs Deportivo Pasto | HT1X_HOME | odd=1.35
+  1) 13:00 | 2. bundesliga | Dynamo Dresden vs VfL Bochum | TEAM2_SCORE_FT | odd=1.22
+  2) 13:30 | scottish cup | Dunfermline vs Falkirk | TEAM1_SCORE_FT | odd=1.44
+  3) 15:00 | serie b | Bari vs Venezia | O15_FT | odd=1.18
+  4) 15:00 | serie b | Mantova vs Avellino | TEAM1_SCORE_FT | odd=1.25
 
 MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, TEAM x BET)
 ------------------------------------------------------------------------------
-- score ticket: 0.868 (86.8%)
+- score ticket: 0.853 (85.3%)
 - formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
 
-1) 20:30 | bundesliga | FC St. Pauli vs 1. FC Köln | bet=O15_FT | odd=1.36
-   HOME FC St. Pauli: wr=0.78 dec=14 coef=1.000 => adj=0.781 (78.1%)
-   AWAY 1. FC Köln: wr=0.93 dec=14 coef=1.000 => adj=0.934 (93.4%)
+1) 13:00 | 2. bundesliga | Dynamo Dresden vs VfL Bochum | bet=TEAM2_SCORE_FT | odd=1.22
+   HOME Dynamo Dresden: wr=0.83 dec=6 coef=1.000 => adj=0.833 (83.3%)
+   AWAY VfL Bochum: wr=0.96 dec=5 coef=1.000 => adj=0.963 (96.2%)
+   MEAN match: 0.898 (89.8%)
+
+2) 13:30 | scottish cup | Dunfermline vs Falkirk | bet=TEAM1_SCORE_FT | odd=1.44
+   HOME Dunfermline: wr=0.98 dec=3 coef=0.850 => adj=0.837 (83.7%)
+   AWAY Falkirk: wr=1.00 dec=1 coef=0.700 => adj=0.700 (70.0%)
+   MEAN match: 0.769 (76.9%)
+
+3) 15:00 | serie b | Bari vs Venezia | bet=O15_FT | odd=1.18
+   HOME Bari: wr=0.80 dec=16 coef=1.000 => adj=0.802 (80.2%)
+   AWAY Venezia: wr=0.94 dec=16 coef=1.000 => adj=0.939 (93.9%)
+   MEAN match: 0.871 (87.1%)
+
+4) 15:00 | serie b | Mantova vs Avellino | bet=TEAM1_SCORE_FT | odd=1.25
+   HOME Mantova: wr=0.98 dec=8 coef=1.000 => adj=0.985 (98.5%)
+   AWAY Avellino: wr=0.76 dec=9 coef=1.000 => adj=0.764 (76.4%)
+   MEAN match: 0.875 (87.5%)
+
+
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- generation_weights: TEAM x BET (wr_adj = wr * coef(decided)) + small odd bonus
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 10160 | valid_3L_found: 1588 | valid_4L_found: 8140
+- top3_size: 10 | top4_size: 10
+
+TOP3 (desc):
+  TOP3[1/10]: score=0.836 (83.6%) | legs=3 | odd=2.42
+  TOP3[2/10]: score=0.806 (80.6%) | legs=3 | odd=2.46
+  TOP3[3/10]: score=0.770 (77.0%) | legs=3 | odd=2.41
+  TOP3[4/10]: score=0.733 (73.3%) | legs=3 | odd=2.41
+  TOP3[5/10]: score=0.727 (72.7%) | legs=3 | odd=2.41
+  TOP3[6/10]: score=0.696 (69.6%) | legs=3 | odd=2.44
+  TOP3[7/10]: score=0.624 (62.4%) | legs=3 | odd=2.41
+  TOP3[8/10]: score=0.616 (61.6%) | legs=3 | odd=2.53
+  TOP3[9/10]: score=0.610 (61.0%) | legs=3 | odd=2.53
+  TOP3[10/10]: score=0.610 (61.0%) | legs=3 | odd=2.41
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.892 (89.2%) | legs=4 | odd=2.44
+  TOP4[2/10]: score=0.886 (88.6%) | legs=4 | odd=2.82
+  TOP4[3/10]: score=0.882 (88.2%) | legs=4 | odd=2.82
+  TOP4[4/10]: score=0.881 (88.1%) | legs=4 | odd=2.69
+  TOP4[5/10]: score=0.875 (87.5%) | legs=4 | odd=2.82
+  TOP4[6/10]: score=0.871 (87.1%) | legs=4 | odd=2.82
+  TOP4[7/10]: score=0.869 (86.9%) | legs=4 | odd=2.48
+  TOP4[8/10]: score=0.868 (86.8%) | legs=4 | odd=2.53
+  TOP4[9/10]: score=0.862 (86.2%) | legs=4 | odd=2.66
+  TOP4[10/10]: score=0.859 (85.9%) | legs=4 | odd=2.75
+
+DRAW_3L: picked rank=1/10 | score=0.836 (83.6%) | odd=2.42
+DRAW_4L: picked rank=7/10 | score=0.869 (86.9%) | odd=2.48
+- écart relatif: 3.77%
+=> choisi: 3 legs | score=0.836 (83.6%) | final_source=TEAM
+
+Ticket choisi (aperçu)
+----------------------
+  1) 18:15 | cymru premier league | Barry Town vs The New Saints | TEAM1_SCORE_FT | odd=1.48
+  2) 18:15 | pro league | Charleroi vs Standard Liege | O15_FT | odd=1.28
+  3) 18:30 | laliga2 | Cultural Leonesa vs Cordoba | O15_FT | odd=1.28
+
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.836 (83.6%)
+- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 18:15 | cymru premier league | Barry Town vs The New Saints | bet=TEAM1_SCORE_FT | odd=1.48
+   HOME Barry Town: wr=0.79 dec=5 coef=1.000 => adj=0.789 (79.0%)
+   AWAY The New Saints: wr=0.84 dec=6 coef=1.000 => adj=0.838 (83.8%)
+   MEAN match: 0.814 (81.4%)
+
+2) 18:15 | pro league | Charleroi vs Standard Liege | bet=O15_FT | odd=1.28
+   HOME Charleroi: wr=0.91 dec=11 coef=1.000 => adj=0.905 (90.5%)
+   AWAY Standard Liege: wr=0.81 dec=11 coef=1.000 => adj=0.808 (80.8%)
    MEAN match: 0.857 (85.7%)
 
-2) 23:00 | primera a colombia | Chico vs Deportivo Cali | bet=HT1X_HOME | odd=1.38
-   HOME Chico: wr=0.98 dec=5 coef=1.000 => adj=0.982 (98.2%)
-   AWAY Deportivo Cali: wr=0.73 dec=8 coef=1.000 => adj=0.735 (73.5%)
-   MEAN match: 0.859 (85.9%)
-
-3) 23:00 | primera a colombia | Jaguares vs Deportivo Pasto | bet=HT1X_HOME | odd=1.35
-   HOME Jaguares: wr=0.80 dec=6 coef=1.000 => adj=0.800 (80.0%)
-   AWAY Deportivo Pasto: wr=0.97 dec=8 coef=1.000 => adj=0.975 (97.5%)
-   MEAN match: 0.887 (88.7%)
+3) 18:30 | laliga2 | Cultural Leonesa vs Cordoba | bet=O15_FT | odd=1.28
+   HOME Cultural Leonesa: wr=0.75 dec=16 coef=1.000 => adj=0.745 (74.5%)
+   AWAY Cordoba: wr=0.93 dec=15 coef=1.000 => adj=0.932 (93.2%)
+   MEAN match: 0.839 (83.9%)
 
 
-MAESTROLOGUE — SYSTEM — 2026-04-17
+MAESTROLOGUE — SYSTEM — TOPK uniform draw (3L vs 4L)
+----------------------------------------------------------
+- generation_weights: TEAM x BET (wr_adj = wr * coef(decided)) + small odd bonus
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 10707 | valid_3L_found: 1294 | valid_4L_found: 5942
+- top3_size: 10 | top4_size: 10
+
+TOP3 (desc):
+  TOP3[1/10]: score=0.886 (88.6%) | legs=3 | odd=2.45
+  TOP3[2/10]: score=0.866 (86.6%) | legs=3 | odd=2.66
+  TOP3[3/10]: score=0.864 (86.4%) | legs=3 | odd=2.51
+  TOP3[4/10]: score=0.864 (86.4%) | legs=3 | odd=2.49
+  TOP3[5/10]: score=0.864 (86.4%) | legs=3 | odd=2.59
+  TOP3[6/10]: score=0.858 (85.8%) | legs=3 | odd=2.44
+  TOP3[7/10]: score=0.842 (84.2%) | legs=3 | odd=2.51
+  TOP3[8/10]: score=0.842 (84.2%) | legs=3 | odd=2.49
+  TOP3[9/10]: score=0.841 (84.1%) | legs=3 | odd=2.59
+  TOP3[10/10]: score=0.841 (84.1%) | legs=3 | odd=2.89
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.925 (92.5%) | legs=4 | odd=2.43
+  TOP4[2/10]: score=0.914 (91.4%) | legs=4 | odd=2.65
+  TOP4[3/10]: score=0.914 (91.4%) | legs=4 | odd=2.63
+  TOP4[4/10]: score=0.914 (91.4%) | legs=4 | odd=2.75
+  TOP4[5/10]: score=0.913 (91.3%) | legs=4 | odd=2.49
+  TOP4[6/10]: score=0.913 (91.3%) | legs=4 | odd=2.57
+  TOP4[7/10]: score=0.909 (90.9%) | legs=4 | odd=2.59
+  TOP4[8/10]: score=0.909 (90.9%) | legs=4 | odd=2.44
+  TOP4[9/10]: score=0.908 (90.8%) | legs=4 | odd=2.42
+  TOP4[10/10]: score=0.908 (90.8%) | legs=4 | odd=2.53
+
+DRAW_3L: picked rank=2/10 | score=0.866 (86.6%) | odd=2.66
+DRAW_4L: picked rank=7/10 | score=0.909 (90.9%) | odd=2.59
+- écart relatif: 4.82%
+=> choisi: 3 legs | score=0.866 (86.6%) | final_source=TEAM
+
+Ticket choisi (aperçu)
+----------------------
+  1) 20:45 | serie a italia | AS Roma vs Atalanta | TEAM1_SCORE_FT | odd=1.25
+  2) 21:30 | liga portugal | GIL Vicente vs Guimaraes | TEAM1_SCORE_FT | odd=1.25
+  3) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | TEAM2_SCORE_FT | odd=1.7
+
+MAESTROLOGUE — Détail du score (ticket choisi, SYSTEM, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.866 (86.6%)
+- formule: wr_adj = wr(team x bet) * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 20:45 | serie a italia | AS Roma vs Atalanta | bet=TEAM1_SCORE_FT | odd=1.25
+   HOME AS Roma: wr=0.99 dec=7 coef=1.000 => adj=0.994 (99.4%)
+   AWAY Atalanta: wr=0.86 dec=8 coef=1.000 => adj=0.864 (86.4%)
+   MEAN match: 0.929 (92.9%)
+
+2) 21:30 | liga portugal | GIL Vicente vs Guimaraes | bet=TEAM1_SCORE_FT | odd=1.25
+   HOME GIL Vicente: wr=1.00 dec=7 coef=1.000 => adj=1.000 (100.0%)
+   AWAY Guimaraes: wr=0.99 dec=6 coef=1.000 => adj=0.993 (99.2%)
+   MEAN match: 0.996 (99.6%)
+
+3) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | bet=TEAM2_SCORE_FT | odd=1.7
+   HOME Universidad Catolica: wr=0.73 dec=4 coef=0.925 => adj=0.676 (67.6%)
+   AWAY Libertad: wr=0.72 dec=4 coef=0.925 => adj=0.668 (66.8%)
+   MEAN match: 0.672 (67.2%)
+
+
+MAESTROLOGUE — SYSTEM — 2026-04-18
 ========================================
-- picks_total: 22
-- unique_matches_day: 13
-- rich_day: False
-- max_windows_today: 1
-- windows_count: 1
+- picks_total: 115
+- unique_matches_day: 66
+- rich_day: True
+- max_windows_today: 4
+- windows_count: 4
 - target_odd: 2.4
 - min_accept_odd: 1.8
 - replay_after_last_kickoff: 110 min
 
-WINDOW 1 | 18:30 -> 23:00
-  - raw_window_picks: 22
-  - filtered_window_picks: 22
-  - ok_window: 22
+WINDOW 1 | 02:30 -> 16:30
+  - raw_window_picks: 52
+  - filtered_window_picks: 52
+  - ok_window: 52
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 3.55
+  - max_possible_odd(ok_window): 4.67
   - threshold_used_here: 2.4
   - OK_WINDOW [SYSTEM] picks acceptés :
-    OK 18:30 Sassuolo vs Como | HT05 | odd=1.33 | poids=1.799
-    OK 18:30 Holstein Kiel vs 1. FC Kaiserslautern | HT1X_HOME | odd=1.28 | poids=1.178
-    OK 18:30 Sassuolo vs Como | O15_FT | odd=1.25 | poids=1.535
-    OK 18:30 SV Elversberg vs Karlsruher SC | HT05 | odd=1.22 | poids=1.678
-    OK 18:30 Holstein Kiel vs 1. FC Kaiserslautern | O15_FT | odd=1.2 | poids=1.827
-    OK 19:00 Antalyaspor vs Konyaspor | HT1X_HOME | odd=1.35 | poids=2.070
-    OK 19:00 Fenerbahçe vs Rizespor | HT05 | odd=1.22 | poids=1.652
-    OK 19:00 Fenerbahçe vs Rizespor | O15_FT | odd=1.15 | poids=1.812
-    OK 20:00 PAU vs Guingamp | HT1X_HOME | odd=1.4 | poids=1.628
-    OK 20:00 Ujpest vs Nyiregyhaza | TEAM2_SCORE_FT | odd=1.3 | poids=1.538
-    OK 20:00 Ujpest vs Nyiregyhaza | HT1X_HOME | odd=1.28 | poids=2.056
-    OK 20:00 Ujpest vs Nyiregyhaza | O15_FT | odd=1.25 | poids=1.652
-    OK 20:00 Montpellier vs Grenoble | HT1X_HOME | odd=1.18 | poids=2.036
-    OK 20:00 Rodez vs Amiens | HT1X_HOME | odd=1.17 | poids=1.499
-    OK 20:00 Rodez vs Amiens | TEAM1_SCORE_FT | odd=1.15 | poids=2.030
-    OK 20:30 FC St. Pauli vs 1. FC Köln | O15_FT | odd=1.36 | poids=1.810
-    OK 20:30 FC St. Pauli vs 1. FC Köln | HT1X_HOME | odd=1.33 | poids=1.656
-    OK 21:00 Las Palmas vs Leganes | O15_FT | odd=1.3 | poids=1.607
-    OK 21:00 Las Palmas vs Leganes | TEAM1_SCORE_FT | odd=1.15 | poids=1.782
-    OK 23:00 Chico vs Deportivo Cali | HT1X_HOME | odd=1.38 | poids=2.076
-    OK 23:00 Jaguares vs Deportivo Pasto | HT1X_HOME | odd=1.35 | poids=1.586
-    OK 23:00 Chico vs Deportivo Cali | U35_FT | odd=1.18 | poids=1.543
-Ticket: tranche=1 | cote=2.53 | seuil_local=2.4 | 20:30 → 00:50 | fenêtre=150min
-  1) 20:30 | bundesliga | FC St. Pauli vs 1. FC Köln | O15_FT | odd=1.36
-  2) 23:00 | primera a colombia | Chico vs Deportivo Cali | HT1X_HOME | odd=1.38
-  3) 23:00 | primera a colombia | Jaguares vs Deportivo Pasto | HT1X_HOME | odd=1.35
+    OK 02:30 Emelec vs Guayaquil City FC | U35_FT | odd=1.22 | poids=1.762
+    OK 03:00 Mazatlán vs Club Queretaro | O15_FT | odd=1.25 | poids=1.763
+    OK 03:00 Atletico San Luis vs U.N.A.M. - Pumas | O15_FT | odd=1.22 | poids=1.773
+    OK 03:00 Atletico San Luis vs U.N.A.M. - Pumas | TEAM2_SCORE_FT | odd=1.17 | poids=2.034
+    OK 11:00 FC Orenburg vs Lokomotiv | O15_FT | odd=1.16 | poids=1.016
+    OK 12:00 Kolos Kovalivka vs LNZ Cherkasy | O15_FT | odd=1.62 | poids=1.062
+    OK 12:00 Kolos Kovalivka vs LNZ Cherkasy | TEAM2_SCORE_FT | odd=1.35 | poids=1.035
+    OK 13:00 Dynamo Dresden vs VfL Bochum | TEAM2_SCORE_FT | odd=1.22 | poids=2.044
+    OK 13:00 Arminia Bielefeld vs 1. FC Nürnberg | O15_FT | odd=1.2 | poids=1.711
+    OK 13:00 Dynamo Dresden vs VfL Bochum | O15_FT | odd=1.2 | poids=1.841
+    OK 13:00 Dynamo Dresden vs VfL Bochum | TEAM1_SCORE_FT | odd=1.18 | poids=1.741
+    OK 13:30 Dunfermline vs Falkirk | TEAM1_SCORE_FT | odd=1.44 | poids=1.754
+    OK 13:30 Krylia Sovetov vs CSKA Moscow | TEAM1_SCORE_FT | odd=1.43 | poids=1.043
+    OK 13:30 Krylia Sovetov vs CSKA Moscow | U35_FT | odd=1.34 | poids=1.034
+    OK 13:30 Csikszereda vs Unirea Slobozia | O15_FT | odd=1.3 | poids=1.030
+    OK 13:30 Csikszereda vs Unirea Slobozia | U35_FT | odd=1.28 | poids=1.028
+    OK 13:30 Krylia Sovetov vs CSKA Moscow | O15_FT | odd=1.24 | poids=1.024
+    OK 13:30 Dunfermline vs Falkirk | O15_FT | odd=1.22 | poids=1.022
+    OK 13:30 Csikszereda vs Unirea Slobozia | TEAM1_SCORE_FT | odd=1.19 | poids=1.019
+    OK 13:30 Millwall vs QPR | TEAM1_SCORE_FT | odd=1.15 | poids=2.030
+    OK 14:30 Metalist 1925 Kharkiv vs Kudrivka | U35_FT | odd=1.33 | poids=1.033
+    OK 14:45 Radomiak Radom vs Widzew Łódź | O15_FT | odd=1.35 | poids=1.035
+    OK 14:45 Radomiak Radom vs Widzew Łódź | TEAM2_SCORE_FT | odd=1.3 | poids=1.030
+    OK 15:00 Kifisia vs Asteras Tripolis | O15_FT | odd=1.4 | poids=1.040
+    OK 15:00 Mantova vs Avellino | O15_FT | odd=1.33 | poids=1.643
+    OK 15:00 Cukaricki vs Radnik Surdulica | U35_FT | odd=1.26 | poids=1.026
+    OK 15:00 Mantova vs Avellino | TEAM1_SCORE_FT | odd=1.25 | poids=2.050
+    OK 15:00 Modena vs Frosinone | TEAM2_SCORE_FT | odd=1.25 | poids=2.050
+    OK 15:00 Kifisia vs Asteras Tripolis | TEAM1_SCORE_FT | odd=1.25 | poids=1.025
+    OK 15:00 Cukaricki vs Radnik Surdulica | O15_FT | odd=1.25 | poids=1.025
+    … (liste coupée à 30)
+Ticket: tranche=1 | cote=2.59 | seuil_local=2.4 | 13:00 → 16:50 | fenêtre=120min
+  1) 13:00 | 2. bundesliga | Dynamo Dresden vs VfL Bochum | TEAM2_SCORE_FT | odd=1.22
+  2) 13:30 | scottish cup | Dunfermline vs Falkirk | TEAM1_SCORE_FT | odd=1.44
+  3) 15:00 | serie b | Bari vs Venezia | O15_FT | odd=1.18
+  4) 15:00 | serie b | Mantova vs Avellino | TEAM1_SCORE_FT | odd=1.25
 
-FIN JOURNÉE
-------------------
-- tickets_built: 1 / 1
-- next_window_start: 00:50
-
-MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
-----------------------------------------------------------------
-- build_source: TEAM x BET >= 0.60 (require_data=False)
-- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
-- règle: préférer 3L si écart <= 8.00%
-- iterations: 15072 | valid_3L_found: 1182 | valid_4L_found: 10939
-- top3_size: 10 | top4_size: 10
-- rejected_by_build_gate (approx): 0
-
-TOP3 (desc):
-  TOP3[1/10]: score=0.807 (80.7%) | legs=3 | odd=2.4
-  TOP3[2/10]: score=0.795 (79.5%) | legs=3 | odd=2.48
-  TOP3[3/10]: score=0.793 (79.3%) | legs=3 | odd=2.42
-  TOP3[4/10]: score=0.785 (78.5%) | legs=3 | odd=2.46
-  TOP3[5/10]: score=0.782 (78.2%) | legs=3 | odd=2.4
-  TOP3[6/10]: score=0.779 (77.9%) | legs=3 | odd=2.59
-  TOP3[7/10]: score=0.776 (77.6%) | legs=3 | odd=2.52
-  TOP3[8/10]: score=0.773 (77.3%) | legs=3 | odd=2.53
-  TOP3[9/10]: score=0.772 (77.2%) | legs=3 | odd=2.62
-  TOP3[10/10]: score=0.770 (77.0%) | legs=3 | odd=2.48
-
-TOP4 (desc):
-  TOP4[1/10]: score=0.851 (85.1%) | legs=4 | odd=2.44
-  TOP4[2/10]: score=0.839 (83.9%) | legs=4 | odd=2.55
-  TOP4[3/10]: score=0.838 (83.8%) | legs=4 | odd=2.65
-  TOP4[4/10]: score=0.838 (83.8%) | legs=4 | odd=2.54
-  TOP4[5/10]: score=0.835 (83.5%) | legs=4 | odd=2.55
-  TOP4[6/10]: score=0.835 (83.5%) | legs=4 | odd=2.5
-  TOP4[7/10]: score=0.834 (83.4%) | legs=4 | odd=2.44
-  TOP4[8/10]: score=0.832 (83.2%) | legs=4 | odd=2.44
-  TOP4[9/10]: score=0.832 (83.2%) | legs=4 | odd=2.65
-  TOP4[10/10]: score=0.831 (83.1%) | legs=4 | odd=2.54
-
-DRAW_3L: picked rank=6/10 | score=0.779 (77.9%) | odd=2.59
-DRAW_4L: picked rank=1/10 | score=0.851 (85.1%) | odd=2.44
-- écart relatif: 8.51%
-=> choisi: 4 legs | score=0.851 (85.1%) | final_source=TEAM
-
-Ticket choisi (aperçu)
-----------------------
-  1) 18:30 | 2. bundesliga | Holstein Kiel vs 1. FC Kaiserslautern | O15_FT | odd=1.2
-  2) 19:00 | super lig | Fenerbahçe vs Rizespor | O15_FT | odd=1.15
-  3) 20:30 | bundesliga | FC St. Pauli vs 1. FC Köln | O15_FT | odd=1.36
-  4) 21:00 | laliga2 | Las Palmas vs Leganes | O15_FT | odd=1.3
-
-MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
-------------------------------------------------------------------------------
-- score ticket: 0.851 (85.1%)
-- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
-
-1) 18:30 | 2. bundesliga | Holstein Kiel vs 1. FC Kaiserslautern | bet=O15_FT | odd=1.2
-   HOME Holstein Kiel: wr=0.91 dec=11 coef=1.000 => adj=0.911 (91.1%)
-   AWAY 1. FC Kaiserslautern: wr=0.83 dec=11 coef=1.000 => adj=0.832 (83.2%)
-   MEAN match: 0.872 (87.2%)
-
-2) 19:00 | super lig | Fenerbahçe vs Rizespor | bet=O15_FT | odd=1.15
-   HOME Fenerbahçe: wr=0.92 dec=11 coef=1.000 => adj=0.916 (91.6%)
-   AWAY Rizespor: wr=0.82 dec=11 coef=1.000 => adj=0.823 (82.3%)
-   MEAN match: 0.869 (86.9%)
-
-3) 20:30 | bundesliga | FC St. Pauli vs 1. FC Köln | bet=O15_FT | odd=1.36
-   HOME FC St. Pauli: wr=0.78 dec=14 coef=1.000 => adj=0.781 (78.1%)
-   AWAY 1. FC Köln: wr=0.93 dec=14 coef=1.000 => adj=0.934 (93.4%)
-   MEAN match: 0.857 (85.7%)
-
-4) 21:00 | laliga2 | Las Palmas vs Leganes | bet=O15_FT | odd=1.3
-   HOME Las Palmas: wr=0.86 dec=15 coef=1.000 => adj=0.858 (85.8%)
-   AWAY Leganes: wr=0.75 dec=16 coef=1.000 => adj=0.754 (75.4%)
-   MEAN match: 0.806 (80.6%)
-
-
-MAESTROLOGUE — RANDOM — 2026-04-17
-========================================
-- picks_total: 17
-- unique_matches_day: 17
-- rich_day: False
-- max_windows_today: 1
-- windows_count: 1
-- target_odd: 2.4
-- min_accept_odd: 1.8
-- replay_after_last_kickoff: 110 min
-
-WINDOW 1 | 18:30 -> 23:00
-  - raw_window_picks: 17
-  - filtered_window_picks: 17
-  - ok_window: 17
+WINDOW 2 | 17:00 -> 18:30
+  - raw_window_picks: 30
+  - filtered_window_picks: 30
+  - ok_window: 30
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 3.83
+  - max_possible_odd(ok_window): 4.97
   - threshold_used_here: 2.4
-  - OK_WINDOW [RANDOM] picks acceptés :
-    OK 18:30 Sassuolo vs Como | O15_FT | odd=1.25 | poids=1.000
-    OK 18:30 Holstein Kiel vs 1. FC Kaiserslautern | O15_FT | odd=1.2 | poids=1.000
-    OK 19:00 Antalyaspor vs Konyaspor | O15_FT | odd=1.3 | poids=1.000
-    OK 19:00 Fenerbahçe vs Rizespor | O15_FT | odd=1.15 | poids=1.000
-    OK 20:00 Nancy vs Annecy | O15_FT | odd=1.36 | poids=1.000
-    OK 20:00 Le Mans vs Clermont Foot | O15_FT | odd=1.25 | poids=1.000
-    OK 20:00 Ujpest vs Nyiregyhaza | O15_FT | odd=1.25 | poids=1.000
-    OK 20:00 Rodez vs Amiens | O15_FT | odd=1.22 | poids=1.000
-    OK 20:30 Sampdoria vs Monza | O15_FT | odd=1.4 | poids=1.000
-    OK 20:30 FC St. Pauli vs 1. FC Köln | O15_FT | odd=1.36 | poids=1.000
-    OK 20:30 Real Sociedad II vs Racing Santander | O15_FT | odd=1.18 | poids=1.000
-    OK 20:45 Lens vs Toulouse | O15_FT | odd=1.22 | poids=1.000
-    OK 20:45 Inter vs Cagliari | O15_FT | odd=1.18 | poids=1.000
-    OK 21:00 Blackburn vs Coventry | O15_FT | odd=1.33 | poids=1.000
-    OK 21:00 Las Palmas vs Leganes | O15_FT | odd=1.3 | poids=1.000
-    OK 21:45 Rio Ave vs AVS | O15_FT | odd=1.3 | poids=1.000
-    OK 23:00 Chico vs Deportivo Cali | O15_FT | odd=1.48 | poids=1.000
-Ticket: tranche=1 | cote=2.44 | seuil_local=2.4 | 18:30 → 22:50 | fenêtre=150min
-  1) 18:30 | 2. bundesliga | Holstein Kiel vs 1. FC Kaiserslautern | O15_FT | odd=1.2
-  2) 19:00 | super lig | Fenerbahçe vs Rizespor | O15_FT | odd=1.15
-  3) 20:30 | bundesliga | FC St. Pauli vs 1. FC Köln | O15_FT | odd=1.36
-  4) 21:00 | laliga2 | Las Palmas vs Leganes | O15_FT | odd=1.3
+  - OK_WINDOW [SYSTEM] picks acceptés :
+    OK 17:00 FK Crvena Zvezda vs Vojvodina | U35_FT | odd=1.62 | poids=1.062
+    OK 17:00 WSG Wattens vs SCR Altach | O15_FT | odd=1.4 | poids=1.040
+    OK 17:00 WSG Wattens vs SCR Altach | TEAM2_SCORE_FT | odd=1.36 | poids=1.036
+    OK 17:00 OFI vs Levadiakos | O15_FT | odd=1.35 | poids=1.035
+    OK 17:00 Wolfsberger AC vs FC BW Linz | O15_FT | odd=1.28 | poids=1.028
+    OK 17:00 Novi Pazar vs OFK Beograd | U35_FT | odd=1.26 | poids=1.026
+    OK 17:00 Wolfsberger AC vs FC BW Linz | TEAM1_SCORE_FT | odd=1.25 | poids=1.025
+    OK 17:00 Novi Pazar vs OFK Beograd | O15_FT | odd=1.25 | poids=1.025
+    OK 17:00 Lorient vs Marseille | O15_FT | odd=1.22 | poids=1.863
+    OK 17:00 Novi Pazar vs OFK Beograd | TEAM1_SCORE_FT | odd=1.21 | poids=1.021
+    OK 17:15 Palermo vs Cesena | O15_FT | odd=1.22 | poids=1.722
+    OK 17:30 Gornik Zabrze vs Korona Kielce | U35_FT | odd=1.36 | poids=1.036
+    OK 17:30 Gornik Zabrze vs Korona Kielce | O15_FT | odd=1.28 | poids=1.028
+    OK 17:30 Gornik Zabrze vs Korona Kielce | TEAM1_SCORE_FT | odd=1.16 | poids=1.016
+    OK 18:00 Aris Thessalonikis vs Volos NFC | O15_FT | odd=1.33 | poids=1.033
+    OK 18:00 Aris Thessalonikis vs Volos NFC | U35_FT | odd=1.28 | poids=1.028
+    OK 18:00 Napoli vs Lazio | TEAM1_SCORE_FT | odd=1.15 | poids=1.764
+    OK 18:00 Aris Thessalonikis vs Volos NFC | TEAM1_SCORE_FT | odd=1.15 | poids=1.015
+    OK 18:15 Barry Town vs The New Saints | TEAM1_SCORE_FT | odd=1.48 | poids=1.557
+    OK 18:15 Charleroi vs Standard Liege | O15_FT | odd=1.28 | poids=1.794
+    OK 18:15 Cardiff MET vs Flint Town United | TEAM1_SCORE_FT | odd=1.27 | poids=1.027
+    OK 18:30 Nizhny Novgorod vs Dynamo | TEAM1_SCORE_FT | odd=1.48 | poids=1.048
+    OK 18:30 FK Partizan vs Železničar Pančevo | U35_FT | odd=1.36 | poids=1.036
+    OK 18:30 Cultural Leonesa vs Cordoba | TEAM2_SCORE_FT | odd=1.3 | poids=1.392
+    OK 18:30 Cultural Leonesa vs Cordoba | O15_FT | odd=1.28 | poids=1.733
+    OK 18:30 Tottenham vs Brighton | TEAM1_SCORE_FT | odd=1.25 | poids=1.721
+    OK 18:30 Nizhny Novgorod vs Dynamo | O15_FT | odd=1.25 | poids=1.025
+    OK 18:30 FK Partizan vs Železničar Pančevo | O15_FT | odd=1.25 | poids=1.025
+    OK 18:30 Eintracht Frankfurt vs RB Leipzig | TEAM1_SCORE_FT | odd=1.22 | poids=2.044
+    OK 18:30 Tottenham vs Brighton | TEAM2_SCORE_FT | odd=1.22 | poids=1.600
+Ticket: tranche=2 | cote=2.42 | seuil_local=2.4 | 18:15 → 20:20 | fenêtre=15min
+  1) 18:15 | cymru premier league | Barry Town vs The New Saints | TEAM1_SCORE_FT | odd=1.48
+  2) 18:15 | pro league | Charleroi vs Standard Liege | O15_FT | odd=1.28
+  3) 18:30 | laliga2 | Cultural Leonesa vs Cordoba | O15_FT | odd=1.28
+
+WINDOW 3 | 18:45 -> 20:15
+  - raw_window_picks: 17
+  - filtered_window_picks: 0
+  - ok_window: 0
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 1
+  - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
+  -> MERGE avec WINDOW 4 car cote max insuffisante (1 < min_accept=1.8)
+
+WINDOWS 3->4 (MERGED) | 18:45 -> 23:30
+  - raw_window_picks: 33
+  - filtered_window_picks: 16
+  - ok_window: 16
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 4.09
+  - threshold_used_here: 2.4
+  - OK_WINDOW [SYSTEM] picks acceptés :
+    OK 20:30 Hannover 96 vs SC Paderborn 07 | O15_FT | odd=1.17 | poids=1.676
+    OK 20:30 CF Montreal vs New York Red Bulls | O15_FT | odd=1.17 | poids=1.970
+    OK 20:30 Hannover 96 vs SC Paderborn 07 | TEAM1_SCORE_FT | odd=1.15 | poids=1.615
+    OK 20:45 AS Roma vs Atalanta | TEAM2_SCORE_FT | odd=1.3 | poids=1.763
+    OK 20:45 KV Mechelen vs Anderlecht | TEAM1_SCORE_FT | odd=1.25 | poids=1.631
+    OK 20:45 AS Roma vs Atalanta | TEAM1_SCORE_FT | odd=1.25 | poids=2.050
+    OK 21:00 Atletico Madrid vs Real Sociedad | TEAM2_SCORE_FT | odd=1.36 | poids=1.336
+    OK 21:00 Atletico Madrid vs Real Sociedad | O15_FT | odd=1.28 | poids=1.028
+    OK 21:00 Chelsea vs Manchester United | TEAM2_SCORE_FT | odd=1.22 | poids=2.044
+    OK 21:00 Chelsea vs Manchester United | O15_FT | odd=1.18 | poids=1.974
+    OK 21:00 Atletico Madrid vs Real Sociedad | TEAM1_SCORE_FT | odd=1.15 | poids=1.015
+    OK 21:30 GIL Vicente vs Guimaraes | O15_FT | odd=1.36 | poids=2.001
+    OK 21:30 GIL Vicente vs Guimaraes | TEAM1_SCORE_FT | odd=1.25 | poids=2.050
+    OK 22:15 Instituto Cordoba vs Estudiantes L.P. | U35_FT | odd=1.15 | poids=1.505
+    OK 23:30 Universidad Catolica vs Libertad | TEAM2_SCORE_FT | odd=1.7 | poids=1.070
+    OK 23:30 Universidad Catolica vs Libertad | U35_FT | odd=1.44 | poids=1.630
+Ticket: tranche=3 | cote=2.66 | seuil_local=2.4 | 20:45 → 01:20 | fenêtre=165min
+  1) 20:45 | serie a italia | AS Roma vs Atalanta | TEAM1_SCORE_FT | odd=1.25
+  2) 21:30 | liga portugal | GIL Vicente vs Guimaraes | TEAM1_SCORE_FT | odd=1.25
+  3) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | TEAM2_SCORE_FT | odd=1.7
 
 FIN JOURNÉE
 ------------------
-- tickets_built: 1 / 1
-- next_window_start: 22:50
+- tickets_built: 3 / 4
+- next_window_start: 01:20
 
 MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
 ----------------------------------------------------------------
 - build_source: TEAM x BET >= 0.60 (require_data=False)
 - select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
 - règle: préférer 3L si écart <= 8.00%
-- iterations: 13108 | valid_3L_found: 1555 | valid_4L_found: 12139
+- iterations: 11681 | valid_3L_found: 1376 | valid_4L_found: 9316
 - top3_size: 10 | top4_size: 10
 - rejected_by_build_gate (approx): 0
 
 TOP3 (desc):
-  TOP3[1/10]: score=0.716 (71.6%) | legs=3 | odd=2.49
-  TOP3[2/10]: score=0.714 (71.4%) | legs=3 | odd=2.55
-  TOP3[3/10]: score=0.712 (71.2%) | legs=3 | odd=2.41
-  TOP3[4/10]: score=0.709 (70.9%) | legs=3 | odd=2.44
-  TOP3[5/10]: score=0.709 (70.9%) | legs=3 | odd=2.42
-  TOP3[6/10]: score=0.709 (70.9%) | legs=3 | odd=2.49
-  TOP3[7/10]: score=0.706 (70.6%) | legs=3 | odd=2.45
-  TOP3[8/10]: score=0.704 (70.4%) | legs=3 | odd=2.48
-  TOP3[9/10]: score=0.703 (70.3%) | legs=3 | odd=2.6
-  TOP3[10/10]: score=0.700 (70.0%) | legs=3 | odd=2.64
+  TOP3[1/10]: score=0.787 (78.7%) | legs=3 | odd=2.4
+  TOP3[2/10]: score=0.783 (78.3%) | legs=3 | odd=2.45
+  TOP3[3/10]: score=0.781 (78.1%) | legs=3 | odd=2.48
+  TOP3[4/10]: score=0.781 (78.1%) | legs=3 | odd=2.45
+  TOP3[5/10]: score=0.780 (78.0%) | legs=3 | odd=2.54
+  TOP3[6/10]: score=0.778 (77.8%) | legs=3 | odd=2.45
+  TOP3[7/10]: score=0.777 (77.7%) | legs=3 | odd=2.5
+  TOP3[8/10]: score=0.776 (77.6%) | legs=3 | odd=2.44
+  TOP3[9/10]: score=0.776 (77.6%) | legs=3 | odd=2.45
+  TOP3[10/10]: score=0.775 (77.5%) | legs=3 | odd=2.46
 
 TOP4 (desc):
-  TOP4[1/10]: score=0.754 (75.4%) | legs=4 | odd=2.49
-  TOP4[2/10]: score=0.753 (75.3%) | legs=4 | odd=2.55
-  TOP4[3/10]: score=0.751 (75.1%) | legs=4 | odd=2.55
-  TOP4[4/10]: score=0.749 (74.9%) | legs=4 | odd=2.61
-  TOP4[5/10]: score=0.749 (74.9%) | legs=4 | odd=2.49
-  TOP4[6/10]: score=0.749 (74.9%) | legs=4 | odd=2.59
-  TOP4[7/10]: score=0.747 (74.7%) | legs=4 | odd=2.45
-  TOP4[8/10]: score=0.746 (74.6%) | legs=4 | odd=2.76
-  TOP4[9/10]: score=0.745 (74.5%) | legs=4 | odd=2.48
-  TOP4[10/10]: score=0.745 (74.5%) | legs=4 | odd=2.55
+  TOP4[1/10]: score=0.849 (84.9%) | legs=4 | odd=2.43
+  TOP4[2/10]: score=0.845 (84.5%) | legs=4 | odd=2.4
+  TOP4[3/10]: score=0.845 (84.5%) | legs=4 | odd=2.43
+  TOP4[4/10]: score=0.844 (84.4%) | legs=4 | odd=2.43
+  TOP4[5/10]: score=0.842 (84.2%) | legs=4 | odd=2.49
+  TOP4[6/10]: score=0.842 (84.2%) | legs=4 | odd=2.45
+  TOP4[7/10]: score=0.840 (84.0%) | legs=4 | odd=2.49
+  TOP4[8/10]: score=0.840 (84.0%) | legs=4 | odd=2.4
+  TOP4[9/10]: score=0.839 (83.9%) | legs=4 | odd=2.44
+  TOP4[10/10]: score=0.838 (83.8%) | legs=4 | odd=2.54
 
-DRAW_3L: picked rank=2/10 | score=0.714 (71.4%) | odd=2.55
-DRAW_4L: picked rank=2/10 | score=0.753 (75.3%) | odd=2.55
-- écart relatif: 5.18%
-=> choisi: 3 legs | score=0.714 (71.4%) | final_source=TEAM
+DRAW_3L: picked rank=7/10 | score=0.777 (77.7%) | odd=2.5
+DRAW_4L: picked rank=7/10 | score=0.840 (84.0%) | odd=2.49
+- écart relatif: 7.42%
+=> choisi: 3 legs | score=0.777 (77.7%) | final_source=TEAM
 
 Ticket choisi (aperçu)
 ----------------------
-  1) 20:00 | ligue 2 | Rodez vs Amiens | U35_FT | odd=1.44
-  2) 21:00 | laliga2 | Las Palmas vs Leganes | U35_FT | odd=1.33
-  3) 21:45 | liga portugal | Rio Ave vs AVS | U35_FT | odd=1.33
+  1) 13:00 | 2. bundesliga | Dynamo Dresden vs VfL Bochum | O15_FT | odd=1.2
+  2) 13:30 | championship | Portsmouth vs Leicester | O15_FT | odd=1.36
+  3) 16:00 | super lig | Kocaelispor vs Göztepe | O15_FT | odd=1.53
 
 MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
 ------------------------------------------------------------------------------
-- score ticket: 0.714 (71.4%)
+- score ticket: 0.777 (77.7%)
 - formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
 
-1) 20:00 | ligue 2 | Rodez vs Amiens | bet=U35_FT | odd=1.44
-   HOME Rodez: wr=0.74 dec=13 coef=1.000 => adj=0.742 (74.2%)
-   AWAY Amiens: wr=0.63 dec=13 coef=1.000 => adj=0.635 (63.5%)
-   MEAN match: 0.688 (68.8%)
+1) 13:00 | 2. bundesliga | Dynamo Dresden vs VfL Bochum | bet=O15_FT | odd=1.2
+   HOME Dynamo Dresden: wr=0.84 dec=12 coef=1.000 => adj=0.841 (84.1%)
+   AWAY VfL Bochum: wr=0.91 dec=11 coef=1.000 => adj=0.911 (91.1%)
+   MEAN match: 0.876 (87.6%)
 
-2) 21:00 | laliga2 | Las Palmas vs Leganes | bet=U35_FT | odd=1.33
-   HOME Las Palmas: wr=0.76 dec=15 coef=1.000 => adj=0.757 (75.7%)
-   AWAY Leganes: wr=0.72 dec=16 coef=1.000 => adj=0.719 (71.9%)
-   MEAN match: 0.738 (73.8%)
+2) 13:30 | championship | Portsmouth vs Leicester | bet=O15_FT | odd=1.36
+   HOME Portsmouth: wr=0.68 dec=18 coef=1.000 => adj=0.680 (68.0%)
+   AWAY Leicester: wr=0.88 dec=17 coef=1.000 => adj=0.876 (87.6%)
+   MEAN match: 0.778 (77.8%)
 
-3) 21:45 | liga portugal | Rio Ave vs AVS | bet=U35_FT | odd=1.33
-   HOME Rio Ave: wr=0.74 dec=13 coef=1.000 => adj=0.742 (74.2%)
-   AWAY AVS: wr=0.69 dec=13 coef=1.000 => adj=0.688 (68.8%)
-   MEAN match: 0.715 (71.5%)
+3) 16:00 | super lig | Kocaelispor vs Göztepe | bet=O15_FT | odd=1.53
+   HOME Kocaelispor: wr=0.63 dec=11 coef=1.000 => adj=0.627 (62.7%)
+   AWAY Göztepe: wr=0.73 dec=11 coef=1.000 => adj=0.728 (72.8%)
+   MEAN match: 0.678 (67.8%)
 
 
-MAESTROLOGUE — RANDOM — 2026-04-17
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 22795 | valid_3L_found: 22795 | valid_4L_found: 0
+- top3_size: 1 | top4_size: 0
+- rejected_by_build_gate (approx): 0
+
+TOP3 (desc):
+  TOP3[1/1]: score=0.478 (47.8%) | legs=3 | odd=2.27
+
+TOP4 (desc):
+  (vide)
+
+DRAW_3L: picked rank=1/1 | score=0.478 (47.8%) | odd=2.27
+DRAW_4L: (aucun)
+- écart relatif: —
+=> choisi: 3 legs | score=0.478 (47.8%) | final_source=TEAM
+
+Ticket choisi (aperçu)
+----------------------
+  1) 18:00 | czech first league | Sparta Praha vs FK Jablonec | O15_FT | odd=1.22
+  2) 18:00 | super league greece | Aris Thessalonikis vs Volos NFC | O15_FT | odd=1.33
+  3) 18:00 | serie a italia | Napoli vs Lazio | O15_FT | odd=1.4
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.478 (47.8%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 18:00 | czech first league | Sparta Praha vs FK Jablonec | bet=O15_FT | odd=1.22
+   HOME Sparta Praha: wr=0.80 dec=9 coef=1.000 => adj=0.799 (79.9%)
+   AWAY FK Jablonec: wr=0.67 dec=9 coef=1.000 => adj=0.669 (66.9%)
+   MEAN match: 0.734 (73.4%)
+
+2) 18:00 | super league greece | Aris Thessalonikis vs Volos NFC | bet=O15_FT | odd=1.33
+   HOME Aris Thessalonikis: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+   AWAY Volos NFC: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+   MEAN match: 0.000 (0.0%)
+
+3) 18:00 | serie a italia | Napoli vs Lazio | bet=O15_FT | odd=1.4
+   HOME Napoli: wr=0.76 dec=16 coef=1.000 => adj=0.761 (76.1%)
+   AWAY Lazio: wr=0.64 dec=14 coef=1.000 => adj=0.640 (64.0%)
+   MEAN match: 0.700 (70.0%)
+
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 17588 | valid_3L_found: 209 | valid_4L_found: 8588
+- top3_size: 2 | top4_size: 10
+- rejected_by_build_gate (approx): 7563
+
+TOP3 (desc):
+  TOP3[1/2]: score=0.790 (79.0%) | legs=3 | odd=2.46
+  TOP3[2/2]: score=0.537 (53.7%) | legs=3 | odd=2.4
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.883 (88.3%) | legs=4 | odd=2.5
+  TOP4[2/10]: score=0.865 (86.5%) | legs=4 | odd=2.55
+  TOP4[3/10]: score=0.859 (85.9%) | legs=4 | odd=2.5
+  TOP4[4/10]: score=0.859 (85.9%) | legs=4 | odd=2.48
+  TOP4[5/10]: score=0.845 (84.5%) | legs=4 | odd=2.67
+  TOP4[6/10]: score=0.844 (84.4%) | legs=4 | odd=2.65
+  TOP4[7/10]: score=0.842 (84.2%) | legs=4 | odd=2.51
+  TOP4[8/10]: score=0.842 (84.2%) | legs=4 | odd=2.49
+  TOP4[9/10]: score=0.841 (84.1%) | legs=4 | odd=2.55
+  TOP4[10/10]: score=0.841 (84.1%) | legs=4 | odd=2.53
+
+DRAW_3L: picked rank=2/2 | score=0.537 (53.7%) | odd=2.4
+DRAW_4L: picked rank=9/10 | score=0.841 (84.1%) | odd=2.55
+- écart relatif: 36.16%
+=> choisi: 4 legs | score=0.841 (84.1%) | final_source=TEAM
+
+Ticket choisi (aperçu)
+----------------------
+  1) 20:30 | 2. bundesliga | Hannover 96 vs SC Paderborn 07 | O15_FT | odd=1.17
+  2) 21:00 | premier league | Chelsea vs Manchester United | O15_FT | odd=1.18
+  3) 21:00 | liga pro ecuador | Mushuc Runa SC vs Tecnico Universitario | O15_FT | odd=1.36
+  4) 21:30 | liga portugal | GIL Vicente vs Guimaraes | O15_FT | odd=1.36
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.841 (84.1%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 20:30 | 2. bundesliga | Hannover 96 vs SC Paderborn 07 | bet=O15_FT | odd=1.17
+   HOME Hannover 96: wr=0.74 dec=11 coef=1.000 => adj=0.741 (74.1%)
+   AWAY SC Paderborn 07: wr=0.92 dec=11 coef=1.000 => adj=0.916 (91.6%)
+   MEAN match: 0.828 (82.8%)
+
+2) 21:00 | premier league | Chelsea vs Manchester United | bet=O15_FT | odd=1.18
+   HOME Chelsea: wr=0.92 dec=13 coef=1.000 => adj=0.921 (92.1%)
+   AWAY Manchester United: wr=0.93 dec=13 coef=1.000 => adj=0.929 (92.9%)
+   MEAN match: 0.925 (92.5%)
+
+3) 21:00 | liga pro ecuador | Mushuc Runa SC vs Tecnico Universitario | bet=O15_FT | odd=1.36
+   HOME Mushuc Runa SC: wr=0.64 dec=8 coef=1.000 => adj=0.636 (63.6%)
+   AWAY Tecnico Universitario: wr=0.74 dec=8 coef=1.000 => adj=0.741 (74.1%)
+   MEAN match: 0.689 (68.9%)
+
+4) 21:30 | liga portugal | GIL Vicente vs Guimaraes | bet=O15_FT | odd=1.36
+   HOME GIL Vicente: wr=0.93 dec=13 coef=1.000 => adj=0.925 (92.5%)
+   AWAY Guimaraes: wr=0.92 dec=12 coef=1.000 => adj=0.919 (91.9%)
+   MEAN match: 0.922 (92.2%)
+
+
+MAESTROLOGUE — RANDOM — 2026-04-18
 ========================================
-- picks_total: 12
-- unique_matches_day: 12
-- rich_day: False
-- max_windows_today: 1
-- windows_count: 1
+- picks_total: 83
+- unique_matches_day: 83
+- rich_day: True
+- max_windows_today: 4
+- windows_count: 4
 - target_odd: 2.4
 - min_accept_odd: 1.8
 - replay_after_last_kickoff: 110 min
 
-WINDOW 1 | 18:30 -> 23:00
-  - raw_window_picks: 12
+WINDOW 1 | 03:00 -> 16:30
+  - raw_window_picks: 43
+  - filtered_window_picks: 43
+  - ok_window: 43
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 5.21
+  - threshold_used_here: 2.4
+  - OK_WINDOW [RANDOM] picks acceptés :
+    OK 03:00 Mazatlán vs Club Queretaro | O15_FT | odd=1.25 | poids=1.000
+    OK 03:00 Atletico San Luis vs U.N.A.M. - Pumas | O15_FT | odd=1.22 | poids=1.000
+    OK 11:00 FC Orenburg vs Lokomotiv | O15_FT | odd=1.16 | poids=1.000
+    OK 12:00 Kolos Kovalivka vs LNZ Cherkasy | O15_FT | odd=1.62 | poids=1.000
+    OK 13:00 Arminia Bielefeld vs 1. FC Nürnberg | O15_FT | odd=1.2 | poids=1.000
+    OK 13:00 Dynamo Dresden vs VfL Bochum | O15_FT | odd=1.2 | poids=1.000
+    OK 13:30 Portsmouth vs Leicester | O15_FT | odd=1.36 | poids=1.000
+    OK 13:30 Derby vs Oxford United | O15_FT | odd=1.33 | poids=1.000
+    OK 13:30 Csikszereda vs Unirea Slobozia | O15_FT | odd=1.3 | poids=1.000
+    OK 13:30 Millwall vs QPR | O15_FT | odd=1.25 | poids=1.000
+    OK 13:30 Krylia Sovetov vs CSKA Moscow | O15_FT | odd=1.24 | poids=1.000
+    OK 13:30 Brentford vs Fulham | O15_FT | odd=1.22 | poids=1.000
+    OK 13:30 Dunfermline vs Falkirk | O15_FT | odd=1.22 | poids=1.000
+    OK 14:15 Zalaegerszegi TE vs Kazincbarcikai | O15_FT | odd=1.22 | poids=1.000
+    OK 14:30 Metalist 1925 Kharkiv vs Kudrivka | O15_FT | odd=1.28 | poids=1.000
+    OK 14:45 Radomiak Radom vs Widzew Łódź | O15_FT | odd=1.35 | poids=1.000
+    OK 15:00 Udinese vs Parma | O15_FT | odd=1.42 | poids=1.000
+    OK 15:00 Kifisia vs Asteras Tripolis | O15_FT | odd=1.4 | poids=1.000
+    OK 15:00 Spezia vs Sudtirol | O15_FT | odd=1.36 | poids=1.000
+    OK 15:00 Mantova vs Avellino | O15_FT | odd=1.33 | poids=1.000
+    OK 15:00 Dukla Praha vs Karviná | O15_FT | odd=1.3 | poids=1.000
+    OK 15:00 União de Leiria vs Penafiel | O15_FT | odd=1.28 | poids=1.000
+    OK 15:00 Cukaricki vs Radnik Surdulica | O15_FT | odd=1.25 | poids=1.000
+    OK 15:00 Baník Ostrava vs Bohemians 1905 | O15_FT | odd=1.22 | poids=1.000
+    OK 15:00 Modena vs Frosinone | O15_FT | odd=1.22 | poids=1.000
+    OK 15:00 Bari vs Venezia | O15_FT | odd=1.18 | poids=1.000
+    OK 15:30 Union Berlin vs VfL Wolfsburg | O15_FT | odd=1.28 | poids=1.000
+    OK 15:30 Werder Bremen vs Hamburger SV | O15_FT | odd=1.25 | poids=1.000
+    OK 16:00 Kocaelispor vs Göztepe | O15_FT | odd=1.53 | poids=1.000
+    OK 16:00 Atromitos vs Larisa | O15_FT | odd=1.48 | poids=1.000
+    … (liste coupée à 30)
+Ticket: tranche=1 | cote=2.5 | seuil_local=2.4 | 13:00 → 17:50 | fenêtre=180min
+  1) 13:00 | 2. bundesliga | Dynamo Dresden vs VfL Bochum | O15_FT | odd=1.2
+  2) 13:30 | championship | Portsmouth vs Leicester | O15_FT | odd=1.36
+  3) 16:00 | super lig | Kocaelispor vs Göztepe | O15_FT | odd=1.53
+
+WINDOW 2 | 17:00 -> 18:00
+  - raw_window_picks: 11
+  - filtered_window_picks: 3
+  - ok_window: 3
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 2.27
+  - threshold_used_here: 1.8
+  - OK_WINDOW [RANDOM] picks acceptés :
+    OK 18:00 Napoli vs Lazio | O15_FT | odd=1.4 | poids=1.000
+    OK 18:00 Aris Thessalonikis vs Volos NFC | O15_FT | odd=1.33 | poids=1.000
+    OK 18:00 Sparta Praha vs FK Jablonec | O15_FT | odd=1.22 | poids=1.000
+Ticket: tranche=2 | cote=2.27 | seuil_local=1.8 | 18:00 → 19:50 | fenêtre=0min
+  1) 18:00 | czech first league | Sparta Praha vs FK Jablonec | O15_FT | odd=1.22
+  2) 18:00 | super league greece | Aris Thessalonikis vs Volos NFC | O15_FT | odd=1.33
+  3) 18:00 | serie a italia | Napoli vs Lazio | O15_FT | odd=1.4
+
+WINDOW 3 | 18:15 -> 18:30
+  - raw_window_picks: 10
+  - filtered_window_picks: 0
+  - ok_window: 0
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 1
+  - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
+  -> MERGE avec WINDOW 4 car cote max insuffisante (1 < min_accept=1.8)
+
+WINDOWS 3->4 (MERGED) | 18:15 -> 23:30
+  - raw_window_picks: 29
   - filtered_window_picks: 12
   - ok_window: 12
   - perf_reject: 0
   - out_window: 0
   - no_odd: 0 | odd_too_low: 0
-  - max_possible_odd(ok_window): 3.68
+  - max_possible_odd(ok_window): 3.2
   - threshold_used_here: 2.4
   - OK_WINDOW [RANDOM] picks acceptés :
-    OK 18:30 Sassuolo vs Como | U35_FT | odd=1.38 | poids=1.000
-    OK 20:00 Rodez vs Amiens | U35_FT | odd=1.44 | poids=1.000
-    OK 20:00 Le Mans vs Clermont Foot | U35_FT | odd=1.36 | poids=1.000
-    OK 20:00 Montpellier vs Grenoble | U35_FT | odd=1.36 | poids=1.000
-    OK 20:00 Nancy vs Annecy | U35_FT | odd=1.22 | poids=1.000
-    OK 20:30 Sampdoria vs Monza | U35_FT | odd=1.22 | poids=1.000
-    OK 21:00 Las Palmas vs Leganes | U35_FT | odd=1.33 | poids=1.000
-    OK 21:00 Blackburn vs Coventry | U35_FT | odd=1.3 | poids=1.000
-    OK 21:45 Rio Ave vs AVS | U35_FT | odd=1.33 | poids=1.000
-    OK 22:00 Sportivo Trinidense vs Club Sp. San Lorenzo | U35_FT | odd=1.25 | poids=1.000
-    OK 23:00 Jaguares vs Deportivo Pasto | U35_FT | odd=1.25 | poids=1.000
-    OK 23:00 Chico vs Deportivo Cali | U35_FT | odd=1.18 | poids=1.000
-Ticket: tranche=1 | cote=2.55 | seuil_local=2.4 | 20:00 → 23:35 | fenêtre=105min
-  1) 20:00 | ligue 2 | Rodez vs Amiens | U35_FT | odd=1.44
-  2) 21:00 | laliga2 | Las Palmas vs Leganes | U35_FT | odd=1.33
-  3) 21:45 | liga portugal | Rio Ave vs AVS | U35_FT | odd=1.33
+    OK 20:00 Dinamo Bucuresti vs Universitatea Cluj | O15_FT | odd=1.3 | poids=1.000
+    OK 20:15 Pogon Szczecin vs Lech Poznan | O15_FT | odd=1.17 | poids=1.000
+    OK 20:30 Hannover 96 vs SC Paderborn 07 | O15_FT | odd=1.17 | poids=1.000
+    OK 20:30 CF Montreal vs New York Red Bulls | O15_FT | odd=1.17 | poids=1.000
+    OK 20:45 AS Roma vs Atalanta | O15_FT | odd=1.33 | poids=1.000
+    OK 20:45 KV Mechelen vs Anderlecht | O15_FT | odd=1.25 | poids=1.000
+    OK 21:00 Mushuc Runa SC vs Tecnico Universitario | O15_FT | odd=1.36 | poids=1.000
+    OK 21:00 Atletico Madrid vs Real Sociedad | O15_FT | odd=1.28 | poids=1.000
+    OK 21:00 Chelsea vs Manchester United | O15_FT | odd=1.18 | poids=1.000
+    OK 21:05 Lille vs Nice | O15_FT | odd=1.25 | poids=1.000
+    OK 21:30 GIL Vicente vs Guimaraes | O15_FT | odd=1.36 | poids=1.000
+    OK 23:30 Universidad Catolica vs Libertad | O15_FT | odd=1.2 | poids=1.000
+Ticket: tranche=3 | cote=2.55 | seuil_local=2.4 | 20:30 → 23:20 | fenêtre=60min
+  1) 20:30 | 2. bundesliga | Hannover 96 vs SC Paderborn 07 | O15_FT | odd=1.17
+  2) 21:00 | premier league | Chelsea vs Manchester United | O15_FT | odd=1.18
+  3) 21:00 | liga pro ecuador | Mushuc Runa SC vs Tecnico Universitario | O15_FT | odd=1.36
+  4) 21:30 | liga portugal | GIL Vicente vs Guimaraes | O15_FT | odd=1.36
 
 FIN JOURNÉE
 ------------------
-- tickets_built: 1 / 1
-- next_window_start: 23:35
+- tickets_built: 3 / 4
+- next_window_start: 23:20
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 10384 | valid_3L_found: 2895 | valid_4L_found: 9907
+- top3_size: 10 | top4_size: 10
+- rejected_by_build_gate (approx): 0
+
+TOP3 (desc):
+  TOP3[1/10]: score=0.764 (76.4%) | legs=3 | odd=2.42
+  TOP3[2/10]: score=0.763 (76.3%) | legs=3 | odd=2.49
+  TOP3[3/10]: score=0.749 (74.9%) | legs=3 | odd=2.46
+  TOP3[4/10]: score=0.747 (74.7%) | legs=3 | odd=2.42
+  TOP3[5/10]: score=0.747 (74.7%) | legs=3 | odd=2.49
+  TOP3[6/10]: score=0.745 (74.5%) | legs=3 | odd=2.55
+  TOP3[7/10]: score=0.740 (74.0%) | legs=3 | odd=2.42
+  TOP3[8/10]: score=0.740 (74.0%) | legs=3 | odd=2.71
+  TOP3[9/10]: score=0.739 (73.9%) | legs=3 | odd=2.45
+  TOP3[10/10]: score=0.737 (73.7%) | legs=3 | odd=2.48
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.773 (77.3%) | legs=4 | odd=2.44
+  TOP4[2/10]: score=0.772 (77.2%) | legs=4 | odd=2.92
+  TOP4[3/10]: score=0.771 (77.1%) | legs=4 | odd=2.63
+  TOP4[4/10]: score=0.769 (76.9%) | legs=4 | odd=2.59
+  TOP4[5/10]: score=0.769 (76.9%) | legs=4 | odd=2.69
+  TOP4[6/10]: score=0.769 (76.9%) | legs=4 | odd=2.77
+  TOP4[7/10]: score=0.769 (76.9%) | legs=4 | odd=2.75
+  TOP4[8/10]: score=0.768 (76.8%) | legs=4 | odd=2.6
+  TOP4[9/10]: score=0.768 (76.8%) | legs=4 | odd=2.65
+  TOP4[10/10]: score=0.767 (76.7%) | legs=4 | odd=2.65
+
+DRAW_3L: picked rank=3/10 | score=0.749 (74.9%) | odd=2.46
+DRAW_4L: picked rank=2/10 | score=0.772 (77.2%) | odd=2.92
+- écart relatif: 2.94%
+=> choisi: 3 legs | score=0.749 (74.9%) | final_source=TEAM
+
+Ticket choisi (aperçu)
+----------------------
+  1) 02:30 | liga pro ecuador | Emelec vs Guayaquil City FC | U35_FT | odd=1.22
+  2) 13:30 | scottish cup | Dunfermline vs Falkirk | U35_FT | odd=1.42
+  3) 15:30 | bundesliga | Werder Bremen vs Hamburger SV | U35_FT | odd=1.42
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.749 (74.9%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 02:30 | liga pro ecuador | Emelec vs Guayaquil City FC | bet=U35_FT | odd=1.22
+   HOME Emelec: wr=0.85 dec=8 coef=1.000 => adj=0.850 (85.0%)
+   AWAY Guayaquil City FC: wr=0.85 dec=8 coef=1.000 => adj=0.850 (85.0%)
+   MEAN match: 0.850 (85.0%)
+
+2) 13:30 | scottish cup | Dunfermline vs Falkirk | bet=U35_FT | odd=1.42
+   HOME Dunfermline: wr=0.85 dec=3 coef=0.850 => adj=0.722 (72.2%)
+   AWAY Falkirk: wr=0.85 dec=3 coef=0.850 => adj=0.722 (72.2%)
+   MEAN match: 0.722 (72.2%)
+
+3) 15:30 | bundesliga | Werder Bremen vs Hamburger SV | bet=U35_FT | odd=1.42
+   HOME Werder Bremen: wr=0.70 dec=14 coef=1.000 => adj=0.700 (70.0%)
+   AWAY Hamburger SV: wr=0.65 dec=14 coef=1.000 => adj=0.650 (65.0%)
+   MEAN match: 0.675 (67.5%)
+
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 11147 | valid_3L_found: 9122 | valid_4L_found: 11147
+- top3_size: 10 | top4_size: 10
+- rejected_by_build_gate (approx): 0
+
+TOP3 (desc):
+  TOP3[1/10]: score=0.724 (72.4%) | legs=3 | odd=2.82
+  TOP3[2/10]: score=0.723 (72.3%) | legs=3 | odd=2.62
+  TOP3[3/10]: score=0.722 (72.2%) | legs=3 | odd=2.46
+  TOP3[4/10]: score=0.721 (72.1%) | legs=3 | odd=2.9
+  TOP3[5/10]: score=0.721 (72.1%) | legs=3 | odd=3.17
+  TOP3[6/10]: score=0.720 (72.0%) | legs=3 | odd=2.9
+  TOP3[7/10]: score=0.716 (71.6%) | legs=3 | odd=2.62
+  TOP3[8/10]: score=0.715 (71.5%) | legs=3 | odd=2.46
+  TOP3[9/10]: score=0.714 (71.4%) | legs=3 | odd=3.17
+  TOP3[10/10]: score=0.714 (71.4%) | legs=3 | odd=2.9
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.716 (71.6%) | legs=4 | odd=3.67
+  TOP4[2/10]: score=0.715 (71.5%) | legs=4 | odd=3.44
+  TOP4[3/10]: score=0.714 (71.4%) | legs=4 | odd=4.06
+  TOP4[4/10]: score=0.714 (71.4%) | legs=4 | odd=4.43
+  TOP4[5/10]: score=0.714 (71.4%) | legs=4 | odd=3.2
+  TOP4[6/10]: score=0.713 (71.3%) | legs=4 | odd=4.06
+  TOP4[7/10]: score=0.713 (71.3%) | legs=4 | odd=3.77
+  TOP4[8/10]: score=0.713 (71.3%) | legs=4 | odd=4.11
+  TOP4[9/10]: score=0.713 (71.3%) | legs=4 | odd=3.77
+  TOP4[10/10]: score=0.713 (71.3%) | legs=4 | odd=3.54
+
+DRAW_3L: picked rank=6/10 | score=0.720 (72.0%) | odd=2.9
+DRAW_4L: picked rank=1/10 | score=0.716 (71.6%) | odd=3.67
+- écart relatif: 0.55%
+=> choisi: 3 legs | score=0.720 (72.0%) | final_source=TEAM
+
+Ticket choisi (aperçu)
+----------------------
+  1) 18:15 | pro league | KVC Westerlo vs Genk | U35_FT | odd=1.44
+  2) 18:15 | cymru premier league | Caernarfon Town vs Penybont | U35_FT | odd=1.44
+  3) 18:15 | cymru premier league | Cardiff MET vs Flint Town United | U35_FT | odd=1.4
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.720 (72.0%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 18:15 | pro league | KVC Westerlo vs Genk | bet=U35_FT | odd=1.44
+   HOME KVC Westerlo: wr=0.79 dec=12 coef=1.000 => adj=0.792 (79.2%)
+   AWAY Genk: wr=0.73 dec=12 coef=1.000 => adj=0.733 (73.3%)
+   MEAN match: 0.762 (76.2%)
+
+2) 18:15 | cymru premier league | Caernarfon Town vs Penybont | bet=U35_FT | odd=1.44
+   HOME Caernarfon Town: wr=0.64 dec=10 coef=1.000 => adj=0.640 (64.0%)
+   AWAY Penybont: wr=0.72 dec=11 coef=1.000 => adj=0.723 (72.3%)
+   MEAN match: 0.681 (68.1%)
+
+3) 18:15 | cymru premier league | Cardiff MET vs Flint Town United | bet=U35_FT | odd=1.4
+   HOME Cardiff MET: wr=0.77 dec=9 coef=1.000 => adj=0.772 (77.2%)
+   AWAY Flint Town United: wr=0.66 dec=11 coef=1.000 => adj=0.659 (65.9%)
+   MEAN match: 0.716 (71.6%)
+
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 12312 | valid_3L_found: 5070 | valid_4L_found: 11842
+- top3_size: 10 | top4_size: 10
+- rejected_by_build_gate (approx): 7425
+
+TOP3 (desc):
+  TOP3[1/10]: score=0.751 (75.1%) | legs=3 | odd=2.53
+  TOP3[2/10]: score=0.748 (74.8%) | legs=3 | odd=2.69
+  TOP3[3/10]: score=0.729 (72.9%) | legs=3 | odd=2.86
+  TOP3[4/10]: score=0.721 (72.1%) | legs=3 | odd=2.43
+  TOP3[5/10]: score=0.716 (71.6%) | legs=3 | odd=2.75
+  TOP3[6/10]: score=0.688 (68.8%) | legs=3 | odd=2.49
+  TOP3[7/10]: score=0.532 (53.2%) | legs=3 | odd=2.6
+  TOP3[8/10]: score=0.529 (52.9%) | legs=3 | odd=2.76
+  TOP3[9/10]: score=0.510 (51.0%) | legs=3 | odd=2.94
+  TOP3[10/10]: score=0.501 (50.1%) | legs=3 | odd=2.49
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.774 (77.4%) | legs=4 | odd=2.63
+  TOP4[2/10]: score=0.764 (76.4%) | legs=4 | odd=2.53
+  TOP4[3/10]: score=0.759 (75.9%) | legs=4 | odd=3.09
+  TOP4[4/10]: score=0.750 (75.0%) | legs=4 | odd=2.69
+  TOP4[5/10]: score=0.748 (74.8%) | legs=4 | odd=2.85
+  TOP4[6/10]: score=0.744 (74.4%) | legs=4 | odd=3.29
+  TOP4[7/10]: score=0.742 (74.2%) | legs=4 | odd=3.49
+  TOP4[8/10]: score=0.738 (73.8%) | legs=4 | odd=2.79
+  TOP4[9/10]: score=0.734 (73.4%) | legs=4 | odd=3.17
+  TOP4[10/10]: score=0.732 (73.2%) | legs=4 | odd=3.36
+
+DRAW_3L: picked rank=9/10 | score=0.510 (51.0%) | odd=2.94
+DRAW_4L: picked rank=10/10 | score=0.732 (73.2%) | odd=3.36
+- écart relatif: 30.36%
+=> choisi: 4 legs | score=0.732 (73.2%) | final_source=TEAM
+
+Ticket choisi (aperçu)
+----------------------
+  1) 20:30 | 2. bundesliga | Hannover 96 vs SC Paderborn 07 | U35_FT | odd=1.53
+  2) 23:15 | primera división paraguay | Club Guarani vs Sportivo Luqueno | U35_FT | odd=1.25
+  3) 23:30 | serie a brazil | Vasco DA Gama vs Sao Paulo | U35_FT | odd=1.22
+  4) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | U35_FT | odd=1.44
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.732 (73.2%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 20:30 | 2. bundesliga | Hannover 96 vs SC Paderborn 07 | bet=U35_FT | odd=1.53
+   HOME Hannover 96: wr=0.66 dec=11 coef=1.000 => adj=0.659 (65.9%)
+   AWAY SC Paderborn 07: wr=0.66 dec=11 coef=1.000 => adj=0.659 (65.9%)
+   MEAN match: 0.659 (65.9%)
+
+2) 23:15 | primera división paraguay | Club Guarani vs Sportivo Luqueno | bet=U35_FT | odd=1.25
+   HOME Club Guarani: wr=0.68 dec=12 coef=1.000 => adj=0.675 (67.5%)
+   AWAY Sportivo Luqueno: wr=0.69 dec=13 coef=1.000 => adj=0.688 (68.8%)
+   MEAN match: 0.682 (68.2%)
+
+3) 23:30 | serie a brazil | Vasco DA Gama vs Sao Paulo | bet=U35_FT | odd=1.22
+   HOME Vasco DA Gama: wr=0.71 dec=10 coef=1.000 => adj=0.710 (71.0%)
+   AWAY Sao Paulo: wr=0.85 dec=11 coef=1.000 => adj=0.850 (85.0%)
+   MEAN match: 0.780 (78.0%)
+
+4) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | bet=U35_FT | odd=1.44
+   HOME Universidad Catolica: wr=0.85 dec=8 coef=1.000 => adj=0.850 (85.0%)
+   AWAY Libertad: wr=0.76 dec=8 coef=1.000 => adj=0.762 (76.2%)
+   MEAN match: 0.806 (80.6%)
+
+
+MAESTROLOGUE — RANDOM — 2026-04-18
+========================================
+- picks_total: 72
+- unique_matches_day: 72
+- rich_day: True
+- max_windows_today: 4
+- windows_count: 4
+- target_odd: 2.4
+- min_accept_odd: 1.8
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 02:30 -> 16:30
+  - raw_window_picks: 37
+  - filtered_window_picks: 37
+  - ok_window: 37
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 5.16
+  - threshold_used_here: 2.4
+  - OK_WINDOW [RANDOM] picks acceptés :
+    OK 02:30 Emelec vs Guayaquil City FC | U35_FT | odd=1.22 | poids=1.000
+    OK 03:00 Mazatlán vs Club Queretaro | U35_FT | odd=1.35 | poids=1.000
+    OK 11:00 FC Orenburg vs Lokomotiv | U35_FT | odd=1.49 | poids=1.000
+    OK 12:00 Pacos Ferreira vs Chaves | U35_FT | odd=1.2 | poids=1.000
+    OK 13:30 Brentford vs Fulham | U35_FT | odd=1.42 | poids=1.000
+    OK 13:30 Dunfermline vs Falkirk | U35_FT | odd=1.42 | poids=1.000
+    OK 13:30 Krylia Sovetov vs CSKA Moscow | U35_FT | odd=1.34 | poids=1.000
+    OK 13:30 Derby vs Oxford United | U35_FT | odd=1.28 | poids=1.000
+    OK 13:30 Csikszereda vs Unirea Slobozia | U35_FT | odd=1.28 | poids=1.000
+    OK 13:30 Fatih Karagümrük vs Eyüpspor | U35_FT | odd=1.28 | poids=1.000
+    OK 13:30 Portsmouth vs Leicester | U35_FT | odd=1.25 | poids=1.000
+    OK 14:00 Estac Troyes vs Boulogne | U35_FT | odd=1.44 | poids=1.000
+    OK 14:00 Reims vs RED Star FC 93 | U35_FT | odd=1.25 | poids=1.000
+    OK 14:30 Metalist 1925 Kharkiv vs Kudrivka | U35_FT | odd=1.33 | poids=1.000
+    OK 14:45 Radomiak Radom vs Widzew Łódź | U35_FT | odd=1.25 | poids=1.000
+    OK 15:00 Dukla Praha vs Karviná | U35_FT | odd=1.28 | poids=1.000
+    OK 15:00 Mantova vs Avellino | U35_FT | odd=1.28 | poids=1.000
+    OK 15:00 Cukaricki vs Radnik Surdulica | U35_FT | odd=1.26 | poids=1.000
+    OK 15:00 Spezia vs Sudtirol | U35_FT | odd=1.25 | poids=1.000
+    OK 15:00 Udinese vs Parma | U35_FT | odd=1.22 | poids=1.000
+    OK 15:00 Kifisia vs Asteras Tripolis | U35_FT | odd=1.22 | poids=1.000
+    OK 15:00 Zlin vs Teplice | U35_FT | odd=1.17 | poids=1.000
+    OK 15:30 Werder Bremen vs Hamburger SV | U35_FT | odd=1.42 | poids=1.000
+    OK 16:00 Newcastle vs Bournemouth | U35_FT | odd=1.67 | poids=1.000
+    OK 16:00 Dinamo Zagreb vs HNK Rijeka | U35_FT | odd=1.44 | poids=1.000
+    OK 16:00 Swansea vs Southampton | U35_FT | odd=1.38 | poids=1.000
+    OK 16:00 Watford vs Sheffield Utd | U35_FT | odd=1.38 | poids=1.000
+    OK 16:00 Wrexham vs Stoke City | U35_FT | odd=1.38 | poids=1.000
+    OK 16:00 Hull City vs Birmingham | U35_FT | odd=1.35 | poids=1.000
+    OK 16:00 Leeds vs Wolves | U35_FT | odd=1.35 | poids=1.000
+    … (liste coupée à 30)
+Ticket: tranche=1 | cote=2.46 | seuil_local=2.4 | 02:30 → 17:20 | fenêtre=780min
+  1) 02:30 | liga pro ecuador | Emelec vs Guayaquil City FC | U35_FT | odd=1.22
+  2) 13:30 | scottish cup | Dunfermline vs Falkirk | U35_FT | odd=1.42
+  3) 15:30 | bundesliga | Werder Bremen vs Hamburger SV | U35_FT | odd=1.42
+
+WINDOW 2 | 17:00 -> 18:15
+  - raw_window_picks: 16
+  - filtered_window_picks: 11
+  - ok_window: 11
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 4.69
+  - threshold_used_here: 2.4
+  - OK_WINDOW [RANDOM] picks acceptés :
+    OK 17:30 Gornik Zabrze vs Korona Kielce | U35_FT | odd=1.36 | poids=1.000
+    OK 18:00 Sparta Praha vs FK Jablonec | U35_FT | odd=1.4 | poids=1.000
+    OK 18:00 Aris Thessalonikis vs Volos NFC | U35_FT | odd=1.28 | poids=1.000
+    OK 18:00 Napoli vs Lazio | U35_FT | odd=1.22 | poids=1.000
+    OK 18:15 Haverfordwest County AFC vs llanelli AFC | U35_FT | odd=1.57 | poids=1.000
+    OK 18:15 Barry Town vs The New Saints | U35_FT | odd=1.44 | poids=1.000
+    OK 18:15 Caernarfon Town vs Penybont | U35_FT | odd=1.44 | poids=1.000
+    OK 18:15 KVC Westerlo vs Genk | U35_FT | odd=1.44 | poids=1.000
+    OK 18:15 Cardiff MET vs Flint Town United | U35_FT | odd=1.4 | poids=1.000
+    OK 18:15 Bala Town vs Briton Ferry | U35_FT | odd=1.33 | poids=1.000
+    OK 18:15 Charleroi vs Standard Liege | U35_FT | odd=1.3 | poids=1.000
+Ticket: tranche=2 | cote=2.9 | seuil_local=2.4 | 18:15 → 20:05 | fenêtre=0min
+  1) 18:15 | pro league | KVC Westerlo vs Genk | U35_FT | odd=1.44
+  2) 18:15 | cymru premier league | Caernarfon Town vs Penybont | U35_FT | odd=1.44
+  3) 18:15 | cymru premier league | Cardiff MET vs Flint Town United | U35_FT | odd=1.4
+
+WINDOW 3 | 18:30 -> 19:15
+  - raw_window_picks: 8
+  - filtered_window_picks: 0
+  - ok_window: 0
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 1
+  - threshold_used_here: NONE (même le minimum accepté n'est pas atteignable)
+  -> MERGE avec WINDOW 4 car cote max insuffisante (1 < min_accept=1.8)
+
+WINDOWS 3->4 (MERGED) | 18:30 -> 23:30
+  - raw_window_picks: 19
+  - filtered_window_picks: 8
+  - ok_window: 8
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 4.67
+  - threshold_used_here: 2.4
+  - OK_WINDOW [RANDOM] picks acceptés :
+    OK 20:15 Pogon Szczecin vs Lech Poznan | U35_FT | odd=1.57 | poids=1.000
+    OK 20:30 Hannover 96 vs SC Paderborn 07 | U35_FT | odd=1.53 | poids=1.000
+    OK 20:45 AS Roma vs Atalanta | U35_FT | odd=1.3 | poids=1.000
+    OK 21:00 Atletico Madrid vs Real Sociedad | U35_FT | odd=1.35 | poids=1.000
+    OK 22:15 Instituto Cordoba vs Estudiantes L.P. | U35_FT | odd=1.15 | poids=1.000
+    OK 23:15 Club Guarani vs Sportivo Luqueno | U35_FT | odd=1.25 | poids=1.000
+    OK 23:30 Universidad Catolica vs Libertad | U35_FT | odd=1.44 | poids=1.000
+    OK 23:30 Vasco DA Gama vs Sao Paulo | U35_FT | odd=1.22 | poids=1.000
+Ticket: tranche=3 | cote=3.36 | seuil_local=2.4 | 20:30 → 01:20 | fenêtre=180min
+  1) 20:30 | 2. bundesliga | Hannover 96 vs SC Paderborn 07 | U35_FT | odd=1.53
+  2) 23:15 | primera división paraguay | Club Guarani vs Sportivo Luqueno | U35_FT | odd=1.25
+  3) 23:30 | serie a brazil | Vasco DA Gama vs Sao Paulo | U35_FT | odd=1.22
+  4) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | U35_FT | odd=1.44
+
+FIN JOURNÉE
+------------------
+- tickets_built: 3 / 4
+- next_window_start: 01:20
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 14926 | valid_3L_found: 14926 | valid_4L_found: 14926
+- top3_size: 10 | top4_size: 10
+- rejected_by_build_gate (approx): 11325
+
+TOP3 (desc):
+  TOP3[1/10]: score=0.000 (0.0%) | legs=3 | odd=8.4
+  TOP3[2/10]: score=0.000 (0.0%) | legs=3 | odd=7.62
+  TOP3[3/10]: score=0.000 (0.0%) | legs=3 | odd=6.26
+  TOP3[4/10]: score=0.000 (0.0%) | legs=3 | odd=7.81
+  TOP3[5/10]: score=0.000 (0.0%) | legs=3 | odd=10.56
+  TOP3[6/10]: score=0.000 (0.0%) | legs=3 | odd=5.82
+  TOP3[7/10]: score=0.000 (0.0%) | legs=3 | odd=8.34
+  TOP3[8/10]: score=0.000 (0.0%) | legs=3 | odd=8.19
+  TOP3[9/10]: score=0.000 (0.0%) | legs=3 | odd=6.83
+  TOP3[10/10]: score=0.000 (0.0%) | legs=3 | odd=8.8
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.000 (0.0%) | legs=4 | odd=13.14
+  TOP4[2/10]: score=0.000 (0.0%) | legs=4 | odd=17.93
+  TOP4[3/10]: score=0.000 (0.0%) | legs=4 | odd=12.73
+  TOP4[4/10]: score=0.000 (0.0%) | legs=4 | odd=17.61
+  TOP4[5/10]: score=0.000 (0.0%) | legs=4 | odd=17.21
+  TOP4[6/10]: score=0.000 (0.0%) | legs=4 | odd=13.46
+  TOP4[7/10]: score=0.000 (0.0%) | legs=4 | odd=20.59
+  TOP4[8/10]: score=0.000 (0.0%) | legs=4 | odd=14.35
+  TOP4[9/10]: score=0.000 (0.0%) | legs=4 | odd=18.79
+  TOP4[10/10]: score=0.000 (0.0%) | legs=4 | odd=11.35
+
+DRAW_3L: picked rank=9/10 | score=0.000 (0.0%) | odd=6.83
+DRAW_4L: picked rank=2/10 | score=0.000 (0.0%) | odd=17.93
+- écart relatif: —
+=> choisi: 3 legs | score=0.000 (0.0%) | final_source=TEAM
+
+Ticket choisi (aperçu)
+----------------------
+  1) 11:00 | russian premier league | FC Orenburg vs Lokomotiv | O25_FT | odd=1.63
+  2) 14:30 | ukrainian premier league | Metalist 1925 Kharkiv vs Kudrivka | O25_FT | odd=1.95
+  3) 15:00 | super league greece | Kifisia vs Asteras Tripolis | O25_FT | odd=2.15
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.000 (0.0%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 11:00 | russian premier league | FC Orenburg vs Lokomotiv | bet=O25_FT | odd=1.63
+   HOME FC Orenburg: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+   AWAY Lokomotiv: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+   MEAN match: 0.000 (0.0%)
+
+2) 14:30 | ukrainian premier league | Metalist 1925 Kharkiv vs Kudrivka | bet=O25_FT | odd=1.95
+   HOME Metalist 1925 Kharkiv: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+   AWAY Kudrivka: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+   MEAN match: 0.000 (0.0%)
+
+3) 15:00 | super league greece | Kifisia vs Asteras Tripolis | bet=O25_FT | odd=2.15
+   HOME Kifisia: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+   AWAY Asteras Tripolis: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+   MEAN match: 0.000 (0.0%)
+
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 18876 | valid_3L_found: 18876 | valid_4L_found: 18876
+- top3_size: 10 | top4_size: 5
+- rejected_by_build_gate (approx): 0
+
+TOP3 (desc):
+  TOP3[1/10]: score=0.000 (0.0%) | legs=3 | odd=5.22
+  TOP3[2/10]: score=0.000 (0.0%) | legs=3 | odd=8.08
+  TOP3[3/10]: score=0.000 (0.0%) | legs=3 | odd=7.48
+  TOP3[4/10]: score=0.000 (0.0%) | legs=3 | odd=5.64
+  TOP3[5/10]: score=0.000 (0.0%) | legs=3 | odd=6.06
+  TOP3[6/10]: score=0.000 (0.0%) | legs=3 | odd=5.55
+  TOP3[7/10]: score=0.000 (0.0%) | legs=3 | odd=6.96
+  TOP3[8/10]: score=0.000 (0.0%) | legs=3 | odd=7.96
+  TOP3[9/10]: score=0.000 (0.0%) | legs=3 | odd=5.97
+  TOP3[10/10]: score=0.000 (0.0%) | legs=3 | odd=6.45
+
+TOP4 (desc):
+  TOP4[1/5]: score=0.000 (0.0%) | legs=4 | odd=10.43
+  TOP4[2/5]: score=0.000 (0.0%) | legs=4 | odd=12.13
+  TOP4[3/5]: score=0.000 (0.0%) | legs=4 | odd=14.96
+  TOP4[4/5]: score=0.000 (0.0%) | legs=4 | odd=11.22
+  TOP4[5/5]: score=0.000 (0.0%) | legs=4 | odd=11.93
+
+DRAW_3L: picked rank=6/10 | score=0.000 (0.0%) | odd=5.55
+DRAW_4L: picked rank=4/5 | score=0.000 (0.0%) | odd=11.22
+- écart relatif: —
+=> choisi: 3 legs | score=0.000 (0.0%) | final_source=TEAM
+
+Ticket choisi (aperçu)
+----------------------
+  1) 17:00 | austrian bundesliga | Wolfsberger AC vs FC BW Linz | O25_FT | odd=1.85
+  2) 17:00 | superliga serbia | FK Crvena Zvezda vs Vojvodina | O25_FT | odd=1.5
+  3) 17:00 | super league greece | OFI vs Levadiakos | O25_FT | odd=2
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.000 (0.0%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 17:00 | austrian bundesliga | Wolfsberger AC vs FC BW Linz | bet=O25_FT | odd=1.85
+   HOME Wolfsberger AC: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+   AWAY FC BW Linz: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+   MEAN match: 0.000 (0.0%)
+
+2) 17:00 | superliga serbia | FK Crvena Zvezda vs Vojvodina | bet=O25_FT | odd=1.5
+   HOME FK Crvena Zvezda: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+   AWAY Vojvodina: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+   MEAN match: 0.000 (0.0%)
+
+3) 17:00 | super league greece | OFI vs Levadiakos | bet=O25_FT | odd=2
+   HOME OFI: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+   AWAY Levadiakos: wr=— dec=0 coef=0.000 => adj=0.000 (0.0%)
+   MEAN match: 0.000 (0.0%)
+
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 47160 | valid_3L_found: 0 | valid_4L_found: 0
+- top3_size: 0 | top4_size: 0
+- rejected_by_build_gate (approx): 0
+
+TOP3 (desc):
+  (vide)
+
+TOP4 (desc):
+  (vide)
+
+DRAW_3L: (aucun)
+DRAW_4L: (aucun)
+- écart relatif: —
+=> choisi: aucun (aucune combinaison valide)
+
+MAESTROLOGUE — RANDOM — TopK uniform draw (3L vs 4L)
+----------------------------------------------------------------
+- build_source: TEAM x BET >= 0.60 (require_data=False)
+- select_source: TEAM x BET (wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00)
+- règle: préférer 3L si écart <= 8.00%
+- iterations: 11606 | valid_3L_found: 11606 | valid_4L_found: 11606
+- top3_size: 10 | top4_size: 10
+- rejected_by_build_gate (approx): 7138
+
+TOP3 (desc):
+  TOP3[1/10]: score=0.710 (71.0%) | legs=3 | odd=4.49
+  TOP3[2/10]: score=0.708 (70.8%) | legs=3 | odd=2.99
+  TOP3[3/10]: score=0.701 (70.1%) | legs=3 | odd=4.56
+  TOP3[4/10]: score=0.685 (68.5%) | legs=3 | odd=4.06
+  TOP3[5/10]: score=0.682 (68.2%) | legs=3 | odd=3.96
+  TOP3[6/10]: score=0.675 (67.5%) | legs=3 | odd=6.02
+  TOP3[7/10]: score=0.673 (67.3%) | legs=3 | odd=4.01
+  TOP3[8/10]: score=0.658 (65.8%) | legs=3 | odd=5.36
+  TOP3[9/10]: score=0.657 (65.7%) | legs=3 | odd=3.57
+  TOP3[10/10]: score=0.650 (65.0%) | legs=3 | odd=5.44
+
+TOP4 (desc):
+  TOP4[1/10]: score=0.701 (70.1%) | legs=4 | odd=6.29
+  TOP4[2/10]: score=0.681 (68.1%) | legs=4 | odd=8.31
+  TOP4[3/10]: score=0.680 (68.0%) | legs=4 | odd=5.54
+  TOP4[4/10]: score=0.675 (67.5%) | legs=4 | odd=8.43
+  TOP4[5/10]: score=0.662 (66.2%) | legs=4 | odd=7.51
+  TOP4[6/10]: score=0.532 (53.2%) | legs=4 | odd=10.33
+  TOP4[7/10]: score=0.532 (53.2%) | legs=4 | odd=8.98
+  TOP4[8/10]: score=0.532 (53.2%) | legs=4 | odd=6.96
+  TOP4[9/10]: score=0.531 (53.1%) | legs=4 | odd=4.64
+  TOP4[10/10]: score=0.531 (53.1%) | legs=4 | odd=6.89
+
+DRAW_3L: picked rank=7/10 | score=0.673 (67.3%) | odd=4.01
+DRAW_4L: picked rank=8/10 | score=0.532 (53.2%) | odd=6.96
+- écart relatif: 26.48%
+=> choisi: 3 legs | score=0.673 (67.3%) | final_source=TEAM
+
+Ticket choisi (aperçu)
+----------------------
+  1) 19:15 | schweizer cup | Stade Lausanne-Ouchy vs Grasshoppers | O25_FT | odd=1.85
+  2) 20:30 | mls | CF Montreal vs New York Red Bulls | O25_FT | odd=1.55
+  3) 20:30 | super league switzerland | FC Thun vs FC Basel 1893 | O25_FT | odd=1.4
+
+MAESTROLOGUE — RANDOM — Détail du score (ticket choisi, TEAM x BET)
+------------------------------------------------------------------------------
+- score ticket: 0.673 (67.3%)
+- formule: wr_adj = wr * coef(decided), coef(1)=0.70 → coef(>=5)=1.00
+
+1) 19:15 | schweizer cup | Stade Lausanne-Ouchy vs Grasshoppers | bet=O25_FT | odd=1.85
+   HOME Stade Lausanne-Ouchy: wr=0.85 dec=1 coef=0.700 => adj=0.595 (59.5%)
+   AWAY Grasshoppers: wr=0.85 dec=1 coef=0.700 => adj=0.595 (59.5%)
+   MEAN match: 0.595 (59.5%)
+
+2) 20:30 | mls | CF Montreal vs New York Red Bulls | bet=O25_FT | odd=1.55
+   HOME CF Montreal: wr=0.85 dec=7 coef=1.000 => adj=0.850 (85.0%)
+   AWAY New York Red Bulls: wr=0.65 dec=7 coef=1.000 => adj=0.650 (65.0%)
+   MEAN match: 0.750 (75.0%)
+
+3) 20:30 | super league switzerland | FC Thun vs FC Basel 1893 | bet=O25_FT | odd=1.4
+   HOME FC Thun: wr=0.73 dec=12 coef=1.000 => adj=0.733 (73.3%)
+   AWAY FC Basel 1893: wr=0.62 dec=12 coef=1.000 => adj=0.617 (61.7%)
+   MEAN match: 0.675 (67.5%)
+
+
+MAESTROLOGUE — RANDOM — 2026-04-18
+========================================
+- picks_total: 33
+- unique_matches_day: 33
+- rich_day: True
+- max_windows_today: 4
+- windows_count: 4
+- target_odd: 2.4
+- min_accept_odd: 1.8
+- replay_after_last_kickoff: 110 min
+
+WINDOW 1 | 11:00 -> 15:00
+  - raw_window_picks: 9
+  - filtered_window_picks: 9
+  - ok_window: 9
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 24.83
+  - threshold_used_here: 2.4
+  - OK_WINDOW [RANDOM] picks acceptés :
+    OK 11:00 FC Orenburg vs Lokomotiv | O25_FT | odd=1.63 | poids=1.000
+    OK 12:00 Kolos Kovalivka vs LNZ Cherkasy | O25_FT | odd=2.75 | poids=1.000
+    OK 13:30 Csikszereda vs Unirea Slobozia | O25_FT | odd=2 | poids=1.000
+    OK 13:30 Krylia Sovetov vs CSKA Moscow | O25_FT | odd=1.86 | poids=1.000
+    OK 13:30 Dunfermline vs Falkirk | O25_FT | odd=1.7 | poids=1.000
+    OK 14:30 Metalist 1925 Kharkiv vs Kudrivka | O25_FT | odd=1.95 | poids=1.000
+    OK 14:45 Radomiak Radom vs Widzew Łódź | O25_FT | odd=2.1 | poids=1.000
+    OK 15:00 Kifisia vs Asteras Tripolis | O25_FT | odd=2.15 | poids=1.000
+    OK 15:00 Cukaricki vs Radnik Surdulica | O25_FT | odd=1.92 | poids=1.000
+Ticket: tranche=1 | cote=6.83 | seuil_local=2.4 | 11:00 → 16:50 | fenêtre=240min
+  1) 11:00 | russian premier league | FC Orenburg vs Lokomotiv | O25_FT | odd=1.63
+  2) 14:30 | ukrainian premier league | Metalist 1925 Kharkiv vs Kudrivka | O25_FT | odd=1.95
+  3) 15:00 | super league greece | Kifisia vs Asteras Tripolis | O25_FT | odd=2.15
+
+WINDOW 2 | 15:30 -> 17:00
+  - raw_window_picks: 9
+  - filtered_window_picks: 5
+  - ok_window: 5
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 14.96
+  - threshold_used_here: 2.4
+  - OK_WINDOW [RANDOM] picks acceptés :
+    OK 17:00 WSG Wattens vs SCR Altach | O25_FT | odd=2.15 | poids=1.000
+    OK 17:00 OFI vs Levadiakos | O25_FT | odd=2 | poids=1.000
+    OK 17:00 Novi Pazar vs OFK Beograd | O25_FT | odd=1.88 | poids=1.000
+    OK 17:00 Wolfsberger AC vs FC BW Linz | O25_FT | odd=1.85 | poids=1.000
+    OK 17:00 FK Crvena Zvezda vs Vojvodina | O25_FT | odd=1.5 | poids=1.000
+Ticket: tranche=2 | cote=5.55 | seuil_local=2.4 | 17:00 → 18:50 | fenêtre=0min
+  1) 17:00 | austrian bundesliga | Wolfsberger AC vs FC BW Linz | O25_FT | odd=1.85
+  2) 17:00 | superliga serbia | FK Crvena Zvezda vs Vojvodina | O25_FT | odd=1.5
+  3) 17:00 | super league greece | OFI vs Levadiakos | O25_FT | odd=2
+
+WINDOW 3 | 17:30 -> 19:15
+  - raw_window_picks: 8
+  - filtered_window_picks: 2
+  - ok_window: 2
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 4.25
+  - threshold_used_here: 2.4
+  - OK_WINDOW [RANDOM] picks acceptés :
+    OK 19:00 Panetolikos vs Panserraikos | O25_FT | odd=2.3 | poids=1.000
+    OK 19:15 Stade Lausanne-Ouchy vs Grasshoppers | O25_FT | odd=1.85 | poids=1.000
+  -> MERGE avec WINDOW 4 car aucune combinaison valide sur seuil local 2.4
+
+WINDOWS 3->4 (MERGED) | 17:30 -> 22:30
+  - raw_window_picks: 15
+  - filtered_window_picks: 9
+  - ok_window: 9
+  - perf_reject: 0
+  - out_window: 0
+  - no_odd: 0 | odd_too_low: 0
+  - max_possible_odd(ok_window): 17.87
+  - threshold_used_here: 2.4
+  - OK_WINDOW [RANDOM] picks acceptés :
+    OK 19:00 Panetolikos vs Panserraikos | O25_FT | odd=2.3 | poids=1.000
+    OK 19:15 Stade Lausanne-Ouchy vs Grasshoppers | O25_FT | odd=1.85 | poids=1.000
+    OK 20:00 Dinamo Bucuresti vs Universitatea Cluj | O25_FT | odd=2 | poids=1.000
+    OK 20:15 Pogon Szczecin vs Lech Poznan | O25_FT | odd=1.55 | poids=1.000
+    OK 20:30 CF Montreal vs New York Red Bulls | O25_FT | odd=1.55 | poids=1.000
+    OK 20:30 FC Thun vs FC Basel 1893 | O25_FT | odd=1.4 | poids=1.000
+    OK 21:00 Atletico Madrid vs Real Sociedad | O25_FT | odd=1.85 | poids=1.000
+    OK 21:30 GIL Vicente vs Guimaraes | O25_FT | odd=2.1 | poids=1.000
+    OK 22:30 Colorado Rapids vs Inter Miami | O25_FT | odd=1.38 | poids=1.000
+Ticket: tranche=3 | cote=4.01 | seuil_local=2.4 | 19:15 → 22:20 | fenêtre=75min
+  1) 19:15 | schweizer cup | Stade Lausanne-Ouchy vs Grasshoppers | O25_FT | odd=1.85
+  2) 20:30 | mls | CF Montreal vs New York Red Bulls | O25_FT | odd=1.55
+  3) 20:30 | super league switzerland | FC Thun vs FC Basel 1893 | O25_FT | odd=1.4
+
+FIN JOURNÉE
+------------------
+- tickets_built: 3 / 4
+- next_window_start: 22:20
 
 RUN SUMMARY
-- system: 1 | o15: 1 | o15_super: 1 | u35: 1 | u35_super: 1
+- system: 3 | o15: 3 | o15_super: 4 | u35: 3 | u35_super: 4 | o25: 3 | o25_super: 4
 ----------------------------------------
 

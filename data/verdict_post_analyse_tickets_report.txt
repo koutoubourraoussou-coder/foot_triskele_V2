@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-04-17
+Date run       : 2026-04-18
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (164 ids)
+Whitelist      : ON (167 ids)
 Ignorés (hors whitelist) : 16
-Ignorés (date>=today)    : 3
+Ignorés (date>=today)    : 10
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -1323,10 +1323,18 @@ Ignorés (date>=today)    : 3
    ✅ Leg 2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | Team1 scores (FT) | [MOYEN PLUS] | odd=1.3
    ✅ Leg 3) 21:00 | uefa europa league | Real Betis vs SC Braga | Over 1.5 (FT) | [FORT PLUS] | odd=1.3
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Vendredi 2026-04-17 20:30→00:50 | code=A2 | odd=2.53
+   id=2026-04-17_2030_2441952614_SYS
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 20:30 | bundesliga | FC St. Pauli vs 1. FC Köln | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.36
+   ✅ Leg 2) 23:00 | primera a colombia | Chico vs Deportivo Cali | HT 1X Home | [FORT PLUS] | odd=1.38
+   ❌ Leg 3) 23:00 | primera a colombia | Jaguares vs Deportivo Pasto | HT 1X Home | [MOYEN PLUS] | odd=1.35
+
 ====================================================================
-TOTAL tickets : 158
+TOTAL tickets : 159
 ✅ WIN     : 54
-❌ LOSS    : 102
+❌ LOSS    : 103
 ⏳ PENDING : 2
 ====================================================================
 

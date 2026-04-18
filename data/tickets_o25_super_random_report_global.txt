@@ -1,45 +1,40 @@
-TICKETS TRISKELE — O15_SUPER_RANDOM — depuis predictions.tsv
-============================================================
+O25_SUPER_RANDOM — TICKETS REPORT GLOBAL (HISTORIQUE)
+====================================================
+Ce fichier s'additionne à chaque run. Ne pas effacer.
+Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
 
-📅 Samedi 2026-04-18 — Tranche 1
--------------------------------
+
+
+# ------------------------------------------------------------------
+# APPEND O25_SUPER_RANDOM | 2026-04-18 15:00:01 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-18_1445_26ab22a9b8_O15SR — cote = 3.39 — fenêtre 14:45 → 17:50  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-18_1430_aa68189282_O25SR — cote = 3.61 — fenêtre 14:30 → 17:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 16:00 | championship | Hull City vs Birmingham | Over 1.5 (FT) | FORT | odd=1.28
-  2) 14:45 | ekstraklasa | Radomiak Radom vs Widzew Łódź | Over 1.5 (FT) | MOYEN PLUS | odd=1.35
-  3) 16:00 | russian premier league | Rubin vs Akron | Over 1.5 (FT) | FORT | odd=1.38
-  4) 15:00 | serie a italia | Udinese vs Parma | Over 1.5 (FT) | TRÈS FORT | odd=1.42
+  1) 15:30 | bundesliga | Union Berlin vs VfL Wolfsburg | Over 2.5 (FT) | MOYEN PLUS | odd=1.85
+  2) 14:30 | ukrainian premier league | Metalist 1925 Kharkiv vs Kudrivka | Over 2.5 (FT) | KO | odd=1.95
 
 📅 Samedi 2026-04-18 — Tranche 2
 -------------------------------
-
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-18_1700_bd6a6974a2_O15SR — cote = 2.65 — fenêtre 17:00 → 19:50  
+  🎟️ TICKET 2.1 (A2) — id=2026-04-18_1700_7d01a82fa5_O25SR — cote = 3.22 — fenêtre 17:00 → 18:50  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 17:00 | austrian bundesliga | WSG Wattens vs SCR Altach | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.4
-  2) 18:00 | serie a italia | Napoli vs Lazio | Over 1.5 (FT) | FORT | odd=1.4
-  3) 17:00 | super league greece | OFI vs Levadiakos | Over 1.5 (FT) | TRÈS FORT | odd=1.35
+  1) 17:00 | superliga serbia | FK Crvena Zvezda vs Vojvodina | Over 2.5 (FT) | MOYEN PLUS | odd=1.5
+  2) 17:00 | austrian bundesliga | WSG Wattens vs SCR Altach | Over 2.5 (FT) | TRÈS FORT | odd=2.15
 
 📅 Samedi 2026-04-18 — Tranche 3
 -------------------------------
-
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-18_1900_af6643bb08_O15SR — cote = 3.01 — fenêtre 19:00 → 21:50  
+  🎟️ TICKET 3.1 (A2) — id=2026-04-18_1830_2ab33dfe53_O25SR — cote = 2.68 — fenêtre 18:30 → 20:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 19:30 | serie b | Juve Stabia vs Catanzaro | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36
-  2) 20:00 | ligue 2 | Bastia vs Saint Etienne | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
-  3) 19:15 | schweizer cup | Stade Lausanne-Ouchy vs Grasshoppers | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
-  4) 19:00 | liga portugal 2 | Torreense vs Maritimo | Over 1.5 (FT) | MOYEN PLUS | odd=1.33
+  1) 18:30 | bundesliga | Eintracht Frankfurt vs RB Leipzig | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.45
+  2) 18:30 | russian premier league | Nizhny Novgorod vs Dynamo | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.85
 
 📅 Samedi 2026-04-18 — Tranche 4
 -------------------------------
-
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 4.1 (A2) — id=2026-04-18_2030_444db0f481_O15SR — cote = 2.57 — fenêtre 20:30 → 01:20  
+  🎟️ TICKET 4.1 (A2) — id=2026-04-18_1900_83af62ee64_O25SR — cote = 3.22 — fenêtre 19:00 → 22:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 23:30 | serie a brazil | Vasco DA Gama vs Sao Paulo | Over 1.5 (FT) | EXPLOSION | odd=1.4
-  2) 20:45 | serie a italia | AS Roma vs Atalanta | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
-  3) 20:30 | 2. bundesliga | Hannover 96 vs SC Paderborn 07 | Over 1.5 (FT) | FORT PLUS | odd=1.17
-  4) 21:00 | premier league | Chelsea vs Manchester United | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  1) 20:30 | super league switzerland | FC Thun vs FC Basel 1893 | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.4
+  2) 19:00 | super league greece | Panetolikos vs Panserraikos | Over 2.5 (FT) | KO | odd=2.3

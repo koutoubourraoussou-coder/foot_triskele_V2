@@ -2,10 +2,10 @@
   "portfolio": {
     "strategies": {
       "O15 RANDOM SAFE": {
-        "ba": 1.5,
+        "ba": 1.644,
         "cb": 1.5,
         "ls": 0,
-        "ps": 0.0,
+        "ps": 0.1,
         "mode": "SAFE",
         "ml": 4
       },
@@ -51,6 +51,6 @@
       }
     },
     "reserves": 94.0,
-    "last_updated": "2026-04-16"
+    "last_updated": "2026-04-17"
   }
 }

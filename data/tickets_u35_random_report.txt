@@ -1,12 +1,33 @@
 TICKETS TRISKÈLE — U35_RANDOM_ALL — depuis predictions.tsv
 ==========================================================
 
-📅 Vendredi 2026-04-17 — Tranche 1 (fenêtre ~105min)
----------------------------------------------------
+📅 Samedi 2026-04-18 — Tranche 1 (fenêtre ~780min)
+-------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-17_2000_006dd4316d_U35R — cote = 2.55 — fenêtre 20:00 → 23:35  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-18_0230_bf4105e2f7_U35R — cote = 2.46 — fenêtre 02:30 → 17:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 20:00 | ligue 2 | Rodez vs Amiens | Under 3.5 (FT) | FORT PLUS | odd=1.44
-  2) 21:00 | laliga2 | Las Palmas vs Leganes | Under 3.5 (FT) | EXPLOSION | odd=1.33
-  3) 21:45 | liga portugal | Rio Ave vs AVS | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.33
+  1) 02:30 | liga pro ecuador | Emelec vs Guayaquil City FC | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.22
+  2) 13:30 | scottish cup | Dunfermline vs Falkirk | Under 3.5 (FT) | MOYEN | odd=1.42
+  3) 15:30 | bundesliga | Werder Bremen vs Hamburger SV | Under 3.5 (FT) | FORT PLUS | odd=1.42
+
+📅 Samedi 2026-04-18 — Tranche 2
+-------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-18_1815_c144e1811e_U35R — cote = 2.9 — fenêtre 18:15 → 20:05  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 18:15 | pro league | KVC Westerlo vs Genk | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.44
+  2) 18:15 | cymru premier league | Caernarfon Town vs Penybont | Under 3.5 (FT) | EXPLOSION | odd=1.44
+  3) 18:15 | cymru premier league | Cardiff MET vs Flint Town United | Under 3.5 (FT) | MOYEN PLUS | odd=1.4
+
+📅 Samedi 2026-04-18 — Tranche 3 (fenêtre ~180min)
+-------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-18_2030_186824c623_U35R — cote = 3.36 — fenêtre 20:30 → 01:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:30 | 2. bundesliga | Hannover 96 vs SC Paderborn 07 | Under 3.5 (FT) | TRÈS FORT | odd=1.53
+  2) 23:15 | primera división paraguay | Club Guarani vs Sportivo Luqueno | Under 3.5 (FT) | TRÈS FORT | odd=1.25
+  3) 23:30 | serie a brazil | Vasco DA Gama vs Sao Paulo | Under 3.5 (FT) | EXPLOSION | odd=1.22
+  4) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | Under 3.5 (FT) | FORT PLUS | odd=1.44

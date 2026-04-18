@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_SUPER_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_super_random.tsv
-Date run       : 2026-04-17
+Date run       : 2026-04-18
 Output         : data/verdict_post_analyse_tickets_o15_super_random_report.txt
-Whitelist      : ON (3 ids)
+Whitelist      : ON (7 ids)
 Ignorés (hors whitelist) : 0
-Ignorés (date>=today)    : 4
+Ignorés (date>=today)    : 15
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mardi 2026-04-14 18:45→22:50 | code=A2 | odd=2.76
@@ -26,9 +26,18 @@ Ignorés (date>=today)    : 4
    ❌ Leg 3) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.42
    ✅ Leg 4) 21:00 | uefa europa league | Real Betis vs SC Braga | Over 1.5 (FT) | [FORT PLUS] | odd=1.3
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Vendredi 2026-04-17 18:30→21:50 | code=A2 | odd=2.44
+   id=2026-04-17_1830_1a691a28a0_O15SR
+   legs=4 | WIN=4 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 18:30 | serie a italia | Sassuolo vs Como | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+   ✅ Leg 2) 19:00 | super lig | Fenerbahçe vs Rizespor | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.15
+   ✅ Leg 3) 20:00 | ligue 2 | Montpellier vs Grenoble | Over 1.5 (FT) | [MOYEN] | odd=1.25
+   ✅ Leg 4) 20:00 | ligue 2 | Nancy vs Annecy | Over 1.5 (FT) | [TRÈS FORT] | odd=1.36
+
 ====================================================================
-TOTAL tickets : 2
-✅ WIN     : 1
+TOTAL tickets : 3
+✅ WIN     : 2
 ❌ LOSS    : 1
 ⏳ PENDING : 0
 ====================================================================

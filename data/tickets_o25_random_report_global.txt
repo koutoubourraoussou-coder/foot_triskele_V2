@@ -1,0 +1,35 @@
+O25_RANDOM_ALL — TICKETS REPORT GLOBAL (HISTORIQUE)
+====================================================
+Ce fichier s'additionne à chaque run. Ne pas effacer.
+Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
+
+
+
+# ------------------------------------------------------------------
+# APPEND O25_RANDOM_ALL | 2026-04-18 15:00:01 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-18_1100_abd41c5180_O25R — cote = 6.83 — fenêtre 11:00 → 16:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 11:00 | russian premier league | FC Orenburg vs Lokomotiv | Over 2.5 (FT) | MOYEN PLUS | odd=1.63
+  2) 14:30 | ukrainian premier league | Metalist 1925 Kharkiv vs Kudrivka | Over 2.5 (FT) | KO | odd=1.95
+  3) 15:00 | super league greece | Kifisia vs Asteras Tripolis | Over 2.5 (FT) | MOYEN | odd=2.15
+
+📅 Samedi 2026-04-18 — Tranche 2
+-------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-18_1700_1e8679fdde_O25R — cote = 5.55 — fenêtre 17:00 → 18:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 17:00 | austrian bundesliga | Wolfsberger AC vs FC BW Linz | Over 2.5 (FT) | MOYEN PLUS | odd=1.85
+  2) 17:00 | superliga serbia | FK Crvena Zvezda vs Vojvodina | Over 2.5 (FT) | MOYEN PLUS | odd=1.5
+  3) 17:00 | super league greece | OFI vs Levadiakos | Over 2.5 (FT) | MOYEN PLUS | odd=2
+
+📅 Samedi 2026-04-18 — Tranche 3 (fenêtre ~75min)
+------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-18_1915_a51a45eff9_O25R — cote = 4.01 — fenêtre 19:15 → 22:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 19:15 | schweizer cup | Stade Lausanne-Ouchy vs Grasshoppers | Over 2.5 (FT) | FORT | odd=1.85
+  2) 20:30 | mls | CF Montreal vs New York Red Bulls | Over 2.5 (FT) | MOYEN PLUS | odd=1.55
+  3) 20:30 | super league switzerland | FC Thun vs FC Basel 1893 | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.4
