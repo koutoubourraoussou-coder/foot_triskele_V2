@@ -32,6 +32,22 @@
         "ps": 0.0,
         "mode": "SAFE",
         "ml": 4
+      },
+      "O25 RANDOM SAFE": {
+        "ba": 1.5,
+        "cb": 1.5,
+        "ls": 0,
+        "ps": 0.0,
+        "mode": "SAFE",
+        "ml": 4
+      },
+      "O25 SUPER SAFE": {
+        "ba": 1.5,
+        "cb": 1.5,
+        "ls": 0,
+        "ps": 0.0,
+        "mode": "SAFE",
+        "ml": 4
       }
     },
     "reserves": 94.0,

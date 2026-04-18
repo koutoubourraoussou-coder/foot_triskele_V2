@@ -135,8 +135,10 @@ MATCHS_FAILED_FILE = DATA_DIR / "matchs_failed.txt"
 TICKETS_GLOBAL_REPORT = DATA_DIR / "tickets_report_global.txt"
 TICKETS_O15_GLOBAL_REPORT = DATA_DIR / "tickets_o15_random_report_global.txt"
 TICKETS_U35_GLOBAL_REPORT = DATA_DIR / "tickets_u35_random_report_global.txt"
+TICKETS_O25_GLOBAL_REPORT = DATA_DIR / "tickets_o25_random_report_global.txt"
 TICKETS_O15_SUPER_GLOBAL_REPORT = DATA_DIR / "tickets_o15_super_random_report_global.txt"
 TICKETS_U35_SUPER_GLOBAL_REPORT = DATA_DIR / "tickets_u35_super_random_report_global.txt"
+TICKETS_O25_SUPER_GLOBAL_REPORT = DATA_DIR / "tickets_o25_super_random_report_global.txt"
 PICKS_GLOBAL_REPORT = DATA_DIR / "picks_report_global.txt"
 
 
@@ -435,8 +437,10 @@ def _generate_global_tickets_report_from_predictions() -> None:
     any_sys = False
     any_o15 = False
     any_u35 = False
+    any_o25 = False
     any_o15_super = False
     any_u35_super = False
+    any_o25_super = False
 
     for d in run_dates:
         with _temp_predictions_file_for_date(OUTPUT_TSV_FILE, d) as tmp_path:
@@ -462,6 +466,10 @@ def _generate_global_tickets_report_from_predictions() -> None:
                 _append_text(TICKETS_U35_GLOBAL_REPORT, out.report_u35)
                 any_u35 = True
 
+            if (out.report_o25 or "").strip():
+                _append_text(TICKETS_O25_GLOBAL_REPORT, out.report_o25)
+                any_o25 = True
+
             if (out.report_o15_super or "").strip():
                 _append_text(TICKETS_O15_SUPER_GLOBAL_REPORT, out.report_o15_super)
                 any_o15_super = True
@@ -469,6 +477,10 @@ def _generate_global_tickets_report_from_predictions() -> None:
             if (out.report_u35_super or "").strip():
                 _append_text(TICKETS_U35_SUPER_GLOBAL_REPORT, out.report_u35_super)
                 any_u35_super = True
+
+            if (out.report_o25_super or "").strip():
+                _append_text(TICKETS_O25_SUPER_GLOBAL_REPORT, out.report_o25_super)
+                any_o25_super = True
 
     if any_sys:
         print(f"✅ Tickets (GLOBAL SYSTEM filtré sur dates du run) -> {TICKETS_GLOBAL_REPORT}")
@@ -494,6 +506,16 @@ def _generate_global_tickets_report_from_predictions() -> None:
         print(f"✅ Tickets (GLOBAL U35 SUPER filtré sur dates du run) -> {TICKETS_U35_SUPER_GLOBAL_REPORT}")
     else:
         print("ℹ️ Aucun rapport tickets GLOBAL U35 SUPER écrit (aucune date exploitable).")
+
+    if any_o25:
+        print(f"✅ Tickets (GLOBAL O25 filtré sur dates du run) -> {TICKETS_O25_GLOBAL_REPORT}")
+    else:
+        print("ℹ️ Aucun rapport tickets GLOBAL O25 écrit (aucune date exploitable).")
+
+    if any_o25_super:
+        print(f"✅ Tickets (GLOBAL O25 SUPER filtré sur dates du run) -> {TICKETS_O25_SUPER_GLOBAL_REPORT}")
+    else:
+        print("ℹ️ Aucun rapport tickets GLOBAL O25 SUPER écrit (aucune date exploitable).")
 
 
 def _generate_global_picks_report_from_predictions() -> None:
@@ -784,6 +806,22 @@ def archive_main_outputs() -> None:
                     print(f"   ➜ {u35_super_day_path} (rapport tickets U35 SUPER RANDOM)")
                 else:
                     print("   ⚠️ Report U35 SUPER RANDOM vide -> tickets_u35_super_random_report.txt non écrit.")
+
+                o25_report = (out.report_o25 or "").strip()
+                if o25_report:
+                    o25_day_path = archive_dir / "tickets_o25_random_report.txt"
+                    _write_text(o25_day_path, out.report_o25)
+                    print(f"   ➜ {o25_day_path} (rapport tickets O25 RANDOM)")
+                else:
+                    print("   ⚠️ Report O25 RANDOM vide -> tickets_o25_random_report.txt non écrit.")
+
+                o25_super_report = (out.report_o25_super or "").strip()
+                if o25_super_report:
+                    o25_super_day_path = archive_dir / "tickets_o25_super_random_report.txt"
+                    _write_text(o25_super_day_path, out.report_o25_super)
+                    print(f"   ➜ {o25_super_day_path} (rapport tickets O25 SUPER RANDOM)")
+                else:
+                    print("   ⚠️ Report O25 SUPER RANDOM vide -> tickets_o25_super_random_report.txt non écrit.")
 
             except Exception as e:
                 print(f"   ⚠️ Erreur génération tickets (JOUR {target_date}) : {e}")

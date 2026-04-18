@@ -91,6 +91,11 @@ U35_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE = Path("data/u35_random_pool_effective_glo
 TICKETS_U35_RANDOM_TSV_FILE = Path("data/tickets_u35_random.tsv")
 TICKETS_U35_REPORT_GLOBAL_FILE = Path("data/tickets_u35_random_report_global.txt")
 
+O25_RANDOM_POOL_BASE_GLOBAL_FILE = Path("data/o25_random_pool_base_global.tsv")
+O25_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE = Path("data/o25_random_pool_effective_global.tsv")
+TICKETS_O25_RANDOM_TSV_FILE = Path("data/tickets_o25_random.tsv")
+TICKETS_O25_REPORT_GLOBAL_FILE = Path("data/tickets_o25_random_report_global.txt")
+
 O15_SUPER_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE = Path("data/o15_super_random_pool_effective_global.tsv")
 TICKETS_O15_SUPER_RANDOM_TSV_FILE = Path("data/tickets_o15_super_random.tsv")
 TICKETS_O15_SUPER_RANDOM_REPORT_GLOBAL_FILE = Path("data/tickets_o15_super_random_report_global.txt")
@@ -99,11 +104,18 @@ U35_SUPER_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE = Path("data/u35_super_random_pool_e
 TICKETS_U35_SUPER_RANDOM_TSV_FILE = Path("data/tickets_u35_super_random.tsv")
 TICKETS_U35_SUPER_RANDOM_REPORT_GLOBAL_FILE = Path("data/tickets_u35_super_random_report_global.txt")
 
+O25_SUPER_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE = Path("data/o25_super_random_pool_effective_global.tsv")
+TICKETS_O25_SUPER_RANDOM_TSV_FILE = Path("data/tickets_o25_super_random.tsv")
+TICKETS_O25_SUPER_RANDOM_REPORT_GLOBAL_FILE = Path("data/tickets_o25_super_random_report_global.txt")
+
 # Bet key canon pour O15
 O15_CANON = "O15_FT"
 
 # Bet key canon pour U35
 U35_CANON = "U35_FT"
+
+# Bet key canon pour O25
+O25_CANON = "O25_FT"
 
 # ----------------------------
 # ✅ RÈGLES "SYSTÈME" : PERFORMANCE / WINRATES
@@ -373,20 +385,28 @@ class TicketBuildOutput:
     report_o15: str
     tickets_u35: List[Ticket]
     report_u35: str
+    tickets_o25: List[Ticket]
+    report_o25: str
     tickets_o15_super: List[Ticket]
     report_o15_super: str
     tickets_u35_super: List[Ticket]
     report_u35_super: str
+    tickets_o25_super: List[Ticket]
+    report_o25_super: str
     added_sys: int = 0
     added_o15: int = 0
     added_sys_global: int = 0
     added_o15_global: int = 0
     added_u35: int = 0
     added_u35_global: int = 0
+    added_o25: int = 0
+    added_o25_global: int = 0
     added_o15_super: int = 0
     added_o15_super_global: int = 0
     added_u35_super: int = 0
     added_u35_super_global: int = 0
+    added_o25_super: int = 0
+    added_o25_super_global: int = 0
 
     def __iter__(self):
         yield self.tickets_system
@@ -1681,6 +1701,22 @@ def filter_u35_random_all(picks: List[Pick]) -> List[Pick]:
         bk = (p.bet_key or "").strip().upper()
         is_u35 = (bk == U35_CANON) or ("U35" in bk) or ("UNDER35" in bk) or ("UNDER_3_5" in bk)
         if not is_u35:
+            continue
+        if p.odd is None:
+            continue
+        if p.odd < MIN_ODD:
+            continue
+        out.append(p)
+
+    out.sort(key=lambda x: (_time_to_minutes(x.time_str), -(x.odd or 0.0)))
+    return out
+
+def filter_o25_random_all(picks: List[Pick]) -> List[Pick]:
+    out: List[Pick] = []
+    for p in picks:
+        bk = (p.bet_key or "").strip().upper()
+        is_o25 = (bk == O25_CANON) or ("O25" in bk) or ("OVER25" in bk) or ("OVER_2_5" in bk)
+        if not is_o25:
             continue
         if p.odd is None:
             continue
@@ -3542,6 +3578,7 @@ def generate_tickets_from_tsv(
         tickets_report_path = _run_scoped_or_data("tickets_report.txt")
         tickets_o15_report_path = _run_scoped_or_data("tickets_o15_random_report.txt")
         tickets_u35_report_path = _run_scoped_or_data("tickets_u35_random_report.txt")
+        tickets_o25_report_path = _run_scoped_or_data("tickets_o25_random_report.txt")
 
         suffix = f" — {run_date}" if run_date else ""
         league_bet, team_bet = _load_rankings()
@@ -3850,11 +3887,132 @@ def generate_tickets_from_tsv(
             added_u35_super_global = 0
             report_u35_super = ""
 
+        # ─── O25 RANDOM ──────────────────────────────────────────────────
+        o25_random_pool_base = filter_o25_random_all(picks)
+        o25_random_pool_effective = filter_effective_random_pool(o25_random_pool_base, league_bet, team_bet)
+
+        if not fast_mode:
+            added_o25_random_pool_base = append_playable_picks_to_global(
+                picks=o25_random_pool_base,
+                global_path=O25_RANDOM_POOL_BASE_GLOBAL_FILE,
+                pipeline_name="O25_RANDOM_POOL_BASE",
+                run_date=run_date,
+                source_tsv=tsv_path,
+            )
+            if added_o25_random_pool_base:
+                print(f"📦 [O25_RANDOM_ALL] Pool base exporté : {O25_RANDOM_POOL_BASE_GLOBAL_FILE} (+{added_o25_random_pool_base} lignes)")
+            else:
+                print(f"ℹ️ [O25_RANDOM_ALL] Pool base inchangé : {O25_RANDOM_POOL_BASE_GLOBAL_FILE}")
+
+            added_o25_random_pool_effective = append_playable_picks_to_global(
+                picks=o25_random_pool_effective,
+                global_path=O25_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE,
+                pipeline_name="O25_RANDOM_POOL_EFFECTIVE",
+                run_date=run_date,
+                source_tsv=tsv_path,
+            )
+            if added_o25_random_pool_effective:
+                print(f"📦 [O25_RANDOM_ALL] Pool effectif exporté : {O25_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE} (+{added_o25_random_pool_effective} lignes)")
+            else:
+                print(f"ℹ️ [O25_RANDOM_ALL] Pool effectif inchangé : {O25_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE}")
+
+        tickets_o25 = build_tickets(o25_random_pool_effective, mode="RANDOM")
+
+        if not fast_mode:
+            added_o25 = write_tickets_tsv(tickets_o25, TICKETS_O25_RANDOM_TSV_FILE, id_suffix="O25R")
+            if added_o25:
+                print(f"✅ [O25_RANDOM_ALL] Tickets TSV ajoutés : {TICKETS_O25_RANDOM_TSV_FILE} (+{added_o25} lignes)")
+            else:
+                print("⚠️ [O25_RANDOM_ALL] Aucun ticket TSV écrit (tickets=0 ou dédup).")
+
+            report_o25 = render_tickets_report(
+                tickets_o25,
+                title=f"TICKETS TRISKÈLE{suffix} — O25_RANDOM_ALL — depuis {Path(tsv_path).name}",
+                id_suffix="O25R",
+            )
+            _write_report_robust(
+                run_path=tickets_o25_report_path,
+                data_path=Path("data/tickets_o25_random_report.txt"),
+                text=report_o25,
+            )
+            print(f"📝 [O25_RANDOM_ALL] TicketsReport écrit : {tickets_o25_report_path} + data/tickets_o25_random_report.txt")
+
+            added_o25_global = append_report_to_global(
+                report_text=report_o25,
+                global_path=TICKETS_O25_REPORT_GLOBAL_FILE,
+                pipeline_name="O25_RANDOM_ALL",
+                run_date=run_date,
+                source_tsv=tsv_path,
+            )
+            if added_o25_global:
+                print(f"🧾 [O25_RANDOM_ALL] Global report alimenté : {TICKETS_O25_REPORT_GLOBAL_FILE} (+{added_o25_global} tickets)")
+            else:
+                print(f"ℹ️ [O25_RANDOM_ALL] Global report inchangé (0 nouveau ticket) : {TICKETS_O25_REPORT_GLOBAL_FILE}")
+        else:
+            added_o25 = 0
+            added_o25_global = 0
+            report_o25 = ""
+
+        # ─── O25 SUPER RANDOM ────────────────────────────────────────────
+        o25_super_pool_effective = filter_effective_super_random_pool(o25_random_pool_base, league_bet)
+
+        if not fast_mode:
+            added_o25_super_pool = append_playable_picks_to_global(
+                picks=o25_super_pool_effective,
+                global_path=O25_SUPER_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE,
+                pipeline_name="O25_SUPER_RANDOM_POOL_EFFECTIVE",
+                run_date=run_date,
+                source_tsv=tsv_path,
+            )
+            if added_o25_super_pool:
+                print(f"📦 [O25_SUPER_RANDOM] Pool effectif : {O25_SUPER_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE} (+{added_o25_super_pool})")
+            else:
+                print(f"ℹ️ [O25_SUPER_RANDOM] Pool effectif inchange : {O25_SUPER_RANDOM_POOL_EFFECTIVE_GLOBAL_FILE}")
+
+        tickets_o25_super = build_super_random_tickets(o25_super_pool_effective)
+
+        if not fast_mode:
+            added_o25_super = write_tickets_tsv(tickets_o25_super, TICKETS_O25_SUPER_RANDOM_TSV_FILE, id_suffix="O25SR")
+            if added_o25_super:
+                print(f"✅ [O25_SUPER_RANDOM] Tickets TSV : {TICKETS_O25_SUPER_RANDOM_TSV_FILE} (+{added_o25_super})")
+            else:
+                print("⚠️ [O25_SUPER_RANDOM] Aucun ticket TSV (tickets=0 ou dedup).")
+
+            report_o25_super = render_tickets_report(
+                tickets_o25_super,
+                title=f"TICKETS TRISKELE{suffix} — O25_SUPER_RANDOM — depuis {Path(tsv_path).name}",
+                id_suffix="O25SR",
+            )
+            tickets_o25_super_report_path = _run_scoped_or_data("tickets_o25_super_random_report.txt")
+            _write_report_robust(
+                run_path=tickets_o25_super_report_path,
+                data_path=Path("data/tickets_o25_super_random_report.txt"),
+                text=report_o25_super,
+            )
+            print(f"📝 [O25_SUPER_RANDOM] Report ecrit : {tickets_o25_super_report_path}")
+
+            added_o25_super_global = append_report_to_global(
+                report_text=report_o25_super,
+                global_path=TICKETS_O25_SUPER_RANDOM_REPORT_GLOBAL_FILE,
+                pipeline_name="O25_SUPER_RANDOM",
+                run_date=run_date,
+                source_tsv=tsv_path,
+            )
+            if added_o25_super_global:
+                print(f"🧾 [O25_SUPER_RANDOM] Global alimente : {TICKETS_O25_SUPER_RANDOM_REPORT_GLOBAL_FILE} (+{added_o25_super_global})")
+            else:
+                print(f"ℹ️ [O25_SUPER_RANDOM] Global inchange : {TICKETS_O25_SUPER_RANDOM_REPORT_GLOBAL_FILE}")
+        else:
+            added_o25_super = 0
+            added_o25_super_global = 0
+            report_o25_super = ""
+
         if _maestro_level() >= 1:
             foot = (
                 f"RUN SUMMARY\n"
                 f"- system: {len(tickets_system)} | o15: {len(tickets_o15)} | o15_super: {len(tickets_o15_super)}"
-                f" | u35: {len(tickets_u35)} | u35_super: {len(tickets_u35_super)}\n"
+                f" | u35: {len(tickets_u35)} | u35_super: {len(tickets_u35_super)}"
+                f" | o25: {len(tickets_o25)} | o25_super: {len(tickets_o25_super)}\n"
                 f"{'-'*40}\n\n"
             )
             _write_maestro_log(foot, append=True)
@@ -3866,20 +4024,28 @@ def generate_tickets_from_tsv(
             report_o15=report_o15,
             tickets_u35=tickets_u35,
             report_u35=report_u35,
+            tickets_o25=tickets_o25,
+            report_o25=report_o25,
             tickets_o15_super=tickets_o15_super,
             report_o15_super=report_o15_super,
             tickets_u35_super=tickets_u35_super,
             report_u35_super=report_u35_super,
+            tickets_o25_super=tickets_o25_super,
+            report_o25_super=report_o25_super,
             added_sys=added_sys,
             added_o15=added_o15,
             added_sys_global=added_sys_global,
             added_o15_global=added_o15_global,
             added_u35=added_u35,
             added_u35_global=added_u35_global,
+            added_o25=added_o25,
+            added_o25_global=added_o25_global,
             added_o15_super=added_o15_super,
             added_o15_super_global=added_o15_super_global,
             added_u35_super=added_u35_super,
             added_u35_super_global=added_u35_super_global,
+            added_o25_super=added_o25_super,
+            added_o25_super_global=added_o25_super_global,
         )
 
     finally:

@@ -31,6 +31,8 @@ VERDICT_FILES = {
     "O15_SUPER_RANDOM": ROOT / "data" / "verdict_post_analyse_tickets_o15_super_random_report.txt",
     "U35_RANDOM":       ROOT / "data" / "verdict_post_analyse_tickets_u35_random_report.txt",
     "U35_SUPER_RANDOM": ROOT / "data" / "verdict_post_analyse_tickets_u35_super_random_report.txt",
+    "O25_RANDOM":       ROOT / "data" / "verdict_post_analyse_tickets_o25_random_report.txt",
+    "O25_SUPER_RANDOM": ROOT / "data" / "verdict_post_analyse_tickets_o25_super_random_report.txt",
 }
 
 # Stratégie affectée par chaque pipeline
@@ -39,6 +41,8 @@ _STRAT_FOR = {
     "O15_SUPER_RANDOM": "O15 SUPER SAFE",
     "U35_RANDOM":       "U35 RANDOM SAFE",
     "U35_SUPER_RANDOM": "U35 SUPER SAFE",
+    "O25_RANDOM":       "O25 RANDOM SAFE",
+    "O25_SUPER_RANDOM": "O25 SUPER SAFE",
 }
 
 # Mise initiale par stratégie (pour restart réserves)

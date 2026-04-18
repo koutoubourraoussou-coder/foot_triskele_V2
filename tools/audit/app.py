@@ -843,17 +843,23 @@ with tab1:
     df_o15_super = load_tickets_dataset("tickets_o15_super_random_report_global.txt", period_start, period_end)
     df_u35_rand  = load_tickets_dataset("tickets_u35_random_report_global.txt", period_start, period_end)
     df_u35_super = load_tickets_dataset("tickets_u35_super_random_report_global.txt", period_start, period_end)
+    df_o25_rand  = load_tickets_dataset("tickets_o25_random_report_global.txt", period_start, period_end)
+    df_o25_super = load_tickets_dataset("tickets_o25_super_random_report_global.txt", period_start, period_end)
 
     # Verdicts correspondants
     dv_o15_rand  = collect_verdict_mapping("verdict_post_analyse_tickets_o15_random_report.txt", period_start, period_end)
     dv_o15_super = collect_verdict_mapping("verdict_post_analyse_tickets_o15_super_random_report.txt", period_start, period_end)
     dv_u35_rand  = collect_verdict_mapping("verdict_post_analyse_tickets_u35_random_report.txt", period_start, period_end)
     dv_u35_super = collect_verdict_mapping("verdict_post_analyse_tickets_u35_super_random_report.txt", period_start, period_end)
+    dv_o25_rand  = collect_verdict_mapping("verdict_post_analyse_tickets_o25_random_report.txt", period_start, period_end)
+    dv_o25_super = collect_verdict_mapping("verdict_post_analyse_tickets_o25_super_random_report.txt", period_start, period_end)
 
     df_o15_rand  = sort_tickets_for_display(attach_verdict(df_o15_rand,  dv_o15_rand))
     df_o15_super = sort_tickets_for_display(attach_verdict(df_o15_super, dv_o15_super))
     df_u35_rand  = sort_tickets_for_display(attach_verdict(df_u35_rand,  dv_u35_rand))
     df_u35_super = sort_tickets_for_display(attach_verdict(df_u35_super, dv_u35_super))
+    df_o25_rand  = sort_tickets_for_display(attach_verdict(df_o25_rand,  dv_o25_rand))
+    df_o25_super = sort_tickets_for_display(attach_verdict(df_o25_super, dv_o25_super))
 
     def _render_ticket_col(df, label, expander_label):
         st.subheader(label)
@@ -873,16 +879,21 @@ with tab1:
         else:
             st.warning(f"Aucun ticket {label} trouvé sur cette période.")
 
-    col1, col2, col3, col4 = st.columns(4)
-
+    col1, col2, col3 = st.columns(3)
     with col1:
         _render_ticket_col(df_o15_rand,  "🎲 O1.5 Random",       "Voir le détail (O1.5 Random)")
     with col2:
         _render_ticket_col(df_o15_super, "🎲 O1.5 Super Random",  "Voir le détail (O1.5 Super Random)")
     with col3:
-        _render_ticket_col(df_u35_rand,  "🔒 -3.5 Random",        "Voir le détail (-3.5 Random)")
+        _render_ticket_col(df_o25_rand,  "🎲 O2.5 Random",        "Voir le détail (O2.5 Random)")
+
+    col4, col5, col6 = st.columns(3)
     with col4:
-        _render_ticket_col(df_u35_super, "🔒 -3.5 Super Random",   "Voir le détail (-3.5 Super Random)")
+        _render_ticket_col(df_o25_super, "🎲 O2.5 Super Random",  "Voir le détail (O2.5 Super Random)")
+    with col5:
+        _render_ticket_col(df_u35_rand,  "🔒 -3.5 Random",        "Voir le détail (-3.5 Random)")
+    with col6:
+        _render_ticket_col(df_u35_super, "🔒 -3.5 Super Random",  "Voir le détail (-3.5 Super Random)")
 
 
 with tab2:
@@ -893,10 +904,14 @@ with tab2:
         [
             "tickets_o15_random_report.txt",
             "tickets_o15_super_random_report.txt",
+            "tickets_o25_random_report.txt",
+            "tickets_o25_super_random_report.txt",
             "tickets_u35_random_report.txt",
             "tickets_u35_super_random_report.txt",
             "verdict_post_analyse_tickets_o15_random_report.txt",
             "verdict_post_analyse_tickets_o15_super_random_report.txt",
+            "verdict_post_analyse_tickets_o25_random_report.txt",
+            "verdict_post_analyse_tickets_o25_super_random_report.txt",
             "verdict_post_analyse_tickets_u35_random_report.txt",
             "verdict_post_analyse_tickets_u35_super_random_report.txt",
         ]
@@ -1102,6 +1117,8 @@ _PORTFOLIO_CONFIGS = {
             "O15 SUPER SAFE":  {"mode": "SAFE", "ml": 4, "ba": 1.50},
             "U35 RANDOM SAFE": {"mode": "SAFE", "ml": 4, "ba": 1.50},
             "U35 SUPER SAFE":  {"mode": "SAFE", "ml": 4, "ba": 1.50},
+            "O25 RANDOM SAFE": {"mode": "SAFE", "ml": 4, "ba": 1.50},
+            "O25 SUPER SAFE":  {"mode": "SAFE", "ml": 4, "ba": 1.50},
         },
     },
 }
@@ -1202,12 +1219,16 @@ with tab4:
         "O15 SUPER RANDOM": ROOT / "data" / "tickets_o15_super_random_report.txt",
         "U35 RANDOM":       ROOT / "data" / "tickets_u35_random_report.txt",
         "U35 SUPER RANDOM": ROOT / "data" / "tickets_u35_super_random_report.txt",
+        "O25 RANDOM":       ROOT / "data" / "tickets_o25_random_report.txt",
+        "O25 SUPER RANDOM": ROOT / "data" / "tickets_o25_super_random_report.txt",
     }
     TICKET_STRATS = {
         "O15 RANDOM":       ["O15 RANDOM SAFE"],
         "O15 SUPER RANDOM": ["O15 SUPER SAFE"],
         "U35 RANDOM":       ["U35 RANDOM SAFE"],
         "U35 SUPER RANDOM": ["U35 SUPER SAFE"],
+        "O25 RANDOM":       ["O25 RANDOM SAFE"],
+        "O25 SUPER RANDOM": ["O25 SUPER SAFE"],
     }
 
     dual_state = _load_dual_state()
