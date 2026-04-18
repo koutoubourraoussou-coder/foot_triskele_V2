@@ -1802,7 +1802,8 @@ def _build_super_random_ticket_for_one_day(day_picks: List[Pick]) -> Optional[Ti
 
 def build_super_random_tickets(by_date_sorted: List[Pick]) -> List[Ticket]:
     """
-    Un ticket SUPER RANDOM par jour (selection aleatoire pure, gate league seul).
+    Un ticket SUPER RANDOM par fenêtre (selection aleatoire pure, gate league seul).
+    Découpe la journée en fenêtres comme le pipeline RANDOM normal.
     """
     by_date: Dict[str, List[Pick]] = {}
     for p in by_date_sorted:
@@ -1810,10 +1811,21 @@ def build_super_random_tickets(by_date_sorted: List[Pick]) -> List[Ticket]:
 
     out: List[Ticket] = []
     for d in sorted(by_date.keys()):
-        day_picks = by_date[d]
-        t = _build_super_random_ticket_for_one_day(day_picks)
-        if t is not None:
-            out.append(t)
+        day_picks = sorted(by_date[d], key=lambda x: (_time_to_minutes(x.time_str), -(x.odd or 0.0)))
+
+        cfg = T()
+        day_match_count = _unique_match_count(day_picks)
+        is_rich = day_match_count >= cfg.rich_day_match_count
+        max_windows_today = cfg.day_max_windows_rich if is_rich else cfg.day_max_windows_poor
+        max_tickets_today = max(1, int(max_windows_today or 1))
+
+        windows = _build_day_tranches(day_picks, max_windows=max_tickets_today)
+
+        for win_idx, window in enumerate(windows):
+            t = _build_super_random_ticket_for_one_day(window.picks)
+            if t is not None:
+                t.group_no = win_idx + 1
+                out.append(t)
 
     return out
 
