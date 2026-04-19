@@ -1824,6 +1824,7 @@ def build_super_random_tickets(by_date_sorted: List[Pick]) -> List[Ticket]:
         for win_idx, window in enumerate(windows):
             t = _build_super_random_ticket_for_one_day(window.picks)
             if t is not None:
+                t.picks = sorted(t.picks, key=lambda p: _time_to_minutes(p.time_str))
                 t.group_no = win_idx + 1
                 out.append(t)
 
@@ -2774,10 +2775,10 @@ def _try_build_ticket_random(
             used_matches.add(mk)
             total *= (p.odd or 1.0)
 
-            if len(chosen) >= wanted_legs:
+            if total >= threshold or len(chosen) >= wanted_legs:
                 break
 
-        if len(chosen) != wanted_legs:
+        if not chosen:
             return None
         if total < threshold:
             return None
@@ -3408,6 +3409,42 @@ def _extract_ticket_blocks(report_text: str) -> Dict[str, str]:
 
     return blocks
 
+def _sort_global_report_file(path: Path) -> None:
+    """Réécrit le fichier global trié par date du premier ticket de chaque bloc APPEND."""
+    if not path.exists() or path.stat().st_size == 0:
+        return
+
+    text = path.read_text(encoding="utf-8", errors="ignore")
+
+    split_marker = "\n\n# ------------------------------------------------------------------\n# APPEND "
+    if split_marker not in text:
+        return
+
+    idx = text.index(split_marker)
+    header = text[:idx]
+    rest = text[idx:]
+
+    raw_blocks = rest.split(split_marker)
+    raw_blocks = [b for b in raw_blocks if b.strip()]
+
+    _tid_re = re.compile(r"id=(\d{4}-\d{2}-\d{2}[\w_]+)")
+
+    def _min_ticket_date(block: str) -> str:
+        ids = _tid_re.findall(block)
+        return min(ids) if ids else "9999-99-99"
+
+    sorted_blocks = sorted(raw_blocks, key=_min_ticket_date)
+
+    result = header
+    for block in sorted_blocks:
+        result += split_marker + block
+
+    if not result.endswith("\n"):
+        result += "\n"
+
+    path.write_text(result, encoding="utf-8")
+
+
 def append_report_to_global(
     *,
     report_text: str,
@@ -3463,6 +3500,7 @@ def append_report_to_global(
             if not b.endswith("\n"):
                 f.write("\n")
 
+    _sort_global_report_file(global_path)
     return added
 
 def append_playable_picks_to_global(
