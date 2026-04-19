@@ -2630,6 +2630,10 @@ def _resolve_allowed_ticket_ids_from_global(variant_name: str) -> Tuple[Optional
         global_path = TICKETS_O15_SUPER_REPORT_GLOBAL_FILE
     elif vn == "U35_SUPER_RANDOM":
         global_path = TICKETS_U35_SUPER_REPORT_GLOBAL_FILE
+    elif vn == "O25_RANDOM":
+        global_path = TICKETS_O25_REPORT_GLOBAL_FILE
+    elif vn == "O25_SUPER_RANDOM":
+        global_path = TICKETS_O25_SUPER_REPORT_GLOBAL_FILE
     else:
         global_path = TICKETS_O15_REPORT_GLOBAL_FILE
     if not _is_nonempty_file(global_path):

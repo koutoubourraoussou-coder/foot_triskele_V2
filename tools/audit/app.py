@@ -630,10 +630,12 @@ def parse_verdict_file_to_df(path: Path, source_day: date | None = None) -> pd.D
         m = header_re.search(block)
         if not m:
             continue
+        _leg_time_re = re.compile(r"Leg\s*\d+\)\s*(\d{2}:\d{2})")
         leg_lines = [
             f"{lm.group(1)} {lm.group(2).strip()}"
             for lm in leg_re.finditer(block)
         ]
+        leg_lines.sort(key=lambda s: (_leg_time_re.search(s).group(1) if _leg_time_re.search(s) else "99:99"))
         rows.append({
             "Id": m.group("id").strip(),
             "Statut": m.group("status"),
