@@ -74,3 +74,13 @@ TSV: 2026-04-19	2862433976	O25_FT	20:00	super league greece	Panathinaikos	Olympi
 TSV: 2026-04-19	2879183433	O25_FT	20:00	liga i romania	Universitatea Craiova	Rapid	2	1531634	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-19	2282078903	O25_FT	20:00	superliga serbia	IMT Novi Beograd	Mladost Lucani	2	1540297	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O25_SUPER_RANDOM_POOL_EFFECTIVE | 2026-04-19 02:54:28 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-18	644977717	O25_FT	01:30	mls	Philadelphia Union	DC United	2	1490217	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	1218460265	O25_FT	01:30	mls	New England Revolution	Columbus Crew	1.83	1490216	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	4102933139	O25_FT	01:30	mls	Atlanta United FC	Nashville SC	1.8	1490214	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	1054168919	O25_FT	01:30	mls	New York City FC	Charlotte	1.8	1490218	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	1086693212	O25_FT	01:30	mls	FC Cincinnati	Chicago Fire	1.62	1490215	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	2055960016	O25_FT	01:30	mls	Orlando City SC	Houston Dynamo	1.55	1490219	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

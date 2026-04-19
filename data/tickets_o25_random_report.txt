@@ -5,28 +5,27 @@ TICKETS TRISKÈLE — O25_RANDOM_ALL — depuis predictions.tsv
 ---------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0230_4ad98d0062_O25R — cote = 5.18 — fenêtre 02:30 → 14:50  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0230_1fa35cb059_O25R — cote = 4.33 — fenêtre 02:30 → 14:50  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   1) 02:30 | mls | Minnesota United FC vs Portland Timbers | Over 2.5 (FT) | MOYEN PLUS | odd=1.57
-  2) 05:06 | liga mx | Leon vs FC Juarez | Over 2.5 (FT) | MOYEN PLUS | odd=1.65
+  2) 03:30 | mls | Real Salt Lake vs San Diego | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.38
   3) 13:00 | czech first league | Sigma Olomouc vs Slovácko | Over 2.5 (FT) | MEGA EXPLOSION | odd=2
 
 📅 Dimanche 2026-04-19 — Tranche 2 (fenêtre ~150min)
 ---------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1500_281a5fa186_O25R — cote = 3.34 — fenêtre 15:00 → 19:20  
+  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1500_4a67af27ee_O25R — cote = 3.53 — fenêtre 15:00 → 19:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   1) 15:00 | schweizer cup | Yverdon Sport vs FC ST. Gallen | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.57
-  2) 17:00 | austrian bundesliga | Lask Linz vs Sturm Graz | Over 2.5 (FT) | FORT PLUS | odd=1.7
+  2) 16:00 | russian premier league | Spartak Moscow vs Akhmat | Over 2.5 (FT) | KO | odd=1.8
   3) 17:30 | bundesliga | Bayern München vs VfB Stuttgart | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.25
 
-📅 Dimanche 2026-04-19 — Tranche 3 (fenêtre ~60min)
---------------------------------------------------
+📅 Dimanche 2026-04-19 — Tranche 3
+---------------------------------
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-19_2000_c998c3a0b1_O25R — cote = 7.45 — fenêtre 20:00 → 22:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 20:00 | liga i romania | Universitatea Craiova vs Rapid | Over 2.5 (FT) | FORT PLUS | odd=2
-  2) 20:00 | super league greece | Panathinaikos vs Olympiakos Piraeus | Over 2.5 (FT) | KO | odd=2.3
-  3) 21:00 | laliga2 | Almeria vs Malaga | Over 2.5 (FT) | EXPLOSION | odd=1.62
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-19_2000_8505a92b5f_O25R — cote = 4 — fenêtre 20:00 → 21:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:00 | superliga serbia | IMT Novi Beograd vs Mladost Lucani | Over 2.5 (FT) | FORT PLUS | odd=2
+  2) 20:00 | liga i romania | Universitatea Craiova vs Rapid | Over 2.5 (FT) | FORT PLUS | odd=2

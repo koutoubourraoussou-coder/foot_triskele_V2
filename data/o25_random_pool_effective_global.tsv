@@ -72,3 +72,9 @@ TSV: 2026-04-19	2879183433	O25_FT	20:00	liga i romania	Universitatea Craiova	Rap
 TSV: 2026-04-19	2282078903	O25_FT	20:00	superliga serbia	IMT Novi Beograd	Mladost Lucani	2	1540297	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-19	17870661	O25_FT	21:00	laliga2	Almeria	Malaga	1.62	1392157	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O25_RANDOM_POOL_EFFECTIVE | 2026-04-19 02:54:26 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-18	2055960016	O25_FT	01:30	mls	Orlando City SC	Houston Dynamo	1.55	1490219	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	304526490	O25_FT	15:00	serie b	Bari	Venezia	1.57	1419931	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

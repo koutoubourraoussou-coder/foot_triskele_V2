@@ -1,33 +1,33 @@
 TICKETS TRISKÈLE — U35_RANDOM_ALL — depuis predictions.tsv
 ==========================================================
 
-📅 Dimanche 2026-04-19 — Tranche 1 (fenêtre ~90min)
---------------------------------------------------
+📅 Dimanche 2026-04-19 — Tranche 1 (fenêtre ~186min)
+---------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0200_de95f40248_U35R — cote = 2.79 — fenêtre 02:00 → 05:20  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0200_d50bc2d5e6_U35R — cote = 2.63 — fenêtre 02:00 → 06:56  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   1) 02:00 | liga pro ecuador | Orense SC vs Delfin SC | Under 3.5 (FT) | EXPLOSION | odd=1.2
-  2) 03:07 | liga mx | Guadalajara Chivas vs Puebla | Under 3.5 (FT) | FORT | odd=1.57
-  3) 03:30 | mls | Seattle Sounders vs St. Louis City | Under 3.5 (FT) | MOYEN | odd=1.48
+  2) 03:30 | mls | Seattle Sounders vs St. Louis City | Under 3.5 (FT) | MOYEN | odd=1.48
+  3) 05:06 | liga mx | Leon vs FC Juarez | Under 3.5 (FT) | EXPLOSION | odd=1.48
 
 📅 Dimanche 2026-04-19 — Tranche 2 (fenêtre ~150min)
 ---------------------------------------------------
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1200_ffeb165ead_U35R — cote = 3 — fenêtre 12:00 → 16:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1200_c69d36c068_U35R — cote = 2.93 — fenêtre 12:00 → 16:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   1) 12:00 | liga portugal 2 | Portimonense vs Lusitânia Lourosa | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.25
   2) 12:30 | serie a italia | Cremonese vs Torino | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.25
   3) 14:15 | superligaen | Paks vs Puskas Academy | Under 3.5 (FT) | MOYEN PLUS | odd=1.5
-  4) 14:30 | ukrainian premier league | Epitsentr Dunayivtsi vs Karpaty | Under 3.5 (FT) | FORT PLUS | odd=1.28
+  4) 14:30 | austrian bundesliga | TSV Hartberg vs Rapid Vienna | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.25
 
 📅 Dimanche 2026-04-19 — Tranche 3 (fenêtre ~300min)
 ---------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-19_1830_835247ebcf_U35R — cote = 2.58 — fenêtre 18:30 → 01:20  
+  🎟️ TICKET 3.1 (A2) — id=2026-04-19_1830_51fa1dbd7d_U35R — cote = 2.48 — fenêtre 18:30 → 01:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   1) 18:30 | czech first league | Plzen vs Pardubice | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.53
-  2) 19:30 | serie b | Empoli vs Virtus Entella | Under 3.5 (FT) | FORT PLUS | odd=1.25
-  3) 23:30 | serie a brazil | RB Bragantino vs Remo | Under 3.5 (FT) | MOYEN PLUS | odd=1.35
+  2) 20:00 | liga pro ecuador | Manta FC vs Deportivo Cuenca | Under 3.5 (FT) | FORT | odd=1.22
+  3) 23:30 | serie a brazil | Palmeiras vs Atletico Paranaense | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.33

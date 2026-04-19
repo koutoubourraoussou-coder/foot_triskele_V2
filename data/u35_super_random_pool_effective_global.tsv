@@ -236,3 +236,20 @@ TSV: 2026-04-19	1682311192	U35_FT	23:10	primera a colombia	Alianza Valledupar	In
 TSV: 2026-04-19	1041437228	U35_FT	23:30	serie a brazil	RB Bragantino	Remo	1.35	1492220	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-19	3347220811	U35_FT	23:30	serie a brazil	Palmeiras	Atletico Paranaense	1.33	1492226	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND U35_SUPER_RANDOM_POOL_EFFECTIVE | 2026-04-19 02:54:26 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-18	2600946010	U35_FT	00:30	liga profesional argentina	Independiente	Defensa Y Justicia	1.18	1492035	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	3922448726	U35_FT	01:00	liga mx	Cruz Azul	Club Tijuana	1.62	1492592	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	3992732915	U35_FT	01:00	liga mx	Necaxa	Tigres UANL	1.38	1492591	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	2658426449	U35_FT	01:00	serie a brazil	Vitoria	Corinthians	1.15	1492229	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	551474929	U35_FT	01:10	primera a colombia	Deportes Tolima	Deportivo Pereira	1.44	1506089	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	2055960016	U35_FT	01:30	mls	Orlando City SC	Houston Dynamo	1.57	1490219	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	1086693212	U35_FT	01:30	mls	FC Cincinnati	Chicago Fire	1.5	1490215	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	4102933139	U35_FT	01:30	mls	Atlanta United FC	Nashville SC	1.38	1490214	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	1054168919	U35_FT	01:30	mls	New York City FC	Charlotte	1.38	1490218	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	1218460265	U35_FT	01:30	mls	New England Revolution	Columbus Crew	1.35	1490216	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	4041213643	U35_FT	01:30	serie a brazil	Cruzeiro	Gremio	1.3	1492223	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	644977717	U35_FT	01:30	mls	Philadelphia Union	DC United	1.28	1490217	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	144306690	U35_FT	01:30	primera división paraguay	Deportivo Recoleta	2 de Mayo	1.25	1505058	U35_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

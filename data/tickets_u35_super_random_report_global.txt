@@ -30,6 +30,48 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
 
 
 # ------------------------------------------------------------------
+# APPEND U35_SUPER_RANDOM | 2026-04-19 02:54:26 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-18_0130_58414ae7c6_U35SR — cote = 3.58 — fenêtre 01:30 → 04:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 01:30 | mls | Philadelphia Union vs DC United | Under 3.5 (FT) | TRÈS FORT | odd=1.28
+  2) 01:30 | mls | New York City FC vs Charlotte | Under 3.5 (FT) | TRÈS FORT | odd=1.38
+  3) 01:30 | mls | FC Cincinnati vs Chicago Fire | Under 3.5 (FT) | MOYEN | odd=1.5
+  4) 03:00 | liga mx | Mazatlán vs Club Queretaro | Under 3.5 (FT) | FORT | odd=1.35
+
+📅 Samedi 2026-04-18 — Tranche 2
+-------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-18_1100_e6163758a0_U35SR — cote = 3.18 — fenêtre 11:00 → 16:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 11:00 | russian premier league | FC Orenburg vs Lokomotiv | Under 3.5 (FT) | MOYEN PLUS | odd=1.49
+  2) 15:00 | czech first league | Slovan Liberec vs Mlada Boleslav | Under 3.5 (FT) | MOYEN PLUS | odd=1.44
+  3) 15:00 | serie b | Modena vs Frosinone | Under 3.5 (FT) | MOYEN PLUS | odd=1.48
+
+📅 Samedi 2026-04-18 — Tranche 3
+-------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-18_1600_2b1c9060b4_U35SR — cote = 3.74 — fenêtre 16:00 → 20:05  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:00 | championship | Sheffield Wednesday vs Charlton | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.25
+  2) 17:00 | superligaen | MTK Budapest vs Kisvarda FC | Under 3.5 (FT) | MOYEN PLUS | odd=1.36
+  3) 18:15 | cymru premier league | GAP Connah S Quay FC vs Colwyn Bay | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.4
+  4) 18:15 | cymru premier league | Haverfordwest County AFC vs llanelli AFC | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.57
+
+📅 Samedi 2026-04-18 — Tranche 4
+-------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-04-18_1830_d014561a62_U35SR — cote = 3.12 — fenêtre 18:30 → 01:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 18:30 | russian premier league | Nizhny Novgorod vs Dynamo | Under 3.5 (FT) | MOYEN PLUS | odd=1.35
+  2) 18:30 | premier league | Tottenham vs Brighton | Under 3.5 (FT) | MOYEN PLUS | odd=1.48
+  3) 23:30 | serie a brazil | Chapecoense-sc vs Botafogo | Under 3.5 (FT) | FORT | odd=1.28
+  4) 23:30 | serie a brazil | Vasco DA Gama vs Sao Paulo | Under 3.5 (FT) | EXPLOSION | odd=1.22
+
+
+# ------------------------------------------------------------------
 # APPEND U35_SUPER_RANDOM | 2026-04-18 14:59:59 | run_date=ALL | source=predictions.tsv
 # ------------------------------------------------------------------
 
@@ -109,3 +151,43 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
   1) 17:15 | ligue 1 | Strasbourg vs Rennes | Under 3.5 (FT) | FAIBLE | odd=1.48
   2) 18:30 | russian premier league | FC Krasnodar vs Baltika | Under 3.5 (FT) | MOYEN | odd=1.24
   3) 23:30 | serie a brazil | RB Bragantino vs Remo | Under 3.5 (FT) | MOYEN PLUS | odd=1.35
+
+
+# ------------------------------------------------------------------
+# APPEND U35_SUPER_RANDOM | 2026-04-19 02:57:17 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0305_ee909ff83b_U35SR — cote = 2.7 — fenêtre 03:05 → 05:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 03:05 | liga mx | Monterrey vs Pachuca | Under 3.5 (FT) | FORT | odd=1.5
+  2) 03:30 | mls | Real Salt Lake vs San Diego | Under 3.5 (FT) | KO | odd=1.8
+
+📅 Dimanche 2026-04-19 — Tranche 2
+---------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1200_4694d9a95a_U35SR — cote = 2.69 — fenêtre 12:00 → 15:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 12:00 | ukrainian premier league | Kryvbas KR vs Ruh Lviv | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.28
+  2) 13:00 | championship | Ipswich vs Middlesbrough | Under 3.5 (FT) | FORT PLUS | odd=1.38
+  3) 13:30 | super lig | Kasımpaşa vs Alanyaspor | Under 3.5 (FT) | TRÈS FORT | odd=1.25
+  4) 14:00 | laliga2 | FC Andorra vs Valladolid | Under 3.5 (FT) | FORT | odd=1.22
+
+📅 Dimanche 2026-04-19 — Tranche 3
+---------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-19_1445_c46060f2c2_U35SR — cote = 3.17 — fenêtre 14:45 → 16:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 14:45 | ekstraklasa | Raków Częstochowa vs Cracovia Krakow | Under 3.5 (FT) | TRÈS FORT | odd=1.25
+  2) 15:00 | premier league | Everton vs Liverpool | Under 3.5 (FT) | TRÈS FORT | odd=1.36
+  3) 15:00 | premier league | Aston Villa vs Sunderland | Under 3.5 (FT) | MOYEN PLUS | odd=1.33
+  4) 15:00 | premier league | Nottingham Forest vs Burnley | Under 3.5 (FT) | FORT PLUS | odd=1.4
+
+📅 Dimanche 2026-04-19 — Tranche 4
+---------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-04-19_1600_000aa81d61_U35SR — cote = 2.5 — fenêtre 16:00 → 20:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:00 | super lig | Samsunspor vs Beşiktaş | Under 3.5 (FT) | FORT | odd=1.42
+  2) 18:30 | russian premier league | FC Krasnodar vs Baltika | Under 3.5 (FT) | MOYEN | odd=1.24
+  3) 19:00 | liga portugal | Sporting CP vs Benfica | Under 3.5 (FT) | FORT PLUS | odd=1.42
