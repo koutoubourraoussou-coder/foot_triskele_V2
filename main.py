@@ -754,7 +754,7 @@ def archive_main_outputs() -> None:
 
         if day_predictions_path.exists() and day_predictions_path.stat().st_size > 0:
             try:
-                out = generate_tickets_from_tsv(str(day_predictions_path))
+                out = generate_tickets_from_tsv(str(day_predictions_path), run_date=target_date)
 
                 sys_report = (out.report_system or "").strip()
                 if sys_report:

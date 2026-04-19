@@ -4,9 +4,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 Source tickets : data/tickets_o15_random.tsv
 Date run       : 2026-04-19
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (156 ids)
-Ignorés (hors whitelist) : 47
-Ignorés (date>=today)    : 33
+Whitelist      : ON (150 ids)
+Ignorés (hors whitelist) : 68
+Ignorés (date>=today)    : 42
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -1210,32 +1210,15 @@ Ignorés (date>=today)    : 33
    ✅ Leg 4) 21:00 | laliga2 | Las Palmas vs Leganes | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.3
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 1 | Samedi 2026-04-18 01:30→17:20 | code=A2 | odd=2.4
-   id=2026-04-18_0130_1fabab3db1_O15R
-   legs=3 | WIN=2 | LOSS=1 | PENDING=0
-   ❌ Leg 1) 01:30 | mls | New York City FC vs Charlotte | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.25
-   ✅ Leg 2) 15:00 | czech first league | Zlin vs Teplice | Over 1.5 (FT) | [EXPLOSION] | odd=1.5
-   ✅ Leg 3) 15:30 | bundesliga | Union Berlin vs VfL Wolfsburg | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.28
-
-────────────────────────────────────────────────────────────────────
-✅ Ticket 2 | Samedi 2026-04-18 15:00→17:50 | code=A2 | odd=2.49
-   id=2026-04-18_1500_847b586aec_O15R
+✅ Ticket 1 | Samedi 2026-04-18 03:00→17:50 | code=A2 | odd=2.4
+   id=2026-04-18_0300_dd4af2c949_O15R
    legs=3 | WIN=3 | LOSS=0 | PENDING=0
-   ✅ Leg 1) 15:00 | czech first league | Zlin vs Teplice | Over 1.5 (FT) | [EXPLOSION] | odd=1.5
-   ✅ Leg 2) 15:00 | serie b | Mantova vs Avellino | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
-   ✅ Leg 3) 16:00 | championship | Wrexham vs Stoke City | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+   ✅ Leg 1) 03:00 | liga mx | Mazatlán vs Club Queretaro | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.25
+   ✅ Leg 2) 15:00 | czech first league | Dukla Praha vs Karviná | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.3
+   ✅ Leg 3) 16:00 | super league greece | Atromitos vs Larisa | Over 1.5 (FT) | [MOYEN] | odd=1.48
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 3 | Samedi 2026-04-18 18:00→20:05 | code=A2 | odd=2.6
-   id=2026-04-18_1800_a72789d281_O15R
-   legs=4 | WIN=4 | LOSS=0 | PENDING=0
-   ✅ Leg 1) 18:00 | super league greece | Aris Thessalonikis vs Volos NFC | Over 1.5 (FT) | [FORT PLUS] | odd=1.33
-   ✅ Leg 2) 18:15 | cymru premier league | Bala Town vs Briton Ferry | Over 1.5 (FT) | [EXPLOSION] | odd=1.25
-   ✅ Leg 3) 18:15 | cymru premier league | Cardiff MET vs Flint Town United | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
-   ✅ Leg 4) 18:15 | pro league | Charleroi vs Standard Liege | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
-
-────────────────────────────────────────────────────────────────────
-✅ Ticket 4 | Samedi 2026-04-18 18:00→20:05 | code=A2 | odd=2.53
+✅ Ticket 2 | Samedi 2026-04-18 18:00→20:05 | code=A2 | odd=2.53
    id=2026-04-18_1800_d012353a62_O15R
    legs=4 | WIN=4 | LOSS=0 | PENDING=0
    ✅ Leg 1) 18:00 | czech first league | Sparta Praha vs FK Jablonec | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
@@ -1244,27 +1227,18 @@ Ignorés (date>=today)    : 33
    ✅ Leg 4) 18:15 | pro league | Charleroi vs Standard Liege | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 5 | Samedi 2026-04-18 20:30→23:20 | code=A2 | odd=2.65
-   id=2026-04-18_2030_9ad2cabf2c_O15R
+❌ Ticket 3 | Samedi 2026-04-18 20:30→23:20 | code=A2 | odd=2.4
+   id=2026-04-18_2030_889254d316_O15R
    legs=4 | WIN=2 | LOSS=2 | PENDING=0
    ✅ Leg 1) 20:30 | mls | CF Montreal vs New York Red Bulls | Over 1.5 (FT) | [TRÈS FORT] | odd=1.17
-   ✅ Leg 2) 20:45 | serie a italia | AS Roma vs Atalanta | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
-   ❌ Leg 3) 21:05 | ligue 1 | Lille vs Nice | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
-   ❌ Leg 4) 21:30 | liga portugal | GIL Vicente vs Guimaraes | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.36
-
-────────────────────────────────────────────────────────────────────
-❌ Ticket 6 | Samedi 2026-04-18 20:30→23:20 | code=A2 | odd=2.5
-   id=2026-04-18_2030_ad778dd7da_O15R
-   legs=4 | WIN=2 | LOSS=2 | PENDING=0
-   ✅ Leg 1) 20:30 | 2. bundesliga | Hannover 96 vs SC Paderborn 07 | Over 1.5 (FT) | [FORT PLUS] | odd=1.17
-   ✅ Leg 2) 20:45 | serie a italia | AS Roma vs Atalanta | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
+   ✅ Leg 2) 21:00 | copa del rey | Atletico Madrid vs Real Sociedad | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
    ❌ Leg 3) 21:00 | premier league | Chelsea vs Manchester United | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
    ❌ Leg 4) 21:30 | liga portugal | GIL Vicente vs Guimaraes | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.36
 
 ====================================================================
-TOTAL tickets : 149
-✅ WIN     : 64
-❌ LOSS    : 82
+TOTAL tickets : 146
+✅ WIN     : 63
+❌ LOSS    : 80
 ⏳ PENDING : 3
 ====================================================================
 

@@ -1,29 +1,32 @@
-TICKETS TRISKELE — O25_SUPER_RANDOM — depuis predictions.tsv
-============================================================
+TICKETS TRISKELE — 2026-04-19 — O25_SUPER_RANDOM — depuis predictions.tsv
+=========================================================================
 
 📅 Dimanche 2026-04-19 — Tranche 1
 ---------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0330_c91cc3cefb_O25SR — cote = 4.02 — fenêtre 03:30 → 17:20  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0230_9da829f547_O25SR — cote = 5.44 — fenêtre 02:30 → 16:35  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 03:30 | mls | Real Salt Lake vs San Diego | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.38
-  2) 12:15 | ekstraklasa | Nieciecza vs Wisla Plock | Over 2.5 (FT) | MOYEN PLUS | odd=1.8
-  3) 15:30 | bundesliga | SC Freiburg vs 1. FC Heidenheim | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.62
+  1) 02:30 | mls | Minnesota United FC vs Portland Timbers | Over 2.5 (FT) | MOYEN PLUS | odd=1.57
+  2) 03:30 | mls | Seattle Sounders vs St. Louis City | Over 2.5 (FT) | MOYEN PLUS | odd=1.65
+  3) 14:45 | ekstraklasa | Raków Częstochowa vs Cracovia Krakow | Over 2.5 (FT) | MOYEN PLUS | odd=2.1
 
 📅 Dimanche 2026-04-19 — Tranche 2
 ---------------------------------
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1715_b788601b81_O25SR — cote = 2.5 — fenêtre 17:15 → 19:05  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 17:15 | liga i romania | Petrolul Ploiesti vs AFC Hermannstadt | Over 2.5 (FT) | MOYEN | odd=2.5
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1700_19c59a1cdd_O25SR — cote = 4.99 — fenêtre 17:00 → 19:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 17:00 | super league greece | AEK Athens FC vs PAOK | Over 2.5 (FT) | MOYEN | odd=2.1
+  2) 17:30 | ekstraklasa | Arka Gdynia vs Jagiellonia | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.9
+  3) 17:30 | bundesliga | Bayern München vs VfB Stuttgart | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.25
 
 📅 Dimanche 2026-04-19 — Tranche 3
 ---------------------------------
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-19_2000_3ff485230c_O25SR — cote = 4.6 — fenêtre 20:00 → 21:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 20:00 | superliga serbia | IMT Novi Beograd vs Mladost Lucani | Over 2.5 (FT) | FORT PLUS | odd=2
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-19_1930_fcebb124b2_O25SR — cote = 8.51 — fenêtre 19:30 → 21:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 19:30 | bundesliga | Borussia Mönchengladbach vs FSV Mainz 05 | Over 2.5 (FT) | MOYEN PLUS | odd=1.85
   2) 20:00 | super league greece | Panathinaikos vs Olympiakos Piraeus | Over 2.5 (FT) | KO | odd=2.3
+  3) 20:00 | superliga serbia | IMT Novi Beograd vs Mladost Lucani | Over 2.5 (FT) | FORT PLUS | odd=2

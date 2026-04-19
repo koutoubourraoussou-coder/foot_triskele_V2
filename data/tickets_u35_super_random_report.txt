@@ -1,42 +1,45 @@
-TICKETS TRISKELE — U35_SUPER_RANDOM — depuis predictions.tsv
-============================================================
+TICKETS TRISKELE — 2026-04-19 — U35_SUPER_RANDOM — depuis predictions.tsv
+=========================================================================
 
 📅 Dimanche 2026-04-19 — Tranche 1
 ---------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0245_27b2329540_U35SR — cote = 2.83 — fenêtre 02:45 → 06:56  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0200_7cd6ea5ee9_U35SR — cote = 3.69 — fenêtre 02:00 → 07:00  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 02:45 | liga profesional argentina | Argentinos JRS vs Atletico Tucuman | Under 3.5 (FT) | EXPLOSION | odd=1.22
-  2) 03:07 | liga mx | Guadalajara Chivas vs Puebla | Under 3.5 (FT) | FORT | odd=1.57
-  3) 05:06 | liga mx | Leon vs FC Juarez | Under 3.5 (FT) | EXPLOSION | odd=1.48
+  1) 02:00 | liga pro ecuador | Orense SC vs Delfin SC | Under 3.5 (FT) | EXPLOSION | odd=1.2
+  2) 02:30 | mls | Minnesota United FC vs Portland Timbers | Under 3.5 (FT) | MOYEN | odd=1.55
+  3) 02:30 | mls | FC Dallas vs Los Angeles Galaxy | Under 3.5 (FT) | FORT PLUS | odd=1.55
+  4) 05:10 | liga mx | Club America vs Toluca | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.28
 
 📅 Dimanche 2026-04-19 — Tranche 2
 ---------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1200_8e973e8a34_U35SR — cote = 3.14 — fenêtre 12:00 → 15:20  
+  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1230_6865540f62_U35SR — cote = 2.87 — fenêtre 12:30 → 15:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 12:00 | liga portugal 2 | Portimonense vs Lusitânia Lourosa | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.25
-  2) 12:30 | serie a italia | Cremonese vs Torino | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.25
-  3) 13:00 | czech first league | Sigma Olomouc vs Slovácko | Under 3.5 (FT) | MOYEN PLUS | odd=1.28
-  4) 13:30 | 2. bundesliga | SpVgg Greuther Fürth vs SV Darmstadt 98 | Under 3.5 (FT) | MOYEN PLUS | odd=1.57
+  1) 12:30 | serie a italia | Cremonese vs Torino | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.25
+  2) 13:00 | championship | Ipswich vs Middlesbrough | Under 3.5 (FT) | FORT PLUS | odd=1.38
+  3) 13:30 | 2. bundesliga | FC Schalke 04 vs Preußen Münster | Under 3.5 (FT) | TRÈS FORT | odd=1.33
+  4) 13:30 | super lig | Kasımpaşa vs Alanyaspor | Under 3.5 (FT) | TRÈS FORT | odd=1.25
 
 📅 Dimanche 2026-04-19 — Tranche 3
 ---------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-19_1415_427feea9ef_U35SR — cote = 2.43 — fenêtre 14:15 → 16:50  
+  🎟️ TICKET 3.1 (A2) — id=2026-04-19_1430_24a203c769_U35SR — cote = 2.89 — fenêtre 14:30 → 16:50  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 14:15 | superligaen | Paks vs Puskas Academy | Under 3.5 (FT) | MOYEN PLUS | odd=1.5
-  2) 15:00 | scottish cup | Celtic vs ST Mirren | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.62
+  1) 14:30 | ukrainian premier league | Epitsentr Dunayivtsi vs Karpaty | Under 3.5 (FT) | FORT PLUS | odd=1.28
+  2) 14:45 | ekstraklasa | Raków Częstochowa vs Cracovia Krakow | Under 3.5 (FT) | TRÈS FORT | odd=1.25
+  3) 15:00 | serie b | Carrarese vs Pescara | Under 3.5 (FT) | MOYEN PLUS | odd=1.36
+  4) 15:00 | premier league | Aston Villa vs Sunderland | Under 3.5 (FT) | MOYEN PLUS | odd=1.33
 
 📅 Dimanche 2026-04-19 — Tranche 4
 ---------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 4.1 (A2) — id=2026-04-19_1630_dd970d5035_U35SR — cote = 2.66 — fenêtre 16:30 → 23:20  
+  🎟️ TICKET 4.1 (A2) — id=2026-04-19_1900_27c53cbee4_U35SR — cote = 2.52 — fenêtre 19:00 → 01:00  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 16:30 | liga portugal | Arouca vs Estrela | Under 3.5 (FT) | TRÈS FORT | odd=1.33
-  2) 17:15 | ligue 1 | Metz vs Paris FC | Under 3.5 (FT) | FORT | odd=1.35
-  3) 21:30 | liga portugal | FC Porto vs Tondela | Under 3.5 (FT) | MOYEN PLUS | odd=1.48
+  1) 19:00 | super lig | Trabzonspor vs Başakşehir | Under 3.5 (FT) | TRÈS FORT | odd=1.55
+  2) 21:30 | liga portugal | SC Braga vs Famalicao | Under 3.5 (FT) | FORT | odd=1.33
+  3) 23:10 | primera a colombia | Alianza Valledupar vs Independiente Medellin | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.22

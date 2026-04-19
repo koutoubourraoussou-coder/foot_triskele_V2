@@ -1786,10 +1786,10 @@ def _build_super_random_ticket_for_one_day(day_picks: List[Pick]) -> Optional[Ti
         selected.append(p)
         used_matches.add(mk)
         cumulative *= (p.odd or 1.0)
-        if cumulative >= cfg.target_odd:
+        if len(selected) >= 3 and cumulative >= cfg.target_odd:
             break
 
-    if not selected or cumulative < cfg.min_accept_odd:
+    if len(selected) < 3 or cumulative < cfg.min_accept_odd:
         return None
 
     return Ticket(
@@ -2775,10 +2775,13 @@ def _try_build_ticket_random(
             used_matches.add(mk)
             total *= (p.odd or 1.0)
 
+            # Early break : threshold atteint avec au moins 3 legs → inutile d'en ajouter
+            if len(chosen) >= 3 and total >= threshold:
+                break
             if len(chosen) >= wanted_legs:
                 break
 
-        if len(chosen) != wanted_legs:
+        if len(chosen) < 3:
             return None
         if total < threshold:
             return None
