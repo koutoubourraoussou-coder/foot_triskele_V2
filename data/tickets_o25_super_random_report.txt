@@ -1,38 +1,20 @@
-TICKETS TRISKELE — 2026-04-18 — O25_SUPER_RANDOM — depuis predictions.tsv
+TICKETS TRISKELE — 2026-04-19 — O25_SUPER_RANDOM — depuis predictions.tsv
 =========================================================================
 
-📅 Samedi 2026-04-18 — Tranche 1
--------------------------------
+📅 Dimanche 2026-04-19 — Tranche 1
+---------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-18_0130_28e8db0327_O25SR — cote = 3.29 — fenêtre 01:30 → 03:20  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0230_693dc5d6fe_O25SR — cote = 2.46 — fenêtre 02:30 → 16:50  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 01:30 | mls | Atlanta United FC vs Nashville SC | Over 2.5 (FT) | MOYEN | odd=1.8
-  2) 01:30 | mls | New England Revolution vs Columbus Crew | Over 2.5 (FT) | EXPLOSION | odd=1.83
+  1) 02:30 | mls | Minnesota United FC vs Portland Timbers | Over 2.5 (FT) | MOYEN PLUS | odd=1.57
+  2) 15:00 | schweizer cup | Yverdon Sport vs FC ST. Gallen | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.57
 
-📅 Samedi 2026-04-18 — Tranche 2
--------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-18_1445_7e01ecae14_O25SR — cote = 3.02 — fenêtre 14:45 → 17:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 14:45 | ekstraklasa | Radomiak Radom vs Widzew Łódź | Over 2.5 (FT) | KO | odd=2.1
-  2) 15:30 | bundesliga | Bayer Leverkusen vs FC Augsburg | Over 2.5 (FT) | MOYEN PLUS | odd=1.44
-
-📅 Samedi 2026-04-18 — Tranche 3
--------------------------------
+📅 Dimanche 2026-04-19 — Tranche 2
+---------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-18_1700_afee2ec830_O25SR — cote = 3.38 — fenêtre 17:00 → 20:20  
+  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1600_2da9d53f63_O25SR — cote = 3.59 — fenêtre 16:00 → 19:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 17:00 | superliga serbia | Novi Pazar vs OFK Beograd | Over 2.5 (FT) | FORT PLUS | odd=1.88
-  2) 18:30 | superliga serbia | FK Partizan vs Železničar Pančevo | Over 2.5 (FT) | MOYEN PLUS | odd=1.8
-
-📅 Samedi 2026-04-18 — Tranche 4
--------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 4.1 (A2) — id=2026-04-18_1915_3f3143710e_O25SR — cote = 2.59 — fenêtre 19:15 → 22:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 19:15 | schweizer cup | Stade Lausanne-Ouchy vs Grasshoppers | Over 2.5 (FT) | FORT | odd=1.85
-  2) 20:30 | super league switzerland | FC Thun vs FC Basel 1893 | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.4
+  1) 16:00 | superliga serbia | TSC Backa Topola vs Napredak | Over 2.5 (FT) | FORT PLUS | odd=1.63
+  2) 17:30 | superliga serbia | Javor vs FK Spartak Zdrepceva KRV | Over 2.5 (FT) | MOYEN PLUS | odd=2.2

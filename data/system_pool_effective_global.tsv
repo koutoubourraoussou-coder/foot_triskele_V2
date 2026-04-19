@@ -1930,3 +1930,9 @@ TSV: 2026-04-18	1533635990	O15_FT	20:45	pro league	KV Mechelen	Anderlecht	1.25	1
 # ------------------------------------------------------------------
 TSV: 2026-04-18	3922448726	U35_FT	01:00	liga mx	Cruz Azul	Club Tijuana	1.7	1492592	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-04-20 01:01:44 | run_date=2026-04-19 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-19	919434495	O15_FT	13:30	2. bundesliga	FC Schalke 04	Preußen Münster	1.25	1388882	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-19	1923771269	O15_FT	21:00	primera a colombia	Santa Fe	Cucuta	1.3	1506091	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+

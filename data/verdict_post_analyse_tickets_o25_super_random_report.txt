@@ -2,44 +2,58 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O25_SUPER_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o25_super_random.tsv
-Date run       : 2026-04-19
+Date run       : 2026-04-20
 Output         : data/verdict_post_analyse_tickets_o25_super_random_report.txt
-Whitelist      : ON (7 ids)
-Ignorés (hors whitelist) : 44
-Ignorés (date>=today)    : 36
+Whitelist      : ON (6 ids)
+Ignorés (hors whitelist) : 86
+Ignorés (date>=today)    : 0
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 1 | Samedi 2026-04-18 01:30→03:20 | code=A2 | odd=3.29
-   id=2026-04-18_0130_28e8db0327_O25SR
+❌ Ticket 1 | Samedi 2026-04-18 01:30→03:20 | code=A2 | odd=2.63
+   id=2026-04-18_0130_0700b6c6b9_O25SR
    legs=2 | WIN=0 | LOSS=2 | PENDING=0
-   ❌ Leg 1) 01:30 | mls | Atlanta United FC vs Nashville SC | Over 2.5 (FT) | [MOYEN] | odd=1.8
-   ❌ Leg 2) 01:30 | mls | New England Revolution vs Columbus Crew | Over 2.5 (FT) | [EXPLOSION] | odd=1.83
+   ❌ Leg 1) 01:30 | mls | New York City FC vs Charlotte | Over 2.5 (FT) | [MOYEN] | odd=1.7
+   ❌ Leg 2) 01:30 | mls | Orlando City SC vs Houston Dynamo | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.55
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 2 | Samedi 2026-04-18 14:45→17:20 | code=A2 | odd=3.02
-   id=2026-04-18_1445_7e01ecae14_O25SR
-   legs=2 | WIN=2 | LOSS=0 | PENDING=0
-   ✅ Leg 1) 14:45 | ekstraklasa | Radomiak Radom vs Widzew Łódź | Over 2.5 (FT) | [KO] | odd=2.1
-   ✅ Leg 2) 15:30 | bundesliga | Bayer Leverkusen vs FC Augsburg | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.44
+❌ Ticket 2 | Samedi 2026-04-18 15:00→17:20 | code=A2 | odd=3.18
+   id=2026-04-18_1500_2d63ea5d90_O25SR
+   legs=2 | WIN=1 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 15:00 | super league greece | Kifisia vs Asteras Tripolis | Over 2.5 (FT) | [MOYEN] | odd=2.15
+   ✅ Leg 2) 15:30 | bundesliga | 1899 Hoffenheim vs Borussia Dortmund | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.48
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 3 | Samedi 2026-04-18 17:00→20:20 | code=A2 | odd=3.38
-   id=2026-04-18_1700_afee2ec830_O25SR
+✅ Ticket 3 | Samedi 2026-04-18 18:30→20:20 | code=A2 | odd=2.61
+   id=2026-04-18_1830_5dce415d3a_O25SR
    legs=2 | WIN=2 | LOSS=0 | PENDING=0
-   ✅ Leg 1) 17:00 | superliga serbia | Novi Pazar vs OFK Beograd | Over 2.5 (FT) | [FORT PLUS] | odd=1.88
+   ✅ Leg 1) 18:30 | bundesliga | Eintracht Frankfurt vs RB Leipzig | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.45
    ✅ Leg 2) 18:30 | superliga serbia | FK Partizan vs Železničar Pančevo | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.8
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 4 | Samedi 2026-04-18 19:15→22:20 | code=A2 | odd=2.59
-   id=2026-04-18_1915_3f3143710e_O25SR
+❌ Ticket 4 | Samedi 2026-04-18 19:15→00:20 | code=A2 | odd=2.55
+   id=2026-04-18_1915_e31eeee31a_O25SR
    legs=2 | WIN=1 | LOSS=1 | PENDING=0
    ❌ Leg 1) 19:15 | schweizer cup | Stade Lausanne-Ouchy vs Grasshoppers | Over 2.5 (FT) | [FORT] | odd=1.85
-   ✅ Leg 2) 20:30 | super league switzerland | FC Thun vs FC Basel 1893 | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.4
+   ✅ Leg 2) 22:30 | mls | Colorado Rapids vs Inter Miami | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.38
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Dimanche 2026-04-19 02:30→16:50 | code=A2 | odd=2.46
+   id=2026-04-19_0230_693dc5d6fe_O25SR
+   legs=2 | WIN=0 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 02:30 | mls | Minnesota United FC vs Portland Timbers | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.57
+   ❌ Leg 2) 15:00 | schweizer cup | Yverdon Sport vs FC ST. Gallen | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.57
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Dimanche 2026-04-19 16:00→19:20 | code=A2 | odd=3.59
+   id=2026-04-19_1600_2da9d53f63_O25SR
+   legs=2 | WIN=1 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 16:00 | superliga serbia | TSC Backa Topola vs Napredak | Over 2.5 (FT) | [FORT PLUS] | odd=1.63
+   ❌ Leg 2) 17:30 | superliga serbia | Javor vs FK Spartak Zdrepceva KRV | Over 2.5 (FT) | [MOYEN PLUS] | odd=2.2
 
 ====================================================================
-TOTAL tickets : 4
-✅ WIN     : 2
-❌ LOSS    : 2
+TOTAL tickets : 6
+✅ WIN     : 1
+❌ LOSS    : 5
 ⏳ PENDING : 0
 ====================================================================
 

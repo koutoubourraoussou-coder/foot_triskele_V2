@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O25_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o25_random.tsv
-Date run       : 2026-04-19
+Date run       : 2026-04-20
 Output         : data/verdict_post_analyse_tickets_o25_random_report.txt
-Whitelist      : ON (7 ids)
-Ignorés (hors whitelist) : 27
-Ignorés (date>=today)    : 49
+Whitelist      : ON (6 ids)
+Ignorés (hors whitelist) : 78
+Ignorés (date>=today)    : 0
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Samedi 2026-04-18 13:30→16:35 | code=A2 | odd=4.2
@@ -16,11 +16,11 @@ Ignorés (date>=today)    : 49
    ✅ Leg 2) 14:45 | ekstraklasa | Radomiak Radom vs Widzew Łódź | Over 2.5 (FT) | [KO] | odd=2.1
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 2 | Samedi 2026-04-18 18:30→20:20 | code=A2 | odd=2.61
-   id=2026-04-18_1830_78a07ea9d4_O25R
+✅ Ticket 2 | Samedi 2026-04-18 17:00→20:20 | code=A2 | odd=3.12
+   id=2026-04-18_1700_38fff07060_O25R
    legs=2 | WIN=2 | LOSS=0 | PENDING=0
-   ✅ Leg 1) 18:30 | bundesliga | Eintracht Frankfurt vs RB Leipzig | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.45
-   ✅ Leg 2) 18:30 | superliga serbia | FK Partizan vs Železničar Pančevo | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.8
+   ✅ Leg 1) 17:00 | austrian bundesliga | WSG Wattens vs SCR Altach | Over 2.5 (FT) | [TRÈS FORT] | odd=2.15
+   ✅ Leg 2) 18:30 | bundesliga | Eintracht Frankfurt vs RB Leipzig | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.45
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 3 | Samedi 2026-04-18 20:30→00:20 | code=A2 | odd=2.99
@@ -30,9 +30,30 @@ Ignorés (date>=today)    : 49
    ✅ Leg 2) 20:30 | super league switzerland | FC Thun vs FC Basel 1893 | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.4
    ✅ Leg 3) 22:30 | mls | Colorado Rapids vs Inter Miami | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.38
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Dimanche 2026-04-19 03:30→14:50 | code=A2 | odd=2.76
+   id=2026-04-19_0330_3e5d88d1c3_O25R
+   legs=2 | WIN=2 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 03:30 | mls | Real Salt Lake vs San Diego | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.38
+   ✅ Leg 2) 13:00 | czech first league | Sigma Olomouc vs Slovácko | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=2
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 2 | Dimanche 2026-04-19 16:00→17:50 | code=A2 | odd=3.06
+   id=2026-04-19_1600_3fec7cabc9_O25R
+   legs=2 | WIN=2 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 16:00 | russian premier league | Spartak Moscow vs Akhmat | Over 2.5 (FT) | [KO] | odd=1.8
+   ✅ Leg 2) 16:00 | super lig | Samsunspor vs Beşiktaş | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.7
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 3 | Dimanche 2026-04-19 19:00→22:50 | code=A2 | odd=2.8
+   id=2026-04-19_1900_08d0282e8a_O25R
+   legs=2 | WIN=2 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 19:00 | liga portugal | Sporting CP vs Benfica | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.73
+   ✅ Leg 2) 21:00 | laliga2 | Almeria vs Malaga | Over 2.5 (FT) | [EXPLOSION] | odd=1.62
+
 ====================================================================
-TOTAL tickets : 3
-✅ WIN     : 3
+TOTAL tickets : 6
+✅ WIN     : 6
 ❌ LOSS    : 0
 ⏳ PENDING : 0
 ====================================================================

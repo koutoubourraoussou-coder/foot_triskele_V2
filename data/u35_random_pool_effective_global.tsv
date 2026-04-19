@@ -181,3 +181,12 @@ TSV: 2026-04-18	2152459203	U35_FT	21:00	premier league	Chelsea	Manchester United
 TSV: 2026-04-18	3561495340	U35_FT	21:00	liga pro ecuador	Mushuc Runa SC	Tecnico Universitario	1.22	1519325	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-18	2786190727	U35_FT	21:30	liga portugal	GIL Vicente	Guimaraes	1.25	1396502	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND U35_RANDOM_POOL_EFFECTIVE | 2026-04-20 01:01:48 | run_date=2026-04-19 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-19	3862961977	U35_FT	14:00	laliga2	FC Andorra	Valladolid	1.22	1396984	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-19	3266965835	U35_FT	16:15	laliga2	Sporting Gijon	Cadiz	1.33	1392152	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-19	3434469873	U35_FT	16:30	liga portugal	Arouca	Estrela	1.33	1396498	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-19	3090249168	U35_FT	17:30	premier league	Manchester City	Arsenal	1.3	1379295	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-19	1862159492	U35_FT	22:30	liga pro ecuador	Independiente del Valle	LDU de Quito	1.33	1519321	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

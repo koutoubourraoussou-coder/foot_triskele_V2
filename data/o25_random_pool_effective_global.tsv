@@ -78,3 +78,9 @@ TSV: 2026-04-19	17870661	O25_FT	21:00	laliga2	Almeria	Malaga	1.62	1392157	O25_RA
 TSV: 2026-04-18	2055960016	O25_FT	01:30	mls	Orlando City SC	Houston Dynamo	1.55	1490219	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-18	304526490	O25_FT	15:00	serie b	Bari	Venezia	1.57	1419931	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O25_RANDOM_POOL_EFFECTIVE | 2026-04-20 01:01:50 | run_date=2026-04-19 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-19	1955721999	O25_FT	16:00	super lig	Samsunspor	Beşiktaş	1.7	1394701	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-19	2092069070	O25_FT	17:15	ligue 1	Strasbourg	Rennes	1.65	1387967	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+
