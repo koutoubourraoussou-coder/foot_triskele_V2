@@ -1925,3 +1925,8 @@ TSV: 2026-04-18	2846557593	U35_FT	19:00	ligue 1	Angers	Le Havre	1.2	1387959	SYST
 TSV: 2026-04-18	1641887676	O15_FT	20:45	serie a italia	AS Roma	Atalanta	1.33	1378190	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-18	1533635990	O15_FT	20:45	pro league	KV Mechelen	Anderlecht	1.25	1536985	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-04-19 03:14:22 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-18	3922448726	U35_FT	01:00	liga mx	Cruz Azul	Club Tijuana	1.7	1492592	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+

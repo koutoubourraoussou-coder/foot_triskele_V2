@@ -449,37 +449,26 @@ def _generate_global_tickets_report_from_predictions() -> None:
                 continue
 
             try:
-                out = generate_tickets_from_tsv(str(tmp_path))
+                out = generate_tickets_from_tsv(str(tmp_path), run_date=d)
             except Exception as e:
                 print(f"⚠️ Erreur génération tickets (GLOBAL jour={d}) : {e}")
                 continue
 
+            # generate_tickets_from_tsv gère déjà l'écriture dans les fichiers globaux
+            # via append_report_to_global (avec replace-by-date). Pas de double-écriture ici.
             if (out.report_system or "").strip():
-                _append_text(TICKETS_GLOBAL_REPORT, out.report_system)
                 any_sys = True
-
             if (out.report_o15 or "").strip():
-                _append_text(TICKETS_O15_GLOBAL_REPORT, out.report_o15)
                 any_o15 = True
-
             if (out.report_u35 or "").strip():
-                _append_text(TICKETS_U35_GLOBAL_REPORT, out.report_u35)
                 any_u35 = True
-
             if (out.report_o25 or "").strip():
-                _append_text(TICKETS_O25_GLOBAL_REPORT, out.report_o25)
                 any_o25 = True
-
             if (out.report_o15_super or "").strip():
-                _append_text(TICKETS_O15_SUPER_GLOBAL_REPORT, out.report_o15_super)
                 any_o15_super = True
-
             if (out.report_u35_super or "").strip():
-                _append_text(TICKETS_U35_SUPER_GLOBAL_REPORT, out.report_u35_super)
                 any_u35_super = True
-
             if (out.report_o25_super or "").strip():
-                _append_text(TICKETS_O25_SUPER_GLOBAL_REPORT, out.report_o25_super)
                 any_o25_super = True
 
     if any_sys:

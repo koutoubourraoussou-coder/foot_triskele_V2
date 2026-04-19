@@ -1262,3 +1262,9 @@ TSV: 2026-04-18	2055960016	O15_FT	01:30	mls	Orlando City SC	Houston Dynamo	1.17	
 TSV: 2026-04-18	3630215054	O15_FT	15:00	czech first league	Zlin	Teplice	1.5	1384890	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-18	1653485067	O15_FT	16:00	premier league	Leeds	Wolves	1.28	1379294	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_EFFECTIVE | 2026-04-19 03:14:24 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-18	144306690	O15_FT	01:30	primera división paraguay	Deportivo Recoleta	2 de Mayo	1.33	1505058	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-18	1086693212	O15_FT	01:30	mls	FC Cincinnati	Chicago Fire	1.2	1490215	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

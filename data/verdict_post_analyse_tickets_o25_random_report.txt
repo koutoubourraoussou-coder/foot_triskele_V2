@@ -4,9 +4,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O25_RANDOM]
 Source tickets : data/tickets_o25_random.tsv
 Date run       : 2026-04-19
 Output         : data/verdict_post_analyse_tickets_o25_random_report.txt
-Whitelist      : ON (13 ids)
-Ignorés (hors whitelist) : 0
-Ignorés (date>=today)    : 17
+Whitelist      : ON (12 ids)
+Ignorés (hors whitelist) : 9
+Ignorés (date>=today)    : 28
 
 ────────────────────────────────────────────────────────────────────
 ❌ Ticket 1 | Samedi 2026-04-18 01:30→15:20 | code=A2 | odd=3.1
@@ -16,12 +16,12 @@ Ignorés (date>=today)    : 17
    ✅ Leg 2) 13:30 | liga i romania | Csikszereda vs Unirea Slobozia | Over 2.5 (FT) | [FORT PLUS] | odd=2
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 2 | Samedi 2026-04-18 11:00→16:50 | code=A2 | odd=6.83
-   id=2026-04-18_1100_abd41c5180_O25R
-   legs=3 | WIN=0 | LOSS=3 | PENDING=0
-   ❌ Leg 1) 11:00 | russian premier league | FC Orenburg vs Lokomotiv | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.63
-   ❌ Leg 2) 14:30 | ukrainian premier league | Metalist 1925 Kharkiv vs Kudrivka | Over 2.5 (FT) | [KO] | odd=1.95
-   ❌ Leg 3) 15:00 | super league greece | Kifisia vs Asteras Tripolis | Over 2.5 (FT) | [MOYEN] | odd=2.15
+✅ Ticket 2 | Samedi 2026-04-18 13:30→17:20 | code=A2 | odd=5.68
+   id=2026-04-18_1330_d536753993_O25R
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 13:30 | liga i romania | Csikszereda vs Unirea Slobozia | Over 2.5 (FT) | [FORT PLUS] | odd=2
+   ✅ Leg 2) 15:00 | superliga serbia | Cukaricki vs Radnik Surdulica | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.92
+   ✅ Leg 3) 15:30 | bundesliga | 1899 Hoffenheim vs Borussia Dortmund | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.48
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 3 | Samedi 2026-04-18 15:30→17:50 | code=A2 | odd=3.63
@@ -31,12 +31,12 @@ Ignorés (date>=today)    : 17
    ✅ Leg 2) 16:00 | super league greece | Atromitos vs Larisa | Over 2.5 (FT) | [KO] | odd=2.45
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 4 | Samedi 2026-04-18 17:00→18:50 | code=A2 | odd=5.55
-   id=2026-04-18_1700_1e8679fdde_O25R
-   legs=3 | WIN=1 | LOSS=2 | PENDING=0
-   ❌ Leg 1) 17:00 | austrian bundesliga | Wolfsberger AC vs FC BW Linz | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.85
-   ❌ Leg 2) 17:00 | super league greece | OFI vs Levadiakos | Over 2.5 (FT) | [MOYEN PLUS] | odd=2
-   ✅ Leg 3) 17:00 | superliga serbia | FK Crvena Zvezda vs Vojvodina | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.5
+✅ Ticket 4 | Samedi 2026-04-18 18:00→20:20 | code=A2 | odd=5.22
+   id=2026-04-18_1800_5651f60998_O25R
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 18:00 | super league greece | Aris Thessalonikis vs Volos NFC | Over 2.5 (FT) | [KO] | odd=2
+   ✅ Leg 2) 18:30 | bundesliga | Eintracht Frankfurt vs RB Leipzig | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.45
+   ✅ Leg 3) 18:30 | superliga serbia | FK Partizan vs Železničar Pančevo | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.8
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 5 | Samedi 2026-04-18 18:00→20:20 | code=A2 | odd=2.9
@@ -46,15 +46,7 @@ Ignorés (date>=today)    : 17
    ✅ Leg 2) 18:30 | bundesliga | Eintracht Frankfurt vs RB Leipzig | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.45
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 6 | Samedi 2026-04-18 19:15→22:20 | code=A2 | odd=4.01
-   id=2026-04-18_1915_a51a45eff9_O25R
-   legs=3 | WIN=2 | LOSS=1 | PENDING=0
-   ❌ Leg 1) 19:15 | schweizer cup | Stade Lausanne-Ouchy vs Grasshoppers | Over 2.5 (FT) | [FORT] | odd=1.85
-   ✅ Leg 2) 20:30 | mls | CF Montreal vs New York Red Bulls | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.55
-   ✅ Leg 3) 20:30 | super league switzerland | FC Thun vs FC Basel 1893 | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.4
-
-────────────────────────────────────────────────────────────────────
-✅ Ticket 7 | Samedi 2026-04-18 20:30→00:20 | code=A2 | odd=2.99
+✅ Ticket 6 | Samedi 2026-04-18 20:30→00:20 | code=A2 | odd=2.99
    id=2026-04-18_2030_aac0b98d5f_O25R
    legs=3 | WIN=3 | LOSS=0 | PENDING=0
    ✅ Leg 1) 20:30 | mls | CF Montreal vs New York Red Bulls | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.55
@@ -62,9 +54,9 @@ Ignorés (date>=today)    : 17
    ✅ Leg 3) 22:30 | mls | Colorado Rapids vs Inter Miami | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.38
 
 ====================================================================
-TOTAL tickets : 7
-✅ WIN     : 3
-❌ LOSS    : 4
+TOTAL tickets : 6
+✅ WIN     : 5
+❌ LOSS    : 1
 ⏳ PENDING : 0
 ====================================================================
 

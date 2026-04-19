@@ -4,9 +4,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [U35_RANDOM]
 Source tickets : data/tickets_u35_random.tsv
 Date run       : 2026-04-19
 Output         : data/verdict_post_analyse_tickets_u35_random_report.txt
-Whitelist      : ON (15 ids)
-Ignorés (hors whitelist) : 0
-Ignorés (date>=today)    : 20
+Whitelist      : ON (16 ids)
+Ignorés (hors whitelist) : 10
+Ignorés (date>=today)    : 30
 
 ────────────────────────────────────────────────────────────────────
 ❌ Ticket 1 | Jeudi 2026-04-16 18:45→22:50 | code=RESTE | odd=2.16
@@ -33,12 +33,12 @@ Ignorés (date>=today)    : 20
    ✅ Leg 3) 01:00 | serie a brazil | Vitoria vs Corinthians | Under 3.5 (FT) | [FORT PLUS] | odd=1.15
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 2 | Samedi 2026-04-18 02:30→17:20 | code=A2 | odd=2.46
-   id=2026-04-18_0230_bf4105e2f7_U35R
-   legs=3 | WIN=1 | LOSS=2 | PENDING=0
-   ❌ Leg 1) 02:30 | liga pro ecuador | Emelec vs Guayaquil City FC | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.22
-   ✅ Leg 2) 13:30 | scottish cup | Dunfermline vs Falkirk | Under 3.5 (FT) | [MOYEN] | odd=1.42
-   ❌ Leg 3) 15:30 | bundesliga | Werder Bremen vs Hamburger SV | Under 3.5 (FT) | [FORT PLUS] | odd=1.42
+❌ Ticket 2 | Samedi 2026-04-18 01:00→04:20 | code=A2 | odd=2.47
+   id=2026-04-18_0100_a55c46199e_U35R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 01:00 | liga mx | Cruz Azul vs Club Tijuana | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.62
+   ✅ Leg 2) 01:30 | serie a brazil | Cruzeiro vs Gremio | Under 3.5 (FT) | [MOYEN] | odd=1.25
+   ❌ Leg 3) 02:30 | liga pro ecuador | Emelec vs Guayaquil City FC | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.22
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 3 | Samedi 2026-04-18 13:30→15:20 | code=A2 | odd=2.58
@@ -49,7 +49,15 @@ Ignorés (date>=today)    : 20
    ✅ Leg 3) 13:30 | scottish cup | Dunfermline vs Falkirk | Under 3.5 (FT) | [MOYEN] | odd=1.42
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 4 | Samedi 2026-04-18 16:00→18:05 | code=A2 | odd=2.5
+✅ Ticket 4 | Samedi 2026-04-18 13:30→15:50 | code=A2 | odd=2.62
+   id=2026-04-18_1330_6708ca4f40_U35R
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 13:30 | scottish cup | Dunfermline vs Falkirk | Under 3.5 (FT) | [MOYEN] | odd=1.42
+   ✅ Leg 2) 13:30 | super lig | Fatih Karagümrük vs Eyüpspor | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.28
+   ✅ Leg 3) 14:00 | ligue 2 | Estac Troyes vs Boulogne | Under 3.5 (FT) | [FORT PLUS] | odd=1.44
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 5 | Samedi 2026-04-18 16:00→18:05 | code=A2 | odd=2.5
    id=2026-04-18_1600_c06ea4b44d_U35R
    legs=3 | WIN=1 | LOSS=2 | PENDING=0
    ❌ Leg 1) 16:00 | championship | Bristol City vs Norwich | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.33
@@ -57,33 +65,32 @@ Ignorés (date>=today)    : 20
    ❌ Leg 3) 16:15 | laliga2 | Zaragoza vs AD Ceuta FC | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.36
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 5 | Samedi 2026-04-18 18:15→01:20 | code=A2 | odd=2.59
+❌ Ticket 6 | Samedi 2026-04-18 16:00→18:05 | code=A2 | odd=2.44
+   id=2026-04-18_1600_dd418b1d08_U35R
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 16:00 | championship | Bristol City vs Norwich | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.33
+   ✅ Leg 2) 16:00 | championship | Hull City vs Birmingham | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.35
+   ❌ Leg 3) 16:15 | laliga2 | Zaragoza vs AD Ceuta FC | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.36
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 7 | Samedi 2026-04-18 18:15→01:20 | code=A2 | odd=2.7
+   id=2026-04-18_1815_570c1a8085_U35R
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 18:15 | pro league | KVC Westerlo vs Genk | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.44
+   ✅ Leg 2) 20:45 | serie a italia | AS Roma vs Atalanta | Under 3.5 (FT) | [FORT] | odd=1.3
+   ✅ Leg 3) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | Under 3.5 (FT) | [FORT PLUS] | odd=1.44
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 8 | Samedi 2026-04-18 18:15→01:20 | code=A2 | odd=2.59
    id=2026-04-18_1815_8cf67d62b9_U35R
    legs=3 | WIN=3 | LOSS=0 | PENDING=0
    ✅ Leg 1) 18:15 | pro league | KVC Westerlo vs Genk | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.44
    ✅ Leg 2) 19:00 | liga portugal 2 | Torreense vs Maritimo | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.25
    ✅ Leg 3) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | Under 3.5 (FT) | [FORT PLUS] | odd=1.44
 
-────────────────────────────────────────────────────────────────────
-❌ Ticket 6 | Samedi 2026-04-18 18:15→20:05 | code=A2 | odd=2.9
-   id=2026-04-18_1815_c144e1811e_U35R
-   legs=3 | WIN=2 | LOSS=1 | PENDING=0
-   ✅ Leg 1) 18:15 | cymru premier league | Caernarfon Town vs Penybont | Under 3.5 (FT) | [EXPLOSION] | odd=1.44
-   ❌ Leg 2) 18:15 | cymru premier league | Cardiff MET vs Flint Town United | Under 3.5 (FT) | [MOYEN PLUS] | odd=1.4
-   ✅ Leg 3) 18:15 | pro league | KVC Westerlo vs Genk | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.44
-
-────────────────────────────────────────────────────────────────────
-✅ Ticket 7 | Samedi 2026-04-18 20:30→01:20 | code=A2 | odd=3.36
-   id=2026-04-18_2030_186824c623_U35R
-   legs=4 | WIN=4 | LOSS=0 | PENDING=0
-   ✅ Leg 1) 20:30 | 2. bundesliga | Hannover 96 vs SC Paderborn 07 | Under 3.5 (FT) | [TRÈS FORT] | odd=1.53
-   ✅ Leg 2) 23:15 | primera división paraguay | Club Guarani vs Sportivo Luqueno | Under 3.5 (FT) | [TRÈS FORT] | odd=1.25
-   ✅ Leg 3) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | Under 3.5 (FT) | [FORT PLUS] | odd=1.44
-   ✅ Leg 4) 23:30 | serie a brazil | Vasco DA Gama vs Sao Paulo | Under 3.5 (FT) | [EXPLOSION] | odd=1.22
-
 ====================================================================
-TOTAL tickets : 9
-✅ WIN     : 4
+TOTAL tickets : 10
+✅ WIN     : 5
 ❌ LOSS    : 5
 ⏳ PENDING : 0
 ====================================================================

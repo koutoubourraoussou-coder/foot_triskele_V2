@@ -2775,10 +2775,10 @@ def _try_build_ticket_random(
             used_matches.add(mk)
             total *= (p.odd or 1.0)
 
-            if total >= threshold or len(chosen) >= wanted_legs:
+            if len(chosen) >= wanted_legs:
                 break
 
-        if not chosen:
+        if len(chosen) != wanted_legs:
             return None
         if total < threshold:
             return None
@@ -3409,6 +3409,42 @@ def _extract_ticket_blocks(report_text: str) -> Dict[str, str]:
 
     return blocks
 
+def _remove_date_blocks_from_global(path: Path, run_date: str) -> None:
+    """Supprime les blocs APPEND qui contiennent uniquement des tickets pour run_date."""
+    if not path.exists() or path.stat().st_size == 0:
+        return
+
+    text = path.read_text(encoding="utf-8", errors="ignore")
+    split_marker = "\n\n# ------------------------------------------------------------------\n# APPEND "
+
+    if split_marker not in text:
+        return
+
+    idx = text.index(split_marker)
+    header = text[:idx]
+    rest = text[idx:]
+    raw_blocks = rest.split(split_marker)
+    raw_blocks = [b for b in raw_blocks if b.strip()]
+
+    _tid_re = re.compile(r"id=(\d{4}-\d{2}-\d{2}[\w_]+)")
+
+    filtered_blocks = []
+    for block in raw_blocks:
+        ids = _tid_re.findall(block)
+        if ids and all(tid.startswith(run_date) for tid in ids):
+            continue  # Bloc entier pour cette date → supprimé
+        filtered_blocks.append(block)
+
+    result = header
+    for block in filtered_blocks:
+        result += split_marker + block
+
+    if not result.endswith("\n"):
+        result += "\n"
+
+    path.write_text(result, encoding="utf-8")
+
+
 def _sort_global_report_file(path: Path) -> None:
     """Réécrit le fichier global trié par date du premier ticket de chaque bloc APPEND."""
     if not path.exists() or path.stat().st_size == 0:
@@ -3461,6 +3497,10 @@ def append_report_to_global(
         return 0
 
     global_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Si run_date fourni, supprimer d'abord les blocs existants pour cette date (replace-by-date)
+    if run_date:
+        _remove_date_blocks_from_global(global_path, run_date)
 
     existing_text = ""
     if global_path.exists() and global_path.stat().st_size > 0:

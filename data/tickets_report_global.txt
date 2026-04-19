@@ -1668,27 +1668,6 @@ Aucun ticket.
 
 
 # ------------------------------------------------------------------
-# APPEND SYSTEM | 2026-03-28 00:25:44 | run_date=ALL | source=predictions.tsv
-# ------------------------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-03-28_0800_44997c11a9_SYS — cote = 2.65 — fenêtre 08:00 → 16:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 08:00 | international friendlies | Thailand U23 vs Vietnam U23 | HT+0.5 | FORT | odd=1.4
-  2) 15:00 | international friendlies | San Marino vs Faroe Islands | HT+0.5 | MEGA EXPLOSION | odd=1.35
-  3) 15:00 | international friendlies | South Korea vs Ivory Coast | HT+0.5 | TRÈS FORT | odd=1.4
-
-📅 Samedi 2026-03-28 — Tranche 2 (fenêtre ~60min)
-------------------------------------------------
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-03-28_1700_db6a710daa_SYS — cote = 2.63 — fenêtre 17:00 → 19:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 17:00 | international friendlies | Senegal vs Peru | HT+0.5 | FORT PLUS | odd=1.36
-  2) 18:00 | international friendlies | Hungary vs Slovenia | HT+0.5 | FORT | odd=1.38
-  3) 18:00 | international friendlies | Scotland vs Japan | HT+0.5 | MEGA EXPLOSION | odd=1.4
-
-
-# ------------------------------------------------------------------
 # APPEND SYSTEM | 2026-04-08 20:52:41 | run_date=ALL | source=predictions.tsv
 # ------------------------------------------------------------------
 
@@ -1698,30 +1677,6 @@ Aucun ticket.
   1) 01:20 | primera a colombia | Deportivo Pasto vs Atletico Nacional | HT 1X Home | MOYEN PLUS | odd=1.36
   2) 18:30 | laliga2 | Zaragoza vs Racing Santander | HT 1X Home | MOYEN PLUS | odd=1.36
   3) 23:10 | primera a colombia | Internacional de Bogota vs Junior | HT 1X Home | MOYEN PLUS | odd=1.3
-
-
-# ------------------------------------------------------------------
-# APPEND SYSTEM | 2026-03-29 00:33:17 | run_date=ALL | source=predictions.tsv
-# ------------------------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-03-29_1500_451f800d97_SYS — cote = 2.55 — fenêtre 15:00 → 01:00  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 15:00 | international friendlies | Armenia vs Belarus | HT+0.5 | MEGA EXPLOSION | odd=1.4
-  2) 15:00 | international friendlies | Lithuania vs Georgia | HT+0.5 | TRÈS FORT | odd=1.4
-  3) 23:10 | primera a colombia | Internacional de Bogota vs Junior | HT 1X Home | MOYEN PLUS | odd=1.3
-
-
-# ------------------------------------------------------------------
-# APPEND SYSTEM | 2026-03-30 05:30:02 | run_date=ALL | source=predictions.tsv
-# ------------------------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-03-30_0330_704d91375b_SYS — cote = 2.66 — fenêtre 03:30 → 19:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 03:30 | primera a colombia | Llaneros vs Once Caldas | HT 1X Home | FORT | odd=1.38
-  2) 14:00 | international friendlies | Russia U21 vs Jordan U23 | HT+0.5 | MEGA EXPLOSION | odd=1.43
-  3) 18:00 | international friendlies | Cyprus vs Moldova | HT+0.5 | MEGA EXPLOSION | odd=1.35
 
 
 # ------------------------------------------------------------------
@@ -1777,27 +1732,6 @@ Aucun ticket.
 
 
 # ------------------------------------------------------------------
-# APPEND SYSTEM | 2026-04-02 07:21:36 | run_date=ALL | source=predictions.tsv
-# ------------------------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-03-31_0320_e551181522_SYS — cote = 2.44 — fenêtre 03:20 → 15:25  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 03:20 | primera a colombia | Millonarios vs Fortaleza FC | Over 1.5 (FT) | TRÈS FORT | odd=1.3
-  2) 09:00 | international friendlies | Korea DPR U23 vs Thailand U23 | Over 1.5 (FT) | FORT PLUS | odd=1.34
-  3) 13:35 | international friendlies | China PR U23 vs Vietnam U23 | Over 1.5 (FT) | FORT | odd=1.4
-
-📅 Mardi 2026-03-31 — Tranche 2 (fenêtre ~30min)
------------------------------------------------
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-03-31_1900_d2ffed7c59_SYS — cote = 2.56 — fenêtre 19:00 → 21:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 19:00 | liga profesional argentina | Aldosivi vs Argentinos JRS | HT 1X Home | FORT | odd=1.45
-  2) 19:30 | international friendlies | Haiti vs Iceland | HT+0.5 | MEGA EXPLOSION | odd=1.36
-  3) 19:30 | international friendlies | Jordan vs Nigeria | Over 1.5 (FT) | TRÈS FORT | odd=1.3
-
-
-# ------------------------------------------------------------------
 # APPEND SYSTEM | 2026-04-08 20:56:52 | run_date=ALL | source=predictions.tsv
 # ------------------------------------------------------------------
 
@@ -1810,19 +1744,6 @@ Aucun ticket.
 
 
 # ------------------------------------------------------------------
-# APPEND SYSTEM | 2026-04-02 07:52:31 | run_date=ALL | source=predictions.tsv
-# ------------------------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-01_1900_786e00b657_SYS — cote = 2.71 — fenêtre 19:00 → 01:00  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 19:00 | laliga2 | FC Andorra vs Malaga | Over 1.5 (FT) | MOYEN PLUS | odd=1.3
-  2) 20:00 | laliga2 | Huesca vs Cultural Leonesa | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.4
-  3) 20:00 | laliga2 | Burgos vs AD Ceuta FC | Team1 scores (FT) | MOYEN PLUS | odd=1.22
-  4) 23:10 | primera a colombia | Alianza Valledupar vs Deportivo Pasto | HT 1X Home | MOYEN PLUS | odd=1.22
-
-
-# ------------------------------------------------------------------
 # APPEND SYSTEM | 2026-04-08 20:57:04 | run_date=ALL | source=predictions.tsv
 # ------------------------------------------------------------------
 
@@ -1832,19 +1753,6 @@ Aucun ticket.
   1) 00:00 | serie a brazil | Chapecoense-sc vs Atletico-MG | HT 1X Home | FORT | odd=1.36
   2) 20:00 | laliga2 | Castellón vs Almeria | HT 1X Home | MOYEN PLUS | odd=1.25
   3) 20:00 | liga profesional argentina | Barracas Central vs Sarmiento Junin | Team1 scores (FT) | MOYEN PLUS | odd=1.44
-
-
-# ------------------------------------------------------------------
-# APPEND SYSTEM | 2026-04-03 00:13:34 | run_date=ALL | source=predictions.tsv
-# ------------------------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-02_0330_ea85eef7de_SYS — cote = 2.42 — fenêtre 03:30 → 21:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 03:30 | primera a colombia | Atletico Nacional vs Cucuta | Over 1.5 (FT) | FORT PLUS | odd=1.15
-  2) 19:00 | laliga2 | Las Palmas vs Granada CF | Team1 scores (FT) | MOYEN PLUS | odd=1.17
-  3) 20:00 | laliga2 | Castellón vs Almeria | HT 1X Home | MOYEN PLUS | odd=1.25
-  4) 20:00 | liga profesional argentina | Barracas Central vs Sarmiento Junin | Team1 scores (FT) | MOYEN PLUS | odd=1.44
 
 
 # ------------------------------------------------------------------
@@ -1876,27 +1784,6 @@ Aucun ticket.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   1) 20:00 | ligue 2 | Annecy vs Guingamp | HT 1X Home | TRÈS FORT | odd=1.33
   2) 21:00 | championship | Coventry vs Derby | HT 1X Home | MOYEN PLUS | odd=1.15
-  3) 21:00 | laliga | Rayo Vallecano vs Elche | Team2 scores (FT) | FORT PLUS | odd=1.57
-
-
-# ------------------------------------------------------------------
-# APPEND SYSTEM | 2026-04-03 00:17:41 | run_date=ALL | source=predictions.tsv
-# ------------------------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-03_0230_b510daeff7_SYS — cote = 2.67 — fenêtre 02:30 → 17:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 02:30 | serie a brazil | RB Bragantino vs Flamengo | HT 1X Home | TRÈS FORT | odd=1.4
-  2) 15:30 | cymru premier league | Briton Ferry vs Cardiff MET | HT 1X Home | TRÈS FORT | odd=1.4
-  3) 15:30 | cymru premier league | Penybont vs Barry Town | HT 1X Home | FORT | odd=1.36
-
-📅 Vendredi 2026-04-03 — Tranche 2 (fenêtre ~60min)
---------------------------------------------------
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-03_2000_185628ac4f_SYS — cote = 2.49 — fenêtre 20:00 → 22:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 20:00 | ligue 2 | Dunkerque vs Rodez | HT 1X Home | FORT PLUS | odd=1.22
-  2) 20:00 | liga profesional argentina | Gimnasia M. vs Velez Sarsfield | HT 1X Home | TRÈS FORT | odd=1.3
   3) 21:00 | laliga | Rayo Vallecano vs Elche | Team2 scores (FT) | FORT PLUS | odd=1.57
 
 
@@ -2166,18 +2053,6 @@ Aucun ticket.
 
 
 # ------------------------------------------------------------------
-# APPEND SYSTEM | 2026-04-16 04:15:46 | run_date=ALL | source=predictions.tsv
-# ------------------------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (RESTE) — id=2026-04-16_1845_ac9252381c_SYS — cote = 2.16 — fenêtre 18:45 → 22:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | Over 1.5 (FT) | TRÈS FORT | odd=1.28
-  2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | Team1 scores (FT) | MOYEN PLUS | odd=1.3
-  3) 21:00 | uefa europa league | Real Betis vs SC Braga | Over 1.5 (FT) | FORT PLUS | odd=1.3
-
-
-# ------------------------------------------------------------------
 # APPEND SYSTEM | 2026-04-17 00:08:52 | run_date=ALL | source=predictions.tsv
 # ------------------------------------------------------------------
 
@@ -2190,45 +2065,145 @@ Aucun ticket.
 
 
 # ------------------------------------------------------------------
-# APPEND SYSTEM | 2026-04-19 02:54:23 | run_date=ALL | source=predictions.tsv
+# APPEND SYSTEM | 2026-04-19 03:14:24 | run_date=ALL | source=predictions.tsv
 # ------------------------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-18_0130_71f1f3380b_SYS — cote = 2.54 — fenêtre 01:30 → 04:50  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-18_0100_0623c16afd_SYS — cote = 2.51 — fenêtre 01:00 → 04:50  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 01:30 | mls | New York City FC vs Charlotte | Over 1.5 (FT) | MOYEN PLUS | odd=1.25
-  2) 01:30 | serie a brazil | Cruzeiro vs Gremio | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
-  3) 02:30 | liga pro ecuador | Emelec vs Guayaquil City FC | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.22
-  4) 03:00 | liga mx | Mazatlán vs Club Queretaro | Over 1.5 (FT) | MOYEN PLUS | odd=1.25
+  1) 01:00 | liga mx | Cruz Azul vs Club Tijuana | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.7
+  2) 01:30 | serie a brazil | Cruzeiro vs Gremio | Team1 scores (FT) | MOYEN PLUS | odd=1.18
+  3) 03:00 | liga mx | Mazatlán vs Club Queretaro | Over 1.5 (FT) | MOYEN PLUS | odd=1.25
 
-📅 Samedi 2026-04-18 — Tranche 2 (fenêtre ~180min)
+📅 Samedi 2026-04-18 — Tranche 2 (fenêtre ~150min)
 -------------------------------------------------
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-18_1300_6002e821a7_SYS — cote = 2.49 — fenêtre 13:00 → 17:50  
+  🎟️ TICKET 2.1 (A2) — id=2026-04-18_1300_c979532a72_SYS — cote = 2.41 — fenêtre 13:00 → 17:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   1) 13:00 | 2. bundesliga | Dynamo Dresden vs VfL Bochum | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
-  2) 15:00 | serie b | Modena vs Frosinone | Team2 scores (FT) | FORT PLUS | odd=1.25
-  3) 15:00 | serie b | Mantova vs Avellino | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
-  4) 16:00 | championship | Wrexham vs Stoke City | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.25
+  2) 15:00 | serie b | Mantova vs Avellino | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
+  3) 15:30 | bundesliga | Union Berlin vs VfL Wolfsburg | Over 1.5 (FT) | MOYEN PLUS | odd=1.28
+  4) 15:30 | bundesliga | 1899 Hoffenheim vs Borussia Dortmund | Team2 scores (FT) | FORT PLUS | odd=1.18
 
 📅 Samedi 2026-04-18 — Tranche 3 (fenêtre ~15min)
 ------------------------------------------------
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-18_1815_8551d16656_SYS — cote = 2.44 — fenêtre 18:15 → 20:20  
+  🎟️ TICKET 3.1 (A2) — id=2026-04-18_1815_36de67b1a4_SYS — cote = 2.42 — fenêtre 18:15 → 20:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   1) 18:15 | pro league | Charleroi vs Standard Liege | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.28
-  2) 18:15 | cymru premier league | Cardiff MET vs Flint Town United | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
-  3) 18:30 | laliga2 | Cultural Leonesa vs Cordoba | Over 1.5 (FT) | EXPLOSION | odd=1.28
-  4) 18:30 | bundesliga | Eintracht Frankfurt vs RB Leipzig | Team1 scores (FT) | MOYEN PLUS | odd=1.22
+  2) 18:30 | laliga2 | Cultural Leonesa vs Cordoba | Over 1.5 (FT) | EXPLOSION | odd=1.28
+  3) 18:30 | russian premier league | Nizhny Novgorod vs Dynamo | Team1 scores (FT) | MOYEN PLUS | odd=1.48
 
-📅 Samedi 2026-04-18 — Tranche 4 (fenêtre ~165min)
+📅 Samedi 2026-04-18 — Tranche 4 (fenêtre ~180min)
 -------------------------------------------------
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 4.1 (A2) — id=2026-04-18_2045_3a310e19c2_SYS — cote = 2.45 — fenêtre 20:45 → 01:20  
+  🎟️ TICKET 4.1 (A2) — id=2026-04-18_2030_5680c6d645_SYS — cote = 2.57 — fenêtre 20:30 → 01:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 20:45 | serie a italia | AS Roma vs Atalanta | Team1 scores (FT) | MOYEN PLUS | odd=1.25
-  2) 21:30 | liga portugal | GIL Vicente vs Guimaraes | Over 1.5 (FT) | MOYEN PLUS | odd=1.36
-  3) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | Under 3.5 (FT) | FORT PLUS | odd=1.44
+  1) 20:30 | mls | CF Montreal vs New York Red Bulls | Over 1.5 (FT) | TRÈS FORT | odd=1.17
+  2) 21:00 | premier league | Chelsea vs Manchester United | Team2 scores (FT) | FORT | odd=1.22
+  3) 21:30 | liga portugal | GIL Vicente vs Guimaraes | Team1 scores (FT) | MOYEN PLUS | odd=1.25
+  4) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | Under 3.5 (FT) | FORT PLUS | odd=1.44
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-04-19 03:17:12 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0230_bff8c63147_SYS — cote = 2.52 — fenêtre 02:30 → 06:56  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 02:30 | mls | FC Dallas vs Los Angeles Galaxy | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  2) 02:30 | mls | Minnesota United FC vs Portland Timbers | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  3) 03:30 | primera a colombia | Fortaleza FC vs Águilas Doradas | Team2 scores (FT) | EXPLOSION | odd=1.51
+  4) 05:06 | liga mx | Leon vs FC Juarez | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.2
+
+📅 Dimanche 2026-04-19 — Tranche 2 (fenêtre ~30min)
+--------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1300_59668080fe_SYS — cote = 2.41 — fenêtre 13:00 → 15:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 13:00 | czech first league | Sigma Olomouc vs Slovácko | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3
+  2) 13:30 | pro league | Gent vs St. Truiden | Team1 scores (FT) | FORT PLUS | odd=1.22
+  3) 13:30 | 2. bundesliga | Eintracht Braunschweig vs Hertha BSC | Team2 scores (FT) | FORT PLUS | odd=1.17
+  4) 13:30 | super lig | Kasımpaşa vs Alanyaspor | Team2 scores (FT) | FORT | odd=1.3
+
+📅 Dimanche 2026-04-19 — Tranche 3 (fenêtre ~120min)
+---------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-19_1730_3bfd7cb852_SYS — cote = 2.4 — fenêtre 17:30 → 21:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 17:30 | premier league | Manchester City vs Arsenal | Team1 scores (FT) | MOYEN PLUS | odd=1.18
+  2) 18:00 | serie a italia | Pisa vs Genoa | Over 1.5 (FT) | TRÈS FORT | odd=1.45
+  3) 19:00 | liga portugal | Sporting CP vs Benfica | Team1 scores (FT) | MOYEN PLUS | odd=1.2
+  4) 19:30 | superligaen | Gyori ETO FC vs Ferencvarosi TC | Team2 scores (FT) | FORT | odd=1.17
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-03-28 00:25:44 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📅 Samedi 2026-03-28 — Tranche 2 (fenêtre ~60min)
+------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-03-29 00:33:17 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-03-30 05:30:02 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-04-02 07:21:36 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📅 Mardi 2026-03-31 — Tranche 2 (fenêtre ~30min)
+-----------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-04-02 07:52:31 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-04-03 00:13:34 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-04-03 00:17:41 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📅 Vendredi 2026-04-03 — Tranche 2 (fenêtre ~60min)
+--------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+# ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-04-16 04:15:46 | run_date=ALL | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
 # ------------------------------------------------------------------
@@ -2236,63 +2211,14 @@ Aucun ticket.
 # ------------------------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-18_1300_97ce5503d5_SYS — cote = 2.59 — fenêtre 13:00 → 16:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 13:00 | 2. bundesliga | Dynamo Dresden vs VfL Bochum | Team2 scores (FT) | FORT | odd=1.22
-  2) 13:30 | scottish cup | Dunfermline vs Falkirk | Team1 scores (FT) | FORT | odd=1.44
-  3) 15:00 | serie b | Bari vs Venezia | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
-  4) 15:00 | serie b | Mantova vs Avellino | Team1 scores (FT) | FORT | odd=1.25
 
 📅 Samedi 2026-04-18 — Tranche 2 (fenêtre ~15min)
 ------------------------------------------------
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-18_1815_2ba0bf79b2_SYS — cote = 2.42 — fenêtre 18:15 → 20:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 18:15 | cymru premier league | Barry Town vs The New Saints | Team1 scores (FT) | MOYEN PLUS | odd=1.48
-  2) 18:15 | pro league | Charleroi vs Standard Liege | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.28
-  3) 18:30 | laliga2 | Cultural Leonesa vs Cordoba | Over 1.5 (FT) | EXPLOSION | odd=1.28
 
 📅 Samedi 2026-04-18 — Tranche 3 (fenêtre ~165min)
 -------------------------------------------------
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-18_2045_8256a4afb8_SYS — cote = 2.66 — fenêtre 20:45 → 01:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 20:45 | serie a italia | AS Roma vs Atalanta | Team1 scores (FT) | MOYEN PLUS | odd=1.25
-  2) 21:30 | liga portugal | GIL Vicente vs Guimaraes | Team1 scores (FT) | MOYEN PLUS | odd=1.25
-  3) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | Team2 scores (FT) | FORT | odd=1.7
-
-
-# ------------------------------------------------------------------
-# APPEND SYSTEM | 2026-04-19 02:57:13 | run_date=ALL | source=predictions.tsv
-# ------------------------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0230_4a3561a658_SYS — cote = 2.63 — fenêtre 02:30 → 06:56  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 02:30 | mls | Minnesota United FC vs Portland Timbers | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
-  2) 02:30 | mls | FC Dallas vs Los Angeles Galaxy | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
-  3) 03:30 | primera a colombia | Fortaleza FC vs Águilas Doradas | Team2 scores (FT) | EXPLOSION | odd=1.51
-  4) 05:06 | liga mx | Leon vs FC Juarez | Team2 scores (FT) | FORT | odd=1.25
-
-📅 Dimanche 2026-04-19 — Tranche 2 (fenêtre ~30min)
---------------------------------------------------
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1300_d4109a19d5_SYS — cote = 2.47 — fenêtre 13:00 → 15:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 13:00 | championship | Ipswich vs Middlesbrough | Team1 scores (FT) | FORT | odd=1.2
-  2) 13:00 | czech first league | Sigma Olomouc vs Slovácko | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3
-  3) 13:30 | pro league | Gent vs St. Truiden | Team1 scores (FT) | FORT PLUS | odd=1.22
-  4) 13:30 | super lig | Kasımpaşa vs Alanyaspor | Team2 scores (FT) | FORT | odd=1.3
-
-📅 Dimanche 2026-04-19 — Tranche 3 (fenêtre ~90min)
---------------------------------------------------
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-19_1800_b6e74979a4_SYS — cote = 2.65 — fenêtre 18:00 → 21:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 18:00 | serie a italia | Pisa vs Genoa | Over 1.5 (FT) | TRÈS FORT | odd=1.45
-  2) 18:30 | pro league | Union St. Gilloise vs Club Brugge KV | Team1 scores (FT) | MOYEN PLUS | odd=1.22
-  3) 19:30 | bundesliga | Borussia Mönchengladbach vs FSV Mainz 05 | Over 1.5 (FT) | EXPLOSION | odd=1.28
-  4) 19:30 | superligaen | Gyori ETO FC vs Ferencvarosi TC | Team2 scores (FT) | FORT | odd=1.17
 
 
 # ------------------------------------------------------------------
@@ -2300,29 +2226,11 @@ Aucun ticket.
 # ------------------------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0230_76419a1466_SYS — cote = 2.46 — fenêtre 02:30 → 06:56  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 02:30 | mls | Minnesota United FC vs Portland Timbers | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
-  2) 02:30 | mls | FC Dallas vs Los Angeles Galaxy | Team1 scores (FT) | FORT PLUS | odd=1.17
-  3) 03:30 | primera a colombia | Fortaleza FC vs Águilas Doradas | Team2 scores (FT) | EXPLOSION | odd=1.51
-  4) 05:06 | liga mx | Leon vs FC Juarez | Team1 scores (FT) | FORT | odd=1.18
 
 📅 Dimanche 2026-04-19 — Tranche 2 (fenêtre ~30min)
 --------------------------------------------------
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1300_9cbeb37e63_SYS — cote = 2.54 — fenêtre 13:00 → 15:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 13:00 | czech first league | Sigma Olomouc vs Slovácko | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3
-  2) 13:00 | championship | Ipswich vs Middlesbrough | Over 1.5 (FT) | FORT PLUS | odd=1.25
-  3) 13:30 | pro league | Gent vs St. Truiden | Over 1.5 (FT) | FORT PLUS | odd=1.2
-  4) 13:30 | super lig | Kasımpaşa vs Alanyaspor | Team2 scores (FT) | FORT | odd=1.3
 
 📅 Dimanche 2026-04-19 — Tranche 3 (fenêtre ~210min)
 ---------------------------------------------------
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-19_1800_07f19fda1a_SYS — cote = 2.63 — fenêtre 18:00 → 23:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 18:00 | serie a italia | Pisa vs Genoa | Over 1.5 (FT) | TRÈS FORT | odd=1.45
-  2) 19:00 | liga portugal | Sporting CP vs Benfica | Team1 scores (FT) | MOYEN PLUS | odd=1.2
-  3) 19:30 | bundesliga | Borussia Mönchengladbach vs FSV Mainz 05 | Over 1.5 (FT) | EXPLOSION | odd=1.28
-  4) 21:30 | liga portugal | SC Braga vs Famalicao | Team1 scores (FT) | MOYEN PLUS | odd=1.18

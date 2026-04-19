@@ -4,23 +4,23 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O25_SUPER_RANDOM]
 Source tickets : data/tickets_o25_super_random.tsv
 Date run       : 2026-04-19
 Output         : data/verdict_post_analyse_tickets_o25_super_random_report.txt
-Whitelist      : ON (15 ids)
-Ignorés (hors whitelist) : 0
-Ignorés (date>=today)    : 14
+Whitelist      : ON (14 ids)
+Ignorés (hors whitelist) : 8
+Ignorés (date>=today)    : 20
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 1 | Samedi 2026-04-18 01:30→03:20 | code=A2 | odd=2.96
+❌ Ticket 1 | Samedi 2026-04-18 01:30→03:20 | code=A2 | odd=3.6
+   id=2026-04-18_0130_8188a3609f_O25SR
+   legs=2 | WIN=0 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 01:30 | mls | Atlanta United FC vs Nashville SC | Over 2.5 (FT) | [MOYEN] | odd=1.8
+   ❌ Leg 2) 01:30 | mls | Philadelphia Union vs DC United | Over 2.5 (FT) | [FORT] | odd=2
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Samedi 2026-04-18 01:30→03:20 | code=A2 | odd=2.96
    id=2026-04-18_0130_b2dc6ed5e0_O25SR
    legs=2 | WIN=1 | LOSS=1 | PENDING=0
    ✅ Leg 1) 01:30 | mls | FC Cincinnati vs Chicago Fire | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.62
    ❌ Leg 2) 01:30 | mls | New England Revolution vs Columbus Crew | Over 2.5 (FT) | [EXPLOSION] | odd=1.83
-
-────────────────────────────────────────────────────────────────────
-❌ Ticket 2 | Samedi 2026-04-18 14:30→17:20 | code=A2 | odd=3.61
-   id=2026-04-18_1430_aa68189282_O25SR
-   legs=2 | WIN=1 | LOSS=1 | PENDING=0
-   ❌ Leg 1) 14:30 | ukrainian premier league | Metalist 1925 Kharkiv vs Kudrivka | Over 2.5 (FT) | [KO] | odd=1.95
-   ✅ Leg 2) 15:30 | bundesliga | Union Berlin vs VfL Wolfsburg | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.85
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 3 | Samedi 2026-04-18 14:45→17:50 | code=A2 | odd=3.51
@@ -30,11 +30,11 @@ Ignorés (date>=today)    : 14
    ✅ Leg 2) 16:00 | hnl croatia | Dinamo Zagreb vs HNK Rijeka | Over 2.5 (FT) | [MOYEN] | odd=1.67
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 4 | Samedi 2026-04-18 17:00→18:50 | code=A2 | odd=3.22
-   id=2026-04-18_1700_7d01a82fa5_O25SR
-   legs=2 | WIN=2 | LOSS=0 | PENDING=0
-   ✅ Leg 1) 17:00 | austrian bundesliga | WSG Wattens vs SCR Altach | Over 2.5 (FT) | [TRÈS FORT] | odd=2.15
-   ✅ Leg 2) 17:00 | superliga serbia | FK Crvena Zvezda vs Vojvodina | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.5
+❌ Ticket 4 | Samedi 2026-04-18 15:00→17:20 | code=A2 | odd=3.72
+   id=2026-04-18_1500_1c41b22c7b_O25SR
+   legs=2 | WIN=1 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 15:00 | super league greece | Kifisia vs Asteras Tripolis | Over 2.5 (FT) | [MOYEN] | odd=2.15
+   ✅ Leg 2) 15:30 | bundesliga | Werder Bremen vs Hamburger SV | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.73
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 5 | Samedi 2026-04-18 17:00→19:50 | code=A2 | odd=3.76
@@ -44,30 +44,30 @@ Ignorés (date>=today)    : 14
    ✅ Leg 2) 18:00 | super league greece | Aris Thessalonikis vs Volos NFC | Over 2.5 (FT) | [KO] | odd=2
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 6 | Samedi 2026-04-18 18:30→20:20 | code=A2 | odd=2.68
-   id=2026-04-18_1830_2ab33dfe53_O25SR
+❌ Ticket 6 | Samedi 2026-04-18 17:30→20:20 | code=A2 | odd=3.29
+   id=2026-04-18_1730_dcaf89f3dd_O25SR
    legs=2 | WIN=1 | LOSS=1 | PENDING=0
-   ✅ Leg 1) 18:30 | bundesliga | Eintracht Frankfurt vs RB Leipzig | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.45
-   ❌ Leg 2) 18:30 | russian premier league | Nizhny Novgorod vs Dynamo | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.85
+   ❌ Leg 1) 17:30 | ekstraklasa | Gornik Zabrze vs Korona Kielce | Over 2.5 (FT) | [MOYEN] | odd=1.83
+   ✅ Leg 2) 18:30 | superliga serbia | FK Partizan vs Železničar Pančevo | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.8
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 7 | Samedi 2026-04-18 19:00→22:20 | code=A2 | odd=3.22
-   id=2026-04-18_1900_83af62ee64_O25SR
-   legs=2 | WIN=2 | LOSS=0 | PENDING=0
-   ✅ Leg 1) 19:00 | super league greece | Panetolikos vs Panserraikos | Over 2.5 (FT) | [KO] | odd=2.3
-   ✅ Leg 2) 20:30 | super league switzerland | FC Thun vs FC Basel 1893 | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.4
-
-────────────────────────────────────────────────────────────────────
-✅ Ticket 8 | Samedi 2026-04-18 19:00→22:50 | code=A2 | odd=4.25
+✅ Ticket 7 | Samedi 2026-04-18 19:00→22:50 | code=A2 | odd=4.25
    id=2026-04-18_1900_2826b07288_O25SR
    legs=2 | WIN=2 | LOSS=0 | PENDING=0
    ✅ Leg 1) 19:00 | super league greece | Panetolikos vs Panserraikos | Over 2.5 (FT) | [KO] | odd=2.3
    ✅ Leg 2) 21:00 | copa del rey | Atletico Madrid vs Real Sociedad | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.85
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 8 | Samedi 2026-04-18 20:15→22:50 | code=A2 | odd=2.87
+   id=2026-04-18_2015_65f58e1172_O25SR
+   legs=2 | WIN=2 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 20:15 | ekstraklasa | Pogon Szczecin vs Lech Poznan | Over 2.5 (FT) | [FORT] | odd=1.55
+   ✅ Leg 2) 21:00 | copa del rey | Atletico Madrid vs Real Sociedad | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.85
+
 ====================================================================
 TOTAL tickets : 8
-✅ WIN     : 5
-❌ LOSS    : 3
+✅ WIN     : 4
+❌ LOSS    : 4
 ⏳ PENDING : 0
 ====================================================================
 

@@ -4,9 +4,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 Source tickets : data/tickets.tsv
 Date run       : 2026-04-19
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (177 ids)
-Ignorés (hors whitelist) : 16
-Ignorés (date>=today)    : 24
+Whitelist      : ON (167 ids)
+Ignorés (hors whitelist) : 61
+Ignorés (date>=today)    : 36
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -939,35 +939,11 @@ Ignorés (date>=today)    : 24
    ✅ Leg 3) 15:30 | cymru premier league | Cardiff MET vs Bala Town | Team2 scores (FT) | [FORT] | odd=1.51
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 2 | Samedi 2026-03-28 08:00→16:50 | code=A2 | odd=2.65
-   id=2026-03-28_0800_44997c11a9_SYS
-   legs=3 | WIN=3 | LOSS=0 | PENDING=0
-   ✅ Leg 1) 08:00 | international friendlies | Thailand U23 vs Vietnam U23 | HT+0.5 | [FORT] | odd=1.4
-   ✅ Leg 2) 15:00 | international friendlies | San Marino vs Faroe Islands | HT+0.5 | [MEGA EXPLOSION] | odd=1.35
-   ✅ Leg 3) 15:00 | international friendlies | South Korea vs Ivory Coast | HT+0.5 | [TRÈS FORT] | odd=1.4
-
-────────────────────────────────────────────────────────────────────
-❌ Ticket 3 | Samedi 2026-03-28 17:00→19:50 | code=A2 | odd=2.63
-   id=2026-03-28_1700_db6a710daa_SYS
-   legs=3 | WIN=1 | LOSS=2 | PENDING=0
-   ✅ Leg 1) 17:00 | international friendlies | Senegal vs Peru | HT+0.5 | [FORT PLUS] | odd=1.36
-   ❌ Leg 2) 18:00 | international friendlies | Hungary vs Slovenia | HT+0.5 | [FORT] | odd=1.38
-   ❌ Leg 3) 18:00 | international friendlies | Scotland vs Japan | HT+0.5 | [MEGA EXPLOSION] | odd=1.4
-
-────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Dimanche 2026-03-29 01:20→01:00 | code=A2 | odd=2.4
    id=2026-03-29_0120_183c42be24_SYS
    legs=3 | WIN=3 | LOSS=0 | PENDING=0
    ✅ Leg 1) 01:20 | primera a colombia | Deportivo Pasto vs Atletico Nacional | HT 1X Home | [MOYEN PLUS] | odd=1.36
    ✅ Leg 2) 18:30 | laliga2 | Zaragoza vs Racing Santander | HT 1X Home | [MOYEN PLUS] | odd=1.36
-   ✅ Leg 3) 23:10 | primera a colombia | Internacional de Bogota vs Junior | HT 1X Home | [MOYEN PLUS] | odd=1.3
-
-────────────────────────────────────────────────────────────────────
-❌ Ticket 2 | Dimanche 2026-03-29 15:00→01:00 | code=A2 | odd=2.55
-   id=2026-03-29_1500_451f800d97_SYS
-   legs=3 | WIN=2 | LOSS=1 | PENDING=0
-   ✅ Leg 1) 15:00 | international friendlies | Armenia vs Belarus | HT+0.5 | [MEGA EXPLOSION] | odd=1.4
-   ❌ Leg 2) 15:00 | international friendlies | Lithuania vs Georgia | HT+0.5 | [TRÈS FORT] | odd=1.4
    ✅ Leg 3) 23:10 | primera a colombia | Internacional de Bogota vs Junior | HT 1X Home | [MOYEN PLUS] | odd=1.3
 
 ────────────────────────────────────────────────────────────────────
@@ -979,14 +955,6 @@ Ignorés (date>=today)    : 24
    ❌ Leg 3) 15:00 | international friendlies | Tunisia U20 vs Mauritania U20 | Team2 scores (FT) | [TRÈS FORT] | odd=1.34
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 2 | Lundi 2026-03-30 03:30→19:50 | code=A2 | odd=2.66
-   id=2026-03-30_0330_704d91375b_SYS
-   legs=3 | WIN=3 | LOSS=0 | PENDING=0
-   ✅ Leg 1) 03:30 | primera a colombia | Llaneros vs Once Caldas | HT 1X Home | [FORT] | odd=1.38
-   ✅ Leg 2) 14:00 | international friendlies | Russia U21 vs Jordan U23 | HT+0.5 | [MEGA EXPLOSION] | odd=1.43
-   ✅ Leg 3) 18:00 | international friendlies | Cyprus vs Moldova | HT+0.5 | [MEGA EXPLOSION] | odd=1.35
-
-────────────────────────────────────────────────────────────────────
 ❌ Ticket 1 | Mardi 2026-03-31 01:00→12:50 | code=A2 | odd=2.42
    id=2026-03-31_0100_34edcb666b_SYS
    legs=3 | WIN=2 | LOSS=1 | PENDING=0
@@ -995,15 +963,7 @@ Ignorés (date>=today)    : 24
    ✅ Leg 3) 11:00 | international friendlies | Equatorial Guinea vs Madagascar | Over 1.5 (FT) | [EXPLOSION] | odd=1.33
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 2 | Mardi 2026-03-31 03:20→15:25 | code=A2 | odd=2.44
-   id=2026-03-31_0320_e551181522_SYS
-   legs=3 | WIN=2 | LOSS=1 | PENDING=0
-   ✅ Leg 1) 03:20 | primera a colombia | Millonarios vs Fortaleza FC | Over 1.5 (FT) | [TRÈS FORT] | odd=1.3
-   ✅ Leg 2) 09:00 | international friendlies | Korea DPR U23 vs Thailand U23 | Over 1.5 (FT) | [FORT PLUS] | odd=1.34
-   ❌ Leg 3) 13:35 | international friendlies | China PR U23 vs Vietnam U23 | Over 1.5 (FT) | [FORT] | odd=1.4
-
-────────────────────────────────────────────────────────────────────
-❌ Ticket 3 | Mardi 2026-03-31 13:35→17:20 | code=A2 | odd=2.44
+❌ Ticket 2 | Mardi 2026-03-31 13:35→17:20 | code=A2 | odd=2.44
    id=2026-03-31_1335_ec798bd5f0_SYS
    legs=3 | WIN=2 | LOSS=1 | PENDING=0
    ✅ Leg 1) 13:35 | international friendlies | China PR U20 vs Australia U20 | Team1 scores (FT) | [FORT] | odd=1.36
@@ -1011,7 +971,7 @@ Ignorés (date>=today)    : 24
    ❌ Leg 3) 15:30 | international friendlies | India U23 vs Tajikistan U23 | Over 1.5 (FT) | [FORT PLUS] | odd=1.28
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 4 | Mardi 2026-03-31 18:00→20:50 | code=A2 | odd=2.54
+❌ Ticket 3 | Mardi 2026-03-31 18:00→20:50 | code=A2 | odd=2.54
    id=2026-03-31_1800_aa5f5184a7_SYS
    legs=3 | WIN=2 | LOSS=1 | PENDING=0
    ✅ Leg 1) 18:00 | international friendlies | Montenegro vs Slovenia | HT 1X Home | [FORT] | odd=1.3
@@ -1019,15 +979,7 @@ Ignorés (date>=today)    : 24
    ✅ Leg 3) 19:00 | international friendlies | Hungary vs Greece | HT 1X Home | [FORT] | odd=1.3
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 5 | Mardi 2026-03-31 19:00→21:20 | code=A2 | odd=2.56
-   id=2026-03-31_1900_d2ffed7c59_SYS
-   legs=3 | WIN=1 | LOSS=2 | PENDING=0
-   ❌ Leg 1) 19:00 | liga profesional argentina | Aldosivi vs Argentinos JRS | HT 1X Home | [FORT] | odd=1.45
-   ❌ Leg 2) 19:30 | international friendlies | Haiti vs Iceland | HT+0.5 | [MEGA EXPLOSION] | odd=1.36
-   ✅ Leg 3) 19:30 | international friendlies | Jordan vs Nigeria | Over 1.5 (FT) | [TRÈS FORT] | odd=1.3
-
-────────────────────────────────────────────────────────────────────
-✅ Ticket 6 | Mardi 2026-03-31 21:00→01:20 | code=A2 | odd=2.43
+✅ Ticket 4 | Mardi 2026-03-31 21:00→01:20 | code=A2 | odd=2.43
    id=2026-03-31_2100_a8cb963b47_SYS
    legs=4 | WIN=4 | LOSS=0 | PENDING=0
    ✅ Leg 1) 21:00 | international friendlies | Brazil U20 vs Paraguay U20 | Over 1.5 (FT) | [EXPLOSION] | odd=1.22
@@ -1044,30 +996,12 @@ Ignorés (date>=today)    : 24
    ✅ Leg 3) 20:00 | laliga2 | Huesca vs Cultural Leonesa | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.4
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 2 | Mercredi 2026-04-01 19:00→01:00 | code=A2 | odd=2.71
-   id=2026-04-01_1900_786e00b657_SYS
-   legs=4 | WIN=4 | LOSS=0 | PENDING=0
-   ✅ Leg 1) 19:00 | laliga2 | FC Andorra vs Malaga | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.3
-   ✅ Leg 2) 20:00 | laliga2 | Burgos vs AD Ceuta FC | Team1 scores (FT) | [MOYEN PLUS] | odd=1.22
-   ✅ Leg 3) 20:00 | laliga2 | Huesca vs Cultural Leonesa | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.4
-   ✅ Leg 4) 23:10 | primera a colombia | Alianza Valledupar vs Deportivo Pasto | HT 1X Home | [MOYEN PLUS] | odd=1.22
-
-────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Jeudi 2026-04-02 00:00→21:50 | code=A2 | odd=2.45
    id=2026-04-02_0000_c75c3de220_SYS
    legs=3 | WIN=3 | LOSS=0 | PENDING=0
    ✅ Leg 1) 00:00 | serie a brazil | Chapecoense-sc vs Atletico-MG | HT 1X Home | [FORT] | odd=1.36
    ✅ Leg 2) 20:00 | laliga2 | Castellón vs Almeria | HT 1X Home | [MOYEN PLUS] | odd=1.25
    ✅ Leg 3) 20:00 | liga profesional argentina | Barracas Central vs Sarmiento Junin | Team1 scores (FT) | [MOYEN PLUS] | odd=1.44
-
-────────────────────────────────────────────────────────────────────
-❌ Ticket 2 | Jeudi 2026-04-02 03:30→21:50 | code=A2 | odd=2.42
-   id=2026-04-02_0330_ea85eef7de_SYS
-   legs=4 | WIN=3 | LOSS=1 | PENDING=0
-   ❌ Leg 1) 03:30 | primera a colombia | Atletico Nacional vs Cucuta | Over 1.5 (FT) | [FORT PLUS] | odd=1.15
-   ✅ Leg 2) 19:00 | laliga2 | Las Palmas vs Granada CF | Team1 scores (FT) | [MOYEN PLUS] | odd=1.17
-   ✅ Leg 3) 20:00 | laliga2 | Castellón vs Almeria | HT 1X Home | [MOYEN PLUS] | odd=1.25
-   ✅ Leg 4) 20:00 | liga profesional argentina | Barracas Central vs Sarmiento Junin | Team1 scores (FT) | [MOYEN PLUS] | odd=1.44
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Vendredi 2026-04-03 00:30→15:20 | code=A2 | odd=2.47
@@ -1079,15 +1013,7 @@ Ignorés (date>=today)    : 24
    ✅ Leg 4) 13:30 | championship | Middlesbrough vs Millwall | HT 1X Home | [FORT] | odd=1.17
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 2 | Vendredi 2026-04-03 02:30→17:20 | code=A2 | odd=2.67
-   id=2026-04-03_0230_b510daeff7_SYS
-   legs=3 | WIN=2 | LOSS=1 | PENDING=0
-   ✅ Leg 1) 02:30 | serie a brazil | RB Bragantino vs Flamengo | HT 1X Home | [TRÈS FORT] | odd=1.4
-   ✅ Leg 2) 15:30 | cymru premier league | Briton Ferry vs Cardiff MET | HT 1X Home | [TRÈS FORT] | odd=1.4
-   ❌ Leg 3) 15:30 | cymru premier league | Penybont vs Barry Town | HT 1X Home | [FORT] | odd=1.36
-
-────────────────────────────────────────────────────────────────────
-✅ Ticket 3 | Vendredi 2026-04-03 15:30→17:20 | code=A2 | odd=2.49
+✅ Ticket 2 | Vendredi 2026-04-03 15:30→17:20 | code=A2 | odd=2.49
    id=2026-04-03_1530_a72bf8a042_SYS
    legs=4 | WIN=4 | LOSS=0 | PENDING=0
    ✅ Leg 1) 15:30 | cymru premier league | Flint Town United vs Haverfordwest County AFC | Team2 scores (FT) | [FORT] | odd=1.25
@@ -1096,15 +1022,7 @@ Ignorés (date>=today)    : 24
    ✅ Leg 4) 15:30 | cymru premier league | llanelli AFC vs Bala Town | HT+0.5 | [MEGA EXPLOSION] | odd=1.33
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 4 | Vendredi 2026-04-03 20:00→22:50 | code=A2 | odd=2.49
-   id=2026-04-03_2000_185628ac4f_SYS
-   legs=3 | WIN=0 | LOSS=3 | PENDING=0
-   ❌ Leg 1) 20:00 | liga profesional argentina | Gimnasia M. vs Velez Sarsfield | HT 1X Home | [TRÈS FORT] | odd=1.3
-   ❌ Leg 2) 20:00 | ligue 2 | Dunkerque vs Rodez | HT 1X Home | [FORT PLUS] | odd=1.22
-   ❌ Leg 3) 21:00 | laliga | Rayo Vallecano vs Elche | Team2 scores (FT) | [FORT PLUS] | odd=1.57
-
-────────────────────────────────────────────────────────────────────
-❌ Ticket 5 | Vendredi 2026-04-03 20:00→22:50 | code=A2 | odd=2.4
+❌ Ticket 3 | Vendredi 2026-04-03 20:00→22:50 | code=A2 | odd=2.4
    id=2026-04-03_2000_ea3fe4fca8_SYS
    legs=3 | WIN=2 | LOSS=1 | PENDING=0
    ✅ Leg 1) 20:00 | ligue 2 | Annecy vs Guingamp | HT 1X Home | [TRÈS FORT] | odd=1.33
@@ -1316,14 +1234,6 @@ Ignorés (date>=today)    : 24
    ✅ Leg 3) 21:00 | uefa europa league | Real Betis vs SC Braga | Over 1.5 (FT) | [FORT PLUS] | odd=1.3
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 2 | Jeudi 2026-04-16 18:45→22:50 | code=RESTE | odd=2.16
-   id=2026-04-16_1845_ac9252381c_SYS
-   legs=3 | WIN=3 | LOSS=0 | PENDING=0
-   ✅ Leg 1) 18:45 | uefa europa league | Celta Vigo vs SC Freiburg | Over 1.5 (FT) | [TRÈS FORT] | odd=1.28
-   ✅ Leg 2) 21:00 | uefa europa league | Nottingham Forest vs FC Porto | Team1 scores (FT) | [MOYEN PLUS] | odd=1.3
-   ✅ Leg 3) 21:00 | uefa europa league | Real Betis vs SC Braga | Over 1.5 (FT) | [FORT PLUS] | odd=1.3
-
-────────────────────────────────────────────────────────────────────
 ❌ Ticket 1 | Vendredi 2026-04-17 20:30→00:50 | code=A2 | odd=2.53
    id=2026-04-17_2030_2441952614_SYS
    legs=3 | WIN=2 | LOSS=1 | PENDING=0
@@ -1332,7 +1242,15 @@ Ignorés (date>=today)    : 24
    ❌ Leg 3) 23:00 | primera a colombia | Jaguares vs Deportivo Pasto | HT 1X Home | [MOYEN PLUS] | odd=1.35
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 1 | Samedi 2026-04-18 01:30→04:50 | code=A2 | odd=2.54
+✅ Ticket 1 | Samedi 2026-04-18 01:00→04:50 | code=A2 | odd=2.51
+   id=2026-04-18_0100_0623c16afd_SYS
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 01:00 | liga mx | Cruz Azul vs Club Tijuana | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.7
+   ✅ Leg 2) 01:30 | serie a brazil | Cruzeiro vs Gremio | Team1 scores (FT) | [MOYEN PLUS] | odd=1.18
+   ✅ Leg 3) 03:00 | liga mx | Mazatlán vs Club Queretaro | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.25
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Samedi 2026-04-18 01:30→04:50 | code=A2 | odd=2.54
    id=2026-04-18_0130_71f1f3380b_SYS
    legs=4 | WIN=1 | LOSS=3 | PENDING=0
    ❌ Leg 1) 01:30 | mls | New York City FC vs Charlotte | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.25
@@ -1341,16 +1259,16 @@ Ignorés (date>=today)    : 24
    ✅ Leg 4) 03:00 | liga mx | Mazatlán vs Club Queretaro | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.25
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 2 | Samedi 2026-04-18 13:00→16:50 | code=A2 | odd=2.59
-   id=2026-04-18_1300_97ce5503d5_SYS
-   legs=4 | WIN=1 | LOSS=3 | PENDING=0
-   ❌ Leg 1) 13:00 | 2. bundesliga | Dynamo Dresden vs VfL Bochum | Team2 scores (FT) | [FORT] | odd=1.22
-   ❌ Leg 2) 13:30 | scottish cup | Dunfermline vs Falkirk | Team1 scores (FT) | [FORT] | odd=1.44
-   ✅ Leg 3) 15:00 | serie b | Bari vs Venezia | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
-   ❌ Leg 4) 15:00 | serie b | Mantova vs Avellino | Team1 scores (FT) | [FORT] | odd=1.25
+✅ Ticket 3 | Samedi 2026-04-18 13:00→17:20 | code=A2 | odd=2.41
+   id=2026-04-18_1300_c979532a72_SYS
+   legs=4 | WIN=4 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 13:00 | 2. bundesliga | Dynamo Dresden vs VfL Bochum | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ✅ Leg 2) 15:00 | serie b | Mantova vs Avellino | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
+   ✅ Leg 3) 15:30 | bundesliga | 1899 Hoffenheim vs Borussia Dortmund | Team2 scores (FT) | [FORT PLUS] | odd=1.18
+   ✅ Leg 4) 15:30 | bundesliga | Union Berlin vs VfL Wolfsburg | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.28
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 3 | Samedi 2026-04-18 13:00→17:50 | code=A2 | odd=2.49
+✅ Ticket 4 | Samedi 2026-04-18 13:00→17:50 | code=A2 | odd=2.49
    id=2026-04-18_1300_6002e821a7_SYS
    legs=4 | WIN=4 | LOSS=0 | PENDING=0
    ✅ Leg 1) 13:00 | 2. bundesliga | Dynamo Dresden vs VfL Bochum | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
@@ -1359,15 +1277,15 @@ Ignorés (date>=today)    : 24
    ✅ Leg 4) 16:00 | championship | Wrexham vs Stoke City | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 4 | Samedi 2026-04-18 18:15→20:20 | code=A2 | odd=2.42
-   id=2026-04-18_1815_2ba0bf79b2_SYS
-   legs=3 | WIN=2 | LOSS=1 | PENDING=0
-   ❌ Leg 1) 18:15 | cymru premier league | Barry Town vs The New Saints | Team1 scores (FT) | [MOYEN PLUS] | odd=1.48
-   ✅ Leg 2) 18:15 | pro league | Charleroi vs Standard Liege | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
-   ✅ Leg 3) 18:30 | laliga2 | Cultural Leonesa vs Cordoba | Over 1.5 (FT) | [EXPLOSION] | odd=1.28
+✅ Ticket 5 | Samedi 2026-04-18 18:15→20:20 | code=A2 | odd=2.42
+   id=2026-04-18_1815_36de67b1a4_SYS
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 18:15 | pro league | Charleroi vs Standard Liege | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
+   ✅ Leg 2) 18:30 | laliga2 | Cultural Leonesa vs Cordoba | Over 1.5 (FT) | [EXPLOSION] | odd=1.28
+   ✅ Leg 3) 18:30 | russian premier league | Nizhny Novgorod vs Dynamo | Team1 scores (FT) | [MOYEN PLUS] | odd=1.48
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 5 | Samedi 2026-04-18 18:15→20:20 | code=A2 | odd=2.44
+✅ Ticket 6 | Samedi 2026-04-18 18:15→20:20 | code=A2 | odd=2.44
    id=2026-04-18_1815_8551d16656_SYS
    legs=4 | WIN=4 | LOSS=0 | PENDING=0
    ✅ Leg 1) 18:15 | cymru premier league | Cardiff MET vs Flint Town United | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
@@ -1376,25 +1294,26 @@ Ignorés (date>=today)    : 24
    ✅ Leg 4) 18:30 | laliga2 | Cultural Leonesa vs Cordoba | Over 1.5 (FT) | [EXPLOSION] | odd=1.28
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 6 | Samedi 2026-04-18 20:45→01:20 | code=A2 | odd=2.45
+❌ Ticket 7 | Samedi 2026-04-18 20:30→01:20 | code=A2 | odd=2.57
+   id=2026-04-18_2030_5680c6d645_SYS
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 20:30 | mls | CF Montreal vs New York Red Bulls | Over 1.5 (FT) | [TRÈS FORT] | odd=1.17
+   ✅ Leg 2) 21:00 | premier league | Chelsea vs Manchester United | Team2 scores (FT) | [FORT] | odd=1.22
+   ❌ Leg 3) 21:30 | liga portugal | GIL Vicente vs Guimaraes | Team1 scores (FT) | [MOYEN PLUS] | odd=1.25
+   ✅ Leg 4) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | Under 3.5 (FT) | [FORT PLUS] | odd=1.44
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 8 | Samedi 2026-04-18 20:45→01:20 | code=A2 | odd=2.45
    id=2026-04-18_2045_3a310e19c2_SYS
    legs=3 | WIN=2 | LOSS=1 | PENDING=0
    ✅ Leg 1) 20:45 | serie a italia | AS Roma vs Atalanta | Team1 scores (FT) | [MOYEN PLUS] | odd=1.25
    ❌ Leg 2) 21:30 | liga portugal | GIL Vicente vs Guimaraes | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.36
    ✅ Leg 3) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | Under 3.5 (FT) | [FORT PLUS] | odd=1.44
 
-────────────────────────────────────────────────────────────────────
-❌ Ticket 7 | Samedi 2026-04-18 20:45→01:20 | code=A2 | odd=2.66
-   id=2026-04-18_2045_8256a4afb8_SYS
-   legs=3 | WIN=1 | LOSS=2 | PENDING=0
-   ✅ Leg 1) 20:45 | serie a italia | AS Roma vs Atalanta | Team1 scores (FT) | [MOYEN PLUS] | odd=1.25
-   ❌ Leg 2) 21:30 | liga portugal | GIL Vicente vs Guimaraes | Team1 scores (FT) | [MOYEN PLUS] | odd=1.25
-   ❌ Leg 3) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | Team2 scores (FT) | [FORT] | odd=1.7
-
 ====================================================================
-TOTAL tickets : 166
-✅ WIN     : 56
-❌ LOSS    : 108
+TOTAL tickets : 156
+✅ WIN     : 55
+❌ LOSS    : 99
 ⏳ PENDING : 2
 ====================================================================
 

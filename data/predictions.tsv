@@ -12671,3 +12671,138 @@ TSV:	4041213643	2026-04-18	serie a brazil	Cruzeiro	Gremio	O25_FT	Over 2.5 (FT)	3
 TSV:	4041213643	2026-04-18	serie a brazil	Cruzeiro	Gremio	U35_FT	Under 3.5 (FT)	2.0	MOYEN	0	odd=1.25 fixture=1492223	01:30
 TSV:	4041213643	2026-04-18	serie a brazil	Cruzeiro	Gremio	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.7 fixture=1492223	01:30
 TSV:	4041213643	2026-04-18	serie a brazil	Cruzeiro	Gremio	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=5 fixture=1492223	01:30
+TSV:	1370608748	2026-04-17	liga pro ecuador	Leones del Norte	Aucas	HT05	HT+0.5	4.0	FORT	0	odd=1.53 fixture=1519322	00:00
+TSV:	1370608748	2026-04-17	liga pro ecuador	Leones del Norte	Aucas	HT1X_HOME	HT 1X Home	1.0	FAIBLE	0	odd=1.36 fixture=1519322	00:00
+TSV:	1370608748	2026-04-17	liga pro ecuador	Leones del Norte	Aucas	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.5 fixture=1519322	00:00
+TSV:	1370608748	2026-04-17	liga pro ecuador	Leones del Norte	Aucas	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	odd=1.3 fixture=1519322	00:00
+TSV:	1370608748	2026-04-17	liga pro ecuador	Leones del Norte	Aucas	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.44 fixture=1519322	00:00
+TSV:	1370608748	2026-04-17	liga pro ecuador	Leones del Norte	Aucas	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=2.4 fixture=1519322	00:00
+TSV:	1370608748	2026-04-17	liga pro ecuador	Leones del Norte	Aucas	U35_FT	Under 3.5 (FT)	4.0	FORT	1	odd=1.18 fixture=1519322	00:00
+TSV:	1370608748	2026-04-17	liga pro ecuador	Leones del Norte	Aucas	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3.3 fixture=1519322	00:00
+TSV:	1370608748	2026-04-17	liga pro ecuador	Leones del Norte	Aucas	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.25 fixture=1519322	00:00
+TSV:	1653570339	2026-04-17	liga profesional argentina	Union Santa Fe	Newells Old Boys	HT05	HT+0.5	5.0	FORT PLUS	0	odd=1.42 fixture=1492042	01:30
+TSV:	1653570339	2026-04-17	liga profesional argentina	Union Santa Fe	Newells Old Boys	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.09 fixture=1492042	01:30
+TSV:	1653570339	2026-04-17	liga profesional argentina	Union Santa Fe	Newells Old Boys	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.17 fixture=1492042	01:30
+TSV:	1653570339	2026-04-17	liga profesional argentina	Union Santa Fe	Newells Old Boys	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.85 fixture=1492042	01:30
+TSV:	1653570339	2026-04-17	liga profesional argentina	Union Santa Fe	Newells Old Boys	O15_FT	Over 1.5 (FT)	1.0	FAIBLE	0	odd=1.4 fixture=1492042	01:30
+TSV:	1653570339	2026-04-17	liga profesional argentina	Union Santa Fe	Newells Old Boys	O25_FT	Over 2.5 (FT)	0.0	KO	0	odd=2.2 fixture=1492042	01:30
+TSV:	1653570339	2026-04-17	liga profesional argentina	Union Santa Fe	Newells Old Boys	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.22 fixture=1492042	01:30
+TSV:	1653570339	2026-04-17	liga profesional argentina	Union Santa Fe	Newells Old Boys	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.54 fixture=1492042	01:30
+TSV:	1653570339	2026-04-17	liga profesional argentina	Union Santa Fe	Newells Old Boys	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=6.75 fixture=1492042	01:30
+TSV:	3922448726	2026-04-18	liga mx	Cruz Azul	Club Tijuana	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.22 fixture=1492592	01:00
+TSV:	3922448726	2026-04-18	liga mx	Cruz Azul	Club Tijuana	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.03 fixture=1492592	01:00
+TSV:	3922448726	2026-04-18	liga mx	Cruz Azul	Club Tijuana	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.04 fixture=1492592	01:00
+TSV:	3922448726	2026-04-18	liga mx	Cruz Azul	Club Tijuana	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.57 fixture=1492592	01:00
+TSV:	3922448726	2026-04-18	liga mx	Cruz Azul	Club Tijuana	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.14 fixture=1492592	01:00
+TSV:	3922448726	2026-04-18	liga mx	Cruz Azul	Club Tijuana	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	odd=1.45 fixture=1492592	01:00
+TSV:	3922448726	2026-04-18	liga mx	Cruz Azul	Club Tijuana	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.7 fixture=1492592	01:00
+TSV:	3922448726	2026-04-18	liga mx	Cruz Azul	Club Tijuana	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.29 fixture=1492592	01:00
+TSV:	3922448726	2026-04-18	liga mx	Cruz Azul	Club Tijuana	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=9.2 fixture=1492592	01:00
+TSV:	3992732915	2026-04-18	liga mx	Necaxa	Tigres UANL	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.38 fixture=1492591	01:00
+TSV:	3992732915	2026-04-18	liga mx	Necaxa	Tigres UANL	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.45 fixture=1492591	01:00
+TSV:	3992732915	2026-04-18	liga mx	Necaxa	Tigres UANL	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.36 fixture=1492591	01:00
+TSV:	3992732915	2026-04-18	liga mx	Necaxa	Tigres UANL	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.18 fixture=1492591	01:00
+TSV:	3992732915	2026-04-18	liga mx	Necaxa	Tigres UANL	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	odd=1.28 fixture=1492591	01:00
+TSV:	3992732915	2026-04-18	liga mx	Necaxa	Tigres UANL	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.83 fixture=1492591	01:00
+TSV:	3992732915	2026-04-18	liga mx	Necaxa	Tigres UANL	U35_FT	Under 3.5 (FT)	3.0	MOYEN PLUS	0	odd=1.38 fixture=1492591	01:00
+TSV:	3992732915	2026-04-18	liga mx	Necaxa	Tigres UANL	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=3.65 fixture=1492591	01:00
+TSV:	3992732915	2026-04-18	liga mx	Necaxa	Tigres UANL	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=1.98 fixture=1492591	01:00
+TSV:	2600946010	2026-04-18	liga profesional argentina	Independiente	Defensa Y Justicia	HT05	HT+0.5	5.0	FORT PLUS	0	odd=1.5 fixture=1492035	00:30
+TSV:	2600946010	2026-04-18	liga profesional argentina	Independiente	Defensa Y Justicia	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.11 fixture=1492035	00:30
+TSV:	2600946010	2026-04-18	liga profesional argentina	Independiente	Defensa Y Justicia	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.25 fixture=1492035	00:30
+TSV:	2600946010	2026-04-18	liga profesional argentina	Independiente	Defensa Y Justicia	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=1.75 fixture=1492035	00:30
+TSV:	2600946010	2026-04-18	liga profesional argentina	Independiente	Defensa Y Justicia	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.5 fixture=1492035	00:30
+TSV:	2600946010	2026-04-18	liga profesional argentina	Independiente	Defensa Y Justicia	O25_FT	Over 2.5 (FT)	0.0	KO	0	odd=2.45 fixture=1492035	00:30
+TSV:	2600946010	2026-04-18	liga profesional argentina	Independiente	Defensa Y Justicia	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.18 fixture=1492035	00:30
+TSV:	2600946010	2026-04-18	liga profesional argentina	Independiente	Defensa Y Justicia	TEAM1_WIN_FT	Team1 wins (FT)	3.0	MOYEN PLUS	0	odd=1.75 fixture=1492035	00:30
+TSV:	2600946010	2026-04-18	liga profesional argentina	Independiente	Defensa Y Justicia	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=5.25 fixture=1492035	00:30
+TSV:	4102933139	2026-04-18	mls	Atlanta United FC	Nashville SC	HT05	HT+0.5	5.0	FORT PLUS	0	odd=1.33 fixture=1490214	01:30
+TSV:	4102933139	2026-04-18	mls	Atlanta United FC	Nashville SC	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.4 fixture=1490214	01:30
+TSV:	4102933139	2026-04-18	mls	Atlanta United FC	Nashville SC	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.33 fixture=1490214	01:30
+TSV:	4102933139	2026-04-18	mls	Atlanta United FC	Nashville SC	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.22 fixture=1490214	01:30
+TSV:	4102933139	2026-04-18	mls	Atlanta United FC	Nashville SC	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.25 fixture=1490214	01:30
+TSV:	4102933139	2026-04-18	mls	Atlanta United FC	Nashville SC	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=1.8 fixture=1490214	01:30
+TSV:	4102933139	2026-04-18	mls	Atlanta United FC	Nashville SC	U35_FT	Under 3.5 (FT)	3.0	MOYEN PLUS	0	odd=1.38 fixture=1490214	01:30
+TSV:	4102933139	2026-04-18	mls	Atlanta United FC	Nashville SC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=3 fixture=1490214	01:30
+TSV:	4102933139	2026-04-18	mls	Atlanta United FC	Nashville SC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.22 fixture=1490214	01:30
+TSV:	1086693212	2026-04-18	mls	FC Cincinnati	Chicago Fire	HT05	HT+0.5	6.0	TRÈS FORT	0	odd=1.25 fixture=1490215	01:30
+TSV:	1086693212	2026-04-18	mls	FC Cincinnati	Chicago Fire	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.35 fixture=1490215	01:30
+TSV:	1086693212	2026-04-18	mls	FC Cincinnati	Chicago Fire	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.2 fixture=1490215	01:30
+TSV:	1086693212	2026-04-18	mls	FC Cincinnati	Chicago Fire	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.22 fixture=1490215	01:30
+TSV:	1086693212	2026-04-18	mls	FC Cincinnati	Chicago Fire	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.2 fixture=1490215	01:30
+TSV:	1086693212	2026-04-18	mls	FC Cincinnati	Chicago Fire	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.62 fixture=1490215	01:30
+TSV:	1086693212	2026-04-18	mls	FC Cincinnati	Chicago Fire	U35_FT	Under 3.5 (FT)	2.0	MOYEN	0	odd=1.5 fixture=1490215	01:30
+TSV:	1086693212	2026-04-18	mls	FC Cincinnati	Chicago Fire	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.5 fixture=1490215	01:30
+TSV:	1086693212	2026-04-18	mls	FC Cincinnati	Chicago Fire	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.54 fixture=1490215	01:30
+TSV:	1218460265	2026-04-18	mls	New England Revolution	Columbus Crew	HT05	HT+0.5	4.0	FORT	0	odd=1.36 fixture=1490216	01:30
+TSV:	1218460265	2026-04-18	mls	New England Revolution	Columbus Crew	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.33 fixture=1490216	01:30
+TSV:	1218460265	2026-04-18	mls	New England Revolution	Columbus Crew	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.3 fixture=1490216	01:30
+TSV:	1218460265	2026-04-18	mls	New England Revolution	Columbus Crew	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.25 fixture=1490216	01:30
+TSV:	1218460265	2026-04-18	mls	New England Revolution	Columbus Crew	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.25 fixture=1490216	01:30
+TSV:	1218460265	2026-04-18	mls	New England Revolution	Columbus Crew	O25_FT	Over 2.5 (FT)	7.0	EXPLOSION	1	odd=1.83 fixture=1490216	01:30
+TSV:	1218460265	2026-04-18	mls	New England Revolution	Columbus Crew	U35_FT	Under 3.5 (FT)	4.0	FORT	1	odd=1.35 fixture=1490216	01:30
+TSV:	1218460265	2026-04-18	mls	New England Revolution	Columbus Crew	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.75 fixture=1490216	01:30
+TSV:	1218460265	2026-04-18	mls	New England Revolution	Columbus Crew	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	odd=2.4 fixture=1490216	01:30
+TSV:	1054168919	2026-04-18	mls	New York City FC	Charlotte	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.33 fixture=1490218	01:30
+TSV:	1054168919	2026-04-18	mls	New York City FC	Charlotte	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.17 fixture=1490218	01:30
+TSV:	1054168919	2026-04-18	mls	New York City FC	Charlotte	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	odd=1.15 fixture=1490218	01:30
+TSV:	1054168919	2026-04-18	mls	New York City FC	Charlotte	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.4 fixture=1490218	01:30
+TSV:	1054168919	2026-04-18	mls	New York City FC	Charlotte	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	odd=1.22 fixture=1490218	01:30
+TSV:	1054168919	2026-04-18	mls	New York City FC	Charlotte	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=1.7 fixture=1490218	01:30
+TSV:	1054168919	2026-04-18	mls	New York City FC	Charlotte	U35_FT	Under 3.5 (FT)	6.0	TRÈS FORT	1	odd=1.42 fixture=1490218	01:30
+TSV:	1054168919	2026-04-18	mls	New York City FC	Charlotte	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	odd=1.73 fixture=1490218	01:30
+TSV:	1054168919	2026-04-18	mls	New York City FC	Charlotte	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.5 fixture=1490218	01:30
+TSV:	2055960016	2026-04-18	mls	Orlando City SC	Houston Dynamo	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.25 fixture=1490219	01:30
+TSV:	2055960016	2026-04-18	mls	Orlando City SC	Houston Dynamo	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	odd=1.36 fixture=1490219	01:30
+TSV:	2055960016	2026-04-18	mls	Orlando City SC	Houston Dynamo	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.2 fixture=1490219	01:30
+TSV:	2055960016	2026-04-18	mls	Orlando City SC	Houston Dynamo	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	odd=1.2 fixture=1490219	01:30
+TSV:	2055960016	2026-04-18	mls	Orlando City SC	Houston Dynamo	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.17 fixture=1490219	01:30
+TSV:	2055960016	2026-04-18	mls	Orlando City SC	Houston Dynamo	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.55 fixture=1490219	01:30
+TSV:	2055960016	2026-04-18	mls	Orlando City SC	Houston Dynamo	U35_FT	Under 3.5 (FT)	4.0	FORT	1	odd=1.57 fixture=1490219	01:30
+TSV:	2055960016	2026-04-18	mls	Orlando City SC	Houston Dynamo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.5 fixture=1490219	01:30
+TSV:	2055960016	2026-04-18	mls	Orlando City SC	Houston Dynamo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.46 fixture=1490219	01:30
+TSV:	644977717	2026-04-18	mls	Philadelphia Union	DC United	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.38 fixture=1490217	01:30
+TSV:	644977717	2026-04-18	mls	Philadelphia Union	DC United	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.17 fixture=1490217	01:30
+TSV:	644977717	2026-04-18	mls	Philadelphia Union	DC United	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	odd=1.2 fixture=1490217	01:30
+TSV:	644977717	2026-04-18	mls	Philadelphia Union	DC United	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.55 fixture=1490217	01:30
+TSV:	644977717	2026-04-18	mls	Philadelphia Union	DC United	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	odd=1.33 fixture=1490217	01:30
+TSV:	644977717	2026-04-18	mls	Philadelphia Union	DC United	O25_FT	Over 2.5 (FT)	4.0	FORT	1	odd=2 fixture=1490217	01:30
+TSV:	644977717	2026-04-18	mls	Philadelphia Union	DC United	U35_FT	Under 3.5 (FT)	6.0	TRÈS FORT	1	odd=1.28 fixture=1490217	01:30
+TSV:	644977717	2026-04-18	mls	Philadelphia Union	DC United	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=1.8 fixture=1490217	01:30
+TSV:	644977717	2026-04-18	mls	Philadelphia Union	DC United	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=4.35 fixture=1490217	01:30
+TSV:	551474929	2026-04-18	primera a colombia	Deportes Tolima	Deportivo Pereira	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.33 fixture=1506089	01:10
+TSV:	551474929	2026-04-18	primera a colombia	Deportes Tolima	Deportivo Pereira	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.03 fixture=1506089	01:10
+TSV:	551474929	2026-04-18	primera a colombia	Deportes Tolima	Deportivo Pereira	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	odd=1.03 fixture=1506089	01:10
+TSV:	551474929	2026-04-18	primera a colombia	Deportes Tolima	Deportivo Pereira	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	odd=2.05 fixture=1506089	01:10
+TSV:	551474929	2026-04-18	primera a colombia	Deportes Tolima	Deportivo Pereira	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	odd=1.22 fixture=1506089	01:10
+TSV:	551474929	2026-04-18	primera a colombia	Deportes Tolima	Deportivo Pereira	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	odd=1.7 fixture=1506089	01:10
+TSV:	551474929	2026-04-18	primera a colombia	Deportes Tolima	Deportivo Pereira	U35_FT	Under 3.5 (FT)	4.0	FORT	1	odd=1.44 fixture=1506089	01:10
+TSV:	551474929	2026-04-18	primera a colombia	Deportes Tolima	Deportivo Pereira	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	odd=1.27 fixture=1506089	01:10
+TSV:	551474929	2026-04-18	primera a colombia	Deportes Tolima	Deportivo Pereira	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=12.5 fixture=1506089	01:10
+TSV:	144306690	2026-04-18	primera división paraguay	Deportivo Recoleta	2 de Mayo	HT05	HT+0.5	5.0	FORT PLUS	0	odd=1.44 fixture=1505058	01:30
+TSV:	144306690	2026-04-18	primera división paraguay	Deportivo Recoleta	2 de Mayo	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	odd=1.3 fixture=1505058	01:30
+TSV:	144306690	2026-04-18	primera división paraguay	Deportivo Recoleta	2 de Mayo	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.31 fixture=1505058	01:30
+TSV:	144306690	2026-04-18	primera división paraguay	Deportivo Recoleta	2 de Mayo	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.31 fixture=1505058	01:30
+TSV:	144306690	2026-04-18	primera división paraguay	Deportivo Recoleta	2 de Mayo	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.33 fixture=1505058	01:30
+TSV:	144306690	2026-04-18	primera división paraguay	Deportivo Recoleta	2 de Mayo	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=2.1 fixture=1505058	01:30
+TSV:	144306690	2026-04-18	primera división paraguay	Deportivo Recoleta	2 de Mayo	U35_FT	Under 3.5 (FT)	6.0	TRÈS FORT	1	odd=1.25 fixture=1505058	01:30
+TSV:	144306690	2026-04-18	primera división paraguay	Deportivo Recoleta	2 de Mayo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.55 fixture=1505058	01:30
+TSV:	144306690	2026-04-18	primera división paraguay	Deportivo Recoleta	2 de Mayo	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.55 fixture=1505058	01:30
+TSV:	2658426449	2026-04-18	serie a brazil	Vitoria	Corinthians	HT05	HT+0.5	3.0	MOYEN PLUS	0	odd=1.5 fixture=1492229	01:00
+TSV:	2658426449	2026-04-18	serie a brazil	Vitoria	Corinthians	HT1X_HOME	HT 1X Home	4.0	FORT	1	odd=1.25 fixture=1492229	01:00
+TSV:	2658426449	2026-04-18	serie a brazil	Vitoria	Corinthians	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	odd=1.4 fixture=1492229	01:00
+TSV:	2658426449	2026-04-18	serie a brazil	Vitoria	Corinthians	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	odd=1.44 fixture=1492229	01:00
+TSV:	2658426449	2026-04-18	serie a brazil	Vitoria	Corinthians	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	odd=1.53 fixture=1492229	01:00
+TSV:	2658426449	2026-04-18	serie a brazil	Vitoria	Corinthians	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	odd=2.6 fixture=1492229	01:00
+TSV:	2658426449	2026-04-18	serie a brazil	Vitoria	Corinthians	U35_FT	Under 3.5 (FT)	5.0	FORT PLUS	1	odd=1.15 fixture=1492229	01:00
+TSV:	2658426449	2026-04-18	serie a brazil	Vitoria	Corinthians	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=2.58 fixture=1492229	01:00
+TSV:	2658426449	2026-04-18	serie a brazil	Vitoria	Corinthians	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	odd=2.9 fixture=1492229	01:00
+TSV:	4041213643	2026-04-18	serie a brazil	Cruzeiro	Gremio	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	odd=1.4 fixture=1492223	01:30
+TSV:	4041213643	2026-04-18	serie a brazil	Cruzeiro	Gremio	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	odd=1.14 fixture=1492223	01:30
+TSV:	4041213643	2026-04-18	serie a brazil	Cruzeiro	Gremio	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	odd=1.18 fixture=1492223	01:30
+TSV:	4041213643	2026-04-18	serie a brazil	Cruzeiro	Gremio	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	odd=1.57 fixture=1492223	01:30
+TSV:	4041213643	2026-04-18	serie a brazil	Cruzeiro	Gremio	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	odd=1.35 fixture=1492223	01:30
+TSV:	4041213643	2026-04-18	serie a brazil	Cruzeiro	Gremio	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	odd=2.05 fixture=1492223	01:30
+TSV:	4041213643	2026-04-18	serie a brazil	Cruzeiro	Gremio	U35_FT	Under 3.5 (FT)	2.0	MOYEN	0	odd=1.25 fixture=1492223	01:30
+TSV:	4041213643	2026-04-18	serie a brazil	Cruzeiro	Gremio	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	odd=1.7 fixture=1492223	01:30
+TSV:	4041213643	2026-04-18	serie a brazil	Cruzeiro	Gremio	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	odd=5 fixture=1492223	01:30
