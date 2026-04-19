@@ -1,32 +1,38 @@
-TICKETS TRISKELE — 2026-04-19 — O25_SUPER_RANDOM — depuis predictions.tsv
+TICKETS TRISKELE — 2026-04-18 — O25_SUPER_RANDOM — depuis predictions.tsv
 =========================================================================
 
-📅 Dimanche 2026-04-19 — Tranche 1
----------------------------------
+📅 Samedi 2026-04-18 — Tranche 1
+-------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0230_9da829f547_O25SR — cote = 5.44 — fenêtre 02:30 → 16:35  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-18_0130_28e8db0327_O25SR — cote = 3.29 — fenêtre 01:30 → 03:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 02:30 | mls | Minnesota United FC vs Portland Timbers | Over 2.5 (FT) | MOYEN PLUS | odd=1.57
-  2) 03:30 | mls | Seattle Sounders vs St. Louis City | Over 2.5 (FT) | MOYEN PLUS | odd=1.65
-  3) 14:45 | ekstraklasa | Raków Częstochowa vs Cracovia Krakow | Over 2.5 (FT) | MOYEN PLUS | odd=2.1
+  1) 01:30 | mls | Atlanta United FC vs Nashville SC | Over 2.5 (FT) | MOYEN | odd=1.8
+  2) 01:30 | mls | New England Revolution vs Columbus Crew | Over 2.5 (FT) | EXPLOSION | odd=1.83
 
-📅 Dimanche 2026-04-19 — Tranche 2
----------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1700_19c59a1cdd_O25SR — cote = 4.99 — fenêtre 17:00 → 19:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 17:00 | super league greece | AEK Athens FC vs PAOK | Over 2.5 (FT) | MOYEN | odd=2.1
-  2) 17:30 | ekstraklasa | Arka Gdynia vs Jagiellonia | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.9
-  3) 17:30 | bundesliga | Bayern München vs VfB Stuttgart | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.25
-
-📅 Dimanche 2026-04-19 — Tranche 3
----------------------------------
+📅 Samedi 2026-04-18 — Tranche 2
+-------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-19_1930_fcebb124b2_O25SR — cote = 8.51 — fenêtre 19:30 → 21:50  
+  🎟️ TICKET 2.1 (A2) — id=2026-04-18_1445_7e01ecae14_O25SR — cote = 3.02 — fenêtre 14:45 → 17:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 19:30 | bundesliga | Borussia Mönchengladbach vs FSV Mainz 05 | Over 2.5 (FT) | MOYEN PLUS | odd=1.85
-  2) 20:00 | super league greece | Panathinaikos vs Olympiakos Piraeus | Over 2.5 (FT) | KO | odd=2.3
-  3) 20:00 | superliga serbia | IMT Novi Beograd vs Mladost Lucani | Over 2.5 (FT) | FORT PLUS | odd=2
+  1) 14:45 | ekstraklasa | Radomiak Radom vs Widzew Łódź | Over 2.5 (FT) | KO | odd=2.1
+  2) 15:30 | bundesliga | Bayer Leverkusen vs FC Augsburg | Over 2.5 (FT) | MOYEN PLUS | odd=1.44
+
+📅 Samedi 2026-04-18 — Tranche 3
+-------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-18_1700_afee2ec830_O25SR — cote = 3.38 — fenêtre 17:00 → 20:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 17:00 | superliga serbia | Novi Pazar vs OFK Beograd | Over 2.5 (FT) | FORT PLUS | odd=1.88
+  2) 18:30 | superliga serbia | FK Partizan vs Železničar Pančevo | Over 2.5 (FT) | MOYEN PLUS | odd=1.8
+
+📅 Samedi 2026-04-18 — Tranche 4
+-------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-04-18_1915_3f3143710e_O25SR — cote = 2.59 — fenêtre 19:15 → 22:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 19:15 | schweizer cup | Stade Lausanne-Ouchy vs Grasshoppers | Over 2.5 (FT) | FORT | odd=1.85
+  2) 20:30 | super league switzerland | FC Thun vs FC Basel 1893 | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.4

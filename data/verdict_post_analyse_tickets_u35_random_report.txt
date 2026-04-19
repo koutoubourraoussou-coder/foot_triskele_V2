@@ -5,7 +5,7 @@ Source tickets : data/tickets_u35_random.tsv
 Date run       : 2026-04-19
 Output         : data/verdict_post_analyse_tickets_u35_random_report.txt
 Whitelist      : ON (9 ids)
-Ignorés (hors whitelist) : 46
+Ignorés (hors whitelist) : 49
 Ignorés (date>=today)    : 45
 
 ────────────────────────────────────────────────────────────────────
@@ -25,34 +25,34 @@ Ignorés (date>=today)    : 45
    ❌ Leg 3) 21:45 | liga portugal | Rio Ave vs AVS | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.33
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 1 | Samedi 2026-04-18 01:00→04:20 | code=A2 | odd=2.65
-   id=2026-04-18_0100_3a32681769_U35R
+❌ Ticket 1 | Samedi 2026-04-18 01:00→04:20 | code=A2 | odd=2.47
+   id=2026-04-18_0100_a55c46199e_U35R
    legs=3 | WIN=2 | LOSS=1 | PENDING=0
-   ✅ Leg 1) 01:00 | liga mx | Cruz Azul vs Club Tijuana | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.7
-   ✅ Leg 2) 01:30 | mls | Philadelphia Union vs DC United | Under 3.5 (FT) | [TRÈS FORT] | odd=1.28
+   ✅ Leg 1) 01:00 | liga mx | Cruz Azul vs Club Tijuana | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.62
+   ✅ Leg 2) 01:30 | serie a brazil | Cruzeiro vs Gremio | Under 3.5 (FT) | [MOYEN] | odd=1.25
    ❌ Leg 3) 02:30 | liga pro ecuador | Emelec vs Guayaquil City FC | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.22
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 2 | Samedi 2026-04-18 13:30→15:50 | code=A2 | odd=2.62
-   id=2026-04-18_1330_556a1a2790_U35R
-   legs=3 | WIN=3 | LOSS=0 | PENDING=0
-   ✅ Leg 1) 13:30 | championship | Derby vs Oxford United | Under 3.5 (FT) | [TRÈS FORT] | odd=1.28
-   ✅ Leg 2) 13:30 | scottish cup | Dunfermline vs Falkirk | Under 3.5 (FT) | [MOYEN] | odd=1.42
-   ✅ Leg 3) 14:00 | ligue 2 | Estac Troyes vs Boulogne | Under 3.5 (FT) | [FORT PLUS] | odd=1.44
+❌ Ticket 2 | Samedi 2026-04-18 13:30→15:50 | code=A2 | odd=2.56
+   id=2026-04-18_1330_57a448e578_U35R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 13:30 | scottish cup | Dunfermline vs Falkirk | Under 3.5 (FT) | [MOYEN] | odd=1.42
+   ✅ Leg 2) 14:00 | ligue 2 | Estac Troyes vs Boulogne | Under 3.5 (FT) | [FORT PLUS] | odd=1.44
+   ❌ Leg 3) 14:00 | ligue 2 | Reims vs RED Star FC 93 | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.25
 
 ────────────────────────────────────────────────────────────────────
-❌ Ticket 3 | Samedi 2026-04-18 16:00→18:20 | code=A2 | odd=2.44
-   id=2026-04-18_1600_a1f9d34804_U35R
-   legs=3 | WIN=2 | LOSS=1 | PENDING=0
-   ❌ Leg 1) 16:00 | championship | Bristol City vs Norwich | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.33
-   ✅ Leg 2) 16:00 | championship | Hull City vs Birmingham | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.35
+✅ Ticket 3 | Samedi 2026-04-18 16:00→18:20 | code=A2 | odd=2.53
+   id=2026-04-18_1600_c5350e1039_U35R
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 16:00 | championship | Hull City vs Birmingham | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.35
+   ✅ Leg 2) 16:00 | championship | Watford vs Sheffield Utd | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.38
    ✅ Leg 3) 16:30 | liga portugal | Nacional vs Alverca | Under 3.5 (FT) | [MOYEN PLUS] | odd=1.36
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 4 | Samedi 2026-04-18 20:30→01:20 | code=A2 | odd=2.53
-   id=2026-04-18_2030_98f085fdde_U35R
+✅ Ticket 4 | Samedi 2026-04-18 20:15→01:20 | code=A2 | odd=2.6
+   id=2026-04-18_2015_109484ee16_U35R
    legs=3 | WIN=3 | LOSS=0 | PENDING=0
-   ✅ Leg 1) 20:30 | 2. bundesliga | Hannover 96 vs SC Paderborn 07 | Under 3.5 (FT) | [TRÈS FORT] | odd=1.53
+   ✅ Leg 1) 20:15 | ekstraklasa | Pogon Szczecin vs Lech Poznan | Under 3.5 (FT) | [FORT PLUS] | odd=1.57
    ✅ Leg 2) 22:15 | liga profesional argentina | Instituto Cordoba vs Estudiantes L.P. | Under 3.5 (FT) | [EXPLOSION] | odd=1.15
    ✅ Leg 3) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | Under 3.5 (FT) | [FORT PLUS] | odd=1.44
 

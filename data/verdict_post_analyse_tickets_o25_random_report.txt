@@ -5,24 +5,22 @@ Source tickets : data/tickets_o25_random.tsv
 Date run       : 2026-04-19
 Output         : data/verdict_post_analyse_tickets_o25_random_report.txt
 Whitelist      : ON (7 ids)
-Ignorés (hors whitelist) : 21
+Ignorés (hors whitelist) : 27
 Ignorés (date>=today)    : 49
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 1 | Samedi 2026-04-18 15:00→17:50 | code=A2 | odd=5.69
-   id=2026-04-18_1500_9bc07e975c_O25R
-   legs=3 | WIN=3 | LOSS=0 | PENDING=0
-   ✅ Leg 1) 15:00 | serie b | Bari vs Venezia | Over 2.5 (FT) | [FORT] | odd=1.57
-   ✅ Leg 2) 15:30 | bundesliga | 1899 Hoffenheim vs Borussia Dortmund | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.48
-   ✅ Leg 3) 16:00 | super league greece | Atromitos vs Larisa | Over 2.5 (FT) | [KO] | odd=2.45
+✅ Ticket 1 | Samedi 2026-04-18 13:30→16:35 | code=A2 | odd=4.2
+   id=2026-04-18_1330_9aa7f41bb9_O25R
+   legs=2 | WIN=2 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 13:30 | liga i romania | Csikszereda vs Unirea Slobozia | Over 2.5 (FT) | [FORT PLUS] | odd=2
+   ✅ Leg 2) 14:45 | ekstraklasa | Radomiak Radom vs Widzew Łódź | Over 2.5 (FT) | [KO] | odd=2.1
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 2 | Samedi 2026-04-18 18:00→20:20 | code=A2 | odd=5.22
-   id=2026-04-18_1800_5651f60998_O25R
-   legs=3 | WIN=3 | LOSS=0 | PENDING=0
-   ✅ Leg 1) 18:00 | super league greece | Aris Thessalonikis vs Volos NFC | Over 2.5 (FT) | [KO] | odd=2
-   ✅ Leg 2) 18:30 | bundesliga | Eintracht Frankfurt vs RB Leipzig | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.45
-   ✅ Leg 3) 18:30 | superliga serbia | FK Partizan vs Železničar Pančevo | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.8
+✅ Ticket 2 | Samedi 2026-04-18 18:30→20:20 | code=A2 | odd=2.61
+   id=2026-04-18_1830_78a07ea9d4_O25R
+   legs=2 | WIN=2 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 18:30 | bundesliga | Eintracht Frankfurt vs RB Leipzig | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.45
+   ✅ Leg 2) 18:30 | superliga serbia | FK Partizan vs Železničar Pančevo | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.8
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 3 | Samedi 2026-04-18 20:30→00:20 | code=A2 | odd=2.99

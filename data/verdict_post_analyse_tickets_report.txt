@@ -5,7 +5,7 @@ Source tickets : data/tickets.tsv
 Date run       : 2026-04-19
 Output         : data/verdict_post_analyse_tickets_report.txt
 Whitelist      : ON (160 ids)
-Ignorés (hors whitelist) : 101
+Ignorés (hors whitelist) : 109
 Ignorés (date>=today)    : 52
 
 ────────────────────────────────────────────────────────────────────
@@ -1242,21 +1242,21 @@ Ignorés (date>=today)    : 52
    ❌ Leg 3) 23:00 | primera a colombia | Jaguares vs Deportivo Pasto | HT 1X Home | [MOYEN PLUS] | odd=1.35
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 1 | Samedi 2026-04-18 01:00→04:50 | code=A2 | odd=2.49
-   id=2026-04-18_0100_2efa28d966_SYS
+✅ Ticket 1 | Samedi 2026-04-18 01:00→04:50 | code=A2 | odd=2.51
+   id=2026-04-18_0100_0623c16afd_SYS
    legs=3 | WIN=3 | LOSS=0 | PENDING=0
    ✅ Leg 1) 01:00 | liga mx | Cruz Azul vs Club Tijuana | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.7
-   ✅ Leg 2) 03:00 | liga mx | Atletico San Luis vs U.N.A.M. - Pumas | Team2 scores (FT) | [TRÈS FORT] | odd=1.17
+   ✅ Leg 2) 01:30 | serie a brazil | Cruzeiro vs Gremio | Team1 scores (FT) | [MOYEN PLUS] | odd=1.18
    ✅ Leg 3) 03:00 | liga mx | Mazatlán vs Club Queretaro | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.25
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 2 | Samedi 2026-04-18 15:00→17:20 | code=A2 | odd=2.51
-   id=2026-04-18_1500_b14aea0804_SYS
+✅ Ticket 2 | Samedi 2026-04-18 13:00→17:50 | code=A2 | odd=2.46
+   id=2026-04-18_1300_a90c0ff45e_SYS
    legs=4 | WIN=4 | LOSS=0 | PENDING=0
-   ✅ Leg 1) 15:00 | serie b | Mantova vs Avellino | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
-   ✅ Leg 2) 15:00 | serie b | Modena vs Frosinone | Team2 scores (FT) | [FORT PLUS] | odd=1.25
-   ✅ Leg 3) 15:30 | bundesliga | 1899 Hoffenheim vs Borussia Dortmund | Team1 scores (FT) | [MOYEN PLUS] | odd=1.18
-   ✅ Leg 4) 15:30 | bundesliga | Union Berlin vs VfL Wolfsburg | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.28
+   ✅ Leg 1) 13:00 | 2. bundesliga | Dynamo Dresden vs VfL Bochum | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ✅ Leg 2) 15:30 | bundesliga | Union Berlin vs VfL Wolfsburg | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.28
+   ✅ Leg 3) 16:00 | championship | Watford vs Sheffield Utd | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.28
+   ✅ Leg 4) 16:00 | championship | Wrexham vs Stoke City | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.25
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 3 | Samedi 2026-04-18 18:15→20:20 | code=A2 | odd=2.44
@@ -1268,18 +1268,17 @@ Ignorés (date>=today)    : 52
    ✅ Leg 4) 18:30 | laliga2 | Cultural Leonesa vs Cordoba | Over 1.5 (FT) | [EXPLOSION] | odd=1.28
 
 ────────────────────────────────────────────────────────────────────
-✅ Ticket 4 | Samedi 2026-04-18 20:30→01:20 | code=A2 | odd=2.57
-   id=2026-04-18_2030_918435f998_SYS
-   legs=4 | WIN=4 | LOSS=0 | PENDING=0
-   ✅ Leg 1) 20:30 | mls | CF Montreal vs New York Red Bulls | Over 1.5 (FT) | [TRÈS FORT] | odd=1.17
-   ✅ Leg 2) 20:45 | serie a italia | AS Roma vs Atalanta | Team1 scores (FT) | [MOYEN PLUS] | odd=1.25
-   ✅ Leg 3) 21:00 | premier league | Chelsea vs Manchester United | Team2 scores (FT) | [FORT] | odd=1.22
-   ✅ Leg 4) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | Under 3.5 (FT) | [FORT PLUS] | odd=1.44
+❌ Ticket 4 | Samedi 2026-04-18 21:00→01:20 | code=A2 | odd=2.59
+   id=2026-04-18_2100_fe16172502_SYS
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ✅ Leg 1) 21:00 | premier league | Chelsea vs Manchester United | Team2 scores (FT) | [FORT] | odd=1.22
+   ❌ Leg 2) 21:30 | liga portugal | GIL Vicente vs Guimaraes | Team1 scores (FT) | [MOYEN PLUS] | odd=1.25
+   ❌ Leg 3) 23:30 | liga pro ecuador | Universidad Catolica vs Libertad | Team2 scores (FT) | [FORT] | odd=1.7
 
 ====================================================================
 TOTAL tickets : 152
-✅ WIN     : 54
-❌ LOSS    : 96
+✅ WIN     : 53
+❌ LOSS    : 97
 ⏳ PENDING : 2
 ====================================================================
 
