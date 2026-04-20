@@ -830,7 +830,7 @@ with st.sidebar.expander("🧩 DIAG fichiers (existence)"):
 # -----------------------------
 # Contenu principal
 # -----------------------------
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["🎯 Tickets", "📄 Fichiers Bruts", "📊 Insights", "💰 Martingale", "🔍 Contrefactuel"])
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["🎯 Tickets", "📄 Fichiers Bruts", "📊 Insights", "💰 Martingale", "🔍 Contrefactuel", "📈 Performance"])
 
 with tab1:
     st.header(f"Tickets — {period_label}")
@@ -1612,3 +1612,151 @@ with tab5:
                                 file_name=f"counterfactual_v2_{date.today()}.json",
                                 mime="application/json",
                             )
+
+# ──────────────────────────────────────────────────────────────────────────────
+# TAB 6 — PERFORMANCE PAR STRATÉGIE
+# ──────────────────────────────────────────────────────────────────────────────
+with tab6:
+    st.header("📈 Performance par stratégie")
+
+    PERF_STRATEGY_FILES = {
+        "O1.5R":  ROOT / "data/verdict_post_analyse_tickets_o15_random.txt",
+        "O1.5SR": ROOT / "data/verdict_post_analyse_tickets_o15_super_random.txt",
+        "U3.5R":  ROOT / "data/verdict_post_analyse_tickets_u35_random.txt",
+        "U3.5SR": ROOT / "data/verdict_post_analyse_tickets_u35_super_random.txt",
+        "O2.5R":  ROOT / "data/verdict_post_analyse_tickets_o25_random.txt",
+        "O2.5SR": ROOT / "data/verdict_post_analyse_tickets_o25_super_random.txt",
+        "System": ROOT / "data/verdict_post_analyse_tickets.txt",
+    }
+
+    def _parse_perf_verdicts(path: Path):
+        """Retourne une liste de (date_str, cote, verdict) depuis un fichier verdict TSV."""
+        if not path.exists():
+            return []
+        records = []
+        for line in path.read_text(encoding="utf-8", errors="ignore").splitlines():
+            if not line.startswith("TSV:"):
+                continue
+            parts = line[4:].strip().split("\t")
+            if len(parts) < 11:
+                continue
+            date_str = parts[2].strip()
+            try:
+                cote = float(parts[6])
+            except Exception:
+                continue
+            verdict = parts[10].strip()
+            records.append((date_str, cote, verdict))
+        return records
+
+    # Collecte de tous les résultats
+    perf_data: dict = {}  # (date_str, strat) -> [net_units]
+    for strat, path in PERF_STRATEGY_FILES.items():
+        for date_str, cote, verdict in _parse_perf_verdicts(path):
+            key = (date_str, strat)
+            if key not in perf_data:
+                perf_data[key] = []
+            if verdict == "WIN":
+                perf_data[key].append(cote - 1.0)
+            elif verdict == "LOSS":
+                perf_data[key].append(-1.0)
+
+    if not perf_data:
+        st.info("Aucune donnée de performance disponible.")
+    else:
+        mise_base = st.number_input("Mise de base (€)", min_value=1, max_value=10000, value=10, step=1)
+
+        all_dates = sorted(
+            {k[0] for k in perf_data},
+            reverse=True
+        )
+        # Filtre période sidebar
+        ps = str(period_start) if period_start else "0000-00-00"
+        pe = str(period_end)   if period_end   else "9999-99-99"
+        all_dates = [d for d in all_dates if ps <= d <= pe]
+
+        strat_cols = list(PERF_STRATEGY_FILES.keys())
+
+        def _fmt_mult(v):
+            if v is None:
+                return "—"
+            return f"+{v:.2f}×" if v > 0 else f"{v:.2f}×"
+
+        def _fmt_eur(v, mise):
+            if v is None:
+                return "—"
+            euros = v * mise
+            return f"+{euros:.1f}€" if euros > 0 else f"{euros:.1f}€"
+
+        def _cell_color(v):
+            if v is None:
+                return ""
+            if v > 0:
+                return "color:#00dd77;font-weight:bold"
+            if v < 0:
+                return "color:#ff5555;font-weight:bold"
+            return "color:#888"
+
+        def _build_pivot(fmt_fn):
+            rows = []
+            for d in all_dates:
+                row = {"Date": d}
+                day_total = 0.0
+                has_any = False
+                for s in strat_cols:
+                    vals = perf_data.get((d, s), [])
+                    net = sum(vals) if vals else None
+                    row[s] = fmt_fn(net)
+                    if net is not None:
+                        day_total += net
+                        has_any = True
+                row["Total"] = fmt_fn(day_total) if has_any else "—"
+                rows.append(row)
+
+            # Ligne totaux
+            total_row = {"Date": "── TOTAL ──"}
+            grand_total = 0.0
+            for s in strat_cols:
+                all_vals = []
+                for d in all_dates:
+                    all_vals.extend(perf_data.get((d, s), []))
+                net = sum(all_vals) if all_vals else None
+                total_row[s] = fmt_fn(net)
+                if net is not None:
+                    grand_total += net
+            total_row["Total"] = fmt_fn(grand_total)
+            rows.append(total_row)
+            return pd.DataFrame(rows)
+
+        col_mult, col_eur = st.columns(2)
+        with col_mult:
+            st.subheader("Multiplicateurs")
+            st.dataframe(_build_pivot(lambda v: _fmt_mult(v)), use_container_width=True, hide_index=True)
+        with col_eur:
+            st.subheader(f"Euros (mise {mise_base}€)")
+            st.dataframe(_build_pivot(lambda v: _fmt_eur(v, mise_base)), use_container_width=True, hide_index=True)
+
+        # Résumé global par stratégie
+        st.divider()
+        st.subheader("Bilan global par stratégie")
+        summary_rows = []
+        for s in strat_cols:
+            all_vals = []
+            for d in all_dates:
+                all_vals.extend(perf_data.get((d, s), []))
+            n_tickets = len(all_vals)
+            if n_tickets == 0:
+                continue
+            wins   = sum(1 for v in all_vals if v > 0)
+            losses = sum(1 for v in all_vals if v < 0)
+            net    = sum(all_vals)
+            summary_rows.append({
+                "Stratégie": s,
+                "Tickets":   n_tickets,
+                "WIN":       wins,
+                "LOSS":      losses,
+                "Net (×)":   _fmt_mult(net),
+                f"Net ({mise_base}€)": _fmt_eur(net, mise_base),
+            })
+        if summary_rows:
+            st.dataframe(pd.DataFrame(summary_rows), use_container_width=True, hide_index=True)
