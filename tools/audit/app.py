@@ -772,14 +772,11 @@ def sort_tickets_for_display(df: pd.DataFrame) -> pd.DataFrame:
                 errors="coerce"
             )
 
-    out["__sort_date"] = out["DateTimeTri"].dt.normalize()
-    out["__sort_time"] = out["DateTimeTri"].dt.hour * 60 + out["DateTimeTri"].dt.minute
-
     out = out.sort_values(
-        by=["__sort_date", "__sort_time", "__row_order"],
-        ascending=[False, True, True],   # jour récent en tête, heure croissante au sein du jour
+        by=["DateTimeTri", "__row_order"],
+        ascending=[False, False],
         kind="mergesort"
-    ).drop(columns=["__row_order", "__sort_date", "__sort_time"]).reset_index(drop=True)
+    ).drop(columns="__row_order").reset_index(drop=True)
 
     return out
 
@@ -874,18 +871,26 @@ with tab1:
         if not df.empty:
             df = df.copy()
             df["Heure"] = df["DateTimeTri"].dt.strftime("%H:%M").fillna("—")
-            # Numéro chronologique par jour (1 = le plus tôt de la journée)
-            df["N°"] = df.groupby("Jour", sort=False).cumcount() + 1
+            # N° = rang chronologique dans la journée (1 = le plus tôt)
+            df["N°"] = df.groupby("Jour")["DateTimeTri"].rank(method="first", ascending=True).astype(int)
 
-            # Affichage par jour avec séparateur
+            # Un seul tableau avec ligne vide entre les jours
             jours = sorted(df["Jour"].dropna().unique(), reverse=True)
+            rows = []
             for i, jour in enumerate(jours):
                 if i > 0:
-                    st.markdown("<hr style='border:1px solid #444;margin:6px 0'>", unsafe_allow_html=True)
-                jour_str = jour.isoformat() if hasattr(jour, "isoformat") else str(jour)
-                st.markdown(f"<small style='color:#aaa'>📅 {jour_str}</small>", unsafe_allow_html=True)
+                    rows.append({"Statut": "", "Jour": "", "Heure": "", "N°": "", "Cote": ""})
                 day_df = df[df["Jour"] == jour]
-                st.dataframe(day_df[["Statut", "Heure", "N°", "Cote"]], use_container_width=True, hide_index=True)
+                for _, row in day_df.iterrows():
+                    jour_str = row["Jour"].isoformat() if hasattr(row["Jour"], "isoformat") else str(row["Jour"])
+                    rows.append({
+                        "Statut": str(row["Statut"]) if pd.notna(row["Statut"]) else "—",
+                        "Jour": jour_str,
+                        "Heure": row["Heure"],
+                        "N°": row["N°"],
+                        "Cote": row["Cote"],
+                    })
+            st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
 
             with st.expander(expander_label):
                 for _, row in df.iterrows():
