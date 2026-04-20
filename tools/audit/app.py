@@ -772,11 +772,14 @@ def sort_tickets_for_display(df: pd.DataFrame) -> pd.DataFrame:
                 errors="coerce"
             )
 
+    out["__sort_date"] = out["DateTimeTri"].dt.normalize()
+    out["__sort_time"] = out["DateTimeTri"].dt.hour * 60 + out["DateTimeTri"].dt.minute
+
     out = out.sort_values(
-        by=["DateTimeTri", "__row_order"],
-        ascending=[False, False],
+        by=["__sort_date", "__sort_time", "__row_order"],
+        ascending=[False, True, True],   # jour récent en tête, heure croissante au sein du jour
         kind="mergesort"
-    ).drop(columns="__row_order").reset_index(drop=True)
+    ).drop(columns=["__row_order", "__sort_date", "__sort_time"]).reset_index(drop=True)
 
     return out
 
@@ -871,14 +874,24 @@ with tab1:
         if not df.empty:
             df = df.copy()
             df["Heure"] = df["DateTimeTri"].dt.strftime("%H:%M").fillna("—")
-            # Numéro séquentiel par jour (1, 2, 3…)
-            df["N°"] = df.groupby("Jour").cumcount() + 1
-            st.dataframe(df[["Statut", "Jour", "Heure", "N°", "Cote"]], use_container_width=True, hide_index=True)
+            # Numéro chronologique par jour (1 = le plus tôt de la journée)
+            df["N°"] = df.groupby("Jour", sort=False).cumcount() + 1
+
+            # Affichage par jour avec séparateur
+            jours = sorted(df["Jour"].dropna().unique(), reverse=True)
+            for i, jour in enumerate(jours):
+                if i > 0:
+                    st.markdown("<hr style='border:1px solid #444;margin:6px 0'>", unsafe_allow_html=True)
+                jour_str = jour.isoformat() if hasattr(jour, "isoformat") else str(jour)
+                st.markdown(f"<small style='color:#aaa'>📅 {jour_str}</small>", unsafe_allow_html=True)
+                day_df = df[df["Jour"] == jour]
+                st.dataframe(day_df[["Statut", "Heure", "N°", "Cote"]], use_container_width=True, hide_index=True)
+
             with st.expander(expander_label):
                 for _, row in df.iterrows():
                     jour_str = row["Jour"].isoformat() if pd.notna(row["Jour"]) else "—"
                     status = row["Statut"] if pd.notna(row["Statut"]) else "—"
-                    st.markdown(f"**{status} Ticket {row['N°']} — {jour_str} (Cote: {row['Cote']})**")
+                    st.markdown(f"**{status} Ticket {row['N°']} — {jour_str} {row['Heure']} (Cote: {row['Cote']})**")
                     render_ticket_legs(row)
                     st.divider()
         else:
