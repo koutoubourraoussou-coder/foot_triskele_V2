@@ -1,34 +1,12 @@
-TICKETS TRISKÈLE — 2026-04-19 — SYSTEM — depuis predictions.tsv
+TICKETS TRISKÈLE — 2026-04-20 — SYSTEM — depuis predictions.tsv
 ===============================================================
 
-📅 Dimanche 2026-04-19 — Tranche 1 (fenêtre ~156min)
----------------------------------------------------
+📅 Lundi 2026-04-20 — Tranche 1 (fenêtre ~105min)
+------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0230_88c6f3ad29_SYS — cote = 2.61 — fenêtre 02:30 → 06:56  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-20_1900_86c9964b65_SYS — cote = 2.59 — fenêtre 19:00 → 22:35  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 02:30 | mls | FC Dallas vs Los Angeles Galaxy | Team1 scores (FT) | FORT PLUS | odd=1.17
-  2) 02:30 | mls | Minnesota United FC vs Portland Timbers | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
-  3) 03:30 | primera a colombia | Fortaleza FC vs Águilas Doradas | Team2 scores (FT) | EXPLOSION | odd=1.51
-  4) 05:06 | liga mx | Leon vs FC Juarez | Team2 scores (FT) | FORT | odd=1.25
-
-📅 Dimanche 2026-04-19 — Tranche 2 (fenêtre ~30min)
---------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1300_cc40a0a12f_SYS — cote = 2.59 — fenêtre 13:00 → 15:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 13:00 | championship | Ipswich vs Middlesbrough | Over 1.5 (FT) | FORT PLUS | odd=1.25
-  2) 13:00 | czech first league | Sigma Olomouc vs Slovácko | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3
-  3) 13:30 | 2. bundesliga | SpVgg Greuther Fürth vs SV Darmstadt 98 | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
-  4) 13:30 | super lig | Kasımpaşa vs Alanyaspor | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36
-
-📅 Dimanche 2026-04-19 — Tranche 3 (fenêtre ~180min)
----------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-19_1600_10dfc7f501_SYS — cote = 2.93 — fenêtre 16:00 → 20:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 16:00 | superliga serbia | TSC Backa Topola vs Napredak | Team2 scores (FT) | FORT | odd=2
-  2) 18:30 | pro league | Union St. Gilloise vs Club Brugge KV | Team1 scores (FT) | MOYEN PLUS | odd=1.22
-  3) 19:00 | liga portugal | Sporting CP vs Benfica | Team1 scores (FT) | MOYEN PLUS | odd=1.2
+  1) 19:00 | super lig | Gaziantep FK vs Kayserispor | Team1 scores (FT) | MOYEN PLUS | odd=1.2
+  2) 20:00 | liga profesional argentina | Barracas Central vs Belgrano Cordoba | Team1 scores (FT) | MOYEN PLUS | odd=1.67
+  3) 20:45 | serie a italia | Lecce vs Fiorentina | Team2 scores (FT) | FORT | odd=1.29

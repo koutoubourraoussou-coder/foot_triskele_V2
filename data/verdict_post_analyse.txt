@@ -28319,6 +28319,69 @@ TSV: 1374379946	2026-04-18	serie a brazil	Vasco DA Gama	Sao Paulo	O25_FT	Over 2.
 TSV: 1374379946	2026-04-18	serie a brazil	Vasco DA Gama	Sao Paulo	U35_FT	Under 3.5 (FT)	7.0	EXPLOSION	1	WIN	1H	1492228	0-1	0-1	23:30
 TSV: 1374379946	2026-04-18	serie a brazil	Vasco DA Gama	Sao Paulo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	1H	1492228	0-1	0-1	23:30
 TSV: 1374379946	2026-04-18	serie a brazil	Vasco DA Gama	Sao Paulo	TEAM2_WIN_FT	Team2 wins (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	1H	1492228	0-1	0-1	23:30
+TSV: 344993574	2026-04-19	serie a brazil	Flamengo	Bahia	HT05	HT+0.5	7.0	EXPLOSION	0	BAD_NO_BET	FT	1492224	2-0	1-0	00:30
+TSV: 344993574	2026-04-19	serie a brazil	Flamengo	Bahia	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1492224	2-0	1-0	00:30
+TSV: 344993574	2026-04-19	serie a brazil	Flamengo	Bahia	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	WIN	FT	1492224	2-0	1-0	00:30
+TSV: 344993574	2026-04-19	serie a brazil	Flamengo	Bahia	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1492224	2-0	1-0	00:30
+TSV: 344993574	2026-04-19	serie a brazil	Flamengo	Bahia	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	WIN	FT	1492224	2-0	1-0	00:30
+TSV: 344993574	2026-04-19	serie a brazil	Flamengo	Bahia	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1492224	2-0	1-0	00:30
+TSV: 344993574	2026-04-19	serie a brazil	Flamengo	Bahia	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1492224	2-0	1-0	00:30
+TSV: 344993574	2026-04-19	serie a brazil	Flamengo	Bahia	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1492224	2-0	1-0	00:30
+TSV: 344993574	2026-04-19	serie a brazil	Flamengo	Bahia	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492224	2-0	1-0	00:30
+TSV: 2105093241	2026-04-19	liga mx	Santos Laguna	Atlas	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492597	0-1	0-1	01:00
+TSV: 2105093241	2026-04-19	liga mx	Santos Laguna	Atlas	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	LOSS	FT	1492597	0-1	0-1	01:00
+TSV: 2105093241	2026-04-19	liga mx	Santos Laguna	Atlas	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	LOSS	FT	1492597	0-1	0-1	01:00
+TSV: 2105093241	2026-04-19	liga mx	Santos Laguna	Atlas	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1492597	0-1	0-1	01:00
+TSV: 2105093241	2026-04-19	liga mx	Santos Laguna	Atlas	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1492597	0-1	0-1	01:00
+TSV: 2105093241	2026-04-19	liga mx	Santos Laguna	Atlas	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1492597	0-1	0-1	01:00
+TSV: 2105093241	2026-04-19	liga mx	Santos Laguna	Atlas	U35_FT	Under 3.5 (FT)	7.0	EXPLOSION	1	WIN	FT	1492597	0-1	0-1	01:00
+TSV: 2105093241	2026-04-19	liga mx	Santos Laguna	Atlas	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492597	0-1	0-1	01:00
+TSV: 2105093241	2026-04-19	liga mx	Santos Laguna	Atlas	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1492597	0-1	0-1	01:00
+TSV: 2564927568	2026-04-19	mls	Los Angeles FC	San Jose Earthquakes	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1490224	1-4	0-0	01:00
+TSV: 2564927568	2026-04-19	mls	Los Angeles FC	San Jose Earthquakes	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1490224	1-4	0-0	01:00
+TSV: 2564927568	2026-04-19	mls	Los Angeles FC	San Jose Earthquakes	TEAM1_SCORE_FT	Team1 scores (FT)	5.0	FORT PLUS	1	WIN	FT	1490224	1-4	0-0	01:00
+TSV: 2564927568	2026-04-19	mls	Los Angeles FC	San Jose Earthquakes	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	WIN	FT	1490224	1-4	0-0	01:00
+TSV: 2564927568	2026-04-19	mls	Los Angeles FC	San Jose Earthquakes	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1490224	1-4	0-0	01:00
+TSV: 2564927568	2026-04-19	mls	Los Angeles FC	San Jose Earthquakes	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1490224	1-4	0-0	01:00
+TSV: 2564927568	2026-04-19	mls	Los Angeles FC	San Jose Earthquakes	U35_FT	Under 3.5 (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1490224	1-4	0-0	01:00
+TSV: 2564927568	2026-04-19	mls	Los Angeles FC	San Jose Earthquakes	TEAM1_WIN_FT	Team1 wins (FT)	5.0	FORT PLUS	1	LOSS	FT	1490224	1-4	0-0	01:00
+TSV: 2564927568	2026-04-19	mls	Los Angeles FC	San Jose Earthquakes	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1490224	1-4	0-0	01:00
+TSV: 4069996102	2026-04-19	liga pro ecuador	Macara	Barcelona SC	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1519323	3-1	0-1	01:10
+TSV: 4069996102	2026-04-19	liga pro ecuador	Macara	Barcelona SC	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	LOSS	FT	1519323	3-1	0-1	01:10
+TSV: 4069996102	2026-04-19	liga pro ecuador	Macara	Barcelona SC	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1519323	3-1	0-1	01:10
+TSV: 4069996102	2026-04-19	liga pro ecuador	Macara	Barcelona SC	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1519323	3-1	0-1	01:10
+TSV: 4069996102	2026-04-19	liga pro ecuador	Macara	Barcelona SC	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1519323	3-1	0-1	01:10
+TSV: 4069996102	2026-04-19	liga pro ecuador	Macara	Barcelona SC	O25_FT	Over 2.5 (FT)	0.0	KO	0	BAD_NO_BET	FT	1519323	3-1	0-1	01:10
+TSV: 4069996102	2026-04-19	liga pro ecuador	Macara	Barcelona SC	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1519323	3-1	0-1	01:10
+TSV: 4069996102	2026-04-19	liga pro ecuador	Macara	Barcelona SC	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1519323	3-1	0-1	01:10
+TSV: 4069996102	2026-04-19	liga pro ecuador	Macara	Barcelona SC	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1519323	3-1	0-1	01:10
+TSV: 1602461545	2026-04-19	primera a colombia	Junior	Llaneros	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1506093	2-0	2-0	01:20
+TSV: 1602461545	2026-04-19	primera a colombia	Junior	Llaneros	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1506093	2-0	2-0	01:20
+TSV: 1602461545	2026-04-19	primera a colombia	Junior	Llaneros	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	WIN	FT	1506093	2-0	2-0	01:20
+TSV: 1602461545	2026-04-19	primera a colombia	Junior	Llaneros	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506093	2-0	2-0	01:20
+TSV: 1602461545	2026-04-19	primera a colombia	Junior	Llaneros	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1506093	2-0	2-0	01:20
+TSV: 1602461545	2026-04-19	primera a colombia	Junior	Llaneros	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	LOSS	FT	1506093	2-0	2-0	01:20
+TSV: 1602461545	2026-04-19	primera a colombia	Junior	Llaneros	U35_FT	Under 3.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1506093	2-0	2-0	01:20
+TSV: 1602461545	2026-04-19	primera a colombia	Junior	Llaneros	TEAM1_WIN_FT	Team1 wins (FT)	6.0	TRÈS FORT	1	WIN	FT	1506093	2-0	2-0	01:20
+TSV: 1602461545	2026-04-19	primera a colombia	Junior	Llaneros	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506093	2-0	2-0	01:20
+TSV: 1914465191	2026-04-19	liga profesional argentina	Rosario Central	Sarmiento Junin	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1492038	2-1	1-0	01:30
+TSV: 1914465191	2026-04-19	liga profesional argentina	Rosario Central	Sarmiento Junin	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1492038	2-1	1-0	01:30
+TSV: 1914465191	2026-04-19	liga profesional argentina	Rosario Central	Sarmiento Junin	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1492038	2-1	1-0	01:30
+TSV: 1914465191	2026-04-19	liga profesional argentina	Rosario Central	Sarmiento Junin	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1492038	2-1	1-0	01:30
+TSV: 1914465191	2026-04-19	liga profesional argentina	Rosario Central	Sarmiento Junin	O15_FT	Over 1.5 (FT)	0.0	KO	0	BAD_NO_BET	FT	1492038	2-1	1-0	01:30
+TSV: 1914465191	2026-04-19	liga profesional argentina	Rosario Central	Sarmiento Junin	O25_FT	Over 2.5 (FT)	0.0	KO	0	BAD_NO_BET	FT	1492038	2-1	1-0	01:30
+TSV: 1914465191	2026-04-19	liga profesional argentina	Rosario Central	Sarmiento Junin	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1492038	2-1	1-0	01:30
+TSV: 1914465191	2026-04-19	liga profesional argentina	Rosario Central	Sarmiento Junin	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1492038	2-1	1-0	01:30
+TSV: 1914465191	2026-04-19	liga profesional argentina	Rosario Central	Sarmiento Junin	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492038	2-1	1-0	01:30
+TSV: 2037894561	2026-04-19	liga profesional argentina	Talleres Cordoba	Deportivo Riestra	HT05	HT+0.5	0.0	KO	0	BAD_NO_BET	FT	1492040	2-0	2-0	01:30
+TSV: 2037894561	2026-04-19	liga profesional argentina	Talleres Cordoba	Deportivo Riestra	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1492040	2-0	2-0	01:30
+TSV: 2037894561	2026-04-19	liga profesional argentina	Talleres Cordoba	Deportivo Riestra	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1492040	2-0	2-0	01:30
+TSV: 2037894561	2026-04-19	liga profesional argentina	Talleres Cordoba	Deportivo Riestra	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492040	2-0	2-0	01:30
+TSV: 2037894561	2026-04-19	liga profesional argentina	Talleres Cordoba	Deportivo Riestra	O15_FT	Over 1.5 (FT)	0.0	KO	0	BAD_NO_BET	FT	1492040	2-0	2-0	01:30
+TSV: 2037894561	2026-04-19	liga profesional argentina	Talleres Cordoba	Deportivo Riestra	O25_FT	Over 2.5 (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492040	2-0	2-0	01:30
+TSV: 2037894561	2026-04-19	liga profesional argentina	Talleres Cordoba	Deportivo Riestra	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1492040	2-0	2-0	01:30
+TSV: 2037894561	2026-04-19	liga profesional argentina	Talleres Cordoba	Deportivo Riestra	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1492040	2-0	2-0	01:30
+TSV: 2037894561	2026-04-19	liga profesional argentina	Talleres Cordoba	Deportivo Riestra	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492040	2-0	2-0	01:30
 TSV: 619146836	2026-04-19	liga pro ecuador	Orense SC	Delfin SC	HT05	HT+0.5	1.0	FAIBLE	0	GOOD_NO_BET	FT	1519326	0-0	0-0	02:00
 TSV: 619146836	2026-04-19	liga pro ecuador	Orense SC	Delfin SC	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1519326	0-0	0-0	02:00
 TSV: 619146836	2026-04-19	liga pro ecuador	Orense SC	Delfin SC	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1519326	0-0	0-0	02:00

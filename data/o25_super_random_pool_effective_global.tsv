@@ -84,3 +84,8 @@ TSV: 2026-04-18	1054168919	O25_FT	01:30	mls	New York City FC	Charlotte	1.8	14902
 TSV: 2026-04-18	1086693212	O25_FT	01:30	mls	FC Cincinnati	Chicago Fire	1.62	1490215	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-18	2055960016	O25_FT	01:30	mls	Orlando City SC	Houston Dynamo	1.55	1490219	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O25_SUPER_RANDOM_POOL_EFFECTIVE | 2026-04-20 13:48:58 | run_date=2026-04-20 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-20	2306675108	O25_FT	19:00	ekstraklasa	Lechia Gdansk	Piast Gliwice	1.65	1380639	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

@@ -4,9 +4,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [U35_SUPER_RANDOM]
 Source tickets : data/tickets_u35_super_random.tsv
 Date run       : 2026-04-20
 Output         : data/verdict_post_analyse_tickets_u35_super_random_report.txt
-Whitelist      : ON (10 ids)
+Whitelist      : ON (11 ids)
 Ignorés (hors whitelist) : 150
-Ignorés (date>=today)    : 0
+Ignorés (date>=today)    : 5
 
 ────────────────────────────────────────────────────────────────────
 ❌ Ticket 1 | Jeudi 2026-04-16 18:45→22:50 | code=A2 | odd=3.19

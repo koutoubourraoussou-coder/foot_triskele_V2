@@ -84,3 +84,12 @@ TSV: 2026-04-18	304526490	O25_FT	15:00	serie b	Bari	Venezia	1.57	1419931	O25_RAN
 TSV: 2026-04-19	1955721999	O25_FT	16:00	super lig	Samsunspor	Beşiktaş	1.7	1394701	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-19	2092069070	O25_FT	17:15	ligue 1	Strasbourg	Rennes	1.65	1387967	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O25_RANDOM_POOL_EFFECTIVE | 2026-04-20 13:48:57 | run_date=2026-04-20 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-20	2660558068	O25_FT	12:00	ukrainian premier league	Oleksandria	Veres Rivne	2.5	1396801	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-20	1913594856	O25_FT	16:30	liga i romania	FC Botosani	Metaloglobus	1.65	1531524	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-20	1718191185	O25_FT	17:00	ukrainian premier league	Shakhtar Donetsk	Polessya	2.2	1391598	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-20	2306675108	O25_FT	19:00	ekstraklasa	Lechia Gdansk	Piast Gliwice	1.65	1380639	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-20	2916046655	O25_FT	19:30	liga i romania	Farul Constanta	FCSB	1.73	1531523	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

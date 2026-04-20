@@ -1,42 +1,14 @@
-TICKETS TRISKELE — 2026-04-19 — U35_SUPER_RANDOM — depuis predictions.tsv
+TICKETS TRISKELE — 2026-04-20 — U35_SUPER_RANDOM — depuis predictions.tsv
 =========================================================================
 
-📅 Dimanche 2026-04-19 — Tranche 1
----------------------------------
+📅 Lundi 2026-04-20 — Tranche 1
+------------------------------
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0307_ff3171b4d8_U35SR — cote = 2.97 — fenêtre 03:07 → 07:00  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 03:07 | liga mx | Guadalajara Chivas vs Puebla | Under 3.5 (FT) | FORT | odd=1.57
-  2) 03:30 | mls | Seattle Sounders vs St. Louis City | Under 3.5 (FT) | MOYEN | odd=1.48
-  3) 05:10 | liga mx | Club America vs Toluca | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.28
-
-📅 Dimanche 2026-04-19 — Tranche 2
----------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1330_54a0f08a11_U35SR — cote = 2.78 — fenêtre 13:30 → 17:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 13:30 | 2. bundesliga | FC Schalke 04 vs Preußen Münster | Under 3.5 (FT) | TRÈS FORT | odd=1.33
-  2) 15:00 | schweizer cup | Yverdon Sport vs FC ST. Gallen | Under 3.5 (FT) | MOYEN PLUS | odd=1.57
-  3) 15:30 | czech first league | Hradec Králové vs Slavia Praha | Under 3.5 (FT) | FORT | odd=1.33
-
-📅 Dimanche 2026-04-19 — Tranche 3
----------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-19_1600_3c7a220eb4_U35SR — cote = 2.68 — fenêtre 16:00 → 20:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 16:00 | serie a brazil | Internacional vs Mirassol | Under 3.5 (FT) | MOYEN PLUS | odd=1.25
-  2) 16:30 | liga portugal | Arouca vs Estrela | Under 3.5 (FT) | TRÈS FORT | odd=1.33
-  3) 17:30 | premier league | Manchester City vs Arsenal | Under 3.5 (FT) | MOYEN PLUS | odd=1.3
-  4) 18:30 | russian premier league | FC Krasnodar vs Baltika | Under 3.5 (FT) | MOYEN | odd=1.24
-
-📅 Dimanche 2026-04-19 — Tranche 4
----------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 4.1 (A2) — id=2026-04-19_1900_81dbb002a3_U35SR — cote = 2.48 — fenêtre 19:00 → 22:35  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 19:00 | liga portugal | Sporting CP vs Benfica | Under 3.5 (FT) | FORT PLUS | odd=1.42
-  2) 20:45 | ligue 1 | Paris Saint Germain vs Lyon | Under 3.5 (FT) | MOYEN PLUS | odd=1.75
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-20_0330_1c1051eb8b_U35SR — cote = 2.8 — fenêtre 03:30 → 00:05  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 03:30 | primera a colombia | America de Cali vs Millonarios | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.2
+  2) 17:00 | ukrainian premier league | Shakhtar Donetsk vs Polessya | Under 3.5 (FT) | FORT | odd=1.22
+  3) 20:45 | serie a italia | Lecce vs Fiorentina | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.22
+  4) 21:00 | premier league | Crystal Palace vs West Ham | Under 3.5 (FT) | FORT PLUS | odd=1.33
+  5) 22:15 | liga profesional argentina | Banfield vs Independ. Rivadavia | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.18

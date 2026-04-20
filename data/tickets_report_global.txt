@@ -2139,6 +2139,18 @@ Aucun ticket.
 
 
 # ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-04-20 13:48:56 | run_date=2026-04-20 | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-20_1900_86c9964b65_SYS — cote = 2.59 — fenêtre 19:00 → 22:35  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 19:00 | super lig | Gaziantep FK vs Kayserispor | Team1 scores (FT) | MOYEN PLUS | odd=1.2
+  2) 20:00 | liga profesional argentina | Barracas Central vs Belgrano Cordoba | Team1 scores (FT) | MOYEN PLUS | odd=1.67
+  3) 20:45 | serie a italia | Lecce vs Fiorentina | Team2 scores (FT) | FORT | odd=1.29
+
+
+# ------------------------------------------------------------------
 # APPEND SYSTEM | 2026-03-28 00:25:44 | run_date=ALL | source=predictions.tsv
 # ------------------------------------------------------------------
 

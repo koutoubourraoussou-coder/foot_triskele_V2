@@ -1,29 +1,11 @@
-TICKETS TRISKÈLE — 2026-04-19 — O25_RANDOM_ALL — depuis predictions.tsv
+TICKETS TRISKÈLE — 2026-04-20 — O25_RANDOM_ALL — depuis predictions.tsv
 =======================================================================
 
-📅 Dimanche 2026-04-19 — Tranche 1 (fenêtre ~570min)
----------------------------------------------------
+📅 Lundi 2026-04-20 — Tranche 1 (fenêtre ~270min)
+------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-19_0330_3e5d88d1c3_O25R — cote = 2.76 — fenêtre 03:30 → 14:50  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-20_1200_f2bbef4b36_O25R — cote = 4.12 — fenêtre 12:00 → 18:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 03:30 | mls | Real Salt Lake vs San Diego | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.38
-  2) 13:00 | czech first league | Sigma Olomouc vs Slovácko | Over 2.5 (FT) | MEGA EXPLOSION | odd=2
-
-📅 Dimanche 2026-04-19 — Tranche 2
----------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-19_1600_3fec7cabc9_O25R — cote = 3.06 — fenêtre 16:00 → 17:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 16:00 | russian premier league | Spartak Moscow vs Akhmat | Over 2.5 (FT) | KO | odd=1.8
-  2) 16:00 | super lig | Samsunspor vs Beşiktaş | Over 2.5 (FT) | MOYEN PLUS | odd=1.7
-
-📅 Dimanche 2026-04-19 — Tranche 3 (fenêtre ~120min)
----------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-19_1900_08d0282e8a_O25R — cote = 2.8 — fenêtre 19:00 → 22:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 19:00 | liga portugal | Sporting CP vs Benfica | Over 2.5 (FT) | MOYEN PLUS | odd=1.73
-  2) 21:00 | laliga2 | Almeria vs Malaga | Over 2.5 (FT) | EXPLOSION | odd=1.62
+  1) 12:00 | ukrainian premier league | Oleksandria vs Veres Rivne | Over 2.5 (FT) | FAIBLE | odd=2.5
+  2) 16:30 | liga i romania | FC Botosani vs Metaloglobus | Over 2.5 (FT) | FORT PLUS | odd=1.65
