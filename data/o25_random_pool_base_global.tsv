@@ -251,3 +251,771 @@ TSV: 2026-04-20	2256122303	O25_FT	22:15	liga profesional argentina	Central Cordo
 TSV: 2026-04-20	1317065382	O25_FT	22:15	liga profesional argentina	Banfield	Independ. Rivadavia	2.45	1492030	O25_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-04-20	1460877996	O25_FT	23:15	primera división paraguay	Rubio NU	Libertad Asuncion	2.25	1505059	O25_RANDOM_POOL_BASE	predictions.tsv
 
+TSV: 2026-04-01	2807532571	O25_FT	00:00	liga profesional argentina	Lanus	Platense	2.9	1492006	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	4009557744	O25_FT	00:00	liga profesional argentina	Talleres Cordoba	Boca Juniors	2.88	1492010	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	1270421119	O25_FT	00:00	liga profesional argentina	Lanus	Banfield	2.7	1492022	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	1643023394	O25_FT	00:00	liga profesional argentina	Boca Juniors	Instituto Cordoba	2.45	1491987	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	1370608748	O25_FT	00:00	liga pro ecuador	Leones del Norte	Aucas	2.4	1519322	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1925207585	O25_FT	00:00	serie a brazil	Coritiba	Vasco DA Gama	2.35	1492194	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-24	4234859617	O25_FT	00:00	primera a colombia	Junior	Bucaramanga	2.25	1506054	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	3142328762	O25_FT	00:00	liga profesional argentina	Argentinos JRS	Banfield	2.25	1491999	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1809547107	O25_FT	00:00	serie a brazil	Chapecoense-sc	Atletico-MG	2.2	1492193	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1290146881	O25_FT	00:00	serie a brazil	Internacional	Sao Paulo	2.2	1492197	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	2802510933	O25_FT	00:00	primera división paraguay	Deportivo Recoleta	Rubio NU	2.15	1505036	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	2829812064	O25_FT	00:00	primera división paraguay	Club Guarani	Sportivo Trinidense	2.15	1505033	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	762783920	O25_FT	00:00	primera división paraguay	Sportivo Trinidense	Olimpia	2.15	1505042	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1122301632	O25_FT	00:00	serie a brazil	Botafogo	Mirassol	2.1	1492191	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	2206006765	O25_FT	00:00	serie a brazil	Cruzeiro	Vitoria	2.05	1492195	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	64054079	O25_FT	00:00	serie a brazil	Bahia	Atletico Paranaense	2	1492190	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1609004124	O25_FT	00:00	primera a colombia	Jaguares	Millonarios	2	1506073	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	4244359418	O25_FT	00:00	serie a brazil	Santos	Remo	1.95	1492199	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	2291659680	O25_FT	00:00	primera a colombia	Santa Fe	Llaneros	1.93	1506069	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	1775237511	O25_FT	00:00	liga mx	Santos Laguna	Puebla	1.8	1492569	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	1795197454	O25_FT	00:00	liga mx	Pachuca	Toluca	1.65	1492565	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	2226555661	O25_FT	00:00	mls	San Diego	Real Salt Lake	1.55	1490179	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	3939333873	O25_FT	00:10	primera a colombia	Deportes Tolima	Jaguares	1.85	1506060	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	1043835039	O25_FT	00:15	liga pro ecuador	Mushuc Runa SC	Emelec	2.15	1519302	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	4014774312	O25_FT	00:20	primera a colombia	Jaguares	Águilas Doradas	2.4	1506053	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	4276721283	O25_FT	00:30	liga profesional argentina	San Lorenzo	Estudiantes L.P.	3.1	1492009	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	133670527	O25_FT	00:30	primera división paraguay	Rubio NU	Sportivo Ameliano	2.45	1505027	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	204327567	O25_FT	00:30	serie a brazil	Corinthians	Internacional	2.35	1492203	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1839056781	O25_FT	00:30	liga profesional argentina	Boca Juniors	Independiente	2.35	1492015	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	2451606422	O25_FT	00:30	serie a brazil	Corinthians	Flamengo	2.3	1492182	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3568193759	O25_FT	00:30	primera división paraguay	Sportivo Ameliano	Libertad Asuncion	2.25	1505031	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	3464360071	O25_FT	00:30	primera división paraguay	Sportivo Luqueno	2 de Mayo	2.2	1505029	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1290146881	O25_FT	00:30	serie a brazil	Internacional	Sao Paulo	2.2	1492197	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	2761094636	O25_FT	00:30	serie a brazil	Atletico Paranaense	Botafogo	2.15	1492150	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1122301632	O25_FT	00:30	serie a brazil	Botafogo	Mirassol	2.1	1492191	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3562896284	O25_FT	00:30	serie a brazil	Bahia	Palmeiras	2	1492201	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	395547298	O25_FT	00:30	international friendlies	Colombia	Croatia	1.85	1512757	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	853069655	O25_FT	00:30	primera división paraguay	Cerro Porteno	Club Sp. San Lorenzo	1.85	1505032	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	344993574	O25_FT	00:30	serie a brazil	Flamengo	Bahia	1.8	1492224	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	2807532571	O25_FT	01:00	liga profesional argentina	Lanus	Platense	2.9	1492006	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	682514211	O25_FT	01:00	liga profesional argentina	Argentinos JRS	Lanus	2.7	1491893	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	660171386	O25_FT	01:00	liga profesional argentina	Racing Club	River Plate	2.6	1492025	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	2794050401	O25_FT	01:00	primera división paraguay	Sportivo Trinidense	Rubio NU	2.4	1505048	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	186550019	O25_FT	01:00	international friendlies	Haiti	Tunisia	2.35	1512761	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	589051090	O25_FT	01:00	serie a brazil	Santos	Atletico-MG	2.1	1492218	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	2206006765	O25_FT	01:00	serie a brazil	Cruzeiro	Vitoria	2.05	1492195	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	4276291902	O25_FT	01:00	serie a brazil	Mirassol	RB Bragantino	2.05	1492207	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	64054079	O25_FT	01:00	serie a brazil	Bahia	Atletico Paranaense	2	1492190	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-24	3251690797	O25_FT	01:00	liga pro ecuador	Aucas	Orense SC	1.95	1519296	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	4040950145	O25_FT	01:00	liga mx	Club Queretaro	Necaxa	1.85	1492582	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1747153826	O25_FT	01:00	liga mx	Tigres UANL	Guadalajara Chivas	1.83	1492583	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	2105093241	O25_FT	01:00	liga mx	Santos Laguna	Atlas	1.7	1492597	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	922330754	O25_FT	01:00	liga mx	Club Queretaro	Toluca	1.67	1492578	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1436310579	O25_FT	01:00	liga mx	Monterrey	Atletico San Luis	1.57	1492574	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	2564927568	O25_FT	01:00	mls	Los Angeles FC	San Jose Earthquakes	1.55	1490224	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3698790625	O25_FT	01:00	international friendlies	USA	Portugal	1.5	1503004	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3695500623	O25_FT	01:00	mls	Columbus Crew	Orlando City SC	1.35	1490208	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	4204715755	O25_FT	01:10	liga pro ecuador	Macara	Aucas	2.35	1519309	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	4069996102	O25_FT	01:10	liga pro ecuador	Macara	Barcelona SC	2.3	1519323	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	4155447180	O25_FT	01:10	liga pro ecuador	Aucas	Emelec	2.08	1519312	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	3750642184	O25_FT	01:10	primera a colombia	Independiente Medellin	America de Cali	2	1506064	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-24	1243512501	O25_FT	01:15	liga profesional argentina	Huracan	Barracas Central	2.9	1491992	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2907191242	O25_FT	01:20	primera a colombia	Fortaleza FC	Internacional de Bogota	2.15	1506075	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1609004124	O25_FT	01:20	primera a colombia	Jaguares	Millonarios	2.05	1506073	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	1852109721	O25_FT	01:20	primera a colombia	Deportivo Pasto	Atletico Nacional	2	1506063	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	2719771118	O25_FT	01:20	primera a colombia	Bucaramanga	Chico	1.95	1506085	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	1602461545	O25_FT	01:20	primera a colombia	Junior	Llaneros	1.95	1506093	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3356678851	O25_FT	01:30	liga profesional argentina	Central Cordoba de Santiago	Newells Old Boys	3	1492001	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	2037894561	O25_FT	01:30	liga profesional argentina	Talleres Cordoba	Deportivo Riestra	3	1492040	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	4009557744	O25_FT	01:30	liga profesional argentina	Talleres Cordoba	Boca Juniors	2.7	1492010	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2164053495	O25_FT	01:30	serie a brazil	Coritiba	Fluminense	2.6	1492204	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2704952844	O25_FT	01:30	primera división paraguay	Nacional Asuncion	Cerro Porteno	2.4	1505051	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1263196524	O25_FT	01:30	primera división paraguay	Club Sp. San Lorenzo	Sportivo Ameliano	2.35	1505040	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1925207585	O25_FT	01:30	serie a brazil	Coritiba	Vasco DA Gama	2.35	1492194	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1814475060	O25_FT	01:30	primera división paraguay	Club Guarani	Libertad Asuncion	2.25	1505045	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	2537554042	O25_FT	01:30	primera división paraguay	Libertad Asuncion	Sportivo Trinidense	2.25	1505050	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	1914465191	O25_FT	01:30	liga profesional argentina	Rosario Central	Sarmiento Junin	2.25	1492038	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	1653570339	O25_FT	01:30	liga profesional argentina	Union Santa Fe	Newells Old Boys	2.2	1492042	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3133921833	O25_FT	01:30	primera división paraguay	Sportivo Luqueno	Cerro Porteno	2.15	1505041	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	762783920	O25_FT	01:30	primera división paraguay	Sportivo Trinidense	Olimpia	2.15	1505042	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	410113277	O25_FT	01:30	primera división paraguay	Deportivo Recoleta	Club Sp. San Lorenzo	2.15	1505047	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	4131016166	O25_FT	01:30	primera división paraguay	Club Sp. San Lorenzo	Club Guarani	2.15	1505053	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2560016518	O25_FT	01:30	mls	New England Revolution	DC United	2.1	1490202	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	568304699	O25_FT	01:30	primera división paraguay	Libertad Asuncion	Deportivo Recoleta	1.95	1505038	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1243956398	O25_FT	01:30	primera división paraguay	Cerro Porteno	2 de Mayo	1.95	1505044	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3474981687	O25_FT	01:30	international friendlies	Canada	Tunisia	1.93	1512765	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	2291659680	O25_FT	01:30	primera a colombia	Santa Fe	Llaneros	1.93	1506069	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2060694690	O25_FT	01:30	serie a brazil	Internacional	Gremio	1.91	1492215	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1051799773	O25_FT	01:30	mls	Charlotte	Nashville SC	1.85	1490201	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	345938043	O25_FT	01:30	mls	DC United	FC Dallas	1.83	1490188	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2422903007	O25_FT	01:30	mls	Charlotte	Philadelphia Union	1.8	1490186	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	4169536677	O25_FT	01:30	mls	New York City FC	St. Louis City	1.8	1490187	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3693212940	O25_FT	01:30	serie a brazil	Gremio	Remo	1.75	1492206	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	994525886	O25_FT	01:30	mls	Atlanta United FC	Columbus Crew	1.7	1490184	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2523930432	O25_FT	01:30	mls	Vancouver Whitecaps	New York City FC	1.57	1490200	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1786942345	O25_FT	01:30	mls	New York Red Bulls	FC Cincinnati	1.55	1490185	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	66676446	O25_FT	01:30	mls	Inter Miami	Austin	1.48	1490183	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3204438873	O25_FT	01:30	mls	Inter Miami	New York Red Bulls	1.25	1490199	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	676938275	O25_FT	01:30	international friendlies	Argentina	Zambia	1.22	1536923	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3840391628	O25_FT	02:00	liga profesional argentina	Belgrano Cordoba	Aldosivi	2.6	1492014	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-25	1835025595	O25_FT	02:00	primera a colombia	Fortaleza FC	Deportivo Pasto	2.45	1506055	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	2769158298	O25_FT	02:00	liga profesional argentina	Rosario Central	Atletico Tucuman	2.45	1492008	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	968876184	O25_FT	02:00	liga pro ecuador	Delfin SC	LDU de Quito	2.15	1519314	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	850924886	O25_FT	02:00	primera a colombia	America de Cali	Llaneros	2.05	1506056	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-07	3834496184	O25_FT	02:00	liga pro ecuador	Libertad	Mushuc Runa SC	2.05	1519308	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3944742331	O25_FT	02:00	liga pro ecuador	Barcelona SC	Leones del Norte	2.05	1519313	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	4059653295	O25_FT	02:00	serie a brazil	Vasco DA Gama	Botafogo	2	1492209	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1308171298	O25_FT	02:00	liga pro ecuador	LDU de Quito	Barcelona SC	1.95	1519306	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-08	104981107	O25_FT	02:00	liga mx	Club Queretaro	FC Juarez	1.9	1492524	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	759009987	O25_FT	02:00	liga pro ecuador	Universidad Catolica	Emelec	1.8	1519263	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1962497946	O25_FT	02:00	liga pro ecuador	Orense SC	Libertad	1.8	1519318	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	202653491	O25_FT	02:00	international friendlies	Brazil	Croatia	1.65	1501817	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	1792737380	O25_FT	02:06	liga mx	FC Juarez	Tigres UANL	1.85	1492570	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1363767996	O25_FT	02:10	primera a colombia	Bucaramanga	Santa Fe	2.38	1506058	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	4120387008	O25_FT	02:15	liga profesional argentina	Argentinos JRS	Platense	3	1491983	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	3986225295	O25_FT	02:15	liga profesional argentina	Independ. Rivadavia	Rosario Central	2.6	1491994	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-07	2997014382	O25_FT	02:15	liga profesional argentina	Instituto Cordoba	Defensa Y Justicia	2.45	1492005	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	621827949	O25_FT	02:30	serie a brazil	Fluminense	Corinthians	2.25	1492196	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2255142792	O25_FT	02:30	serie a brazil	RB Bragantino	Flamengo	2.2	1492192	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-14	2667719737	O25_FT	02:30	liga profesional argentina	Velez Sarsfield	Central Cordoba de Santiago	2.2	1492027	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	2771287885	O25_FT	02:30	primera a colombia	Deportes Tolima	Santa Fe	2.15	1506020	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	2267365294	O25_FT	02:30	mls	Chicago Fire	Nashville SC	1.8	1490190	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	2581369721	O25_FT	02:30	mls	Houston Dynamo	Seattle Sounders	1.8	1490189	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	575657947	O25_FT	02:30	serie a brazil	Palmeiras	Gremio	1.65	1492198	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1946106763	O25_FT	02:30	mls	Chicago Fire	Atlanta United FC	1.65	1490203	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1603845650	O25_FT	02:30	mls	FC Dallas	St. Louis City	1.57	1490204	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	2735168842	O25_FT	02:30	mls	Sporting Kansas City	San Jose Earthquakes	1.4	1490205	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1168931844	O25_FT	02:45	liga profesional argentina	Estudiantes de Rio Cuarto	Barracas Central	3.3	1492019	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1331835367	O25_FT	03:00	primera a colombia	Deportes Tolima	Águilas Doradas	2.1	1506067	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	894047846	O25_FT	03:00	international friendlies	Mexico	Portugal	1.85	1514464	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1736256558	O25_FT	03:00	liga mx	Puebla	FC Juarez	1.85	1492571	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1806427559	O25_FT	03:00	liga mx	Atlas	Monterrey	1.85	1492584	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	984534818	O25_FT	03:00	international friendlies	Mexico	Belgium	1.83	1514471	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2216667514	O25_FT	03:00	liga mx	Puebla	Leon	1.73	1492580	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	3749558355	O25_FT	03:00	liga mx	Toluca	Atletico San Luis	1.55	1492588	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1979466185	O25_FT	03:00	liga mx	Pachuca	Santos Laguna	1.45	1492585	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2353951203	O25_FT	03:05	primera a colombia	Deportivo Pasto	Deportes Tolima	2.38	1506080	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1613534381	O25_FT	03:05	liga mx	Cruz Azul	Pachuca	1.67	1492576	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	4144247788	O25_FT	03:06	liga mx	Leon	Atlas	1.9	1492575	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-07	2426407745	O25_FT	03:10	primera a colombia	Atletico Nacional	Jaguares	1.42	1505946	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	1474028546	O25_FT	03:20	primera a colombia	Deportivo Cali	Deportivo Pereira	1.95	1506061	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1543095958	O25_FT	03:20	primera a colombia	Millonarios	Fortaleza FC	1.85	1506066	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	4214054678	O25_FT	03:20	primera a colombia	Independiente Medellin	Atletico Nacional	1.7	1506082	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	972542306	O25_FT	03:30	primera a colombia	Internacional de Bogota	Alianza Valledupar	2.2	1506086	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2526475999	O25_FT	03:30	primera a colombia	Junior	Deportivo Cali	2.1	1506076	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	4133036125	O25_FT	03:30	primera a colombia	Llaneros	Once Caldas	1.8	1506065	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2879302260	O25_FT	03:30	primera a colombia	Once Caldas	Independiente Medellin	1.73	1506074	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1685606602	O25_FT	03:30	mls	Colorado Rapids	Houston Dynamo	1.7	1490206	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1743496049	O25_FT	03:30	primera a colombia	Atletico Nacional	Cucuta	1.48	1506070	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	2388600466	O25_FT	03:30	mls	Los Angeles FC	Orlando City SC	1.35	1490191	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	2649098338	O25_FT	04:07	liga mx	Guadalajara Chivas	U.N.A.M. - Pumas	1.55	1492579	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	558137075	O25_FT	04:30	mls	Los Angeles Galaxy	Minnesota United FC	1.57	1490192	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3965246325	O25_FT	04:30	mls	San Diego	Minnesota United FC	1.57	1490207	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	772870256	O25_FT	04:30	mls	San Jose Earthquakes	San Diego	1.55	1490194	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1271445905	O25_FT	04:30	mls	Vancouver Whitecaps	Portland Timbers	1.38	1490193	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3267268904	O25_FT	05:00	liga mx	Necaxa	Mazatlán	1.65	1492573	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	2145438	O25_FT	05:05	liga mx	Club America	Cruz Azul	1.95	1492586	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3094497760	O25_FT	05:06	liga mx	Club Tijuana	Tigres UANL	1.83	1492572	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3481156943	O25_FT	05:06	liga mx	FC Juarez	Club Tijuana	1.75	1492581	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	90519847	O25_FT	05:10	liga mx	Santos Laguna	Club America	1.67	1492577	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1716100050	O25_FT	08:00	international friendlies	Thailand U23	Vietnam U23	2.02	1536912	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	652196874	O25_FT	09:00	international friendlies	Korea DPR U23	Thailand U23	2.12	1536917	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	2783067321	O25_FT	11:00	international friendlies	Equatorial Guinea	Madagascar	2.12	1537181	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1126328638	O25_FT	12:00	liga portugal 2	Farense	Feirense	2.5	1398217	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3292434286	O25_FT	12:00	liga portugal 2	Penafiel	Academico Viseu	2.25	1398228	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2252050417	O25_FT	12:00	liga portugal 2	Sporting CP B	Penafiel	2.15	1398218	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	591179259	O25_FT	12:00	liga portugal 2	Feirense	Vizela	2.15	1398223	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	659571908	O25_FT	12:15	eredivisie	Fortuna Sittard	NAC Breda	1.65	1381132	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3223120570	O25_FT	12:15	eredivisie	GO Ahead Eagles	PEC Zwolle	1.57	1381123	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	363570951	O25_FT	12:30	serie b	Cesena	Sudtirol	2.1	1419913	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1144449484	O25_FT	12:30	serie a italia	Genoa	Sassuolo	2.1	1378179	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	2573816595	O25_FT	12:30	serie a italia	Udinese	Como	2	1378172	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	4294054213	O25_FT	12:35	international friendlies	China PR U23	Korea DPR U23	2.04	1536913	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	2121751465	O25_FT	13:00	czech first league	Hradec Králové	Bohemians 1905	2.1	1384868	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3675296497	O25_FT	13:00	2. bundesliga	Preußen Münster	SpVgg Greuther Fürth	1.85	1388874	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	2372916466	O25_FT	13:00	championship	Birmingham	Wrexham	1.83	1387044	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1591752636	O25_FT	13:00	2. bundesliga	1. FC Nürnberg	Dynamo Dresden	1.73	1388872	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1772491036	O25_FT	13:00	czech first league	Karviná	Slovan Liberec	1.73	1384878	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3227170983	O25_FT	13:00	premiership	Falkirk	Rangers	1.73	1382861	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2281655475	O25_FT	13:00	2. bundesliga	Arminia Bielefeld	SV Darmstadt 98	1.62	1388857	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3139221339	O25_FT	13:00	2. bundesliga	1. FC Kaiserslautern	Fortuna Düsseldorf	1.57	1388862	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3714334504	O25_FT	13:00	2. bundesliga	1. FC Magdeburg	VfL Bochum	1.57	1388863	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	4702934	O25_FT	13:00	2. bundesliga	Hertha BSC	1. FC Kaiserslautern	1.53	1388870	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	719758734	O25_FT	13:00	international friendlies	Vietnam	Bangladesh	1.48	1536905	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	4190224086	O25_FT	13:30	international friendlies	Iran	Nigeria	2.4	1527854	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3126892613	O25_FT	13:30	super lig	Gençlerbirliği S.K.	Göztepe	2.25	1394679	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	1936959784	O25_FT	13:30	championship	Portsmouth	Oxford United	2.2	1387040	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1520900579	O25_FT	13:30	super lig	Samsunspor	Konyaspor	2.1	1394683	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3088746160	O25_FT	13:30	super lig	Konyaspor	Fatih Karagümrük	2	1394692	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1045009497	O25_FT	13:30	pro league	KV Mechelen	Union St. Gilloise	1.95	1536981	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	842138154	O25_FT	13:30	championship	QPR	Bristol City	1.91	1387049	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1802655726	O25_FT	13:30	super lig	Kasımpaşa	Kayserispor	1.85	1394681	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1033906901	O25_FT	13:30	championship	Norwich	Ipswich	1.85	1387043	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1482025351	O25_FT	13:30	super lig	Fatih Karagümrük	Rizespor	1.8	1394680	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	136570852	O25_FT	13:30	super lig	Başakşehir	Gençlerbirliği S.K.	1.8	1394686	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3484454511	O25_FT	13:30	2. bundesliga	SV Elversberg	FC Schalke 04	1.8	1388869	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	3039553678	O25_FT	13:30	cymru premier league	Haverfordwest County AFC	Briton Ferry	1.75	1509009	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3318266873	O25_FT	13:30	2. bundesliga	Eintracht Braunschweig	1. FC Nürnberg	1.75	1388858	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3193721624	O25_FT	13:30	championship	Middlesbrough	Millwall	1.73	1387026	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	2116154487	O25_FT	13:30	2. bundesliga	Holstein Kiel	Preußen Münster	1.7	1388861	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1415947917	O25_FT	13:30	2. bundesliga	VfL Bochum	Eintracht Braunschweig	1.67	1388866	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1243511990	O25_FT	13:30	2. bundesliga	Hannover 96	SV Elversberg	1.62	1388860	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2016493718	O25_FT	13:30	premier league	Arsenal	Bournemouth	1.62	1379279	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	952311037	O25_FT	13:30	2. bundesliga	FC Schalke 04	Karlsruher SC	1.6	1388864	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	850680787	O25_FT	13:30	2. bundesliga	SpVgg Greuther Fürth	SC Paderborn 07	1.57	1388859	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	3437223938	O25_FT	13:30	pro league	Club Brugge KV	Anderlecht	1.48	1536979	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	2984083346	O25_FT	13:30	2. bundesliga	SC Paderborn 07	1. FC Magdeburg	1.48	1388873	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1018884843	O25_FT	13:30	championship	Coventry	Sheffield Wednesday	1.33	1387048	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1687912304	O25_FT	13:35	international friendlies	China PR U23	Vietnam U23	2.2	1536918	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3566384217	O25_FT	13:35	international friendlies	China PR U20	Australia U20	1.71	1537185	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2500871242	O25_FT	13:45	fa cup	Manchester City	Liverpool	1.55	1531571	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3508398087	O25_FT	14:00	laliga	Getafe	Athletic Club	3	1391112	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	3894978394	O25_FT	14:00	laliga2	Eibar	Las Palmas	2.6	1392107	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	776809820	O25_FT	14:00	ligue 2	RED Star FC 93	Bastia	2.5	1389376	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	4040190496	O25_FT	14:00	ligue 2	Boulogne	Le Mans	2.3	1389371	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	2137215645	O25_FT	14:00	laliga2	Eibar	AD Ceuta FC	2.1	1392131	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1121077897	O25_FT	14:00	laliga2	Granada CF	Cultural Leonesa	2.1	1392147	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1777522783	O25_FT	14:00	laliga2	AD Ceuta FC	Cadiz	2.05	1392112	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1232143080	O25_FT	14:00	international friendlies	Tunisia U20	Mauritania U20	1.9	1537171	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2038247204	O25_FT	14:00	ligue 2	Reims	Boulogne	1.9	1389368	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	4009619789	O25_FT	14:00	laliga	Osasuna	Real Betis	1.9	1391125	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1683016992	O25_FT	14:00	ligue 2	Montpellier	Estac Troyes	1.85	1389367	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1092735319	O25_FT	14:00	laliga	Real Sociedad	Alaves	1.85	1391127	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	3548028422	O25_FT	14:00	international friendlies	Russia U21	Jordan U23	1.83	1537190	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3351340787	O25_FT	14:00	laliga2	Cadiz	Cordoba	1.83	1392130	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	2216286337	O25_FT	14:00	championship	Millwall	Norwich	1.83	1387038	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	1868376051	O25_FT	14:00	super league switzerland	Grasshoppers	FC Sion	1.8	1494587	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3276961215	O25_FT	14:00	laliga	Real Sociedad	Levante	1.7	1391116	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	864522444	O25_FT	14:30	superligaen	Zalaegerszegi TE	Kisvarda FC	2	1380341	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3010241649	O25_FT	14:30	superligaen	Diosgyori VTK	Puskas Academy	1.8	1380337	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1099572816	O25_FT	14:30	eredivisie	PEC Zwolle	Excelsior	1.62	1381136	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3128854481	O25_FT	14:30	eredivisie	FC Volendam	Feyenoord	1.45	1381122	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	2758589979	O25_FT	14:30	eredivisie	Heerenveen	Heracles	1.42	1381124	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3508315036	O25_FT	14:30	eredivisie	NEC Nijmegen	Feyenoord	1.4	1381131	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3416119537	O25_FT	15:00	serie a italia	Torino	Hellas Verona	2.38	1378183	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	69976450	O25_FT	15:00	international friendlies	Botswana	Malawi	2.33	1538303	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2481806834	O25_FT	15:00	serie a italia	Cagliari	Cremonese	2.25	1378176	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3927484368	O25_FT	15:00	international friendlies	Costa Rica	Iran	2.2	1527862	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1113577581	O25_FT	15:00	serie b	Sudtirol	Modena	2.2	1419922	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1756320940	O25_FT	15:00	serie a italia	Parma	Napoli	2.2	1378181	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	1814516694	O25_FT	15:00	international friendlies	Armenia	Belarus	2.15	1514832	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1172195326	O25_FT	15:00	czech first league	Dukla Praha	Pardubice	2.15	1384867	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3736405545	O25_FT	15:00	czech first league	Zlin	FK Jablonec	2.15	1384874	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3186544243	O25_FT	15:00	serie a italia	Sassuolo	Cagliari	2.1	1378171	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	2117680283	O25_FT	15:00	ligue 1	Angers	Lyon	2.1	1387941	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3521498089	O25_FT	15:00	czech first league	Bohemians 1905	Zlin	2.1	1384875	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2014036481	O25_FT	15:00	liga portugal 2	Farense	Sporting CP B	2.1	1398229	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1620029964	O25_FT	15:00	international friendlies	South Korea	Ivory Coast	2.05	1527860	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2066275391	O25_FT	15:00	liga portugal 2	Pacos Ferreira	Maritimo	2.05	1398216	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	1450039736	O25_FT	15:00	international friendlies	Lithuania	Georgia	2	1502472	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1585684451	O25_FT	15:00	serie a italia	Cremonese	Bologna	2	1378164	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	1087995585	O25_FT	15:00	serie a italia	Lecce	Atalanta	2	1378168	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	918128532	O25_FT	15:00	serie b	Bari	Modena	2	1419919	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	2685676410	O25_FT	15:00	serie b	Mantova	Virtus Entella	2	1419920	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	83882919	O25_FT	15:00	serie b	Juve Stabia	Cesena	2	1419925	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	4016620102	O25_FT	15:00	serie b	Padova	Empoli	2	1419921	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3062349023	O25_FT	15:00	serie b	Pescara	Sampdoria	1.95	1419924	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3121660551	O25_FT	15:00	premier league	Nottingham Forest	Aston Villa	1.95	1379286	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	2003562575	O25_FT	15:00	premier league	Sunderland	Tottenham	1.95	1379287	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	425007190	O25_FT	15:00	international friendlies	San Marino	Faroe Islands	1.9	1536916	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	586629557	O25_FT	15:00	czech first league	Sigma Olomouc	Mlada Boleslav	1.85	1384872	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	181353555	O25_FT	15:00	czech first league	FK Jablonec	Baník Ostrava	1.85	1384877	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	1009167914	O25_FT	15:00	serie b	Catanzaro	Monza	1.83	1419915	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	3775700770	O25_FT	15:00	serie b	Reggiana	Pescara	1.83	1419911	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	2045698074	O25_FT	15:00	international friendlies	Egypt U20	Algeria U20	1.8	1538305	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3945582706	O25_FT	15:00	czech first league	Slovan Liberec	Slovácko	1.8	1384869	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	3621929639	O25_FT	15:00	serie b	Venezia	Juve Stabia	1.8	1419912	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3432913624	O25_FT	15:00	serie b	Virtus Entella	Venezia	1.8	1419923	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	574718887	O25_FT	15:00	liga portugal 2	Maritimo	Portimonense	1.75	1398227	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1802554674	O25_FT	15:00	premiership	Livingston	Heart Of Midlothian	1.7	1382854	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1793823087	O25_FT	15:00	premier league	Crystal Palace	Newcastle	1.7	1379283	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	3954097368	O25_FT	15:00	international friendlies	Tunisia U20	Mauritania U20	1.52	1537188	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	682226610	O25_FT	15:15	superligaen	Kazincbarcikai	Ujpest	1.75	1380343	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3222599452	O25_FT	15:30	bundesliga	Union Berlin	FC St. Pauli	2.35	1388558	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1521500014	O25_FT	15:30	cymru premier league	Cardiff MET	Bala Town	2.1	1509010	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1187435009	O25_FT	15:30	czech first league	Pardubice	Sigma Olomouc	2.05	1384876	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3420871394	O25_FT	15:30	czech first league	Teplice	Sparta Praha	2.05	1384882	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	297889635	O25_FT	15:30	international friendlies	Italy U20	England U20	1.98	1536908	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	553010528	O25_FT	15:30	cymru premier league	Penybont	Barry Town	1.95	1508983	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	2524519764	O25_FT	15:30	international friendlies	India U23	Tajikistan U23	1.9	1537183	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	4080552550	O25_FT	15:30	cymru premier league	Penybont	Colwyn Bay	1.85	1508980	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2701207400	O25_FT	15:30	bundesliga	1. FC Heidenheim	Union Berlin	1.85	1388563	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	2508149834	O25_FT	15:30	czech first league	Mlada Boleslav	Dukla Praha	1.85	1384879	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3879785091	O25_FT	15:30	cymru premier league	llanelli AFC	Bala Town	1.8	1509014	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1522812214	O25_FT	15:30	bundesliga	Hamburger SV	FC Augsburg	1.8	1388555	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	3516784386	O25_FT	15:30	cymru premier league	GAP Connah S Quay FC	Barry Town	1.75	1508981	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3826107889	O25_FT	15:30	cymru premier league	Briton Ferry	Cardiff MET	1.75	1509012	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3227333315	O25_FT	15:30	bundesliga	1. FC Köln	Werder Bremen	1.75	1388562	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	759973005	O25_FT	15:30	czech first league	Baník Ostrava	Slavia Praha	1.73	1384870	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	976669658	O25_FT	15:30	cymru premier league	Flint Town United	Haverfordwest County AFC	1.7	1509013	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1071895009	O25_FT	15:30	cymru premier league	The New Saints	GAP Connah S Quay FC	1.67	1508984	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	4068494069	O25_FT	15:30	bundesliga	VfL Wolfsburg	Eintracht Frankfurt	1.62	1388568	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3982838973	O25_FT	15:30	cymru premier league	Colwyn Bay	Caernarfon Town	1.6	1508982	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1282804939	O25_FT	15:30	bundesliga	Borussia Mönchengladbach	1. FC Heidenheim	1.6	1388552	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2061246623	O25_FT	15:30	bundesliga	1899 Hoffenheim	FSV Mainz 05	1.55	1388556	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1562858261	O25_FT	15:30	bundesliga	Werder Bremen	RB Leipzig	1.5	1388559	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1087245652	O25_FT	15:30	bundesliga	Borussia Dortmund	Bayer Leverkusen	1.5	1388561	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3110162908	O25_FT	15:30	bundesliga	Bayer Leverkusen	VfL Wolfsburg	1.45	1388551	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1178422074	O25_FT	15:30	bundesliga	RB Leipzig	Borussia Mönchengladbach	1.45	1388565	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2396473467	O25_FT	15:30	bundesliga	SC Freiburg	Bayern München	1.38	1388554	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	29458502	O25_FT	15:30	cymru premier league	Flint Town United	llanelli AFC	1.36	1509011	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1773344924	O25_FT	15:45	international friendlies	UAE U23	Oman U23	1.65	1537642	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	747004000	O25_FT	16:00	international friendlies	Benin	Liberia	2.7	1537640	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	3738572055	O25_FT	16:00	international friendlies	Moldova	Lithuania	2.4	1514459	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3776625672	O25_FT	16:00	international friendlies	Guinea	Togo	2.4	1528271	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1578650510	O25_FT	16:00	championship	Birmingham	Blackburn	2.2	1387020	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	74326348	O25_FT	16:00	championship	Charlton	Bristol City	2.2	1387030	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	3330475654	O25_FT	16:00	championship	Blackburn	West Brom	2.2	1387036	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	173218561	O25_FT	16:00	international friendlies	Russia	Mali	2.18	1525450	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	2998638129	O25_FT	16:00	super lig	Antalyaspor	Eyüpspor	2.15	1394676	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	200496227	O25_FT	16:00	championship	Norwich	Portsmouth	2.1	1387019	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	4162357690	O25_FT	16:00	championship	West Brom	Wrexham	2.1	1387027	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	734736490	O25_FT	16:00	pro league	RAAL La Louvière	Dender	2.1	1536967	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3739218585	O25_FT	16:00	championship	Charlton	Preston	2.1	1387054	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1471224388	O25_FT	16:00	championship	Stoke City	Blackburn	2.1	1387052	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	416226873	O25_FT	16:00	super lig	Göztepe	Kasımpaşa	2.1	1394690	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3887313922	O25_FT	16:00	championship	Oxford United	Watford	2.05	1387047	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3075400620	O25_FT	16:00	championship	Oxford United	Hull City	2	1387023	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	1520135931	O25_FT	16:00	championship	Preston	QPR	2	1387039	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	2820524294	O25_FT	16:00	championship	Watford	Charlton	2	1387033	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	4226663717	O25_FT	16:00	premier league	Brentford	Everton	1.95	1379280	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3640746110	O25_FT	16:00	championship	Leicester	Preston	1.91	1387022	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	4094307036	O25_FT	16:00	championship	Sheffield Utd	Swansea	1.91	1387021	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	3580374341	O25_FT	16:00	championship	Derby	Stoke City	1.9	1387034	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2502582987	O25_FT	16:00	super lig	Alanyaspor	Trabzonspor	1.9	1394685	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	420646050	O25_FT	16:00	championship	QPR	Watford	1.85	1387025	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3022853315	O25_FT	16:00	premiership	Motherwell	Falkirk	1.85	1382855	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	4151917749	O25_FT	16:00	premiership	ST Mirren	Aberdeen	1.85	1382857	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	2837517881	O25_FT	16:00	championship	Ipswich	Birmingham	1.85	1387032	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2399124650	O25_FT	16:00	championship	Leicester	Swansea	1.85	1387045	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1704191856	O25_FT	16:00	premiership	Aberdeen	Hibernian	1.85	1382858	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1150609053	O25_FT	16:00	serie a brazil	Atletico Paranaense	Chapecoense-sc	1.85	1492210	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	1381979882	O25_FT	16:00	championship	Bristol City	Sheffield Utd	1.83	1387042	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	314311208	O25_FT	16:00	championship	Sheffield Wednesday	Leicester	1.83	1387031	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1347756627	O25_FT	16:00	premiership	Heart Of Midlothian	Motherwell	1.83	1382862	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	716854392	O25_FT	16:00	championship	Stoke City	Sheffield Wednesday	1.8	1387029	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	811102681	O25_FT	16:00	super lig	Gaziantep FK	Alanyaspor	1.8	1394678	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2538093098	O25_FT	16:00	premiership	Kilmarnock	Dundee	1.8	1382863	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3366321757	O25_FT	16:00	championship	Middlesbrough	Portsmouth	1.77	1387050	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3151402774	O25_FT	16:00	championship	Southampton	Derby	1.75	1387053	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3037153807	O25_FT	16:00	premier league	Burnley	Brighton	1.73	1379281	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2102086787	O25_FT	16:00	pro league	Cercle Brugge	RAAL La Louvière	1.73	1536968	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	824791243	O25_FT	16:00	pro league	Zulte Waregem	Cercle Brugge	1.67	1536966	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	172096067	O25_FT	16:00	premiership	Dundee Utd	Livingston	1.67	1382860	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3860059179	O25_FT	16:00	pro league	Genk	OH Leuven	1.67	1536941	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	4024052013	O25_FT	16:00	championship	Sheffield Utd	Hull City	1.65	1387046	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3745466403	O25_FT	16:00	premiership	Hibernian	Kilmarnock	1.62	1382853	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3055641198	O25_FT	16:00	premiership	Rangers	Dundee Utd	1.48	1382856	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	730237193	O25_FT	16:00	premiership	Celtic	ST Mirren	1.44	1382859	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	3430748370	O25_FT	16:15	laliga2	Cultural Leonesa	FC Andorra	2.6	1396980	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	3769692594	O25_FT	16:15	laliga2	Valladolid	Burgos	2.45	1392116	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1660634349	O25_FT	16:15	laliga2	Albacete	Burgos	2.45	1392137	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2735866221	O25_FT	16:15	laliga2	Burgos	Sporting Gijon	2.45	1392142	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3004957811	O25_FT	16:15	laliga2	Huesca	Deportivo La Coruna	2.35	1392141	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	4039264215	O25_FT	16:15	laliga2	Granada CF	Huesca	2.25	1392106	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	659801172	O25_FT	16:15	laliga	Mallorca	Rayo Vallecano	2.2	1391124	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3980734961	O25_FT	16:15	laliga	Valencia	Celta Vigo	2.1	1391118	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3793149258	O25_FT	16:15	laliga2	FC Andorra	Racing Santander	2.1	1396982	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1625341551	O25_FT	16:15	laliga2	Leganes	Albacete	2.1	1392146	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	89732143	O25_FT	16:15	laliga	Elche	Valencia	2	1391122	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3387580835	O25_FT	16:15	laliga	Mallorca	Real Madrid	1.65	1391114	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	663593489	O25_FT	16:30	liga portugal	Alverca	Casa Pia	2.2	1396490	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	489774773	O25_FT	16:30	liga portugal 2	Oliveirense	Portimonense	1.95	1398215	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1448110286	O25_FT	16:30	liga portugal	Nacional	Estrela	1.9	1396485	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2291961961	O25_FT	16:30	liga portugal	AVS	Guimaraes	1.9	1396489	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3644305521	O25_FT	16:30	liga portugal 2	Leixoes	Oliveirense	1.9	1398225	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	3048177195	O25_FT	16:30	liga portugal 2	União de Leiria	Pacos Ferreira	1.85	1398144	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2230008014	O25_FT	16:30	liga portugal	GIL Vicente	AVS	1.85	1396483	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3999089381	O25_FT	16:30	super league switzerland	FC Sion	Lausanne	1.7	1494591	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2610647930	O25_FT	16:30	eredivisie	Utrecht	Telstar	1.62	1381135	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3921273635	O25_FT	16:30	international friendlies	Chile U20	Peru U20	1.6	1538304	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	1993729122	O25_FT	16:30	super league switzerland	Servette FC	FC Luzern	1.5	1494588	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1517299401	O25_FT	16:30	eredivisie	PSV Eindhoven	Utrecht	1.44	1381126	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	1388033098	O25_FT	16:30	super league switzerland	FC ST. Gallen	FC Zurich	1.42	1494589	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	2843292805	O25_FT	16:30	super league switzerland	FC Luzern	FC ST. Gallen	1.38	1494590	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3873374109	O25_FT	16:45	eredivisie	NAC Breda	Sparta Rotterdam	1.8	1381125	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	392414575	O25_FT	16:45	eredivisie	AZ Alkmaar	Heerenveen	1.38	1381128	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	2389823949	O25_FT	17:00	international friendlies	Niger	Togo	2.74	1536919	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	2671736843	O25_FT	17:00	international friendlies	Liberia	Libya	2.7	1528275	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	4072750447	O25_FT	17:00	international friendlies	Senegal	Peru	1.95	1527861	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	978016539	O25_FT	17:00	superligaen	Debreceni VSC	Ferencvarosi TC	1.67	1380336	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	890593742	O25_FT	17:00	ligue 1	Strasbourg	Nice	1.65	1387949	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1203635976	O25_FT	17:00	superligaen	Paks	Kazincbarcikai	1.4	1380339	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1901070629	O25_FT	17:15	ligue 1	Le Havre	Auxerre	2.2	1387943	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	834650382	O25_FT	17:15	serie b	Sampdoria	Empoli	2.2	1419914	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3470949446	O25_FT	17:15	ligue 1	Toulouse	Lille	2.15	1387958	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	4128257911	O25_FT	17:15	ligue 1	Lorient	Paris FC	2.1	1387945	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1471431728	O25_FT	17:15	ligue 1	Metz	Nantes	2.1	1387946	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2855366689	O25_FT	17:15	serie b	Avellino	Catanzaro	2	1419927	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3213616944	O25_FT	17:15	ligue 1	Nice	Le Havre	2	1387955	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	592400773	O25_FT	17:15	serie b	Spezia	Mantova	1.95	1419928	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3423725926	O25_FT	17:15	serie b	Frosinone	Padova	1.53	1419918	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3233282126	O25_FT	17:30	fa cup	West Ham	Leeds	1.8	1531573	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3212495536	O25_FT	17:30	bundesliga	Eintracht Frankfurt	1. FC Köln	1.65	1388553	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1401798432	O25_FT	17:30	premier league	Chelsea	Manchester City	1.55	1379282	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	828408896	O25_FT	17:30	premiership	Dundee	Celtic	1.48	1382852	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	942472471	O25_FT	17:30	bundesliga	VfB Stuttgart	Hamburger SV	1.44	1388567	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1037140405	O25_FT	17:30	international friendlies	Russia	Nicaragua	1.22	1536909	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	4196519430	O25_FT	17:40	saudi arabia	Al Khaleej Saihat	Al-Hilal Saudi FC	1.95	1436164	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	339235301	O25_FT	17:45	superligaen	MTK Budapest	Zalaegerszegi TE	1.8	1380345	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	777578305	O25_FT	17:45	superligaen	Puskas Academy	Gyori ETO FC	1.73	1380347	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-08	3885314404	O25_FT	17:55	saudi arabia	Al-Fayha	Al-Ahli Jeddah	1.73	1436171	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	418412402	O25_FT	17:55	saudi arabia	Al Okhdood	Al-Fateh	1.6	1436149	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3775184831	O25_FT	18:00	international friendlies	San Marino	Andorra	2.65	1527864	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1459469215	O25_FT	18:00	serie a italia	Hellas Verona	Fiorentina	2.2	1378173	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	2308846470	O25_FT	18:00	serie a italia	Pisa	Torino	2.2	1378170	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	1093632257	O25_FT	18:00	international friendlies	Cyprus	Belarus	2.15	1507579	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	446583069	O25_FT	18:00	international friendlies	Montenegro	Slovenia	2.15	1514469	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3291203594	O25_FT	18:00	serie a italia	Bologna	Lecce	2.15	1378175	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1885431255	O25_FT	18:00	czech first league	Slovácko	Hradec Králové	2.08	1384881	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1296564362	O25_FT	18:00	international friendlies	Hungary	Slovenia	2	1514071	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	3765185638	O25_FT	18:00	international friendlies	Scotland	Japan	2	1511777	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1564283800	O25_FT	18:00	international friendlies	Montenegro	Andorra	1.91	1527856	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	3624381049	O25_FT	18:00	serie a italia	Juventus	Genoa	1.9	1378166	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	71122843	O25_FT	18:00	international friendlies	Georgia	Israel	1.85	1502469	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	410469257	O25_FT	18:00	international friendlies	Canada	Iceland	1.85	1512760	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	1368645119	O25_FT	18:00	international friendlies	Cyprus	Moldova	1.85	1507580	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2398408979	O25_FT	18:00	czech first league	Plzen	Teplice	1.85	1384871	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	64148703	O25_FT	18:00	international friendlies	Austria	Ghana	1.8	1511731	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3010403791	O25_FT	18:00	serie a italia	AC Milan	Udinese	1.8	1378180	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1182731404	O25_FT	18:00	international friendlies	Serbia	Saudi Arabia	1.7	1514468	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2069184361	O25_FT	18:00	saudi arabia	Al Kholood	Al Khaleej Saihat	1.67	1436151	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	755121077	O25_FT	18:00	super league switzerland	FC Winterthur	Grasshoppers	1.67	1494593	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	98504995	O25_FT	18:00	super league switzerland	FC Zurich	FC Lugano	1.67	1494595	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2742487465	O25_FT	18:00	saudi arabia	Al Taawon	Al Kholood	1.65	1436161	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	3954480068	O25_FT	18:00	uefa wc qualifiers	Türkiye	Romania	1.62	1487922	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3445308961	O25_FT	18:00	international friendlies	Norway	Switzerland	1.6	1503006	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	715993104	O25_FT	18:00	super league switzerland	FC Lugano	FC Thun	1.57	1494585	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	3763175000	O25_FT	18:00	saudi arabia	Damac	Al-Qadisiyah FC	1.57	1436159	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3956009613	O25_FT	18:00	saudi arabia	Al Najma	NEOM	1.57	1436158	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3941548711	O25_FT	18:00	super league switzerland	Lausanne	FC Winterthur	1.38	1494584	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3555061112	O25_FT	18:05	saudi arabia	Al-Hazm	Al-Fayha	1.95	1436157	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3806642264	O25_FT	18:15	pro league	OH Leuven	Standard Liege	2.1	1536937	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3042394686	O25_FT	18:15	pro league	Standard Liege	KVC Westerlo	1.95	1536940	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1877674461	O25_FT	18:15	saudi arabia	Al-Ahli Jeddah	Damac	1.53	1436148	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	839456655	O25_FT	18:15	saudi arabia	Al-Ittihad FC	Al-Hazm	1.44	1436147	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2973743860	O25_FT	18:15	fa cup	Chelsea	Port Vale	1.2	1531570	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2508243834	O25_FT	18:30	liga profesional argentina	Aldosivi	Estudiantes de Rio Cuarto	3	1491998	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1067100078	O25_FT	18:30	laliga	Oviedo	Sevilla	2.35	1391117	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	439685994	O25_FT	18:30	laliga2	Cadiz	FC Andorra	2.35	1396983	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	2558825703	O25_FT	18:30	international friendlies	Saudi Arabia	Egypt	2.3	1514461	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3989846649	O25_FT	18:30	international friendlies	Jordan	Costa Rica	2.2	1527855	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	349295891	O25_FT	18:30	laliga2	Las Palmas	Huesca	2.1	1392134	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	4103016665	O25_FT	18:30	saudi arabia	NEOM	Al-Fayha	2.05	1436152	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1210868676	O25_FT	18:30	laliga2	Malaga	Leganes	2	1392108	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	3208118917	O25_FT	18:30	laliga2	Zaragoza	Racing Santander	2	1392110	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2707838295	O25_FT	18:30	laliga2	Cultural Leonesa	Valladolid	2	1392138	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	554568772	O25_FT	18:30	laliga2	Deportivo La Coruna	Malaga	2	1392132	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2131977538	O25_FT	18:30	laliga2	Malaga	Las Palmas	2	1392140	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	960232658	O25_FT	18:30	laliga	Celta Vigo	Oviedo	2	1391121	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	4190647126	O25_FT	18:30	laliga	Real Betis	Espanyol	1.85	1391111	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	1344534085	O25_FT	18:30	championship	Swansea	Middlesbrough	1.83	1387041	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	211391320	O25_FT	18:30	laliga2	Almeria	Leganes	1.8	1392136	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	1892242436	O25_FT	18:30	serie a italia	Sassuolo	Como	1.8	1378191	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	2028324745	O25_FT	18:30	czech first league	Slavia Praha	Plzen	1.73	1384880	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	859973775	O25_FT	18:30	laliga2	Mirandes	Castellón	1.7	1392143	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3486486385	O25_FT	18:30	pro league	KVC Westerlo	Charleroi	1.67	1536938	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	2955010191	O25_FT	18:30	pro league	Gent	KV Mechelen	1.67	1536980	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	64219184	O25_FT	18:30	pro league	Anderlecht	Gent	1.67	1536983	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	2054995430	O25_FT	18:30	2. bundesliga	Holstein Kiel	1. FC Kaiserslautern	1.67	1388880	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	3638729569	O25_FT	18:30	2. bundesliga	Fortuna Düsseldorf	Holstein Kiel	1.62	1388868	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	1836836	O25_FT	18:30	international friendlies	Netherlands U21	Belgium U21	1.6	1514833	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	1259018428	O25_FT	18:30	2. bundesliga	Karlsruher SC	Arminia Bielefeld	1.6	1388871	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2585350837	O25_FT	18:30	bundesliga	FC St. Pauli	Bayern München	1.5	1388566	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	584034952	O25_FT	18:30	premier league	Liverpool	Fulham	1.5	1379284	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2782420093	O25_FT	18:30	bundesliga	VfB Stuttgart	Borussia Dortmund	1.44	1388557	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	4212743085	O25_FT	18:30	czech first league	Sparta Praha	Karviná	1.44	1384873	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	4268074389	O25_FT	18:30	2. bundesliga	SV Elversberg	Karlsruher SC	1.44	1388877	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	504268375	O25_FT	18:30	laliga	Barcelona	Espanyol	1.3	1391120	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-08	3271347177	O25_FT	18:45	uefa europa league	SC Braga	Real Betis	1.95	1535334	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-16	1466388111	O25_FT	18:45	uefa europa league	Celta Vigo	SC Freiburg	1.85	1535338	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-14	4075174619	O25_FT	18:45	superligaen	Ferencvarosi TC	Puskas Academy	1.67	1380326	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3831686990	O25_FT	18:45	eredivisie	Telstar	Groningen	1.57	1381127	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1050639338	O25_FT	18:45	eredivisie	AZ Alkmaar	Fortuna Sittard	1.44	1381120	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	131020314	O25_FT	18:45	eredivisie	Sparta Rotterdam	PSV Eindhoven	1.38	1381133	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1093390790	O25_FT	19:00	liga profesional argentina	Aldosivi	Argentinos JRS	2.9	1491908	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3322306026	O25_FT	19:00	international friendlies	Libya	Niger	2.35	1536907	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3451554937	O25_FT	19:00	liga portugal 2	Academico Viseu	Felgueiras 1932	2.25	1398212	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	1651814010	O25_FT	19:00	liga portugal 2	FC Porto B	Chaves	2.25	1398213	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1250820864	O25_FT	19:00	liga portugal	Santa Clara	Rio Ave	2.25	1396496	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1004763042	O25_FT	19:00	ligue 1	Auxerre	Nantes	2.25	1387950	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	283118251	O25_FT	19:00	liga portugal 2	Lusitânia Lourosa	FC Porto B	2.2	1398226	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	802795404	O25_FT	19:00	laliga2	Las Palmas	Granada CF	2.1	1392123	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3084999266	O25_FT	19:00	liga portugal	Guimaraes	Tondela	2.08	1396488	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	2560123510	O25_FT	19:00	international friendlies	Hungary	Greece	2.05	1514072	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	1448580347	O25_FT	19:00	liga portugal 2	Torreense	Leixoes	2.05	1398219	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1234386594	O25_FT	19:00	liga portugal 2	Chaves	Torreense	2.05	1398222	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3372576834	O25_FT	19:00	liga portugal	Rio Ave	Alverca	2	1396486	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	86221421	O25_FT	19:00	liga portugal 2	União de Leiria	Lusitânia Lourosa	2	1398214	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	3926718378	O25_FT	19:00	super lig	Kocaelispor	Başakşehir	2	1394682	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	302092059	O25_FT	19:00	liga pro ecuador	Tecnico Universitario	Universidad Catolica	2	1519319	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	1702953837	O25_FT	19:00	super lig	Eyüpspor	Samsunspor	2	1394688	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	2235705872	O25_FT	19:00	laliga2	Mirandes	Albacete	1.95	1392124	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2848016421	O25_FT	19:00	liga portugal	Moreirense	SC Braga	1.95	1396484	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-07	2592711336	O25_FT	19:00	liga portugal 2	Vizela	Benfica B	1.95	1398220	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	3004401220	O25_FT	19:00	super lig	Antalyaspor	Konyaspor	1.95	1394694	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3741978726	O25_FT	19:00	international friendlies	Russia	Mali	1.94	1536922	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	467066989	O25_FT	19:00	laliga2	FC Andorra	Malaga	1.93	1396981	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	1445447031	O25_FT	19:00	super lig	Rizespor	Samsunspor	1.9	1394675	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1927300454	O25_FT	19:00	liga portugal 2	Benfica B	União de Leiria	1.9	1398221	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-14	3081312755	O25_FT	19:00	serie b	Catanzaro	Modena	1.9	1419899	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2460865783	O25_FT	19:00	ligue 1	Stade Brestois 29	Rennes	1.85	1387942	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	3712283727	O25_FT	19:00	laliga2	Castellón	Granada CF	1.83	1392129	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	926568430	O25_FT	19:00	mls	Toronto FC	FC Cincinnati	1.8	1490196	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3244191054	O25_FT	19:00	mls	Toronto FC	Colorado Rapids	1.7	1490180	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-08	2569533299	O25_FT	19:00	super lig	Göztepe	Galatasaray	1.7	1394672	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	3033980284	O25_FT	19:00	ligue 1	Paris FC	Monaco	1.67	1387956	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3069571335	O25_FT	19:00	liga portugal	SC Braga	Arouca	1.65	1396492	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	1899115061	O25_FT	19:00	super lig	Rizespor	Gaziantep FK	1.65	1394693	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3409356927	O25_FT	19:00	laliga2	Cordoba	Mirandes	1.62	1392111	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3663924801	O25_FT	19:00	super lig	Kayserispor	Fenerbahçe	1.62	1394691	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	672199448	O25_FT	19:00	super lig	Fenerbahçe	Beşiktaş	1.6	1394677	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	76726372	O25_FT	19:00	super lig	Trabzonspor	Galatasaray	1.57	1394684	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3161543178	O25_FT	19:00	super lig	Galatasaray	Kocaelispor	1.53	1394689	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	2288332161	O25_FT	19:00	super lig	Beşiktaş	Antalyaspor	1.5	1394687	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	3353856824	O25_FT	19:00	super lig	Fenerbahçe	Rizespor	1.5	1394695	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	517286949	O25_FT	19:00	liga portugal	Benfica	Nacional	1.35	1396491	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3783764338	O25_FT	19:15	pro league	Dender	Zulte Waregem	1.95	1536969	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3770188396	O25_FT	19:30	international friendlies	South Africa	Panama	2.15	1528276	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	2721229740	O25_FT	19:30	serie b	Reggiana	Carrarese	2.1	1419929	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	1099720941	O25_FT	19:30	serie b	Carrarese	Spezia	2	1419917	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	712728224	O25_FT	19:30	international friendlies	Haiti	Iceland	1.95	1512764	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	737890035	O25_FT	19:30	international friendlies	Jordan	Nigeria	1.93	1527863	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	2966875923	O25_FT	19:30	international friendlies	Hungary U21	Israel U21	1.85	1536906	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	4086616764	O25_FT	19:30	serie b	Palermo	Avellino	1.83	1419916	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1649838654	O25_FT	19:30	bundesliga	FSV Mainz 05	SC Freiburg	1.83	1388564	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	4255037700	O25_FT	19:30	superligaen	Ujpest	MTK Budapest	1.7	1380340	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1672425862	O25_FT	19:30	serie b	Monza	Bari	1.7	1419930	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3971724217	O25_FT	19:30	superligaen	Gyori ETO FC	Nyiregyhaza	1.67	1380338	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	3620438220	O25_FT	19:45	liga portugal 2	Academico Viseu	Feirense	2.2	1398230	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	1916265914	O25_FT	19:45	liga portugal 2	Felgueiras 1932	Pacos Ferreira	1.95	1398224	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	4158272598	O25_FT	19:45	liga portugal	Arouca	Estoril	1.8	1396480	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3000261345	O25_FT	20:00	liga pro ecuador	Leones del Norte	Delfin SC	3.1	1519307	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	4123462746	O25_FT	20:00	liga profesional argentina	Deportivo Riestra	Instituto Cordoba	3.1	1492017	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1818688398	O25_FT	20:00	liga profesional argentina	Barracas Central	Sarmiento Junin	3	1492000	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1958225333	O25_FT	20:00	liga profesional argentina	Gimnasia M.	Velez Sarsfield	3	1492003	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3665675897	O25_FT	20:00	liga profesional argentina	Platense	Gimnasia M.	3	1492024	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1091613230	O25_FT	20:00	liga profesional argentina	Newells Old Boys	San Lorenzo	2.95	1492023	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1477822620	O25_FT	20:00	international friendlies	Peru	Honduras	2.38	1528277	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	2339294554	O25_FT	20:00	laliga2	Burgos	AD Ceuta FC	2.38	1392125	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	2091352803	O25_FT	20:00	international friendlies	Guinea	Benin	2.35	1528274	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1893985504	O25_FT	20:00	international friendlies	Morocco	Paraguay	2.25	1522230	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	784163190	O25_FT	20:00	primera a colombia	Chico	Deportes Tolima	2.2	1506051	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2118708714	O25_FT	20:00	ligue 2	RED Star FC 93	Laval	2.2	1389364	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	842762754	O25_FT	20:00	liga pro ecuador	Deportivo Cuenca	Independiente del Valle	2.2	1519315	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	869662321	O25_FT	20:00	laliga2	Huesca	Cultural Leonesa	2.15	1392127	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	3865705096	O25_FT	20:00	ligue 2	Nancy	Annecy	2.15	1389386	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3112545071	O25_FT	20:00	international friendlies	Greece	Paraguay	2.1	1527858	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1004690816	O25_FT	20:00	ligue 2	Annecy	Guingamp	2.1	1389361	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	990964551	O25_FT	20:00	ligue 2	Bastia	Amiens	2.1	1389363	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	111753160	O25_FT	20:00	ligue 2	Grenoble	Clermont Foot	2.1	1389369	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	2588273652	O25_FT	20:00	ligue 2	Annecy	Montpellier	2.1	1389377	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	3239036526	O25_FT	20:00	ligue 2	Clermont Foot	Nancy	2.1	1389378	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	4008458981	O25_FT	20:00	laliga2	Real Sociedad II	Eibar	2	1392118	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	1962701902	O25_FT	20:00	ligue 2	Laval	Reims	1.95	1389374	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	61560121	O25_FT	20:00	ligue 2	Nancy	Saint Etienne	1.9	1389365	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	3343579763	O25_FT	20:00	superligaen	Kisvarda FC	Debreceni VSC	1.9	1380344	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1733576401	O25_FT	20:00	laliga2	Deportivo La Coruna	Cordoba	1.85	1392121	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	1481809762	O25_FT	20:00	ligue 2	Montpellier	Grenoble	1.85	1389387	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	385427537	O25_FT	20:00	superligaen	Ujpest	Nyiregyhaza	1.85	1380352	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1431004676	O25_FT	20:00	ligue 2	Dunkerque	Rodez	1.8	1389366	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	1395171701	O25_FT	20:00	ligue 2	Guingamp	Grenoble	1.8	1389375	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	3495639806	O25_FT	20:00	ligue 2	Le Mans	Clermont Foot	1.8	1389384	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	942990783	O25_FT	20:00	saudi arabia	Al Riyadh	Al Shabab	1.73	1436155	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	1404305215	O25_FT	20:00	saudi arabia	Al-Ettifaq	Al Riyadh	1.73	1436163	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	3629646974	O25_FT	20:00	ligue 2	Amiens	PAU	1.7	1389370	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	365448809	O25_FT	20:00	ligue 2	PAU	Guingamp	1.7	1389383	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	3635825257	O25_FT	20:00	ligue 2	Rodez	Amiens	1.7	1389385	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-08	2460027455	O25_FT	20:00	saudi arabia	Al-Ittihad FC	NEOM	1.67	1436169	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	616682289	O25_FT	20:00	ligue 2	Saint Etienne	Dunkerque	1.67	1389373	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	704148669	O25_FT	20:00	superligaen	Nyiregyhaza	Paks	1.6	1380346	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1992937428	O25_FT	20:00	laliga2	Castellón	Almeria	1.5	1392117	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3344296434	O25_FT	20:00	eredivisie	Groningen	GO Ahead Eagles	1.5	1381129	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3315896938	O25_FT	20:00	liga mx	U.N.A.M. - Pumas	Mazatlán	1.5	1492587	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3772111772	O25_FT	20:00	saudi arabia	Al-Ettifaq	Al-Qadisiyah FC	1.48	1436150	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1791343403	O25_FT	20:00	saudi arabia	Al-Hilal Saudi FC	Al Taawon	1.44	1436153	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	696730137	O25_FT	20:00	superligaen	Ferencvarosi TC	Diosgyori VTK	1.44	1380342	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	1241909625	O25_FT	20:00	eredivisie	Twente	FC Volendam	1.35	1381134	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-14	4148803789	O25_FT	20:00	saudi arabia	Al-Qadisiyah FC	Al Shabab	1.33	1436168	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-08	831780048	O25_FT	20:00	saudi arabia	Al-Hilal Saudi FC	Al Kholood	1.28	1436167	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-15	3142452550	O25_FT	20:00	saudi arabia	Al-Nassr	Al-Ettifaq	1.25	1436172	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3346927440	O25_FT	20:00	saudi arabia	Al-Nassr	Al Najma	1.22	1436154	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2443326859	O25_FT	20:00	saudi arabia	Al Okhdood	Al-Nassr	1.22	1436162	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3839397796	O25_FT	20:30	liga profesional argentina	Gimnasia L.P.	Huracan	3	1492002	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2439951288	O25_FT	20:30	liga profesional argentina	Independ. Rivadavia	Argentinos JRS	2.7	1492021	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	225141885	O25_FT	20:30	laliga2	Valladolid	Eibar	2.25	1392149	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	774953694	O25_FT	20:30	international friendlies	Algeria	Uruguay	2.2	1528280	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	1500917985	O25_FT	20:30	serie b	Sampdoria	Monza	2.2	1419940	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	81771692	O25_FT	20:30	international friendlies	Scotland	Ivory Coast	2.1	1528278	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	3815039063	O25_FT	20:30	bundesliga	FC St. Pauli	1. FC Köln	2.1	1388575	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	853299717	O25_FT	20:30	international friendlies	Algeria	Guatemala	2.05	1527859	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	1855062851	O25_FT	20:30	laliga2	Sporting Gijon	Real Sociedad II	1.8	1392128	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	2158888095	O25_FT	20:30	laliga2	AD Ceuta FC	Real Sociedad II	1.8	1392139	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1926187846	O25_FT	20:30	international friendlies	USA	Belgium	1.75	1503003	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	4257145780	O25_FT	20:30	mls	CF Montreal	Philadelphia Union	1.7	1490197	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1953287483	O25_FT	20:30	2. bundesliga	Dynamo Dresden	Hertha BSC	1.65	1388865	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	4149879438	O25_FT	20:30	mls	Austin	Los Angeles Galaxy	1.65	1490195	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	1360758700	O25_FT	20:30	serie b	Frosinone	Palermo	1.62	1419926	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	322576554	O25_FT	20:30	bundesliga	FC Augsburg	1899 Hoffenheim	1.57	1388560	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3367109386	O25_FT	20:30	2. bundesliga	SV Darmstadt 98	Hannover 96	1.57	1388867	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	79852859	O25_FT	20:30	laliga2	Real Sociedad II	Racing Santander	1.57	1392160	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	2730845885	O25_FT	20:30	laliga2	Castellón	Cultural Leonesa	1.51	1392098	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1634517552	O25_FT	20:30	super league switzerland	FC Basel 1893	BSC Young Boys	1.4	1494586	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	287133401	O25_FT	20:30	super league switzerland	FC Thun	FC Basel 1893	1.4	1494592	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	440943912	O25_FT	20:45	uefa wc qualifiers	Slovakia	Kosovo	2.45	1487927	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	2549667776	O25_FT	20:45	uefa wc qualifiers	Poland	Albania	2.25	1487926	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3771675027	O25_FT	20:45	international friendlies	Slovakia	Romania	2.25	1538308	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1084527094	O25_FT	20:45	serie a italia	Lazio	Parma	2.25	1378167	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	708105718	O25_FT	20:45	serie a italia	Napoli	AC Milan	2.25	1378169	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	1286112827	O25_FT	20:45	uefa wc qualifiers	Czech Republic	Rep. Of Ireland	2.2	1487923	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	2565496743	O25_FT	20:45	serie a italia	Fiorentina	Lazio	2.15	1378178	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	145391418	O25_FT	20:45	uefa wc qualifiers	Ukraine	Sweden	2.1	1487928	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1890606432	O25_FT	20:45	international friendlies	England	Uruguay	2.1	1502470	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	2707294273	O25_FT	20:45	uefa wc qualifiers	Wales	Bosnia & Herzegovina	1.95	1487929	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	2332703945	O25_FT	20:45	international friendlies	Ukraine	Albania	1.95	1537646	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1875856114	O25_FT	20:45	uefa wc qualifiers	Bosnia & Herzegovina	Italy	1.95	1537578	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	2607110108	O25_FT	20:45	uefa wc qualifiers	Kosovo	Türkiye	1.95	1537580	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1025423486	O25_FT	20:45	uefa wc qualifiers	Sweden	Poland	1.95	1537581	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1087453912	O25_FT	20:45	serie a italia	Inter	AS Roma	1.95	1378165	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	3163775246	O25_FT	20:45	pro league	Charleroi	Antwerp	1.95	1536939	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1330634213	O25_FT	20:45	international friendlies	Wales	Northern Ireland	1.93	1538309	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	4141116178	O25_FT	20:45	uefa wc qualifiers	Czech Republic	Denmark	1.93	1537579	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1919917037	O25_FT	20:45	international friendlies	Netherlands	Ecuador	1.85	1503007	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	560721987	O25_FT	20:45	international friendlies	Rep. Of Ireland	FYR Macedonia	1.85	1538307	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2506611700	O25_FT	20:45	pro league	Union St. Gilloise	St. Truiden	1.85	1536978	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	3638941796	O25_FT	20:45	serie a italia	AS Roma	Pisa	1.85	1378182	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	436179025	O25_FT	20:45	ligue 1	Lyon	Lorient	1.85	1387953	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	2339040713	O25_FT	20:45	serie a italia	Como	Inter	1.85	1378177	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	3825602624	O25_FT	20:45	uefa wc qualifiers	Italy	Northern Ireland	1.83	1487925	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	3514044844	O25_FT	20:45	pro league	Antwerp	Genk	1.8	1536936	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	225187434	O25_FT	20:45	ligue 2	Le Mans	PAU	1.8	1389362	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3733992219	O25_FT	20:45	serie a italia	Atalanta	Juventus	1.8	1378174	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1798466423	O25_FT	20:45	international friendlies	England	Japan	1.7	1502473	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	901948894	O25_FT	20:45	ligue 2	Rodez	Estac Troyes	1.7	1389372	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	947418478	O25_FT	20:45	ligue 1	Lens	Toulouse	1.7	1387960	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	900994503	O25_FT	20:45	international friendlies	Switzerland	Germany	1.67	1502471	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1506108305	O25_FT	20:45	international friendlies	Austria	South Korea	1.67	1511732	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	4085794911	O25_FT	20:45	uefa wc qualifiers	Denmark	FYR Macedonia	1.65	1487924	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3290547590	O25_FT	20:45	international friendlies	Netherlands	Norway	1.62	1503005	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	2695714577	O25_FT	20:45	ligue 1	Monaco	Marseille	1.57	1387947	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	3191472570	O25_FT	20:45	serie a italia	Inter	Cagliari	1.57	1378185	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2187041947	O25_FT	20:45	ligue 1	Paris Saint Germain	Toulouse	1.53	1387948	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	4162542754	O25_FT	20:45	cymru premier league	Caernarfon Town	The New Saints	1.5	1508979	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1297041723	O25_FT	20:45	pro league	St. Truiden	Club Brugge KV	1.5	1536982	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-30	1820939758	O25_FT	20:45	international friendlies	Germany	Ghana	1.38	1501816	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	2973173966	O25_FT	21:00	laliga	Levante	Getafe	2.65	1391123	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	913305615	O25_FT	21:00	primera a colombia	Chico	Deportivo Pereira	2.35	1506071	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1997175157	O25_FT	21:00	laliga2	Sporting Gijon	Deportivo La Coruna	2.25	1392115	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-16	3835019354	O25_FT	21:00	uefa europa league	Nottingham Forest	FC Porto	2.25	1535341	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1461923221	O25_FT	21:00	laliga	Alaves	Osasuna	2.2	1391109	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	33607546	O25_FT	21:00	serie a brazil	Chapecoense-sc	Vitoria	2.15	1492202	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-14	3931507797	O25_FT	21:00	championship	Portsmouth	Ipswich	2.15	1386857	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	2912503509	O25_FT	21:00	laliga2	Zaragoza	Mirandes	2.1	1392133	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	1713788325	O25_FT	21:00	uefa europa league	FC Porto	Nottingham Forest	2.1	1535336	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	2603556798	O25_FT	21:00	uefa europa league	SC Freiburg	Celta Vigo	2.1	1535337	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	3916665619	O25_FT	21:00	championship	West Brom	Millwall	2.1	1387051	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1688722240	O25_FT	21:00	laliga	Sevilla	Atletico Madrid	2.1	1391128	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3786367604	O25_FT	21:00	serie a brazil	Botafogo	Coritiba	2.1	1492211	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-09	338522969	O25_FT	21:00	uefa europa league	Bologna	Aston Villa	2	1535335	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	2273577636	O25_FT	21:00	primera a colombia	Millonarios	Santa Fe	2	1506081	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	1827719639	O25_FT	21:00	championship	Blackburn	Coventry	2	1387061	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	2271463413	O25_FT	21:00	laliga	Rayo Vallecano	Elche	1.95	1391115	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-07	3272631048	O25_FT	21:00	uefa champions league	Sporting CP	Arsenal	1.95	1534570	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3629700601	O25_FT	21:00	liga pro ecuador	Mushuc Runa SC	Manta FC	1.95	1519317	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1975171804	O25_FT	21:00	laliga	Athletic Club	Villarreal	1.9	1391119	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-16	885031023	O25_FT	21:00	uefa europa league	Real Betis	SC Braga	1.9	1535340	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-07	1072433616	O25_FT	21:00	championship	Wrexham	Southampton	1.85	1387037	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-15	3265576565	O25_FT	21:00	uefa champions league	Arsenal	Sporting CP	1.85	1534571	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	3828727989	O25_FT	21:00	laliga2	Las Palmas	Leganes	1.85	1392158	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3207985240	O25_FT	21:00	laliga2	Cordoba	Zaragoza	1.83	1392144	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-14	361942040	O25_FT	21:00	championship	Southampton	Blackburn	1.83	1387087	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	1681887605	O25_FT	21:00	premier league	West Ham	Wolves	1.8	1379288	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	959993013	O25_FT	21:00	international friendlies	Brazil U20	Paraguay U20	1.75	1537180	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	1156079206	O25_FT	21:00	international friendlies	Colombia	France	1.73	1514465	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1601315884	O25_FT	21:00	laliga2	Albacete	Castellón	1.7	1392109	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	1516042717	O25_FT	21:00	international friendlies	Burkina Faso	Guinea-Bissau	1.7	1537179	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	937116033	O25_FT	21:00	championship	Coventry	Derby	1.7	1387024	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	569274475	O25_FT	21:00	liga pro ecuador	Independiente del Valle	Orense SC	1.7	1519305	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	60620602	O25_FT	21:00	championship	Hull City	Coventry	1.7	1387035	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-16	2275184647	O25_FT	21:00	uefa europa league	Aston Villa	Bologna	1.7	1535339	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	3848011896	O25_FT	21:00	international friendlies	Brazil	France	1.67	1501815	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	3046834749	O25_FT	21:00	premier league	Manchester United	Leeds	1.67	1379285	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3947410683	O25_FT	21:00	international friendlies	Senegal	Gambia	1.65	1528279	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	3527201509	O25_FT	21:00	laliga	Girona	Villarreal	1.65	1391113	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	622724741	O25_FT	21:00	laliga2	Almeria	Real Sociedad II	1.62	1392114	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3372041467	O25_FT	21:00	eredivisie	Ajax	Twente	1.55	1381119	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3557752946	O25_FT	21:00	laliga2	Racing Santander	Almeria	1.55	1392145	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	843100548	O25_FT	21:00	eredivisie	Excelsior	NEC Nijmegen	1.5	1381121	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	990499601	O25_FT	21:00	fa cup	Southampton	Arsenal	1.5	1531572	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-08	2889314161	O25_FT	21:00	uefa champions league	Paris Saint Germain	Liverpool	1.5	1534908	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2309312553	O25_FT	21:00	eredivisie	Heracles	Ajax	1.5	1381130	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1352686410	O25_FT	21:00	laliga	Atletico Madrid	Barcelona	1.48	1391110	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	435501788	O25_FT	21:00	international friendlies	Spain	Egypt	1.45	1511778	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	3015247487	O25_FT	21:00	laliga	Real Madrid	Girona	1.42	1391126	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-07	1804071120	O25_FT	21:00	uefa champions league	Real Madrid	Bayern München	1.4	1534909	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-14	1534240872	O25_FT	21:00	uefa champions league	Liverpool	Paris Saint Germain	1.4	1534912	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	742938259	O25_FT	21:00	international friendlies	Spain	Serbia	1.38	1536910	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-08	3052282326	O25_FT	21:00	uefa champions league	Barcelona	Atletico Madrid	1.35	1534907	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-14	1371606574	O25_FT	21:00	uefa champions league	Atletico Madrid	Barcelona	1.35	1534910	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-15	2976966200	O25_FT	21:00	uefa champions league	Bayern München	Real Madrid	1.28	1534911	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	4053150234	O25_FT	21:05	ligue 1	Lille	Lens	1.83	1387944	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1033086788	O25_FT	21:05	ligue 1	Rennes	Angers	1.67	1387957	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	2884803632	O25_FT	21:05	ligue 1	Marseille	Metz	1.45	1387954	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	1305293929	O25_FT	21:15	international friendlies	Morocco	Ecuador	2.8	1522229	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	2527207444	O25_FT	21:15	liga portugal	Tondela	GIL Vicente	2.25	1396497	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	3413703777	O25_FT	21:30	liga profesional argentina	Defensa Y Justicia	Talleres Cordoba	2.7	1492016	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	1824509513	O25_FT	21:30	liga profesional argentina	Sarmiento Junin	Gimnasia L.P.	2.7	1492026	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3480824990	O25_FT	21:30	serie a brazil	Vitoria	Sao Paulo	2.4	1492219	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	2767257062	O25_FT	21:30	laliga2	Leganes	Zaragoza	2.25	1392119	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-24	2256975407	O25_FT	21:30	primera a colombia	Deportivo Pereira	Cucuta	2.2	1506049	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3236556614	O25_FT	21:30	serie a brazil	Remo	Vasco DA Gama	1.95	1492217	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3426127863	O25_FT	21:30	liga portugal	FC Porto	Famalicao	1.93	1396482	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3206853610	O25_FT	21:30	laliga2	Valladolid	Cadiz	1.85	1392122	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1093747147	O25_FT	21:30	liga portugal	Sporting CP	Santa Clara	1.8	1396487	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1900765375	O25_FT	21:30	laliga2	Racing Santander	Sporting Gijon	1.7	1392120	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3385169339	O25_FT	21:30	liga portugal	Estoril	FC Porto	1.62	1396493	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	610480879	O25_FT	21:30	liga portugal	Estrela	Sporting CP	1.45	1396494	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	2006231192	O25_FT	21:45	liga portugal	Famalicao	Moreirense	2.1	1396495	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	3658339037	O25_FT	21:45	liga portugal	Rio Ave	AVS	1.85	1396505	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	3936113395	O25_FT	21:45	liga portugal	Casa Pia	Benfica	1.55	1396481	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	2317327555	O25_FT	22:00	primera a colombia	Águilas Doradas	Alianza Valledupar	2.7	1506057	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	4074264748	O25_FT	22:00	primera división paraguay	Sportivo Trinidense	Club Sp. San Lorenzo	2.15	1505060	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	2329932594	O25_FT	22:00	primera a colombia	Cucuta	Chico	2.1	1506059	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	55028759	O25_FT	22:10	primera a colombia	Santa Fe	Independiente Medellin	2.15	1506052	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-03	1889264795	O25_FT	22:15	liga profesional argentina	Union Santa Fe	Deportivo Riestra	3	1492012	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	226476156	O25_FT	22:15	liga profesional argentina	Estudiantes L.P.	Union Santa Fe	2.7	1492018	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	783353124	O25_FT	22:30	liga profesional argentina	Huracan	Rosario Central	3.2	1492020	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	120506531	O25_FT	22:30	liga pro ecuador	Guayaquil City FC	Leones del Norte	2.7	1519300	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1368718757	O25_FT	22:30	liga profesional argentina	Atletico Tucuman	Tigre	2.7	1492013	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	452570480	O25_FT	22:30	liga profesional argentina	Tigre	Independ. Rivadavia	2.6	1492011	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1148551178	O25_FT	22:30	liga profesional argentina	Independiente	Racing Club	2.6	1492004	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-27	3805282673	O25_FT	22:30	primera división paraguay	Nacional Asuncion	Sportivo Luqueno	2.5	1505034	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	531261827	O25_FT	22:30	liga pro ecuador	Guayaquil City FC	Macara	2.5	1519316	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1913225503	O25_FT	22:30	liga pro ecuador	Manta FC	Tecnico Universitario	2.4	1519310	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	3034613209	O25_FT	22:30	primera a colombia	Deportivo Pereira	Alianza Valledupar	2.38	1505982	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	2046879123	O25_FT	22:30	primera división paraguay	Sportivo Trinidense	Deportivo Recoleta	2.15	1505030	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-28	1417302251	O25_FT	22:30	primera división paraguay	Olimpia	2 de Mayo	2.1	1505035	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3661068932	O25_FT	22:30	serie a brazil	Atletico-MG	Atletico Paranaense	2.1	1492200	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	1968427444	O25_FT	22:30	primera a colombia	Deportivo Pereira	Once Caldas	1.95	1506079	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	182974235	O25_FT	22:30	serie a brazil	Flamengo	Santos	1.8	1492205	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	258378748	O25_FT	22:30	mls	New England Revolution	CF Montreal	1.7	1490181	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2510389709	O25_FT	22:30	mls	Real Salt Lake	Sporting Kansas City	1.53	1490182	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1610252244	O25_FT	22:45	mls	Portland Timbers	Los Angeles FC	1.55	1490198	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-25	215767011	O25_FT	23:00	liga profesional argentina	Deportivo Riestra	San Lorenzo	3.7	1491989	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1758075922	O25_FT	23:00	serie a brazil	Fluminense	Flamengo	2.6	1492214	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	402429760	O25_FT	23:00	liga profesional argentina	Estudiantes L.P.	Central Cordoba de Santiago	2.45	1491990	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-07	881156315	O25_FT	23:00	primera a colombia	Águilas Doradas	Bucaramanga	2.45	1505990	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	2444532918	O25_FT	23:00	primera a colombia	Chico	Deportivo Cali	2.45	1506088	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1818886540	O25_FT	23:00	primera a colombia	Cucuta	America de Cali	2.25	1506077	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1385708917	O25_FT	23:00	primera a colombia	Águilas Doradas	Junior	2.15	1506083	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	286048119	O25_FT	23:00	primera a colombia	Jaguares	Deportivo Pasto	2.15	1506087	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	4090206997	O25_FT	23:00	liga profesional argentina	River Plate	Belgrano Cordoba	2.1	1492007	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1671234688	O25_FT	23:10	primera a colombia	Alianza Valledupar	Deportivo Pasto	2.7	1506068	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	3336733230	O25_FT	23:10	primera a colombia	America de Cali	Bucaramanga	2.35	1506072	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	1110868221	O25_FT	23:10	primera a colombia	Deportivo Cali	Llaneros	2.1	1506015	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-29	795554991	O25_FT	23:10	primera a colombia	Internacional de Bogota	Junior	2	1506062	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	785516192	O25_FT	23:15	primera división paraguay	2 de Mayo	Sportivo Ameliano	2.3	1505049	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	4242171004	O25_FT	23:15	primera división paraguay	Rubio NU	Olimpia	2.15	1505052	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-31	3971025394	O25_FT	23:30	primera división paraguay	2 de Mayo	Nacional Asuncion	2.4	1505037	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1064023855	O25_FT	23:30	primera división paraguay	Sportivo Ameliano	Sportivo Luqueno	2.4	1505043	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	3186377093	O25_FT	23:30	primera división paraguay	Rubio NU	Club Guarani	2.25	1505039	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	3787176279	O25_FT	23:30	serie a brazil	Sao Paulo	Cruzeiro	2.25	1492208	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	405735400	O25_FT	23:30	serie a brazil	Corinthians	Palmeiras	2.25	1492212	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-03-25	1340278348	O25_FT	23:30	primera división paraguay	Club Guarani	2 de Mayo	2.2	1504996	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	512818220	O25_FT	23:30	serie a brazil	Cruzeiro	RB Bragantino	2	1492213	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3574995258	O25_FT	23:30	serie a brazil	Mirassol	Bahia	1.91	1492216	O25_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1297548245	O25_FT	23:30	liga pro ecuador	Universidad Catolica	Guayaquil City FC	1.85	1519311	O25_RANDOM_POOL_BASE	predictions.tsv
+

@@ -3506,3 +3506,155 @@ TSV: 2026-04-20	1460877996	TEAM1_SCORE_FT	23:15	primera división paraguay	Rubio
 TSV: 2026-04-20	1460877996	O15_FT	23:15	primera división paraguay	Rubio NU	Libertad Asuncion	1.4	1505059	SYSTEM_POOL_BASE	predictions.tsv
 TSV: 2026-04-20	1460877996	U35_FT	23:15	primera división paraguay	Rubio NU	Libertad Asuncion	1.22	1505059	SYSTEM_POOL_BASE	predictions.tsv
 
+TSV: 2026-04-01	1290146881	O25_FT	00:00	serie a brazil	Internacional	Sao Paulo	2.2	1492197	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	2802510933	O25_FT	00:00	primera división paraguay	Deportivo Recoleta	Rubio NU	2.15	1505036	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1122301632	O25_FT	00:00	serie a brazil	Botafogo	Mirassol	2.1	1492191	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	1795197454	O25_FT	00:00	liga mx	Pachuca	Toluca	1.65	1492565	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	2807532571	O15_FT	00:00	liga profesional argentina	Lanus	Platense	1.62	1492006	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	1270421119	O15_FT	00:00	liga profesional argentina	Lanus	Banfield	1.57	1492022	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	2226555661	O25_FT	00:00	mls	San Diego	Real Salt Lake	1.55	1490179	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	64054079	TEAM2_SCORE_FT	00:00	serie a brazil	Bahia	Atletico Paranaense	1.53	1492190	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1609004124	TEAM1_SCORE_FT	00:00	primera a colombia	Jaguares	Millonarios	1.49	1506073	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	1370608748	O15_FT	00:00	liga pro ecuador	Leones del Norte	Aucas	1.44	1519322	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	3092662000	O15_FT	00:00	serie a brazil	Atletico-MG	Sao Paulo	1.42	1492171	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-24	4234859617	O15_FT	00:00	primera a colombia	Junior	Bucaramanga	1.42	1506054	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	3142328762	O15_FT	00:00	liga profesional argentina	Argentinos JRS	Banfield	1.42	1491999	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1290146881	TEAM2_SCORE_FT	00:00	serie a brazil	Internacional	Sao Paulo	1.4	1492197	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1290146881	O15_FT	00:00	serie a brazil	Internacional	Sao Paulo	1.4	1492197	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	2802510933	O15_FT	00:00	primera división paraguay	Deportivo Recoleta	Rubio NU	1.36	1505036	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	762783920	O15_FT	00:00	primera división paraguay	Sportivo Trinidense	Olimpia	1.36	1505042	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1122301632	O15_FT	00:00	serie a brazil	Botafogo	Mirassol	1.36	1492191	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	64054079	O15_FT	00:00	serie a brazil	Bahia	Atletico Paranaense	1.35	1492190	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	2206006765	O15_FT	00:00	serie a brazil	Cruzeiro	Vitoria	1.35	1492195	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	1925207585	TEAM1_SCORE_FT	00:00	serie a brazil	Coritiba	Vasco DA Gama	1.34	1492194	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-21	3005159422	O15_FT	00:00	liga mx	Atlas	Club Queretaro	1.33	1492564	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	2807532571	TEAM1_SCORE_FT	00:00	liga profesional argentina	Lanus	Platense	1.33	1492006	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	1795197454	TEAM1_SCORE_FT	00:00	liga mx	Pachuca	Toluca	1.3	1492565	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-01	2291659680	O15_FT	00:00	primera a colombia	Santa Fe	Llaneros	1.3	1506069	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-02	1609004124	O15_FT	00:00	primera a colombia	Jaguares	Millonarios	1.3	1506073	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-13	1270421119	TEAM1_SCORE_FT	00:00	liga profesional argentina	Lanus	Banfield	1.29	1492022	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-16	3765178232	O15_FT	00:00	serie a brazil	Chapecoense-sc	Gremio	1.28	1492162	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	529498241	O15_FT	00:00	liga mx	Atletico San Luis	Pachuca	1.25	1492556	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-15	3621819100	TEAM2_SCORE_FT	00:00	mls	San Jose Earthquakes	Seattle Sounders	1.25	1490164	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	1775237511	TEAM2_SCORE_FT	00:00	liga mx	Santos Laguna	Puebla	1.25	1492569	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	1775237511	O15_FT	00:00	liga mx	Santos Laguna	Puebla	1.25	1492569	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-12	1620002801	O15_FT	00:00	serie a brazil	Sao Paulo	Chapecoense-sc	1.22	1492158	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-15	3621819100	O15_FT	00:00	mls	San Jose Earthquakes	Seattle Sounders	1.22	1490164	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	1795197454	O15_FT	00:00	liga mx	Pachuca	Toluca	1.2	1492565	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	2226555661	O15_FT	00:00	mls	San Diego	Real Salt Lake	1.18	1490179	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	1370608748	U35_FT	00:00	liga pro ecuador	Leones del Norte	Aucas	1.18	1519322	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	3142328762	TEAM1_SCORE_FT	00:00	liga profesional argentina	Argentinos JRS	Banfield	1.17	1491999	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	1795197454	TEAM2_SCORE_FT	00:00	liga mx	Pachuca	Toluca	1.15	1492565	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	2226555661	TEAM1_SCORE_FT	00:00	mls	San Diego	Real Salt Lake	1.15	1490179	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-15	3448128535	TEAM1_SCORE_FT	00:15	liga pro ecuador	Guayaquil City FC	Barcelona SC	1.57	1519283	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-15	3448128535	O15_FT	00:15	liga pro ecuador	Guayaquil City FC	Barcelona SC	1.36	1519283	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	1043835039	O15_FT	00:15	liga pro ecuador	Mushuc Runa SC	Emelec	1.36	1519302	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-15	1164579519	TEAM1_SCORE_FT	00:20	primera a colombia	Jaguares	Independiente Medellin	1.6	1506035	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	4014774312	TEAM1_SCORE_FT	00:20	primera a colombia	Jaguares	Águilas Doradas	1.49	1506053	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	4014774312	O15_FT	00:20	primera a colombia	Jaguares	Águilas Doradas	1.47	1506053	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	2280148975	O15_FT	00:20	primera a colombia	Chico	Millonarios	1.44	1506031	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-15	1164579519	O15_FT	00:20	primera a colombia	Jaguares	Independiente Medellin	1.38	1506035	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	4014774312	TEAM2_SCORE_FT	00:20	primera a colombia	Jaguares	Águilas Doradas	1.36	1506053	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	95194339	O15_FT	00:20	primera a colombia	Internacional de Bogota	Deportivo Pereira	1.35	1506041	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	133670527	O25_FT	00:30	primera división paraguay	Rubio NU	Sportivo Ameliano	2.45	1505027	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	204327567	O25_FT	00:30	serie a brazil	Corinthians	Internacional	2.35	1492203	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	2451606422	O25_FT	00:30	serie a brazil	Corinthians	Flamengo	2.3	1492182	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	395547298	O25_FT	00:30	international friendlies	Colombia	Croatia	1.85	1512757	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	133670527	O15_FT	00:30	primera división paraguay	Rubio NU	Sportivo Ameliano	1.49	1505027	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	2451606422	O15_FT	00:30	serie a brazil	Corinthians	Flamengo	1.45	1492182	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	204327567	O15_FT	00:30	serie a brazil	Corinthians	Internacional	1.45	1492203	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	216911489	O15_FT	00:30	primera división paraguay	Libertad Asuncion	Nacional Asuncion	1.44	1505020	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-23	133670527	TEAM1_SCORE_FT	00:30	primera división paraguay	Rubio NU	Sportivo Ameliano	1.43	1505027	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-15	3288905349	O15_FT	00:30	serie a brazil	RB Bragantino	Sao Paulo	1.42	1492161	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-15	530838821	O15_FT	00:30	primera división paraguay	Sportivo Ameliano	Club Guarani	1.4	1505014	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-21	2848296397	O15_FT	00:30	primera división paraguay	Libertad Asuncion	Cerro Porteno	1.4	1505026	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-15	2506044694	O15_FT	00:30	serie a brazil	Cruzeiro	Vasco DA Gama	1.38	1492164	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	344993574	U35_FT	00:30	serie a brazil	Flamengo	Bahia	1.38	1492224	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-13	3560721428	O15_FT	00:30	primera división paraguay	2 de Mayo	Libertad Asuncion	1.36	1505013	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	3464360071	O15_FT	00:30	primera división paraguay	Sportivo Luqueno	2 de Mayo	1.36	1505029	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	1887424558	O15_FT	00:30	serie a brazil	Botafogo	Flamengo	1.35	1492160	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-17	3528622314	O15_FT	00:30	primera división paraguay	Olimpia	Sportivo Luqueno	1.33	1505021	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3562896284	O15_FT	00:30	serie a brazil	Bahia	Palmeiras	1.33	1492201	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-18	2590707023	O15_FT	00:30	primera división paraguay	Club Guarani	Deportivo Recoleta	1.3	1505019	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	2451606422	TEAM2_SCORE_FT	00:30	serie a brazil	Corinthians	Flamengo	1.29	1492182	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3562896284	TEAM1_SCORE_FT	00:30	serie a brazil	Bahia	Palmeiras	1.29	1492201	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-26	395547298	O15_FT	00:30	international friendlies	Colombia	Croatia	1.28	1512757	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	204327567	TEAM1_SCORE_FT	00:30	serie a brazil	Corinthians	Internacional	1.25	1492203	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	344993574	O15_FT	00:30	serie a brazil	Flamengo	Bahia	1.25	1492224	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-22	3464360071	TEAM1_SCORE_FT	00:30	primera división paraguay	Sportivo Luqueno	2 de Mayo	1.24	1505029	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-14	3299610728	O15_FT	00:30	mls	New York City FC	Colorado Rapids	1.2	1490155	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-03-17	3528622314	TEAM1_SCORE_FT	00:30	primera división paraguay	Olimpia	Sportivo Luqueno	1.16	1505021	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	4276291902	O25_FT	01:00	serie a brazil	Mirassol	RB Bragantino	2.05	1492207	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	922330754	O25_FT	01:00	liga mx	Club Queretaro	Toluca	1.67	1492578	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	2564927568	TEAM1_WIN_FT	01:00	mls	Los Angeles FC	San Jose Earthquakes	1.63	1490224	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1436310579	O25_FT	01:00	liga mx	Monterrey	Atletico San Luis	1.57	1492574	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	2564927568	O25_FT	01:00	mls	Los Angeles FC	San Jose Earthquakes	1.55	1490224	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	660171386	O15_FT	01:00	liga profesional argentina	Racing Club	River Plate	1.53	1492025	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-06	2794050401	O15_FT	01:00	primera división paraguay	Sportivo Trinidense	Rubio NU	1.44	1505048	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	2105093241	U35_FT	01:00	liga mx	Santos Laguna	Atlas	1.42	1492597	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	660171386	TEAM1_SCORE_FT	01:00	liga profesional argentina	Racing Club	River Plate	1.4	1492025	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3695500623	TEAM2_SCORE_FT	01:00	mls	Columbus Crew	Orlando City SC	1.4	1490208	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	589051090	O15_FT	01:00	serie a brazil	Santos	Atletico-MG	1.38	1492218	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	2564927568	TEAM2_SCORE_FT	01:00	mls	Los Angeles FC	San Jose Earthquakes	1.36	1490224	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	4276291902	O15_FT	01:00	serie a brazil	Mirassol	RB Bragantino	1.35	1492207	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	3695500623	O25_FT	01:00	mls	Columbus Crew	Orlando City SC	1.35	1490208	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	4040950145	O15_FT	01:00	liga mx	Club Queretaro	Necaxa	1.28	1492582	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1747153826	O15_FT	01:00	liga mx	Tigres UANL	Guadalajara Chivas	1.28	1492583	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	589051090	TEAM1_SCORE_FT	01:00	serie a brazil	Santos	Atletico-MG	1.25	1492218	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	922330754	O15_FT	01:00	liga mx	Club Queretaro	Toluca	1.22	1492578	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	2105093241	TEAM1_SCORE_FT	01:00	liga mx	Santos Laguna	Atlas	1.22	1492597	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	2105093241	O15_FT	01:00	liga mx	Santos Laguna	Atlas	1.22	1492597	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1436310579	O15_FT	01:00	liga mx	Monterrey	Atletico San Luis	1.18	1492574	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	2564927568	O15_FT	01:00	mls	Los Angeles FC	San Jose Earthquakes	1.18	1490224	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	4204715755	O15_FT	01:10	liga pro ecuador	Macara	Aucas	1.44	1519309	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	4069996102	O15_FT	01:10	liga pro ecuador	Macara	Barcelona SC	1.44	1519323	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	4204715755	TEAM1_SCORE_FT	01:10	liga pro ecuador	Macara	Aucas	1.33	1519309	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	4155447180	O15_FT	01:10	liga pro ecuador	Aucas	Emelec	1.33	1519312	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	4069996102	TEAM1_SCORE_FT	01:10	liga pro ecuador	Macara	Barcelona SC	1.33	1519323	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	4155447180	TEAM1_SCORE_FT	01:10	liga pro ecuador	Aucas	Emelec	1.2	1519312	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	4069996102	U35_FT	01:10	liga pro ecuador	Macara	Barcelona SC	1.18	1519323	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	1602461545	O25_FT	01:20	primera a colombia	Junior	Llaneros	1.95	1506093	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	1602461545	TEAM1_WIN_FT	01:20	primera a colombia	Junior	Llaneros	1.49	1506093	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-12	2719771118	O15_FT	01:20	primera a colombia	Bucaramanga	Chico	1.33	1506085	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	1602461545	O15_FT	01:20	primera a colombia	Junior	Llaneros	1.3	1506093	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	1602461545	U35_FT	01:20	primera a colombia	Junior	Llaneros	1.3	1506093	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1814475060	O25_FT	01:30	primera división paraguay	Club Guarani	Libertad Asuncion	2.25	1505045	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	4169536677	O25_FT	01:30	mls	New York City FC	St. Louis City	1.8	1490187	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3693212940	O25_FT	01:30	serie a brazil	Gremio	Remo	1.75	1492206	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3356678851	O15_FT	01:30	liga profesional argentina	Central Cordoba de Santiago	Newells Old Boys	1.65	1492001	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2164053495	O15_FT	01:30	serie a brazil	Coritiba	Fluminense	1.53	1492204	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3693212940	TEAM2_SCORE_FT	01:30	serie a brazil	Gremio	Remo	1.5	1492206	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	66676446	O25_FT	01:30	mls	Inter Miami	Austin	1.48	1490183	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	4131016166	TEAM1_SCORE_FT	01:30	primera división paraguay	Club Sp. San Lorenzo	Club Guarani	1.47	1505053	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2704952844	O15_FT	01:30	primera división paraguay	Nacional Asuncion	Cerro Porteno	1.44	1505051	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	66676446	TEAM1_WIN_FT	01:30	mls	Inter Miami	Austin	1.42	1490183	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3356678851	TEAM1_SCORE_FT	01:30	liga profesional argentina	Central Cordoba de Santiago	Newells Old Boys	1.4	1492001	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3204438873	TEAM1_WIN_FT	01:30	mls	Inter Miami	New York Red Bulls	1.4	1490199	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2560016518	O15_FT	01:30	mls	New England Revolution	DC United	1.38	1490202	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	410113277	O15_FT	01:30	primera división paraguay	Deportivo Recoleta	Club Sp. San Lorenzo	1.36	1505047	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1814475060	O15_FT	01:30	primera división paraguay	Club Guarani	Libertad Asuncion	1.36	1505045	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-10	4131016166	O15_FT	01:30	primera división paraguay	Club Sp. San Lorenzo	Club Guarani	1.36	1505053	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	345938043	TEAM2_SCORE_FT	01:30	mls	DC United	FC Dallas	1.33	1490188	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	1814475060	TEAM2_SCORE_FT	01:30	primera división paraguay	Club Guarani	Libertad Asuncion	1.33	1505045	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2060694690	O15_FT	01:30	serie a brazil	Internacional	Gremio	1.3	1492215	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1243956398	O15_FT	01:30	primera división paraguay	Cerro Porteno	2 de Mayo	1.28	1505044	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1051799773	O15_FT	01:30	mls	Charlotte	Nashville SC	1.28	1490201	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	2422903007	O15_FT	01:30	mls	Charlotte	Philadelphia Union	1.25	1490186	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	345938043	O15_FT	01:30	mls	DC United	FC Dallas	1.25	1490188	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	4169536677	O15_FT	01:30	mls	New York City FC	St. Louis City	1.25	1490187	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-05	3693212940	O15_FT	01:30	serie a brazil	Gremio	Remo	1.25	1492206	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	3204438873	O25_FT	01:30	mls	Inter Miami	New York Red Bulls	1.25	1490199	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	994525886	O15_FT	01:30	mls	Atlanta United FC	Columbus Crew	1.22	1490184	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	345938043	TEAM1_SCORE_FT	01:30	mls	DC United	FC Dallas	1.22	1490188	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	1051799773	TEAM1_SCORE_FT	01:30	mls	Charlotte	Nashville SC	1.22	1490201	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	1653570339	U35_FT	01:30	liga profesional argentina	Union Santa Fe	Newells Old Boys	1.22	1492042	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	1914465191	U35_FT	01:30	liga profesional argentina	Rosario Central	Sarmiento Junin	1.22	1492038	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	994525886	TEAM2_SCORE_FT	01:30	mls	Atlanta United FC	Columbus Crew	1.2	1490184	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2560016518	TEAM1_SCORE_FT	01:30	mls	New England Revolution	DC United	1.2	1490202	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	1786942345	O15_FT	01:30	mls	New York Red Bulls	FC Cincinnati	1.18	1490185	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2523930432	O15_FT	01:30	mls	Vancouver Whitecaps	New York City FC	1.18	1490200	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-11	2060694690	TEAM1_SCORE_FT	01:30	serie a brazil	Internacional	Gremio	1.18	1492215	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-17	1653570339	TEAM1_SCORE_FT	01:30	liga profesional argentina	Union Santa Fe	Newells Old Boys	1.17	1492042	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-04	4169536677	TEAM1_SCORE_FT	01:30	mls	New York City FC	St. Louis City	1.15	1490187	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-19	1914465191	TEAM1_SCORE_FT	01:30	liga profesional argentina	Rosario Central	Sarmiento Junin	1.15	1492038	SYSTEM_POOL_BASE	predictions.tsv
+

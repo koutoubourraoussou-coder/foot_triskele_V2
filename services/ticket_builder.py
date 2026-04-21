@@ -1762,17 +1762,18 @@ def filter_effective_super_random_pool(
     return out
 
 
-def _build_super_random_ticket_for_one_day(day_picks: List[Pick]) -> Optional[Ticket]:
+def _build_super_random_ticket_for_one_day(filtered_picks: List[Pick]) -> Optional[Ticket]:
     """
-    Selection aleatoire pure : shuffle puis pick un par un jusqu'a TARGET_ODD.
-    Fallback MIN_ACCEPT_ODD. Un seul pick par match max.
+    Selection aleatoire pure sur un pool déjà filtré (timing + used_legs appliqués en amont).
+    Shuffle puis pick un par un jusqu'à TARGET_ODD. Fallback MIN_ACCEPT_ODD.
+    Un seul pick par match max (used_matches local au ticket).
     Retourne None si cumulative < min_accept_odd.
     """
-    if not day_picks:
+    if not filtered_picks:
         return None
 
     cfg = T()
-    pool = list(day_picks)
+    pool = list(filtered_picks)
     random.shuffle(pool)
 
     selected: List[Pick] = []
@@ -1804,6 +1805,11 @@ def build_super_random_tickets(by_date_sorted: List[Pick]) -> List[Ticket]:
     """
     Un ticket SUPER RANDOM par fenêtre (selection aleatoire pure, gate league seul).
     Découpe la journée en fenêtres comme le pipeline RANDOM normal.
+
+    Corrigé pour respecter les mêmes contraintes que build_tickets :
+    - next_allowed_start_min : le prochain ticket commence après la fin du précédent
+    - used_legs (global par jour) : déduplication (match_id, bet_key) entre tickets
+    - Merge de fenêtres adjacentes si la fenêtre courante ne produit pas de ticket
     """
     by_date: Dict[str, List[Pick]] = {}
     for p in by_date_sorted:
@@ -1821,12 +1827,53 @@ def build_super_random_tickets(by_date_sorted: List[Pick]) -> List[Ticket]:
 
         windows = _build_day_tranches(day_picks, max_windows=max_tickets_today)
 
-        for win_idx, window in enumerate(windows):
-            t = _build_super_random_ticket_for_one_day(window.picks)
+        # État inter-tickets (réinitialisé par jour)
+        used_legs: set = set()            # (match_id, bet_key) déjà joués ce jour
+        next_allowed_start_min: int = 0   # kickoff min du prochain pick autorisé
+        tickets_today: int = 0
+        group_no: int = 0
+
+        idx = 0
+        while idx < len(windows):
+            if tickets_today >= max_tickets_today:
+                break
+
+            # Merge progressif si la fenêtre courante ne suffit pas
+            merge_end_idx = idx
+            merged_picks: List[Pick] = list(windows[idx].picks)
+            t: Optional[Ticket] = None
+
+            while True:
+                # Filtre timing + déduplication globale
+                filtered = [
+                    p for p in merged_picks
+                    if _time_to_minutes(p.time_str) >= next_allowed_start_min
+                    and (p.match_id, p.bet_key) not in used_legs
+                ]
+
+                t = _build_super_random_ticket_for_one_day(filtered)
+                if t is not None:
+                    break
+
+                # Pas de ticket → tenter le merge avec la fenêtre suivante
+                if merge_end_idx + 1 < len(windows):
+                    merge_end_idx += 1
+                    merged_picks += windows[merge_end_idx].picks
+                else:
+                    break  # plus de fenêtres disponibles
+
             if t is not None:
+                group_no += 1
                 t.picks = sorted(t.picks, key=lambda p: _time_to_minutes(p.time_str))
-                t.group_no = win_idx + 1
+                t.group_no = group_no
+                # Mise à jour de l'état inter-tickets
+                for p in t.picks:
+                    used_legs.add((p.match_id, p.bet_key))
+                next_allowed_start_min = t.end_time_minutes
+                tickets_today += 1
                 out.append(t)
+
+            idx = merge_end_idx + 1
 
     return out
 
