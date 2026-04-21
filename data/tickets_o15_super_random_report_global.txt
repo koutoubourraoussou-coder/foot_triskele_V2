@@ -167,6 +167,40 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
 
 
 # ------------------------------------------------------------------
+# APPEND O15_SUPER_RANDOM | 2026-04-22 00:16:35 | run_date=2026-04-22 | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-22_0300_5af0da44fb_O15SR — cote = 2.76 — fenêtre 03:00 → 17:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 03:00 | liga mx | Club Queretaro vs Cruz Azul | Over 1.5 (FT) | FORT PLUS | odd=1.2
+  2) 03:00 | liga mx | U.N.A.M. - Pumas vs FC Juarez | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  3) 05:05 | liga mx | Monterrey vs Puebla | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
+  4) 05:06 | liga mx | Leon vs Club America | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3
+  5) 15:30 | hnl croatia | Vukovar vs HNK Gorica | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.28
+
+📅 Mercredi 2026-04-22 — Tranche 2
+---------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-22_1745_908df2f5f0_O15SR — cote = 2.61 — fenêtre 17:45 → 20:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 17:45 | hnl croatia | NK Varazdin vs HNK Rijeka | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36
+  2) 18:30 | austrian bundesliga | Rapid Vienna vs TSV Hartberg | Over 1.5 (FT) | FORT | odd=1.25
+  3) 18:30 | austrian bundesliga | Red Bull Salzburg vs Austria Vienna | Over 1.5 (FT) | TRÈS FORT | odd=1.2
+  4) 18:30 | superliga serbia | OFK Beograd vs Cukaricki | Over 1.5 (FT) | TRÈS FORT | odd=1.28
+
+📅 Mercredi 2026-04-22 — Tranche 3
+---------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-22_2030_9921abb9c8_O15SR — cote = 2.54 — fenêtre 20:30 → 22:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:30 | austrian bundesliga | Sturm Graz vs Lask Linz | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  2) 20:45 | championship | Charlton vs Ipswich | Over 1.5 (FT) | TRÈS FORT | odd=1.33
+  3) 21:00 | premier league | Bournemouth vs Leeds | Over 1.5 (FT) | FORT | odd=1.25
+  4) 21:00 | coupe de france | Strasbourg vs Nice | Over 1.5 (FT) | FORT PLUS | odd=1.25
+
+
+# ------------------------------------------------------------------
 # APPEND O15_SUPER_RANDOM | 2026-04-18 14:59:59 | run_date=ALL | source=predictions.tsv
 # ------------------------------------------------------------------
 

@@ -1,32 +1,42 @@
-2026-04-21 18:30 | austrian bundesliga | FC BW Linz vs Wolfsberger AC
-2026-04-21 18:30 | austrian bundesliga | SCR Altach vs WSG Wattens
-2026-04-21 20:30 | austrian bundesliga | Ried vs Grazer AK
-2026-04-21 20:45 | championship | Coventry vs Portsmouth
-2026-04-21 20:45 | championship | Leicester vs Hull City
-2026-04-21 20:45 | championship | Norwich vs Derby
-2026-04-21 20:45 | championship | Oxford United vs Wrexham
-2026-04-21 20:45 | championship | QPR vs Swansea
-2026-04-21 20:45 | championship | Southampton vs Bristol City
-2026-04-21 20:45 | championship | Stoke City vs Millwall
-2026-04-21 20:45 | championship | West Brom vs Watford
-2026-04-21 21:10 | coupe de france | Lens vs Toulouse
-2026-04-21 17:00 | cup | FK Jablonec vs Mlada Boleslav
-2026-04-21 20:00 | cup | Karviná vs Baník Ostrava
-2026-04-21 16:00 | hnl croatia | NK Lokomotiva Zagreb vs NK Slaven Belupo
-2026-04-21 18:45 | hnl croatia | HNK Hajduk Split vs NK Osijek
-2026-04-21 19:00 | laliga | Athletic Club vs Osasuna
-2026-04-21 19:00 | laliga | Mallorca vs Valencia
-2026-04-21 21:30 | laliga | Girona vs Real Betis
-2026-04-21 21:30 | laliga | Real Madrid vs Alaves
-2026-04-21 00:30 | liga profesional argentina | San Lorenzo vs Velez Sarsfield
-2026-04-21 02:45 | liga profesional argentina | Gimnasia M. vs Lanus
-2026-04-21 02:45 | liga profesional argentina | Tigre vs Huracan
-2026-04-21 21:00 | premier league | Brighton vs Chelsea
-2026-04-21 01:20 | primera a colombia | Once Caldas vs Internacional de Bogota
-2026-04-21 03:30 | primera a colombia | Atletico Nacional vs Bucaramanga
-2026-04-21 01:30 | primera división paraguay | Sportivo Ameliano vs Nacional Asuncion
-2026-04-21 20:30 | pro league | Genk vs Charleroi
-2026-04-21 20:30 | pro league | OH Leuven vs KVC Westerlo
-2026-04-21 20:30 | pro league | Standard Liege vs Antwerp
-2026-04-21 16:30 | russian premier league | FC Sochi vs Krylia Sovetov
-2026-04-21 18:45 | russian premier league | CSKA Moscow vs FC Rostov
+2026-04-22 18:30 | austrian bundesliga | Rapid Vienna vs TSV Hartberg
+2026-04-22 18:30 | austrian bundesliga | Red Bull Salzburg vs Austria Vienna
+2026-04-22 20:30 | austrian bundesliga | Sturm Graz vs Lask Linz
+2026-04-22 20:45 | championship | Birmingham vs Preston
+2026-04-22 20:45 | championship | Charlton vs Ipswich
+2026-04-22 20:45 | championship | Middlesbrough vs Sheffield Wednesday
+2026-04-22 20:45 | championship | Sheffield Utd vs Blackburn
+2026-04-22 21:00 | coupe de france | Strasbourg vs Nice
+2026-04-22 20:45 | dfb pokal | Bayer Leverkusen vs Bayern München
+2026-04-22 20:00 | eredivisie | Telstar vs Sparta Rotterdam
+2026-04-22 15:30 | hnl croatia | Vukovar vs HNK Gorica
+2026-04-22 17:45 | hnl croatia | NK Varazdin vs HNK Rijeka
+2026-04-22 20:15 | hnl croatia | Istra 1961 vs Dinamo Zagreb
+2026-04-22 19:00 | laliga | Elche vs Atletico Madrid
+2026-04-22 20:00 | laliga | Real Sociedad vs Getafe
+2026-04-22 21:30 | laliga | Barcelona vs Celta Vigo
+2026-04-22 03:00 | liga mx | Club Queretaro vs Cruz Azul
+2026-04-22 03:00 | liga mx | U.N.A.M. - Pumas vs FC Juarez
+2026-04-22 05:05 | liga mx | Monterrey vs Puebla
+2026-04-22 05:06 | liga mx | Leon vs Club America
+2026-04-22 19:00 | liga portugal 2 | Oliveirense vs Benfica B
+2026-04-22 00:00 | liga pro ecuador | Libertad vs Guayaquil City FC
+2026-04-22 02:30 | liga pro ecuador | Tecnico Universitario vs Emelec
+2026-04-22 18:00 | liga pro ecuador | Leones del Norte vs Manta FC
+2026-04-22 20:00 | liga pro ecuador | Delfin SC vs Independiente del Valle
+2026-04-22 22:30 | liga pro ecuador | Deportivo Cuenca vs Orense SC
+2026-04-22 19:00 | ligue 1 | Paris Saint Germain vs Nantes
+2026-04-22 21:00 | premier league | Bournemouth vs Leeds
+2026-04-22 21:00 | premier league | Burnley vs Manchester City
+2026-04-22 20:30 | pro league | Club Brugge KV vs KV Mechelen
+2026-04-22 20:30 | pro league | Union St. Gilloise vs Gent
+2026-04-22 16:30 | russian premier league | FC Orenburg vs Nizhny Novgorod
+2026-04-22 18:45 | russian premier league | Dynamo vs Rubin
+2026-04-22 18:45 | russian premier league | Lokomotiv vs Zenit
+2026-04-22 15:00 | super league greece | Panserraikos vs Atromitos
+2026-04-22 16:00 | super league greece | Larisa vs Kifisia
+2026-04-22 19:00 | super league greece | Asteras Tripolis vs Panetolikos
+2026-04-22 17:00 | superliga serbia | Radnik Surdulica vs Novi Pazar
+2026-04-22 17:00 | superliga serbia | Vojvodina vs FK Partizan
+2026-04-22 18:30 | superliga serbia | OFK Beograd vs Cukaricki
+2026-04-22 19:00 | superliga serbia | Železničar Pančevo vs FK Crvena Zvezda
+2026-04-22 21:45 | taça de portugal | FC Porto vs Sporting CP

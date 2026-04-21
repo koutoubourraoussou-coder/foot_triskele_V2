@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_SUPER_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_super_random.tsv
-Date run       : 2026-04-21
+Date run       : 2026-04-22
 Output         : data/verdict_post_analyse_tickets_o15_super_random_report.txt
-Whitelist      : ON (14 ids)
+Whitelist      : ON (17 ids)
 Ignorés (hors whitelist) : 497
-Ignorés (date>=today)    : 6
+Ignorés (date>=today)    : 13
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mardi 2026-04-14 18:45→22:50 | code=A2 | odd=2.76
@@ -118,10 +118,26 @@ Ignorés (date>=today)    : 6
    ✅ Leg 4) 19:45 | liga portugal 2 | FC Porto B vs Leixoes | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.3
    ✅ Leg 5) 20:30 | laliga2 | Deportivo La Coruna vs Mirandes | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.3
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Mardi 2026-04-21 18:30→20:50 | code=A2 | odd=2.41
+   id=2026-04-21_1830_942cc016d8_O15SR
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 18:30 | austrian bundesliga | SCR Altach vs WSG Wattens | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.44
+   ✅ Leg 2) 18:45 | russian premier league | CSKA Moscow vs FC Rostov | Over 1.5 (FT) | [MOYEN] | odd=1.26
+   ❌ Leg 3) 19:00 | laliga | Athletic Club vs Osasuna | Over 1.5 (FT) | [EXPLOSION] | odd=1.33
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 2 | Mardi 2026-04-21 21:00→23:20 | code=RESTE | odd=1.95
+   id=2026-04-21_2100_6c84f04304_O15SR
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 21:00 | premier league | Brighton vs Chelsea | Over 1.5 (FT) | [EXPLOSION] | odd=1.25
+   ✅ Leg 2) 21:10 | coupe de france | Lens vs Toulouse | Over 1.5 (FT) | [TRÈS FORT] | odd=1.22
+   ✅ Leg 3) 21:30 | laliga | Girona vs Real Betis | Over 1.5 (FT) | [EXPLOSION] | odd=1.28
+
 ====================================================================
-TOTAL tickets : 12
-✅ WIN     : 6
-❌ LOSS    : 6
+TOTAL tickets : 14
+✅ WIN     : 7
+❌ LOSS    : 7
 ⏳ PENDING : 0
 ====================================================================
 

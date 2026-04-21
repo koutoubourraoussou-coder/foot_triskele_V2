@@ -191,3 +191,19 @@ TSV: 2026-04-21	3006397629	O25_FT	18:45	hnl croatia	HNK Hajduk Split	NK Osijek	1
 TSV: 2026-04-21	4048167692	O25_FT	20:30	austrian bundesliga	Ried	Grazer AK	2.2	1531274	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-21	1522598970	O25_FT	21:10	coupe de france	Lens	Toulouse	1.7	1530105	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O25_SUPER_RANDOM_POOL_EFFECTIVE | 2026-04-22 00:16:36 | run_date=2026-04-22 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-22	2901674157	O25_FT	15:30	hnl croatia	Vukovar	HNK Gorica	1.95	1384073	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-22	145843191	O25_FT	17:00	superliga serbia	Radnik Surdulica	Novi Pazar	2.1	1540274	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-22	1823109757	O25_FT	17:00	superliga serbia	Vojvodina	FK Partizan	1.8	1540275	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-22	129655408	O25_FT	17:45	hnl croatia	NK Varazdin	HNK Rijeka	2.15	1384072	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-22	3357048307	O25_FT	18:30	superliga serbia	OFK Beograd	Cukaricki	1.9	1540273	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-22	4157251565	O25_FT	18:30	austrian bundesliga	Rapid Vienna	TSV Hartberg	1.83	1531246	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-22	1700342700	O25_FT	18:30	austrian bundesliga	Red Bull Salzburg	Austria Vienna	1.65	1531245	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-22	2954342018	O25_FT	19:00	superliga serbia	Železničar Pančevo	FK Crvena Zvezda	1.4	1540276	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-22	3497698556	O25_FT	20:00	eredivisie	Telstar	Sparta Rotterdam	1.57	1381144	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-22	2190281768	O25_FT	20:15	hnl croatia	Istra 1961	Dinamo Zagreb	1.53	1384070	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-22	2827834055	O25_FT	20:30	austrian bundesliga	Sturm Graz	Lask Linz	1.67	1531247	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-22	1160215388	O25_FT	21:00	coupe de france	Strasbourg	Nice	1.8	1530106	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

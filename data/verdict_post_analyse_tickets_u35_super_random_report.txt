@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [U35_SUPER_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_u35_super_random.tsv
-Date run       : 2026-04-21
+Date run       : 2026-04-22
 Output         : data/verdict_post_analyse_tickets_u35_super_random_report.txt
-Whitelist      : ON (12 ids)
+Whitelist      : ON (15 ids)
 Ignorés (hors whitelist) : 184
-Ignorés (date>=today)    : 4
+Ignorés (date>=today)    : 8
 
 ────────────────────────────────────────────────────────────────────
 ❌ Ticket 1 | Jeudi 2026-04-16 18:45→22:50 | code=A2 | odd=3.19
@@ -98,9 +98,18 @@ Ignorés (date>=today)    : 4
    ✅ Leg 4) 21:00 | premier league | Crystal Palace vs West Ham | Under 3.5 (FT) | [FORT PLUS] | odd=1.33
    ✅ Leg 5) 22:15 | liga profesional argentina | Banfield vs Independ. Rivadavia | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.18
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Mardi 2026-04-21 18:45→22:20 | code=A2 | odd=2.78
+   id=2026-04-21_1845_a7799e4028_U35SR
+   legs=4 | WIN=4 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 18:45 | russian premier league | CSKA Moscow vs FC Rostov | Under 3.5 (FT) | [FORT PLUS] | odd=1.31
+   ✅ Leg 2) 19:00 | laliga | Mallorca vs Valencia | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+   ✅ Leg 3) 20:30 | pro league | Genk vs Charleroi | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.36
+   ✅ Leg 4) 20:30 | pro league | Standard Liege vs Antwerp | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+
 ====================================================================
-TOTAL tickets : 11
-✅ WIN     : 4
+TOTAL tickets : 12
+✅ WIN     : 5
 ❌ LOSS    : 7
 ⏳ PENDING : 0
 ====================================================================

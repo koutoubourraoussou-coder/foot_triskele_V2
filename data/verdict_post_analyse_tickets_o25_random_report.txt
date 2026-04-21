@@ -2,9 +2,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O25_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o25_random.tsv
-Date run       : 2026-04-21
+Date run       : 2026-04-22
 Output         : data/verdict_post_analyse_tickets_o25_random_report.txt
-Whitelist      : ON (8 ids)
+Whitelist      : ON (9 ids)
 Ignorés (hors whitelist) : 114
 Ignorés (date>=today)    : 2
 
@@ -58,10 +58,17 @@ Ignorés (date>=today)    : 2
    ✅ Leg 1) 12:00 | ukrainian premier league | Oleksandria vs Veres Rivne | Over 2.5 (FT) | [FAIBLE] | odd=2.5
    ✅ Leg 2) 16:30 | liga i romania | FC Botosani vs Metaloglobus | Over 2.5 (FT) | [FORT PLUS] | odd=1.65
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Mardi 2026-04-21 18:30→20:35 | code=A2 | odd=3.84
+   id=2026-04-21_1830_b27d9f3fc9_O25R
+   legs=2 | WIN=0 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 18:30 | austrian bundesliga | SCR Altach vs WSG Wattens | Over 2.5 (FT) | [TRÈS FORT] | odd=2.3
+   ❌ Leg 2) 18:45 | hnl croatia | HNK Hajduk Split vs NK Osijek | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.67
+
 ====================================================================
-TOTAL tickets : 7
+TOTAL tickets : 8
 ✅ WIN     : 7
-❌ LOSS    : 0
+❌ LOSS    : 1
 ⏳ PENDING : 0
 ====================================================================
 

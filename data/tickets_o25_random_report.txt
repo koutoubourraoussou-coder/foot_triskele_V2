@@ -1,11 +1,11 @@
-TICKETS TRISKÈLE — 2026-04-21 — O25_RANDOM_ALL — depuis predictions.tsv
+TICKETS TRISKÈLE — 2026-04-22 — O25_RANDOM_ALL — depuis predictions.tsv
 =======================================================================
 
-📅 Mardi 2026-04-21 — Tranche 1 (fenêtre ~15min)
------------------------------------------------
+📅 Mercredi 2026-04-22 — Tranche 1 (fenêtre ~90min)
+--------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-21_1830_b27d9f3fc9_O25R — cote = 3.84 — fenêtre 18:30 → 20:35  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-22_1700_f402970157_O25R — cote = 3.29 — fenêtre 17:00 → 20:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 18:30 | austrian bundesliga | SCR Altach vs WSG Wattens | Over 2.5 (FT) | TRÈS FORT | odd=2.3
-  2) 18:45 | hnl croatia | HNK Hajduk Split vs NK Osijek | Over 2.5 (FT) | MOYEN PLUS | odd=1.67
+  1) 17:00 | superliga serbia | Vojvodina vs FK Partizan | Over 2.5 (FT) | TRÈS FORT | odd=1.8
+  2) 18:30 | austrian bundesliga | Rapid Vienna vs TSV Hartberg | Over 2.5 (FT) | FAIBLE | odd=1.83

@@ -2,9 +2,9 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O25_SUPER_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o25_super_random.tsv
-Date run       : 2026-04-21
+Date run       : 2026-04-22
 Output         : data/verdict_post_analyse_tickets_o25_super_random_report.txt
-Whitelist      : ON (7 ids)
+Whitelist      : ON (8 ids)
 Ignorés (hors whitelist) : 135
 Ignorés (date>=today)    : 2
 
@@ -50,10 +50,17 @@ Ignorés (date>=today)    : 2
    ✅ Leg 1) 16:00 | superliga serbia | TSC Backa Topola vs Napredak | Over 2.5 (FT) | [FORT PLUS] | odd=1.63
    ❌ Leg 2) 17:30 | superliga serbia | Javor vs FK Spartak Zdrepceva KRV | Over 2.5 (FT) | [MOYEN PLUS] | odd=2.2
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Mardi 2026-04-21 18:30→20:35 | code=A2 | odd=3.84
+   id=2026-04-21_1830_c45d0d8c3f_O25SR
+   legs=2 | WIN=0 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 18:30 | austrian bundesliga | SCR Altach vs WSG Wattens | Over 2.5 (FT) | [TRÈS FORT] | odd=2.3
+   ❌ Leg 2) 18:45 | hnl croatia | HNK Hajduk Split vs NK Osijek | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.67
+
 ====================================================================
-TOTAL tickets : 6
+TOTAL tickets : 7
 ✅ WIN     : 1
-❌ LOSS    : 5
+❌ LOSS    : 6
 ⏳ PENDING : 0
 ====================================================================
 

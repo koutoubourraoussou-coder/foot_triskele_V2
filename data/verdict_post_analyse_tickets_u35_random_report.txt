@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [U35_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_u35_random.tsv
-Date run       : 2026-04-21
+Date run       : 2026-04-22
 Output         : data/verdict_post_analyse_tickets_u35_random_report.txt
-Whitelist      : ON (12 ids)
+Whitelist      : ON (14 ids)
 Ignorés (hors whitelist) : 113
-Ignorés (date>=today)    : 4
+Ignorés (date>=today)    : 6
 
 ────────────────────────────────────────────────────────────────────
 ❌ Ticket 1 | Jeudi 2026-04-16 18:45→22:50 | code=RESTE | odd=2.16
@@ -98,9 +98,18 @@ Ignorés (date>=today)    : 4
    ✅ Leg 3) 21:00 | premier league | Crystal Palace vs West Ham | Under 3.5 (FT) | [FORT PLUS] | odd=1.33
    ✅ Leg 4) 23:15 | primera división paraguay | Rubio NU vs Libertad Asuncion | Under 3.5 (FT) | [TRÈS FORT] | odd=1.22
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Mardi 2026-04-21 03:30→20:50 | code=A2 | odd=2.77
+   id=2026-04-21_0330_8f1a7a7b64_U35R
+   legs=4 | WIN=4 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 03:30 | primera a colombia | Atletico Nacional vs Bucaramanga | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.28
+   ✅ Leg 2) 16:00 | hnl croatia | NK Lokomotiva Zagreb vs NK Slaven Belupo | Under 3.5 (FT) | [FORT] | odd=1.3
+   ✅ Leg 3) 18:30 | austrian bundesliga | FC BW Linz vs Wolfsberger AC | Under 3.5 (FT) | [FORT] | odd=1.33
+   ✅ Leg 4) 19:00 | laliga | Mallorca vs Valencia | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+
 ====================================================================
-TOTAL tickets : 11
-✅ WIN     : 4
+TOTAL tickets : 12
+✅ WIN     : 5
 ❌ LOSS    : 7
 ⏳ PENDING : 0
 ====================================================================

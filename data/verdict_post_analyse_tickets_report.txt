@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-04-21
+Date run       : 2026-04-22
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (163 ids)
+Whitelist      : ON (166 ids)
 Ignorés (hors whitelist) : 390
-Ignorés (date>=today)    : 6
+Ignorés (date>=today)    : 10
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -1310,10 +1310,26 @@ Ignorés (date>=today)    : 6
    ❌ Leg 2) 20:00 | liga profesional argentina | Barracas Central vs Belgrano Cordoba | Team1 scores (FT) | [MOYEN PLUS] | odd=1.67
    ✅ Leg 3) 20:45 | serie a italia | Lecce vs Fiorentina | Team2 scores (FT) | [FORT] | odd=1.29
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Mardi 2026-04-21 16:30→20:50 | code=A2 | odd=2.57
+   id=2026-04-21_1630_6648032596_SYS
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ✅ Leg 1) 16:30 | russian premier league | FC Sochi vs Krylia Sovetov | Under 3.5 (FT) | [FORT] | odd=1.34
+   ❌ Leg 2) 18:30 | austrian bundesliga | SCR Altach vs WSG Wattens | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.44
+   ❌ Leg 3) 19:00 | laliga | Athletic Club vs Osasuna | Over 1.5 (FT) | [EXPLOSION] | odd=1.33
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Mardi 2026-04-21 21:10→23:20 | code=A2 | odd=2.87
+   id=2026-04-21_2110_506b4f3b3a_SYS
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 21:10 | coupe de france | Lens vs Toulouse | Over 1.5 (FT) | [TRÈS FORT] | odd=1.22
+   ❌ Leg 2) 21:30 | laliga | Girona vs Real Betis | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.36
+   ✅ Leg 3) 21:30 | laliga | Real Madrid vs Alaves | Team2 scores (FT) | [FORT] | odd=1.73
+
 ====================================================================
-TOTAL tickets : 156
+TOTAL tickets : 158
 ✅ WIN     : 54
-❌ LOSS    : 100
+❌ LOSS    : 102
 ⏳ PENDING : 2
 ====================================================================
 

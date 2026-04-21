@@ -1,22 +1,33 @@
-TICKETS TRISKÈLE — 2026-04-21 — SYSTEM — depuis predictions.tsv
+TICKETS TRISKÈLE — 2026-04-22 — SYSTEM — depuis predictions.tsv
 ===============================================================
 
-📅 Mardi 2026-04-21 — Tranche 1 (fenêtre ~150min)
-------------------------------------------------
+📅 Mercredi 2026-04-22 — Tranche 1 (fenêtre ~720min)
+---------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-21_1630_6648032596_SYS — cote = 2.57 — fenêtre 16:30 → 20:50  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-22_0300_3c193cf23a_SYS — cote = 2.52 — fenêtre 03:00 → 16:50  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 16:30 | russian premier league | FC Sochi vs Krylia Sovetov | Under 3.5 (FT) | FORT | odd=1.34
-  2) 18:30 | austrian bundesliga | SCR Altach vs WSG Wattens | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.44
-  3) 19:00 | laliga | Athletic Club vs Osasuna | Over 1.5 (FT) | EXPLOSION | odd=1.33
+  1) 03:00 | liga mx | Club Queretaro vs Cruz Azul | Over 1.5 (FT) | FORT PLUS | odd=1.2
+  2) 05:06 | liga mx | Leon vs Club America | Team1 scores (FT) | MOYEN PLUS | odd=1.4
+  3) 15:00 | super league greece | Panserraikos vs Atromitos | Over 1.5 (FT) | FORT PLUS | odd=1.5
 
-📅 Mardi 2026-04-21 — Tranche 2 (fenêtre ~20min)
------------------------------------------------
+📅 Mercredi 2026-04-22 — Tranche 2 (fenêtre ~90min)
+--------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-21_2110_506b4f3b3a_SYS — cote = 2.87 — fenêtre 21:10 → 23:20  
+  🎟️ TICKET 2.1 (A2) — id=2026-04-22_1700_af4bf135c2_SYS — cote = 2.41 — fenêtre 17:00 → 20:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 21:10 | coupe de france | Lens vs Toulouse | Over 1.5 (FT) | TRÈS FORT | odd=1.22
-  2) 21:30 | laliga | Girona vs Real Betis | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.36
-  3) 21:30 | laliga | Real Madrid vs Alaves | Team2 scores (FT) | FORT | odd=1.73
+  1) 17:00 | superliga serbia | Vojvodina vs FK Partizan | Team1 scores (FT) | MOYEN PLUS | odd=1.18
+  2) 17:00 | superliga serbia | Radnik Surdulica vs Novi Pazar | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
+  3) 18:30 | austrian bundesliga | Red Bull Salzburg vs Austria Vienna | Over 1.5 (FT) | TRÈS FORT | odd=1.2
+  4) 18:30 | superliga serbia | OFK Beograd vs Cukaricki | Over 1.5 (FT) | TRÈS FORT | odd=1.28
+
+📅 Mercredi 2026-04-22 — Tranche 3 (fenêtre ~60min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-22_2030_3b46cdfef8_SYS — cote = 3.06 — fenêtre 20:30 → 23:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:30 | austrian bundesliga | Sturm Graz vs Lask Linz | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  2) 20:30 | pro league | Club Brugge KV vs KV Mechelen | Team2 scores (FT) | FORT PLUS | odd=1.62
+  3) 21:30 | laliga | Barcelona vs Celta Vigo | Team2 scores (FT) | FORT | odd=1.55
