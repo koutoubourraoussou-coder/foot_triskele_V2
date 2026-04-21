@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [U35_SUPER_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_u35_super_random.tsv
-Date run       : 2026-04-20
+Date run       : 2026-04-21
 Output         : data/verdict_post_analyse_tickets_u35_super_random_report.txt
-Whitelist      : ON (11 ids)
-Ignorés (hors whitelist) : 150
-Ignorés (date>=today)    : 5
+Whitelist      : ON (12 ids)
+Ignorés (hors whitelist) : 184
+Ignorés (date>=today)    : 4
 
 ────────────────────────────────────────────────────────────────────
 ❌ Ticket 1 | Jeudi 2026-04-16 18:45→22:50 | code=A2 | odd=3.19
@@ -88,10 +88,20 @@ Ignorés (date>=today)    : 5
    ✅ Leg 1) 19:00 | liga portugal | Sporting CP vs Benfica | Under 3.5 (FT) | [FORT PLUS] | odd=1.42
    ✅ Leg 2) 20:45 | ligue 1 | Paris Saint Germain vs Lyon | Under 3.5 (FT) | [MOYEN PLUS] | odd=1.75
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Lundi 2026-04-20 03:30→00:05 | code=A2 | odd=2.8
+   id=2026-04-20_0330_1c1051eb8b_U35SR
+   legs=5 | WIN=4 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 03:30 | primera a colombia | America de Cali vs Millonarios | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ✅ Leg 2) 17:00 | ukrainian premier league | Shakhtar Donetsk vs Polessya | Under 3.5 (FT) | [FORT] | odd=1.22
+   ✅ Leg 3) 20:45 | serie a italia | Lecce vs Fiorentina | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+   ✅ Leg 4) 21:00 | premier league | Crystal Palace vs West Ham | Under 3.5 (FT) | [FORT PLUS] | odd=1.33
+   ✅ Leg 5) 22:15 | liga profesional argentina | Banfield vs Independ. Rivadavia | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.18
+
 ====================================================================
-TOTAL tickets : 10
+TOTAL tickets : 11
 ✅ WIN     : 4
-❌ LOSS    : 6
+❌ LOSS    : 7
 ⏳ PENDING : 0
 ====================================================================
 

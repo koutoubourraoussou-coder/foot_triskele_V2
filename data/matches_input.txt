@@ -1,25 +1,32 @@
-2026-04-20 19:00 | ekstraklasa | Lechia Gdansk vs Piast Gliwice
-2026-04-20 20:30 | laliga2 | Deportivo La Coruna vs Mirandes
-2026-04-20 16:30 | liga i romania | FC Botosani vs Metaloglobus
-2026-04-20 19:30 | liga i romania | Farul Constanta vs FCSB
-2026-04-20 01:00 | liga mx | Santos Laguna vs Atlas
-2026-04-20 21:15 | liga portugal | Moreirense vs Estoril
-2026-04-20 19:45 | liga portugal 2 | FC Porto B vs Leixoes
-2026-04-20 19:45 | liga portugal 2 | Sporting CP B vs Felgueiras 1932
-2026-04-20 01:10 | liga pro ecuador | Macara vs Barcelona SC
-2026-04-20 01:30 | liga profesional argentina | Rosario Central vs Sarmiento Junin
-2026-04-20 01:30 | liga profesional argentina | Talleres Cordoba vs Deportivo Riestra
-2026-04-20 20:00 | liga profesional argentina | Barracas Central vs Belgrano Cordoba
-2026-04-20 22:15 | liga profesional argentina | Banfield vs Independ. Rivadavia
-2026-04-20 22:15 | liga profesional argentina | Central Cordoba de Santiago vs Platense
-2026-04-20 20:45 | ligue 2 | Dunkerque vs Laval
-2026-04-20 01:00 | mls | Los Angeles FC vs San Jose Earthquakes
-2026-04-20 21:00 | premier league | Crystal Palace vs West Ham
-2026-04-20 01:20 | primera a colombia | Junior vs Llaneros
-2026-04-20 03:30 | primera a colombia | America de Cali vs Millonarios
-2026-04-20 23:15 | primera división paraguay | Rubio NU vs Libertad Asuncion
-2026-04-20 00:30 | serie a brazil | Flamengo vs Bahia
-2026-04-20 20:45 | serie a italia | Lecce vs Fiorentina
-2026-04-20 19:00 | super lig | Gaziantep FK vs Kayserispor
-2026-04-20 12:00 | ukrainian premier league | Oleksandria vs Veres Rivne
-2026-04-20 17:00 | ukrainian premier league | Shakhtar Donetsk vs Polessya
+2026-04-21 18:30 | austrian bundesliga | FC BW Linz vs Wolfsberger AC
+2026-04-21 18:30 | austrian bundesliga | SCR Altach vs WSG Wattens
+2026-04-21 20:30 | austrian bundesliga | Ried vs Grazer AK
+2026-04-21 20:45 | championship | Coventry vs Portsmouth
+2026-04-21 20:45 | championship | Leicester vs Hull City
+2026-04-21 20:45 | championship | Norwich vs Derby
+2026-04-21 20:45 | championship | Oxford United vs Wrexham
+2026-04-21 20:45 | championship | QPR vs Swansea
+2026-04-21 20:45 | championship | Southampton vs Bristol City
+2026-04-21 20:45 | championship | Stoke City vs Millwall
+2026-04-21 20:45 | championship | West Brom vs Watford
+2026-04-21 21:10 | coupe de france | Lens vs Toulouse
+2026-04-21 17:00 | cup | FK Jablonec vs Mlada Boleslav
+2026-04-21 20:00 | cup | Karviná vs Baník Ostrava
+2026-04-21 16:00 | hnl croatia | NK Lokomotiva Zagreb vs NK Slaven Belupo
+2026-04-21 18:45 | hnl croatia | HNK Hajduk Split vs NK Osijek
+2026-04-21 19:00 | laliga | Athletic Club vs Osasuna
+2026-04-21 19:00 | laliga | Mallorca vs Valencia
+2026-04-21 21:30 | laliga | Girona vs Real Betis
+2026-04-21 21:30 | laliga | Real Madrid vs Alaves
+2026-04-21 00:30 | liga profesional argentina | San Lorenzo vs Velez Sarsfield
+2026-04-21 02:45 | liga profesional argentina | Gimnasia M. vs Lanus
+2026-04-21 02:45 | liga profesional argentina | Tigre vs Huracan
+2026-04-21 21:00 | premier league | Brighton vs Chelsea
+2026-04-21 01:20 | primera a colombia | Once Caldas vs Internacional de Bogota
+2026-04-21 03:30 | primera a colombia | Atletico Nacional vs Bucaramanga
+2026-04-21 01:30 | primera división paraguay | Sportivo Ameliano vs Nacional Asuncion
+2026-04-21 20:30 | pro league | Genk vs Charleroi
+2026-04-21 20:30 | pro league | OH Leuven vs KVC Westerlo
+2026-04-21 20:30 | pro league | Standard Liege vs Antwerp
+2026-04-21 16:30 | russian premier league | FC Sochi vs Krylia Sovetov
+2026-04-21 18:45 | russian premier league | CSKA Moscow vs FC Rostov

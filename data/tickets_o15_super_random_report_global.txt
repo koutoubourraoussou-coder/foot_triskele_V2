@@ -146,6 +146,27 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
 
 
 # ------------------------------------------------------------------
+# APPEND O15_SUPER_RANDOM | 2026-04-21 22:22:23 | run_date=2026-04-21 | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-21_1830_942cc016d8_O15SR — cote = 2.41 — fenêtre 18:30 → 20:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 18:30 | austrian bundesliga | SCR Altach vs WSG Wattens | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.44
+  2) 18:45 | russian premier league | CSKA Moscow vs FC Rostov | Over 1.5 (FT) | MOYEN | odd=1.26
+  3) 19:00 | laliga | Athletic Club vs Osasuna | Over 1.5 (FT) | EXPLOSION | odd=1.33
+
+📅 Mardi 2026-04-21 — Tranche 2
+------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (RESTE) — id=2026-04-21_2100_6c84f04304_O15SR — cote = 1.95 — fenêtre 21:00 → 23:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 21:00 | premier league | Brighton vs Chelsea | Over 1.5 (FT) | EXPLOSION | odd=1.25
+  2) 21:10 | coupe de france | Lens vs Toulouse | Over 1.5 (FT) | TRÈS FORT | odd=1.22
+  3) 21:30 | laliga | Girona vs Real Betis | Over 1.5 (FT) | EXPLOSION | odd=1.28
+
+
+# ------------------------------------------------------------------
 # APPEND O15_SUPER_RANDOM | 2026-04-18 14:59:59 | run_date=ALL | source=predictions.tsv
 # ------------------------------------------------------------------
 

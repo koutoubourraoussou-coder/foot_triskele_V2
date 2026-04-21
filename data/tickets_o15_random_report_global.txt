@@ -1291,6 +1291,29 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
 
 
 # ------------------------------------------------------------------
+# APPEND O15_RANDOM_ALL | 2026-04-21 22:22:22 | run_date=2026-04-21 | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-21_1600_7fd036ef14_O15R — cote = 2.83 — fenêtre 16:00 → 20:35  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:00 | hnl croatia | NK Lokomotiva Zagreb vs NK Slaven Belupo | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3
+  2) 18:30 | austrian bundesliga | SCR Altach vs WSG Wattens | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.44
+  3) 18:45 | russian premier league | CSKA Moscow vs FC Rostov | Over 1.5 (FT) | MOYEN | odd=1.26
+  4) 18:45 | hnl croatia | HNK Hajduk Split vs NK Osijek | Over 1.5 (FT) | TRÈS FORT | odd=1.2
+
+📅 Mardi 2026-04-21 — Tranche 2 (fenêtre ~45min)
+-----------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-21_2045_a3c9e79854_O15R — cote = 2.6 — fenêtre 20:45 → 23:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:45 | championship | Stoke City vs Millwall | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+  2) 20:45 | championship | QPR vs Swansea | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
+  3) 20:45 | championship | Leicester vs Hull City | Over 1.5 (FT) | MOYEN PLUS | odd=1.25
+  4) 21:30 | laliga | Girona vs Real Betis | Over 1.5 (FT) | EXPLOSION | odd=1.28
+
+
+# ------------------------------------------------------------------
 # APPEND O15_RANDOM_ALL | 2026-03-28 00:25:46 | run_date=ALL | source=predictions.tsv
 # ------------------------------------------------------------------
 

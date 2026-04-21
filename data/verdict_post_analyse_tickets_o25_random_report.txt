@@ -2,10 +2,10 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O25_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o25_random.tsv
-Date run       : 2026-04-20
+Date run       : 2026-04-21
 Output         : data/verdict_post_analyse_tickets_o25_random_report.txt
-Whitelist      : ON (7 ids)
-Ignorés (hors whitelist) : 78
+Whitelist      : ON (8 ids)
+Ignorés (hors whitelist) : 114
 Ignorés (date>=today)    : 2
 
 ────────────────────────────────────────────────────────────────────
@@ -51,9 +51,16 @@ Ignorés (date>=today)    : 2
    ✅ Leg 1) 19:00 | liga portugal | Sporting CP vs Benfica | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.73
    ✅ Leg 2) 21:00 | laliga2 | Almeria vs Malaga | Over 2.5 (FT) | [EXPLOSION] | odd=1.62
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Lundi 2026-04-20 12:00→18:20 | code=A2 | odd=4.12
+   id=2026-04-20_1200_f2bbef4b36_O25R
+   legs=2 | WIN=2 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 12:00 | ukrainian premier league | Oleksandria vs Veres Rivne | Over 2.5 (FT) | [FAIBLE] | odd=2.5
+   ✅ Leg 2) 16:30 | liga i romania | FC Botosani vs Metaloglobus | Over 2.5 (FT) | [FORT PLUS] | odd=1.65
+
 ====================================================================
-TOTAL tickets : 6
-✅ WIN     : 6
+TOTAL tickets : 7
+✅ WIN     : 7
 ❌ LOSS    : 0
 ⏳ PENDING : 0
 ====================================================================

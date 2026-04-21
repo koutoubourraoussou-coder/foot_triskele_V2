@@ -2,10 +2,10 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [U35_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_u35_random.tsv
-Date run       : 2026-04-20
+Date run       : 2026-04-21
 Output         : data/verdict_post_analyse_tickets_u35_random_report.txt
-Whitelist      : ON (11 ids)
-Ignorés (hors whitelist) : 91
+Whitelist      : ON (12 ids)
+Ignorés (hors whitelist) : 113
 Ignorés (date>=today)    : 4
 
 ────────────────────────────────────────────────────────────────────
@@ -89,10 +89,19 @@ Ignorés (date>=today)    : 4
    ✅ Leg 3) 22:30 | primera división paraguay | Olimpia vs Cerro Porteno | Under 3.5 (FT) | [MOYEN PLUS] | odd=1.28
    ❌ Leg 4) 23:30 | serie a brazil | RB Bragantino vs Remo | Under 3.5 (FT) | [MOYEN PLUS] | odd=1.35
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Lundi 2026-04-20 03:30→01:05 | code=A2 | odd=2.43
+   id=2026-04-20_0330_b5ff91830d_U35R
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 03:30 | primera a colombia | America de Cali vs Millonarios | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ✅ Leg 2) 19:45 | liga portugal 2 | Sporting CP B vs Felgueiras 1932 | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+   ✅ Leg 3) 21:00 | premier league | Crystal Palace vs West Ham | Under 3.5 (FT) | [FORT PLUS] | odd=1.33
+   ✅ Leg 4) 23:15 | primera división paraguay | Rubio NU vs Libertad Asuncion | Under 3.5 (FT) | [TRÈS FORT] | odd=1.22
+
 ====================================================================
-TOTAL tickets : 10
+TOTAL tickets : 11
 ✅ WIN     : 4
-❌ LOSS    : 6
+❌ LOSS    : 7
 ⏳ PENDING : 0
 ====================================================================
 

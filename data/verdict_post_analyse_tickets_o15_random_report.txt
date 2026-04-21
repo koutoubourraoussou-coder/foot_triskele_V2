@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-04-20
+Date run       : 2026-04-21
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (151 ids)
-Ignorés (hors whitelist) : 122
-Ignorés (date>=today)    : 3
+Whitelist      : ON (153 ids)
+Ignorés (hors whitelist) : 326
+Ignorés (date>=today)    : 8
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -1267,10 +1267,18 @@ Ignorés (date>=today)    : 3
    ✅ Leg 2) 19:00 | liga portugal | Sporting CP vs Benfica | Over 1.5 (FT) | [FORT PLUS] | odd=1.22
    ❌ Leg 3) 23:10 | primera a colombia | Alianza Valledupar vs Independiente Medellin | Over 1.5 (FT) | [MOYEN] | odd=1.42
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Lundi 2026-04-20 03:30→00:05 | code=A2 | odd=2.81
+   id=2026-04-20_0330_61bb9592d5_O15R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 03:30 | primera a colombia | America de Cali vs Millonarios | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.44
+   ✅ Leg 2) 20:30 | laliga2 | Deportivo La Coruna vs Mirandes | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.3
+   ❌ Leg 3) 22:15 | liga profesional argentina | Banfield vs Independ. Rivadavia | Over 1.5 (FT) | [FORT] | odd=1.5
+
 ====================================================================
-TOTAL tickets : 150
+TOTAL tickets : 151
 ✅ WIN     : 65
-❌ LOSS    : 82
+❌ LOSS    : 83
 ⏳ PENDING : 3
 ====================================================================
 

@@ -3658,3 +3658,79 @@ TSV: 2026-04-17	1653570339	TEAM1_SCORE_FT	01:30	liga profesional argentina	Union
 TSV: 2026-04-04	4169536677	TEAM1_SCORE_FT	01:30	mls	New York City FC	St. Louis City	1.15	1490187	SYSTEM_POOL_BASE	predictions.tsv
 TSV: 2026-04-19	1914465191	TEAM1_SCORE_FT	01:30	liga profesional argentina	Rosario Central	Sarmiento Junin	1.15	1492038	SYSTEM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-04-21 22:22:20 | run_date=2026-04-21 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-21	2414226052	O15_FT	02:45	liga profesional argentina	Gimnasia M.	Lanus	1.65	1492034	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	549206952	O15_FT	03:30	primera a colombia	Atletico Nacional	Bucaramanga	1.33	1506096	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	549206952	U35_FT	03:30	primera a colombia	Atletico Nacional	Bucaramanga	1.28	1506096	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	889463155	O15_FT	16:00	hnl croatia	NK Lokomotiva Zagreb	NK Slaven Belupo	1.3	1384071	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	889463155	U35_FT	16:00	hnl croatia	NK Lokomotiva Zagreb	NK Slaven Belupo	1.3	1384071	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	889463155	TEAM1_SCORE_FT	16:00	hnl croatia	NK Lokomotiva Zagreb	NK Slaven Belupo	1.21	1384071	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3502218569	U35_FT	16:30	russian premier league	FC Sochi	Krylia Sovetov	1.34	1400236	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3502218569	O15_FT	16:30	russian premier league	FC Sochi	Krylia Sovetov	1.26	1400236	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3362125720	O25_FT	17:00	cup	FK Jablonec	Mlada Boleslav	2.05	1533841	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3362125720	O15_FT	17:00	cup	FK Jablonec	Mlada Boleslav	1.3	1533841	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3362125720	U35_FT	17:00	cup	FK Jablonec	Mlada Boleslav	1.28	1533841	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	2637417134	O25_FT	18:30	austrian bundesliga	SCR Altach	WSG Wattens	2.3	1531272	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	2637417134	O15_FT	18:30	austrian bundesliga	SCR Altach	WSG Wattens	1.44	1531272	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	4196942357	U35_FT	18:30	austrian bundesliga	FC BW Linz	Wolfsberger AC	1.33	1531273	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	2637417134	TEAM1_SCORE_FT	18:30	austrian bundesliga	SCR Altach	WSG Wattens	1.3	1531272	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	4196942357	O15_FT	18:30	austrian bundesliga	FC BW Linz	Wolfsberger AC	1.28	1531273	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	656190111	U35_FT	18:45	russian premier league	CSKA Moscow	FC Rostov	1.31	1400233	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3006397629	O15_FT	18:45	hnl croatia	HNK Hajduk Split	NK Osijek	1.2	1384069	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	1488882126	TEAM2_SCORE_FT	19:00	laliga	Athletic Club	Osasuna	1.53	1391139	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	123740500	TEAM2_SCORE_FT	19:00	laliga	Mallorca	Valencia	1.4	1391144	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	123740500	O15_FT	19:00	laliga	Mallorca	Valencia	1.38	1391144	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	1488882126	O15_FT	19:00	laliga	Athletic Club	Osasuna	1.33	1391139	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	1488882126	U35_FT	19:00	laliga	Athletic Club	Osasuna	1.3	1391139	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	123740500	U35_FT	19:00	laliga	Mallorca	Valencia	1.25	1391144	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3760097849	O25_FT	20:00	cup	Karviná	Baník Ostrava	1.85	1533842	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3760097849	U35_FT	20:00	cup	Karviná	Baník Ostrava	1.36	1533842	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3760097849	O15_FT	20:00	cup	Karviná	Baník Ostrava	1.25	1533842	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	409063098	U35_FT	20:30	pro league	OH Leuven	KVC Westerlo	1.44	1536946	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	4048167692	O15_FT	20:30	austrian bundesliga	Ried	Grazer AK	1.4	1531274	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	2862389126	U35_FT	20:30	pro league	Genk	Charleroi	1.36	1536947	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3686913868	O15_FT	20:30	pro league	Standard Liege	Antwerp	1.36	1536945	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3686913868	TEAM1_SCORE_FT	20:30	pro league	Standard Liege	Antwerp	1.35	1536945	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	4048167692	TEAM1_SCORE_FT	20:30	austrian bundesliga	Ried	Grazer AK	1.25	1531274	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	2862389126	O15_FT	20:30	pro league	Genk	Charleroi	1.25	1536947	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3686913868	U35_FT	20:30	pro league	Standard Liege	Antwerp	1.25	1536945	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	4048167692	U35_FT	20:30	austrian bundesliga	Ried	Grazer AK	1.22	1531274	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	409063098	O15_FT	20:30	pro league	OH Leuven	KVC Westerlo	1.2	1536946	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	2862389126	TEAM1_SCORE_FT	20:30	pro league	Genk	Charleroi	1.15	1536947	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	4259393226	O25_FT	20:45	championship	QPR	Swansea	2	1387070	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	2271166704	O25_FT	20:45	championship	Southampton	Bristol City	1.65	1387073	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	864496171	U35_FT	20:45	championship	Coventry	Portsmouth	1.45	1387069	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	2437305380	U35_FT	20:45	championship	Stoke City	Millwall	1.45	1387074	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	2330555372	U35_FT	20:45	championship	Leicester	Hull City	1.42	1387077	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3434568051	U35_FT	20:45	championship	Norwich	Derby	1.38	1387067	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3366619770	O15_FT	20:45	championship	Oxford United	Wrexham	1.38	1387068	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	2330555372	TEAM2_SCORE_FT	20:45	championship	Leicester	Hull City	1.36	1387077	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3434568051	TEAM2_SCORE_FT	20:45	championship	Norwich	Derby	1.35	1387067	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	4259393226	O15_FT	20:45	championship	QPR	Swansea	1.33	1387070	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3366619770	TEAM1_SCORE_FT	20:45	championship	Oxford United	Wrexham	1.3	1387068	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	4259393226	U35_FT	20:45	championship	QPR	Swansea	1.3	1387070	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3628115025	O15_FT	20:45	championship	West Brom	Watford	1.3	1387072	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3628115025	U35_FT	20:45	championship	West Brom	Watford	1.3	1387072	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	2330555372	O15_FT	20:45	championship	Leicester	Hull City	1.25	1387077	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3434568051	O15_FT	20:45	championship	Norwich	Derby	1.25	1387067	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3366619770	U35_FT	20:45	championship	Oxford United	Wrexham	1.25	1387068	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	864496171	O15_FT	20:45	championship	Coventry	Portsmouth	1.22	1387069	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	2437305380	O15_FT	20:45	championship	Stoke City	Millwall	1.22	1387074	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	2330555372	TEAM1_SCORE_FT	20:45	championship	Leicester	Hull City	1.2	1387077	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	2271166704	O15_FT	20:45	championship	Southampton	Bristol City	1.2	1387073	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	2437305380	TEAM2_SCORE_FT	20:45	championship	Stoke City	Millwall	1.17	1387074	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3628115025	TEAM1_SCORE_FT	20:45	championship	West Brom	Watford	1.17	1387072	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3872725935	O25_FT	21:00	premier league	Brighton	Chelsea	1.77	1379301	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3872725935	O15_FT	21:00	premier league	Brighton	Chelsea	1.25	1379301	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	3872725935	TEAM1_SCORE_FT	21:00	premier league	Brighton	Chelsea	1.22	1379301	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	1522598970	O25_FT	21:10	coupe de france	Lens	Toulouse	1.7	1530105	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	1522598970	O15_FT	21:10	coupe de france	Lens	Toulouse	1.22	1530105	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	2151988857	TEAM2_SCORE_FT	21:30	laliga	Real Madrid	Alaves	1.73	1391146	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	2151988857	O25_FT	21:30	laliga	Real Madrid	Alaves	1.4	1391146	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	1407424813	U35_FT	21:30	laliga	Girona	Real Betis	1.36	1391142	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	1407424813	TEAM2_SCORE_FT	21:30	laliga	Girona	Real Betis	1.3	1391142	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	1407424813	O15_FT	21:30	laliga	Girona	Real Betis	1.28	1391142	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-21	1407424813	TEAM1_SCORE_FT	21:30	laliga	Girona	Real Betis	1.25	1391142	SYSTEM_POOL_BASE	predictions.tsv
+

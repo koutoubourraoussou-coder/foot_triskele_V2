@@ -1446,3 +1446,32 @@ TSV: 2026-03-18	829320109	O15_FT	23:00	serie a brazil	Bahia	RB Bragantino	1.3	14
 TSV: 2026-03-19	2794348141	O15_FT	23:00	serie a brazil	Gremio	Vitoria	1.3	1492175	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-03-18	2954677499	O15_FT	23:30	serie a brazil	Atletico Paranaense	Cruzeiro	1.36	1492170	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_EFFECTIVE | 2026-04-21 22:22:21 | run_date=2026-04-21 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-21	889463155	O15_FT	16:00	hnl croatia	NK Lokomotiva Zagreb	NK Slaven Belupo	1.3	1384071	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	3502218569	O15_FT	16:30	russian premier league	FC Sochi	Krylia Sovetov	1.26	1400236	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	3362125720	O15_FT	17:00	cup	FK Jablonec	Mlada Boleslav	1.3	1533841	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	2637417134	O15_FT	18:30	austrian bundesliga	SCR Altach	WSG Wattens	1.44	1531272	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	4196942357	O15_FT	18:30	austrian bundesliga	FC BW Linz	Wolfsberger AC	1.28	1531273	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	656190111	O15_FT	18:45	russian premier league	CSKA Moscow	FC Rostov	1.26	1400233	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	3006397629	O15_FT	18:45	hnl croatia	HNK Hajduk Split	NK Osijek	1.2	1384069	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	123740500	O15_FT	19:00	laliga	Mallorca	Valencia	1.38	1391144	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	1488882126	O15_FT	19:00	laliga	Athletic Club	Osasuna	1.33	1391139	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	3760097849	O15_FT	20:00	cup	Karviná	Baník Ostrava	1.25	1533842	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	4048167692	O15_FT	20:30	austrian bundesliga	Ried	Grazer AK	1.4	1531274	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	3686913868	O15_FT	20:30	pro league	Standard Liege	Antwerp	1.36	1536945	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	2862389126	O15_FT	20:30	pro league	Genk	Charleroi	1.25	1536947	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	409063098	O15_FT	20:30	pro league	OH Leuven	KVC Westerlo	1.2	1536946	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	3366619770	O15_FT	20:45	championship	Oxford United	Wrexham	1.38	1387068	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	4259393226	O15_FT	20:45	championship	QPR	Swansea	1.33	1387070	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	3628115025	O15_FT	20:45	championship	West Brom	Watford	1.3	1387072	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	2330555372	O15_FT	20:45	championship	Leicester	Hull City	1.25	1387077	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	3434568051	O15_FT	20:45	championship	Norwich	Derby	1.25	1387067	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	864496171	O15_FT	20:45	championship	Coventry	Portsmouth	1.22	1387069	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	2437305380	O15_FT	20:45	championship	Stoke City	Millwall	1.22	1387074	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	2271166704	O15_FT	20:45	championship	Southampton	Bristol City	1.2	1387073	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	3872725935	O15_FT	21:00	premier league	Brighton	Chelsea	1.25	1379301	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	1522598970	O15_FT	21:10	coupe de france	Lens	Toulouse	1.22	1530105	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	1407424813	O15_FT	21:30	laliga	Girona	Real Betis	1.28	1391142	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

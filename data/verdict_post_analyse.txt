@@ -29192,3 +29192,192 @@ TSV: 1041437228	2026-04-19	serie a brazil	RB Bragantino	Remo	O25_FT	Over 2.5 (FT
 TSV: 1041437228	2026-04-19	serie a brazil	RB Bragantino	Remo	U35_FT	Under 3.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1492220	4-2	2-2	23:30
 TSV: 1041437228	2026-04-19	serie a brazil	RB Bragantino	Remo	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1492220	4-2	2-2	23:30
 TSV: 1041437228	2026-04-19	serie a brazil	RB Bragantino	Remo	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1492220	4-2	2-2	23:30
+TSV: 1737640317	2026-04-20	liga profesional argentina	San Lorenzo	Velez Sarsfield	HT05	HT+0.5	1.0	FAIBLE	0	GOOD_NO_BET	FT	1492039	0-0	0-0	00:30
+TSV: 1737640317	2026-04-20	liga profesional argentina	San Lorenzo	Velez Sarsfield	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1492039	0-0	0-0	00:30
+TSV: 1737640317	2026-04-20	liga profesional argentina	San Lorenzo	Velez Sarsfield	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1492039	0-0	0-0	00:30
+TSV: 1737640317	2026-04-20	liga profesional argentina	San Lorenzo	Velez Sarsfield	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492039	0-0	0-0	00:30
+TSV: 1737640317	2026-04-20	liga profesional argentina	San Lorenzo	Velez Sarsfield	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	LOSS	FT	1492039	0-0	0-0	00:30
+TSV: 1737640317	2026-04-20	liga profesional argentina	San Lorenzo	Velez Sarsfield	O25_FT	Over 2.5 (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492039	0-0	0-0	00:30
+TSV: 1737640317	2026-04-20	liga profesional argentina	San Lorenzo	Velez Sarsfield	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1492039	0-0	0-0	00:30
+TSV: 1737640317	2026-04-20	liga profesional argentina	San Lorenzo	Velez Sarsfield	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492039	0-0	0-0	00:30
+TSV: 1737640317	2026-04-20	liga profesional argentina	San Lorenzo	Velez Sarsfield	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492039	0-0	0-0	00:30
+TSV: 3424517368	2026-04-20	primera a colombia	Once Caldas	Internacional de Bogota	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1506095	2-1	1-0	01:20
+TSV: 3424517368	2026-04-20	primera a colombia	Once Caldas	Internacional de Bogota	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1506095	2-1	1-0	01:20
+TSV: 3424517368	2026-04-20	primera a colombia	Once Caldas	Internacional de Bogota	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1506095	2-1	1-0	01:20
+TSV: 3424517368	2026-04-20	primera a colombia	Once Caldas	Internacional de Bogota	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1506095	2-1	1-0	01:20
+TSV: 3424517368	2026-04-20	primera a colombia	Once Caldas	Internacional de Bogota	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1506095	2-1	1-0	01:20
+TSV: 3424517368	2026-04-20	primera a colombia	Once Caldas	Internacional de Bogota	O25_FT	Over 2.5 (FT)	0.0	KO	0	BAD_NO_BET	FT	1506095	2-1	1-0	01:20
+TSV: 3424517368	2026-04-20	primera a colombia	Once Caldas	Internacional de Bogota	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1506095	2-1	1-0	01:20
+TSV: 3424517368	2026-04-20	primera a colombia	Once Caldas	Internacional de Bogota	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1506095	2-1	1-0	01:20
+TSV: 3424517368	2026-04-20	primera a colombia	Once Caldas	Internacional de Bogota	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506095	2-1	1-0	01:20
+TSV: 3910331196	2026-04-20	primera división paraguay	Sportivo Ameliano	Nacional Asuncion	HT05	HT+0.5	0.0	KO	0	BAD_NO_BET	FT	1505055	1-1	1-1	01:30
+TSV: 3910331196	2026-04-20	primera división paraguay	Sportivo Ameliano	Nacional Asuncion	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1505055	1-1	1-1	01:30
+TSV: 3910331196	2026-04-20	primera división paraguay	Sportivo Ameliano	Nacional Asuncion	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1505055	1-1	1-1	01:30
+TSV: 3910331196	2026-04-20	primera división paraguay	Sportivo Ameliano	Nacional Asuncion	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1505055	1-1	1-1	01:30
+TSV: 3910331196	2026-04-20	primera división paraguay	Sportivo Ameliano	Nacional Asuncion	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	WIN	FT	1505055	1-1	1-1	01:30
+TSV: 3910331196	2026-04-20	primera división paraguay	Sportivo Ameliano	Nacional Asuncion	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1505055	1-1	1-1	01:30
+TSV: 3910331196	2026-04-20	primera división paraguay	Sportivo Ameliano	Nacional Asuncion	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1505055	1-1	1-1	01:30
+TSV: 3910331196	2026-04-20	primera división paraguay	Sportivo Ameliano	Nacional Asuncion	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1505055	1-1	1-1	01:30
+TSV: 3910331196	2026-04-20	primera división paraguay	Sportivo Ameliano	Nacional Asuncion	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1505055	1-1	1-1	01:30
+TSV: 3703241535	2026-04-20	primera a colombia	America de Cali	Millonarios	HT05	HT+0.5	2.0	MOYEN	0	BAD_NO_BET	FT	1506092	3-1	2-0	03:30
+TSV: 3703241535	2026-04-20	primera a colombia	America de Cali	Millonarios	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1506092	3-1	2-0	03:30
+TSV: 3703241535	2026-04-20	primera a colombia	America de Cali	Millonarios	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1506092	3-1	2-0	03:30
+TSV: 3703241535	2026-04-20	primera a colombia	America de Cali	Millonarios	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	WIN	FT	1506092	3-1	2-0	03:30
+TSV: 3703241535	2026-04-20	primera a colombia	America de Cali	Millonarios	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1506092	3-1	2-0	03:30
+TSV: 3703241535	2026-04-20	primera a colombia	America de Cali	Millonarios	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1506092	3-1	2-0	03:30
+TSV: 3703241535	2026-04-20	primera a colombia	America de Cali	Millonarios	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1506092	3-1	2-0	03:30
+TSV: 3703241535	2026-04-20	primera a colombia	America de Cali	Millonarios	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1506092	3-1	2-0	03:30
+TSV: 3703241535	2026-04-20	primera a colombia	America de Cali	Millonarios	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1506092	3-1	2-0	03:30
+TSV: 2660558068	2026-04-20	ukrainian premier league	Oleksandria	Veres Rivne	HT05	HT+0.5	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1396801	0-3	0-2	12:00
+TSV: 2660558068	2026-04-20	ukrainian premier league	Oleksandria	Veres Rivne	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	LOSS	FT	1396801	0-3	0-2	12:00
+TSV: 2660558068	2026-04-20	ukrainian premier league	Oleksandria	Veres Rivne	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1396801	0-3	0-2	12:00
+TSV: 2660558068	2026-04-20	ukrainian premier league	Oleksandria	Veres Rivne	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1396801	0-3	0-2	12:00
+TSV: 2660558068	2026-04-20	ukrainian premier league	Oleksandria	Veres Rivne	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	WIN	FT	1396801	0-3	0-2	12:00
+TSV: 2660558068	2026-04-20	ukrainian premier league	Oleksandria	Veres Rivne	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1396801	0-3	0-2	12:00
+TSV: 2660558068	2026-04-20	ukrainian premier league	Oleksandria	Veres Rivne	U35_FT	Under 3.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1396801	0-3	0-2	12:00
+TSV: 2660558068	2026-04-20	ukrainian premier league	Oleksandria	Veres Rivne	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1396801	0-3	0-2	12:00
+TSV: 2660558068	2026-04-20	ukrainian premier league	Oleksandria	Veres Rivne	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1396801	0-3	0-2	12:00
+TSV: 1913594856	2026-04-20	liga i romania	FC Botosani	Metaloglobus	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1531524	3-2	1-1	16:30
+TSV: 1913594856	2026-04-20	liga i romania	FC Botosani	Metaloglobus	HT1X_HOME	HT 1X Home	1.0	FAIBLE	0	BAD_NO_BET	FT	1531524	3-2	1-1	16:30
+TSV: 1913594856	2026-04-20	liga i romania	FC Botosani	Metaloglobus	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1531524	3-2	1-1	16:30
+TSV: 1913594856	2026-04-20	liga i romania	FC Botosani	Metaloglobus	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1531524	3-2	1-1	16:30
+TSV: 1913594856	2026-04-20	liga i romania	FC Botosani	Metaloglobus	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1531524	3-2	1-1	16:30
+TSV: 1913594856	2026-04-20	liga i romania	FC Botosani	Metaloglobus	O25_FT	Over 2.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1531524	3-2	1-1	16:30
+TSV: 1913594856	2026-04-20	liga i romania	FC Botosani	Metaloglobus	U35_FT	Under 3.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1531524	3-2	1-1	16:30
+TSV: 1913594856	2026-04-20	liga i romania	FC Botosani	Metaloglobus	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1531524	3-2	1-1	16:30
+TSV: 1913594856	2026-04-20	liga i romania	FC Botosani	Metaloglobus	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1531524	3-2	1-1	16:30
+TSV: 1718191185	2026-04-20	ukrainian premier league	Shakhtar Donetsk	Polessya	HT05	HT+0.5	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1391598	1-0	0-0	17:00
+TSV: 1718191185	2026-04-20	ukrainian premier league	Shakhtar Donetsk	Polessya	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	WIN	FT	1391598	1-0	0-0	17:00
+TSV: 1718191185	2026-04-20	ukrainian premier league	Shakhtar Donetsk	Polessya	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1391598	1-0	0-0	17:00
+TSV: 1718191185	2026-04-20	ukrainian premier league	Shakhtar Donetsk	Polessya	TEAM2_SCORE_FT	Team2 scores (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1391598	1-0	0-0	17:00
+TSV: 1718191185	2026-04-20	ukrainian premier league	Shakhtar Donetsk	Polessya	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	LOSS	FT	1391598	1-0	0-0	17:00
+TSV: 1718191185	2026-04-20	ukrainian premier league	Shakhtar Donetsk	Polessya	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1391598	1-0	0-0	17:00
+TSV: 1718191185	2026-04-20	ukrainian premier league	Shakhtar Donetsk	Polessya	U35_FT	Under 3.5 (FT)	4.0	FORT	1	WIN	FT	1391598	1-0	0-0	17:00
+TSV: 1718191185	2026-04-20	ukrainian premier league	Shakhtar Donetsk	Polessya	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1391598	1-0	0-0	17:00
+TSV: 1718191185	2026-04-20	ukrainian premier league	Shakhtar Donetsk	Polessya	TEAM2_WIN_FT	Team2 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1391598	1-0	0-0	17:00
+TSV: 2306675108	2026-04-20	ekstraklasa	Lechia Gdansk	Piast Gliwice	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	LOSS	FT	1380639	1-1	0-0	19:00
+TSV: 2306675108	2026-04-20	ekstraklasa	Lechia Gdansk	Piast Gliwice	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1380639	1-1	0-0	19:00
+TSV: 2306675108	2026-04-20	ekstraklasa	Lechia Gdansk	Piast Gliwice	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	WIN	FT	1380639	1-1	0-0	19:00
+TSV: 2306675108	2026-04-20	ekstraklasa	Lechia Gdansk	Piast Gliwice	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	WIN	FT	1380639	1-1	0-0	19:00
+TSV: 2306675108	2026-04-20	ekstraklasa	Lechia Gdansk	Piast Gliwice	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1380639	1-1	0-0	19:00
+TSV: 2306675108	2026-04-20	ekstraklasa	Lechia Gdansk	Piast Gliwice	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1380639	1-1	0-0	19:00
+TSV: 2306675108	2026-04-20	ekstraklasa	Lechia Gdansk	Piast Gliwice	U35_FT	Under 3.5 (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1380639	1-1	0-0	19:00
+TSV: 2306675108	2026-04-20	ekstraklasa	Lechia Gdansk	Piast Gliwice	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1380639	1-1	0-0	19:00
+TSV: 2306675108	2026-04-20	ekstraklasa	Lechia Gdansk	Piast Gliwice	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1380639	1-1	0-0	19:00
+TSV: 1674544320	2026-04-20	super lig	Gaziantep FK	Kayserispor	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1394696	3-0	2-0	19:00
+TSV: 1674544320	2026-04-20	super lig	Gaziantep FK	Kayserispor	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	WIN	FT	1394696	3-0	2-0	19:00
+TSV: 1674544320	2026-04-20	super lig	Gaziantep FK	Kayserispor	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	WIN	FT	1394696	3-0	2-0	19:00
+TSV: 1674544320	2026-04-20	super lig	Gaziantep FK	Kayserispor	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1394696	3-0	2-0	19:00
+TSV: 1674544320	2026-04-20	super lig	Gaziantep FK	Kayserispor	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1394696	3-0	2-0	19:00
+TSV: 1674544320	2026-04-20	super lig	Gaziantep FK	Kayserispor	O25_FT	Over 2.5 (FT)	4.0	FORT	1	WIN	FT	1394696	3-0	2-0	19:00
+TSV: 1674544320	2026-04-20	super lig	Gaziantep FK	Kayserispor	U35_FT	Under 3.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1394696	3-0	2-0	19:00
+TSV: 1674544320	2026-04-20	super lig	Gaziantep FK	Kayserispor	TEAM1_WIN_FT	Team1 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1394696	3-0	2-0	19:00
+TSV: 1674544320	2026-04-20	super lig	Gaziantep FK	Kayserispor	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1394696	3-0	2-0	19:00
+TSV: 2916046655	2026-04-20	liga i romania	Farul Constanta	FCSB	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1531523	2-3	1-0	19:30
+TSV: 2916046655	2026-04-20	liga i romania	Farul Constanta	FCSB	HT1X_HOME	HT 1X Home	1.0	FAIBLE	0	BAD_NO_BET	FT	1531523	2-3	1-0	19:30
+TSV: 2916046655	2026-04-20	liga i romania	Farul Constanta	FCSB	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1531523	2-3	1-0	19:30
+TSV: 2916046655	2026-04-20	liga i romania	Farul Constanta	FCSB	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	WIN	FT	1531523	2-3	1-0	19:30
+TSV: 2916046655	2026-04-20	liga i romania	Farul Constanta	FCSB	O15_FT	Over 1.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1531523	2-3	1-0	19:30
+TSV: 2916046655	2026-04-20	liga i romania	Farul Constanta	FCSB	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1531523	2-3	1-0	19:30
+TSV: 2916046655	2026-04-20	liga i romania	Farul Constanta	FCSB	U35_FT	Under 3.5 (FT)	5.0	FORT PLUS	1	LOSS	FT	1531523	2-3	1-0	19:30
+TSV: 2916046655	2026-04-20	liga i romania	Farul Constanta	FCSB	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1531523	2-3	1-0	19:30
+TSV: 2916046655	2026-04-20	liga i romania	Farul Constanta	FCSB	TEAM2_WIN_FT	Team2 wins (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1531523	2-3	1-0	19:30
+TSV: 865833920	2026-04-20	liga portugal 2	FC Porto B	Leixoes	HT05	HT+0.5	7.0	EXPLOSION	0	BAD_NO_BET	FT	1398231	0-3	0-3	19:45
+TSV: 865833920	2026-04-20	liga portugal 2	FC Porto B	Leixoes	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	LOSS	FT	1398231	0-3	0-3	19:45
+TSV: 865833920	2026-04-20	liga portugal 2	FC Porto B	Leixoes	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1398231	0-3	0-3	19:45
+TSV: 865833920	2026-04-20	liga portugal 2	FC Porto B	Leixoes	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	WIN	FT	1398231	0-3	0-3	19:45
+TSV: 865833920	2026-04-20	liga portugal 2	FC Porto B	Leixoes	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1398231	0-3	0-3	19:45
+TSV: 865833920	2026-04-20	liga portugal 2	FC Porto B	Leixoes	O25_FT	Over 2.5 (FT)	6.0	TRÈS FORT	1	WIN	FT	1398231	0-3	0-3	19:45
+TSV: 865833920	2026-04-20	liga portugal 2	FC Porto B	Leixoes	U35_FT	Under 3.5 (FT)	4.0	FORT	1	WIN	FT	1398231	0-3	0-3	19:45
+TSV: 865833920	2026-04-20	liga portugal 2	FC Porto B	Leixoes	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1398231	0-3	0-3	19:45
+TSV: 865833920	2026-04-20	liga portugal 2	FC Porto B	Leixoes	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1398231	0-3	0-3	19:45
+TSV: 3729092877	2026-04-20	liga portugal 2	Sporting CP B	Felgueiras 1932	HT05	HT+0.5	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1398236	0-1	0-0	19:45
+TSV: 3729092877	2026-04-20	liga portugal 2	Sporting CP B	Felgueiras 1932	HT1X_HOME	HT 1X Home	4.0	FORT	1	WIN	FT	1398236	0-1	0-0	19:45
+TSV: 3729092877	2026-04-20	liga portugal 2	Sporting CP B	Felgueiras 1932	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	GOOD_NO_BET	FT	1398236	0-1	0-0	19:45
+TSV: 3729092877	2026-04-20	liga portugal 2	Sporting CP B	Felgueiras 1932	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	BAD_NO_BET	FT	1398236	0-1	0-0	19:45
+TSV: 3729092877	2026-04-20	liga portugal 2	Sporting CP B	Felgueiras 1932	O15_FT	Over 1.5 (FT)	0.0	KO	0	GOOD_NO_BET	FT	1398236	0-1	0-0	19:45
+TSV: 3729092877	2026-04-20	liga portugal 2	Sporting CP B	Felgueiras 1932	O25_FT	Over 2.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1398236	0-1	0-0	19:45
+TSV: 3729092877	2026-04-20	liga portugal 2	Sporting CP B	Felgueiras 1932	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1398236	0-1	0-0	19:45
+TSV: 3729092877	2026-04-20	liga portugal 2	Sporting CP B	Felgueiras 1932	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1398236	0-1	0-0	19:45
+TSV: 3729092877	2026-04-20	liga portugal 2	Sporting CP B	Felgueiras 1932	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1398236	0-1	0-0	19:45
+TSV: 710892426	2026-04-20	liga profesional argentina	Barracas Central	Belgrano Cordoba	HT05	HT+0.5	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1492031	0-0	0-0	20:00
+TSV: 710892426	2026-04-20	liga profesional argentina	Barracas Central	Belgrano Cordoba	HT1X_HOME	HT 1X Home	4.0	FORT	1	WIN	FT	1492031	0-0	0-0	20:00
+TSV: 710892426	2026-04-20	liga profesional argentina	Barracas Central	Belgrano Cordoba	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	LOSS	FT	1492031	0-0	0-0	20:00
+TSV: 710892426	2026-04-20	liga profesional argentina	Barracas Central	Belgrano Cordoba	TEAM2_SCORE_FT	Team2 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1492031	0-0	0-0	20:00
+TSV: 710892426	2026-04-20	liga profesional argentina	Barracas Central	Belgrano Cordoba	O15_FT	Over 1.5 (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1492031	0-0	0-0	20:00
+TSV: 710892426	2026-04-20	liga profesional argentina	Barracas Central	Belgrano Cordoba	O25_FT	Over 2.5 (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492031	0-0	0-0	20:00
+TSV: 710892426	2026-04-20	liga profesional argentina	Barracas Central	Belgrano Cordoba	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1492031	0-0	0-0	20:00
+TSV: 710892426	2026-04-20	liga profesional argentina	Barracas Central	Belgrano Cordoba	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492031	0-0	0-0	20:00
+TSV: 710892426	2026-04-20	liga profesional argentina	Barracas Central	Belgrano Cordoba	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492031	0-0	0-0	20:00
+TSV: 3131965515	2026-04-20	laliga2	Deportivo La Coruna	Mirandes	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1392155	3-1	0-1	20:30
+TSV: 3131965515	2026-04-20	laliga2	Deportivo La Coruna	Mirandes	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	LOSS	FT	1392155	3-1	0-1	20:30
+TSV: 3131965515	2026-04-20	laliga2	Deportivo La Coruna	Mirandes	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	WIN	FT	1392155	3-1	0-1	20:30
+TSV: 3131965515	2026-04-20	laliga2	Deportivo La Coruna	Mirandes	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	WIN	FT	1392155	3-1	0-1	20:30
+TSV: 3131965515	2026-04-20	laliga2	Deportivo La Coruna	Mirandes	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1392155	3-1	0-1	20:30
+TSV: 3131965515	2026-04-20	laliga2	Deportivo La Coruna	Mirandes	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1392155	3-1	0-1	20:30
+TSV: 3131965515	2026-04-20	laliga2	Deportivo La Coruna	Mirandes	U35_FT	Under 3.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1392155	3-1	0-1	20:30
+TSV: 3131965515	2026-04-20	laliga2	Deportivo La Coruna	Mirandes	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1392155	3-1	0-1	20:30
+TSV: 3131965515	2026-04-20	laliga2	Deportivo La Coruna	Mirandes	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1392155	3-1	0-1	20:30
+TSV: 3321479843	2026-04-20	ligue 2	Dunkerque	Laval	HT05	HT+0.5	8.0	MEGA EXPLOSION	1	WIN	FT	1389380	0-2	0-1	20:45
+TSV: 3321479843	2026-04-20	ligue 2	Dunkerque	Laval	HT1X_HOME	HT 1X Home	0.0	KO	0	GOOD_NO_BET	FT	1389380	0-2	0-1	20:45
+TSV: 3321479843	2026-04-20	ligue 2	Dunkerque	Laval	TEAM1_SCORE_FT	Team1 scores (FT)	4.0	FORT	1	LOSS	FT	1389380	0-2	0-1	20:45
+TSV: 3321479843	2026-04-20	ligue 2	Dunkerque	Laval	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	WIN	FT	1389380	0-2	0-1	20:45
+TSV: 3321479843	2026-04-20	ligue 2	Dunkerque	Laval	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1389380	0-2	0-1	20:45
+TSV: 3321479843	2026-04-20	ligue 2	Dunkerque	Laval	O25_FT	Over 2.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1389380	0-2	0-1	20:45
+TSV: 3321479843	2026-04-20	ligue 2	Dunkerque	Laval	U35_FT	Under 3.5 (FT)	4.0	FORT	1	WIN	FT	1389380	0-2	0-1	20:45
+TSV: 3321479843	2026-04-20	ligue 2	Dunkerque	Laval	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1389380	0-2	0-1	20:45
+TSV: 3321479843	2026-04-20	ligue 2	Dunkerque	Laval	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1389380	0-2	0-1	20:45
+TSV: 316631011	2026-04-20	serie a italia	Lecce	Fiorentina	HT05	HT+0.5	4.0	FORT	0	BAD_NO_BET	FT	1378187	1-1	0-1	20:45
+TSV: 316631011	2026-04-20	serie a italia	Lecce	Fiorentina	HT1X_HOME	HT 1X Home	3.0	MOYEN PLUS	1	LOSS	FT	1378187	1-1	0-1	20:45
+TSV: 316631011	2026-04-20	serie a italia	Lecce	Fiorentina	TEAM1_SCORE_FT	Team1 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1378187	1-1	0-1	20:45
+TSV: 316631011	2026-04-20	serie a italia	Lecce	Fiorentina	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	WIN	FT	1378187	1-1	0-1	20:45
+TSV: 316631011	2026-04-20	serie a italia	Lecce	Fiorentina	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	WIN	FT	1378187	1-1	0-1	20:45
+TSV: 316631011	2026-04-20	serie a italia	Lecce	Fiorentina	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1378187	1-1	0-1	20:45
+TSV: 316631011	2026-04-20	serie a italia	Lecce	Fiorentina	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1378187	1-1	0-1	20:45
+TSV: 316631011	2026-04-20	serie a italia	Lecce	Fiorentina	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1378187	1-1	0-1	20:45
+TSV: 316631011	2026-04-20	serie a italia	Lecce	Fiorentina	TEAM2_WIN_FT	Team2 wins (FT)	6.0	TRÈS FORT	1	LOSS	FT	1378187	1-1	0-1	20:45
+TSV: 1407957008	2026-04-20	premier league	Crystal Palace	West Ham	HT05	HT+0.5	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1379292	0-0	0-0	21:00
+TSV: 1407957008	2026-04-20	premier league	Crystal Palace	West Ham	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1379292	0-0	0-0	21:00
+TSV: 1407957008	2026-04-20	premier league	Crystal Palace	West Ham	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1379292	0-0	0-0	21:00
+TSV: 1407957008	2026-04-20	premier league	Crystal Palace	West Ham	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1379292	0-0	0-0	21:00
+TSV: 1407957008	2026-04-20	premier league	Crystal Palace	West Ham	O15_FT	Over 1.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1379292	0-0	0-0	21:00
+TSV: 1407957008	2026-04-20	premier league	Crystal Palace	West Ham	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	FT	1379292	0-0	0-0	21:00
+TSV: 1407957008	2026-04-20	premier league	Crystal Palace	West Ham	U35_FT	Under 3.5 (FT)	5.0	FORT PLUS	1	WIN	FT	1379292	0-0	0-0	21:00
+TSV: 1407957008	2026-04-20	premier league	Crystal Palace	West Ham	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1379292	0-0	0-0	21:00
+TSV: 1407957008	2026-04-20	premier league	Crystal Palace	West Ham	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1379292	0-0	0-0	21:00
+TSV: 1685883027	2026-04-20	liga portugal	Moreirense	Estoril	HT05	HT+0.5	7.0	EXPLOSION	0	BAD_NO_BET	FT	1396503	1-0	1-0	21:15
+TSV: 1685883027	2026-04-20	liga portugal	Moreirense	Estoril	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1396503	1-0	1-0	21:15
+TSV: 1685883027	2026-04-20	liga portugal	Moreirense	Estoril	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1396503	1-0	1-0	21:15
+TSV: 1685883027	2026-04-20	liga portugal	Moreirense	Estoril	TEAM2_SCORE_FT	Team2 scores (FT)	4.0	FORT	1	LOSS	FT	1396503	1-0	1-0	21:15
+TSV: 1685883027	2026-04-20	liga portugal	Moreirense	Estoril	O15_FT	Over 1.5 (FT)	7.0	EXPLOSION	1	LOSS	FT	1396503	1-0	1-0	21:15
+TSV: 1685883027	2026-04-20	liga portugal	Moreirense	Estoril	O25_FT	Over 2.5 (FT)	4.0	FORT	1	LOSS	FT	1396503	1-0	1-0	21:15
+TSV: 1685883027	2026-04-20	liga portugal	Moreirense	Estoril	U35_FT	Under 3.5 (FT)	3.0	MOYEN PLUS	0	BAD_NO_BET	FT	1396503	1-0	1-0	21:15
+TSV: 1685883027	2026-04-20	liga portugal	Moreirense	Estoril	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1396503	1-0	1-0	21:15
+TSV: 1685883027	2026-04-20	liga portugal	Moreirense	Estoril	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1396503	1-0	1-0	21:15
+TSV: 1317065382	2026-04-20	liga profesional argentina	Banfield	Independ. Rivadavia	HT05	HT+0.5	4.0	FORT	0	GOOD_NO_BET	FT	1492030	0-0	0-0	22:15
+TSV: 1317065382	2026-04-20	liga profesional argentina	Banfield	Independ. Rivadavia	HT1X_HOME	HT 1X Home	5.0	FORT PLUS	1	WIN	FT	1492030	0-0	0-0	22:15
+TSV: 1317065382	2026-04-20	liga profesional argentina	Banfield	Independ. Rivadavia	TEAM1_SCORE_FT	Team1 scores (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1492030	0-0	0-0	22:15
+TSV: 1317065382	2026-04-20	liga profesional argentina	Banfield	Independ. Rivadavia	TEAM2_SCORE_FT	Team2 scores (FT)	2.0	MOYEN	0	GOOD_NO_BET	FT	1492030	0-0	0-0	22:15
+TSV: 1317065382	2026-04-20	liga profesional argentina	Banfield	Independ. Rivadavia	O15_FT	Over 1.5 (FT)	4.0	FORT	1	LOSS	FT	1492030	0-0	0-0	22:15
+TSV: 1317065382	2026-04-20	liga profesional argentina	Banfield	Independ. Rivadavia	O25_FT	Over 2.5 (FT)	1.0	FAIBLE	0	GOOD_NO_BET	FT	1492030	0-0	0-0	22:15
+TSV: 1317065382	2026-04-20	liga profesional argentina	Banfield	Independ. Rivadavia	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	WIN	FT	1492030	0-0	0-0	22:15
+TSV: 1317065382	2026-04-20	liga profesional argentina	Banfield	Independ. Rivadavia	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492030	0-0	0-0	22:15
+TSV: 1317065382	2026-04-20	liga profesional argentina	Banfield	Independ. Rivadavia	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492030	0-0	0-0	22:15
+TSV: 2256122303	2026-04-20	liga profesional argentina	Central Cordoba de Santiago	Platense	HT05	HT+0.5	2.0	MOYEN	0	BAD_NO_BET	FT	1492032	4-3	2-1	22:15
+TSV: 2256122303	2026-04-20	liga profesional argentina	Central Cordoba de Santiago	Platense	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	FT	1492032	4-3	2-1	22:15
+TSV: 2256122303	2026-04-20	liga profesional argentina	Central Cordoba de Santiago	Platense	TEAM1_SCORE_FT	Team1 scores (FT)	2.0	MOYEN	0	BAD_NO_BET	FT	1492032	4-3	2-1	22:15
+TSV: 2256122303	2026-04-20	liga profesional argentina	Central Cordoba de Santiago	Platense	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	BAD_NO_BET	FT	1492032	4-3	2-1	22:15
+TSV: 2256122303	2026-04-20	liga profesional argentina	Central Cordoba de Santiago	Platense	O15_FT	Over 1.5 (FT)	4.0	FORT	1	WIN	FT	1492032	4-3	2-1	22:15
+TSV: 2256122303	2026-04-20	liga profesional argentina	Central Cordoba de Santiago	Platense	O25_FT	Over 2.5 (FT)	0.0	KO	0	BAD_NO_BET	FT	1492032	4-3	2-1	22:15
+TSV: 2256122303	2026-04-20	liga profesional argentina	Central Cordoba de Santiago	Platense	U35_FT	Under 3.5 (FT)	8.0	MEGA EXPLOSION	1	LOSS	FT	1492032	4-3	2-1	22:15
+TSV: 2256122303	2026-04-20	liga profesional argentina	Central Cordoba de Santiago	Platense	TEAM1_WIN_FT	Team1 wins (FT)	0.0	KO	0	BAD_NO_BET	FT	1492032	4-3	2-1	22:15
+TSV: 2256122303	2026-04-20	liga profesional argentina	Central Cordoba de Santiago	Platense	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	FT	1492032	4-3	2-1	22:15
+TSV: 1460877996	2026-04-20	primera división paraguay	Rubio NU	Libertad Asuncion	HT05	HT+0.5	3.0	MOYEN PLUS	0	GOOD_NO_BET	1H	1505059	0-0	0-0	23:15
+TSV: 1460877996	2026-04-20	primera división paraguay	Rubio NU	Libertad Asuncion	HT1X_HOME	HT 1X Home	6.0	TRÈS FORT	1	WIN	1H	1505059	0-0	0-0	23:15
+TSV: 1460877996	2026-04-20	primera división paraguay	Rubio NU	Libertad Asuncion	TEAM1_SCORE_FT	Team1 scores (FT)	3.0	MOYEN PLUS	1	LOSS	1H	1505059	0-0	0-0	23:15
+TSV: 1460877996	2026-04-20	primera división paraguay	Rubio NU	Libertad Asuncion	TEAM2_SCORE_FT	Team2 scores (FT)	0.0	KO	0	GOOD_NO_BET	1H	1505059	0-0	0-0	23:15
+TSV: 1460877996	2026-04-20	primera división paraguay	Rubio NU	Libertad Asuncion	O15_FT	Over 1.5 (FT)	3.0	MOYEN PLUS	1	LOSS	1H	1505059	0-0	0-0	23:15
+TSV: 1460877996	2026-04-20	primera división paraguay	Rubio NU	Libertad Asuncion	O25_FT	Over 2.5 (FT)	3.0	MOYEN PLUS	0	GOOD_NO_BET	1H	1505059	0-0	0-0	23:15
+TSV: 1460877996	2026-04-20	primera división paraguay	Rubio NU	Libertad Asuncion	U35_FT	Under 3.5 (FT)	6.0	TRÈS FORT	1	WIN	1H	1505059	0-0	0-0	23:15
+TSV: 1460877996	2026-04-20	primera división paraguay	Rubio NU	Libertad Asuncion	TEAM1_WIN_FT	Team1 wins (FT)	1.0	FAIBLE	0	GOOD_NO_BET	1H	1505059	0-0	0-0	23:15
+TSV: 1460877996	2026-04-20	primera división paraguay	Rubio NU	Libertad Asuncion	TEAM2_WIN_FT	Team2 wins (FT)	0.0	KO	0	GOOD_NO_BET	1H	1505059	0-0	0-0	23:15

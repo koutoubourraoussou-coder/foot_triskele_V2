@@ -181,3 +181,13 @@ TSV: 2026-04-04	258378748	O25_FT	22:30	mls	New England Revolution	CF Montreal	1.
 TSV: 2026-04-04	2510389709	O25_FT	22:30	mls	Real Salt Lake	Sporting Kansas City	1.53	1490182	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-11	1610252244	O25_FT	22:45	mls	Portland Timbers	Los Angeles FC	1.55	1490198	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O25_SUPER_RANDOM_POOL_EFFECTIVE | 2026-04-21 22:22:23 | run_date=2026-04-21 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-21	889463155	O25_FT	16:00	hnl croatia	NK Lokomotiva Zagreb	NK Slaven Belupo	2	1384071	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	2637417134	O25_FT	18:30	austrian bundesliga	SCR Altach	WSG Wattens	2.3	1531272	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	4196942357	O25_FT	18:30	austrian bundesliga	FC BW Linz	Wolfsberger AC	1.85	1531273	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	3006397629	O25_FT	18:45	hnl croatia	HNK Hajduk Split	NK Osijek	1.67	1384069	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	4048167692	O25_FT	20:30	austrian bundesliga	Ried	Grazer AK	2.2	1531274	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-21	1522598970	O25_FT	21:10	coupe de france	Lens	Toulouse	1.7	1530105	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+
