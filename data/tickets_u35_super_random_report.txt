@@ -1,31 +1,39 @@
-TICKETS TRISKELE — 2026-04-22 — U35_SUPER_RANDOM — depuis predictions.tsv
+TICKETS TRISKELE — 2026-04-23 — U35_SUPER_RANDOM — depuis predictions.tsv
 =========================================================================
 
-📅 Mercredi 2026-04-22 — Tranche 1
----------------------------------
+📅 Jeudi 2026-04-23 — Tranche 1
+------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-22_0300_35a3a31e8a_U35SR — cote = 2.98 — fenêtre 03:00 → 06:56  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-23_0230_510e87e805_U35SR — cote = 3.28 — fenêtre 02:30 → 04:50  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 03:00 | liga mx | Club Queretaro vs Cruz Azul | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.48
-  2) 03:00 | liga mx | U.N.A.M. - Pumas vs FC Juarez | Under 3.5 (FT) | FORT | odd=1.55
-  3) 05:06 | liga mx | Leon vs Club America | Under 3.5 (FT) | FORT PLUS | odd=1.3
+  1) 02:30 | mls | Houston Dynamo vs San Diego | Under 3.5 (FT) | MOYEN PLUS | odd=1.57
+  2) 03:00 | liga mx | Atletico San Luis vs Santos Laguna | Under 3.5 (FT) | MOYEN PLUS | odd=1.57
+  3) 03:00 | liga pro ecuador | LDU de Quito vs Aucas | Under 3.5 (FT) | FORT PLUS | odd=1.33
 
-📅 Mercredi 2026-04-22 — Tranche 2
----------------------------------
+📅 Jeudi 2026-04-23 — Tranche 2
+------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (RESTE) — id=2026-04-23_0505_2836870855_U35SR — cote = 2.2 — fenêtre 05:05 → 06:56  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 05:05 | liga mx | Necaxa vs Guadalajara Chivas | Under 3.5 (FT) | FAIBLE | odd=1.55
+  2) 05:06 | liga mx | Club Tijuana vs Pachuca | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.42
+
+📅 Jeudi 2026-04-23 — Tranche 3
+------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-22_1800_274a88fbed_U35SR — cote = 3.1 — fenêtre 18:00 → 20:50  
+  🎟️ TICKET 3.1 (A2) — id=2026-04-23_1810_3946eefd62_U35SR — cote = 2.7 — fenêtre 18:10 → 20:35  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 18:00 | liga pro ecuador | Leones del Norte vs Manta FC | Under 3.5 (FT) | MOYEN PLUS | odd=1.18
-  2) 19:00 | ligue 1 | Paris Saint Germain vs Nantes | Under 3.5 (FT) | FORT | odd=1.93
-  3) 19:00 | liga portugal 2 | Oliveirense vs Benfica B | Under 3.5 (FT) | MOYEN PLUS | odd=1.36
+  1) 18:10 | saudi arabia | Al Najma vs Al Taawon | Under 3.5 (FT) | KO | odd=1.4
+  2) 18:45 | eredivisie | GO Ahead Eagles vs AZ Alkmaar | Under 3.5 (FT) | FAIBLE | odd=1.62
+  3) 18:45 | russian premier league | Akhmat vs Baltika | Under 3.5 (FT) | MOYEN | odd=1.19
 
-📅 Mercredi 2026-04-22 — Tranche 3
----------------------------------
+📅 Jeudi 2026-04-23 — Tranche 4
+------------------------------
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-22_2100_5afc3d8959_U35SR — cote = 2.74 — fenêtre 21:00 → 22:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 21:00 | premier league | Bournemouth vs Leeds | Under 3.5 (FT) | MOYEN PLUS | odd=1.42
-  2) 21:00 | premier league | Burnley vs Manchester City | Under 3.5 (FT) | MOYEN PLUS | odd=1.93
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 4.1 (A2) — id=2026-04-23_2100_b579730a47_U35SR — cote = 2.4 — fenêtre 21:00 → 22:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 21:00 | eredivisie | PSV Eindhoven vs PEC Zwolle | Under 3.5 (FT) | KO | odd=2.4

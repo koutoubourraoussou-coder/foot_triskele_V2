@@ -201,6 +201,29 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
 
 
 # ------------------------------------------------------------------
+# APPEND O15_SUPER_RANDOM | 2026-04-23 00:50:20 | run_date=2026-04-23 | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-23_0230_ff3a6d5ebe_O15SR — cote = 2.44 — fenêtre 02:30 → 06:56  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 02:30 | mls | Houston Dynamo vs San Diego | Over 1.5 (FT) | EXPLOSION | odd=1.17
+  2) 03:00 | liga mx | Atletico San Luis vs Santos Laguna | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  3) 03:30 | primera a colombia | Fortaleza FC vs America de Cali | Over 1.5 (FT) | MOYEN PLUS | odd=1.45
+  4) 05:06 | liga mx | Club Tijuana vs Pachuca | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
+
+📅 Jeudi 2026-04-23 — Tranche 2
+------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-23_1630_5659b5f68d_O15SR — cote = 2.78 — fenêtre 16:30 → 20:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:30 | russian premier league | Akron vs Dinamo Makhachkala | Over 1.5 (FT) | FORT PLUS | odd=1.4
+  2) 18:00 | superliga serbia | Napredak vs IMT Novi Beograd | Over 1.5 (FT) | TRÈS FORT | odd=1.25
+  3) 18:45 | eredivisie | GO Ahead Eagles vs AZ Alkmaar | Over 1.5 (FT) | TRÈS FORT | odd=1.15
+  4) 19:00 | laliga | Levante vs Sevilla | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.38
+
+
+# ------------------------------------------------------------------
 # APPEND O15_SUPER_RANDOM | 2026-04-18 14:59:59 | run_date=ALL | source=predictions.tsv
 # ------------------------------------------------------------------
 

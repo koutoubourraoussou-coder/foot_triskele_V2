@@ -82,6 +82,18 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
 
 
 # ------------------------------------------------------------------
+# APPEND O25_SUPER_RANDOM | 2026-04-23 00:50:21 | run_date=2026-04-23 | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-23_0230_2de5047826_O25SR — cote = 4.67 — fenêtre 02:30 → 21:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 02:30 | mls | FC Dallas vs Minnesota United FC | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.62
+  2) 03:30 | mls | Real Salt Lake vs Inter Miami | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.44
+  3) 20:00 | superliga serbia | FK Spartak Zdrepceva KRV vs TSC Backa Topola | Over 2.5 (FT) | MOYEN PLUS | odd=2
+
+
+# ------------------------------------------------------------------
 # APPEND O25_SUPER_RANDOM | 2026-04-18 15:00:01 | run_date=ALL | source=predictions.tsv
 # ------------------------------------------------------------------
 

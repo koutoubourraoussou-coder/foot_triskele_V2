@@ -1,36 +1,24 @@
-TICKETS TRISKELE — 2026-04-22 — O15_SUPER_RANDOM — depuis predictions.tsv
+TICKETS TRISKELE — 2026-04-23 — O15_SUPER_RANDOM — depuis predictions.tsv
 =========================================================================
 
-📅 Mercredi 2026-04-22 — Tranche 1
----------------------------------
+📅 Jeudi 2026-04-23 — Tranche 1
+------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-22_0300_5af0da44fb_O15SR — cote = 2.76 — fenêtre 03:00 → 17:20  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-23_0230_ff3a6d5ebe_O15SR — cote = 2.44 — fenêtre 02:30 → 06:56  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 03:00 | liga mx | Club Queretaro vs Cruz Azul | Over 1.5 (FT) | FORT PLUS | odd=1.2
-  2) 03:00 | liga mx | U.N.A.M. - Pumas vs FC Juarez | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
-  3) 05:05 | liga mx | Monterrey vs Puebla | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
-  4) 05:06 | liga mx | Leon vs Club America | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.3
-  5) 15:30 | hnl croatia | Vukovar vs HNK Gorica | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.28
+  1) 02:30 | mls | Houston Dynamo vs San Diego | Over 1.5 (FT) | EXPLOSION | odd=1.17
+  2) 03:00 | liga mx | Atletico San Luis vs Santos Laguna | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  3) 03:30 | primera a colombia | Fortaleza FC vs America de Cali | Over 1.5 (FT) | MOYEN PLUS | odd=1.45
+  4) 05:06 | liga mx | Club Tijuana vs Pachuca | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
 
-📅 Mercredi 2026-04-22 — Tranche 2
----------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-22_1745_908df2f5f0_O15SR — cote = 2.61 — fenêtre 17:45 → 20:20  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 17:45 | hnl croatia | NK Varazdin vs HNK Rijeka | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36
-  2) 18:30 | austrian bundesliga | Rapid Vienna vs TSV Hartberg | Over 1.5 (FT) | FORT | odd=1.25
-  3) 18:30 | austrian bundesliga | Red Bull Salzburg vs Austria Vienna | Over 1.5 (FT) | TRÈS FORT | odd=1.2
-  4) 18:30 | superliga serbia | OFK Beograd vs Cukaricki | Over 1.5 (FT) | TRÈS FORT | odd=1.28
-
-📅 Mercredi 2026-04-22 — Tranche 3
----------------------------------
+📅 Jeudi 2026-04-23 — Tranche 2
+------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-22_2030_9921abb9c8_O15SR — cote = 2.54 — fenêtre 20:30 → 22:50  
+  🎟️ TICKET 2.1 (A2) — id=2026-04-23_1630_5659b5f68d_O15SR — cote = 2.78 — fenêtre 16:30 → 20:50  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 20:30 | austrian bundesliga | Sturm Graz vs Lask Linz | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.22
-  2) 20:45 | championship | Charlton vs Ipswich | Over 1.5 (FT) | TRÈS FORT | odd=1.33
-  3) 21:00 | premier league | Bournemouth vs Leeds | Over 1.5 (FT) | FORT | odd=1.25
-  4) 21:00 | coupe de france | Strasbourg vs Nice | Over 1.5 (FT) | FORT PLUS | odd=1.25
+  1) 16:30 | russian premier league | Akron vs Dinamo Makhachkala | Over 1.5 (FT) | FORT PLUS | odd=1.4
+  2) 18:00 | superliga serbia | Napredak vs IMT Novi Beograd | Over 1.5 (FT) | TRÈS FORT | odd=1.25
+  3) 18:45 | eredivisie | GO Ahead Eagles vs AZ Alkmaar | Over 1.5 (FT) | TRÈS FORT | odd=1.15
+  4) 19:00 | laliga | Levante vs Sevilla | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.38

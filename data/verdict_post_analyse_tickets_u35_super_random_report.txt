@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [U35_SUPER_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_u35_super_random.tsv
-Date run       : 2026-04-22
+Date run       : 2026-04-23
 Output         : data/verdict_post_analyse_tickets_u35_super_random_report.txt
-Whitelist      : ON (15 ids)
+Whitelist      : ON (19 ids)
 Ignorés (hors whitelist) : 184
-Ignorés (date>=today)    : 8
+Ignorés (date>=today)    : 9
 
 ────────────────────────────────────────────────────────────────────
 ❌ Ticket 1 | Jeudi 2026-04-16 18:45→22:50 | code=A2 | odd=3.19
@@ -107,10 +107,33 @@ Ignorés (date>=today)    : 8
    ✅ Leg 3) 20:30 | pro league | Genk vs Charleroi | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.36
    ✅ Leg 4) 20:30 | pro league | Standard Liege vs Antwerp | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.25
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Mercredi 2026-04-22 03:00→06:56 | code=A2 | odd=2.98
+   id=2026-04-22_0300_35a3a31e8a_U35SR
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ✅ Leg 1) 03:00 | liga mx | Club Queretaro vs Cruz Azul | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.48
+   ❌ Leg 2) 03:00 | liga mx | U.N.A.M. - Pumas vs FC Juarez | Under 3.5 (FT) | [FORT] | odd=1.55
+   ❌ Leg 3) 05:06 | liga mx | Leon vs Club America | Under 3.5 (FT) | [FORT PLUS] | odd=1.3
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 2 | Mercredi 2026-04-22 18:00→20:50 | code=A2 | odd=3.1
+   id=2026-04-22_1800_274a88fbed_U35SR
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 18:00 | liga pro ecuador | Leones del Norte vs Manta FC | Under 3.5 (FT) | [MOYEN PLUS] | odd=1.18
+   ✅ Leg 2) 19:00 | liga portugal 2 | Oliveirense vs Benfica B | Under 3.5 (FT) | [MOYEN PLUS] | odd=1.36
+   ✅ Leg 3) 19:00 | ligue 1 | Paris Saint Germain vs Nantes | Under 3.5 (FT) | [FORT] | odd=1.93
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 3 | Mercredi 2026-04-22 21:00→22:50 | code=A2 | odd=2.74
+   id=2026-04-22_2100_5afc3d8959_U35SR
+   legs=2 | WIN=1 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 21:00 | premier league | Bournemouth vs Leeds | Under 3.5 (FT) | [MOYEN PLUS] | odd=1.42
+   ✅ Leg 2) 21:00 | premier league | Burnley vs Manchester City | Under 3.5 (FT) | [MOYEN PLUS] | odd=1.93
+
 ====================================================================
-TOTAL tickets : 12
-✅ WIN     : 5
-❌ LOSS    : 7
+TOTAL tickets : 15
+✅ WIN     : 6
+❌ LOSS    : 9
 ⏳ PENDING : 0
 ====================================================================
 

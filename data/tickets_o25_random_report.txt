@@ -1,11 +1,11 @@
-TICKETS TRISKÈLE — 2026-04-22 — O25_RANDOM_ALL — depuis predictions.tsv
+TICKETS TRISKÈLE — 2026-04-23 — O25_RANDOM_ALL — depuis predictions.tsv
 =======================================================================
 
-📅 Mercredi 2026-04-22 — Tranche 1 (fenêtre ~90min)
---------------------------------------------------
+📅 Jeudi 2026-04-23 — Tranche 1
+------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-22_1700_f402970157_O25R — cote = 3.29 — fenêtre 17:00 → 20:20  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-23_1845_a1ed82f2ec_O25R — cote = 4.41 — fenêtre 18:45 → 20:35  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 17:00 | superliga serbia | Vojvodina vs FK Partizan | Over 2.5 (FT) | TRÈS FORT | odd=1.8
-  2) 18:30 | austrian bundesliga | Rapid Vienna vs TSV Hartberg | Over 2.5 (FT) | FAIBLE | odd=1.83
+  1) 18:45 | russian premier league | Spartak Moscow vs FC Krasnodar | Over 2.5 (FT) | MOYEN | odd=1.9
+  2) 18:45 | russian premier league | Akhmat vs Baltika | Over 2.5 (FT) | MOYEN PLUS | odd=2.32

@@ -3,3 +3,11 @@
 2026-03-27 | international friendlies | Russia vs Mali | GOALS_MISSING:1525450
 2026-03-28 | international friendlies | England U18 vs Spain U18 | GOALS_MISSING:1536914
 2026-03-31 | international friendlies | Croatia U18 vs England U18 | GOALS_MISSING:1536921
+2026-04-22 | liga pro ecuador | Barcelona SC vs Mushuc Runa SC | GOALS_MISSING:1519328
+2026-04-22 | mls | Columbus Crew vs Los Angeles Galaxy | GOALS_MISSING:1490225
+2026-04-22 | mls | New York City FC vs FC Cincinnati | GOALS_MISSING:1490226
+2026-04-22 | mls | New York Red Bulls vs DC United | GOALS_MISSING:1490230
+2026-04-22 | mls | Orlando City SC vs Charlotte | GOALS_MISSING:1490228
+2026-04-22 | mls | Toronto FC vs Philadelphia Union | GOALS_MISSING:1490227
+2026-04-22 | mls | Atlanta United FC vs New England Revolution | GOALS_MISSING:1490229
+2026-04-22 | primera a colombia | Independiente Medellin vs Chico | GOALS_MISSING:1506023

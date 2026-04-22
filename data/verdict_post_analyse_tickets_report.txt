@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-04-22
+Date run       : 2026-04-23
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (166 ids)
+Whitelist      : ON (169 ids)
 Ignorés (hors whitelist) : 390
-Ignorés (date>=today)    : 10
+Ignorés (date>=today)    : 9
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -1326,10 +1326,35 @@ Ignorés (date>=today)    : 10
    ❌ Leg 2) 21:30 | laliga | Girona vs Real Betis | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.36
    ✅ Leg 3) 21:30 | laliga | Real Madrid vs Alaves | Team2 scores (FT) | [FORT] | odd=1.73
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Mercredi 2026-04-22 03:00→16:50 | code=A2 | odd=2.52
+   id=2026-04-22_0300_3c193cf23a_SYS
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 03:00 | liga mx | Club Queretaro vs Cruz Azul | Over 1.5 (FT) | [FORT PLUS] | odd=1.2
+   ✅ Leg 2) 05:06 | liga mx | Leon vs Club America | Team1 scores (FT) | [MOYEN PLUS] | odd=1.4
+   ✅ Leg 3) 15:00 | super league greece | Panserraikos vs Atromitos | Over 1.5 (FT) | [FORT PLUS] | odd=1.5
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Mercredi 2026-04-22 17:00→20:20 | code=A2 | odd=2.41
+   id=2026-04-22_1700_af4bf135c2_SYS
+   legs=4 | WIN=2 | LOSS=2 | PENDING=0
+   ✅ Leg 1) 17:00 | superliga serbia | Radnik Surdulica vs Novi Pazar | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
+   ❌ Leg 2) 17:00 | superliga serbia | Vojvodina vs FK Partizan | Team1 scores (FT) | [MOYEN PLUS] | odd=1.18
+   ✅ Leg 3) 18:30 | austrian bundesliga | Red Bull Salzburg vs Austria Vienna | Over 1.5 (FT) | [TRÈS FORT] | odd=1.2
+   ❌ Leg 4) 18:30 | superliga serbia | OFK Beograd vs Cukaricki | Over 1.5 (FT) | [TRÈS FORT] | odd=1.28
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 3 | Mercredi 2026-04-22 20:30→23:20 | code=A2 | odd=3.06
+   id=2026-04-22_2030_3b46cdfef8_SYS
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 20:30 | austrian bundesliga | Sturm Graz vs Lask Linz | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+   ✅ Leg 2) 20:30 | pro league | Club Brugge KV vs KV Mechelen | Team2 scores (FT) | [FORT PLUS] | odd=1.62
+   ❌ Leg 3) 21:30 | laliga | Barcelona vs Celta Vigo | Team2 scores (FT) | [FORT] | odd=1.55
+
 ====================================================================
-TOTAL tickets : 158
-✅ WIN     : 54
-❌ LOSS    : 102
+TOTAL tickets : 161
+✅ WIN     : 55
+❌ LOSS    : 104
 ⏳ PENDING : 2
 ====================================================================
 

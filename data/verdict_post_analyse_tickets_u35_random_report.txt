@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [U35_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_u35_random.tsv
-Date run       : 2026-04-22
+Date run       : 2026-04-23
 Output         : data/verdict_post_analyse_tickets_u35_random_report.txt
-Whitelist      : ON (14 ids)
+Whitelist      : ON (16 ids)
 Ignorés (hors whitelist) : 113
-Ignorés (date>=today)    : 6
+Ignorés (date>=today)    : 7
 
 ────────────────────────────────────────────────────────────────────
 ❌ Ticket 1 | Jeudi 2026-04-16 18:45→22:50 | code=RESTE | odd=2.16
@@ -107,9 +107,25 @@ Ignorés (date>=today)    : 6
    ✅ Leg 3) 18:30 | austrian bundesliga | FC BW Linz vs Wolfsberger AC | Under 3.5 (FT) | [FORT] | odd=1.33
    ✅ Leg 4) 19:00 | laliga | Mallorca vs Valencia | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.25
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Mercredi 2026-04-22 03:00→18:20 | code=A2 | odd=2.42
+   id=2026-04-22_0300_fa97dd1c62_U35R
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 03:00 | liga mx | Club Queretaro vs Cruz Azul | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.48
+   ✅ Leg 2) 15:30 | hnl croatia | Vukovar vs HNK Gorica | Under 3.5 (FT) | [MOYEN PLUS] | odd=1.3
+   ✅ Leg 3) 16:30 | russian premier league | FC Orenburg vs Nizhny Novgorod | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.26
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 2 | Mercredi 2026-04-22 18:45→22:20 | code=A2 | odd=2.52
+   id=2026-04-22_1845_7218c06a36_U35R
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 18:45 | russian premier league | Lokomotiv vs Zenit | Under 3.5 (FT) | [FORT PLUS] | odd=1.28
+   ✅ Leg 2) 19:00 | liga portugal 2 | Oliveirense vs Benfica B | Under 3.5 (FT) | [MOYEN PLUS] | odd=1.36
+   ✅ Leg 3) 20:30 | austrian bundesliga | Sturm Graz vs Lask Linz | Under 3.5 (FT) | [MOYEN PLUS] | odd=1.45
+
 ====================================================================
-TOTAL tickets : 12
-✅ WIN     : 5
+TOTAL tickets : 14
+✅ WIN     : 7
 ❌ LOSS    : 7
 ⏳ PENDING : 0
 ====================================================================

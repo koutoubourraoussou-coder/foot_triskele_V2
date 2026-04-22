@@ -207,3 +207,18 @@ TSV: 2026-04-22	2190281768	O25_FT	20:15	hnl croatia	Istra 1961	Dinamo Zagreb	1.5
 TSV: 2026-04-22	2827834055	O25_FT	20:30	austrian bundesliga	Sturm Graz	Lask Linz	1.67	1531247	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-22	1160215388	O25_FT	21:00	coupe de france	Strasbourg	Nice	1.8	1530106	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O25_SUPER_RANDOM_POOL_EFFECTIVE | 2026-04-23 00:50:21 | run_date=2026-04-23 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-23	3999218239	O25_FT	02:30	mls	FC Dallas	Minnesota United FC	1.62	1490231	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-23	2596012221	O25_FT	02:30	mls	Houston Dynamo	San Diego	1.55	1490232	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-23	3510514992	O25_FT	03:30	mls	Real Salt Lake	Inter Miami	1.44	1490233	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-23	4241182323	O25_FT	04:30	mls	San Jose Earthquakes	Austin	1.55	1490235	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-23	416402609	O25_FT	04:30	mls	Los Angeles FC	Colorado Rapids	1.48	1490234	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-23	1128889455	O25_FT	16:00	superliga serbia	Radnicki NIS	Javor	2.25	1540303	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-23	273168636	O25_FT	18:00	superliga serbia	Napredak	IMT Novi Beograd	1.8	1540302	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-23	311185116	O25_FT	18:45	eredivisie	GO Ahead Eagles	AZ Alkmaar	1.5	1381139	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-23	2973303448	O25_FT	20:00	superliga serbia	Mladost Lucani	Radnicki 1923	2.1	1540301	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-23	1391475057	O25_FT	20:00	superliga serbia	FK Spartak Zdrepceva KRV	TSC Backa Topola	2	1540304	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-23	1963000253	O25_FT	21:00	eredivisie	PSV Eindhoven	PEC Zwolle	1.2	1381143	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

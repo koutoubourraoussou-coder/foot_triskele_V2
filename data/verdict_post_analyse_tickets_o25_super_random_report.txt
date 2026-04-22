@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O25_SUPER_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o25_super_random.tsv
-Date run       : 2026-04-22
+Date run       : 2026-04-23
 Output         : data/verdict_post_analyse_tickets_o25_super_random_report.txt
-Whitelist      : ON (8 ids)
+Whitelist      : ON (9 ids)
 Ignorés (hors whitelist) : 135
-Ignorés (date>=today)    : 2
+Ignorés (date>=today)    : 3
 
 ────────────────────────────────────────────────────────────────────
 ❌ Ticket 1 | Samedi 2026-04-18 01:30→03:20 | code=A2 | odd=2.63
@@ -57,10 +57,17 @@ Ignorés (date>=today)    : 2
    ❌ Leg 1) 18:30 | austrian bundesliga | SCR Altach vs WSG Wattens | Over 2.5 (FT) | [TRÈS FORT] | odd=2.3
    ❌ Leg 2) 18:45 | hnl croatia | HNK Hajduk Split vs NK Osijek | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.67
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Mercredi 2026-04-22 15:30→22:50 | code=A2 | odd=3.51
+   id=2026-04-22_1530_33d1ab5343_O25SR
+   legs=2 | WIN=1 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 15:30 | hnl croatia | Vukovar vs HNK Gorica | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.95
+   ❌ Leg 2) 21:00 | coupe de france | Strasbourg vs Nice | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.8
+
 ====================================================================
-TOTAL tickets : 7
+TOTAL tickets : 8
 ✅ WIN     : 1
-❌ LOSS    : 6
+❌ LOSS    : 7
 ⏳ PENDING : 0
 ====================================================================
 
