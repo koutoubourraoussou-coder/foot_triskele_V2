@@ -1,22 +1,24 @@
 # date	league	home	away	league_id	home_id	away_id	fixture_id
-2025-11-26	serie a brazil	Gremio	Palmeiras	71	130	121	1478032
-2025-11-26	serie a brazil	Atletico-MG	Flamengo	71	1062	127	1478027
-2025-11-26	serie a brazil	RB Bragantino	Fortaleza EC	71	794	154	1478028
-2025-11-26	primera a colombia	Santa Fe	Deportes Tolima	239	1139	1142	1487902
-2025-11-26	primera a colombia	Bucaramanga	Fortaleza FC	239	1131	1147	1487903
+2025-11-26	championship	Blackburn	QPR	40	67	72	1386752
 2025-11-26	championship	Millwall	Sheffield Wednesday	40	58	74	1386744
 2025-11-26	championship	Sheffield Utd	Portsmouth	40	62	1355	1386743
-2025-11-26	championship	Blackburn	QPR	40	67	72	1386752
 2025-11-26	championship	Wrexham	Bristol City	40	1837	56	1386753
 2025-11-26	championship	West Brom	Birmingham	40	60	54	1386751
+2025-11-26	club friendly games	Artis	Vysočina Jihlava	667	4257	3731	1488389
+2025-11-26	club friendly games	Vlašim	České Budějovice	667	3730	3736	1484880
+2025-11-26	international friendlies	Argentina U20	Uruguay U18	10	10284	27068	1491698
 2025-11-26	laliga2	AD Ceuta FC	Almeria	141	10139	723	1391897
+2025-11-26	primera a colombia	Santa Fe	Deportes Tolima	239	1139	1142	1487902
+2025-11-26	serie a brazil	Atletico-MG	Flamengo	71	1062	127	1478027
+2025-11-26	serie a brazil	Gremio	Palmeiras	71	130	121	1478032
+2025-11-26	serie a brazil	RB Bragantino	Fortaleza EC	71	794	154	1478028
 2025-11-26	super league switzerland	FC Lugano	FC ST. Gallen	207	606	1011	1382360
 2025-11-26	uefa champions league	FC Copenhagen	Kairat Almaty	2	400	664	1451101
 2025-11-26	uefa champions league	Pafos	Monaco	2	3403	91	1451102
-2025-11-26	uefa champions league	Liverpool	PSV Eindhoven	2	40	197	1451109
 2025-11-26	uefa champions league	Arsenal	Bayern München	2	42	157	1451107
-2025-11-26	uefa champions league	Paris Saint Germain	Tottenham	2	85	47	1451105
-2025-11-26	uefa champions league	Eintracht Frankfurt	Atalanta	2	169	499	1451108
-2025-11-26	uefa champions league	Sporting CP	Club Brugge KV	2	228	569	1451106
 2025-11-26	uefa champions league	Atletico Madrid	Inter	2	530	505	1451104
+2025-11-26	uefa champions league	Eintracht Frankfurt	Atalanta	2	169	499	1451108
+2025-11-26	uefa champions league	Liverpool	PSV Eindhoven	2	40	197	1451109
 2025-11-26	uefa champions league	Olympiakos Piraeus	Real Madrid	2	553	541	1451103
+2025-11-26	uefa champions league	Paris Saint Germain	Tottenham	2	85	47	1451105
+2025-11-26	uefa champions league	Sporting CP	Club Brugge KV	2	228	569	1451106

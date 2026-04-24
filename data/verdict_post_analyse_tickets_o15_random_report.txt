@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-04-23
+Date run       : 2026-04-24
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
 Whitelist      : ON (158 ids)
 Ignorés (hors whitelist) : 326
-Ignorés (date>=today)    : 7
+Ignorés (date>=today)    : 0
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -1319,10 +1319,27 @@ Ignorés (date>=today)    : 7
    ✅ Leg 3) 20:45 | championship | Sheffield Utd vs Blackburn | Over 1.5 (FT) | [FORT PLUS] | odd=1.28
    ✅ Leg 4) 21:00 | premier league | Bournemouth vs Leeds | Over 1.5 (FT) | [FORT] | odd=1.25
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Jeudi 2026-04-23 02:30→06:56 | code=A2 | odd=2.44
+   id=2026-04-23_0230_877dfff5f8_O15R
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 02:30 | mls | Houston Dynamo vs San Diego | Over 1.5 (FT) | [EXPLOSION] | odd=1.17
+   ✅ Leg 2) 03:00 | liga mx | Atletico San Luis vs Santos Laguna | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
+   ✅ Leg 3) 03:30 | primera a colombia | Fortaleza FC vs America de Cali | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.45
+   ✅ Leg 4) 05:06 | liga mx | Club Tijuana vs Pachuca | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Jeudi 2026-04-23 18:00→20:50 | code=A2 | odd=2.42
+   id=2026-04-23_1800_70c4adac1c_O15R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 18:00 | superliga serbia | Napredak vs IMT Novi Beograd | Over 1.5 (FT) | [TRÈS FORT] | odd=1.25
+   ✅ Leg 2) 18:45 | russian premier league | Akhmat vs Baltika | Over 1.5 (FT) | [FORT] | odd=1.4
+   ✅ Leg 3) 19:00 | laliga | Levante vs Sevilla | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.38
+
 ====================================================================
-TOTAL tickets : 156
+TOTAL tickets : 158
 ✅ WIN     : 67
-❌ LOSS    : 86
+❌ LOSS    : 88
 ⏳ PENDING : 3
 ====================================================================
 

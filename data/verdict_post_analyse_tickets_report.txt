@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-04-23
+Date run       : 2026-04-24
 Output         : data/verdict_post_analyse_tickets_report.txt
 Whitelist      : ON (169 ids)
 Ignorés (hors whitelist) : 390
-Ignorés (date>=today)    : 9
+Ignorés (date>=today)    : 0
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -1351,9 +1351,33 @@ Ignorés (date>=today)    : 9
    ✅ Leg 2) 20:30 | pro league | Club Brugge KV vs KV Mechelen | Team2 scores (FT) | [FORT PLUS] | odd=1.62
    ❌ Leg 3) 21:30 | laliga | Barcelona vs Celta Vigo | Team2 scores (FT) | [FORT] | odd=1.55
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Jeudi 2026-04-23 03:00→06:20 | code=A2 | odd=2.46
+   id=2026-04-23_0300_8b3e462138_SYS
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 03:00 | liga mx | Atletico San Luis vs Santos Laguna | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
+   ✅ Leg 2) 03:30 | primera a colombia | Fortaleza FC vs America de Cali | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.45
+   ✅ Leg 3) 04:30 | mls | San Jose Earthquakes vs Austin | Team2 scores (FT) | [FORT PLUS] | odd=1.44
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 2 | Jeudi 2026-04-23 14:30→20:35 | code=A2 | odd=2.54
+   id=2026-04-23_1430_c1c76a96af_SYS
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 14:30 | ukrainian premier league | Zorya Luhansk vs Shakhtar Donetsk | Under 3.5 (FT) | [FORT] | odd=1.44
+   ✅ Leg 2) 18:10 | saudi arabia | Al Najma vs Al Taawon | Team1 scores (FT) | [FORT] | odd=1.4
+   ✅ Leg 3) 18:45 | russian premier league | Spartak Moscow vs FC Krasnodar | Over 1.5 (FT) | [TRÈS FORT] | odd=1.26
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 3 | Jeudi 2026-04-23 20:45→23:35 | code=RESTE | odd=1.93
+   id=2026-04-23_2045_a2d586ee83_SYS
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 20:45 | dfb pokal | VfB Stuttgart vs SC Freiburg | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ✅ Leg 2) 21:30 | laliga | Oviedo vs Villarreal | Team1 scores (FT) | [MOYEN PLUS] | odd=1.4
+   ✅ Leg 3) 21:45 | taça de portugal | Torreense vs Fafe | Team1 scores (FT) | [MOYEN PLUS] | odd=1.15
+
 ====================================================================
-TOTAL tickets : 161
-✅ WIN     : 55
+TOTAL tickets : 164
+✅ WIN     : 58
 ❌ LOSS    : 104
 ⏳ PENDING : 2
 ====================================================================

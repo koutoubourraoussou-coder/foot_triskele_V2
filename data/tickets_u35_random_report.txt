@@ -1,23 +1,4 @@
-TICKETS TRISKÈLE — 2026-04-23 — U35_RANDOM_ALL — depuis predictions.tsv
+TICKETS TRISKÈLE — 2025-11-30 — U35_RANDOM_ALL — depuis predictions.tsv
 =======================================================================
 
-📅 Jeudi 2026-04-23 — Tranche 1 (fenêtre ~126min)
-------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-23_0300_941046f3b8_U35R — cote = 3.21 — fenêtre 03:00 → 06:56  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 03:00 | liga pro ecuador | LDU de Quito vs Aucas | Under 3.5 (FT) | FORT PLUS | odd=1.33
-  2) 03:00 | liga mx | Mazatlán vs Toluca | Under 3.5 (FT) | EXPLOSION | odd=1.7
-  3) 05:06 | liga mx | Club Tijuana vs Pachuca | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.42
-
-📅 Jeudi 2026-04-23 — Tranche 2 (fenêtre ~105min)
-------------------------------------------------
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-23_1900_c1878300cb_U35R — cote = 3.38 — fenêtre 19:00 → 22:35  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 19:00 | laliga | Levante vs Sevilla | Under 3.5 (FT) | MOYEN PLUS | odd=1.25
-  2) 20:00 | superliga serbia | Mladost Lucani vs Radnicki 1923 | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.25
-  3) 20:30 | pro league | Lommel United vs Liège | Under 3.5 (FT) | FORT | odd=1.44
-  4) 20:45 | dfb pokal | VfB Stuttgart vs SC Freiburg | Under 3.5 (FT) | MOYEN PLUS | odd=1.5
+Aucun ticket.

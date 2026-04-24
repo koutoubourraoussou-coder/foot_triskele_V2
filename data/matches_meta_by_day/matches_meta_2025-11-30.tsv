@@ -1,65 +1,54 @@
 # date	league	home	away	league_id	home_id	away_id	fixture_id
-2025-11-30	liga profesional argentina	Central Cordoba de Santiago	Estudiantes L.P.	128	1065	450	1488200
-2025-11-30	liga profesional argentina	Boca Juniors	Argentinos JRS	128	451	458	1488201
-2025-11-30	pro league	Club Brugge KV	Antwerp	144	569	740	1382551
-2025-11-30	pro league	Genk	OH Leuven	144	742	260	1382552
-2025-11-30	pro league	Anderlecht	Union St. Gilloise	144	554	1393	1382553
-2025-11-30	pro league	Gent	St. Truiden	144	631	735	1382546
-2025-11-30	serie a brazil	Ceara	Cruzeiro	71	129	135	1478029
-2025-11-30	serie a brazil	Corinthians	Botafogo	71	131	120	1478030
-2025-11-30	serie a brazil	Fortaleza EC	Atletico-MG	71	154	1062	1478021
-2025-11-30	primera a colombia	Fortaleza FC	Bucaramanga	239	1147	1131	1487907
-2025-11-30	primera a colombia	Junior	Atletico Nacional	239	1135	1137	1487908
-2025-11-30	superligaen	Kisvarda FC	Ujpest	271	2394	2255	1380259
-2025-11-30	superligaen	Puskas Academy	Ferencvarosi TC	271	2391	651	1380262
-2025-11-30	liga pro ecuador	Libertad	Barcelona SC	242	18762	1152	1479584
-2025-11-30	liga pro ecuador	Aucas	Deportivo Cuenca	242	1156	1154	1479553
-2025-11-30	liga pro ecuador	Macara	El Nacional	242	1155	1150	1479555
-2025-11-30	liga pro ecuador	Delfin SC	Emelec	242	1149	1148	1479554
-2025-11-30	premier league	Crystal Palace	Manchester United	39	52	33	1379092
-2025-11-30	premier league	West Ham	Liverpool	39	48	40	1379098
-2025-11-30	premier league	Nottingham Forest	Brighton	39	65	51	1379095
-2025-11-30	premier league	Aston Villa	Wolves	39	66	39	1379089
-2025-11-30	premier league	Chelsea	Arsenal	39	49	42	1379091
+2025-11-30	2. bundesliga	Arminia Bielefeld	Preußen Münster	79	188	1313	1388731
+2025-11-30	2. bundesliga	Dynamo Dresden	Fortuna Düsseldorf	79	183	158	1388739
+2025-11-30	2. bundesliga	SV Elversberg	SV Darmstadt 98	79	1660	181	1388733
+2025-11-30	austrian bundesliga	SCR Altach	Red Bull Salzburg	218	618	571	1390112
+2025-11-30	austrian bundesliga	TSV Hartberg	Sturm Graz	218	1072	637	1390109
+2025-11-30	austrian bundesliga	Lask Linz	Rapid Vienna	218	1026	781	1390111
+2025-11-30	bundesliga	Hamburger SV	VfB Stuttgart	78	175	172	1388412
+2025-11-30	bundesliga	Eintracht Frankfurt	VfL Wolfsburg	78	169	161	1388410
+2025-11-30	bundesliga	SC Freiburg	FSV Mainz 05	78	160	164	1388411
 2025-11-30	coupe de france	Avranches	Aubervilliers	66	1303	3148	1486786
 2025-11-30	coupe de france	MJEP Cormontreuil	Chantilly	66	9290	3162	1486794
 2025-11-30	coupe de france	Saint-Cyr Collonges	Rhone-Vallee	66	18148	3290	1486814
 2025-11-30	coupe de france	Les Sables-d'Olonne	Plouvorn	66	3195	3096	1486802
 2025-11-30	coupe de france	UF Touraine	Estac Troyes	66	9926	110	1486824
-2025-11-30	ligue 1	Strasbourg	Stade Brestois 29	61	95	106	1387823
-2025-11-30	ligue 1	Angers	Lens	61	77	116	1387815
-2025-11-30	ligue 1	Lorient	Nice	61	97	84	1387817
-2025-11-30	ligue 1	Le Havre	Lille	61	111	79	1387816
-2025-11-30	ligue 1	Lyon	Nantes	61	80	83	1387818
-2025-11-30	2. bundesliga	Dynamo Dresden	Fortuna Düsseldorf	79	183	158	1388739
-2025-11-30	2. bundesliga	Arminia Bielefeld	Preußen Münster	79	188	1313	1388731
-2025-11-30	2. bundesliga	SV Elversberg	SV Darmstadt 98	79	1660	181	1388733
-2025-11-30	bundesliga	Hamburger SV	VfB Stuttgart	78	175	172	1388412
-2025-11-30	bundesliga	Eintracht Frankfurt	VfL Wolfsburg	78	169	161	1388410
-2025-11-30	bundesliga	SC Freiburg	FSV Mainz 05	78	160	164	1388411
-2025-11-30	serie a italia	Lecce	Torino	135	867	503	1377989
-2025-11-30	serie a italia	Pisa	Inter	135	801	505	1377992
-2025-11-30	serie a italia	Atalanta	Fiorentina	135	499	502	1377984
-2025-11-30	serie a italia	AS Roma	Napoli	135	497	492	1377993
-2025-11-30	serie b	Juve Stabia	Monza	136	863	1579	1419730
-2025-11-30	serie b	Spezia	Sampdoria	136	515	498	1419724
-2025-11-30	liga mx	Toluca	FC Juarez	262	2281	2298	1488195
-2025-11-30	liga mx	Tigres UANL	Club Tijuana	262	2279	2280	1487901
+2025-11-30	czech first league	Bohemians 1905	Teplice	345	3714	3720	1384779
+2025-11-30	czech first league	Plzen	Mlada Boleslav	345	567	640	1384783
+2025-11-30	czech first league	Slovan Liberec	Sigma Olomouc	345	782	2250	1384781
+2025-11-30	czech first league	Sparta Praha	Pardubice	345	628	3724	1384785
+2025-11-30	ekstraklasa	Arka Gdynia	Raków Częstochowa	106	344	3491	1380528
+2025-11-30	ekstraklasa	Zaglebie Lubin	Jagiellonia	106	345	336	1380536
+2025-11-30	ekstraklasa	Wisla Plock	Lech Poznan	106	341	347	1380535
+2025-11-30	eliteserien	Bodo/Glimt	Fredrikstad	103	327	2149	1342418
+2025-11-30	eliteserien	Brann	Ham-Kam	103	319	2159	1342419
+2025-11-30	eliteserien	Haugesund	Bryne	103	328	2142	1342420
+2025-11-30	eliteserien	Kristiansund BK	Tromso	103	320	325	1342421
+2025-11-30	eliteserien	Rosenborg	Stromsgodset	103	331	324	1342422
+2025-11-30	eliteserien	Sandefjord	KFUM Oslo	103	332	2143	1342423
+2025-11-30	eliteserien	Sarpsborg 08 FF	Molde	103	333	329	1342424
+2025-11-30	eliteserien	Viking	Valerenga	103	759	326	1342425
 2025-11-30	eredivisie	PSV Eindhoven	FC Volendam	88	197	416	1380988
 2025-11-30	eredivisie	GO Ahead Eagles	Utrecht	88	410	207	1380986
 2025-11-30	eredivisie	Telstar	Feyenoord	88	427	209	1380990
 2025-11-30	eredivisie	Twente	AZ Alkmaar	88	415	201	1380991
-2025-11-30	liga portugal	Rio Ave	Santa Clara	94	226	227	1396342
-2025-11-30	liga portugal	Sporting CP	Estrela	94	228	15130	1396343
-2025-11-30	liga portugal	FC Porto	Estoril	94	212	230	1396338
-2025-11-30	liga portugal 2	FC Porto B	Lusitânia Lourosa	95	243	6358	1398069
-2025-11-30	liga portugal 2	Torreense	Chaves	95	4799	223	1398075
-2025-11-30	liga portugal 2	Portimonense	Maritimo	95	216	214	1398073
-2025-11-30	liga portugal 2	Sporting CP B	Farense	95	761	231	1398074
-2025-11-30	liga portugal 2	União de Leiria	Benfica B	95	4662	229	1398070
-2025-11-30	premiership	Hibernian	Celtic	179	249	247	1382745
-2025-11-30	premiership	Rangers	Falkirk	179	257	1389	1382749
-2025-11-30	premiership	Livingston	Aberdeen	179	255	252	1382747
+2025-11-30	hnl croatia	NK Lokomotiva Zagreb	HNK Rijeka	210	1017	561	1383992
+2025-11-30	j1 league	Albirex Niigata	Kashiwa Reysol	98	311	281	1324318
+2025-11-30	j1 league	Avispa Fukuoka	Gamba Osaka	98	316	293	1324321
+2025-11-30	j1 league	Fagiano Okayama	Urawa	98	310	287	1324320
+2025-11-30	j1 league	Kawasaki Frontale	Sanfrecce Hiroshima	98	294	282	1324314
+2025-11-30	j1 league	Machida Zelvia	Nagoya Grampus	98	303	288	1324313
+2025-11-30	j1 league	Shonan Bellmare	Shimizu S-pulse	98	284	283	1324317
+2025-11-30	j1 league	Tokyo Verdy	Kashima	98	306	290	1324312
+2025-11-30	j1 league	Vissel Kobe	FC Tokyo	98	289	292	1324319
+2025-11-30	j1 league	Yokohama F. Marinos	Cerezo Osaka	98	296	291	1324315
+2025-11-30	j1 league	Yokohama FC	Kyoto Sanga	98	307	302	1324316
+2025-11-30	k league 1	Daegu FC	FC Anyang	292	2747	2748	1482480
+2025-11-30	k league 1	Suwon City FC	Gwangju FC	292	2756	2759	1482481
+2025-11-30	k league 1	Ulsan Hyundai FC	Jeju United FC	292	2767	2761	1482482
+2025-11-30	k league 1	Gangwon FC	Pohang Steelers	292	2746	2764	1482495
+2025-11-30	k league 1	Gimcheon Sangmu FC	Daejeon Citizen	292	2768	2750	1482496
+2025-11-30	k league 1	Jeonbuk Motors	FC Seoul	292	2762	2766	1482497
 2025-11-30	laliga	Real Sociedad	Villarreal	140	548	533	1390957
 2025-11-30	laliga	Sevilla	Real Betis	140	536	543	1390958
 2025-11-30	laliga	Celta Vigo	Espanyol	140	538	540	1390951
@@ -69,13 +58,74 @@
 2025-11-30	laliga2	Cordoba	Cadiz	141	713	724	1391933
 2025-11-30	laliga2	Mirandes	Real Sociedad II	141	799	9585	1391934
 2025-11-30	laliga2	Castellón	Las Palmas	141	5254	534	1391930
+2025-11-30	liga i romania	AFC Hermannstadt	Uta Arad	283	2579	2589	1385892
+2025-11-30	liga i romania	Unirea Slobozia	FC Botosani	283	6916	2581	1385896
+2025-11-30	liga i romania	Farul Constanta	FCSB	283	2596	559	1385894
+2025-11-30	liga mx	Club America	Monterrey	262	2287	2282	1486001
+2025-11-30	liga mx	Toluca	FC Juarez	262	2281	2298	1488195
+2025-11-30	liga mx	Tigres UANL	Club Tijuana	262	2279	2280	1487901
+2025-11-30	liga portugal	Rio Ave	Santa Clara	94	226	227	1396342
+2025-11-30	liga portugal	Sporting CP	Estrela	94	228	15130	1396343
+2025-11-30	liga portugal	FC Porto	Estoril	94	212	230	1396338
+2025-11-30	liga portugal 2	FC Porto B	Lusitânia Lourosa	95	243	6358	1398069
+2025-11-30	liga portugal 2	Torreense	Chaves	95	4799	223	1398075
+2025-11-30	liga portugal 2	Portimonense	Maritimo	95	216	214	1398073
+2025-11-30	liga portugal 2	Sporting CP B	Farense	95	761	231	1398074
+2025-11-30	liga portugal 2	União de Leiria	Benfica B	95	4662	229	1398070
+2025-11-30	liga pro ecuador	Libertad	Barcelona SC	242	18762	1152	1479584
+2025-11-30	liga pro ecuador	Aucas	Deportivo Cuenca	242	1156	1154	1479553
+2025-11-30	liga pro ecuador	Macara	El Nacional	242	1155	1150	1479555
+2025-11-30	liga profesional argentina	Central Cordoba de Santiago	Estudiantes L.P.	128	1065	450	1488200
+2025-11-30	liga profesional argentina	Boca Juniors	Argentinos JRS	128	451	458	1488201
+2025-11-30	ligue 1	Strasbourg	Stade Brestois 29	61	95	106	1387823
+2025-11-30	ligue 1	Angers	Lens	61	77	116	1387815
+2025-11-30	ligue 1	Le Havre	Lille	61	111	79	1387816
+2025-11-30	ligue 1	Lorient	Nice	61	97	84	1387817
+2025-11-30	ligue 1	Lyon	Nantes	61	80	83	1387818
+2025-11-30	mls	Inter Miami	New York City FC	253	9568	1604	1488202
+2025-11-30	mls	San Diego	Vancouver Whitecaps	253	25484	1603	1488222
+2025-11-30	premier league	Crystal Palace	Manchester United	39	52	33	1379092
+2025-11-30	premier league	Aston Villa	Wolves	39	66	39	1379089
+2025-11-30	premier league	Nottingham Forest	Brighton	39	65	51	1379095
+2025-11-30	premier league	West Ham	Liverpool	39	48	40	1379098
+2025-11-30	premier league	Chelsea	Arsenal	39	49	42	1379091
+2025-11-30	premiership	Hibernian	Celtic	179	249	247	1382745
+2025-11-30	premiership	Rangers	Falkirk	179	257	1389	1382749
+2025-11-30	premiership	Livingston	Aberdeen	179	255	252	1382747
+2025-11-30	primera a colombia	Fortaleza FC	Bucaramanga	239	1147	1131	1487907
+2025-11-30	primera división chile	Everton de Vina	Deportes Iquique	265	2325	2319	1339234
+2025-11-30	primera división chile	Union Espanola	O'Higgins	265	2321	2320	1339236
+2025-11-30	primera división chile	Union La Calera	Deportes Limache	265	2326	16730	1339233
+2025-11-30	pro league	Club Brugge KV	Antwerp	144	569	740	1382551
+2025-11-30	pro league	Genk	OH Leuven	144	742	260	1382552
+2025-11-30	pro league	Anderlecht	Union St. Gilloise	144	554	1393	1382553
+2025-11-30	pro league	Gent	St. Truiden	144	631	735	1382546
+2025-11-30	russian premier league	FC Krasnodar	Krylia Sovetov	235	621	1079	1400164
+2025-11-30	russian premier league	Akhmat	Dynamo	235	1085	1088	1400159
+2025-11-30	russian premier league	FC Rostov	Lokomotiv	235	779	597	1400163
+2025-11-30	russian premier league	Zenit	Rubin	235	596	1083	1400166
+2025-11-30	serie a brazil	Ceara	Cruzeiro	71	129	135	1478029
+2025-11-30	serie a brazil	Corinthians	Botafogo	71	131	120	1478030
+2025-11-30	serie a brazil	Fortaleza EC	Atletico-MG	71	154	1062	1478021
+2025-11-30	serie a italia	Lecce	Torino	135	867	503	1377989
+2025-11-30	serie a italia	Pisa	Inter	135	801	505	1377992
+2025-11-30	serie a italia	Atalanta	Fiorentina	135	499	502	1377984
+2025-11-30	serie a italia	AS Roma	Napoli	135	497	492	1377993
+2025-11-30	serie b	Juve Stabia	Monza	136	863	1579	1419730
+2025-11-30	serie b	Spezia	Sampdoria	136	515	498	1419724
+2025-11-30	super league greece	Atromitos	Asteras Tripolis	197	12260	955	1400819
+2025-11-30	super league greece	Panetolikos	Olympiakos Piraeus	197	949	553	1400817
+2025-11-30	super league greece	Levadiakos	PAOK	197	957	619	1400823
+2025-11-30	super league greece	Panathinaikos	AEK Athens FC	197	617	575	1400822
 2025-11-30	super league switzerland	Servette FC	BSC Young Boys	207	2184	565	1382382
 2025-11-30	super league switzerland	FC Basel 1893	FC ST. Gallen	207	551	1011	1382378
 2025-11-30	super league switzerland	Lausanne	FC Thun	207	1014	1012	1382379
 2025-11-30	super lig	Antalyaspor	Göztepe	203	1005	994	1394550
 2025-11-30	super lig	Fatih Karagümrük	Beşiktaş	203	3589	549	1394553
-2025-11-30	mls	San Diego	Vancouver Whitecaps	253	25484	1603	1488222
-2025-11-30	czech first league	Bohemians 1905	Teplice	345	3714	3720	1384779
-2025-11-30	czech first league	Plzen	Mlada Boleslav	345	567	640	1384783
-2025-11-30	czech first league	Slovan Liberec	Sigma Olomouc	345	782	2250	1384781
-2025-11-30	czech first league	Sparta Praha	Pardubice	345	628	3724	1384785
+2025-11-30	superliga serbia	TSC Backa Topola	Radnik Surdulica	286	2646	2657	1385024
+2025-11-30	superliga serbia	OFK Beograd	FK Crvena Zvezda	286	2633	598	1385022
+2025-11-30	superligaen	Kisvarda FC	Ujpest	271	2394	2255	1380259
+2025-11-30	superligaen	Puskas Academy	Ferencvarosi TC	271	2391	651	1380262
+2025-11-30	ukrainian premier league	Oleksandria	Ruh Lviv	333	3619	3632	1391521
+2025-11-30	ukrainian premier league	Epitsentr Dunayivtsi	Metalist 1925 Kharkiv	333	14434	3628	1391523
+2025-11-30	ukrainian premier league	Polessya	Zorya Luhansk	333	6496	599	1391524

@@ -1,26 +1,43 @@
 # date	league	home	away	league_id	home_id	away_id	fixture_id
-2025-11-27	liga profesional argentina	Lanus	Tigre	128	446	452	1486750
-2025-11-27	serie a brazil	Fluminense	Sao Paulo	71	124	126	1478031
-2025-11-27	primera a colombia	Atletico Nacional	Junior	239	1137	1135	1487904
-2025-11-27	primera a colombia	America de Cali	Independiente Medellin	239	1138	1128	1487905
 2025-11-27	liga mx	FC Juarez	Toluca	262	2298	2281	1488194
 2025-11-27	liga mx	Monterrey	Club America	262	2282	2287	1486000
 2025-11-27	liga mx	Club Tijuana	Tigres UANL	262	2280	2279	1487900
-2025-11-27	uefa europa league	Aston Villa	BSC Young Boys	3	66	565	1451239
-2025-11-27	uefa europa league	Lille	Dinamo Zagreb	3	79	620	1451236
-2025-11-27	uefa europa league	Feyenoord	Celtic	3	209	247	1451231
-2025-11-27	uefa europa league	FC Porto	Nice	3	212	84	1451238
+2025-11-27	liga profesional argentina	Lanus	Tigre	128	446	452	1486750
+2025-11-27	primera a colombia	Bucaramanga	Fortaleza FC	239	1131	1147	1487903
+2025-11-27	primera a colombia	Atletico Nacional	Junior	239	1137	1135	1487904
+2025-11-27	uefa europa conference league	AZ Alkmaar	Shelbourne	848	201	3854	1451405
+2025-11-27	uefa europa conference league	Hamrun Spartans	Lincoln Red Imps FC	848	4626	667	1451410
+2025-11-27	uefa europa conference league	Lech Poznan	Lausanne	848	347	1014	1451408
+2025-11-27	uefa europa conference league	Omonia Nicosia	Dynamo Kyiv	848	3402	572	1451409
+2025-11-27	uefa europa conference league	Raków Częstochowa	Rapid Vienna	848	3491	781	1451412
+2025-11-27	uefa europa conference league	Sigma Olomouc	Celje	848	2250	4360	1451411
+2025-11-27	uefa europa conference league	Slovan Bratislava	Rayo Vallecano	848	656	728	1451407
+2025-11-27	uefa europa conference league	Universitatea Craiova	FSV Mainz 05	848	632	164	1451406
+2025-11-27	uefa europa conference league	Zrinjski	BK Hacken	848	588	367	1451404
+2025-11-27	uefa europa conference league	Aberdeen	FC Noah	848	252	3684	1451418
+2025-11-27	uefa europa conference league	Breidablik	Samsunspor	848	276	3603	1451420
+2025-11-27	uefa europa conference league	Drita	Shkendija	848	14281	609	1451413
+2025-11-27	uefa europa conference league	Fiorentina	AEK Athens FC	848	502	575	1451416
+2025-11-27	uefa europa conference league	HNK Rijeka	AEK Larnaca	848	561	614	1451417
+2025-11-27	uefa europa conference league	Jagiellonia	KuPS	848	336	1165	1451421
+2025-11-27	uefa europa conference league	Legia Warszawa	Sparta Praha	848	339	628	1451415
+2025-11-27	uefa europa conference league	Shamrock Rovers	Shakhtar Donetsk	848	652	550	1451414
+2025-11-27	uefa europa conference league	Strasbourg	Crystal Palace	848	95	52	1451419
 2025-11-27	uefa europa league	AS Roma	FC Midtjylland	3	497	397	1451235
-2025-11-27	uefa europa league	Ludogorets	Celta Vigo	3	566	538	1451233
-2025-11-27	uefa europa league	Plzen	SC Freiburg	3	567	160	1451237
+2025-11-27	uefa europa league	Aston Villa	BSC Young Boys	3	66	565	1451239
+2025-11-27	uefa europa league	FC Porto	Nice	3	212	84	1451238
 2025-11-27	uefa europa league	Fenerbahçe	Ferencvarosi TC	3	611	651	1451234
+2025-11-27	uefa europa league	Feyenoord	Celtic	3	209	247	1451231
+2025-11-27	uefa europa league	Lille	Dinamo Zagreb	3	79	620	1451236
+2025-11-27	uefa europa league	Ludogorets	Celta Vigo	3	566	538	1451233
 2025-11-27	uefa europa league	PAOK	Brann	3	619	319	1451232
-2025-11-27	uefa europa league	Nottingham Forest	Malmo FF	3	65	375	1451246
-2025-11-27	uefa europa league	Rangers	SC Braga	3	257	217	1451241
-2025-11-27	uefa europa league	GO Ahead Eagles	VfB Stuttgart	3	410	172	1451242
+2025-11-27	uefa europa league	Plzen	SC Freiburg	3	567	160	1451237
 2025-11-27	uefa europa league	Bologna	Red Bull Salzburg	3	500	571	1451240
-2025-11-27	uefa europa league	Real Betis	Utrecht	3	543	207	1451244
 2025-11-27	uefa europa league	FK Crvena Zvezda	FCSB	3	598	559	1451243
-2025-11-27	uefa europa league	Maccabi Tel Aviv	Lyon	3	604	80	1451248
-2025-11-27	uefa europa league	Panathinaikos	Sturm Graz	3	617	637	1451245
 2025-11-27	uefa europa league	Genk	FC Basel 1893	3	742	551	1451247
+2025-11-27	uefa europa league	GO Ahead Eagles	VfB Stuttgart	3	410	172	1451242
+2025-11-27	uefa europa league	Maccabi Tel Aviv	Lyon	3	604	80	1451248
+2025-11-27	uefa europa league	Nottingham Forest	Malmo FF	3	65	375	1451246
+2025-11-27	uefa europa league	Panathinaikos	Sturm Graz	3	617	637	1451245
+2025-11-27	uefa europa league	Rangers	SC Braga	3	257	217	1451241
+2025-11-27	uefa europa league	Real Betis	Utrecht	3	543	207	1451244

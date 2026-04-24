@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O25_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o25_random.tsv
-Date run       : 2026-04-23
+Date run       : 2026-04-24
 Output         : data/verdict_post_analyse_tickets_o25_random_report.txt
 Whitelist      : ON (10 ids)
 Ignorés (hors whitelist) : 114
-Ignorés (date>=today)    : 2
+Ignorés (date>=today)    : 0
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Samedi 2026-04-18 13:30→16:35 | code=A2 | odd=4.2
@@ -72,10 +72,17 @@ Ignorés (date>=today)    : 2
    ❌ Leg 1) 17:00 | superliga serbia | Vojvodina vs FK Partizan | Over 2.5 (FT) | [TRÈS FORT] | odd=1.8
    ❌ Leg 2) 18:30 | austrian bundesliga | Rapid Vienna vs TSV Hartberg | Over 2.5 (FT) | [FAIBLE] | odd=1.83
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Jeudi 2026-04-23 18:45→20:35 | code=A2 | odd=4.41
+   id=2026-04-23_1845_a1ed82f2ec_O25R
+   legs=2 | WIN=1 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 18:45 | russian premier league | Akhmat vs Baltika | Over 2.5 (FT) | [MOYEN PLUS] | odd=2.32
+   ✅ Leg 2) 18:45 | russian premier league | Spartak Moscow vs FC Krasnodar | Over 2.5 (FT) | [MOYEN] | odd=1.9
+
 ====================================================================
-TOTAL tickets : 9
+TOTAL tickets : 10
 ✅ WIN     : 7
-❌ LOSS    : 2
+❌ LOSS    : 3
 ⏳ PENDING : 0
 ====================================================================
 

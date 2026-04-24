@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O25_SUPER_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o25_super_random.tsv
-Date run       : 2026-04-23
+Date run       : 2026-04-24
 Output         : data/verdict_post_analyse_tickets_o25_super_random_report.txt
 Whitelist      : ON (9 ids)
 Ignorés (hors whitelist) : 135
-Ignorés (date>=today)    : 3
+Ignorés (date>=today)    : 0
 
 ────────────────────────────────────────────────────────────────────
 ❌ Ticket 1 | Samedi 2026-04-18 01:30→03:20 | code=A2 | odd=2.63
@@ -64,10 +64,18 @@ Ignorés (date>=today)    : 3
    ✅ Leg 1) 15:30 | hnl croatia | Vukovar vs HNK Gorica | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.95
    ❌ Leg 2) 21:00 | coupe de france | Strasbourg vs Nice | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.8
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Jeudi 2026-04-23 02:30→21:50 | code=A2 | odd=4.67
+   id=2026-04-23_0230_2de5047826_O25SR
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 02:30 | mls | FC Dallas vs Minnesota United FC | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.62
+   ❌ Leg 2) 03:30 | mls | Real Salt Lake vs Inter Miami | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.44
+   ✅ Leg 3) 20:00 | superliga serbia | FK Spartak Zdrepceva KRV vs TSC Backa Topola | Over 2.5 (FT) | [MOYEN PLUS] | odd=2
+
 ====================================================================
-TOTAL tickets : 8
+TOTAL tickets : 9
 ✅ WIN     : 1
-❌ LOSS    : 7
+❌ LOSS    : 8
 ⏳ PENDING : 0
 ====================================================================
 
