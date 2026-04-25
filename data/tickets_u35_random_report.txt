@@ -1,4 +1,32 @@
-TICKETS TRISKÈLE — 2025-11-30 — U35_RANDOM_ALL — depuis predictions.tsv
+TICKETS TRISKÈLE — 2026-04-25 — U35_RANDOM_ALL — depuis predictions.tsv
 =======================================================================
 
-Aucun ticket.
+📅 Samedi 2026-04-25 — Tranche 1 (fenêtre ~90min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-25_1330_53a92f1627_U35R — cote = 2.64 — fenêtre 13:30 → 16:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 13:30 | super lig | Eyüpspor vs Gaziantep FK | Under 3.5 (FT) | MOYEN PLUS | odd=1.38
+  2) 14:00 | ligue 2 | Reims vs Nancy | Under 3.5 (FT) | TRÈS FORT | odd=1.44
+  3) 15:00 | serie b | Reggiana vs Palermo | Under 3.5 (FT) | FORT PLUS | odd=1.33
+
+📅 Samedi 2026-04-25 — Tranche 2 (fenêtre ~30min)
+------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-25_1800_3b02ef7f36_U35R — cote = 2.52 — fenêtre 18:00 → 20:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 18:00 | super league switzerland | Lausanne vs FC Zurich | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.67
+  2) 18:00 | serie a italia | Bologna vs AS Roma | Under 3.5 (FT) | MOYEN PLUS | odd=1.28
+  3) 18:30 | russian premier league | Rubin vs CSKA Moscow | Under 3.5 (FT) | MOYEN PLUS | odd=1.18
+
+📅 Samedi 2026-04-25 — Tranche 3 (fenêtre ~165min)
+-------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-25_2045_d98442f098_U35R — cote = 2.58 — fenêtre 20:45 → 01:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:45 | pro league | KVC Westerlo vs Antwerp | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.4
+  2) 21:00 | primera a colombia | Bucaramanga vs Jaguares | Under 3.5 (FT) | FORT | odd=1.42
+  3) 23:30 | serie a brazil | Bahia vs Santos | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.3

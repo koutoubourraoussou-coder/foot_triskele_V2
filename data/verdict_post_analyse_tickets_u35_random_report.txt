@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [U35_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_u35_random.tsv
-Date run       : 2026-04-24
+Date run       : 2026-04-25
 Output         : data/verdict_post_analyse_tickets_u35_random_report.txt
-Whitelist      : ON (16 ids)
+Whitelist      : ON (21 ids)
 Ignorés (hors whitelist) : 113
-Ignorés (date>=today)    : 0
+Ignorés (date>=today)    : 9
 
 ────────────────────────────────────────────────────────────────────
 ❌ Ticket 1 | Jeudi 2026-04-16 18:45→22:50 | code=RESTE | odd=2.16
@@ -140,10 +140,26 @@ Ignorés (date>=today)    : 0
    ✅ Leg 3) 20:30 | pro league | Lommel United vs Liège | Under 3.5 (FT) | [FORT] | odd=1.44
    ✅ Leg 4) 20:45 | dfb pokal | VfB Stuttgart vs SC Freiburg | Under 3.5 (FT) | [MOYEN PLUS] | odd=1.5
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Vendredi 2026-04-24 02:00→20:00 | code=A2 | odd=2.62
+   id=2026-04-24_0200_7caeb46517_U35R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 02:00 | liga pro ecuador | Universidad Catolica vs Macara | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.3
+   ✅ Leg 2) 14:30 | ukrainian premier league | Kolos Kovalivka vs SK Poltava | Under 3.5 (FT) | [FORT] | odd=1.44
+   ✅ Leg 3) 18:10 | saudi arabia | Al-Hazm vs Al Riyadh | Under 3.5 (FT) | [EXPLOSION] | odd=1.4
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Vendredi 2026-04-24 20:00→21:50 | code=A2 | odd=2.48
+   id=2026-04-24_2000_81f51ee5ab_U35R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 20:00 | ligue 2 | Amiens vs Montpellier | Under 3.5 (FT) | [FORT] | odd=1.4
+   ✅ Leg 2) 20:00 | ligue 2 | Laval vs Rodez | Under 3.5 (FT) | [FORT] | odd=1.33
+   ❌ Leg 3) 20:00 | ligue 2 | RED Star FC 93 vs Guingamp | Under 3.5 (FT) | [MOYEN PLUS] | odd=1.33
+
 ====================================================================
-TOTAL tickets : 16
+TOTAL tickets : 18
 ✅ WIN     : 8
-❌ LOSS    : 8
+❌ LOSS    : 10
 ⏳ PENDING : 0
 ====================================================================
 

@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O25_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o25_random.tsv
-Date run       : 2026-04-24
+Date run       : 2026-04-25
 Output         : data/verdict_post_analyse_tickets_o25_random_report.txt
-Whitelist      : ON (10 ids)
+Whitelist      : ON (12 ids)
 Ignorés (hors whitelist) : 114
-Ignorés (date>=today)    : 0
+Ignorés (date>=today)    : 3
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Samedi 2026-04-18 13:30→16:35 | code=A2 | odd=4.2
@@ -79,10 +79,17 @@ Ignorés (date>=today)    : 0
    ❌ Leg 1) 18:45 | russian premier league | Akhmat vs Baltika | Over 2.5 (FT) | [MOYEN PLUS] | odd=2.32
    ✅ Leg 2) 18:45 | russian premier league | Spartak Moscow vs FC Krasnodar | Over 2.5 (FT) | [MOYEN] | odd=1.9
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Vendredi 2026-04-24 19:30→21:50 | code=A2 | odd=3.46
+   id=2026-04-24_1930_e7b9674c0a_O25R
+   legs=2 | WIN=1 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 19:30 | austrian bundesliga | FC BW Linz vs SCR Altach | Over 2.5 (FT) | [MOYEN PLUS] | odd=2.1
+   ❌ Leg 2) 20:00 | superligaen | Kazincbarcikai vs MTK Budapest | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.65
+
 ====================================================================
-TOTAL tickets : 10
+TOTAL tickets : 11
 ✅ WIN     : 7
-❌ LOSS    : 3
+❌ LOSS    : 4
 ⏳ PENDING : 0
 ====================================================================
 

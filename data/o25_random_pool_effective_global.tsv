@@ -279,3 +279,35 @@ TSV: 2026-04-23	1547624371	O25_FT	20:30	pro league	Lommel United	Liège	1.67	154
 TSV: 2026-04-23	3098753170	O25_FT	20:45	dfb pokal	VfB Stuttgart	SC Freiburg	1.62	1526337	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-23	1174047432	O25_FT	21:45	taça de portugal	Torreense	Fafe	1.95	1508723	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O25_RANDOM_POOL_EFFECTIVE | 2026-04-25 10:21:53 | run_date=2026-04-24 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-24	3899430698	O25_FT	14:30	ukrainian premier league	Kolos Kovalivka	SK Poltava	1.7	1396805	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-24	679673582	O25_FT	16:30	liga i romania	AFC Hermannstadt	Csikszereda	1.95	1531528	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-24	25884079	O25_FT	18:00	ekstraklasa	Zaglebie Lubin	Nieciecza	1.73	1380653	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-24	4053941050	O25_FT	19:30	austrian bundesliga	FC BW Linz	SCR Altach	2.1	1531275	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-24	3173578382	O25_FT	19:30	liga i romania	FCSB	Petrolul Ploiesti	1.9	1531529	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-24	4086928493	O25_FT	20:00	superligaen	Kazincbarcikai	MTK Budapest	1.65	1380356	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-24	1516258637	O25_FT	20:30	ekstraklasa	Jagiellonia	Gornik Zabrze	1.83	1380646	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND O25_RANDOM_POOL_EFFECTIVE | 2026-04-25 10:26:56 | run_date=2026-04-25 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-25	3254085044	O25_FT	13:30	russian premier league	FC Rostov	FC Orenburg	2.12	1400241	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	945859201	O25_FT	14:00	liga i romania	FC Botosani	Oţelul	2.1	1531527	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	1889685216	O25_FT	14:45	ekstraklasa	Korona Kielce	GKS Katowice	1.7	1380647	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	4173764751	O25_FT	16:00	hnl croatia	NK Slaven Belupo	Vukovar	1.9	1384078	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	1824789498	O25_FT	16:00	russian premier league	Krylia Sovetov	Lokomotiv	1.82	1400243	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	1763506549	O25_FT	17:00	ukrainian premier league	Ruh Lviv	Karpaty	2.08	1391600	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	3265592652	O25_FT	17:00	austrian bundesliga	WSG Wattens	Ried	2	1531276	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	1991785913	O25_FT	17:00	austrian bundesliga	Wolfsberger AC	Grazer AK	1.95	1531277	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	267598861	O25_FT	17:30	ekstraklasa	Lechia Gdansk	Raków Częstochowa	1.7	1380648	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	4159604469	O25_FT	18:00	super league switzerland	Lausanne	FC Zurich	1.48	1538469	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	15540316	O25_FT	18:15	hnl croatia	NK Osijek	NK Lokomotiva Zagreb	2.08	1384076	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	4015512529	O25_FT	18:15	fa cup	Manchester City	Southampton	1.42	1539716	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	256721039	O25_FT	18:30	russian premier league	Rubin	CSKA Moscow	2.3	1400245	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	216638833	O25_FT	18:30	premier league	Arsenal	Newcastle	1.6	1379299	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	1732293470	O25_FT	18:45	eredivisie	Heerenveen	Fortuna Sittard	1.4	1381140	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	528053522	O25_FT	19:30	liga i romania	CFR 1907 Cluj	Universitatea Cluj	1.95	1531635	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	1799800292	O25_FT	20:15	ekstraklasa	Cracovia Krakow	Pogon Szczecin	1.9	1380645	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

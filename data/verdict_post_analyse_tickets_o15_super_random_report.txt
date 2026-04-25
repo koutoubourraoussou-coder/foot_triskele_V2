@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_SUPER_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_super_random.tsv
-Date run       : 2026-04-24
+Date run       : 2026-04-25
 Output         : data/verdict_post_analyse_tickets_o15_super_random_report.txt
-Whitelist      : ON (19 ids)
+Whitelist      : ON (24 ids)
 Ignorés (hors whitelist) : 497
-Ignorés (date>=today)    : 0
+Ignorés (date>=today)    : 12
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mardi 2026-04-14 18:45→22:50 | code=A2 | odd=2.76
@@ -180,10 +180,28 @@ Ignorés (date>=today)    : 0
    ❌ Leg 3) 18:45 | eredivisie | GO Ahead Eagles vs AZ Alkmaar | Over 1.5 (FT) | [TRÈS FORT] | odd=1.15
    ✅ Leg 4) 19:00 | laliga | Levante vs Sevilla | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.38
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Vendredi 2026-04-24 03:00→20:00 | code=A2 | odd=2.53
+   id=2026-04-24_0300_a1be936c8d_O15SR
+   legs=4 | WIN=2 | LOSS=2 | PENDING=0
+   ✅ Leg 1) 03:00 | primera a colombia | Millonarios vs Deportes Tolima | Over 1.5 (FT) | [FAIBLE] | odd=1.35
+   ❌ Leg 2) 16:30 | liga i romania | AFC Hermannstadt vs Csikszereda | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.3
+   ❌ Leg 3) 17:45 | saudi arabia | Al-Fateh vs Al Khaleej Saihat | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
+   ✅ Leg 4) 18:10 | saudi arabia | Al-Hazm vs Al Riyadh | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Vendredi 2026-04-24 20:00→22:20 | code=A2 | odd=2.7
+   id=2026-04-24_2000_5204333ef7_O15SR
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 20:00 | ligue 2 | Amiens vs Montpellier | Over 1.5 (FT) | [FORT] | odd=1.22
+   ✅ Leg 2) 20:00 | ligue 2 | Annecy vs PAU | Over 1.5 (FT) | [TRÈS FORT] | odd=1.3
+   ❌ Leg 3) 20:00 | superligaen | Kazincbarcikai vs MTK Budapest | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ✅ Leg 4) 20:30 | laliga2 | Albacete vs Eibar | Over 1.5 (FT) | [FORT] | odd=1.42
+
 ====================================================================
-TOTAL tickets : 19
+TOTAL tickets : 21
 ✅ WIN     : 9
-❌ LOSS    : 10
+❌ LOSS    : 12
 ⏳ PENDING : 0
 ====================================================================
 

@@ -105,6 +105,29 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
 
 
 # ------------------------------------------------------------------
+# APPEND O25_RANDOM_ALL | 2026-04-25 10:21:54 | run_date=2026-04-24 | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-24_1930_e7b9674c0a_O25R — cote = 3.46 — fenêtre 19:30 → 21:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 19:30 | austrian bundesliga | FC BW Linz vs SCR Altach | Over 2.5 (FT) | MOYEN PLUS | odd=2.1
+  2) 20:00 | superligaen | Kazincbarcikai vs MTK Budapest | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.65
+
+
+# ------------------------------------------------------------------
+# APPEND O25_RANDOM_ALL | 2026-04-25 10:26:57 | run_date=2026-04-25 | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-25_1730_64114d35fa_O25R — cote = 3.52 — fenêtre 17:30 → 20:35  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 17:30 | ekstraklasa | Lechia Gdansk vs Raków Częstochowa | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.7
+  2) 18:00 | super league switzerland | Lausanne vs FC Zurich | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.48
+  3) 18:45 | eredivisie | Heerenveen vs Fortuna Sittard | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.4
+
+
+# ------------------------------------------------------------------
 # APPEND O25_RANDOM_ALL | 2026-04-18 15:00:01 | run_date=ALL | source=predictions.tsv
 # ------------------------------------------------------------------
 

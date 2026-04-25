@@ -1,0 +1,28 @@
+{
+  "_note": "Paramètres en production depuis le lancement réel (2026-04-05). Fonctionnent bien en temps réel. À conserver comme référence de repli.",
+  "_date_sauvegarde": "2026-04-23",
+
+  "O15R": {
+    "_source": "Meilleurs params run #1 backtest (backtest_20260421_005816.csv) — appliqués en prod",
+    "target_odd": 2.6,
+    "min_accept_odd": 1.8,
+    "random_league_bet_min_winrate": null,
+    "rich_day_match_count": 18,
+    "day_max_windows_rich": 4,
+    "day_max_windows_poor": 2,
+    "min_side_matches_for_split": 5,
+    "split_gap_weight": 0.4
+  },
+
+  "defaults_ticket_builder": {
+    "_source": "Constantes par défaut dans ticket_builder.py au moment de la sauvegarde",
+    "TARGET_ODD": 2.40,
+    "MIN_ACCEPT_ODD": 1.80,
+    "RICH_DAY_MATCH_COUNT": 18,
+    "DAY_MAX_WINDOWS_POOR": 1,
+    "DAY_MAX_WINDOWS_RICH": 4,
+    "MIN_SIDE_MATCHES_FOR_SPLIT": 5,
+    "SPLIT_GAP_WEIGHT": 0.6,
+    "LEAGUE_BET_MIN_WINRATE": 0.60
+  }
+}

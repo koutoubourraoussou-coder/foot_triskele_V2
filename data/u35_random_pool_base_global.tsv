@@ -403,3 +403,150 @@ TSV: 2026-04-23	1963000253	U35_FT	21:00	eredivisie	PSV Eindhoven	PEC Zwolle	2.4	
 TSV: 2026-04-23	3619656710	U35_FT	21:30	laliga	Oviedo	Villarreal	1.33	1391148	U35_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-04-23	1174047432	U35_FT	21:45	taça de portugal	Torreense	Fafe	1.3	1508723	U35_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND U35_RANDOM_POOL_BASE | 2026-04-25 10:21:52 | run_date=2026-04-24 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-24	56811988	U35_FT	02:00	liga pro ecuador	Universidad Catolica	Macara	1.3	1519335	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	2431721276	U35_FT	03:00	primera a colombia	Millonarios	Deportes Tolima	1.28	1506097	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	3899430698	U35_FT	14:30	ukrainian premier league	Kolos Kovalivka	SK Poltava	1.44	1396805	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	679673582	U35_FT	16:30	liga i romania	AFC Hermannstadt	Csikszereda	1.3	1531528	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	3579179140	U35_FT	17:45	saudi arabia	Al-Fateh	Al Khaleej Saihat	1.5	1436173	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	25884079	U35_FT	18:00	ekstraklasa	Zaglebie Lubin	Nieciecza	1.42	1380653	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	2942767575	U35_FT	18:10	saudi arabia	Al-Hazm	Al Riyadh	1.4	1436166	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	276964331	U35_FT	18:30	2. bundesliga	1. FC Kaiserslautern	Eintracht Braunschweig	1.53	1388888	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	1563403647	U35_FT	18:30	2. bundesliga	Fortuna Düsseldorf	Dynamo Dresden	1.44	1388886	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	2949966958	U35_FT	19:00	super lig	Başakşehir	Kasımpaşa	1.42	1394704	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	3010947630	U35_FT	19:00	serie b	Monza	Modena	1.38	1419947	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	3173578382	U35_FT	19:30	liga i romania	FCSB	Petrolul Ploiesti	1.33	1531529	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	4053941050	U35_FT	19:30	austrian bundesliga	FC BW Linz	SCR Altach	1.25	1531275	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	4086928493	U35_FT	20:00	superligaen	Kazincbarcikai	MTK Budapest	1.44	1380356	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	442286432	U35_FT	20:00	ligue 2	Amiens	Montpellier	1.4	1389396	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	2300419118	U35_FT	20:00	ligue 2	Laval	Rodez	1.33	1389389	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	2706594168	U35_FT	20:00	ligue 2	RED Star FC 93	Guingamp	1.33	1389392	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	684544871	U35_FT	20:00	ligue 2	Annecy	PAU	1.3	1389390	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	651010068	U35_FT	20:00	ligue 2	Clermont Foot	Bastia	1.2	1389391	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	3398559798	U35_FT	20:30	bundesliga	RB Leipzig	Union Berlin	1.62	1388584	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	1516258637	U35_FT	20:30	ekstraklasa	Jagiellonia	Gornik Zabrze	1.35	1380646	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	952121420	U35_FT	20:30	laliga2	Albacete	Eibar	1.2	1392170	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	438648253	U35_FT	20:45	pro league	Cercle Brugge	Dender	1.73	1536972	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	3953593301	U35_FT	20:45	ligue 1	Stade Brestois 29	Lens	1.45	1387969	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	887965514	U35_FT	20:45	serie a italia	Napoli	Cremonese	1.33	1378200	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	460119754	U35_FT	21:00	laliga	Real Betis	Real Madrid	1.67	1391131	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	2239664675	U35_FT	21:00	championship	Leicester	Millwall	1.45	1387080	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	68477659	U35_FT	21:00	serie b	Avellino	Bari	1.25	1419945	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	2341605176	U35_FT	21:00	premier league	Sunderland	Nottingham Forest	1.22	1379306	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	2555268535	U35_FT	21:15	liga portugal	Alverca	Arouca	1.33	1396508	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	452624696	U35_FT	22:45	primera división paraguay	Nacional Asuncion	Deportivo Recoleta	1.25	1505064	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-24	3526585484	U35_FT	23:00	primera a colombia	Cucuta	Junior	1.28	1506098	U35_RANDOM_POOL_BASE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND U35_RANDOM_POOL_BASE | 2026-04-25 10:26:55 | run_date=2026-04-25 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-25	273090016	U35_FT	02:30	liga profesional argentina	Racing Club	Barracas Central	1.2	1492054	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	833497484	U35_FT	05:00	liga mx	Puebla	Club Queretaro	1.36	1492607	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2936780927	U35_FT	12:00	liga portugal 2	Leixoes	Portimonense	1.28	1398243	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3637241072	U35_FT	12:30	serie b	Catanzaro	Spezia	1.36	1419946	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1721056934	U35_FT	13:00	2. bundesliga	Karlsruher SC	Hannover 96	1.62	1388889	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3405732396	U35_FT	13:00	2. bundesliga	Hertha BSC	Holstein Kiel	1.57	1388887	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2364710728	U35_FT	13:00	2. bundesliga	Preußen Münster	Arminia Bielefeld	1.4	1388892	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	648667417	U35_FT	13:30	championship	Middlesbrough	Watford	1.57	1387089	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	4020630643	U35_FT	13:30	premier league	Fulham	Aston Villa	1.42	1379303	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3326391657	U35_FT	13:30	super lig	Eyüpspor	Gaziantep FK	1.38	1394706	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1054005338	U35_FT	13:30	championship	Charlton	Hull City	1.33	1387085	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1388738485	U35_FT	13:30	championship	West Brom	Ipswich	1.3	1387088	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3254085044	U35_FT	13:30	russian premier league	FC Rostov	FC Orenburg	1.24	1400241	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	441027776	U35_FT	13:45	cymru premier league	Colwyn Bay	Penybont	1.36	1541765	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3521600149	U35_FT	14:00	ligue 2	Reims	Nancy	1.44	1389393	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3634959408	U35_FT	14:00	ligue 2	Grenoble	Le Mans	1.33	1389394	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	201837186	U35_FT	14:00	laliga	Alaves	Mallorca	1.3	1391129	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	945859201	U35_FT	14:00	liga i romania	FC Botosani	Oţelul	1.25	1531527	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3802044618	U35_FT	14:30	superligaen	Kisvarda FC	Diosgyori VTK	1.5	1380357	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1889685216	U35_FT	14:45	ekstraklasa	Korona Kielce	GKS Katowice	1.42	1380647	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3882288068	U35_FT	15:00	serie b	Frosinone	Carrarese	1.55	1419950	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1553053778	U35_FT	15:00	ligue 1	Lyon	Auxerre	1.38	1387972	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1922402675	U35_FT	15:00	serie b	Pescara	Juve Stabia	1.33	1419948	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2794153841	U35_FT	15:00	serie b	Reggiana	Palermo	1.33	1419942	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3735609577	U35_FT	15:00	serie b	Sudtirol	Mantova	1.25	1419944	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2350543193	U35_FT	15:00	serie b	Virtus Entella	Padova	1.25	1419949	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	575707486	U35_FT	15:00	liga portugal 2	Farense	Academico Viseu	1.22	1398246	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	664474292	U35_FT	15:00	serie a italia	Parma	Pisa	1.18	1378201	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2108015196	U35_FT	15:30	bundesliga	FSV Mainz 05	Bayern München	1.8	1388583	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	44834906	U35_FT	15:30	bundesliga	1. FC Köln	Bayer Leverkusen	1.62	1388580	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2348880703	U35_FT	15:30	bundesliga	FC Augsburg	Eintracht Frankfurt	1.62	1388578	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1256462957	U35_FT	15:30	bundesliga	VfL Wolfsburg	Borussia Mönchengladbach	1.5	1388586	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1049954591	U35_FT	15:30	bundesliga	1. FC Heidenheim	FC St. Pauli	1.3	1388582	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3228219256	U35_FT	16:00	czech first league	Karviná	Mlada Boleslav	1.5	1384862	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	534269637	U35_FT	16:00	premier league	Liverpool	Crystal Palace	1.5	1379304	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3197285485	U35_FT	16:00	championship	Sheffield Utd	Preston	1.48	1387079	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1722254885	U35_FT	16:00	super lig	Kayserispor	Rizespor	1.48	1394710	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	145131981	U35_FT	16:00	championship	Norwich	Swansea	1.45	1387082	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	141115793	U35_FT	16:00	premier league	Wolves	Tottenham	1.45	1379308	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2201717090	U35_FT	16:00	czech first league	Slavia Praha	Sigma Olomouc	1.44	1384864	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3051698231	U35_FT	16:00	czech first league	Baník Ostrava	Plzen	1.4	1384863	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2227987475	U35_FT	16:00	championship	Birmingham	Bristol City	1.38	1387081	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1912614911	U35_FT	16:00	championship	QPR	Derby	1.38	1387090	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	564757262	U35_FT	16:00	premiership	Aberdeen	Kilmarnock	1.38	1540005	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2155492702	U35_FT	16:00	premiership	ST Mirren	Livingston	1.38	1540006	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1012253733	U35_FT	16:00	czech first league	Bohemians 1905	Sparta Praha	1.36	1384859	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	63635728	U35_FT	16:00	pro league	OH Leuven	Charleroi	1.36	1536950	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1824789498	U35_FT	16:00	russian premier league	Krylia Sovetov	Lokomotiv	1.36	1400243	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	791994521	U35_FT	16:00	championship	Stoke City	Portsmouth	1.35	1387086	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1975813661	U35_FT	16:00	premier league	West Ham	Everton	1.35	1379307	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2399700773	U35_FT	16:00	championship	Oxford United	Sheffield Wednesday	1.33	1387084	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	859742651	U35_FT	16:00	czech first league	FK Jablonec	Slovan Liberec	1.33	1384861	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	4173764751	U35_FT	16:00	hnl croatia	NK Slaven Belupo	Vukovar	1.33	1384078	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2588252632	U35_FT	16:00	czech first league	Slovácko	Dukla Praha	1.3	1384865	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	4064324736	U35_FT	16:00	czech first league	Pardubice	Zlin	1.25	1384860	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3886741503	U35_FT	16:00	czech first league	Teplice	Hradec Králové	1.2	1384866	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2834508082	U35_FT	16:15	laliga2	Valladolid	Real Sociedad II	1.38	1392169	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3115076804	U35_FT	16:15	laliga	Getafe	Barcelona	1.33	1391133	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3944432448	U35_FT	16:30	eredivisie	Feyenoord	Groningen	1.65	1381138	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3644893637	U35_FT	16:30	liga portugal	Tondela	Nacional	1.33	1396514	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3785561473	U35_FT	17:00	superligaen	Puskas Academy	Ujpest	1.4	1380359	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1991785913	U35_FT	17:00	austrian bundesliga	Wolfsberger AC	Grazer AK	1.3	1531277	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3265592652	U35_FT	17:00	austrian bundesliga	WSG Wattens	Ried	1.28	1531276	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1763506549	U35_FT	17:00	ukrainian premier league	Ruh Lviv	Karpaty	1.25	1391600	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	844101031	U35_FT	17:15	serie b	Venezia	Empoli	1.55	1419943	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	267598861	U35_FT	17:30	ekstraklasa	Lechia Gdansk	Raków Częstochowa	1.42	1380648	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	4159604469	U35_FT	18:00	super league switzerland	Lausanne	FC Zurich	1.67	1538469	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3385454026	U35_FT	18:00	super league switzerland	Grasshoppers	FC Luzern	1.55	1538468	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3460968067	U35_FT	18:00	serie a italia	Bologna	AS Roma	1.28	1378194	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	4015512529	U35_FT	18:15	fa cup	Manchester City	Southampton	1.8	1539716	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	61170613	U35_FT	18:15	pro league	Genk	Standard Liege	1.36	1536949	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	15540316	U35_FT	18:15	hnl croatia	NK Osijek	NK Lokomotiva Zagreb	1.25	1384076	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	4126171001	U35_FT	18:30	bundesliga	Hamburger SV	1899 Hoffenheim	1.67	1388581	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3500868131	U35_FT	18:30	premiership	Celtic	Falkirk	1.67	1540020	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	216638833	U35_FT	18:30	premier league	Arsenal	Newcastle	1.5	1379299	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3029616082	U35_FT	18:30	laliga	Valencia	Girona	1.33	1391137	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	256721039	U35_FT	18:30	russian premier league	Rubin	CSKA Moscow	1.18	1400245	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1732293470	U35_FT	18:45	eredivisie	Heerenveen	Fortuna Sittard	1.8	1381140	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1500347934	U35_FT	18:45	liga pro ecuador	Mushuc Runa SC	Deportivo Cuenca	1.22	1519342	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2106550176	U35_FT	19:00	liga portugal	Benfica	Moreirense	1.7	1396509	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2384409256	U35_FT	19:00	ligue 1	Angers	Paris Saint Germain	1.62	1387968	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1501575286	U35_FT	19:00	mls	Toronto FC	Atlanta United FC	1.38	1490237	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3362891047	U35_FT	19:00	super lig	Göztepe	Antalyaspor	1.28	1394709	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1687472243	U35_FT	19:00	liga portugal 2	Felgueiras 1932	União de Leiria	1.25	1398242	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	145294794	U35_FT	19:30	superligaen	Nyiregyhaza	Zalaegerszegi TE	1.33	1380358	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	528053522	U35_FT	19:30	liga i romania	CFR 1907 Cluj	Universitatea Cluj	1.3	1531635	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2619075772	U35_FT	19:30	serie b	Cesena	Sampdoria	1.25	1419941	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1516436828	U35_FT	20:00	ligue 2	Saint Etienne	Estac Troyes	1.44	1389395	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3729572277	U35_FT	20:00	eredivisie	NAC Breda	Ajax	1.42	1381142	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1799800292	U35_FT	20:15	ekstraklasa	Cracovia Krakow	Pogon Szczecin	1.33	1380645	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3141867036	U35_FT	20:30	2. bundesliga	SV Darmstadt 98	SV Elversberg	1.67	1388885	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3264873841	U35_FT	20:30	super league switzerland	FC Thun	FC Lugano	1.62	1538483	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3256705841	U35_FT	20:30	mls	CF Montreal	New York City FC	1.42	1490238	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1726531439	U35_FT	20:45	pro league	KVC Westerlo	Antwerp	1.4	1536948	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2029416434	U35_FT	21:00	eredivisie	Twente	NEC Nijmegen	1.73	1381145	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2513729160	U35_FT	21:00	laliga2	Malaga	Castellón	1.5	1392161	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	144503727	U35_FT	21:00	primera a colombia	Bucaramanga	Jaguares	1.42	1506100	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3637159306	U35_FT	21:00	laliga	Atletico Madrid	Athletic Club	1.35	1391130	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	485383830	U35_FT	21:05	ligue 1	Toulouse	Monaco	1.5	1387976	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2910760008	U35_FT	21:10	liga pro ecuador	Independiente del Valle	Leones del Norte	1.36	1519339	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1548843559	U35_FT	21:30	liga portugal	Guimaraes	Rio Ave	1.36	1396515	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1060274488	U35_FT	22:45	mls	Minnesota United FC	Los Angeles FC	1.48	1490236	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2030805243	U35_FT	22:45	primera división paraguay	Sportivo Luqueno	Sportivo Trinidense	1.25	1505066	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	2451825864	U35_FT	23:00	primera a colombia	Deportivo Pereira	Atletico Nacional	1.42	1506103	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	1012833294	U35_FT	23:30	serie a brazil	Bahia	Santos	1.3	1492232	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	3011476326	U35_FT	23:30	serie a brazil	Remo	Cruzeiro	1.3	1492238	U35_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-25	221018795	U35_FT	23:30	serie a brazil	Botafogo	Internacional	1.25	1492233	U35_RANDOM_POOL_BASE	predictions.tsv
+

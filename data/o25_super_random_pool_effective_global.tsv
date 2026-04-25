@@ -222,3 +222,35 @@ TSV: 2026-04-23	2973303448	O25_FT	20:00	superliga serbia	Mladost Lucani	Radnicki
 TSV: 2026-04-23	1391475057	O25_FT	20:00	superliga serbia	FK Spartak Zdrepceva KRV	TSC Backa Topola	2	1540304	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-23	1963000253	O25_FT	21:00	eredivisie	PSV Eindhoven	PEC Zwolle	1.2	1381143	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O25_SUPER_RANDOM_POOL_EFFECTIVE | 2026-04-25 10:21:54 | run_date=2026-04-24 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-24	25884079	O25_FT	18:00	ekstraklasa	Zaglebie Lubin	Nieciecza	1.73	1380653	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-24	4053941050	O25_FT	19:30	austrian bundesliga	FC BW Linz	SCR Altach	2.1	1531275	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-24	1516258637	O25_FT	20:30	ekstraklasa	Jagiellonia	Gornik Zabrze	1.83	1380646	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-24	3398559798	O25_FT	20:30	bundesliga	RB Leipzig	Union Berlin	1.5	1388584	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+
+# ------------------------------------------------------------------
+# APPEND O25_SUPER_RANDOM_POOL_EFFECTIVE | 2026-04-25 10:26:57 | run_date=2026-04-25 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-25	1889685216	O25_FT	14:45	ekstraklasa	Korona Kielce	GKS Katowice	1.7	1380647	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	1049954591	O25_FT	15:30	bundesliga	1. FC Heidenheim	FC St. Pauli	1.93	1388582	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	1256462957	O25_FT	15:30	bundesliga	VfL Wolfsburg	Borussia Mönchengladbach	1.62	1388586	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	44834906	O25_FT	15:30	bundesliga	1. FC Köln	Bayer Leverkusen	1.5	1388580	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	2348880703	O25_FT	15:30	bundesliga	FC Augsburg	Eintracht Frankfurt	1.5	1388578	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	2108015196	O25_FT	15:30	bundesliga	FSV Mainz 05	Bayern München	1.38	1388583	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	3944432448	O25_FT	16:30	eredivisie	Feyenoord	Groningen	1.48	1381138	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	267598861	O25_FT	17:30	ekstraklasa	Lechia Gdansk	Raków Częstochowa	1.7	1380648	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	3385454026	O25_FT	18:00	super league switzerland	Grasshoppers	FC Luzern	1.57	1538468	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	4159604469	O25_FT	18:00	super league switzerland	Lausanne	FC Zurich	1.48	1538469	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	4015512529	O25_FT	18:15	fa cup	Manchester City	Southampton	1.42	1539716	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	4126171001	O25_FT	18:30	bundesliga	Hamburger SV	1899 Hoffenheim	1.48	1388581	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	1732293470	O25_FT	18:45	eredivisie	Heerenveen	Fortuna Sittard	1.4	1381140	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	1501575286	O25_FT	19:00	mls	Toronto FC	Atlanta United FC	1.8	1490237	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	3729572277	O25_FT	20:00	eredivisie	NAC Breda	Ajax	1.7	1381142	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	1799800292	O25_FT	20:15	ekstraklasa	Cracovia Krakow	Pogon Szczecin	1.9	1380645	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	3256705841	O25_FT	20:30	mls	CF Montreal	New York City FC	1.7	1490238	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	3264873841	O25_FT	20:30	super league switzerland	FC Thun	FC Lugano	1.5	1538483	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	2029416434	O25_FT	21:00	eredivisie	Twente	NEC Nijmegen	1.42	1381145	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-25	1060274488	O25_FT	22:45	mls	Minnesota United FC	Los Angeles FC	1.65	1490236	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-04-24
+Date run       : 2026-04-25
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (158 ids)
+Whitelist      : ON (164 ids)
 Ignorés (hors whitelist) : 326
-Ignorés (date>=today)    : 0
+Ignorés (date>=today)    : 10
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -1336,10 +1336,35 @@ Ignorés (date>=today)    : 0
    ✅ Leg 2) 18:45 | russian premier league | Akhmat vs Baltika | Over 1.5 (FT) | [FORT] | odd=1.4
    ✅ Leg 3) 19:00 | laliga | Levante vs Sevilla | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.38
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Vendredi 2026-04-24 02:00→20:00 | code=A2 | odd=2.48
+   id=2026-04-24_0200_c4d046e6ab_O15R
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 02:00 | liga pro ecuador | Universidad Catolica vs Macara | Over 1.5 (FT) | [EXPLOSION] | odd=1.28
+   ❌ Leg 2) 16:30 | liga i romania | AFC Hermannstadt vs Csikszereda | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.3
+   ✅ Leg 3) 18:00 | ekstraklasa | Zaglebie Lubin vs Nieciecza | Over 1.5 (FT) | [FORT] | odd=1.22
+   ✅ Leg 4) 18:10 | saudi arabia | Al-Hazm vs Al Riyadh | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Vendredi 2026-04-24 20:00→22:20 | code=A2 | odd=2.56
+   id=2026-04-24_2000_5d9e72f74a_O15R
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 20:00 | ligue 2 | Annecy vs PAU | Over 1.5 (FT) | [TRÈS FORT] | odd=1.3
+   ✅ Leg 2) 20:00 | ligue 2 | Clermont Foot vs Bastia | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.4
+   ❌ Leg 3) 20:00 | superligaen | Kazincbarcikai vs MTK Budapest | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ✅ Leg 4) 20:30 | bundesliga | RB Leipzig vs Union Berlin | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.17
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 3 | Vendredi 2026-04-24 22:45→00:50 | code=RESTE | odd=1.81
+   id=2026-04-24_2245_141ffbda46_O15R
+   legs=2 | WIN=2 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 22:45 | primera división paraguay | Nacional Asuncion vs Deportivo Recoleta | Over 1.5 (FT) | [EXPLOSION] | odd=1.36
+   ✅ Leg 2) 23:00 | primera a colombia | Cucuta vs Junior | Over 1.5 (FT) | [TRÈS FORT] | odd=1.33
+
 ====================================================================
-TOTAL tickets : 158
-✅ WIN     : 67
-❌ LOSS    : 88
+TOTAL tickets : 161
+✅ WIN     : 68
+❌ LOSS    : 90
 ⏳ PENDING : 3
 ====================================================================
 
