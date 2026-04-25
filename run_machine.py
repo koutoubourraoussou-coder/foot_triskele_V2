@@ -59,8 +59,8 @@ DATE_MODE = "RANGE"          # "TODAY", "MANUAL" ou "RANGE"
 DATE_MANUAL = "2026-04-14"    # YYYY-MM-DD
 
 # Utilisé si DATE_MODE == "RANGE"
-DATE_RANGE_START = "2026-04-24"
-DATE_RANGE_END   = "2026-04-25"
+DATE_RANGE_START = "2025-10-23"
+DATE_RANGE_END   = "2025-11-19"
 
 
 # ----------------------------------------------------
