@@ -379,6 +379,25 @@ def _time_to_minutes(t: str) -> int:
         return 0
 
 
+def _is_ready_for_postanalysis(date_val: date_cls, time_str: str, hours: int = 2) -> bool:
+    """
+    Retourne True si coup d'envoi (date + time_str) + hours <= maintenant.
+    Si l'heure est inconnue, on utilise 23:59 (conservateur : on attend la fin de journée).
+    """
+    from datetime import timedelta
+    now = datetime.now()
+    t = (time_str or "").strip()
+    if len(t) >= 5 and t[2] == ":":
+        try:
+            h, m = int(t[:2]), int(t[3:5])
+            kickoff = datetime(date_val.year, date_val.month, date_val.day, h, m)
+        except (ValueError, IndexError):
+            kickoff = datetime(date_val.year, date_val.month, date_val.day, 23, 59)
+    else:
+        kickoff = datetime(date_val.year, date_val.month, date_val.day, 23, 59)
+    return kickoff + timedelta(hours=hours) <= now
+
+
 def _weekday_fr(date_str: str) -> str:
     try:
         y, m, d = map(int, (date_str or "").split("-"))
@@ -2744,7 +2763,8 @@ def _run_tickets_post_analysis_variant(
             ignored_bad_date += 1
             continue
 
-        if d >= today:
+        end_time = t.get("end_time", "")
+        if not _is_ready_for_postanalysis(d, end_time):
             ignored_future += 1
             continue
 
@@ -3205,7 +3225,8 @@ def run_post_analysis(predictions_path: Path, results_path: Path, post_verdict_p
             continue
 
         pred_d = _as_date(pred.get("date", ""))
-        if pred_d is None or pred_d >= today:
+        pred_time = (pred.get("time") or "").strip()
+        if pred_d is None or not _is_ready_for_postanalysis(pred_d, pred_time):
             continue
 
         bet_key = (pred.get("bet_key") or "").strip().upper()
