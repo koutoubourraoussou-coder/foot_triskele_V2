@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [U35_SUPER_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_u35_super_random.tsv
-Date run       : 2026-04-25
+Date run       : 2026-04-26
 Output         : data/verdict_post_analyse_tickets_u35_super_random_report.txt
-Whitelist      : ON (24 ids)
-Ignorés (hors whitelist) : 184
-Ignorés (date>=today)    : 9
+Whitelist      : ON (28 ids)
+Ignorés (hors whitelist) : 193
+Ignorés (date>=today)    : 12
 
 ────────────────────────────────────────────────────────────────────
 ❌ Ticket 1 | Jeudi 2026-04-16 18:45→22:50 | code=A2 | odd=3.19
@@ -176,10 +176,34 @@ Ignorés (date>=today)    : 9
    ❌ Leg 2) 20:00 | ligue 2 | RED Star FC 93 vs Guingamp | Under 3.5 (FT) | [MOYEN PLUS] | odd=1.33
    ✅ Leg 3) 20:00 | superligaen | Kazincbarcikai vs MTK Budapest | Under 3.5 (FT) | [MOYEN] | odd=1.44
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Samedi 2026-04-25 13:30→15:20 | code=A2 | odd=2.53
+   id=2026-04-25_1330_951cad9c52_U35SR
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 13:30 | championship | Middlesbrough vs Watford | Under 3.5 (FT) | [EXPLOSION] | odd=1.57
+   ✅ Leg 2) 13:30 | championship | West Brom vs Ipswich | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.3
+   ✅ Leg 3) 13:30 | russian premier league | FC Rostov vs FC Orenburg | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.24
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 2 | Samedi 2026-04-25 15:30→17:50 | code=A2 | odd=3.04
+   id=2026-04-25_1530_36bda78134_U35SR
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 15:30 | bundesliga | FC Augsburg vs Eintracht Frankfurt | Under 3.5 (FT) | [MOYEN] | odd=1.62
+   ✅ Leg 2) 16:00 | czech first league | Bohemians 1905 vs Sparta Praha | Under 3.5 (FT) | [FORT PLUS] | odd=1.36
+   ✅ Leg 3) 16:00 | premiership | ST Mirren vs Livingston | Under 3.5 (FT) | [FORT] | odd=1.38
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 3 | Samedi 2026-04-25 19:30→01:20 | code=A2 | odd=2.63
+   id=2026-04-25_1930_e0b3c9cb7d_U35SR
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 19:30 | serie b | Cesena vs Sampdoria | Under 3.5 (FT) | [FORT PLUS] | odd=1.25
+   ✅ Leg 2) 20:30 | super league switzerland | FC Thun vs FC Lugano | Under 3.5 (FT) | [FORT PLUS] | odd=1.62
+   ❌ Leg 3) 23:30 | serie a brazil | Bahia vs Santos | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.3
+
 ====================================================================
-TOTAL tickets : 21
-✅ WIN     : 9
-❌ LOSS    : 12
+TOTAL tickets : 24
+✅ WIN     : 10
+❌ LOSS    : 14
 ⏳ PENDING : 0
 ====================================================================
 

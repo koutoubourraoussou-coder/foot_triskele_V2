@@ -199,33 +199,72 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
 
 
 # ------------------------------------------------------------------
-# APPEND U35_RANDOM_ALL | 2026-04-25 10:26:56 | run_date=2026-04-25 | source=predictions.tsv
+# APPEND U35_RANDOM_ALL | 2026-04-25 11:25:52 | run_date=2026-04-25 | source=predictions.tsv
 # ------------------------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-25_1330_53a92f1627_U35R — cote = 2.64 — fenêtre 13:30 → 16:50  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-25_0230_ab4405c74a_U35R — cote = 2.68 — fenêtre 02:30 → 15:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 13:30 | super lig | Eyüpspor vs Gaziantep FK | Under 3.5 (FT) | MOYEN PLUS | odd=1.38
-  2) 14:00 | ligue 2 | Reims vs Nancy | Under 3.5 (FT) | TRÈS FORT | odd=1.44
-  3) 15:00 | serie b | Reggiana vs Palermo | Under 3.5 (FT) | FORT PLUS | odd=1.33
+  1) 02:30 | liga profesional argentina | Racing Club vs Barracas Central | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.2
+  2) 13:30 | championship | Middlesbrough vs Watford | Under 3.5 (FT) | EXPLOSION | odd=1.57
+  3) 13:30 | premier league | Fulham vs Aston Villa | Under 3.5 (FT) | FAIBLE | odd=1.42
 
-📅 Samedi 2026-04-25 — Tranche 2 (fenêtre ~30min)
+📅 Samedi 2026-04-25 — Tranche 2
+-------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-25_1600_250d0fd0b5_U35R — cote = 2.89 — fenêtre 16:00 → 17:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:00 | premier league | Liverpool vs Crystal Palace | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.5
+  2) 16:00 | championship | Oxford United vs Sheffield Wednesday | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.33
+  3) 16:00 | championship | Norwich vs Swansea | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.45
+
+📅 Samedi 2026-04-25 — Tranche 3 (fenêtre ~30min)
 ------------------------------------------------
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-25_1800_3b02ef7f36_U35R — cote = 2.52 — fenêtre 18:00 → 20:20  
+  🎟️ TICKET 3.1 (A2) — id=2026-04-25_1800_c84fc1c68a_U35R — cote = 2.68 — fenêtre 18:00 → 20:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   1) 18:00 | super league switzerland | Lausanne vs FC Zurich | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.67
-  2) 18:00 | serie a italia | Bologna vs AS Roma | Under 3.5 (FT) | MOYEN PLUS | odd=1.28
+  2) 18:15 | pro league | Genk vs Standard Liege | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.36
   3) 18:30 | russian premier league | Rubin vs CSKA Moscow | Under 3.5 (FT) | MOYEN PLUS | odd=1.18
 
-📅 Samedi 2026-04-25 — Tranche 3 (fenêtre ~165min)
+📅 Samedi 2026-04-25 — Tranche 4 (fenêtre ~120min)
 -------------------------------------------------
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (A2) — id=2026-04-25_2045_d98442f098_U35R — cote = 2.58 — fenêtre 20:45 → 01:20  
+  🎟️ TICKET 4.1 (A2) — id=2026-04-25_2045_31926b1bc7_U35R — cote = 2.48 — fenêtre 20:45 → 00:35  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   1) 20:45 | pro league | KVC Westerlo vs Antwerp | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.4
   2) 21:00 | primera a colombia | Bucaramanga vs Jaguares | Under 3.5 (FT) | FORT | odd=1.42
-  3) 23:30 | serie a brazil | Bahia vs Santos | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.3
+  3) 22:45 | primera división paraguay | Sportivo Luqueno vs Sportivo Trinidense | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.25
+
+
+# ------------------------------------------------------------------
+# APPEND U35_RANDOM_ALL | 2026-04-26 02:19:27 | run_date=2026-04-26 | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-26_0200_e6e02f4f0f_U35R — cote = 2.47 — fenêtre 02:00 → 16:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 02:00 | serie a brazil | Sao Paulo vs Mirassol | Under 3.5 (FT) | FORT | odd=1.25
+  2) 03:05 | liga mx | Toluca vs Leon | Under 3.5 (FT) | MOYEN PLUS | odd=1.62
+  3) 15:00 | super league greece | Kifisia vs Panetolikos | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.22
+
+📅 Dimanche 2026-04-26 — Tranche 2 (fenêtre ~60min)
+--------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-26_1730_88a6426d5b_U35R — cote = 2.41 — fenêtre 17:30 → 20:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 17:30 | premiership | Hibernian vs Heart Of Midlothian | Under 3.5 (FT) | FORT PLUS | odd=1.33
+  2) 18:00 | cymru premier league | Barry Town vs Haverfordwest County AFC | Under 3.5 (FT) | MOYEN PLUS | odd=1.33
+  3) 18:30 | russian premier league | Zenit vs Akhmat | Under 3.5 (FT) | FORT PLUS | odd=1.36
+
+📅 Dimanche 2026-04-26 — Tranche 3 (fenêtre ~45min)
+--------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-26_2045_72de0617c3_U35R — cote = 3.11 — fenêtre 20:45 → 23:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:45 | serie a italia | AC Milan vs Juventus | Under 3.5 (FT) | FORT PLUS | odd=1.33
+  2) 21:00 | serie a brazil | Corinthians vs Vasco DA Gama | Under 3.5 (FT) | MOYEN PLUS | odd=1.2
+  3) 21:30 | liga portugal | AVS vs Sporting CP | Under 3.5 (FT) | MOYEN PLUS | odd=1.95
 
 
 # ------------------------------------------------------------------

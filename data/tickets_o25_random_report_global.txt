@@ -116,15 +116,34 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
 
 
 # ------------------------------------------------------------------
-# APPEND O25_RANDOM_ALL | 2026-04-25 10:26:57 | run_date=2026-04-25 | source=predictions.tsv
+# APPEND O25_RANDOM_ALL | 2026-04-25 11:25:53 | run_date=2026-04-25 | source=predictions.tsv
 # ------------------------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-25_1730_64114d35fa_O25R — cote = 3.52 — fenêtre 17:30 → 20:35  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-25_1600_281cddae4f_O25R — cote = 2.66 — fenêtre 16:00 → 20:35  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 17:30 | ekstraklasa | Lechia Gdansk vs Raków Częstochowa | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.7
-  2) 18:00 | super league switzerland | Lausanne vs FC Zurich | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.48
-  3) 18:45 | eredivisie | Heerenveen vs Fortuna Sittard | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.4
+  1) 16:00 | hnl croatia | NK Slaven Belupo vs Vukovar | Over 2.5 (FT) | FORT PLUS | odd=1.9
+  2) 18:45 | eredivisie | Heerenveen vs Fortuna Sittard | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.4
+
+
+# ------------------------------------------------------------------
+# APPEND O25_RANDOM_ALL | 2026-04-26 02:19:29 | run_date=2026-04-26 | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-26_0230_8586ea5201_O25R — cote = 2.97 — fenêtre 02:30 → 13:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 02:30 | mls | Chicago Fire vs Sporting Kansas City | Over 2.5 (FT) | MOYEN PLUS | odd=1.33
+  2) 04:30 | mls | Vancouver Whitecaps vs Colorado Rapids | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.42
+  3) 12:00 | ukrainian premier league | Kryvbas KR vs Dynamo Kyiv | Over 2.5 (FT) | TRÈS FORT | odd=1.57
+
+📅 Dimanche 2026-04-26 — Tranche 2 (fenêtre ~30min)
+--------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-26_1600_377214a8b8_O25R — cote = 2.56 — fenêtre 16:00 → 18:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:00 | fa cup | Chelsea vs Leeds | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.83
+  2) 16:30 | super league switzerland | Servette FC vs FC Winterthur | Over 2.5 (FT) | FORT | odd=1.4
 
 
 # ------------------------------------------------------------------

@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [SYSTEM]
 ====================================================================
 
 Source tickets : data/tickets.tsv
-Date run       : 2026-04-25
+Date run       : 2026-04-26
 Output         : data/verdict_post_analyse_tickets_report.txt
-Whitelist      : ON (174 ids)
-Ignorés (hors whitelist) : 390
-Ignorés (date>=today)    : 10
+Whitelist      : ON (177 ids)
+Ignorés (hors whitelist) : 397
+Ignorés (date>=today)    : 12
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Lundi 2026-01-26 16:20→20:50 | code=A2 | odd=2.26
@@ -1392,10 +1392,35 @@ Ignorés (date>=today)    : 10
    ✅ Leg 2) 21:00 | laliga | Real Betis vs Real Madrid | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.15
    ✅ Leg 3) 23:00 | primera a colombia | Cucuta vs Junior | Over 1.5 (FT) | [TRÈS FORT] | odd=1.33
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Samedi 2026-04-25 12:30→16:50 | code=A2 | odd=2.45
+   id=2026-04-25_1230_e84006c130_SYS
+   legs=4 | WIN=4 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 12:30 | serie b | Catanzaro vs Spezia | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
+   ✅ Leg 2) 14:00 | laliga | Alaves vs Mallorca | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.33
+   ✅ Leg 3) 14:30 | superligaen | Kisvarda FC vs Diosgyori VTK | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
+   ✅ Leg 4) 15:00 | serie b | Virtus Entella vs Padova | Team1 scores (FT) | [MOYEN PLUS] | odd=1.22
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Samedi 2026-04-25 18:15→20:20 | code=A2 | odd=2.61
+   id=2026-04-25_1815_1e0a686d44_SYS
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 18:15 | hnl croatia | NK Osijek vs NK Lokomotiva Zagreb | Over 1.5 (FT) | [TRÈS FORT] | odd=1.33
+   ✅ Leg 2) 18:30 | laliga2 | Burgos vs Deportivo La Coruna | Team1 scores (FT) | [MOYEN PLUS] | odd=1.4
+   ❌ Leg 3) 18:30 | russian premier league | Rubin vs CSKA Moscow | Team1 scores (FT) | [FORT PLUS] | odd=1.4
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 3 | Samedi 2026-04-25 20:45→01:20 | code=A2 | odd=2.55
+   id=2026-04-25_2045_de93068dd0_SYS
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 20:45 | pro league | KVC Westerlo vs Antwerp | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.4
+   ✅ Leg 2) 21:00 | eredivisie | Twente vs NEC Nijmegen | Team2 scores (FT) | [FORT] | odd=1.3
+   ❌ Leg 3) 23:30 | serie a brazil | Remo vs Cruzeiro | Team1 scores (FT) | [FORT] | odd=1.4
+
 ====================================================================
-TOTAL tickets : 166
-✅ WIN     : 59
-❌ LOSS    : 105
+TOTAL tickets : 169
+✅ WIN     : 60
+❌ LOSS    : 107
 ⏳ PENDING : 2
 ====================================================================
 

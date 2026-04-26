@@ -2,10 +2,10 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [U35_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_u35_random.tsv
-Date run       : 2026-04-25
+Date run       : 2026-04-26
 Output         : data/verdict_post_analyse_tickets_u35_random_report.txt
-Whitelist      : ON (21 ids)
-Ignorés (hors whitelist) : 113
+Whitelist      : ON (25 ids)
+Ignorés (hors whitelist) : 122
 Ignorés (date>=today)    : 9
 
 ────────────────────────────────────────────────────────────────────
@@ -156,10 +156,42 @@ Ignorés (date>=today)    : 9
    ✅ Leg 2) 20:00 | ligue 2 | Laval vs Rodez | Under 3.5 (FT) | [FORT] | odd=1.33
    ❌ Leg 3) 20:00 | ligue 2 | RED Star FC 93 vs Guingamp | Under 3.5 (FT) | [MOYEN PLUS] | odd=1.33
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Samedi 2026-04-25 02:30→15:20 | code=A2 | odd=2.68
+   id=2026-04-25_0230_ab4405c74a_U35R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 02:30 | liga profesional argentina | Racing Club vs Barracas Central | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.2
+   ❌ Leg 2) 13:30 | championship | Middlesbrough vs Watford | Under 3.5 (FT) | [EXPLOSION] | odd=1.57
+   ✅ Leg 3) 13:30 | premier league | Fulham vs Aston Villa | Under 3.5 (FT) | [FAIBLE] | odd=1.42
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Samedi 2026-04-25 16:00→17:50 | code=A2 | odd=2.89
+   id=2026-04-25_1600_250d0fd0b5_U35R
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ✅ Leg 1) 16:00 | championship | Norwich vs Swansea | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.45
+   ❌ Leg 2) 16:00 | championship | Oxford United vs Sheffield Wednesday | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.33
+   ❌ Leg 3) 16:00 | premier league | Liverpool vs Crystal Palace | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.5
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 3 | Samedi 2026-04-25 18:00→20:20 | code=A2 | odd=2.68
+   id=2026-04-25_1800_c84fc1c68a_U35R
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 18:00 | super league switzerland | Lausanne vs FC Zurich | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.67
+   ✅ Leg 2) 18:15 | pro league | Genk vs Standard Liege | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.36
+   ✅ Leg 3) 18:30 | russian premier league | Rubin vs CSKA Moscow | Under 3.5 (FT) | [MOYEN PLUS] | odd=1.18
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 4 | Samedi 2026-04-25 20:45→00:35 | code=A2 | odd=2.48
+   id=2026-04-25_2045_31926b1bc7_U35R
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 20:45 | pro league | KVC Westerlo vs Antwerp | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.4
+   ❌ Leg 2) 21:00 | primera a colombia | Bucaramanga vs Jaguares | Under 3.5 (FT) | [FORT] | odd=1.42
+   ✅ Leg 3) 22:45 | primera división paraguay | Sportivo Luqueno vs Sportivo Trinidense | Under 3.5 (FT) | [MEGA EXPLOSION] | odd=1.25
+
 ====================================================================
-TOTAL tickets : 18
-✅ WIN     : 8
-❌ LOSS    : 10
+TOTAL tickets : 22
+✅ WIN     : 9
+❌ LOSS    : 13
 ⏳ PENDING : 0
 ====================================================================
 

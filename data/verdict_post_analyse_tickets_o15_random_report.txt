@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-04-25
+Date run       : 2026-04-26
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
-Whitelist      : ON (164 ids)
-Ignorés (hors whitelist) : 326
-Ignorés (date>=today)    : 10
+Whitelist      : ON (167 ids)
+Ignorés (hors whitelist) : 336
+Ignorés (date>=today)    : 11
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -1361,10 +1361,35 @@ Ignorés (date>=today)    : 10
    ✅ Leg 1) 22:45 | primera división paraguay | Nacional Asuncion vs Deportivo Recoleta | Over 1.5 (FT) | [EXPLOSION] | odd=1.36
    ✅ Leg 2) 23:00 | primera a colombia | Cucuta vs Junior | Over 1.5 (FT) | [TRÈS FORT] | odd=1.33
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Samedi 2026-04-25 12:30→16:50 | code=A2 | odd=2.55
+   id=2026-04-25_1230_7f215dcc9d_O15R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 12:30 | serie b | Catanzaro vs Spezia | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
+   ✅ Leg 2) 14:00 | laliga | Alaves vs Mallorca | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.33
+   ❌ Leg 3) 15:00 | serie a italia | Parma vs Pisa | Over 1.5 (FT) | [FORT PLUS] | odd=1.5
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Samedi 2026-04-25 17:00→20:20 | code=A2 | odd=2.41
+   id=2026-04-25_1700_dc1dcc04e1_O15R
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ✅ Leg 1) 17:00 | superligaen | Puskas Academy vs Ujpest | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.22
+   ✅ Leg 2) 17:30 | ekstraklasa | Lechia Gdansk vs Raków Częstochowa | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.22
+   ✅ Leg 3) 18:00 | serie a italia | Bologna vs AS Roma | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.35
+   ❌ Leg 4) 18:30 | premier league | Arsenal vs Newcastle | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.2
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 3 | Samedi 2026-04-25 20:45→23:20 | code=A2 | odd=2.51
+   id=2026-04-25_2045_210b5a8700_O15R
+   legs=3 | WIN=2 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 20:45 | serie a italia | Hellas Verona vs Lecce | Over 1.5 (FT) | [FAIBLE] | odd=1.57
+   ✅ Leg 2) 21:00 | laliga | Atletico Madrid vs Athletic Club | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.25
+   ✅ Leg 3) 21:30 | liga portugal | Guimaraes vs Rio Ave | Over 1.5 (FT) | [TRÈS FORT] | odd=1.28
+
 ====================================================================
-TOTAL tickets : 161
+TOTAL tickets : 164
 ✅ WIN     : 68
-❌ LOSS    : 90
+❌ LOSS    : 93
 ⏳ PENDING : 3
 ====================================================================
 

@@ -105,30 +105,51 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
 
 
 # ------------------------------------------------------------------
-# APPEND O25_SUPER_RANDOM | 2026-04-25 10:26:57 | run_date=2026-04-25 | source=predictions.tsv
+# APPEND O25_SUPER_RANDOM | 2026-04-25 11:25:53 | run_date=2026-04-25 | source=predictions.tsv
 # ------------------------------------------------------------------
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 1.1 (A2) — id=2026-04-25_1530_8daf6da9a4_O25SR — cote = 2.43 — fenêtre 15:30 → 17:20  
+  🎟️ TICKET 1.1 (A2) — id=2026-04-25_1530_8f2bc1b3ec_O25SR — cote = 2.75 — fenêtre 15:30 → 19:20  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 15:30 | bundesliga | 1. FC Köln vs Bayer Leverkusen | Over 2.5 (FT) | MOYEN PLUS | odd=1.5
-  2) 15:30 | bundesliga | VfL Wolfsburg vs Borussia Mönchengladbach | Over 2.5 (FT) | TRÈS FORT | odd=1.62
+  1) 15:30 | bundesliga | VfL Wolfsburg vs Borussia Mönchengladbach | Over 2.5 (FT) | TRÈS FORT | odd=1.62
+  2) 17:30 | ekstraklasa | Lechia Gdansk vs Raków Częstochowa | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.7
 
 📅 Samedi 2026-04-25 — Tranche 2
 -------------------------------
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 2.1 (A2) — id=2026-04-25_1815_7a783a17fc_O25SR — cote = 2.56 — fenêtre 18:15 → 20:50  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 18:15 | fa cup | Manchester City vs Southampton | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.42
-  2) 19:00 | mls | Toronto FC vs Atlanta United FC | Over 2.5 (FT) | KO | odd=1.8
-
-📅 Samedi 2026-04-25 — Tranche 3
--------------------------------
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🎟️ TICKET 3.1 (RESTE) — id=2026-04-25_2100_3ceb33a497_O25SR — cote = 2.34 — fenêtre 21:00 → 00:35  
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1) 21:00 | eredivisie | Twente vs NEC Nijmegen | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.42
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-25_2030_01a9a875b3_O25SR — cote = 2.8 — fenêtre 20:30 → 00:35  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 20:30 | mls | CF Montreal vs New York City FC | Over 2.5 (FT) | MOYEN PLUS | odd=1.7
   2) 22:45 | mls | Minnesota United FC vs Los Angeles FC | Over 2.5 (FT) | MOYEN PLUS | odd=1.65
+
+
+# ------------------------------------------------------------------
+# APPEND O25_SUPER_RANDOM | 2026-04-26 02:19:29 | run_date=2026-04-26 | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-26_0230_2c461915cc_O25SR — cote = 2.61 — fenêtre 02:30 → 06:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 02:30 | mls | Chicago Fire vs Sporting Kansas City | Over 2.5 (FT) | MOYEN PLUS | odd=1.33
+  2) 03:30 | mls | San Diego vs Portland Timbers | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.38
+  3) 04:30 | mls | Vancouver Whitecaps vs Colorado Rapids | Over 2.5 (FT) | MEGA EXPLOSION | odd=1.42
+
+📅 Dimanche 2026-04-26 — Tranche 2
+---------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-26_1215_1110294b49_O25SR — cote = 3.16 — fenêtre 12:15 → 16:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 12:15 | ekstraklasa | Wisla Plock vs Radomiak Radom | Over 2.5 (FT) | FAIBLE | odd=1.95
+  2) 14:30 | eredivisie | Heracles vs FC Volendam | Over 2.5 (FT) | TRÈS FORT | odd=1.62
+
+📅 Dimanche 2026-04-26 — Tranche 3
+---------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-26_1630_7afbb3f171_O25SR — cote = 3.33 — fenêtre 16:30 → 19:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:30 | super league switzerland | BSC Young Boys vs FC ST. Gallen | Over 2.5 (FT) | TRÈS FORT | odd=1.4
+  2) 16:30 | super league switzerland | Servette FC vs FC Winterthur | Over 2.5 (FT) | FORT | odd=1.4
+  3) 17:30 | ekstraklasa | Lech Poznan vs Legia Warszawa | Over 2.5 (FT) | MOYEN | odd=1.7
 
 
 # ------------------------------------------------------------------

@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O25_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o25_random.tsv
-Date run       : 2026-04-25
+Date run       : 2026-04-26
 Output         : data/verdict_post_analyse_tickets_o25_random_report.txt
-Whitelist      : ON (12 ids)
-Ignorés (hors whitelist) : 114
-Ignorés (date>=today)    : 3
+Whitelist      : ON (14 ids)
+Ignorés (hors whitelist) : 117
+Ignorés (date>=today)    : 5
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Samedi 2026-04-18 13:30→16:35 | code=A2 | odd=4.2
@@ -86,9 +86,16 @@ Ignorés (date>=today)    : 3
    ✅ Leg 1) 19:30 | austrian bundesliga | FC BW Linz vs SCR Altach | Over 2.5 (FT) | [MOYEN PLUS] | odd=2.1
    ❌ Leg 2) 20:00 | superligaen | Kazincbarcikai vs MTK Budapest | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.65
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Samedi 2026-04-25 16:00→20:35 | code=A2 | odd=2.66
+   id=2026-04-25_1600_281cddae4f_O25R
+   legs=2 | WIN=2 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 16:00 | hnl croatia | NK Slaven Belupo vs Vukovar | Over 2.5 (FT) | [FORT PLUS] | odd=1.9
+   ✅ Leg 2) 18:45 | eredivisie | Heerenveen vs Fortuna Sittard | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.4
+
 ====================================================================
-TOTAL tickets : 11
-✅ WIN     : 7
+TOTAL tickets : 12
+✅ WIN     : 8
 ❌ LOSS    : 4
 ⏳ PENDING : 0
 ====================================================================

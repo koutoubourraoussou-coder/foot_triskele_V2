@@ -311,3 +311,36 @@ TSV: 2026-04-25	1732293470	O25_FT	18:45	eredivisie	Heerenveen	Fortuna Sittard	1.
 TSV: 2026-04-25	528053522	O25_FT	19:30	liga i romania	CFR 1907 Cluj	Universitatea Cluj	1.95	1531635	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-25	1799800292	O25_FT	20:15	ekstraklasa	Cracovia Krakow	Pogon Szczecin	1.9	1380645	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O25_RANDOM_POOL_EFFECTIVE | 2026-04-26 02:19:27 | run_date=2026-04-26 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-26	2849245164	O25_FT	02:30	mls	Chicago Fire	Sporting Kansas City	1.33	1490244	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	3455039564	O25_FT	04:30	mls	Vancouver Whitecaps	Colorado Rapids	1.42	1490249	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	1422004090	O25_FT	12:00	ukrainian premier league	Kryvbas KR	Dynamo Kyiv	1.57	1391601	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	4262813918	O25_FT	12:15	ekstraklasa	Wisla Plock	Radomiak Radom	1.95	1380652	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	541947878	O25_FT	13:00	liga i romania	Uta Arad	Farul Constanta	1.85	1531531	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	3798026481	O25_FT	13:00	russian premier league	Nizhny Novgorod	Spartak Moscow	1.81	1400244	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	1744305655	O25_FT	14:30	ukrainian premier league	LNZ Cherkasy	Metalist 1925 Kharkiv	3	1396804	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	891128895	O25_FT	14:30	austrian bundesliga	TSV Hartberg	Lask Linz	1.7	1531248	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	3849914138	O25_FT	14:30	austrian bundesliga	Rapid Vienna	Red Bull Salzburg	1.67	1531249	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	1558406755	O25_FT	14:45	ekstraklasa	Widzew Łódź	Motor Lublin	1.83	1380651	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	4096154184	O25_FT	15:00	super league greece	Kifisia	Panetolikos	2.2	1537091	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	1621810379	O25_FT	15:00	superliga serbia	OFK Beograd	Radnik Surdulica	2.05	1540279	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	2599028519	O25_FT	16:00	hnl croatia	HNK Rijeka	HNK Hajduk Split	2	1384077	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	704807425	O25_FT	16:00	russian premier league	FC Krasnodar	Dinamo Makhachkala	1.86	1400242	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	1238292491	O25_FT	16:00	fa cup	Chelsea	Leeds	1.83	1539715	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	96521	O25_FT	16:00	russian premier league	Dynamo	FC Sochi	1.52	1400240	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	2933885839	O25_FT	16:30	superliga serbia	Novi Pazar	Cukaricki	2	1540278	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	4293068472	O25_FT	16:30	super league switzerland	Servette FC	FC Winterthur	1.4	1538470	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	2495116031	O25_FT	17:00	super league greece	Atromitos	Asteras Tripolis	2.38	1537092	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	2414008566	O25_FT	17:00	ukrainian premier league	Polessya	Obolon'-Brovar	2	1396803	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	715112327	O25_FT	17:00	austrian bundesliga	Sturm Graz	Austria Vienna	1.85	1531250	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	2126385431	O25_FT	17:00	ukrainian premier league	Kudrivka	Shakhtar Donetsk	1.53	1391602	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	769827588	O25_FT	17:30	ekstraklasa	Lech Poznan	Legia Warszawa	1.7	1380649	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	703945423	O25_FT	18:00	superliga serbia	FK Crvena Zvezda	FK Partizan	1.44	1540277	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	1707192428	O25_FT	18:30	russian premier league	Zenit	Akhmat	1.82	1400246	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	2435921191	O25_FT	18:45	hnl croatia	Dinamo Zagreb	NK Varazdin	1.44	1384074	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	1899038191	O25_FT	19:00	super league greece	Larisa	Panserraikos	2.3	1537093	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	2511282303	O25_FT	20:00	liga i romania	Dinamo Bucuresti	Rapid	2	1531636	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-26	853932580	O25_FT	20:00	superliga serbia	Vojvodina	Železničar Pančevo	1.85	1540280	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

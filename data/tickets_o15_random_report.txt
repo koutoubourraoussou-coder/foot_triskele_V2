@@ -1,4 +1,34 @@
-TICKETS TRISKÈLE — 2025-10-26 — O15_RANDOM_ALL — depuis predictions.tsv
+TICKETS TRISKÈLE — 2026-04-26 — O15_RANDOM_ALL — depuis predictions.tsv
 =======================================================================
 
-Aucun ticket.
+📅 Dimanche 2026-04-26 — Tranche 1 (fenêtre ~600min)
+---------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-26_0330_beafa81477_O15R — cote = 2.43 — fenêtre 03:30 → 15:20  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 03:30 | primera a colombia | Independiente Medellin vs Fortaleza FC | Over 1.5 (FT) | MOYEN PLUS | odd=1.3
+  2) 12:30 | serie a italia | Fiorentina vs Sassuolo | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.28
+  3) 13:00 | liga i romania | Uta Arad vs Farul Constanta | Over 1.5 (FT) | TRÈS FORT | odd=1.25
+  4) 13:30 | 2. bundesliga | VfL Bochum vs SpVgg Greuther Fürth | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.17
+
+📅 Dimanche 2026-04-26 — Tranche 2 (fenêtre ~60min)
+--------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 2.1 (A2) — id=2026-04-26_1600_81de071d78_O15R — cote = 2.57 — fenêtre 16:00 → 18:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 16:00 | premiership | Rangers vs Motherwell | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  2) 16:00 | fa cup | Chelsea vs Leeds | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.28
+  3) 16:15 | laliga | Oviedo vs Elche | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.33
+  4) 17:00 | austrian bundesliga | Sturm Graz vs Austria Vienna | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.28
+
+📅 Dimanche 2026-04-26 — Tranche 3 (fenêtre ~120min)
+---------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 3.1 (A2) — id=2026-04-26_1900_400e95a258_O15R — cote = 2.43 — fenêtre 19:00 → 22:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 19:00 | super league greece | Larisa vs Panserraikos | Over 1.5 (FT) | TRÈS FORT | odd=1.42
+  2) 19:00 | liga portugal | Santa Clara vs SC Braga | Over 1.5 (FT) | TRÈS FORT | odd=1.45
+  3) 21:00 | laliga2 | AD Ceuta FC vs Racing Santander | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
