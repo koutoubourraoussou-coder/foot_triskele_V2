@@ -9,7 +9,7 @@ import os
 import sys
 from zoneinfo import ZoneInfo
 
-from services.api_client import _call_api  # utilitaires communs
+from services.api_client import _call_api_all_pages  # utilitaires communs
 
 
 # ----------------------------------------------------
@@ -214,10 +214,11 @@ def collect_fixtures_for_date(
       (date_str, time_str, league_name, home, away, league_id, home_id, away_id, fixture_id)
     """
     league_id_to_name = load_league_ids_from_aliases()
+    league_ids_set = set(league_id_to_name.keys())
 
     print(f"\n📅 Date ciblée (Paris) : {date_str}")
     print(f"🎯 Ligues dans aliases.json : {len(league_id_to_name)}")
-    print(f"🪟 Fenêtre API : J-{FETCH_DATE_WINDOW_DAYS} .. J+{FETCH_DATE_WINDOW_DAYS} (filtre final = date Paris)")
+    print(f"🪟 Fenêtre API : J-{FETCH_DATE_WINDOW_DAYS} .. J+{FETCH_DATE_WINDOW_DAYS} — 3 calls globaux (vs {len(league_id_to_name)*3} avant)")
 
     query_dates = _date_window(date_str, FETCH_DATE_WINDOW_DAYS)
 
@@ -225,78 +226,64 @@ def collect_fixtures_for_date(
         tuple[str, str, str, str, str, int | None, int | None, int | None, int | None]
     ] = []
 
-    leagues_with_matches = 0
-    skipped_wrong_local_date = 0
     fetched_total_fixtures = 0
+    skipped_wrong_league = 0
+    skipped_wrong_local_date = 0
 
-    for league_id, league_name in league_id_to_name.items():
-        league_had_any = False
+    # OPTIMISÉ : 3 appels globaux par date au lieu de 73×3 = 219 appels
+    for qd in query_dates:
+        fixtures = _call_api_all_pages("/fixtures", {"date": qd, "timezone": "Europe/Paris"})
+        fetched_total_fixtures += len(fixtures)
 
-        for qd in query_dates:
-            season = _infer_season_for_league(league_id, qd)
+        for fx in fixtures:
+            league_info = fx.get("league", {}) or {}
+            league_api_id = league_info.get("id")
 
-            params = {
-                "league": league_id,
-                "season": season,
-                "date": qd,
-                "timezone": "Europe/Paris",
-            }
-
-            fixtures = _call_api("/fixtures", params) or []
-            if not fixtures:
+            # Filtre local : garder seulement les ligues suivies
+            if league_api_id not in league_ids_set:
+                skipped_wrong_league += 1
                 continue
 
-            league_had_any = True
-            fetched_total_fixtures += len(fixtures)
+            league_name = league_id_to_name[league_api_id]
 
-            for fx in fixtures:
-                fixture_info = fx.get("fixture", {}) or {}
-                d_iso = fixture_info.get("date") or ""
-                dt_local = _iso_to_local_dt(d_iso)
+            fixture_info = fx.get("fixture", {}) or {}
+            d_iso = fixture_info.get("date") or ""
+            dt_local = _iso_to_local_dt(d_iso)
 
-                if not dt_local or dt_local.strftime("%Y-%m-%d") != date_str:
-                    skipped_wrong_local_date += 1
-                    continue
+            if not dt_local or dt_local.strftime("%Y-%m-%d") != date_str:
+                skipped_wrong_local_date += 1
+                continue
 
-                teams = fx.get("teams", {}) or {}
-                home_info = (teams.get("home", {}) or {})
-                away_info = (teams.get("away", {}) or {})
+            teams = fx.get("teams", {}) or {}
+            home_info = (teams.get("home", {}) or {})
+            away_info = (teams.get("away", {}) or {})
 
-                home = (home_info.get("name") or "").strip()
-                away = (away_info.get("name") or "").strip()
-                if not home or not away:
-                    continue
+            home = (home_info.get("name") or "").strip()
+            away = (away_info.get("name") or "").strip()
+            if not home or not away:
+                continue
 
-                home_id = home_info.get("id")
-                away_id = away_info.get("id")
+            home_id = home_info.get("id")
+            away_id = away_info.get("id")
+            fixture_id = fixture_info.get("id")
+            time_str = dt_local.strftime("%H:%M")
 
-                league_info = fx.get("league", {}) or {}
-                league_api_id = league_info.get("id", league_id)
-
-                fixture_id = fixture_info.get("id")
-                time_str = dt_local.strftime("%H:%M")
-
-                all_matches.append(
-                    (
-                        date_str,
-                        time_str,
-                        league_name,
-                        home,
-                        away,
-                        league_api_id if isinstance(league_api_id, int) else None,
-                        home_id if isinstance(home_id, int) else None,
-                        away_id if isinstance(away_id, int) else None,
-                        fixture_id if isinstance(fixture_id, int) else None,
-                    )
+            all_matches.append(
+                (
+                    date_str,
+                    time_str,
+                    league_name,
+                    home,
+                    away,
+                    league_api_id if isinstance(league_api_id, int) else None,
+                    home_id if isinstance(home_id, int) else None,
+                    away_id if isinstance(away_id, int) else None,
+                    fixture_id if isinstance(fixture_id, int) else None,
                 )
-
-        if league_had_any:
-            leagues_with_matches += 1
+            )
 
     # ------------------------------------------------
-    # Dédup robuste (fenêtre multi-jours) :
-    # - fixture_id => clé unique globale
-    # - sinon => on inclut league_id + time pour éviter collisions inter-ligues
+    # Dédup robuste (fenêtre multi-jours)
     # ------------------------------------------------
     dedup: dict[tuple, tuple] = {}
     for m in all_matches:
@@ -317,8 +304,8 @@ def collect_fixtures_for_date(
 
     all_matches.sort(key=_sort_key)
 
-    print(f"✅ Ligues avec au moins un match (fenêtre) : {leagues_with_matches}")
-    print(f"📦 Fixtures API récupérés (brut)          : {fetched_total_fixtures}")
+    print(f"📦 Fixtures API bruts (toutes ligues)     : {fetched_total_fixtures}")
+    print(f"🧹 Hors suivi (ligues non suivies)        : {skipped_wrong_league}")
     print(f"🧹 Skipped (date Paris != {date_str})     : {skipped_wrong_local_date}")
     print(f"✅ Matchs retenus (final)                 : {len(all_matches)}")
 

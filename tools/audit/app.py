@@ -835,23 +835,8 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs(["🎯 Tickets", "📄 Fichiers Bruts", "
 with tab1:
     st.header(f"Tickets — {period_label}")
 
-    col_refresh, col_postanalyse = st.columns([1, 2])
-    with col_refresh:
-        if st.button("🔄 Rafraîchir l'affichage"):
-            st.rerun()
-    with col_postanalyse:
-        if st.button("⚙️ Lancer post-analyse (matchs terminés)"):
-            with st.spinner("Post-analyse en cours..."):
-                import subprocess as _sp
-                result = _sp.run(
-                    ["python", str(ROOT / "post_analysis.py")],
-                    capture_output=True, text=True, cwd=str(ROOT)
-                )
-            if result.returncode == 0:
-                st.success("Post-analyse terminée ✅")
-            else:
-                st.error(f"Erreur post-analyse ❌\n{result.stderr[-500:] if result.stderr else 'voir logs'}")
-            st.rerun()
+    if st.button("🔄 Rafraîchir l'affichage"):
+        st.rerun()
 
     st.divider()
 

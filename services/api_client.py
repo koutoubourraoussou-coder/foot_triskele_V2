@@ -49,6 +49,7 @@ H2H_HARD_CAP = 60
 
 DEFAULT_SEASON = 2023
 _WARNED_NO_KEY = False
+_QUOTA_EXHAUSTED = False  # Mis à True dès qu'un quota épuisé est détecté → arrêt immédiat
 
 
 def debug(msg: str) -> None:
@@ -117,6 +118,35 @@ _MATCH_DATA_CACHE_BY_FIXTURE: Dict[int, Dict[str, Any]] = {}
 _MATCH_DATA_CACHE_BY_KEY: Dict[Tuple[str, str, str, str], Dict[str, Any]] = {}
 
 _STANDINGS_CACHE: Dict[Tuple[int, int], Any] = {}
+
+# Cache disque (fetch_match_data) — évite de refaire les calls si on relance le même jour
+_DISK_CACHE_DIR = DATA_DIR / "cache" / "fixtures"
+_DISK_CACHE_TTL = 6 * 3600  # 6 heures
+
+
+def _get_disk_cache(fixture_id: int) -> Optional[Dict[str, Any]]:
+    path = _DISK_CACHE_DIR / f"{fixture_id}.json"
+    if not path.exists():
+        return None
+    try:
+        obj = json.loads(path.read_text(encoding="utf-8"))
+        if time.time() > obj.get("expires_at", 0):
+            return None
+        return obj.get("payload")
+    except Exception:
+        return None
+
+
+def _set_disk_cache(fixture_id: int, payload: Dict[str, Any]) -> None:
+    try:
+        _DISK_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        obj = {"expires_at": time.time() + _DISK_CACHE_TTL, "payload": payload}
+        (_DISK_CACHE_DIR / f"{fixture_id}.json").write_text(
+            json.dumps(obj), encoding="utf-8"
+        )
+    except Exception:
+        pass
+
 
 # Anti-poison : mémorise les caches vides uniquement si on est sûr que c'est "vraiment vide"
 # (ici on fait simple : on ne cache PAS les vides)
@@ -313,14 +343,31 @@ def _looks_like_transient_api_error(payload: Any) -> bool:
     return False
 
 
-def _call_api(endpoint: str, params: Dict[str, Any]) -> List[Dict[str, Any]]:
+def _is_quota_error(payload: Any) -> bool:
+    """Détecte l'épuisement de quota (non-retryable)."""
+    if not isinstance(payload, dict):
+        return False
+    errors = payload.get("errors")
+    if isinstance(errors, dict):
+        for v in errors.values():
+            if isinstance(v, str) and ("request limit" in v.lower() or "upgrade" in v.lower()):
+                return True
+    req_msg = payload.get("requests")
+    if isinstance(req_msg, str) and ("request limit" in req_msg.lower() or "upgrade" in req_msg.lower()):
+        return True
+    return False
+
+
+def _call_api_raw_data(endpoint: str, params: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     """
-    Appel générique API-Football robuste.
-    - Stop immédiat si API_KEY absente
+    Appel API robuste — retourne le dict complet (response + paging) ou None.
+    - Stop immédiat si quota épuisé ou API_KEY absente
     - Retry borné sur 429/5xx/timeouts
-    - Détecte erreurs JSON même en 200
     """
-    global _WARNED_NO_KEY
+    global _WARNED_NO_KEY, _QUOTA_EXHAUSTED
+
+    if _QUOTA_EXHAUSTED:
+        return None
 
     url = API_BASE_URL.rstrip("/") + "/" + endpoint.lstrip("/")
 
@@ -329,11 +376,10 @@ def _call_api(endpoint: str, params: Dict[str, Any]) -> List[Dict[str, Any]]:
         if not _WARNED_NO_KEY:
             _WARNED_NO_KEY = True
             print("⚠️ API_KEY manquante. Définis-la via la variable d'environnement API_KEY.")
-        return []
+        return None
 
     max_attempts = 3
     backoffs = [0.6, 1.2, 2.0]
-
     last_err: Optional[str] = None
 
     for attempt in range(1, max_attempts + 1):
@@ -345,7 +391,7 @@ def _call_api(endpoint: str, params: Dict[str, Any]) -> List[Dict[str, Any]]:
                 time.sleep(backoffs[min(attempt - 1, len(backoffs) - 1)])
                 continue
             print(f"⚠️ {last_err}")
-            return []
+            return None
 
         if resp.status_code in (429, 500, 502, 503, 504):
             last_err = f"HTTP {resp.status_code} sur {endpoint} (attempt {attempt}/{max_attempts})"
@@ -359,18 +405,16 @@ def _call_api(endpoint: str, params: Dict[str, Any]) -> List[Dict[str, Any]]:
                 else:
                     time.sleep(backoffs[min(attempt - 1, len(backoffs) - 1)])
                 continue
-
             print(f"⚠️ {last_err}")
-            return []
+            return None
 
         if resp.status_code in (401, 403):
             print(f"⚠️ Accès refusé (HTTP {resp.status_code}). Vérifie API_KEY / plan / headers.")
             try:
-                j = resp.json()
-                print("Détail :", j)
+                print("Détail :", resp.json())
             except Exception:
                 print("Réponse brute :", resp.text[:300])
-            return []
+            return None
 
         if resp.status_code != 200:
             print(f"⚠️ Statut {resp.status_code} pour {url}")
@@ -378,7 +422,7 @@ def _call_api(endpoint: str, params: Dict[str, Any]) -> List[Dict[str, Any]]:
                 print("Détail :", resp.json())
             except Exception:
                 print("Réponse brute :", resp.text[:300])
-            return []
+            return None
 
         try:
             data = resp.json()
@@ -388,7 +432,13 @@ def _call_api(endpoint: str, params: Dict[str, Any]) -> List[Dict[str, Any]]:
                 time.sleep(backoffs[min(attempt - 1, len(backoffs) - 1)])
                 continue
             print(f"⚠️ {last_err}")
-            return []
+            return None
+
+        # Quota épuisé : arrêt immédiat, pas de retry
+        if _is_quota_error(data):
+            _QUOTA_EXHAUSTED = True
+            print("🚫 Quota API épuisé — arrêt immédiat de tous les appels.")
+            return None
 
         if _looks_like_transient_api_error(data):
             last_err = f"Erreur API logique (200) sur {endpoint}: {data.get('message') or data.get('errors')}"
@@ -396,16 +446,55 @@ def _call_api(endpoint: str, params: Dict[str, Any]) -> List[Dict[str, Any]]:
                 time.sleep(backoffs[min(attempt - 1, len(backoffs) - 1)])
                 continue
             print(f"⚠️ {last_err}")
-            return []
+            return None
 
-        resp_list = data.get("response", [])
-        if isinstance(resp_list, list):
-            return resp_list
-        return []
+        return data
 
     if last_err:
         print(f"⚠️ {last_err}")
-    return []
+    return None
+
+
+def _call_api(endpoint: str, params: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """
+    Appel générique API-Football robuste.
+    - Stop immédiat si API_KEY absente ou quota épuisé
+    - Retry borné sur 429/5xx/timeouts
+    - Détecte erreurs JSON même en 200
+    """
+    raw = _call_api_raw_data(endpoint, params)
+    if raw is None:
+        return []
+    resp_list = raw.get("response", [])
+    return resp_list if isinstance(resp_list, list) else []
+
+
+def _call_api_all_pages(endpoint: str, params: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """
+    Comme _call_api mais gère la pagination automatiquement.
+    Retourne TOUS les résultats de toutes les pages en un seul appel par page.
+    """
+    all_results: List[Dict[str, Any]] = []
+    page = 1
+    while True:
+        p = {**params, "page": page}
+        raw = _call_api_raw_data(endpoint, p)
+        if raw is None:
+            break
+        results = raw.get("response", [])
+        if not isinstance(results, list) or not results:
+            break
+        all_results.extend(results)
+        paging = raw.get("paging", {}) or {}
+        try:
+            current = int(paging.get("current", 1))
+            total = int(paging.get("total", 1))
+        except (TypeError, ValueError):
+            break
+        if current >= total:
+            break
+        page += 1
+    return all_results
 
 
 # =====================================================================
@@ -616,11 +705,16 @@ def _get_last_fixtures(
     before_date: Optional[str] = None,
     last: int = LAST_FIXTURES_BUFFER,
 ) -> List[Dict[str, Any]]:
-    params = {"team": team_id, "season": season}
-    if last and last > 0:
-        params["last"] = int(last)
+    # Optimisation : essai sans season (1 call toutes saisons confondues)
+    fetch_n = max(int(last) * 2, LAST_FIXTURES_BUFFER) if last and last > 0 else LAST_FIXTURES_BUFFER
+    fixtures = _call_api("/fixtures", {"team": team_id, "last": fetch_n}) or []
 
-    fixtures = _call_api("/fixtures", params) or []
+    if not fixtures:
+        # Fallback season-specific
+        params: Dict[str, Any] = {"team": team_id, "season": season}
+        if last and last > 0:
+            params["last"] = int(last)
+        fixtures = _call_api("/fixtures", params) or []
     debug(f"[DEBUG] Fixtures bruts team={team_id} season={season} asked_last={params.get('last')} -> {len(fixtures)}")
 
     fixtures_sorted = sorted(fixtures, key=lambda fx: fx.get("fixture", {}).get("date", ""), reverse=True)
@@ -745,7 +839,7 @@ def _build_team_last_matches(
     before_date: Optional[str] = None,
 ) -> List[Dict[str, Any]]:
     simplified: List[Dict[str, Any]] = []
-    max_seasons_back = 7
+    max_seasons_back = 3
     seasons_checked = 0
     current_season = season
 
@@ -1340,6 +1434,14 @@ def fetch_match_data(league: Optional[str], date: Optional[str], home: str, away
     if fixture_id_meta is None and key_cache in _MATCH_DATA_CACHE_BY_KEY:
         return _MATCH_DATA_CACHE_BY_KEY[key_cache]
 
+    # Cache disque (relance le même jour → 0 appel API)
+    if isinstance(fixture_id_meta, int) and fixture_id_meta > 0:
+        cached = _get_disk_cache(fixture_id_meta)
+        if cached is not None:
+            debug(f"[DISK_CACHE] Hit pour fixture_id={fixture_id_meta}")
+            _MATCH_DATA_CACHE_BY_FIXTURE[fixture_id_meta] = cached
+            return cached
+
     print(f"\n🔍 Collecte API pour : {home} vs {away} (league='{league}', date='{date}')")
 
     has_fixture_id = isinstance(fixture_id_meta, int) and fixture_id_meta > 0
@@ -1444,6 +1546,7 @@ def fetch_match_data(league: Optional[str], date: Optional[str], home: str, away
 
     if isinstance(fixture_id, int):
         _MATCH_DATA_CACHE_BY_FIXTURE[fixture_id] = data
+        _set_disk_cache(fixture_id, data)
     else:
         _MATCH_DATA_CACHE_BY_KEY[key_cache] = data
 

@@ -909,6 +909,10 @@ def _fetch_fixture_by_id_verified(
     return fx
 
 
+# Cache mémoire pour les requêtes /fixtures?date= (évite doublons si plusieurs matchs en fallback)
+_FIXTURES_BY_DATE_CACHE: Dict[str, List[Dict]] = {}
+
+
 def _search_fixture_by_date_fallback(
     *,
     league: str,
@@ -926,7 +930,11 @@ def _search_fixture_by_date_fallback(
             dates_to_try.append(d2)
 
     for dtry in dates_to_try:
-        fixtures = _call_api("/fixtures", {"date": dtry}) or []
+        if dtry in _FIXTURES_BY_DATE_CACHE:
+            fixtures = _FIXTURES_BY_DATE_CACHE[dtry]
+        else:
+            fixtures = _call_api("/fixtures", {"date": dtry}) or []
+            _FIXTURES_BY_DATE_CACHE[dtry] = fixtures
         if not fixtures:
             continue
 
