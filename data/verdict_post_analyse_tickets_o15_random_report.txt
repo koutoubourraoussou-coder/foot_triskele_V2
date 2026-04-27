@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O15_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o15_random.tsv
-Date run       : 2026-04-26
+Date run       : 2026-04-27
 Output         : data/verdict_post_analyse_tickets_o15_random_report.txt
 Whitelist      : ON (167 ids)
 Ignorés (hors whitelist) : 336
-Ignorés (date>=today)    : 11
+Ignorés (date>=today)    : 0
 
 ────────────────────────────────────────────────────────────────────
 ✅ Ticket 1 | Mercredi 2026-01-28 02:15→04:20 | code=A2 | odd=2.43
@@ -1386,10 +1386,36 @@ Ignorés (date>=today)    : 11
    ✅ Leg 2) 21:00 | laliga | Atletico Madrid vs Athletic Club | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.25
    ✅ Leg 3) 21:30 | liga portugal | Guimaraes vs Rio Ave | Over 1.5 (FT) | [TRÈS FORT] | odd=1.28
 
+────────────────────────────────────────────────────────────────────
+❌ Ticket 1 | Dimanche 2026-04-26 03:30→15:20 | code=A2 | odd=2.43
+   id=2026-04-26_0330_beafa81477_O15R
+   legs=4 | WIN=1 | LOSS=3 | PENDING=0
+   ❌ Leg 1) 03:30 | primera a colombia | Independiente Medellin vs Fortaleza FC | Over 1.5 (FT) | [MOYEN PLUS] | odd=1.3
+   ❌ Leg 2) 12:30 | serie a italia | Fiorentina vs Sassuolo | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
+   ❌ Leg 3) 13:00 | liga i romania | Uta Arad vs Farul Constanta | Over 1.5 (FT) | [TRÈS FORT] | odd=1.25
+   ✅ Leg 4) 13:30 | 2. bundesliga | VfL Bochum vs SpVgg Greuther Fürth | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.17
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Dimanche 2026-04-26 16:00→18:50 | code=A2 | odd=2.57
+   id=2026-04-26_1600_81de071d78_O15R
+   legs=4 | WIN=3 | LOSS=1 | PENDING=0
+   ❌ Leg 1) 16:00 | fa cup | Chelsea vs Leeds | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
+   ✅ Leg 2) 16:00 | premiership | Rangers vs Motherwell | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
+   ✅ Leg 3) 16:15 | laliga | Oviedo vs Elche | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.33
+   ✅ Leg 4) 17:00 | austrian bundesliga | Sturm Graz vs Austria Vienna | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.28
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 3 | Dimanche 2026-04-26 19:00→22:50 | code=A2 | odd=2.43
+   id=2026-04-26_1900_400e95a258_O15R
+   legs=3 | WIN=1 | LOSS=2 | PENDING=0
+   ✅ Leg 1) 19:00 | liga portugal | Santa Clara vs SC Braga | Over 1.5 (FT) | [TRÈS FORT] | odd=1.45
+   ❌ Leg 2) 19:00 | super league greece | Larisa vs Panserraikos | Over 1.5 (FT) | [TRÈS FORT] | odd=1.42
+   ❌ Leg 3) 21:00 | laliga2 | AD Ceuta FC vs Racing Santander | Over 1.5 (FT) | [MEGA EXPLOSION] | odd=1.18
+
 ====================================================================
-TOTAL tickets : 164
+TOTAL tickets : 167
 ✅ WIN     : 68
-❌ LOSS    : 93
+❌ LOSS    : 96
 ⏳ PENDING : 3
 ====================================================================
 

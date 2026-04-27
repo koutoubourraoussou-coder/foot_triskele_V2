@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O25_SUPER_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o25_super_random.tsv
-Date run       : 2026-04-26
+Date run       : 2026-04-27
 Output         : data/verdict_post_analyse_tickets_o25_super_random_report.txt
 Whitelist      : ON (15 ids)
 Ignorés (hors whitelist) : 141
-Ignorés (date>=today)    : 8
+Ignorés (date>=today)    : 0
 
 ────────────────────────────────────────────────────────────────────
 ❌ Ticket 1 | Samedi 2026-04-18 01:30→03:20 | code=A2 | odd=2.63
@@ -93,10 +93,33 @@ Ignorés (date>=today)    : 8
    ❌ Leg 1) 20:30 | mls | CF Montreal vs New York City FC | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.7
    ❌ Leg 2) 22:45 | mls | Minnesota United FC vs Los Angeles FC | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.65
 
+────────────────────────────────────────────────────────────────────
+✅ Ticket 1 | Dimanche 2026-04-26 02:30→06:20 | code=A2 | odd=2.61
+   id=2026-04-26_0230_2c461915cc_O25SR
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 02:30 | mls | Chicago Fire vs Sporting Kansas City | Over 2.5 (FT) | [MOYEN PLUS] | odd=1.33
+   ✅ Leg 2) 03:30 | mls | San Diego vs Portland Timbers | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.38
+   ✅ Leg 3) 04:30 | mls | Vancouver Whitecaps vs Colorado Rapids | Over 2.5 (FT) | [MEGA EXPLOSION] | odd=1.42
+
+────────────────────────────────────────────────────────────────────
+❌ Ticket 2 | Dimanche 2026-04-26 12:15→16:20 | code=A2 | odd=3.16
+   id=2026-04-26_1215_1110294b49_O25SR
+   legs=2 | WIN=0 | LOSS=2 | PENDING=0
+   ❌ Leg 1) 12:15 | ekstraklasa | Wisla Plock vs Radomiak Radom | Over 2.5 (FT) | [FAIBLE] | odd=1.95
+   ❌ Leg 2) 14:30 | eredivisie | Heracles vs FC Volendam | Over 2.5 (FT) | [TRÈS FORT] | odd=1.62
+
+────────────────────────────────────────────────────────────────────
+✅ Ticket 3 | Dimanche 2026-04-26 16:30→19:20 | code=A2 | odd=3.33
+   id=2026-04-26_1630_7afbb3f171_O25SR
+   legs=3 | WIN=3 | LOSS=0 | PENDING=0
+   ✅ Leg 1) 16:30 | super league switzerland | BSC Young Boys vs FC ST. Gallen | Over 2.5 (FT) | [TRÈS FORT] | odd=1.4
+   ✅ Leg 2) 16:30 | super league switzerland | Servette FC vs FC Winterthur | Over 2.5 (FT) | [FORT] | odd=1.4
+   ✅ Leg 3) 17:30 | ekstraklasa | Lech Poznan vs Legia Warszawa | Over 2.5 (FT) | [MOYEN] | odd=1.7
+
 ====================================================================
-TOTAL tickets : 12
-✅ WIN     : 2
-❌ LOSS    : 10
+TOTAL tickets : 15
+✅ WIN     : 4
+❌ LOSS    : 11
 ⏳ PENDING : 0
 ====================================================================
 
