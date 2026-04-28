@@ -56,11 +56,11 @@ def run(cmd: list[str], title: str, *, env: dict | None = None) -> None:
 DATE_MODE = "TODAY"          # "TODAY", "MANUAL" ou "RANGE"
 
 # Utilisé si DATE_MODE == "MANUAL"
-DATE_MANUAL = "2026-04-14"    # YYYY-MM-DD
+DATE_MANUAL = "2026-02-28"    # YYYY-MM-DD
 
 # Utilisé si DATE_MODE == "RANGE"
-DATE_RANGE_START = "2025-10-27"
-DATE_RANGE_END   = "2025-10-27"
+DATE_RANGE_START = "2026-01-01"
+DATE_RANGE_END   = "2026-01-03"
 
 
 # ----------------------------------------------------

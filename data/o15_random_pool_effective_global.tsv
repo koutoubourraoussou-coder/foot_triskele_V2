@@ -1732,3 +1732,12 @@ TSV: 2026-04-26	3734109794	O15_FT	21:00	laliga	Villarreal	Celta Vigo	1.28	139113
 TSV: 2026-04-26	4237934814	O15_FT	21:00	laliga2	AD Ceuta FC	Racing Santander	1.18	1392162	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-26	3568078534	O15_FT	23:30	serie a brazil	Atletico Paranaense	Vitoria	1.4	1492230	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_EFFECTIVE | 2026-04-28 03:09:50 | run_date=2026-04-28 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-28	3996098147	O15_FT	02:00	primera división peru	Deportivo Garcilaso	FBC Melgar	1.36	1512583	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	1795851119	O15_FT	18:45	eredivisie	Roda	Waalwijk	1.18	1542765	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	1342140379	O15_FT	18:45	saudi arabia	NEOM	Al-Hazm	1.18	1436178	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	2312721252	O15_FT	20:00	saudi arabia	Al Khaleej Saihat	Al Najma	1.17	1436175	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	451736652	O15_FT	20:45	championship	Southampton	Ipswich	1.25	1387028	O15_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

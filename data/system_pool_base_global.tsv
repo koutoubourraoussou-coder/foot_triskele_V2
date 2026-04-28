@@ -4528,3 +4528,32 @@ TSV: 2026-04-26	2965463931	U35_FT	23:30	serie a brazil	RB Bragantino	Palmeiras	1
 TSV: 2026-04-26	3568078534	U35_FT	23:30	serie a brazil	Atletico Paranaense	Vitoria	1.22	1492230	SYSTEM_POOL_BASE	predictions.tsv
 TSV: 2026-04-26	3568078534	TEAM1_SCORE_FT	23:30	serie a brazil	Atletico Paranaense	Vitoria	1.2	1492230	SYSTEM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_BASE | 2026-04-28 03:09:50 | run_date=2026-04-28 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-28	1805860786	O15_FT	02:00	liga profesional argentina	Huracan	Argentinos JRS	1.65	1492049	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	3996098147	TEAM2_SCORE_FT	02:00	primera división peru	Deportivo Garcilaso	FBC Melgar	1.36	1512583	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	3996098147	O15_FT	02:00	primera división peru	Deportivo Garcilaso	FBC Melgar	1.36	1512583	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	3996098147	TEAM1_SCORE_FT	02:00	primera división peru	Deportivo Garcilaso	FBC Melgar	1.32	1512583	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	3996098147	U35_FT	02:00	primera división peru	Deportivo Garcilaso	FBC Melgar	1.25	1512583	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	3896055464	U35_FT	02:00	liga pro ecuador	Aucas	Delfin SC	1.22	1519336	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	3043578208	TEAM2_SCORE_FT	18:00	saudi arabia	Al Shabab	Al-Fateh	1.3	1436177	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	1342140379	O25_FT	18:45	saudi arabia	NEOM	Al-Hazm	1.62	1436178	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	1795851119	O25_FT	18:45	eredivisie	Roda	Waalwijk	1.57	1542765	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	1342140379	U35_FT	18:45	saudi arabia	NEOM	Al-Hazm	1.5	1436178	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	1795851119	TEAM2_SCORE_FT	18:45	eredivisie	Roda	Waalwijk	1.2	1542765	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	1795851119	TEAM1_SCORE_FT	18:45	eredivisie	Roda	Waalwijk	1.18	1542765	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	1795851119	O15_FT	18:45	eredivisie	Roda	Waalwijk	1.18	1542765	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	1342140379	O15_FT	18:45	saudi arabia	NEOM	Al-Hazm	1.18	1436178	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	2501061549	O15_FT	19:00	liga portugal 2	Feirense	Torreense	1.4	1398241	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	2501061549	U35_FT	19:00	liga portugal 2	Feirense	Torreense	1.2	1398241	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	2312721252	O25_FT	20:00	saudi arabia	Al Khaleej Saihat	Al Najma	1.57	1436175	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	2312721252	TEAM2_SCORE_FT	20:00	saudi arabia	Al Khaleej Saihat	Al Najma	1.5	1436175	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	3261602879	O25_FT	20:00	saudi arabia	Al-Hilal Saudi FC	Damac	1.33	1436182	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	2312721252	O15_FT	20:00	saudi arabia	Al Khaleej Saihat	Al Najma	1.17	1436175	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	451736652	U35_FT	20:45	championship	Southampton	Ipswich	1.42	1387028	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	451736652	TEAM2_SCORE_FT	20:45	championship	Southampton	Ipswich	1.33	1387028	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	451736652	O15_FT	20:45	championship	Southampton	Ipswich	1.25	1387028	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	451736652	TEAM1_SCORE_FT	20:45	championship	Southampton	Ipswich	1.2	1387028	SYSTEM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	3303900069	U35_FT	21:00	uefa champions league	Paris Saint Germain	Bayern München	1.85	1540841	SYSTEM_POOL_BASE	predictions.tsv
+

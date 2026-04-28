@@ -293,6 +293,7 @@ NON_PLAYED_STATUSES = {"PST", "CANC", "ABD", "SUSP", "TBD"}
 FINISHED_STATUSES = {"FT", "AET", "PEN"}  # conservé (compat / lecture future)
 
 DATE_FUZZ_DAYS = 1
+PENDING_ABANDON_DAYS = 14  # Tickets PENDING depuis > 14 jours → abandonnés (LOSS)
 
 
 def _eval_to_emoji(code: str) -> str:
@@ -765,6 +766,44 @@ def _load_ticket_verdict_latest_state(path: Path) -> Dict[str, str]:
         return {}
 
     return out
+
+
+def _purge_stale_pending_verdicts(path: Path, today: date_cls, max_days: int = PENDING_ABANDON_DAYS) -> int:
+    """
+    Nettoie verdict_post_analyse.txt : toute ligne PENDING dont la date est
+    ancienne de plus de `max_days` est remplacée par LOSS.
+    Retourne le nombre de lignes purgées.
+    """
+    if not path.exists() or path.stat().st_size == 0:
+        return 0
+
+    lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
+    purged = 0
+    new_lines = []
+    for line in lines:
+        raw = line.strip()
+        if raw.startswith("TSV:"):
+            parts = raw[4:].lstrip().split("\t")
+            if len(parts) >= 11 and _is_date(parts[1].strip()):
+                ev = parts[10].strip().upper()
+                date_str = parts[1].strip()
+                if ev == "PENDING":
+                    try:
+                        match_date = date_cls.fromisoformat(date_str)
+                        if (today - match_date).days > max_days:
+                            parts[10] = "LOSS"
+                            new_line = "TSV: " + "\t".join(parts) + "\n"
+                            new_lines.append(new_line)
+                            purged += 1
+                            continue
+                    except Exception:
+                        pass
+        new_lines.append(line)
+
+    if purged:
+        path.write_text("".join(new_lines), encoding="utf-8")
+        print(f"🧹 Nettoyage PENDING anciens : {purged} ligne(s) → LOSS dans {path.name}")
+    return purged
 
 
 def _load_verdict_state(path: Path) -> Dict[Tuple[str, str], str]:
@@ -2881,13 +2920,28 @@ def _run_tickets_post_analysis_variant(
             prev_line = prev_line_by_tid.get(tid)
             if prev_line:
                 snapshot_by_tid[tid] = prev_line
-                # compteurs (juste pour bilan cohérent)
                 if prev_state == "WIN":
                     win_count += 1
                 else:
                     loss_count += 1
                 continue
-            # si pas de ligne précédente => on recalc (cas rare)
+
+        # ⏰ Auto-abandon : ticket PENDING depuis > PENDING_ABANDON_DAYS → LOSS
+        ticket_date_str = (tickets_header.get(tid) or {}).get("date", "")
+        if ticket_date_str and prev_state not in ("WIN", "LOSS"):
+            try:
+                ticket_date = date_cls.fromisoformat(ticket_date_str)
+                if (today - ticket_date).days > PENDING_ABANDON_DAYS:
+                    loss_count += 1
+                    _log_post_failed_ticket(
+                        tid,
+                        ticket_date_str,
+                        f"[{variant_name}] AUTO_ABANDON: PENDING depuis {(today - ticket_date).days}j",
+                        failed_file=failed_file,
+                    )
+                    continue
+            except Exception:
+                pass
 
         attempted += 1
 
@@ -3158,6 +3212,7 @@ def run_post_analysis(predictions_path: Path, results_path: Path, post_verdict_p
     processed_keys: set[Tuple[str, str]] = set()
 
     GLOBAL_VERDICT_FILE = Path("data") / "verdict_post_analyse.txt"
+    _purge_stale_pending_verdicts(GLOBAL_VERDICT_FILE, today=datetime.today().date())
     verdict_state = _load_verdict_state(GLOBAL_VERDICT_FILE)
 
     attempted = 0

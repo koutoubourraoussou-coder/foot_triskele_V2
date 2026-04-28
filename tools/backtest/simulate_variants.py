@@ -310,7 +310,7 @@ def _score(agg: Dict[str, Any]) -> float:
 # ─────────────────────────────────────────────────────────────────────────────
 
 def _run_variant_job(
-    args: Tuple[int, Dict[str, Any], List[DayDataset], int],
+    args: Tuple[int, Dict[str, Any], List[DayDataset], int, List[str]],
 ) -> Dict[str, Any]:
     """
     Exécuté dans un process enfant.
@@ -318,7 +318,7 @@ def _run_variant_job(
     Retourne :
         { "variant_idx": int, "params": dict, "agg": {strat: agg_dict} }
     """
-    variant_idx, params, datasets, n_runs = args
+    variant_idx, params, datasets, n_runs, active_strategies = args
 
     tuning = BuilderTuning(**params)
 
@@ -327,12 +327,12 @@ def _run_variant_job(
     for ds in datasets:
         verdict_maps[ds.day] = _parse_verdict_file(ds.verdict_file)
 
-    # n_runs séquences par stratégie
-    seqs_by_strat: Dict[str, List[Seq]] = {s: [] for s in ALL_STRATEGIES}
+    # n_runs séquences par stratégie (active seulement)
+    seqs_by_strat: Dict[str, List[Seq]] = {s: [] for s in active_strategies}
 
     with tempfile.TemporaryDirectory() as tmp_root:
         for run_i in range(n_runs):
-            run_seqs: Dict[str, Seq] = {s: [] for s in ALL_STRATEGIES}
+            run_seqs: Dict[str, Seq] = {s: [] for s in active_strategies}
 
             for ds in datasets:
                 vm = verdict_maps[ds.day]
@@ -354,19 +354,19 @@ def _run_variant_job(
                     "O25SR": out.tickets_o25_super,
                 }
 
-                for strat, tickets in mapping.items():
-                    for t in tickets:
+                for strat in active_strategies:
+                    for t in mapping.get(strat, []):
                         outcome = _ticket_outcome(t, vm)
                         if outcome is not None:
                             run_seqs[strat].append((outcome, _ticket_odd(t)))
 
-            for s in ALL_STRATEGIES:
+            for s in active_strategies:
                 seqs_by_strat[s].append(run_seqs[s])
 
     return {
         "variant_idx": variant_idx,
         "params":      params,
-        "agg":         {s: _agg(seqs_by_strat[s]) for s in ALL_STRATEGIES},
+        "agg":         {s: _agg(seqs_by_strat[s]) for s in active_strategies},
     }
 
 
@@ -487,9 +487,9 @@ def _print_top_n(results: List[Dict[str, Any]], sort_strat: str, n: int = 10) ->
 # Sauvegarde des meilleurs params
 # ─────────────────────────────────────────────────────────────────────────────
 
-def _save_best_params(results: List[Dict[str, Any]], output_dir: Path, timestamp: str) -> None:
+def _save_best_params(results: List[Dict[str, Any]], output_dir: Path, timestamp: str, active_strategies: Optional[List[str]] = None) -> None:
     best: Dict[str, Any] = {}
-    for strat in ALL_STRATEGIES:
+    for strat in (active_strategies or ALL_STRATEGIES):
         top = max(
             results,
             key=lambda r: r["agg"].get(strat, {}).get("safe", {}).get("multiple", {}).get("mean", float("-inf")),
@@ -534,7 +534,20 @@ def main() -> None:
     parser.add_argument("--shared-only",  action="store_true")
     parser.add_argument("--top-n",        type=int,  default=10)
     parser.add_argument("--output",       type=str,  default="")
+    parser.add_argument("--strategies",   type=str,  default="",
+                        help="Stratégies à tester, séparées par virgule (ex: O15R,U35R). Défaut: toutes.")
     args = parser.parse_args()
+
+    active_strategies = (
+        [s.strip().upper() for s in args.strategies.split(",") if s.strip()]
+        if args.strategies
+        else ALL_STRATEGIES
+    )
+    invalid = [s for s in active_strategies if s not in ALL_STRATEGIES]
+    if invalid:
+        print(f"[backtest] ❌ Stratégies inconnues : {invalid}. Choix : {ALL_STRATEGIES}", file=sys.stderr)
+        sys.exit(1)
+    print(f"[backtest] Stratégies actives : {active_strategies}")
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     timestamp = time.strftime("%Y%m%d_%H%M%S")
@@ -560,7 +573,7 @@ def main() -> None:
     print(f"[backtest] ETA ≈ {est_s/60:.1f}min (estimation)")
 
     jobs: List[Tuple] = [
-        (i, v, datasets, args.runs)
+        (i, v, datasets, args.runs, active_strategies)
         for i, v in enumerate(all_v)
     ]
 
@@ -593,7 +606,7 @@ def main() -> None:
     print(f"\n[backtest] Terminé en {elapsed_total:.1f}s  ({elapsed_total/len(jobs)*1000:.1f}ms/variant)")
 
     # ── Tops console ───────────────────────────────────────────────────────────
-    for strat in ALL_STRATEGIES:
+    for strat in active_strategies:
         _print_top_n(results, strat, n=args.top_n)
 
     # Top 5 variants toutes stratégies confondues — par safe mult total
@@ -617,11 +630,11 @@ def main() -> None:
     main_csv = Path(args.output) if args.output else OUTPUT_DIR / f"backtest_{timestamp}.csv"
     _write_csv(rows, main_csv)
 
-    for strat in ALL_STRATEGIES:
+    for strat in active_strategies:
         top50 = sorted(rows, key=lambda r: -r.get(f"{strat}_safe_mult_mean", 0.0))[:50]
         _write_csv(top50, OUTPUT_DIR / f"top50_{strat}_{timestamp}.csv")
 
-    _save_best_params(results, OUTPUT_DIR, timestamp)
+    _save_best_params(results, OUTPUT_DIR, timestamp, active_strategies)
 
     print(f"\n[backtest] ═══════════════════════════════════════════════════════")
     print(f"[backtest] {len(results):,} variants  ·  CSV : {main_csv}")

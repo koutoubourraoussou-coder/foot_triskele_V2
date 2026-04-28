@@ -473,3 +473,13 @@ TSV: 2026-04-26	2577299950	U35_FT	23:00	primera a colombia	Águilas Doradas	Once
 TSV: 2026-04-26	2965463931	U35_FT	23:30	serie a brazil	RB Bragantino	Palmeiras	1.25	1492234	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-26	3568078534	U35_FT	23:30	serie a brazil	Atletico Paranaense	Vitoria	1.22	1492230	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND U35_RANDOM_POOL_EFFECTIVE | 2026-04-28 03:09:51 | run_date=2026-04-28 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-28	3996098147	U35_FT	02:00	primera división peru	Deportivo Garcilaso	FBC Melgar	1.25	1512583	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	3896055464	U35_FT	02:00	liga pro ecuador	Aucas	Delfin SC	1.22	1519336	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	1795851119	U35_FT	18:45	eredivisie	Roda	Waalwijk	1.55	1542765	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	1342140379	U35_FT	18:45	saudi arabia	NEOM	Al-Hazm	1.5	1436178	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	2501061549	U35_FT	19:00	liga portugal 2	Feirense	Torreense	1.2	1398241	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	451736652	U35_FT	20:45	championship	Southampton	Ipswich	1.42	1387028	U35_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

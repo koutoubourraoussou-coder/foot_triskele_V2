@@ -2319,6 +2319,19 @@ Aucun ticket.
 
 
 # ------------------------------------------------------------------
+# APPEND SYSTEM | 2026-04-28 03:09:50 | run_date=2026-04-28 | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-28_0200_6a9bbaea1f_SYS — cote = 2.82 — fenêtre 02:00 → 22:35  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 02:00 | primera división peru | Deportivo Garcilaso vs FBC Melgar | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36
+  2) 18:00 | saudi arabia | Al Shabab vs Al-Fateh | Team2 scores (FT) | FORT | odd=1.3
+  3) 19:00 | liga portugal 2 | Feirense vs Torreense | Under 3.5 (FT) | MEGA EXPLOSION | odd=1.2
+  4) 20:45 | championship | Southampton vs Ipswich | Team2 scores (FT) | FORT | odd=1.33
+
+
+# ------------------------------------------------------------------
 # APPEND SYSTEM | 2026-03-28 00:25:44 | run_date=ALL | source=predictions.tsv
 # ------------------------------------------------------------------
 

@@ -2440,3 +2440,19 @@ TSV: 2026-04-26	3210101448	TEAM1_SCORE_FT	22:30	liga pro ecuador	Guayaquil City 
 TSV: 2026-04-26	3210101448	U35_FT	22:30	liga pro ecuador	Guayaquil City FC	Tecnico Universitario	1.17	1519338	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-26	3568078534	TEAM1_SCORE_FT	23:30	serie a brazil	Atletico Paranaense	Vitoria	1.2	1492230	SYSTEM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND SYSTEM_POOL_EFFECTIVE | 2026-04-28 03:09:50 | run_date=2026-04-28 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-28	3996098147	TEAM2_SCORE_FT	02:00	primera división peru	Deportivo Garcilaso	FBC Melgar	1.36	1512583	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	3996098147	O15_FT	02:00	primera división peru	Deportivo Garcilaso	FBC Melgar	1.36	1512583	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	3996098147	TEAM1_SCORE_FT	02:00	primera división peru	Deportivo Garcilaso	FBC Melgar	1.32	1512583	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	3996098147	U35_FT	02:00	primera división peru	Deportivo Garcilaso	FBC Melgar	1.25	1512583	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	3043578208	TEAM2_SCORE_FT	18:00	saudi arabia	Al Shabab	Al-Fateh	1.3	1436177	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	1795851119	TEAM2_SCORE_FT	18:45	eredivisie	Roda	Waalwijk	1.2	1542765	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	1795851119	TEAM1_SCORE_FT	18:45	eredivisie	Roda	Waalwijk	1.18	1542765	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	1795851119	O15_FT	18:45	eredivisie	Roda	Waalwijk	1.18	1542765	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	2501061549	U35_FT	19:00	liga portugal 2	Feirense	Torreense	1.2	1398241	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	451736652	TEAM2_SCORE_FT	20:45	championship	Southampton	Ipswich	1.33	1387028	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	451736652	O15_FT	20:45	championship	Southampton	Ipswich	1.25	1387028	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	451736652	TEAM1_SCORE_FT	20:45	championship	Southampton	Ipswich	1.2	1387028	SYSTEM_POOL_EFFECTIVE	predictions.tsv
+

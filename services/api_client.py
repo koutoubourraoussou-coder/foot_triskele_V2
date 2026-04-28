@@ -472,11 +472,26 @@ def _call_api(endpoint: str, params: Dict[str, Any]) -> List[Dict[str, Any]]:
 def _call_api_all_pages(endpoint: str, params: Dict[str, Any]) -> List[Dict[str, Any]]:
     """
     Comme _call_api mais gère la pagination automatiquement.
-    Retourne TOUS les résultats de toutes les pages en un seul appel par page.
+    Premier appel sans paramètre 'page' (certains plans rejettent page=1).
+    Pages suivantes (>=2) ajoutées uniquement si l'API indique total > 1.
     """
-    all_results: List[Dict[str, Any]] = []
-    page = 1
-    while True:
+    # Premier appel : sans page
+    raw = _call_api_raw_data(endpoint, params)
+    if raw is None:
+        return []
+    results = raw.get("response", [])
+    if not isinstance(results, list):
+        return []
+    all_results: List[Dict[str, Any]] = list(results)
+
+    paging = raw.get("paging", {}) or {}
+    try:
+        total = int(paging.get("total", 1))
+    except (TypeError, ValueError):
+        return all_results
+
+    page = 2
+    while page <= total:
         p = {**params, "page": page}
         raw = _call_api_raw_data(endpoint, p)
         if raw is None:
@@ -485,15 +500,8 @@ def _call_api_all_pages(endpoint: str, params: Dict[str, Any]) -> List[Dict[str,
         if not isinstance(results, list) or not results:
             break
         all_results.extend(results)
-        paging = raw.get("paging", {}) or {}
-        try:
-            current = int(paging.get("current", 1))
-            total = int(paging.get("total", 1))
-        except (TypeError, ValueError):
-            break
-        if current >= total:
-            break
         page += 1
+
     return all_results
 
 
@@ -715,7 +723,7 @@ def _get_last_fixtures(
         if last and last > 0:
             params["last"] = int(last)
         fixtures = _call_api("/fixtures", params) or []
-    debug(f"[DEBUG] Fixtures bruts team={team_id} season={season} asked_last={params.get('last')} -> {len(fixtures)}")
+    debug(f"[DEBUG] Fixtures bruts team={team_id} season={season} asked_last={last} -> {len(fixtures)}")
 
     fixtures_sorted = sorted(fixtures, key=lambda fx: fx.get("fixture", {}).get("date", ""), reverse=True)
 

@@ -1,5 +1,9 @@
 # date	league	home	away	league_id	home_id	away_id	fixture_id
 2026-03-03	championship	Ipswich	Hull City	40	57	64	1386932
+2026-03-03	club friendly games	UCSA	Kudrivka	667	21957	21953	1529352
+2026-03-03	club friendly games	Sotra	Sandviken	667	7028	14545	1517432
+2026-03-03	club friendly games	Landskrona BoIS	Falkenbergs FF	667	2176	812	1502037
+2026-03-03	club friendly games	Lund	IFK Trelleborg	667	6687	20839	1529353
 2026-03-03	copa del rey	Barcelona	Atletico Madrid	143	529	530	1520392
 2026-03-03	coupe de france	Strasbourg	Reims	66	95	93	1519247
 2026-03-03	cup	FK Jablonec	Slavia Praha	347	1122	560	1489362
@@ -7,6 +11,7 @@
 2026-03-03	cymru premier league	Barry Town	Penybont	110	361	2191	1508971
 2026-03-03	cymru premier league	GAP Connah S Quay FC	The New Saints	110	357	354	1508972
 2026-03-03	fa cup	Port Vale	Bristol City	45	1351	56	1506262
+2026-03-03	international friendlies	Uruguay U17	Argentina U17	10	21212	12500	1528802
 2026-03-03	liga pro ecuador	Manta FC	Independiente del Valle	242	1980	1153	1519269
 2026-03-03	liga profesional argentina	Banfield	Aldosivi	128	449	463	1491925
 2026-03-03	liga profesional argentina	Independ. Rivadavia	River Plate	128	473	435	1491932
@@ -18,6 +23,7 @@
 2026-03-03	premier league	Wolves	Liverpool	39	39	40	1379258
 2026-03-03	premiership	Dundee Utd	ST Mirren	179	1386	251	1382799
 2026-03-03	primera división paraguay	Club Sp. San Lorenzo	Libertad Asuncion	250	2125	1179	1505005
+2026-03-03	primera división uruguay	Deportivo Maldonado	Juventud	268	2370	2353	1521538
 2026-03-03	serie b	Padova	Spezia	136	870	515	1419869
 2026-03-03	serie b	Cesena	Monza	136	509	1579	1419870
 2026-03-03	serie b	Reggiana	Sudtirol	136	880	1578	1419868

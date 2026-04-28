@@ -1,5 +1,16 @@
 # date	league	home	away	league_id	home_id	away_id	fixture_id
 2026-03-04	bundesliga	Hamburger SV	Bayer Leverkusen	78	175	168	1388455
+2026-03-04	club friendly games	FC Dnepr Mogilev	Orsha	667	384	3390	1529438
+2026-03-04	club friendly games	Baranovichi	Niva	667	3383	16656	1529439
+2026-03-04	club friendly games	Smorgon	Naftan	667	3393	750	1529440
+2026-03-04	club friendly games	Nyva Ternopil	Yarud Mariupol'	667	6493	14441	1533270
+2026-03-04	club friendly games	Vasteras SK FK	Gefle IF	667	2241	813	1529441
+2026-03-04	club friendly games	Thor Akureyri	Moss	667	2116	7012	1529442
+2026-03-04	club friendly games	Utsikten	IFK Goteborg	667	6706	366	1509890
+2026-03-04	club friendly games	Haugesund	Vidar	667	328	7046	1529443
+2026-03-04	club friendly games	Kalmar FF	Atvidabergs FF	667	374	2162	1504154
+2026-03-04	conmebol libertadores	Barcelona SC	Botafogo	13	1152	120	1527880
+2026-03-04	conmebol libertadores	Carabobo FC	Sporting Cristal	13	2810	2546	1526633
 2026-03-04	copa del rey	Real Sociedad	Athletic Club	143	548	531	1520393
 2026-03-04	coupe de france	Lorient	Nice	66	97	84	1519244
 2026-03-04	coupe de france	Marseille	Toulouse	66	81	96	1519246
@@ -21,6 +32,8 @@
 2026-03-04	serie b	Frosinone	Pescara	136	512	525	1419867
 2026-03-04	serie b	Juve Stabia	Sampdoria	136	863	498	1419862
 2026-03-04	serie b	Palermo	Mantova	136	522	1693	1419864
+2026-03-04	super league greece	Panathinaikos	OFI	197	617	1124	1400745
+2026-03-04	super league greece	Kifisia	PAOK	197	5050	619	1400860
 2026-03-04	super league switzerland	FC Lugano	FC Sion	207	606	630	1494561
 2026-03-04	super league switzerland	FC Luzern	BSC Young Boys	207	644	565	1494562
 2026-03-04	super league switzerland	FC Zurich	Lausanne	207	783	1014	1494563

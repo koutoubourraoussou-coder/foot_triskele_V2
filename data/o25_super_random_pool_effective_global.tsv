@@ -276,3 +276,9 @@ TSV: 2026-04-26	4293068472	O25_FT	16:30	super league switzerland	Servette FC	FC 
 TSV: 2026-04-26	769827588	O25_FT	17:30	ekstraklasa	Lech Poznan	Legia Warszawa	1.7	1380649	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-26	419179689	O25_FT	17:30	bundesliga	Borussia Dortmund	SC Freiburg	1.5	1388579	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O25_SUPER_RANDOM_POOL_EFFECTIVE | 2026-04-28 03:09:52 | run_date=2026-04-28 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-28	1795851119	O25_FT	18:45	eredivisie	Roda	Waalwijk	1.57	1542765	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	3303900069	O25_FT	21:00	uefa champions league	Paris Saint Germain	Bayern München	1.38	1540841	O25_SUPER_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

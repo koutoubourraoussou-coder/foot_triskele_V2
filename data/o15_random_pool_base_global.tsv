@@ -2115,3 +2115,15 @@ TSV: 2026-04-26	2577299950	O15_FT	23:00	primera a colombia	Águilas Doradas	Once
 TSV: 2026-04-26	3568078534	O15_FT	23:30	serie a brazil	Atletico Paranaense	Vitoria	1.4	1492230	O15_RANDOM_POOL_BASE	predictions.tsv
 TSV: 2026-04-26	2965463931	O15_FT	23:30	serie a brazil	RB Bragantino	Palmeiras	1.36	1492234	O15_RANDOM_POOL_BASE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O15_RANDOM_POOL_BASE | 2026-04-28 03:09:50 | run_date=2026-04-28 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-28	1805860786	O15_FT	02:00	liga profesional argentina	Huracan	Argentinos JRS	1.65	1492049	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	3896055464	O15_FT	02:00	liga pro ecuador	Aucas	Delfin SC	1.36	1519336	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	3996098147	O15_FT	02:00	primera división peru	Deportivo Garcilaso	FBC Melgar	1.36	1512583	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	1795851119	O15_FT	18:45	eredivisie	Roda	Waalwijk	1.18	1542765	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	1342140379	O15_FT	18:45	saudi arabia	NEOM	Al-Hazm	1.18	1436178	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	2501061549	O15_FT	19:00	liga portugal 2	Feirense	Torreense	1.4	1398241	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	2312721252	O15_FT	20:00	saudi arabia	Al Khaleej Saihat	Al Najma	1.17	1436175	O15_RANDOM_POOL_BASE	predictions.tsv
+TSV: 2026-04-28	451736652	O15_FT	20:45	championship	Southampton	Ipswich	1.25	1387028	O15_RANDOM_POOL_BASE	predictions.tsv
+

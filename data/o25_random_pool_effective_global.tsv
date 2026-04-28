@@ -344,3 +344,10 @@ TSV: 2026-04-26	1899038191	O25_FT	19:00	super league greece	Larisa	Panserraikos	
 TSV: 2026-04-26	2511282303	O25_FT	20:00	liga i romania	Dinamo Bucuresti	Rapid	2	1531636	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
 TSV: 2026-04-26	853932580	O25_FT	20:00	superliga serbia	Vojvodina	Železničar Pančevo	1.85	1540280	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
 
+# ------------------------------------------------------------------
+# APPEND O25_RANDOM_POOL_EFFECTIVE | 2026-04-28 03:09:51 | run_date=2026-04-28 | source=predictions.tsv
+# ------------------------------------------------------------------
+TSV: 2026-04-28	3996098147	O25_FT	02:00	primera división peru	Deportivo Garcilaso	FBC Melgar	2.15	1512583	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	1795851119	O25_FT	18:45	eredivisie	Roda	Waalwijk	1.57	1542765	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+TSV: 2026-04-28	3303900069	O25_FT	21:00	uefa champions league	Paris Saint Germain	Bayern München	1.38	1540841	O25_RANDOM_POOL_EFFECTIVE	predictions.tsv
+

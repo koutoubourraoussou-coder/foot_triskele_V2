@@ -2,7 +2,7 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [U35_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_u35_random.tsv
-Date run       : 2026-04-27
+Date run       : 2026-04-28
 Output         : data/verdict_post_analyse_tickets_u35_random_report.txt
 Whitelist      : ON (25 ids)
 Ignorés (hors whitelist) : 122

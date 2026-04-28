@@ -324,6 +324,19 @@ Chaque ticket contient 'id=<ticket_id>' pour post-analyse.
 
 
 # ------------------------------------------------------------------
+# APPEND O15_SUPER_RANDOM | 2026-04-28 03:09:51 | run_date=2026-04-28 | source=predictions.tsv
+# ------------------------------------------------------------------
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎟️ TICKET 1.1 (A2) — id=2026-04-28_0200_c5c99fbec8_O15SR — cote = 2.65 — fenêtre 02:00 → 20:50  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1) 02:00 | primera división peru | Deportivo Garcilaso vs FBC Melgar | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.36
+  2) 18:45 | eredivisie | Roda vs Waalwijk | Over 1.5 (FT) | MEGA EXPLOSION | odd=1.18
+  3) 18:45 | saudi arabia | NEOM vs Al-Hazm | Over 1.5 (FT) | FORT PLUS | odd=1.18
+  4) 19:00 | liga portugal 2 | Feirense vs Torreense | Over 1.5 (FT) | MOYEN PLUS | odd=1.4
+
+
+# ------------------------------------------------------------------
 # APPEND O15_SUPER_RANDOM | 2026-04-18 14:59:59 | run_date=ALL | source=predictions.tsv
 # ------------------------------------------------------------------
 

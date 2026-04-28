@@ -21,7 +21,7 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from typing import Any, List, Optional, Tuple, Dict, Set, Callable
 import re
 from pathlib import Path
@@ -244,6 +244,31 @@ class BuilderTuning:
 
 
 _DEFAULT_TUNING = BuilderTuning()
+
+# ====================================================
+# CONFIG PAR STRATÉGIE (prod uniquement — ignoré si tuning explicite passé à generate_tickets_from_tsv)
+# Chaque stratégie peut avoir ses propres paramètres, indépendants des autres.
+# Les valeurs non listées ici héritent du _DEFAULT_TUNING.
+# Sources : backtests BCEA — à affiner par stratégie au fur et à mesure.
+# ====================================================
+PER_STRATEGY_TUNING: Dict[str, BuilderTuning] = {
+    # O15R : 0.70 → WR +4%, ruin /4 (backtest_20260421)
+    "O15R": replace(_DEFAULT_TUNING, random_league_bet_min_winrate=0.70),
+    # U35R : 0.70 → WR +35% (backtest_20260421)
+    "U35R": replace(_DEFAULT_TUNING, random_league_bet_min_winrate=0.70),
+    # O25R : 0.60 — 0.70 vide le pipeline
+    "O25R": replace(_DEFAULT_TUNING, random_league_bet_min_winrate=0.60),
+    # O15SR : 0.60 — 0.70 sans effet mesurable
+    "O15SR": replace(_DEFAULT_TUNING, random_league_bet_min_winrate=0.60),
+    # U35SR : 0.60 — neutre
+    "U35SR": replace(_DEFAULT_TUNING, random_league_bet_min_winrate=0.60),
+    # O25SR : 0.60 — 0.70 vide le pipeline
+    "O25SR": replace(_DEFAULT_TUNING, random_league_bet_min_winrate=0.60),
+    # SYSTEM : pas de random_league_bet_min_winrate utilisé, mais on peut
+    # configurer indépendamment dans le futur
+    "SYSTEM": replace(_DEFAULT_TUNING),
+}
+
 _ACTIVE_TUNING: Optional[BuilderTuning] = None
 
 
@@ -3698,6 +3723,14 @@ def generate_tickets_from_tsv(
     tuning: Optional[BuilderTuning] = None,
 ) -> TicketBuildOutput:
     _set_active_tuning(tuning)
+    _outer_tuning = tuning  # None = mode prod → on utilisera PER_STRATEGY_TUNING
+
+    def _activate_strategy(key: str) -> None:
+        """Switche vers la config de la stratégie demandée, sauf si un tuning
+        explicite a été passé (mode optimiseur/backtest → on ne touche pas)."""
+        if _outer_tuning is not None:
+            return
+        _set_active_tuning(PER_STRATEGY_TUNING.get(key))
 
     try:
         if _maestro_level() >= 1:
@@ -3723,6 +3756,7 @@ def generate_tickets_from_tsv(
         league_bet, team_bet = _load_rankings()
         fast_mode = _optimizer_fast_mode()
 
+        _activate_strategy("SYSTEM")
         system_pool_base = filter_playable_system(picks)
         system_pool_effective = filter_effective_system_pool(system_pool_base, league_bet, team_bet)
 
@@ -3788,6 +3822,7 @@ def generate_tickets_from_tsv(
             added_sys_global = 0
             report_system = ""
 
+        _activate_strategy("O15R")
         o15_random_pool_base = filter_o15_random_all(picks)
         o15_random_pool_effective = filter_effective_random_pool(o15_random_pool_base, league_bet, team_bet)
 
@@ -3853,6 +3888,7 @@ def generate_tickets_from_tsv(
             added_o15_global = 0
             report_o15 = ""
 
+        _activate_strategy("U35R")
         u35_random_pool_base = filter_u35_random_all(picks)
         u35_random_pool_effective = filter_effective_random_pool(u35_random_pool_base, league_bet, team_bet)
 
@@ -3919,6 +3955,7 @@ def generate_tickets_from_tsv(
             report_u35 = ""
 
         # ─── O15 SUPER RANDOM ────────────────────────────────────────────
+        _activate_strategy("O15SR")
         o15_super_pool_effective = filter_effective_super_random_pool(o15_random_pool_base, league_bet)
 
         if not fast_mode:
@@ -3973,6 +4010,7 @@ def generate_tickets_from_tsv(
             report_o15_super = ""
 
         # ─── U35 SUPER RANDOM ────────────────────────────────────────────
+        _activate_strategy("U35SR")
         u35_super_pool_effective = filter_effective_super_random_pool(u35_random_pool_base, league_bet)
 
         if not fast_mode:
@@ -4027,6 +4065,7 @@ def generate_tickets_from_tsv(
             report_u35_super = ""
 
         # ─── O25 RANDOM ──────────────────────────────────────────────────
+        _activate_strategy("O25R")
         o25_random_pool_base = filter_o25_random_all(picks)
         o25_random_pool_effective = filter_effective_random_pool(o25_random_pool_base, league_bet, team_bet)
 
@@ -4058,6 +4097,7 @@ def generate_tickets_from_tsv(
         tickets_o25 = build_tickets(o25_random_pool_effective, mode="RANDOM")
 
         if not fast_mode:
+
             added_o25 = write_tickets_tsv(tickets_o25, TICKETS_O25_RANDOM_TSV_FILE, id_suffix="O25R")
             if added_o25:
                 print(f"✅ [O25_RANDOM_ALL] Tickets TSV ajoutés : {TICKETS_O25_RANDOM_TSV_FILE} (+{added_o25} lignes)")
@@ -4093,6 +4133,7 @@ def generate_tickets_from_tsv(
             report_o25 = ""
 
         # ─── O25 SUPER RANDOM ────────────────────────────────────────────
+        _activate_strategy("O25SR")
         o25_super_pool_effective = filter_effective_super_random_pool(o25_random_pool_base, league_bet)
 
         if not fast_mode:

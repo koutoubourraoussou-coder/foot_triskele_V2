@@ -1,8 +1,12 @@
 # date	league	home	away	league_id	home_id	away_id	fixture_id
 2026-03-02	championship	Birmingham	Middlesbrough	40	54	70	1386962
+2026-03-02	club friendly games	Sandefjord	Ranheim	667	332	322	1504153
+2026-03-02	ekstraklasa	Zaglebie Lubin	Wisla Plock	106	345	341	1380590
+2026-03-02	k league 1	Daejeon Citizen	FC Anyang	292	2750	2748	1506901
 2026-03-02	laliga	Real Madrid	Getafe	140	541	546	1391076
 2026-03-02	laliga2	Sporting Gijon	Leganes	141	731	537	1392065
 2026-03-02	laliga2	Cordoba	FC Andorra	141	713	8157	1396976
+2026-03-02	liga i romania	Unirea Slobozia	Rapid	283	6916	6231	1385986
 2026-03-02	liga portugal	GIL Vicente	Benfica	94	762	211	1396447
 2026-03-02	liga portugal 2	Feirense	Felgueiras 1932	95	213	4744	1398177
 2026-03-02	liga profesional argentina	Defensa Y Justicia	Lanus	128	442	446	1491927
@@ -14,7 +18,12 @@
 2026-03-02	mls	San Diego	St. Louis City	253	25484	20787	1490134
 2026-03-02	primera a colombia	Deportivo Cali	Fortaleza FC	239	1127	1147	1506084
 2026-03-02	primera a colombia	Deportes Tolima	Atletico Nacional	239	1142	1137	1506016
+2026-03-02	primera división chile	Nublense	U. Catolica	265	2337	2994	1505383
 2026-03-02	primera división paraguay	Cerro Porteno	Deportivo Recoleta	250	1176	10476	1505003
 2026-03-02	primera división paraguay	Sportivo Luqueno	Rubio NU	250	1183	1185	1505006
+2026-03-02	primera división peru	Universitario	FC Cajamarca	281	2540	22543	1512524
+2026-03-02	russian premier league	FC Sochi	Spartak Moscow	235	2012	558	1400180
 2026-03-02	serie a italia	Pisa	Bologna	135	801	500	1378128
 2026-03-02	serie a italia	Udinese	Fiorentina	135	494	502	1378132
+2026-03-02	superliga serbia	IMT Novi Beograd	Radnik Surdulica	286	12316	2657	1385084
+2026-03-02	ukrainian premier league	SK Poltava	Kudrivka	333	17165	21953	1391555

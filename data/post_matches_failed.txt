@@ -3,3 +3,9 @@
 2026-03-27 | international friendlies | Russia vs Mali | GOALS_MISSING:1525450
 2026-03-28 | international friendlies | England U18 vs Spain U18 | GOALS_MISSING:1536914
 2026-03-31 | international friendlies | Croatia U18 vs England U18 | GOALS_MISSING:1536921
+2026-03-03 | club friendly games | Sotra vs Sandviken | GOALS_MISSING:1517432
+2026-02-28 | club friendly games | Maardu vs Nõmme United II | GOALS_MISSING:1509650
+2026-02-28 | club friendly games | VSK Århus vs ASA Aarhus | GOALS_MISSING:1513986
+2026-02-28 | club friendly games | Nové Sady vs Zabreh | GOALS_MISSING:1514829
+2026-02-28 | club friendly games | Oakland Roots vs Boise | GOALS_MISSING:1509651
+2026-02-28 | club friendly games | Rhode Island vs Brooklyn | GOALS_MISSING:1513987

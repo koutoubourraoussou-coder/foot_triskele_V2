@@ -2,11 +2,11 @@ VERDICT POST-ANALYSE — REPORT TICKETS (LISIBLE) [O25_SUPER_RANDOM]
 ====================================================================
 
 Source tickets : data/tickets_o25_super_random.tsv
-Date run       : 2026-04-27
+Date run       : 2026-04-28
 Output         : data/verdict_post_analyse_tickets_o25_super_random_report.txt
-Whitelist      : ON (15 ids)
+Whitelist      : ON (16 ids)
 Ignorés (hors whitelist) : 141
-Ignorés (date>=today)    : 0
+Ignorés (date>=today)    : 2
 
 ────────────────────────────────────────────────────────────────────
 ❌ Ticket 1 | Samedi 2026-04-18 01:30→03:20 | code=A2 | odd=2.63
