@@ -1,0 +1,122 @@
+[
+  {
+    "target_odd": 2.6,
+    "rich_day_match_count": 12,
+    "day_max_windows_rich": 4,
+    "min_side_matches_for_split": 3,
+    "split_gap_weight": 0.8,
+    "min_accept_odd": 1.6,
+    "random_league_bet_min_winrate": 0.55,
+    "day_max_windows_poor": 1
+  },
+  {
+    "target_odd": 2.6,
+    "rich_day_match_count": 12,
+    "day_max_windows_rich": 4,
+    "min_side_matches_for_split": 3,
+    "split_gap_weight": 0.8,
+    "min_accept_odd": 1.6,
+    "random_league_bet_min_winrate": 0.55,
+    "day_max_windows_poor": 2
+  },
+  {
+    "target_odd": 2.6,
+    "rich_day_match_count": 12,
+    "day_max_windows_rich": 4,
+    "min_side_matches_for_split": 3,
+    "split_gap_weight": 0.8,
+    "min_accept_odd": 1.6,
+    "random_league_bet_min_winrate": 0.6,
+    "day_max_windows_poor": 1
+  },
+  {
+    "target_odd": 2.6,
+    "rich_day_match_count": 12,
+    "day_max_windows_rich": 4,
+    "min_side_matches_for_split": 3,
+    "split_gap_weight": 0.8,
+    "min_accept_odd": 1.6,
+    "random_league_bet_min_winrate": 0.6,
+    "day_max_windows_poor": 2
+  },
+  {
+    "target_odd": 2.6,
+    "rich_day_match_count": 12,
+    "day_max_windows_rich": 4,
+    "min_side_matches_for_split": 3,
+    "split_gap_weight": 0.8,
+    "min_accept_odd": 1.8,
+    "random_league_bet_min_winrate": 0.55,
+    "day_max_windows_poor": 1
+  },
+  {
+    "target_odd": 2.6,
+    "rich_day_match_count": 12,
+    "day_max_windows_rich": 4,
+    "min_side_matches_for_split": 3,
+    "split_gap_weight": 0.8,
+    "min_accept_odd": 1.8,
+    "random_league_bet_min_winrate": 0.55,
+    "day_max_windows_poor": 2
+  },
+  {
+    "target_odd": 2.6,
+    "rich_day_match_count": 12,
+    "day_max_windows_rich": 4,
+    "min_side_matches_for_split": 3,
+    "split_gap_weight": 0.8,
+    "min_accept_odd": 1.8,
+    "random_league_bet_min_winrate": 0.6,
+    "day_max_windows_poor": 1
+  },
+  {
+    "target_odd": 2.6,
+    "rich_day_match_count": 12,
+    "day_max_windows_rich": 4,
+    "min_side_matches_for_split": 3,
+    "split_gap_weight": 0.8,
+    "min_accept_odd": 1.8,
+    "random_league_bet_min_winrate": 0.6,
+    "day_max_windows_poor": 2
+  },
+  {
+    "target_odd": 2.6,
+    "rich_day_match_count": 12,
+    "day_max_windows_rich": 4,
+    "min_side_matches_for_split": 3,
+    "split_gap_weight": 0.8,
+    "min_accept_odd": 2.0,
+    "random_league_bet_min_winrate": 0.55,
+    "day_max_windows_poor": 1
+  },
+  {
+    "target_odd": 2.6,
+    "rich_day_match_count": 12,
+    "day_max_windows_rich": 4,
+    "min_side_matches_for_split": 3,
+    "split_gap_weight": 0.8,
+    "min_accept_odd": 2.0,
+    "random_league_bet_min_winrate": 0.55,
+    "day_max_windows_poor": 2
+  },
+  {
+    "target_odd": 2.6,
+    "rich_day_match_count": 12,
+    "day_max_windows_rich": 4,
+    "min_side_matches_for_split": 3,
+    "split_gap_weight": 0.8,
+    "min_accept_odd": 2.0,
+    "random_league_bet_min_winrate": 0.6,
+    "day_max_windows_poor": 1
+  },
+  {
+    "target_odd": 2.6,
+    "rich_day_match_count": 12,
+    "day_max_windows_rich": 4,
+    "min_side_matches_for_split": 3,
+    "split_gap_weight": 0.8,
+    "min_accept_odd": 2.0,
+    "random_league_bet_min_winrate": 0.6,
+    "day_max_windows_poor": 2
+  }
+]

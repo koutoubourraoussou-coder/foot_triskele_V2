@@ -1,0 +1,24 @@
+{
+  "O15R": {
+    "rget_odd": 2.6,
+    "n_accept_odd": 1.6,
+    "ndom_league_bet_min_winrate": 0.6,
+    "ch_day_match_count": 12,
+    "y_max_windows_rich": 4,
+    "y_max_windows_poor": 1,
+    "n_side_matches_for_split": 3,
+    "lit_gap_weight": 0.6,
+    "ague_bet_require_data": true,
+    "pk_size": 10,
+    "pk_uniform_draw": false,
+    "efer_3legs_delta": 0.0,
+    "ndom_build_source": "TEAM",
+    "ndom_select_source": "TEAM",
+    "arch_budget_ms_system": 5,
+    "arch_budget_ms_random": 5,
+    "_safe_mult": 3.9128,
+    "_win_rate": 0.5816,
+    "_ruin_pct": 0.0,
+    "_worst_streak": 3
+  }
+}

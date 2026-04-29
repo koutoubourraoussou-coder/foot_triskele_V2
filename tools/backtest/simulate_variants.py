@@ -393,23 +393,50 @@ def _flatten_row(res: Dict[str, Any]) -> Dict[str, Any]:
                 d = d.get(key, {})
             return d if not isinstance(d, dict) else default
 
+        # Win rate
         row[f"{s}_wr_mean"]      = _m(["win_rate", "mean"])
+        row[f"{s}_wr_min"]       = _m(["win_rate", "min"])
+        row[f"{s}_wr_max"]       = _m(["win_rate", "max"])
         row[f"{s}_wr_std"]       = _m(["win_rate", "std"])
+
+        # Tickets
         row[f"{s}_n_mean"]       = _m(["n_tickets", "mean"])
-        row[f"{s}_worst_streak"] = _m(["worst_streak", "mean"])
-        row[f"{s}_best_streak"]  = _m(["best_streak", "mean"])
+        row[f"{s}_n_min"]        = _m(["n_tickets", "min"])
+        row[f"{s}_n_max"]        = _m(["n_tickets", "max"])
+        row[f"{s}_n_std"]        = _m(["n_tickets", "std"])
 
-        row[f"{s}_nm_mult_mean"] = _m(["normale", "multiple", "mean"])
-        row[f"{s}_nm_mult_min"]  = _m(["normale", "multiple", "min"])
-        row[f"{s}_nm_ruin"]      = _m(["normale", "ruine_pct"])
-        row[f"{s}_nm_streak"]    = _m(["normale", "worst_streak", "mean"])
+        # Séries
+        row[f"{s}_worst_streak_mean"] = _m(["worst_streak", "mean"])
+        row[f"{s}_worst_streak_max"]  = _m(["worst_streak", "max"])
+        row[f"{s}_best_streak_mean"]  = _m(["best_streak", "mean"])
+        row[f"{s}_best_streak_max"]   = _m(["best_streak", "max"])
 
-        row[f"{s}_safe_mult_mean"] = _m(["safe", "multiple", "mean"])
-        row[f"{s}_safe_mult_min"]  = _m(["safe", "multiple", "min"])
-        row[f"{s}_safe_ruin"]      = _m(["safe", "ruine_pct"])
-        row[f"{s}_safe_streak"]    = _m(["safe", "worst_streak", "mean"])
-        row[f"{s}_safe_dbl"]       = _m(["safe", "doublings", "mean"])
-        row[f"{s}_score"]          = round(_score(agg), 4)
+        # Martingale normale
+        row[f"{s}_nm_mult_mean"]   = _m(["normale", "multiple", "mean"])
+        row[f"{s}_nm_mult_min"]    = _m(["normale", "multiple", "min"])
+        row[f"{s}_nm_mult_max"]    = _m(["normale", "multiple", "max"])
+        row[f"{s}_nm_mult_std"]    = _m(["normale", "multiple", "std"])
+        row[f"{s}_nm_profit_mean"] = _m(["normale", "profit", "mean"])
+        row[f"{s}_nm_profit_min"]  = _m(["normale", "profit", "min"])
+        row[f"{s}_nm_profit_max"]  = _m(["normale", "profit", "max"])
+        row[f"{s}_nm_ruin"]        = _m(["normale", "ruine_pct"])
+        row[f"{s}_nm_streak_mean"] = _m(["normale", "worst_streak", "mean"])
+        row[f"{s}_nm_streak_max"]  = _m(["normale", "worst_streak", "max"])
+
+        # Martingale safe
+        row[f"{s}_safe_mult_mean"]   = _m(["safe", "multiple", "mean"])
+        row[f"{s}_safe_mult_min"]    = _m(["safe", "multiple", "min"])
+        row[f"{s}_safe_mult_max"]    = _m(["safe", "multiple", "max"])
+        row[f"{s}_safe_mult_std"]    = _m(["safe", "multiple", "std"])
+        row[f"{s}_safe_profit_mean"] = _m(["safe", "profit", "mean"])
+        row[f"{s}_safe_profit_min"]  = _m(["safe", "profit", "min"])
+        row[f"{s}_safe_profit_max"]  = _m(["safe", "profit", "max"])
+        row[f"{s}_safe_ruin"]        = _m(["safe", "ruine_pct"])
+        row[f"{s}_safe_streak_mean"] = _m(["safe", "worst_streak", "mean"])
+        row[f"{s}_safe_streak_max"]  = _m(["safe", "worst_streak", "max"])
+        row[f"{s}_safe_dbl_mean"]    = _m(["safe", "doublings", "mean"])
+        row[f"{s}_safe_dbl_max"]     = _m(["safe", "doublings", "max"])
+        row[f"{s}_score"]            = round(_score(agg), 4)
 
         total_safe_mult += _m(["safe", "multiple", "mean"])
         total_n         += int(_m(["n_tickets", "mean"]))
@@ -534,8 +561,12 @@ def main() -> None:
     parser.add_argument("--shared-only",  action="store_true")
     parser.add_argument("--top-n",        type=int,  default=10)
     parser.add_argument("--output",       type=str,  default="")
-    parser.add_argument("--strategies",   type=str,  default="",
+    parser.add_argument("--strategies",      type=str, default="",
                         help="Stratégies à tester, séparées par virgule (ex: O15R,U35R). Défaut: toutes.")
+    parser.add_argument("--variant-indices", type=str, default="",
+                        help="Indices de variants à tester uniquement, séparés par virgule (ex: 19509,13277,8527).")
+    parser.add_argument("--variant-file",    type=str, default="",
+                        help="Fichier JSON contenant une liste de dicts de params à tester directement.")
     args = parser.parse_args()
 
     active_strategies = (
@@ -562,11 +593,25 @@ def main() -> None:
         print(f"  {ds.day}")
 
     # ── Variants ───────────────────────────────────────────────────────────────
-    shared_v = generate_shared_variants(n_max=args.n_shared)
-    extra_v  = [] if args.shared_only else generate_extra_variants(n_sample=args.n_extra)
-    all_v    = shared_v + extra_v
+    if args.variant_file:
+        with open(args.variant_file, "r", encoding="utf-8") as fh:
+            raw_variants = json.load(fh)
+        defaults = _backtest_defaults()
+        all_v = [{**defaults, **v} for v in raw_variants]
+        print(f"\n[backtest] Chargement --variant-file : {len(all_v)} variants depuis {args.variant_file}")
+    else:
+        shared_v = generate_shared_variants(n_max=args.n_shared)
+        extra_v  = [] if args.shared_only else generate_extra_variants(n_sample=args.n_extra)
+        all_v    = shared_v + extra_v
 
-    print(f"\n[backtest] {len(shared_v):,} variants partagés + {len(extra_v):,} extra = {len(all_v):,} total")
+        # Filtre par indices si --variant-indices fourni
+        if args.variant_indices:
+            keep = {int(x.strip()) for x in args.variant_indices.split(",") if x.strip()}
+            all_v = [v for i, v in enumerate(all_v) if i in keep]
+            print(f"\n[backtest] Filtre --variant-indices : {len(all_v)} variants retenus")
+
+    if not args.variant_file:
+        print(f"\n[backtest] {len(shared_v):,} variants partagés + {len(extra_v):,} extra = {len(all_v):,} actifs")
     print(f"[backtest] {args.runs} runs/variant  ·  {args.jobs} workers")
     print(f"[backtest] Budget recherche : {BACKTEST_SEARCH_BUDGET_MS}ms (system + random)")
     est_s = len(all_v) * args.runs * len(datasets) * 0.15 / max(1, args.jobs)

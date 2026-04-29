@@ -1,12 +1,25 @@
-2026-04-28 20:45 | championship | Southampton vs Ipswich
-2026-04-28 18:45 | eredivisie | Roda vs Waalwijk
-2026-04-28 19:00 | liga portugal 2 | Feirense vs Torreense
-2026-04-28 02:00 | liga pro ecuador | Aucas vs Delfin SC
-2026-04-28 02:00 | liga profesional argentina | Huracan vs Argentinos JRS
-2026-04-28 02:00 | primera división peru | Deportivo Garcilaso vs FBC Melgar
-2026-04-28 00:30 | primera división uruguay | Defensor Sporting vs Progreso
-2026-04-28 18:00 | saudi arabia | Al Shabab vs Al-Fateh
-2026-04-28 18:45 | saudi arabia | NEOM vs Al-Hazm
-2026-04-28 20:00 | saudi arabia | Al Khaleej Saihat vs Al Najma
-2026-04-28 20:00 | saudi arabia | Al-Hilal Saudi FC vs Damac
-2026-04-28 21:00 | uefa champions league | Paris Saint Germain vs Bayern München
+2026-04-29 00:00 | conmebol libertadores | Lanus vs LDU de Quito
+2026-04-29 00:00 | conmebol libertadores | Libertad Asuncion vs Independiente del Valle
+2026-04-29 02:00 | conmebol libertadores | UCV vs Rosario Central
+2026-04-29 02:30 | conmebol libertadores | Cruzeiro vs Boca Juniors
+2026-04-29 04:00 | conmebol libertadores | Deportes Tolima vs Coquimbo Unido
+2026-04-29 04:00 | conmebol libertadores | Sporting Cristal vs Junior
+2026-04-29 19:00 | eliteserien | Tromso vs Brann
+2026-04-29 18:45 | eredivisie | Den Bosch vs Almere City FC
+2026-04-29 06:00 | j1 league | Shimizu S-pulse vs V-varen Nagasaki
+2026-04-29 06:00 | j1 league | Tokyo Verdy vs Kashima
+2026-04-29 07:00 | j1 league | Avispa Fukuoka vs Sanfrecce Hiroshima
+2026-04-29 07:00 | j1 league | JEF United Chiba vs Yokohama F. Marinos
+2026-04-29 07:00 | j1 league | Vissel Kobe vs Cerezo Osaka
+2026-04-29 08:00 | j1 league | Kyoto Sanga vs Gamba Osaka
+2026-04-29 08:00 | j1 league | Nagoya Grampus vs Fagiano Okayama
+2026-04-29 08:00 | j1 league | Urawa vs Kawasaki Frontale
+2026-04-29 09:00 | j1 league | Kashiwa Reysol vs FC Tokyo
+2026-04-29 09:00 | j1 league | Mito Hollyhock vs Machida Zelvia
+2026-04-29 21:15 | liga portugal | Sporting CP vs Tondela
+2026-04-29 18:00 | saudi arabia | Al Riyadh vs Al-Qadisiyah FC
+2026-04-29 18:10 | saudi arabia | Al Taawon vs Al-Ittihad FC
+2026-04-29 20:00 | saudi arabia | Al-Nassr vs Al-Ahli Jeddah
+2026-04-29 01:00 | u.s. open cup | Charlotte vs Atlanta United FC
+2026-04-29 04:00 | u.s. open cup | San Jose Earthquakes vs Minnesota United FC
+2026-04-29 21:00 | uefa champions league | Atletico Madrid vs Arsenal

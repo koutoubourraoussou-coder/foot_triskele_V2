@@ -252,8 +252,16 @@ _DEFAULT_TUNING = BuilderTuning()
 # Sources : backtests BCEA — à affiner par stratégie au fur et à mesure.
 # ====================================================
 PER_STRATEGY_TUNING: Dict[str, BuilderTuning] = {
-    # O15R : 0.70 → WR +4%, ruin /4 (backtest_20260421)
-    "O15R": replace(_DEFAULT_TUNING, random_league_bet_min_winrate=0.70),
+    # O15R : champion backtest_20260428 — 19740v×30r + affinage 3 tours × 100r
+    # target=2.6 | min_acc=2.0 | wr_min=0.60 | poor=2 | split=0.8 | safe×4.06 | ruine=0% | profit_min=+7€
+    "O15R": replace(_DEFAULT_TUNING,
+                    target_odd=2.6,
+                    min_accept_odd=2.0,
+                    random_league_bet_min_winrate=0.60,
+                    day_max_windows_poor=2,
+                    split_gap_weight=0.8,
+                    rich_day_match_count=12,
+                    day_max_windows_rich=4),
     # U35R : 0.70 → WR +35% (backtest_20260421)
     "U35R": replace(_DEFAULT_TUNING, random_league_bet_min_winrate=0.70),
     # O25R : 0.60 — 0.70 vide le pipeline
